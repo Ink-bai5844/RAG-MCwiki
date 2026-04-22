@@ -6,21 +6,21 @@
 
 ## 🌟 核心特性
 
-   **全本地化隐私安全**：支持通过 LM Studio 驱动本地模型（如 Qwen3.5），数据无需上传云端。
-   **混合检索优化**：结合了 `Jieba` 分词的关键词提取与 `ChromaDB` 的语义向量检索，大幅提升专有名词召回率。
-   **结构化知识感知**：针对 Wiki 的 JSON 数据进行分层解析，保留 Markdown 标题结构，增强模型对上下文的理解。
-   **实时流式响应**：基于 Streamlit 的流式输出技术，实现毫秒级的首字响应（TTFT）。
-   **透明化溯源**：每条回答均附带参考来源折叠面板，支持查看原始 Wiki 链接。
-   **开发者调试模式**：内置 Debug 面板，实时展示发送给 AI 的实际 Prompt 组装内容。
+**全本地化隐私安全**：支持通过 LM Studio 驱动本地模型（如 Qwen3.5），数据无需上传云端。
+**混合检索优化**：结合了 `Jieba` 分词的关键词提取与 `ChromaDB` 的语义向量检索，大幅提升专有名词召回率。
+**结构化知识感知**：针对 Wiki 的 JSON 数据进行分层解析，保留 Markdown 标题结构，增强模型对上下文的理解。
+**实时流式响应**：基于 Streamlit 的流式输出技术，实现毫秒级的首字响应（TTFT）。
+**透明化溯源**：每条回答均附带参考来源折叠面板，支持查看原始 Wiki 链接。
+**开发者调试模式**：内置 Debug 面板，实时展示发送给 AI 的实际 Prompt 组装内容。
 
 ## 🛠️ 技术栈
 
-   **前端交互**：Streamlit
-   **大模型编排**：LangChain (Core / Community / Classic)
-   **向量数据库**：ChromaDB (Persistent Storage)
-   **词向量模型**：`shibing624/text2vec-base-chinese` (HuggingFace)
-   **分词引擎**：Jieba
-   **模型支持**：LM Studio (OpenAI 兼容接口) / DeepSeek API
+**前端交互**：Streamlit
+**大模型编排**：LangChain (Core / Community / Classic)
+**向量数据库**：ChromaDB (Persistent Storage)
+**词向量模型**：`shibing624/text2vec-base-chinese` (HuggingFace)
+**分词引擎**：Jieba
+**模型支持**：LM Studio (OpenAI 兼容接口) / DeepSeek API
 
 ## 📂 项目结构
 
@@ -48,8 +48,8 @@ pip install -r requirements.txt
 将结构化的 Minecraft Wiki 数据（JSON 格式）放入 `./structured_output` 文件夹中。数据应包含 `title`, `source_url`, `structured_content` 或 `text` 字段。
 
 ### 3. 配置大模型
-   **本地模式**：启动 **LM Studio**，加载模型，并开启 Local Server（默认端口 1234）。
-   **云端模式**：获取 **DeepSeek API Key**。
+**本地模式**：启动 **LM Studio**，加载模型，并开启 Local Server（默认端口 1234）。
+**云端模式**：获取 **DeepSeek API Key**。
 
 ### 4. 运行应用
 ```bash
