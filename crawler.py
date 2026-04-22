@@ -252,7 +252,6 @@ class SpecialAllPagesParser(HTMLParser):
                 self.next_href = href
             return
 
-        # Fallback when localized page text changes: choose the greatest "from" cursor.
         if self._current_from is None or from_value > self._current_from:
             if self._best_fallback_next is None or from_value > self._best_fallback_next[0]:
                 self._best_fallback_next = (from_value, href)
@@ -350,7 +349,6 @@ def fetch_page(api_url: str, title: str) -> PageResult:
         source_url = build_page_url(page_title)
         return PageResult(title=page_title, source_url=source_url, text=text)
 
-    # Fallback to plain extract when parse is unavailable.
     extract_data = api_get(
         api_url,
         {

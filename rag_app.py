@@ -12,9 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 st.set_page_config(page_title="Minecraft Wiki 知识库助手", page_icon="⛏️", layout="wide")
 
-# ==========================================
-# 1. 向量库与检索器初始化
-# ==========================================
+# 向量库与检索器初始化
 @st.cache_resource(show_spinner=False)
 def init_retriever():
     def load_data(folder_path):
@@ -65,9 +63,7 @@ def init_retriever():
 
     return vectorstore.as_retriever(search_kwargs={"k": 3})
 
-# ==========================================
-# 2. 动态创建 QA 链
-# ==========================================
+# 动态创建 QA 链
 def get_qa_chain(model_type, ds_api_key=""):
     if model_type == "本地模型 (LM Studio)":
         llm = ChatOpenAI(
@@ -110,9 +106,7 @@ def get_qa_chain(model_type, ds_api_key=""):
 
     return create_stuff_documents_chain(llm, prompt)
 
-# ==========================================
-# 3. 自定义分词与检索策略
-# ==========================================
+# 分词与检索策略
 @st.cache_data
 def get_stopwords():
     return {"的", "是", "了", "在", "怎么", "什么", "和", "与", "如何", "帮我", "查一下", "告诉我", "有哪些"}
@@ -123,12 +117,12 @@ def retrieve_by_keywords(retriever, user_input):
     # 过滤停用词和空字符，得到纯净的关键词列表
     keywords = [w for w in words if w not in stopwords and len(w.strip()) > 0]
     
-    # 【核心改动】将用户原始的完整输入加入到检索列表的首位
+    # 将原始的完整输入加入到检索列表的首位
     original_input = user_input.strip()
     if original_input and original_input not in keywords:
         keywords.insert(0, original_input)
     
-    # 兜底逻辑：如果输入全是停用词或为空
+    # 输入全是停用词或为空
     if not keywords:
         keywords = [user_input]
         
@@ -150,9 +144,7 @@ def retrieve_by_keywords(retriever, user_input):
             
     return unique_docs
 
-# ==========================================
-# 4. 页面 UI & 侧边栏
-# ==========================================
+# 页面 UI & 侧边栏
 with st.sidebar:
     st.image("https://zh.minecraft.wiki/images/Wiki.png", width=150)
     st.title("系统设置")
@@ -176,9 +168,7 @@ with st.sidebar:
     st.markdown("### 使用说明")
     st.markdown("基于本地 ChromaDB 构建的 RAG 问答系统。可在侧边栏无缝切换本地计算与云端 API。")
 
-# ==========================================
-# 5. 主界面与聊天逻辑
-# ==========================================
+# 主界面与聊天逻辑
 st.title("⛏️ Minecraft 知识库智能助手")
 st.caption("我是专属 RAG 助手，有什么关于游戏机制的问题都可以问我！")
 
@@ -191,12 +181,12 @@ qa_chain = get_qa_chain(model_choice, deepseek_api_key)
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "assistant", "content": "你好，今天想查询点什么？"}]
 
-# 【核心改动1】渲染历史消息时，增加对 debug 信息的展示
+# debug 信息展示
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
         
-        # 渲染发送给 AI 的 Prompt (如果有)
+        # 渲染发送给 AI 的 Prompt
         if "debug_prompt" in msg and msg["debug_prompt"]:
             with st.expander("🛠️ 查看发送给 AI 的实际内容 (Debug)"):
                 st.code(msg["debug_prompt"], language="markdown")
@@ -216,7 +206,7 @@ if user_input := st.chat_input("请输入您的问题..."):
         message_placeholder = st.empty()
         full_response = ""
         source_list = []
-        debug_prompt_text = "" # 用于保存当前的 prompt 文本
+        debug_prompt_text = "" # 保存当前的 prompt 文本
         
         with st.spinner("正在拆解关键词并检索记忆库..."):
             try:
@@ -228,7 +218,7 @@ if user_input := st.chat_input("请输入您的问题..."):
                         "source_url": doc.metadata.get('source_url', '#')
                     })
                 
-                # 【核心改动2】将我们要喂给 AI 的内容格式化成字符串，并在 UI 上展示
+                # 将给 AI 的内容格式化成字符串，并在 UI 上展示
                 context_str = "\n\n".join([f"【片段 {i+1}】\n{doc.page_content}" for i, doc in enumerate(retrieved_docs)])
                 debug_prompt_text = (
                     "**[System]**\n"
@@ -263,7 +253,7 @@ if user_input := st.chat_input("请输入您的问题..."):
                         for source in unique_sources:
                             st.markdown(f"- [{source['title']}]({source['source_url']})")
                 
-                # 【核心改动3】将 debug_prompt_text 存入历史记录，防止页面刷新后丢失
+                # 将 debug_prompt_text 存入历史记录，防止页面刷新后丢失
                 st.session_state.messages.append({
                     "role": "assistant", 
                     "content": full_response,
