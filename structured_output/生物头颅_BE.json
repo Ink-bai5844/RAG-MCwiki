@@ -1,0 +1,27 @@
+{
+  "title": "生物头颅/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9F%E7%89%A9%E5%A4%B4%E9%A2%85%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "custom_name：（文本组件）表示该头颅的自定义名称，也表示其被破坏后所掉落的物品的自定义名称。",
+      "note_block_sound：玩家的头放置在音符盒上时，敲击音符盒会发出的音效的命名空间ID。",
+      "profile：玩家的头对应的玩家游戏档案，用于渲染玩家的头。字符串形式只用于加载不用于存储，在游戏读取后会直接转换为对应的玩家档案。",
+      "游戏档案，见Template:Nbt inherit/resolvable profile/source",
+      "游戏档案属性通常包括textures用于保存玩家的皮肤数据。在此属性的数据被Base64解码后具有如下结构："
+    ],
+    "JSON数据根元素": [
+      "*profileId：游戏档案的UUID，不带连字符。",
+      "*profileName：游戏档案名称。",
+      "signatureRequired：（代表此纹理属性是否已被签名。如果signature存在，则此项也存在并为true。",
+      "*textures：纹理数据。",
+      "CAPE：披风纹理。如果此游戏档案不包含披风，此项不存在。",
+      "*url：披风纹理的URL链接。",
+      "SKIN：皮肤纹理。如果此游戏档案不包含自定义皮肤，此项不存在。",
+      "metadata：皮肤的元数据。",
+      "model：固定值slim。当皮肤模型手臂为3像素时存在，否则不存在。",
+      "*url：皮肤纹理的URL链接。",
+      "*timestamp：Unix时间戳，以毫秒为单位，时间为请求玩家游戏档案数据的时间。"
+    ]
+  }
+}

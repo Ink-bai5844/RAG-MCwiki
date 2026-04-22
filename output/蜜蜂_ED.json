@@ -1,0 +1,5 @@
+{
+  "title": "蜜蜂/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9C%9C%E8%9C%82%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n中立的生物共通标签，见Template:Nbt inherit/angerable/source\n*\n*CannotEnterHiveTicks：离蜜蜂能再次进入蜂箱的刻数。\n*\n*CropsGrownSincePollination：蜜蜂一共促进了多少作物的生长。此值用来限制蜜蜂促进生长作物的次数，当此值大于10时蜜蜂不会再促进生长作物。\nflower_pos：储存其盘旋的花的坐标。内部的三个整数分别代表了位置的XYZ坐标值。\n*\n*HasNectar：表示蜜蜂是否携带花粉。\n*\n*HasStung：表示蜜蜂是否蜇过玩家或生物。\nhive_pos：其蜂箱的坐标。内部的三个整数分别代表了位置的XYZ坐标值。\n*\n*TicksSincePollination：蜜蜂离开蜂箱后未携带花粉的时间。如果FlowerPos存在，当此值超过2400游戏刻（2分）时，蜜蜂会尝试飞向对应坐标。"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "虚拟现实",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。",
+      "虚拟现实（Virtual reality，VR）是基岩版为Gear VR、PlayStation 4和Windows平台提供的独有模式。"
+    ],
+    "vr.stutterturn": [
+      "1.0",
+      "16"
+    ],
+    "携带版Alpha": [
+      "0.14.2",
+      "加入了虚拟现实。",
+      "0.15.6",
+      "加入了对Windows 10版的支持。"
+    ],
+    "基岩版": [
+      "1.2.5",
+      "加入了对Windows混合现实耳机的支持。",
+      "2020年10月",
+      "Gear VR版被宣布停止支持。",
+      "1.16.42",
+      "加入了对PlayStation VR的支持。",
+      "2024年10月22日",
+      "虚拟现实被宣布即将停止支持。",
+      "1.21.80",
+      "1.21.80.21",
+      "虚拟现实被停止支持。"
+    ],
+    "参考": [
+      "https://web.archive.org/web/20240117090206/https://www.minecraft.net/zh-hans/vr"
+    ]
+  }
+}

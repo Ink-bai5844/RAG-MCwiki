@@ -1,0 +1,5 @@
+{
+  "title": "命令/version",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fversion",
+  "text": "本条目介绍的是命令。关于其他用法，请见“版本”。\n本条目所述内容仅适用于Java版。\nversion\n需要的权限等级\n0（仅集成服务端）\n2（非集成服务端）\n限制条件\n无\n输出游戏版本信息。\n用法\n返回信息示例\nServer version info: id = 25w15a name = 25w15a data = 4422 series = main protocol = 1073742069 (0x400000f5) build_time = Tue Apr 08 20:14:00 CST 2025 pack_resource = 56 pack_data = 72 stable = no\n以上各字段的具体含义参见版本信息文件格式。\n语法\nversion\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行成功\n1\n历史\nJava版\n1.21.6\n25w15a\n加入了命令/version。\n导航"
+}

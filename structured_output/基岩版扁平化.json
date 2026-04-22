@@ -1,0 +1,411 @@
+{
+  "title": "基岩版扁平化",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E6%89%81%E5%B9%B3%E5%8C%96",
+  "structured_content": {
+    "默认分类": [
+      "关于Java版的扁平化，请见“Java版1.13/扁平化”；关于基岩版扁平化待完成的内容，请见“官方页面/基岩版扁平化”。",
+      "本条目所述内容仅适用于基岩版。",
+      "开发者为了让Java版和基岩版保持一致，从基岩版1.16.100开始，在多个版本中修改了许多方块和物品的数据值，亦添加并移除了一些方块状态，以及部分命令的语法和参数等。这个过程也被称作“扁平化（The Flattening）”。",
+      "截至26.20.28，此过程尚未完成。待完成的内容可在官方页面/基岩版扁平化查看。"
+    ],
+    "方块和物品ID": [
+      "原先的ID及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "改动后": [
+      "1.19.30",
+      "1.19.30.21",
+      "1.19.70",
+      "1.19.70.20"
+    ],
+    "ID": [
+      "1.16.100",
+      "1.16.100.56"
+    ],
+    "拆分": [
+      "原木（2）",
+      "log2",
+      "树叶（2）",
+      "leaves2",
+      "石质台阶（2）",
+      "stone_block_slab2",
+      "石质台阶（3）",
+      "stone_block_slab3",
+      "墙上的珊瑚扇（2）",
+      "coral_fan_hang2",
+      "墙上的珊瑚扇（3）",
+      "coral_fan_hang3",
+      "石质台阶（4）",
+      "stone_block_slab4",
+      "石质双层台阶（2）",
+      "double_stone_block_slab2",
+      "石质双层台阶（3）",
+      "double_stone_block_slab3",
+      "石质双层台阶（4）",
+      "double_stone_block_slab4"
+    ],
+    "音乐唱片": [
+      "record_13",
+      "music_disc_13",
+      "record_11",
+      "music_disc_11"
+    ],
+    "piglin_banner_pattern": [
+      "1.18.30",
+      "1.18.30.26"
+    ],
+    "sea_lantern": [
+      "1.19.70",
+      "1.19.70.20"
+    ],
+    "black_wool": [
+      "1.19.80",
+      "1.19.80.21"
+    ],
+    "spruce_fence": [
+      "1.20.0",
+      "1.20.0.20"
+    ],
+    "dead_horn_coral": [
+      "1.20.10",
+      "1.20.10.20"
+    ],
+    "black_shulker_box": [
+      "1.20.30",
+      "1.20.20.21"
+    ],
+    "染色玻璃板": [
+      "1.20.30.20"
+    ],
+    "black_stained_glass_pane": [
+      "1.20.30.20"
+    ],
+    "black_concrete_powder": [
+      "1.20.30.22"
+    ],
+    "black_terracotta": [
+      "1.20.50",
+      "1.20.50.20"
+    ],
+    "polished_andesite": [
+      "1.20.60",
+      "1.20.60.24"
+    ],
+    "染色强化玻璃板": [
+      "1.20.70",
+      "1.20.70.20"
+    ],
+    "hard_black_stained_glass_pane": [
+      "1.20.70",
+      "1.20.70.20"
+    ],
+    "木质台阶": [
+      "1.20.70.22"
+    ],
+    "dark_oak_slab": [
+      "1.20.70.22"
+    ],
+    "stripped_dark_oak_wood": [
+      "1.20.80",
+      "1.20.80.20"
+    ],
+    "horn_coral_fan": [
+      "1.20.80.23"
+    ],
+    "dead_horn_coral_fan": [
+      "1.21.0",
+      "1.21.0.20"
+    ],
+    "fern": [
+      "1.21.0.21"
+    ],
+    "dead_horn_coral_block": [
+      "1.21.0.22"
+    ],
+    "peony": [
+      "1.21.0.23"
+    ],
+    "nether_brick_slab": [
+      "1.21.0.25"
+    ],
+    "petrified_oak_slab": [
+      "1.21.20",
+      "1.21.10.20"
+    ],
+    "polished_granite_slab": [
+      "1.21.10.21"
+    ],
+    "cut_red_sandstone_slab": [
+      "1.21.10.22"
+    ],
+    "prismarine_bricks": [
+      "1.21.20.21"
+    ],
+    "光源方块": [
+      "block_light_level=0-15"
+    ],
+    "light_block": [
+      "光源方块（0）",
+      "light_block_0",
+      "光源方块（1）",
+      "light_block_1",
+      "光源方块（2）",
+      "light_block_2",
+      "光源方块（3）",
+      "light_block_3",
+      "光源方块（4）",
+      "light_block_4",
+      "光源方块（5）",
+      "light_block_5",
+      "光源方块（6）",
+      "light_block_6",
+      "光源方块（7）",
+      "light_block_7",
+      "光源方块（8）",
+      "light_block_8",
+      "光源方块（9）",
+      "light_block_9",
+      "光源方块（10）",
+      "light_block_10",
+      "光源方块（11）",
+      "light_block_11",
+      "光源方块（12）",
+      "light_block_12",
+      "光源方块（13）",
+      "light_block_13",
+      "光源方块（14）",
+      "light_block_14",
+      "光源方块（15）",
+      "light_block_15"
+    ],
+    "smooth_sandstone": [
+      "1.21.20.22"
+    ],
+    "red_sand": [
+      "1.21.30",
+      "1.21.30.21"
+    ],
+    "雕纹紫珀块（未使用）": [
+      "deprecated_purpur_block_1"
+    ],
+    "平滑紫珀块（未使用）": [
+      "deprecated_purpur_block_2"
+    ],
+    "red_nether_brick_wall": [
+      "1.21.30.22"
+    ],
+    "colored_torch_purple": [
+      "1.21.30.23"
+    ],
+    "lab_table": [
+      "1.21.40",
+      "1.21.40.20"
+    ],
+    "piglin_head": [
+      "1.21.111",
+      "1.21.110.23"
+    ],
+    "结构ID": [
+      "原先的ID仍然可用，但不会在命令提示中显示。"
+    ],
+    "–": [
+      "1.19.80",
+      "1.19.80.21",
+      "1.20.40",
+      "1.20.40.20"
+    ],
+    "wood_type=acacia|birch|dark_oak|jungle|oak|spruce": [
+      "1.20.0",
+      "1.20.0.20"
+    ],
+    "old_log_type=birch|jungle|oak|spruce": [
+      "原木（2）"
+    ],
+    "coral_color=blue|pink|purple|red|yellow": [
+      "1.20.80.23"
+    ],
+    "dead_bit=false|true": [
+      "1.20.0.22",
+      "1.21.0.22",
+      "墙上的珊瑚扇（2）",
+      "墙上的珊瑚扇（3）",
+      "石质台阶（4）",
+      "stone_slab_type_4=cut_red_sandstone|cut_sandstone|"
+    ],
+    "南瓜": [
+      "direction=0-3",
+      "minecraft:cardinal_direction=east"
+    ],
+    "南瓜灯": [
+      "1.20.10",
+      "1.20.10.20"
+    ],
+    "潜影盒": [
+      "1.20.10.23"
+    ],
+    "侦测器": [
+      "facing_direction=0-5",
+      "minecraft:facing_direction=down|"
+    ],
+    "east|north|south|up|west": [
+      "1.20.30",
+      "1.20.20.20"
+    ],
+    "紫水晶簇": [
+      "minecraft:block_face=down|east|"
+    ],
+    "top_slot_bit=false|true": [
+      "minecraft:vertical_half=bottom|top",
+      "1.20.20.21"
+    ],
+    "大型垂滴叶": [
+      "direction=0-3",
+      "minecraft:cardinal_direction=east|"
+    ],
+    "north|south|west": [
+      "1.21.60.24"
+    ],
+    "高炉": [
+      "facing_direction=0-5"
+    ],
+    "燃烧中的烟熏炉": [
+      "1.20.30.22"
+    ],
+    "箱子": [
+      "facing_direction=0-5",
+      "minecraft:cardinal_direction=east|"
+    ],
+    "切石机": [
+      "1.20.50",
+      "1.20.50.20"
+    ],
+    "diorite_smooth|granite|granite_smooth|stone": [
+      "1.20.60",
+      "1.20.60.24"
+    ],
+    "old_leaf_type=birch|jungle|oak|spruce": [
+      "树叶（2）"
+    ],
+    "stripped_bit=false|true": [
+      "1.20.80",
+      "1.20.80.20"
+    ],
+    "|tulip_white|tulip_pink|oxeye|cornflower|lily_of_the_valley": [
+      "1.21.0",
+      "1.21.0.20"
+    ],
+    "tall_grass_type=default|fern|snow|tall": [
+      "1.21.0.21"
+    ],
+    "syringa": [
+      "1.21.0.23"
+    ],
+    "sandstone|smooth_stone|stone_brick|wood": [
+      "1.21.20",
+      "1.21.10.20"
+    ],
+    "smooth": [
+      "石质台阶（2）",
+      "stone_slab_type_2=mossy_cobblestone|prismarine_brick|"
+    ],
+    "red_sandstone|smooth_sandstone": [
+      "石质台阶（3）",
+      "stone_slab_type_3=andesite|diorite|end_stone_brick|"
+    ],
+    "polished_granite|smooth_red_sandstone": [
+      "1.21.10.21",
+      "双层石质台阶（2）",
+      "stone_slab_type_2=mossy_cobblestone|prismarine_brick|"
+    ],
+    "mossy_stone_brick|smooth_quartz|stone": [
+      "1.21.10.22",
+      "双层石质台阶（4）",
+      "双层石质台阶（3）",
+      "stone_slab_type_3=andesite|diorite|end_stone_brick|"
+    ],
+    "prismarine_block_type=bricks|dark|default": [
+      "1.21.20.21"
+    ],
+    "sand_stone_type=cut|default|heiroglyphs|smooth": [
+      "1.21.20.22"
+    ],
+    "chisel_type=chiseled|default|lines|smooth": [
+      "1.21.30",
+      "1.21.30.21"
+    ],
+    "sandstone|stone_brick": [
+      "1.21.30.22"
+    ],
+    "sponge_type=dry|wet": [
+      "彩色火把（1）"
+    ],
+    "color_bit=false|true": [
+      "彩色火把（2）",
+      "1.21.30.23"
+    ],
+    "lab_table|material_reducer": [
+      "1.21.60",
+      "1.21.60.23"
+    ],
+    "栅栏门": [
+      "direction=0-3",
+      "minecraft:cardinal_direction=east|"
+    ],
+    "新英文名称": [
+      "1.16.210",
+      "1.16.210.57"
+    ],
+    "Redstone Dust": [
+      "1.19.10",
+      "1.19.10.22"
+    ],
+    "Block of Lapis Lazuli": [
+      "1.19.20",
+      "1.19.20.20"
+    ],
+    "Dark Oak Slab": [
+      "1.19.20.22"
+    ],
+    "Block of Amethyst": [
+      "1.21.20",
+      "1.21.20.22"
+    ],
+    "Quartz Pillar": [
+      "1.21.30",
+      "1.21.30.21"
+    ],
+    "Ominous Banner": [
+      "1.21.30.22"
+    ],
+    "基岩版": [
+      "1.16.210",
+      "1.16.210.53",
+      "为/clone、/fill和/setblock加入了对方块状态的支持。",
+      "1.18.0",
+      "1.18.0.20",
+      "为/testforblock加入了对方块状态的支持。",
+      "1.19.10"
+    ],
+    "即将推出的创作者功能": [
+      "1.19.10.20",
+      "更新了/execute的语法以近似匹配Java版。",
+      "1.19.50",
+      "1.19.50.23",
+      "1.19.10.20起对/execute的所有变更均不再属于实验性玩法。",
+      "1.19.70",
+      "1.19.70.21",
+      "移除了有关数据值的data: int、dataValue: int、replaceDataValue: int和tileData: int参数。",
+      "dx、​dy和​dz目标选择器参数现在会选择判定箱与体积方框相重叠的所有实体，而不是脚部坐标与体积方框相重叠的实体。",
+      "1.19.80",
+      "1.19.80.20",
+      "为方块状态加入了在命令中自动补全的支持。",
+      "1.19.80.21",
+      "现在在/fill、/setblock和/clone中使用其他可选参数时blockState参数不再为必选项。",
+      "1.20.10",
+      "1.20.10.20",
+      "现在方块状态的键与值之间使用=连接，而不是使用:连接，以匹配Java版。"
+    ],
+    "注释": [
+      "在基岩版1.20.60重命名为turtle_scute。"
+    ]
+  }
+}

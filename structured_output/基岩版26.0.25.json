@@ -1,0 +1,155 @@
+{
+  "title": "基岩版26.0.25",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.0.25",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "26.0.25"
+    ],
+    "服务端版本": [
+      "1.26.0.25"
+    ],
+    "内部版本号": [
+      "Android：1.26.0.25",
+      "Windows：1.26.25.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952600025（armeabi-v7a，35）",
+      "962600025（x86，35）",
+      "972600025（arm64-v8a，35）",
+      "982600025（x86_64，35）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年12月10日"
+    ],
+    "测试版归属": [
+      "26.0"
+    ],
+    "协议版本": [
+      "908",
+      "◄◄1.21.132",
+      "26.1►►",
+      "◄26.0.23",
+      "26.0.26►",
+      "beta 26.0.25（ChromeOS/Android）、Preview 26.0.25（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版26.0的第2个测试版，发布于2025年12月10日，加入了隐藏式字幕和组队系统，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "修复了离开并重进世界或使用/reload all命令时，全局启用的开发资源包不会重载的问题。（MCPE-232054）",
+      "加入了minecraft:village_type生物群系组件，用于确定此生物群系中的村庄的类型。"
+    ],
+    "隐藏式字幕": [
+      "新的辅助功能，可以将游戏中的声音以文字的形式显示。",
+      "不同于Java版，字幕会显示在屏幕右上角而非右下角。",
+      "会有“<”与“>”指向声音的来源。",
+      "需要开启“Closed Captions”选项。"
+    ],
+    "多人游戏": [
+      "加入了组队系统。",
+      "玩家可以在社交抽屉式菜单中组队。",
+      "队员会跟随队长进入世界。",
+      "目前仅对部分设备可用。"
+    ],
+    "设置": [
+      "在Ore UI版本的可访问性设置中加入了“Closed Captions”选项。",
+      "用于启用字幕功能。",
+      "加入了“队伍”设置。",
+      "包含与组队系统相关的选项。",
+      "更新了键盘和鼠标和帐户设置。",
+      "现在使用新的布局和设计。"
+    ],
+    "物品": [
+      "现在钻石马铠会提供2点盔甲韧性，而金马铠不会提供盔甲韧性。（MCPE-232700）"
+    ],
+    "马铠": [
+      "金马铠不再会提供盔甲韧性。",
+      "现在钻石马铠会提供2点盔甲韧性。"
+    ],
+    "暂停菜单": [
+      "将图标形式的设置按钮重新更改为文本形式的“设置”按钮。"
+    ],
+    "API": [
+      "在beta中为Block加入了getComponents。",
+      "在beta中为Block加入了hasComponent。",
+      "加入了对API元数据调用闭包的权限。",
+      "为beta加入了World.seed，作为用于公开世界种子的属性。",
+      "加入了实体在世界中捡起物品时的事前和事后脚本事件。",
+      "为beta加入了EntityItemPickupAfterEvent类。",
+      "为beta加入了EntityItemPickupBeforeEvent类。",
+      "为beta加入了EntityItemPickupAfterEventSignal类。",
+      "为beta加入了EntityItemPickupBeforeEventSignal类。",
+      "为beta加入了EntityItemPickupEventOptions接口。",
+      "为beta加入了ItemFilter接口。",
+      "为beta加入了WorldAfterEvents.entityItemPickup属性。",
+      "为beta加入了WorldBeforeEvents.entityItemPickup属性。"
+    ],
+    "生物群系": [
+      "在下界中启用了生物群系替换功能。",
+      "对同一生物群系使用主世界和下界的生物群系替换是不推荐的，但不被禁止。",
+      "下界中的生物群系替换只能与以下类型的minecraft:surface_builder一同使用：minecraft:overworld、​minecraft:frozen_ocean、​minecraft:capped和​minecraft:the_end。"
+    ],
+    "方块": [
+      "将方块格式版本为1.26.0或更高版本的minecraft:connection_rule组件从实验性玩法中开放。",
+      "将方块格式版本为1.26.0或更高版本的minecraft:support组件从实验性玩法中开放。",
+      "minecraft:leashable方块组件现在可以在不开启“即将推出的创作者功能”的情况下与1.26.0及更高版本的format_version一同使用。",
+      "方块现在可以通过自定义组件来处理实体的execute_event_on_home_block事件，属于测试版功能。",
+      "system.beforeEvents.startup.subscribe(init=>{init.blockComponentRegistry.registerCustomComponent('sample:my_custom_block_component',{onEntity:(e:BlockComponentEntityEvent)=>{if(e.name!==\"sample:my_entity_named_event\")return;constblock=e.block;constsource=e.entitySource;...},});});",
+      "竹竿不再会明显地突然出现，除非处于简易图形模式，否则远处的竹竿不会有透明度。"
+    ],
+    "网络协议": [
+      "ActorDamageCause修改：弃用了ActorDamageCause::Dehydration。"
+    ],
+    "性能与稳定性": [
+      "修复了使用NPC组件时会导致崩溃的漏洞。",
+      "修复了部分低内存的Android设备会在启动游戏时崩溃的漏洞。"
+    ],
+    "用户界面": [
+      "为图像控件加入了default_size_scales_to_ratio布尔值，以便调整“默认”尺寸的大小来保持纹理的纵横比。",
+      "现在新繁殖出的且逐渐生长的幼年马、驴和骡会在完全长大时显示正确的生命值。（MCPE-165899）",
+      "修复了尝试在床上睡觉时会显示误导性消息的问题。（MCPE-184973）",
+      "修复了百科全书的Minecoin部分中的一处拼写错误。（MCPE-227680）",
+      "修复了百科全书的导航部分中的文本不一致问题。（MCPE-228203）",
+      "修复了百科全书的世界部分中的一些拼写错误。（MCPE-229652）"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”子选项后才可使用。"
+    ],
+    "编辑器": [
+      "修复了在快速移动模式下尝试使用↵ Enter来进行选择时会导致选择/快速移动模式进入错误状态的漏洞。",
+      "修复了打开灵动视效窗口并选择一个设置时不会显示所选设置的问题。",
+      "修复了对大型画笔选区使用快速移动时，客户端会卡死和崩溃的问题。",
+      "修复了编辑器中的灵动视效模式不会正确渲染水的问题。"
+    ],
+    "图形": [
+      "修复了灵动视效模式下的阳光有时会透过墙壁（如靠近洞穴入口处）照射的问题。"
+    ],
+    "输入": [
+      "修复了在Windows平台上滚动时会导致相机视角移动的漏洞。（MCPE-230921）"
+    ],
+    "生物": [
+      "嘎枝的攻击动画不再会被缩短。（MCPE-187288）",
+      "现在水下呼吸效果能够在鹦鹉螺离开水时防止其窒息，以与该效果对其他水生生物的行为保持一致。（MCPE-232061）",
+      "现在溺尸可以控制它骑乘的僵尸鹦鹉螺，以能够追逐目标。（MCPE-232370）",
+      "幼年僵尸马不再能被骑乘。",
+      "幼年僵尸马不再能被装备鞍或马铠。",
+      "下列亡灵生物被攻击后不再会惊慌。"
+    ],
+    "Realms": [
+      "“释放空间”对话框下方的描述和存储条标签现在会被旁白视为两个独立的对象，而不是一个。",
+      "更新了Realms编辑世界屏幕的重置和替换确认模式的描述。"
+    ],
+    "存储": [
+      "修复了Windows平台上的resource_packs和behavior_packs文件夹不会迁移到新的文件目录的问题。（MCPE-230229）",
+      "现在Windows平台上的临时文件会分别写入%LocalAppData%\\Temp\\Minecraft Bedrock Preview和%LocalAppData%\\Temp\\Minecraft Bedrock。（MCPE-232633）"
+    ],
+    "原版趋同": [
+      "现在环境效果被相同的非环境效果替换时，生效的效果的轮廓颜色会发生变化，反之亦然。（MCPE-230918）",
+      "更改了生物效果的更新逻辑，以与Java版更加一致。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 26.0.25/26 — Minecraft Feedback，2025年12月10日。"
+    ]
+  }
+}

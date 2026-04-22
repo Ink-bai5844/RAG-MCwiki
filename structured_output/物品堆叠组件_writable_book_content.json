@@ -1,0 +1,19 @@
+{
+  "title": "物品堆叠组件/writable book content",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fwritable_book_content",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "writable_book_content 物品堆叠组件": [
+      "pages：（最多100个元素）书与笔内存储的页信息，必须为以下格式之一。",
+      "：（长度不超过1024）书与笔内一页的文本信息。如果开启过滤，则代表文本信息与原信息一致。",
+      "：书与笔内一页的信息。",
+      "filtered：（长度不超过1024）已过滤的文本信息。在开启过滤时，此字符串优先级高于raw。"
+    ],
+    "*": [
+      "*raw：（长度不超过1024）未过滤的文本原始信息。"
+    ]
+  }
+}

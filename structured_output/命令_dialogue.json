@@ -1,0 +1,62 @@
+{
+  "title": "命令/dialogue",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdialogue",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是命令/dialog。",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "为玩家打开或改变NPC的对话框。"
+    ],
+    "语法": [
+      "dialogue open <npc: target> <player: target> [sceneName: string]",
+      "打开NPC的对话，或以该NPC为活动对象进行场景对话。",
+      "dialogue change <npc: target> <sceneName: string> [players: target]",
+      "通过场景文件改变NPC的对话。"
+    ],
+    "参数": [
+      "npc: target：CommandSelector<Actor>",
+      "指定要打开或改变的NPC目标。",
+      "必须为玩家名或目标选择器。且必须为单个NPC。",
+      "sceneName: string：basic_string",
+      "指定从导入的行为包中对话文件显示的场景。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "必须是一个场景名称（无空格）或有双引号字符串（可含有空格）。",
+      "在open中为可选参数，如果未指定，将使用该NPC最后的场景进行对话。",
+      "在change中必须指定场景，否则改变无效。",
+      "player: target：CommandSelector<Player>",
+      "指定打开NPC对话框的目标玩家，必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "对于NPC内置的命令界面，有一个特有的选择器变量为@initiator，它可以选择当前与该NPC进行交互（例如打开NPC对话框、使用NPC按钮和关闭NPC对话框）的玩家。如果该选择器用于NPC内置命令以外的命令，则不会选择到任何目标，也不会报错。"
+    ],
+    "在open中为必选参数，用于指定打开对话的目标玩家；": [
+      "在change中为可选参数，用于决定是否仅改变该NPC对该玩家的对话，若为空，则改变该NPC对全局的对话。"
+    ],
+    "基岩版": [
+      "1.17.10",
+      "1.17.10.22",
+      "加入了/dialogue。"
+    ],
+    "无法解析": [
+      "npc: target未能选中一个NPC"
+    ],
+    "执行失败": [
+      "player: target未能选中一个或多个在线玩家",
+      "sceneName: string场景文件不存在",
+      "0"
+    ],
+    "示例": [
+      "为Steve打开距离自己最近的NPC对话框：",
+      "/dialogue open @e[type=npc,c=1] Steve",
+      "以最近的NPC为活动对象给Steve从场景文件中打开名为chat_1的对话：",
+      "/dialogue open @e[type=npc,c=1] Steve chat_1",
+      "将最近的NPC的对话改变为场景文件中名为chat_2的对话:",
+      "/dialogue change @e[type=npc,c=1] chat_2",
+      "将最近的NPC对Steve的对话改变为场景文件中名为chat_3的对话:",
+      "/dialogue change @e[type=npc,c=1] chat_3 Steve"
+    ]
+  }
+}

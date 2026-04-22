@@ -1,0 +1,5 @@
+{
+  "title": "命令/achievement",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fachievement",
+  "text": "本条目介绍的是管理成就的命令。关于成就系统，请见“成就/Java版”。\n此条目所介绍的内容已从Java版中移除。\n此命令已被Java版1.12加入的/advancement取代。\nachievement\n需要的权限等级\n2\n限制条件\n无\n添加或移除玩家的成就。\n语法\nachievement (give|take) (<名称>|*) [玩家]\n参数\n(give|take)\n定义修改方式。必须为下列之一：\ngive：给予成就。会一并给予前置成就。\ntake：删除成就。会一并移除下游成就。\n<名称>\n定义要修改的成就名。必须为下列之一：\nachievement.成就名，成就名须为有效的成就标识符；\n*，表示所有成就。\n[玩家]\n必须是玩家名称或目标选择器。若未定义，默认为命令执行者。在命令方块上是必需参数。\n结果\n命令\n触发条件\nJava版\n任意\n参数未正确指定\n执行失败\n[玩家]未能选中至少一个在线玩家\n没有任何玩家的成就被授予或移除\n任意\n不符合以上所有条件\n执行成功\n输出\n命令执行失败时：\n影响的实体数为1。\n成功计数为0。\n不影响影响的方块数、影响的物品数、查询结果的值。\n命令执行成功时：\n影响的实体数为命令选中的玩家数。\n成功计数为命令执行成功影响的玩家数。\n不影响影响的方块数、影响的物品数、查询结果的值。\n示例\n为自己添加成就“赶尽杀绝”（Overkill）：/achievement give achievement.overkill\n为Alice添加成就“打开物品栏”（Taking Inventory）：/achievement give achievement.openInventory Alice\n移除全部玩家的所有成就：/achievement take * @a\n历史\nJava版\n1.7.2\n13w36a\n加入了/achievement命令。\n1.9\n16w03a\n/achievement命令不再影响统计数据。\n1.12\n17w13a\n移除了/achievement命令。\n导航"
+}

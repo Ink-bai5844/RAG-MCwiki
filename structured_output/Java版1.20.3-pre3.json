@@ -1,0 +1,66 @@
+{
+  "title": "Java版1.20.3-pre3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.3-pre3",
+  "structured_content": {
+    "默认分类": [
+      "1.20.3-pre3"
+    ],
+    "发布时间": [
+      "2023年11月27日"
+    ],
+    "预发布版归属": [
+      "1.20.3"
+    ],
+    "协议版本": [
+      "DEC: 1073741990",
+      "HEX: 400000A6"
+    ],
+    "数据版本": [
+      "3695"
+    ],
+    "资源包版本": [
+      "22"
+    ],
+    "数据包版本": [
+      "26",
+      "◄◄1.20.2",
+      "1.20.4►►",
+      "◄1.20.3-pre2",
+      "1.20.3-pre4►",
+      "1.20.3-pre3是Java版1.20.3的第3个预发布版，发布于2023年11月27日，修复了一些漏洞。"
+    ],
+    "资源包": [
+      "现在本地缓存的服务器资源包最多只保留20个。",
+      "现在客户端会在下载资源包时向服务器发送额外数据包，包含资源包相关信息。"
+    ],
+    "铜门及其所有变种": [
+      "略微更改了下半部分的纹理。",
+      "现在合适挖掘工具是镐。"
+    ],
+    "标签": [
+      "向#doors物品标签中加入了copper_door、​exposed_copper_door、​weathered_copper_door、​oxidized_copper_door、​waxed_copper_door、​waxed_exposed_copper_door、​waxed_weathered_copper_door和​waxed_oxidized_copper_door。",
+      "向#trapdoors物品标签中加入了copper_trapdoor、​exposed_copper_trapdoor、​weathered_copper_trapdoor、​oxidized_copper_trapdoor、​waxed_copper_trapdoor、​waxed_exposed_copper_trapdoor、​waxed_weathered_copper_trapdoor和​waxed_oxidized_copper_trapdoor。",
+      "从#needs_stone_tool中移除了copper_door、​exposed_copper_door、​weathered_copper_door、​oxidized_copper_door、​waxed_copper_door、​waxed_exposed_copper_door、​waxed_weathered_copper_door和​waxed_oxidized_copper_door。"
+    ],
+    "修复": [
+      "修复了11个漏洞",
+      "1.20.3开发版本的漏洞",
+      "MC-265908 — 模板池别名无法用于重定向起始池。",
+      "MC-266060 — 在commands.tick.query.rate.sprinting字符串中，单词“ignored”被错误拼写为“ingored”。",
+      "MC-266115 — 使用品质低于石质的工具破坏铜门的不同部分时，掉落物不一致。",
+      "MC-266144 — 铜门不在#doors物品标签里。",
+      "MC-266145 — 铜活板门不在#trapdoors物品标签里。",
+      "MC-266189 — 在播放捡起物品的动画时冻结游戏刻，会使物品位置出现不同步。",
+      "MC-266210 — 重生末影龙时无法执行/tick freeze命令来冻结游戏刻。",
+      "MC-266335 — 铜门和铜活板门有着错误的爆炸抗性。",
+      "MC-266903 — 铜门的纹理有部分错误。",
+      "MC-266920 — 服务器资源包设置无法被require-resource-pack配置选项禁用。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-266948 — 在禁用1.21内置数据包后仍然可以执行/summon wind_charge命令。"
+    ],
+    "参考": [
+      "Minecraft 1.20.3 Pre-Release 3 — Minecraft.net，2023年11月27日。"
+    ]
+  }
+}

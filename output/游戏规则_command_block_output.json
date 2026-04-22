@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/command block output",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fcommand_block_output",
+  "text": "command_block_output（Java版）\n名称\n广播命令方块输出\n描述\n无\n分类（JE）\n聊天\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ncommand_block_output\ncommandBlockOutput（基岩版）\n名称\n无\n描述\n无\n分类（BE旧UI）\n无\n分类（BE新UI）\n无\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ncommandBlockOutput\ncommand_block_output[仅Java版]或commandBlockOutput[仅基岩版]是控制命令方块在执行成功后是否会在聊天栏广播执行结果的游戏规则。\n行为\n当command_block_output[仅Java版]或commandBlockOutput[仅基岩版]为false时，命令方块在执行成功后不会在聊天栏广播执行结果。\n历史\nJava版\n1.4.2\n12w38a\n加入了游戏规则commandBlockOutput。\n1.21.11\n25w44a\n将游戏规则commandBlockOutput重命名为command_block_output。\n携带版\n1.0.5\n1.0.5.0\n加入了游戏规则commandBlockOutput。\n导航"
+}

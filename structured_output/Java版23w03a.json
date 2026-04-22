@@ -1,0 +1,196 @@
+{
+  "title": "Java版23w03a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8823w03a",
+  "structured_content": {
+    "默认分类": [
+      "23w03a"
+    ],
+    "发布时间": [
+      "2023年1月18日"
+    ],
+    "快照归属": [
+      "1.19.4"
+    ],
+    "协议版本": [
+      "DEC: 1073741939",
+      "HEX: 40000073"
+    ],
+    "数据版本": [
+      "3320"
+    ],
+    "资源包版本": [
+      "12"
+    ],
+    "数据包版本": [
+      "11",
+      "◄◄1.19.3",
+      "1.20►►",
+      "23w04a►",
+      "23w03a是Java版1.19.4的首个快照，发布于2023年1月18日，加入了/ride命令和新的菜单屏幕交互方式，做了一些技术性更改，并修复了一些漏洞。"
+    ],
+    "游戏规则": [
+      "加入了commandModificationBlockLimit，默认为32768，用于控制/clone、/fill和/fillbiome命令单次执行可更改的最大方块数。"
+    ],
+    "/ride": [
+      "加入了/ride命令，用于使一个实体骑乘另一个实体，或停止骑乘任何实体。语法如下：",
+      "/ride <target> mount <vehicle>，用于使单个实体骑乘于另一个实体上，遇下列情况时执行失败："
+    ],
+    "target和vehicle为同一实体；": [
+      "vehicle已为target的直接或间接骑乘者。",
+      "/ride <target> dismount，用于取消target的骑乘状态。target未骑乘任何实体时执行失败。"
+    ],
+    "菜单屏幕": [
+      "加入了辅助功能引导屏幕，会在玩家首次启动游戏时出现。",
+      "加入了方向键导航功能。",
+      "现在菜单屏幕可以使用方向键进行导航。",
+      "用方向键导航时，若需更改滑块值，需要先通过按下↵ Enter或Space以激活滑块。",
+      "为资源包屏幕加入了键盘导航功能。"
+    ],
+    "选项": [
+      "加入了“通知显示时长”辅助功能选项，用于更改已解锁配方、进度、字幕、选择的方块名称等通知的显示时长。",
+      "自动跳跃选项现在默认关闭。"
+    ],
+    "协议": [
+      "加入了一个新的网络协议功能，用于将打包起来的数据包强制在客户端侧的同刻中处理。",
+      "客户端现在可接收一种新的分隔数据包。",
+      "两个分隔数据包间的所有数据包保证会在同刻处理。",
+      "出于安全考虑，客户端向服务端发送的数据流不支持此功能。",
+      "客户端现在会在收到登录数据包时重置其安全聊天会话状态。"
+    ],
+    "标签": [
+      "加入了下列生物群系标签：",
+      "向#goats_spawnable_on方块标签中加入了#animals_spawnable_on。",
+      "将#only_allows_snow_and_gold_rabbits生物群系标签重命名为#spawns_gold_rabbits。",
+      "加入了以下物品标签：",
+      "#noteblock_top_instruments：zombie_head、​skeleton_skull、​creeper_head、​dragon_head、​wither_skeleton_skull、​piglin_head和​player_head。"
+    ],
+    "#increased_fire_burnout": [
+      "包含bamboo_jungle、​mushroom_fields、​mangrove_swamp、​snowy_slopes、​frozen_peaks、​jagged_peaks、​swamp和​jungle。",
+      "火会在此处定义的生物群系中更快地熄灭。"
+    ],
+    "#snow_golem_melts": [
+      "包含badlands、​basalt_deltas、​crimson_forest、​desert、​eroded_badlands、​nether_wastes、​savanna、​savanna_plateau、​soul_sand_valley、​warped_forest、​windswept_savanna和​wooded_badlands。",
+      "雪傀儡会在此处定义的生物群系中融化。"
+    ],
+    "#spawns_snow_foxes": [
+      "包含snowy_plains、​ice_spikes、​frozen_ocean、​snowy_taiga、​frozen_river、​snowy_beach、​frozen_peaks、​jagged_peaks、​snowy_slopes和​grove。",
+      "白色狐狸会在此处定义的生物群系中生成。"
+    ],
+    "#spawns_white_rabbits": [
+      "包含snowy_plains、​ice_spikes、​frozen_ocean、​snowy_taiga、​frozen_river、​snowy_beach、​frozen_peaks、​jagged_peaks、​snowy_slopes和​grove。",
+      "白色兔子会在此处定义的生物群系中生成。"
+    ],
+    "驴、骡、骷髅马和僵尸马": [
+      "更改了其鞍和箱子的纹理。"
+    ],
+    "恼鬼": [
+      "更改了其空手时的蓄力动画。"
+    ],
+    "盔甲架": [
+      "现在在放置和破坏时会保留自定义名称。"
+    ],
+    "聊天组件": [
+      "向translate文本组件中加入了可选的fallback字段。",
+      "此字段为一字符串，用于在翻译文本缺失时显示此内容。",
+      "若fallback缺失，则直接显示本地化键名（旧处理方法）。",
+      "translate格式中的越界参数不再被直接忽略而不显示任何错误。"
+    ],
+    "/clone": [
+      "现在支持指定来源维度和目的维度，新语法如下："
+    ],
+    "/clone [from <sourceDimension>] <begin> <end> [to <targetDimension>] <destination> ...": [
+      "sourceDimension：要复制的区域的来源维度ID。",
+      "targetDimension：将区域复制到的维度的ID。"
+    ],
+    "/data": [
+      "加入了新的string数据源，用于从字符串中截取一段内容作为新值，语法如下："
+    ],
+    "... (insert <index>|prepend|append|set|merge) string (block <sourcePos>|entity <source>|storage <source>) [<sourcePath>] [<start>] [<end>]": [
+      "start：源字符串中需要包含在新字符串起始位置上的首个字符位置（索引值）。",
+      "end：源字符串中需要被排除在新字符串外的首个字符位置（索引值）。"
+    ],
+    "/execute": [
+      "加入了以下条件子命令：",
+      "... loaded <pos>，用于检查给定位置是否被完全加载（对于方块和实体而言）。",
+      "pos：要被检查的方块位置。",
+      "... dimension <dimension>，用于检查命令执行维度是否在匹配的维度上。",
+      "dimension：维度的命名空间ID。",
+      "加入了新的on修饰子命令，基于与当前执行实体间的关系选择实体，语法如下："
+    ],
+    "... on (attacker|controller|leasher|owner|passengers|target|vehicle) -> execute": [
+      "attacker：最近5秒内对当前执行实体造成伤害的最后实体。",
+      "controller：控制当前执行实体的实体（如船前半部的玩家）。",
+      "leasher：用拴绳牵引当前执行实体的实体（若已拴在栅栏上，则可能为拴绳结）。",
+      "owner：当前执行实体（可驯服，如猫、狼或鹦鹉）的主人。",
+      "passengers：直接骑乘于当前执行实体（无次级乘客）的实体。",
+      "target：当前执行实体的攻击目标。",
+      "vehicle：正在被当前执行实体骑乘的实体。",
+      "若指定的关系不适用于当前执行实体，或此关系下没有匹配实体，则返回0个元素。"
+    ],
+    "/title": [
+      "/title times命令中所有时间参数现在均改为时长参数，且需要在其后添加t、​s和​d后缀。"
+    ],
+    "/weather": [
+      "若未指定时长，天气变化的持续时间现在会与游戏的常规天气周期相匹配。",
+      "duration参数的默认单位现在改为刻，且可以用t、​s和​d后缀来指定单位。",
+      "若要保持旧命令功能不变，需要在原duration参数后加s后缀。"
+    ],
+    "数据包": [
+      "版本更改为11。"
+    ],
+    "用户界面": [
+      "略微移动了配方书界面上的搜索图标。"
+    ],
+    "生物头颅": [
+      "现在可以在非潜行状态下放置到音符盒上。"
+    ],
+    "修复": [
+      "修复了38个漏洞",
+      "1.19前正式版的漏洞",
+      "MC-26678 — 受到伤害的倾斜动画不再反映伤害的来源方向。",
+      "MC-30403 — 脱离可骑乘生物时，已有的疾跑状态不会被取消。",
+      "MC-121048 — 实体死亡时，战斗追踪器只记录致命一击。",
+      "MC-122595 — 执行持续时长指定为0的/weather命令会保持当前天气状态，而不是立即随机切换一个天气。",
+      "MC-136534 — 使用局部坐标时，命令方块始终将南方作为基准方向。",
+      "MC-149144 — 按Tab ↹键选中按钮后用鼠标按另一个按钮，之后再按Tab ↹键，可以使多个按钮被选中。",
+      "MC-155433 — 漏斗矿车不从一堆混合物品中拾起与其相匹配的物品。",
+      "MC-165595 — level.dat中的Time超过特定值时，守卫者激光不渲染。",
+      "MC-181832 — 使用/execute命令指定了维度的/spreadplayers命令不会将实体在指定的维度中分散开来。",
+      "MC-191942 — 多人游戏菜单中的按钮间距不均匀。",
+      "MC-222518 — 骷髅马、僵尸马、驴和骡的鞍与箱子的纹理过时或有错误。",
+      "MC-224960 — /spectate命令不能跨维度使用。",
+      "MC-230678 — 冻洋生物群系中的炼药锅积累细雪时，天空中却看起来是在下雨。",
+      "MC-233893 — 冻洋生物群系的温暖区域中，雨不会熄灭生物身上的火焰。",
+      "MC-235260 — 原点处的漏斗矿车传输物品的速度比正常的慢。",
+      "MC-238904 — 降雨在冻洋生物群系不播放音效。",
+      "MC-247836 — 激流魔咒在冻洋生物群系的雨中不起作用。",
+      "MC-257082 — 玩家骑乘生物或穿着鞘翅飞行时按疾跑会更改视场角。",
+      "1.19的漏洞",
+      "MC-252461 — 山羊不会作为击杀者显示在玩家的死亡消息中。",
+      "MC-252773 — 有其他NBT标签，但无instrument或instrument内容不正确的山羊角不播放音效。",
+      "MC-254132 — 狼的纹理在冻洋生物群系的雨中不会变成深灰色。",
+      "1.19.2的漏洞",
+      "MC-255545 — 岩浆怪阴影的大小不随其自身大小而变。",
+      "MC-255811 — 即便正在下雨，Level#isRainingAt(BlockPos)方法总会对积雪类和冰冻类生物群系返回false值。",
+      "MC-256292 — 世界生成完成后，山羊不能再在草方块上生成。",
+      "MC-257755 — 当玩家不是任何Realms中的成员时，Realms菜单中用Tab ↹键选中的按钮不是按顺序选中的。",
+      "1.19.3的漏洞",
+      "MC-256555 — 骆驼生成时会短暂坐下。",
+      "MC-256576 — 骑上已有其他玩家骑乘的未上鞍的骆驼的玩家会获得控制权。",
+      "MC-256838 — 骆驼的实际朝向与模型朝向不匹配。",
+      "MC-257346 — 空手的恼鬼会做出冒犯性的手势。",
+      "MC-257418 — 骆驼受到伤害时会短暂坐下。",
+      "MC-257875 — 生存模式或冒险模式下，使用火焰弹点燃苦力怕不消耗火焰弹。",
+      "MC-258163 — ClientboundSectionBlocksUpdatePacket方法会在序列化2^19个方块状态后中止。",
+      "MC-258173 — 睡觉过程中进入末地传送门会使床被永久占用。",
+      "MC-258246 — “遥测数据”按钮文本中缺少省略号。",
+      "MC-258295 — 附近有工作站点时，村民AI会停止工作。",
+      "MC-258430 — LastPoseTime值过大的骆驼会导致玩家视野模型出现奇怪的偏移。",
+      "MC-258625 — 客户端的玩家死亡消息会随玩家按下“重生”按钮而立即消失，即使玩家由于延迟仍然停留在死亡界面。",
+      "MC-258953 — “内存溢出”屏幕上有未被翻译的原始消息。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 23w03a — Minecraft.net，2023年1月18日。"
+    ]
+  }
+}

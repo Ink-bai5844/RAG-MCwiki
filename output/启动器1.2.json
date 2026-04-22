@@ -1,0 +1,5 @@
+{
+  "title": "启动器1.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.2",
+  "text": "1.2\n程序类型\nMinecraft启动器\n发布时间\n2013年8月1日\n其他版本的1.2\nJava版Classic服务器\nJava版Alpha\nJava版Beta\nJava版\n基岩版\nNew Nintendo 3DS版\nMinecraft Dungeons\n◄◄1.1\n1.3.1►►\n◄1.1.4\n1.2.1►\n1.2是2013年8月1日发布的启动器版本。\n新增\n添加了“时光机”特性来游玩Beta版。\nAlpha的选项已包括在内，但尚不可用。\n也允许玩家游玩1.2.5至1.4.7的版本。\n修复\nMCL-63 - 启动器无法识别已经安装的版本。\nMCL-105 - 使用新版启动器启动时，1.5.x在任务栏中会显示默认的Java图标。\nMCL-861 - 默认配置文件会获取本地修改版本。\n导航"
+}

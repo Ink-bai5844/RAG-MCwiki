@@ -1,0 +1,49 @@
+{
+  "title": "命令/trigger",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftrigger",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "无": [
+      "修改命令执行者玩家在一个准则为“触发器”的记分项上的分数。此命令使得非管理员玩家能够通过记分板激活管理员或地图制作者设计的系统，一般配合文本组件使用。"
+    ],
+    "trigger <objective>": [
+      "将执行者的分数增加1。"
+    ],
+    "trigger <objective> add <value>": [
+      "将执行者的分数增加指定的<value>数值。"
+    ],
+    "trigger <objective> set <value>": [
+      "将执行者的分数设置为指定的<value>数值。"
+    ],
+    "参数": [
+      "<objective>：objective",
+      "指定一个已启用的、准则为“触发器”的记分项。",
+      "必须是单个词字符串。允许的字符包括：-、+、.、_、A-Z、a-z、0-9。用于指定记分项的名称，将会在命令执行时尝试获取此名称的记分项。",
+      "<value>：integer",
+      "指定要设为或要增加的数值。",
+      "必须为32位整数。"
+    ],
+    "Java版": [
+      "1.8",
+      "14w06a",
+      "加入了/trigger。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "高频执行，设定触发型记分项trigger_test并为所有玩家开启触发权限。",
+      "scoreboardobjectivesaddtrigger_testtriggerscoreboardplayersenable@atrigger_testexecuteas@a[scores={trigger_test=1..}]run tellraw@s\"(>_<)\"executeas@a[scores={trigger_test=1..}]run scoreboardplayersset@strigger_test0",
+      "为最近的一位玩家输出一个可以点击的“按钮”（使用文本组件点击事件实现），点击后将触发型记分项trigger_test的分数设定为1，玩家将在聊天栏看到信息(>_<)。",
+      "tellraw@p{text:\"按钮\",click_event:{action:\"run_command\",command:\"execute as @s run trigger trigger_test set 1\"}}"
+    ]
+  }
+}

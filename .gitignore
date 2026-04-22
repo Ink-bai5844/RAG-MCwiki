@@ -1,0 +1,8 @@
+/.vscode
+/11.txt
+/chroma_db
+/cleaned_output
+/getwiki.py
+/mc_wiki_archive.jsonl
+/progress_state.json
+/test_hf.py

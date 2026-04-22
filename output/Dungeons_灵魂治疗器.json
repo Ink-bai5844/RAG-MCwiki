@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:灵魂治疗器",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%81%B5%E9%AD%82%E6%B2%BB%E7%96%97%E5%99%A8",
+  "text": "灵魂治疗器\n类型\n法器\n稀有度\n远古狩猎符文\n存档ID\nSoulHealer\n触感冰凉，会因灵魂的力量而颤抖。\n——物品描述\n灵魂治疗器（Soul Healer）是Minecraft Dungeons中的法器。\n获取\n地点：\n潮湿沼泽\n潮湿洞穴\n烈焰锻造厂\n荒芜神庙\n绯红森林\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用法器后，将会消耗50灵魂对附近包括你在内受伤最重的盟友进行治疗。\n属性\nX 生命恢复\n5 秒冷却\n+1 灵魂收集\n需要灵魂\n音效\n描述\n文件\n使用\nsfx_item_soulHealer_soundWave\n装备\nsfx_item_amuletPlace_soundWave\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了灵魂治疗器。\n1.3.2.0\n将灵魂消耗从20点改为50点。\n将冷却时间从1秒改为5秒。\n治疗队友会触发100%速度提升和150%的加速效果。\n将治疗的平均灵魂消耗由10调整为4。\n移除了随机灵魂消耗。\n导航"
+}

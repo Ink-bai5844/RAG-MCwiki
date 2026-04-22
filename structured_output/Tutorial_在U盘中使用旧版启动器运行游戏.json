@@ -1,0 +1,192 @@
+{
+  "title": "Tutorial:在U盘中使用旧版启动器运行游戏",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%9C%A8U%E7%9B%98%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%97%A7%E7%89%88%E5%90%AF%E5%8A%A8%E5%99%A8%E8%BF%90%E8%A1%8C%E6%B8%B8%E6%88%8F",
+  "structured_content": {
+    "默认分类": [
+      "本教程所述内容仅适用于Java版。",
+      "该页面正在草稿中编辑。",
+      "由于页面过旧或未完全翻译等原因，此页面的内容目前位于草稿中。",
+      "请移步至草稿查看或编辑最近的版本。",
+      "此教程需要更新。",
+      "教程中某些信息已经不符合当前版本情况。",
+      "此教程的内容需要改进。",
+      "这些内容因翻译质量较低而违反或未达到标准。",
+      "你可以帮助我们来改进此教程。",
+      "此教程仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "此教程解释了如何在U盘上运行Minecraft。你在使用不同的电脑上使用相同的游戏数据（世界、保存的数据、资源包、服务器等）时这很有用，因为游戏数据将会始终保存在便携式驱动器中。"
+    ],
+    "前置条件": [
+      "你需要：",
+      "一个最少拥有8GB内存的便携式驱动器。你将会需要更多的空间在驱动器上储存你的Minecraft存档。",
+      "一个运行着Windows、macOS、或任何Linux的发行版的电脑，这台电脑要符合Minecraft配置运行需求。"
+    ],
+    "步骤": [
+      "首先，你需要新建2个文件夹——bin和data。",
+      "然后，将Minecraft客户端放入bin文件夹。",
+      "如果你使用.jar文件（或其他运行Minecraft的东西），也请放置到bin文件夹。"
+    ],
+    "准备工作": [
+      "因为Minecraft需要安装多个文件，我们将会收集Minecraft运行所有的所需文件，并在便携式驱动器中分好类，以方便寻找。请注意，如果你不正确的按照下面的指示做，那么Minecraft可能会崩溃或启动失败。Windows对所有的文件和文件夹名称的大小写都很敏感。",
+      "将便携式驱动器插入到你的电脑中，并打开它。",
+      "新建一个文件夹，将其命名为Minecraft Portable（或其他你选择的名字，名字不能含有中文字符），并进入文件夹。",
+      "在这个文件夹里，新建2个文件夹，并分别命名为Launcher和Data。",
+      "注1：这些文件夹必须有确切的名称，因为我们将在以下步骤中使用它们。",
+      "注2：文后会提供一种更简单的方法，此法所创建的目录稍有不同。",
+      "现在在驱动器上有3个文件夹：在Minecraft Portable和在里面的Launcher和Data。",
+      "往便携式驱动器中添加启动器/客户端：",
+      "下载Minecraft Launcher。",
+      "你可以在Minecraft下载页中下载它。",
+      "确保你使用了“Minecraft for Windows (alternative)”版本，这可以在“Show all platforms”页面中找到。",
+      "将Minecraft.exe复制到已经创建的Launcher文件夹。"
+    ],
+    "数据文件": [
+      "此部分教程将会指导你如何将游戏数据（世界、储存的数据、资源包、服务器等）复制到便携式驱动器中。",
+      "如果你不想复制你的游戏数据，你可以跳过这个部分。",
+      "所有的游戏数据都必须在.minecraft文件夹里。"
+    ],
+    "按下⊞ Windows + R": [
+      "输入%APPDATA%并点击确定。",
+      "查找.minecraft文件夹，并复制它。",
+      "将复制的文件夹粘贴到Data文件夹。"
+    ],
+    "设置": [
+      "现在所有的数据文件都在这里了，我们需要告诉Windows将Minecraft引导到在便携式驱动器的文件上。为了达成这个目标，我们需要创建一个批处理文件（.bat)。",
+      "打开一个简单的文字编辑器。",
+      "按下⊞ Windows + R。",
+      "键入notepad并点击确定。",
+      "在文字编辑器中复制并粘贴下列文字：",
+      "寻找你的Minecraft文件。当在搜索界面时按下⌘ Command + ⇧ Shift + G，然后复制~/Library/application support/minecraft到对话框中。",
+      "复制application support下的minecraft文件夹。",
+      "插入U盘并在其中新建2个文件夹："
+    ],
+    "set APPDATA=%CD%\\Data start %cd%\\Launcher\\Minecraft.exe": [
+      "如果你愿意使用minecraft.jar，使用下列文字代替："
+    ],
+    "现在点击“文件 > 另存为...”": [
+      "导航到你的Minecraft Portable文件夹（不是Launcher或Data）。",
+      "将这个文件命名为StartMinecraft.bat。",
+      "双击运行它。如果要修改这个文件，请右击这个文件，并点击“编辑”。"
+    ],
+    "开始游戏": [
+      "一旦设置完成后，你就可以通过运行已经创建的StartMinecraft.bat文件来启动Minecraft了。",
+      "当启动器出现时，点击“Play”开始游戏。",
+      "一旦完成设置后，你就可以在另一台Mac上测试你的Minecraft是否可以运行了。",
+      "将便携式驱动器插入到另一台要测试的Mac。",
+      "打开launcher文件夹，并移动Minecraft启动器到Applications文件夹。",
+      "双击启动器来运行它。在Minecraft加载后退出。"
+    ],
+    "Linux": [
+      "我们要确定便携式驱动器在/dev/sdb1中，并且Minecraft被安装在~/games/.minecraft",
+      "注：目录名称可能不同，这取决于你将Minecraft安装到的目录。",
+      "在一个终端中运行下列命令（确保以管理员方式运行，或者使用sudo）：",
+      "umount /dev/sdb1 mkdir /media/minecraft mount /dev/sdb1 /media/minecraft mkdir /media/minecraft/games # 如果你的USB中有一个储存游戏的文件夹，那么可以跳过该步骤。 cp - rn ~/games/.minecraft /media/minecraft/ # 这可能需要花费一些时间。 cd umount /dev/sdb1 rm /media/minecraft # 双击以确保你的USB已经安装！",
+      "在此之后，如果你想游玩Minecraft，只需在终端中输入下列命令（依旧需要超级用户权限）。",
+      "umount /dev/sdb1 mkdir ~/games # 如果游戏文件夹在根目录里，那么可以跳过。 mount /dev/sdb1 ~/games # 你将不能够玩任何储存在~/games目录里的游戏。",
+      "运行你的Minecraft启动器并开始游玩。"
+    ],
+    "MacOS": [
+      "这部分并不是真的是让Minecraft在便携驱动器上运行，因为它需要在你每次进行游戏时复制游戏数据到便携驱动器上面。"
+    ],
+    "data和launcher": [
+      "将minecraft文件夹粘贴到U盘的data文件夹中。",
+      "将启动器粘贴到launcher文件夹。",
+      "移除U盘。"
+    ],
+    "转到Users/USERNAME/Library/Application Support": [
+      "删除Application Support下的minecraft文件夹。",
+      "将便携式驱动器里的data下的minecraft文件夹移动到桌面。",
+      "将该文件夹从桌面移动到application support。",
+      "再次运行Minecraft。"
+    ],
+    "补充注释": [
+      "注：如果你往便携式驱动器里安装资源包或Mod，那么当有响应的指示让你复制文件时，你就需要使用到你的U盘里面的.minecraft文件夹。",
+      "注：该方法同样适用于Dropbox、Google Drive和OneDrive。"
+    ],
+    "原始资料": [
+      "如果你在操作这个页面上的方法时遇到麻烦，可以在这个帖子中找到原始教程。"
+    ],
+    "使用非官方启动器": [
+      "该段落的内容不代表Mojang Studios或Minecraft Wiki的官方意见。",
+      "以下只叙述Windows上的方法，其他平台上类似。",
+      "非官方启动器一般会在启动器的目录下建立.minecraft文件夹，因此使用非官方启动器会相对简便。但是，非官方启动器的安全性无法保障，如要使用，请参阅推荐的启动器[失效链接]。",
+      "以下以HMCL启动器为例。",
+      "如果你一直用的是非官方启动器，只需把启动器、.minecraft文件夹、Java环境放到同一目录即可。否则参看以下内容。",
+      "从HMCL的官方网站上下载好启动器。",
+      "一般用户请选择.exe格式稳定版，Linux、macOS或需要在Windows和其他平台上跨平台运行的用户请选择.jar格式稳定版，后期使用遇到问题可在启动器内更新为开发版。",
+      "在U盘中建立好用于存放游戏的文件夹，比如Minecraft。",
+      "然后开始Java环境的配置。安装JRE后找到安装目录（比如C:\\Program Files\\Java\\jre-xxx，xxx是JRE版本号），复制jre-xxx文件夹到Minecraft文件夹下（即与启动器同目录）并更名为jre-x64或jre-x86（视你的电脑系统而定，无法确定请使用jre-x64，无法使用再更名jre-x86）。如果太麻烦可安装官方启动器，在安装目录下找到runtime文件夹，把runtime下的文件夹移至Minecraft目录下。"
+    ],
+    "（选择.exe格式启动器者请跳过这一步）接着在启动器所在目录下新建.bat文件，内容为": [
+      "start .\\jre-x64\\bin\\javaw.exe -jar .\\HMCL-xxxxx.jar",
+      "（也有可能是jre-x86；xxxxx内容请参照具体文件名），以后在Windows下启动都打开这个就可以了。",
+      "如果你还没有任何已有游戏数据，那么在启动器中可以下载不同游戏版本。如果你已有官方启动器的数据，请定位文件夹%appdata%，把.minecraft文件夹复制到启动器所在目录。",
+      "至此完成。",
+      "如果你选择了其他启动器，请注意其他启动器的相关配置文件是否放在启动器所在目录内。例如，BakaXL启动器的配置文件就不在启动器所在目录，不建议在你需要在U盘中运行的时候使用。"
+    ],
+    "你需要": [
+      "1个U盘（建议容量在2GB左右，但是这取决于你拥有多少世界/资源包）"
+    ],
+    "Windows系统": [
+      "首先，创建一个文件夹，例如Flash MC。然后，下载[1]，这个软件可以让Java在你的U盘上正确运行，而不用安装在电脑后才能运行。",
+      "你需要将jPortable安装到U盘中的一个文件夹，如\\Flash MC\\jPortable。",
+      "然后，前往Minecraft Profile Manager的帖子，并下载它。"
+    ],
+    "按照说明将它放入到你的U盘里面的MC文件夹。（将minecraft.exe放置在相同的文件夹）": [
+      "现在你将能够启动MPM，新建一个用户资料，并下载运行Minecraft的全部所需文件。"
+    ],
+    "注意": [
+      "MPM的运行需要使用Java，这意味着你必须安装Java来让它工作。",
+      "运行Windows的电脑应该很好地工作，除非它们没有打补丁。"
+    ],
+    "而且这个方法只在Windows上工作！": [
+      "你需要：",
+      "USB（最低要求容量为2.5GB，如果你想安装Mod或资源包，你就需要更多空间（你也需要额外的空间存储世界））"
+    ],
+    "因此你需要按下⊞ Windows + R，打开运行窗口，并在窗口中输入%appdata%，然后复制.minecraft文件夹（同时包括Minecraft的其他文件夹，例如.aether）": [
+      "选择这些文件夹并按下Ctrl + C（或Ctrl + X如果你想移动这些文件）。",
+      "然后再次按下⊞ Windows + R，并在对话框中输入notepad，然后复制下列代码："
+    ],
+    "SET APPDATA=%CD%\\data bin\\minecraft.exe": [
+      "如果使用.jar文件，则用下列命令："
+    ],
+    "该方法将会需要Java，如果你想让Java在你的U盘中运行，请查看下面的部分——添加便携式Java的方法": [
+      "在appdata下的.minecraft文件夹里面的数据都要在你的U盘中运行。"
+    ],
+    "添加便携式Java的方法": [
+      "该方法需要额外的0.5GB磁盘空间！"
+    ],
+    "是时候添加便携式Java了": [
+      "首先，点击 这个链接。",
+      "然后，在页面上点击Download Now或这个链接。",
+      "然后打开PortableApps.com_Platform_Setup_11.2.exe，在你看见“add apps section”前请等待。"
+    ],
+    "确保你已经将安装程序放置在U盘中！": [
+      "然后在工具里寻找并勾选jPortable、jPortable Launcher、jPortable Browser的复选框，然后点击“install”。"
+    ],
+    "如何开启jPortable": [
+      "首先，在你的U盘中寻找文件夹PortableApps。",
+      "然后双击“start”，并点击jPortable Launcher。"
+    ],
+    "这将会打开一个窗口，然后寻找.jar。（如果只显示.jar，不用担心，只要将它改为“all files”，然后寻找你的.exe即可）": [
+      "之后点击open，然后你的Minecraft将会打开。"
+    ],
+    "漏洞与修复": [
+      "如果找不到minecraft目录，请确认是否点击了“edit profile”，并在资源管理器中定位到你的data文件夹，然后点击它，并按下“properties”。",
+      "同时也可以编辑“edit profile”窗口里面的“Game directory”文本框。",
+      "现在应该出现了一个窗口，你将要对拖动文本的位置的一行进行选择，然后将其粘贴到“Game directory”文本框中，并输入\\.minecraft或复制它到“Game directory”文本框中。"
+    ],
+    "通过修改autorun.inf以修改启动器文件": [
+      "如果你的autorun.inf的内容是这样的："
+    ],
+    "set APPDATA=%CD%\\data bin\\minecraft.exe": [
+      "或："
+    ],
+    "set APPDATA=%CD%\\data bin\\minecraft.jar": [
+      "请将文件内容改成这样："
+    ],
+    "视频教程": [
+      "一段视频教程将会逐步教你如何在没有安装Java的情况下让Minecraft从U盘中启动。"
+    ]
+  }
+}

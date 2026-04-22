@@ -1,0 +1,5 @@
+{
+  "title": "箱子/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%AE%B1%E5%AD%90%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\nCustomName：（文本组件）当前箱子的名称，会取代默认名称出现在箱子的界面中。\nlock：如果存在，箱子只能用符合该物品谓词的物品打开。\n物品堆叠谓词，见Template:Nbt inherit/item predicate/source\nItems：（当LootTable不存在时存在且有效）当前箱子内物品的列表，超出槽位范围的物品无效。如果战利品未生成，则此项不存在。箱子共有27个槽位，从左上角槽位开始横向遍历到右下角槽位结束。\n：一个物品。\n物品共通标签，见Template:Nbt inherit/item/source\nLootTable：决定箱子第一次被打开时，生成战利品所用的战利品表的命名空间ID。此项将在战利品生成之后被删除。\nLootTableSeed：（当LootTable存在时有效）生成战利品使用的种子，0或不输入将使用随机序列。此项将在战利品生成之后被删除。"
+}

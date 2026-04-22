@@ -1,0 +1,78 @@
+{
+  "title": "Java版1.19.1-pre3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre3",
+  "structured_content": {
+    "默认分类": [
+      "1.19.1-pre3"
+    ],
+    "发布时间": [
+      "2022年7月6日"
+    ],
+    "预发布版归属": [
+      "1.19.1"
+    ],
+    "协议版本": [
+      "DEC: 1073741920",
+      "HEX: 40000060"
+    ],
+    "数据版本": [
+      "3111"
+    ],
+    "资源包版本": [
+      "9"
+    ],
+    "数据包版本": [
+      "10",
+      "◄◄1.19",
+      "1.19.2►►",
+      "◄1.19.1-pre2",
+      "1.19.1-pre4►",
+      "1.19.1-pre3是Java版1.19.1的第三个预发布版，发布于2022年7月6日，加入了一条纪念Technoblade的闪烁标语，对聊天功能做了一些调整，并修复了一些漏洞。"
+    ],
+    "闪烁标语": [
+      "加入了“Technoblade never dies!”，用以纪念Technoblade。"
+    ],
+    "聊天": [
+      "将聊天栏滚动条移至聊天窗格的右侧。",
+      "系统消息现在会以灰色标记。",
+      "聊天类型msg_command被拆分为msg_command_incoming和msg_command_outgoing。",
+      "聊天类型参数team_name重命名为target。",
+      "此聊天类型参数现在由聊天类型msg_command_outgoing使用。"
+    ],
+    "协议": [
+      "第三方服务端现在可通过一种新的网络数据包设置其自身的用于普通聊天内容的自动补全选项。"
+    ],
+    "社交屏幕": [
+      "现在最近一个发送消息的玩家会被放在玩家列表的最上方。",
+      "更改了下列举报类型的描述：",
+      "骚扰或霸凌（仅原文变动）：有人羞辱、攻击、霸凌你或其他人。这包括在未经允许的情况下不断尝试联系你或其他人，或发布你或其他人的隐私信息。",
+      "旧描述：Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent.",
+      "新描述：Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent (\"doxing\")."
+    ],
+    "即将发生的伤害行为 — 威胁伤害他人": [
+      "旧描述：有人威胁要在现实生活中伤害你或其他人。",
+      "新描述：有人威胁要自残或谈论现实生活中的自残行为。",
+      "恐怖主义或暴力极端主义（仅原文变动）：有人因政治、宗教、意识形态或其他原因，谈论、宣扬、威胁实施恐怖主义或极端暴力行为。",
+      "旧描述：Someone is talking about, promoting, or threatening to commit acts of terrorism or violent extremism for political, religious, ideological, or other reasons.",
+      "新描述：Someone is talking about, promoting, or threatening with acts of terrorism or violent extremism for political, religious, ideological, or other reasons."
+    ],
+    "修复": [
+      "修复了7个漏洞",
+      "1.19前正式版的漏洞",
+      "MC-220872 — 聊天栏滚动条位置仍有偏移。",
+      "1.19的漏洞",
+      "MC-253053 — 物品提示框会在屏幕底部被截断。",
+      "MC-253214 — 在特定情况下，物品提示框会有偏移。",
+      "1.19.1开发版本的漏洞",
+      "MC-253182 — gui.abuseReport.reason.self_harm_or_suicide.description英语字符串中，第二个反身代词的用法不正确。",
+      "MC-253496 — /execute as 玩家 run say发出的消息会被计入举报系统中。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-253742 — 聊天栏滚动条会与显示聊天信任状态的颜色标识相重叠。",
+      "MC-253773 — 私聊消息会显示为被服务器修改。"
+    ],
+    "参考": [
+      "Minecraft 1.19.1 Pre-Release 3 — Minecraft.net，2022年7月6日。"
+    ]
+  }
+}

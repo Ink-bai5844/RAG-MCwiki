@@ -1,0 +1,32 @@
+{
+  "title": "版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "官方基岩版": [
+      "在独乐不如众乐更新之前，基岩版被分成不同平台的版本：",
+      "携带版 – 第一个使用基岩版编码的版本，提供给iOS和安卓设备的玩家。",
+      "Windows 10版 – 在Windows 10上的携带版。",
+      "Xbox One版 – 曾为原主机版的一部分，此版本提供给Xbox One的玩家。",
+      "Nintendo Switch版 – 曾为原主机版的一部分，此版本提供给Nintendo Switch的玩家。",
+      "Apple TV版 – 提供给Apple TV的玩家，现已停更。"
+    ],
+    "官方原主机版": [
+      "Xbox 360版（已停更）",
+      "Xbox One版（已停更，在2017年9月20日成为基岩版的一部分）",
+      "PlayStation 3版（已停更）",
+      "PlayStation 4版 （已停更，在2019年12月10日成为基岩版的一部分）"
+    ],
+    "Wii U版（已停更）": [
+      "Nintendo Switch版 （已停更，在2018年6月21日成为基岩版的一部分）"
+    ],
+    "其他版本": [
+      "New Nintendo 3DS版（已停更）"
+    ],
+    "树莓派版（已停更）": [
+      "Minecraft 4k （已停更）"
+    ],
+    "更新版本": [
+      "/version：用于查看游戏版本的命令。[仅Java版]"
+    ]
+  }
+}

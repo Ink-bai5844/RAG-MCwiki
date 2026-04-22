@@ -1,0 +1,5 @@
+{
+  "title": "属性/安全摔落高度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E5%AE%89%E5%85%A8%E6%91%94%E8%90%BD%E9%AB%98%E5%BA%A6",
+  "text": "本条目所述内容仅适用于Java版。\n安全摔落高度\n类型\n正面\n默认值\n3\n值域\n-1024 – 1024\n属性ID\nsafe_fall_distance\n安全摔落高度（Safe Fall Distance）是控制生物摔落而不受伤害的最大高度的属性。\n行为\n主条目：摔落\n当生物摔落触地时，如果下落高度小于此属性计算值，则不产生落地粒子。\n当生物摔落触地时，游戏按照下列步骤计算摔落伤害：\n获取生物的下落高度f和此属性计算值h。\n获取生物脚下的方块，修正下落高度，获得方块摔落伤害系数r：\n如果为干草捆和蜂蜜块，则摔落伤害系数r为0.2。\n如果为床，则摔落伤害系数r为0.5。\n如果为方向向上的滴水石锥，则下落高度f←f+2，摔落伤害系数r为2。\n其他方块摔落伤害系数r为1。\n获取摔落伤害倍数属性计算值为a，则摔落伤害为d=⌈(f−h)ra⌉。\n对于部分生物，摔落伤害会被强制减少：\n山羊的摔落伤害固定减少10，即d←d−10。\n青蛙的摔落伤害固定减少5，即d←d−5。\n适用的生物\n生物\n基值\n骆驼\n驴\n马\n羊驼\n骡\n骷髅马\n行商羊驼\n僵尸马\n6\n狐狸\n5\n其他所有生物\n3\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\neffect.jump_boost\nadd_value (Op0)\n等级\n是\n跳跃提升状态效果\n历史\nJava版\n1.20.5\n24w06a\n加入了安全摔落高度属性，ID为generic.safe_fall_distance。\n1.21\n24w21a\n跳跃提升状态效果修饰符的ID现在是effect.jump_boost，此前为C0105BF3-AEF8-46B0-9EBC-92943757CCBE。\n1.21.2\n24w33a\n安全摔落高度属性的ID从generic.safe_fall_distance重命名为safe_fall_distance。\n导航"
+}

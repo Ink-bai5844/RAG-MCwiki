@@ -1,0 +1,5 @@
+{
+  "title": "甜菜种子/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9C%E8%8F%9C%E7%A7%8D%E5%AD%90%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n0x4\n一个值范围0-7的3位二进制数，储存甜菜种子生长阶段：\n0：刚被种下\n1：第1阶段\n2-3：第2阶段\n4-6：第3阶段\n7：成熟\n0x8\n（未使用）"
+}

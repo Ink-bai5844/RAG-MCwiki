@@ -1,0 +1,50 @@
+{
+  "title": "Java版14w33b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8814w33b",
+  "structured_content": {
+    "默认分类": [
+      "14w33b"
+    ],
+    "发布时间": [
+      "2014年8月15日"
+    ],
+    "快照归属": [
+      "1.8"
+    ],
+    "协议版本": [
+      "38"
+    ],
+    "资源包版本": [
+      "1",
+      "◄◄1.7.10",
+      "1.8.1►►",
+      "◄14w33a",
+      "14w33c►",
+      "14w33b是Java版1.8的第47个快照，发布于2014年8月15日，更改了一些物品的纹理，并修复了一些漏洞和14w33a的崩溃问题。"
+    ],
+    "门": [
+      "所有门的纹理都更加准确。"
+    ],
+    "生羊肉、熟羊肉、生兔肉、熟兔肉、兔子皮和兔子脚": [
+      "更改了纹理。"
+    ],
+    "修复": [
+      "修复了9个漏洞",
+      "1.8开发版本的漏洞",
+      "MC-50321 — 第三人称视角下，鱼竿线不连接在鱼竿上。",
+      "MC-64456 — 第三人称视角下，鱼竿线的高度不正确。",
+      "MC-65112 — 当开启高级提示框时，显示草方块的伤害值为0。",
+      "MC-65521 — 盔甲架会消耗掉整组物品。",
+      "MC-65533 — 效率魔咒对于锹和斧来说不起作用。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-66970 — 红石、楼梯、圆石墙、栅栏以及栅栏门的纹理严重变形。",
+      "MC-66983 — 在方块底部放置火把或红石火把时游戏崩溃。",
+      "MC-67141 — Hopper: java.lang.IllegalArgumentException: Name and ID cannot both be blank。",
+      "MC-67142 — Hopper: java.lang.IllegalArgumentException: Cannot set property ben{name=has_bottle_0, clazz=class java.lang.Boolean, values=[true, false]} as it does not exi。"
+    ],
+    "参考": [
+      "Minecraft snapshot 14w33c（存档），来自Searge。Mojang.com，2014年8月13日。"
+    ]
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "title": "物品修饰器",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E4%BF%AE%E9%A5%B0%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "物品修饰器（Item modifier），也作战利品修饰器（loot modifiers）、战利品表函数（loot functions），或物品函数（item functions），是数据包中的技术性JSON文件，存储在数据包的data/<命名空间>/item_modifier目录下。物品修饰器可在战利品表中为物品添加战利品表物品函数。命令/item可调用数据包中有效的物品修饰器以修改物品。"
+    ],
+    "文件夹结构": [
+      "物品修饰器文件在数据包中的位置如下所示："
+    ],
+    "定义": [
+      "物品修饰器本质上是战利品表物品函数（Loot Item Function）。基本上所有战利品表物品函数都是条件性函数（Loot Item Conditional Function）——可包含若干战利品表物品条件。",
+      "在数据包中，物品修饰器可用于对物品施加单个或多个修改操作。这些操作均使用JSON格式来定义，故每个物品修饰器文件均是一个JSON文件。原版游戏内不存在默认的物品修饰器，只能通过添加额外的数据包来创建。"
+    ],
+    "使用": [
+      "物品修饰器可以通过/item命令调用。使用/item命令时，需要指定一个物品槽位以便修饰器作用于其中的物品。此槽位可以是某方块容器中的槽位，也可以是某生物（比如驴）物品栏中的槽位。"
+    ],
+    "通过命令": [
+      "这里有两种命令变种：",
+      "/item modify直接对目标槽位的物品使用一个修饰器。",
+      "/item replace先用另一个物品替换目标槽位的物品，再对替换后的物品使用物品修饰器。"
+    ],
+    "通过战利品表": [
+      "战利品表文件也使用物品修饰器。很多时候，调用战利品表文件同时也伴随着一个物品修饰器的调用。这个被调用的物品修饰器可能并非以一个单独的文件存在，而是直接定义在战利品表的JSON片段中。当然，你也可以使用“reference”物品修饰器来引用一个物品修饰器文件——有时候，相比于直接在战利品表中定义，这样会更加灵活和方便。"
+    ],
+    "基本格式": [
+      "物品修饰器的根元素，可以是一个单独的物品修饰器对象或者是包含多个物品修饰器对象的数组。",
+      "conditions：一个战利品表谓词列表。当其中的条件全部通过时才会应用本函数。",
+      "：一个战利品表谓词。关于此标签的结构，参见战利品表谓词页面。",
+      "function：物品修饰器的类型，为一个命名空间ID。可用的类型将在下方列出。",
+      "物品修饰器属性。每种类型的物品修饰器都有自己独特的属性，参见下文。"
+    ],
+    "物品修饰器类型": [
+      "以下列出所有的物品修饰器类型及其相应属性。每种类型的修饰器名称即为function的一个可能取值。",
+      "下列物品修饰器中，在原有物品堆叠基础上增加物品数量的，如果原有物品堆叠的物品数量为负数，其会被重置到0后再增加数量。应用完所有修饰器后，如物品堆叠的物品数量小于等于0，该堆叠将被设置为空。"
+    ],
+    "apply_bonus": [
+      "根据指定魔咒的等级，增加物品数量。",
+      "enchantment：用来进行魔咒等级计算的魔咒ID。",
+      "formula：计算公式。可选值为uniform_bonus_count（均匀分布随机数）、ore_drops（矿物掉落随机算法）和binomial_with_bonus_count（二项分布随机数）。",
+      "parameters：计算所需的参数。",
+      "如果formula是uniform_bonus_count，则返回均匀分布的随机整数，值域为[c,c+bl]，其中l是魔咒等级，c是原物品数量：",
+      "bonusMultiplier：均匀分布中的乘数，即公式中的b。",
+      "如果formula是ore_drops，则为矿物掉落算法。如果魔咒等级l为0，则返回原物品数量c；如果魔咒等级l大于0，则最终物品数量可以根据魔咒等级翻倍，最高可以为原数量的l+1倍。",
+      "如果formula是binomial_with_bonus_count，则计算二项分布随机数。物品最终的数量为原数量与这个二项分布随机数的和。",
+      "extra：额外计算的次数。二项分布计算的n为魔咒等级与额外计算次数之和。",
+      "probability：二项分布中的概率p。"
+    ],
+    "copy_components": [
+      "从*source指定的数据源中获取数据组件并复制到物品中。",
+      "exclude：选择排除指定的数据组件。",
+      "：数据组件的命名空间ID。",
+      "include：选择复制指定的数据组件。如果此项不存在则复制除exclude指定的数据组件外的所有数据组件。",
+      "：数据组件的命名空间ID。",
+      "*source：数据源类型。可以为block_entity（方块实体）、this（执行战利品生成的实体）、attacker（杀死本实体的实体）、attacking_player（杀死本实体的玩家）、direct_attacker（进行直接击杀本实体的实体）、tool（参与交互的物品）、target_entity（交互行为中的目标实体）和interacting_entity（交互行为的执行实体）。"
+    ],
+    "copy_custom_data": [
+      "复制NBT到custom_data物品堆叠组件中。",
+      "ops：一系列复制操作。",
+      "：一个具体的复制操作。",
+      "op：操作类型。可以为replace（以source所选标签替换target所选标签）、append（将source所选标签复制到target所选的列表标签的末尾）或merge（复制source所选标签，然后合并到target所选的复合标签中）。",
+      "source：一个NBT路径，表示被复制的标签（1个或多个）。路径的首个节点代表源NBT数据根标签下的一个子节点。",
+      "target：一个NBT路径，表示要复制到的标签（1个或多个）。路径的首个节点代表目标物品的custom_data物品堆叠组件下的一个子标签。例如，若target的值设为example_tag，则将会选中物品的components.'minecraft:custom_data'.example_tag标签。",
+      "source：指定NBT的复制源。复制源可以为实体、方块实体，或命令存储。若为字符串，则会指定一个实体或方块实体，值与下方target相同。",
+      "type：复制源的类型。可以为context（实体或方块实体）或storage（命令存储）。",
+      "若type为context，还需附加标签：",
+      "target：指定作为复制源的实体或方块实体。可以为block_entity（物品对应方块的方块实体）、this（执行战利品生成的实体）、attacker（杀死本实体的实体）、attacking_player（杀死本实体的玩家）、direct_attacker（进行直接击杀本实体的实体）、target_entity（交互行为中的目标实体）和interacting_entity（交互行为的执行实体）",
+      "若type为storage，还需附加标签：",
+      "source：（命名空间ID）表示一个作为复制源的命令存储。"
+    ],
+    "copy_name": [
+      "将实体、附魔台和旗帜的自定义名称设置到物品的custom_name数据组件中。",
+      "source：指定名称的来源实体或方块实体。可以为this（执行战利品生成的实体）、attacker（伤害本实体的实体）、last_damage_player（伤害本实体的玩家）、block_entity（物品对应方块的方块实体）、direct_attacker（进行直接击杀本实体的实体）、target_entity（交互行为中的目标实体）和interacting_entity（交互行为的执行实体）。"
+    ],
+    "copy_state": [
+      "获取战利品上下文参数block_state，将其中的方块状态复制到物品的block_state物品堆叠组件；若找不到该参数则此物品修饰器不做任何处理。",
+      "block：（方块ID）表示方块的类型。如果与properties所指定的方块属性不匹配，该修饰器将失效。",
+      "properties：要复制的方块属性。",
+      "：一个要被复制的方块属性。"
+    ],
+    "enchanted_count_increase": [
+      "决定了指定魔咒对该物品数量的影响。物品数量首先会加上round(<count>*<魔咒等级>)，其中round(<数>)表示四舍五入；如limit不为0，则还会限制上一步得到的物品数量为不超过该值。",
+      "count：每等级魔咒使得物品需要增加的数量。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "enchantment：提供魔咒等级的魔咒命名空间ID。",
+      "limit：物品的最大数量，超过此数量会被强制限制在此数量。如果设置为0，则无限制。"
+    ],
+    "enchant_randomly": [
+      "为物品附上一个随机的魔咒。魔咒的等级也是随机的。",
+      "only_compatible：（可选，默认为true）指定是否只添加能附在此物品上的魔咒，书没有此限制。",
+      "options：（可选，默认为所有魔咒）能够附上的魔咒。可以为一个魔咒的命名空间ID或一个魔咒标签，也可以为命名空间ID组成的数组。为物品添加魔咒时会随机选取一个魔咒。",
+      "：一项魔咒的命名空间ID。",
+      "include_additional_cost_component：（默认为false）是否根据魔咒等级增加村民收购物品数量，需要战利品上下文参数additional_cost_component_allowed才可生效，详见村民交易定义格式。"
+    ],
+    "enchant_with_levels": [
+      "使用指定的魔咒等级附魔物品（大约等效于使用这个等级的附魔台附魔物品）。",
+      "levels：指定附魔等级。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "options：（可选，默认为所有魔咒）能够附上的魔咒。可以为一个魔咒的命名空间ID或一个魔咒标签，也可以为命名空间ID组成的数组。为物品添加魔咒时会随机选取一个魔咒。",
+      "：一项魔咒的命名空间ID。",
+      "include_additional_cost_component：（默认为false）是否根据附魔等级增加村民收购物品数量，需要战利品上下文参数additional_cost_component_allowed才可生效，详见村民交易定义格式。"
+    ],
+    "exploration_map": [
+      "将普通的地图物品变为一个指引到某个结构的探险家地图。如果物品不是地图，则不做任何处理。",
+      "decoration：结构在地图中显示的地图图标ID，游戏会同步根据图标修改地图的着色。如果不存在则默认为mansion（林地府邸的地图图标）。",
+      "destination：结构标签命名空间ID，包含要指向的结构，不带#前缀。如果不存在则默认为on_treasure_maps（仅包含埋藏的宝藏）。",
+      "search_radius：（默认为50）搜寻的区块半径，使用切比雪夫距离。",
+      "skip_existing_chunks：（默认为true）是否不在已经生成过的区块搜寻。",
+      "zoom：（默认为2）地图缩放等级。"
+    ],
+    "explosion_decay": [
+      "如果物品是因为方块被爆炸破坏而产生，执行该函数的每个物品有1/爆炸半径的概率消失，堆叠的物品会被分为多个单独的物品计算；否则此物品修饰器不做任何处理。"
+    ],
+    "discard": [
+      "将物品堆叠替换为空堆叠。"
+    ],
+    "fill_player_head": [
+      "将玩家的头设置为指定玩家的头。如果物品不是玩家的头则不做任何处理。",
+      "entity：用于设置该玩家头颅的玩家。可以为this（执行战利品生成的实体）、attacker（杀死本实体的实体）、attacking_player（杀死本实体的玩家）、direct_attacker（进行直接击杀本实体的实体）、target_entity（交互行为中的目标实体）和interacting_entity（交互行为的执行实体）。"
+    ],
+    "filtered": [
+      "使用物品谓词检查物品，根据谓词结果使用物品修饰器处理。",
+      "*item_filter：检查物品使用的物品谓词。",
+      "物品堆叠谓词，见Template:Nbt inherit/item predicate/source",
+      "on_pass：对检查成功的物品使用的物品修饰器。",
+      "on_fail：对检查失败的物品使用的物品修饰器。"
+    ],
+    "furnace_smelt": [
+      "将物品转变为用熔炉烧炼后的对应物品。如果物品不可烧炼，则不做任何处理。"
+    ],
+    "limit_count": [
+      "限制物品数量。",
+      "limit：限制物品的数量，物品数量会被钳制在此区间内。",
+      "min：最小数量。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "max：最大数量。",
+      "数值提供器，见Template:Nbt inherit/number provider/source"
+    ],
+    "modify_contents": [
+      "对物品的内容物进行处理。",
+      "*component：处理物品内的何种内容物。可以为container（容器方块物品内的内容物）、bundle_contents（收纳袋内物品）或charged_projectiles（弩内的弹射物物品）。",
+      "*modifier：对内容物使用的物品修饰器。"
+    ],
+    "reference": [
+      "引用另一个物品修饰器。",
+      "name：物品修饰器的命名空间ID。如果发生循环调用，则会产生警告。"
+    ],
+    "sequence": [
+      "使用一个列表指定多个物品修饰器，其应用顺序与其在列表中的定义顺序相同。",
+      "functions：物品修饰器列表。",
+      "内部标签与物品修饰器对象结构相同。"
+    ],
+    "set_attributes": [
+      "为物品加上属性修饰符。",
+      "modifiers：属性修饰符列表。",
+      "：一个修饰符。",
+      "amount：指定修饰值。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "attribute：（命名空间ID）此修饰器修饰的属性。",
+      "id：（命名空间ID）修饰符的命名空间ID。",
+      "operation：修饰符的运算模式，可以为add_value（增量操作，Op0）、add_multiplied_base（倍率操作，Op1）和add_multiplied_total（最终倍乘操作，Op2）。",
+      "slot：指定修饰符产生效果的槽位。值只能为mainhand（主手）、offhand（副手）、head（头盔）、chest（胸甲）、legs（护腿）、feet（靴子）、hand（双手）、body（身体）、armor（所有盔甲）、any（所有槽位）或saddle（鞍）。当此项为列表时，列表内的字符串都为可以使修饰符产生效果的槽位。",
+      "replace：（可选，默认为true）是否覆盖物品原有的属性修饰符。如果为false，则将列表内的属性修饰符附加到物品的属性修饰符列表中。"
+    ],
+    "set_banner_pattern": [
+      "设置物品的旗帜图案数据。",
+      "*append：表示是否将图案追加在原先的图案上，否则将替换原先的图案。",
+      "*patterns：要添加的图案列表。",
+      "：一项旗帜图案。",
+      "*color：此图案的颜色。",
+      "*pattern：此图案的类型。",
+      "旗帜图案，见Template:Nbt inherit/banner pattern/source"
+    ],
+    "set_book_cover": [
+      "设置成书的标题、作者和副本信息。",
+      "author：（可选）设置成书的作者。",
+      "generation：（可选）设置成书是否为副本。可以为0（原稿），1（原稿的副本），2（副本的副本），3（破烂不堪）。",
+      "title：（可选，长度不超过32）设置成书的标题信息。为时，如果开启过滤，则代表此标题过滤后与原标题一致。",
+      "filtered：（可选，长度不超过32）已过滤的标题信息。在开启过滤时，此字符串优先级高于raw。",
+      "raw：（长度不超过32）未过滤的标题原始信息。"
+    ],
+    "set_custom_model_data": [
+      "设置物品的custom_model_data组件以供物品模型映射使用。",
+      "colors：设置物品的custom_model_data组件的RGB颜色值列表。",
+      "values：此列表的数据。",
+      "：一个RGB颜色。只使用后24位，从高到低依次按RGB排列。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "：另一种格式，直接指定颜色。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "mode：设置此数据列表的模式。",
+      "如果mode是append，则将此物品修饰器定义的列表附加到原列表后，没有附加标签。",
+      "如果mode是insert，则将此物品修饰器定义的列表插入到原列表内，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）列表的插入位置下标。",
+      "如果mode是replace_all，则替换整个列表，没有附加标签。",
+      "如果mode是replace_section，则替换原列表中的一个区间内元素的数据，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）替换列表的起始下标。",
+      "size：（可选，不小于0，默认为values列表长度）替换列表的长度。",
+      "flags：设置物品的custom_model_data组件的布尔值列表。",
+      "values：此列表的数据。",
+      "：一个布尔值。",
+      "mode及设置数据模式，同上文。",
+      "floats：设置物品的custom_model_data组件的浮点数列表。",
+      "values：此列表的数据。",
+      "：一个浮点数。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "mode及设置数据模式，同上文。",
+      "strings：设置物品的custom_model_data组件的字符串列表。",
+      "values：此列表的数据。",
+      "：一个字符串。",
+      "mode及设置数据模式，同上文。"
+    ],
+    "set_components": [
+      "设置物品堆叠组件数据。",
+      "components：将要设置的物品堆叠组件。",
+      "<物品堆叠组件>：设置指定的物品堆叠组件。根据组件类型不同此标签类型也不同。",
+      "见物品堆叠组件。",
+      "!<物品堆叠组件>：移除指定的物品堆叠组件。是一个空标签，不存在任何子标签。"
+    ],
+    "set_contents": [
+      "设置物品的内容物。",
+      "component：设置内容物的方式。可以为container（设置容器方块物品内的内容物）、bundle_contents（设置收纳袋内物品）或charged_projectiles（设置弩内的弹射物物品）。",
+      "entries：用于设置内容物的项目列表。",
+      "见战利品表 § 数据格式的pools标签。"
+    ],
+    "set_count": [
+      "设置该物品的数量。",
+      "add：（可选，默认为false）为true时，所设置的数量等于物品原有数量加count（负数减少数量，正数增加数量），为false时，直接设置为count。",
+      "count：设置物品的数量。",
+      "数值提供器，见Template:Nbt inherit/number provider/source"
+    ],
+    "set_custom_data": [
+      "在该物品上添加自定义数据。",
+      "tag：要添加的自定义数据，添加的自定义数据会自动合并到custom_data物品堆叠组件内。使用字符串形式时内部的双引号需要使用\\转义，在解析时会自动展开为对应的复合标签。",
+      "示例：",
+      "对物品添加一个自定义的test标签：",
+      "itemmodifyentity@sweapon.mainhand{\"function\":\"set_custom_data\",\"tag\":'{test:1s}'}",
+      "以上命令使用tag字符串形式来定义SNBT。",
+      "执行后，其物品堆叠组件SNBT数据为：",
+      "{components: {\"minecraft:custom_data\": {test: 1s}}, <...>}",
+      "然后再执行：",
+      "itemmodifyentity@sweapon.mainhand{\"function\":\"set_custom_data\",\"tag\":{test:123,new:\"hello minecraft wiki\"}}",
+      "以上命令使用tag复合标签形式来定义SNBT。",
+      "执行后，其物品堆叠组件SNBT数据为：",
+      "{components: {\"minecraft:custom_data\": {new: \"hello minecraft wiki\", test: 123}}, <...>}"
+    ],
+    "set_damage": [
+      "对可损坏的物品堆叠进行操作，输入一个耐久比然后转换为相应的耐久度。当前耐久比=当前耐久度÷最大耐久度。",
+      "damage：输入的耐久比。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "add：（可选，默认为false）是否将输入的耐久比视为增量。若为true，则最终设置的耐久度为ceil((输入的耐久比+当前耐久比)×最大耐久度)，否则为ceil(输入的耐久比×最大耐久度)，其中ceil表示向上取整。",
+      "注意，由于浮点数误差，在实际使用时可能需要偏移一个微小值，比如对于一个最大耐久度为10的可损坏物品，若要稳定减少耐久度1，输入的耐久比应设置为-0.10001。"
+    ],
+    "set_enchantments": [
+      "设置物品的魔咒。",
+      "不会影响不包含在enchantments内的魔咒的等级。如果enchantments为空，则物品不会有变化。",
+      "add：（可选，默认为false）表示是否在原有的魔咒等级上继续增加等级，否则替换原先的魔咒。为true时，等级会直接叠加指定的数值，不同于铁砧的合并机制。",
+      "enchantments：要添加的魔咒。",
+      "<魔咒的命名空间ID>：指定魔咒及其等级。",
+      "数值提供器，见Template:Nbt inherit/number provider/source"
+    ],
+    "set_firework_explosion": [
+      "设置烟火之星的数据。",
+      "colors：（可选）表示爆裂时的粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。如果颜色没有对应的染料颜色，游戏将在提示框中显示为“自定义”，但爆裂时会产生正确的颜色。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。不存在或数组为空时被视为黑色。",
+      "fade_colors：（可选）表示爆裂后的淡化粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。",
+      "trail：（可选）设置烟火是否有拖曳痕迹（使用钻石合成时）。",
+      "twinkle：（可选）设置烟火是否出现闪烁效果（使用荧石粉合成时）。",
+      "shape：（可选）设置爆裂时的形态。可以为small_ball（小型球状）、large_ball（大型球状）、star（星形）、creeper（苦力怕状）、burst（喷发状）。"
+    ],
+    "set_fireworks": [
+      "设置烟花火箭的数据。",
+      "flight_duration：（可选，无符号8位整数，默认为0）烟花火箭的飞行的时间，单位为“火药”（即表现为和在工作台上合成烟花火箭时所用的火药数相等）。",
+      "explosions：（可选）烟花火箭的爆裂数据与其设置模式。",
+      "values：（最多256个元素）烟花火箭对应的烟火之星的数据，控制烟花火箭飞行结束时产生的爆裂烟花渲染。",
+      "：一个烟火之星的数据。",
+      "colors：（可选，默认为空数组）表示爆裂时的粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。如果颜色没有对应的染料颜色，游戏将在提示框中显示为“自定义”，但爆裂时会产生正确的颜色。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。不存在或数组为空时被视为黑色。",
+      "fade_colors：（可选，默认为空数组）表示爆裂后的淡化粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。",
+      "has_trail：（可选）表示烟火是否有拖曳痕迹（使用钻石合成时）。",
+      "has_twinkle：（可选）表示烟火是否出现闪烁效果（使用荧石粉合成时）。",
+      "shape：爆裂时的形态。可以为small_ball（小型球状）、large_ball（大型球状）、star（星形）、creeper（苦力怕状）、burst（喷发状）。",
+      "mode：设置烟花火箭爆裂列表数据的模式。",
+      "如果mode是append，则将此物品修饰器定义的爆裂列表附加到原烟花火箭爆裂列表后，没有附加标签。",
+      "如果mode是insert，则将此物品修饰器定义的爆裂列表插入到原烟花火箭爆裂列表内，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）列表的插入位置下标。",
+      "如果mode是replace_all，则替换整个爆裂列表数据，没有附加标签。",
+      "如果mode是replace_section，则替换爆裂列表中的一个区间内元素的数据，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）替换列表的起始下标。",
+      "size：（可选，不小于0，默认为values列表长度）替换列表的长度。"
+    ],
+    "set_instrument": [
+      "设置山羊角的种类。",
+      "options：山羊角乐器。可以为一个乐器ID、一个乐器ID标签，或一个乐器ID的列表。"
+    ],
+    "set_item": [
+      "设置物品变为另一种物品，且保留数量和物品堆叠组件。",
+      "item：（命名空间ID）要转变为的物品。"
+    ],
+    "set_loot_table": [
+      "为一个容器方块物品设定战利品表。",
+      "name：指定战利品表的命名空间ID。",
+      "seed：（可选）指定战利品表的种子。如果不存在或设为0，游戏将会使用随机序列。",
+      "type：容器方块物品的方块实体命名空间ID。"
+    ],
+    "set_lore": [
+      "为物品添加或修改描述信息。",
+      "entity：指定文本组件中@s表示的实体。可以为this（执行战利品生成的实体）、attacker（杀死本实体的实体）、attacking_player（杀死本实体的玩家）、direct_attacker（进行直接击杀本实体的实体）、target_entity（交互行为中的目标实体）和interacting_entity（交互行为的执行实体）。",
+      "lore：若干行描述信息。",
+      "：（文本组件）表示一行描述信息。",
+      "mode：设置数据修改模式。",
+      "如果mode取值为append，追加模式，直接在原始数据的末尾添加。",
+      "如果mode取值为insert，插入模式，插入到原始数据中的某个位置。附加标签：",
+      "offset：（可选，不小于0，默认为0）插入位置下标。",
+      "如果mode取值为replace_all，全部替换模式，直接替换原始数据。",
+      "如果mode取值为replace_section，片段替换模式，仅替换原始数据的一个指定片段。附加标签：",
+      "offset：（可选，不小于0，默认为0）片段的起始下标。",
+      "size：（可选，不小于0，默认等于lore列表的长度）片段长度。"
+    ],
+    "set_name": [
+      "添加或修改物品的自定义名称。",
+      "entity：指定JSON文本里中@s表示的实体。可以为this（执行战利品生成的实体）、attacker（杀死本实体的实体）、attacking_player（杀死本实体的玩家）、direct_attacker（进行直接击杀本实体的实体）、target_entity（交互行为中的目标实体）和interacting_entity（交互行为的执行实体）。",
+      "name：（文本组件）表示物品修改后的自定义名称。仅当entity成功定位实体时，文本组件才会被解析。",
+      "target：设置自定义名称的目标组件。可以为custom_name（写入custom_name物品堆叠组件）或item_name（写入item_name物品堆叠组件）。"
+    ],
+    "set_ominous_bottle_amplifier": [
+      "为不祥之瓶添加ominous_bottle_amplifier物品堆叠组件。",
+      "amplifier：设置饮用不祥之瓶后玩家获得不祥之兆的倍率。",
+      "数值提供器，见Template:Nbt inherit/number provider/source"
+    ],
+    "set_potion": [
+      "设置物品包含的药水效果。",
+      "id：（命名空间ID）一项药水效果。"
+    ],
+    "set_random_dyes": [
+      "对物品进行染色。染色结果会设置进dyed_color组件中。",
+      "*number_of_dyes：要进行染色的次数。一共有16种颜色可被选择，可能会重复。",
+      "数值提供器，见Template:Nbt inherit/number provider/source"
+    ],
+    "set_random_potion": [
+      "设置物品的药水效果。与set_potion相比，此函数允许在多个药水效果中选择一个设置。",
+      "options：要设置的药水效果。可以是药水效果ID、药水效果标签或药水效果ID的列表。"
+    ],
+    "set_stew_effect": [
+      "为谜之炖菜添加状态效果，如果物品不是谜之炖菜则不做任何处理。",
+      "effects：要加上的状态效果。",
+      "：一个效果。",
+      "duration：指定状态效果的持续时间。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "type：状态效果ID。"
+    ],
+    "set_writable_book_pages": [
+      "设置书与笔内书页的信息。",
+      "pages：书与笔内存储的页信息，必须为以下格式之一。",
+      "：（长度不超过1024）书与笔内一页的文本信息。如果开启过滤，则代表文本信息与原信息一致。",
+      "：书与笔内一页的信息。",
+      "filtered：（可能不存在，长度不超过1024）已过滤的文本信息。在开启过滤时，此字符串优先级高于text。",
+      "text：（长度不超过1024）未过滤的文本原始信息。",
+      "mode：设置书页数据的模式。",
+      "如果mode是append，则将此物品修饰器定义的书页列表附加到原书与笔书页列表后，没有附加标签。",
+      "如果mode是insert，则将此物品修饰器定义的书页列表插入到原书与笔书页列表内，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）列表的插入位置下标。",
+      "如果mode是replace_all，则替换整个书页列表数据，没有附加标签。",
+      "如果mode是replace_section，则替换书页列表中的一个区间内元素的数据，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）替换列表的起始下标。",
+      "size：（可选，不小于0，默认为pages列表长度）替换列表的长度。"
+    ],
+    "set_written_book_pages": [
+      "设置成书内书页的信息。",
+      "pages：成书内存储的页信息，必须为以下格式之一。",
+      "：（文本组件）成书内一页的文本组件信息。如果开启过滤，则代表过滤后文本信息与原信息一致。",
+      "：成书内一页的信息。",
+      "filtered：（文本组件）已过滤的文本组件信息。在开启过滤时，此字符串优先级高于raw。",
+      "raw：（文本组件）未过滤的文本组件原始信息。",
+      "mode：设置书页数据的模式。",
+      "如果mode是append，则将此物品修饰器定义的书页列表附加到原成书书页列表后，没有附加标签。",
+      "如果mode是insert，则将此物品修饰器定义的书页列表插入到原成书书页列表内，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）列表的插入位置下标。",
+      "如果mode是replace_all，则替换整个书页列表数据，没有附加标签。",
+      "如果mode是replace_section，则替换书页列表中的一个区间内元素的数据，并带有下列附加标签：",
+      "offset：（可选，不小于0，默认为0）替换列表的起始下标。",
+      "size：（可选，不小于0，默认为pages列表长度）替换列表的长度。"
+    ],
+    "toggle_tooltips": [
+      "设置物品提示框部分文本的可见性。",
+      "toggles：要设置的物品堆叠组件。",
+      "<物品组件ID>：设置此组件的提示框文本是否可见。"
+    ],
+    "Java版": [
+      "1.9",
+      "15w43c",
+      "加入了set_damage函数。",
+      "15w44a",
+      "加入了enchant_randomly和set_attributes函数。",
+      "1.10",
+      "16w21a",
+      "向looting_enchant函数加入limit字段。",
+      "1.13",
+      "17w47a",
+      "移除了set_data函数。",
+      "18w01a",
+      "加入了set_name函数。",
+      "pre3",
+      "exploration_map函数不再只在容器中生效。",
+      "1.14",
+      "18w43a",
+      "加入了apply_bonus、​copy_name、​explosion_decay、​limit_count、​set_contents和​set_loot_table函数。",
+      "18w44a",
+      "加入了fill_player_head和set_lore函数。",
+      "向set_name函数加入entity字段。",
+      "18w49a",
+      "加入了copy_nbt函数。",
+      "1.15",
+      "19w34a",
+      "加入了copy_state函数。",
+      "1.17",
+      "20w45a",
+      "加入了set_banner_pattern函数。",
+      "20w46a",
+      "加入了set_enchantments函数。",
+      "现在战利品表函数可在数据包的item_modifiers目录下单独定义。",
+      "1.18",
+      "21w37a",
+      "现在set_contents和set_loot_table函数需要必选的type字段。",
+      "21w39a",
+      "加入了set_potion函数。",
+      "1.18.2",
+      "pre1",
+      "现在exploration_map函数不再自动设置地图的显示名称，且destination字段需要标签。",
+      "1.19",
+      "22w17a",
+      "加入了set_goat_horn_sound函数。",
+      "22w18a"
+    ],
+    "移除了set_goat_horn_sound函数": [
+      "加入了set_instrument函数。",
+      "1.20",
+      "23w14a",
+      "加入了reference函数。",
+      "1.20.2",
+      "23w32a",
+      "加入了sequence函数。",
+      "1.20.5",
+      "24w09a",
+      "将set_nbt和copy_nbt函数分别重命名为set_custom_data和copy_custom_data以用于物品的custom_data组件。",
+      "更新了set_attributes函数。",
+      "加入了set_components和​copy_components函数。",
+      "24w11a",
+      "加入了set_fireworks、​set_firework_explosion、​set_book_cover、​set_writable_book_pages和​set_written_book_pages函数。",
+      "24w12a",
+      "加入了toggle_tooltips函数。",
+      "移除了set_lore函数的replace字段，由mode代替。",
+      "现在set_written_book_pages函数的pages内是JSON对象而非JSON文本。",
+      "exploration_map函数的地图图标现在是命名空间ID，因而不再支持大写字母和无效的图标ID。",
+      "24w13a",
+      "加入了set_ominous_bottle_amplifier函数。",
+      "向set_name函数加入了可选target字段。",
+      "移除了copy_components函数的components字段，由include和exclude代替。",
+      "24w14a",
+      "向set_attributes加入了replace字段。",
+      "pre1",
+      "加入了set_custom_model_data、​set_item、​modify_contents和​filtered函数。",
+      "现在set_custom_data函数的tag也接受字符串和不扁平的标签。",
+      "移除了set_contents未使用的type字段，并加入了component。",
+      "pre2",
+      "修改了set_fireworks函数。",
+      "1.21",
+      "24w18a",
+      "将looting_enchant函数重命名为enchanted_count_increase，并加入了enchantment字段。",
+      "将enchant_randomly函数的enchantments更改为options。",
+      "移除了enchant_with_levels函数的treasure字段，并加入了options。",
+      "将copy_name函数的source取值从killer和​killer_player分别更改为attacking_entity和​last_damage_player。",
+      "24w21a",
+      "将注册物品修饰器的文件夹item_modifiers重命名为item_modifier。",
+      "1.21.4",
+      "24w45a",
+      "更改了set_custom_model_data的格式以适配新的custom_model_data组件结构。",
+      "1.21.5",
+      "25w04a",
+      "现在toggle_tooltips函数支持隐藏所有组件的提示框文本。",
+      "1.21.9",
+      "pre1",
+      "现在copy_components函数支持实体源和物品源，此前仅支持方块实体。",
+      "现在copy_name函数支持来源direct_attacker、​target_entity和​interacting_entity。",
+      "1.21.11",
+      "25w43a",
+      "加入了discard函数。",
+      "将filtered函数的modifier重命名为on_pass，并加入on_fail以支持检测失败时的物品修饰。",
+      "26.1",
+      "snapshot-1",
+      "加入了set_random_dyes和set_random_potion函数。",
+      "向enchant_with_levels和enchant_randomly函数加入了include_additional_cost_component字段。",
+      "snapshot-5",
+      "set_random_dyes不再只对属于物品标签#dyeable的物品工作。",
+      "pre-1",
+      "现在set_instrument函数也可以接受乐器ID或乐器ID的列表，而非只接受乐器标签。"
+    ],
+    "copy_nbt": [
+      "本章节内容移除于Java版1.20.5。原因：被重命名为copy_custom_data。",
+      "拷贝NBT到物品的tag标签。",
+      "ops：一系列复制操作，为一个列表。",
+      "：一个复制操作。",
+      "op：设置为replace以替换target所确定的目标标签集。设置为append，则尝试以源标签集作为元素，复制到目标标签集中所有列表的末尾。设置为merge，则尝试融合到目标标签集中的所有复合标签中。",
+      "source：一个起始点为复制源根标签的NBT路径，确定了源标签集。",
+      "target：一个起始点为物品tag标签的NBT路径，确定了目标标签集。例如：\"target\":\"example_tag\"将会选中物品的tag.example_tag标签（即仅包含example_tag一个标签的标签集）。",
+      "source：指定NBT的复制源。可以是一个实体或方块实体，或引用一个命令存储。如果为字符串，则会指定一个实体或方块实体，值与下方target相同。",
+      "type：复制源的类型。可以为context（实体或方块实体）和storage（使用命令存储）。",
+      "如果type为context，附加标签如下：",
+      "target：指定作为复制源的实体或方块实体。可以为block_entity（物品对应方块的方块实体）、this（执行战利品生成的实体）、killer（杀死本实体的实体）、killer_player（杀死本实体的玩家）和direct_killer（进行直接击杀本实体的实体）。",
+      "如果type为storage，附加标签如下：",
+      "source：指定作为复制源的命令存储的命名空间ID。"
+    ],
+    "set_nbt": [
+      "本章节内容移除于Java版1.20.5。原因：被重命名为set_custom_data。",
+      "在该物品上添加NBT标签。",
+      "tag：要添加的NBT标签，内部的双引号需要使用\\转义。添加的NBT标签会自动合并到物品的tag内。"
+    ],
+    "looting_enchant": [
+      "本章节内容移除于Java版1.21。原因：被重命名为enchanted_count_increase。",
+      "决定了抢夺魔咒对该物品数量的影响。如果未使用，抢夺魔咒将对该物品没有效果。",
+      "count：每等级抢夺魔咒使得物品需要增加的数量。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "limit：物品的最大数量，超过此数量会被强制限制在此数量。如果设置为0，则无限制。"
+    ]
+  }
+}

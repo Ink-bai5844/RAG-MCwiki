@@ -1,0 +1,293 @@
+{
+  "title": "密度函数",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%AF%86%E5%BA%A6%E5%87%BD%E6%95%B0",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "密度函数定义文件是密度函数（Density Function）在数据包中的数据驱动定义文件。"
+    ],
+    "定义格式": [
+      "密度函数在游戏中使用DENSITY_FUNCTION注册表，数据包路径为worldgen/density_function，即所有的密度函数定义文件都需要在data/<命名空间>/worldgen/density_function目录下定义。",
+      "密度函数定义文件使用JSON格式，并具有下列结构："
+    ],
+    "JSON文件根对象": [
+      "*type：密度函数类型。",
+      "依密度函数类型的额外字段，详见下文。"
+    ],
+    "定义行为": [
+      "密度函数定义数据仅在服务端启动时加载一次，使用/reload命令不可以使密度函数定义被重新加载，而必须重启服务端。",
+      "密度函数可以根据一定的运算法则将一个坐标转换为一个数，主要供噪声设置使用。密度函数的常数取值不允许超过区间[-1000000.0, 1000000.0]。"
+    ],
+    "interpolated": [
+      "根据周围元胞（Cell）的密度函数值，对元胞里的每个方块进行插值。每个元胞的大小为size_horizontal * 4和size_vertical * 4。",
+      "：根对象。",
+      "*type：interpolated",
+      "*argument：输入的密度函数。可以为一个密度函数ID、一个密度函数常数值或一个密度函数的JSON格式。下文的密度函数字段与此格式相同。"
+    ],
+    "flat_cache": [
+      "对输入的密度函数在Y=0的值按照元胞缩放大小进行缓存。",
+      "：根对象。",
+      "*type：flat_cache",
+      "*argument：输入的密度函数。",
+      "cache_2d",
+      "对输入的密度函数值进行缓存，直到当前计算的坐标发生变化。",
+      "：根对象。",
+      "*type：cache_2d",
+      "*argument：输入的密度函数。"
+    ],
+    "cache_once": [
+      "对输入的密度函数值进行缓存，直到下一次插值运算。",
+      "：根对象。",
+      "*type：cache_once",
+      "*argument：输入的密度函数。"
+    ],
+    "cache_all_in_cell": [
+      "在游戏内部对final_density使用。对输入的密度函数值按元胞为单位进行缓存，存入区块的内存数据中。",
+      "：根对象。",
+      "*type：cache_all_in_cell",
+      "*argument：输入的密度函数。"
+    ],
+    "abs": [
+      "返回输入的密度函数值的绝对值。",
+      "：根对象。",
+      "*type：abs。",
+      "*argument：输入的密度函数。"
+    ],
+    "square": [
+      "返回输入的密度函数值的平方。",
+      "：根对象。",
+      "*type：square。",
+      "*argument：输入的密度函数。"
+    ],
+    "cube": [
+      "返回输入的密度函数值的立方。",
+      "：根对象。",
+      "*type：cube。",
+      "*argument：输入的密度函数。"
+    ],
+    "half_negative": [
+      "如果输入的密度函数的值大于零，则返回该值本身；否则返回该值的一半。",
+      "：根对象。",
+      "*type：half_negative",
+      "*argument：输入的密度函数。"
+    ],
+    "quarter_negative": [
+      "如果输入的密度函数值大于零，则返回该值本身；否则返回该值的1/4。",
+      "：根对象。",
+      "*type：quarter_negative",
+      "*argument：输入的密度函数。"
+    ],
+    "squeeze": [
+      "首先把输入值钳制在-1到1的区间内（小于-1的视为-1，大于1的视为1），然后将它代入公式x/2 - x*x*x/24并返回。",
+      "：根对象。",
+      "*type：squeeze",
+      "*argument：输入的密度函数。"
+    ],
+    "invert": [
+      "返回输入值的倒数，1 / argument。",
+      "：根对象。",
+      "*type：invert",
+      "*argument：输入的密度函数。"
+    ],
+    "add": [
+      "将两个密度函数值相加。",
+      "：根对象。",
+      "*type：add",
+      "*argument1：第一个密度函数。",
+      "*argument2：第二个密度函数。"
+    ],
+    "mul": [
+      "将两个密度函数值相乘。",
+      "：根对象。",
+      "*type：mul",
+      "*argument1：第一个密度函数。",
+      "*argument2：第二个密度函数。"
+    ],
+    "min": [
+      "取两个密度函数值的最小值。",
+      "：根对象。",
+      "*type：min",
+      "*argument1：第一个密度函数。",
+      "*argument2：第二个密度函数。"
+    ],
+    "max": [
+      "取两个密度函数值的最大值。",
+      "：根对象。",
+      "*type：max",
+      "*argument1：第一个密度函数。",
+      "*argument2：第二个密度函数。"
+    ],
+    "blend_alpha": [
+      "目前在原版用于旧版区块与新版区块间的过渡。如果区域内全部为新版区块，返回1。",
+      "：根对象。",
+      "*type：blend_alpha"
+    ],
+    "blend_offset": [
+      "目前在原版用于旧版区块与新版区块间的过渡。如果区域内全部为新版区块，返回0。",
+      "：根对象。",
+      "*type：blend_offset"
+    ],
+    "目前在原版用于旧版区块与新版区块间的过渡。[需要更多信息]": [
+      "：根对象。",
+      "type：blend_density",
+      "*argument：另一个密度函数。"
+    ],
+    "beardifier": [
+      "向结构中添加额外的地形，添加方式参见结构的terrain_adaptation字段。不需要在噪声设置中额外声明，游戏会在世界生成时自动调用此函数。",
+      "：根对象。",
+      "*type：beardifier"
+    ],
+    "old_blended_noise": [
+      "旧版的噪声算法，使用高噪声、低噪声和选择器噪声生成混合噪声[需要更多信息]，详见噪声生成器#地形噪声生成器。",
+      "：根对象。",
+      "*type：old_blended_noise",
+      "*xz_scale：（0.001≤值≤1000.0）高噪声和低噪声在X/Z轴上的缩放，类似于旧版自定义中的平面比例，数值越高频率越高，实际高噪声和低噪声每个方块的采样坐标增加量等于该值乘以684.412。",
+      "*y_scale：（0.001≤值≤1000.0）高噪声和低噪声在Y轴上的缩放，类似于旧版自定义中的高度比例，采样坐标增加量与方块坐标的关系同上。",
+      "*xz_factor：（0.001≤值≤1000.0）选择器噪声在X/Z轴上的缩放，类似于旧版自定义中的主地形差异值 X和主地形差异值 Z，实际选择器噪声每个方块的采样坐标增加量等于xz_scale的值除以该值。",
+      "*y_factor：（0.001≤值≤1000.0）选择器噪声在Y轴上的缩放，类似于旧版自定义中的主地形差异值 Y，采样坐标增加量与方块坐标的关系同上。",
+      "*smear_scale_multiplier：（1.0≤值≤8.0）与噪声在Y轴上的采样有关。[需要更多信息]"
+    ],
+    "noise": [
+      "对噪声进行一次采样。",
+      "：根对象。",
+      "*type：noise",
+      "*noise：一个噪声ID。",
+      "*xz_scale：（取值范围不限）X坐标和Z坐标的缩放比例。",
+      "*y_scale：（取值范围不限）Y坐标的缩放比例。"
+    ],
+    "end_islands": [
+      "使用末地岛屿的噪声算法对当前水平坐标进行采样。其最小值为-0.84375，最大值为0.5625。",
+      "：根对象。",
+      "*type：end_islands"
+    ],
+    "weird_scaled_sampler": [
+      "根据输入的另一个密度函数，对指定噪声的特定区域进行缩放、减弱增强，并取绝对值后返回。",
+      "：根对象。",
+      "*type：密度函数类型ID，此处为weird_scaled_sampler。",
+      "*rarity_value_mapper：取值可以为type_1（最小缩放增强率为0.75，最大为2.0）或type_2（最小缩放增强率为0.5，最大为3.0）。",
+      "*noise：一个噪声ID。",
+      "*input：另一个密度函数。"
+    ],
+    "shifted_noise": [
+      "类似noise，但是先缩放并偏移输入的坐标。",
+      "：根对象。",
+      "*type：shifted_noise",
+      "*noise：一个噪声ID。",
+      "*xz_scale：（取值范围不限）X坐标和Z坐标的缩放比例。",
+      "*y_scale：（取值范围不限）Y坐标的缩放比例。",
+      "*shift_x：一个用于偏移X坐标的密度函数。",
+      "*shift_y：一个用于偏移Y坐标的密度函数。",
+      "*shift_z：一个用于偏移Z坐标的密度函数。"
+    ],
+    "range_choice": [
+      "计算输入的密度函数值，然后基于结果返回两个密度函数中的一个。",
+      "：根对象。",
+      "*type：range_choice",
+      "*input：输入的密度函数。",
+      "*min_inclusive：（-1000000.0≤值≤1000000.0）范围的下限（包含）。",
+      "*max_exclusive：（-1000000.0≤值≤1000000.0）范围的上限（不包含）。",
+      "*when_in_range：当输入值在范围内时返回的密度函数。",
+      "*when_out_of_range：当输入值不在范围内时返回的密度函数。"
+    ],
+    "shift_a": [
+      "在(x/4, 0, z/4)处进行噪声采样后乘上4。",
+      "：根对象。",
+      "*type：shift_a",
+      "*argument：一个噪声ID。"
+    ],
+    "shift_b": [
+      "在(z/4, x/4, 0)处进行噪声采样后乘上4。",
+      "：根对象。",
+      "*type：shift_b",
+      "*argument：一个噪声ID。"
+    ],
+    "shift": [
+      "在(x/4, y/4, z/4)处进行噪声采样后乘上4。",
+      "：根对象。",
+      "*type：shift",
+      "*argument：一个噪声ID。"
+    ],
+    "clamp": [
+      "将输入值钳制在一个范围内。",
+      "：根对象。",
+      "*type：clamp",
+      "*input：另一个密度函数。",
+      "*min：（-1000000.0≤值≤1000000.0）下限值。",
+      "*max：（-1000000.0≤值≤1000000.0）上限值。"
+    ],
+    "spline": [
+      "计算一个三次样条。",
+      "：根对象。",
+      "*type：spline",
+      "*spline：一个样条，可以是一个数或一个对象。",
+      "*coordinate：用于得到坐标的密度函数。",
+      "*points：（不能为空）三次样条的点列表。",
+      "*location：该点的坐标。",
+      "*value：该点的值。可以是一个数或另一个样条对象。",
+      "*derivative：该点处的斜率。"
+    ],
+    "constant": [
+      "返回一个常数。",
+      "：根对象。",
+      "*type：constant",
+      "*argument：（-1000000.0≤值≤1000000.0）一个常数。"
+    ],
+    "y_clamped_gradient": [
+      "将Y坐标钳制后线性映射到一个区间上返回。",
+      "：根对象。",
+      "*type：y_clamped_gradient",
+      "*from_y：（-4064≤值≤4062）Y坐标映射区间的开始值。",
+      "*to_y：（-4064≤值≤4062）Y坐标映射区间的结束值。",
+      "*from_value：（-1000000.0≤值≤1000000.0）*from_y对应的映射值。",
+      "*to_value：（-1000000.0≤值≤1000000.0）*to_y对应的映射值。"
+    ],
+    "find_top_surface": [
+      "从上限扫描到下限来定位密度函数值由负转正的位置，以近似计算指定密度函数的顶层表面。"
+    ],
+    "根对象": [
+      "*type：find_top_surface。",
+      "*density：所计算表面的密度函数。",
+      "*upper_bound：提供最高有效Y值的2D密度函数，也即扫描上限。",
+      "*lower_bound：最低有效Y值，也即扫描下限。",
+      "*cell_height：（值>0）所扫描网格的分辨率。"
+    ],
+    "Java版": [
+      "1.18.2",
+      "pre1",
+      "加入了密度函数abs、​add、​beardifier、​blend_alpha、​blend_density、​blend_offset、​cache_2d、​cache_all_in_cell、​cache_once、​clamp、​constant、​cube、​end_islands、​flat_cache、​half_negative、​interpolated、​max、​min、​mul、​noise、​old_blended_noise、​quarter_negative、​range_choice、​shift、​shift_a、​shift_b、​shifted_noise、​slide、​square、​squeeze、​terrain_shaper_spline、​weird_scaled_sampler和​y_clamped_gradient。",
+      "pre2",
+      "加入了密度函数spline。",
+      "1.19",
+      "22w11a",
+      "移除了密度函数terrain_shaper_spline。",
+      "移除了spline函数的min_value和max_value字段。",
+      "22w12a",
+      "移除了密度函数slide，改为使用add、​mul和​y_clamped_gradient来达成相同效果。",
+      "1.21.9",
+      "25w31a",
+      "加入了密度函数find_top_surface和invert。"
+    ],
+    "slide": [
+      "根据噪声设置的顶部曲线和底部曲线进行设置。",
+      "低于min_y+bottom_slide.offset*size_vertical*4时始终为bottom_slide.target，高于min_y+height-top_slide.offset*size_vertical*4时始终为top_slide.target。游戏会自动使用bottom_slide.size*size_vertical及top_slide.size*size_vertical的高度进行平滑过渡，而不处理中间区域。",
+      "：根对象。",
+      "*type：slide",
+      "*argument：另一个密度函数。"
+    ],
+    "terrain_shaper_spline": [
+      "从噪声设置中计算地形塑形器样条。",
+      "：根对象。",
+      "*type：terrain_shaper_spline",
+      "*spline：使用的地形塑形器样条，可以为offset，factor，或jaggedness。",
+      "*min_value：（-1000000.0≤值≤1000000.0）样条输出的最小值。",
+      "*max_value：（-1000000.0≤值≤1000000.0）样条输出的最大值。",
+      "*continentalness：用于continentalness样条坐标的密度函数。",
+      "*erosion：用于erosion样条坐标的密度函数。",
+      "*weirdness：用于weirdness样条坐标的密度函数。"
+    ],
+    "外部链接": [
+      "此页面部分内容是Misode整理的Minecraft JSON文件格式和Misode的教程翻译得来。",
+      "“历史”一节参考了Misode记录的技术性更新日志。"
+    ]
+  }
+}

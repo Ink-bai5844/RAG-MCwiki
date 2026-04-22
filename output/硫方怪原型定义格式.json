@@ -1,0 +1,5 @@
+{
+  "title": "硫方怪原型定义格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A1%AB%E6%96%B9%E6%80%AA%E5%8E%9F%E5%9E%8B%E5%AE%9A%E4%B9%89%E6%A0%BC%E5%BC%8F",
+  "text": "本页面包含会在下一次更新中出现的内容。\n这些特性在Java版26.2的开发版本中加入。\n硫方怪原型定义文件是用于定义硫方怪原型（Sulfur Cube archetype）的数据驱动定义文件。\n定义格式\n硫方怪原型在游戏内使用SULFUR_CUBE_ARCHETYPE注册表，数据包路径为sulfur_cube_archetype，即所有硫方怪原型定义文件都需要在data/<命名空间>/sulfur_cube_archetype目录内定义。\n硫方怪原型定义文件使用JSON格式，并具有下列结构：\nJSON文件根对象\n*items：对硫方怪使用何种物品后其会获得此硫方怪原型。可以为单个物品ID、一个物品ID的列表，或一个带#前缀的物品标签。\n*attribute_modifiers：此硫方怪原型对硫方怪应用的属性修饰符。\n*\n*attribute：（命名空间ID）属性的命名空间ID。指定硫方怪不具有的属性没有任何作用。\n*\n*id：（命名空间ID）属性修饰符的命名空间ID。\n*\n*amount：计算中修饰符调整基础值的数值。\n*\n*operation：定义修饰符对属性的基础值的运算模式。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。如果设置值无效，则为add_value（Op0）。\nbuoyant：（默认为false）此硫方怪原型是否允许硫方怪在流体中漂浮。\n定义行为\n硫方怪原型定义数据仅在服务端启动时被加载一次，使用/reload命令不可以使硫方怪原型定义被重新加载，而必须重启服务端。\n当硫方怪吸收物品后，游戏会根据物品对应的硫方怪原型修改硫方怪的行为：更换属性修饰符，且只要有一个硫方怪原型定义了硫方怪就可以漂浮在流体上，而非被淹没。换言之，如果单个物品在多个硫方怪原型中被定义，硫方怪也会根据硫方怪原型的加载顺序依次应用属性修饰符。\n历史\nJava版（即将到来）\n26.2\nsnapshot-1\n加入了硫方怪原型。\n导航"
+}

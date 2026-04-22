@@ -1,0 +1,30 @@
+{
+  "title": "PlayStation 4版1.89",
+  "source_url": "https://zh.minecraft.wiki/w/PlayStation_4%E7%89%881.89",
+  "structured_content": {
+    "默认分类": [
+      "1.89"
+    ],
+    "版本": [
+      "PlayStation 4版"
+    ],
+    "发布时间": [
+      "2019年3月7日",
+      "◄1.88",
+      "1.90►",
+      "1.89是PlayStation 4版的一个更新，发布于2019年3月7日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了6个漏洞",
+      "修复了在Steven Universe混搭包的僵尸纹理问题。",
+      "修复了在区块边界上分开的箱子；分开的箱子将需要破坏和放置。",
+      "修复了旧的潜影盒加载为紫色潜影盒而不是未染色的。",
+      "修复了发射器没有放置潜影盒。",
+      "MCCE-8829——下界砖栅栏需要获得下界砖墙的配方。",
+      "MCCE-8832——石台阶可以合成紫珀柱。"
+    ],
+    "参考": [
+      "A small bug fix update is rolling out now for Minecraft: PlayStation 4 Edition. Changes are here，来自@4JStudios。X（曾名Twitter），2019年3月7日。"
+    ]
+  }
+}

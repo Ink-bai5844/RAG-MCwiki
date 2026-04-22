@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.20.51",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.51",
+  "text": "1.20.51\n版本\n基岩版\n服务端版本\n1.20.51.01\n内部版本号\nAndroid：1.20.51.01\nPlayStation：2.79\nWindows：1.20.5101.0\n版本码\nAndroid：\n952005101（armeabi-v7a，33）\n962005101（x86，33）\n972005101（arm64-v8a，33）\n982005101（x86_64，33）\niOS/iPadOS：\n862185570\n发布时间\nChromeOS/Android, iOS/iPadOS, PlayStation, Windows, Xbox - 2023年12月14日\nFire, Nintendo Switch - 2023年12月15日\n下载\n服务端\nWindowsLinux\n协议版本\n630\n◄◄1.20.50\n1.20.80►►\n◄1.20.50\n1.20.60►\n1.20.51是基岩版的一次热修复更新，发布于2023年12月14日至15日，修复了一些漏洞。此版本与1.20.50相兼容。\n修复\n修复了在Realms上游玩时可能发生的崩溃。\n使用物品时切换所选槽位后不再有概率复制该物品。（MCPE-177351、MCPE-177353、MCPE-177355）\n现在可以在更衣室的表情区域中找到所有未拥有和已拥有的表情。\n修复了加入多人游戏时不会显示需要PlayStation Plus的提示的问题。（MCPE-177309）\nminecraft:random_ticking方块组件现在再次受支持。\n参考\nMinecraft - 1.20.51 (Bedrock) — Minecraft Feedback，2023年12月14日。\n导航"
+}

@@ -1,0 +1,56 @@
+{
+  "title": "天空盒",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%A4%A9%E7%A9%BA%E7%9B%92",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是天空。",
+      "此条目描述的是一个愚人节玩笑版本25w14craftmine中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "sky_box": [
+      "天空盒（Sky Box）是一种用于更换天空视觉效果的物品。"
+    ],
+    "获取": [
+      "天空盒生成在拥有维度控制器的小房间锅炉房中。"
+    ],
+    "用途": [
+      "天空盒用于改变当前维度天空的外观。将其置于维度控制器中可改变所处世界的天空盒效果。通过使用锅炉房房间的微光钥匙（可通过命令/give@sshimmering_key[instant_room={\"structure\":boiler}]获取）开启微光之门，可获取七种不同的天空盒。对应天空效果如下："
+    ],
+    "大厅（经典）（Hub (Classic)）": [
+      "纯基岩天空。",
+      "/give@ssky_box[sky={repeats:16,size:400.0f,texture:\"block/bedrock\",name:{translate:\"sky.classic_hub\"},type:\"cube\"}]"
+    ],
+    "主世界（Overworld）": [
+      "普通天空。",
+      "/give@ssky_box[sky={type:\"overworld\"}]"
+    ],
+    "纹理丢失（Missing）": [
+      "使用无效纹理的天空。",
+      "/give@ssky_box[sky={repeats:16,size:400.0f,texture:\"missing\",name:{translate:\"sky.missing\"},type:\"cube\"}]"
+    ],
+    "末地（The End）": [
+      "末地天空。",
+      "/give@ssky_box[sky={type:\"end\"}]"
+    ],
+    "渺小（Smol）": [
+      "初始平台内部截图的天空，行走时天空会产生剧烈晃动效果。",
+      "/give@ssky_box[sky={type:\"panorama\"}]"
+    ],
+    "馊主意（Bad Idea）": [
+      "完整呈现blocks.png-atlas方块纹理图集的天空。",
+      "/give@ssky_box[sky={repeats:1,size:400.0f,texture:\"atlas/blocks\",name:{translate:\"sky.atlas\"},type:\"cube\"}]"
+    ],
+    "真正的天空（True Sky）": [
+      "使用天空方块拼接纹理的天空。",
+      "/give@ssky_box[sky={repeats:8,size:400.0f,texture:\"block/sky\",name:{translate:\"sky.actual_sky\"},type:\"cube\"}]"
+    ],
+    "开发者模式（Dev Mode）": [
+      "可在主世界维度获取，默认放置在锅炉房房间的维度控制器中。",
+      "/give@ssky_box[sky={type:\"code\"}]"
+    ]
+  }
+}

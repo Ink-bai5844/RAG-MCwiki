@@ -1,0 +1,5 @@
+{
+  "title": "属性/击退",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E5%87%BB%E9%80%80",
+  "text": "本条目介绍的是Minecraft中的一种属性。关于用于剑的魔咒，请见“击退”；关于爆炸击退，请见“爆炸 § 爆炸击退”。\n本条目所述内容仅适用于Java版。\n击退\n类型\n正面\n默认值\n0\n值域\n0 – 5\n属性ID\nattack_knockback\n击退（Attack Knockback）是控制生物攻击的击退效果的属性。\n行为\n主条目：伤害 § 击退\n击退会增加生物攻击时对生物产生的击退效果。\n适用的生物\n生物\n基值\n劫掠兽\n监守者\n1.5\n疣猪兽\n僵尸疣猪兽\n1\n其他所有生物\n0\n已知修饰符\n击退没有已知修饰符。\n历史\nJava版\n1.14\n18w43a\n加入了击退属性。\n1.16\n20w14a\n重命名generic.attackKnockback到generic.attack_knockback。\n1.21\n24w18a\n击退属性现在也对玩家生效。\n1.21.2\n24w33a\n击退属性的ID从generic.attack_knockback重命名为attack_knockback。\n导航"
+}

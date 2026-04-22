@@ -1,0 +1,5 @@
+{
+  "title": "Java版23w43b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8823w43b",
+  "text": "23w43b\n版本\nJava版\n类型\n快照\n发布时间\n2023年10月27日\n快照归属\n1.20.3\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741984\nHEX: 400000A0\n数据版本\n3687\n资源包版本\n20\n数据包版本\n22\n◄◄1.20.2\n1.20.4►►\n◄23w43a\n23w44a►\n23w43b是Java版1.20.3的第5个快照，发布于2023年10月27日，修复了一些崩溃漏洞。\n修复\n修复了2个漏洞\n上个开发版本的漏洞\nMC-266143 — 当JMX监控启用时，监视器（Watchdog）导致服务器在启动时崩溃。\n未公开漏洞\n退出“配置Realm”屏幕导致游戏崩溃。\n参考\nMinecraft Snapshot 23w43b — Minecraft.net，2023年10月27日。\n导航"
+}

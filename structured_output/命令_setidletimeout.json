@@ -1,0 +1,32 @@
+{
+  "title": "命令/setidletimeout",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsetidletimeout",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "3"
+    ],
+    "仅专用服务端": [
+      "设置玩家空闲不动被踢出的时间。玩家无操作世界持续<minute>分钟即被踢出服务器。"
+    ],
+    "参数": [
+      "<minutes>：integer",
+      "指定被踢出的分钟数。若为0，则禁用自动踢出无操作的玩家。",
+      "必须为32位整数。且必须大于等于0。"
+    ],
+    "Java版": [
+      "1.7.2",
+      "13w38a",
+      "加入了/setidletimeout。"
+    ],
+    "N/A": [
+      "1"
+    ],
+    "示例": [
+      "设定玩家允许的最大空闲时间为20分钟，超出则踢出游戏：setidletimeout 20",
+      "禁用自动踢出无操作的玩家：setidletimeout 0"
+    ]
+  }
+}

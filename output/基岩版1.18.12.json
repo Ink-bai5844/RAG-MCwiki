@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.18.12",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.12",
+  "text": "1.18.12\n版本\n基岩版\n服务端版本\n1.18.12.01\n内部版本号\nAndroid：1.18.12.01\nPlayStation：2.39\nWindows：1.18.1201.0\n版本码\nAndroid（试玩版本）：\n951801201（armeabi-v7a，30）\n971801201（arm64-v8a，30）\nAndroid（主版本）：\n951801201（armeabi-v7a，30）\n961801201（x86，30）\n971801201（arm64-v8a，30）\n981801201（x86_64，30）\niOS/iPadOS：\n847149418\n发布时间\nAndroid, iOS/iPadOS, Fire, Windows, Xbox, PlayStation - 2022年2月16日\nNintendo Switch - 2022年2月21日\n下载\n服务端\nWindowsLinux\n协议版本\n486\n◄◄1.18.0\n1.19.0►►\n◄1.18.11\n1.18.30►\n1.18.12是基岩版的一次热修复更新，在除Nintendo Switch外的平台上发布于2022年2月16日，在Nintendo Switch平台上发布于2022年2月21日，修复了一些漏洞。此版本与其他平台上的1.18.10和1.18.11相互兼容。\n修复\n提升了玩家行走时的流畅度。（MCPE-152176）\n现在Realms世界的暂停菜单上的“邀请加入游戏”按钮会一直保持可用。\n修复了在市场上无法查看评级分数和特价板块的问题。\n修复了玩家在熔炉UI界面中移动快捷栏上的物品时会获得经验的问题。（MCPE-152227）\n修复了在PlayStation上使用远程游玩来启动游戏时可能发生的崩溃。（MCPE-143803）\n修复了在0.0时动画时间线事件有时不会在循环动画中运行的漏洞。\n参考\nMinecraft - 1.18.12 (Bedrock) — Minecraft Feedback，2022年2月16日。\n导航"
+}

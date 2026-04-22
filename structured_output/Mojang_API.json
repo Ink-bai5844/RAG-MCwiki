@@ -1,0 +1,468 @@
+{
+  "title": "Mojang API",
+  "source_url": "https://zh.minecraft.wiki/w/Mojang_API",
+  "structured_content": {
+    "默认分类": [
+      "Mojang API是Mojang提供的应用程序编程接口，允许用户使用自编程序检索玩家数据，它适用于第三方启动器开发人员、服务器运营商和插件开发人员。",
+      "所有查询目前限制为每10分钟600次。对于没有购买游戏的注册账户，也可以进行部分信息的查询。"
+    ],
+    "服务器的请求与响应": [
+      "服务器能接受很多请求，如果没有特殊说明，对于具有负载的请求服务器有下面的限制：",
+      "请求头中的Content-Type必须是application/json。如果不是，服务器将返回HTTP状态码415。",
+      "如果请求中要求负载，则负载必须是一个有效的JSON文本。如果不是，服务器将返回HTTP状态码400。",
+      "如果请求成功，服务器会做出如下的响应：",
+      "一个成功的HTTP状态码（2XX）。",
+      "返回一个空的负载（这时服务器返回状态码204）或是一个JSON文本。",
+      "如果请求失败，服务器会返回一个非2XX的HTTP状态码并返回形式如下方的负载："
+    ],
+    "根标签": [
+      "error：对于错误的简短介绍。",
+      "errorMessage：错误信息。",
+      "cause：错误原因。",
+      "下面列出了一些常见的错误，在下文中不再重复说明。",
+      "id：玩家的UUID。",
+      "name：正确大写的玩家名称。",
+      "legacy：如果此账户没有迁移到Mojang账户，输出中包含此项。",
+      "demo：如果是没有购买游戏的注册账户，输出中包含此项。",
+      "id：玩家的UUID。",
+      "name：正确大写的玩家名称。",
+      "legacy：如果这个账户是一个旧的Minecraft账户，这项才存在。",
+      "properties：玩家属性的列表。",
+      "name：玩家属性的名称。到目前为止只有textures（玩家纹理）这一属性。",
+      "signature：只有在请求unsigned=false时，使用Yggdrasil私钥的签名才会作为Base64字符串传递。",
+      "value：Base64字符串，其中包含玩家所有的纹理（皮肤和披风）。解码后的字符串内容如下：",
+      "纹理对象。",
+      "timestamp：Unix时间戳，以毫秒为单位，时间为调用纹理数据的时间。",
+      "profileId：玩家的UUID，不带连字符。",
+      "profileName: 玩家名称。",
+      "signatureRequired: 只有在请求unsigned=false时才存在。",
+      "textures：纹理。",
+      "SKIN：皮肤纹理。如果这名玩家没有自定义皮肤，这项不存在。",
+      "url：皮肤纹理的URL链接。",
+      "metadata：可选。皮肤的元数据。",
+      "model：固定值slim。当皮肤模型为Alex时这一项才存在，模型为Steve则无该元数据。",
+      "CAPE：披风纹理。如果这名玩家没有披风，这项不存在。",
+      "url：披风纹理的URL链接。默认没有披风，仅当Mojang在玩家的账户数据中输入了披风时，才会显示披风。",
+      "agent：游戏信息。",
+      "name：游戏名称。固定值Minecraft。",
+      "version：版本。固定值1。",
+      "username：账户名称，是一个电子邮件地址。对于未迁移的账户，可以是玩家名称。",
+      "password：账户密码。",
+      "clientToken：客户端令牌，可选参数。所有的请求都要用统一的客户端令牌。启动器应该在第一次运行时生成一个令牌，并且需要在以后的请求中使用它。如果请求中不提供客户端令牌，那么服务器会随机生成一个令牌返回给客户端，客户端应该保存这个令牌并用于之后的请求，但是这样做会让客户端之前获得的访问令牌失效。",
+      "requestUser：响应是否包含user对象，可选参数，默认为false。",
+      "user：账户信息，只有当请求中requestUser为true时才存在。",
+      "username：账户名称，是一个电子邮件地址。对于未迁移到Mojang账户的账户是玩家名称。",
+      "properties：账户属性。",
+      "：一项属性。",
+      "name：属性名称，目前只有preferredLanguage和registrationCountry。",
+      "value：属性的值。当name为preferredLanguage时为语言；当name为registrationCountry时为注册时的国家信息。",
+      "id：账户的远程ID，是一个16进制的字符串。",
+      "clientToken：客户端令牌。",
+      "accessToken：访问令牌。",
+      "availableProfiles：可用的玩家配置信息。",
+      "：一项配置信息。",
+      "name：玩家名称。",
+      "id：玩家的UUID。",
+      "selectedProfile：现在正在使用的玩家配置信息。",
+      "name：玩家名称。",
+      "id：玩家的UUID。",
+      "accessToken：访问令牌，在请求之后这个令牌将会失效。",
+      "clientToken：客户端令牌，要与验证时的令牌一致。",
+      "selectedProfile：现在正在使用的玩家配置信息。",
+      "id：玩家的UUID。",
+      "name：玩家名称。",
+      "requestUser：响应是否包含user，可选参数，默认为false。",
+      "accessToken：新的有效的访问令牌。",
+      "clientToken：客户端令牌。",
+      "selectedProfile：现在正在使用的玩家配置信息。",
+      "id：玩家的UUID。",
+      "name：玩家名称。",
+      "user：账户信息，只有当请求中requestUser为true时才存在。",
+      "username：账户名称，是一个电子邮件地址。对于旧的Minecraft账户是玩家名称。",
+      "id：账户的远程ID，是一个16进制的字符串。",
+      "properties：账户属性。",
+      "name：属性名称，目前只有preferredLanguage和registrationCountry。",
+      "value：属性的值。当name为preferredLanguage时为语言；当name为registrationCountry时为注册时的国家信息。",
+      "accessToken：要查询的访问令牌。",
+      "clientToken：客户端令牌，可选参数。如果提供了客户端令牌，那么它要和验证时的令牌一致。",
+      "username：账户名称。",
+      "password：账户密码。",
+      "accessToken：访问令牌，在请求之后这个令牌将会失效。",
+      "clientToken：客户端令牌，要与验证时的令牌一致。",
+      "Properties：验证属性。",
+      "AuthMethod：登录方法。固定值RPS。",
+      "SiteName：网站名称。固定值user.auth.xboxlive.com。",
+      "RpsTicket：登录使用的票据。值为d=<Microsoft访问令牌>。",
+      "RelyingParty：依赖的平台。固定值http://auth.xboxlive.com。",
+      "TokenType：访问令牌的类型。固定值JWT。",
+      "IssueInstant：获取Xbox Live令牌的时间。",
+      "NotAfter：Xbox Live令牌过期时间。",
+      "Token：Xbox Live访问令牌。",
+      "DisplayClaims：未知。",
+      "xui：未知。",
+      "uhs：用户的哈希码。",
+      "Properties：验证属性。",
+      "SandboxId：沙盒ID。固定值RETAIL。",
+      "UserTokens：用户的Xbox Live令牌。",
+      "：用户的Xbox Live令牌，在上一步获取。",
+      "RelyingParty：依赖的平台。固定值rp://api.minecraftservices.com/。",
+      "TokenType：访问令牌的类型。固定值JWT。",
+      "IssueInstant：获取XSTS令牌的时间。",
+      "NotAfter：XSTS令牌过期时间。",
+      "Token：XSTS访问令牌。",
+      "DisplayClaims：未知。",
+      "xui：未知。",
+      "uhs：用户的哈希码。",
+      "identityToken：身份令牌。值为XBL3.0 x=<用户哈希码>;<XSTS访问令牌>。",
+      "username：一个UUID，但不是账户的UUID。",
+      "roles：未知，为空。",
+      "access_token：Minecraft访问令牌。",
+      "token_type：令牌类型。固定值Bearer。",
+      "expires_in：有效时间，以秒为单位。",
+      "items：数据和签名列表。",
+      "name：数据名称，product_minecraft或game_minecraft。",
+      "signature：数据的JWT签名。",
+      "signature：JWT签名。",
+      "keyID：未知。",
+      "如果账户不拥有Minecraft或者是XGP用户，服务器将返回空负载。",
+      "id：玩家的UUID。",
+      "name：玩家名称。",
+      "skins：玩家拥有的所有皮肤信息。",
+      "：一个皮肤。",
+      "id：皮肤的UUID。",
+      "state：皮肤的使用状态。",
+      "url：皮肤的URL。",
+      "variant：皮肤类型。如果是Steve模型的皮肤这一项是CLASSIC，如果是Alex模型的皮肤这一项是SLIM。",
+      "capes：玩家拥有的所有披风信息。",
+      "：一个披风。",
+      "id：披风的UUID。",
+      "state：披风的使用状态。",
+      "url：披风的URL。",
+      "alias：披风的别名。",
+      "privileges：玩家的能力。",
+      "onlineChat：玩家接受聊天信息的能力。",
+      "enable：为真时玩家可以接受聊天信息，为假时不能。",
+      "multiplayerServer：玩家加入多人服务器的能力。",
+      "enable：为真时玩家可以加入多人服务器，为假时不能。",
+      "multiplayerRealms：玩家加入Realms的能力。",
+      "enable：为真时玩家可以加入Realms，为假时不能。",
+      "telemetry：玩家发送遥测数据的能力。",
+      "enable：为真时玩家可以发送遥测数据。",
+      "optionalTelemetry：玩家发送可选遥测数据的能力。",
+      "enable：为真时玩家可以发送可选遥测数据。",
+      "profanityFilterPreferences：玩家Realms聊天过滤选项。",
+      "profanityFilterOn：是否开启Realms聊天过滤。",
+      "banStatus：玩家封禁状态。",
+      "bannedScopes：玩家封禁的范围。",
+      "：玩家的封禁范围对象。如果玩家未被封禁，则不存在这些对象。目前只有MULTIPLAYER项。",
+      "banId：封禁的UUID。",
+      "expires：封禁到期时间。如果玩家被永久封禁，这一项不存在。",
+      "reason：封禁原因。",
+      "reasonMessage：封禁消息。",
+      "profanityFilterPreferences：玩家Realms聊天过滤选项。",
+      "profanityFilterOn：是否开启Realms聊天过滤。",
+      "blockedProfiles：被屏蔽的玩家列表。这些玩家的聊天信息和Realms邀请将不可见。",
+      "：被屏蔽玩家的UUID。",
+      "keyPair：签名使用的密钥对。",
+      "privateKey：私钥。以-----BEGIN RSA PRIVATE KEY-----开头并以-----END RSA PRIVATE KEY-----结束。",
+      "publicKey：公钥。以-----BEGIN RSA PUBLIC KEY-----开头并以-----END RSA PUBLIC KEY-----结束。",
+      "publicKeySignature：在刚加入签名时使用的公钥签名。目前最新版本已经不再使用此签名，而是V2版本的签名。",
+      "publicKeySignatureV2：公钥签名。",
+      "expiresAt：密钥对到期时间。",
+      "refreshedAfter：密钥对刷新时间。",
+      "changedAt：最近一次的名称修改时间。",
+      "createdAt：玩家配置创建的时间。",
+      "nameChangeAllowed：是否允许修改名称。",
+      "status：名称的状态。如果是DUPLICATE代表名称已被占用，如果是AVAILABLE代表名称可用，如果是NOT_ALLOWED代表名称不符合要求。",
+      "id：玩家的UUID。",
+      "name：修改之后的玩家名称。",
+      "skins：玩家拥有的所有皮肤信息。",
+      "：一个皮肤。",
+      "id：皮肤的UUID。",
+      "state：皮肤的使用状态。",
+      "url：皮肤的URL。",
+      "variant：皮肤类型。如果是Steve模型的皮肤这一项是CLASSIC，如果是Alex模型的皮肤这一项是SLIM。",
+      "capes：玩家拥有的所有披风信息。",
+      "：一个披风。",
+      "id：披风的UUID。",
+      "state：披风的使用状态。",
+      "url：披风的URL。",
+      "alias：披风的别名。",
+      "variant：皮肤模型。如果是Steve模型要使用classic，如果是Alex模型要使用slim。",
+      "url：皮肤的URL。",
+      "capeId：要显示的披风的UUID。",
+      "id：玩家的UUID。",
+      "name：玩家名称。",
+      "skins：玩家拥有的所有皮肤信息。",
+      "：一个皮肤。",
+      "id：皮肤的UUID。",
+      "state：皮肤的使用状态。",
+      "url：皮肤的URL。",
+      "variant：皮肤类型。如果是Steve模型的皮肤这一项是CLASSIC，如果是Alex模型的皮肤这一项是SLIM。",
+      "capes：玩家拥有的所有披风信息。",
+      "：一个披风。",
+      "id：披风的UUID。",
+      "state：披风的使用状态。",
+      "url：披风的URL。",
+      "alias：披风的别名。",
+      "feature：查询的功能。固定值msamigration。",
+      "rollout：是否可以进行账户迁移。",
+      "otpId：用于账户迁移的一次性ID，稍后用于验证发到账户电子邮箱的一次性密码。",
+      "otp：发送到账户电子邮箱的一次性密码。",
+      "sessionEmail：账户迁移的目标电子邮箱。",
+      "accessToken：有效的Minecraft访问令牌。",
+      "selectedProfile：不带有连字符的玩家UUID。",
+      "serverId：服务器的ID。",
+      "其中服务器的ID由下方算法计算而成：",
+      "publicstaticStringgenerateServerId(StringbaseServerId,// 服务器的基础ID，通常为空字符串\"\"PublicKeypublicKey,// 服务器的RSA公钥SecretKeysecretKey// 服务器与客户端之间使用的对称加密AES密钥)throwsException{MessageDigestmessageDigest=MessageDigest.getInstance(\"SHA-1\");messageDigest.update(baseServerId.getBytes(\"ISO_8859_1\"));messageDigest.update(secretKey.getEncoded());messageDigest.update(publicKey.getEncoded());byte[]digestData=messageDigest.digest();returnnewBigInteger(digestData).toString(16);}"
+    ],
+    "错误说明": [
+      "400",
+      "400",
+      "404",
+      "204",
+      "403",
+      "403",
+      "403",
+      "403",
+      "400",
+      "400",
+      "403",
+      "403"
+    ],
+    "（与具体API有关）": [
+      "请求中包含了错误或无效的参数。"
+    ],
+    "MismatchedInputException": [
+      "请求负载中的JSON文本不满足API要求的格式或请求负载不是有效的JSON文本。"
+    ],
+    "JsonParseException": [
+      "401"
+    ],
+    "（返回空负载）": [
+      "API要求使用访问令牌，但是请求头中没有包含Authorization或请求中的访问令牌无效。",
+      "此UUID不代表任何玩家。",
+      "400"
+    ],
+    "The request requires user authentication": [
+      "API要求使用访问令牌，但是请求头中没有包含Authorization。",
+      "403"
+    ],
+    "Forbidden": [
+      "访问令牌无效。",
+      "404",
+      "账户名或者密码不符合要求。",
+      "410"
+    ],
+    "Not Found": [
+      "此UUID不代表任何玩家。",
+      "400"
+    ],
+    "The server has not found anything matching the request URI": [
+      "服务器找不到请求的URI。",
+      "405"
+    ],
+    "The method specified in the request is not allowed for the resource identified by the request URI": [
+      "接收到了错误请求方法的请求。",
+      "415"
+    ],
+    "The server is refusing to service the request because the entity of the request is in a format not supported by the requested resource for the requested method": [
+      "不支持的媒体类型，即请求头Content-Type不是API要求的类型。"
+    ],
+    "获取玩家信息": [
+      "获取玩家信息的API都不需要身份验证得到的访问令牌，部分API可以查询没有购买游戏的注册账户。"
+    ],
+    "输入": [
+      "玩家的名称（不区分大小写）。",
+      "玩家的UUID。",
+      "玩家的UUID以及签名的请求。可以在一分钟后最早重复对给定UUID的查询。",
+      "修改的名称。",
+      "玩家的UUID。",
+      "在获取一次性密码时的一次性ID。",
+      "不区分大小写的玩家名称、由上方算法得出的服务器ID和客户端IP（可选）。"
+    ],
+    "GET请求": [
+      "https://api.mojang.com/users/profiles/minecraft/<玩家名称>",
+      "https://api.minecraftservices.com/minecraft/profile/lookup/name/<玩家名称>",
+      "https://api.minecraftservices.com/minecraft/profile/lookup/<UUID>",
+      "https://sessionserver.mojang.com/session/minecraft/profile/<UUID> 或",
+      "https://sessionserver.mojang.com/session/minecraft/profile/<UUID>?unsigned=false",
+      "https://api.minecraftservices.com/entitlements/mcstore",
+      "https://api.mojang.com/user/security/location",
+      "https://api.mojang.com/user/security/challenges",
+      "https://api.minecraftservices.com/rollout/v1/msamigration",
+      "https://sessionserver.mojang.com/blockedservers",
+      "https://sessionserver.mojang.com/session/minecraft/hasJoined?username=<玩家名称>&serverId=<服务器ID>&ip=<客户端IP>"
+    ],
+    "响应": [
+      "给定玩家的所有UUID列表。对于不存在的玩家名称，将不返回任何结果。",
+      "玩家名称。",
+      "id：玩家的UUID。",
+      "name：正确大小写的玩家名称。",
+      "legacy：如果此账户没有迁移到Mojang账户，输出中包含此项。",
+      "demo：如果是没有购买游戏的注册账户，输出中包含此项。",
+      "同获取玩家UUID。",
+      "如果令牌还有效那么服务器会返回HTTP状态码204。",
+      "如果登出成功服务器将返回一个空的负载。",
+      "如果使令牌成功无效化服务器将返回一个空的负载。",
+      "如果账户拥有Minecraft，服务器将会返回下面的负载：",
+      "与获取玩家属性的响应相同。",
+      "如果礼品卡有效，服务器会返回HTTP状态码200或者204。如果礼品卡无效，服务器将会返回HTTP状态码404。",
+      "如果更换成功，服务器将返回空负载。",
+      "如果上传成功，服务器将返回空负载。",
+      "如果操作成功，服务器将返回HTTP状态码200。",
+      "如果操作成功，服务器将返回空负载。",
+      "如果是一个安全的位置，服务器将返回HTTP状态码204。",
+      "根标签，内部有3个安全验证问题对象。",
+      "answer：答案信息。",
+      "id：答案的ID。发送安全验证问题答案的时候需要附带此ID。",
+      "question：问题信息。",
+      "id：问题的ID。",
+      "question：问题的描述。问题ID和问题描述一一对应。",
+      "如果安全问题答案全部正确，服务器将返回HTTP状态码204。",
+      "如果账户可以进行迁移，服务器会返回HTTP状态码201并返回下面的JSON对象：",
+      "如果验证成功，服务器将返回HTTP状态码204。",
+      "如果成功，服务器返回HTTP状态码200。",
+      "服务器将返回一个文本，每一行都是被屏蔽的服务器的哈希码。",
+      "如果验证成功，服务器返回HTTP状态码204。",
+      "如果验证成功，服务器将返回和上方获取玩家的皮肤和披风一样的负载。"
+    ],
+    "示例": [
+      "https://api.mojang.com/users/profiles/minecraft/jeb_",
+      "提供玩家jeb_的UUID。",
+      "{\"name\":\"jeb_\",\"id\":\"853c80ef3c3749fdaa49938b674adae6\"}",
+      "发送[\"jeb_\",\"notch\"]。",
+      "[{\"id\":\"853c80ef3c3749fdaa49938b674adae6\",\"name\":\"jeb_\"},{\"id\":\"069a79f444e94726a5befca90e38aaf5\",\"name\":\"Notch\"}]",
+      "https://api.minecraftservices.com/minecraft/profile/lookup/853c80ef3c3749fdaa49938b674adae6",
+      "返回如下结果：",
+      "{\"id\":\"853c80ef3c3749fdaa49938b674adae6\",\"name\":\"jeb_\"}",
+      "https://sessionserver.mojang.com/session/minecraft/profile/853c80ef3c3749fdaa49938b674adae6",
+      "返回如下结果：",
+      "{\"id\":\"853c80ef3c3749fdaa49938b674adae6\",\"name\":\"jeb_\",\"properties\":[{\"name\":\"textures\",\"value\":\"ewogICJ0aW1lc3R...\"}]}",
+      "其中value使用Base64解码之后的内容为：",
+      "{\"timestamp\":1653838459263,\"profileId\":\"853c80ef3c3749fdaa49938b674adae6\",\"profileName\":\"jeb_\",\"textures\":{\"SKIN\":{\"url\":\"http://textures.minecraft.net/texture/7fd9ba42a7c81eeea22f1524271ae85a8e045ce0af5a6ae16c6406ae917e68b5\"},\"CAPE\":{\"url\":\"http://textures.minecraft.net/texture/9e507afc56359978a3eb3e32367042b853cddd0995d17d0da995662913fb00f7\"}}}"
+    ],
+    "错误信息": [
+      "如果没有命名为这个名字的玩家，返回HTTP状态码404。",
+      "如果没有成功获取XSTS令牌，服务器返回HTTP状态码401。"
+    ],
+    "负载": [
+      "一个存储小于10个的玩家名称字符串的JSON列表，玩家名称不区分大小写。",
+      "负载由两部分组成。",
+      "variant：皮肤模型。如果是Steve模型要使用classic，如果是Alex模型要使用slim。",
+      "file：图片数据。在上传之后会将玩家的皮肤设置为新上传的这个皮肤。",
+      "根标签，内部有3个安全验证问题答案对象。",
+      "id：答案的ID，与获取问题中的ID一致。",
+      "answer：问题的答案。"
+    ],
+    "POST请求": [
+      "https://api.mojang.com/profiles/minecraft",
+      "https://user.auth.xboxlive.com/user/authenticate",
+      "要求SSL实现支持SSL重协商。",
+      "https://xsts.auth.xboxlive.com/xsts/authorize",
+      "要求SSL实现支持SSL重协商。",
+      "https://api.minecraftservices.com/authentication/login_with_xbox",
+      "https://api.mojang.com/user/security/challenges",
+      "https://api.minecraftservices.com/twofactorauth/migration/otp",
+      "https://api.minecraftservices.com/twofactorauth/migration/otp/<otpId>/verify",
+      "https://api.minecraftservices.com/migration/token",
+      "https://sessionserver.mojang.com/session/minecraft/join"
+    ],
+    "CONSTRAINT_VIOLATION": [
+      "size must be between 1 and 10",
+      "请求负载的JSON列表为空。",
+      "请求负载的JSON列表中元素数量大于10个。",
+      "Invalid UUID string: <输入的参数>",
+      "URI中的UUID无效。",
+      "changeProfileName.profileName: Invalid profile name",
+      "名称不符合要求（大于16个字符或含有非数字、字母和下划线的字符）。",
+      "403"
+    ],
+    "Invalid profile name": [
+      "请求负载的JSON列表中含有空字符串。"
+    ],
+    "（无）": [
+      "Not a valid UUID: <输入的参数>",
+      "URI中的UUID无效。"
+    ],
+    "Mojang身份验证": [
+      "对于Mojang账户，要用下面的API进行身份验证。身份验证都使用了https://authserver.mojang.com这个服务器。"
+    ],
+    "验证并获取访问令牌": [
+      "验证的请求次数很严格，在几秒内仅能请求3次。"
+    ],
+    "Invalid credentials. Account migrated, use email as username.": [
+      "账户已经迁移。"
+    ],
+    "Invalid credentials. Invalid username or password.": [
+      "账户名或密码错误。"
+    ],
+    "Invalid credentials.": [
+      "尝试登录次数过于频繁。"
+    ],
+    "ResourceException": [
+      "Gone (410) - The requested resource is no longer available at the server and no forwarding address is known",
+      "账户已经迁移到Mircosoft账户。"
+    ],
+    "Invalid token.": [
+      "无效的访问令牌。",
+      "无效的访问令牌。",
+      "无效的访问令牌。"
+    ],
+    "Token does not exist.": [
+      "客户端令牌和当时请求此访问令牌的客户端令牌不一致。",
+      "客户端令牌和当时请求此访问令牌的客户端令牌不一致。",
+      "客户端令牌和当时请求此访问令牌的客户端令牌不一致。"
+    ],
+    "Microsoft身份验证": [
+      "该过程包含多个步骤并且需要不同的令牌，但最终会获取到一个标准的Minecraft令牌。目前所有的账户均已启用这一新的验证系统。",
+      "在使用Microsoft验证之前，必须要先通过创建Microsoft Azure应用程序来获得OAuth 2.0客户端ID（无需获取密钥）；之后根据这篇支持文档，还需填写此表单以申请API访问权限，否则使用api.minecraftservices.com域名下的任意API时都只会返回403。之后，就可以获取Microsoft令牌。",
+      "请注意：在获取令牌时，tenant参数必须为consumers，scope参数中必须包含XboxLive.signin，否则无法进行获取Xbox Live令牌等操作。"
+    ],
+    "请求头": [
+      "Authorization要求为Bearer <有效的Minecraft访问令牌>。"
+    ],
+    "玩家配置操作": [
+      "操作玩家配置的API基本都在https://api.minecraftservices.com服务器下，并且都要求请求头包含Authorization，且值为Bearer <有效的Minecraft访问令牌>。如果请求头不包含访问令牌信息或者访问令牌无效，服务器将返回HTTP状态码401。"
+    ],
+    "Could not change name for profile": [
+      "不可以修改名称。如果detail.status是DUPLICATE说明此名称已被占用。",
+      "429"
+    ],
+    "-": [
+      "发送了太多次改名请求。"
+    ],
+    "举例": [
+      "curl-XPOST-H\"Authorization: Bearer <access token>\"-Fvariant=classic-Ffile=\"@steeevee.png;type=image/png\"https://api.minecraftservices.com/minecraft/profile/skins"
+    ],
+    "profile does not own cape": [
+      "玩家没有指定的披风。"
+    ],
+    "账户迁移操作": [
+      "和玩家配置操作的要求一样，请求头要包含Authorization，且值为Bearer <有效的Minecraft访问令牌>。如果请求头不包含访问令牌信息或者访问令牌无效，服务器将返回HTTP状态码401。"
+    ],
+    "Current IP is not secured": [
+      "当前IP不安全。"
+    ],
+    "At least one answer was incorrect": [
+      "答案不完全正确。"
+    ],
+    "历史": [
+      "2014年4月14日",
+      "Mojang API发布。",
+      "2020年11月",
+      "获取玩家UUID的API不再支持at参数。",
+      "2021年10月8日",
+      "查询Mojang API状态的API被移除。在此之前，此API为https://status.mojang.com/check。",
+      "2022年5月8日",
+      "获取销量统计数据的API被移除。在此之前，此API为https://api.mojang.com/orders/statistics。",
+      "2022年9月13日",
+      "查询玩家历史名称的API被移除。在此之前，此API为https://api.mojang.com/user/profiles/<UUID>/names。"
+    ],
+    "导航": [
+      "此条目在知识共享 署名-相同方式共享 3.0协议下授权使用。",
+      "本条目导入、摘录或翻译自wiki.vg中的页面。本Wiki的常规协议不适用于此页面。",
+      "本页面的衍生作品必须使用相同或兼容的协议进行授权。"
+    ]
+  }
+}

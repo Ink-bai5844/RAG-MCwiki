@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:霜冻",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%9C%9C%E5%86%BB",
+  "structured_content": {
+    "Freezing": [
+      "减缓被攻击生物3秒的移动速度。"
+    ],
+    "——游戏内描述": [
+      "霜冻（Freezing）是Minecraft Dungeons中的魔咒。它会减缓被击中敌人的速度。减缓效果随着等级提升而提高。"
+    ],
+    "I": [
+      "-30%生物速度",
+      "1附魔点数"
+    ],
+    "II": [
+      "-40%生物速度",
+      "2附魔点数"
+    ],
+    "III": [
+      "-50%生物速度",
+      "3附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了霜冻。",
+      "1.16.2.0",
+      "减速效果由20%/30%/40%提高到30%/40%/50%。"
+    ]
+  }
+}

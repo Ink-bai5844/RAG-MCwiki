@@ -1,0 +1,188 @@
+{
+  "title": "胡萝卜钓竿",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%83%A1%E8%90%9D%E5%8D%9C%E9%92%93%E7%AB%BF",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是控制猪的物品。关于控制炽足兽的物品，请见“诡异菌钓竿”；关于其他用法，请见“钓竿（消歧义）”。"
+    ],
+    "[[|]]": [
+      "胡萝卜必须放置在钓鱼竿右下角的方格。",
+      "不会继承钓鱼竿的魔咒和耐久。",
+      "两把胡萝卜钓竿的耐久度加在一起，加上额外的5%耐久度，会损失所有非诅咒魔咒。"
+    ],
+    "最大耐久度": [
+      "Java版：25",
+      "基岩版：26"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "——骇人更新宣传图": [
+      "胡萝卜钓竿（Carrot on a Stick）是一种可以用来控制装有鞍的猪的物品。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加两把胡萝卜钓竿的剩余耐久度，再额外获得5%的耐久度，会损失所有非诅咒魔咒。"
+    ],
+    "修复和命名胡萝卜钓竿[[|]][[|]][[|]]": [
+      "叠加两把胡萝卜钓竿的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "用途": [
+      "胡萝卜钓竿能用来吸引猪。"
+    ],
+    "骑猪": [
+      "参见：猪 § 骑乘",
+      "骑在猪上时，如果玩家手持胡萝卜钓竿，则猪会朝玩家面向的方向前进；使用胡萝卜钓竿还可以加快猪的行进速度，同时使胡萝卜钓竿降低7点[仅Java版]或2点[仅基岩版]耐久度。",
+      "胡萝卜钓竿的耐久度耗尽后会变成钓鱼竿并保留魔咒。"
+    ],
+    "魔咒": [
+      "胡萝卜钓竿可以通过铁砧获得以下魔咒："
+    ],
+    "I": [
+      "在基岩版中，还可以用附魔台直接对胡萝卜钓竿附魔，由这种方法附魔出的魔咒一定是耐久。"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.carrot_on_a_stick": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:max_damage\":25,\"minecraft:rarity\":\"common\",\"minecraft:item_name\":{\"translate\":\"item.minecraft.carrot_on_a_stick\"},\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:carrot_on_a_stick\",\"minecraft:repair_cost\":0,\"minecraft:lore\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "历史": [
+      "2012年8月28日",
+      "Dinnerbone公布了一张用胡萝卜控制骑猪的截图。起步较慢，但最大速度可以达到5格/秒。当时小麦也在控制物的备选之中，Dinnerbone最终还是选择了胡萝卜。"
+    ],
+    "Java版": [
+      "1.4.2",
+      "12w36a",
+      "加入了胡萝卜钓竿。",
+      "12w37a",
+      "胡萝卜钓竿现在具有耐久度，右键点击可以暂时加速。加速时，胡萝卜钓竿可以暂时收起。",
+      "12w38a",
+      "胡萝卜钓竿现在消耗之后可以留下钓鱼竿。",
+      "1.4.6",
+      "12w50a",
+      "胡萝卜钓竿现在可以通过附魔书和铁砧来附魔。",
+      "1.8.2",
+      "pre7",
+      "现在合成胡萝卜钓竿不再继承原来的钓鱼竿上的所有魔咒。",
+      "1.9",
+      "16w05b",
+      "现在耐久度不再通过骑猪而减少，只有通过对猪提升速度时才会减少。",
+      "1.13",
+      "17w47a",
+      "现在合成胡萝卜钓竿不再需要未被损坏的钓鱼竿。",
+      "在扁平化之前，胡萝卜钓竿的数字ID是398。",
+      "1.14",
+      "18w43a",
+      "更改了胡萝卜钓竿的纹理。"
+    ],
+    "携带版Alpha": [
+      "0.15.0",
+      "build 1",
+      "加入了胡萝卜钓竿。"
+    ],
+    "基岩版": [
+      "1.10.0",
+      "1.10.0.3",
+      "更改了胡萝卜钓竿的纹理。",
+      "1.16.0",
+      "1.16.0.55",
+      "调整了胡萝卜钓竿的耐久以近似匹配Java版。",
+      "1.16.100",
+      "1.16.100.56",
+      "胡萝卜钓竿的ID由carrotonastick更改为carrot_on_a_stick。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了胡萝卜钓竿。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU14",
+      "CU1",
+      "1.04",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了胡萝卜钓竿。",
+      "1.90",
+      "更改了胡萝卜钓竿的纹理。",
+      "TU14",
+      "CU1",
+      "1.04",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了胡萝卜钓竿。",
+      "1.90",
+      "更改了胡萝卜钓竿的纹理。"
+    ],
+    "参考": [
+      "Dinnerbonetweet:240428477856231424",
+      "Dinnerbonetweet:240429280469856256",
+      "Dinnerbonetweet:240188453789257728",
+      "Dinnerbonetweet:240355810650247168",
+      "MC-123196 — 漏洞状态为“有意为之”。",
+      "http://www.mojang.com/2012/09/minecraft-snapshot-12w37a/"
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "title": "生成事件",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9F%E6%88%90%E4%BA%8B%E4%BB%B6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。",
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：补充说明",
+      "生成事件（Spawn event）严格来说叫作生物事件（Mob event），是基岩版独有技术性标签，用于向指定一个生物或实体自定义选择其生成后的行为，可应用于命令/summon和/event以及创作附加包，使用json文件编辑。",
+      "下列为目前版本的所有生物事件的词条："
+    ],
+    "蜜蜂": [
+      "minecraft:exited_hive",
+      "minecraft:exited_hive_on_fire",
+      "minecraft:explode",
+      "minecraft:hopper_activate"
+    ],
+    "山羊": [
+      "minecraft:born_screamer",
+      "minecraft:calm"
+    ],
+    "哞菇": [
+      "minecraft:ate_bluet",
+      "minecraft:ate_cornflower",
+      "minecraft:ate_daisy",
+      "minecraft:ate_dandelion",
+      "minecraft:ate_lily",
+      "minecraft:ate_orchid",
+      "minecraft:ate_poppy",
+      "minecraft:ate_rose",
+      "minecraft:ate_tulip",
+      "minecraft:baby_on_calm",
+      "minecraft:become_brown_adult",
+      "minecraft:become_butcher",
+      "minecraft:become_red_adult",
+      "minecraft:become_red_cichlid",
+      "minecraft:fox_configure_day"
+    ],
+    "青蛙": [
+      "minecraft:add_attributes"
+    ],
+    "村民": [
+      "minecraft:become_black_tang",
+      "minecraft:become_butterfly_fish",
+      "minecraft:become_cc_betta",
+      "minecraft:become_fisherman",
+      "minecraft:become_fletcher",
+      "minecraft:become_goat_fish",
+      "minecraft:become_librarian",
+      "minecraft:become_mason",
+      "minecraft:become_moorish_idol",
+      "minecraft:become_stunned",
+      "minecraft:become_triggerfish",
+      "minecraft:become_weaponsmith",
+      "minecraft:become_yellow_tail_parrot",
+      "minecraft:schedule_bed_villager",
+      "minecraft:schedule_gather_villager",
+      "minecraft:schedule_home_villager",
+      "minecraft:schedule_play_villager",
+      "minecraft:schedule_wander_villager",
+      "minecraft:schedule_work_farmer",
+      "minecraft:schedule_work_fisher",
+      "minecraft:schedule_work_librarian",
+      "minecraft:schedule_work_pro_villager",
+      "minecraft:scheduled",
+      "minecraft:spawn_as_illager_captain",
+      "minecraft:spawn_cleric",
+      "minecraft:spawn_emerging",
+      "minecraft:spawn_for_raid",
+      "minecraft:spawn_librarian",
+      "minecraft:spawn_midnight_cat"
+    ],
+    "流浪者": [
+      "minecraft:mule_saddled",
+      "minecraft:remove_persistence"
+    ],
+    "鸡": [
+      "minecraft:hatch_warm",
+      "minecraft:hive_full"
+    ],
+    "僵尸村民": [
+      "minecraft:ageable_grow_up",
+      "minecraft:become_clownfish",
+      "minecraft:entity_transformed",
+      "minecraft:exited_bubble_column",
+      "minecraft:spawn_with_pillager_captain_rider"
+    ],
+    "行商羊驼": [
+      "minecraft:add_biome_and_skin",
+      "minecraft:donkey_saddled",
+      "minecraft:gain_bad_omen",
+      "minecraft:laid_egg",
+      "minecraft:lost_target",
+      "minecraft:make_black",
+      "minecraft:on_deflate",
+      "minecraft:remove_raid_trigger",
+      "minecraft:spawn_armorer",
+      "minecraft:spawn_butcher"
+    ],
+    "猫": [
+      "minecraft:clear_add_bad_omen",
+      "minecraft:promote_to_illager_captain",
+      "minecraft:spawn_skilled_adult"
+    ],
+    "驴": [
+      "minecraft:donkey_unsaddled",
+      "minecraft:emerged"
+    ],
+    "狐狸": [
+      "minecraft:ambient_normal",
+      "minecraft:ambient_sleep",
+      "minecraft:as_adult",
+      "minecraft:fox_configure_defending",
+      "minecraft:fox_configure_docile_day",
+      "minecraft:fox_configure_docile_night",
+      "minecraft:fox_configure_night",
+      "minecraft:fox_configure_thunderstorm",
+      "minecraft:from_full_puff"
+    ],
+    "马": [
+      "minecraft:horse_unsaddled",
+      "minecraft:join_caravan",
+      "minecraft:make_brown",
+      "minecraft:make_chestnut",
+      "minecraft:make_creamy",
+      "minecraft:make_darkbrown",
+      "minecraft:make_gray",
+      "minecraft:make_white",
+      "minecraft:melee_mode"
+    ],
+    "骡": [
+      "minecraft:mule_unsaddled",
+      "minecraft:on_anger"
+    ],
+    "豹猫": [
+      "minecraft:entity_spawned",
+      "minecraft:on_normal_puff",
+      "minecraft:on_unleash",
+      "minecraft:panda_aggressive"
+    ],
+    "熊猫": [
+      "minecraft:panda_brown",
+      "minecraft:panda_lazy",
+      "minecraft:panda_playful",
+      "minecraft:panda_weak",
+      "minecraft:panda_worried",
+      "minecraft:pet_slept_with_owner"
+    ],
+    "北极熊": [
+      "minecraft:become_aggressive",
+      "minecraft:on_calm",
+      "minecraft:on_sheared"
+    ],
+    "绵羊": [
+      "minecraft:on_full_puff"
+    ],
+    "炽足兽": [
+      "minecraft:on_scared"
+    ],
+    "海龟": [
+      "minecraft:become_queen_angel_fish",
+      "minecraft:has_target",
+      "minecraft:leave_caravan"
+    ],
+    "狼": [
+      "minecraft:ambient_night",
+      "minecraft:entity_born_wild",
+      "minecraft:on_trust"
+    ],
+    "僵尸马": [
+      "minecraft:ageable_set_baby"
+    ],
+    "溺尸": [
+      "minecraft:hatch_cold",
+      "minecraft:mad_at_wolf",
+      "minecraft:switch_to_ranged",
+      "minecraft:target_far_enough"
+    ],
+    "僵尸": [
+      "minecraft:as_baby",
+      "minecraft:ate_allium",
+      "minecraft:convert_to_zombie",
+      "minecraft:stop_aggro",
+      "minecraft:switch_to_melee"
+    ],
+    "史莱姆": [
+      "minecraft:become_aggro"
+    ],
+    "卫道士": [
+      "minecraft:become_anenonme",
+      "minecraft:promote_to_patrol_captain",
+      "minecraft:raid_expired",
+      "minecraft:spawn_as_patrol_follower",
+      "minecraft:spawn_as_strider_jockey",
+      "minecraft:start_land",
+      "minecraft:stop_celebrating",
+      "minecraft:stop_transforming"
+    ],
+    "热带鱼": [
+      "minecraft:become_angry",
+      "minecraft:become_blue_dory",
+      "minecraft:become_brown",
+      "minecraft:become_calm",
+      "minecraft:become_charged",
+      "minecraft:become_cleric",
+      "minecraft:become_dog_fish",
+      "minecraft:become_e_red_snapper",
+      "minecraft:become_farmer",
+      "minecraft:become_hostile",
+      "minecraft:become_neutral",
+      "minecraft:become_parrot_fish",
+      "minecraft:become_pregnant",
+      "minecraft:become_red",
+      "minecraft:become_red_lipped_benny",
+      "minecraft:become_red_snapper",
+      "minecraft:become_scared",
+      "minecraft:become_tomato_clown",
+      "minecraft:become_toolsmith",
+      "minecraft:become_unskilled",
+      "minecraft:become_yellow_tang",
+      "minecraft:born_default"
+    ],
+    "蜘蛛": [
+      "minecraft:become_leatherworker",
+      "minecraft:become_ornate_butterfly"
+    ],
+    "僵尸猪人": [
+      "minecraft:become_armorer",
+      "minecraft:on_chest",
+      "minecraft:spawn_baby"
+    ],
+    "流浪商人": [
+      "minecraft:become_cartographer",
+      "minecraft:become_sheperd",
+      "minecraft:set_trap",
+      "minecraft:start_exploding"
+    ],
+    "苦力怕": [
+      "minecraft:become_cichlid",
+      "minecraft:start_exploding_forced",
+      "minecraft:start_fly",
+      "minecraft:stop_johnny"
+    ],
+    "劫掠兽": [
+      "minecraft:become_threadfin",
+      "minecraft:entered_bubble_column_down",
+      "minecraft:spawn_for_raid_with_pillager_rider",
+      "minecraft:spawn_from_village",
+      "minecraft:spawn_with_pillager_rider",
+      "minecraft:spawn_with_vindicator_captain_rider",
+      "minecraft:spawn_with_vindicator_rider",
+      "minecraft:spring_trap",
+      "minecraft:start_transforming"
+    ],
+    "掠夺者": [
+      "minecraft:cat_gifted_owner"
+    ],
+    "玩家": [
+      "minecraft:command_block_activate",
+      "minecraft:go_lay_egg",
+      "minecraft:resupply_trades",
+      "minecraft:turn_black"
+    ],
+    "命令方块矿车": [
+      "minecraft:command_block_deactivate",
+      "minecraft:convert_to_drowned"
+    ],
+    "尸壳": [
+      "minecraft:crystal_explode"
+    ],
+    "末地水晶": [
+      "minecraft:defend_wandering_trader"
+    ],
+    "监守者": [
+      "minecraft:end_roar",
+      "minecraft:spawn_farmer"
+    ],
+    "运输船": [
+      "minecraft:entered_bubble_column_up",
+      "minecraft:entity_born",
+      "minecraft:exited_disturbed_hive",
+      "minecraft:spawn_adult"
+    ],
+    "烈焰人": [
+      "minecraft:on_instant_prime"
+    ],
+    "末影龙": [
+      "minecraft:start_despawn",
+      "minecraft:start_full_puff",
+      "minecraft:start_roar"
+    ],
+    "漏斗矿车": [
+      "minecraft:hopper_deactivate",
+      "minecraft:horse_saddled"
+    ],
+    "TNT矿车": [
+      "minecraft:on_leash",
+      "minecraft:on_riding_player"
+    ],
+    "鹦鹉": [
+      "minecraft:on_prime",
+      "minecraft:on_saddled"
+    ],
+    "河豚": [
+      "minecraft:from_player",
+      "minecraft:on_eat_block",
+      "minecraft:on_half_puff",
+      "minecraft:on_hurt_event",
+      "minecraft:on_not_riding_player",
+      "minecraft:start_half_puff",
+      "minecraft:start_johnny",
+      "minecraft:trigger_raid"
+    ],
+    "潜影贝": [
+      "minecraft:turn_blue",
+      "minecraft:turn_brown",
+      "minecraft:turn_cyan",
+      "minecraft:turn_gray",
+      "minecraft:turn_green",
+      "minecraft:turn_light_blue",
+      "minecraft:turn_lime",
+      "minecraft:turn_magenta",
+      "minecraft:turn_orange",
+      "minecraft:turn_pink",
+      "minecraft:turn_purple",
+      "minecraft:turn_red",
+      "minecraft:turn_silver",
+      "minecraft:turn_white",
+      "minecraft:turn_yellow"
+    ],
+    "骷髅马": [
+      "minecraft:sink",
+      "minecraft:start_celebrating"
+    ],
+    "蓝色凋灵之首": [
+      "minecraft:flowerless"
+    ],
+    "铁傀儡": [
+      "minecraft:from_village",
+      "minecraft:from_wandering_trader"
+    ],
+    "雪傀儡": [
+      "minecraft:on_tame"
+    ],
+    "女巫": [
+      "minecraft:ranged_mode",
+      "minecraft:spawn_for_raid_with_evoker_rider",
+      "minecraft:start_death",
+      "minecraft:stop_exploding"
+    ],
+    "守卫者": [
+      "minecraft:target_too_close",
+      "minecraft:to_full_puff"
+    ]
+  }
+}

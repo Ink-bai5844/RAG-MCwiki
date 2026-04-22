@@ -1,0 +1,5 @@
+{
+  "title": "调试选项文件格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%B0%83%E8%AF%95%E9%80%89%E9%A1%B9%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F",
+  "text": "本条目所述内容仅适用于Java版。\n调试选项文件是游戏记录调试选项使用何种调试档案或自定义设置的游戏配置文件。\n存储格式\n调试选项文件位于<客户端根目录>/debug-profile.json。此文件使用JSON文件格式保存，并具有下列结构：\nJSON文件根对象\ncustom：玩家自定义的调试选项。\n<调试选项命名空间ID>：此项调试选项的状态。取值只能为alwaysOn（始终显示）、inOverlay（叠加层）或never（关）。\nprofile：游戏内置的调试档案。取值只能为default（默认配置）或performance（性能监控配置）。\n存储行为\n游戏在游戏启动时会尝试读取调试选项文件，以获取调试选项配置。\n如果调试选项文件不存在，则游戏静默处理，并使用默认配置。\n如果调试选项文件存在，则加载此文件：\n如果文件无法加载，或文件格式错误，则游戏日志报错Couldn't read debug profile file <此文件>, resetting to default，并重置调试配置为默认配置。\n如果存在profile，则直接使用其指定的调试档案配置。\n否则，读取custom的内容加载调试选项，任何未指定的调试选项均被视为never。\n只要玩家对调试选项进行了任何更改，此文件就会立刻保存。如果文件无法保存，则游戏日志报错Failed to save debug profile file <此文件>，并重置调试配置为默认配置。\n历史\nJava版\n1.21.9\n25w31a\n加入了调试选项文件。\n1.21.11\n25w41a\n将inF3重命名为inOverlay。\n导航"
+}

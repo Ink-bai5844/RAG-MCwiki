@@ -1,0 +1,103 @@
+{
+  "title": "Dead Voxel",
+  "source_url": "https://zh.minecraft.wiki/w/Dead_Voxel",
+  "structured_content": {
+    "作者": [
+      "C418"
+    ],
+    "发行时间": [
+      "2013年11月9日"
+    ],
+    "时长": [
+      "04:56"
+    ],
+    "Minecraft - Volume Beta": [
+      "No.3"
+    ],
+    "Blind Spots ►": [
+      "Dead Voxel是一首由C418创作的音乐。"
+    ],
+    "播放条件": [
+      "Dead Voxel会在玩家处于下界时播放。"
+    ],
+    "下界荒地": [
+      "10%"
+    ],
+    "绯红森林": [
+      "9.09%"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "Dead Voxel以幽暗的环境音和遥远的高音合成器开始，类似于Ballad of the Cats中听到的音效，之后转为宁静而富有戏剧性的钢琴曲，配有温暖的环境音作为背景，并有模仿拨弦乐器的东方风格合成器伴奏。这首曲子是Concrete Halls的一个较少不协和、更为忧郁的变体，打击乐更为柔和。背景中可以听到熔岩流动和翻腾的声音。在结尾处，可以听到Beginning的一部分。"
+    ],
+    "ID": [
+      "Java版:"
+    ],
+    "Dead Voxel": [
+      "nether2.ogg"
+    ],
+    "music.nether.crimson_forest": [
+      "基岩版:"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "Java版": [
+      "2013音乐更新",
+      "加入了\"nether2.ogg\"。",
+      "1.7.4",
+      "13w49a",
+      "\"nether2\"现在是散列资源文件，而非直接存储。",
+      "1.20.3",
+      "23w45a",
+      "\"nether2.ogg\"被重命名为\"dead_voxel.ogg\"。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了包含\"nether2.ogg\"的可下载音乐，属于市场内容。"
+    ],
+    "基岩版": [
+      "1.19.10",
+      "1.19.10.20",
+      "iOS/iPadOS平台上的游戏应用现在会自带音乐，\"nether2.ogg\"不再需要在市场中下载。",
+      "1.19.30",
+      "1.19.30.22",
+      "Android平台上的游戏应用现在会自带音乐，\"nether2.ogg\"不再需要在市场中下载。"
+    ],
+    "正式版": [
+      "Fire平台上的游戏应用现在会自带音乐，\"nether2.ogg\"不再需要在市场中下载。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU24",
+      "CU1",
+      "1.07",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"nether2.ogg\"。",
+      "TU24",
+      "CU1",
+      "1.07",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"nether2.ogg\"。"
+    ]
+  }
+}

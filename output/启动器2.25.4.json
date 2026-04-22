@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.25.4",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.25.4",
+  "text": "2.25.4\n程序类型\nMinecraft启动器\n发布时间\n2024年5月31日\n◄◄2.24.17\n2.26.2►►\n2.25.4是一次启动器更新，发布于2024年5月31日。\n新内容\n各种小漏洞修复、UI改进、完善和整理代码。\n修复\nMCL-20282 - Minecraft for Windows卸载警告在Dungeons中重复使用。\n修复了Game Pass访问漏洞。\n修复在离线模式下的漏洞。\n导航"
+}

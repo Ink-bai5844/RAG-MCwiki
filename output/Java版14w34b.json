@@ -1,0 +1,5 @@
+{
+  "title": "Java版14w34b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8814w34b",
+  "text": "14w34b\n版本\nJava版\n类型\n快照\n发布时间\n2014年8月18日\n快照归属\n1.8\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n41\n资源包版本\n1\n◄◄1.7.10\n1.8.1►►\n◄14w34a\n14w34c►\n14w34b是Java版1.8的第50个快照，发布于2014年8月18日，修复了一些漏洞和14w34a的崩溃问题。\n修复\n修复了9个漏洞\n1.8开发版本的漏洞\nMC-59851 — 兔子一直看着玩家。\nMC-65591 — 旁观模式中，玩家可以更改盔甲架上的物品。\nMC-67873 — 兔子对创造模式的玩家有反应。\nMC-67915 — 不向后兼容1.7存档中成书的文本内容。\nMC-67936 — 被驯服的兔子在玩家处于旁观模式时仍然会传送。\n上个开发版本的漏洞\nMC-67974 — 玩家高度接近254时，游戏崩溃。\nMC-67976 — 无法放置盔甲架。\nMC-67981 — 熔炉中的物品栏没有被正确更新，导致熔炉基本不能使用。\nMC-67983 — Hopper: java.lang.NullPointerException: Ticking block entity。\n参考\nMinecraft snapshot 14w34d（存档），来自Dinnerbone。Mojang.com，2014年8月18日。\n导航"
+}

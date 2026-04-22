@@ -1,0 +1,29 @@
+{
+  "title": "命令/worldbuilder",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fworldbuilder",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少历史",
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "此页面描述的是教育版相关特性。",
+      "该特性仅在教育版和开启了“Education Edition”选项的基岩版世界中可用。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "启用或禁用worldbuilder（世界建造者）能力，该能力同样可通过/ability命令调整。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "交替切换自己的worldbuilder能力：/worldbuilder"
+    ]
+  }
+}

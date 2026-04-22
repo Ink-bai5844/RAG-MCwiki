@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:聚爆弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%81%9A%E7%88%86%E5%BC%A9",
+  "text": "聚爆弩\n类型\n远程武器\n稀有度\n力量\n12\n速度\n1\n弹药上限\n1\n自带魔咒\n引力\n远古狩猎符文\n存档ID\nExplodingCrossbow_Unique1\n聚爆弩已经进行了魔法般的细调，以最大程度地发挥爆炸的威力。\n——物品描述\n聚爆弩（Imploding Crossbow）是Minecraft Dungeons中的远程武器。它是爆炸弩的变种。\n获取\n地点：\n巍峨壁垒\n烈焰锻造厂（冒险难度以上）\n大厅之下（冒险难度以上）\n？？？（冒险难度以上）\n昏暗丛林（冒险难度以上）\n树梢缠结（冒险难度以上）\n居民：\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n古代之怖\n使用\n聚爆弩拥有很高攻击力，极低速度和弹药上限。初始弹药量为20。\n属性\n命中后爆炸\n牵引敌人\n数据\n等级\n伤害值\n104\n2397\n111\n3073\n音效\n描述\n文件\n击中物体\nsfx_item_explodingCrossbowUnique1ArrowImpactNormal\n击中物体（新）\nsfx_item_explodingCrossbowArrowUnique1ImpactNormal_Updated\n掉落\nsfx_item_explodingCrossbowUnique1Land\n拾取\nsfx_item_explodingCrossbowUnique1PickUp\n装备\nsfx_item_explodingCrossbowUnique1Place\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了聚爆弩。\n1.13.1.0\n优化了与其他远程魔咒的联动表现。\n不再与导火索魔咒兼容。\n画廊\n一把战力为104的聚爆弩\n导航"
+}

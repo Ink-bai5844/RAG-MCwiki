@@ -1,0 +1,5 @@
+{
+  "title": "蜡烛/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9C%A1%E7%83%9B%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n一个值范围0到3的2位二进制数，储存蜡烛数量：\n0：蜡烛有1根\n1：蜡烛有2根\n2：蜡烛有3根\n3：蜡烛有4根\n0x4\n蜡烛是否被点燃\n0x8\n（未使用）"
+}

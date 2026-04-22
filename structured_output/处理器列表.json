@@ -1,0 +1,162 @@
+{
+  "title": "处理器列表",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%A4%84%E7%90%86%E5%99%A8%E5%88%97%E8%A1%A8",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "基岩版的结构处理器请参见官方文档": [
+      "处理器列表定义文件是处理器列表（Processor List）在数据包中的数据驱动定义文件。"
+    ],
+    "定义格式": [
+      "处理器列表在游戏中使用PROCESSOR_LIST注册表，数据包路径为worldgen/processor_list，即所有的处理器列表定义文件都需要在data/<命名空间>/worldgen/processor_list目录下定义。",
+      "处理器列表定义文件使用JSON格式，并具有下列结构：",
+      "： 处理器列表。",
+      "：一个处理器。",
+      "*processor_type：处理器类型。",
+      "依处理器类型的附加字段，见下文。",
+      "或：",
+      "*processors：处理器列表。",
+      "：一个处理器。",
+      "*processor_type：处理器类型。",
+      "依处理器类型的附加字段，见下文。"
+    ],
+    "blackstone_replace": [
+      "将各种石质方块替换为黑石变种，铁栅栏替换为铁链。"
+    ],
+    "处理器根标签": [
+      "*processor_type：blackstone_replace",
+      "*processor_type：block_age",
+      "*mossiness：生苔率。高于1的值相当于1，低于0的值相等于0。",
+      "*processor_type：block_ignore",
+      "*blocks：要被移除的方块，游戏不会检查方块状态。",
+      "：一个方块。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "*processor_type：block_rot",
+      "*integrity：（0≤值≤1）结构的完整度，决定随机移除结构中方块的概率。",
+      "rottable_blocks：可以被移除的方块，不存在时代表所有方块都可以被移除。可以为方块ID、方块ID的数组或一个方块标签。",
+      "*processor_type：capped",
+      "*delegate：要使用的处理器。",
+      "与此结构相同，递归定义。",
+      "*limit：可以处理的方块的最大数量。",
+      "整数提供器，见Template:Nbt inherit/int provider/source",
+      "*processor_type：gravity",
+      "heightmap：（默认为WORLD_SURFACE_WG）结构偏移使用的高度图。取值只能为WORLD_SURFACE_WG、WORLD_SURFACE、OCEAN_FLOOR_WG、OCEAN_FLOOR、MOTION_BLOCKING或MOTION_BLOCKING_NO_LEAVES。",
+      "offset：（默认为0）偏移高度。",
+      "*processor_type：jigsaw_replacement",
+      "*processor_type：lava_submerged_block",
+      "*processor_type：nop",
+      "*processor_type：protected_blocks",
+      "*value[失效：JE 26.2]：无法被结构替换的方块。应为一个带#前缀的标签ID，游戏会将此值解析为方块标签，如果方块标签不存在则所有方块都可以被结构替换。",
+      "value[新增：JE 26.2]：无法被结构替换的方块。可以为方块ID、方块ID的列表或一个方块标签。",
+      "*processor_type：rule",
+      "*rules：（可以为空）一个自定义规则列表。此规则将按列表顺序依次应用。",
+      "：一条规则。",
+      "position_predicate：（默认永远成功）应用到该结构地物起始点到该方块的距离上的测试。"
+    ],
+    "石砖楼梯": [
+      "有50%的概率处理"
+    ],
+    "苔石砖台阶": [
+      "有50%的概率处理"
+    ],
+    "block_age": [
+      "做旧方块，使方块看起来更有年代感。"
+    ],
+    "哭泣的黑曜石": [
+      "有15%的概率处理"
+    ],
+    "block_ignore": [
+      "移除指定的方块。被移除的位置不会被结构生成覆盖，而是保留生成前的方块。"
+    ],
+    "block_rot": [
+      "随机移除方块。与block_ignore类似，被移除的方块的位置不会被结构覆盖。"
+    ],
+    "capped": [
+      "限制处理器可以处理的方块数量。如果结构没有足够的方块供处理器处理，则处理所有方块，否则从所有方块中随机选取指定数量的方块进行处理。"
+    ],
+    "gravity": [
+      "根据地形改变结构的高度。"
+    ],
+    "jigsaw_replacement": [
+      "替换拼图方块并移除结构空位。对于世界生成阶段的拼图结构而言不需要额外声明，游戏会自动调用此处理器。"
+    ],
+    "lava_submerged_block": [
+      "当结构替换熔岩时，如果结构内的某方块轮廓箱不完整，则此方块不替换熔岩。"
+    ],
+    "nop": [
+      "什么也不操作。"
+    ],
+    "protected_blocks": [
+      "指定一些方块，使其无法被结构覆盖放置。"
+    ],
+    "rule": [
+      "自定义规则。"
+    ],
+    "位置规则测试": [
+      "*predicate_type：位置规则测试类型。取值可以为always_true（永远成功）、linear_pos（概率成功，取决于当前位置到结构起始点的三维曼哈顿距离）或axis_aligned_linear_pos（概率成功，取决于当前位置到结构起始点的指定坐标轴上的距离）。",
+      "如果predicate_type是linear_pos，附加字段如下：",
+      "min_chance: （默认为0.0）当方块距结构起始点的距离小于等于min_dist时测试成功的概率。小于0则视为0，大于1则视为1。",
+      "max_chance: （可选，默认为0.0）当方块距结构起始点的距离大于等于max_dist时测试成功的概率。若方块的距离在min_dist和max_dist之间，则概率由min_chance和max_chance经线性插值而得，即概率为( 距离 - min_dist ) / ( max_dist - min_dist ) * ( max_chance - min_chance ) + min_chance ，得到的概率小于0则视为0，大于1则视为1。",
+      "min_dist：（默认为0）达到最小概率时的距离。",
+      "max_dist：（默认为0）达到最大概率时的距离。必须大于min_dist。",
+      "若predicate_type为axis_aligned_linear_pos，附加的参数如下：",
+      "axis: （默认为y）要检查的方向，距离全部以正数计算。取值可以为x、y或z。",
+      "min_chance: （默认为0.0）当方块距结构起始点的距离小于等于min_dist时测试成功的概率。小于0则视为0，大于1则视为1。",
+      "max_chance: （可选，默认为0.0）当方块距结构起始点的距离大于等于max_dist时测试成功的概率。若方块的距离在min_dist和max_dist之间，则概率由min_chance和max_chance经线性插值而得，即概率为( 距离 - min_dist ) / ( max_dist - min_dist ) * ( max_chance - min_chance ) + min_chance ，得到的概率小于0则视为0，大于1则视为1。",
+      "min_dist：（默认为0）达到最小概率时的距离。",
+      "max_dist：（默认为0）达到最大概率时的距离。必须大于min_dist。",
+      "*input_predicate：应用到被放置的方块上的测试。",
+      "规则测试，见Template:Nbt inherit/rule test/source",
+      "*location_predicate：应用到该结构生成前的该位置方块上的测试。",
+      "规则测试，见Template:Nbt inherit/rule test/source",
+      "*output_state：要放置的方块。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "block_entity_modifier：放置方块时要应用的方块实体修饰器。",
+      "*type：方块实体修饰器类型。",
+      "如果type是passthrough，则不修改方块实体原有字段。此项也为默认值。",
+      "如果type是clear，则移除方块实体原有字段。",
+      "如果type是append_static，则向方块实体添加静态字段。",
+      "*data：要添加的NBT数据，格式见NBT格式 § JSON。",
+      "如果type是append_loot，则向方块实体添加战利品表，同时也会添加基于方块位置的战利品表种子。",
+      "*loot_table：要添加的战利品表。"
+    ],
+    "定义行为": [
+      "处理器列表定义数据仅在服务端启动时加载一次，使用/reload命令不可以重新加载处理器列表定义，而必须重启服务端。",
+      "当游戏调用处理器列表时，会按照列表的顺序依次调用处理器。由于游戏通常对结构模板的方块调用处理器列表，因而单个处理器也被称为方块处理器或结构后处理器。",
+      "对于模板池拼图元素而言，游戏会先调用处理器，然后再对结构片段进行地形调整。因此结构实际放置的位置可能并不是调用处理器计算时的位置。"
+    ],
+    "Java版": [
+      "1.16.2",
+      "20w28a",
+      "为数据包中处理器列表定义加入了实验性支持。",
+      "pre1",
+      "处理器列表从data/minecraft/processor_list/<命名空间>/<路径>移动到data/<命名空间>/processor_list/<路径>，和其他资源保持一致。",
+      "1.17",
+      "21w20a",
+      "加入了处理器类型protected_blocks。",
+      "1.18.2",
+      "22w06a",
+      "现在处理器类型protected_blocks的value字段需要#前缀。",
+      "22w13a",
+      "向处理器类型block_rot加入新字段rottable_blocks，值为不带#前缀的标签。",
+      "22w14a",
+      "现在处理器类型block_rot的rottable_blocks字段接受命名空间ID、带#前缀的标签或数组。",
+      "1.20",
+      "23w12a",
+      "加入了处理器类型capped。",
+      "现在处理器类型rule的由block_entity_modifier字段处理方块实体数据，此前仅由output_nbt处理静态字段。",
+      "1.21.9",
+      "25w31a",
+      "现在处理器类型block_age处理台阶、墙时，若处理后结果与处理前方块种类一致，则保留方块属性而非使用默认方块状态，对于楼梯而言也不再额外设置方块属性。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "现在处理器类型protected_blocks的value字段也接受方块ID和方块ID的列表，且不再接受不存在的方块标签。"
+    ],
+    "参考": [
+      "MC-264622"
+    ]
+  }
+}

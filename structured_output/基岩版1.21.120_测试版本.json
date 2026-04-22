@@ -1,0 +1,525 @@
+{
+  "title": "基岩版1.21.120/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.120%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了基岩版1.21.120的测试版本。",
+      "1.21.120.20",
+      "beta 1.21.120.20（ChromeOS/Android）、Preview 1.21.120.20（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的首个测试版，发布于2025年9月3日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "现在启动缺失市场模板的世界时会正确地重新下载模板并启动世界。",
+      "现在第一人称相机视角会在面向并攀爬如梯子和藤蔓等方块时略微向后偏移。",
+      "更正了不能解释第一人称相机视角为什么失败的/aimassist命令错误消息。（MCPE-226651）",
+      "作出了一些网络更改，可能会提高Windows平台上的下载速度。",
+      "在Windows平台上加入了先前缺失的文件关联（如.mcaddon）。（MCPE-227920）",
+      "修复了无法在游戏窗口未获得焦点时按下按钮的问题。（MCPE-227830）",
+      "修复了通过按下⊞ Windows键来暂停游戏时会导致鼠标无法移动的漏洞。（MCPE-227741）",
+      "修复了在GDK PC中最大化和最小化窗口时缺失窗口动画的漏洞。（MCPE-227872）"
+    ],
+    "闪烁标语": [
+      "加入了“Music by Hyper Potions!”闪烁标语。"
+    ],
+    "物品": [
+      "自格式版本1.21.120起，当自定义物品的menu_category的category设置为none（或未指定）时，该物品会在命令中可用。（MCPE-177866）",
+      "修复了不会将自定义方块渲染为“飞行物品”的问题。（MCPE-180489）",
+      "谜之炖菜现在存在于创造模式物品栏，并带有效果描述。（MCPE-51173）",
+      "更新了点光源追踪功能，以能够关联自定义方块。",
+      "现在可以使用快捷键将物品转移至相应的快捷栏。（MCPE-105889）"
+    ],
+    "音乐唱片": [
+      "现在骑乘在鸡上的幼年僵尸、幼年僵尸村民和幼年尸壳被驯服的狼杀死后也会额外掉落一张音乐唱片Lava Chicken。"
+    ],
+    "谜之炖菜": [
+      "现在可以在创造模式物品栏中找到。",
+      "现在创造模式下的谜之炖菜会在其提示框中显示食用后给予的状态效果以及效果时长。"
+    ],
+    "游戏内容": [
+      "修复了非常旧的世界中的告示牌文本的加载问题。",
+      "修复了使用盾牌挖掘方块时会消耗盾牌的耐久度的问题。（MCPE-190339）",
+      "修复了即使使用盾牌进行格挡，弹射物仍然会施加击退效果的问题。（MCPE-220733）",
+      "修复了将收纳袋放入所有槽位已填满的漏斗上方的容器中时，收纳袋的内容物会被删除的漏洞。（MCPE-226250）"
+    ],
+    "灵动视效": [
+      "为天气效果加入了类似于雪的TAA上采样功能。",
+      "将“调整亮度”设置重命名为“调整伽马值”。",
+      "为伽马值校准屏幕加入了“重置为默认值”按钮。",
+      "现在伽马值校准屏幕中的滑块会显示当前的伽马值，滑块的中间对应默认伽马值。",
+      "调整了渲染设置：",
+      "略微降低了所有生物群系的对比度。",
+      "降低了部分生物群系中基于温度的颜色分级强度，如沙漠和恶地。",
+      "调整了末地维度的天空颜色。",
+      "为黑森林加入了独有的生物群系设置。"
+    ],
+    "鸣谢名单": [
+      "将Hyper Potions添加到鸣谢名单中。"
+    ],
+    "声音": [
+      "将block.copper_chest.open、​block.copper_chest.closed、​block.copper_chest.weathered.open、​block.copper_chest.weathered.closed、​block.copper_chest.oxidized.open、​block.copper_chest.oxidized.closed、​mob.copper_golem.step、​mob.copper_golem.spin、​mob.copper_golem.weathered.step、​mob.copper_golem.oxidized.step、​mob.copper_golem.weathered.spin和​mob.copper_golem.oxidized.spin的衰减距离由12格更改为1-12格。"
+    ],
+    "图形": [
+      "现在相机视角过于靠近或穿过实体时，实体会略微变得透明。",
+      "弃用了point_lights/global.json，以支持新的文件和模式local_lighting/local_lighting.json。创作者仍然可以使用point_lights/global.json，但推荐迁移到新模式。",
+      "扩展了根据方块的局部光照信息以包含light_type，其可以是static_light或point_light。",
+      "仅当light_type设置为point_light时方块才会考虑产生点光源。",
+      "static_light目前未被使用。",
+      "light_color现在是可选的。若未提供，方块会改用备用光照颜色。",
+      "local_lighting.json的样例：",
+      "\"format_version\":\"1.21.120\",\"minecraft:local_light_settings\":{\"minecraft:torch\":{\"light_color\":\"#EFE39D\",\"light_type\":\"point_light\"}",
+      "恢复了在计算不完整方块的环境光遮蔽方面上的Java版趋同性。（MCPE-226160）",
+      "修复了附魔光效动画在游戏暂停时仍会播放的问题。（MCPE-190569）",
+      "修复了玩家移动期间雪花会闪烁的问题。",
+      "提高了PC和主机上的伽马值校正质量，并更正了灵动视效的伽马值校准屏幕中的苦力怕纹理的亮度。",
+      "现在当相机视角过于靠近玻璃和玻璃板及其染色变种时，这些方块会变得略微透明。",
+      "降低了在开启灵动视效的情况下拥有反胃效果期间水面反射效果的扭曲强度。（MCPE-220700）",
+      "修复了启用灵动视效中的水波功能时，水面会显得杂乱和怪异的问题。（MCPE-221279）",
+      "移除了水配置JSON文件中的sampleWidth参数，该文件会因此使用新的格式并升级至1.21.120版本。",
+      "修复了在开启灵动视效的情况下透过水观察铜傀儡的眼睛时，铜傀儡的眼睛不会发光的问题。（MCPE-226550）",
+      "修复了玩家在开启灵动视效的情况下在处于洞穴中的水下时，光照会显得过亮的漏洞。（MCPE-208089）",
+      "修复了灵动视效下的“生物群系混合”系统会忽略非地表生物群系的漏洞。现在多个生物群系会在水平方向和垂直方向上混合，这意味着如深暗之域和繁茂洞穴等生物群系的自定义渲染配置现在会正确生效。",
+      "仅对大气、颜色分级、光照和颜色分级作出了修复，水配置仍然受此问题影响。",
+      "修复了天空在部分Android设备上显示为黑色的问题。（MCPE-222915）",
+      "修复了实体上的自定义图案状态会在某些情况下出现视觉故障的问题。（MCPE-219845）",
+      "为创作者提供的RenderDragon功能实验性内容现在包含一个会在进入已启用该实验性内容的世界时自动加载的资源包。（MCPE-227624）",
+      "修复了溺尸的身体纹理上缺失一些像素的问题。（MCPE-169440）",
+      "修复了驴耳部的顶部包含错误颜色的问题。（MCPE-166776）",
+      "修复了铜马铠、铁马铠、金马铠和钻石马铠的纹理上缺失一些像素的问题。",
+      "现在物品栏的胸甲盔甲槽和酿造台的空玻璃瓶槽的背景与对应物品纹理相匹配。（MCPE-43234）",
+      "修复了灵动视效中的颜色分级会导致白色平衡模式变颠倒的问题。（MCPE-228283）",
+      "更新了灰色染料、淡蓝色染料、淡灰色染料和绿色染料的MERS。（MCPE-226433）",
+      "现在当灵动视效渲染器启用时，无论是否有minecraft:particle_appearance_lighting组件，粒子都会接收正确的环境光照。现在可以通过提供MERS统一值或纹理来使粒子在开启灵动视效的情况下发光。（MCPE-220830）",
+      "在Windows平台上，现在游戏会以之前使用的窗口状态（如最大化、窗口化）来启用。（MCPE-228007）"
+    ],
+    "API": [
+      "现在可以将version属性设置为beta以始终选择最新beta版本。manifest.json的示例：",
+      "\"dependencies\":[{\"module_name\":\"@minecraft/server\",\"version\":\"beta\"}",
+      "修复了Player.graphicsMode不会在玩家切换至灵动视效时返回正确的图形模式的问题。",
+      "LootTableManager的战利品生成方法现在会正确识别附有抢夺的工具。",
+      "将ScriptBiomeType类型由beta移动至2.3.0。",
+      "将Dimension.getBiome(location: Vector3)API由beta移动至2.3.0。",
+      "加入了Dimension.getGeneratedStructures(location: Vector3)，可用于定位指定位置上的结构（如掠夺者前哨站、废弃矿井等）。",
+      "加入了worldAfterEvents.playerUseNameTag，会在玩家对实体使用已命名的命名牌物品时触发。",
+      "加入了ControlScheme字符串枚举。",
+      "为beta加入了Player.setControlScheme(controlScheme?: string): void;方法。",
+      "为beta加入了Player.getControlScheme(): ControlScheme;方法。",
+      "为beta加入了BlockRedstoneProducerComponent。",
+      "加入了power只读属性。",
+      "加入了getStronglyPoweredFace方法。",
+      "加入了getConnectedFaces方法。",
+      "将SpawnEntityOptions的initialRotation成员开放至2.3.0。",
+      "将SpawnEntityOptions的initialPersistence成员开放至2.3.0。",
+      "修复了使用applyImpulse(vector: Vector3): void时玩家会逐步穿过方块的问题。（MCPE-226702）",
+      "将光照检测API由实验性玩法开放至稳定版。",
+      "移除了Player方法setPropertyOverrideForEntity上的实体覆盖限制。",
+      "加入了Control Scheme字符串枚举。",
+      "为beta加入了setControlScheme(controlScheme?: string): void;方法。",
+      "为beta加入了getControlScheme(): ControlScheme;方法。",
+      "为BlockPrecipitationInteractions组件加入了脚本化API。",
+      "此API包含一个用于BlockPrecipitationInteractions组件的组件类以及上述组件的两个方法（accumulatesSnow和​obstructsRain）。",
+      "战利品表发现API现在包含生成物品条件相关信息。",
+      "在beta中将setControlScheme(controlScheme?: string): void;修改为setControlScheme(controlScheme?: ControlScheme): void;。",
+      "修复了在之前捕获异常后错误消息的额外上下文信息会在某些情况下不准确的问题。",
+      "将Entity、​ContainerSlot、​ItemStack和​World上的setDynamicProperties方法开放至2.3.0。",
+      "为beta加入了getBlockStandingOn(options?: GetBlocksStandingOnOptions): Block | undefined方法。",
+      "为beta加入了getAllBlocksStandingOn(options?: GetBlocksStandingOnOptions): Block[];方法。",
+      "加入了GetBlocksStandingOnOptions接口。",
+      "为beta加入了AABB接口，用于定义轴对齐包围盒。",
+      "加入了center:Vector3参数，用于定义包围盒的中心点。",
+      "加入了extent:Vector3参数，用于定义从中心点到包围盒边缘的距离。",
+      "为beta加入了getAABB(): AABB方法。",
+      "在beta中为ItemDurabilityComponent加入了unbreakable属性。",
+      "修复了通过UI将物品插入存储物品时的问题。此前，之前通过ItemInventoryComponentAPI来修改插入的物品时，该物品可能导致容器堆叠中出现间隙。存储容器现在会分类物品，以在物品通过UI进行插入前移除间隙。",
+      "（测试性更改）Player的clearPropertyOverridesForEntity方法现在可以采用实体或实体ID作为有效参数。",
+      "为beta加入了BlockComponentBlockBreakEvent自定义组件事件。此事件会在指定方块被玩家或其他实体，方块（如火或水），或者移除或破坏方块的脚本或命令破坏时调用。",
+      "加入了entitySource只读属性。此属性包含对方块造成破坏的实体。",
+      "加入了blockDestructionSource只读属性。此属性包含对方块造成破坏的方块。",
+      "加入了brokenBlockPermutation只读属性。此属性包含自定义组件上存在的方块置换。",
+      "为自定义创作者相机视角加入了在样条上移动的能力。",
+      "为beta加入了playAnimation(splineType: CatmullRomSpline | LinearSpline, cameraAnimationOptions: AnimationOptions): void方法，用于播放动画曲线。仅在用于minecraft:free相机预设时运作。",
+      "为beta加入了CatmullRomSpline类，用于为minecraft:free相机预设创建Catmull-Rom样条。",
+      "为beta加入了LinearSpline类，用于为minecraft:free相机预设创建线性插值样条。",
+      "为beta加入了AnimationOptions接口，用于在minecraft:free相机预设上创建和播放样条。",
+      "为beta加入了ProgressKeyFrame接口，用于在样条上设置进度关键帧。",
+      "为beta加入了RotationKeyFrame接口，用于在样条上设置旋转关键帧。",
+      "为beta加入了SplineAnimation接口，用于存储样条关键帧。"
+    ],
+    "方块": [
+      "使用minecraft:material_instances组件中非不透明的render_method的方块被放置在水上方时不再会不正确地剔除水的顶面。",
+      "现在允许物品在其minecraft:block_placer组件中引用可放入花盆的方块，以在replace_block_item为true时可放入花盆。",
+      "蝌蚪现在会在青蛙卵下方的水中生成。（MCPE-225997）",
+      "修复了无法在冒险模式中继续破坏处于水下的有效方块的问题。",
+      "现在向展示架添加红石信号，或者移除指向或来自展示架的红石信号时会发出振动。",
+      "调整了铁砧和墙放在展示架和物品展示框中时的位置。（MCPE-225309）",
+      "现在玩家对未激活的展示架放置/移除/交换物品时会发出频率为3的振动。",
+      "现在玩家对激活的展示架放置/移除物品时会发出频率为3的振动。",
+      "现在玩家将物品与展示架上的物品进行交换时会发出频率为6的振动。",
+      "锈蚀的铜栏杆不再会有看起来不协调的像素。",
+      "耕耘砂土时，砂土不再有时会由于被耕耘两次而直接转变为耕地。",
+      "铜傀儡像物品不再会在掉落时偏移。（MCPE-225213）",
+      "现在放在荧光物品展示框中的铜傀儡像会发亮。",
+      "现在放在荧光物品展示框中的盾牌、饰纹陶罐和地图会发亮。（MCPE-147418）",
+      "加入了minecraft:precipitation_interactions组件。",
+      "此组件允许创作者确定方块是否阻挡降雨。若创作者这么做，则可以确定降雪时雪是否会在方块上堆积。",
+      "铜灯笼的纹理现在拥有动画。（MCPE-226142）",
+      "灵魂灯笼的纹理现在拥有动画。（MCPE-89643）",
+      "创造模式下的玩家在空手的情况下与空展示架交互时不再会产生音效。（MCPE-227586）",
+      "现在由铜傀儡转变的铜傀儡像会采用铜傀儡的自定义名称。（MCPE-227714）",
+      "修复了铜活板门配方会额外给予一个铜活板门的问题。（MCPE-227893）",
+      "修复了选择灵动视效面板设置时发生的崩溃。",
+      "为minecraft:material_instances组件中的材质加入了alpha_masked_tint布尔字段。",
+      "默认为false。",
+      "若设置为true，纹理的alpha通道将用于将色调倍增至与纹理的反射率相同的数值。",
+      "format_version需要大于等于1.21.120。",
+      "需要开启“即将推出的创作者功能”选项。",
+      "需要tint_method而不是none。",
+      "render_method需要为opaque。",
+      "移除了minecraft:redstone_producer组件对“即将推出的创作者功能”选项的要求。",
+      "修复了minecraft:grass_block（草方块）在黑森林中的渲染问题。（MCPE-228169）",
+      "修复了在HUD中显示的自定义方块的环境光遮蔽问题。",
+      "minecraft:embedded_visual组件不再需要开启“即将推出的创作者功能”选项。",
+      "minecraft:flower_pottable组件不再需要开启“即将推出的创作者功能”选项。",
+      "现在大型铜箱子的对角线闪光方向与单个铜箱子的对应方向相匹配。",
+      "现在单个铜箱子和大型铜箱子的箱闩会以相同的方向进行着色。",
+      "现在大型铜箱子和单个铜箱子拥有一致的着色效果。",
+      "现在锈蚀的大型铜箱子的底部纹理与其他大型铜箱子一致。"
+    ],
+    "组件": [
+      "all_slots_empty、​any_slot_empty和​has_equipment过滤器现在支持main_hand作为装备位置。"
+    ],
+    "基岩版编辑器": [
+      "在键盘设置中加入了在没有更改的情况下重置、恢复或关闭模态框时的确认对话框。",
+      "修复了实体被暂停时闪电束不会消失的漏洞。",
+      "修复了文本转语音旁白会不正确地读出快捷方式的漏洞。",
+      "移除了召唤工具列表中不可使用的实体。",
+      "修复了能够在选区的手绘画笔模式下使用↵ Enter键和⇧ Shift + ↵ Enter键来选择体积的漏洞。",
+      "在两个相邻结点的颜色之间插入的颜色时间轴上加入了渐变背景颜色。",
+      "在颜色时间轴API（renderGradientBackground）中加入了可选的布尔属性，允许关闭背景颜色的渲染。默认情况下为开。",
+      "为召唤工具加入了偏移和对齐属性，以便创作者能够更轻松地将实体安置在指定位置。",
+      "为颜色时间轴加入了showAlpha旗标，以便有条件地隐藏选取器的alpha元素。",
+      "为属性窗格加入了IVector2PropertyItemAPI。",
+      "加入了IMenuPropertyItem，用于表示可以支持嵌套子菜单的汉堡式菜单。",
+      "修复了滚动条会在AGFX Graph Color组件中短暂出现的漏洞。",
+      "为结构列表项目加入了结构预览缩略图。",
+      "为标尺工具加入了对撤销/重做的支持。",
+      "修复了复制/粘贴大型结构时客户端会挂起的问题。",
+      "加入了对双击左键的支持，因此可以通过双击左键在图表上打开颜色选取器和可编辑窗口。",
+      "为IBoolPropertyItem带有checkboxIcon可选参数的复选框变种加入了自定义图标支持。",
+      "加入了新的缩放工具，用于调整选区的大小。",
+      "启用了沿着X、Y、Z轴单独或均匀地缩放的功能。",
+      "加入了带有分数比例因子的分数化缩放功能；在放大/收缩期间会保持结构形状。",
+      "加入了在应用更改前显示缩放大小的预览可视化功能。",
+      "将工具与撤销和重做行为整合在一起。",
+      "若当前体积或结果体积中的较大者超出MAX_ALLOWED_BLOCKS（目前为200,000），则禁用缩放。",
+      "加入了“方向”设置，允许用于确定方块应该放置的方向。",
+      "为所有铅笔“模式”（模式、绘制模式、方向模式）加入了键盘快捷键和附带的提示框。",
+      "加入了无法将对象放置在适当的游戏规则时的错误消息（日志和通知）。",
+      "更新了铅笔工具，现在进行擦除时，若处于面选择模式则会切换至方块选择模式（实际上可以因此擦除内容），然后在回到绘画模式时切换回去。",
+      "更新了设置/惯例以使其能够在多个会话之间持续存在。",
+      "更新了铅笔功能以使更具磨光性。",
+      "修复了打开快捷栏管理面板时会创建多个快捷键的漏洞。",
+      "修复了导致去除的交互式提示框不运作的漏洞。",
+      "现在方块选取器图像的布局会在不同的窗口大小之间以及在退出测试世界后保持一致。",
+      "修复了快捷栏对话框中确认按钮的问题，以使其在开始键入时立即变绿，提供合适的视觉反馈。",
+      "修复了使用“对象”模式时撤销行为的问题。",
+      "加入了拼图支持，以使创建拼图技术性更低且更加直观。",
+      "为线条工具加入了曲线，以制作更多有机形状。曲线也可以与结点权重一同运作。",
+      "修复了灵动视效设置面板中有过时术语的问题。将错误消息中的“延迟渲染光照”更改为“灵动视效”。",
+      "修复了悬停文本的背景会被过早裁剪的问题。",
+      "修复了命令方块无法在编辑器项目中使用/structure命令的漏洞。",
+      "修复了无法在文本框（在编辑模式下通过双击左键打开）中为二维图手动输入结点值的问题。",
+      "修复了只有一个玩家可以在多人游戏编辑器会话中使用一次地形工具的漏洞。",
+      "修复了地形工具会忽略蒙版和替换过滤器的漏洞。",
+      "修复了不可使用的按钮会在编辑器暂停菜单中出现的漏洞。",
+      "线条工具现在拥有制作曲线的能力。",
+      "为标尺工具加入了轴锁定和轻推支持。"
+    ],
+    "物品组件": [
+      "带有新的物品组件minecraft:fire_resistant的物品在持续存在于服务端的情况下被扔入火中时不再会在视觉上消失于客户端，因为该属性现在会在客户端和服务端之间正确同步。",
+      "加入了新的minecraft:swing_duration物品组件，用于定义攻击或挖掘时物品挥动动画的持续时间，以秒为单位。",
+      "持续时间由组件的value字段定义。",
+      "仅影响视觉效果，不会影响攻击频率和游戏机制。",
+      "minecraft:fire_resistant物品组件不再接受直接的值分配，现在需要通过value字段来指定值。",
+      "为minecraft:use_modifiers物品组件加入了emit_vibrations字段，用于控制物品是否在开始或停止使用时发出振动。"
+    ],
+    "Molang": [
+      "修复了query.graphics_mode_is_any在切换至灵动视效时不正确的问题。",
+      "加入了31个新的Molang表达式：",
+      "math.inverse_lerp(start, end, value)：返回start和​end给定值之间的归一化进度。",
+      "math.ease_in_quad(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并加速趋近end。",
+      "math.ease_out_quad(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并减速趋近end。",
+      "math.ease_in_out_quad(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间加速，最后再次变慢。",
+      "math.ease_in_cubic(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并强烈地加速趋近end。",
+      "math.ease_out_cubic(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并强烈地减速趋近end。",
+      "math.ease_in_out_cubic(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间强烈地加速，最后再次变慢。",
+      "math.ease_in_quart(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并迅速地加速趋近end。",
+      "math.ease_out_quart(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并迅速地减速趋近end。",
+      "math.ease_in_out_quart(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间迅速地加速，最后再次变慢。",
+      "math.ease_in_quint(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并急剧地加速趋近end。",
+      "math.ease_out_quint(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并急剧地减速趋近end。",
+      "math.ease_in_out_quint(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间急剧地加速，最后再次变慢。",
+      "math.ease_in_sine(start, end, 0_to_1)\"：输出通过0_to_1从start到end，缓慢开始并平滑地加速趋近end。",
+      "math.ease_out_sine(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并平滑地减速趋近end。",
+      "math.ease_in_out_sine(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始和结束，中间附带较为平滑的变化。",
+      "math.ease_in_expo(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并非常迅速地加速趋近end。",
+      "math.ease_out_expo(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并渐进地减速趋近end。",
+      "math.ease_in_out_expo(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始和结束，中间附带非常迅速的变化。",
+      "math.ease_in_circ(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并沿着圆曲线加速趋近end。",
+      "math.ease_out_circ(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并沿着圆曲线减速趋近end。",
+      "math.ease_in_out_circ(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始和结束，中间附带循环加速和减速。",
+      "math.ease_in_bounce(start, end, 0_to_1)：输出通过0_to_1从start到end，弹跳波动地开始并降入end。",
+      "math.ease_out_bounce(start, end, 0_to_1)：输出通过0_to_1从start到end，弹跳波动地趋近end，波动会随时间减弱。",
+      "math.ease_in_out_bounce(start, end, 0_to_1)：输出通过0_to_1从start到end，弹跳波动地开始和减速，中间较为平滑。",
+      "math.ease_in_back(start, end, 0_to_1)：输出通过0_to_1从start到end，在加速抵达end前倒回地超出范围。",
+      "math.ease_out_back(start, end, 0_to_1)：输出通过0_to_1从start到end，在加速抵达end前经过其并超出范围。",
+      "math.ease_in_out_back(start, end, 0_to_1)：输出通过0_to_1从start到end，在开始和最后之时均超出范围，中间附带较为平滑的变化。",
+      "math.ease_in_elastic(start, end, 0_to_1)：输出通过0_to_1从start到end，在加速抵达end前弹性波动地开始。",
+      "math.ease_out_elastic(start, end, 0_to_1)：输出通过0_to_1从start到end，在下降前弹性波动地超过end。",
+      "math.ease_in_out_elastic(start, end, 0_to_1)：输出通过0_to_1从start到end，在开始和最后之时均弹性波动，中间附带稳定的变化。",
+      "加入了query.base_swing_duration，用于返回由所携带物品决定且未被施加于生物的效果修改的生物挥手/攻击动画的持续时间。",
+      "加入了query.modified_swing_duration，用于返回由所携带物品决定且被施加于生物的效果修改的生物挥手/攻击动画的持续时间。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“即将推出的创作者功能”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“测试版 API”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“测试版 API”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“即将推出的创作者功能”、“测试版 API”、“创建者照相机的实验性功能”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "生物群系": [
+      "加入了query.entity_biome_has_any_identifier、​query.entity_biome_has_any_tags和​query.entity_biome_has_all_tagsMolang查询函数，需要开启即将推出的创作者功能。",
+      "这些查询仅在资源包（客户端）有效，在行为包中不受支持。",
+      "entity_biome_has_any_identifier('<命名空间>:<生物群系名称>')：获取一个生物群系标识符列表，并检查其中是否有实体所处在的指定生物群系。",
+      "entity_biome_has_any_tags('<标签名称>')：获取一个生物群系标签列表，并检查实体所处在的生物群系是否匹配其中的任一生物群系标签。",
+      "entity_biome_has_all_tags('<标签名称>')：获取一个生物群系标签列表，并检查实体所处在的生物群系是否匹配其中的所有生物群系标签。",
+      "修复了最近部分测试版本对地表生成器的使用问题，生物群系不再需要地表生成器。现在在Realms上游玩时远距离区块中的地表会正确显示。",
+      "修复了不会为客户端区块生成读取替换生物群系的问题。"
+    ],
+    "命令": [
+      "修复了/damage命令对末地水晶施加伤害时会不正确地汇报执行失败的问题。（MCPE-191379）",
+      "修复了/locate biome命令的问题，以使该命令不再会指引玩家到错误区域。（MCPE-159992）",
+      "修复了无法在分数原始文本对象的name字段中使用非字母字符的问题。（MCPE-108989）",
+      "为minecraft:fixed_boom和​minecraft:follow_orbit预设加入了/camera ... attach_to_entity和/camera ... detach_from_entity命令。",
+      "开启“创建者照相机的实验性功能”选项后可用。"
+    ],
+    "生物": [
+      "现在玩家在副手持有物品的情况下或在装备有盔甲的情况下与铜傀儡交互时，铜傀儡会掉落其携带的物品。（MCPE-225249）",
+      "坐下姿势的铜傀儡像不再会有切断的像素。（MCPE-225999）",
+      "拴绳现在会连接在铜傀儡的躯干上，而不是“避雷针”上方。（MCPE-227208）",
+      "现在铜傀儡像的判定箱与Java版相趋同。（MCPE-225669）",
+      "现在蝌蚪的阴影大小与Java版相趋同。（MCPE-154318）",
+      "铜傀儡像不再会在UI中不正确地渲染。（MCPE-225212）",
+      "凋灵骷髅现在可以捡起铜质装备。",
+      "现在与铜傀儡交互时，除锈/除蜡和涂蜡粒子会出现在铜傀儡所在位置，而不是方块所在位置。",
+      "现在由铜傀儡像转变的铜傀儡会采用铜傀儡像的自定义名称。（MCPE-227714）",
+      "溺尸不再会丢弃三叉戟而去捡起鹦鹉螺壳。（MCPE-155739）",
+      "现在鹦鹉模仿敌对生物的声音受设置中的“友好生物”音效滑块影响。",
+      "更新了海豚的气泡粒子的发射方式，现在通过粒子控制器来发射。",
+      "现在伤害吸收效果会在所有金色生命值均因伤害而消失时立即清除。（MCPE-55449）",
+      "溺尸的右臂和覆盖层不再会与胸部相交。（MCPE-82082）"
+    ],
+    "音效": [
+      "现在铜箱子打开和关闭音效遵循自然衰减曲线。（MCPE-224011）",
+      "现在铜傀儡行走和旋转音效遵循自然衰减曲线。"
+    ],
+    "用户界面": [
+      "现在即使是滚动的消息框，点击文本框时也会将光标放在正确点位。（MCPE-186409）",
+      "现在聊天屏幕上的键盘按钮仅对触摸控制可见。（MCPE-105710）",
+      "修复了可能导致物品栏中没有纹饰的盔甲出现盔甲纹饰的漏洞。",
+      "更新了需要更多玩家睡觉才能跳到白天时显示的文本。（MCPE-183832）",
+      "修复了本地数据存在但无效时，Xbox云存储支持的世界会显示默认图块的问题。",
+      "修复了玩家无法在携带版UI将物品从创造模式物品栏移动到物品栏中的漏洞。（MCPE-226829）",
+      "铜箱子不再有时会在UI中被称为“箱子”。（MCPE-226332）",
+      "修复了无法在存储管理屏幕中删除各种内容的漏洞。（MCPE-226999）",
+      "修复了使用床后可能会短暂显示死亡屏幕的漏洞。（MCPE-226081）",
+      "1.21.120.22",
+      "beta 1.21.120.22（ChromeOS/Android）、Preview 1.21.120.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的第3个测试版，发布于2025年9月16日，更新了可访问性和语言设置，并修复了一些漏洞。",
+      "触摸控制：潜行按钮现在会在激活切换潜行和跳跃时具有正确的轮廓。（MCPE-185069）",
+      "现在“设备设置文字转语音输出”和“改进的输入响应”选项在Windows平台上的设置屏幕中可用。（MCPE-227865）",
+      "1.21.120.23",
+      "beta 1.21.120.23（ChromeOS/Android）、Preview 1.21.120.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的第4个测试版，发布于2025年9月23日，修复了一些漏洞。",
+      "修复了即使已禁用文本转语言功能，在使用游戏手柄或键盘进行无效导航后，部分屏幕上仍会播放音效的问题。",
+      "现在物品栏中的纸娃娃会看向光标。（MCPE-227626）",
+      "1.21.120.24",
+      "beta 1.21.120.24（ChromeOS/Android）、Preview 1.21.120.24（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的第5个测试版，发布于2025年10月1日，同步了一些Java版的特性，更新了通用设置，并修复了一些漏洞。",
+      "修复了Windows平台上的测试版本会阻止用户在游玩屏幕中通过模板创建新世界的问题。（MCPE-227855）",
+      "现在可以使用快捷键将物品从对应的快捷栏槽位转移至鼠标悬停在的槽位。（MCPE-228289）",
+      "修复了在游戏窗口在加载世界的情况下未获得焦点时，键盘输入会无法注册的问题。（MCPE-227839、MCPE-228288）",
+      "修复了使用长度大于相乘的字符串的%.<number>s说明符时发生的崩溃。",
+      "修复了在悬停在不是物品栏槽位的事物上的情况下使用快捷栏的快捷键时发生的崩溃。（MCPE-228539）",
+      "现在快捷栏的快捷键也会在悬停在输出槽位上时生效。（MCPE-228275）"
+    ],
+    "世界生成": [
+      "结构不再会在区块边界的地物（如树）上构建。",
+      "1.21.120.21",
+      "beta 1.21.120.21（ChromeOS/Android）、Preview 1.21.120.21（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的第2个测试版，发布于2025年9月9日至10日，更新了暂停菜单的UI，并修复了一些漏洞。"
+    ],
+    "铜灯笼和铜火把": [
+      "更改了纹理，以更易于与普通灯笼和火把区分。"
+    ],
+    "铜傀儡": [
+      "现在会在转变为铜傀儡像时掉落其头上的虞美人。"
+    ],
+    "暂停菜单": [
+      "更新了UI。",
+      "现在使用新的布局和设计。"
+    ],
+    "AI意向": [
+      "minecraft:behavior.dig、​minecraft:behavior.drink_milk、​minecraft:behavior.avoid_block和​minecraft:behavior.avoid_mob_type现在会在解析且无法加载在1.21.120及更高版本中包含无效数据的实体JSON文件时更加严格。",
+      "修复了生物运行minecraft:behavior.delayed_attackAI意向时发生的崩溃。"
+    ],
+    "方块纹理": [
+      "加权variations纹理在自定义方块上运作时不再需要开启即将推出的创作者功能实验性内容。"
+    ],
+    "Windows上的GDK更新": [
+      "Minecraft Preview现在在最新的GDK（游戏开发工具包）上运行。",
+      "此项更新会使游戏与Windows平台上的标准分发模型保持一致。",
+      "更新了文件路径，现在首次安装并加载新版本的Minecraft Preview时，现有的Minecraft世界会转移到：%APPDATA%\\Minecraft Bedrock Preview。",
+      "部分玩家仍然会接收到UWP版本的Minecraft Preview，因为这是逐步推进的。"
+    ],
+    "Dimension": [
+      "在beta中移除了fillBlocks中的CompoundBlockVolume参数。",
+      "战利品表发现API现在包含生成物品条件。",
+      "将isChunkLoaded(location: Vector3): boolean由beta移动至2.3.0版本。"
+    ],
+    "设置": [
+      "在可访问性设置中加入了“启用方块抖动处理”选项。",
+      "用于启用玩家视角靠近部分方块时该方块会变透明的功能。",
+      "更新了可访问性和语言设置。",
+      "现在使用新的布局和设计。",
+      "在可访问性设置中加入了“启用生物抖动处理”选项。",
+      "用于启用玩家视角靠近生物时该生物会变透明的功能。",
+      "更新了通用设置。",
+      "现在使用新的布局和设计。",
+      "加入了“在未检测到任何输入时进入睡眠模式”选项。",
+      "用于切换游戏是否在处于空闲状态时进入睡眠模式以降低功耗。",
+      "加入了“改造列表”按钮。",
+      "用于显示用于Minecraft开发的技术性信息。",
+      "此前，这些信息会在设置的最底部显示。",
+      "更改了一些选项的名称：",
+      "将“已启用 Websocket”重命名为“启用 WebSocket”。",
+      "将“自动更新已解锁的包”重命名为“自动更新内容包”。",
+      "将“仅允许受信任的皮肤”重命名为“仅添加/查看受信任的皮肤”。",
+      "将“不雅词汇过滤器”重命名为“筛选猥亵语言”。",
+      "将“字体证书”的英文名称由“Font License”重命名为“Font license”。",
+      "PlayStation 4",
+      "将下载存储移动至新的位置。",
+      "玩家可能需要重新下载内容。"
+    ],
+    "网络": [
+      "下列存档事件现在会在确切的指定位置上发射粒子，而不是在匹配的方块位置的中心发射粒子："
+    ],
+    "末地折跃门": [
+      "缓解了玩家在通过末地折跃门传送后可能被推向虚空的问题。（REALMS-12993）"
+    ],
+    "性能与稳定性": [
+      "提高了漏斗被破坏时附近的稳定性。",
+      "修复了可能生成过多暴击粒子的问题。",
+      "修复了由之前PlayStation 5正式版保存的部分世界数据会不正确地加载，致使地形和结构丢失或改变的漏洞。（MCPE-228500）",
+      "现在在Windows平台上启动游戏期间缺失GameInputRedist.msi时不会发生崩溃，并且会提示用户下载GameInputRedist.msi。"
+    ],
+    "铜活板门": [
+      "现在合成铜活板门时会给予1个，而不是2个。"
+    ],
+    "溺尸": [
+      "现在生成时携带的三叉戟有概率是附魔的。"
+    ],
+    "实验性玩法": [
+      "移除了“数据驱动 Jigsaw 结构”子选项。"
+    ],
+    "方块组件": [
+      "为minecraft:material_instances方块组件加入了emissive字段，带有下列要求：",
+      "世界需要启用“即将推出的创作者功能”实验性玩法以使自发光面生效。",
+      "方块的format_version必须大于或等于1.21.120。"
+    ],
+    "结构": [
+      "开放了数据驱动拼图结构。现在可以在不开启实验性玩法的情况下使用数据驱动拼图结构。"
+    ],
+    "环境音效": [
+      "加入了水下环境音效，以同步Java版。"
+    ],
+    "水": [
+      "现在每格水只会减少1等级光照亮度，而非2等级光照亮度，以匹配Java版。",
+      "此更改仅影响测试版本。"
+    ],
+    "盾牌": [
+      "不再是挖掘工具，因此现在使用盾牌挖掘方块时不会消耗盾牌的耐久度。"
+    ],
+    "驴和骡": [
+      "更改了箱子的纹理。",
+      "略微更改了鞍的纹理。"
+    ],
+    "羊驼": [
+      "更改了箱子的纹理以匹配Java版。"
+    ],
+    "骷髅马": [
+      "更改了箱子的纹理，以与驴和骡保持一致。",
+      "更改了鞍的纹理。"
+    ],
+    "僵尸马": [
+      "更改了箱子的纹理，以与驴和骡保持一致。"
+    ],
+    "伤害吸收": [
+      "现在当伤害吸收值消耗殆尽时，伤害吸收效果会立即消失。"
+    ],
+    "ContainerRulesError": [
+      "将reason: ContainerRulesErrorReason属性由beta移动至2.3.0版本。",
+      "将ContainerRulesErrorReason枚举由beta移动至2.3.0版本。",
+      "将ContainerRules接口由beta移动至2.3.0版本。"
+    ],
+    "Container": [
+      "将readonly containerRules?: ContainerRules属性由beta移动至2.3.0版本。",
+      "将readonly weight: number属性由beta移动至2.3.0版本。",
+      "将ItemInventoryComponent类由beta移动至2.3.0版本。"
+    ],
+    "生物群系组件": [
+      "为minecraft:ambient_sounds加入了underwater_addition、​underwater_loop和​underwater_mood字段。它们会在音频听者位置处于水中时播放。",
+      "underwater_addition和​addition现在同时采用asset和​chance，chance用于定义音效播放的概率。",
+      "低于1.21.120的格式版本会自动将水下版本设置为与普通版本相同的版本，并且之前的概率会被硬编码为0.0111概率。"
+    ],
+    "实体组件": [
+      "为minecraft:projectile中的impact_damage加入了apply_knockback_to_blocking_targets属性。"
+    ],
+    "市场": [
+      "市场内容现在可以使用RTX和灵动视效的过滤器来搜索。"
+    ],
+    "结构方块": [
+      "修复了结构方块预览GUI会错误放置自定义方块的问题。"
+    ],
+    "原版趋同": [
+      "现在羊驼、驴、骡、骷髅马和僵尸马的箱子和鞍纹理在Java版和基岩版中相匹配。（MCPE-154327、MCPE-165390）",
+      "现在水下环境音效会在玩家处于水下时播放。（MCPE-79532）",
+      "1.21.120.25",
+      "beta 1.21.120.25（ChromeOS/Android）、Preview 1.21.120.25（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的第6个测试版，发布于2025年10月7日，引入了Realms存档功能，并修复了一些漏洞。"
+    ],
+    "Realms": [
+      "引入了Realms存档功能，是之前备份系统的全新和优化版本，使用包含在玩家的Realms订阅中的新的云存储库来保障玩家的Realms世界安全。",
+      "Realms存档有两项特色：",
+      "在功能上，自动存档与之前的备份系统相同：",
+      "当服务器关闭时，或在Realms游玩会话期间每过30分钟，游玩会话的末尾部分就会采用自动存档。",
+      "自动存档只会在有限时间内保留（此次更新未更改该行为）。",
+      "自动存档不会计入云存储库。",
+      "自动存档默认开启，无需启用任何东西，以保障玩家的Realms世界安全。",
+      "之前所有的Realms备份均会转换为自动存档。",
+      "手动存档由Realm拥有者创建，并计入Realms订阅附带的云存储库。",
+      "只要Realm存在，就会对其保留手动存档。自动存档不会自动删除，但若想要释放存储空间，Realm拥有者仍然可以删除手动存档。",
+      "Realms Plus订阅附带10GB的手动存档存储空间，Realms普通订阅则附带5GB。",
+      "自动存档可由Realm拥有者变为手动存档。",
+      "Realms存档可以在通过“编辑 Realm”按钮来访问的Realms菜单设置中找到，此前需要前往用于显示备份的Realms世界设置。在Realm上游玩时，存档也可以在Realm拥有者的游戏内设置菜单中找到。",
+      "现在Realms存档还会列出世界名称和存档时应用的包。",
+      "此项功能会对测试版本玩家逐步推出。部分玩家可能无法在首次更新测试版本时看到。"
+    ],
+    "输入": [
+      "修复了即使游戏没有获得焦点，鼠标滚动仍会响应的问题。（MCPE-228272）",
+      "优化了仅正在编辑文本时与行内组合和激活进行交互的处理方式。（MCPE-227859）"
+    ],
+    "注释与参考": [
+      "Minecraft Beta & Preview - 1.21.120.20 — Minecraft Feedback，2025年9月3日。",
+      "Minecraft Beta & Preview - 1.21.120.21 — Minecraft Feedback，2025年9月9日。",
+      "Minecraft Beta & Preview - 1.21.120.22 — Minecraft Feedback，2025年9月16日。",
+      "Minecraft Beta & Preview - 1.21.120.23 — Minecraft Feedback，2025年9月23日。",
+      "Minecraft Beta & Preview - 1.21.120.24 — Minecraft Feedback，2025年10月1日。",
+      "Minecraft Beta & Preview - 1.21.120.25 — Minecraft Feedback，2025年10月7日。",
+      "How Mojang Saves Backups for Your Minecraft Realm | Minecraft Help。"
+    ]
+  }
+}

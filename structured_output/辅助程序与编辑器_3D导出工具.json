@@ -1,0 +1,43 @@
+{
+  "title": "辅助程序与编辑器/3D导出工具",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2F3D%E5%AF%BC%E5%87%BA%E5%B7%A5%E5%85%B7",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "FigurePrints Minecraft Exporter": [
+      "一款交互式3D查看器兼3D彩色打印工具，可选取世界的部分区域上传至FigurePrints.com进行打印，支持本地世界及多人游戏服务器权限。",
+      "2013-07-10",
+      "130710"
+    ],
+    "网站": [
+      "1.6.2",
+      "1.7.2",
+      "是，GPL v2",
+      "1.2.5",
+      "1.2.5",
+      "1.21.4"
+    ],
+    "Ed Fries": [
+      "Jmc2obj",
+      "一款基于Java的交互式3D导出工具，可导出为OBJ格式，包含纹理及方块几何结构。",
+      "2013-11-19",
+      "0.2-dev301"
+    ],
+    "Mcobj": [
+      "一款3D导出工具，可将世界转换为.obj或.prt文件，仅导出立体方块。",
+      "2012-04-03",
+      "0.14"
+    ],
+    "Mineblend": [
+      "一款以Blender插件形式运行的导出工具，仅可在Blender内使用。",
+      "2012-06-25",
+      "1.6a"
+    ],
+    "Mineways": [
+      "一款用于3D打印的交互式开源导出工具，也可用于渲染及创建schematic。可选取Minecraft世界的某一区域，导出为OBJ、schematic、STL及VRML格式；支持从导出内容中移除任意方块类型，方块可导出为单个动画的独立对象。",
+      "2025-01-09",
+      "12.04"
+    ]
+  }
+}

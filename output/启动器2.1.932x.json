@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.932x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.932x",
+  "text": "2.1.9322/2.1.9323/2.1.9324\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2019年11月4日\n测试版归属\n2.1.961x\n◄◄2.1.596x\n2.1.1083x►►\n◄2.1.931x\n2.1.9322（Windows）、2.1.9323（macOS）或2.1.9324（Linux）是启动器的一次更新，发布于2019年11月4日。\n修复\nMCL-11291 - Installation deletion dialog leaves out '<' and '>' in installation name.\nMCL-11293 - 启动器日志错误：“updateSettingsParams.settings.freeText: Unknown key”。\nMCL-11562 - 无法找到liblwjgl.so库。\nMCL-11572 - 使用黑暗模式时的故障。\nMCL-12076 - 下载的进度条单位不正确。\nMCL-12077 - 使用最新的Beta版启动器时无法启动游戏。\nMCL-12083 - 在Linux系统下无法编辑任何版本的配置。\nMCL-12104 - 使用Beta启动器时不更新“最近游戏”排序的顺序。\nMCL-12105 - 启动器在Windows操作系统下没有图标。\nMCL-12203 - Linux版2.1.7658版本启动器占用CPU过多。\nMCL-12229 - 尝试将Java许可证移动到其他存储设备后启动器无法启动。\nMCL-12293 - macOS版启动器占用系统资源过多。\nMCL-12393 - 预览Steve的皮肤时会使用过时的皮肤。\nMCL-12399 - \"Successfully updated your skin\" message appears whenever switching account while in the skin menu.\nMCL-12400 - 皮肤库中的元素没有居中。\nMCL-12461 - 用启动器时启动游戏后会占用100%CPU。\nMCL-12466 - “应用皮肤中...”的消息会在选择皮肤后一直出现。\n导航"
+}

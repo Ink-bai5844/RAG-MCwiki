@@ -1,0 +1,5 @@
+{
+  "title": "无限",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%97%A0%E9%99%90",
+  "text": "关于Minecraft Dungeons里的同名魔咒，请见“MCD:无限”。\n无限\n适用物品\n修正附魔等级范围\nI级：20 – 50\n出现条件\n无限制条件\n不共存魔咒\n经验修补\n最大等级\nI\n挑选权重\n1\n魔咒ID\ninfinity\n无限（Infinity）是一种用于弓的魔咒，使用后射击时不会消耗普通种类的箭。\n获取\n附魔需要的最低附魔等级\n物品\n魔咒\n1\n无限I\n20\n16\n第二行为物品对应的附魔能力，第二列为魔咒对应的最小修正附魔等级\n用途\n带有无限魔咒的弓在使用箭时不会将其消耗掉，且以此方式射出的箭只能在创造模式中捡起。只要使用者物品栏内存在至少1支箭，就可以发射出无限数量的箭矢。在Java版中，使用命令或在创造模式下通过铁砧附魔无限的弩亦能生效。\n无限只能对箭生效；药箭、光灵箭[仅Java版]和烟花火箭会被正常消耗。\n无限与经验修补被应用在同一个物品上时，每个魔咒都会互不干扰地产生效果。\n数据值\nID\nJava版：\n名称\n命名空间ID\n魔咒标签（JE）\n本地化键名\n无限\ninfinity\nexclusive_set/bow\nin_enchanting_table\nnon_treasure\non_mob_spawn_equipment\non_random_loot\non_traded_equipment\ntooltip_order\ntradeable\ntrades/desert_common\nenchantment.minecraft.infinity\n基岩版：\n名称\n命名空间ID\n本地化键名\n无限\ninfinity\nenchantment.arrowInfinite\n历史\nJava版\n1.1\n加入了无限。\n1.11.1\n16w50a\n无限现在和经验修补互斥。\n1.20.5\n24w09a\n现在会在弩上产生效果。\n携带版Alpha\n0.12.1\nbuild 1\n加入了无限。\n原主机版\nXbox 360\nXbox One\nPS3\nPS4\nPS Vita\nWii U\nSwitch\nTU7\nCU1\n1.00\nPatch 1\n1.0.1\n加入了无限。\n原主机版\nXbox 360\nXbox One\nPS3\nPS4\nPS Vita\nWii U\nSwitch\nTU7\nCU1\n1.00\nPatch 1\n1.0.1\n加入了无限。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版12w23b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8812w23b",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\n12w23b\n版本\nJava版\n类型\n快照\n发布时间\n2012年6月7日\n快照归属\n1.3.1\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n35\n◄◄1.2.5\n1.3.2►►\n◄12w23a\n12w24a►\n12w23b是Java版1.3.1的第10个快照，发布于2012年6月7日，修复了12w23a里的漏洞和崩溃。\n修复\n修复了1个漏洞\n修复了在生存模式中使用工具瞬间破坏方块时会频繁出现NullPointerException的漏洞。\n参考\nMinecraft Snapshot Week 23（存档），来自Jens Bergensten。Mojang.com，2012年6月7日。\n导航"
+}

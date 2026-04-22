@@ -1,0 +1,28 @@
+{
+  "title": "Minecraft Wiki:Hey Wiki",
+  "source_url": "https://zh.minecraft.wiki/w/Minecraft_Wiki%3AHey_Wiki",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios的官方意见。",
+      "本页面所述内容仅适用于Java版。"
+    ],
+    "主要贡献者": [
+      "Dianliang233"
+    ],
+    "最新版本": [
+      "1.8.6"
+    ],
+    "发布日期": [
+      "2024年6月1日"
+    ],
+    "程序大小": [
+      "~200KiB"
+    ],
+    "授权协议": [
+      "LGPL-3.0"
+    ],
+    "GitHub": [
+      "Hey Wiki是一款由Minecraft Wiki社区开发的客户端模组，使玩家可于游戏中按H（可变更）以打开瞄准的方块、物品、实体对应的wiki条目，包含原版和模组内容。同时支持Fabric与NeoForge。"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "命令/project",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fproject",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "仅编辑器": [
+      "该命令包含用于管理编辑器项目的工具。"
+    ],
+    "语法": [
+      "project export <exportType: ExportTypes>"
+    ],
+    "参数": [
+      "exportType: ExportTypes：enum",
+      "指定导出内容的类型，可用值有："
+    ],
+    "基岩版": [
+      "1.19.80",
+      "1.19.80.20",
+      "加入了/project命令，仅在编辑器中可用。"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "示例": [
+      "导出为世界：/project export world"
+    ]
+  }
+}

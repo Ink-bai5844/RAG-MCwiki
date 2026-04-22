@@ -1,0 +1,43 @@
+{
+  "title": "Java版Classic 0.25 05 SURVIVAL TEST",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.25_05_SURVIVAL_TEST",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.25_05 SURVIVAL TEST"
+    ],
+    "发布时间": [
+      "2009年9月3日"
+    ],
+    "协议版本": [
+      "6"
+    ],
+    "al_version": [
+      "6.52",
+      "◄◄0.25 SURVIVAL TEST",
+      "0.26 SURVIVAL TEST►►",
+      "0.25_05 SURVIVAL TEST是0.25 SURVIVAL TEST的一个漏洞修复版本，发布于2009年9月3日。"
+    ],
+    "皮肤": [
+      "自定义皮肤现在可以显示在玩家手臂上。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "怪物不再会去追死亡的怪物。"
+    ],
+    "你知道吗": [
+      "0.25 SURVIVAL TEST的每个重新上传版本都没有修改版本号，这导致一名用户错误地将Wiki上的版本号从“0.24_SURVIVAL_TEST_03”修改为“0.24_SURVIVAL_TEST_04”，一个不存在的版本。Notch看到后认为这名用户是在告诉他0.25重新上传的版本需要有自己的版本号，并且现在的版本是“_04”，所以Notch将下个版本标记为\"0.25_05 SURVIVAL TEST\"，尽管0.25只有3个重新上传版本。"
+    ],
+    "参考": [
+      "Archive.org上的IRC日志; #minecraft.20090903.log. 2009年9月3日 (UTC−5)。",
+      "IRC记录: \"P12:11:04 <08Notch> 0.25_05 is up with a bug fix (monsters chasing dead monsters), and a small bonus. :D\" (17:11:04 UTC)",
+      "Wiki diff #2560 – 2009年9月3日 17:12 UTC",
+      "IRC记录: \"P12:12:15 <liq3> Notch: Skins on arm now! :D\"",
+      "IRC记录: \"A11:58:33 <08Notch> i didn't bump the number :-O\" [...] \"A11:58:56 <Quatroking> Notch: but we do have a new version?\" [...] \"A11:59:11 <08Notch> yes, Quatroking \" (16:58至16:59 UTC)",
+      "IRC记录: \"A11:59:24 <Quatroking> then how should I put it on the wiki\" [...] \"A11:59:32 <Quatroking> Survival_test_4?\" [...] \"P12:00:34 <Quatroking> I'm changing it to 0.24_SURVIVAL_TEST_4, okay?\" (16:59至17:00 UTC)",
+      "en:Special:Diff/2558",
+      "IRC logs: \"P12:11:04 <08Notch> 0.25_05 is up with a bug fix (monsters chasing dead monsters), and a small bonus. :D\" (17:11 UTC)"
+    ]
+  }
+}

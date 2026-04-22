@@ -1,0 +1,45 @@
+{
+  "title": "Java版Indev 0.31 20100114",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100114",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月14日"
+    ],
+    "al_version": [
+      "1.041",
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100113-2244",
+      "0.31 20100122-1708►",
+      "0.31的一个版本发布于2010年1月14日，加入了无限水源，并修复了一个漏洞。"
+    ],
+    "无限水源": [
+      "放置时会产生无限的水，这些水流动速度快，且不会蒸发。",
+      "玩家出生时会携带99个。"
+    ],
+    "物品栏": [
+      "拾取已具有完整一组的物品会在物品栏中单个堆积。",
+      "如果继续捡起更多物品会导致它们进入到盔甲槽中。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "现在水流动得更快了。"
+    ],
+    "参考": [
+      "I SHOULD be sleeping, but...（存档） — The Word of Notch，2010年1月14日。"
+    ],
+    "Minecraft Indev - Youtube": [
+      "Hey, everyone, keep an eye on your inventory. Notch added support for multiple stacks of the same block type (Yay!) ....but they don't work quite right yet.（存档），来自LightWarriorK。Minecraft Forum，2010年1月14日。",
+      "If you pick up another dirt it'll fill in your equip spaces on the top left. it looks weird, having a clot of dirt equipped to your head.（存档），来自8bit。Minecraft Forum，2010年1月14日。"
+    ]
+  }
+}

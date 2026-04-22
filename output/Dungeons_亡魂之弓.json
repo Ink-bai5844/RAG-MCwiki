@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:亡魂之弓",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E4%BA%A1%E9%AD%82%E4%B9%8B%E5%BC%93",
+  "text": "亡魂之弓\n类型\n远程武器\n稀有度\n力量\n4\n速度\n3\n弹药上限\n5\n自带魔咒\n多重射击\n远古狩猎符文\n存档ID\nSoulBow_Unique2\n这把弓是用被诅咒过的骨头制作的，会剥夺生命的灵魂。\n——物品描述\n亡魂之弓（Bow of Lost Souls）是Minecraft Dungeons中的远程武器。它是灵魂之弓的变种。\n获取\n地点：\n苦力怕森林（冒险难度以上）\n苦力怕地穴（冒险难度以上）\n荒芜神庙（冒险难度以上）\n居民：\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n连箭射手\n使用\n亡魂之弓拥有低攻击力，低速度和低弹药上限。初始弹药数为66。\n属性\n有概率造成多重射击\n+1 灵魂收集\n数据\n战力\n伤害\n41\n71-178\n107\n1105-2762\n110\n1253-3132\n音效\n描述\n文件\n装备\nsfx_item_soulBowUnique2Equip\n击中物体\nsfx_item_soulBowUnique2ArrowImpactNormal\n射击破风声\nsfx_item_soulBowUnique2ArrowWhoosh\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了亡魂之弓。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "动力矿车/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8A%A8%E5%8A%9B%E7%9F%BF%E8%BD%A6%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n矿车共通标签，见Template:Nbt inherit/minecart/source\n*\n*Fuel：直到矿车燃料耗尽所用的时间。\n*\n*PushX：沿X轴的动力，用于流畅地加速/减速。\n*\n*PushZ：沿Z轴的动力，用于流畅地加速/减速。"
+}

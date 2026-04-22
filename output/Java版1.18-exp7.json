@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.18-exp7",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp7",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\n1.18-exp7\n版本\nJava版\n类型\n实验性快照\n发布时间\n2021年9月8日\n实验性快照归属\n1.18\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741871\nHEX: 4000002F\n数据版本\n2831\n资源包版本\n7\n数据包版本\n7\n◄◄1.17.1\n1.18.1►►\n◄1.18-exp6\n21w37a►\n1.18-exp7（1.18 experimental snapshot 7）是Java版1.18的第7个，也是最后一个实验性快照，发布于2021年9月8日，对鞘翅和地形生成进行了调整。此版本单独发布，故不出现在启动器版本列表中。\n此版本由Java版1.17.1分叉而来，独立于Minecraft开发的主分支。\n更改\n物品\n鞘翅\n现在正常滑翔时不再损耗耐久度，仅会在使用烟花火箭推进时损耗。\n略微降低了使用烟花火箭推进增加的速度（从每秒30格降到每秒26格）。\n目的是削弱鞘翅，并减少使用鞘翅飞行造成的服务器卡顿。\n现在耐久度降为0时会消失。\n世界生成\n面条洞穴\n不再限于Y=130以下生成。\n常规\n减少了3D噪声，现在地形略微平滑了一些。\n注释\n解压至.minecraft/versions目录\n参考\nNew world generation in Java available for testing，来自Henrik Kniberg。Minecraft.net，2021年9月8日。\nMinecraft 1.18 experimental snapshot 7 is out!，来自u/MrHenrik2。Reddit，2021年9月8日。\n导航"
+}

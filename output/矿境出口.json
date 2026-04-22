@@ -1,0 +1,5 @@
+{
+  "title": "矿境出口",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9F%BF%E5%A2%83%E5%87%BA%E5%8F%A3",
+  "text": "此条目描述的是一个愚人节玩笑版本25w14craftmine中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n矿境出口\n自然生成于\n矿境\n包含\n见§ 结构\n可生成于已加载区块\n是\n矿境出口（Mine Exit）是一种供玩家离开矿境的结构。\n生成\n矿境出口会在每个矿境中生成，而在特殊事件矿境中，通常需完成事件后才会生成。玩家可使用出口之眼找到它。\n结构\n关于详细的结构图示和方块构成，请见“矿境出口/结构”。\n矿境出口由深板岩砖台阶、深板岩砖楼梯、深板岩砖、去皮苍白橡木、矿境传送方块、去皮苍白橡木原木和树脂砖台阶组成。\n其中心有一个矿境传送方块，玩家与该方块交互后，将在10秒后离开矿境并传送回大厅，这通常是安全离开矿境的唯一方式。\n结构目录\n矿境出口的所有结构均位于文件夹client.jar/data/minecraft/structure/mine_exits中。\n结构目录\nmine_exits\nexit_01.nbt\nroot.nbt\n数据值\n名称\n命名空间ID\n结构标签（JE）\n[无显示名称]\ncave_mine_exit\neye_of_ender_located\nmine_exit\n[无显示名称]\nsurface_mine_exit\n[无显示名称]\nrare_surface_mine_exit\n导航"
+}

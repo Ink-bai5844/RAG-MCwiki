@@ -1,0 +1,17 @@
+{
+  "title": "线/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BA%BF%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1",
+      "绊线是否已被激活（实体在其正上方）。",
+      "0x2"
+    ],
+    "（未使用）": [
+      "0x4",
+      "绊线是否连接到有效的绊线钩上。",
+      "0x8",
+      "绊线是否被拆除。"
+    ]
+  }
+}

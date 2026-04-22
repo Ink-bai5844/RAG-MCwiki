@@ -1,0 +1,123 @@
+{
+  "title": "命令/replaceitem",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Freplaceitem",
+  "structured_content": {
+    "默认分类": [
+      "关于Java版中功能大致相同的命令，请见“命令/item”。",
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "此条目所介绍的内容已从Java版中移除。",
+      "此命令已于Java版1.17被/item命令取代。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "替换方块（箱子、熔炉等）或实体（玩家或生物）物品栏内的物品。"
+    ],
+    "语法": [
+      "replaceitem block <position: x y z> slot.container <slotId: int> <itemName: Item> [amount: int] [data: int] [components: json]",
+      "replaceitem block <position: x y z> slot.container <slotId: int> <oldItemHandling: ReplaceMode> <itemName: Item> [amount: int] [data: int] [components: json]",
+      "replaceitem entity <target: target> <slotType: EntityEquipmentSlot> <slotId: int> <itemName: Item> [amount: int] [data: int] [components: json]",
+      "replaceitem entity <target: target> <slotType: EntityEquipmentSlot> <slotId: int> <oldItemHandling: ReplaceMode> <itemName: Item> [amount: int] [data: int] [components: json]"
+    ],
+    "参数": [
+      "position: x y z（仅block模式）",
+      "指定要改变的方块的位置。可用波浪号（~ ~ ~）或脱字符（^ ^ ^）来指定一个相对于命令执行处的位置。",
+      "target: target（仅entity模式）",
+      "指定要改变的实体。必须为一个玩家名或目标选择器。",
+      "slotType: EntityEquipmentSlot、slot.container和slotId: int",
+      "指定要改变的物品栏槽位。有效值取决于要改变的方块或实体。",
+      "对于方块，必须为slot.container 槽位编号，其中槽位编号用具体的槽位编号数值代替。",
+      "箱子、发射器、投掷器、漏斗和陷阱箱左上角的槽位被编号为0，而后从左到右、从上到下递增（例如，箱子的第一行槽位被从左至右编号为0至8）。大型箱子与大型陷阱箱被视为一个整体，其槽位编号为0至53。",
+      "酿造台底部槽位从左至右编号为0至2，而其顶部槽位为3。烈焰粉的槽位为4。",
+      "熔炉的槽位中输入槽位编号为0，燃料槽位为1，而输出槽位为2。",
+      "对于实体，必须为下列之一，其中槽位编号用具体的槽位编号数值代替："
+    ],
+    "slot.enderchest 槽位编号": [
+      "0至26"
+    ],
+    "slot.hotbar 槽位编号": [
+      "0至8"
+    ],
+    "slot.inventory 槽位编号": [
+      "0至物品栏的槽位上限"
+    ],
+    "slot.armor 槽位编号": [
+      "0至1"
+    ],
+    "slot.chest 槽位编号": [
+      "0至14"
+    ],
+    "slot.equippable 槽位编号": [
+      "0至1仅hasitem",
+      "0：仅马、驴和骡；物品名必须为鞍或空气",
+      "1：仅马和羊驼；物品名必须属于马铠（马）、地毯（羊驼）或空气",
+      "itemName: Item",
+      "指定被放置于方块或实体的物品栏槽位内的物品。必须为物品ID。",
+      "amount: int（可选）",
+      "指定被放置物品的数量。必须在1至64间（含），可以突破物品的堆叠限制。",
+      "当该值突破某物品的堆叠限制时，命令仍会执行成功，但得到的总是该物品的最大堆叠数量（如执行/replaceitem entity @a slot.weapon.mainhand 0 snowball 64会将所有玩家的主手替换为16个雪球）。",
+      "data: int（可选）",
+      "指定被放置物品的物品数据。必须为一个在-2,147,483,648至2,147,483,647间（含，不输入逗号）的整数，且在对指定物品无效时被重置为0。若未指定，默认为0。",
+      "components: json（可选）",
+      "指定被放置物品的物品堆叠组件。类似于NBT标签，但仅支持minecraft:can_place_on、minecraft:can_destroy、minecraft:item_lock、minecraft:keep_on_death。",
+      "oldItemHandling: ReplaceMode（可选）",
+      "必须是下列之一：",
+      "destroy - 忽略指定槽位中的原始物品，直接进行替换。",
+      "keep - 如果一个物品占用了该槽位，则不进行替换。"
+    ],
+    "基岩版": [
+      "1.16.0",
+      "1.16.0.55",
+      "为/replaceitem加入了新参数destroy和keep来指定替换模式。"
+    ],
+    "无法解析": [
+      "amount: int小于1或大于64"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "/replaceitem entity ...": [
+      "<target: target>未能选中至少一个实体（若指定玩家名则必须在线）",
+      "所有选中的实体均满足以下至少一个条件："
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "将上方1格处的一个小型箱子右下角槽位内的物品替换成4棵云杉树苗：",
+      "replaceitem block ~ ~1 ~ slot.container 26 minecraft:sapling 4 1",
+      "将自己的快捷栏最右槽位内的物品替换成4棵云杉树苗：",
+      "replaceitem entity @s slot.hotbar 8 minecraft:sapling 4 1",
+      "将所有人的副手内的物品换成空气：",
+      "replaceitem entity @a slot.weapon.offhand 0 air 1 0",
+      "把自己物品栏右下角槽位内的物品换成空气：",
+      "replaceitem entity @s slot.inventory 26 air 1 0",
+      "给所有僵尸都戴上金头盔：",
+      "replaceitem entity @e[type=zombie] slot.armor.head 0 golden_helmet"
+    ],
+    "Java版": [
+      "1.8",
+      "14w26a",
+      "加入了/replaceitem命令。",
+      "1.14",
+      "18w43a",
+      "现在可以在物品展示框上使用。",
+      "1.17",
+      "20w46a",
+      "移除了/replaceitem，并加入了/item取代其功能。"
+    ],
+    "携带版": [
+      "1.0.5",
+      "1.0.5.0",
+      "加入了/replaceitem命令。",
+      "1.1.0",
+      "1.1.0.0",
+      "现在/replaceitem命令支持canplaceon和candestroy。"
+    ],
+    "参见": [
+      "/data - 也能替换一个容器或实体物品栏中的物品，或改变盔甲与武器的掉落率。",
+      "/give - 不指定具体槽位、不覆盖原有物品地给予玩家物品。"
+    ]
+  }
+}

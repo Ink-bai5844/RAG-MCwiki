@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.2.811x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.811x",
+  "text": "2.2.811x\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2021年12月7日\n测试版归属\n2.2.847x\n◄◄2.2.795x\n2.2.854x►►\n2.2.835x►\n2.2.8116（Windows）、2.2.8117（Windows，Microsoft Store版）、2.2.8115（macOS）或2.2.8114（Linux）是一次启动器更新，发布于2021年12月7日。\n更改\n改进了微软账户迁移后的过程。\n改进了Microsoft Store版启动器管理Mod和保存文件的流程，现在会加载和保存配置到独立启动器所使用的文件中。\n现在用户不会在点击“添加账户”按钮后快速退出登录窗口时收到错误信息了。\n现在Java版的新用户进入皮肤选项卡后会被提示创建Java版的玩家代号了。\n修复\nMCL-19986 - 当启动器更换为Microsoft Store版时所有已下载的文件会丢失。\nMCL-20219 - 进入皮肤选项卡并访问minecraft.net/profile修改玩家名称时会显示并未购买游戏。\n导航"
+}

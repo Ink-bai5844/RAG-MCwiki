@@ -1,0 +1,48 @@
+{
+  "title": "Dungeons:嗡嗡蜂巢",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%97%A1%E5%97%A1%E8%9C%82%E5%B7%A2",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是嗡嗡蜂群。",
+      "本条目介绍的是Minecraft Dungeons中的物品。关于Minecraft中的方块，请见“蜂巢（方块）”。"
+    ],
+    "——物品描述": [
+      "嗡嗡蜂巢（Buzzy Nest）是Minecraft Dungeons中的法器。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "下界荒地": [
+      "居民："
+    ],
+    "使用": [
+      "使用后会将法器置于地上，并召唤蜜蜂帮助玩家战斗。",
+      "蜂巢存在期间最多召唤3只蜜蜂，如果蜜蜂少于3只则会继续补充。",
+      "召唤出来的蜜蜂会围着嗡嗡蜂巢附近行动，待法器消失后才会跟随玩家。",
+      "蜜蜂跟随玩家一段时间后会消失，同时伴随着一阵黄色烟雾效果。",
+      "D2P2_sfx_item_beenesttUse"
+    ],
+    "X 召唤物伤害": [
+      "23 秒冷却"
+    ],
+    "空闲": [
+      "D2P2_sfx_item_beenestIdle"
+    ],
+    "掉落": [
+      "D2P2_sfx_item_beenesttDrop"
+    ],
+    "拾取": [
+      "D2P2_sfx_item_beenesttPickup"
+    ],
+    "装备": [
+      "D2P2_sfx_item_beenesttPlace"
+    ],
+    "生成蜜蜂": [
+      "D2P2_sfx_item_beenesttSpawn"
+    ],
+    "Minecraft Dungeons": [
+      "1.4.3.0",
+      "加入了嗡嗡蜂巢。"
+    ]
+  }
+}

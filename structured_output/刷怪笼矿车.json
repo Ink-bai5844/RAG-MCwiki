@@ -1,0 +1,67 @@
+{
+  "title": "刷怪笼矿车",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%88%B7%E6%80%AA%E7%AC%BC%E7%9F%BF%E8%BD%A6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "尺寸": [
+      "高：0.7格",
+      "宽：0.98格"
+    ],
+    "spawner_minecart": [
+      "刷怪笼矿车（Minecart with Monster Spawner）是一种装着刷怪笼的矿车。"
+    ],
+    "生成": [
+      "刷怪笼矿车只能通过/summon命令生成。没有可以放置刷怪笼矿车的物品。"
+    ],
+    "行为": [
+      "主条目：矿车和刷怪笼",
+      "刷怪笼矿车的行为与刷怪笼基本一致，其NBT数据也与刷怪笼相同。",
+      "与刷怪笼不同，不能对刷怪笼矿车使用刷怪蛋来改变其生成的生物。",
+      "刷怪笼矿车被破坏后会掉落一个矿车。"
+    ],
+    "实体数据": [
+      "主条目：实体数据格式",
+      "刷怪笼矿车有与之相联系的包含许多该实体属性的存档数据。",
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "矿车共通标签，见Template:Nbt inherit/minecart/source",
+      "刷怪笼共通标签，见Template:Nbt inherit/spawner/source"
+    ],
+    "Java版": [
+      "2013年1月7日",
+      "Nathan Adams发布刷怪笼矿车在村庄生成了一些猪的截图。",
+      "那天晚些时候，Adams发布了一张刷怪笼矿车沿着复杂的铁路工作的截图。",
+      "2013年2月6日",
+      "Adams发布了另一个刷怪笼矿车生成猪的截图。",
+      "1.5",
+      "13w06a",
+      "加入了刷怪笼矿车。",
+      "1.11",
+      "16w32a",
+      "实体ID由MinecartSpawner更改为spawner_minecart。",
+      "1.14",
+      "18w43a",
+      "更改了纹理。",
+      "1.19.3",
+      "22w44a",
+      "没有定义生物类型的刷怪笼矿车不再发出火焰粒子。",
+      "英文名称改为“Minecart with Monster Spawner”。",
+      "1.21.5",
+      "25w07a",
+      "移除了刷怪笼矿车实体数据中的CustomDisplayTile字段，此前此项为false时刷怪笼矿车不会展示自定义方块。"
+    ],
+    "Dinnerbone公布的首张截图": [
+      "Dinnerbone公布的第2张截图。图中也能看到发射器矿车",
+      "发布的第2张图片的缩放图像",
+      "Dinnerbone在刷怪笼矿车加入前夕公布的第3张截图"
+    ],
+    "参考": [
+      "https://twitter.com/Dinnerbone/status/299139100638851073",
+      "https://twitter.com/Dinnerbone/status/288319336962215936",
+      "Dinnerbonetweet:288311411728343041",
+      "Dinnerbonetweet:288319336962215936",
+      "Dinnerbonetweet:299137151000522752"
+    ]
+  }
+}

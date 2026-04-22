@@ -1,0 +1,47 @@
+{
+  "title": "Dungeons:末日弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%9C%AB%E6%97%A5%E5%BC%A9",
+  "structured_content": {
+    "力量": [
+      "14"
+    ],
+    "速度": [
+      "1"
+    ],
+    "弹药上限": [
+      "1"
+    ],
+    "存档ID": [
+      "HeavyCrossbow_Unique1",
+      "许多人认为末日弩只是一个神话，但这次谣言变成了事实。"
+    ],
+    "——物品描述": [
+      "末日弩（Doom Crossbow）是Minecraft Dungeons中的独特武器。它是重弩的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "绯红森林（天启难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "末日弩具有极高攻击力，极低速度和弹药上限。初始弹药数为20。"
+    ],
+    "伤害值": [
+      "65",
+      "543",
+      "107",
+      "2987"
+    ],
+    "击中物体": [
+      "sfx_item_heavyCrossbowUnique1ArrowImpactNormal"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了末日弩。"
+    ]
+  }
+}

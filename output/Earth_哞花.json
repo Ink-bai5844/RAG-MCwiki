@@ -1,0 +1,5 @@
+{
+  "title": "Earth:哞花",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E5%93%9E%E8%8A%B1",
+  "text": "提示：本条目的主题不是哞菇。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n哞花\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：1.4格（不包括花）\n宽度：0.9格\n实体ID\n?\n哞花是一种身上装饰着黄色芬芳花朵的美丽奶牛。您可以给它剪毛，如果您够幸运的话，您可能会发现一种美丽的全新毛茛品种。\n——Minecraft Earth内描述\n哞（mōu）花（Moobloom）是哞菇长有毛茛的变种。它们有着稀有级的稀有度。\n获取\n哞花作为稀有级别的生物在牛可点击物中以0.5%的概率获得。\n行为\n主条目：哞菇 § 行为\n哞花走过的地方会长出黄色的花朵，其中有80%的概率是蒲公英，20%的概率是向日葵。除此之外，哞花与哞菇几乎拥有相同的AI行为，都会漫无目的地行走、躲避熔岩以及足以造成摔落伤害的悬崖。\n用途\n可以通过对哞花使用剪刀来获得1朵毛茛。\n可以对哞花使用铁桶来挤奶，产出普通的牛奶（就像对牛挤奶一样）。\n掉落物\n哞花在死亡时掉落：\n0-2 皮革\n1-3 生牛肉\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.cow.say\n死亡\nmob.cow.hurt\n受伤\nmob.cow.hurt\n被挤奶\nmob.cow.milk\n行走\nmob.cow.step\n种下花朵\nSFX_moobloom_plant\n数据值\nID\n名称\n命名空间ID\n本地化键名\n哞花\nmoo_bloom\nentity.moo_bloom.name\n历史\nMinecraft Earth\nRelease\n加入了哞花。\n你知道吗\n哞花在Minecraft Live 2020的生物投票中作为三个候选生物之一。在第一轮投票中被淘汰。\n参见\nEarth:哞金香\n导航"
+}

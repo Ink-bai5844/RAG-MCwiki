@@ -1,0 +1,57 @@
+{
+  "title": "命令/scriptevent",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fscriptevent",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "通过ID和消息来触发脚本事件。"
+    ],
+    "语法": [
+      "scriptevent <messageId: string> <message: message>"
+    ],
+    "参数": [
+      "messageId: string：string",
+      "指定触发脚本事件的消息ID。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "message: message：CommandMessage",
+      "指定触发脚本事件的消息。",
+      "必须为文本，命令的剩余部分全部视作该参数，可以包含空格与目标选择器。游戏将会把文本中的目标选择器替换为选中的实体的名称，多个实体将以“实体1, 实体2, 实体3”格式呈现。可用@<玩家名>提及玩家，@here表示提及所有玩家，提及文字会显示为黄色。（参见聊天）"
+    ],
+    "基岩版": [
+      "1.19.60"
+    ],
+    "执行失败": [
+      "消息长度超出256个字符",
+      "message: message未指定",
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "使用消息IDfoo:bar来触发脚本事件：/scriptevent foo:bar",
+      "使用消息IDfoo:bar来触发脚本事件，并传入消息baz：/scriptevent foo:bar baz"
+    ],
+    "测试版 API": [
+      "1.19.60.22",
+      "加入了/scriptevent。",
+      "1.20.30",
+      "1.20.20.20",
+      "/scriptevent不再属于实验性玩法。"
+    ],
+    "参见": [
+      "minecraft/server.ScriptEventCommandMessageAfterEventSignal Class — Microsoft Learn。"
+    ],
+    "注释": [
+      "ScriptEventCommandMessageAfterEventSignal的实例可以在System.afterEvents.scriptEventReceive对象获取。"
+    ],
+    "参考": [
+      "MCPE-185429"
+    ]
+  }
+}

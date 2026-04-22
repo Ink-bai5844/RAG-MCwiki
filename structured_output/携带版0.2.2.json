@@ -1,0 +1,38 @@
+{
+  "title": "携带版0.2.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.2.2",
+  "structured_content": {
+    "默认分类": [
+      "0.2.2"
+    ],
+    "版本码": [
+      "Android（主版本）：",
+      "2025（armeabi-v7a，9）",
+      "Android（J版本）：",
+      "2023（armeabi-v7a，7）"
+    ],
+    "发布时间": [
+      "Android - 2012年3月17日"
+    ],
+    "协议版本": [
+      "3",
+      "其他版本的0.2.2"
+    ],
+    "Java版Alpha服务器": [
+      "◄◄0.2.0",
+      "0.3.0►►",
+      "◄0.2.1 Rev2",
+      "v0.2.2 alpha是携带版的一次次要更新，发布于2012年3月17日，修复了一些漏洞。此次更新仅发布于Android平台。"
+    ],
+    "修复": [
+      "修复了游戏在某些设备上无法正确打开的漏洞。",
+      "修复了发生在Acer Iconia A500平板上的一个漏洞。"
+    ],
+    "内部版本": [
+      "v0.2.2 alpha的内部版本号为0.2.2(2025)，大小为2.83MB。"
+    ],
+    "参考": [
+      "http://web.archive.org/web/20120422112628/https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"
+    ]
+  }
+}

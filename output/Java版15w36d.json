@@ -1,0 +1,5 @@
+{
+  "title": "Java版15w36d",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8815w36d",
+  "text": "15w36d\n版本\nJava版\n类型\n快照\n发布时间\n2015年9月4日\n快照归属\n1.9\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n70\n数据版本\n126\n资源包版本\n2\n◄◄1.8.9\n1.9.1►►\n◄15w36c\n15w37a►\n15w36d是Java版1.9的第22个快照，发布于2015年9月4日，发布以修复15w36a、15w36b和15w36c中的一些漏洞，以及作出一些小更改。\n新内容\n常规\n属性\n盔甲的防护现在可以用generic.armor属性编辑，范围从0（无防护）到30。\n更改\n方块\n命令方块\n不同类型的命令方块现在在地图上将显示不同的颜色。\n物品\n盔甲\n移除盔甲防护随耐久降低。\n盔甲的防护会显示在浮动条上。\n命令格式\n/replaceitem\n玩家现在可以通过/replaceitem来编辑生物的副手槽位。\n物品根据生物的主手显示。\n游戏内容\n魔咒\n锋利增加的伤害从等级+0.5*（等级-1）更改为1+0.5*（等级-1）。\n修复\n修复了9个漏洞\n1.9前正式版的漏洞\nMC-78716 — 生成的生物具有无效或错的维度标签。\nMC-81586 — 如果在出生区块边缘有火焰，在没有玩家没有登录服务器的情况下，实体会被复制。\n1.9开发版本的漏洞\nMC-83040 — 双持地图漏洞：副手上的地图不更新。\nMC-83841 — /replaceitem slot.weapon.offhand对生物不起作用。\nMC-86923 — 区块会随机丢失。\nMC-87871 — 铁傀儡无故攻击和平生物和玩家。\nMC-87878 — 末地虚空不对玩家造成伤害/不能掉入虚空。\n上个开发版本的漏洞\nMC-87916 — 服务器警告：Tried to assign a mutable BlockPos to tick data。\nMC-87979 — Hopper: java.lang.NullPointerException: Starting integrated server。\n参考\nMinecraft 1.9 snapshot 15w36d（存档），来自Dinnerbone。Mojang.com，2015年9月2日。\n导航"
+}

@@ -1,0 +1,95 @@
+{
+  "title": "启动器2.1.523x/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.523x%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了启动器2.1.523x的测试版本。",
+      "2.1.497x",
+      "2.1.4976（Windows）、2.1.4975（macOS）或2.1.4974（Linux）是在2019年6月14日发布的启动器测试版本，重新设计了启动器的外观。"
+    ],
+    "布局": [
+      "启动器现在有一个带有标签的侧边栏，可以选择要游玩的游戏。",
+      "目前只能在此处启动Java版。",
+      "新闻标签现在位于此侧栏中。"
+    ],
+    "章节": [
+      "添加了“更新说明”选项卡，显示最新主要版本的更改日志。"
+    ],
+    "更改": [
+      "为连接问题添加了更多日志记录。",
+      "启用了界面各个部分中选择用于复制粘贴的文本。",
+      "禁用了输入字段中的拼写检查。",
+      "单击创建/编辑安装对话框外部时不再关闭它。",
+      "更新了翻译。",
+      "更新了翻译。",
+      "减小了启动器更新的下载大小。",
+      "启用了Linux版本的启动器测试版。"
+    ],
+    "外观": [
+      "重新设计了启动器的风格。",
+      "启动器现在默认大小为984×600px而不是600×600px。"
+    ],
+    "标签": [
+      "将“启动选项”选项卡重命名为“配置”。",
+      "启动器版本控制信息现在位于“设置”菜单中，而不是在单击左下角显示的版本号时显示。"
+    ],
+    "登录界面": [
+      "2.1.5000",
+      "2.1.4998（Windows）、2.1.4999（macOS）或2.1.5000（Linux）是在2019年6月17日发布的启动器测试版本，更新了翻译并修复了一些漏洞。"
+    ],
+    "翻译": [
+      "更新了翻译。",
+      "更新了翻译。"
+    ],
+    "修复": [
+      "MCL-11001 - 无法在新的beta启动器上进行登录。",
+      "2.1.50xx",
+      "2.1.5069（Windows）、2.1.5070（macOS）或2.1.5071（Linux）是在2019年6月18日发布的启动器测试版本，修复了一些漏洞。",
+      "修复了使用Forge测试版启动时出现的问题。",
+      "修复了导致错误页面的补丁说明链接。",
+      "修复了Linux上的任务栏图标和WM类。",
+      "修复了在游戏崩溃后启动器重新打开时不会立即显示崩溃报告。",
+      "修复了测试版启动器中未显示的未经批准的语言。",
+      "MCL-10365 - Linux版启动器窗口缺少WM类和名称。",
+      "MCL-10719 - Linux版启动器缺少任务栏图标。",
+      "MCL-10992 - 更新日志下方的“更早的更新”按钮被重定向至漏洞追踪器页面。",
+      "MCL-10996 - 一些语言在启动器中不可用。",
+      "MCL-11027 - 测试版启动器无法启动1.7.10。",
+      "MCL-11038 - 宽度过窄时下拉箭头移到下方。",
+      "MCL-11039 - 在登录屏幕上，输入用户名后按Tab ↹键选择“？”而不是密码字段。",
+      "2.1.512x",
+      "2.1.5127（Windows）、2.1.5128（macOS）或2.1.5129（Linux）是在2019年6月19日发布的启动器测试版本，修复了一些漏洞。",
+      "修复了新建配置对话框中的动画错误。",
+      "各种无障碍修复。",
+      "修复了导致启动器即使在线却仍在离线模式下启动的漏洞。",
+      "MCL-10817 - 快速关闭并重新启动启动器后崩溃。",
+      "MCL-10994 - 某些字符不受“开始游戏”按钮字体支持。",
+      "MCL-11026 - 测试版启动程序无法建立与互联网的连接。",
+      "2.1.519x",
+      "2.1.5197（Windows）、2.1.5196（macOS）或2.1.5195（Linux）是在2019年6月20日发布的启动器测试版本，修复了一些漏洞。",
+      "修复了在Mac和Linux上将启动器窗口调整到过小的问题。",
+      "修复了尽管没有新版本可用但显示更新通知的Linux版本。",
+      "修复了退出后快速重新打开时启动器崩溃的问题。",
+      "修复了能够在不看到警告信息的情况下打开“Minecraft”的重复实例。",
+      "小布局和样式修复。",
+      "MCL-10573 - Linux版启动器的更新提示显示错误。",
+      "MCL-11016 - 同时使用多个账户下载同一个版本的游戏不会发出警告。",
+      "MCL-11046 - 同时启动多个游戏不会发出警告。"
+    ],
+    "注释与参考": [
+      "A new beta version of the Minecraft Launcher is now rolling out, with a complete overhaul of the look and feel of the Launcher among many other things. If you want to try it, enable beta versions in the settings tab of your launcher!，来自@slicedlime。X（曾名Twitter），2019年6月14日。"
+    ],
+    "An updated beta version of the Minecraft Launcher is now rolling out.": [
+      "Changes in this version:"
+    ],
+    "- Fixed a bug causing some players to be unable to log in.": [
+      "- Updated translations.，来自@slicedlime。X（曾名Twitter）。",
+      "https://piston-meta.mojang.com/mc/launcher_beta_changelog.md",
+      "https://twitter.com/slicedlime/status/1141006123383869440",
+      "https://twitter.com/slicedlime/status/1141006124650569731",
+      "https://piston-meta.mojang.com/mc/launcher_beta_changelog.md",
+      "Another new beta version of the Minecraft Launcher is now rolling out. Check out the beta changelog here:，来自@slicedlime。X（曾名Twitter）。",
+      "https://piston-meta.mojang.com/mc/launcher_beta_changelog.md"
+    ]
+  }
+}

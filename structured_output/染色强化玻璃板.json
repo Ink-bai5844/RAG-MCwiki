@@ -1,0 +1,252 @@
+{
+  "title": "染色强化玻璃板",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9F%93%E8%89%B2%E5%BC%BA%E5%8C%96%E7%8E%BB%E7%92%83%E6%9D%BF",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "此页面描述的是教育版相关特性。",
+      "该特性仅在教育版和开启了“Education Edition”选项的基岩版世界中可用。"
+    ],
+    "硬度": [
+      "10",
+      "10"
+    ],
+    "爆炸抗性": [
+      "10"
+    ],
+    "方块ID": [
+      "白色强化玻璃板：hard_white_stained_glass_pane",
+      "淡灰色强化玻璃板：hard_light_gray_stained_glass_pane",
+      "灰色强化玻璃板：hard_gray_stained_glass_pane",
+      "黑色强化玻璃板：hard_black_stained_glass_pane",
+      "棕色强化玻璃板：hard_brown_stained_glass_pane",
+      "红色强化玻璃板：hard_red_stained_glass_pane",
+      "橙色强化玻璃板：hard_orange_stained_glass_pane",
+      "黄色强化玻璃板：hard_yellow_stained_glass_pane",
+      "黄绿色强化玻璃板：hard_lime_stained_glass_pane",
+      "绿色强化玻璃板：hard_green_stained_glass_pane",
+      "青色强化玻璃板：hard_cyan_stained_glass_pane",
+      "淡蓝色强化玻璃板：hard_light_blue_stained_glass_pane",
+      "蓝色强化玻璃板：hard_blue_stained_glass_pane",
+      "紫色强化玻璃板：hard_purple_stained_glass_pane",
+      "品红色强化玻璃板：hard_magenta_stained_glass_pane",
+      "粉红色强化玻璃板：hard_pink_stained_glass_pane"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "白色强化玻璃板：hard_white_stained_glass_pane",
+      "淡灰色强化玻璃板：hard_light_gray_stained_glass_pane",
+      "灰色强化玻璃板：hard_gray_stained_glass_pane",
+      "黑色强化玻璃板：hard_black_stained_glass_pane",
+      "棕色强化玻璃板：hard_brown_stained_glass_pane",
+      "红色强化玻璃板：hard_red_stained_glass_pane",
+      "橙色强化玻璃板：hard_orange_stained_glass_pane",
+      "黄色强化玻璃板：hard_yellow_stained_glass_pane",
+      "黄绿色强化玻璃板：hard_lime_stained_glass_pane",
+      "绿色强化玻璃板：hard_green_stained_glass_pane",
+      "青色强化玻璃板：hard_cyan_stained_glass_pane",
+      "淡蓝色强化玻璃板：hard_light_blue_stained_glass_pane",
+      "蓝色强化玻璃板：hard_blue_stained_glass_pane",
+      "紫色强化玻璃板：hard_purple_stained_glass_pane",
+      "品红色强化玻璃板：hard_magenta_stained_glass_pane",
+      "粉红色强化玻璃板：hard_pink_stained_glass_pane",
+      "染色强化玻璃板（Hardened Stained Glass Pane）是一种在化学成分上增强的染色玻璃板。"
+    ],
+    "生成": [
+      "染色强化玻璃板不会生成在世界中。"
+    ],
+    "[[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]]": [
+      "[[|]]3333333333333333"
+    ],
+    "[[|]][[|]][[|]][[|]][[|]][[|]]": [
+      "[[|]]16161616161616161616161616161616"
+    ],
+    "破坏": [
+      "没有工具可以加速对染色强化玻璃板的挖掘。"
+    ],
+    "白色强化玻璃板": [
+      "1"
+    ],
+    "淡灰色强化玻璃板": [
+      "9"
+    ],
+    "灰色强化玻璃板": [
+      "8"
+    ],
+    "棕色强化玻璃板": [
+      "13"
+    ],
+    "红色强化玻璃板": [
+      "15"
+    ],
+    "橙色强化玻璃板": [
+      "2"
+    ],
+    "黄色强化玻璃板": [
+      "5"
+    ],
+    "黄绿色强化玻璃板": [
+      "6"
+    ],
+    "绿色强化玻璃板": [
+      "14"
+    ],
+    "青色强化玻璃板": [
+      "10"
+    ],
+    "淡蓝色强化玻璃板": [
+      "4"
+    ],
+    "蓝色强化玻璃板": [
+      "12"
+    ],
+    "紫色强化玻璃板": [
+      "11"
+    ],
+    "品红色强化玻璃板": [
+      "3"
+    ],
+    "粉红色强化玻璃板": [
+      "7"
+    ],
+    "徒手": [
+      "15"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "0JE1BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "染色强化玻璃板被破坏后会掉落自身。"
+    ],
+    "用途": [
+      "如果染色强化玻璃板所放位置上的四个侧面都没有支撑面完整的方块表面（潜影盒、树叶除外）、墙、玻璃板、染色玻璃板、铁栏杆、强化玻璃板或其他染色强化玻璃板，它会呈现为一个细的竖直状（ ▪ ），大小2×2像素；一旦侧面有上述方块，它会变得扁平，或呈现、或形状，这取决于在它周围的方块。染色强化玻璃板的碰撞箱与染色强化玻璃板的形状相对应，因此玩家或物品都可以穿过2×2染色强化玻璃板组成的洞。",
+      "染色强化玻璃板永远不会处于水平状态。"
+    ],
+    "描述": [
+      "0"
+    ],
+    "item.use.on": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "hit": [
+      "0.37",
+      "0.5",
+      "16"
+    ],
+    "place": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "fall": [
+      "0.4",
+      "1.0",
+      "16"
+    ],
+    "step": [
+      "0.3",
+      "1.0",
+      "16"
+    ],
+    "jump": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "land": [
+      "0.22",
+      "1.0",
+      "16"
+    ],
+    "hard_white_stained_glass_pane": [
+      "hard_stained_glass_pane / 0"
+    ],
+    "hard_orange_stained_glass_pane": [
+      "hard_stained_glass_pane / 1"
+    ],
+    "hard_magenta_stained_glass_pane": [
+      "hard_stained_glass_pane / 2"
+    ],
+    "hard_light_blue_stained_glass_pane": [
+      "hard_stained_glass_pane / 3"
+    ],
+    "hard_yellow_stained_glass_pane": [
+      "hard_stained_glass_pane / 4"
+    ],
+    "hard_lime_stained_glass_pane": [
+      "hard_stained_glass_pane / 5"
+    ],
+    "hard_pink_stained_glass_pane": [
+      "hard_stained_glass_pane / 6"
+    ],
+    "hard_gray_stained_glass_pane": [
+      "hard_stained_glass_pane / 7"
+    ],
+    "hard_light_gray_stained_glass_pane": [
+      "hard_stained_glass_pane / 8"
+    ],
+    "hard_cyan_stained_glass_pane": [
+      "hard_stained_glass_pane / 9"
+    ],
+    "hard_purple_stained_glass_pane": [
+      "hard_stained_glass_pane / 10"
+    ],
+    "hard_blue_stained_glass_pane": [
+      "hard_stained_glass_pane / 11"
+    ],
+    "hard_brown_stained_glass_pane": [
+      "hard_stained_glass_pane / 12"
+    ],
+    "hard_green_stained_glass_pane": [
+      "hard_stained_glass_pane / 13"
+    ],
+    "hard_red_stained_glass_pane": [
+      "hard_stained_glass_pane / 14"
+    ],
+    "hard_black_stained_glass_pane": [
+      "hard_stained_glass_pane / 15"
+    ],
+    "方块数据": [
+      "参见：基岩版数据值",
+      "染色强化玻璃板使用以下数据值："
+    ],
+    "方块状态": [
+      "参见：方块状态"
+    ],
+    "基岩版": [
+      "1.4.0",
+      "1.2.20.1",
+      "加入了染色强化玻璃板。",
+      "1.20.60",
+      "1.20.60.24",
+      "拆分了染色强化玻璃板的IDhard_stained_glass_pane，现在不同颜色的染色强化玻璃板拥有了各自的ID，同时弃用了方块状态color。",
+      "1.21.0",
+      "1.21.0.21",
+      "现在开启“Education Edition”选项后，染色强化玻璃板会出现在创造模式物品栏中。"
+    ],
+    "教育版": [
+      "1.0.27",
+      "加入了强化玻璃板。",
+      "1.21.03",
+      "1.20.60.0",
+      "拆分了染色强化玻璃板的IDhard_stained_glass_pane，现在不同颜色的染色强化玻璃板拥有了各自的ID，同时弃用了方块状态color。",
+      "1.21.01.0",
+      "现在染色强化玻璃板会出现在创造模式物品栏中。"
+    ],
+    "你知道吗": [
+      "染色强化玻璃板的合成配方很可能取自现实中离子交换工艺的方法，这种玻璃强化的方法能够很大程度提高玻璃抵御外力破坏的能力。"
+    ]
+  }
+}

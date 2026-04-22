@@ -1,0 +1,57 @@
+{
+  "title": "Java版Indev 0.31 20100124-2310",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100124-2310",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月24日"
+    ],
+    "al_version": [
+      "1.046",
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100124-2134",
+      "0.31 20100125►",
+      "0.31的一个版本发布于2010年1月24日23:10（UTC），更改了弓和TNT的机制。"
+    ],
+    "常规": [
+      "物品现在会被火和熔岩摧毁。",
+      "玩家现在只能一次丢弃一个物品，而不是一组。"
+    ],
+    "粒子": [
+      "为挖掘方块加入了粒子效果。"
+    ],
+    "弓": [
+      "在射击时会消耗箭。",
+      "将箭射入水中会产生气泡粒子。"
+    ],
+    "Indev房子": [
+      "Indev房子中加入了一个装满TNT的箱子。"
+    ],
+    "火把": [
+      "减小了火把的碰撞箱。",
+      "添加了顶部纹理。"
+    ],
+    "TNT": [
+      "穿过更坚固的材料时，爆炸的力量会被削弱。",
+      "现在会产生烟雾粒子。",
+      "现在会造成更多伤害。"
+    ],
+    "箱子": [
+      "不再能制作三重箱子了。"
+    ],
+    "参考": [
+      "Ok, /indev/ appears to have been updated again within the last 20 minutes...（存档），来自betasword。Minecraft Forum，2010年1月24日。",
+      "HOLY! smouldering to the tnt!!! explode a tnt and watch the dust fly!（存档），来自gigaman。Minecraft Forum，2010年1月24日。",
+      "TNT seems to kill you a lot more.（存档），来自Ladon。Minecraft Forum，2010年1月24日。",
+      "You can no longer make 3 chests. :sad.gif:（存档），来自dehodson。Minecraft Forum，2010年1月24日。"
+    ]
+  }
+}

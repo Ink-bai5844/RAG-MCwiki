@@ -1,0 +1,76 @@
+{
+  "title": "命令/rotate",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Frotate",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "更改实体的旋转角。"
+    ],
+    "用法": [
+      "rotate <target> <rotation>用于直接设置实体的朝向，而rotate ... facing ...用于将一个朝向向量转换为实体的朝向。",
+      "为了确定朝向向量，游戏将先从命令上下文中获取执行锚点，并将该锚点应用到要执行旋转的目标实体上以确定朝向向量的起点，然后再根据命令指定的世界坐标或要面向的实体（带有锚点）以确定朝向向量的终点。向量转换为角度的计算过程类似于/execute ... facing ...。"
+    ],
+    "rotate <target> <rotation>": [
+      "使实体旋转指定角度。"
+    ],
+    "rotate <target> facing <facingLocation>": [
+      "使实体面向指定的世界坐标。"
+    ],
+    "rotate <target> facing entity <facingEntity> [<facingAnchor>]": [
+      "使实体面向指定的实体（可指定实体锚点）。"
+    ],
+    "参数": [
+      "<target>：entity",
+      "指定旋转的实体。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "<rotation>：rotation",
+      "指定旋转角度。",
+      "必须由两个双精度浮点数组成，分别表示绕Y轴旋转和绕X轴旋转，以度为单位。分别对应实体数据Rotation的两个元素。",
+      "绕Y轴旋转时，-180.0表示北，-90.0表示东，0.0表示南，90.0表示西。",
+      "绕X轴旋转时，竖直上方为-90.0，至竖直下方90.0。",
+      "加上波浪号前缀将相对于执行朝向进行旋转。",
+      "<facingLocation>：vec3",
+      "指定被旋转实体所转向的世界位置坐标。",
+      "必须为三维坐标，元素为双精度浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "<facingEntity>：entity",
+      "指定被旋转实体所转向的实体。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "<facingAnchor>：entity_anchor",
+      "指定基准点位置，默认为feet。",
+      "必须为实体锚点（eyes或feet）。代表一个对某输入向量的变换，无法单独对执行位置产生影响。对于输入向量(x,y,z)，将按照下述规则变换：",
+      "若为eyes，则变换为(x,y+eyeHeight,z)，其中eyeHeight代表实体的眼睛高度。",
+      "若为feet，则变换为(x,y,z)（不变）。"
+    ],
+    "Java版": [
+      "1.21.2",
+      "24w40a",
+      "加入了/rotate命令。",
+      "pre1",
+      "现在/rotate命令需要的权限等级为2，而不是0。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "让执行者绕Y轴旋转10度：",
+      "rotate@s~10~",
+      "让最近的1位玩家看向距离执行位置最近的1只绵羊：",
+      "rotate@pfacingentity@n[type=minecraft:sheep]",
+      "将距离执行位置最近的1只绵羊的朝向赋给最近的1位玩家：",
+      "executerotatedas@n[type=minecraft:sheep]run rotate@p~~",
+      "让最近的1位玩家背对距离其最近的嘎枝：",
+      "executeas@pat@sfacingentity@n[type=minecraft:creaking]feetrun rotate@sfacing^^^-1"
+    ],
+    "参考": [
+      "MC-277141 — “/rotate命令需要的权限等级不为2” — 漏洞状态为“已修复”。"
+    ]
+  }
+}

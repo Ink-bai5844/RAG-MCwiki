@@ -1,0 +1,20 @@
+{
+  "title": "交互实体/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%BA%A4%E4%BA%92%E5%AE%9E%E4%BD%93%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "attack：交互实体最后一次受到的攻击数据。"
+    ],
+    "*": [
+      "*player：攻击交互实体的玩家。",
+      "*timestamp：被攻击的时间。",
+      "interaction：交互实体最后一次受到的交互数据。",
+      "*player：与交互实体交互的玩家。",
+      "*timestamp：交互的时间。",
+      "height：（默认为1）交互实体的高度。",
+      "width：（默认为1）交互实体的宽度。",
+      "response：（默认为false）表示玩家与交互实体交互时是否会挥动手臂。"
+    ]
+  }
+}

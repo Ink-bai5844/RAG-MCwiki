@@ -1,0 +1,31 @@
+{
+  "title": "Java版Beta音效更新",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Beta%E9%9F%B3%E6%95%88%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是Java版2013音乐更新。"
+    ],
+    "发布时间": [
+      "2011年11月14日",
+      "◄◄Beta 1.8.1",
+      "1.0.1►►",
+      "◄Beta 1.9-pre6",
+      "1.0.0-rc1►",
+      "Beta音效更新（Beta Sound Update）是2011年11月14日对游戏音效资源的一次更新。客户端版本没有升级。声音效果升级了，原来未能实现的声音效果也得到了实现。两天后，增加的声音在Java版1.0.0的第一个预览版本中更新。"
+    ],
+    "音效": [
+      "箭发射的声音更改了。",
+      "箱子开关的声音现在与门不同了。",
+      "铁门、木门、活板门和栅栏门开关的声音更改了。",
+      "经验球被拾取时会发出闪烁声。",
+      "弹射物品（雪球、鸡蛋、钓鱼竿和末影珍珠）的声音更改了。",
+      "爆炸现在有多种不同的声音。"
+    ],
+    "你知道吗": [
+      "音效资源更新后，它被应用到所有Minecraft版本中，包括所有的Alpha和Beta版本。"
+    ],
+    "参考": [
+      "Release candidate 1! Doors can be opened! New sfx! http://assets.minecraft.net/rc1/minecraft.jar ( + minecraft_server.jar)，来自@jeb_。X（曾名Twitter），2011年11月14日。"
+    ]
+  }
+}

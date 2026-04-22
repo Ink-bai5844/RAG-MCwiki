@@ -1,0 +1,5 @@
+{
+  "title": "命令/deop",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdeop",
+  "text": "deop\n需要的权限等级\nJava版：3\n基岩版：2\n限制条件\n不在命令方块上执行\n仅专用服务器[仅Java版]\n撤销玩家的管理员身份。\n语法\nJava版\ndeop <targets>\n基岩版\ndeop <player: target>\n参数\nJE：<targets>：game_profile\nBE：player: target：CommandSelector<Player>\n指定要撤销管理员的玩家。\n在Java版中，指定一个或多个游戏（玩家）档案，必须是玩家名或玩家类型的目标选择器。若服务器开启在线模式，在命令执行时玩家名将要求真实存在。\n在基岩版中，必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\n结果\n命令\n触发条件\nJava版\n基岩版\n任意\n参数未正确指定\n无法解析\n<targets>或player: target未能选中玩家\n执行失败\nplayer: target是非玩家类型的目标选择器\nN/A\n指定玩家都不是管理员或权限等级不是4\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n失败时\nN/A\n0\n成功时\nN/A\n1\n撤销的管理员数\n示例\n将Alice从管理员列表中移除：deop Alice\n历史\nJava版Classic\n0.0.15a\n加入了/deop命令。\nJava版Indev\n0.31\n?\n移除了所有命令。\nJava版Alpha\nv1.0.16\n重新加入了/deop命令。\n携带版Alpha\n0.16.0\nbuild 1\n加入了/deop命令。\n导航"
+}

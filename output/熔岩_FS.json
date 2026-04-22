@@ -1,0 +1,5 @@
+{
+  "title": "熔岩/FS",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%86%94%E5%B2%A9%2FFS",
+  "text": "熔岩\nID名称：lava\n名称\n默认值\n接受值\n描述\nfalling\nfalse\ntrue\n永远是false，无效果\n流动的熔岩\nID名称：flowing_lava\n名称\n默认值\n接受值\n描述\nlevel\n1\n2\n3\n4\n5\n6\n7\n8\n熔岩的高度。8为最高，1为最低。向下流动的熔岩永远为8。\nfalling\nfalse\ntrue\n是否为向下流动的熔岩。"
+}

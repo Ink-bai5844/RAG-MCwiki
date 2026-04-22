@@ -1,0 +1,41 @@
+{
+  "title": "命令/resourceuri",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fresourceuri",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "设定或清除暂停菜单下的资源链接。"
+    ],
+    "resourceuri clear": [
+      "清除资源链接。",
+      "resourceuri default [uri: text]",
+      "设定资源链接的URI，按钮文本默认。",
+      "resourceuri named <name: string> [uri: text]",
+      "设定资源链接。"
+    ],
+    "参数": [
+      "name: string：basic_string",
+      "指定资源链接的按钮文本。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "uri: text：CommandRawText",
+      "指定资源链接的URI，默认为空。",
+      "此参数为贪婪字符串参数，即命令的剩余部分全部视作该字符串参数，可以包含空格。"
+    ],
+    "教育版": [
+      "1.14.70",
+      "1.14.60",
+      "加入了/resourceuri命令。"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "执行失败": [
+      "0"
+    ]
+  }
+}

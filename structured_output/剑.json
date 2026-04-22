@@ -1,0 +1,933 @@
+{
+  "title": "剑",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%89%91",
+  "structured_content": {
+    "最大耐久度": [
+      "木剑：59",
+      "石剑：131",
+      "铜剑：190",
+      "铁剑：250",
+      "金剑：32",
+      "钻石剑：1,561",
+      "下界合金剑：2,031"
+    ],
+    "烧炼时间": [
+      "木剑：200游戏刻（10秒，1个物品）",
+      "石剑、铜剑、铁剑、金剑、钻石剑、下界合金剑：无"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "可再生": [
+      "木剑、石剑、铜剑、铁剑、金剑、钻石剑：是",
+      "下界合金剑：否"
+    ],
+    "物品ID": [
+      "木剑：wooden_sword",
+      "石剑：stone_sword",
+      "铜剑：copper_sword",
+      "铁剑：iron_sword",
+      "金剑：golden_sword",
+      "钻石剑：diamond_sword",
+      "下界合金剑：netherite_sword",
+      "在2010年1月，剑就成为了Minecraft中的一员，同时加入的还有钻石、木棍、煤炭……噢，还有整个合成系统。自那时起，剑的基本概念大多保留了下来，但其中的细节被反复优化。魔咒于Java版1.0.0中加入，在Java版1.2.1后可以从生物身上掉落，而在Java版1.9——战斗更新——又完全变了样。"
+    ],
+    "——Duncan Geere": [
+      "剑（Sword）是一种近战武器，主要用于对实体造成伤害，也可用于高效地清理蜘蛛网和竹子。"
+    ],
+    "钻石剑": [
+      "物品进行了5–19级附魔，不能提供宝藏型魔咒（由标签#on_traded_equipment控制）。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加两把剑的剩余耐久度，再额外获得5%的耐久度。会损失所有非诅咒魔咒。"
+    ],
+    "[[|]]": [
+      "2把剑的耐久度加在一起，再额外增加5%。会损失所有非诅咒魔咒。",
+      "[[|]]0.1"
+    ],
+    "铁砧": [
+      "主条目：铁砧机制"
+    ],
+    "修复和命名 木剑石剑铜剑铁剑金剑钻石剑下界合金剑[[|]][[|]][[|]]": [
+      "每个材料可以恢复剑25%的耐久（向下取整）。",
+      "叠加两把剑的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "生物": [
+      "主条目：掉落物 § 装备物品",
+      "一些生物在生成的时候会带剑，在它们被玩家杀死的情况下有8.5%[仅JE]/25%[仅BE]（抢夺魔咒每级增加1%）的概率掉落剑。手持铁剑的僵尸可以掉落铁剑，僵尸猪灵和手持金剑的猪灵可以掉落金剑，凋灵骷髅可以掉落石剑。这些剑大部分损坏严重，有时会附有魔咒（凋灵骷髅的石剑除外）。",
+      "自然生成的恼鬼被玩家杀死时始终不会掉落其持有的铁剑，这是因为它们主手手持物品掉落的概率为0。",
+      "在基岩版中，袭击时生成的掠夺者和卫道士有4.1%（困难难度为5.12%）的概率掉落一把铁剑，尽管它会带有随机魔咒，但它受损严重。"
+    ],
+    "Java版": [
+      "剑的攻击速度是1.6，需要12游戏刻（0.6秒）来恢复。",
+      "1.0.0",
+      "Beta 1.9-pre1",
+      "玩家在水下格挡不再能更快地上浮。",
+      "格挡不再减免跌落伤害。",
+      "Beta 1.9-pre3",
+      "剑被削弱来为魔咒让路。钻石剑现在造成7（）伤害而不是10（）。",
+      "Beta 1.9-pre4",
+      "剑能在附魔台被附魔。",
+      "1.1",
+      "12w01a",
+      "铁剑可在村庄铁匠箱子中找到。",
+      "1.2.1",
+      "12w06a",
+      "在玩家杀死僵尸后，铁剑可作为稀有掉落物。杀死僵尸猪人可掉落金剑。这些剑有20%的概率具有魔咒。",
+      "1.3.1",
+      "12w21a",
+      "现在可以通过交易来购买钻石剑，这使所有剑可再生。",
+      "1.4.2",
+      "12w32a",
+      "现在僵尸有概率会装备铁剑，可造成额外伤害。",
+      "12w34a",
+      "如果染色了皮革并且选择任意一种剑，在第二或第三人称的时候这把剑会以被染色的形式出现。",
+      "12w36a",
+      "加入了凋灵骷髅，自带石剑。",
+      "1.4.6",
+      "12w49a",
+      "现在可以对剑用附魔书增加耐久魔咒了。",
+      "1.6.1",
+      "13w18a",
+      "下界要塞的新箱子中可找到金剑。",
+      "13w21a",
+      "徒手攻击的1（）附加在剑上了，所以现在的剑攻击时比以前会获得1（）附加伤害。",
+      "13w25b",
+      "创造模式中，剑无法破坏任何方块，也不会有任何音效在击中方块后被放出。",
+      "1.9",
+      "15w31a",
+      "附魔的铁剑和钻石剑现在能在末地城中末地船的箱子里找到。",
+      "15w33c",
+      "剑不再能防御了。取而代之的是盾牌。",
+      "15w34b",
+      "剑现在使用“攻击速度”战斗机制，剑的攻击速度为1.25或0.8秒。",
+      "15w34c",
+      "现在剑的攻击少1，攻击速度变为1.45或0.69秒。",
+      "剑在以行走或更慢的速度移动时攻击可以使出“横扫攻击”，这可击退附近的生物。攻击冷却条必须为满才能使出此攻击。",
+      "15w37a",
+      "现在剑的攻击速度为1.6，或0.63秒。",
+      "15w43a",
+      "降低金剑在下界要塞中的平均生成概率。",
+      "15w49a",
+      "横扫攻击对生物造成1（）的伤害。",
+      "1.11.1",
+      "16w50a",
+      "烧炼金剑和铁剑能获得对应的金粒和铁粒。",
+      "加入了横扫之刃魔咒。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，这些物品的数字ID分别是268、272、267、276和283。",
+      "18w10a",
+      "剑现在可以生成在埋藏的宝藏的箱子。",
+      "2018年9月10日",
+      "Jasper Boerstra在推特上公布了一组新的剑的纹理图片。",
+      "1.14",
+      "18w43a",
+      "更新了所有剑的纹理。",
+      "剑现在可快速破坏竹子。",
+      "1.16",
+      "20w06a",
+      "加入了下界合金剑。",
+      "20w07a",
+      "加入了猪灵，生成时有概率自带金剑。",
+      "20w09a",
+      "更改了钻石剑的纹理。",
+      "20w10a",
+      "更改了下界合金剑的纹理。",
+      "移除了原有的下界合金剑的合成配方。",
+      "下界合金剑现在需要在锻造台上通过升级钻石剑而获得。",
+      "20w15a",
+      "现在可以用黑石合成石剑。",
+      "20w16a",
+      "金剑和下界合金剑现在可在堡垒遗迹的战利品箱内生成。",
+      "20w17a",
+      "下界合金剑不再会在堡垒遗迹的战利品箱内生成，取而代之的是钻石剑。",
+      "1.17",
+      "21w08a",
+      "现在可以用深板岩圆石合成石剑。",
+      "1.19.4"
+    ],
+    "基岩版": [
+      "剑没有攻击冷却。",
+      "1.10.0",
+      "1.10.0.3",
+      "更改了所有剑的纹理。",
+      "铁剑现在可以在平原村庄的铁匠铺中找到。",
+      "1.11.0",
+      "1.11.0.1",
+      "铁剑现在可以在热带草原、积雪针叶林和沙漠村庄的铁匠铺中找到。",
+      "1.11.0.4",
+      "现在当袭击中的掠夺者和卫道士死亡时有概率掉落铁剑。",
+      "更改了交易，武器商村民现在以2个绿宝石的价格出售铁剑，以8个绿宝石的价格出售钻石剑，作为其第4层交易的一部分。",
+      "1.16.0",
+      "1.16.0.51",
+      "加入了下界合金剑，可由钻石剑和下界合金锭合成获得。",
+      "更改了钻石剑的纹理。",
+      "加入猪灵，有概率持有金剑生成。",
+      "1.16.0.57",
+      "金剑和下界合金剑现在可在堡垒遗迹的箱子内生成。",
+      "现在可以用黑石合成石剑。",
+      "1.17.0",
+      "1.17.0.50",
+      "现在可以用深板岩圆石合成石剑。",
+      "1.17.10",
+      "1.17.10.20",
+      "更改了下界合金剑的纹理以匹配Java版。",
+      "1.17.30",
+      "1.17.20.20",
+      "剑现在可快速破坏竹子。",
+      "1.19.80"
+    ],
+    "新手级武器匠": [
+      "67%",
+      "100%",
+      "绿宝石 × 7–21"
+    ],
+    "大师级武器匠": [
+      "100%",
+      "绿宝石 × 13–27"
+    ],
+    "箱子战利品": [
+      "Java版："
+    ],
+    "末地城": [
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9"
+    ],
+    "堡垒遗迹塔尖": [
+      "0.20",
+      "1",
+      "19%",
+      "5.3",
+      "0.10",
+      "1",
+      "9.75%",
+      "10.3",
+      "0.11",
+      "1",
+      "10.25%",
+      "9.8",
+      "0.63",
+      "1",
+      "53.19%",
+      "1.9",
+      "物品会具有其总耐久的10%到90%之间的耐久度。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。"
+    ],
+    "要塞走廊": [
+      "0.12",
+      "1",
+      "11.89%",
+      "8.4",
+      "0.12",
+      "1",
+      "11.54%",
+      "8.7"
+    ],
+    "村庄武器匠小屋": [
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4"
+    ],
+    "埋藏的宝藏": [
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0",
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0"
+    ],
+    "堡垒遗迹藏宝室": [
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0"
+    ],
+    "废弃传送门": [
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9"
+    ],
+    "堡垒遗迹桥": [
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9"
+    ],
+    "下界要塞": [
+      "0.19",
+      "1",
+      "17.9%",
+      "5.6",
+      "基岩版：",
+      "0.19",
+      "1",
+      "17.9%",
+      "5.6"
+    ],
+    "村庄铁匠铺（未使用）": [
+      "0.29",
+      "1",
+      "25.64%",
+      "3.9"
+    ],
+    "锻造": [
+      "下界合金剑可在锻造台中通过升级钻石剑而获得。"
+    ],
+    "用途": [
+      "物品实体形式的下界合金剑会漂浮在熔岩上，且不会被火和熔岩摧毁。"
+    ],
+    "近战攻击": [
+      "剑每成功进行一次近战攻击会减少1点耐久度。",
+      "用剑攻击船和矿车会增加其损坏度[仅Java版]或减少其结构完整度[仅基岩版]，在Java版中还可以触发横扫攻击。",
+      "在Java版中，用剑攻击非生物实体不会消耗耐久度。"
+    ],
+    "攻击伤害": [
+      "4（）",
+      "5（）",
+      "6（）",
+      "7（）",
+      "8（）",
+      "5（）",
+      "6（）",
+      "7（）",
+      "8（）",
+      "9（）"
+    ],
+    "攻击速度": [
+      "1.6"
+    ],
+    "每秒攻击伤害（DPS）": [
+      "6.4（ × 3.2）",
+      "8（）",
+      "9.6（ × 4.8）",
+      "11.2（ × 5.6）",
+      "12.8（ × 6.4）",
+      "10（）",
+      "12（ × 6）",
+      "14（ × 7）",
+      "16（ × 8）",
+      "18（ × 9）"
+    ],
+    "可使用次数": [
+      "59",
+      "32",
+      "131",
+      "190",
+      "250",
+      "1561",
+      "2031",
+      "60",
+      "33",
+      "132",
+      "191",
+      "251",
+      "1562",
+      "2032"
+    ],
+    "总攻击伤害": [
+      "236（ × 118）",
+      "128（ × 64）",
+      "655（ × 327.5）",
+      "950（ × 475）",
+      "1500（ × 750）",
+      "10927（ × 5463.5）",
+      "16248（ × 8124）",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、暴击、受击后伤害免疫和攻击冷却。",
+      "300（ × 150）",
+      "165（ × 82.5）",
+      "792（ × 396）",
+      "1146（ × 573）",
+      "1757（ × 878.5）",
+      "12496（ × 6248）",
+      "18288（ × 9144）",
+      "攻击间隔取受击后伤害免疫的最大持续时间。",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、暴击和受击后伤害免疫。"
+    ],
+    "横扫攻击": [
+      "主条目：近战攻击 § 横扫攻击",
+      "本段落所述内容仅适用于Java版。",
+      "在Java版中，玩家使用剑进行近战攻击可以发动横扫攻击。"
+    ],
+    "挖掘工具": [
+      "主条目：挖掘 § 挖掘速度",
+      "剑是一种挖掘工具，每次成功挖掘任何硬度不为0的方块后会消耗2耐久度。剑的品质对挖掘速度没有影响。",
+      "剑属于“创造模式下不能破坏方块”的物品，在创造模式下具有特殊的挖掘行为：",
+      "在Java版中，剑虽然能够挖掘方块，但无法破坏方块，挖掘方块时也不会发出声音。",
+      "在基岩版中，当使用键盘与鼠标、手柄或“摇杆并瞄准十字线”模式的触屏时，剑不能挖掘方块，只会发出轻击音效，除“摇杆并瞄准十字线”模式的触屏外还会播放一次挥舞动画；使用“摇杆并点击进行互动”和“方向键并进行互动”模式的触屏时，剑虽然能够挖掘方块，但无法破坏方块，且仅在开始挖掘硬度非零的方块时产生一次破坏粒子。",
+      "以下方块的合适挖掘工具包含剑："
+    ],
+    "蜘蛛网": [
+      "4",
+      "20"
+    ],
+    "—": [
+      "0.4",
+      "0.05",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。"
+    ],
+    "竹子": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.05"
+    ],
+    "竹笋": [
+      "1",
+      "1.5"
+    ],
+    "雕刻南瓜": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15",
+      "1"
+    ],
+    "南瓜灯": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15",
+      "1"
+    ],
+    "西瓜": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15",
+      "1"
+    ],
+    "南瓜": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15",
+      "1"
+    ],
+    "紫颂花": [
+      "0.4",
+      "0.6",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.4"
+    ],
+    "紫颂植株": [
+      "0.4",
+      "0.6",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.4"
+    ],
+    "可可果": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2"
+    ],
+    "发光地衣": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.15"
+    ],
+    "橡树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "云杉树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "白桦树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "丛林树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "金合欢树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "深色橡树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "红树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "樱花树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "杜鹃树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "盛开的杜鹃树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "苍白橡树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "藤蔓": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.15"
+    ],
+    "大型垂滴叶": [
+      "0.1",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.1"
+    ],
+    "魔咒": [
+      "剑能被附加以下魔咒："
+    ],
+    "I": [
+      "锋利、亡灵杀手、节肢杀手相互排斥。",
+      "只能通过使用相应的附魔书在铁砧上叠加而获得。"
+    ],
+    "燃料": [
+      "木剑能被用作熔炉、高炉或烟熏炉的燃料，每个木剑可以烧炼1个物品。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "subtitles.entity.player.attack.weak": [
+      "物品：损坏"
+    ],
+    "subtitles.entity.item.break": [
+      "基岩版："
+    ],
+    "break": [
+      "1.0",
+      "0.9",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "wooden_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.wooden_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:wooden_tool_materials\"},\"minecraft:enchantable\":{\"value\":15},\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:max_damage\":59,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:wooden_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "stone_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.stone_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:stone_tool_materials\"},\"minecraft:enchantable\":{\"value\":5},\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:max_damage\":131,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":4,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:stone_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "copper_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:copper_tool_materials\"},\"minecraft:enchantable\":{\"value\":13},\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:max_damage\":190,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":4,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "iron_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:iron_tool_materials\"},\"minecraft:enchantable\":{\"value\":14},\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:max_damage\":250,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "diamond_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:diamond_tool_materials\"},\"minecraft:enchantable\":{\"value\":10},\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:max_damage\":1561,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":6,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "golden_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:gold_tool_materials\"},\"minecraft:enchantable\":{\"value\":22},\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:max_damage\":32,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "netherite_sword": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_sword\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:tool\":{\"can_destroy_blocks_in_creative\":false,\"rules\":[{\"speed\":15,\"blocks\":\"minecraft:cobweb\",\"correct_for_drops\":true},{\"speed\":3.4028235e+38,\"blocks\":\"#minecraft:sword_instantly_mines\"},{\"speed\":1.5,\"blocks\":\"#minecraft:sword_efficient\"}],\"damage_per_block\":2},\"minecraft:repairable\":{\"items\":\"#minecraft:netherite_tool_materials\"},\"minecraft:enchantable\":{\"value\":15},\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:max_damage\":2031,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":7,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4000000953674316,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_sword\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "item.minecraft.netherite_sword": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*value：（值≥1）物品的附魔能力。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。",
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。",
+      "minecraft:tool：物品的挖掘工具属性。",
+      "can_destroy_blocks_in_creative：（默认为true）创造模式玩家能否使用此物品破坏方块。",
+      "damage_per_block：（值≥0，默认为1）破坏硬度非0的方块时物品损失的耐久度。",
+      "default_mining_speed：（值≥0，默认为1）挖掘方块时的速度。",
+      "*rules：物品与对应可以挖掘的方块的映射列表。",
+      "：一项物品与方块列表的挖掘配置数据。",
+      "*blocks：此配置指定的有效方块。可以为一个#开头的方块标签、一个方块ID、或一个方块ID的列表。",
+      "correct_for_drops：此物品是否是所有上方指定方块的合适挖掘工具。",
+      "speed：覆盖所有上方指定方块的使用此物品挖掘时的挖掘速度。",
+      "minecraft:weapon：设置物品的武器数据。此组件存在时物品使用次数统计信息会在用此物品攻击时增加。",
+      "disable_blocking_for_seconds：（值≥0，默认为0）攻击成功禁用目标盾牌的秒数。",
+      "item_damage_per_attack：（值≥0，默认为1）每次攻击对此物品造成的损伤值，即损耗的耐久度。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。"
+    ],
+    "wooden_sword,stone_sword,copper_sword,iron_sword,diamond_sword,netherite_sword,golden_sword所共有的组件": [
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:enchantable"
+    ],
+    "netherite_sword单独拥有的组件": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Time to Strike!": [
+      "使用木板和木棍制作剑。",
+      "从工作台的输出栏获取任意品质的剑。",
+      "10G"
+    ],
+    "Overkill": [
+      "一击造成 9 颗心的伤害。",
+      "在一次伤害中造成18（ × 9）或更高伤害值。伤害可以施加给任何生物，即使该生物的生命值低于18（ × 9）。",
+      "30G"
+    ],
+    "用黄金分散猪灵的注意力": [
+      "被猪灵攻击时朝它丢弃金质物品，让它捡起来。",
+      "30G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "下界": [
+      "在身上未装备金盔甲时将这些拥有物品标签#piglin_loved的物品之一扔给猪灵："
+    ],
+    "粗金": [
+      "或手持金锭对猪灵按使用键。进度不会在玩家装备金盔甲而猪灵愤怒时触发。如有其他金质物品可以正常使用，进度和猪灵会将其忽略。"
+    ],
+    "Java版Indev": [
+      "0.31",
+      "20091231-2147",
+      "加入了铁剑。",
+      "剑现在不能被合成，但是会在世界生成时加入到玩家的物品栏。",
+      "20100128-2203",
+      "加入了木剑、石剑和钻石剑。",
+      "木剑、石剑、钻石剑现在不能被合成，但是加入到了Indev房子的箱子中。",
+      "铁剑被加入到了Indev房子的箱子中。",
+      "20100129-1447",
+      "木剑、石剑、铁剑、钻石剑现在可以被合成了。",
+      "20100130",
+      "剑现在可以由金制成了。",
+      "20100131-2157",
+      "剑现在拥有耐久值。",
+      "材料越好的剑越耐用。",
+      "剑在击中生物时损耗1点耐久，在破坏方块时损耗2点耐久。",
+      "20100206-2034",
+      "细微改动了金剑的纹理。"
+    ],
+    "Java版Alpha": [
+      "v1.2.0"
+    ],
+    "preview": [
+      "加入了僵尸猪人，它们自身携带金剑。"
+    ],
+    "Java版Beta": [
+      "1.2",
+      "剑如同其他工具一样有了更高的耐久值。",
+      "现在，钻石剑的耐久值为1024，铁剑为128，石剑为64，木剑和金剑为32。",
+      "1.7.3",
+      "近战攻击不再有1（）额外伤害。",
+      "1.8",
+      "pre1",
+      "加入了格挡，使玩家在战斗时有更多选择。",
+      "pre2",
+      "格挡现在可以在多人游戏中减免伤害。"
+    ],
+    "正式版": [
+      "剑不再会比弓造成更多伤害。"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "23w04a",
+      "现在钻石剑还需要下界合金升级锻造模板才能升级为下界合金剑。",
+      "1.20",
+      "23w12a",
+      "23w04a的变更不再属于实验性内容。",
+      "1.21.9",
+      "25w31a",
+      "加入了铜剑。"
+    ],
+    "携带版Alpha": [
+      "0.2.0",
+      "加入了剑。",
+      "木、铁、金、钻石剑暂时无法正常获取。",
+      "0.3.0",
+      "木剑现在可以正常获取了。",
+      "0.3.2",
+      "铁、金和钻石剑现在可以正常获取了。",
+      "0.11.0",
+      "build 11",
+      "木、石、铁、金、钻石剑在创造模式物品栏中可用。",
+      "build 12",
+      "木、石、铁、金、钻石剑在创造模式物品栏中被移除。",
+      "build 13",
+      "木、石、铁、金、钻石剑在创造模式物品栏中再一次可用。",
+      "0.12.1",
+      "build 1",
+      "创造模式中，剑不再能破坏方块，尝试用剑破坏方块时，不会发出任何声音。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "铁剑和金剑现在可以烧炼成铁粒和金粒。"
+    ],
+    "实验性玩法": [
+      "2025 年第 3 次更新",
+      "1.21.100.23",
+      "加入了铜剑。",
+      "1.21.111",
+      "1.21.110.20",
+      "铜剑不再属于实验性玩法。",
+      "敌对生物现在能够捡起并使用铜剑。",
+      "1.21.130",
+      "1.21.130.20",
+      "铁剑现在可以生成在埋藏的宝藏的箱子。"
+    ],
+    "下一个主要更新": [
+      "1.19.80.21",
+      "现在钻石剑还需要下界合金升级锻造模板才能升级为下界合金剑。",
+      "1.20.0",
+      "1.20.0.21",
+      "1.19.80.21中的变更不再属于实验性玩法。",
+      "1.21.50",
+      "1.21.50.20",
+      "剑现在能够瞬间破坏竹笋。",
+      "剑现在仅能加速挖掘部分方块，而不是加速挖掘所有方块。",
+      "1.21.100"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了所有的剑。",
+      "TU5",
+      "加入防御能力，让玩家战斗的时候有了更多的选择。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "铁剑和金剑现在可以烧炼成铁粒和金粒。",
+      "1.90",
+      "更改了所有剑的纹理。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了所有的剑。",
+      "TU5",
+      "加入防御能力，让玩家战斗的时候有了更多的选择。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "铁剑和金剑现在可以烧炼成铁粒和金粒。",
+      "1.90",
+      "更改了所有剑的纹理。"
+    ],
+    "你知道吗": [
+      "剑的纹理来自Notch遗弃的RPG游戏《Legend of the Chambered》。铁剑的纹理首先被制作出来，其他的剑是根据铁剑制作的。",
+      "如果在创造模式或使用命令为剑附魔效率，用它破坏蜘蛛网的时间将会相应缩短。这是因为剑被归类为采集蜘蛛网的合适工具。",
+      "在20w06a中，下界合金剑剑格两端有透明纹理，使其与其他材料的剑相比外观独特。这一问题在20w10a中被修复。"
+    ],
+    "画廊": [
+      "一个玩家在Java版战斗更新之前使用一把剑防御，这样可抵挡50%的伤害"
+    ],
+    "参考": [
+      "Taking Inventory: Sword — Minecraft.net，2019年4月12日。",
+      "MC-2958 — 漏洞状态为“已修复”。",
+      "MC-262891 — 漏洞状态为“无效”。",
+      "MCPE-93323 — 漏洞状态为“已修复”。",
+      "MC-170819 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

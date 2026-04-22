@@ -1,0 +1,127 @@
+{
+  "title": "Java版23w04a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8823w04a",
+  "structured_content": {
+    "默认分类": [
+      "23w04a"
+    ],
+    "发布时间": [
+      "2023年1月24日"
+    ],
+    "快照归属": [
+      "1.19.4"
+    ],
+    "协议版本": [
+      "DEC: 1073741940",
+      "HEX: 40000074"
+    ],
+    "数据版本": [
+      "3321"
+    ],
+    "资源包版本": [
+      "12"
+    ],
+    "数据包版本": [
+      "11",
+      "◄◄1.19.3",
+      "1.20►►",
+      "◄23w03a",
+      "23w05a►",
+      "23w04a是Java版1.19.4的第2个快照，发布于2023年1月24日，在内置实验性数据包中加入了锻造模板，修复了一些漏洞。"
+    ],
+    "/execute": [
+      "为/execute on加入了origin关系。",
+      "若执行实体为弹射物，则选择对应发射者。",
+      "若执行实体为物品，则选择对应掷出者。",
+      "若执行实体为区域效果云，则选择对应效果的来源者。",
+      "若执行实体为被激活的TNT，则选择对应点燃者。",
+      "若执行实体为唤魔者尖牙或恼鬼，则选择对应召唤者。"
+    ],
+    "常规": [
+      "更改了物品和盔甲的附魔光效，现在变得更淡。"
+    ],
+    "用户界面": [
+      "调亮了各槽位占位符图标（织布机未受影响）。"
+    ],
+    "锻造模板": [
+      "一类新物品，可用于装饰盔甲与锻造下界合金装备，在锻造台上使用。",
+      "一次消耗一个锻造模板。",
+      "无法直接合成，但可以在工作台中用7个钻石、1个锻造模板和1个对应复制材料来复制1个。",
+      "共有以下12种（一些种类的盔甲纹饰会更稀有）："
+    ],
+    "数据包": [
+      "加入了trim_pattern和trim_material注册项。",
+      "新的纹饰和锻造原材料可以通过这两个注册项添加。",
+      "玩家加入服务端时，这些数据会自动同步到客户端上，但需要客户端有对应资源包才能显示纹理。",
+      "纹理路径根据纹饰的JSON文件名推断，并会在与纹饰的name字段相同的命名空间中查找。",
+      "trim_pattern定义了以下数据：",
+      "asset_id：纹理的命名空间ID，用于推断纹理存储位置及定位。",
+      "template_item：锻造模板物品的命名空间ID，用于应用纹饰。",
+      "description：文本组件，用于在悬停提示中显示纹饰名称。",
+      "trim_material定义了以下数据：",
+      "asset_name：字符串，用作盔甲纹饰纹理位置的后缀。",
+      "ingredient：锻造原材料的命名空间ID，用于指定要应用到纹饰上的调色板。",
+      "item_model_index：浮点数，用于定义物品模型覆写，以改变盔甲物品的显示。",
+      "incompatible_armor_material：可选，无法应用该锻造原材料的盔甲材料命名空间ID。",
+      "description：文本组件，用于在悬停提示中显示锻造原材料名称。",
+      "此描述中定义的样式也可用于纹饰的description字段。"
+    ],
+    "物品格式": [
+      "为HideFlagsNBT字段加入了旗标（值为128），用于隐藏盔甲纹饰的工具提示。"
+    ],
+    "配方": [
+      "为新的工具锻造机制加入了smithing_transform和​smithing_trim配方序列化器，分别用于新的下界合金升级配方和盔甲锻造配方。"
+    ],
+    "资源包": [
+      "加入了paletted_permutations图集配置资源，可以通过调色板在内存中动态生成新纹理，而不再需要为每个纹理变种单独制作纹理。其拥有以下参数：",
+      "textures：基础纹理的命名空间地址列表。",
+      "palette_key：指定需要被调色板中的颜色替换的像素。",
+      "permutations：将前缀对应到调色板的命名空间地址的排列映射。",
+      "前缀位于输出纹理目标地址之前，与基础纹理名称以_隔开。",
+      "调色板为一用作替换基础纹理文件中符合调色板键的像素的纹理文件，像素数量须与palette_key的定义相同。",
+      "键配对的过程为比较palette_key与调色板中像素的RGB值。Alpha通道在键配对的过程中会被忽略，但在配对完成后会与调色板的Alpha通道相乘。",
+      "不符合palette_key的像素会被直接复制到输出纹理中。",
+      "定义了paletted_permutations，这些输出的纹理可以被资源包中的其他资源引用。",
+      "如定义了以下paletted_permutations：",
+      "{\"type\":\"paletted_permutations\",\"textures\":[\"minecraft:item/leather_helmet\",\"minecraft:item/leather_chestplate\",\"minecraft:item/leather_leggings\",\"minecraft:item/leather_boots\"],\"palette_key\":\"minecraft:colormap/color_palettes/leather_armor_color_key\",\"permutations\":{\"red\":\"minecraft:colormap/color_palettes/red\",\"green\":\"minecraft:colormap/color_palettes/green\",\"blue\":\"minecraft:colormap/color_palettes/blue\"}}",
+      "可在其他资源中通过下面的方式引用：",
+      "{\"textures\":{\"layer0\":\"minecraft:item/leather_helmet_red\",\"layer1\":\"minecraft:item/leather_chestplate_green\",\"layer2\":\"minecraft:item/leather_boots_blue\"}}"
+    ],
+    "标签": [
+      "加入了以下物品标签：",
+      "#trim_materials：amethyst_shard、​copper_ingot、​diamond、​emerald、​gold_ingot、​iron_ingot、​lapis_lazuli、​netherite_ingot、​quartz和​redstone。",
+      "#trim_templates：coast_armor_trim_smithing_template、​dune_armor_trim_smithing_template、​eye_armor_trim_smithing_template、​rib_armor_trim_smithing_template、​sentry_armor_trim_smithing_template、​snout_armor_trim_smithing_template、​spire_armor_trim_smithing_template、​tide_armor_trim_smithing_template、​vex_armor_trim_smithing_template、​ward_armor_trim_smithing_template和​wild_armor_trim_smithing_template。",
+      "#trimmable_armor：chainmail_boots、​chainmail_chestplate、​chainmail_helmet、​chainmail_leggings、​diamond_boots、​diamond_chestplate、​diamond_helmet、​diamond_leggings、​golden_boots、​golden_chestplate、​golden_helmet、​golden_leggings、​iron_boots、​iron_chestplate、​iron_helmet、​iron_leggings、​netherite_boots、​netherite_chestplate、​netherite_helmet、​netherite_leggings和​turtle_helmet。"
+    ],
+    "盔甲": [
+      "现在非皮革质盔甲可以通过锻造台消耗锻造模板和以下10种原材料中的一种进行锻造："
+    ],
+    "红石粉": [
+      "锻造结果不会提供任何属性增益。",
+      "锻造模板决定锻造后盔甲纹饰图案，原材料决定纹饰颜色。",
+      "无法将锻造原材料应用于相同质地的盔甲。",
+      "重复锻造将会覆盖上一次的锻造结果。",
+      "锻造后的盔甲，其纹饰和锻造原材料名称会在物品提示框中以原材料颜色显示。",
+      "不同的纹饰在物品栏图标中显示的是相同的纹理，实际展示出来的是类似于荒野盔甲纹饰的样式；不同的纹饰颜色在物品栏图标中显示的纹饰颜色不同。"
+    ],
+    "锻造机制": [
+      "更改了锻造台的UI，现在拥有三个输入槽位，第一个槽位为锻造模板，其次为装备，最后为锻造原材料，需要先放入锻造模板才可进一步操作。",
+      "锻造模板控制可在后两个槽位中放置的物品种类。",
+      "现在锻造下界合金工具需要“下界合金升级”锻造模板才能完成。",
+      "将旧菜单重命名为legacy_smithing（将在新菜单不再为实验性功能时移除），新菜单使用原名smithing。"
+    ],
+    "修复": [
+      "修复了4个漏洞",
+      "1.19前正式版的漏洞",
+      "MC-198809 — 除非魔咒等级非常高，否则爆炸保护魔咒不削弱爆炸击退。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-259189 — 复述功能不可用时，辅助功能引导屏幕上的对应按钮不变灰。",
+      "MC-259204 — 所有山羊角均显示并播放的是“沉思”这一种。",
+      "MC-259211 — 无法使用键盘导航功能在资源包菜单中选中不兼容资源包。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 23w04a — Minecraft.net，2023年1月24日。"
+    ]
+  }
+}

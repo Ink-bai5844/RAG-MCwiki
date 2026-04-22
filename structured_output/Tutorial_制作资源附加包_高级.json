@@ -1,0 +1,139 @@
+{
+  "title": "Tutorial:制作资源附加包/高级",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%88%B6%E4%BD%9C%E8%B5%84%E6%BA%90%E9%99%84%E5%8A%A0%E5%8C%85%2F%E9%AB%98%E7%BA%A7",
+  "structured_content": {
+    "默认分类": [
+      "此教程仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "本教程所述内容仅适用于基岩版。",
+      "本教程是基岩版制作资源附加包的进阶指南，关于创建行为包的指南请见Tutorial:制作行为包。"
+    ],
+    "准备": [
+      "有良好的文件管理知识储备。",
+      "了解JSON文件格式和一个图像编辑程序（该程序需要支持透明图像和颜色）与文本编辑器。",
+      "了解如何创建一个资源附加包。"
+    ],
+    "资源包的清单文件格式": [
+      "主条目：manifest.json",
+      "资源包的清单文件格式大致如下："
+    ],
+    "JSON文件根元素": [
+      "format_version：格式版本。",
+      "header：附加包的外部信息。",
+      "description：附加包简介，可以是文本也可以是本地化键名。",
+      "platform_locked：锁定附加包不在全局资源中使用。",
+      "min_engine_version：最低支持的游戏版本，≥1.13.0时格式版本需要修改为2。",
+      "name：附加包名称，可以是文本也可以是本地化键名。",
+      "pack_scope：仅资源包可用。表示资源包可以应用于哪个级别。world可以应用于特定存档，global可以应用于全局资源，any可以应用于任何地方，默认为any。",
+      "settings：资源包设置。",
+      "*type：选项类型，可为label、input、toggle、slider或dropdown。",
+      "text：文本内容或标题内容。",
+      "如果type是input，还可包含：",
+      "*name：命名空间。",
+      "default：输入框内默认输入的文本。",
+      "如果type是toggle，还可包含：",
+      "*name：命名空间。",
+      "default：控制默认开关状态。",
+      "如果type是slider，还可包含：",
+      "*name：命名空间。",
+      "default：默认滑块所处位置，如果不填写，则为中间值。",
+      "min：滑块最小值。",
+      "max：滑块最大值。",
+      "step：单次滑动变化的数值，默认为1。",
+      "如果type是dropdown，还可包含：",
+      "*name：命名空间。",
+      "options：选项。",
+      "text：选项文本。",
+      "name：命名空间。",
+      "default：下拉菜单默认值。",
+      "你可以将格式版本设置为3，并使用脚本API获取行为包设置来调整行为包内容。微软文档中提到，未来资源包可能也能通过Molang实现此功能。",
+      "你也可以参考微软文档对manifest.json功能的介绍及微软文档的创建附加包自定义设置教程获取更多信息。"
+    ],
+    "uuid": [
+      "version：以A.B.C或[A,B,C]表示附加包的版本号，用来处理附加包的更新。",
+      "modules：描述附加包中可能包含的模块。",
+      "description：资源包模块描述，游戏内不会显示，可省略。",
+      "type：模块类型，可填写：resources（资源包）、data（行为包）、skin_pack、world_template或script（脚本）。",
+      "version：模块版本号，游戏内不会显示。",
+      "dependencies：描述了此附加包所依赖的附加包或者脚本模块，如果它不存在，则会出现错误。",
+      "：描述附加包的依赖关系。",
+      "uuid：所依赖的附加包中的唯一标识符，它应该和所依赖的附加包header中的uuid完全一致。",
+      "name：附加包名称，可以是文本也可以是本地化键名。",
+      "version：你所依赖的附加包的版本。注意，此版本应该和所依赖的附加包中的清单文件匹配。",
+      "：描述脚本的依赖关系。",
+      "uuid：脚本模块的UUID（可选）。",
+      "module_name: 脚本模块的名称，用于导入脚本API。",
+      "version：你所依赖的附加包的版本。",
+      "capabilities：可启用的额外功能。",
+      "：定义附加包的功能范围。",
+      "chemistry – 启用教育版功能。",
+      "editorExtension – 在游戏内部使用，用于原版基岩版编辑器资源包，也用于导入@minecraft/server-editor脚本模块。",
+      "experimental_custom_ui – 启用基于HTML和JavaScript的实验性自定义UI功能。基岩版1.18.10.28后不再受到支持。"
+    ],
+    "script_eval": [
+      "raytraced – 启用特定于光线追踪的PBR功能，该功能仅支持MER子集，与灵动视效相兼容。",
+      "pbr – 通过MERS支持，启用特定于灵动视效的PBR功能。",
+      "metadata：附加包的相关资料信息。",
+      "authors：附加包的作者列表。",
+      "：附加包作者名字。",
+      "license：附加包的版权证书。",
+      "generated_with：用于生成清单文件的工具。",
+      "：列表元素的名称应为用于生成清单文件的工具名称。该名称必须由简单字符组成，且长度不超过32个字符。",
+      "：一个形如A.B.C的字符串，表示用于修改清单文件的工具版本。",
+      "product_type：如果设置为addon则表示该包是附加包的一部分，这也允许在激活附加包时不会禁用成就。",
+      "url：附加包的网站主页。"
+    ],
+    "创建子包": [
+      "之前我们已经知道manifest.json的基础内容，除了上文提到的header、modules等字段外，我们还可以添加subpacks字段创建子包，子包会在资源包的设置界面显示供玩家自由切换。",
+      "这里以制作两种不同颜色头带的苦力怕为例。",
+      "首先，我们在manifest.json中增加以下内容："
+    ],
+    "manifest.json": [
+      "将我们修改后的资源包实装入游戏后，资源包旁边会出现设置按钮。我们可以在资源包设置中切换子包。"
+    ],
+    "json": [
+      "{\"format_version\":2,\"header\":{......},\"modules\":[{......}],\"subpacks\":[{\"folder_name\":\"red_creeper\",//该子包的文件夹名称\"name\":\"Red Creeper Head Band\",//该子包在游戏子包设置界面中显示的名称\"memory_tier\":1//（可选）该子包所需内存，数字从小到大所需内存依次升高，可重复},{\"folder_name\":\"blue_creeper\",\"name\":\"Blue Creeper Head Band\",\"memory_tier\":2}]}",
+      "资源包子包的路径如下，我们在对应路径中分别放入修改后的苦力怕纹理。",
+      "{\"format_version\":2,\"header\":{......},\"modules\":[{......}],\"settings\":[{\"type\":\"label\",\"text\":\"Hello!\"},{\"type\":\"input\",\"name\":\"aaaaaaa\",\"text\":\"Title\",\"default\":\"Hello!\"},{\"type\":\"toggle\",\"name\":\"b\",\"text\":\"Title\",\"default\":true},{\"type\":\"slider\",\"name\":\"c\",\"text\":\"Title\",\"min\":0,\"max\":100,\"step\":10,\"default\":50}]}",
+      "格式如下：",
+      "{\"splashes\":[\"这是一条闪烁标语！\",\"这是另一条闪烁标语！\"]}",
+      "{\"beginner_loading_messages\":[\"onlinePlay.message\",\"beginnerTips.1\",......],\"mid_game_loading_messages\":[\"onlinePlay.message\",\"beginnerTips.1\",......\"midgameTips.69\"],......}",
+      "中括号内填写语言文件中的本地化键名。",
+      "除上述beginner_loading_messages、mid_game_loading_messages外，还可以添加："
+    ],
+    "subpacks": [
+      "red_creeper：其中一个子包。"
+    ],
+    "creeper": [
+      "creeper.png：苦力怕纹理文件。",
+      "blue_creeper：另一个子包。"
+    ],
+    "更详细的资源包信息": [
+      "我们还可以添加settings字段在资源包设置中展示更多信息。"
+    ],
+    "资源包设置界面": [
+      "上图可以用以下代码实现："
+    ],
+    "闪烁标语": [
+      "如果要更改闪烁标语，需在资源包的根目录创建splashes.json。格式如下："
+    ],
+    "需要注意这会直接覆盖原版的闪烁标语而不是添加在原版闪烁标语列表下！": [
+      "遗憾的是，截至基岩版1.21.93，示例资源附加包中并没有提供原版的splashes.json。"
+    ],
+    "更改加载提示": [
+      "加载提示存储在资源包根目录的loading_messages.json，引用了语言文件中存储的本地化键名（参见教程:自定义附加包语言文件），格式如下："
+    ],
+    "addons_loading_messages": [
+      "这些字段的含义可参见加载提示，也可通过简单翻译理解。"
+    ],
+    "参见": [
+      "Minecraft基岩版开发Wiki:清单文件"
+    ],
+    "参考": [
+      "https://wiki.bedrock.dev/scripting/api-modules",
+      "https://bedrock.dev/docs/1.18.0.0/1.18.10.28/UI",
+      "https://wiki.bedrock.dev/scripting/api-environment",
+      "https://learn.microsoft.com/zh-cn/minecraft/creator/documents/addons/custompacksettings?view=minecraft-bedrock-stable"
+    ]
+  }
+}

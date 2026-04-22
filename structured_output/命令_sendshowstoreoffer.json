@@ -1,0 +1,30 @@
+{
+  "title": "命令/sendshowstoreoffer",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsendshowstoreoffer",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "4"
+    ],
+    "仅专用服务端": [
+      "向玩家发送显示商店特惠的请求。"
+    ],
+    "语法": [
+      "sendshowstoreoffer <player: target> <redirectType: RedirectLocation> <offerId: string>",
+      "sendshowstoreoffer <player: target> server"
+    ],
+    "参数": [
+      "player: target：CommandSelector<Player>",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "redirectType: RedirectLocation：enum",
+      "指定请求类型，可用值有："
+    ],
+    "character": [
+      "offerId: string：string",
+      "指定商店特惠ID。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。"
+    ]
+  }
+}

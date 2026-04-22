@@ -1,0 +1,106 @@
+{
+  "title": "基岩版1.17.20.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.17.20.23",
+  "structured_content": {
+    "默认分类": [
+      "1.17.20.23"
+    ],
+    "版本码": [
+      "Android：",
+      "951702023（armeabi-v7a，29）",
+      "961702023（x86，29）",
+      "971702023（arm64-v8a，29）",
+      "981702023（x86_64，29）"
+    ],
+    "发布时间": [
+      "Xbox One, Windows 10, Android - 2021年7月22日"
+    ],
+    "测试版归属": [
+      "1.17.30"
+    ],
+    "协议版本": [
+      "459",
+      "◄◄1.17.11",
+      "1.17.32►►",
+      "◄1.17.20.22",
+      "1.17.30.20►",
+      "beta 1.17.20.23是基岩版1.17.30的第4个测试版，发布于2021年7月22日，修复了一些漏洞。"
+    ],
+    "游戏内容": [
+      "数据驱动方块现在可添加至创造模式物品栏中。",
+      "修复了床脚显示得比床头更亮的问题。（MCPE-123592）",
+      "修复了大型箱子一部分显示得比另一部分更亮的问题。（MCPE-123592）",
+      "玩家进入末地传送门后不再会受到摔落伤害。（MCPE-135226、MCPE-132484）"
+    ],
+    "Molang": [
+      "来源于资源包和行为包的min_engine_version现在会在传递至Molang表达式解析中。",
+      "该更改兼容未来更新中与特定引擎版本相关的重大更改。"
+    ],
+    "用户界面": [
+      "UI绑定对象现可使用忽略字段。",
+      "在游戏中按下Ctrl + B不再会进入表情切换界面。（MCPE-125246）",
+      "修复了Windows 10上暂停游戏后输入法编辑器（IME）无法运行的问题。（MCPE-59722）",
+      "为市场和角色创建器相关界面加入了新的侧边栏，以提升导航这些界面的体验。",
+      "现在取消选择合成配方时会拥有物品转移动画。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“洞穴及悬崖”和“启用游戏测试框架”子选项后才可使用。"
+    ],
+    "生物": [
+      "现在站在细雪附近的亡灵生物会正常自燃。（MCPE-131005）",
+      "现在亡灵生物上方有细雪时会阻止其自燃。",
+      "通过刷怪蛋生成或在末地城生成的潜影贝不再可以生成于同一位置。（MCPE-43972）",
+      "现在站在紫晶芽上的生物会正确寻路。（MCPE-130010）",
+      "修复了玩家下马时马可能会隐身的问题。（MCPE-108568）",
+      "山羊在重新加载世界后不再会失去角。",
+      "闪电不再会随机劈中方块下的生物。（MCPE-121688）"
+    ],
+    "常规": [
+      "现在敌对生物可以在新山地中生成。"
+    ],
+    "GameTest框架": [
+      "将模块Minecraft重命名为mojang-minecraft。",
+      "将模块GameTest重命名为mojang-gametest。",
+      "将函数assertBlockTypePresent重命名为assertBlockPresent。",
+      "将函数assertEntityData重命名为 assertEntityState。",
+      "移除了函数assertBlockTypeNotPresent。",
+      "移除了函数assertEntityNotPresent。",
+      "移除了函数assertEntityNotPresentInArea。",
+      "移除了函数assertEntityNotTouching。",
+      "移除了函数successWhenEntityNotPresent。",
+      "修改了函数assertBlockState(blockLocation: BlockLocation, callback: (Block) => boolean)的签名。",
+      "修改了函数assertBlockPresent(blockType: BlockType, blockLocation: BlockLocation, isPresent: boolean)的签名。",
+      "修改了函数assertEntityPresent(entityTypeIdentifier: string, blockLocation: BlockLocation, isPresent: boolean)的签名。",
+      "修改了函数assertEntityPresentInArea(entityTypeIdentifier: string, isPresent: boolean)的签名。",
+      "修改了函数assertEntityTouching(entityTypeIdentifier: string, location: Location, isTouching: boolean)的签名。",
+      "修改了函数successWhenEntityPresent(entityTypeIdentifier: string, location: Location, isPresent: boolean)的签名。",
+      "加入了GameTestExtension函数assertBlockProperty(propertyName: string, value: number | string | boolean, blockLocation: BlockLocation)。"
+    ],
+    "性能与稳定性": [
+      "修复了一些游戏过程中可能发生的崩溃。",
+      "优化了在书与笔中粘贴unicode文本时的性能。（MCPE-119651）",
+      "修复了通过合成配方提示合成工作台时可能发生的崩溃。"
+    ],
+    "物品": [
+      "提升了物品实体远离玩家移动时的流畅度。（MCPE-101102）",
+      "在市场上的世界中手持盾牌不再会显示内容错误。",
+      "增强版/延长版/喷溅型/滞留型药水现在可以正确放置在酿造台中。（MCPE-86636）"
+    ],
+    "方块": [
+      "孢子花在放置时不再会随机偏移。（MCPE-121658）",
+      "现在苔藓块和覆地苔藓被活塞推动时会被破坏，且不再能被黏性活塞拉动。（MCPE-121751、MCPE-122004）",
+      "钟乳石滴落的水滴不再可以填充装有药水的炼药锅。（MCPE-131180）",
+      "调整了孢子花的判定箱以匹配Java版。",
+      "修复了玩家在黏液块和蜂蜜块上行走时不会受到减速影响的问题。"
+    ],
+    "命令": [
+      "现在使用/structure命令加载结构会正确显示输出消息。（MCPE-132813）",
+      "现在/particle命令的位置参数是可选的了。（MCPE-128379）",
+      "现在/particle命令执行成功时会输出消息。（MCPE-80348）",
+      "通过/execute命令成功执行/particle时不再显示为出错。（MCPE-129001）"
+    ],
+    "参考": [
+      "Minecraft Beta - 1.17.20.23 (Xbox One/Windows 10/Android) — Minecraft Feedback，2021年7月22日。"
+    ]
+  }
+}

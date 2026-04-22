@@ -1,0 +1,46 @@
+{
+  "title": "Java版22w16b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8822w16b",
+  "structured_content": {
+    "默认分类": [
+      "22w16b"
+    ],
+    "发布时间": [
+      "2022年4月20日"
+    ],
+    "快照归属": [
+      "1.19"
+    ],
+    "协议版本": [
+      "DEC: 1073741905",
+      "HEX: 40000051"
+    ],
+    "数据版本": [
+      "3092"
+    ],
+    "资源包版本": [
+      "9"
+    ],
+    "数据包版本": [
+      "10",
+      "◄◄1.18.2",
+      "1.19.1►►",
+      "◄22w16a",
+      "22w17a►",
+      "22w16b是Java版1.19的第7个快照，发布于2022年4月20日，修复了一个会导致游戏崩溃的漏洞。"
+    ],
+    "修复": [
+      "修复了4个漏洞",
+      "1.19开发版本的漏洞",
+      "MC-249179 — 雨雪可以穿过蛙明灯。",
+      "MC-249786 — 悦灵在向不同高度上的目标投掷物品时有困难。",
+      "MC-249814 — minecraft:entity.allay.throw声音事件未被使用。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-250312 — 点击单人游戏时游戏崩溃：java.lang.NullPointerException: Cannot invoke \"java.lang.Comparable.compareTo(Object)\" because \"pivot\" is null。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 22w16b — Minecraft.net，2022年4月20日。"
+    ]
+  }
+}

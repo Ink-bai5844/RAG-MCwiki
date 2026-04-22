@@ -1,0 +1,5 @@
+{
+  "title": "命令/permission",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fpermission",
+  "text": "本条目所述内容仅适用于基岩版。\npermission\n别名\n/ops\n需要的权限等级\n4\n限制条件\n不在命令方块上执行\n启用作弊\n枚举或重新加载权限列表，或设置玩家的权限等级。\n语法\npermission list\n枚举当前使用的权限列表，仅BDS可用。\npermission reload\n在服务器上重新从permissions.json文件加载操作员列表，仅BDS可用。\npermission set <player: target> [permission: PermissionLevel]\n在客户端上设置玩家的权限等级，仅非BDS可用。但通常无法执行，因为其权限等级要求过高。\n参数\nplayer: target：CommandSelector<Player>\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\npermission: PermissionLevel：enum\n指定权限等级所对应的身份。必须为以下其中之一：\nmember — 成员\noperator — 操作员\nvisitor — 访客\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\nplayer: target是非玩家类型的目标选择器\n执行失败\n不符合以上所有条件\n执行成功\n历史\n基岩版\n1.10.0\n加入了/permission。\n参考\nMCPE-161188 — /permission不能按照语法提示执行。\n导航"
+}

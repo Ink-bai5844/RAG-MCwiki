@@ -1,0 +1,5 @@
+{
+  "title": "命令/debugdim",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdebugdim",
+  "text": "此条目描述的是一个愚人节玩笑版本20w14∞中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\ndebugdim\n需要的权限等级\n0\n限制条件\n无\n保存维度数据。\n用法\n执行命令后，会在世界存档的debug文件夹中生成多个文件，包括：\n一个dim-<序号>.json，存储此维度的维度类型编号、维度使用的生成器（包括地形生成器和生物群系源）、默认方块、默认流体、迷雾渲染数据、阴影渲染数据和昼夜更替的周期。\n一个或多个biome-<序号>.json，存储用于生成该维度中的生物群系的数据，每个生物群系对应一个文件。\n语法\ndebugdim\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行成功\n1\n0\n导航"
+}

@@ -1,0 +1,225 @@
+{
+  "title": "紫颂果",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%B4%AB%E9%A2%82%E6%9E%9C",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是可以从紫颂树上获取的食物。关于烧炼紫颂果得到的物品，请见“爆裂紫颂果”；关于Minecraft Dungeons中的同名食物，请见“MCD:紫颂果”；关于其他含义，请见“紫颂”。"
+    ],
+    "[[|]]": [
+      "[[|]]0.1"
+    ],
+    "食物属性": [
+      "4（）+2.4饱和度"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "——Duncan Geere": [
+      "紫颂果（Chorus Fruit）是一种食物类物品，食用时会将玩家传送至附近的随机位置。其也可以烧炼成爆裂紫颂果。"
+    ],
+    "获取": [
+      "参见：Tutorial:种植紫颂果",
+      "紫颂植株被破坏时会有50％的概率掉落1个紫颂果，该概率不受时运魔咒影响。"
+    ],
+    "食物": [
+      "参见：食物",
+      "手持紫颂果按住使用键即可食用，每个紫颂果可以回复4（）+2.4饱和度。",
+      "食用紫颂果会引发20游戏刻（1秒）的紫颂果物品冷却时间，期间受影响玩家不可食用紫颂果。",
+      "与大部分食物不同，玩家在满饥饿值的情况下依旧可以食用紫颂果。"
+    ],
+    "传送": [
+      "当生物食用紫颂果后，该生物将会以末影人传送的相似方式传送，在8格切比雪夫距离内尝试随机选择目标位置，最多尝试16次。不同之处在于，玩家可传送至仅2格高的空间（若玩家处于爬行状态则为1格高）。玩家不会精确落在方块的中心点，而是可能出现在8格范围内的任意位置。若此范围内无有效位置，则传送失败，玩家保持原地。若玩家距离有效目标过远，则无论当前高度如何，都将被垂直传送至地面。",
+      "与末影珍珠不同，紫颂果可使玩家穿透固体方块传送。算法会尽量避免流体，玩家无法传送至被水或熔岩占据的空间。但玩家可能被传送到火、仙人掌或岩浆块等危险方块上。",
+      "当该生物是乘客时，不论传送是否成功，该生物都会停止骑乘。当传送成功时，与末影人瞬移相似的音效会在该生物传送前的位置播放，并重置下落高度。该机制使玩家可以借此穿墙或避免摔落伤害。",
+      "紫颂果的传送能力在下界基岩层上方完全不起作用，且不能用来穿越基岩层。",
+      "狐狸也可以通过食用紫颂果进行传送，机制与玩家相同。"
+    ],
+    "音效": [
+      "此章节缺失以下信息：基岩版音效",
+      "请协助补充相关内容的描述，讨论页可能有更多细节。",
+      "Java版："
+    ],
+    "本地化键名": [
+      "玩家：传送"
+    ],
+    "subtitles.item.chorus_fruit.teleport": [
+      "狐狸：传送"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.chorus_fruit": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*type：消耗使用效果类型。",
+      "如果type为apply_effects，则对使用此物品的生物添加状态效果：",
+      "*effects：物品使用后添加的状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "probability：（0≤值≤1，默认为1）食用后施加此状态效果的概率。",
+      "如果type为clear_all_effects，则对使用此物品的生物移除所有状态效果。",
+      "如果type为play_sound，则播放指定的声音：",
+      "*sound：要播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "如果type为remove_effects，则对使用此物品的生物移除指定状态效果：",
+      "*effects：物品使用后要移除的状态效果。可以为以#开头的状态效果标签、一个状态效果ID、或以多个状态效果ID组成的列表。",
+      "如果type为teleport_randomly，则对使用此物品的生物进行随机传送：",
+      "diameter：（值>0，默认为16）随机传送的半径，以传送前的位置作为原点。",
+      "sound：（默认为entity.generic.eat）使用物品时产生的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:food：物品的食物属性。",
+      "can_always_eat：（默认为false）表示物品是否可以无视当前饥饿值食用。",
+      "*nutrition：（值≥0）食用物品时增加的饥饿值。",
+      "*saturation：食用物品时增加的饱和度。",
+      "minecraft:use_cooldown：设置物品的使用冷却行为。冷却时间会作用在一个“冷却组”上。",
+      "cooldown_group：（命名空间ID）设置物品冷却组。同冷却组的物品会同时受到同一个物品冷却影响，在冷却时间内所有同冷却组的物品都无法使用。如果此值不存在，游戏将以物品的命名空间ID作为冷却组ID使用。",
+      "*seconds：（值>0）物品使用后的冷却时间，单位为秒。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:consumable：物品的消耗使用行为。",
+      "animation：（默认为eat）物品使用时的动画。可以为none（无动作）、eat（吃）、drink（饮用）、block（格挡）、bow（拉弓）、brush（清刷）、crossbow（弩上弦）、spear（矛蓄力）、trident（三叉戟投掷）、spyglass（看望远镜）、toot_horn（吹山羊角）和bundle（使用收纳袋）。",
+      "consume_seconds：（值≥0，默认为1.6）物品使用的时间，单位为秒。当此值为0时，物品立刻使用，不会像拉弓等操作需要等待时间。",
+      "has_consume_particles：（默认为true）物品在使用时是否产生物品破碎粒子。",
+      "on_consume_effects：当物品被使用后产生的效果列表。",
+      "：一项消耗使用效果。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:consumable\":{\"on_consume_effects\":[{\"type\":\"minecraft:teleport_randomly\"}]},\"minecraft:use_cooldown\":{\"seconds\":1},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:lore\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.chorus_fruit\"},\"minecraft:enchantments\":[],\"minecraft:food\":{\"can_always_eat\":true,\"saturation\":2.4,\"nutrition\":4},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:chorus_fruit\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "–": [
+      "消耗下列物品之一："
+    ],
+    "热带鱼": [
+      "如有其他物品可被消耗，进度也会达成。",
+      "如有其他食物可以正常食用，进度会将其忽略。"
+    ],
+    "开荒垦地": [
+      "食用下列所有食物（共40种）："
+    ],
+    "Java版": [
+      "1.9",
+      "15w31a",
+      "加入了紫颂果。",
+      "15w31c",
+      "紫颂果不能再用来穿越下界顶部的基岩。",
+      "15w34c",
+      "加入了紫颂果的冷却时间。",
+      "15w37a",
+      "食用紫颂果的传送区间从±32削减为±8。",
+      "15w50a",
+      "为紫颂果加入了传送的音效：item.chorus_fruit.teleport。",
+      "1.10",
+      "16w21a",
+      "紫颂果现在可以将玩家从骑乘的生物上传送走。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，此物品的数字ID是432。",
+      "1.14",
+      "18w43a",
+      "更改了紫颂果的纹理。",
+      "1.20.2",
+      "23w33a",
+      "现在食用紫颂果会重置摔落高度。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了紫颂果。",
+      "1.0.0.1",
+      "紫颂果的食用冷却现在拥有动画。"
+    ],
+    "基岩版": [
+      "1.7.0",
+      "1.7.0.2",
+      "紫颂果在创造模式物品栏中所属的分类由“自然”改为“物品”。",
+      "1.10.0",
+      "1.10.0.3",
+      "更改了紫颂果的纹理。",
+      "1.13.0",
+      "1.13.0.15",
+      "紫颂果在创造模式物品栏中被重新分类为“自然”。",
+      "New Nintendo 3DS版",
+      "1.7.10",
+      "加入了紫颂果。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU46",
+      "CU36",
+      "1.38",
+      "Patch 15",
+      "1.0.1",
+      "加入了紫颂果。",
+      "1.90",
+      "更改了紫颂果的纹理。",
+      "TU46",
+      "CU36",
+      "1.38",
+      "Patch 15",
+      "1.0.1",
+      "加入了紫颂果。",
+      "1.90",
+      "更改了紫颂果的纹理。"
+    ],
+    "参考": [
+      "Taking Inventory: Chorus Fruit — Minecraft.net，2020年11月5日。",
+      "MC-84198 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

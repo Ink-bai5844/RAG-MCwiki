@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.21a 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.21a_01",
+  "text": "此版本的客户端目前已丢失。\n虽然此版本的服务端有留档，但对应的客户端却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\n0.0.21a_01\n版本\nJava版\n服务端版本\n1.8.2\n发布时间\n2009年6月23日\n下载\n客户端\n服务端\n协议版本\n6\nal_version\n6.27\n◄◄0.0.21a\n0.0.22a►►\n0.0.21a_01是Java版的一次更新，发布于2009年6月23日。\n修复\n尝试通过为裁剪添加最大迭代次数来修复“悬挂漏洞”。\n然而，游戏还是会在随机时间突然卡死。\n画廊\n含有此版本的Minecraft官网\n该版本的网页版\n参考\nIRC记录 on Archive.org; #minecraft.20090623.log.2009年6月23日(UTC−5)。\nIs the hang bug fixed in 0.0.21a_01?（存档） — The Word of Notch，2009年6月23日。\nIRC记录: \"A11:17:11 <08Notch> client 0.0.21a_01 is up, fixing the hang bug\" (16:17:11 UTC)\nIRC记录: \"A11:40:57 <08Notch> the only difference between 0.0.21a and _01 is that I added a max iterations on the clipping\" (16:40:57 UTC)\nIRC记录: \"A11:24:10 <08Notch> so it still hangs? :-O [...] A11:24:14 <akuryo> yeah notch\" (16:24 UTC)\n导航"
+}

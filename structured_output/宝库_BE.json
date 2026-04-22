@@ -1,0 +1,30 @@
+{
+  "title": "宝库/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%AE%9D%E5%BA%93%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "*config：宝库的配置数据。",
+      "activation_range：（默认为4）激活宝库的玩家检测范围。只要有一个没有领取奖励的玩家进入这个检测范围时，宝库就会被激活。",
+      "deactivation_range：（默认为4.5，不小于activation_range）取消激活宝库的玩家检测范围。当没有任何没有领取奖励的玩家进入这个检测范围时，宝库被取消激活。",
+      "key_item：（默认为试炼钥匙）解锁宝库所需的物品。如果此项不存在则无法使用任何物品解锁宝库。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "loot_table：（默认为chests/trial_chambers/reward）宝库使用的战利品表的命名空间ID。",
+      "override_loot_table_to_display：覆盖奖励战利品表，设置用于展示物品的战利品表。",
+      "*server_data：服务端用于计算宝库行为的数据。",
+      "items_to_eject：将要喷出的奖励物品。",
+      "：一项奖励物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "rewarded_players：已经接受奖励的玩家列表，总长度不会超过128。",
+      "：玩家的UUID。",
+      "state_updating_resumes_at：下一次更新宝库状态的时间。此项不存在时游戏默认为0。",
+      "total_ejections_needed：本次奖励中将要喷出的奖励物品总数。此项不存在时游戏默认为0。",
+      "*shared_data：客户端用于渲染宝库的数据。",
+      "connected_particles_range：（默认为4.5）在此范围内与宝库相关联的玩家可以渲染相应的粒子。",
+      "connected_players：与这个宝库相关联的玩家。",
+      "：玩家的UUID。",
+      "display_item：宝库内渲染的物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source"
+    ]
+  }
+}

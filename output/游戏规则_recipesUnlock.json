@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/recipesUnlock",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FrecipesUnlock",
+  "text": "本条目所述内容仅适用于基岩版。\nrecipesUnlock\n名称\n配方解锁\n描述\n收集材料以解锁配方书中的配方\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nrecipesUnlock\nrecipesUnlock是控制玩家是否需要解锁配方的游戏规则。\n行为\n当recipesUnlock为true时，玩家需要达成特定条件才能解锁配方。\n当recipesUnlock为false时，无需玩家解锁，配方书中会显示所有配方。\n历史\n基岩版\n1.20.30\n1.20.20.21\n加入了游戏规则recipesUnlock。\n1.20.30.22\n现在recipesUnlock的默认值为true。\n导航"
+}

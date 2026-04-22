@@ -1,0 +1,5 @@
+{
+  "title": "末地内陆",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E5%86%85%E9%99%86",
+  "text": "本条目所述内容仅适用于Java版。\n末地内陆\n种类\n末地\n温度\n0.5\n降水\n0.5\n降水类型\n无降水\n主要结构与地物\n末地城\n末地折跃门\n主要方块\n末地石\n天空颜色\n#000000\n迷雾颜色\n#A080A0\n草地颜色\n#8EB971\n树叶颜色\n#71A74D\n枯叶颜色\n#A17448\n水体颜色\n#3F76E4\n水下迷雾颜色\n#060533\n末地内陆（End Midlands）是末地外岛生物群系的一部分，生成于大型岛屿的边缘部分。\n描述\n末地内陆生成于每个末地大型岛屿的地势较平缓的边缘部分。末地城会在这里生成，但紫颂树不会生成。\n生物\n下列生物会在末地内陆周期生成：\n生物\n生成概率\n每群数量\n怪物\n末影人\n10⁄10\n4\n数据值\nID\n名称\n命名空间ID\n生物群系标签（JE）\n本地化键名\n末地内陆\nend_midlands\nhas_structure/end_city\nis_end\nspawns_cold_variant_farm_animals\nspawns_cold_variant_frogs\nbiome.minecraft.end_midlands\n历史\nJava版\n1.13\n18w06a\n加入了末地 - 中型岛屿。\n18w19a\n将末地 - 中型岛屿（The End - Medium island）重命名为末地内陆（End Midlands）。\npre5\n将末地内陆的ID由sky_island_medium改为end_highlands。\n导航"
+}

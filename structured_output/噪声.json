@@ -1,0 +1,39 @@
+{
+  "title": "噪声",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%99%AA%E5%A3%B0",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是用于世界生成的技术性概念。关于在字幕中被称为“怪异的噪声”的环境音效，请见“洞穴音效”。",
+      "本条目所述内容仅适用于Java版。",
+      "minecraft:continentalness噪声图样示例",
+      "噪声定义文件是噪声（Noise）在数据包中的数据驱动定义文件。"
+    ],
+    "定义格式": [
+      "噪声在游戏内使用NOISE注册表，数据包路径为worldgen/noise，即所有噪声定义文件都需要在data/<命名空间>/worldgen/noise目录中定义。",
+      "噪声定义文件使用JSON格式，并具有下列结构："
+    ],
+    "JSON文件根对象": [
+      "*firstOctave：主倍频。如果噪声设置里的legacy_random_source为true，必须为小于等于1的整数，否则取值范围不限。",
+      "*amplitudes：振幅列表。将此列表记为{a0,a1,a2,⋯,an}，则列表中第i项（从0开始数）的子噪声的频率为2i+o，其中o为firstOctave的值；此子噪声的振幅（与值域相关）为2n−iai2n+1−1。各频率的子噪声值相加以得到总噪声值，取值上下限为±10r(l+1)∑i=0n2n−iai3(l+2)(2n+1−1)，其中l是非零振幅子噪声的最大与最小编号之差，r为3维改进版柏林噪声的最大值，此值为常数，大于1且小于1.5，可以取为1.036353811211803。如果噪声设置里的legacy_random_source为true，则此列表长度必须小于等于1−o，否则长度不限。",
+      "：此倍频下的值。"
+    ],
+    "定义行为": [
+      "噪声定义数据仅在服务端启动时加载一次，使用/reload命令不可以使噪声定义被重新加载，而必须重启服务端。",
+      "噪声可以被密度函数或表面规则调用，以提供基于坐标的随机值。",
+      "游戏内部硬编码了一些具有特殊作用的噪声，包括但不限于：",
+      "minecraft:surface：表面规则计算使用的表层厚度。",
+      "minecraft:surface_secondary：表面规则计算使用的附加表层厚度。",
+      "minecraft:clay_bands_offset：用以生成bandlands表面规则中的恶地陶瓦条带。",
+      "minecraft:badlands_pillar、minecraft:badlands_pillar_roof、minecraft:badlands_surface：硬编码在minecraft:eroded_badlands生物群系生成岩柱。",
+      "minecraft:iceberg_pillar、minecraft:iceberg_pillar_roof、minecraft:iceberg_surface：硬编码在minecraft:frozen_ocean和minecraft:deep_frozen_ocean生物群系生成冰山。"
+    ],
+    "Java版": [
+      "1.18",
+      "21w42a",
+      "加入了噪声定义文件。"
+    ],
+    "参考": [
+      "https://www.gamedev.net/forums/topic/285533-2d-perlin-noise-gradient-noise-range--/?page=3"
+    ]
+  }
+}

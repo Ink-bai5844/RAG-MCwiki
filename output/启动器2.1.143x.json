@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.143x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.143x",
+  "text": "2.1.143x\n程序类型\nMinecraft启动器\n发布时间\n2018年9月26日\n◄◄2.1.13xx\n2.1.1462►►\n2.1.1432（Windows）、2.1.1433（macOS）或2.1.1431（Linux）是启动器的一次更新，发布于2018年9月26日，修复了一些漏洞。\n新内容\n添加了一个可以在launcher_profiles.json中切换的自动服务终端软件。\n添加了9个命令行选项。\n--clean\n此选项从工作目录中删除game和runtime文件夹，包括其内容。\n--launcherui\n--workDir\n此选项后跟路径（相对或绝对），可更改.minecraft文件夹的位置（和/或名称）。\n可用于创建便携式游戏安装。例如，可以使用-workDir.（或-workDir =.）使启动程序使用当前目录（无论当前文件夹叫什么）。\n--nativeLauncherVersion\n--tmpDir\n此选项后跟路径（相对或绝对），可更改tmp文件夹的位置（和/或名称）。\n--lockDir\n--winTen\n该选项增加了对Windows 10的支持。由于启动程序现在完全支持Windows 10，因此该选项是不必要的，并且似乎无效。\n--proxyHost\n--proxyPort\n修复\nMCL-2642 - 启动器无法在KDE上正常显示。\nMCL-9718 - 启动器不允许上传大于8kb的皮肤文件。\nMCL-9769 - 当鼠标悬停在某些按钮上时，它们的宽度会改变。\nMCL-10182 - 启动器将18w46a错写为18w46。\nMCL-10239 - 更新日志中的18w48a页面不存在。\nMCL-10254 - 无法创建账户。\n导航"
+}

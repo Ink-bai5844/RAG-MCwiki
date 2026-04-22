@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/players nether portal creative delay",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fplayers_nether_portal_creative_delay",
+  "text": "本条目所述内容仅适用于Java版。\nplayers_nether_portal_creative_delay\n名称\n创造模式下玩家在下界传送门中等待的时间\n描述\n创造模式下的玩家通过下界传送门前往其他维度前需要站在其中等待的时间（以刻为单位）。\n分类（JE）\n玩家\n值类型\n整型\n默认值\n0\n值域（JE）\n0 – 2147483647\n游戏规则ID\nplayers_nether_portal_creative_delay\nplayers_nether_portal_creative_delay是控制创造模式下玩家穿过下界传送门需要等待的刻数的游戏规则。\n行为\n创造模式下的玩家通过下界传送门前往其他维度前，需要站在其中等待players_nether_portal_creative_delay刻的时间。\nplayers_nether_portal_creative_delay的值不能低于0。\n历史\nJava版\n1.20.3\n23w42a\n加入了游戏规则playersNetherPortalCreativeDelay。\n1.21.11\n25w44a\n将游戏规则playersNetherPortalCreativeDelay重命名为players_nether_portal_creative_delay。\n现在players_nether_portal_creative_delay的值最小只能为0。\n参见\n游戏规则/players_nether_portal_default_delay\n导航"
+}

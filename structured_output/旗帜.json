@@ -1,0 +1,754 @@
+{
+  "title": "旗帜",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%97%97%E5%B8%9C",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是方块。关于用于自定义旗帜的物品，请见“旗帜图案”；关于带有灾厄村民图案的特殊旗帜，请见“不祥旗帜”。"
+    ],
+    "旗帜": [
+      "每种颜色都有相等的概率被选中，且可能同时提供多种颜色的交易项。左侧概率为至少出现一项的概率。"
+    ],
+    "硬度": [
+      "1",
+      "1"
+    ],
+    "爆炸抗性": [
+      "1"
+    ],
+    "引燃几率": [
+      "0"
+    ],
+    "烧毁几率": [
+      "0"
+    ],
+    "活塞推动行为": [
+      "Java版：不可推动，不可拉动",
+      "基岩版：被推动破坏，不可拉动"
+    ],
+    "地图基色": [
+      "#8F7748"
+    ],
+    "见§ 数据值": [
+      "旗帜（Banner）是一种装饰性方块，可以通过织布机自由创作旗帜内容。"
+    ],
+    "烧炼时间": [
+      "300游戏刻（15秒，1.5个物品）"
+    ],
+    "最大堆叠": [
+      "16"
+    ],
+    "图案": [
+      "一面旗帜最多能有6种图案，而且最后添加的图案会覆盖在原有图案的顶部。",
+      "任何底色的旗帜都可以被使用，底色会被图案覆盖。在Java版中，可以使用织布机为旗帜染上图案；而在基岩版中，为旗帜染图案既可以通过使用织布机，也可以通过用工作台合成。"
+    ],
+    "描述": [
+      "0"
+    ],
+    "品红色旗帜": [
+      "3"
+    ],
+    "末地城外部": [
+      "品红色旗帜，图案为："
+    ],
+    "灰色旗帜": [
+      "8"
+    ],
+    "淡灰色旗帜": [
+      "9"
+    ],
+    "林地府邸的主卧室": [
+      "淡灰色旗帜，图案为："
+    ],
+    "棕色旗帜": [
+      "13"
+    ],
+    "没有图案的黑色旗帜": [
+      "正在加载互动小工具。如果加载失败，请您刷新本页面并检查JavaScript是否已启用。"
+    ],
+    "墙上的品红色旗帜,墙上的灰色旗帜,墙上的淡灰色旗帜,棕色旗帜,墙上的黑色旗帜": [
+      "minecraft:magenta_wall_banner,minecraft:gray_wall_banner,minecraft:light_gray_wall_banner,minecraft:brown_banner,minecraft:black_wall_banner"
+    ],
+    "合成": [
+      "旗帜可使用羊毛与木棍合成。"
+    ],
+    "合成配方": [
+      "主条目：合成/旗帜图案配方"
+    ],
+    "[[|]]": [
+      "复制图案；两面旗帜必须有着相同的底色，且将要被印上图案的旗帜必须是无任何图案的。",
+      "将旗帜的图案印在盾牌上，旗帜会被消耗。",
+      "盾牌必须是未印有图案的。",
+      "这不会改变盾牌的耐久度与其魔咒。",
+      "在基岩版中，使用不祥旗帜会恢复盾牌的耐久度。"
+    ],
+    "白色旗帜": [
+      "1"
+    ],
+    "Java版": [
+      "1.8",
+      "14w30a",
+      "加入了旗帜。",
+      "14w30b",
+      "现在旗帜的模型渲染为物品。",
+      "14w30c",
+      "加入了4种额外图案：正十字、方框边、波纹边与Mojang徽标。",
+      "14w31a",
+      "加入了5种额外图案：各半边的反向与自下渐淡。",
+      "根据Jeb在Reddit帖子上收到的建议，参考旗帜学用语修改了旗帜图案的名称。",
+      "旗帜现在可以作为熔炉的燃料。",
+      "1.8.8"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了旗帜。",
+      "有顶波纹与底波纹的品红色旗帜会在末地城的外墙生成。",
+      "黑色、灰色以及附有白色花朵盾徽的淡灰色旗帜现在会在林地府邸的房间中自然生成。",
+      "旗帜的左上三角、右上三角、左下三角、右下三角图案的纹理与Java版相比被上下翻转。",
+      "为旗帜添加左上三角、右上三角、左下三角、右下三角图案的固定配方与Java版相比被上下翻转。",
+      "1.4.0",
+      "1.2.20.1",
+      "白色旗帜现在可以通过合成彩色旗帜和漂白剂获得，同时会消去白色旗帜上的所有图案。",
+      "1.10.0",
+      "1.10.0.3",
+      "现在旗帜可以在织布机上编辑旗帜图案。",
+      "棕色旗帜现在会在热带草原村庄中生成。",
+      "黑色旗帜现在会在掠夺者前哨站的瞭望塔上生成。",
+      "1.11.0",
+      "1.11.0.1",
+      "灰色旗帜现在会在掠夺者前哨站的瞭望塔上生成，取代原来的黑色旗帜。",
+      "加入了袭击队长，在死亡时掉落灾厄旗帜。",
+      "1.11.0.4",
+      "旗帜现在可通过制图师或者牧羊人的交易获得。",
+      "1.20.0",
+      "1.20.0.20",
+      "旗帜现在可被用作给盾牌添加图案。",
+      "1.21.60",
+      "1.21.60.23",
+      "现在重命名的旗帜被破坏时或被炼药锅清洗时会保留自定义名称。"
+    ],
+    "专家级牧羊人": [
+      "94%",
+      "100%",
+      "绿宝石 × 3"
+    ],
+    "沙漠专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "丛林专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "平原专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "热带草原专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "雪原专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "沼泽专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "针叶林专家级制图师": [
+      "100%",
+      "绿宝石 × 2"
+    ],
+    "破坏": [
+      "挖掘旗帜的合适工具是斧。"
+    ],
+    "红色旗帜": [
+      "15"
+    ],
+    "橙色旗帜": [
+      "2"
+    ],
+    "黄色旗帜": [
+      "5"
+    ],
+    "黄绿色旗帜": [
+      "6"
+    ],
+    "绿色旗帜": [
+      "14"
+    ],
+    "青色旗帜": [
+      "10"
+    ],
+    "淡蓝色旗帜": [
+      "4"
+    ],
+    "蓝色旗帜": [
+      "12"
+    ],
+    "紫色旗帜": [
+      "11"
+    ],
+    "粉红色旗帜": [
+      "7"
+    ],
+    "徒手": [
+      "1.5"
+    ],
+    "木质": [
+      "0.75"
+    ],
+    "石质": [
+      "0.4"
+    ],
+    "铜质": [
+      "0.3"
+    ],
+    "铁质": [
+      "0.25"
+    ],
+    "钻石质": [
+      "0.2"
+    ],
+    "下界合金质": [
+      "0.2"
+    ],
+    "金质": [
+      "0.15"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "旗帜被破坏后会掉落自身。"
+    ],
+    "重叠在附着于方块侧面上的旗帜上的方块": [
+      "旗帜有16种底色。一面旗帜最多能印6次不同图案。对装有水的炼药锅使用旗帜可以将旗帜的最上层（即最后印上的图案）洗去。",
+      "类似告示牌，旗帜可以面对不同方向放置在方块的顶面和侧面[需要更多信息]。旗帜没有碰撞检测，所以物品实体与生物可以穿过旗帜。",
+      "其他方块（包括其他旗帜）可以在旗帜碰撞箱的任何边界放置；这意味着尽管旗帜看起来是两个方块高，但是只填充了底部的方块（对于墙上的旗帜则是顶部）。",
+      "旗帜可以被放在物品展示框内，只显示它们物品形式的样子。",
+      "水与熔岩会在旗帜周围流动。熔岩会在旗帜旁的空气方块燃起火焰，使得旗帜看起来可燃，但是旗帜不会烧毁（也不会被其他方式点燃的火焰烧毁）。在基岩版中，旗帜可以含水。",
+      "旗帜会在附着方块移动、移除或被破坏的情况下被破坏并掉落自身。在基岩版中，旗帜被活塞推动时会掉落为物品；在Java版中，活塞无法推动旗帜。旗帜被活塞拉动时不会有反应。"
+    ],
+    "复制": [
+      "通过使用空白旗帜，玩家可以复制几个图案相同的旗帜。"
+    ],
+    "合成材料": [
+      "通过使用旗帜，玩家可以给盾牌印上图案。盾牌的分辨率小于旗帜，所以盾牌上的图案会看起来有些差别或偏移。"
+    ],
+    "燃料": [
+      "旗帜可以作为熔炉、高炉或烟熏炉的燃料，每个旗帜可以燃烧1.5个物品。"
+    ],
+    "重命名": [
+      "旗帜可以被指定一个自定义名称，这个名称在放置和回收时可以保留。玩家可以通过铁砧重命名旗帜，或使用/data命令更改旗帜的方块数据CustomName[仅Java版]。"
+    ],
+    "地图标记": [
+      "本段落所述内容仅适用于Java版。",
+      "拿着地图右键点击旗帜可以在地图上旗帜的位置处产生一个标记。标记会与旗帜的基础颜色相同且不会有任何图案。除非地图使用制图台锁定，否则破坏旗帜后标记也会跟着被移除。如果重命名旗帜，则会在标记上方显示名称。"
+    ],
+    "织布机配方": [
+      "主条目：Template:Banner pattern loom recipes"
+    ],
+    "[编辑]": [
+      "正在加载互动小工具。如果加载失败，请您刷新本页面并检查JavaScript是否已启用。"
+    ],
+    "穿戴": [
+      "在Java版中，使用命令/item replace可将头盔槽位的物品替换为旗帜，此时旗帜会出现在玩家的头部后方。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "subtitles.block.generic.break": [
+      "某物：摔落到方块上"
+    ],
+    "subtitles.block.generic.fall": [
+      "方块：损坏中"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "subtitles.block.generic.footsteps": [
+      "基岩版："
+    ],
+    "item.use.on": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "hit": [
+      "0.23",
+      "0.5",
+      "16"
+    ],
+    "place": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "fall": [
+      "0.4",
+      "1.0",
+      "16"
+    ],
+    "step": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "jump": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "land": [
+      "0.18",
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "white_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.white_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:white_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "orange_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.orange_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:orange_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "magenta_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.magenta_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:magenta_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "light_blue_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.light_blue_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:light_blue_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "yellow_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.yellow_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:yellow_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "lime_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.lime_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:lime_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "pink_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.pink_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:pink_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "gray_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.gray_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:gray_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "light_gray_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.light_gray_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:light_gray_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "在默认组件的基础上，旗帜使用下列组件来保存附加数据：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:banner_patterns：旗帜图案的列表。",
+      "：一层图案。"
+    ],
+    "cyan_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.cyan_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:cyan_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "purple_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.purple_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:purple_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "blue_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.blue_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:blue_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "brown_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.brown_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:brown_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "green_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.green_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:green_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "red_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.red_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:red_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "black_banner": [
+      "{\"minecraft:banner_patterns\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:tooltip_display\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.black_banner\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:black_banner\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "方块实体": [
+      "参见：方块实体",
+      "每一个旗帜都有与其相关联的方块实体，以存储旗帜的附加数据。",
+      "Java版：",
+      "参见：方块实体数据格式"
+    ],
+    "banner": [
+      "基岩版："
+    ],
+    "方块数据": [
+      "参见：基岩版数据值"
+    ],
+    "描述（墙上的旗帜）": [
+      "0x1",
+      "0x2",
+      "0x4",
+      "一个值范围0-15的4位二进制数字，储存旗帜的朝向：",
+      "0：朝向南方",
+      "1：朝向西南方，偏南方",
+      "2：朝向西南方",
+      "3：朝向西南方，偏西方",
+      "4：朝向西方",
+      "5：朝向西北方，偏西方",
+      "6：朝向西北方",
+      "7：朝向西北方，偏北方",
+      "8：朝向北方",
+      "9：朝向东北方，偏北方",
+      "10：朝向东北方",
+      "11：朝向东北方，偏东方",
+      "12：朝向东方",
+      "13：朝向东南方，偏东方",
+      "14：朝向东南方",
+      "15：朝向东南方，偏南方",
+      "一个值范围2-5的3位二进制数字，储存墙上的旗帜的朝向：",
+      "2：朝向北方",
+      "3：朝向南方",
+      "4：朝向西方",
+      "5：朝向东方",
+      "0x8"
+    ],
+    "方块状态": [
+      "参见：方块状态",
+      "Java版："
+    ],
+    "rotation": [
+      "8",
+      "0"
+    ],
+    "方块朝向南": [
+      "1",
+      "1"
+    ],
+    "方块朝向南和西南方向之间": [
+      "2",
+      "2"
+    ],
+    "方块朝向西南": [
+      "3",
+      "3"
+    ],
+    "方块朝向西和西南方向之间": [
+      "4",
+      "4"
+    ],
+    "方块朝向西": [
+      "5",
+      "5"
+    ],
+    "方块朝向西和西北方向之间": [
+      "6",
+      "6"
+    ],
+    "方块朝向西北": [
+      "7",
+      "7"
+    ],
+    "方块朝向北和西北方向之间": [
+      "8",
+      "8"
+    ],
+    "方块朝向北": [
+      "9",
+      "9"
+    ],
+    "方块朝向北和东北方向之间": [
+      "10",
+      "10"
+    ],
+    "方块朝向东北": [
+      "11",
+      "11"
+    ],
+    "方块朝向东和东北方向之间": [
+      "12",
+      "12"
+    ],
+    "方块朝向东": [
+      "13",
+      "13"
+    ],
+    "方块朝向东和东南方向之间": [
+      "14",
+      "14"
+    ],
+    "方块朝向东南": [
+      "15",
+      "15"
+    ],
+    "方块朝向北方": [
+      "3"
+    ],
+    "方块朝向南方": [
+      "4"
+    ],
+    "方块朝向西方": [
+      "5"
+    ],
+    "方块朝向东方": [
+      "基岩版："
+    ],
+    "ground_sign_direction": [
+      "0"
+    ],
+    "facing_direction": [
+      "0",
+      "1"
+    ],
+    "未使用": [
+      "2"
+    ],
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "CustomName：（文本组件）表示旗帜的自定义名称。旗帜被破坏后所产生的掉落物将保留该名称。",
+      "patterns：（默认为空列表）按照顺序的旗帜图案列表。",
+      "：一个单独的旗帜图案。"
+    ],
+    "*": [
+      "*color：图案的染料颜色。",
+      "*pattern：图案的命名空间ID或详细数据。",
+      "旗帜图案，见Template:Nbt inherit/banner pattern/source",
+      "基岩版：",
+      "参见：基岩版存档格式/方块实体格式",
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "white_banner,light_gray_banner,gray_banner,black_banner,brown_banner,red_banner,orange_banner,yellow...等16个物品所共有的组件",
+      "minecraft:banner_patterns：旗帜图案的列表。",
+      "：一层图案。",
+      "*color：这一层图案的颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。",
+      "*pattern：这一层图案的样式。可以为旗帜图案的ID，也可以是旗帜图案的内联格式，见旗帜 § 方块实体。",
+      "旗帜图案，见Template:Nbt inherit/banner pattern/source",
+      "*color：这一层图案的颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。",
+      "*pattern：这一层图案的样式。可以为旗帜图案的ID，也可以是旗帜图案的内联格式，见旗帜 § 方块实体。",
+      "旗帜图案，见Template:Nbt inherit/banner pattern/source",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式",
+      "在基岩版中，旗帜的物品形式使用以下数据："
+    ],
+    "图案颜色": [
+      "主条目：旗帜/DV"
+    ],
+    "图案类型": [
+      "主条目：旗帜/Patterns"
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "数据驱动": [
+      "主条目：旗帜图案定义格式",
+      "在Java版中，旗帜可使用的旗帜图案样式数据可在数据包中定义。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "用一个附魔金苹果模板制作一面旗帜": [
+      "在织布机中用Mojang徽标旗帜图案和染料给旗帜印上图案。",
+      "20G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "Voluntary Exile": [
+      "杀死一名袭击队长。"
+    ],
+    "冒险": [
+      "杀死袭击队长（即带有#raiders实体标签，且头上插有不祥旗帜者）。",
+      "注：该进度为隐藏进度，也就是说只有完成之后才能在进度界面中看到。"
+    ],
+    "历史": [
+      "2014年7月21日",
+      "Jeb发了一张旗帜的截图，并宣称正在开发。"
+    ],
+    "pre": [
+      "使用命令得到的旗帜现在限制最多有16层图案。",
+      "1.9",
+      "15w31a",
+      "有顶波纹与底波纹的品红色旗帜会在末地城的外墙生成。",
+      "15w33c",
+      "旗帜现在可用于给盾牌添加图案。",
+      "1.11",
+      "16w33a",
+      "现在当添加非染料的物品（如苦力怕的头或附魔金苹果）时，需要使用染料。在此之前，不使用染料将会默认在旗帜上加入黑色图案。",
+      "16w39a",
+      "黑色、灰色以及附有白色花朵盾徽的淡灰色旗帜现在会在林地府邸的房间中自然生成。",
+      "2017年1月24日",
+      "Jeb发布了一张关于旗帜配色变化的截图。",
+      "1.12",
+      "17w06a",
+      "更改了旗帜的颜色，作为新颜色方案的一部分。",
+      "pre6",
+      "将旗帜图案“底横条”和“顶横条”的英文名分别由“Base Fess”和“Chief Fess”改为“Base”和“Chief”。",
+      "1.13",
+      "17w47a",
+      "不同颜色的banner、wall_banner和standing_banner的ID已被分离并与其自己的ID合并。",
+      "在扁平化之前，这些方块的数字ID为176和177，物品ID为425。",
+      "18w10a",
+      "在旗帜上使用一张地图会在地图上标记出旗帜的位置。",
+      "1.14",
+      "18w43a",
+      "现在旗帜可以在织布机上编辑旗帜图案。",
+      "移除了旗帜图案原有的所有合成配方。",
+      "18w49a",
+      "棕色旗帜现在会在热带草原村庄中生成。",
+      "1.20.5",
+      "24w09a",
+      "修改了旗帜物品与方块实体的旗帜图案存储格式。",
+      "此前存储格式：",
+      "Patterns：（可选）按照顺序的旗帜图案列表。",
+      "：一个图案。",
+      "Color：图案颜色。",
+      "Pattern：图案类型，采用缩写形式。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU43",
+      "CU33",
+      "1.36",
+      "Patch 13",
+      "1.0.1",
+      "加入了旗帜。",
+      "TU47",
+      "CU37",
+      "1.40",
+      "Patch 16",
+      "更改了旗帜的判定箱以匹配Java版。",
+      "TU49",
+      "CU39",
+      "1.42",
+      "Patch 18",
+      "旗帜现在使用与Java版相同的手持方式，并且在物品栏和物品展示框中使用与Java版相同的渲染方式。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "更改了旗帜的颜色。",
+      "TU54",
+      "CU44",
+      "1.52",
+      "Patch 24",
+      "1.0.4",
+      "黑色、灰色以及附有白色花朵盾徽的淡灰色旗帜现在会在林地府邸的房间中自然生成。",
+      "TU60",
+      "CU51",
+      "1.64",
+      "Patch 30",
+      "1.0.11",
+      "TU43",
+      "CU33",
+      "1.36",
+      "Patch 13",
+      "1.0.1",
+      "加入了旗帜。",
+      "TU47",
+      "CU37",
+      "1.40",
+      "Patch 16",
+      "更改了旗帜的判定箱以匹配Java版。",
+      "TU49",
+      "CU39",
+      "1.42",
+      "Patch 18",
+      "旗帜现在使用与Java版相同的手持方式，并且在物品栏和物品展示框中使用与Java版相同的渲染方式。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "更改了旗帜的颜色。",
+      "TU54",
+      "CU44",
+      "1.52",
+      "Patch 24",
+      "1.0.4",
+      "黑色、灰色以及附有白色花朵盾徽的淡灰色旗帜现在会在林地府邸的房间中自然生成。",
+      "TU60",
+      "CU51",
+      "1.64",
+      "Patch 30",
+      "1.0.11"
+    ],
+    "现在当添加非染料的物品（如苦力怕的头或附魔金苹果）时，需要使用染料。在此之前，不使用染料将会默认在旗帜上加入黑色图案。[这是正确的版本吗？]": [
+      "1.90",
+      "现在旗帜可以在织布机上编辑旗帜图案。",
+      "1.91",
+      "棕色旗帜现在会在热带草原村庄中生成。",
+      "1.90",
+      "现在旗帜可以在织布机上编辑旗帜图案。",
+      "1.91",
+      "棕色旗帜现在会在热带草原村庄中生成。"
+    ],
+    "你知道吗": [
+      "旗帜图案的英文名称主要来源于旗帜学用语，其方向亦以旗帜本身的相对方位为准。部分英文名称因此与命名空间ID中根据观察者视角确定左右的方式是左右相反的。",
+      "放置出的旗帜具有轻微摆动的视觉效果。",
+      "考虑到旗帜图案共42种，染料共16种，旗帜共16种，每个旗帜最多可以有6层图案。因此生存模式下可以做出的不重复的旗帜总数理论值为：",
+      "16×∑k=06(16×42)k=1475646641940097552≈1.47×1018",
+      "出于图案覆盖或与基底同色的原因，上述结果中会有相当一部分旗帜在视觉上难以区分。"
+    ],
+    "Jeb发推展示的首张旗帜的截图": [
+      "Java版1.8更新横幅中的Mojang徽标旗帜"
+    ],
+    "设计示例": [
+      "用旗帜设计的3个国家的国旗"
+    ],
+    "命令": [
+      "用命令获得的超过6个图案的旗帜"
+    ],
+    "参见": [
+      "Tutorial:旗帜设计"
+    ]
+  }
+}

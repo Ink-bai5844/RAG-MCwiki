@@ -1,0 +1,35 @@
+{
+  "title": "教育版1.18.45",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.18.45",
+  "structured_content": {
+    "默认分类": [
+      "1.18.45"
+    ],
+    "内部版本号": [
+      "ChromeOS, Android：1.18.45.0"
+    ],
+    "发布时间": [
+      "2023年1月17日"
+    ],
+    "协议版本": [
+      "503",
+      "◄◄1.18.32",
+      "1.19.52►►",
+      "◄1.18.42",
+      "1.18.45是教育版的一次次要更新，发布于2023年1月17日，更改了游戏名称和徽标，并修复了一些漏洞。"
+    ],
+    "徽标": [
+      "更新了徽标。"
+    ],
+    "应用程序": [
+      "应用名称由“Minecraft: Education Edition”更改为“Minecraft Education”。",
+      "更新了应用图标。"
+    ],
+    "修复": [
+      "修复了Chromebook上的屏幕挂起/进入Mojang加载屏幕时游戏崩溃的问题。"
+    ],
+    "参考": [
+      "What's New in the Mobile, Multiplayer, & More update (version 1.18.45)（存档） — Minecraft Education Support。"
+    ]
+  }
+}

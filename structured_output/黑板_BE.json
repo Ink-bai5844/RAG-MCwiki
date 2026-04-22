@@ -1,0 +1,18 @@
+{
+  "title": "黑板/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%BB%91%E6%9D%BF%2FBE",
+  "structured_content": {
+    "方块实体共通标签，见load|方块实体|block": [
+      "BaseX：底部的X轴坐标。",
+      "BaseY：底部的Y轴坐标。",
+      "BaseZ：底部的Z轴坐标。",
+      "Init：未知。",
+      "Locked：（仅小黑板使用）黑板内容被锁定时为true。",
+      "OnGround：（仅小黑板使用）放置在地面时为true。",
+      "PersistsFormatting：未知。",
+      "Size：黑板的大小。0表示小黑板，1表示告示板，2表示大黑板。",
+      "Owner：黑板拥有者的唯一ID。",
+      "Text：（可能不存在）黑板上的文本信息。"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "鱿鱼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%B1%BF%E9%B1%BC%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.8.9",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.8.9",
+  "text": "1.8.9\n版本\nJava版\n发布时间\n2015年12月9日\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n47\n资源包版本\n1\n其他版本的1.8.9\nRealms\n◄◄1.8\n1.9►►\n◄1.8.8\n1.8.9是Java版的一次次要更新，发布于2015年12月9日。此版本兼容1.8到1.8.8的服务端。\n更改\n方块\n陷阱箱\n会在时间设置为12月24至26日时更改纹理以适配圣诞节。\n游戏内容\nRealms\n更好地植入Realms。\n新的配置/离开Realms而不用预先选中Realms的按钮。\n修复\n修复了12个漏洞\n1.8前正式版的漏洞\nMC-17595 — 在超平坦世界中，即使没有设置村庄的预设，村庄依然会生成。\nMC-31577 — 某些射入方块的箭矢不会消失。\nMC-33265 — 在聊天栏中，词语会被分开。\nMC-36260 — 非标准角色皮肤中的非标准部分在具有隐身效果时仍然会显示。\nMC-42150 — 陷阱箱在圣诞节时不显示礼物的纹理。\nMC-47726 — 方块破坏动画有时会变成奇怪的颜色。\n1.8的漏洞\nMC-57016 — 水方块和熔岩方块显示的像空气一样。\nMC-72469 — 开启平滑光照后，栅栏门上光照不一致。\n当前版本的热修复漏洞\nMC-94199 — 在Realms广告页面使用方向键会导致游戏崩溃。\nMC-94467 — 退出Realms上的世界时，一直处于关闭过程中，并且玩家此时不能切换到此世界或其他世界。\nMC-94651 — &将截断Realms名称和描述。\nMC-94820 — Realms：an error occurred (401): invalid session id。\n参考\nAnd there we go, Minecraft 1.8.9 is now released and available in our launcher. Enjoy the changes, everyone.，来自@SeargeDP。X（曾名Twitter），2015年12月9日。\n导航"
+}

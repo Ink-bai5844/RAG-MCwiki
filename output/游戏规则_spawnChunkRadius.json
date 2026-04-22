@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/spawnChunkRadius",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FspawnChunkRadius",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\nspawnChunkRadius\n名称\n出生区块半径\n描述\n主世界出生点周围保持加载的区块数量。\n分类（JE）\n杂项\n值类型\n整型\n默认值\n2\n值域（JE）\n0 – 32\n游戏规则ID\nspawnChunkRadius\nspawnChunkRadius是控制出生点区块的大小的游戏规则。\n行为\n当spawnChunkRadius为0时，出生点区块会被完全禁用。\n出生点强加载区块的水平范围为边长为2×spawnChunkRadius−1的正方形，如10代表强加载区块大小为19×19。\n使用/gamerule修改出生点区块大小时，会先移除之前出生点区块的加载标签，再为出生点区块添加基础等级32−spawnChunkRadius级的加载标签。\n历史\nJava版\n1.20.5\n24w03a\n加入了游戏规则spawnChunkRadius。\n1.21.9\n25w31a\n移除了游戏规则spawnChunkRadius。\n导航"
+}

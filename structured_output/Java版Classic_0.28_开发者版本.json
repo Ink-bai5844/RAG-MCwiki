@@ -1,0 +1,41 @@
+{
+  "title": "Java版Classic 0.28/开发者版本",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.28%2F%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "此条目记录了从未发布的版本。",
+      "尽管它未公开发布过，但有证据证明这些版本的确存在。",
+      "该条目记录了Java版Classic 0.28的所有开发者版本。",
+      "0.27 SURVIVAL TEST（2009年10月25日）",
+      "0.27 SURVIVAL TEST"
+    ],
+    "开发时间": [
+      "2009年10月25日",
+      "2009年10月25日",
+      "2009年10月26日"
+    ],
+    "未知": [
+      "该版本测试了绵羊。",
+      "该版本调整了绵羊。",
+      "该版本重新加入了创造模式。"
+    ],
+    "绵羊": [
+      "自然生成于世界中。",
+      "被杀死后掉落红色羊毛。",
+      "0.27 SURVIVAL TEST（2009年10月25日）",
+      "0.27 SURVIVAL TEST",
+      "被杀死后现在会掉落白色羊毛。",
+      "0.27（2009年10月26日）",
+      "0.27"
+    ],
+    "游戏模式": [
+      "在单人游戏中重新加入了创造模式。",
+      "由于漏洞，创造模式的帧率比生存模式高。"
+    ],
+    "参考": [
+      "Hit once = produce cloth.（存档） — The Word of Notch，2009年10月25日。",
+      "Minecraft sheep test，来自Nizzotch Videos Archive。YouTube，2020年6月29日。",
+      "Progress update on Creative Mode merge（存档） — The Word of Notch，2009年10月26日。"
+    ]
+  }
+}

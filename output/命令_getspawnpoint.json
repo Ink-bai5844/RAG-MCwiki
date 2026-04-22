@@ -1,0 +1,5 @@
+{
+  "title": "命令/getspawnpoint",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgetspawnpoint",
+  "text": "此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\n本条目所述内容仅适用于教育版。\ngetspawnpoint\n是否可见\n隐藏\n需要的权限等级\n3\n限制条件\n不在命令方块上执行\n启用作弊\n返回指定玩家的出生点坐标。\n语法\ngetspawnpoint <player: target>\n参数\nplayer: target：CommandSelector<Player>\n指定需要获取出生点坐标的玩家。\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\nplayer: target是非玩家类型的目标选择器\n执行失败\nplayer: target无法选中至少一个在线的玩家\n不符合以上所有条件\n执行成功\n历史\n教育版\n?\n加入了/getspawnpoint命令。\n导航"
+}

@@ -1,0 +1,57 @@
+{
+  "title": "命令/camerashake",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fcamerashake",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "对玩家视野施以一定强度和时间的摇晃效果（若玩家在无障碍设置中禁用了视角摇晃，则不会看到此效果）。"
+    ],
+    "语法": [
+      "camerashake add <player: target> [intensity: float] [seconds: float] [shakeType: CameraShakeType]",
+      "给玩家添加视野摇晃效果。",
+      "camerashake stop [player: target]",
+      "停止视野摇晃。"
+    ],
+    "参数": [
+      "player: target：CommandSelector<Player>",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "指定要施以视野摇晃效果的玩家。如果未指定，默认为命令执行者。",
+      "intensity: float：float",
+      "必须为单精度浮点数。必须是0到4以内的数（包含0和4）。",
+      "指定视野摇晃的强度。",
+      "seconds: float：float",
+      "必须为单精度浮点数。",
+      "指定视野摇晃的时长。以秒为单位。",
+      "shakeType: CameraShakeType：CameraShakeType",
+      "必须为positional（坐标摇晃）或rotational（角度摇晃）。",
+      "指定视野摇晃方向的种类。"
+    ],
+    "基岩版": [
+      "1.16.100",
+      "1.16.100.57",
+      "加入了/camerashake命令。",
+      "1.16.100.59",
+      "加入了选择摇晃类型的功能。",
+      "1.16.210",
+      "1.16.210.54",
+      "加入了停止视野摇晃的命令。"
+    ],
+    "无法解析": [
+      "intensity: float小于0或大于4"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "示例": [
+      "对最近的玩家施以5秒强度为0.25的坐标视野摇晃。",
+      "/camerashake add @p 0.25 5 positional",
+      "对最近的玩家施以5秒强度为0.25的角度视野摇晃。",
+      "/camerashake add @p 0.25 5 rotational"
+    ]
+  }
+}

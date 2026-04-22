@@ -1,0 +1,5 @@
+{
+  "title": "命令/publish",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fpublish",
+  "text": "本条目所述内容仅适用于Java版。\npublish\n需要的权限等级\n4\n限制条件\n不在命令方块上执行\n仅集成服务端\n向局域网开放单人游戏世界。\n语法\npublish [<allowCommands>] [<gamemode>] [<port>]\n参数\n<allowCommands>：bool\n是否允许作弊。若未指定，默认为false。\n必须为 布尔值（true或false）。\n<gamemode>：gamemode\n新玩家进入世界后的默认游戏模式。若未指定，新玩家进入世界后的游戏模式为此单人世界的游戏模式。\n必须为以下其中之一：\nsurvival代表生存模式\ncreative代表创造模式\nadventure代表冒险模式\nspectator代表旁观模式\n极限模式不是一个有效选项，因为在技术上不是游戏模式。\n<port>：integer\n主机所在的端口。若未指定，则自动分配端口，一般会自动分配在临时端口范围。\n必须为32位整数。且必须在0和65535之间（含）。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整或参数未正确指定\n无法解析\n世界已经开放至局域网\n执行失败\n无法绑定到指定端口（是一个保留的端口或被其他程序使用）\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\nN/A\n0\n执行成功\nN/A\n1\n指定的或自动分配的端口号\n示例\n启用作弊，其他玩家以旁观模式加入游戏，指定端口为65531：publish true spectator 65531\n历史\nJava版\n1.3.1\n12w24a\n加入了/publish命令。\n1.13\n17w45a\n/publish命令现在支持可选参数port。\n/publish命令现在可以在命令方块上执行。\n18w01a\n/publish命令现在不再能在命令方块上执行。\n1.19.3\n22w45a\n/publish命令现在支持可选参数allowCommands与gamemode。\n导航"
+}

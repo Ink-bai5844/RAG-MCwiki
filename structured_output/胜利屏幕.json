@@ -1,0 +1,235 @@
+{
+  "title": "胜利屏幕",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%83%9C%E5%88%A9%E5%B1%8F%E5%B9%95",
+  "structured_content": {
+    "默认分类": [
+      "胜利屏幕（Win screen）和鸣谢与著作权说明屏幕（Credits and attribution screen）是覆盖整个窗口的文本消息。",
+      "胜利屏幕在玩家首次进入返回传送门时出现，主要展示终末之诗，因此也常被称为“终末之诗屏幕”。"
+    ],
+    "机制": [
+      "在一定条件下（通常是在击杀末影龙后，返回传送门会被激活，以供玩家离开末地回到主世界，详见§ 技术性细节），当玩家跳入末地中的末地传送门方块时，胜利屏幕会立即呈现，此时玩家可以将其阅读完毕或是跳过。之后，玩家会回到自己的重生点。胜利屏幕只会在玩家第一次进入返回传送门时显示。",
+      "在Java版中，单击主菜单屏幕右下角的版权文本会打开“鸣谢与著作权说明”页面；在基岩版中，在“设置”窗口的“档案”选项卡中点击“制作团队”按钮可以查看鸣谢名单。",
+      "胜利屏幕包含三个主要的文本部分：终末之诗、鸣谢名单、引言。鸣谢与著作权说明屏幕只有鸣谢名单。",
+      "在Java版中，胜利屏幕的背景使用末地传送门和末地折跃门的动画效果，鸣谢和著作权说明屏幕的背景使用暗化、模糊化的全景图；在基岩版中，胜利屏幕的背景使用泥土背景。",
+      "在胜利屏幕或鸣谢与著作权说明屏幕显示时，会播放音轨credits.ogg，即Minecraft - Volume Beta中的Alpha。",
+      "在胜利屏幕或鸣谢与著作权说明屏幕中，可以通过按下Esc键（在基岩版中还可以点击右下角的“跳过”按钮）来跳过它。在Java版中，还可以按住Space加速文本向下滚动，同时按住Ctrl进一步加速，再按住另一个Ctrl使速度达到最快；按住↑可以使文本向上滚动，详见§ 速度计算。",
+      "玩家开启胜利屏幕时处于进入返回传送门的位置，其与Java版的标记一样只存在于服务端，因此具有类似的行为。"
+    ],
+    "速度计算": [
+      "本段落所述内容仅适用于Java版。",
+      "当胜利屏幕或鸣谢与著作权说明屏幕打开时，计算基准速度：胜利屏幕为0.5，鸣谢与著作权说明屏幕为0.75。",
+      "玩家每次按下或松开按键，都会计算按键数量和滚动速度。若设基准速度为b，按下Space的数量为s，按下Ctrl的数量为c，按下↑的数量为u，则滚动速度的值为(−1)u[(15c+4)s+1]b。",
+      "每次渲染该屏幕，均会增加对应的滚动速度。背景速度为文字速度的一半。"
+    ],
+    "技术性细节": [
+      "对于Java版，终末之诗、鸣谢名单和引言均储存在client.jar中：终末之诗的文本储存在assets/minecraft/texts/end.txt，鸣谢名单储存在assets/minecraft/texts/credits.json，引言则储存在assets/minecraft/texts/postcredits.txt；它们都可以使用资源包编辑。对于基岩版，终末之诗的文本储存在data/credits/end.txt，鸣谢名单储存在data/credits/credits.json，引言则储存在data/credits/quote.txt。",
+      "谈话者1的叙述所用的格式化代码是§3（湖蓝色），而谈话者2的叙述使用了§2（深绿色），玩家名称以PLAYERNAME的形式插入文本，而乱码则是§f§k§a§b。",
+      "在显示时，§f§k§a§b会逐一替换为§f§k3~6个X。其中X的数量使用固定种子的随机数生成器生成，随机序列的前30个值为6 6 5 3 5 6 3 6 6 4 5 5 6 6 6 6 3 4 4 4 5 6 3 3 5 5 4 4 4 5。[需要在基岩版上验证]",
+      "玩家进入返回传送门后胜利屏幕是否显示，取决于玩家的实体数据seenCredits[仅JE]或hasSeenCredits[仅BE]。初始状态下为false，此时诗会显示；玩家看过或跳过之后，数据变为true，则不再会显示。",
+      "鸣谢名单的JSON结构如下：",
+      "鸣谢名单。",
+      "：鸣谢名单中的一个部分。",
+      "section：此部分的名称。游戏中显示为黄色居中文本，上下分别显示一行形似双横线的12个等于号（============）。",
+      "disciplines：部门列表。",
+      "discipline：此部门的名称。若字符串不为空，则显示为黄色居中文本。目前只有Mojang Studios各部门的鸣谢名单用到了这层结构，其他部分均留空（\"\"）。",
+      "titles：职位列表。",
+      "：职位列表中的一个职位。",
+      "title：此职位的名称。游戏中显示为灰色文本。",
+      "names：职员列表。",
+      "：一位职员的姓名。游戏中显示为白色文本，并缩进了11个字符。"
+    ],
+    "内容": [
+      "胜利屏幕总共会显示约62分钟42秒[仅Java版]或63分9秒[仅基岩版]。"
+    ],
+    "终末之诗": [
+      "主条目：终末之诗",
+      "终末之诗会显示约7分钟42秒[仅Java版]或3分钟21秒[仅基岩版]。"
+    ],
+    "鸣谢名单": [
+      "鸣谢名单会显示约55分钟[仅Java版]或60分钟[仅基岩版]。",
+      "鸣谢名单可以在Minecraft网站的此页面上查看。"
+    ],
+    "============": [
+      "4J Studios"
+    ],
+    "Benjamin Fall": [
+      "Bobby Ou (my3Twelve, LLC)"
+    ],
+    "Brynn Mendelsohn (Insight Global, Inc)": [
+      "Chloe Li (my3Twelve, LLC)"
+    ],
+    "Daniel Stewart": [
+      "David Jho (my3Twelve, LLC)"
+    ],
+    "Elizabeth Carty (Insight Global, Inc)": [
+      "Garbo Chan (my3Twelve, LLC)"
+    ],
+    "Lauren Henderson": [
+      "Mabel Chan (my3Twelve, LLC)"
+    ],
+    "Dacke Blixt (Techfactory, AB)": [
+      "Eric Filarski (My3Twelve, LLC)"
+    ],
+    "Hannah Feilberg-Maiti (Techfactory, AB)": [
+      "Matthew Cha (my3Twelve, LLC)"
+    ],
+    "Shoghi Cervantes Pueyo": [
+      "Tim Foster (my3Twelve, LLC)"
+    ],
+    "Dan Roque, Creature Developer": [
+      "Gideon Driver, Zen3 Infosolutions America, Inc"
+    ],
+    "The Xbox Live Team": [
+      "Vishnu Nalagangula, Zen3 Infosolutions America, Inc"
+    ],
+    "James Pfeiffer (Experis)": [
+      "Jonathan Hartung-Jenkins (my3Twelve, LLC)"
+    ],
+    "Mary Elizabeth Pearson (Apex Systems, Inc)": [
+      "May Qiang (my3Twelve, LLC)"
+    ],
+    "Steven Hosey (Simplicity Consulting Inc.)": [
+      "Stuart U (my3Twelve, LLC)"
+    ],
+    "Business Administrator": [
+      "Shae M. Flanigan (C2S Technologies, Inc)"
+    ],
+    "Daniel Miller (Insight Global, Inc)": [
+      "Derek Wilson (my3Twelve, LLC)"
+    ],
+    "Saif Adeeb (Ascendion, Inc)": [
+      "Vini De Lima De Sousa (0965688 BC Ltd)"
+    ],
+    "Alex Chai": [
+      "如正文无法正常显示，可前往内容页面查看。"
+    ],
+    "鸣谢名单结束后浮现的一段话": [
+      "胜利屏幕的末尾附有如下引言："
+    ],
+    "——Unknown": [
+      "参考译文：",
+      "二十年之后，更令你懊悔的不是你做了什么，而是你没做什么。所以解开帆索，离开安全的港湾，赶着航程中的信风，去探索，去梦想，去发现。"
+    ],
+    "——佚名": [
+      "虽然这段话在此处署名“佚名”，但实际上它出自H. Jackson Brown Jr.的作品P.S. I Love You。这句话广泛地被误认为出自马克·吐温。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "无": [
+      "MC-91042",
+      "基岩版："
+    ],
+    "credits": [
+      "0.1",
+      "1.0",
+      "16",
+      "0"
+    ],
+    "Java版Beta": [
+      "2011年10月16日",
+      "Notch在推特中发表推文，希望有人能为游戏结尾写上一段“傻气、夸张又莫名其妙的文字”。",
+      "作家Julian Gough为游戏结尾撰写了文段，随后其得名为“终末之诗”。",
+      "后来，Notch说Gough的小说The iHole使他确信Gough是写终末之诗的最佳人选。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre6",
+      "加入了胜利屏幕，展示终末之诗、鸣谢名单和引言。",
+      "1.4.2",
+      "12w32a",
+      "制作人员名单结束后出现的语录的作者由“马克·吐温”变为“未知”。",
+      "1.12",
+      "pre6",
+      "加入了鸣谢与著作权说明屏幕，可以在主菜单中点击右下角的版权文本查看。",
+      "1.16",
+      "pre3",
+      "更新了鸣谢名单。",
+      "1.17",
+      "pre1",
+      "现在按住空格键可以加快屏幕的滚动速度。",
+      "更新了鸣谢名单的文本，现在与基岩版相同。这也导致结尾处的引言被移除。",
+      "鸣谢名单文件的格式由.txt改为.json。",
+      "pre4",
+      "现在在按住空格键的同时若按住Ctrl键会让滚动速度变得更快。若同时按住两个Ctrl键，滚动速度会达到最高。",
+      "修正了鸣谢名单中的各种笔误。",
+      "1.18",
+      "pre2",
+      "更新了鸣谢名单的文本，现在与基岩版相同。",
+      "结尾处的引言被重新加入。",
+      "再次修正了鸣谢名单中的各种笔误。",
+      "1.19.4",
+      "pre4",
+      "加入了用于打开鸣谢名单的选项按钮。",
+      "现在单击主菜单的版权文本会进入“鸣谢与著作权说明…”页面，而不是直接打开鸣谢名单。",
+      "1.20",
+      "23w17a",
+      "更改了鸣谢名单的格式，向其中添加了discipline层级。",
+      "现在胜利屏幕和鸣谢与著作权说明屏幕可通过↑键向上滚动。",
+      "又一次修正了鸣谢名单中的各种笔误。",
+      "1.20.5",
+      "24w09a",
+      "胜利屏幕的背景现在由泥土背景图更改为返回传送门的背景动画。",
+      "鸣谢和著作权说明屏幕的背景现在改为暗化、模糊化的全景图。",
+      "修复了options_background.png异常颠倒的漏洞。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了胜利屏幕。"
+    ],
+    "正式版": [
+      "credit.ogg现在会在胜利屏幕出现时播放。"
+    ],
+    "基岩版": [
+      "1.13.0",
+      "1.13.0.9",
+      "加入了鸣谢名单。",
+      "1.20.0",
+      "1.20.0.24",
+      "更新了鸣谢名单。",
+      "1.21.90",
+      "1.21.90.25",
+      "更新了鸣谢名单。",
+      "1.21.90.26",
+      "将Amos Roddy添加到鸣谢名单中。",
+      "1.21.120",
+      "1.21.120.20",
+      "将Hyper Potions添加到鸣谢名单中。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU9",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了胜利屏幕。",
+      "与其他版本不同，此版本中的鸣谢名单并不会在终末之诗结束后立即呈现。",
+      "TU9",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了胜利屏幕。",
+      "与其他版本不同，此版本中的鸣谢名单并不会在终末之诗结束后立即呈现。"
+    ],
+    "参考": [
+      "https://www.goodreads.com/quotes/2340-twenty-years-from-now-you-will-be-more-disappointed-by",
+      "https://www.huffpost.com/entry/thats-what-he-said-quotin_b_4282800",
+      "Ending an endless game: an interview with Julian Gough, author of Minecraft's epic finale Boingboing.net",
+      "https://twitter.com/notch/status/222246755603988480",
+      "MC-227204 — 漏洞状态为“已修复”。",
+      "MC-19893 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

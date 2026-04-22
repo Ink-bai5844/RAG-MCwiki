@@ -1,0 +1,73 @@
+{
+  "title": "原主机版TU66、CU56、1.73、Patch 35、1.0.17",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU66%E3%80%81CU56%E3%80%811.73%E3%80%81Patch_35%E3%80%811.0.17",
+  "structured_content": {
+    "默认分类": [
+      "TU66"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.12.1913.0",
+      "1.12.1913.0",
+      "1.12.1913.0",
+      "1.12.1913.0"
+    ],
+    "发布时间": [
+      "2018年6月21日",
+      "◄TU65",
+      "TU67►",
+      "CU56",
+      "2018年6月21日",
+      "◄CU55",
+      "CU57►",
+      "1.73",
+      "2018年6月21日",
+      "其他版本的1.73",
+      "PlayStation 4版",
+      "2018年6月21日",
+      "其他版本的1.73",
+      "PlayStation 3版",
+      "2018年6月21日",
+      "其他版本的1.73",
+      "PlayStation 3版",
+      "PlayStation 4版",
+      "◄1.69",
+      "1.74►",
+      "Patch 35",
+      "2018年6月21日",
+      "◄Patch 34",
+      "Patch 36►",
+      "1.0.17",
+      "2018年6月21日",
+      "其他版本的1.0.17"
+    ],
+    "PlayStation Vita版": [
+      "◄1.70",
+      "1.74►",
+      "1.73",
+      "◄1.69",
+      "1.74►",
+      "1.73"
+    ],
+    "Java版Alpha": [
+      "◄1.0.15",
+      "Wii U版Patch 36►",
+      "TU66/CU56/1.73/Patch 35/1.0.17是原主机版的一次更新，也是Nintendo Switch版的最终更新。发布于2018年6月21日，修复了一些漏洞。"
+    ],
+    "皮肤包": [
+      "加入了The Incredibles皮肤包。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "MCCE-7401——带有“§”“æ”字符的告示牌会导致世界崩溃。"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Molang",
+  "source_url": "https://zh.minecraft.wiki/w/Molang",
+  "text": "提示：本条目的主题不是Mojang。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n本条目所述内容仅适用于基岩版。\nMolang是一种基于表达式的简单语言，用于快速、数据驱动地在运行时计算数值，与游戏中的数值和系统直接连接。Molang在基岩版的附加包中使用，目的在于使动画等低级系统能够在支持内部和外部创作者的可变数据驱动的同时保持高性能。\nMojang提供官方文档Molang文档，其中详细介绍了该语言的工作原理和使用位置。\n参考\n\"Molang Documenation - Introduction to Molang\"\n导航"
+}

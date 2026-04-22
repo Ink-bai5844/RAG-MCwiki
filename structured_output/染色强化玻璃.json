@@ -1,0 +1,287 @@
+{
+  "title": "染色强化玻璃",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9F%93%E8%89%B2%E5%BC%BA%E5%8C%96%E7%8E%BB%E7%92%83",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "此页面描述的是教育版相关特性。",
+      "该特性仅在教育版和开启了“Education Edition”选项的基岩版世界中可用。"
+    ],
+    "硬度": [
+      "10",
+      "10"
+    ],
+    "爆炸抗性": [
+      "10"
+    ],
+    "地图基色": [
+      "白色强化玻璃："
+    ],
+    "#FFFFFF": [
+      "淡灰色强化玻璃：",
+      "#999999",
+      "灰色强化玻璃：",
+      "#4C4C4C",
+      "黑色强化玻璃：",
+      "#191919",
+      "棕色强化玻璃：",
+      "#664C33",
+      "红色强化玻璃：",
+      "#993333",
+      "橙色强化玻璃：",
+      "#D87F33",
+      "黄色强化玻璃：",
+      "#E5E533",
+      "黄绿色强化玻璃：",
+      "#7FCC19",
+      "绿色强化玻璃：",
+      "#667F33",
+      "青色强化玻璃：",
+      "#4C7F99",
+      "淡蓝色强化玻璃：",
+      "#6699D8",
+      "蓝色强化玻璃：",
+      "#334CB2",
+      "紫色强化玻璃：",
+      "#995ACD",
+      "品红色强化玻璃：",
+      "#B24CD8",
+      "粉红色强化玻璃：",
+      "#F27FA5"
+    ],
+    "方块ID": [
+      "白色强化玻璃：hard_white_stained_glass",
+      "淡灰色强化玻璃：hard_light_gray_stained_glass",
+      "灰色强化玻璃：hard_gray_stained_glass",
+      "黑色强化玻璃：hard_black_stained_glass",
+      "棕色强化玻璃：hard_brown_stained_glass",
+      "红色强化玻璃：hard_red_stained_glass",
+      "橙色强化玻璃：hard_orange_stained_glass",
+      "黄色强化玻璃：hard_yellow_stained_glass",
+      "黄绿色强化玻璃：hard_lime_stained_glass",
+      "绿色强化玻璃：hard_green_stained_glass",
+      "青色强化玻璃：hard_cyan_stained_glass",
+      "淡蓝色强化玻璃：hard_light_blue_stained_glass",
+      "蓝色强化玻璃：hard_blue_stained_glass",
+      "紫色强化玻璃：hard_purple_stained_glass",
+      "品红色强化玻璃：hard_magenta_stained_glass",
+      "粉红色强化玻璃：hard_pink_stained_glass"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "白色强化玻璃：hard_white_stained_glass",
+      "淡灰色强化玻璃：hard_light_gray_stained_glass",
+      "灰色强化玻璃：hard_gray_stained_glass",
+      "黑色强化玻璃：hard_black_stained_glass",
+      "棕色强化玻璃：hard_brown_stained_glass",
+      "红色强化玻璃：hard_red_stained_glass",
+      "橙色强化玻璃：hard_orange_stained_glass",
+      "黄色强化玻璃：hard_yellow_stained_glass",
+      "黄绿色强化玻璃：hard_lime_stained_glass",
+      "绿色强化玻璃：hard_green_stained_glass",
+      "青色强化玻璃：hard_cyan_stained_glass",
+      "淡蓝色强化玻璃：hard_light_blue_stained_glass",
+      "蓝色强化玻璃：hard_blue_stained_glass",
+      "紫色强化玻璃：hard_purple_stained_glass",
+      "品红色强化玻璃：hard_magenta_stained_glass",
+      "粉红色强化玻璃：hard_pink_stained_glass",
+      "染色强化玻璃（Hardened Stained Glass）是一种在化学成分上增强的染色玻璃。"
+    ],
+    "生成": [
+      "染色强化玻璃不会生成在世界中。"
+    ],
+    "[[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]]": [
+      "[[|]]3333333333333333",
+      "[[|]]8888888888888888"
+    ],
+    "破坏": [
+      "没有工具可以加速对染色强化玻璃的挖掘。"
+    ],
+    "白色强化玻璃": [
+      "1"
+    ],
+    "淡灰色强化玻璃": [
+      "9"
+    ],
+    "灰色强化玻璃": [
+      "8"
+    ],
+    "棕色强化玻璃": [
+      "13"
+    ],
+    "红色强化玻璃": [
+      "15"
+    ],
+    "橙色强化玻璃": [
+      "2"
+    ],
+    "黄色强化玻璃": [
+      "5"
+    ],
+    "绿色强化玻璃": [
+      "14"
+    ],
+    "青色强化玻璃": [
+      "10"
+    ],
+    "淡蓝色强化玻璃": [
+      "4"
+    ],
+    "蓝色强化玻璃": [
+      "12"
+    ],
+    "紫色强化玻璃": [
+      "11"
+    ],
+    "品红色强化玻璃": [
+      "3"
+    ],
+    "粉红色强化玻璃": [
+      "7"
+    ],
+    "徒手": [
+      "15"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "0JE1BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "染色强化玻璃被破坏后会掉落自身。"
+    ],
+    "用途": [
+      "当透过染色强化玻璃看时，与该染色强化玻璃相邻的其他强化玻璃不可见，但在普通玻璃上能看见。"
+    ],
+    "[[|]][[|]][[|]][[|]][[|]][[|]]": [
+      "[[|]]16161616161616161616161616161616"
+    ],
+    "描述": [
+      "0"
+    ],
+    "item.use.on": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "hit": [
+      "0.4",
+      "0.6",
+      "16"
+    ],
+    "place": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "fall": [
+      "0.4",
+      "1.0",
+      "16"
+    ],
+    "step": [
+      "0.3",
+      "1.0",
+      "16"
+    ],
+    "jump": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "land": [
+      "0.22",
+      "1.0",
+      "16"
+    ],
+    "hard_white_stained_glass": [
+      "hard_stained_glass / 0"
+    ],
+    "hard_orange_stained_glass": [
+      "hard_stained_glass / 1"
+    ],
+    "hard_magenta_stained_glass": [
+      "hard_stained_glass / 2"
+    ],
+    "hard_light_blue_stained_glass": [
+      "hard_stained_glass / 3"
+    ],
+    "hard_yellow_stained_glass": [
+      "hard_stained_glass / 4"
+    ],
+    "hard_lime_stained_glass": [
+      "hard_stained_glass / 5"
+    ],
+    "hard_pink_stained_glass": [
+      "hard_stained_glass / 6"
+    ],
+    "hard_gray_stained_glass": [
+      "hard_stained_glass / 7"
+    ],
+    "hard_light_gray_stained_glass": [
+      "hard_stained_glass / 8"
+    ],
+    "hard_cyan_stained_glass": [
+      "hard_stained_glass / 9"
+    ],
+    "hard_purple_stained_glass": [
+      "hard_stained_glass / 10"
+    ],
+    "hard_blue_stained_glass": [
+      "hard_stained_glass / 11"
+    ],
+    "hard_brown_stained_glass": [
+      "hard_stained_glass / 12"
+    ],
+    "hard_green_stained_glass": [
+      "hard_stained_glass / 13"
+    ],
+    "hard_red_stained_glass": [
+      "hard_stained_glass / 14"
+    ],
+    "hard_black_stained_glass": [
+      "hard_stained_glass / 15"
+    ],
+    "方块数据值": [
+      "参见：基岩版数据值",
+      "染色强化玻璃使用以下方块数据值："
+    ],
+    "青绿色强化玻璃": [
+      "6"
+    ],
+    "方块状态": [
+      "参见：方块状态"
+    ],
+    "基岩版": [
+      "1.4.0",
+      "1.2.20.1",
+      "加入了染色强化玻璃。",
+      "1.20.60",
+      "1.20.60.24",
+      "拆分了染色强化玻璃的IDhard_stained_glass，现在不同颜色的染色强化玻璃拥有了各自的ID，同时弃用了方块状态color。",
+      "1.21.0",
+      "1.21.0.21",
+      "现在开启“Education Edition”选项后，染色强化玻璃会出现在创造模式物品栏中。"
+    ],
+    "教育版": [
+      "1.0.27",
+      "加入了染色强化玻璃。",
+      "1.21.03",
+      "1.20.60.0",
+      "拆分了染色强化玻璃的IDhard_stained_glass，现在不同颜色的染色强化玻璃拥有了各自的ID，同时弃用了方块状态color。",
+      "1.21.01.0",
+      "现在染色强化玻璃会出现在创造模式物品栏中。"
+    ],
+    "你知道吗": [
+      "染色强化玻璃的合成配方很可能取自现实中离子交换工艺的方法，这种玻璃强化的方法能够很大程度提高玻璃抵御外力破坏的能力。"
+    ]
+  }
+}

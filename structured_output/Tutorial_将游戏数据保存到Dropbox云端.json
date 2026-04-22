@@ -1,0 +1,89 @@
+{
+  "title": "Tutorial:将游戏数据保存到Dropbox云端",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%B0%86%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E4%BF%9D%E5%AD%98%E5%88%B0Dropbox%E4%BA%91%E7%AB%AF",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "警告": [
+      "因为这是Wiki的一个条目，可以在任何时间内被任何人编辑，因此建议你不要完全使用这个脚本，而是将其当作编写脚本的指导手册看待。",
+      "该教程将会介绍如何把游戏数据移动到Dropbox上，让你可以在多台计算机上游玩游戏。",
+      "要在其他电脑上游玩这些存档，你都需要执行这些步骤：安装Dropbox、同步文件以及创建符号链接。",
+      "注意：",
+      "本教程仅适用于官方启动器，第三方启动器可能在它所在的目录创建.minecraft文件夹，请以启动器显示的文件夹位置为准。",
+      "本教程讲解的是Java版的操作方法，如果你在Windows系统上游玩基岩版，且要使用Dropbox同步游戏文件，则需要把下文的Minecraft文件路径改为%localappdata%\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang，然后再按照Windows的方法操作。",
+      "你一次只能在一台计算机上游玩，在别的计算机游玩之前，必须让Dropbox完成同步。如果不这样做，那么你将会丢失你当前的进度，而且有可能会损坏你的存档。"
+    ],
+    "下载和安装Dropbox": [
+      "第一步就是下载Dropbox。Dropbox会自动同步服务器的内容，允许你在线或通过PC客户端访问这些内容。Dropbox是跨平台的，你也可以通过网页进行访问。",
+      "前往Dropbox网站，注册一个免费账户，下载应用程序并安装它。你会自动获得2GB的免费云存储空间。",
+      "安装了Dropbox后，你需要知道Dropbox的文件夹位置：",
+      "在Windows中，默认Dropbox文件夹在C:\\Users\\用户名\\Dropbox。",
+      "使用环境变量表示：%HomeDrive%%HomePath%\\Dropbox。",
+      "在Linux中，默认位置在用户的home目录，例如~/Dropbox。",
+      "在macOS中，其位置也应该在用户的home目录。",
+      "无论你使用哪个系统，Dropbox都有非常好的文档，可以协助你查找帮助。"
+    ],
+    "移动你的Minecraft文件夹到你的Dropbox文件夹": [
+      "下一步，我们将会需要复制你的Minecraft文件夹（.minecraft）到Dropbox服务器，然后把原始文件夹重命名。"
+    ],
+    "Windows": [
+      "在Windows上，你的Minecraft数据被保存在你的AppData文件夹里。你可以通过按下⊞ Windows + R，然后在文本框并输入%AppData%\\.minecraft前往此文件夹。",
+      "复制该文件夹的所有文件到你的Dropbox文件夹。为了方便，你可以在Dropbox文件夹下面新建一个子文件夹，并命名为Minecraft。",
+      "这些文件复制后，回到你的AppData文件夹，然后重命名文件夹为.minecraft2（注：以.为首字符命名文件，Windows可能会报错并拒绝应用新名字。如果发生这样，请把文件夹命名为.minecraft2.，这将会把文件命名为.minecraft2。）",
+      "该步骤确保你的文件进行备份，并允许在稍后的一个步骤创建符号链接到正确的位置。",
+      "符号链接和快捷方式类似，但是更强大。在Windows中，mklink命令会创建一个符号链接。",
+      "以管理员身份打开命令提示符。这样做是必要的，即使你当前机器上使用的用户是管理员用户。否则，命令提示符将报错：您没有足够的权限执行此操作，从而无法创建符号链接。",
+      "然后在窗口中输入：",
+      "OpenAL32.dll",
+      "jinput-dx8_64.dll",
+      "OpenAL64.dll",
+      "lwjgl64.dll",
+      "jinput-raw_64.dll",
+      "jinput-dx8.dll"
+    ],
+    "备选方法（命令提示符）": [
+      "打开命令提示符，输入：",
+      "xcopy /I /E %AppData%\\.minecraft %HomeDrive%%HomePath%\\Dropbox\\Minecraft cd %AppData% rename（或ren） .minecraft .minecraft2",
+      "注：输入rename（或ren） %AppData%\\.minecraft %AppData%\\.minecraft2会报错：命令语法不正确，要按照上文执行该命令。"
+    ],
+    "macOS": [
+      "在macOS中，Minecraft文件夹在~/Library/Application Support/minecraft。你可以通过打开访达窗口，按下⇧ Shift + ⌘ Command + G打开“前往文件夹”窗口，然后输入~/Library/Application Support/minecraft后按下↵ Enter来快速到达这个文件夹。要在稍后的时候引用该文件夹，最好为该文件夹制作一个别名，然后复制它到你的桌面。",
+      "现在，复制游戏文件夹到你的在Dropbox中的Minecraft文件夹（~/Dropbox/Minecraft/），除非你已经从Windows或Linux系统那里保存了游戏数据。",
+      "在macOS中创建符号链接是很容易的，我们要使用一个叫做SymboliceLinker的免费程序，它允许你通过在访达右击文件夹来创建一个符号链接。",
+      "安装该程序后，移动你的Minecraft文件夹（~/Library/Application Support/minecraft）到你的Dropbox文件夹里。右击该新文件夹并选择Make symbolic link。这将会在相同文件夹中创建一个符号链接。移动该文件夹到原本的位置里（确保它和原始文件夹名称相同），并且你已经选取全部的游戏数据到互联网上。"
+    ],
+    "备选方法（终端）": [
+      "打开终端，输入：",
+      "mkdir ~/Dropbox/Minecraft/ cp -r ~/Library/Application\\ Support/minecraft/ ~/Dropbox/Minecraft/ mv ~/Library/Application\\ Support/minecraft ~/Library/Application\\ Support/minecraft2",
+      "打开终端，输入：",
+      "cp -r ~/.minecraft ~/Dropbox/Minecraft mv ~/.minecraft ~/.minecraft2",
+      "打开终端，并输入："
+    ],
+    "Linux": [
+      "在Linux中，你的Minecraft数据文件夹位置在用户的home文件夹。这个文件可能被隐藏。如果你正在使用GUI，确保已在文件管理器按下Ctrl + H以显示隐藏的文件。",
+      "复制.minecraft文件夹到你的Dropbox文件夹。和之前提到的一样，在Dropbox里面新建一个Minecraft文件夹。",
+      "复制完成后，重命名.minecraft文件夹为.minecraft2。",
+      "要在Linux创建符号链接，打开终端并键入下列命令：",
+      "libopenal64.so",
+      "liblwjgl64.so",
+      "libjinput-linux64.so"
+    ],
+    "创建符号链接": [
+      "这是允许我们链接到游戏文件的在线版本的最后一步。"
+    ],
+    "mklink /d \"%AppData%\\.minecraft\" \"%HomeDrive%%HomePath%\\Dropbox\\Minecraft\"": [
+      "如果出现了一个错误：当文件已存在时，无法创建该文件，确保在AppData的.minecraft文件夹已被删除或重命名。上述命令会尝试新建一个叫作.minecraft的文件夹，不会替换存在相同名称的文件或文件夹。",
+      "如果要删除一个硬链接，可以在文件资源管理器安全删除它。"
+    ],
+    "ln -s ~/Dropbox/Minecraft ~/.minecraft": [
+      "现在，.minecraft文件夹应该出现在你的home文件夹，并且你在启动Minecraft时会看见你保存的世界。"
+    ],
+    "关于多系统同步的注意事项": [
+      "你的Minecraft文件夹中的bin文件夹包含运行程序的二进制文件，根据不同的操作系统，该文件夹中有不同的文件。所以如果希望在不同的操作系统间同步游戏文件，你需要把.minecraft/bin/natives文件夹按你需要同步的操作系统存放以下文件："
+    ],
+    "libopenal.dylib": [
+      "如下图所示，然后再使用Dropbox进行同步。"
+    ]
+  }
+}

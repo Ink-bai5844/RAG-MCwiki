@@ -1,0 +1,35 @@
+{
+  "title": "Dungeons:幽灵战袍",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%B9%BD%E7%81%B5%E6%88%98%E8%A2%8D",
+  "structured_content": {
+    "GhostCloak": [
+      "被囚禁在幽灵战袍中的灵魂会保护穿戴者，但它们会散发出一种忧郁感。"
+    ],
+    "——物品描述": [
+      "幽灵战袍（Ghost Cloak）是Minecraft Dungeons中的法器。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "迎风之巅（天启难度以上）": [
+      "居民："
+    ],
+    "使用": [
+      "使用时会给予玩家一个叫做幽灵形态（Ghost Form）的状态效果，此效果会给予玩家微小的移动速度加成，穿越敌人的能力，和50%的伤害减免。非常适合用于穿越大批量敌人。一旦攻击或射击，会立即移除此效果。"
+    ],
+    "+X% 速度": [
+      "6 秒冷却"
+    ],
+    "隐藏": [
+      "sfx_item_ghostCloakHide-001",
+      "sfx_ghostCloakHide-001"
+    ],
+    "激活": [
+      "sfx_item_ghostCloakActivated-001"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了幽灵战袍。"
+    ]
+  }
+}

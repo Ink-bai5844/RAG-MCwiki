@@ -1,0 +1,601 @@
+{
+  "title": "加载提示/1.20.50前",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8A%A0%E8%BD%BD%E6%8F%90%E7%A4%BA%2F1.20.50%E5%89%8D",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些加载提示已于基岩版1.20.50被新版加载提示取代。"
+    ],
+    "游戏提示": [
+      "本章节使用了游戏内原文。",
+      "非标准译名使用洋红色字体标出。错误翻译使用橙色字体标出。",
+      "为保证文本一致性，请勿擅自更改。"
+    ],
+    "独乐不如众乐更新": [
+      "以下是首批加入的加载提示，只应用于水域更新之前的版本。"
+    ],
+    "备注": [
+      "1",
+      "1",
+      "25"
+    ],
+    "You can change the look of your character with a Skin Pack from the Store. Select 'Store' on the Main Menu to see what's available.": [
+      "您可以使用商店中的皮肤包更改您的角色形象。在主菜单上选择“商店”以查看可用的皮肤。",
+      "2"
+    ],
+    "铁傀儡将为您而战！": [
+      "3"
+    ],
+    "Alter the brightness setting to make the game brighter or darker.": [
+      "更改亮度设置，使游戏更亮或更暗。",
+      "4"
+    ],
+    "如果您将游戏难度设置为“和平”，您的生命值将自动恢复，怪物也不会在夜晚出现！": [
+      "5"
+    ],
+    "Feed a bone to a wolf to tame it. You can then make it sit or follow you.": [
+      "您可以通过喂骨头驯服狼，让它坐下或跟随您移动。",
+      "6"
+    ],
+    "Wearing a pumpkin on your head will keep Endermen from attacking you.": [
+      "在头上套上南瓜可以防止末影人攻击您。",
+      "7"
+    ],
+    "Sleeping in a bed at night will fast forward the game to dawn, but all players in a multiplayer game need to sleep in beds at the same time.": [
+      "如果晚上上床睡觉，游戏会快进到黎明，但是需要多人游戏中的所有玩家同时上床睡觉。",
+      "8"
+    ],
+    "从猪、牛、羊、兔子和鸡身上收集食材。烹饪之后吃掉以恢复生命值！": [
+      "9"
+    ],
+    "Harvest leather from cows, and use it to make armor and books.": [
+      "从牛身上收集皮革，用它来制作盔甲和书。",
+      "10"
+    ],
+    "如果您有空桶，请用水、岩浆或牛奶填满它！": [
+      "岩浆：熔岩",
+      "11"
+    ],
+    "Use a hoe to prepare areas of ground for planting.": [
+      "用锄头开垦种植区域。",
+      "12"
+    ],
+    "Spiders won't attack you during the day - unless you attack them.": [
+      "蜘蛛不会在白天攻击您，除非您先攻击它们。",
+      "13"
+    ],
+    "Feeding an animal will keep it from despawning. Build a pen to keep your animals safe.": [
+      "给动物喂食可防止其消失。构建一道围栏可保护动物的安全。",
+      "14"
+    ],
+    "Eating cooked food reduces hunger better than eating raw food.": [
+      "吃烹饪过的食材比吃生的食材能更好地减少饥饿感。",
+      "15"
+    ],
+    "制作出火把照亮黑暗的区域。怪物潜伏在黑暗之中！": [
+      "16"
+    ],
+    "使用矿车和铁轨可加速到达目的地！": [
+      "17"
+    ],
+    "Plant some saplings and they'll grow into trees.": [
+      "种植一些树苗，它们会长成大树。",
+      "18"
+    ],
+    "Pigmen won't attack you - unless you attack them.": [
+      "猪人不会攻击您，除非您先攻击它们。",
+      "19"
+    ],
+    "You can change your game spawn point, and skip to dawn by sleeping in a bed.": [
+      "您可以更改游戏出生点并可通过上床睡觉快进到黎明。",
+      "20"
+    ],
+    "将那些火球弹回去攻击恶魂！": [
+      "21"
+    ],
+    "Building a portal will allow you to travel to another dimension - The Nether.": [
+      "通过建造传送门，您可以进入另一个维度：下界。",
+      "22"
+    ],
+    "使用合适的工具进行这项工作！使用锹挖土要比使用镐快得多！": [
+      "23"
+    ],
+    "If you can't find any coal for your torches, you can always make charcoal from trees in a furnace.": [
+      "如果找不到煤炭来制作火把，您随时可以用熔炉将树木烧成木炭。",
+      "24"
+    ],
+    "Digging straight down or straight up is not a great idea.": [
+      "一直往下或往上挖不是个好主意。",
+      "25"
+    ],
+    "骨粉（用骷髅骨头制成）可以作为肥料使用，具有瞬间生长的效果！": [
+      "26"
+    ],
+    "爬行者在接近您时会发生爆炸！": [
+      "“爬行者”为苦力怕的旧译。",
+      "27"
+    ],
+    "Obsidian is created when water hits a lava source block.": [
+      "用水冲击岩浆源块会生成黑曜石。",
+      "岩浆：熔岩",
+      "28"
+    ],
+    "If the source block for water or lava is removed, it will stop the flow completely.": [
+      "如果移除水或岩浆的源块，它将完全停止流动。",
+      "岩浆：熔岩",
+      "29"
+    ],
+    "Cobblestone is resistant to Ghast fireballs, making it useful for guarding portals.": [
+      "圆石可以抵抗恶魂火球，可用于保护传送门。",
+      "30"
+    ],
+    "Blocks that can be used as a light source will melt snow and ice. This includes torches, glowstones, and Jack-O-Lanterns.": [
+      "可以作为光源使用的方块会融化冰雪，其中包括火把、萤石和南瓜灯。",
+      "萤石：荧石",
+      "31"
+    ],
+    "Take caution when building structures made of wool out in the open, as lightning from thunderstorms can set wool on fire.": [
+      "在户外建造羊毛建筑时要小心，因为雷暴引发的闪电会让羊毛着火。",
+      "32",
+      "A single bucket of lava can be used in a furnace to smelt 100 blocks.",
+      "可将一桶岩浆倒入熔炉熔炼成 100 个方块。",
+      "岩浆：熔岩",
+      "33"
+    ],
+    "The instrument played by a note block depends on the material beneath it.": [
+      "音符盒使用的乐器取决于其下方的材料。",
+      "34"
+    ],
+    "Zombies and Skeletons can survive daylight if they are in water or wearing a helmet.": [
+      "如果僵尸和骷髅呆在水里或戴着头盔，它们在日光下也可存活。",
+      "35"
+    ],
+    "Attacking a wolf will cause any wolves in the immediate vicinity to turn hostile and attack you. This trait is also shared by Zombie Pigmen.": [
+      "如果您攻击一匹狼，其附近的所有狼都会转而攻击您。僵尸猪人也有此特征。",
+      "36"
+    ],
+    "Wolves and Iron Golems won't attack Creepers.": [
+      "狼和铁傀儡不会攻击爬行者。",
+      "“爬行者”为苦力怕的旧译。",
+      "37",
+      "Chickens lay an egg every 5 to 10 minutes.",
+      "鸡每 5 到 10 分钟下一个蛋。",
+      "38"
+    ],
+    "Obsidian can only be mined with a diamond pickaxe.": [
+      "黑曜石只能用钻石镐开采。",
+      "39"
+    ],
+    "Creepers are the easiest obtainable source of gunpowder.": [
+      "爬行者是最容易获取的火药来源。",
+      "“爬行者”为苦力怕的旧译。",
+      "40"
+    ],
+    "Placing two chests side by side will make one large chest.": [
+      "将两个箱子并排放置可以合成一个大箱子。",
+      "41"
+    ],
+    "Tame wolves show their health with the position of their tail. Feed them meat to heal them.": [
+      "被驯服的狼会通过尾巴的位置表明它们的生命值。给它们喂肉，可让它们恢复生命。",
+      "42"
+    ],
+    "使用各种材料可以制作不同颜色的染料，在熔炉中煮仙人掌可以得到绿色的染料！": [
+      "43"
+    ],
+    "Some animals will follow you if you have wheat in your hand.": [
+      "如果您手里有小麦，一些动物会跟随着您。",
+      "44",
+      "Music by C418!",
+      "音乐由 C418 制作！",
+      "45"
+    ],
+    "最终会提供此游戏的更新！": [
+      "46"
+    ],
+    "Mojang 获得的奖项比它的员工还要多！": [
+      "47"
+    ],
+    "一些名人也在玩我的世界！": [
+      "48"
+    ],
+    "Do not look directly at the bugs.": [
+      "不要总盯着 bug 不放。",
+      "49"
+    ],
+    "Creepers were born from a coding bug.": [
+      "爬行者就是因编码 bug 而生。",
+      "“爬行者”为苦力怕的旧译。",
+      "50"
+    ],
+    "这是鸡还是鸭？": [
+      "51"
+    ],
+    "您参加我的世界爱好者聚会 (MINECON) 了吗？": [
+      "52"
+    ],
+    "No-one at Mojang has ever seen Junkboy's face.": [
+      "在 Mojang，还没人见过 Junkboy。"
+    ],
+    "应译作“在Mojang里，还没人看到过Junkboy的真面目。”": [
+      "53"
+    ],
+    "您知道我的世界 Wiki 吗？": [
+      "指本Wiki。",
+      "54",
+      "MINECON 2011 was in Las Vegas, Nevada, USA!",
+      "MINECON 2011 在美国内华达州的拉斯维加斯举行！",
+      "55",
+      "MINECON 2012 was in Paris, France!",
+      "MINECON 2012 在法国巴黎举行！",
+      "56",
+      "MINECON 2013 was in Orlando, Florida, USA!",
+      "MINECON 2013 在美国佛罗里达州的奥兰多举行！",
+      "57",
+      "No-one can remember where MINECON 2014 was held.",
+      "没人记得 MINECON 2014 是在哪里举行的。",
+      "58",
+      "MINECON 2015 was in London, UK!",
+      "MINECON 2015 在英国伦敦举行！",
+      "59",
+      "MINECON 2016 was in Anaheim, California, USA!",
+      "MINECON 2016 在美国加利福尼亚州的阿纳海姆举行！",
+      "60"
+    ],
+    "对于谣传，宁可信其无，不可信其有！": [
+      "61",
+      "The first version of Minecraft was created in just 6 days!",
+      "我的世界的第一个版本的创建仅花了 6 天时间！",
+      "62"
+    ],
+    "The Enderman language is actually English in reverse.": [
+      "末影人使用的语言实际上是反着说的英语。",
+      "63"
+    ],
+    "The original name for Minecraft was Cave Game.": [
+      "《我的世界》的原名为 Cave Game。",
+      "64"
+    ],
+    "被闪电击中的猪会变成僵尸猪人！": [
+      "65"
+    ],
+    "末影人不喜欢洗澡！": [
+      "66"
+    ],
+    "铁傀儡有时候会给村民的孩子送花！": [
+      "67"
+    ],
+    "蜘蛛骑士非常罕见，这是一种骷髅骑着蜘蛛的生物！": [
+      "68"
+    ],
+    "traveling one block in the Nether is equal to traveling eight blocks in the overworld.": [
+      "下界中行进一个方块相当于在主世界中行进八个方块。"
+    ],
+    "水域更新": [
+      "以下是水域更新加入的加载提示。"
+    ],
+    "Use seagrass to attract and breed sea turtles.": [
+      "用海草来吸引和喂养海龟。",
+      "“喂养”应译为“繁殖”。",
+      "2"
+    ],
+    "保护小海龟免受有敌意生物的伤害！": [
+      "3"
+    ],
+    "Baby turtles will drop scutes when they grow - these can be crafted into turtle shells.": [
+      "小海龟在生长时会掉落鳞甲——这些鳞甲可以用来合成海龟壳。",
+      "4"
+    ],
+    "Use a bed to set your respawn point during the day.": [
+      "使用床来设置您在白天的重生点。"
+    ],
+    "应译作“使用床以在白天设置你的重生点。”": [
+      "5"
+    ],
+    "为水下探险酿造一些水下呼吸药水！": [
+      "水下呼吸药水：水肺药水",
+      "6"
+    ],
+    "海豚可以将您领向沉船和水下废墟，喂它们鳕鱼并跟随它们的踪迹！": [
+      "7"
+    ],
+    "Use shears to carve a pumpkin.": [
+      "用剪刀来雕刻南瓜。",
+      "8"
+    ],
+    "Use phantom membranes to repair your elytra.": [
+      "使用幻翼膜来修理您的鞘翅。",
+      "9",
+      "There are 3587 types of tropical fish!",
+      "有 3587 种热带鱼！",
+      "10"
+    ],
+    "Sea pickles can be smelted into lime green dye.": [
+      "海泡菜可被熔炼成浅黄绿色染料。",
+      "浅黄绿色染料：黄绿色染料",
+      "11"
+    ],
+    "用干草喂养羊驼！": [
+      "干草：干草捆",
+      "12"
+    ],
+    "指南针指向世界生成 —— 合成一个来为您指明回去的路！": [
+      "世界生成：世界出生点",
+      "该提示于1.16.210.51被修改，后又于1.18.10.20被修改。",
+      "13"
+    ],
+    "与村民进行交易，以获得食物、工具，乃至藏宝图！": [
+      "14"
+    ],
+    "您知道您可以随手拿着地图吗？": [
+      "“随手”应译为“使用副手”。",
+      "15"
+    ],
+    "Leads can be used on boats.": [
+      "可以在船上使用引线。",
+      "应译作“拴绳可以系在船上”。",
+      "16"
+    ],
+    "Sneak or wear frost walker boots to walk safely on magma blocks.": [
+      "进行潜行或者穿着冰霜行者靴以便在岩浆块上安全地行走。",
+      "17"
+    ],
+    "You can gather cob webs using shears.": [
+      "您可以用剪刀收集蜘蛛网。",
+      "18",
+      "Need diamonds? try mining on Y coordinate 12!",
+      "Need diamonds? Try mining on Y coordinate 11!"
+    ],
+    "Need diamonds? They get more common as you go deeper.": [
+      "需要钻石吗？尝试在 Y 坐标 12 上开采！",
+      "需要钻石吗？尝试在 Y 坐标 11 上开采！",
+      "需要钻石？越往深处走，这东西就变得越常见。",
+      "该提示于1.16.210.51被修改，后又于1.18.10.20被修改。",
+      "19"
+    ],
+    "Before you mine diamonds, redstone or gold, make sure you're using an iron, diamond, or netherite pickaxe or the ore won't drop.": [
+      "在您开采钻石、红石或黄金之前，确保您用的是铁镐或钻石镐，否则矿石是不会掉下来的。",
+      "在您开采钻石、红石或黄金之前，确保您用的是铁、钻石或下界合金镐，否则矿石是不会掉下来的。",
+      "“掉下来”指掉落物品。",
+      "该提示于1.16.210.51被修改。",
+      "20"
+    ],
+    "需要煤做火把或者燃料？试着在熔炉里冶炼木头来制作木炭吧！": [
+      "木头：原木",
+      "21"
+    ],
+    "黄金在荒地生物群系中储量较为丰富！": [
+      "荒地：恶地",
+      "22"
+    ],
+    "鞘翅可以用来滑翔，它们会出现在末地之城的船中！": [
+      "末地之城：末地城",
+      "23"
+    ],
+    "通过打开实验性游戏内容选项来测试一些新的功能！": [
+      "24"
+    ],
+    "tridents are dropped by the Drowned, and can be held or thrown.": [
+      "三叉戟由溺尸掉落，可以被握住或投掷。",
+      "25"
+    ],
+    "Check out mixer.com/minecraft to watch the latest Minecraft livestreams.": [
+      "访问 mixer.com/minecraft，观看最新的《我的世界》直播。",
+      "该提示于1.16.100.54被有关繁殖疣猪兽的提示替代。",
+      "26",
+      "You can smelt 20 items in a furnace by using a block of dried kelp as fuel.",
+      "您可以用一个干海带方块作为燃料，在熔炉里冶炼 20 个物品。",
+      "27"
+    ],
+    "Creepers that are killed by skeletons' arrows have a chance of dropping music discs.": [
+      "被骷髅箭杀死的怪物有机会掉落音乐唱片。",
+      "被骷髅箭消灭的苦力怕有机会掉落音乐唱片。",
+      "“消灭”是指杀死。",
+      "该提示于1.18.10.20被修改过。",
+      "28"
+    ],
+    "正是像您这样的人创造了市场中的内容！": [
+      "29"
+    ],
+    "Did you know that several community creators make a living off the content in the Marketplace?": [
+      "您知道吗？有几个社区创建者靠市场上的内容为生。",
+      "30"
+    ],
+    "您可以找到皮肤来自定义您的游戏内体验，或在所选择的平台上使用您自己的皮肤！": [
+      "31"
+    ],
+    "材质包会改变游戏中方块、物品甚至菜单的外观。试试吧！": [
+      "基岩版仍在使用纹理包的旧译。",
+      "32"
+    ],
+    "Check out the Marketplace to find new worlds and adventures.": [
+      "访问市场，发现新的世界和冒险。",
+      "33"
+    ],
+    "申请成为一名市场创建者！": [
+      "34"
+    ],
+    "Mash-up packs come with a world to explore, skins, textures, and even new music.": [
+      "混搭包各包含了一个可供探索的世界，多种皮肤以及材质，乃至新的音乐。",
+      "纹理的旧译。",
+      "35",
+      "Did you know there are over 500 community-created Marketplace packs with more added every week?",
+      "您知道吗？市场内由社区创建的包有 500 多种，并且每周都有新的加入其中。",
+      "36"
+    ],
+    "加入 discord.gg/Minecraft 上的讨论": [
+      "37"
+    ],
+    "绿宝石矿石是《我的世界》中最稀有的矿石！它们只出现在山脉和山脉中！": [
+      "峭壁/山脉：山地",
+      "山脉：草甸",
+      "该提示于1.18.10.20被修改。",
+      "38"
+    ],
+    "Taming a skeleton horse doesn't require a saddle.": [
+      "驯服骷髅马时无需马鞍。",
+      "39"
+    ],
+    "豹猫会让苦力怕知道谁才是老大！": [
+      "40"
+    ],
+    "Diorite, you either love it or hate it.": [
+      "闪长岩是一种会让您对它非爱即恨的东西。",
+      "41"
+    ],
+    "幻翼是会在夜间出现的危险生物。您得确保自己有规律的睡眠！": [
+      "42"
+    ],
+    "Zombies turn into drowned if they sink underwater.": [
+      "僵尸会在沉入水下时变成溺尸。",
+      "43"
+    ],
+    "《我的世界 Live》每年都有！请关注下一届！": [
+      "《我的世界 Live》：Minecraft Live",
+      "44"
+    ],
+    "使用焰火会提高鞘翅在半空中的速度。只要……确保它们不爆炸就好，否则会让您疼得够呛！": [
+      "焰火：烟花火箭",
+      "45"
+    ],
+    "Gold is most common in the Nether and Badlands biomes.": [
+      "黄金在荒地生物群系中是最常见的资源。",
+      "黄金在下界和荒地生物群系中是最常见的资源。",
+      "荒地：恶地",
+      "该提示于1.16.210.51被修改。",
+      "46"
+    ],
+    "应译为“真的有人会看这些吗？”": [
+      "47"
+    ],
+    "Infinite wonders, Endless possibilities.": [
+      "无限的奇迹，无尽的可能。",
+      "48"
+    ],
+    "不要让树漂浮！": [
+      "49"
+    ],
+    "在水中冲刺以游泳！": [
+      "50"
+    ],
+    "Riptide enchantment will propel you through the air in the rain.": [
+      "激流附魔将在雨中推动您穿过空气。",
+      "51"
+    ],
+    "《我的世界 Live》是一项全球性的互动直播活动。带上您的物品，加入我们的派对吧！": [
+      "《我的世界 Live》：Minecraft Live",
+      "52"
+    ],
+    "对动物友善点！": [
+      "53"
+    ],
+    "信标是一种强大的物品，只能用一颗来自凋灵的下界之星来合成！": [
+      "54"
+    ],
+    "别杀海豚，你这个怪物！": [
+      "55"
+    ],
+    "Did you know that nether stars can't be destroyed by explosions?": [
+      "您知道吗？下界之星是不会被爆炸摧毁的。",
+      "56"
+    ],
+    "When digging straight up, place a torch at your feet to break any sand or gravel that could potentially fall down on you.": [
+      "当您直接向上挖的时候，在您的脚边放一个火把，打破任何可能掉到您身上的沙子或砂砾。"
+    ],
+    "水域更新后": [
+      "以下是在水域更新的基础上加入的加载提示。"
+    ],
+    "“但绯红菌很危险！”应译为“但这件事很危险！”": [
+      "57"
+    ],
+    "You can barter with Piglins.": [
+      "你可以与猪灵交换物品。",
+      "交换物品：以物易物",
+      "58"
+    ],
+    "修剪蜂箱或蜂巢以获得蜜脾，并使用瓶子获取蜂蜜": [
+      "59"
+    ],
+    "Place a Campfire under a Beehive or nest to harvest honey peacefully. Your bees will thank you.": [
+      "将营火放置在蜂箱或蜂巢下，以和平的方式收获蜂蜜。蜜蜂们会感谢你的。",
+      "60"
+    ],
+    "在下界重生需要充能的重生锚": [
+      "61"
+    ],
+    "你可以使用荧石为重生锚充能": [
+      "62"
+    ],
+    "有想法？赶快访问 feedback.minecraft.net！": [
+      "63"
+    ],
+    "Allays can be found in Pillager Outposts and Woodland Mansions.": [
+      "悦灵可以在掠夺者前哨和林地府邸找到。",
+      "掠夺者前哨：掠夺者前哨站",
+      "64"
+    ],
+    "The Allay loves to collect items! If you give it a certain item it will try to collect more of it.": [
+      "悦灵喜欢收集物品！如果给它一个特定的物品，它会试图收集更多的物品。",
+      "65"
+    ],
+    "悦灵热爱音乐，因此会与音符盒互动！": [
+      "66"
+    ],
+    "Ancient cities can be found under mountain ranges.": [
+      "古城可以在山脉之下找到。",
+      "古城：远古城市",
+      "67"
+    ],
+    "When wandering in Deep Dark, silence is key.": [
+      "在漆黑中徘徊时，沉默是关键。",
+      "漆黑：深暗之域",
+      "“沉默”应译为：“保持安静”。",
+      "68"
+    ],
+    "在泥土方块上使用水瓶来获得泥浆！": [
+      "泥浆：泥巴",
+      "69"
+    ],
+    "Frogs eat small and blocky mobs.": [
+      "青蛙吃小型方块生物。",
+      "70"
+    ],
+    "Frogs pick a variant based on the temperature of the biome the tadpole grow up in.": [
+      "青蛙根据蝌蚪生长的生物群系的温度选择一种变体。"
+    ],
+    "“变体”应译为“变种”": [
+      "71"
+    ],
+    "You can collect tadpoles in buckets.": [
+      "您可以在桶中收集蝌蚪。",
+      "桶：铁桶",
+      "72"
+    ],
+    "Explore structures throughout the Minecraft world to find smithing templates to trim your armor pieces.": [
+      "探索整个《我的世界》世界中的建筑，找到锻造模板来装饰你的盔甲部件。",
+      "73"
+    ],
+    "Need more smithing templates? Try to copy them.": [
+      "需要更多锻造模板？尝试复制它们。",
+      "74"
+    ],
+    "The sniffer egg seems to like moss blocks.": [
+      "嗅探兽蛋似乎喜欢苔藓块。",
+      "75"
+    ],
+    "生物头能发出声音，在音符盒上尝试一下！": [
+      "生物头：生物头颅",
+      "76"
+    ],
+    "有些沙子可能很可疑。用你的画笔在上面刷，找到一些好东西！": [
+      "画笔：刷子",
+      "77"
+    ],
+    "Two players can ride together on a camel.": [
+      "两个玩家可以一起骑骆驼。",
+      "78"
+    ],
+    "骆驼水平跳...！": [
+      "这句话原文强调的是骆驼与马不同，并不能跳过较高的障碍物，但是可以通过冲刺在水平方向上越过较大的一段距离。"
+    ]
+  }
+}

@@ -1,0 +1,1510 @@
+{
+  "title": "Java版标签/方块",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E6%96%B9%E5%9D%97",
+  "structured_content": {
+    "默认分类": [
+      "“方块标签”重定向至此。关于基岩版中的方块标签，请见“基岩版标签/方块”。",
+      "本条目所述内容仅适用于Java版。",
+      "方块标签（Block Tags）是方块的组合。"
+    ],
+    "使用": [
+      "方块标签被用于进度和世界生成等文件，也用于命令测试方块。只要方块在标签中则测试成功。",
+      "游戏定义了一系列方块标签，有些是同类方块的简单分组。部分标签被游戏内部用于特殊用途，如生物生成、世界生成和方块行为等。"
+    ],
+    "acacia_logs": [
+      "用于#logs_that_burn。",
+      "#acacia_logs（4项）"
+    ],
+    "air": [
+      "用于冰霜行者魔咒检测水上方的空气。",
+      "#air（3项）"
+    ],
+    "all_hanging_signs": [
+      "用于#all_signs。",
+      "#all_hanging_signs（2项）"
+    ],
+    "all_signs": [
+      "#all_signs（2项）"
+    ],
+    "ancient_city_replaceable": [
+      "用于决定远古城市在生成时能取代哪些方块。",
+      "#ancient_city_replaceable（12项）"
+    ],
+    "animals_spawnable_on": [
+      "用于动物的生成判断。",
+      "#animals_spawnable_on（1项）"
+    ],
+    "用来决定哪些方块能够用来打开铁砧的GUI界面": [
+      "对其他方块无效，但是将默认元素移出该标签会使得GUI在消失之前快速闪烁。",
+      "用来决定其下落方块形式是否伤害实体，用于死亡消息。",
+      "用来判断一个方块是否会在使用或落地时“破坏”。",
+      "在标签里添加其他可以自然掉落的方块不会使它们受影响，除非使用命令召唤。例如，添加sand后不会使自然落下的落沙伤害实体，但是通过命令生成的落沙会对实体有伤害。",
+      "用于从掉落中的方块实体中读取NBT，以把没有设置HurtEntitiesNBT标签的掉落的方块实体的hurtEntities设置为true。",
+      "用来决定方块是否有机会被通过铁砧GUI破损。",
+      "#anvil（3项）"
+    ],
+    "armadillo_spawnable_on": [
+      "犰狳可以在这些方块上自然生成。",
+      "#armadillo_spawnable_on（4项）"
+    ],
+    "axolotls_spawnable_on": [
+      "用于美西螈生成判断。",
+      "#axolotls_spawnable_on（1项）"
+    ],
+    "azalea_grows_on": [
+      "用于决定杜鹃树可以在哪些方块上自然生成。",
+      "用于决定杜鹃树在自然生成时其下方1格的缠根泥土能取代哪些方块。",
+      "#azalea_grows_on（5项）"
+    ],
+    "azalea_root_replaceable": [
+      "用于决定杜鹃树在自然生成时，下方大量团簇状的缠根泥土和垂根能取代哪些方块。",
+      "#azalea_root_replaceable（9项）"
+    ],
+    "badlands_terracotta": [
+      "用于决定犰狳可以在哪些陶瓦上自然生成。",
+      "#badlands_terracotta（7项）"
+    ],
+    "bamboo_blocks": [
+      "#bamboo_blocks（2项）"
+    ],
+    "banners": [
+      "用于检测用地图点击该方块是否应该在地图上标记该点。将其他方块加入此标签会导致用地图点击时产生使用动画，但不会添加标记。",
+      "用于#wall_post_override。",
+      "#banners（32项）"
+    ],
+    "bars": [
+      "包含所有栏杆。",
+      "#bars（9项）"
+    ],
+    "base_stone_nether": [
+      "持有该标签的方块在生成时可以被远古残骸替代。",
+      "#base_stone_nether（3项）"
+    ],
+    "base_stone_overworld": [
+      "用于决定作为地下矿石生成时，泥土、沙砾、花岗岩、闪长岩、安山岩、凝灰岩、黏土能取代哪些方块。",
+      "用于决定“滴水石簇”能取代哪些方块。",
+      "用于“滴水石簇”的生成。",
+      "用于#dripstone_replaceable_blocks和#moss_replaceable。",
+      "#base_stone_overworld（6项）"
+    ],
+    "bats_spawnable_on": [
+      "用于决定蝙蝠可以在哪些方块上自然生成。",
+      "#bats_spawnable_on（1项）"
+    ],
+    "beacon_base_blocks": [
+      "拥有此标签的方块在信标下方放置时能激活信标。",
+      "#beacon_base_blocks（5项）"
+    ],
+    "beds": [
+      "用于确定猫是否会在上面坐下或躺下。",
+      "用于检测村民的兴趣点。",
+      "用于决定可以睡在哪些方块中。",
+      "用于确定幼年村民可以跳到哪些方块上。",
+      "向该标签添加不分前后两部分的方块可能会导致游戏崩溃。",
+      "#beds（16项）"
+    ],
+    "bee_attractive": [
+      "蜜蜂会尝试在这些方块上授粉。",
+      "#bee_attractive（29项）"
+    ],
+    "bee_growables": [
+      "当蜜蜂对这些植株进行授粉时，它们会生长一个阶段。",
+      "从该标签中删除方块没有效果。",
+      "#bee_growables（4项）"
+    ],
+    "beehives": [
+      "确定当蜜蜂带有花粉时可以为哪些方块填充蜂蜜。",
+      "该标签中的方块可以用带有玻璃瓶或剪刀的发射器清除蜂蜜。",
+      "用于进度文件husbandry/safely_harvest_honey.json。",
+      "#beehives（2项）"
+    ],
+    "beneath_bamboo_podzol_replaceable": [
+      "定义适用于竹子下方可被灰化土替代的方块。",
+      "#beneath_bamboo_podzol_replaceable（1项）"
+    ],
+    "beneath_tree_podzol_replaceable": [
+      "定义适用于树木下方可被灰化土替代的方块。",
+      "#beneath_tree_podzol_replaceable（1项）"
+    ],
+    "birch_logs": [
+      "用于#logs_that_burn。",
+      "#birch_logs（4项）"
+    ],
+    "blocks_wind_charge_explosions": [
+      "能够阻挡风弹爆炸的方块。",
+      "#blocks_wind_charge_explosions（2项）"
+    ],
+    "buttons": [
+      "#buttons（2项）"
+    ],
+    "camel_sand_step_sound_blocks": [
+      "当骆驼在拥有此标签的方块上行走时，播放骆驼在沙子上方行走音效。",
+      "#camel_sand_step_sound_blocks（3项）"
+    ],
+    "camels_spawnable_on": [
+      "指定哪些方块可以生成骆驼。",
+      "#camels_spawnable_on（1项）"
+    ],
+    "campfires": [
+      "蜜蜂、鹦鹉和海龟将此标记的方块视为造成火焰伤害并相应地进行路径查找。",
+      "营火使用这个标签来确定它们是否被点燃。",
+      "打火石用这个标签来确定它是否能点燃营火。给此标签添加方块无效果。",
+      "属于该标签的方块若具有lit方块状态，则当被喷溅水瓶击中时，其lit值将被设为false。",
+      "#campfires（2项）"
+    ],
+    "candle_cakes": [
+      "拥有这个标签的方块会被视为插上蜡烛的蛋糕并能被点燃，除非它们的lit方块状态被设定为false。",
+      "#candle_cakes（17项）"
+    ],
+    "candles": [
+      "拥有这个标签的方块会被视为蜡烛并能够点燃，如果有lit和​waterlogged这两个方块状态且都是false。",
+      "#candles（17项）"
+    ],
+    "cannot_replace_below_tree_trunk": [
+      "#cannot_replace_below_tree_trunk（4项）"
+    ],
+    "cannot_support_kelp": [
+      "海带无法放置在这些方块上。",
+      "#cannot_support_kelp（1项）"
+    ],
+    "cannot_support_seagrass": [
+      "海草或高海草无法放置在这些方块上。",
+      "#cannot_support_seagrass（1项）"
+    ],
+    "cannot_support_snow_layer": [
+      "雪无法放置在这些方块上。",
+      "#cannot_support_snow_layer（3项）"
+    ],
+    "can_glide_through": [
+      "可以攀爬且不打断滑翔的方块。",
+      "#can_glide_through（6项）"
+    ],
+    "cauldrons": [
+      "这个标签被用于确认寻路过程。",
+      "#cauldrons（4项）"
+    ],
+    "cave_vines": [
+      "用于#moss_replaceable。",
+      "#cave_vines（2项）"
+    ],
+    "ceiling_hanging_signs": [
+      "用于#all_hanging_signs。",
+      "#ceiling_hanging_signs（12项）"
+    ],
+    "chains": [
+      "包含所有锁链。",
+      "#chains（9项）"
+    ],
+    "cherry_logs": [
+      "用于#logs_that_burn。",
+      "#cherry_logs（4项）"
+    ],
+    "climbable": [
+      "用于生物寻路。",
+      "该标签用于确定哪些方块可以攀爬。",
+      "向该标签添加其他的方块时，为了使生物能够攀爬，这个方块碰撞箱必须足够小，以使生物碰撞箱的中心可以位于这一方块。",
+      "这意味着不能从侧面攀登箱子等方块，而可以从顶部攀登。",
+      "如果删除了脚手架，则生物将无法平滑地爬升，但仍可以跳上并潜下。",
+      "#climbable（9项）"
+    ],
+    "coal_ores": [
+      "#coal_ores（2项）"
+    ],
+    "combination_step_sound_blocks": [
+      "此处定义的方块的行走音效是否与其下方方块的行走音效合并。",
+      "#combination_step_sound_blocks（8项）"
+    ],
+    "completes_find_tree_tutorial": [
+      "拥有这个标签的方块可用于完成“找到一棵树”教学提示。",
+      "#completes_find_tree_tutorial（3项）"
+    ],
+    "concrete": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#concrete[即将到来]（16项）"
+    ],
+    "concrete_powder": [
+      "本段落包含会在下一次更新中移除的内容。",
+      "这些特性在Java版26.2的开发版本中移除。",
+      "#concrete_powder[即将失效]（16项）"
+    ],
+    "concrete_powders": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#concrete_powders[即将到来]（16项）"
+    ],
+    "convertable_to_mud": [
+      "对拥有此标签的方块使用水瓶时可以将其转化为泥巴。",
+      "#convertable_to_mud（3项）"
+    ],
+    "copper": [
+      "包含所有铜块。",
+      "#copper（8项）"
+    ],
+    "copper_chests": [
+      "包含所有铜箱子。",
+      "#copper_chests（8项）"
+    ],
+    "copper_golem_statues": [
+      "包含所有铜傀儡像。",
+      "#copper_golem_statues（8项）"
+    ],
+    "copper_ores": [
+      "#copper_ores（2项）"
+    ],
+    "coral_blocks": [
+      "用于生成珊瑚礁。",
+      "对单个海泡菜使用骨粉，如果海泡菜位于这些方块上方，会生长出更多的海泡菜。",
+      "#coral_blocks（5项）"
+    ],
+    "coral_plants": [
+      "用于#corals。",
+      "#coral_plants（5项）"
+    ],
+    "corals": [
+      "用于生成珊瑚礁。",
+      "#corals（6项）"
+    ],
+    "crimson_stems": [
+      "用于#logs。",
+      "#crimson_stems（4项）"
+    ],
+    "crops": [
+      "用于#bee_growables。",
+      "#crops（8项）"
+    ],
+    "crystal_sound_blocks": [
+      "拥有这个标签的方块在被踩中时会播放水晶的音效。",
+      "#crystal_sound_blocks（2项）"
+    ],
+    "dampens_vibrations": [
+      "实体不会在拥有这个标签的方块上发出振动。",
+      "#dampens_vibrations（2项）"
+    ],
+    "dark_oak_logs": [
+      "用于#logs_that_burn。",
+      "#dark_oak_logs（4项）"
+    ],
+    "deepslate_ore_replaceables": [
+      "用于决定在世界生成时能被深层矿石替换的方块，浅层变种见#stone_ore_replaceables。",
+      "#deepslate_ore_replaceables（2项）"
+    ],
+    "diamond_ores": [
+      "#diamond_ores（2项）"
+    ],
+    "dirt": [
+      "用于#moss_replaceable。",
+      "#dirt（3项）"
+    ],
+    "does_not_block_hoppers": [
+      "用来决定哪些碰撞箱完整的方块不会阻挡漏斗捕捉物品实体。",
+      "#does_not_block_hoppers（1项）"
+    ],
+    "doors": [
+      "实体寻路过程中不会尝试跳跃上拥有这个标签的方块。",
+      "生成僵尸村庄时拥有此标签的方块有概率被转换为空气。",
+      "#doors（10项）"
+    ],
+    "dragon_immune": [
+      "用来决定哪些方块不能被末影龙摧毁。",
+      "#dragon_immune（19项）"
+    ],
+    "dragon_transparent": [
+      "#dragon_transparent（2项）"
+    ],
+    "dripstone_replaceable_blocks": [
+      "#dripstone_replaceable_blocks（1项）"
+    ],
+    "edible_for_sheep": [
+      "用来决定哪些方块可被绵羊吃掉。",
+      "#edible_for_sheep（4项）"
+    ],
+    "emerald_ores": [
+      "#emerald_ores（2项）"
+    ],
+    "enables_bubble_column_drag_down": [
+      "流体在这些方块上方生成气泡柱涡流。",
+      "#enables_bubble_column_drag_down（1项）"
+    ],
+    "enables_bubble_column_push_up": [
+      "流体在这些方块上方生成气泡柱涌流。",
+      "#enables_bubble_column_push_up（1项）"
+    ],
+    "enchantment_power_provider": [
+      "可以增加附魔台最大附魔等级的方块。",
+      "#enchantment_power_provider（1项）"
+    ],
+    "enchantment_power_transmitter": [
+      "不会阻断附魔台附魔等级增益的方块。",
+      "#enchantment_power_transmitter（1项）"
+    ],
+    "enderman_holdable": [
+      "用来决定哪些方块可以被末影人拾起。",
+      "#enderman_holdable（23项）"
+    ],
+    "fall_damage_resetting": [
+      "用来决定除液体外哪些方块可以重置摔落伤害。",
+      "#fall_damage_resetting（3项）"
+    ],
+    "features_cannot_replace": [
+      "#features_cannot_replace（7项）"
+    ],
+    "fence_gates": [
+      "#fence_gates（12项）"
+    ],
+    "fences": [
+      "生物将这个标签中的所有方块视为栅栏，并据此进行寻路。",
+      "可以将拴绳连接到此标签中的方块上。",
+      "拴绳结实体使用此标签来检测它是否应该断开。",
+      "#fences（2项）"
+    ],
+    "fire": [
+      "当检测到有效的未激活下界传送门时，将忽略此标签中的方块，并将在激活后将其删除。",
+      "生物将这个标签中的所有方块视作火并据此寻路。",
+      "此标签中的方块不会阻挡沙子等方块掉落。",
+      "能够扑灭火焰的药水会移除此标签中的方块。",
+      "用于#dragon_transparent。",
+      "#fire（2项）"
+    ],
+    "flower_pots": [
+      "#flower_pots（39项）"
+    ],
+    "flowers": [
+      "#flowers（15项）"
+    ],
+    "forest_rock_can_place_on": [
+      "定义哪些方块之上可放置forest_rock地物。",
+      "#forest_rock_can_place_on（2项）"
+    ],
+    "foxes_spawnable_on": [
+      "用于狐狸的生成判定。",
+      "#foxes_spawnable_on（5项）"
+    ],
+    "frog_prefer_jump_to": [
+      "#frog_prefer_jump_to（2项）"
+    ],
+    "frogs_spawnable_on": [
+      "用于青蛙的生成判定。",
+      "#frogs_spawnable_on（4项）"
+    ],
+    "geode_invalid_blocks": [
+      "#geode_invalid_blocks（6项）"
+    ],
+    "glazed_terracotta": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#glazed_terracotta[即将到来]（16项）"
+    ],
+    "goats_spawnable_on": [
+      "#goats_spawnable_on（6项）"
+    ],
+    "gold_ores": [
+      "#gold_ores（3项）"
+    ],
+    "grass_blocks": [
+      "#grass_blocks（3项）"
+    ],
+    "grows_crops": [
+      "小麦植株、胡萝卜、马铃薯、甜菜根、火把花植株、瓶子草植株、南瓜茎、西瓜茎可以在这些方块上生长。",
+      "#grows_crops（1项）"
+    ],
+    "guarded_by_piglins": [
+      "猪灵将与开启或摧毁拥有这个标签的方块的玩家敌对。",
+      "#guarded_by_piglins（10项）"
+    ],
+    "happy_ghast_avoids": [
+      "恶魂和快乐恶魂会倾向于远离这些方块。",
+      "#happy_ghast_avoids（7项）"
+    ],
+    "hoglin_repellents": [
+      "疣猪兽会远离这些方块。",
+      "#hoglin_repellents（4项）"
+    ],
+    "huge_brown_mushroom_can_place_on": [
+      "定义哪些方块之上可放置huge_brown_mushroom地物。",
+      "#huge_brown_mushroom_can_place_on（5项）"
+    ],
+    "huge_red_mushroom_can_place_on": [
+      "定义哪些方块之上可放置huge_red_mushroom地物。",
+      "#huge_red_mushroom_can_place_on（5项）"
+    ],
+    "ice": [
+      "海底废墟不会在这些方块上生成。",
+      "#ice（4项）"
+    ],
+    "ice_spike_replaceable": [
+      "定义冰刺可替换哪些方块。",
+      "#ice_spike_replaceable（3项）"
+    ],
+    "impermeable": [
+      "这个标签下的方块的上方有液体时不会展示水滴/熔岩粒子效果。",
+      "#impermeable（19项）"
+    ],
+    "incorrect_for_copper_tool": [
+      "标记为该标签的方块被铜质工具挖掘后不会掉落。",
+      "#incorrect_for_copper_tool（2项）"
+    ],
+    "incorrect_for_diamond_tool": [
+      "标记为该标签的方块被钻石质工具挖掘后不会掉落。",
+      "#incorrect_for_diamond_tool（0项）"
+    ],
+    "incorrect_for_gold_tool": [
+      "标记为该标签的方块被金质工具挖掘后不会掉落。",
+      "#incorrect_for_gold_tool（3项）"
+    ],
+    "incorrect_for_iron_tool": [
+      "标记为该标签的方块被铁质工具挖掘后不会掉落。",
+      "#incorrect_for_iron_tool（1项）"
+    ],
+    "incorrect_for_netherite_tool": [
+      "标记为该标签的方块被下界合金质工具挖掘后不会掉落。",
+      "#incorrect_for_netherite_tool（0项）"
+    ],
+    "incorrect_for_stone_tool": [
+      "标记为该标签的方块被石质工具挖掘后不会掉落。",
+      "#incorrect_for_stone_tool（2项）"
+    ],
+    "incorrect_for_wooden_tool": [
+      "标记为该标签的方块被木质工具挖掘后不会掉落。",
+      "#incorrect_for_wooden_tool（3项）"
+    ],
+    "infiniburn_end": [
+      "在末地中，火会在使用该标签的方块上无限燃烧。",
+      "#infiniburn_end（2项）"
+    ],
+    "infiniburn_nether": [
+      "在下界中，火会在使用该标签的方块上无限燃烧。",
+      "#infiniburn_nether（1项）"
+    ],
+    "infiniburn_overworld": [
+      "在主世界中，火会在使用该标签的方块上无限燃烧。",
+      "#infiniburn_overworld（2项）"
+    ],
+    "inside_step_sound_blocks": [
+      "拥有这个标签的方块在被踩中时会播放在雪地行走的音效。",
+      "#inside_step_sound_blocks（8项）"
+    ],
+    "invalid_spawn_inside": [
+      "这个位置上的方块和它上方的方块带有此标签，则不会被选为重生位置。",
+      "#invalid_spawn_inside（2项）"
+    ],
+    "iron_ores": [
+      "#iron_ores（2项）"
+    ],
+    "jungle_logs": [
+      "可可豆可以放置其上。",
+      "#jungle_logs（4项）"
+    ],
+    "lanterns": [
+      "包含所有灯笼。",
+      "#lanterns（10项）"
+    ],
+    "lightning_rods": [
+      "包含所有避雷针。",
+      "#lightning_rods（8项）"
+    ],
+    "lapis_ores": [
+      "#lapis_ores（2项）"
+    ],
+    "lava_pool_stone_cannot_replace": [
+      "#lava_pool_stone_cannot_replace（3项）"
+    ],
+    "leaves": [
+      "此标签中的方块不会阻碍许多结构的生成，如奖励箱、树和巨型蘑菇。",
+      "用于确定某些方块是否可以放置其上。",
+      "此标签中的方块使用剑摧毁时速度是正常情况下的1.5倍。",
+      "此标签中的方块使用剪刀破坏的速度是正常情况下的15倍，并增加其使用统计。",
+      "该标签中的方块将剪刀识别为正确的工具。",
+      "#leaves（11项）"
+    ],
+    "logs": [
+      "用于鹦鹉AI在方块上栖息时对方块的要求之一。",
+      "如果该标签的方块周围有树叶，树叶方块会将其distance方块状态设为与其最近的距离。",
+      "#logs（3项）"
+    ],
+    "logs_that_burn": [
+      "#logs_that_burn（9项）"
+    ],
+    "lush_ground_replaceable": [
+      "#lush_ground_replaceable（4项）"
+    ],
+    "maintains_farmland": [
+      "不会使耕地退化为泥土的方块。",
+      "#maintains_farmland（13项）"
+    ],
+    "mangrove_logs": [
+      "#mangrove_logs（4项）"
+    ],
+    "mangrove_logs_can_grow_through": [
+      "红树生成时，红树原木可以穿过的方块。",
+      "#mangrove_logs_can_grow_through（8项）"
+    ],
+    "mangrove_roots_can_grow_through": [
+      "红树生成时，红树根可以穿过的方块。",
+      "#mangrove_roots_can_grow_through（7项）"
+    ],
+    "mineable/axe": [
+      "此标签内的方块用斧挖掘更快。",
+      "#mineable/axe（55项）"
+    ],
+    "mineable/hoe": [
+      "此标签内的方块用锄挖掘更快。",
+      "#mineable/hoe（19项）"
+    ],
+    "mineable/pickaxe": [
+      "此标签内的方块用镐挖掘更快。",
+      "#mineable/pickaxe（418项）"
+    ],
+    "mineable/shovel": [
+      "此标签内的方块用锹挖掘更快。",
+      "#mineable/shovel（22项）"
+    ],
+    "mob_interactable_doors": [
+      "此标签内的方块可作为门被生物交互。",
+      "#mob_interactable_doors（9项）"
+    ],
+    "mooshrooms_spawnable_on": [
+      "用于哞菇的生成判断。",
+      "#mooshrooms_spawnable_on（1项）"
+    ],
+    "moss_blocks": [
+      "#moss_blocks（2项）"
+    ],
+    "moss_replaceable": [
+      "可以被骨粉复制的苔藓块替换的方块。",
+      "#moss_replaceable（6项）"
+    ],
+    "mud": [
+      "#mud（2项）"
+    ],
+    "needs_diamond_tool": [
+      "标签中的方块需要钻石质以上的工具破坏才可能掉落物品。",
+      "#needs_diamond_tool（5项）"
+    ],
+    "needs_iron_tool": [
+      "标签中的方块需要铁质以上的工具破坏才可能掉落物品。",
+      "#needs_iron_tool（12项）"
+    ],
+    "needs_stone_tool": [
+      "标签中的方块需要石质以上的工具破坏才可能掉落物品。",
+      "#needs_stone_tool（77项）"
+    ],
+    "nether_carver_replaceables": [
+      "拥有此标签的方块可以被下界地形雕刻器切掉。",
+      "#nether_carver_replaceables（7项）"
+    ],
+    "nylium": [
+      "#nylium（2项）"
+    ],
+    "oak_logs": [
+      "#oak_logs（4项）"
+    ],
+    "阻挡振动的传播": [
+      "#occludes_vibration_signals（1项）"
+    ],
+    "overrides_mushroom_light_requirement": [
+      "蘑菇不能在不属于上述标签且光照等于大于13的位置存活。",
+      "#overrides_mushroom_light_requirement（4项）"
+    ],
+    "overworld_carver_replaceables": [
+      "拥有此标签的方块可以被主世界地形雕刻器切掉。",
+      "#overworld_carver_replaceables（19项）"
+    ],
+    "overworld_natural_logs": [
+      "#overworld_natural_logs（9项）"
+    ],
+    "pale_oak_logs": [
+      "#pale_oak_logs（4项）"
+    ],
+    "parrots_spawnable_on": [
+      "用于鹦鹉生成判定。",
+      "#parrots_spawnable_on（4项）"
+    ],
+    "piglin_repellents": [
+      "猪灵会远离这些方块。",
+      "#piglin_repellents（5项）"
+    ],
+    "planks": [
+      "#planks（12项）"
+    ],
+    "polar_bears_spawnable_on_alternate": [
+      "用于北极熊生成判定。",
+      "#polar_bears_spawnable_on_alternate（1项）"
+    ],
+    "portals": [
+      "当骑着一个实体的实体从其上脱离时，它将不会落在这些方块中以防止不需要的传送，而是会脱离在被骑乘的实体的位置。",
+      "#portals（3项）"
+    ],
+    "pressure_plates": [
+      "#pressure_plates（4项）"
+    ],
+    "prevent_mob_spawning_inside": [
+      "生物不能在这些方块里生成。",
+      "#prevent_mob_spawning_inside（1项）"
+    ],
+    "prevents_nearby_leaf_decay": [
+      "树叶距离这些方块曼哈顿距离6格内时不消失。",
+      "#prevents_nearby_leaf_decay（1项）"
+    ],
+    "rabbits_spawnable_on": [
+      "用于兔子的生成判定。",
+      "#rabbits_spawnable_on（4项）"
+    ],
+    "rails": [
+      "检测是否与铁轨相连。",
+      "矿车是否可在此方块上行驶。",
+      "检测是否可以放置矿车。",
+      "向此标签添加其他方块会导致游戏崩溃。",
+      "TNT矿车位于这些方块内时，不会破坏所在位置的方块和下方的方块。",
+      "#rails（4项）"
+    ],
+    "redstone_ores": [
+      "#redstone_ores（2项）"
+    ],
+    "replaceable": [
+      "#replaceable（29项）"
+    ],
+    "replaceable_by_mushrooms": [
+      "蘑菇被放置或生长时可替换的方块。",
+      "#replaceable_by_mushrooms（31项）"
+    ],
+    "replaceable_by_trees": [
+      "可被长成的树木替换的方块。",
+      "#replaceable_by_trees（27项）"
+    ],
+    "sand": [
+      "用于确定海龟蛋是否能在该方块上孵化。",
+      "#sand（3项）"
+    ],
+    "saplings": [
+      "树生长时可以替代此标签的方块。",
+      "#saplings（11项）"
+    ],
+    "sculk_replaceable": [
+      "用于确定幽匿催发体在蔓延时会将何种方块转化为幽匿块。",
+      "#sculk_replaceable（19项）"
+    ],
+    "sculk_replaceable_world_gen": [
+      "用于确定在世界生成阶段哪些方块会被幽匿斑簇替换。",
+      "#sculk_replaceable_world_gen（7项）"
+    ],
+    "shears_extreme_breaking_speed": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "被剪刀以15倍的速度破坏的方块。",
+      "#shears_extreme_breaking_speed[即将到来]（1项）"
+    ],
+    "shears_major_breaking_speed": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "被剪刀以5倍的速度破坏的方块。",
+      "#shears_major_breaking_speed[即将到来]（1项）"
+    ],
+    "shears_minor_breaking_speed": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "被剪刀以2倍的速度破坏的方块。",
+      "#shears_minor_breaking_speed[即将到来]（2项）"
+    ],
+    "shulker_boxes": [
+      "栅栏、墙和玻璃板不会连接到这些方块。",
+      "#shulker_boxes（17项）"
+    ],
+    "signs": [
+      "流水不会破坏这些方块。",
+      "#signs（2项）"
+    ],
+    "slabs": [
+      "#slabs（57项）"
+    ],
+    "small_flowers": [
+      "蜜蜂会尝试采集这些方块的花粉。",
+      "#small_flowers（17项）"
+    ],
+    "smelts_to_glass": [
+      "这些方块可以被烧炼成玻璃。",
+      "#smelts_to_glass（2项）"
+    ],
+    "snaps_goat_horn": [
+      "山羊冲撞到这些方块会掉落山羊角。",
+      "#snaps_goat_horn（7项）"
+    ],
+    "sniffer_diggable_block": [
+      "嗅探兽可以从这些方块中找到种子。",
+      "#sniffer_diggable_block（5项）"
+    ],
+    "sniffer_egg_hatch_boost": [
+      "这些方块可以加速嗅探兽蛋的孵化。",
+      "#sniffer_egg_hatch_boost（1项）"
+    ],
+    "snow": [
+      "#snow（3项）"
+    ],
+    "soul_fire_base_blocks": [
+      "灵魂火会在这些方块上燃烧。",
+      "#soul_fire_base_blocks（2项）"
+    ],
+    "soul_speed_blocks": [
+      "穿着附有灵魂疾行魔咒的靴子在这些方块上的行走速度会得到提高。",
+      "#soul_speed_blocks（2项）"
+    ],
+    "speleothems": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#speleothems[即将到来]（2项）"
+    ],
+    "spruce_logs": [
+      "#spruce_logs（4项）"
+    ],
+    "stairs": [
+      "#stairs（53项）"
+    ],
+    "standing_signs": [
+      "#standing_signs（12项）"
+    ],
+    "stone_bricks": [
+      "#stone_bricks（4项）"
+    ],
+    "stone_buttons": [
+      "#stone_buttons（2项）"
+    ],
+    "stone_ore_replaceables": [
+      "用于决定在世界生成时能被矿石替换的方块，深层变种见#deepslate_ore_replaceables。",
+      "#stone_ore_replaceables（4项）"
+    ],
+    "stone_pressure_plates": [
+      "#stone_pressure_plates（2项）"
+    ],
+    "strider_warm_blocks": [
+      "炽足兽若不在此标签的方块当中，就会打寒颤。",
+      "#strider_warm_blocks（1项）"
+    ],
+    "substrate_overworld": [
+      "用于集合世界生成条件。",
+      "#substrate_overworld（4项）"
+    ],
+    "sulfur_spike_replaceable_blocks": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "硫黄尖锥生成时可以取代这些方块。",
+      "#sulfur_spike_replaceable_blocks[即将到来]（2项）"
+    ],
+    "support_override_cactus_flower": [
+      "仙人掌花可以放置并存活在这些方块上，即使方块上表面不完整。",
+      "#support_override_cactus_flower（2项）"
+    ],
+    "support_override_snow_layer": [
+      "雪可以放置并存活在这些方块上，即使方块上表面不完整。",
+      "#support_override_snow_layer（3项）"
+    ],
+    "supports_azalea": [
+      "杜鹃花丛、盛开的杜鹃花丛可以放置并存活在这些方块上。",
+      "#supports_azalea（2项）"
+    ],
+    "supports_bamboo": [
+      "竹子、竹笋可以放置并存活在这些方块上。",
+      "#supports_bamboo（6项）"
+    ],
+    "supports_big_dripleaf": [
+      "大型垂滴叶可以放置并存活在这些方块上。",
+      "#supports_big_dripleaf（11项）"
+    ],
+    "supports_cactus": [
+      "仙人掌可以放置并存活在这些方块上。",
+      "#supports_cactus（1项）"
+    ],
+    "supports_chorus_flower": [
+      "紫颂花可以放置并存活在这些方块上。",
+      "#supports_chorus_flower（1项）"
+    ],
+    "supports_chorus_plant": [
+      "紫颂植株可以放置并存活在这些方块上。",
+      "紫颂树会在这些方块上生成。",
+      "#supports_chorus_plant（1项）"
+    ],
+    "supports_cocoa": [
+      "可可果可以放置并存活在这些方块上。",
+      "#supports_cocoa（1项）"
+    ],
+    "supports_crimson_fungus": [
+      "绯红菌可以放置并存活在这些方块上。",
+      "#supports_crimson_fungus（1项）"
+    ],
+    "supports_crimson_roots": [
+      "绯红菌索可以放置并存活在这些方块上。",
+      "#supports_crimson_roots（1项）"
+    ],
+    "supports_crops": [
+      "小麦植株、胡萝卜、马铃薯、甜菜根、火把花植株、瓶子草植株可以放置并存活在这些方块上。",
+      "#supports_crops（1项）"
+    ],
+    "supports_dry_vegetation": [
+      "矮枯草丛、高枯草丛可以放置并存活在这些方块上。",
+      "#supports_dry_vegetation（3项）"
+    ],
+    "supports_frogspawn": [
+      "青蛙卵可以放置并存活在这些方块上。",
+      "#supports_frogspawn（0项）"
+    ],
+    "supports_hanging_mangrove_propagule": [
+      "红树胎生苗可以在这些方块下存活。不能手动放置。",
+      "#supports_hanging_mangrove_propagule（1项）"
+    ],
+    "supports_lily_pad": [
+      "睡莲可以放置并存活在这些方块上。",
+      "#supports_lily_pad（2项）"
+    ],
+    "supports_mangrove_propagule": [
+      "红树胎生苗可以放置并存活在这些方块上。",
+      "#supports_mangrove_propagule（2项）"
+    ],
+    "supports_melon_stem": [
+      "西瓜茎可以放置并存活在这些方块上。",
+      "#supports_melon_stem（1项）"
+    ],
+    "supports_melon_stem_fruit": [
+      "西瓜茎能在这些方块上方生成西瓜。",
+      "#supports_melon_stem_fruit（1项）"
+    ],
+    "supports_nether_sprouts": [
+      "下界苗可以放置并存活在这些方块上。",
+      "#supports_nether_sprouts（3项）"
+    ],
+    "supports_nether_wart": [
+      "下界疣可以放置并存活在这些方块上。",
+      "#supports_nether_wart（1项）"
+    ],
+    "supports_pumpkin_stem": [
+      "南瓜茎可以放置并存活在这些方块上。",
+      "#supports_pumpkin_stem（1项）"
+    ],
+    "supports_pumpkin_stem_fruit": [
+      "南瓜茎能在这些方块上方生成南瓜。",
+      "#supports_pumpkin_stem_fruit（1项）"
+    ],
+    "supports_small_dripleaf": [
+      "小型垂滴叶可以放置并存活在这些方块上。",
+      "#supports_small_dripleaf（2项）"
+    ],
+    "supports_stem_crops": [
+      "西瓜茎或南瓜茎可以放置并存活在这些方块上。",
+      "#supports_stem_crops（1项）"
+    ],
+    "supports_stem_fruit": [
+      "#supports_stem_fruit（1项）"
+    ],
+    "supports_sugar_cane": [
+      "甘蔗可以放置并存活在这些方块上。",
+      "#supports_sugar_cane（2项）"
+    ],
+    "supports_sugar_cane_adjacently": [
+      "甘蔗可以放置并存活在这些方块毗邻方块上。",
+      "#supports_sugar_cane_adjacently（1项）"
+    ],
+    "supports_vegetation": [
+      "灌木丛、矮草丛、高草丛、蕨、大型蕨、瓶子草、向日葵、丁香、玫瑰丛、牡丹、眼眸花、萤火虫灌木丛、粉红色花簇、野花簇、蒲公英、火把花、虞美人、兰花、绒球葱、红色郁金香、橙色郁金香、白色郁金香、粉红色郁金香、滨菊、矢车菊、甜浆果丛、橡树树苗、白桦树苗、云杉树苗、丛林树苗、金合欢树苗、深色橡树树苗、樱花树苗、苍白橡树树苗可以放置并存活在这些方块上。",
+      "#supports_vegetation（2项）"
+    ],
+    "supports_warped_fungus": [
+      "诡异菌可以放置并存活在这些方块上。",
+      "#supports_warped_fungus（4项）"
+    ],
+    "supports_warped_roots": [
+      "诡异菌索可以放置并存活在这些方块上。",
+      "#supports_warped_roots（3项）"
+    ],
+    "supports_wither_rose": [
+      "凋灵玫瑰可以放置并存活在这些方块上。",
+      "#supports_wither_rose（4项）"
+    ],
+    "suppresses_bounce": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "实体与这些方块碰撞后会减小弹性。",
+      "#suppresses_bounce[即将到来]（1项）"
+    ],
+    "sword_efficient": [
+      "可被剑更快地破坏的方块。",
+      "对蜘蛛网、竹子和竹笋的急迫不受此标签影响。",
+      "#sword_efficient（12项）"
+    ],
+    "sword_instantly_mines": [
+      "可被剑瞬间破坏的方块。",
+      "#sword_instantly_mines（2项）"
+    ],
+    "terracotta": [
+      "#terracotta（17项）"
+    ],
+    "trail_ruins_replaceable": [
+      "可疑的沙砾可以替换古迹废墟中的这些方块生成。",
+      "#trail_ruins_replaceable（1项）"
+    ],
+    "trapdoors": [
+      "当寻路时，生物把这个标签中的所有方块都视为活板门。",
+      "#trapdoors（10项）"
+    ],
+    "triggers_ambient_desert_dry_vegetation_block_sounds": [
+      "指定哪些方块可以触发沙漠环境音效。",
+      "#triggers_ambient_desert_dry_vegetation_block_sounds（3项）"
+    ],
+    "triggers_ambient_dried_ghast_block_sounds": [
+      "在沙子和红沙的环境音效判定中有效的方块。",
+      "#triggers_ambient_dried_ghast_block_sounds（2项）"
+    ],
+    "triggers_ambient_desert_sand_block_sounds": [
+      "在失水恶魂的环境音效判定中有效的方块。",
+      "#triggers_ambient_desert_sand_block_sounds（2项）"
+    ],
+    "underwater_bonemeals": [
+      "当在暖洋生物群系中在水下使用骨粉时，该标签中的方块将取代水源方块（在5个水平块和2个垂直块内）。",
+      "如果该标记中的方块是自定义的，则该行为将应用于任何生物群系中的水源方块。这些方块在默认情况下不会含水。",
+      "#underwater_bonemeals（3项）"
+    ],
+    "unstable_bottom_center": [
+      "#unstable_bottom_center（1项）"
+    ],
+    "valid_spawn": [
+      "用于确定位置是否是玩家的有效出生位置。",
+      "#valid_spawn（2项）"
+    ],
+    "vibration_resonators": [
+      "可以产生共振的方块。",
+      "#vibration_resonators（1项）"
+    ],
+    "wall_corals": [
+      "用于生成珊瑚礁。",
+      "#wall_corals（5项）"
+    ],
+    "wall_hanging_signs": [
+      "用于#all_hanging_signs。",
+      "#wall_hanging_signs（12项）"
+    ],
+    "wall_post_override": [
+      "插在墙上，墙会出现柱子。",
+      "#wall_post_override（9项）"
+    ],
+    "wall_signs": [
+      "#wall_signs（12项）"
+    ],
+    "walls": [
+      "当寻路时，生物把这个标签中的方块视为栅栏。",
+      "栅栏门紧挨着这些方块时，方块状态in_wall的值为true。",
+      "#walls（32项）"
+    ],
+    "warped_stems": [
+      "#warped_stems（4项）"
+    ],
+    "wart_blocks": [
+      "疣猪兽不能生成在这些方块上。",
+      "#wart_blocks（2项）"
+    ],
+    "wither_immune": [
+      "用来确定哪些方块凋灵不能破坏。",
+      "#wither_immune（15项）"
+    ],
+    "wither_summon_base_blocks": [
+      "可以用来搭建凋灵的方块。",
+      "#wither_summon_base_blocks（2项）"
+    ],
+    "wolves_spawnable_on": [
+      "用于狼的生成判定。",
+      "#wolves_spawnable_on（5项）"
+    ],
+    "wooden_buttons": [
+      "用于#buttons。",
+      "#wooden_buttons（12项）"
+    ],
+    "wooden_doors": [
+      "用于标签#doors。 村民用它来检测门。",
+      "#wooden_doors（12项）"
+    ],
+    "wooden_fences": [
+      "#wooden_fences（12项）"
+    ],
+    "wooden_pressure_plates": [
+      "#wooden_pressure_plates（12项）"
+    ],
+    "wooden_slabs": [
+      "#wooden_slabs（12项）"
+    ],
+    "wooden_stairs": [
+      "#wooden_stairs（12项）"
+    ],
+    "wooden_shelves": [
+      "包含所有木质展示架。",
+      "#wooden_shelves（12项）"
+    ],
+    "wooden_trapdoors": [
+      "#wooden_trapdoors（12项）"
+    ],
+    "wool": [
+      "此标签的方块可以被使用剪刀以5倍的速度破坏，并增加剪刀的使用统计。",
+      "放在该标签的方块上的音符盒会发出吉他音效。",
+      "如果导致音符盒播放不同乐器音效的方块加入此标签，则这些方块会导致音符盒播放吉他。",
+      "用于#occludes_vibration_signals。",
+      "#wool（16项）"
+    ],
+    "wool_carpets": [
+      "#wool_carpets（16项）"
+    ],
+    "[需要更多信息]": [
+      "添加于：21w05a。移除于：21w10a。",
+      "#azalea_log_replaceable（6项）",
+      "添加于：18w43a。移除于：19w41a。",
+      "#dirt_like（5项）",
+      "添加于：22w42a。移除于：22w46a。",
+      "#stripped_logs（9项）",
+      "添加于：19w34a。移除于：24w45a。",
+      "#tall_flowers（5项）",
+      "添加于：18w07a。移除于：18w10c。",
+      "#water_hacked（4项）",
+      "添加于：18w07b。移除于：18w10c。",
+      "#waterlogged（5项）"
+    ],
+    "fire_aspect_lightable": [
+      "能被带火焰附加魔咒的物品攻击点燃的方块。",
+      "添加于：24w19a。移除于：Java版1.21-pre1。",
+      "#fire_aspect_lightable（3项）"
+    ],
+    "lush_plants_replaceable": [
+      "被moss_replaceable替代。",
+      "添加于：21w05a。移除于：21w16a。",
+      "#lush_plants_replaceable（14项）"
+    ],
+    "non_flammable_wood": [
+      "在物品标签中仍存在与此同名的标签。",
+      "添加于：20w13a。移除于：22w44a。",
+      "#non_flammable_wood（34项）"
+    ],
+    "replaceable_plants": [
+      "被replaceable_by_trees替代。",
+      "添加于：Java版1.18-pre5。移除于：23w14a。",
+      "#replaceable_plants（12项）"
+    ],
+    "Java版": [
+      "1.13",
+      "17w49a",
+      "加入了方块标签：#planks和​#wool。",
+      "17w49b",
+      "加入了#buttons、​#carpets、​#doors、​#flower_pots、​#logs、​#saplings和​#stone_bricks。",
+      "17w50a",
+      "加入了#wooden_buttons和​#wooden_doors。",
+      "向#buttons中加入了石质按钮。",
+      "向#doors中加入了铁门。",
+      "18w01a",
+      "加入了#anvil。",
+      "18w02a",
+      "加入了#enderman_holdable。",
+      "18w06a",
+      "加入了#banners、​#wooden_pressure_plates、​#wooden_slabs和​#wooden_stairs。",
+      "18w07a",
+      "加入了#slabs、​#stairs和​#water_hacked。",
+      "加入了#acacia_logs、​#birch_logs、​#dark_oak_logs、​#jungle_logs和​#spruce_logs。",
+      "18w07b",
+      "加入了#waterlogged。",
+      "加入了#rails和​#sand。",
+      "18w09a",
+      "加入了#coral。",
+      "向#slabs、​#stairs和​#water_hacked中加入了箱子。",
+      "18w10a",
+      "加入了#coral_plants。",
+      "向#waterlogged中加入了珊瑚。",
+      "18w10c",
+      "移除了#water_hacked和​#waterlogged。",
+      "18w19a",
+      "加入了#leaves。",
+      "pre8",
+      "加入了#wall_corals和​#impermeable。",
+      "1.13.1",
+      "18w31a",
+      "加入了#underwater_bonemeals。",
+      "1.14",
+      "18w43a",
+      "加入了#bamboo_plantable_on、​#dirt_like、​#signs、​#small_flowers、​#standing_signs、​#wall_signs和​#walls。",
+      "修改了#enderman_holdable、​#flower_pots、​#slabs和​#stairs。",
+      "18w44a",
+      "加入了#beds。",
+      "1.15",
+      "19w34a",
+      "加入了#bee_growables、​#beehives、​#crops、​#flowers和​#tall_flowers。",
+      "19w41a",
+      "移除了#dirt_like。",
+      "19w44a",
+      "加入了#shulker_boxes。",
+      "pre2",
+      "加入了#portals。",
+      "1.16",
+      "20w06a",
+      "加入了#crimson_stems、​#fire、​#nylium、​#warped_stems和​#wart_blocks。",
+      "向#planks、​#standing_signs、​#wall_signs、​#wooden_buttons、​#wooden_doors、​#wooden_fences、​#wooden_pressure_plates、​#wooden_slabs、​#wooden_stairs和​#wooden_trapdoors中加入了诡异木和绯红木。",
+      "#slabs现在使用对应的#wooden_slabs标签。",
+      "20w07a",
+      "加入了#beacon_base_blocks、​#wall_post_override和​#wither_summon_base_blocks。",
+      "向#enderman_holdable中加入了下界菌、菌索和菌岩，并从中移除了下界岩。",
+      "20w09a",
+      "加入了#climbable。",
+      "向#flower_pots中加入了绯红菌盆栽、诡异菌盆栽、绯红菌索盆栽和诡异菌索盆栽。",
+      "20w10a",
+      "加入了#hoglin_repellents和​#piglin_repellents。",
+      "向#crimson_stems中加入了绯红菌核和去皮绯红菌核。",
+      "向#warped_stems中加入了诡异菌核和去皮诡异菌核。",
+      "20w11a",
+      "加入了#gold_ores和​#soul_speed_blocks。",
+      "向#climbable中加入了缠怨藤。",
+      "向#dragon_immune中加入了哭泣的黑曜石。",
+      "向#hoglin_repellents中加入了诡异菌盆栽。",
+      "20w12a",
+      "加入了#soul_fire_base_bolcks。",
+      "#gold_ores不再要求镐的品质了。",
+      "20w13a",
+      "加入了#logs_that_burn、​non_flammable_wood和​#strider_warm_blocks。",
+      "向#dragon_immune中加入了重生锚。",
+      "#logs被拆分为#logs_that_burn、​#crimson_stems和​#warped_stems。",
+      "20w14a",
+      "#hoglin_repellents里加入了下界传送门和重生锚。",
+      "20w15a",
+      "加入了#campfires、​#guarded_by_piglins和​#signs。",
+      "向#buttons中加入了磨制黑石按钮。",
+      "向#slabs、​#stairs和​#walls中加入了黑石、磨制黑石与磨制黑石砖的对应变种。",
+      "向#piglin_repellents中加入了灵魂营火。",
+      "从#wall_post_override中移除了了灯笼和灵魂灯笼。",
+      "20w17a",
+      "加入了#pressure_plates和​#stone_pressure_plates。",
+      "#wall_post_override现在包含#banners和​#pressure_plates。",
+      "20w19a",
+      "加入了#prevent_mob_spawning_inside。",
+      "20w21a",
+      "从#prevent_mob_spawning_inside中移除了凋灵玫瑰。",
+      "pre1",
+      "从#prevent_mob_spawning_inside中移除了甜浆果丛。",
+      "pre3",
+      "加入了#infiniburn_end、​infiniburn_nether和​#infiniburn_overworld。",
+      "#sand现在用于确定海龟蛋是否能在该方块上孵化。",
+      "1.16.2",
+      "20w27a",
+      "加入了#mushroom_grow_block。",
+      "20w28a",
+      "加入了#base_stone_nether和​#base_stone_overworld。",
+      "1.17",
+      "20w45a",
+      "加入了#candle_cakes、​#candles、​#cauldrons和​#crystal_sound_blocks。",
+      "20w46a",
+      "加入了#snow_sound_blocks。",
+      "#cauldrons里加入了装有细雪的炼药锅。",
+      "20w48a",
+      "#snow_step_sound_blocks被重命名为#inside_step_sound_block。",
+      "20w49a",
+      "加入了#dripstone_replaceable_blocks和​#occludes_vibration_signals。",
+      "21w05a",
+      "加入了#azalea_log_replaceable、​#cave_vines和​#lush_plants_replaceable。",
+      "#leaves里加入了杜鹃树叶和盛开的杜鹃树叶。",
+      "21w07a",
+      "#base_stone_overworld及里加入了阴沉石。",
+      "#slab、​#stairs和​#wall里加入了阴沉石的各类变种。",
+      "21w08a",
+      "加入了#deepslate_ore_replaceables、​#diamond_ores、​#iron_ores、​#lapis_ores、​#redstone_ores和​#stone_ore_replaceable。",
+      "#base_stone_overworld里加入了凝灰岩并将阴沉石更改为深板岩。",
+      "#gold_ores里加入了深层金矿石。",
+      "#slab、​#stairs和​#wall里加入了深板岩圆石的各类变种并将阴沉石的各类变种更改为深板岩。",
+      "21w10a",
+      "加入了#coal_ores、​#copper_ores、​#emerald_ores和​#lush_ground_replaceable。",
+      "#lush_plants_replaceable里移除了苔藓块、#flowers、草丛、高草丛、覆地苔藓、小型垂滴叶、大型垂滴叶、大型垂滴叶茎和藤蔓。",
+      "移除了#azalea_log_replaceable。",
+      "21w11a",
+      "#stone_ore_replaceables里移除了凝灰岩并将其加入#deepslate_ore_replaceables里。",
+      "#climbable里加入了洞穴藤蔓及其植物形式。",
+      "#impermeable里加入了遮光玻璃。",
+      "21w13a",
+      "加入了#dirt和​#snow。",
+      "更改了#bamboo_plantable_on和​#enderman_holdable，并将#dirt加入了该标签。",
+      "将切制铜台阶、楼梯及其非氧化变种分别加入#slabs和​#stairs。",
+      "#small_flowers里加入了杜鹃花丛和盛开的杜鹃花丛。",
+      "21w14a",
+      "#stairs和​#slabs里加入了切制铜台阶和楼梯的氧化变种。",
+      "21w16a",
+      "加入了#moss_replaceable。",
+      "移除了#lush_plants_replaceable。",
+      "#lush_ground_replaceable里加入了沙子和沙砾，并将其中的#lush_plants_replaceable标签替换为#moss_replaceable标签。",
+      "#dirt标签里加入了草方块、菌丝体、苔藓块。",
+      "从一些已经包含#dirt的标签中移除了重复出现的方块。",
+      "21w17a",
+      "加入了#small_dripleaf_placeable。",
+      "21w18a",
+      "#guarded_by_piglins里加入了粗金块。",
+      "21w19a",
+      "加入了#mineable/axe、​#mineable/hoe、​#mineable/pickaxe、​#mineable/shovel、​#needs_diamond_tool、​#needs_iron_tool和​#needs_stone_tool。",
+      "#bee_growables里加入了洞穴藤蔓。",
+      "#lush_ground_replaceables里移除了苔藓块。",
+      "#saplings里加入了杜鹃花丛和盛开的杜鹃花丛。",
+      "21w20a",
+      "加入了#features_cannot_replace。",
+      "#bee_growables里加入了洞穴藤蔓植株。",
+      "pre1",
+      "加入了#lava_pool_stone_replaceables和​#geode_invalid_blocks。",
+      "1.18",
+      "21w37a",
+      "将#lava_pool_stone_replaceables重命名为#lava_pool_stone_cannot_replace。",
+      "21w43a",
+      "加入了#big_dripleaf_placeable。",
+      "21w44a",
+      "加入了#animals_spawnable_on、​#axolotls_spawnable_on、​#foxes_spawnable_on、​#goats_spawnable_on、​#mooshrooms_spawnable_on、​#parrots_spawnable_on、​#polar_bears_spawnable_on_in_frozen_ocean、​#rabbits_spawnable_on和​#wolves_spawnable_on。",
+      "1.18.2",
+      "22w03a",
+      "加入了#fall_damage_resetting。",
+      "从#goats_spawnable_on里移除了细雪。",
+      "#azalea_root_replaceable里加入了雪块和细雪。",
+      "22w05a",
+      "从#dripstone_replaceable_blocks中移除了泥土。",
+      "22w07a",
+      "从#azalea_root_replaceable中移除了#lush_ground_replaceable，并加入了#base_stone_overworld、​#dirt、​#clay、​#gravel和​#sand。",
+      "1.19",
+      "exp1",
+      "加入了#ancient_city_replaceables、​#deepslate_blocks、​#sculk_replaceable、​#sculk_replaceable_worldgen和​#skip_occlude_vibration_when_above。",
+      "22w11a",
+      "在常规快照中加入了#sculk_replaceable和​#sculk_replaceable_world_gen。",
+      "加入了#convertable_to_mud、​#dragon_transparent、​#frog_prefer_jump_to和​#mangrove_logs。",
+      "向#enderman_holdable中加入了泥巴。",
+      "向#flowers中加入了红树胎生苗。",
+      "向#inside_step_sound_blocks中加入了幽匿脉络。",
+      "向#mineable/axe中加入了红树根。",
+      "向#mineable/hoe中加入了幽匿块、幽匿催发体、幽匿脉络和幽匿尖啸体。",
+      "向#mineable/pickaxe中加入了泥砖、泥砖楼梯、泥砖台阶和泥坯。",
+      "向#mineable/shovel中加入了沾泥的红树根和泥巴。",
+      "向#wither_immune中加入了光源方块。",
+      "向#logs_that_burn中分别加入了#mangrove_logs。",
+      "将红树类、泥砖类方块分别加入其所属组别的方块签内。",
+      "#polar_bears_spawnable_on_in_frozen_ocean重命名为#polar_bears_spawnable_on_alternate。",
+      "22w12a",
+      "向#mineable/hoe加入了红树树叶。",
+      "22w13a",
+      "在常规快照中加入了#ancient_city_replaceable。",
+      "加入了#ancient_city_center_replaceable。",
+      "将#carpets重命名为#wool_carpets。",
+      "向#dragon_immune、​#features_cannot_replace和​#wither_immune中加入了强化深板岩。",
+      "22w14a",
+      "加入了#dead_bush_may_place_on、#mangrove_logs_can_grow_through、#mangrove_roots_can_grow_through。",
+      "移除了#ancient_city_center_replaceable，其中全部内容合并至#ancient_city_replaceable中。",
+      "22w15a",
+      "加入了#completes_find_tree_tutorial、​#dampens_vibrations、​#nether_carver_replaceables和​#overworld_carver_replaceables。",
+      "向#dirt中加入了泥巴和沾泥的红树根。",
+      "向#mangrove_logs_can_grow_through中加入了覆地苔藓和藤蔓。",
+      "向#mangrove_roots_can_grow_through中加入了覆地苔藓、藤蔓、红树胎生苗和雪。",
+      "从#dead_bush_may_place_on和​#enderman_holdable中移除了泥巴。",
+      "22w16a",
+      "加入了#frogs_spawnable_on。",
+      "22w17a",
+      "加入了#overworld_natural_logs和​#snaps_goat_horn。",
+      "向#sculk_replaceable_world_gen中加入了磨制深板岩。",
+      "22w18a",
+      "加入了#snow_layer_can_survive_on和​#snow_layer_cannot_survive_on。",
+      "pre2",
+      "向#snaps_goat_horn中加入了copper_ore。",
+      "pre3",
+      "从#frogs_spawnable_on中移除了覆地苔藓。",
+      "1.19.3",
+      "22w42a",
+      "加入了#invalid_spawn_inside和​#stripped_logs。",
+      "1.19.3"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "22w42a",
+      "加入了#all_hanging_signs、​#ceiling_hanging_signs和​#wall_hanging_signs。",
+      "向#fence_gates中加入了竹栅栏。",
+      "向#mineable/axe中加入了#all_hanging_signs、竹马赛克和雕纹书架。",
+      "向#planks中加入了竹板。",
+      "向#standing_signs中加入了竹告示牌。",
+      "向#wall_signs中加入了墙上的竹告示牌。",
+      "向#wooden_buttons中加入了竹按钮。",
+      "向#wooden_doors中加入了竹门。",
+      "向#wooden_fences中加入了竹栅栏。",
+      "向#wooden_pressure_plates中加入了竹压力板。",
+      "向#wooden_slabs中加入了竹台阶和竹马赛克台阶。",
+      "向#wooden_stairs中加入了竹楼梯和竹马赛克楼梯。",
+      "向#wooden_trapdoors中加入了竹活板门。",
+      "22w44a",
+      "向#mineable/axe中加入了竹马赛克台阶和竹马赛克楼梯。",
+      "从#wooden_slabs中移除了竹马赛克台阶。",
+      "从#wooden_stairs中移除了竹马赛克楼梯。",
+      "1.19.3",
+      "22w44a",
+      "移除了#non_flammable_wood。",
+      "向#inside_step_sound_blocks中加入了绯红菌索、发光地衣、睡莲、覆地苔藓、下界苗、小型紫晶芽、诡异菌索和#wool_carpets。",
+      "1.19.3",
+      "1.20更新",
+      "22w45a",
+      "加入了#bamboo_blocks。",
+      "向#mineable/axe中加入了#bamboo_blocks。",
+      "1.19.3",
+      "22w46a",
+      "加入了#all_signs。",
+      "移除了#stripped_logs。",
+      "1.19.4",
+      "23w03a",
+      "向#goats_spawnable_on中加入了#animals_spawnable_on。",
+      "1.19.4",
+      "1.20更新",
+      "23w07a",
+      "加入了#cherry_logs和​#sniffer_diggable_block。",
+      "向#wooden_buttons中加入了樱花木按钮。",
+      "向#wooden_doors中加入了樱花木门。",
+      "向#fence_gates中加入了樱花木栅栏门。",
+      "向#wooden_fences中加入了樱花木栅栏。",
+      "向#ceiling_hanging_signs中加入了悬挂式樱花木告示牌。",
+      "向#leaves中加入了樱花树叶。",
+      "向#flowers和​#mineable/hoe中加入了樱花树叶和粉红色花簇。",
+      "向#overworld_natural_logs中加入了樱花原木。",
+      "向#logs_that_burn中加入了#cherry_logs。",
+      "向#planks中加入了樱花木板。",
+      "向#wooden_pressure_plates中加入了樱花木压力板。",
+      "向#saplings中加入了樱花树苗。",
+      "向#standing_signs中加入了樱花木告示牌。",
+      "向#wooden_slabs中加入了樱花木台阶。",
+      "向#wooden_stairs中加入了樱花木楼梯。",
+      "向#wooden_trapdoors中加入了樱花木活板门。",
+      "向#wall_hanging_signs中加入了墙上的悬挂式樱花木告示牌。",
+      "向#wall_signs中加入了墙上的樱花木告示牌。",
+      "向#inside_step_sound_blocks中加入了粉红色花簇。",
+      "向#sand中加入了可疑的沙子。",
+      "pre1",
+      "向#crops中加入了火把花植株。",
+      "向#small_flowers中加入了火把花。",
+      "1.19.4",
+      "pre1",
+      "加入了#smelts_to_glass。",
+      "pre3",
+      "将#flower_pots中的flower_pot改为potted_cherry_sapling。",
+      "1.20",
+      "23w12a",
+      "所有实验性标签不再属于实验性内容。",
+      "加入了#combination_step_sound_blocks、​#sniffer_egg_hatch_boost、​#trail_ruins_replaceable和​#vibration_resonators。",
+      "从#inside_step_sound_blocks中移除了覆地苔藓、雪、下界苗、诡异菌索、绯红菌索和#wool_carpets。",
+      "向#mineable/hoe中加入了校频幽匿感测体。",
+      "23w13a",
+      "向#crops中加入了瓶子草植株。",
+      "向#flower_pots中加入了火把花盆栽。",
+      "向#tall_flowers中加入了瓶子草。",
+      "23w14a",
+      "加入了#enchantment_power_provider、​#enchantment_power_transmitter、​#replaceable、​#replaceable_by_trees和​#sword_efficient。",
+      "移除了#replaceable_plants，并由#replaceable_by_trees替代。",
+      "向#mineable/shovel、​#bamboo_plantable_on和​#overworld_carver_replaceables加入了可疑的沙砾。",
+      "向#mineable/shovel中加入了可疑的沙子。",
+      "从#sculk_replaceable中移除了#sand，并加入了沙子和红沙。",
+      "23w16a",
+      "加入了#maintains_farmland和​#stone_buttons。",
+      "从#buttons中移除了石头按钮和磨制黑石按钮，并加入了新加入的#stone_buttons标签。",
+      "从#mineable/pickaxe中移除了石头按钮，并加入了新加入的#stone_buttons标签。",
+      "从#trail_ruins_replaceable中移除了沙子、泥土和砂土。",
+      "pre1",
+      "从#maintains_farmland中移除了南瓜和西瓜。",
+      "pre2",
+      "从#replaceable中移除了向日葵、丁香、玫瑰丛和牡丹。",
+      "pre7",
+      "向#slabs中加入了竹马赛克台阶。",
+      "向#stairs中加入了竹马赛克楼梯。",
+      "1.20.2",
+      "23w31a",
+      "加入了#camel_sand_step_sound_blocks和​#concrete_powder。",
+      "将所有种类的混凝土粉末从#mineable/shovel移至新加入的#concrete_powder中，并将#concrete_powder加入到#mineable/shovel中。",
+      "23w33a",
+      "向#flowers中加入了紫颂花和孢子花。",
+      "1.20.5",
+      "24w03a",
+      "加入了#armadillo_spawnable_on。",
+      "1.20.5",
+      "1.21更新",
+      "24w05a",
+      "向#features_cannot_replace加入了vault。",
+      "24w06a",
+      "加入了#blocks_wind_charge_explosions。",
+      "1.20.5",
+      "24w06a",
+      "加入了#badlands_terracotta。",
+      "将#armadillo_spawnable_on中的值#terracotta替换为#badlands_terracotta。",
+      "24w07a",
+      "加入了#does_not_block_hoppers。",
+      "24w10a",
+      "向#wolves_spawnable_on中加入了coarse_dirt和​podzol。",
+      "24w12a",
+      "加入了#incorrect_for_wooden_tool、​#incorrect_for_gold_tool、​#incorrect_for_stone_tool、​#incorrect_for_iron_tool、​#incorrect_for_diamond_tool和​#incorrect_for_netherite_tool。",
+      "1.21",
+      "24w19a",
+      "将blocks目录更改为block。",
+      "加入了#fire_aspect_lightable。",
+      "24w21a",
+      "加入了#air。",
+      "pre1",
+      "移除了：#fire_aspect_lightable。",
+      "pre2",
+      "加入了#mob_interactable_doors。",
+      "从#wooden_doors中移除了铜门及其变种。",
+      "1.21.2",
+      "24w36a",
+      "加入了#bats_spawnable_on。",
+      "1.21.2"
+    ],
+    "冬季小更新": [
+      "24w40a",
+      "加入了#pale_oak_logs。",
+      "pre2",
+      "向#combination_step_sound_blocks中加入了pale_moss_carpet。",
+      "#overworld_natural_logs现在包含pale_oak_log而不是#pale_oak_logs。",
+      "1.21.4",
+      "24w44a",
+      "#pale_oak_logs不再属于实验性内容。",
+      "24w45a",
+      "加入了#bee_attractive。",
+      "移除了#tall_flowers。",
+      "1.21.5",
+      "25w02a",
+      "加入了#replaceable_by_mushrooms和​#sword_instantly_mines。",
+      "25w04a",
+      "将test_block和test_instance_block均添加到#dragon_immune和#wither_immune中。",
+      "25w05a",
+      "加入了#plays_ambient_desert_block_sounds。",
+      "25w06a",
+      "加入了#edible_for_sheep。",
+      "将#dead_bush_may_place_on重命名为#dry_vegetation_may_place_on。",
+      "25w07a",
+      "加入了#camels_spawnable_on。",
+      "25w08a",
+      "向#edible_for_sheep中加入更多值。",
+      "25w09a",
+      "向#dry_vegetation_may_place_on、​#replaceable和​#wall_post_override中加入更多值。",
+      "1.21.6",
+      "25w15a",
+      "加入了#triggers_ambient_desert_sand_block_sounds。",
+      "将#plays_ambient_desert_block_sounds重命名为#triggers_ambient_desert_dry_vegetation_block_sounds。",
+      "1.21.9",
+      "25w31a",
+      "加入了#copper_chests、​#copper_golem_statues、​#copper、​#incorrect_for_copper_tool、​#lightning_rods和​#wooden_shelves。",
+      "25w32a",
+      "加入了#chains、​#lanterns和​#bars。",
+      "1.21.11",
+      "25w41a",
+      "加入了#can_glide_through。",
+      "25w42a",
+      "向#can_glide_through加入了#cave_vines。",
+      "26.1",
+      "snapshot-3",
+      "加入了#cannot_support_kelp、​#cannot_support_seagrass、​#cannot_support_snow_layer、​#enables_bubble_column_drag_down、​#enables_bubble_column_push_up、​#grows_crops、​#overrides_mushroom_light_requirement、​#support_override_cactus_flower、​#support_override_snow_layer、​#supports_azalea、​#supports_bamboo、​#supports_big_dripleaf、​#supports_cactus、​#supports_chorus_flower、​#supports_chorus_plant、​#supports_cocoa、​#supports_crimson_fungus、​#supports_crimson_roots、​#supports_crops、​#supports_dry_vegetation、​#supports_frogspawn、​#supports_hanging_mangrove_propagule、​#supports_lily_pad、​#supports_mangrove_propagule、​#supports_melon_stem、​#supports_nether_sprouts、​#supports_nether_wart、​#supports_pumpkin_stem、​#supports_small_dripleaf、​#supports_stem_crops、​#supports_sugar_cane、​#supports_sugar_cane_adjacently、​#supports_vegetation、​#supports_warped_fungus、​#supports_warped_roots和​#supports_wither_rose。",
+      "重命名以下标签：",
+      "snapshot-4",
+      "加入了#supports_melon_stem_fruit、​#supports_pumpkin_stem_fruit和​#supports_stem_fruit。",
+      "snapshot-6",
+      "加入了#cannot_replace_below_tree_trunk、​#ice_spike_replaceable、​#substrate_overworld、​#mud、​#huge_red_mushroom_can_place_on、​#beneath_bamboo_podzol_replaceable、​#huge_brown_mushroom_can_place_on、​#beneath_tree_podzol_replaceable、​#grass_blocks、​#forest_rock_can_place_on和​#moss_blocks。",
+      "拆分了#dirt，现在仅包含泥土、砂土和缠根泥土。",
+      "snapshot-11",
+      "加入了#prevents_nearby_leaf_decay。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了#concrete、​#glazed_terracotta、​#suppresses_bounce、​#shears_extreme_breaking_speed、​#shears_major_breaking_speed和​#shears_minor_breaking_speed。",
+      "将#concrete_powder重命名为#concrete_powders。",
+      "snapshot-3",
+      "加入了#speleothems和​#sulfur_spike_replaceable_blocks。",
+      "将#mineable/pickaxe和​#happy_ghast_avoids中的滴水石锥替换为#speleothems。"
+    ]
+  }
+}

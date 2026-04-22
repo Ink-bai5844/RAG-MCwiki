@@ -1,0 +1,25 @@
+{
+  "title": "Dungeons:屏蔽护盾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%B1%8F%E8%94%BD%E6%8A%A4%E7%9B%BE",
+  "structured_content": {
+    "Shielding": [
+      "增加你和附近队友的伤害抗性提升。"
+    ],
+    "——游戏内描述": [
+      "屏蔽护盾（Shielding）是Minecraft Dungeons中的魔咒。可以减少你和你周围的队友受到的伤害。",
+      "此魔咒未在游戏中实装，但由于资源文件齐全，通过修改游戏可以给物品强行附上此魔咒并生效。"
+    ],
+    "I": [
+      "减免5%伤害",
+      "1附魔点数"
+    ],
+    "II": [
+      "减免10%伤害",
+      "2附魔点数"
+    ],
+    "III": [
+      "减免14%伤害",
+      "3附魔点数"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "非常滑",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9D%9E%E5%B8%B8%E6%BB%91",
+  "text": "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n非常滑\n[[|]][[|]]\n颜色\n#C6B881\n类型\n正面\n即时生效\n否\n免疫的生物\n末影龙\n凋灵\n状态效果ID\npotato_oil\n非常滑（It's very slippery）是一种状态效果。\n效果\n非常滑没有任何作用效果，似乎仅作为描述性文本出现在马铃薯油和毒马铃薯油的提示框中，表示它们“非常滑”。\n来源\n效果等级\n时长\n备注\n马铃薯油\nI\n1游戏刻（0.05秒）\n毒马铃薯油\nI\n1游戏刻（0.05秒）\n油滑之箭\nI\n1游戏刻（0.05秒）\n致命油滑之箭\nI\n1游戏刻（0.05秒）\n谜之炖菜\nI\n1游戏刻（0.05秒） - 3秒（60游戏刻）\n使用毒马铃薯合成，有概率带有此效果\n数据值\nID\n名称\n命名空间ID\n本地化键名\nIt's very slippery\npotato_oil\neffect.minecraft.potato_oil\n导航"
+}

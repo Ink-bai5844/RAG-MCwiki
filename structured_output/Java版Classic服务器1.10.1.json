@@ -1,0 +1,34 @@
+{
+  "title": "Java版Classic服务器1.10.1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.10.1",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "1.10.1"
+    ],
+    "客户端版本": [
+      "0.30"
+    ],
+    "发布时间": [
+      "2009年11月10日"
+    ],
+    "协议版本": [
+      "7",
+      "其他版本的1.10.1"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.10",
+      "1.10.1是Classic服务器的一次更新，同时也是Classic服务器的最后一个版本，发布于2009年11月10日。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "成功修复了grow-trees。"
+    ],
+    "参考": [
+      "Wiki edit #3331 – 2009年12月11日",
+      "c1.10.1.zip README.TXT:",
+      "Version 1.10.1: + Fixed grow-trees again"
+    ]
+  }
+}

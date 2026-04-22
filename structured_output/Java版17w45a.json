@@ -1,0 +1,325 @@
+{
+  "title": "Java版17w45a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8817w45a",
+  "structured_content": {
+    "默认分类": [
+      "17w45a"
+    ],
+    "发布时间": [
+      "2017年11月8日"
+    ],
+    "快照归属": [
+      "1.13"
+    ],
+    "协议版本": [
+      "343"
+    ],
+    "数据版本": [
+      "1447"
+    ],
+    "资源包版本": [
+      "3",
+      "◄◄1.12.2",
+      "1.13.1►►",
+      "◄17w43b",
+      "17w45b►",
+      "17w45a是Java版1.13的第3个快照，发布于2017年11月8日，修复了一些漏洞。"
+    ],
+    "常规": [
+      "聊天中的命令界面，输入命令时出现。",
+      "命令的各种部分以不同颜色呈现。",
+      "无需运行命令就会以红色呈现错误。",
+      "目标选择器中的新nbt参数。",
+      "新的命令解析库名为Brigadier（准将）。",
+      "更快更高效的命令与函数系统。",
+      "大部分命令现在对大小写敏感。可能的话小写是最好的。",
+      "举例来说，这是不再被允许的：/scoreboard ObJeCtIvEs ... 。",
+      "命令方块的信号输出原本是其“成功统计”，现在是“结果”。"
+    ],
+    "马": [
+      "修改成风格更相似于其他生物的模型。"
+    ],
+    "/advancement": [
+      "移除了/advancement test的用法，以应对实体选择器的修改。"
+    ],
+    "/clear": [
+      "/clear的语法被修改了。",
+      "/clear [<目标>] [<物品>] [<数据>] [<数量>] [<nbt>]改为/clear [<目标>] [<物品>] [<数量>]。",
+      "详请参阅下方的物品参数段落。",
+      "[<数据>]被移除，为扁平化做铺垫，物品数据将不复存在而物品损害值将被整合入NBT。"
+    ],
+    "/clone": [
+      "/clone的语法被修改了。"
+    ],
+    "/defaultgamemode与/gamemode": [
+      "现在只接受字符串ID，缩写与数字不再接受。",
+      "/gamemode 2改为/gamemode adventure。",
+      "/defaultgamemode sp改为/defaultgamemode spectator。"
+    ],
+    "/difficulty": [
+      "/difficulty [<value>]现在只接受字符串ID，缩写与数字不再接受。",
+      "/difficulty 2会改为/difficulty normal。",
+      "/difficulty p会改为/difficulty peaceful。",
+      "现在可以用/difficulty不带其他参数查询难度。"
+    ],
+    "/effect": [
+      "/effect的语法被拆分，以避免歧义。",
+      "/effect <实体> <效果>会改为/effect give <实体> <效果>。",
+      "/effect <实体> clear会改为/effect clear <实体> [<效果>]。",
+      "给予效果时未引起变化则会输出失败。",
+      "有些生物免疫效果（例如末影龙）。",
+      "更强的现有效果排斥了要替代的较弱效果。"
+    ],
+    "/enchant": [
+      "已移除，并计划用/modifyitem替代。"
+    ],
+    "/execute": [
+      "/execute的语法被拆分。",
+      "修饰子命令会改变命令的执行方式：",
+      "/execute as <目标实体> <命令连锁>以<目标实体>执行命令（不改变执行位置）。",
+      "/execute at <目标实体> <命令连锁>以<目标实体>的位置来执行命令（不改变执行者）。",
+      "/execute offset <目标位置> <命令连锁>从<目标位置>的位置来执行命令。",
+      "/execute align <回归轴> <命令连锁>执行命令时会先把执行位置依照回归轴转换为方块位置（向下取整），<回归轴>的写法就是x、​y和​z的任意组合（例子：x、​xz、​zyx和​yz）。",
+      "使用示例：",
+      "当x=-1.8,y=2.3,z=5.9使用x将变为x=-2,y=2.3,z=5.9",
+      "当x=2.4,y=-1.1,z=3.8使用yxz将变为x=2,y=-2,z=3",
+      "条件子命令会避免在特定情况运行命令：",
+      "/execute (if|unless) block <指定位置> <指定方块> <命令连锁>如果<指定位置>和​<指定方块>匹配（不符）就执行命令。",
+      "/execute (if|unless) blocks <第一框选点> <第二框选点> <对照区域> (all|masked) <命令连锁>如果<第一框选点>和​<第二框选点>之间的区域与<对照区域>匹配（不符）就执行命令。",
+      "/execute (if|unless) entity <指定实体> <命令连锁> 如果<指定实体>至少存在一个（不存在）就执行命令。",
+      "/execute (if|unless) score <指定目标> <指定判据> ( < | <= | = | >= | > ) <对照目标> <对照判据> <命令连锁> 如果<指定目标>的分数与<对照目标>的分数符合（不符合）指定的不等号就执行命令。",
+      "作为/stats的替代，新的store子命令允许将命令结果储存于某处："
+    ],
+    "/execute store (result|success) score <目标名称> <目标判据> <命令连锁>": [
+      "result将会选择命令的结果来输出，用于取代过去的这些统计：AffectedBlocksAffectedEntitiesAffectedItemsQueryResult。",
+      "success将会记录这个命令到底执行的成功次数为何。虽然这数值通常会是0或1但是一旦命令被分开执行（像是as @a）则其成功数也就大于1了。这取代了SuccessCount。",
+      "回传值会被储存在<目标名称>的<目标判据>里。",
+      "目标判据必须存在，但相对于/stats，无需为<目标名称>设定起始值。",
+      "回传值会在整个命令被完整执行后回传。",
+      "如果命令没有成功（像success是0时），result也会被设为0。",
+      "可以将所有子命令串连在一起。",
+      "用法：将一个子命令直接连接到下一个子命令。",
+      "完成命令连锁之后，写上run来继续写下需要执行的原本命令。",
+      "无需为该命令起始添加/。",
+      "示例：/execute as somebody at somebody run say hi",
+      "旧命令转换式示例:",
+      "/execute @e ~ ~ ~ detect ~ ~ ~ stone 0 say Stone!现在为/execute as @e at @s if block ~ ~ ~ stone run say Stone!",
+      "/execute @e ~ ~ ~ detect ~ ~ ~ grass 0 summon pig现在为/execute at @e if block ~ ~ ~ grass run summon pig"
+    ],
+    "/experience": [
+      "/xp现在为/experience的简写。",
+      "拆分为3个不同的子命令。"
+    ],
+    "/experience add <玩家> <数量> [points|levels]": [
+      "为目标<玩家>添加<数量>点或级经验（默认为点）。",
+      "与以前一样，添加点数也能让玩家升级。",
+      "负值可接受，会减去经验值。",
+      "扣除经验值也能使玩家降级。"
+    ],
+    "/experience set <玩家> <数量> [points|levels]": [
+      "将目标<玩家>的经验设为<数量>点或级（默认为点）。",
+      "无法设定超出本级上限的经验数量。",
+      "等级变动时，经验点数会维持同样的比例。"
+    ],
+    "/experience query <玩家> (points|levels)": [
+      "返回目标<玩家>的经验点或级数。"
+    ],
+    "/fill": [
+      "/fill的语法被修改了。",
+      "/fill <x y z> <xt yt zt> <方块> <数据> replace [<replaceBlock>] [<replaceData>]会改为/fill <x y z> <xt yt zt> <方块> replace [<filter>]。",
+      "/fill <x y z> <xt yt zt> <方块> [<数据>] [destroy|hollow|keep|outline|replace] [<nbt>] 会改为 /fill <x y z> <xt yt zt> <方块> [destroy|hollow|keep|outline|replace]。"
+    ],
+    "/function": [
+      "/function不再接受[if|unless] <实体>变量。",
+      "这些功能已整合入/execute。",
+      "/function foo if @e会改为/execute if entity @e run function foo。"
+    ],
+    "/gamerule": [
+      "/gamerule不再接受未知（“自定义”）的规则名。",
+      "这些功能完全可以用函数或记分板替代。",
+      "现有自定义规则会无法被访问，只能接触内置的规则。",
+      "向/gamerule输入的参数现在检查类型（向需要整数的地方输入字符串显然错误）。"
+    ],
+    "/give": [
+      "/give的语法已修改。",
+      "/give <玩家> <物品> [<数量>] [<数据值>] [<nbt>]会改为/give <玩家> <物品> [<数量>]。",
+      "详请参阅下方的物品参数段落。",
+      "[<数据>]已被移除，为扁平化做铺垫，物品数据将不复存在而物品损害值将被整合入NBT。"
+    ],
+    "/kill": [
+      "<目标>现为必要项。"
+    ],
+    "/locate": [
+      "Y坐标现在返回64，而非?。",
+      "命令的result，由/execute store采用时会取与结构的绝对距离。"
+    ],
+    "/particle": [
+      "<额外参数>变量已移除，粒子的blockcrack等参数可以直接在<名称>后的新变量方块处指定。",
+      "例如，/particle blockcrack stone [variant=smooth_granite] ~ ~ ~ 0 0 0 0 1。"
+    ],
+    "/replaceitem": [
+      "/replaceitem的语法已修改。",
+      "/replaceitem block <x y z> <槽位> <物品> [<数量>] [<数据>] [<nbt>]会改为/replaceitem block <x y z> <槽位> <物品> [<数量>]。",
+      "/replaceitem entity <目标> <槽位> <物品> [<数量>] [<数据>] [<nbt>]会改为/replaceitem entity <目标> <槽位> <物品> [<数量>]。",
+      "详请参阅下方的物品参数段落。",
+      "[<数据>]已被移除，为扁平化做铺垫，物品数据将不复存在而物品损害值将被整合入NBT。",
+      "槽位变量不再需要slot.前缀。",
+      "例如，slot.hotbar.1会改为hotbar.1。"
+    ],
+    "/scoreboard": [
+      "/scoreboard中带有的[<NBT标签>]将被移除，以对应实体选择器中的nbt。",
+      "/scoreboard players tag与/scoreboard teams已移除。分别被/tag与/team替代。",
+      "/scoreboard players test已移除，以对应/execute (if|unless) score、实体选择器以及/scoreboard players get <target> <objective>。"
+    ],
+    "/setblock": [
+      "/setblock的语法已修改。",
+      "/setblock <x y z> <方块> [<数据>] [<模式>] [<nbt>]会改为/setblock <x y z> <方块> [<模式>]。",
+      "详请参阅下方的物品参数段落。"
+    ],
+    "/stats": [
+      "已移除，整合入/execute。",
+      "新的/execute并非直接替换，其行为有变动：",
+      "现在分命令统计，而不分实体或方块。",
+      "只有result与success，覆盖全部旧的统计项类型。"
+    ],
+    "/stopsound": [
+      "*可以作为source来停止特定名称的所有声音，无论来源。"
+    ],
+    "/tag": [
+      "替代/scoreboard players tag。",
+      "语法保持不变。",
+      "/tag <玩家> add <标签>为<玩家>添加<标签>。",
+      "/tag <玩家> remove <标签>从<玩家>移除<标签>。",
+      "/tag <玩家> list列出<玩家>的全部标签。"
+    ],
+    "/team": [
+      "替代/scoreboard teams。",
+      "语法保持不变。"
+    ],
+    "/testfor、/testforblock与/testforblocks": [
+      "已移除，整合入/execute。"
+    ],
+    "/toggledownfall": [
+      "已移除，整合入/weather。"
+    ],
+    "/tp与/teleport": [
+      "/tp现在是/teleport的缩写（类似/w、/msg和/tell）。",
+      "坐标现在为相对于执行者的值，类同其他命令。",
+      "/tp的语法保留，但行为改为/teleport的。"
+    ],
+    "/trigger": [
+      "新语法/trigger <目标>，是/trigger <目标> add 1的缩写。"
+    ],
+    "/weather": [
+      "若未指定时间，则默认为5分钟（本为随机值）。"
+    ],
+    "目标选择器": [
+      "引入更多错误处理机制。",
+      "诸如limit=0、level=-10、gamemode=purple等不再允许。",
+      "支持范围指定，取代min或max的单独值。",
+      "level=10为10级。",
+      "level=10..12为10、11或12级。",
+      "level=5..为5级或其以上。",
+      "level=..15为15级或其以下。",
+      "晦涩的简写会被展开。"
+    ],
+    "m改为gamemode": [
+      "l及lm改为level。",
+      "r及rm改为distance。",
+      "rx及rxm改为x_rotation。",
+      "ry及rym改为y_rotation。",
+      "c改为limit。",
+      "x、y、z、distance、x_rotation、y_rotation现在为双精度浮点，支持类似12.34的值。",
+      "x与z不再向方块中心修正。",
+      "这意味着x=0与x=0.5不再等价。",
+      "gamemode（前称m）不再接受缩写或数字。",
+      "limit（前称c）不再接受负值。",
+      "改为sort=furthest。",
+      "name变量支持空格（需要用引号括起）。",
+      "目标选择器内同一变量指定多个值现在可能。",
+      "tag=foo,tag=bar,tag=!baz会选择有foo、bar而没有baz标签的东西。",
+      "type=!cow,type=!chicken会选择既不是牛也不是鸡的东西。",
+      "type=cow,type=chicken不接受，因为没有既是牛又是鸡的东西。",
+      "现在可以指定顺序。",
+      "sort=nearest是原先的默认值，按照距离从小到大（@p的默认）。",
+      "sort=furthest与上述相反（本需用c=-5实现）。",
+      "sort=random为乱序排列（@r的默认）。",
+      "sort=arbitrary为新选项，不对结果进行排序（@e、@a的默认）。",
+      "指定分数现在形如scores={foo=1,bar=1..5}。",
+      "检测进度为advancements={foo=true,bar=false,custom:something={criterion=true}}。",
+      "true代表“他们已完成那成就”，false为“他们尚未完成那成就”。",
+      "或者检测特定准则（true、false类同上述）。"
+    ],
+    "方块": [
+      "在<方块>，曾都出现[<数据>]以及[<nbt>]作可选项，现改为单个<方块>变量，即："
+    ],
+    "stone；": [
+      "minecraft:redstone_wire[power=15,north=up,south=side]；",
+      "minecraft:jukebox{RecordItem:{...}}；",
+      "minecraft:furnace[facing=north]{BurnTime:200}。",
+      "方块名称为必要的，若命名空间未设定则取默认的minecraft:)。",
+      "状态写在方括号（[]）内，用逗号分隔属性与值必须对方块有效。可选项。",
+      "minecraft:stone[doesntexist=purpleberry]有语法错误，因为stone没有doesntexist。",
+      "minecraft:redstone_wire[power=tuesday]有语法错误，因为redstone_wire的power是0-15间的数。",
+      "NBT标签写在花括号（{}）内，与普通用法无区别。可选项。",
+      "在检测方块或“条件”时，仅检测指定的方块状态。",
+      "若欲测试redstone_wire[power=15]，仅测试power值而忽视其他状态，比如north。",
+      "在设定方块值时，仅设定指定的所有状态，其余皆根据方块情况保持默认。",
+      "若欲设定redstone_wire[power=15]，会将power设为15，而north会为默认值（此处为none）。",
+      "在1.13中不再有方块数据值。这些若非不同方块即是一种状态。",
+      "minecraft:stick{display:{Name:\"Stick of Untruths\"}}。",
+      "物品名称为必要的，若命名空间未设定则取默认的minecraft:。",
+      "NBT标签写在花括号（{}）内，与普通用法无区别。可选项。",
+      "任何其他信息若非另外的物品即是NBT中的一项属性。"
+    ],
+    "物品": [
+      "在<物品>出现的地方，曾都出现[<数据>]以及[<nbt>]作可选项，现改为单个<物品>变量，即："
+    ],
+    "修复": [
+      "修复了36个漏洞",
+      "1.13前正式版的漏洞",
+      "MC-32972 — /summon命令会接受本应被忽略的参数。",
+      "MC-59511 — 使用/tellraw命令时，当要显示的关键确定文本（Key determining text）缺失时，返回的错误信息不完整。",
+      "MC-69042 — /summon命令中坐标的语法应该不一样。",
+      "MC-80856 — 命令语法不一致。",
+      "MC-80893 — 当发送者（Sender）并不是离指定的x/y/z原点最近的实体时，发送者偏差（c=1）会被应用。",
+      "MC-80928 — 玩家骑乘骷髅马、僵尸马、驴和骡时，坐的位置过前。",
+      "MC-85394 — 生成speed大于100的“暴击”粒子时，游戏会发生严重卡顿。",
+      "MC-87365 — /scoreboard player tag命令的语法不正确。",
+      "MC-87559 — 游戏规则缺失受影响游戏规则的指示器。",
+      "MC-91459 — 在Y=256上时，/setblock命令执行返回的信息与其他在世界外使用此命令的信息不一致/执行高度高于256的/setblock命令，显示的错误信息是“最大建筑高度为256”。",
+      "MC-101113 — /playsound命令未正确验证参数。",
+      "MC-101135 — 使用数字过高的相对坐标时，产生了令人无法理解的错误信息。",
+      "MC-102682 — 马蹄铁和马腿分开。",
+      "MC-115957 — 进度、战利品表、资源包和世界文件夹不要求小写。",
+      "MC-116045 — /banlist命令会把所有非IP的参数当成玩家来处理。",
+      "MC-118308 — 在某些文本框中输入文字时，会切换复述功能。",
+      "MC-118565 — 只能选择到一个实体的含有四个负号的选择器会被解析为UUID，导致命令执行失败。",
+      "MC-119142 — 不能在一个选择器中使用多个标签。",
+      "MC-121281 — 不能使用鼠标操作创造模式物品栏和服务器菜单中的滚动条。",
+      "MC-128561 — CommandBase.commandListener保留了旧的服务器引用，阻止了垃圾回收。",
+      "1.13开发版本的漏洞",
+      "MC-121283 — 缺失水下迷雾和熔岩迷雾。",
+      "MC-121284 — 打开资源包文件夹和世界文件夹的按钮不能正常工作。",
+      "MC-121288 — 电影视角不能正常工作。",
+      "MC-121302 — “直接连接”按钮会在错误的时候被启用或被禁用。",
+      "MC-121314 — 视频设置中的全屏分辨率文本不适合按钮大小。",
+      "MC-121328 — GUI大小不正确。",
+      "MC-121329 — 按聊天键不再能选中创造模式物品栏或配方书中的搜索栏。",
+      "MC-121334 — 在创造模式物品栏搜索选项卡中使用1-9数字键时，会发送额外的按键事件到搜索栏中。",
+      "MC-121396 — WASD键的顺序很奇怪。",
+      "MC-121418 — 尝试粘贴含有非字符串的剪贴板内容时崩溃。",
+      "MC-121419 — 聊天栏中的点击和悬浮事件有偏移。",
+      "MC-121421 — 在创建世界界面中的名称或种子文本框内按↵ Enter键不能再直接创建世界。",
+      "MC-121456 — 从窗口模式切到全屏模式时，区块会消失。",
+      "MC-121468 — 统计信息不再能通过点击图标排序。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-121517 — 全屏键不能让游戏全屏。",
+      "MC-121587 — /reload命令的回显说它重载了战利品表、进度和函数，而不是仅说重载了数据包。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 17w45a — Minecraft.net，2017年11月8日。"
+    ]
+  }
+}

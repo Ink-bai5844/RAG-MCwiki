@@ -1,0 +1,5 @@
+{
+  "title": "关爱",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%85%B3%E7%88%B1",
+  "text": "此条目描述的是一个愚人节玩笑版本15w14a中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n关爱\n[[|]][[|]]\n颜色\n中毒：\n#4E9331\n缓慢：\n#5A6C81\n类型\n正面\n即时生效\n是\n免疫的生物\n末影龙\n凋灵\n状态效果ID\n中毒：poison\n缓慢：slowness\n关爱（Caring）是一种状态效果，该效果会替换状态效果中毒和缓慢的数据值。\n效果\n此效果会使受影响的生物改变其生物AI，主动靠近距其最近的其他生物。\n来源\n效果等级\n时长\n备注\n关爱药水\nI\n瞬间\n由剧毒药水改名\n关爱药水II\nII\n瞬间\n由剧毒药水II改名\n喷溅型 关爱药水\nI\n瞬间\n由喷溅型 剧毒药水改名\n喷溅型 关爱药水II\nII\n瞬间\n由喷溅型 剧毒药水II改名\n关爱药水\nI\n瞬间\n由迟缓药水改名\n喷溅型 关爱药水\nI\n瞬间\n由喷溅型 迟缓药水改名\n数据值\nID\n名称\n命名空间ID\n数字ID\n本地化键名\nCaring\npoison\n19\neffect.poison.name\nCaring\nslowness\n2\neffect.slowness.name\n导航"
+}

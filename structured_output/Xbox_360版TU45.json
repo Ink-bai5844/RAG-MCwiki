@@ -1,0 +1,28 @@
+{
+  "title": "Xbox 360版TU45",
+  "source_url": "https://zh.minecraft.wiki/w/Xbox_360%E7%89%88TU45",
+  "structured_content": {
+    "默认分类": [
+      "TU45"
+    ],
+    "版本": [
+      "Xbox 360版"
+    ],
+    "内部版本号": [
+      "1.8.1155.0"
+    ],
+    "发布时间": [
+      "2016年10月28日",
+      "◄TU44",
+      "TU46►",
+      "TU45是Xbox 360版的一次更新，发布于2016年10月28日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了在SD模式下打开箱子时的崩溃。"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。"
+    ]
+  }
+}

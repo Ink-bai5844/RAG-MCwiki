@@ -1,0 +1,16 @@
+{
+  "title": "潜影贝/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%BD%9C%E5%BD%B1%E8%B4%9D%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ],
+    "*": [
+      "*AttachFace：（0≤值≤5）潜影贝所附着方块的方向。从0到5分别对应下上北南西东，如果超过值域则对6取余并取绝对值后对应方向。",
+      "*Color：（0≤值≤16，默认为16）潜影贝的颜色。当值不小于0且不大于15时，颜色取对应染料序号的颜色；如果大于15则设置为16（默认颜色）；其他情况为0（白色）。",
+      "*Peek：潜影贝壳打开的高度，此值与0.01相乘可以得出潜影贝开壳的具体高度。没有开壳时为0，完全开壳时为100。"
+    ]
+  }
+}

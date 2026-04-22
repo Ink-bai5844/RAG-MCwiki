@@ -1,0 +1,40 @@
+{
+  "title": "命令/immutableworld",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fimmutableworld",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "此页面描述的是教育版相关特性。",
+      "该特性仅在教育版和开启了“Education Edition”选项的基岩版世界中可用。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "设置世界是否可发生变化。"
+    ],
+    "语法": [
+      "immutableworld [value: Boolean]"
+    ],
+    "参数": [
+      "value: Boolean：enum",
+      "设置该值以决定世界是否可以发生变化。",
+      "必须为 布尔值（true或false）。"
+    ],
+    "基岩版": [
+      "1.5.0",
+      "1.5.0.4",
+      "加入了/immutableworld。"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "教育版": [
+      "1.7",
+      "加入了/immutableworld。"
+    ]
+  }
+}

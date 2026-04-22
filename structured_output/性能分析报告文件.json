@@ -1,0 +1,278 @@
+{
+  "title": "性能分析报告文件",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A%E6%96%87%E4%BB%B6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "性能分析报告文件是由/perf命令或F3 + L生成的用于分析游戏性能的文件。"
+    ],
+    "文件结构": [
+      "性能分析报告文件可以由/perf（仅专用服务端下可用）生成，根据生成时的时间，保存在<服务端根目录>/debug/profiling/<时间>-<存档名称>-<游戏版本>.zip，其中时间格式为yyyy-MM-dd_HH.mm.ss。这种方式生成的性能分析报告文件只包含服务端数据。",
+      "性能分析报告文件也可以由游戏客户端使用F3 + L生成，根据生成时的时间，保存在<客户端根目录>/debug/profiling/<时间>-<存档名称>-<游戏版本>.zip，其中时间格式与上文相同。这种方式生成的性能分析报告文件会包含客户端数据，如果使用内置服务端（即单人游戏或作为局域网联机主机）则也包含服务端数据。",
+      "性能分析报告文件是一个ZIP文件，内部有很多文件记录了服务端各个性能指标。"
+    ],
+    "系统信息": [
+      "系统信息存储在性能分析报告文件内的system.txt内，记录了服务端所处的系统的系统信息。",
+      "文件格式与崩溃报告中的System Details节一致。"
+    ],
+    "服务端基础信息": [
+      "所有服务端的基础信息都保存在性能分析报告文件的server/*.txt，详细记录了当前服务端的设置信息和部分运行状态。",
+      "如果性能分析报告文件使用F3 + L生成，且当前客户端连接了一个远程的服务端，则不包含这些数据。"
+    ],
+    "类路径信息": [
+      "类路径信息保存在server/classpath.txt，每一行代表一个包含的类路径，即引用的外部JAR文件路径。",
+      "此项本质上读取了系统属性java.class.path，是JVM启动参数中的一部分。"
+    ],
+    "游戏规则信息": [
+      "游戏规则信息保存在server/gamerules.txt，保存了所有服务端内的游戏规则。此文件仅专用服务端导出性能分析报告文件时存在。",
+      "此文件每一行都是一项游戏规则和它对应的值，格式为<游戏规则>=<值>。"
+    ],
+    "本地模块信息": [
+      "本地模块信息保存在server/modules.txt，保存了服务端内使用的所有本地模块（动态链接库）。",
+      "此文件只有在Windows系统下内部才有数据，其他系统则为空。每一行都代表了一个模块，且格式为<模块路径>:<模块描述>:<模块版本>:<模块提供者>。",
+      "此数据本质上调用了Kernel32Util.getModules，文档见此。"
+    ],
+    "服务端配置信息（仅/perf）": [
+      "服务端配置信息保存在server/server.properties.txt，保存服务端部分配置信息。",
+      "下列服务端配置会被记录在此文件中，而其他配置将被忽略。每一行的格式是<服务端配置>=<值>："
+    ],
+    "服务端基础统计数据": [
+      "服务端基础统计数据保存在server/stats.txt，内部包含了4项数据：",
+      "pending_tasks：服务端主线程在保存性能分析报告文件时剩余未处理的任务数。",
+      "average_tick_time：服务端的每刻毫秒数（MSPT）。",
+      "tick_times：服务端在保存性能分析报告文件前100游戏刻的刻毫秒数数组。",
+      "queue：服务端背景并发线程池的信息。"
+    ],
+    "服务端线程信息": [
+      "服务端线程信息保存在server/threads.txt，是服务端保存性能分析报告时所有线程的状态信息。",
+      "此数据本质上调用了ThreadMXBean.dumpAllThreads，详细信息可见此方法文档和ThreadInfo类文档。"
+    ],
+    "客户端基础信息": [
+      "客户端基础信息仅在使用F3 + L生成的性能分析报告文件中存在。"
+    ],
+    "客户端选项数据": [
+      "客户端选项数据保存在client/options.txt，保存部分客户端选项信息。每一行的格式是<客户端选项>: <值>。"
+    ],
+    "性能转储数据": [
+      "性能转储数据存放在两个位置：",
+      "server/profiling.txt：服务端线程在整个性能分析时间范围内的性能转储数据。",
+      "client/profiling.txt：客户端线程在整个性能分析时间范围内的性能转储数据。",
+      "server/deviations/ticktime/<刻数>@<时间>.txt（时间格式为yyyy-MM-dd_HH.mm.ss.SSS）：在服务端线程内抽取本游戏刻毫秒数比前一游戏刻毫秒数增加大于200%的游戏刻，记录这个游戏刻的性能转储数据。",
+      "client/deviations/ticktime/<刻数>@<时间>.txt（时间格式与上文相同）：在客户端线程内抽取本游戏刻毫秒数比前一游戏刻毫秒数增加大于200%的游戏刻，记录这个游戏刻的性能转储数据。",
+      "性能转储数据分为三个部分："
+    ],
+    "基础信息部分": [
+      "基础信息部分以---- Minecraft Profiler Results ----开头，并包含下列信息：",
+      "第1行（文件第2行）为诙谐评论，游戏将从下列字符串中挑选一个写入文件：",
+      "I'd Rather Be Surfing。",
+      "Shiny numbers!。",
+      "Am I not running fast enough? :(。",
+      "I'm working as hard as I can!。",
+      "Will I ever be good enough for you? :(。",
+      "Speedy. Zoooooom!。",
+      "Hello world。",
+      "40% better than a crash report.。",
+      "Now with extra numbers。",
+      "Now with less numbers。",
+      "Now with the same numbers。",
+      "You should add flames to things, it makes them go faster!。",
+      "Do you feel the need for... optimization?。",
+      "*cracks redstone whip*。",
+      "Maybe if you treated it better then it'll have more motivation to work faster! Poor server.。",
+      "第3行（文件第4行）为Version，游戏版本。",
+      "第4行（文件第5行）为Time span，性能转储记录的现实持续时间。",
+      "第5行（文件第6行）为Tick span，性能转储记录的游戏刻数。",
+      "第6行（文件第7行）为记录了每秒刻数（TPS）信息，固定为下列字符串：",
+      "// This is approximately <TPS> ticks per second. It should be 20 ticks per second"
+    ],
+    "性能转储部分": [
+      "性能转储部分以--- BEGIN PROFILE DUMP ---开头，并以--- END PROFILE DUMP ---结束。",
+      "性能转储部分整体是一个树状结构，游戏使用缩进表明各个层级节点的归属关系。节点分为两种：计数器节点和时间区段节点。",
+      "计数器节点都不含有子节点，每个节点的格式如下："
+    ],
+    "[<indent>] ... #<name> <totalCount>/<avgCount>": [
+      "indent：此节点的缩进，即此节点距离根（Root）的深度减1。",
+      "name：此节点的名称。",
+      "totalCount：游戏在性能转储的整个过程中，此节点的计数器被访问了多少次。游戏会在执行相关代码的同时访问计数器增加计数，因此此数量可以代表相关代码的执行次数。",
+      "avgCount：游戏在性能转储的整个过程中，每游戏刻平均访问此节点计数器多少次。此数字向下取整。",
+      "时间区段节点都带有3个及以上的子节点，且格式如下："
+    ],
+    "[<indent>] ... <name>(<totalCount>/<avgCount>) - <percentage>%/<globalPercentage>%": [
+      "indent：此节点的缩进，即此节点距离根（Root）的深度减1。",
+      "name：此节点的名称。unspecified是特殊节点，代表“不在计数范围内的代码”，虽然不带有子节点，但仍然是时间区段节点。",
+      "totalCount：游戏在性能转储的整个过程中，此节点的计数器被访问了多少次。游戏会在执行相关代码的同时访问计数器增加计数，因此此数量可以代表相关代码的执行次数。",
+      "avgCount：游戏在性能转储的整个过程中，每游戏刻平均访问此节点计数器多少次。此数字四舍五入。",
+      "percentage：此节点消耗的时间对于上一级节点消耗时间的占比。",
+      "globalPercentage：此节点消耗的时间对于根节点消耗时间的占比。"
+    ],
+    "计数器转储部分": [
+      "计数器转储部分以--- BEGIN COUNTER DUMP ---开头，并以--- END COUNTER DUMP ---结束。",
+      "每个计数器都有自己的一个部分，以-- Counter: <名称> --开头。每个部分也都是一个树状结构，每个节点都有下列格式：",
+      "[<indent>] ... <name> total:<selfCount>/<allCount> average: <avgSelfCount>/<avgAllCount>",
+      "indent：此节点的缩进，即此节点距离根（Root）的深度。",
+      "name：此节点的名称。",
+      "selfCount：游戏在性能转储的整个过程中，在此节点内访问计数器的次数。",
+      "allCount：游戏在性能转储的整个过程中，在此节点及其递归子节点内访问计数器的次数。",
+      "avgSelfCount：游戏在性能转储的整个过程中，每游戏刻在此节点内游戏访问计数器的平均次数。此数字向下取整。",
+      "avgAllCount：游戏在性能转储的整个过程中，每游戏刻在此节点及其递归子节点内游戏访问计数器的平均次数。此数字向下取整。"
+    ],
+    "运行性能数据": [
+      "运行性能数据存储在server/metrics/*.csv和client/metrics/*.csv（仅F3 + L）。",
+      "区块渲染数据（仅F3 + L）",
+      "区块渲染数据存储在client/metrics/chunk_rendering.csv。",
+      "文件共有4列：",
+      "@tick，表示当前刻数。",
+      "lastViewDistance，在对应游戏刻时的渲染距离。",
+      "renderedChunks，玩家可见且已经编译完成的可渲染子区块数量。",
+      "totalChunks，在渲染距离内的所有子区块数量。",
+      "区块编译数据（仅F3 + L）",
+      "区块渲染数据存储在client/metrics/chunk_rendering_dispatching.csv。",
+      "文件共有4列：",
+      "@tick，表示当前刻数。",
+      "toUpload，在对应游戏刻时的等待上传数据数量，与调试屏幕中pU一致。",
+      "freeBufferCount，空闲缓冲区数量，与调试屏幕中aB一致。",
+      "toBatchCount，待编译子区块数量，与调试屏幕中pC一致。"
+    ],
+    "CPU性能数据": [
+      "CPU性能数据存储在server/metrics/cpu.csv（使用/perf）或client/metrics/cpu.csv（使用F3 + L）。",
+      "如果设备上共有N个处理器，则此文件有N+1列。第一列为@tick，表示当前刻数；其余列均为cpu#<序号>，代表对应处理器的占用率。",
+      "此数据本质上调用了CentralProcessor.getProcessorCpuLoadTicks和CentralProcessor.getProcessorCpuLoadBetweenTicks，具体见此文档。"
+    ],
+    "事件循环数据": [
+      "事件循环数据存储在server/metrics/event-loops.csv（使用/perf）或client/metrics/event-loops.csv（使用F3 + L）。",
+      "事件循环本身依赖于一个线程，其他部分代码可以将任务提交到事件循环内，并由事件循环在之后执行。",
+      "服务端有下列事件循环：",
+      "服务端主线程内有一个事件循环，每游戏刻执行待处理的任务。名称为Server。",
+      "各个维度区块源内都有一个事件循环，用于将任务提交到服务端主线程。名称为Chunk source main thread executor for <维度命名空间ID>。",
+      "客户端有下列事件循环：",
+      "客户端主线程内有一个事件循环，每游戏刻执行待处理的任务。名称为Client。",
+      "声音系统线程内有一个事件循环，用于处理各种声音事件请求。名称为Sound executor。",
+      "如果程序内共有N个事件循环，则此文件有N+1列。第一列为@tick，表示当前刻数；其余列均为<事件循环名称>-pending-tasks，代表各个事件循环内待处理的任务数。",
+      "GPU性能数据（仅F3 + L）",
+      "GPU性能数据存储在client/metrics/gpu.csv。此文件要求OpenGL上下文必须支持ARB_timer_query扩展，否则此文件不会出现在性能报告文件中。 文件共含有两列：",
+      "@tick，表示当前刻数。",
+      "gpuUtilization，GPU占用率，与调试屏幕中GPU一致。"
+    ],
+    "内存数据": [
+      "内存数据存储在server/metrics/jvm.csv（使用/perf）或client/metrics/jvm.csv（使用F3 + L）。",
+      "文件共含有两列：",
+      "@tick，表示当前刻数。",
+      "heap MiB，堆内存数据，单位为MiB。"
+    ],
+    "并发任务数据": [
+      "并发任务数据存储在server/metrics/mailboxes.csv（使用/perf）或client/metrics/mailboxes.csv（使用F3 + L）。",
+      "游戏各处代码都需要用到异步执行的代码，而这些代码会提交到并发任务处理器中，再依次提交给对应的并发线程池执行。",
+      "服务端中总共有下列并发任务处理器：",
+      "entity-deserializer实体反序列化并发任务处理器，使用服务端主线程。",
+      "IOWorker-poiPOI文件同步并发任务处理器，使用IO并发线程池。",
+      "IOWorker-entities实体文件同步并发任务处理器，使用IO并发线程池。",
+      "IOWorker-chunk区域文件同步并发任务处理器，使用IO并发线程池。",
+      "light光照引擎并发任务处理器，使用背景并发线程池。",
+      "sorter区块加载排序并发任务处理器，使用背景并发线程池。",
+      "worldgen区块生成并发任务处理器，使用背景并发线程池。",
+      "客户端中总共有下列并发任务处理器：",
+      "download-queue下载队列并发任务处理器，使用下载并发线程池。",
+      "progressListener区块生成监听并发任务处理器，使用渲染主线程。",
+      "Section Renderer子区块渲染编译并发任务处理器，使用背景并发线程池。",
+      "telemetry-event-log遥测事件日志并发任务处理器，使用背景并发线程池。",
+      "如果程序内共有N个并发任务处理器，则此文件有N+1列。第一列为@tick，表示当前刻数；其余列均为<并发任务处理器名称>-queue-size，代表各个并发任务处理器内待处理的任务数。"
+    ],
+    "刻纳秒数数据": [
+      "刻纳秒数数据存储在server/metrics/ticking.csv和client/metrics/ticking.csv，分别代表了服务端和客户端的游戏刻信息。",
+      "文件包含2列：",
+      "@tick，表示当前刻数。",
+      "ticktime，代表执行这一游戏刻消耗了多少纳秒。"
+    ],
+    "维度数据": [
+      "维度数据都存储在server/levels/下，按照维度命名空间ID，各个维度的数据存储在server/levels/<命名空间>/<名称>/内。",
+      "如果性能分析报告文件使用F3 + L生成，且当前客户端连接了一个远程的服务端，则不包含这些数据。"
+    ],
+    "方块实体数据": [
+      "方块实体数据存储在<维度数据目录>/block_entities.csv，统计了当前维度已加载区块内可进行每刻持续计算的方块实体。",
+      "文件包含4列：",
+      "x，方块实体的X坐标。",
+      "y，方块实体的Y坐标。",
+      "z，方块实体的Z坐标。",
+      "type，方块实体的类型。"
+    ],
+    "区块数据": [
+      "区块数据存储在<维度数据目录>/chunks.csv，统计了当前维度所有区块的信息。",
+      "文件包含16列：",
+      "x，区块X坐标。",
+      "z，区块Z坐标。",
+      "level，区块的加载等级。",
+      "in_memory，区块数据是否在内存中。如果不在内存中，则代表区块已被卸载且已被保存，这些不在内存中的区块通常用于辅助世界生成，世界生成完毕后就被释放内存占用。加载等级小于35的区块一定在内存中。",
+      "status，区块状态，代表了区块的生成情况，达到full时区块才可以可见。此值与加载等级相关，区块状态最终至少达到指定加载等级要求的区块状态。",
+      "full_status，加载等级类型。此值也与加载等级相关。",
+      "accessible_ready，区块是否已经准备好被访问，即区块是否是一个世界区块，对玩家是否可以可见。此值共有5种可能值：",
+      "done：区块已经准备完毕，可以执行对应操作。",
+      "unloaded：区块不能执行对应的操作，通常是因为加载等级（加载等级类型）未达到要求。",
+      "not completed：区块正在准备对应的操作，但还未完全准备好。",
+      "failed <错误信息>：区块在准备对应的操作时发生了错误。",
+      "cancelled：区块准备对应的操作时被游戏取消。",
+      "ticking_ready，区块是否已经准备好计算方块实体和计划刻。在准备计算方块实体和计划刻前，游戏会对这个区块做最后的从原型区块转换为世界区块的计划刻计算。此值也有5种可能值，具体见上文。",
+      "entity_ticking_ready，区块是否已经准备好计算实体。此值也有5种可能值，具体见上文。",
+      "ticket，此区块位置上的加载标签。如果此处没有加载标签，则为no_ticket；如果有加载标签，则为Ticket[<加载标签类型> <加载标签等级> <加载标签位置/加载标签其他信息>] at <加载标签创建时间>。",
+      "spawning，区块是否距离任何一位非旁观模式玩家128格以内。此项是生成候选区块的其中一项判定条件。",
+      "block_entity_count，区块内的方块实体数量。",
+      "ticking_ticket，此区块位置上的计算标签。如果此处没有计算标签，则为no_ticket；如果有计算标签，则为Ticket[<计算标签类型> <计算标签等级> <计算标签位置/计算标签其他信息>] at <计算标签创建时间>。",
+      "ticking_level，区块的计算等级。",
+      "block_ticks，此区块内的还未执行的方块计划刻数量。",
+      "fluid_ticks，此区块内的还未执行的流体计划刻数量。"
+    ],
+    "实体信息": [
+      "实体信息存储在<维度数据目录>/entities.csv，统计了所有可见实体。",
+      "文件包含8列：",
+      "x，实体的X坐标。",
+      "y，实体的Y坐标。",
+      "z，实体的Z坐标。",
+      "uuid，实体的UUID。",
+      "type，实体的类型。",
+      "alive，实体是否存活。",
+      "display_name，实体的显示名称。",
+      "custom_name，实体的自定义名称，不存在时为[null]。"
+    ],
+    "实体子区块信息": [
+      "实体子区块信息存储在<维度数据目录>/entity_chunks.csv，统计了有实体的子区块。",
+      "文件包含6列：",
+      "x，子区块的X坐标。",
+      "y，子区块的Y坐标。",
+      "z，子区块的Z坐标。",
+      "visibility，子区块实体可见性。有三种可能值：TICKING（实体可以被计算）、TRACKED（实体可以被追踪）、HIDDEN（实体被隐藏而不可见）。",
+      "load_status，子区块实体加载状态。有三种可能值：FRESH（实体子区块还未被加载）、PENDING（实体子区块正在被加载）、LOADED（实体子区块加载完毕）。",
+      "entity_count，子区块内的实体数量。"
+    ],
+    "示例崩溃信息": [
+      "示例崩溃信息存储在<维度数据目录>/example_crash.txt。",
+      "示例崩溃信息内的错误固定是java.lang.Exception: dummy，描述固定为Level dump，最顶层栈帧永远为net.minecraft.server.level.ServerLevel.saveDebugReport(java.nio.file.Path)。"
+    ],
+    "维度统计信息": [
+      "维度统计信息存储在<维度数据目录>/stats.txt，记录了此维度内的基础信息。",
+      "维度统计信息共包含下列数据：",
+      "spawning_chunks：维度内的可生成区块数量。",
+      "spawn_count.ambient：维度内环境生成类别的实体数量。",
+      "spawn_count.axolotls：维度内美西螈生成类别的实体数量。",
+      "spawn_count.creature：维度内动物生成类别的实体数量。",
+      "spawn_count.monster：维度内怪物生成类别的实体数量。",
+      "spawn_count.underground_water_creature：维度内地下水生生成类别的实体数量。",
+      "spawn_count.water_ambient：维度内水下环境生成类别的实体数量。",
+      "spawn_count.water_creature：维度内水生生成类别的实体数量。",
+      "entities：维度内实体信息。各个数字分别表示：已知实体UUID数量、可见实体数量、实体子区块数量、准备/正在/已经加载的区块数量、可见区块数量、正在加载的区块数量、正在卸载的区块数量。",
+      "block_entity_tickers：维度已加载区块内可进行每刻持续计算的方块实体的数量。",
+      "block_ticks：维度内方块计划刻数量。",
+      "fluid_ticks：维度内流体计划刻数量。",
+      "distance_manager：区块加载等级管理器的状态。",
+      "pending_tasks：此维度内未完成的计划任务数量。"
+    ],
+    "Java版": [
+      "1.17",
+      "21w11a",
+      "加入了F3 + L。",
+      "pre1",
+      "加入了/perf。",
+      "1.19",
+      "22w11a",
+      "加入了GPU占用率数据。"
+    ]
+  }
+}

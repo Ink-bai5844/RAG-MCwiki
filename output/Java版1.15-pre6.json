@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.15-pre6",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.15-pre6",
+  "text": "1.15-pre6\n版本\nJava版\n类型\n预发布版\n发布时间\n2019年12月6日\n预发布版归属\n1.15\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\n571\n数据版本\n2223\n资源包版本\n5\n数据包版本\n5\n◄◄1.14.4\n1.15.1►►\n◄1.15-pre5\n1.15-pre7►\n1.15-pre6是Java版1.15的第6个预发布版，发布于2019年12月6日，略微修改了nonlatin_european字体，并修复了一些漏洞。\n更改\n对nonlatin_european字体进行了细微改动。\n修复\n修复了4个漏洞\n1.15前正式版的漏洞\nMC-130616 — 箭和三叉戟实体没有亮度。\n1.15开发版本的漏洞\nMC-163270 — 告示牌在其GUI中渲染过暗。\nMC-163979 — 实体（包括物品）即使没有陷入灵魂沙中，也会受其减速影响。\nMC-166756 — 平原村庄中树木的树冠过于粗大。\n参考\nMinecraft 1.15 Pre-Release 6 — Minecraft.net，2019年12月6日。\n导航"
+}

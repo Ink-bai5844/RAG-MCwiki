@@ -1,0 +1,27 @@
+{
+  "title": "命令/setspawn",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsetspawn",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "将当前位置设置为新玩家的默认出生点，与现有的/setworldspawn命令效果相同。"
+    ],
+    "结果": [
+      "永远执行成功。"
+    ],
+    "Java版Classic": [
+      "0.0.17a",
+      "加入了/setspawn命令。"
+    ],
+    "Java版Indev": [
+      "0.31",
+      "移除了所有命令。"
+    ]
+  }
+}

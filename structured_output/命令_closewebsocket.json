@@ -1,0 +1,21 @@
+{
+  "title": "命令/closewebsocket",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fclosewebsocket",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少历史",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "仅WebSocket服务器": [
+      "断开与WebSocket服务器的连接。"
+    ],
+    "结果": [
+      "永远执行成功。"
+    ]
+  }
+}

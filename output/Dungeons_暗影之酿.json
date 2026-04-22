@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:暗影之酿",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%9A%97%E5%BD%B1%E4%B9%8B%E9%85%BF",
+  "text": "暗影之酿\n类型\n消耗品\n隐身并提高下一近战攻击的伤害。\n——游戏内描述\n暗影之酿（Shadow Brew）是Minecraft Dungeons中的消耗品。\n获取\n暗影之酿可以在任意关卡中通过击败生物、打开箱子、触发惊喜礼物和抢夺魔咒，以及使用药水背袋法器来获得。\n用途\n饮用后会给予玩家隐身，并提高下一次近战攻击的伤害。同时会出现一个叫做暗影（Shadow Form）的增益效果。持续十秒钟的时间，直到玩家攻击敌人或者时间耗尽为止。\n暗影效果\n给予玩家隐身效果，会使敌人失去对玩家的敌对性，同时会使玩家角色本身，盔甲，和武器变成全透明的状态。所以事先卸下装备不会给玩家带来任何好处。\n暗影效果同时会提升下一次近战攻击的伤害。\n如果普通攻击为100点伤害，在暗影效果下则会造成800点伤害。 新的伤害值 = 基础伤害 100 + (基础伤害 100 * 7 = 700，来自暗影效果) = 800\n如果与力量药水进行配合，最终伤害值则为900。 新的伤害值 = 基础伤害 100 + (基础伤害 100 * 7 = 700，来自暗影效果) + (基础伤害 100, 来自力量效果) = 900\n音效\n描述\n文件\n掉落\nsfx_item_potionDrop\n拾取\nsfx_multi_potionPickUp\nStealth Visible\nsfx_backStabberStealthVisible\nStealth Visible\nsfx_item_backStabberStealthVisible\nStealth\nsfx_item_backStabberStealth\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了暗影之酿。\n你知道吗\n重复饮用暗影之酿不会带来任何属性叠加，只会重置暗影效果的时间。\n在游戏文件中，暗影之酿（Shadow Brew）被称为背刺之酿（Backstabber's Brew）。\n女巫也常会投掷与暗影之酿相似的药水。但不同的是，药水会造成类似毒雾魔咒的效果，并散发出紫色的毒雾。\n画廊\n游戏中的暗影之酿\n暗影效果的图片\n导航"
+}

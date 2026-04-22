@@ -1,0 +1,5 @@
+{
+  "title": "组合/取消组合",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BB%84%E5%90%88%2F%E5%8F%96%E6%B6%88%E7%BB%84%E5%90%88",
+  "text": "此条目描述的是一个愚人节玩笑版本26w14a中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n组合/取消组合\n[[|]]\n创造标签页（JE）\n无\n最大堆叠\n1\n可再生\n否\n物品ID\ngroup_action\n组合/取消组合（Group / Ungroup）是用于给活化方块分组的物品。\n获取\n组合/取消组合会自动出现在玩家的快捷栏中。\n组合/取消组合在玩家死亡后不会掉落。每次玩家重生时，玩家都会再次获取此物品。\n用途\n组合/取消组合无法被玩家丢弃。\n手持此物品时，按下使用键可以选择组合，如果同时按下了⇧ Shift则反向排序选择。默认值为无，共有下列可选的组合：\n组合\nID\n颜色\n无\nnone\n#C0C0C0FF\n红色\nred\n#FF0000FF\n蓝色\nblue\n#0000FFFF\n黄绿色\nlime\n#00FF00FF\n黄色\nyellow\n#FFFF00FF\n紫色\npurple\n#FF00FFFF\n水蓝色\naqua\n#00FFFFFF\n全部\nall\n#000000FF\n手持此物品对活化方块按下攻击键，即可高亮标记相应的颜色。对准已标记的活化方块按下攻击键或在None模式下按下攻击键即可取消标记。\n在“全部”组合下，所有被标记的活化方块都将高亮显示。\n数据值\nID\n名称\n命名空间ID\n本地化键名\nGroup / Ungroup\ngroup_action\nitem.minecraft.group_action\n注释\n如果从未切换过组合，则物品使用的颜色为\n#FFFFFFFF，但不影响实际的分组颜色。\n此时物品的颜色会按照红色、黄色、黄绿色、青色、蓝色和紫色轮换显示。\n导航"
+}

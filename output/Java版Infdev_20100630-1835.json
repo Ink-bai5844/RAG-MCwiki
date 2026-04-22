@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100630-1835",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100630-1835",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年6月30日\n下载\n客户端（.json）\nal_version\n1.139\n◄◄Infdev 20100625-1917\nAlpha v1.0.1►►\n◄Infdev 20100630-1340\nWiki上有本次更新的指南！\n见Java版指南/Alpha 1.0版本以查看Alpha 1.0版本的指南。\nWiki上有本次更新的指南！\n见Java版指南/Alpha 1.0版本以查看Alpha 1.0版本的指南。\nMinecraft Infdev的一个版本发布于2010年6月30日18:35（UTC）。\n更改\n常规\n渲染\n进行了小更改。\n出生点\n如果出生点的Y坐标小于等于0，则将其设为64。\n参考\nI fixed a few bugs in /game/, and the game is now playable offline（存档） — The Word of Notch，2010年6月30日。\n导航"
+}

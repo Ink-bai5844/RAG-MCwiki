@@ -1,0 +1,5 @@
+{
+  "title": "狼/DV3",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8B%BC%2FDV3",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n音效种类\n命名空间ID（仅JE）\n字符串ID（仅BE）\n愤怒\nangry\n大型犬\nbig\n普通\nclassic\n可爱\ncute\n不爽\ngrumpy\n小巴哥犬\npuglin\n悲伤\nsad\n在Java版中，游戏使用命名空间ID进行存档保存，且狼音效变种可由数据包添加，见狼音效变种定义格式。\n在基岩版中，游戏使用字符串ID进行存档保存。"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "属性/潜行速度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%BD%9C%E8%A1%8C%E9%80%9F%E5%BA%A6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0.3"
+    ],
+    "值域": [
+      "0 – 1"
+    ],
+    "sneaking_speed": [
+      "潜行速度（Sneaking Speed）是控制玩家潜行时移动速度的属性。"
+    ],
+    "行为": [
+      "主条目：潜行",
+      "当玩家进入潜行状态时，无论是主动潜行还是被动潜行，移动速度都会受到影响。设玩家正常行走速度为s，此属性计算值为r，则玩家潜行时的移动速度为rs。"
+    ],
+    "玩家": [
+      "0.3"
+    ],
+    "enchantment.swift_sneak/legs": [
+      "add_value (Op0)",
+      "等级×0.15"
+    ],
+    "Java版": [
+      "1.21",
+      "24w18a",
+      "加入了潜行速度属性，ID为player.sneaking_speed。",
+      "24w21a",
+      "迅捷潜行魔咒修饰符的ID现在是enchantment.swift_sneak/legs，此前为92437D00-C3A7-4F2E-8F6C-1F21585D5DD0。",
+      "1.21.2",
+      "24w33a",
+      "潜行速度属性的ID从player.sneaking_speed重命名为sneaking_speed。"
+    ]
+  }
+}

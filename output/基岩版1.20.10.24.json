@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.20.10.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.10.24",
+  "text": "1.20.10.24\n版本\n基岩版\n服务端版本\n1.20.10.24\n版本码\nAndroid：\n952001024（armeabi-v7a，33）\n962001024（x86，33）\n972001024（arm64-v8a，33）\n982001024（x86_64，33）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年6月21日\n测试版归属\n1.20.10\n下载\n服务端\nWindowsLinux\n协议版本\n594\n◄◄1.20.1\n1.20.12►►\n◄1.20.10.23\n1.20.10.25►\nbeta 1.20.10.24（ChromeOS/Android）、Preview 1.20.10.24（Xbox/Windows/iOS/iPadOS）是基岩版1.20.10的第4个测试版，发布于2023年6月21日，修复了一个漏洞。\n修复\n修复了压力板取消激活延时不一致的漏洞。（MCPE-171429）\n参考\nMinecraft Beta & Preview - 1.20.10.24 — Minecraft Feedback，2023年6月21日。\n导航"
+}

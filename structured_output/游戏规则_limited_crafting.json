@@ -1,0 +1,28 @@
+{
+  "title": "游戏规则/limited crafting",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Flimited_crafting",
+  "structured_content": {
+    "描述": [
+      "若启用，玩家只能使用已解锁的配方合成。"
+    ],
+    "doLimitedCrafting": [
+      "limited_crafting[仅Java版]或doLimitedCrafting[仅基岩版]是控制玩家能否只可合成已解锁的配方的游戏规则。"
+    ],
+    "行为": [
+      "当limited_crafting[仅Java版]或doLimitedCrafting[仅基岩版]为true时，玩家只能合成已解锁的配方。"
+    ],
+    "Java版": [
+      "1.12",
+      "17w13a",
+      "加入了游戏规则doLimitedCrafting。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则doLimitedCrafting重命名为limited_crafting。"
+    ],
+    "基岩版": [
+      "1.20.30",
+      "1.20.30.20",
+      "加入了游戏规则doLimitedCrafting。"
+    ]
+  }
+}

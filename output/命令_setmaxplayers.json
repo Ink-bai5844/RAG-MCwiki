@@ -1,0 +1,5 @@
+{
+  "title": "命令/setmaxplayers",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsetmaxplayers",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\nsetmaxplayers\n需要的权限等级\n3\n限制条件\n不在命令方块上执行\n启用作弊\n设置可加入多人游戏的玩家数量上限。\n语法\nsetmaxplayers <maxPlayers: int>\n参数\nmaxPlayers: int：int\n指定要设置的玩家数量上限值。若此值比当前在线玩家总数要小，或者比服务器容许的最大连接数要大，则此值会被修正至上述约束范围内。\n必须为32位整数。且最大值为40。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n示例\n设置可加入多人游戏的玩家数量上限为2：/setmaxplayers 2\n历史\n携带版\n1.1.0\n1.1.0.3\n加入了/setmaxplayers。\n基岩版\n1.17.40\n1.17.40.20\n将maxPlayers: int的最大值从30改为40。\n导航"
+}

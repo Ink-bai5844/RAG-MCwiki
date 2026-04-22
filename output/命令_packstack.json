@@ -1,0 +1,5 @@
+{
+  "title": "命令/packstack",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fpackstack",
+  "text": "本条目所述内容仅适用于基岩版。\npackstack\n需要的权限等级\n0\n限制条件\n无\n显示资源包、行为包和脚本模块数据。\n语法\npackstack <stackType: stackType> [verbose: verbose] [exclude-vanilla: exclude-vanilla]\n参数\nstackType: stackType：Enum\n指定包的类型，必须为client（资源包）或server（行为包和脚本模块）。\nverbose: verbose：Enum\n指定是否显示未启用的包和包的详细信息，必须为verbose。\nexclude-vanilla: exclude-vanilla：Enum\n指定是否排除原版包，必须为exclude-vanilla。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行成功\n若存在对应的包，则为其数量\n若不存在对应的包，则为1\n历史\n基岩版\n26.0\n26.0.23\n加入了/packstack命令。\n导航"
+}

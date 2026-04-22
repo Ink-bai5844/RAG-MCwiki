@@ -1,0 +1,97 @@
+{
+  "title": "魔咒提供器定义格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%AD%94%E5%92%92%E6%8F%90%E4%BE%9B%E5%99%A8%E5%AE%9A%E4%B9%89%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "魔咒提供器定义文件是魔咒提供器（Enchantment Provider）在数据包中的数据驱动定义文件。"
+    ],
+    "定义格式": [
+      "魔咒提供器在游戏内使用ENCHANTMENT_PROVIDER注册表，数据包路径为enchantment_provider，即所有魔咒提供器定义文件都需要在data/<命名空间>/enchantment_provider目录内定义。",
+      "魔咒提供器定义文件使用JSON格式，并具有下列结构："
+    ],
+    "JSON文件根对象": [
+      "*type：魔咒提供器类型。",
+      "如果type为by_cost，则根据附魔等级进行附魔。",
+      "*enchantments：这次附魔过程中可选的魔咒。可以为一个魔咒的命名空间ID或一个魔咒标签，或一个魔咒ID的数组。",
+      "*cost：这次附魔过程使用的附魔等级。",
+      "整数提供器，见Template:Nbt inherit/int provider/source",
+      "如果type为by_cost_with_difficulty，则根据难度计算附魔等级进行附魔。",
+      "*enchantments：这次附魔过程中可选的魔咒。可以为一个魔咒的命名空间ID或一个魔咒标签，或一个魔咒ID的数组。",
+      "*max_cost_span：（0≤值≤10000）由难度影响的附魔等级调节值。",
+      "*min_cost：（1≤值≤10000）最小附魔等级。设min_cost为n，当前副区域难度为d，max_cost_span为m，则最大附魔等级为n+md。",
+      "如果type为single，则直接添加指定魔咒，等级随机。",
+      "*enchantment：（命名空间ID）要添加的魔咒。",
+      "*level：魔咒的等级。",
+      "整数提供器，见Template:Nbt inherit/int provider/source"
+    ],
+    "定义行为": [
+      "魔咒提供器定义数据仅在服务端启动时被加载一次，使用/reload命令不可以使魔咒提供器定义被重新加载，而必须重启服务端。",
+      "魔咒提供器是游戏选取魔咒附加到物品上的一种方式。在某些游戏场合，游戏会使用魔咒提供器为物品附魔。",
+      "魔咒提供器的调用是硬编码的，游戏只会使用下列内置魔咒提供器，由数据包定义的其他魔咒提供器没有任何用处："
+    ],
+    "掠夺者生成时主手槽位内的弩": [
+      "raid/pillager_post_wave_3",
+      "在袭击波次3和4的掠夺者主手槽位内的弩",
+      "raid/pillager_post_wave_5",
+      "在袭击波次不小于5的掠夺者主手槽位内的弩"
+    ],
+    "raid/vindicator": [
+      "在袭击波次小于5的卫道士主手槽位内的铁斧",
+      "raid/vindicator_post_wave_5",
+      "在袭击波次不小于5的卫道士主手槽位内的铁斧",
+      "部分魔咒提供器并不总是生效，游戏会额外增加一层概率限制：",
+      "enderman_loot_drop：总是生效。",
+      "mob_spawn_equipment：作用于骷髅陷阱时总是生效，作用于自然生成的生物时概率生效。",
+      "pillager_spawn_crossbow：概率生效。",
+      "raids/*：概率生效，与袭击之兆等级相关。"
+    ],
+    "Java版": [
+      "1.21",
+      "24w18a",
+      "加入了魔咒提供器及魔咒提供器定义格式。",
+      "26.1"
+    ],
+    "村民交易的平衡性调整": [
+      "snapshot-1",
+      "移除了所有属于“村民交易的平衡性调整”实验性内容的魔咒提供器，先前它们的ID格式遵守trades/<生物群系>_<职业>_<装备>_<等级>，用于为盔甲匠的出售的盔甲附魔。",
+      "可用的魔咒提供器：",
+      "minecraft:trades/desert_armorer_boots_4",
+      "minecraft:trades/desert_armorer_chestplate_4",
+      "minecraft:trades/desert_armorer_chestplate_5",
+      "minecraft:trades/desert_armorer_helmet_4",
+      "minecraft:trades/desert_armorer_leggings_4",
+      "minecraft:trades/desert_armorer_leggings_5",
+      "minecraft:trades/jungle_armorer_boots_4",
+      "minecraft:trades/jungle_armorer_boots_5",
+      "minecraft:trades/jungle_armorer_chestplate_4",
+      "minecraft:trades/jungle_armorer_helmet_4",
+      "minecraft:trades/jungle_armorer_helmet_5",
+      "minecraft:trades/jungle_armorer_leggings_4",
+      "minecraft:trades/plains_armorer_boots_4",
+      "minecraft:trades/plains_armorer_boots_5",
+      "minecraft:trades/plains_armorer_chestplate_4",
+      "minecraft:trades/plains_armorer_helmet_4",
+      "minecraft:trades/plains_armorer_leggings_4",
+      "minecraft:trades/plains_armorer_leggings_5",
+      "minecraft:trades/savanna_armorer_boots_4",
+      "minecraft:trades/savanna_armorer_chestplate_4",
+      "minecraft:trades/savanna_armorer_chestplate_5",
+      "minecraft:trades/savanna_armorer_helmet_4",
+      "minecraft:trades/savanna_armorer_helmet_5",
+      "minecraft:trades/savanna_armorer_leggings_4",
+      "minecraft:trades/snow_armorer_boots_4",
+      "minecraft:trades/snow_armorer_boots_5",
+      "minecraft:trades/snow_armorer_helmet_4",
+      "minecraft:trades/snow_armorer_helmet_5",
+      "minecraft:trades/swamp_armorer_boots_4",
+      "minecraft:trades/swamp_armorer_boots_5",
+      "minecraft:trades/swamp_armorer_chestplate_4",
+      "minecraft:trades/swamp_armorer_helmet_4",
+      "minecraft:trades/swamp_armorer_helmet_5",
+      "minecraft:trades/swamp_armorer_leggings_4",
+      "minecraft:trades/taiga_armorer_chestplate_5",
+      "minecraft:trades/taiga_armorer_leggings_5"
+    ]
+  }
+}

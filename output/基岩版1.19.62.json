@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.19.62",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.19.62",
+  "text": "1.19.62\n版本\n基岩版\n服务端版本\n1.19.62.01\n内部版本号\nAndroid：1.19.62.01\nPlayStation：2.57\nWindows：1.19.6201.0\n版本码\nAndroid：\n951906201（armeabi-v7a，31）\n961906201（x86，31）\n971906201（arm64-v8a，31）\n981906201（x86_64，31）\niOS/iPadOS：\n854965891\n发布时间\nFire, iOS/iPadOS, PlayStation, Windows, Xbox - 2023年2月16日\nAndroid - 2023年2月17日\nNintendo Switch - 2023年2月18日\n下载\n服务端\nWindowsLinux\n协议版本\n567\n◄◄1.19.0\n1.20.0►►\n◄1.19.60\n1.19.63►\n1.19.62是基岩版的一次热修复更新，发布于2023年2月16日至18日，修复了一些漏洞。此版本与1.19.60相兼容。\n修复\n修复了游戏过程中可能发生的崩溃。\n修复了Nintendo Switch上使用局域网模式登录后会出现的崩溃。\n修复了使用Realms中的模板创建世界时会出现的崩溃。\n修复了服务器中玩家无法将皮肤切换为默认皮肤的问题。\n修复了禁用自定义皮肤的专用服务器中“玩家已切换皮肤”消息会大量重复出现的问题。\n修复了使用游戏手柄切换到市场页面某些行中的下一个标签页时光标会返回页面顶部的问题。\n参考\nMinecraft - 1.19.62 (Bedrock) — Minecraft Feedback，2023年2月16日。\n导航"
+}

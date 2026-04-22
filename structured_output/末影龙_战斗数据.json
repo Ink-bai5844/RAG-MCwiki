@@ -1,0 +1,16 @@
+{
+  "title": "末影龙/战斗数据",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%BD%B1%E9%BE%99%2F%E6%88%98%E6%96%97%E6%95%B0%E6%8D%AE",
+  "structured_content": {
+    "默认分类": [
+      "Dragon：（UUID）当前末影龙的UUID。",
+      "DragonKilled：末影龙是否已经死亡。如果此项不存在游戏默认为false。",
+      "ExitPortalLocation：末影龙被击败后会飞往的地方，即返回传送门的位置。内部包含3个整数，分别代表XYZ坐标。",
+      "Gateways：包含即将生成的末地折跃门的位置。刚创建世界时为20个数字，末影龙每死亡一次此列表长度减1，直到为全部清空后此项不再保存。",
+      "：折跃门的角度，0为东方，数字按顺时针方向递增。",
+      "IsRespawning：末影龙是否正在重生。如果此项不存在游戏默认为false。",
+      "*NeedsStateScanning：此世界是否没有进入过末地。如果此项不存在游戏默认为true。",
+      "*PreviouslyKilled：末影龙是否被击败过，决定下次击败末影龙获得的经验值。如果此项不存在游戏默认为false。"
+    ]
+  }
+}

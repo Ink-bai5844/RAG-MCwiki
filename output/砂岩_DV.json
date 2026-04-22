@@ -1,0 +1,5 @@
+{
+  "title": "砂岩/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A0%82%E5%B2%A9%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n一个值范围0-3的2位二进制值，存储砂岩种类：\n0：砂岩\n1：雕纹砂岩\n2：切制砂岩\n3：平滑砂岩"
+}

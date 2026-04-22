@@ -1,0 +1,54 @@
+{
+  "title": "Dungeons:暗影行者",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%9A%97%E5%BD%B1%E8%A1%8C%E8%80%85",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含觉醒丛林的内容。"
+    ],
+    "存档ID": [
+      "OcelotArmor_Unique1",
+      "传说黑色豹猫既优雅又致命。当你穿上由它制成的兽衣时，你会觉得敌人远被你甩在身后只能追着你的阴影。"
+    ],
+    "——游戏内描述": [
+      "暗影行者（Shadow Walker）是Minecraft Dungeons的DLC觉醒丛林中的盔甲。它是豹猫护甲的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "树梢缠结": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "翻滚时无敌": [
+      "50% 翻滚速度提升",
+      "35% 伤害减免"
+    ],
+    "掉落": [
+      "DLC_sfx_item_ocelotArmorUnique1Drop"
+    ],
+    "拾取": [
+      "DLC_sfx_item_ocelotArmorUnique1PickUp"
+    ],
+    "装备": [
+      "DLC_sfx_item_ocelotArmorUnique1Place"
+    ],
+    "成就": [
+      "主条目：MCD:成就"
+    ],
+    "装备豹猫护甲，通关觉醒丛林DLC的任何一个关卡并不击杀豹猫": [
+      "10G"
+    ],
+    "使用觉醒丛林DLC独有的装备击杀哞菇巨兽": [
+      "只能使用下列物品：鞭子，藤蔓长鞭，豹猫护甲，暗影行者或腐化种子",
+      "30G"
+    ],
+    "Minecraft Dungeons": [
+      "1.1.1.0",
+      "添加纹理文件。",
+      "1.3.2.0",
+      "加入了暗影行者。"
+    ]
+  }
+}

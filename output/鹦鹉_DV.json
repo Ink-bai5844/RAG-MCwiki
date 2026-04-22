@@ -1,0 +1,5 @@
+{
+  "title": "鹦鹉/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%B9%A6%E9%B9%89%2FDV",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n种类\n字符串ID（仅JE）\n数字ID\n红色鹦鹉\nred_blue\n0\n蓝色鹦鹉\nblue\n1\n绿色鹦鹉\ngreen\n2\n青色鹦鹉\nyellow_blue\n3\n灰色鹦鹉\ngray\n4\n在Java版中，游戏使用数字ID进行存档保存，但允许在命令等场合使用字符串ID。\n在基岩版中，游戏使用数字ID进行存档保存。"
+}

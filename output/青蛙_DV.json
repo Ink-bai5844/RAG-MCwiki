@@ -1,0 +1,5 @@
+{
+  "title": "青蛙/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9D%92%E8%9B%99%2FDV",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n种类\n命名空间ID（仅JE）\n数字ID（仅BE）\n温带青蛙\ntemperate\n0\n寒带青蛙\ncold\n1\n热带青蛙\nwarm\n2\n在Java版中，游戏使用命名空间ID进行存档保存，且青蛙变种可由数据包添加，见青蛙变种定义格式。\n在基岩版中，游戏使用数字ID进行存档保存。"
+}

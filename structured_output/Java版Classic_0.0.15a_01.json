@@ -1,0 +1,29 @@
+{
+  "title": "Java版Classic 0.0.15a 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.15a_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.15a_01"
+    ],
+    "发布时间": [
+      "2009年6月4日"
+    ],
+    "未知": [
+      "◄◄0.0.15a",
+      "0.0.16a►►",
+      "0.0.15a_02►",
+      "0.0.15a_01[来源请求]是Java版的一次更新，发布于2009年6月4日。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了玩家消失的漏洞。"
+    ],
+    "参考": [
+      "IRC日志, #minecraft.20090604.log (2009年6月4日，UTC−6).",
+      "IRC日志：“[11:15] <@Notch> restart your clients to get no more vanishing players”（17:15 UTC）"
+    ]
+  }
+}

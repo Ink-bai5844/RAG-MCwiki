@@ -1,0 +1,328 @@
+{
+  "title": "Java版标签/实体类型",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E5%AE%9E%E4%BD%93%E7%B1%BB%E5%9E%8B",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "实体类型标签（Entity Type Tags）是实体类型的组合。"
+    ],
+    "使用": [
+      "实体类型标签可以被实体谓词和目标选择器等调用以测试实体类型。只要实体类型在此标签内，测试就会成功。实体类型标签也控制了一些与特定实体相关的游戏行为，参考以下每个标签的介绍。"
+    ],
+    "accepts_iron_golem_gift": [
+      "会将铁傀儡的赠礼戴到头上的实体。",
+      "#accepts_iron_golem_gift（1项）"
+    ],
+    "aquatic": [
+      "被视为水生生物的实体。",
+      "#aquatic（14项）"
+    ],
+    "arrows": [
+      "用于瞄准目标进度。",
+      "#arrows（2项）"
+    ],
+    "arthropod": [
+      "被视为节肢生物的实体。",
+      "#arthropod（5项）"
+    ],
+    "axolotl_always_hostiles": [
+      "美西螈总是对这些实体保持敌对。",
+      "#axolotl_always_hostiles（3项）"
+    ],
+    "axolotl_hunt_targets": [
+      "美西螈会在有冷却时间的情况下“猎杀”这些实体。",
+      "#axolotl_hunt_targets（7项）"
+    ],
+    "beehive_inhabitors": [
+      "这些实体可以进入蜂箱。",
+      "#beehive_inhabitors（1项）"
+    ],
+    "boat": [
+      "用于羊帆起航！进度。",
+      "#boat（10项）"
+    ],
+    "burn_in_daylight": [
+      "会在阳光下着火的实体。",
+      "#burn_in_daylight（10项）"
+    ],
+    "can_breathe_under_water": [
+      "拥有该标签的生物不会溺水。",
+      "#can_breathe_under_water（16项）"
+    ],
+    "can_equip_harness": [
+      "可装备挽具的实体。",
+      "#can_equip_harness（1项）"
+    ],
+    "can_equip_saddle": [
+      "可装备鞍的实体。",
+      "#can_equip_saddle（11项）"
+    ],
+    "can_float_while_ridden": [
+      "控制生物被骑乘时是否可在水上漂浮游泳而非下沉。",
+      "#can_float_while_ridden（6项）"
+    ],
+    "can_turn_in_boats": [
+      "拥有该标签的生物能在船中改变方向。",
+      "#can_turn_in_boats（1项）"
+    ],
+    "can_wear_horse_armor": [
+      "拥有该标签的生物会在其马类实体物品栏中显示马铠槽位。",
+      "#can_wear_horse_armor（2项）"
+    ],
+    "can_wear_nautilus_armor": [
+      "可装备鹦鹉螺铠的实体。",
+      "#can_wear_nautilus_armor（2项）"
+    ],
+    "candidate_for_iron_golem_gift": [
+      "会被铁傀儡赠予虞美人的实体。",
+      "#candidate_for_iron_golem_gift（2项）"
+    ],
+    "cannot_be_age_locked": [
+      "不可以被金蒲公英停止生长的可成长生物。",
+      "#cannot_be_age_locked（3项）"
+    ],
+    "cannot_be_pushed_onto_boats": [
+      "不会被推进船的实体。",
+      "#cannot_be_pushed_onto_boats（14项）"
+    ],
+    "deflects_projectiles": [
+      "拥有该标签的生物能反射弹射物。",
+      "#deflects_projectiles（1项）"
+    ],
+    "dismounts_underwater": [
+      "这些实体会在进入水中时强制其乘客离开。",
+      "#dismounts_underwater（13项）"
+    ],
+    "fall_damage_immune": [
+      "这些实体不会受到摔落伤害。",
+      "#fall_damage_immune（18项）"
+    ],
+    "followable_friendly_mobs": [
+      "会被小恶魂跟随的非幼年实体。",
+      "#followable_friendly_mobs（25项）"
+    ],
+    "freeze_hurts_extra_types": [
+      "拥有这个标签的实体在细雪中会受到额外伤害。",
+      "#freeze_hurts_extra_types（3项）"
+    ],
+    "freeze_immune_entity_types": [
+      "拥有这个标签的实体免疫冰冻伤害。",
+      "#freeze_immune_entity_types（4项）"
+    ],
+    "frog_food": [
+      "青蛙会捕食这些实体，只有是生物的实体才有效。",
+      "#frog_food（2项）"
+    ],
+    "ignores_poison_and_regen": [
+      "免疫中毒和生命恢复效果的实体。",
+      "#ignores_poison_and_regen（1项）"
+    ],
+    "illager": [
+      "被视为灾厄村民的实体。",
+      "#illager（4项）"
+    ],
+    "illager_friends": [
+      "被灾厄村民视为盟友的实体（不包括在其他队伍中的）。",
+      "#illager_friends（1项）"
+    ],
+    "immune_to_infested": [
+      "免疫寄生状态效果的实体。",
+      "#immune_to_infested（1项）"
+    ],
+    "immune_to_oozing": [
+      "免疫渗浆状态效果的实体。",
+      "#immune_to_oozing（1项）"
+    ],
+    "impact_projectiles": [
+      "用来决定哪些实体可以破坏紫颂花和饰纹陶罐。",
+      "实体可以从这个标签中移除，若添加其他实体，则只有标靶可以响应的实体才有效。",
+      "#impact_projectiles（11项）"
+    ],
+    "inverted_healing_and_harm": [
+      "瞬间治疗和瞬间伤害会对其产生相反效果的实体。",
+      "#inverted_healing_and_harm（1项）"
+    ],
+    "nautilus_hostiles": [
+      "未驯服的鹦鹉螺和僵尸鹦鹉螺默认敌对的实体。",
+      "#nautilus_hostiles（1项）"
+    ],
+    "no_anger_from_wind_charge": [
+      "不会被风弹激怒的实体。",
+      "#no_anger_from_wind_charge（9项）"
+    ],
+    "non_controlling_rider": [
+      "不能控制载具移动的实体。",
+      "#non_controlling_rider（3项）"
+    ],
+    "not_scary_for_pufferfish": [
+      "不会使河豚膨胀的实体。",
+      "#not_scary_for_pufferfish（14项）"
+    ],
+    "powder_snow_walkable_mobs": [
+      "拥有这个标签的实体可以在细雪顶部行走。",
+      "#powder_snow_walkable_mobs（4项）"
+    ],
+    "raiders": [
+      "决定敲钟时哪些实体获得发光效果。",
+      "此标签中的实体在骑乘劫掠兽时不会覆盖劫掠兽的AI。",
+      "用于自我放逐进度。",
+      "#raiders（6项）"
+    ],
+    "redirectable_projectile": [
+      "能被玩家攻击和弹射物击中且会随玩家视角或弹射物方向偏转的弹射物实体。",
+      "#redirectable_projectile（3项）"
+    ],
+    "sensitive_to_bane_of_arthropods": [
+      "节肢杀手魔咒会对其产生额外伤害的实体。",
+      "#sensitive_to_bane_of_arthropods（1项）"
+    ],
+    "sensitive_to_impaling": [
+      "穿刺魔咒会对其产生额外伤害的实体。",
+      "#sensitive_to_impaling（1项）"
+    ],
+    "sensitive_to_smite": [
+      "亡灵杀手魔咒会对其产生额外伤害的实体。",
+      "#sensitive_to_smite（1项）"
+    ],
+    "skeletons": [
+      "苦力怕在被这些实体杀死时掉落音乐唱片。",
+      "#skeletons（6项）"
+    ],
+    "undead": [
+      "拥有这个标签的实体属于亡灵生物。",
+      "#undead（4项）"
+    ],
+    "wither_friends": [
+      "不被凋灵视为目标，也不会对凋灵造成伤害的实体。",
+      "#wither_friends（1项）"
+    ],
+    "zombies": [
+      "拥有这个标签的实体属于僵尸类生物。",
+      "#zombies（9项）"
+    ],
+    "axolotl_tempted_hostiles": [
+      "已被#axolotl_always_hostiles标签取代。",
+      "添加于：20w51a。移除于：21w13a。",
+      "#axolotl_tempted_hostiles（2项）"
+    ],
+    "deflects_arrows": [
+      "已被#deflects_projectiles标签取代。",
+      "添加于：23w45a。移除于：24w03a。",
+      "#deflects_arrows（1项）"
+    ],
+    "deflects_tridents": [
+      "已被#deflects_projectiles标签取代。",
+      "添加于：23w45a。移除于：24w03a。",
+      "#deflects_tridents（1项）"
+    ],
+    "Java版": [
+      "1.14",
+      "18w43a",
+      "加入了实体类型标签：#skeletons。",
+      "1.15",
+      "19w36a",
+      "加入了#beehive_inhabitors。",
+      "19w45a",
+      "加入了#arrows。",
+      "1.16",
+      "20w09a",
+      "加入了#impact_projectiles。",
+      "1.17",
+      "20w45a",
+      "加入了#powder_snow_walkable_mobs。",
+      "20w51a",
+      "加入了#axolotl_always_hostiles和​#axolotl_tempted_hostiles。",
+      "21w03a",
+      "#axolotl_always_hostiles里加入了发光鱿鱼。",
+      "21w05a",
+      "#powder_snow_walkable_mobs里加入了狐狸。",
+      "21w13a",
+      "加入了#axolotl_hunt_targets、​#freeze_hurts_extra_types和​#freeze_immune_entity_types。",
+      "将#axolotl_tempted_hostiles替换为#axolotl_always_hostiles。",
+      "1.19",
+      "22w11a",
+      "向#axolotl_hunt_targets中加入了蝌蚪。",
+      "22w14a",
+      "加入了#frog_food。",
+      "1.19.4",
+      "pre1",
+      "加入了#fall_damage_immune。",
+      "pre2",
+      "加入了#dismounts_underwater。",
+      "1.20.2",
+      "23w31a",
+      "加入了#non_controlling_rider。",
+      "1.20.3",
+      "23w40a",
+      "加入了#can_breathe_under_water、​#undead和​#zombies。",
+      "向#skeletons中加入了骷髅马。",
+      "1.20.3"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "23w45a",
+      "加入了#deflects_arrows和#deflects_tridents。",
+      "1.20.5",
+      "24w03a",
+      "加入了#aquatic、​#arthropod、​#ignores_poison_and_regen、​#illager、​#illager_friends、​#inverted_healing_and_harm、​#not_scary_for_pufferfish、​#sensitive_to_bane_of_arthropods和​#sensitive_to_impaling和#wither_friends。",
+      "1.20.5",
+      "1.21更新",
+      "24w03a",
+      "#deflects_arrows和​#deflects_tridents合并为#deflects_projectiles。",
+      "24w04a",
+      "加入了#no_anger_from_wind_charge。",
+      "24w06a",
+      "向#impact_projectiles加入了breeze_wind_charge。",
+      "1.20.5",
+      "24w12a",
+      "加入了#sensitive_to_smite。",
+      "1.20.5",
+      "1.21更新",
+      "24w13a",
+      "加入了#immune_to_infested和​#immune_to_oozing。",
+      "pre1",
+      "加入了#punchable_projectiles。",
+      "pre3",
+      "移除了#punchable_projectiles，取而代之的是也表示可被弹射物偏转的弹射物#redirectable_projectile。",
+      "1.21",
+      "24w18a",
+      "将“1.21更新”实验性内容中的所有标签变更移入游戏中。",
+      "24w19a",
+      "将entity_types目录重命名为entity_type。",
+      "1.21.2",
+      "24w39a",
+      "加入了#boat。",
+      "1.21.5",
+      "25w04a",
+      "加入了#can_wear_horse_armor。",
+      "1.21.6",
+      "25w15a",
+      "加入了#can_equip_harness和​#followable_friendly_mobs。",
+      "1.21.9",
+      "25w33a",
+      "加入了#accepts_iron_golem_gift、​#candidate_for_iron_golem_gift和​#cannot_be_pushed_onto_boats。",
+      "25w34a",
+      "从#cannot_be_pushed_onto_boats中移除了guardian。",
+      "1.21.11",
+      "25w41a",
+      "加入了#can_wear_nautilus_armor、​#nautilus_hostiles和​#burn_in_daylight。",
+      "25w44a",
+      "加入了#can_float_while_ridden。",
+      "向#skeletons中加入了焦骸。",
+      "向#zombies中加入了僵尸鹦鹉螺、僵尸马和骆驼尸壳。",
+      "向#can_equip_saddle中加入了鹦鹉螺、僵尸鹦鹉螺、僵尸马和骆驼尸壳。",
+      "26.1",
+      "snapshot-5",
+      "加入了#cannot_be_age_locked。",
+      "snapshot-7",
+      "从#cannot_be_age_locked中移除了骆驼尸壳和疣猪兽。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "向#non_controlling_rider和​#not_scary_for_pufferfish中加入了硫方怪。",
+      "snapshot-3",
+      "向#cannot_be_pushed_onto_boats中加入了硫方怪。"
+    ]
+  }
+}

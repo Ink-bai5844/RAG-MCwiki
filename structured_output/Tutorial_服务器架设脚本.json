@@ -1,0 +1,115 @@
+{
+  "title": "Tutorial:服务器架设脚本",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9E%B6%E8%AE%BE%E8%84%9A%E6%9C%AC",
+  "structured_content": {
+    "警告": [
+      "因为这是Wiki的一个条目，可以在任何时间内被任何人编辑，因此建议你不要完全使用这个脚本，而是将其当作编写脚本的指导手册看待。",
+      "本教程所述内容仅适用于Java版。",
+      "这是一个GNU/Linux发行版的Minecraft服务端的启动和维护脚本示例。"
+    ],
+    "Systemd脚本": [
+      "此方法适用于支持Systemd的所有现代服务器。Systemd是一种“万金油”，用于各种需求。Ubuntu在15.04版引入了它。（此版本已停止支持，建议使用更高的LTS版本，但是以下内容能正常在此版本中的Systemd上工作。）"
+    ],
+    "安装": [
+      "连接到你的(v)root服务器，或者如果要在你的机器上运行服务器，打开一个终端。",
+      "使用su或sudo命令切换为root用户。要检查当前是否为root，运行id -u如果返回0，则是root。",
+      "接下来安装一些必需的包：apt install openjdk-8-jre-headless curl screen nano bash grep",
+      "如果不存在/opt目录，则创建它：mkdir /opt",
+      "现在你需要为此服务创建一个用户：adduser --system --shell /bin/bash --home /opt/minecraft --group minecraft",
+      "创建Systemd Unit文件：nano /etc/systemd/system/minecraft@.service，内容如下：",
+      "# Source: https://github.com/agowa338/MinecraftSystemdUnit/ # License: MIT [Unit] Description=Minecraft Server %i After=network.target [Service] WorkingDirectory=/opt/minecraft/%i PrivateUsers=true # Users Database is not available for within the unit, only root and minecraft is available, everybody else is nobody User=minecraft Group=minecraft ProtectSystem=full # Read only mapping of /usr /boot and /etc ProtectHome=true # /home, /root and /run/user seem to be empty from within the unit. It is recommended to enable this setting for all long-running services (in particular network-facing ones). ProtectKernelTunables=true # /proc/sys, /sys, /proc/sysrq-trigger, /proc/latency_stats, /proc/acpi, /proc/timer_stats, /proc/fs and /proc/irq will be read-only within the unit. It is recommended to turn this on for most services. # Implies MountFlags=slave ProtectKernelModules=true # Block module system calls, also /usr/lib/modules. It is recommended to turn this on for most services that do not need special file systems or extra kernel modules to work # Implies NoNewPrivileges=yes ProtectControlGroups=true # It is hence recommended to turn this on for most services. # Implies MountAPIVFS=yes ExecStart=/bin/sh -c '/usr/bin/screen -DmS mc-%i /usr/bin/java -server -Xms512M -Xmx2048M -XX:+UseG1GC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar $(ls -v | grep -i \"FTBServer.*jar\\|minecraft_server.*jar\" | head -n 1) nogui' ExecReload=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff \"reload\"\\\\015' ExecStop=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff \"say SERVER SHUTTING DOWN. Saving map...\"\\\\015' ExecStop=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff \"save-all\"\\\\015' ExecStop=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff \"stop\"\\\\015' ExecStop=/bin/sleep 10 Restart=on-failure RestartSec=60s [Install] WantedBy=multi-user.target ######### # HowTo ######### # # Create a directory in /opt/minecraft/XX where XX is a name like 'survival' # Add minecraft_server.jar into dir with other conf files for minecraft server # # Enable/Start systemd service # systemctl enable minecraft@survival # systemctl start minecraft@survival # # To run multiple servers simply create a new dir structure and enable/start it # systemctl enable minecraft@creative # systemctl start minecraft@creative",
+      "使用你所好的编辑器在/etc/init.d/下创建叫做minecraft的文件并将上面的脚本粘贴进该文件。",
+      "根据你的配置编辑USERNAME和MCPATH变量。如果你想使用外覆脚本，更改INVOCATION来启动而不是直接从服务端启动。",
+      "确保新创建的文件拥有必需的权限，你可以以此设置权限："
+    ],
+    "配置实例": [
+      "现在你可以上传你的FTB整合包到名为/opt/minecraft/的子文件夹。例如将\"FTB Beyond\"整合包放进/opt/minecraft/FTBBeyond(不带空格)。 如果你想运行原版实例，只需要在/opt/minecraft内创建文件夹，上传minecraft_server.jar并创建eula.txt文件(使用：)。",
+      "上传minecraft服务端文件后，使用ls -la /opt/minecraft命令确保“minecraft”是其所有者和所属组。若不是，则运行chown minecraft:minecraft /opt/minecraft/FTBBeyond。你也许还需要完成安装。对于当前的FTB包你可以运行："
+    ],
+    "启动/停止实例": [
+      "你可以使用systemctl start minecraft@FTBBeyond来启动服务器并用systemctl stop minecraft@FTBBeyond来关闭服务器。“@”后的部分是一个实例名称，如文件夹名。该脚本也会在重启服务器时帮助自动停止你的Minecraft服务器。"
+    ],
+    "Init.d脚本": [
+      "用于不内置Systemd的旧版服务器系统。"
+    ],
+    "先决条件": [
+      "必须安装Screen包。",
+      "在CentOS及基于Red Hat的发行版上："
+    ],
+    "yum install screen": [
+      "在Ubuntu等基于Debian的系统上："
+    ],
+    "下载": [
+      "使用wget下载本脚本，运行下列命令：（注意本脚本需要更改WORLD、MCPATH和BACKUPPATH变量。",
+      "重要说明： 如果你使用了wget的方法而每行第一个字符都是空格，本脚本不会运行并且update-rc.d会输出错误。如果这要，你必须移除每行开头的空格。小心不要删除空格以外的任何东西！",
+      "wget -O minecraft \"https://minecraft.wiki/w/Tutorials/Server_startup_script/Script?action=raw\"",
+      "#!/bin/bash # /etc/init.d/minecraft # version 0.4.2 2016-02-09 (YYYY-MM-DD) # ### BEGIN INIT INFO # Provides: minecraft # Required-Start: $local_fs $remote_fs screen-cleanup # Required-Stop: $local_fs $remote_fs # Should-Start: $network # Should-Stop: $network # Default-Start: 2 3 4 5 # Default-Stop: 0 1 6 # Short-Description: Minecraft server # Description: Starts the minecraft server ### END INIT INFO #Settings SERVICE='minecraft_server.jar' SCREENNAME='minecraft_server' OPTIONS='nogui' USERNAME='minecraft' WORLD='world' MCPATH='/home/minecraft' BACKUPPATH='/minecraft/minecraft.backup' MAXHEAP=2048 MINHEAP=1024 HISTORY=1024 CPU_COUNT=1 INVOCATION=\"java -Xmx${MAXHEAP}M -Xms${MINHEAP}M -XX:+UseConcMarkSweepGC \\ -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=$CPU_COUNT -XX:+AggressiveOpts \\ -jar $SERVICE $OPTIONS\" ME=`whoami` as_user() { if [ \"$ME\" = \"$USERNAME\" ] ; then bash -c \"$1\" else su - \"$USERNAME\" -c \"$1\" fi } mc_start() { if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"$SERVICE is already running!\" else echo \"Starting $SERVICE...\" cd $MCPATH as_user \"cd $MCPATH && screen -h $HISTORY -dmS ${SCREENNAME} $INVOCATION\" sleep 7 if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"$SERVICE is now running.\" else echo \"Error! Could not start $SERVICE!\" fi fi } mc_saveoff() { if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"$SERVICE is running... suspending saves\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"say SERVER BACKUP STARTING. Server going readonly...\\\"\\015'\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"save-off\\\"\\015'\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"save-all\\\"\\015'\" sync sleep 10 else echo \"$SERVICE is not running. Not suspending saves.\" fi } mc_saveon() { if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"$SERVICE is running... re-enabling saves\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"save-on\\\"\\015'\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"say SERVER BACKUP ENDED. Server going read-write...\\\"\\015'\" else echo \"$SERVICE is not running. Not resuming saves.\" fi } mc_stop() { if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"Stopping $SERVICE\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"say SERVER SHUTTING DOWN IN 10 SECONDS. Saving map...\\\"\\015'\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"save-all\\\"\\015'\" sleep 10 as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"stop\\\"\\015'\" sleep 7 else echo \"$SERVICE was not running.\" fi if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"Error! $SERVICE could not be stopped.\" else echo \"$SERVICE is stopped.\" fi } mc_update() { if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"$SERVICE is running! Will not start update.\" else as_user \"cd $MCPATH && wget -q -O $MCPATH/versions --no-check-certificate https://piston-meta.mojang.com/mc/game/version_manifest.json\" if [ \"$1\" == \"snapshot\" ] ; then JSONVERSION=`cd $MCPATH && cat versions | python -c \"exec(\\\"import json,sys\\nobj=json.load(sys.stdin)\\nversion=obj['latest']['snapshot']\\nfor v in obj['versions']:\\n if v['id']==version:\\n print(v['url'])\\\")\"` else JSONVERSION=`cd $MCPATH && cat versions | python -c \"exec(\\\"import json,sys\\nobj=json.load(sys.stdin)\\nversion=obj['latest']['release']\\nfor v in obj['versions']:\\n if v['id']==version:\\n print(v['url'])\\\")\"` fi as_user \"cd $MCPATH && wget -q -O $MCPATH/versions --no-check-certificate $JSONVERSION\" MC_SERVER_URL=`cd $MCPATH && cat versions | python -c 'import json,sys;obj=json.load(sys.stdin);print(obj[\"downloads\"][\"server\"][\"url\"])'` as_user \"rm $MCPATH/versions\" as_user \"cd $MCPATH && wget -q -O $MCPATH/minecraft_server.jar.update --no-check-certificate $MC_SERVER_URL\" if [ -f $MCPATH/minecraft_server.jar.update ] ; then if `diff $MCPATH/$SERVICE $MCPATH/minecraft_server.jar.update >/dev/null` ; then echo \"You are already running the latest version of $SERVICE.\" else as_user \"mv $MCPATH/minecraft_server.jar.update $MCPATH/$SERVICE\" echo \"Minecraft successfully updated.\" fi else echo \"Minecraft update could not be downloaded.\" fi fi } mc_backup() { mc_saveoff NOW=`date \"+%Y-%m-%d_%Hh%M\"` BACKUP_FILE=\"$BACKUPPATH/${WORLD}_${NOW}.tar\" echo \"Backing up minecraft world...\" #as_user \"cd $MCPATH && cp -r $WORLD $BACKUPPATH/${WORLD}_`date \"+%Y.%m.%d_%H.%M\"`\" as_user \"tar -C \\\"$MCPATH\\\" -cf \\\"$BACKUP_FILE\\\" $WORLD\" echo \"Backing up $SERVICE\" as_user \"tar -C \\\"$MCPATH\\\" -rf \\\"$BACKUP_FILE\\\" $SERVICE\" #as_user \"cp \\\"$MCPATH/$SERVICE\\\" \\\"$BACKUPPATH/minecraft_server_${NOW}.jar\\\"\" mc_saveon echo \"Compressing backup...\" as_user \"gzip -f \\\"$BACKUP_FILE\\\"\" echo \"Done.\" } mc_command() { command=\"$1\"; if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then pre_log_len=`wc -l \"$MCPATH/logs/latest.log\" | awk '{print $1}'` echo \"$SERVICE is running... executing command\" as_user \"screen -p 0 -S ${SCREENNAME} -X eval 'stuff \\\"$command\\\"\\015'\" sleep .1 # assumes that the command will run and print to the log file in less than .1 seconds # print output tail -n $((`wc -l \"$MCPATH/logs/latest.log\" | awk '{print $1}'`-$pre_log_len)) \"$MCPATH/logs/latest.log\" fi } mc_listen() { if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then as_user \"tail -f $MCPATH/logs/latest.log\" else echo \"$SERVICE is not running. Cannot listen to server.\" fi } #Start-Stop here case \"$1\" in start) mc_start ;; stop) mc_stop ;; restart) mc_stop mc_start ;; update) mc_stop mc_backup mc_update $2 mc_start ;; backup) mc_backup ;; status) if pgrep -u $USERNAME -f $SERVICE > /dev/null ; then echo \"$SERVICE is running.\" else echo \"$SERVICE is not running.\" fi ;; command) if [ $# -gt 1 ] ; then shift mc_command \"$*\" else echo \"Must specify server command (try 'help'?)\" fi ;; listen) mc_listen ;; *) echo \"Usage: $0 {start|stop|update|backup|status|restart|command \\\"server command\\\"}\" exit 1 ;; esac exit 0"
+    ],
+    "update-rc.d minecraft defaults": [
+      "若使用启用了基于依赖的启动（dependency-based booting）的Debian 6.0启动，则使用insserv命令。若一切正常，insserv将没有输出。若想确认，检查$?中的错误码。"
+    ],
+    "insserv minecraft": [
+      "在CentOS和RHEL（Redhat企业版Linux）上，你将需要将进程添加至chkconfig列表，由chkconfig在systemd下管理启动脚本。"
+    ],
+    "chkconfig --add minecraft": [
+      "要检查该进程是否正确完成，使用ntsysv命令来持续滚动直至看到minecraft进程（如果不重复chkconfig命令来添加所需的符号链接）。",
+      "注意: 你的系统很可能会警告你该脚本不满足所有需求。然而脚本还是会运行。",
+      "你也可以在你的crontab下配置条目来备份服务端。一个crontab例子是每半小时备份一次：",
+      "使用你希望完成工作的用户账户，运行："
+    ],
+    "crontab -e": [
+      "并添加这个：",
+      "0,30 * * * * /etc/init.d/minecraft backup",
+      "如果由于你不知道如何使用vi而导致上述尝试失败，尝试："
+    ],
+    "用法": [
+      "在大多数系统上可以通过以下命令调用脚本，其中“（command）”可以是“stop”、“start”、“restart”或任何所支持的其他选项："
+    ],
+    "/etc/init.d/minecraft (command)": [
+      "在大多数基于RedHat或Debian的发行版中，可以使用service命令，以此调用："
+    ],
+    "service minecraft (command)": [
+      "要查看屏幕，使用："
+    ],
+    "screen -r": [
+      "要退出屏幕，使用："
+    ],
+    "参考": [
+      "http://www.debian-administration.org/articles/28",
+      "https://wiki.debian.org/LSBInitScripts/DependencyBasedBoot"
+    ],
+    "附加信息": [
+      "如果仍要查看实时日志文件，请在服务器目录中使用此命令："
+    ],
+    "备选启动脚本": [
+      "以下的这些脚本提供的函数与上述脚本相同，但包含了更多有用的特性："
+    ],
+    "[Multi World] Minecraft Server Control Script": [
+      "运行多个Minecraft世界。",
+      "启动、停止和重启多个世界。",
+      "创建、删除、禁用和启用多个世界。",
+      "相比于Mojang服务端，额外支持CraftBukkit。",
+      "自动通知用户重要的服务器事件。",
+      "使用Minecraft Query protocol来保持当前服务器状态的追踪。",
+      "LSB和systemd兼容的init脚本允许与服务器的启动和关闭序列无缝集成。",
+      "使用Minecraft Overviewer地图绘制软件绘制世界。",
+      "备份世界并移除超过X天的备份。",
+      "更新服务端软件并安装addons。",
+      "从命令行向世界服务器发送命令。"
+    ],
+    "如果没有玩家登录则挂起服务器，并在尝试立即启动它至最大效率": [
+      "纯粹用大约500行代码的bash和浓缩特性编写，以保持较小的足迹",
+      "灵活的配置：支持例如 spigot和craftbukkit，可调节线程和RAM使用等。"
+    ],
+    "具有初始化和备份脚本的完整systemd支持": [
+      "安全资源使用：以不同用户身份运行脚本，如果不需要则删除权限",
+      "与本文中描述的脚本非常相似：它也使用屏幕和tar，但提供更高级的功能"
+    ],
+    "MC Sheller": [
+      "Minecraft Systemd Service 一个很好的系统服务，具有："
+    ],
+    "Mineserv Perl Init Script": [
+      "一个非常简单的自启动/停止脚本，具有备份和清理功能，并能够将命令传递到服务器控制台。"
+    ]
+  }
+}

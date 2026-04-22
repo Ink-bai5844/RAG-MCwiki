@@ -1,0 +1,625 @@
+{
+  "title": "编码格式/DataComponent",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%2FDataComponent",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "此条目记录了所有的数据组件。",
+      "本条目的所有结构名称均来自游戏源代码的net.minecraft.core.component.DataComponents，各结构以结构名 - 值的方式书写。",
+      "各组件结构及其引用方式均遵守下列格式："
+    ],
+    "codec_<组件ID>_component（/均视为_）": [
+      "本页面部分内容合并自其他页面，见注释。"
+    ],
+    "additional_trade_cost": [
+      "minecraft:additional_trade_cost：村民收购物品的增加量。"
+    ],
+    "attack_range": [
+      "minecraft:attack_range：生物持有此物品时的攻击距离，会覆写玩家的实体交互距离属性。",
+      "min_reach：（0≤值≤64，默认为0）攻击者到目标的最小有效距离。以攻击者眼睛位置、沿视角方向到被攻击者攻击判定箱的最小距离计算。",
+      "max_reach：（0≤值≤64，默认为3）攻击者到目标的最大有效距离。以攻击者眼睛位置、沿视角方向到被攻击者攻击判定箱的最小距离计算。",
+      "min_creative_reach：（0≤值≤64，默认为0）创造模式玩家到目标的最小有效距离，计算方式同上。",
+      "max_creative_reach：（0≤值≤64，默认为5）创造模式玩家到目标的最大有效距离，计算方式同上。",
+      "hitbox_margin：（0≤值≤1，默认为0.3）决定攻击判定箱的大小。游戏将实体的碰撞箱向各个方向扩展此距离得到攻击判定箱。",
+      "mob_factor：（0≤值≤2，默认为1.0）对于非玩家生物，其使用的最小有效距离和最大有效距离的缩放乘数。"
+    ],
+    "attribute_modifiers": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "*color：这一层图案的颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。",
+      "*pattern：这一层图案的样式。可以为旗帜图案的ID，也可以是旗帜图案的内联格式，见旗帜 § 方块实体。",
+      "旗帜图案，见Template:Nbt inherit/banner pattern/source",
+      "*min_ticks_in_hive：蜜蜂会在巢内滞留的最短时间。",
+      "*ticks_in_hive：蜜蜂在巢内已滞留的时间。",
+      "*id：（命名空间ID）方块实体。",
+      "若干与该方块对应的方块实体数据标签，见方块实体数据格式。",
+      "*base：固定阻挡的伤害。",
+      "*factor：应被阻挡的伤害比例。",
+      "horizontal_blocking_angle：（值>0，角度制，默认为90）在水平方向上，以当前玩家视角的水平分量向量为基准，如果受伤害方向与基准方向夹角小于此角度则伤害可被阻挡，否则不能阻挡。",
+      "任何无来源伤害均被视为需要180度才能阻挡。",
+      "type：可阻挡的伤害类型。允许单个ID、列表或标签。未指定则表示对所有伤害有效。",
+      "disable_cooldown_scale：（值≥0，默认为1）被可停用阻挡的攻击击中时，物品冷却时长的乘数。为0时，此物品不能被攻击禁用。",
+      "disabled_sound：此物品被攻击禁用时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "item_damage：控制攻击对物品造成的耐久损耗。未指定时，每次攻击损耗物品1点耐久。物品耐久最终损耗floor(threshold, base + factor * 所受攻击伤害)。最终值可以为负数以使物品修复。",
+      "*base：损耗物品固定耐久度。",
+      "*factor：所受攻击伤害的乘数。",
+      "*threshold：（值≥0）攻击对此物品造成的最低耐久度损耗。",
+      "*type：消耗使用效果类型。",
+      "如果type为apply_effects，则对使用此物品的生物添加状态效果：",
+      "*effects：物品使用后添加的状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "probability：（0≤值≤1，默认为1）食用后施加此状态效果的概率。",
+      "如果type为clear_all_effects，则对使用此物品的生物移除所有状态效果。",
+      "如果type为play_sound，则播放指定的声音：",
+      "*sound：要播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "如果type为remove_effects，则对使用此物品的生物移除指定状态效果：",
+      "*effects：物品使用后要移除的状态效果。可以为以#开头的状态效果标签、一个状态效果ID、或以多个状态效果ID组成的列表。",
+      "如果type为teleport_randomly，则对使用此物品的生物进行随机传送：",
+      "diameter：（值>0，默认为16）随机传送的半径，以传送前的位置作为原点。",
+      "sound：（默认为entity.generic.eat）使用物品时产生的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*item：此槽位的物品堆叠数据。",
+      "物品模板，见Template:Nbt inherit/item template/source",
+      "*slot：（0≤值≤255）物品堆叠所在的槽位。",
+      "*loot_table：（命名空间ID）生成战利品使用的战利品表。",
+      "seed：（默认为0）生成战利品使用的种子，0或不输入将使用随机序列。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。",
+      "*type：消耗使用效果类型。",
+      "如果type为apply_effects，则对使用此物品的生物添加状态效果：",
+      "*effects：物品使用后添加的状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "probability：（0≤值≤1，默认为1）食用后施加此状态效果的概率。",
+      "如果type为clear_all_effects，则对使用此物品的生物移除所有状态效果。",
+      "如果type为play_sound，则播放指定的声音：",
+      "*sound：要播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "如果type为remove_effects，则对使用此物品的生物移除指定状态效果：",
+      "*effects：物品使用后要移除的状态效果。可以为以#开头的状态效果标签、一个状态效果ID、或以多个状态效果ID组成的列表。",
+      "如果type为teleport_randomly，则对使用此物品的生物进行随机传送：",
+      "diameter：（值>0，默认为16）随机传送的半径，以传送前的位置作为原点。",
+      "*value：（值≥1）物品的附魔能力。",
+      "*id：（命名空间ID）实体类型。",
+      "若干与该实体对应的实体数据标签，见实体数据格式。",
+      "*slot：物品可被穿戴的装备槽位。",
+      "swappable：（默认为true）物品是否可以直接使用穿戴。",
+      "*shape：爆裂时的形态。可以为small_ball（小型球状）、large_ball（大型球状）、star（星形）、creeper（苦力怕状）、burst（喷发状）。",
+      "*shape：爆裂时的形态。可以为small_ball（小型球状）、large_ball（大型球状）、star（星形）、creeper（苦力怕状）、burst（喷发状）。",
+      "*nutrition：（值≥0）食用物品时增加的饥饿值。",
+      "*saturation：食用物品时增加的饱和度。",
+      "*description：（文本组件）乐器的名称。",
+      "*sound_event：吹奏时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*range：（值>0）吹奏声音能传播的最远距离。",
+      "*use_duration：（值>0）吹奏时间，影响物品冷却速度。",
+      "*dismount_conditions：将目标强制脱离骑乘的条件。",
+      "*max_duration_ticks：不再检查条件的时间，单位为刻，从delay_ticks开始计算。",
+      "min_speed：（默认为0）攻击者的最低攻击轴速度。对于非玩家实体，实际最小速度为规定值的20%。",
+      "min_relative_speed：（默认为0）最小攻击轴相对速度。对于非玩家实体，实际最小速度为规定值的20%。",
+      "*knockback_conditions：将目标击退的条件。",
+      "格式同dismount_conditions。",
+      "*damage_conditions：对目标造成伤害的条件。",
+      "格式同dismount_conditions。",
+      "contact_cooldown_ticks：（值>0，默认为10）攻击的冷却时间，在此时间内无法与任何实体交互。",
+      "*dimension：磁石指针指向位置的所在维度。",
+      "*pos：磁石指针指向的坐标。内部的三个整数分别代表了位置的XYZ坐标值。",
+      "tracked：（默认为true）表示磁石指针是否追踪绑定的磁石。为false时，当磁石被破坏后此组件不会被移除，磁石指针仍然指向对应位置。",
+      "*rotation：图标的旋转角度，按顺时针角度计。游戏并不能真正显示所有角度，每经过22.5°，在地图上才会有区别。与图标纹理中的外观相比，旋转角度为0所显示的图标上下颠倒。",
+      "*type：（命名空间ID）此图标显示的地图图标类型。",
+      "*x：图标在世界上所在的X坐标。如果超出地图所展示的范围且图标类型不是玩家，则图标无法添加到地图中。如果图标类型是玩家，位置超出显示范围但地图可以无限追踪玩家，那么图标类型会被修改为player_off_limits，且位置会显示在对应边；如果距离显示范围较近，则图标类型会被修改为player_off_map，且位置会显示在对应边；如果距离显示范围很远，则移除此图标。",
+      "*z：图标在世界上所在的Z坐标。如果超出地图所展示的范围且图标类型不是玩家，则图标无法添加到地图中。如果图标类型是玩家，位置超出显示范围但地图可以无限追踪玩家，那么图标类型会被修改为player_off_limits，且位置会显示在对应边；如果距离显示范围较近，则图标类型会被修改为player_off_map，且位置会显示在对应边；如果距离显示范围很远，则移除此图标。",
+      "*asset_name：一个字符串，实际盔甲纹饰纹理的后缀。",
+      "*description：（文本组件）盔甲纹饰材料的名称。",
+      "override_armor_assets：对于指定的装备模型，使用指定纹理覆盖而不使用asset_name。",
+      "<装备模型命名空间ID>：一个字符串，实际盔甲纹饰纹理的后缀。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。",
+      "*id：（命名空间ID）状态效果。",
+      "*rules：物品与对应可以挖掘的方块的映射列表。",
+      "：一项物品与方块列表的挖掘配置数据。",
+      "*blocks：此配置指定的有效方块。可以为一个#开头的方块标签、一个方块ID、或一个方块ID的列表。",
+      "correct_for_drops：此物品是否是所有上方指定方块的合适挖掘工具。",
+      "speed：覆盖所有上方指定方块的使用此物品挖掘时的挖掘速度。",
+      "*material：此盔甲纹饰的材料，命名空间ID或内联定义均可。",
+      "*asset_name：一个字符串，实际盔甲纹饰纹理的后缀。",
+      "*description：（文本组件）盔甲纹饰材料的名称。",
+      "override_armor_assets：对于指定的装备模型，使用指定纹理覆盖而不使用asset_name。",
+      "<装备模型命名空间ID>：一个字符串，实际盔甲纹饰纹理的后缀。",
+      "*pattern：此盔甲纹饰的图案，命名空间ID或内联定义均可。",
+      "*asset_id：（命名空间ID）用于推断盔甲纹饰纹理的位置。",
+      "decal：（默认为false）是否使用贴花模式渲染盔甲纹饰（仅在非透明区域显示）。",
+      "*description：（文本组件）盔甲纹饰图案的名称。",
+      "*seconds：（值>0）物品使用后的冷却时间，单位为秒。",
+      "*raw：（长度不超过1024）未过滤的文本原始信息。",
+      "*author：成书的作者。",
+      "generation：（默认为0）决定成书的复制程度。可以为0（原稿），1（原稿的副本），2（副本的副本），3（破烂不堪）。",
+      "pages：成书内存储的页信息，必须使用以下格式之一。",
+      "：（文本组件）成书内一页的信息。如果开启过滤，则代表过滤后文本信息与原信息一致。",
+      "：成书页内信息的另一种格式。如果采用复合标签定义文本组件，则只要存在raw字段就会以此格式解析。",
+      "filtered：（文本组件）已过滤的文本信息。在开启过滤时，此文本的优先级高于原始文本。被开启过滤的玩家更新时会删除原始文本并将此过滤文本作为原始文本，而被未开启过滤的玩家更新时会被移除。",
+      "*raw：（文本组件）未过滤的原始信息。",
+      "resolved：（默认为false）表示这本成书是否已经被解析，决定是否在打开成书时进行成书内文本的解析。",
+      "*title：（长度不超过32）成书的标题信息。为格式时，如果开启过滤，则代表此标题过滤后与原标题一致。",
+      "filtered：（长度不超过32）已过滤的标题信息。在开启过滤时，此字符串优先级高于raw。",
+      "*raw：（长度不超过32）未过滤的标题原始信息。"
+    ],
+    "axolotl/variant": [
+      "minecraft:axolotl/variant：美西螈的变种。取值只能为lucy（粉红色）、wild（棕色）、gold（金色）、cyan（青色）或blue（蓝色）。"
+    ],
+    "banner_patterns": [
+      "minecraft:banner_patterns：旗帜图案的列表。",
+      "：一层图案。"
+    ],
+    "base_color": [
+      "minecraft:base_color：盾牌的基础颜色，同时影响盾牌的名称。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "bees": [
+      "minecraft:bees：蜂巢（方块）和蜂箱的蜜蜂数据。",
+      "：一只蜜蜂的数据。",
+      "entity_data：蜜蜂的部分实体数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。",
+      "见实体数据格式。下列标签不会被保存，也不会被加载：Air、drop_chances、equipment、Brain、CanPickUpLoot、DeathTime、fall_distance、FallFlying、Fire、HurtByTimestamp、HurtTime、LeftHanded、Motion、NoGravity、OnGround、PortalCooldown、Pos、Rotation、sleeping_pos、CannotEnterHiveTicks、TicksSincePollination、CropsGrownSincePollination、hive_pos、Passengers、leash、UUID。"
+    ],
+    "block_entity_data": [
+      "minecraft:block_entity_data：物品放置方块时将应用到方块实体的数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。"
+    ],
+    "block_state": [
+      "minecraft:block_state：物品放置方块时将要设置的方块状态。",
+      "<方块属性>：此项方块属性的值。"
+    ],
+    "blocks_attacks": [
+      "minecraft:blocks_attacks：物品使用时的格挡行为。",
+      "block_delay_seconds：（值≥0，默认为0）成功阻挡攻击前需要按住右键的秒数。",
+      "block_sound：成功阻挡攻击时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "bypassed_by：可以无视此物品的阻挡而造成实际伤害的伤害类型。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。",
+      "damage_reductions：控制可阻挡多少伤害。未指定时，可阻挡一切伤害。",
+      "：控制可挡下的伤害量和伤害类型。阻挡成功时，伤害减少clamp(base + factor * 所受攻击伤害, 0, 所受攻击伤害)。"
+    ],
+    "break_sound": [
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source"
+    ],
+    "bucket_entity_data": [
+      "minecraft:bucket_entity_data：生物桶对桶中生物的部分实体数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。",
+      "Glowing：表示桶中生物是否有发光的轮廓线。",
+      "Health：桶中生物的生命值。",
+      "Invulnerable：表示桶中生物是否能抵抗绝大多数伤害。",
+      "NoAI：表示桶中生物的AI是否被禁用。",
+      "NoGravity：表示桶中生物是否不受重力影响。",
+      "Silent：表示桶中生物是否不会发出任何声音。",
+      "如果桶中生物是蝌蚪，则有下列2个额外标签：",
+      "Age：桶中蝌蚪的年龄。大于等于24000时，蝌蚪会长大成青蛙。",
+      "AgeLocked：表示蝌蚪的年龄是否不会随时间自然增长。",
+      "如果桶中生物是美西螈，则有下列3个额外标签：",
+      "Age：桶中美西螈的年龄。生物为幼体时为负值；生物为成体时为正值或0，如果为正值则表示距离生物能再次繁衍的时间。",
+      "AgeLocked：表示美西螈的年龄是否不会随时间自然增长或减少。",
+      "HuntingCooldown：桶中美西螈生物记忆has_hunting_cooldown的过期倒计时。",
+      "Java版26.2起，如果桶中生物是硫方怪，则有下列2个额外标签：",
+      "*age：（默认为0）表示桶中的硫方怪的年龄。原版游戏未使用。",
+      "*age_locked：（默认为false）表示硫方怪的年龄是否不会随时间自然增长。原版游戏未使用。"
+    ],
+    "bundle_contents": [
+      "minecraft:bundle_contents：收纳袋的内部物品栏。",
+      "：一个物品。后加入的物品在列表前方，先加入的物品在列表后方。",
+      "物品模板，见Template:Nbt inherit/item template/source"
+    ],
+    "can_break": [
+      "minecraft:can_break：检查被破坏的方块是否满足指定的方块谓词，作为列表时内部元素与此标签作为复合标签时相同。",
+      "方块谓词，见Template:Nbt inherit/block predicate/source"
+    ],
+    "can_place_on": [
+      "minecraft:can_place_on：检查被交互的方块是否满足指定的方块谓词，作为列表时内部元素与此标签作为复合标签时相同。",
+      "方块谓词，见Template:Nbt inherit/block predicate/source"
+    ],
+    "cat/collar": [
+      "minecraft:cat/collar：猫的项圈颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "cat/sound_variant": [
+      "minecraft:cat/sound_variant：（命名空间ID）猫的音效变种。"
+    ],
+    "cat/variant": [
+      "minecraft:cat/variant：（命名空间ID）猫的变种。"
+    ],
+    "charged_projectiles": [
+      "minecraft:charged_projectiles：弩的内部物品栏，表示弩的装填物。",
+      "：一个物品。",
+      "物品模板，见Template:Nbt inherit/item template/source"
+    ],
+    "chicken/sound_variant": [
+      "minecraft:chicken/sound_variant：（命名空间ID）鸡的音效变种。"
+    ],
+    "chicken/variant": [
+      "minecraft:chicken/variant：（命名空间ID）鸡的变种。"
+    ],
+    "consumable": [
+      "minecraft:consumable：物品的消耗使用行为。",
+      "animation：（默认为eat）物品使用时的动画。可以为none（无动作）、eat（吃）、drink（饮用）、block（格挡）、bow（拉弓）、brush（清刷）、crossbow（弩上弦）、spear（矛蓄力）、trident（三叉戟投掷）、spyglass（看望远镜）、toot_horn（吹山羊角）和bundle（使用收纳袋）。",
+      "consume_seconds：（值≥0，默认为1.6）物品使用的时间，单位为秒。当此值为0时，物品立刻使用，不会像拉弓等操作需要等待时间。",
+      "has_consume_particles：（默认为true）物品在使用时是否产生物品破碎粒子。",
+      "on_consume_effects：当物品被使用后产生的效果列表。",
+      "：一项消耗使用效果。"
+    ],
+    "container": [
+      "minecraft:container：方块物品的内部物品栏。",
+      "：一个槽位上的物品堆叠数据。"
+    ],
+    "container_loot": [
+      "minecraft:container_loot：战利品容器方块的战利品表数据。"
+    ],
+    "cow/sound_variant": [
+      "minecraft:cow/sound_variant：（命名空间ID）牛的音效变种。"
+    ],
+    "cow/variant": [
+      "minecraft:cow/variant：（命名空间ID）牛的变种。"
+    ],
+    "creative_slot_lock": [
+      "minecraft:creative_slot_lock：空标签，此组件存在时此物品若在创造模式物品栏内则玩家无法与其交互。"
+    ],
+    "custom_data": [
+      "minecraft:custom_data：自定义的数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。",
+      "<自定义标签名>：一个可以为任意类型的自定义标签。"
+    ],
+    "custom_model_data": [
+      "minecraft:custom_model_data：自定义物品模型数据。",
+      "colors：定义物品模型映射中的着色列表。",
+      "：一个颜色。可以直接使用整数定义颜色，也可以使用RGB三个分量定义颜色，游戏只保存为整数形式。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "flags：定义condition物品模型映射类型的布尔值列表。",
+      "：一个布尔值。",
+      "floats：定义range_dispatch物品模型映射类型的浮点数列表。",
+      "：一个浮点数。",
+      "strings：定义select物品模型映射类型的字符串列表。",
+      "：一个字符串。"
+    ],
+    "custom_name": [
+      "minecraft:custom_name：（文本组件）自定义名称。"
+    ],
+    "damage": [
+      "minecraft:damage：（值≥0）物品的损坏值。"
+    ],
+    "damage_resistant": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "damage_type": [
+      "minecraft:damage_type：（命名空间ID）使用此物品攻击时造成的伤害类型。"
+    ],
+    "death_protection": [
+      "minecraft:death_protection：持有者将要死亡时阻止生物死亡后的效果。",
+      "death_effects：（默认为空）触发此物品后产生的效果。",
+      "：一项效果。"
+    ],
+    "debug_stick_state": [
+      "minecraft:debug_stick_state：调试棒的调试数据。",
+      "<方块命名空间ID>：一个方块和此方块将要修改的方块属性的键值对。"
+    ],
+    "dye": [
+      "minecraft:dye：物品的染料颜色数据。取值为white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "dyed_color": [
+      "minecraft:dyed_color：物品的颜色。只使用后24位，每个颜色通道占用8位，按RGB依次存储。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source"
+    ],
+    "enchantable": [
+      "minecraft:enchantable"
+    ],
+    "enchantment_glint_override": [
+      "minecraft:enchantment_glint_override：是否显示光效。"
+    ],
+    "enchantments": [
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。"
+    ],
+    "entity_data": [
+      "minecraft:entity_data：物品放出实体时应用到实体上的数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。"
+    ],
+    "equippable": [
+      "minecraft:equippable：物品被穿戴的行为。",
+      "allowed_entities：（默认为全部生物）可以穿戴此物品的生物。可以为以#开头的实体类型标签、一个实体类型ID、或以多个实体类型ID组成的字符串列表。",
+      "asset_id：（命名空间ID）物品被穿戴时的装备模型。此值不存在时，若装备在头部则根据物品模型渲染物品，否则什么也不会渲染。",
+      "camera_overlay：（命名空间ID）当此项存在且物品被玩家穿戴时，玩家第一人称视角将渲染指定的纹理遮罩。此遮罩可以使用多个设置此标签的物品互相叠加，每个物品指定的遮罩都会被渲染，且渲染顺序按照主手、副手、头盔、胸甲、护腿、靴子、身体、鞍的顺序依次叠加渲染。当遮罩纹理渲染时，遮罩纹理被视为独立纹理，即无法作为动态纹理或GUI纹理渲染，但可以指定纹理过滤方式。",
+      "can_be_sheared：（默认为false）满足未被骑乘等其他条件时，玩家是否可以对装备此物品的生物进行修剪来卸下此物品。",
+      "damage_on_hurt：（默认为true）生物在受到会影响损害盔甲的伤害时此物品是否会受损而减少耐久。",
+      "equip_on_interact：（默认为false）对生物使用此物品时，是否可以让被交互的生物在允许的空槽位上穿戴此物品。",
+      "equip_sound：（默认为item.armor.equip_generic，默认可装备鞍的生物的鞍除外）物品被穿戴时的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "dispensable：（默认为true）是否可以使用发射器使生物穿戴此物品。如果物品本身有特殊的发射器行为则此项无效。",
+      "shearing_sound：（默认为item.shears.snip）被玩家使用剪刀卸下此物品时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source"
+    ],
+    "firework_explosion": [
+      "minecraft:firework_explosion：烟火之星的数据。",
+      "colors：（默认为空数组）表示爆裂时的粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。如果颜色没有对应的染料颜色，游戏将在提示框中显示为“自定义”，但爆裂时会产生正确的颜色。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。不存在或数组为空时被视为黑色。",
+      "fade_colors：（默认为空数组）表示爆裂后的淡化粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。",
+      "has_trail：（默认为false）表示烟火是否有拖曳痕迹（使用钻石合成时）。",
+      "has_twinkle：（默认为false）表示烟火是否出现闪烁效果（使用荧石粉合成时）。"
+    ],
+    "fireworks": [
+      "minecraft:fireworks：烟花火箭的数据。",
+      "flight_duration：（无符号8位整数，默认为0）烟花火箭的飞行的时间，单位为“火药”（即表现为和在工作台上合成烟花火箭时所用的火药数相等）。",
+      "explosions：（最多256个元素）烟花火箭对应的烟火之星的数据，控制烟花火箭飞行结束时产生的爆裂烟花渲染。",
+      "：一个烟火之星的数据。",
+      "colors：（默认为空数组）表示爆裂时的粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。如果颜色没有对应的染料颜色，游戏将在提示框中显示为“自定义”，但爆裂时会产生正确的颜色。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。不存在或数组为空时被视为黑色。",
+      "fade_colors：（默认为空数组）表示爆裂后的淡化粒子颜色，只使用后24位，每个颜色通道占用8位，按RGB依次存储。当存在多个值时，每个爆裂粒子在渲染时会随机选择一种颜色用于渲染。",
+      "has_trail：（默认为false）表示烟火是否有拖曳痕迹（使用钻石合成时）。",
+      "has_twinkle：（默认为false）表示烟火是否出现闪烁效果（使用荧石粉合成时）。"
+    ],
+    "food": [
+      "minecraft:food：物品的食物属性。",
+      "can_always_eat：（默认为false）表示物品是否可以无视当前饥饿值食用。"
+    ],
+    "fox/variant": [
+      "minecraft:fox/variant：狐狸的变种。取值只能为red（红色）、snow（白色）。"
+    ],
+    "frog/variant": [
+      "minecraft:frog/variant：（命名空间ID）青蛙的变种。"
+    ],
+    "glider": [
+      "minecraft:glider：空标签，此组件存在时若被生物装备则可以滑翔，且滑翔时此物品每1秒消耗1耐久度。"
+    ],
+    "horse/variant": [
+      "minecraft:horse/variant：马的基础毛色。取值只能为white（白色）、creamy（奶油色）、chestnut（栗色）、brown（褐色）、black（黑色）、gray（灰色）或dark_brown（深褐色）。"
+    ],
+    "instrument": [
+      "minecraft:instrument：玩家吹奏山羊角时使用的山羊角乐器。命名空间ID或内联定义均可。"
+    ],
+    "intangible_projectile": [
+      "minecraft:intangible_projectile：空标签，此组件存在时若作为箭射出，则射出后只能被创造模式玩家捡起。"
+    ],
+    "item_model": [
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。"
+    ],
+    "item_name": [
+      "minecraft:item_name：（文本组件）物品的默认名称。"
+    ],
+    "jukebox_playable": [
+      "minecraft:jukebox_playable：（命名空间ID）唱片机曲目。此组件存在时物品可插进唱片机中播放。"
+    ],
+    "kinetic_weapon": [
+      "minecraft:kinetic_weapon：设置物品的冲锋攻击。",
+      "delay_ticks：（值≥0，默认为0）武器生效前的时间，单位为游戏刻。",
+      "forward_movement：（默认为0）动画期间脱离手的距离。",
+      "damage_multiplier：（默认为1）攻击轴相对速度的最终伤害倍率。此处及下文的“攻击轴速度”定义为：上个游戏刻的位移向量（对于玩家）或速度改变量（对于非生物实体，等于Motion）对攻击者视角向量的投影，是一个向量；“攻击轴相对速度”即攻击者攻击轴速度与被攻击者攻击轴速度之差，如果此差值小于0则游戏认为是0。",
+      "sound：使用此武器时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "hit_sound：此武器攻击到生物时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source"
+    ],
+    "llama/variant": [
+      "minecraft:llama/variant：羊驼的变种。取值只能为creamy（沙褐色）、white（奶油色）、brown（棕色）或gray（灰色）。行商羊驼也使用此组件。"
+    ],
+    "lock": [
+      "minecraft:lock：容器方块的上锁数据。",
+      "物品堆叠谓词，见Template:Nbt inherit/item predicate/source"
+    ],
+    "lodestone_tracker": [
+      "minecraft:lodestone_tracker：若指南针拥有此组件，则指南针将变为磁石指针。",
+      "target：磁石指针指向的位置。"
+    ],
+    "lore": [
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。"
+    ],
+    "map_color": [
+      "minecraft:map_color：（默认为4603950）物品栏内地图纹理上的颜色，在二进制形式下，只使用后24位，每个颜色通道占用8位，按RGB依次存储。"
+    ],
+    "map_decorations": [
+      "minecraft:map_decorations：地图图标数据。",
+      "<图标名称>：一个图标的信息。"
+    ],
+    "map_id": [
+      "minecraft:map_id：地图编号。"
+    ],
+    "map_post_processing": [
+      "minecraft:map_post_processing：为0时使map_id组件额外增加“已锁定”行；为1时使map_id组件使用“scale+1”而不是scale显示地图比例缩放信息。"
+    ],
+    "max_damage": [
+      "minecraft:max_damage：（值>0）物品的最大耐久度。"
+    ],
+    "max_stack_size": [
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。"
+    ],
+    "minimum_attack_charge": [
+      "minecraft:minimum_attack_charge：（0≤值≤1）玩家使用此物品进行近战攻击或穿刺攻击所需要攻击冷却完成度的最小值。若添加了该组件，并且值大于0，则会影响魔咒效果组件post_piercing_attack的触发间隔。"
+    ],
+    "mooshroom/variant": [
+      "minecraft:mooshroom/variant：哞菇的变种。取值只能为red（红色）或brown（棕色）。"
+    ],
+    "note_block_sound": [
+      "minecraft:note_block_sound：玩家的头被放置在音符盒上时播放的声音。应为一个来自资源包sounds.json内定义的声音事件。"
+    ],
+    "ominous_bottle_amplifier": [
+      "minecraft:ominous_bottle_amplifier：（0≤值≤4）玩家使用物品后获得的不祥之兆状态效果倍率。"
+    ],
+    "painting/variant": [
+      "minecraft:painting/variant：（命名空间ID）画的变种。"
+    ],
+    "parrot/variant": [
+      "minecraft:parrot/variant：鹦鹉的变种。取值只能为red_blue（红色）、blue（蓝色）、green（绿色）、yellow_blue（青色）或gray（灰色）。"
+    ],
+    "piercing_weapon": [
+      "minecraft:piercing_weapon：设置物品的戳刺攻击，跳过玩家对方块的点击和持续破坏行为。该组件也是触发魔咒效果组件post_piercing_attack的条件之一。",
+      "sound：使用此武器时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "hit_sound：此武器攻击到生物时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "deals_knockback：（默认为true）攻击是否造成击退。",
+      "dismounts：（默认为false）攻击是否将目标强制脱离骑乘。"
+    ],
+    "pig/sound_variant": [
+      "minecraft:pig/sound_variant：（命名空间ID）猪的音效变种。"
+    ],
+    "pig/variant": [
+      "minecraft:pig/variant：（命名空间ID）猪的变种。"
+    ],
+    "pot_decorations": [
+      "minecraft:pot_decorations：饰纹陶罐的陶片数据。此列表应仅有四个元素，依次代表饰纹陶罐背面、左面、右面和前面的物品。默认每个面均为红砖。",
+      "：（命名空间ID）饰纹陶罐这一个面的陶片物品。"
+    ],
+    "potion_contents": [
+      "minecraft:potion_contents：物品的药水和自定义状态效果数据。如果设置此组件为字符串，则等价于只设置复合标签形式中的potion，游戏在保存时只会保存为复合标签形式。",
+      "custom_color：物品渲染中，药水部分使用的颜色。只使用后24位，每个颜色通道占用8位，按RGB依次存储。",
+      "custom_effects：当前物品所含有的自定义状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "custom_name：覆盖物品的默认名称，游戏将以<药水物品名称翻译键>.effect.<此值>翻译键作为物品的名称，对于原版的药水物品而言就是item.minecraft.<药水物品类型>.effect.<此值>。",
+      "potion：（命名空间ID）药水效果，也会影响物品的名称和纹理。"
+    ],
+    "potion_duration_scale": [
+      "minecraft:potion_duration_scale：（值≥0）控制potion_contents组件存储的状态效果时长缩放倍率。此组件不存在时默认为1。"
+    ],
+    "profile": [
+      "minecraft:profile：玩家档案数据。",
+      "游戏档案，见Template:Nbt inherit/resolvable profile/source"
+    ],
+    "provides_banner_patterns": [
+      "minecraft:provides_banner_patterns：控制物品能否放进织布机的旗帜图案槽位，以及可以制作的图案。可以为一个旗帜图案ID、一个旗帜图案标签，或一个旗帜图案ID的列表。"
+    ],
+    "provides_trim_material": [
+      "minecraft:provides_trim_material：控制物品在锻造台上使用盔甲纹饰配方时为输出物品提供的盔甲纹饰材料。命名空间ID或内联定义均可。"
+    ],
+    "rabbit/variant": [
+      "minecraft:rabbit/variant：兔子的变种。取值只能为brown（褐色）、white（白色）、black（黑色）、white_splotched（黑白相间）、gold（金色）、salt（胡椒盐色）或evil（杀手兔）。"
+    ],
+    "rarity": [
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。"
+    ],
+    "recipes": [
+      "minecraft:recipes：知识之书保存的配方数据。",
+      "：（命名空间ID）一个配方ID。"
+    ],
+    "repair_cost": [
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。"
+    ],
+    "repairable": [
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。"
+    ],
+    "salmon/size": [
+      "minecraft:salmon/size：鲑鱼的体型尺寸。取值只能为small（小型）、medium（中型）或large（大型）。"
+    ],
+    "sheep/color": [
+      "minecraft:sheep/color：绵羊的毛色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "shulker/color": [
+      "minecraft:shulker/color：潜影贝的外壳颜色，如果此组件不存在，则潜影贝使用默认的颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "stored_enchantments": [
+      "minecraft:stored_enchantments：附魔书保存的魔咒。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。"
+    ],
+    "sulfur_cube_content": [
+      "minecraft:sulfur_cube_content：表示硫方怪吸收的物品。",
+      "物品模板，见Template:Nbt inherit/item template/source"
+    ],
+    "suspicious_stew_effects": [
+      "minecraft:suspicious_stew_effects：谜之炖菜的状态效果信息。",
+      "：一项状态效果信息。",
+      "duration：（默认为160）状态效果的时长，单位为刻。"
+    ],
+    "swing_animation": [
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。"
+    ],
+    "tool": [
+      "minecraft:tool：物品的挖掘工具属性。",
+      "can_destroy_blocks_in_creative：（默认为true）创造模式玩家能否使用此物品破坏方块。",
+      "damage_per_block：（值≥0，默认为1）破坏硬度非0的方块时物品损失的耐久度。",
+      "default_mining_speed：（值≥0，默认为1）挖掘方块时的速度。"
+    ],
+    "tooltip_display": [
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。"
+    ],
+    "tooltip_style": [
+      "minecraft:tooltip_style：（命名空间ID）物品提示框外观。提示框外观分为两部分：背景由<命名空间>:tooltip/<路径>_background精灵图渲染，边框由<命名空间>:tooltip/<路径>_frame精灵图渲染。这两个精灵图都属于GUI纹理，默认会被解析为assets/<命名空间>/textures/gui/sprites/tooltip/<路径>_background.png和assets/<命名空间>/textures/gui/sprites/tooltip/<路径>_frame.png。"
+    ],
+    "trim": [
+      "minecraft:trim：物品的盔甲纹饰信息。"
+    ],
+    "tropical_fish/base_color": [
+      "minecraft:tropical_fish/base_color：热带鱼的基础颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "tropical_fish/pattern": [
+      "minecraft:tropical_fish/pattern：热带鱼的花纹类型。取值只能为kob（石首类）、sunstreak（日纹类）、snooper（窥伺类）、dasher（速跃类）、brinely（咸水类）、spotty（多斑类）、flopper（飞翼类）、stripey（条纹类）、glitter（闪鳞类）、blockfish（方身类）、betty（背蒂类）或clayfish（陶鱼类）。"
+    ],
+    "tropical_fish/pattern_color": [
+      "minecraft:tropical_fish/pattern_color：热带鱼的花纹颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "unbreakable": [
+      "minecraft:unbreakable：空标签，此组件存在时物品无法破坏，不存在耐久度。"
+    ],
+    "use_cooldown": [
+      "minecraft:use_cooldown：设置物品的使用冷却行为。冷却时间会作用在一个“冷却组”上。",
+      "cooldown_group：（命名空间ID）设置物品冷却组。同冷却组的物品会同时受到同一个物品冷却影响，在冷却时间内所有同冷却组的物品都无法使用。如果此值不存在，游戏将以物品的命名空间ID作为冷却组ID使用。"
+    ],
+    "use_effects": [
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "use_remainder": [
+      "minecraft:use_remainder：控制物品在消耗使用且物品数量减少后游戏返还的物品。如果玩家物品栏在欲返还物品时已满，则掉落成为物品实体。",
+      "物品模板，见Template:Nbt inherit/item template/source"
+    ],
+    "villager/variant": [
+      "minecraft:villager/variant：（命名空间ID）村民类型，取值可以为desert（沙漠）、jungle（丛林）、plains（默认）、savanna（热带草原）、snow（雪原）、swamp（沼泽）和taiga（针叶林）。"
+    ],
+    "weapon": [
+      "minecraft:weapon：设置物品的武器数据。此组件存在时物品使用次数统计信息会在用此物品攻击时增加。",
+      "disable_blocking_for_seconds：（值≥0，默认为0）攻击成功禁用目标盾牌的秒数。",
+      "item_damage_per_attack：（值≥0，默认为1）每次攻击对此物品造成的损伤值，即损耗的耐久度。"
+    ],
+    "wolf/collar": [
+      "minecraft:wolf/collar：狼的项圈颜色。取值为染料颜色，即white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black。"
+    ],
+    "wolf/sound_variant": [
+      "minecraft:wolf/sound_variant：（命名空间ID）狼的音效变种。"
+    ],
+    "wolf/variant": [
+      "minecraft:wolf/variant：（命名空间ID）狼的变种。"
+    ],
+    "writable_book_content": [
+      "minecraft:writable_book_content：书与笔的数据。",
+      "pages：（最多100个元素）书与笔内存储的页信息，必须为以下格式之一。",
+      "：（长度不超过1024）书与笔内一页的文本信息。如果开启过滤，则代表文本信息与原信息一致。",
+      "：书与笔内一页的信息。",
+      "filtered：（长度不超过1024）已过滤的文本信息。在开启过滤时，此字符串的优先级高于原始文本。被开启过滤的玩家更新时会删除原始文本并将此过滤文本作为原始文本，而被未开启过滤的玩家更新时会被移除。"
+    ],
+    "written_book_content": [
+      "minecraft:written_book_content：成书的数据。"
+    ],
+    "zombie_nautilus/variant": [
+      "minecraft:zombie_nautilus/variant：（命名空间ID）僵尸鹦鹉螺的变种。"
+    ],
+    "fire_resistant": [
+      "minecraft:fire_resistant：空标签，此组件存在时物品不受火焰伤害影响。"
+    ],
+    "hide_additional_tooltip": [
+      "minecraft:hide_additional_tooltip：空标签，此组件存在时提示框不会显示附加信息。"
+    ],
+    "hide_tooltip": [
+      "minecraft:hide_tooltip：空标签，此组件存在时不会渲染提示框。"
+    ],
+    "注释": [
+      "本条目的合并来源条目如下："
+    ]
+  }
+}

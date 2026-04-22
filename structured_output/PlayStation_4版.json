@@ -1,0 +1,75 @@
+{
+  "title": "PlayStation 4版",
+  "source_url": "https://zh.minecraft.wiki/w/PlayStation_4%E7%89%88",
+  "structured_content": {
+    "默认分类": [
+      "此页面描述的是已经正式终止支持的游戏版本。",
+      "此版本不再更新且不可下载，并被基岩版取代。",
+      "PlayStation 4版"
+    ],
+    "Mojang Studios": [
+      "4J Studios"
+    ],
+    "运行平台": [
+      "后向兼容："
+    ],
+    "最新版本": [
+      "1.95"
+    ],
+    "数字版 - PSN": [
+      "全球：2014年9月5日",
+      "中国大陆：2018年1月9日"
+    ],
+    "实体 - 蓝光光盘": [
+      "2014年10月3日"
+    ],
+    "年龄分级": [
+      "ESRB：E10+",
+      "PEGI：7+",
+      "ACB：PG",
+      "DEJUS：L（Livre）",
+      "USK：6",
+      "GSRR：辅12",
+      "GSRR：护",
+      "CERO：全年龄对象",
+      "GRB：12+（2016）",
+      "GRB：全年龄对象（2014）"
+    ],
+    "程序大小": [
+      "225 MB"
+    ],
+    "否": [
+      "Minecraft: PlayStation 4版（Minecraft: PlayStation 4 Edition），亦称Minecraft: PS4版（Minecraft: PS4 Edition），是PlayStation 4版本的Minecraft，由4J Studios为Mojang开发。",
+      "Minecraft: PlayStation 4版在2013年于Gamescom的索尼展台宣布。像其他PS4平台上的游戏一样，PS4版也可以通过Remote Play在PlayStation Vita上进行游戏。它于2014年9月4日发布。",
+      "在2019年12月10日发布了基岩版后，PlayStation 4版不再能在PlayStation商店中购买，但仍可以购买DLC。购买实体版的游戏仍然是可以的。对已经购买了PlayStation 4版的用户来说，可以免费下载基岩版，从此PlayStation 4版作为基岩版仍可以被已购买的用户游玩。PlayStation 4版的DLC仍然可以购买，并且其中的大部分会转移至基岩版。在基岩版的选择世界界面中可以导入任意PlayStation 4版创建的存档。",
+      "和PlayStation 3版相比，PlayStation 4版包含了更大的世界尺寸（5120×5120格，为前者的36倍大），渲染距离多达18区块以及其他PlayStation 4增强功能。除其功能与基岩版相似外，PlayStation 4版仍包含了所有的原主机版的特性，特别是内置的小游戏。由于许可限制，某些PlayStation 4版的DLC在基岩版中不可用，且某些DLC不能在商店里购买，只在PlayStation 4版购买后可获得。",
+      "1.95后，PlayStation 4版不再接收新更新，其接收的最后一个更新是村庄与掠夺。PlayStation 4版可通过后向兼容在PlayStation 5上游玩。",
+      "基岩版1.14.0后，PlayStation 4平台的玩家可以在基岩版中启动旧版本来使用原主机版的代码库。"
+    ],
+    "控制": [
+      "主条目：控制 § 原主机版",
+      "默认设置下，控制会显示在HUD上。PlayStation 4版的控制与PlayStation 3版的相似。"
+    ],
+    "游玩": [
+      "游戏内容类似于PlayStation 3版，得益于PlayStation 4的优势，有了很多改善：视野距离增加、世界规模扩大至5120×5120格（原本的36倍），并支持DualShock 4触摸板。玩家在上一代主机或PlayStation Vita上的世界存档可以转移到此版本，从而将经典世界扩展至更大的尺寸。"
+    ],
+    "画廊": [
+      "PlayStation 4版徽标",
+      "PlayStation 4版艺术作品",
+      "PlayStation 3版（上）与PlayStation 4版（下）的对比"
+    ],
+    "参考": [
+      "\"PS4简体中文版游戏《我的世界》将于1月9日推出\". IGN中国, 2018-01-09.",
+      "http://portal.mj.gov.br/ClassificacaoIndicativa/jsps/ConsultarJogoForm.do",
+      "http://www.gamerating.org.tw/search.php",
+      "https://store.playstation.com/#!/zh-hant-tw/%e9%81%8a%e6%88%b2/minecraft-playstation4-edition-%e8%a3%bd%e5%93%81%e7%89%88/cid=EP4433-CUSA00265_00-ASIA0000FULLGAME",
+      "http://www.cero.gr.jp/search/search.cgi?chkPF=PS4&name=%A5%DE%A5%A4%A5%F3%A5%AF%A5%E9%A5%D5%A5%C8&txtCP=",
+      "http://grac.or.kr/Statistics/Popup/Pop_StatisticsDetails.aspx?582ff683223c4fc190d6790e42fd2773cecd98f227eaeaf17ed258610ac557e8",
+      "http://grac.or.kr/Statistics/Popup/Pop_StatisticsDetails.aspx?ceb1501b396c0e28c293d62f96bd0d5dcecd98f227eaeaf17ed258610ac557e8",
+      "4J Studios, \"Happy to confirm we're developing Minecraft PS3, PS4 & PS Vita Editions for Mojang, as well as Xbox 360 & Xbox One Editions!\", Twitter, 2013-08-21.",
+      "Dinnerbone, \"Minecraft was just announced for Playstation 3 & 4!…\", Twitter, 2013-08-20.",
+      "Bedrock is coming to PS4 — Minecraft.net，2019年12月9日。",
+      "Now that the Bedrock version of Minecraft is out on PS4, there are no more feature updates planned for Minecraft: PlayStation 4 Edition. To experience new Minecraft features you'll need to buzz over to the new version, which you'll get for FREE if you own Console Edition on PS4!，来自@4JStudios。X（曾名Twitter），2019年12月10日。"
+    ]
+  }
+}

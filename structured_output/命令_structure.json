@@ -1,0 +1,97 @@
+{
+  "title": "命令/structure",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fstructure",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是生成结构。",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "用于在不使用结构方块的情况下保存或加载结构。"
+    ],
+    "语法": [
+      "structure save <name: string> <from: x y z> <to: x y z> [saveMode: StructureSaveMode]",
+      "structure save <name: string> <from: x y z> <to: x y z> [includeEntities: Boolean] [saveMode: StructureSaveMode] [includeBlocks: Boolean]",
+      "保存一个结构。",
+      "structure load <name: string> <to: x y z> [rotation: Rotation] [mirror: Mirror] [includeEntities: Boolean] [includeBlocks: Boolean] [waterlogged: Boolean] [integrity: float] [seed: string]",
+      "structure load <name: string> <to: x y z> [rotation: Rotation] [mirror: Mirror] [animationMode: StructureAnimationMode] [animationSeconds: float] [includeEntities: Boolean] [includeBlocks: Boolean] [waterlogged: Boolean] [integrity: float] [seed: string]",
+      "加载一个结构。",
+      "structure delete <name: string>",
+      "删除某个储存的结构文件。"
+    ],
+    "参数": [
+      "主条目：结构方块",
+      "name: string：basic_string",
+      "指定结构名称。格式应为name或namespace:name。如果未指定命名空间，则默认为mystructure:。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "from: x y z：CommandPosition和to: x y z：CommandPosition（保存结构用法）",
+      "定义源区域的两组对角方块坐标。可以使用相对坐标和局部坐标来指定命令执行地的相对距离。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "to: x y z：CommandPosition（加载结构用法）",
+      "定义目标区域的西北方向较低（即在各轴上坐标值最小）的点的坐标。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "saveMode: StructureSaveMode：enum",
+      "指定结构的存储位置。必须为以下其中之一："
+    ],
+    "disk - 保存至磁盘": [
+      "includeEntities: Boolean：enum",
+      "指定是否加载（或保存）结构中的实体，默认为false。",
+      "必须为 布尔值（true或false）。",
+      "includeBlocks: Boolean：enum",
+      "指定加载（或保存）时是否包括方块，默认为true。",
+      "必须为 布尔值（true或false）。",
+      "rotation: Rotation：enum",
+      "指定结构旋转的角度。必须为以下其中之一：",
+      "0_degrees - 不旋转（默认）",
+      "90_degrees - 按顺时针旋转90度",
+      "180_degrees - 按顺时针旋转180度",
+      "270_degrees- 按顺时针旋转270度",
+      "mirror: Mirror：enum",
+      "指定结构的镜像模式。必须为以下其中之一："
+    ],
+    "xz - 沿x及z轴翻转": [
+      "animationMode: StructureAnimationMode：enum",
+      "指定生成结构使用的动画。必须为block_by_block或layer_by_layer。",
+      "animationSeconds: float：float",
+      "指定动画的时长。",
+      "必须为单精度浮点数。",
+      "integrity: float：float",
+      "指定结构的完整性（每个方块被加载的概率），根据种子进行加载。",
+      "必须为单精度浮点数。且应在0到100之间（含）。",
+      "seed: string：basic_string",
+      "指定种子。如果未指定，则为一个随机值。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "waterlogged: Boolean：enum",
+      "指定生成的含水结构是否正确含水，默认为false。",
+      "必须为 布尔值（true或false）。"
+    ],
+    "基岩版": [
+      "1.16.100",
+      "1.16.100.52",
+      "加入了/structure。",
+      "1.16.100.60",
+      "加入了对结构放置过程添加动画的支持。",
+      "1.16.210",
+      "1.16.210.54",
+      "/structure现在可以删除已保存结构列表。",
+      "1.19.30",
+      "1.19.30.21",
+      "加入了waterlogged: Boolean参数。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "/structure save ...": [
+      "选定的区域大于64 * 384 * 64个方块"
+    ],
+    "/structure load ...": [
+      "integrity: float小于0或大于100"
+    ],
+    "执行成功": [
+      "1"
+    ]
+  }
+}

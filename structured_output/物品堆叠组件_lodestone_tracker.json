@@ -1,0 +1,18 @@
+{
+  "title": "物品堆叠组件/lodestone tracker",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Flodestone_tracker",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "lodestone_tracker 物品堆叠组件": [
+      "target：磁石指针指向的位置。"
+    ],
+    "*": [
+      "*dimension：磁石指针指向位置的所在维度。",
+      "*pos：磁石指针指向的坐标。内部的三个整数分别代表了位置的XYZ坐标值。",
+      "tracked：（默认为true）表示磁石指针是否追踪绑定的磁石。为false时，当磁石被破坏后此组件不会被移除，磁石指针仍然指向对应位置。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.0.2 02",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.2_02",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nAlpha v1.0.2_02\n版本\nJava版\n发布时间\n2010年7月6日\n下载\n客户端（.json）\n◄◄Infdev 20100625-1917\nAlpha v1.0.4►►\n◄Alpha v1.0.2_01\nAlpha v1.0.3►\nAlpha v1.0.2_02是Java版的一次更新，发布于2010年7月6日。\n更改\n方块\n水\n只有当流动的水的下方也是水或是不透明方块时，它才会将其级别设为0。\n常规\n其他\n加入了一个“加载纹理”的调试字符串，用于玩家的皮肤。\n更改一些与世界信息有关的代码。\n参考\n导航"
+}

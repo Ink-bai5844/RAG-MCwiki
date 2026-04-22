@@ -1,0 +1,5 @@
+{
+  "title": "拼图方块/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%8B%BC%E5%9B%BE%E6%96%B9%E5%9D%97%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\n*\n*name：（默认为minecraft:empty）拼图方块的名称。\n*\n*final_state：（默认为minecraft:air）这个拼图方块将变成的方块。\n*\n*joint：拼接类型，只能是rollable（可旋转）和aligned（固定）。\n*\n*placement_priority：放置优先级。当放置拼图方块所对应的结构时，系统以放置优先级从大到小的顺序依次放置各个结构。如果两个结构具有相同的放置优先级，则以默认顺序放置。\n*\n*pool：（默认为minecraft:empty）拼图方块的目标池，用于从中选择结构。\n*\n*target：（默认为minecraft:empty）当结构从目标池中生成时要对接的拼图方块名称。\n*\n*selection_priority：选择优先级。当父级结构生成时，决定子级拼图方块的选择次序，按选择优先级从大到小排序依次选择。如果两个拼图方块具有相同的选择优先级，则以随机顺序选择。"
+}

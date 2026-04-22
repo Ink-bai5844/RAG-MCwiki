@@ -1,0 +1,299 @@
+{
+  "title": "基岩版1.21.70.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.70.20",
+  "structured_content": {
+    "默认分类": [
+      "1.21.70.20"
+    ],
+    "服务端版本": [
+      "1.21.70.20",
+      "1.21.70.21"
+    ],
+    "版本码": [
+      "Android：",
+      "952107020（armeabi-v7a，34）",
+      "962107020（x86，34）",
+      "972107020（arm64-v8a，34）",
+      "982107020（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, ChromeOS/Android, PlayStation - 2025年1月30日",
+      "iOS/iPadOS - 2025年1月31日"
+    ],
+    "测试版归属": [
+      "1.21.70"
+    ],
+    "下载": [
+      "服务端（1.21.70.20）"
+    ],
+    "WindowsLinux": [
+      "服务端（1.21.70.21）"
+    ],
+    "协议版本": [
+      "780",
+      "◄◄1.21.62",
+      "1.21.71►►",
+      "1.21.70.22►",
+      "beta 1.21.70.20（ChromeOS/Android）、Preview 1.21.70.20（Xbox/Windows/PlayStation）、Preview 1.21.70.21（iOS/iPadOS）是基岩版1.21.70的首个测试版，发布于2025年1月30日至31日，在实验性玩法中加入了牛的新变种、灌木丛、萤火虫灌木丛、枯叶堆、野花簇，并修复了一些漏洞。"
+    ],
+    "生物": [
+      "狐狸现在能够受到来自熔岩的伤害，而不只是来自火的伤害。（MCPE-56926）"
+    ],
+    "驴": [
+      "现在会生成于热带草原及其变种生物群系。",
+      "现在会在平原及其变种生物群系以1-3只为一组生成，而不是以4-6只为一组。"
+    ],
+    "狐狸": [
+      "不再免疫熔岩造成的火焰伤害。"
+    ],
+    "常规": [
+      "修复了在Xbox平台上转换世界或将世界从预览版导入正式版的过程中按下“取消”时发生的崩溃。",
+      "在服务端授权移动中，现在玩家接收移动校正时，移动校正会使用玩家的速度而非通用速度，这应该会提供更好的体验。",
+      "在服务端授权移动中，现在玩家接收向下移动校正时，向下移动校正会使用重力加速度，这应该会提供更好的体验。"
+    ],
+    "构建信息": [
+      "加入了Scaling Rule字段，其后方会显示游戏所使用的缩放规则。",
+      "加入了DPI字段，其后方会显示游戏的DPI。"
+    ],
+    "暂停菜单": [
+      "将“邀请加入游戏”按钮移动至玩家列表上方，并为其加入了图标。"
+    ],
+    "API - 脚本": [
+      "现在未处理的已拒绝承诺会在记录时包含调用栈。",
+      "@minecraft/server的1.18.0版本",
+      "将system.scriptEvent重命名为system.sendScriptEvent。",
+      "将NamespaceNameErrorReason由beta移动至@minecraft/server的1.18.0版本。",
+      "将system.sendScriptEvent由beta移动至@minecraft/server的1.18.0版本。",
+      "将NamespaceNameError由beta移动至@minecraft/server的1.18.0版本。",
+      "将InputInfo.getButtonState、​InputButton和​ButtonState开放至@minecraft/server的1.18.0版本。",
+      "将nputInfo.getMovementVector开放至@minecraft/server的1.18.0版本。",
+      "将PlayerButtonInputAfterEvent、​AfterEvents.playerButtonInput和​InputEventOptions开放至@minecraft/server的1.18.0版本。",
+      "为一些API赋予了只读权限，以允许这些API现在能够在前发事件回调内调用。",
+      "BlockVolume的所有方法。",
+      "Vector的所有方法。",
+      "更改了Dimension上的spawnEntity方法，现在会取用字符串或EntityType的一个变种。",
+      "为Dimension类加入了placeFeature和​placeFeatureRuleAPI。",
+      "为Camera类加入了isValid属性。",
+      "@minecraft/server的2.0.0-beta版本",
+      "@minecraft/server的beta版本现已更新至2.0.0-beta。",
+      "这意味着发生了破坏性更改，主要与脚本执行时间相关。",
+      "1.X版本会继续按原样运行。",
+      "具体更新：",
+      "加入了新的权限EarlyExecution。",
+      "2.0.0-beta及更高版本现在使用早期执行权限进行执行，低于2.0.0-beta的脚本仍然无需早期执行即可进行执行。",
+      "所有后发和前发事件、subscribe和​unsubscribe方法现在可在早期执行中调用。",
+      "下列System方法现在可在早期执行中调用："
+    ],
+    "生物群系": [
+      "修复了client_biome的加载问题，因此grass_appearance和​foliage_appearance现在会在format_version低于1.21.60时添加。（MCPE-189816）"
+    ],
+    "方块": [
+      "water（水）和lava（熔岩）不再会在毗邻位置产生方块更新时转变为flowing_water（流动的水）或flowing_lava。water（水）和lava（熔岩）现在无需更改为其他方块即可响应队列中的刻。",
+      "对minecraft:map_color组件作出了模式更改。",
+      "其现在是一个带有color和​tint_method两个字段的JSON对象。",
+      "color为必需的字符串字段，要求使用RGB的十六进制颜色，前缀为#字符。",
+      "tint_method为字符串字段，会将颜色与预定义的色调相乘。支持的值有none、​default_foliage、​birch_foliage、​evergreen_foliage、​grass和​water。",
+      "为了方便，旧的模式格式仍然受支持。",
+      "示例：",
+      "\"minecraft:map_color\":{\"color\":\"#ABCDEF\",\"tint_method\":\"grass\"}",
+      "或：",
+      "\"minecraft:map_color\":{\"color\":\"#ABCDEF\"}",
+      "或：",
+      "\"minecraft:map_color\":\"#ABCDEF\"",
+      "加入了minecraft:replaceable组件，用于确定新的方块是否可以替换特定位置上的已有方块。若方块未添加此组件，则无法被替换。",
+      "将一个方块放置在液体中，然后将另一方块放置在第一个方块旁时不再会短暂替换掉玩家第二个放置的方块，进而导致玩家掉入液体中。",
+      "结构方块被放置时不再会短暂改变纹理。（MCPE-185531）",
+      "海泡菜现在能够放置在提供中心支撑的任意方块上。（MCPE-116152）",
+      "屏障不再会阻止其后方的区块渲染。（MCPE-153515）"
+    ],
+    "组件": [
+      "一些使用效果持续时间的组件现在可以被设置为infinite，包括：",
+      "minecraft:attack的effect_duration",
+      "effects列表中minecraft:healable的duration",
+      "minecraft:mob_effect的effect_time",
+      "minecraft:projectile的durationeasy、​durationnormal和​durationhard现在均可使用infinite。",
+      "effects列表中minecraft:food的duration",
+      "add_effects列表中minecraft:spell_effects的duration",
+      "minecraft:combat_regeneration的regeneration_duration"
+    ],
+    "基岩版编辑器": [
+      "修复了方块选取器和列表中的潜影盒纹理不正确的问题。",
+      "修复了使用局部文本搜索时会将部分方块从方块选取器列表中排除的漏洞。",
+      "现在方块选取器搜索文本框会在打开模态框时拥有UI焦点。",
+      "线条工具：已存在两个点时，左键单击不再会清除线条。左键单击的行为现在与⇧ Shift + 左键单击相同，并且总会将点添加至已有的线条上。",
+      "加入了启用显示隐形方块设置时选中隐形方块的光标支持。",
+      "加入了IPropertyPane.addProgressIndicatorAPI函数，用以显示指示器或进度条属性项目。",
+      "加入了ImageAnimationDataAPI类型，用以表示图像的精灵表动画。",
+      "为IActionBarItemCreationParams加入了iconAnimation: ImageAnimationData属性。",
+      "加入了IPropertyPane.addLinkAPI函数，用以在窗格中创建链接按钮。",
+      "在beta中将system.isEditorWorld属性加入至@minecraft/server。",
+      "现在使用minecraft/server的2.0.0-beta。",
+      "registerEditorExtension可在早期执行中调用。"
+    ],
+    "实体": [
+      "修复了在雷暴期间穿梭飞行于各个生物群系时会出现No more entities断言错误的漏洞。"
+    ],
+    "拼图": [
+      "修复了minecraft:jigsaw中heightmap_projection的world_surface类型相关的问题，以能够在水和树叶方块上生成。"
+    ],
+    "JSON事件": [
+      "add_mob_effect事件中的duration参数现在可以被设置为infinite。"
+    ],
+    "音效": [
+      "加入了对实体音效变种的支持。",
+      "实体音效现在拥有variants字段，此字段会根据运行时实体定义不同音效变种。",
+      "变种拥有key字段，此字段可读取返回字符串的Molang表达式以选择音效变种（例如：查询枚举出的实体属性）。",
+      "变种拥有map字段，此字段包含变种标识符以及其覆盖的声音事件的键对值。",
+      "为实体播放音效时会尝试计算其变种，并检查该变种是否覆盖声音事件，若没有，则播放来自基础实体的音效。若失败，则返回到运行自defaults的已有逻辑。",
+      "示例：",
+      "指定一个拥有以下属性的生物：",
+      "\"minecraft:emotional_state\":{\"type\":\"enum\",\"values\":[\"neutral\",\"angry\",\"happy\",\"sad\"],\"default\":\"neutral\",\"client_sync\":true}",
+      "可通过查询属性来播放实体音效变种：",
+      "{\"entity_sounds\":{\"entities\":{\"test_mob\":{\"volume\":1.0,\"pitch\":1.0,// 各种事件的基础音效\"events\":{\"ambient\":\"mob.test_mob.ambient\",\"death\":\"mob.test_mob.death\",\"step\":{\"sound\":\"mob.test_mob.step\",\"volume\":0.8,\"pitch\":1.0},\"attack\":\"mob.test_mob.attack\"},\"variants\":{// 返回变种枚举字符串的键，可以使用任意能够返回字符串的Molang表达式\"key\":\"query.property('minecraft:emotional_state')\",\"map\":{// 若返回的变种键在此处未得到处理，则使用基础音效\"neutral\":{\"volume\":1.0,\"pitch\":1.0,\"events\":{// 若事件在变种中未得到处理，则使用基础音效\"death\":\"mob.test_mob.death.netural\"}},\"angry\":{\"volume\":1.0,\"pitch\":1.0,\"events\":{// 变种可以覆盖不同于其他变种的事件\"death\":\"mob.test_mob.death.angry\",\"ambient\":\"mob.test_mob.ambient.angry\"}}}}}}}}}"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“2025 第一次更新”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "灌木丛": [
+      "一种新的装饰性方块。会在以下生物群系以斑块形式生成："
+    ],
+    "原始桦木森林": [
+      "可用于堆肥，有30%的概率使堆肥层数增加一层。",
+      "对其使用骨粉会在附近可生成位置生成新灌木丛。",
+      "能放置于泥土类方块上。",
+      "发出等级为2的光照。"
+    ],
+    "萤火虫灌木丛": [
+      "会在沼泽和水源附近自然生成。",
+      "在内部天空光照≤13时，每刻发光的萤火虫粒子有70%的概率会在萤火虫灌木丛附近生成。",
+      "对其使用骨粉会生成另一个萤火虫灌木丛物品。",
+      "发出等级为2的光照。",
+      "可用于堆肥，有30%的概率使堆肥层数增加一层。",
+      "能放置于泥土类方块上。"
+    ],
+    "枯叶堆": [
+      "一种装饰性方块，自然生成于森林、黑森林和疏林恶地。",
+      "类似于粉红色花簇，同一格空间内最多可以容纳4个枯叶堆。",
+      "有4种方向。",
+      "有独特方块音效。",
+      "可由烧炼树叶获得，也可以作为燃料用于烧炼。",
+      "作为燃料用于烧炼时，每个枯叶堆可烧炼0.5个物品。",
+      "不同于Java版，对枯叶堆使用骨粉会生成更多枯叶堆。"
+    ],
+    "野花簇": [
+      "一种花，自然生成于桦木森林、原始桦木森林和草甸。",
+      "类似于粉红色花簇，同一格空间内最多可以容纳4株野花簇。",
+      "对野花簇使用骨粉会生成更多野花簇。",
+      "有4种方向。",
+      "可以放入堆肥桶中堆肥。",
+      "可以用于合成黄色染料。",
+      "能用于引诱、喂食蜜蜂。"
+    ],
+    "沙子、红沙和所有陶瓦": [
+      "现在当任意三个方向上八格外也存在上述方块时会发出环境音效。",
+      "block.sand.idle会在所有生物群系中播放；在沙漠和恶地中，还可能播放block.sand.wind。"
+    ],
+    "枯萎的灌木": [
+      "现在当下方两格均为沙子、红沙或陶瓦时会发出环境音效。"
+    ],
+    "牛": [
+      "加入了牛的变种：热带牛和寒带牛。",
+      "原本的牛即为温带牛变种。",
+      "更新了温带牛的纹理和模型。",
+      "现在有鼻子了。",
+      "现在它的腿是镜像的。",
+      "繁殖出的牛的变种从其父母的变种中随机选择。"
+    ],
+    "草甸": [
+      "矮草丛现在会生成得更稀疏。"
+    ],
+    "游戏内容": [
+      "修复了连续放置方块时客户端与服务端之间会产生不匹配情况，进而导致方向敏感型方块有时会更改为错误方块的问题。"
+    ],
+    "粒子": [
+      "加入了firefly_particle粒子。"
+    ],
+    "waitTicks": [
+      "BlockComponentRegistry的registerCustomComponent方法现在可在早期执行中调用。",
+      "ItemComponentRegistry的registerCustomComponent方法现在可在早期执行中调用。",
+      "为SystemBeforeEvents加入了startup属性。",
+      "加入了StartupEvent。",
+      "加入了StartupEventSignal。",
+      "将WorldAfterEvents的worldInitialize属性重命名为worldLoad。",
+      "移除了WorldBeforeEvents的worldInitialize。",
+      "将WorldInitializeAfterEvent重命名为WorldLoadAfterEvent。",
+      "将WorldInitializeAfterEventSignal重命名为WorldLoadAfterEventSignal。",
+      "移除了WorldInitializeBeforeEvent。",
+      "移除了WorldInitializeBeforeEventSignal。",
+      "移除了Dimension.runCommandAsync，因为大部分命令实际上并未异步运行。",
+      "若要异步运行函数，则需研究通过System.runJob使用工作。",
+      "EntityComponent.getEntity方法现在会在底层实体无效时抛错（而非像之前一样返回未定义）。",
+      "EntityInventoryComponent.container属性现在会在底层实体无效时抛错（而非像之前一样返回未定义）。",
+      "将各种类上的isValid方法更改为只读属性。",
+      "getComponents、​getComponent和​hasComponent现在会在实体无效时抛错。",
+      "applyKnockback方法现在会取用VectorXZ参数作为击退水平力（包括强度/大小）， 以及垂直强度参数。",
+      "为了从V1转换，应该标准化之前的方向向量，并将其与旧的水平强度值相乘。垂直强度与以前相同。"
+    ],
+    "EffectType": [
+      "getName方法现在始终会连同名称一起返回minecraft:命名空间前缀。"
+    ],
+    "Effect": [
+      "typeId属性现在始终会连同名称一起返回minecraft:命名空间前缀。",
+      "移除了minecraft:air（空气）物品（其仍然是有效方块）。",
+      "承诺现在会与后发事件和系统任务一同刷新。",
+      "system.waitTicks()现在接受参数界为0的最小值来运行刻。",
+      "加入了GraphicsMode枚举和Player.graphicsMode，用以查询玩家当前在服务器上的图形模式。",
+      "在beta中将system.isEditorWorld属性加入至@minecraft/server。"
+    ],
+    "BlockLocationIterator": [
+      "在beta中加入了isValid(): boolean方法。",
+      "此方法通过修改划线标出的方块体积来检查迭代器是否已失效。",
+      "为beta加入了BlockMapColorComponentAPI。",
+      "为beta加入了TintMethod枚举。",
+      "@minecraft/server的2.0.0-beta版本中的早期执行更改：",
+      "下列RegistrationBuilder方法现在可在早期执行中调用："
+    ],
+    "tag": [
+      "register函数现在可在早期执行中调用。",
+      "registerAsync函数现在可在早期执行中调用。"
+    ],
+    "API - Molang": [
+      "为Molang加入了query.graphics_mode_is_any。",
+      "接受以下任意参数：simple、​fancy、​deferred和​raytraced。这些参数均为设置菜单中可用的图形模式。"
+    ],
+    "图形": [
+      "为延迟渲染预览功能中的光照JSON模式加入了新版本（1.21.70）。此新版本加入了对控制天空光照强度的支持，此功能会影响原有天空光照和天空反射的贡献。",
+      "以下对象片段可添加至lighting/global.json中的minecraft:lighting_settings对象下以控制天空强度：",
+      "\"sky\":{\"intensity\":1.0// 位于[0.1 - 1.0]之间的浮点值}",
+      "改进了延迟渲染预览功能中的屏幕空间反射的质量，特别是某些角度下会出现洞孔的情况。",
+      "修复了导致延迟渲染预览功能中镜面高光比预期低得多的水面渲染漏洞。"
+    ],
+    "性能与稳定性": [
+      "解决了修改延迟渲染图形设置下的点光源阴影设置时发生的崩溃。"
+    ],
+    "Realms": [
+      "修复了随机刻速度和重生半径会重置为默认值的问题。（REALMS-11759）",
+      "修复了在Realms上编辑世界时，“重置随机刻速度”会不起作用的问题。"
+    ],
+    "用户界面": [
+      "在分屏模式下进行游戏时，收纳袋的提示框不再会对除第一个玩家外的玩家显示。",
+      "调整了Minecoin购买屏幕UI，以不显示流散的像素。修复了PS4平台上的重叠问题。",
+      "现在使用触摸控制将带有lock_in_inventory组件的物品替换为来自创造模式物品栏的物品时会产生警告消息。",
+      "现在可骑乘实体的物品栏透明背景会与其他屏幕对齐。（MCPE-189224）",
+      "修复了在携带版UI下将物品从创造模式物品栏移动至玩家物品栏时产生的问题。（MCPE-185361）"
+    ],
+    "原版趋同": [
+      "信标渲染不再受该信标与玩家之间的垂直距离限制。（MCPE-25228）",
+      "修复了黑森林与其他生物群系的北部边界沿线区域缺失树木的问题。",
+      "更改了黑森林中的树木组成以匹配Java版，同时增加了深色橡树的数量，并减少了其他树木的普遍程度。",
+      "驴现在会生成于热带草原。（MCPE-118688）",
+      "驴现在会在平原以1-3只为一组生成，而不是以4-6只为一组。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.70.20 — Minecraft Feedback，2025年1月30日。",
+      "Minecraft Preview 1.21.70.20 — Minecraft.net，2025年1月30日。",
+      "MCPE-190222 — 漏洞状态为“已修复”。",
+      "MCPE-190253 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

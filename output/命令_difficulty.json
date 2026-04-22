@@ -1,0 +1,5 @@
+{
+  "title": "命令/difficulty",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdifficulty",
+  "text": "本条目介绍的是命令。关于在Minecraft中直接影响游戏的难易程度的一个选项，请见“难度”。\ndifficulty\n需要的权限等级\nJava版：2\n基岩版：1\n限制条件\n启用作弊[仅基岩版]\n设定世界难度等级。\n语法\nJava版\ndifficulty [easy|hard|normal|peaceful]\n基岩版\ndifficulty <difficulty: Difficulty>\ndifficulty <difficulty: int>\n参数\nJE：peaceful|easy|normal|hard\nBE：difficulty: Difficulty：enum，或difficulty: int：int\n新的游戏难度。必须为以下之一：\npeaceful（在基岩版中可简写为p或0）为和平难度\neasy（在基岩版中可简写为e或1）为简单难度\nnormal（在基岩版中可简写为n或2）为普通难度\nhard（在基岩版中可简写为h或3）为困难难度\n在Java版中，若未指定参数，则查询当前游戏难度。\n结果\n命令\n触发条件\nJava版\n基岩版\n任意\n参数未正确指定\n无法解析\n更改前的难度与更改后的难度一致\n执行失败\n执行成功\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n/difficulty ...\n执行成功\n1\n0\n/difficulty\n执行成功\n1\n当前难度的ID。（和平 = 0，简单 = 1，普通 = 2，困难 = 3）\n任意\n基岩版\n执行失败\n0\nN/A\n执行成功\n1\nN/A\n示例\n难度更改为困难：difficulty hard、difficulty h[仅基岩版]或difficulty 3[仅基岩版]\n历史\nJava版\n1.4.2\n12w32a\n加入了/difficulty命令。\n携带版\n1.0.5\n1.0.5.0\n加入了/difficulty命令。\n参见\n/gamemode — 更改玩家的游戏模式（创造、生存模式等）\n导航"
+}

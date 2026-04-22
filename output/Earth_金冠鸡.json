@@ -1,0 +1,5 @@
+{
+  "title": "Earth:金冠鸡",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E9%87%91%E5%86%A0%E9%B8%A1",
+  "text": "金冠鸡\n最大生命值\n4（）\n类型\n被动型\n尺寸\n高度：0.7格\n宽度：0.4格\n实体ID\n?\n金冠鸡（Gold Crested Chicken）是一种顶部有金色羽毛的鸡变种，有着罕见级别的稀有度。\n获取\n金冠鸡可作为罕见级别的生物在鸡可点击物中获得。\n行为\n主条目：鸡 § 行为\n金冠鸡有着与普通鸡相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n金冠鸡死亡时掉落：\n0-2 羽毛\n1 生鸡肉（若被烧死则掉落熟鸡肉）\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.chicken.say\n受伤\nmob.chicken.hurt\n死亡\nmob.chicken.hurt\n行走\nmob.chicken.step\n下蛋\nmob.chicken.plop\n数据值\nID\n名称\n命名空间ID\n金冠鸡\ngold_crested_chicken\n历史\nMinecraft Earth\n0.33.0\n加入了金冠鸡。\n画廊\n一些鸡的概念设计，包含金冠鸡\n导航"
+}

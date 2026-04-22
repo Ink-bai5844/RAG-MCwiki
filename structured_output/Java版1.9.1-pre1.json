@@ -1,0 +1,88 @@
+{
+  "title": "Java版1.9.1-pre1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.9.1-pre1",
+  "structured_content": {
+    "默认分类": [
+      "1.9.1-pre1"
+    ],
+    "发布时间": [
+      "2016年3月9日"
+    ],
+    "预发布版归属": [
+      "1.9.1"
+    ],
+    "协议版本": [
+      "107"
+    ],
+    "数据版本": [
+      "170"
+    ],
+    "资源包版本": [
+      "2",
+      "◄◄1.9",
+      "1.9.2►►",
+      "1.9.1-pre2►",
+      "1.9.1-pre1是Java版1.9.1的首个预发布版，发布于2016年3月9日。"
+    ],
+    "鞘翅": [
+      "加入了鞘翅的音效。",
+      "声音代码为item.elytra.flying。"
+    ],
+    "盔甲": [
+      "加入了盔甲属性：盔甲韧性generic.armorToughness，计算公式为：",
+      "totalDamage=damage×(1−max(defensePoints5,defensePoints−damage2+toughness4)25)",
+      "其中，totalDamage为总伤害值；damage为伤害值；defensePoints为护甲值；toughness为盔甲韧性。",
+      "钻石甲有两点盔甲韧性，其他的盔甲均为0点盔甲韧性。一整套钻石甲会给予8点盔甲韧性。",
+      "在options.txt中加入了新选项：enableWeakAttacks。",
+      "若设置为false，武器冷却低于75%时客户端会忽略攻击尝试。"
+    ],
+    "发射器": [
+      "把每游戏刻执行事件的次数限制从1000提高到了65536。"
+    ],
+    "漏斗": [
+      "漏斗现在可以从上方被遮挡的箱子里取出东西。"
+    ],
+    "常规": [
+      "改进了AI。"
+    ],
+    "目标选择器": [
+      "实体选择器c（数量）现在使用真正的坐标计算，不再基于整数坐标。"
+    ],
+    "战斗": [
+      "如果武器没有打中的话不再会进入冷却时间。"
+    ],
+    "战利品表": [
+      "现在也可以在发射器和投掷器上工作。",
+      "丛林神庙里装着弓箭的发射器现在也以战利品表的形式工作。"
+    ],
+    "会话ID": [
+      "不再由游戏设置到个人信息和启动器。"
+    ],
+    "修复": [
+      "修复了8个漏洞",
+      "1.9前正式版的漏洞",
+      "MC-7961 — 箱子不能开启时，不能用漏斗向其中添加物品，也不能从其中取出物品。",
+      "MC-56162 — /worldborder damage amount 0命令不起效果。",
+      "MC-95352 — 空间目标参数c、dx、dy和dz的行为异常且不一致。",
+      "1.9的漏洞",
+      "MC-90257 — 命令方块链可能需要1刻以上的时间来完全执行。",
+      "MC-96219 — 可以使用活塞复制方块（幽灵方块）。",
+      "MC-96927 — 选择器中的C=指向的是不准确的实体位置。",
+      "MC-98327 — 鞘翅纹理有透明度问题。"
+    ],
+    "其他漏洞": [
+      "修复了游戏引擎尝试错误地随机生成不存在的生物的漏洞。"
+    ],
+    "你知道吗": [
+      "此版本曾经在启动器中移除，但在2018年9月重新加入。"
+    ],
+    "参考": [
+      "Minecraft 1.9.1 Pre-Release 3（存档），来自Searge。Mojang.com，2016年3月9日。",
+      "Elytras have sounds? Well, in 1.9.1 pre-release 1 they do. Read about that (and more) at http://mojang.com/2016/03/minecr …，来自@SeargeDP。X（曾名Twitter），2016年3月9日。",
+      "MC-96927 — 漏洞状态为“已修复”。",
+      "MCL-4420 — “会话ID在启动器中显示为<censored>，但已正确写入日志文件。” — 漏洞状态为“有意为之”。",
+      "\"Paper patch 0078\" – https://github.com/starlis/Paper/blob/b2dd99e74e91fbe5f7c28fe29faa58b7162c1aa6/Spigot-Server-Patches/0078-Optimize-Navigation-Listener.patch",
+      "http://mojang.com/2016/03/minecraft-191-pre-release-1/"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "物品堆叠组件/trim",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Ftrim",
+  "text": "此模板已被弃用，因历史使用而保留。\n请使用编码格式/DataComponent代替。\ntrim 物品堆叠组件\n*\n*material：一个盔甲纹饰材料（可以用 字符串指定一个盔甲纹饰材料的命名空间ID，或直接在此处以 类型定义一个新的盔甲纹饰材料）。\n*\n*asset_name：决定盔甲纹饰材料覆盖纹理的位置后缀。\n*\n*description：锻造原材料的名称。\n见文本组件格式。\noverride_armor_assets：对于指定的装备模型，使用指定纹理替换覆盖纹理asset_name。\n<装备模型命名空间ID>：覆盖纹理的位置后缀。\n*\n*pattern：一个盔甲纹饰图案（可以用 字符串指定一个盔甲纹饰图案的命名空间ID，或直接在此处以 类型定义一个新的盔甲纹饰图案）。\n*\n*asset_id：盔甲纹饰的命名空间ID，同时也用于推断盔甲纹饰纹理的位置。\ndecal：（默认为false）在渲染盔甲纹饰时是否只在原盔甲纹理的位置上渲染，而不是全部渲染而不考虑盔甲本身纹理。\n*\n*description：盔甲纹饰的名称。\n见文本组件格式。"
+}

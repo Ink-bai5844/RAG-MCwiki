@@ -1,0 +1,5 @@
+{
+  "title": "Java版26.1-snapshot-9",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8826.1-snapshot-9",
+  "text": "26.1-snapshot-9\n版本\nJava版\n类型\n快照\n发布时间\n2026年2月18日\n快照归属\n26.1\n下载\n客户端（.json）\n服务端\n协议版本\nDEC: 1073742119\nHEX: 40000127\n数据版本\n4777\n资源包版本\n81.1\n数据包版本\n99.2\n◄◄1.21.11\n26.1.1►►\n◄26.1-snapshot-8\n26.1-snapshot-10►\n26.1-snapshot-9是Java版26.1的第9个快照，发布于2026年2月18日，修复了一些漏洞。\n修复\n修复了5个漏洞\n1.21.11前正式版的漏洞\nMC-306566 — 不死图腾的动画效果在使用/tick freeze进行游戏冻结时会抖动。\n26.1开发版本的漏洞\nMC-305579 — 在床上时幼年猫会反复喵叫。\n上个开发版本的漏洞\nMC-306456 — 超出高度限制的实体会导致游戏崩溃。\nMC-306479 — 记分项启用below_name显示时，实体阴影会升高。\nMC-306489 — 当任何记分项启用below_name显示时，物品展示框的视觉效果会发生偏移。\n视频\n由slicedlime制作的视频：\n参考\nMinecraft 26.1 Snapshot 9 — Minecraft.net，2026年2月18日。\n导航"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Java版Classic 0.0.19a 06",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.19a_06",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "此版本重新上传前的版本目前已丢失。",
+      "此版本被重新上传过。虽然有重新上传后版本的留档，但没有重新上传前的留档。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.19a_06"
+    ],
+    "服务端版本": [
+      "1.7"
+    ],
+    "发布时间": [
+      "2009年6月20日"
+    ],
+    "重新上传": [
+      "此版本的客户端于01:37（UTC）被重新上传，以再次尝试修复系统计时器故障，然而此次修复仍然没有成功。"
+    ],
+    "al_version": [
+      "6.16",
+      "6.17",
+      "6.18",
+      "6.19",
+      "6.20",
+      "◄◄0.0.19a",
+      "0.0.20a►►",
+      "◄0.0.19a_05",
+      "0.0.19a_06是Java版的一次更新，发布于2009年6月20日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "尝试修复先前版本故障的系统计时器。",
+      "对一名玩家起了作用，但对另一名没有。"
+    ],
+    "参考": [
+      "Archive.org上的IRC记录; #minecraft.20090619.log. 2009年6月19日(UTC−5)。",
+      "IRC记录: \"P8:29:33 <Rroff> when I have the game running the system timer goes nuts\" [...] \"P8:32:12 <Notch> Rroff, Zurik: Does it work better now?\", \"P8:32:22 <Notch> (client _06)\" (2009年6月20日 01:32 UTC)",
+      "https://web.archive.org/web/0/https://notch.tumblr.com/image/127131555",
+      "IRC记录: \"P8:38:56 <ZomBuster> what is new in 06?\" [...] \"P8:39:07 <Notch> not much, trying to fix a timing issue rrof has\" (2009年6月19日 01:38至01:39 UTC)",
+      "IRC记录: \"P8:33:16 <Zuriki> Fixed my clock Notch ^-^\" (2009年6月20日 01:33:16 UTC)",
+      "IRC记录: \"P8:34:35 <Notch> Rroff: Any luck? =)\", \"P8:34:38 <Rroff> nope sorry\" (2009年6月20日 01:34 UTC)",
+      "IRC记录: \"P8:35:38 <Rroff> when I have the game running my system timer goes nuts\" [...] \"P8:37:37 <Notch> Rroff: Try now\" [...] \"P8:37:50 <Notch> version _06, I think I forgot to bump the number\" [...] \"P8:38:53 <Rroff> nope sorry still going nuts\" [...] \"P8:41:42 <Notch> whoa, it's breaking your timer :-O\" [...] \"P8:42:11 <Notch> Rroff: I'll look into it more tomorrow\" (2009年6月19日 01:35至01:42 UTC)"
+    ]
+  }
+}

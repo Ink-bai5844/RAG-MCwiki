@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.61",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.61",
+  "text": "1.21.61\n版本\n基岩版\n服务端版本\n1.21.61.01\n内部版本号\nAndroid：1.21.61.01\nPlayStation 4：3.06\nPlayStation 5：1.013.000\nWindows：1.21.6101.0\n版本码\nAndroid：\n952106101（armeabi-v7a，34）\n962106101（x86，34）\n972106101（arm64-v8a，34）\n982106101（x86_64，34）\niOS/iPadOS：\n872544840\n发布时间\nChromeOS/Android, Fire, iOS/iPadOS, PlayStation, Windows, Xbox - 2025年2月19日\nNintendo Switch - 2025年2月20日\n下载\n服务端\nWindowsLinux\n协议版本\n776\n◄◄1.21.50\n1.21.70►►\n◄1.21.60\n1.21.62►\n1.21.61是基岩版的一次热修复更新，在除Nintendo Switch外的平台上发布于2025年2月19日，在Nintendo Switch平台上发布于2025年2月20日，修复了一些漏洞。此版本与1.21.60相兼容。\n修复\n常规\n修复了玩家尝试加入自己的Realm时会看到错误消息的问题。\n用户界面\n修复了重新启动服务器后，保留物品栏选项会被关闭的问题。（BDS-19921）\n触摸控制：修复了玩家打开菜单后可以斜对地移动的问题。（MCPE-190308）\n性能与稳定性\n修复了在编辑器中加载或创建项目时由于自定义方块在被加载前访问材质实例而发生的崩溃。\n生物\n疣猪兽和僵尸疣猪兽现在再次会被弹射物一致地击中。\n方块\n修复了灯笼会随机产生更新和发出红石信号的问题。\n参考\nMinecraft - 1.21.61 (Bedrock) — Minecraft Feedback，2025年2月19日。\n导航"
+}

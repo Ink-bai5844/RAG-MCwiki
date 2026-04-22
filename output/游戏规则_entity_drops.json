@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/entity drops",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fentity_drops",
+  "text": "entity_drops（Java版）\n名称\n非生物实体掉落\n描述\n控制矿车（包括内容物）、物品展示框、船等的物品掉落。\n分类（JE）\n掉落\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nentity_drops\ndoEntityDrops（基岩版）\n名称\n实体掉落战利品\n描述\n非生物实体，如图画，在被摧毁时会掉落物品\n分类（BE旧UI）\n作弊\n分类（BE新UI）\n无敌模式\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ndoEntityDrops\nentity_drops[仅Java版]或doEntityDrops[仅基岩版]是控制非生物实体掉落物品的游戏规则。\n行为\n当entity_drops[仅Java版]或doEntityDrops[仅基岩版]为false时：\n船、运输船、矿车、运输矿车、命令方块矿车、漏斗矿车、TNT矿车、动力矿车、刷怪笼矿车[仅Java版]、画、物品展示框、荧光物品展示框被破坏后不会掉落任何物品，包括用于放置这些实体的物品和容器的内容物。\n物品展示框、荧光物品展示框中的物品被移除时不会掉落。\n可以掉落掉落物的下落的方块因落入无效位置或超时时不会掉落掉落物。[需要在基岩版上验证]\n解开实体上的拴绳，或被拴住的铜傀儡转化为铜傀儡像时不会掉落拴绳。[需要在基岩版上验证]\n历史\nJava版\n1.8.1\npre1\n加入了游戏规则doEntityDrops。\n1.21.11\n25w44a\n将游戏规则doEntityDrops重命名为entity_drops。\n携带版\n1.1.0\n1.1.0.0\n加入了游戏规则doEntityDrops。\n导航"
+}

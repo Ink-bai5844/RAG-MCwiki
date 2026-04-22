@@ -1,0 +1,111 @@
+{
+  "title": "Left to Bloom",
+  "source_url": "https://zh.minecraft.wiki/w/Left_to_Bloom",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：补充描述章节"
+    ],
+    "发行时间": [
+      "2021年10月20日"
+    ],
+    "时长": [
+      "05:42"
+    ],
+    "网易云音乐": [
+      "Minecraft: Caves & Cliffs (Original Game Soundtrack)",
+      "No.2"
+    ],
+    "Ancestry ►": [
+      "Left to Bloom是一首由Lena Raine创作的音乐。"
+    ],
+    "稀疏丛林": [
+      "8.33%"
+    ],
+    "樱花树林": [
+      "11.11%"
+    ],
+    "繁花森林": [
+      "9.09%"
+    ],
+    "黑森林[仅Java版]": [
+      "5%"
+    ],
+    "丛林": [
+      "7.69%"
+    ],
+    "繁茂洞穴": [
+      "16%[仅Java版]",
+      "17.39%[仅基岩版]"
+    ],
+    "草甸": [
+      "14.29%"
+    ],
+    "原始桦木森林[仅基岩版]": [
+      "5.88%"
+    ],
+    "黑森林[仅基岩版]": [
+      "5.26%",
+      "其他："
+    ],
+    "蘑菇岛": [
+      "4.55%[仅Java版]",
+      "4.76%[仅基岩版]"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。"
+    ],
+    "ID": [
+      "Java版:"
+    ],
+    "music.creative": [
+      "基岩版:"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "Java版": [
+      "1.18",
+      "21w42a",
+      "加入了\"left_to_bloom.ogg\"。",
+      "现在\"left_to_bloom.ogg\"会在主菜单播放。",
+      "1.19",
+      "22w16a",
+      "现在\"left_to_bloom.ogg\"不再能在主菜单播放了。",
+      "现在\"left_to_bloom.ogg\"会在森林、丛林和原始针叶林播放。",
+      "1.20",
+      "23w17a",
+      "现在\"left_to_bloom.ogg\"会在樱花树林播放。"
+    ],
+    "基岩版": [
+      "1.18.0",
+      "1.18.0.22",
+      "加入了包含\"left_to_bloom.ogg\"的可下载音乐，属于市场内容。",
+      "现在\"left_to_bloom.ogg\"会在主菜单播放。",
+      "1.19.0",
+      "1.19.0.27",
+      "现在\"left_to_bloom.ogg\"不再能在主菜单播放了。",
+      "1.19.10",
+      "1.19.10.20",
+      "iOS/iPadOS平台上的游戏应用现在会自带音乐，\"left_to_bloom.ogg\"不再需要在市场中下载。",
+      "1.19.30",
+      "1.19.30.22",
+      "Android平台上的游戏应用现在会自带音乐，\"left_to_bloom.ogg\"不再需要在市场中下载。"
+    ],
+    "正式版": [
+      "Fire平台上的游戏应用现在会自带音乐，\"left_to_bloom.ogg\"不再需要在市场中下载。"
+    ],
+    "你知道吗": [
+      "该曲目原定于草甸、繁茂洞穴、森林、丛林和原始针叶林中播放。"
+    ],
+    "参考": [
+      "MC-241779 — 漏洞状态为“有意为之”。"
+    ]
+  }
+}

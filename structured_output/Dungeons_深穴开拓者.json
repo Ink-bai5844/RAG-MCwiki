@@ -1,0 +1,33 @@
+{
+  "title": "Dungeons:深穴开拓者",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%B7%B1%E7%A9%B4%E5%BC%80%E6%8B%93%E8%80%85",
+  "structured_content": {
+    "存档ID": [
+      "SpelunkersArmor_Unique1",
+      "深穴开拓者盔甲，已经被一代又一代勇敢的洞穴探险者和矿工传承下来。"
+    ],
+    "——物品描述": [
+      "深穴开拓者（Cave Crawler）是Minecraft Dungeons中的一件盔甲。它是探穴者护甲的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "迎风之巅（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "属性": [
+      "+50% 法器伤害",
+      "+20% 武器伤害"
+    ],
+    "装备": [
+      "sfx_item_spelunkersArmorUnique1Place"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了深穴开拓者。"
+    ]
+  }
+}

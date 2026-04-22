@@ -1,0 +1,141 @@
+{
+  "title": "基岩版1.20.30.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.30.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.30.22"
+    ],
+    "服务端版本": [
+      "1.20.30.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952003022（armeabi-v7a，33）",
+      "962003022（x86，33）",
+      "972003022（arm64-v8a，33）",
+      "982003022（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年8月17日"
+    ],
+    "测试版归属": [
+      "1.20.30"
+    ],
+    "协议版本": [
+      "613",
+      "◄◄1.20.15",
+      "1.20.31►►",
+      "◄1.20.30.21",
+      "1.20.30.23►",
+      "beta 1.20.30.22（ChromeOS/Android）、Preview 1.20.30.22（Xbox/Windows/iOS/iPadOS）是基岩版1.20.30的第7个测试版，发布于2023年8月17日，加入了/transfer命令，更新了游玩屏幕，并修复了一些漏洞。"
+    ],
+    "/transfer": [
+      "用于将玩家转移到另一个服务器上，语法如下：",
+      "/transfer <pfidOrMSA: string> <server: string> <port: int>。",
+      "参数：",
+      "pfidOrMSA: string：指定玩家。",
+      "server: string：指定服务器。",
+      "port: int：指定服务器的端口。"
+    ],
+    "方块": [
+      "现在校频幽匿感测体的紫水晶部分会在其他部分变亮时一同变亮。（MCPE-168813、MCPE-169953）",
+      "现在使用命令放置的悬挂式告示牌拥有正确的碰撞箱。（MCPE-163456）",
+      "第三人称视角不再能够穿过堆肥桶的底部。（MCPE-171213）"
+    ],
+    "染色陶瓦": [
+      "IDstained_hardened_clay现在被拆分为：white_terracotta、​orange_terracotta、​magenta_terracotta、​light_blue_terracotta、​yellow_terracotta、​lime_terracotta、​pink_terracotta、​gray_terracotta、​light_gray_terracotta、​cyan_terracotta、​purple_terracotta、​blue_terracotta、​brown_terracotta、​green_terracotta、​red_terracotta和​black_terracotta。",
+      "stained_hardened_clay及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "物品": [
+      "在1.20.30及更高版本的JSON格式中开放了实验性物品组件minecraft:food。",
+      "在1.20.30及更高版本的JSON格式中加入了minecraft:interact_button物品组件，用以启用和设置交互按钮上的文本。"
+    ],
+    "弩": [
+      "现在会在发射时消耗耐久度，而不是在装填时消耗耐久度。"
+    ],
+    "游戏规则": [
+      "将recipesUnlock游戏规则的默认值更改为true。"
+    ],
+    "游玩屏幕": [
+      "更新了游玩屏幕。",
+      "优化了导航栏、响应式世界组件和观感。",
+      "将“好友”标签页替换为“Realms”，并从中拆分了好友按钮。",
+      "将“世界”标签页重命名为“所有世界”，并将创建世界的流程拆分为创建新的世界和通过世界模板创建世界。"
+    ],
+    "基岩版编辑器": [
+      "将重载按钮更新为工具模式，用以重新加载脚本和刷新UI。"
+    ],
+    "IPropertyPane": [
+      "加入了collapsed属性以检查窗格是否展开或折叠。",
+      "加入了collapse函数以控制折叠状态。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "API": [
+      "修复了无法使用defineProperty来重新定义原型属性的问题。（MCPE-174073）"
+    ],
+    "ItemStack": [
+      "加入了getCanPlaceOn() and getCanDestroy()。",
+      "为amount属性加入了最大限制255。",
+      "若超出该限制，则抛出异常。"
+    ],
+    "Entity": [
+      "加入了getProperty(identifier: string): boolean | number | string | undefined函数。",
+      "用于获取实体属性。",
+      "加入了setProperty(identifier: string, value: boolean | number | string): void函数。",
+      "用于在下一刻期间设置实体属性。",
+      "加入了resetProperty(identifier: string): boolean | number | string函数。",
+      "用于在下一刻期间将实体属性重置为默认值。"
+    ],
+    "beforeEvents": [
+      "加入了removeEvent事件和属性。"
+    ],
+    "afterEvents": [
+      "将removedEvent事件和属性重命名为removeEvent。"
+    ],
+    "EntityRemovedAfterEvent类": [
+      "将removedEntity字段重命名为removedEntityId: removedEntityId: string。",
+      "加入了typeId: string字段。",
+      "加入了EntityRemovedBeforeEvent类。",
+      "加入了removedEntity: Entity字段。",
+      "将EquipmentSlot移动至1.5.0，并将枚举值更改为大写的。",
+      "将EntityEquippableComponent移动至1.5.0。"
+    ],
+    "Scoreboard": [
+      "setObjectiveAtDisplaySlot返回类型现在会正确设置为ScoreboardObjective或未定义。"
+    ],
+    "ScoreboardIdentity": [
+      "getEntity返回类型现在会正确设置为Entity或未定义。",
+      "setWeatherAPI现在可以选用可选的持续时间参数来设置天气持续时间。",
+      "加入了heightRange: NumberRange只读属性。",
+      "用于获取最小或最大高度限制。",
+      "加入了Player.isSleeping和​Player.isEmoting。"
+    ],
+    "图形": [
+      "修复了延迟渲染预览功能中手持物品的光照问题。",
+      "进行了多项对点光源贡献的优化和修复。"
+    ],
+    "性能与稳定性": [
+      "修复了基岩版专用服务器在生成区块时的内存泄露问题。（BDS-17527）"
+    ],
+    "用户界面": [
+      "修复了Android平台上Joy-Con和Switch Pro控制器的/图标的相关问题。",
+      "现在可以通过点击或鼠标点击文本框以重新定位插入符号。（MCPE-131572）",
+      "将用户界面中的“暂停菜单”重命名为“游戏菜单”。",
+      "修复了地下晕影效果会渲染在其他所有HUD元素顶部的分层问题。（MCPE-159217）"
+    ],
+    "文本转语音": [
+      "文本转语音旁白现在会读出说明文本和安全区域菜单中的确认按钮。"
+    ],
+    "命令": [
+      "现在可以在命令中正确引用扁平化前拥有别名的方块。"
+    ],
+    "游戏内容": [
+      "弩现在会在发射时消耗耐久度，而不是在装填时消耗耐久度。（MCPE-46490）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.30.22 — Minecraft Feedback，2023年8月17日。"
+    ]
+  }
+}

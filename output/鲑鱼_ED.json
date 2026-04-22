@@ -1,0 +1,5 @@
+{
+  "title": "鲑鱼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%B2%91%E9%B1%BC%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n*\n*FromBucket：表示此鲑鱼是否曾被从桶中放出。如果为true，鲑鱼不会自然删除。\n*\n*type：鲑鱼的类型。可以为small（小型）、medium（中型）或large（大型）。"
+}

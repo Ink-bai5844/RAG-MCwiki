@@ -1,0 +1,5 @@
+{
+  "title": "发光鱿鱼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8F%91%E5%85%89%E9%B1%BF%E9%B1%BC%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n*\n*DarkTicksRemaining：距离发光鱿鱼发光的时间。发光时为0，不发光时为正值。"
+}

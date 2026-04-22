@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:快速射击",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%BF%AB%E9%80%9F%E5%B0%84%E5%87%BB",
+  "structured_content": {
+    "RapidFire": [
+      "提升攻击速度。"
+    ],
+    "——魔咒描述": [
+      "快速射击（Rapid Fire）是Minecraft Dungeons中的魔咒，会提升玩家远程武器的射速。提升效果随魔咒等级提升而提高。"
+    ],
+    "I": [
+      "+10% 攻击速度",
+      "1 附魔点数"
+    ],
+    "II": [
+      "+15% 攻击速度",
+      "2 附魔点数"
+    ],
+    "III": [
+      "+20% 攻击速度",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了快速射击。"
+    ]
+  }
+}

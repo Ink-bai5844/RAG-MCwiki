@@ -1,0 +1,72 @@
+{
+  "title": "辅助程序与编辑器/3D建模工具",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2F3D%E5%BB%BA%E6%A8%A1%E5%B7%A5%E5%85%B7",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "Blockbench": [
+      "一款免费的模型编辑器，具备插件、显示设置、自定义快捷键、多立方体编辑及导出基岩版模型等功能。软件易于上手，且提供在线网页版。",
+      "2023-08-30",
+      "4.8.3"
+    ],
+    "网站": [
+      "1.9+",
+      "1.9+",
+      "1.8.x; 1.9.x;"
+    ],
+    "JavaScript": [
+      "JannisX11"
+    ],
+    "Cubik Studio": [
+      "可通过立方体、平面、体素和网格设计3D模型，兼顾初学者与高级用户需求。支持导出为Minecraft方块、物品和实体的3D模型，以及OBJ、VOX、QB、STL等常见3D格式；能导入Minecraft JSON模型和Voxelize 3D模型，还可直接在表面绘制贴图等。",
+      "2018-02-12",
+      "2.9"
+    ],
+    "论坛": [
+      "14w32d"
+    ],
+    "Cubik Pro": [
+      "首款以Minecraft官方格式创建3D模型的软件，易于初学者使用。可导出用于Minecraft方块和物品的模型及OBJ、X3D等3D格式，支持导入Minecraft JSON模型并具备预览功能。",
+      "2014-04-01",
+      "0.9"
+    ],
+    "?": [
+      "8.0.11751"
+    ],
+    "Blender": [
+      "Blender是一款免费开源的媒体内容创建工具，功能丰富，占用空间小（相较于同类软件），支持大多数操作系统。",
+      "2025-11-18",
+      "5.0"
+    ],
+    "开源": [
+      "Blender2Minecraft",
+      "Blender2Minecraft是一款免费的Blender插件，可借助Blender为Minecraft资源包创建3D方块模型（网格），操作简单，无需任何Blender使用知识。",
+      "2016-12-01",
+      "1.9"
+    ],
+    "Trimble SketchUp": [
+      "Trimble SketchUp是一款3D模型创建软件，可从零开始构建模型，也能下载所需模型。全球用户会在该平台展示自己的作品，其模型库资源丰富，且软件免费。"
+    ],
+    "MC Model Maker": [
+      "MC Model Maker用于创建和编辑新资源包格式的方块模型，最多支持100个像素/立方体；可编辑各面纹理并导出为json文件。该软件基于Java编写，适用于各类设备。",
+      "2014-06-30",
+      "0.1.3"
+    ],
+    "Minecraft-SMP Toolbox": [
+      "Toolbox 2.0是创建Minecraft模型的强大工具，主要用于为Flan's Flying Mod构建模型，也支持其他各类Java模型。具备完整的3D模型预览、纹理预览及导入导出功能，免费版限制为200个体素/方块/组件。",
+      "2015-07-05",
+      "2.2.0.0"
+    ],
+    "opl's Model Creator": [
+      "opl's Model Creator是一款Minecraft 3D模型编辑器，支持编辑无限个元素、纹理、UV映射等。",
+      "2014-07-18",
+      "1.2.1"
+    ],
+    "MrCrayfish's Model Creator": [
+      "MrCrayfish's Model Creator是一款创新的3D Minecraft模型编辑器，可通过可视化方式设计模型并导出为JSON格式。操作简单，支持纹理、UV映射、旋转等功能（这些实用功能常被其他编辑器拆分使用）。更重要的是，它免费且开源！",
+      "2015-04-11",
+      "0.7.0"
+    ]
+  }
+}

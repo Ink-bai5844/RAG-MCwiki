@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/gameLoopFunction",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FgameLoopFunction",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\ngameLoopFunction\n名称\n无\n描述\n无\n分类（JE）\n无\n值类型\n字符串\n默认值\n-\n游戏规则ID\ngameLoopFunction\ngameLoopFunction是设置每游戏刻触发的函数的游戏规则。\n行为\n当gameLoopFunction不为-时，每游戏刻执行一次gameLoopFunction函数。\n历史\nJava版\n1.12\npre1\n加入了游戏规则gameLoopFunction。\n1.13\n17w49b\n移除了游戏规则gameLoopFunction，改为使用函数标签#tick。\n导航"
+}

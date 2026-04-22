@@ -1,0 +1,5 @@
+{
+  "title": "命令/detectredstone",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdetectredstone",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例\n此条目所介绍的内容已从基岩版和​教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\ndetectredstone\n是否可见\n隐藏\n需要的权限等级\n0\n限制条件\n无\n在某一方向侦测红石信号。\n语法\ndetectredstone <方向：字符串>\n参数\n方向：字符串\n指定智能体侦测红石信号的方向。必须为以下之一：\nforward来侦测前部的方块。\nback来侦测后部的方块。\nleft来侦测左侧的方块。\nright来侦测右侧的方块。\nup来侦测上部的方块。\ndown来侦测下部的方块。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n指定方向未收到红石信号\n执行失败\n不符合以上所有条件\n执行成功\n历史\n教育版\n?\n加入了/detectredstone。\n导航"
+}

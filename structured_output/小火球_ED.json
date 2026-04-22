@@ -1,0 +1,13 @@
+{
+  "title": "小火球/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B0%8F%E7%81%AB%E7%90%83%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "弹射物共通标签，见Template:Nbt inherit/projectile/source",
+      "火球类弹射物共通标签，见Template:Nbt inherit/fireball/source",
+      "*Item：实体渲染时使用的物品。此项不存在时使用火焰弹物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source"
+    ]
+  }
+}

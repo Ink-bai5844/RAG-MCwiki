@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:战斗之杖",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%88%98%E6%96%97%E4%B9%8B%E6%9D%96",
+  "text": "战斗之杖\n类型\n近战武器\n稀有度\n力量\n6\n速度\n3\n攻击范围\n4\n远古狩猎符文\n存档ID\nBattlestaff\n战斗之杖哪都不弱，适用于任何战争。\n——物品描述\n战斗之杖（Battlestaff）是Minecraft Dungeons中的近战武器，它的变种为恐怖之杖和生长之杖。\n获取\n地点：\n地下神殿\n巍峨壁垒\n迎风之巅\n下界荒地（天启难度以上）\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n淤泥的威胁\n使用\n战斗之杖的攻击方式为两次侧挥、一次横扫、一记猛击、两次突进攻击、两次侧方旋转攻击、一次旋转攻击、和一记重击。\n战斗之杖的连击会在未攻击0.5秒后重置。\n属性\n潇洒连击\n数据\n等级\n伤害值\n22\n40-123\n113\n1877-5775\n音效\n描述\n文件\n攻击（1）\nP1_sfx_item_battleStaffAttack01\n攻击（2）\nP1_sfx_item_battleStaffAttack02\n攻击（3）\nP1_sfx_item_battleStaffAttack03\n攻击（4）\nP1_sfx_item_battleStaffAttack04\n攻击（5）\nP1_sfx_item_battleStaffAttack05\n攻击（6）\nP1_sfx_item_battleStaffAttack06\n攻击（7）\nP1_sfx_item_battleStaffAttack07\n攻击（8）\nP1_sfx_item_battleStaffAttack08\n攻击（9）\nP1_sfx_item_battleStaffAttack09\n攻击（10）\nP1_sfx_item_battleStaffAttack10\n掉落\nP1_sfx_item_battleStaffDrop\n击中物体\nP1_sfx_item_battleStaffImpact\n拾取\nP1_sfx_item_battleStaffPickUp\n装备\nP1_sfx_item_battleStaffPlace\n历史\nMinecraft Dungeons\n1.3.2.0\n加入了战斗之杖。\n导航"
+}

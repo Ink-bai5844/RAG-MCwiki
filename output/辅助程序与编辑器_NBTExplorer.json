@@ -1,0 +1,5 @@
+{
+  "title": "辅助程序与编辑器/NBTExplorer",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2FNBTExplorer",
+  "text": "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。\nNBTExplorer\n名称\nNBTExplorer\n作者\nJustin Aquadro\n类型\n图形界面的NBT编辑器\n平台\nWindows、Mac、Linux（需要使用Mono）\n社区帖子\nNBTExplorer\nNBTExplorer是一个低阶的Minecraft NBT图形界面编辑器。其界面为树形结构，可简便地浏览多个存档，并支持最新的NBT格式。NBTExplorer基于Substrate构建。由于任何Minecraft版本的地图大多基于NBT格式的文件，因此它通常可用于最新版的Minecraft而无需更新NBTExplorer。\n用法\nNBT标签控制着一切世界参数，包括玩家的末影箱内容、物品栏、游戏模式、极限与否等。NBTExplorer可用于查看和编辑游戏数据，以下是一些典型案例：\n修改level.dat的相关内容，包括但不限于：\n定位生成的结构；\n添加与修改物品、添加附魔；\n修改世界生成用的种子；\n无需/gamerule即可改变游戏规则；\n为存档和服务器名称应用格式化代码；\n修改世界名称；\n修改玩家的游戏模式、生命值、位置等。例如，当玩家被传送到“非法区域”而无法通过/tp恢复位置时，NBTExplorer可将玩家带回到正常位置；\n修改世界地形生成的设置，不会影响已生成的区块；\n修改区块，包括但不限于：\n修改区块的生物群系；\n修改实体数据或者删除实体，例如，若不慎产生超多实体而导致世界容易崩溃，用NBTExplorer可轻松去除过多实体；\n修改方块实体的数据，包括命令方块、箱子、告示牌等。\n兼容格式\n标准NBT格式文件（例如level.dat）\nSchematic文件\n未压缩的NBT文件（例如idcounts.dat）\nMinecraft Region格式区块数据（*.mcr）\nMinecraft Anvil格式区块数据（*.mca）\nCubic Chunks Region格式区块数据\n外部链接\nGithub上的NBTExplorer"
+}

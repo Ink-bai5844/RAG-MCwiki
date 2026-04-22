@@ -1,0 +1,65 @@
+{
+  "title": "战斗更新",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%88%98%E6%96%97%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是1.9的更新主题。关于2019至2020年期间一些关于战斗机制的更改发布的分支快照版本，请见“Java版Combat Test”。"
+    ],
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/战斗更新以查看战斗更新的指南。",
+      "见Java版指南/战斗更新以查看战斗更新的指南。"
+    ],
+    "Mojang发布的战斗更新图片": [
+      "战斗更新（Combat Update）是Java版的一次主要更新，发布于2016年2月29日。此次更新的官方名称是在2015年4月1日被Reddit用户3dDeters在愚人节快照15w14a中隐藏的二维码中发现的。此次更新大幅度修改了战斗系统，也进行了其他的一些更改。",
+      "开发团队声称在2015年10月末完成了特性添加，并开始了一段漫长的游戏平衡性调整和漏洞修复。他们不久宣布1.9不会在2015年发布，因为他们“想在发布前修复更多漏洞，并在节日时使游戏保持稳定”。",
+      "此次更新的开发始于15w31a，其发布于2015年7月29日。"
+    ],
+    "重要特性": [
+      "主条目：Java版1.9"
+    ],
+    "属性系统": [
+      "盾牌、光灵箭、14种药箭和每种药水的滞留药水"
+    ],
+    "雷暴时生成的骷髅陷阱马": [
+      "13种新方块：草径、霜冰、2种命令方块、紫颂花和植物、末地折跃门方块、末地烛、末地石砖、紫珀块、紫珀柱、台阶和楼梯",
+      "新物品：甜菜根以及相关物品甜菜种子与甜菜汤、末地水晶、普通紫颂果和爆裂紫颂果、幸运药水和龙息",
+      "5个新闪烁标语",
+      "4种新粒子："
+    ],
+    "sweepAttack、dragonBreath、endRod和damageIndicator": [
+      "4种新状态效果："
+    ],
+    "飘浮、发光、幸运和霉运": [
+      "2个新魔咒："
+    ],
+    "冰霜行者和经验修补": [
+      "5个新统计："
+    ],
+    "新的NBT标签": [
+      "3个新游戏规则"
+    ],
+    "disableElytraMovementCheck、spectatorsGenerateChunks和spawnRadius": [
+      "150多个新声音事件"
+    ],
+    "改进了船": [
+      "要塞生成增加至最多128个"
+    ],
+    "跟进版本": [
+      "Java版1.9.1加入了鞘翅的声音效果、generic.armorToughness数据，并使十字准星攻击指示器默认显示，还有一些小的更改和漏洞修复。",
+      "Java版1.9.2紧随其后，以修复Java版1.9.1中，在Realms服务器中坐船和坐矿车时的崩溃问题。",
+      "Java版1.9.3中修复了一些稳定性问题。添加了/stopsound命令，还将不符合EULA的服务器拉进了黑名单。",
+      "Java版1.9.4也紧随其后，以修复错误的Realms警告。"
+    ],
+    "你知道吗": [
+      "战斗更新的开发在缤纷更新发布前至少一个月就开始了。开发时间多于1.8的两倍，达576天。"
+    ],
+    "参考": [
+      "We've updated the release date for Minecraft 1.9 to February 29! Why? Because it's Leap Day!，来自@jeb_。X（曾名Twitter），2016年2月23日。",
+      "https://twitter.com/Dinnerbone/status/583204782090924032",
+      "We are aiming to get Minecraft 1.9 feature complete at end of this month. Feature complete doesn't mean bug free & ready to release, though!，来自@Dinnerbone。X（曾名Twitter），2015年10月15日。",
+      "Update: Minecraft 1.9 will not be released this year. We want to fix more bugs before release, and keep the game stable over the holidays，来自@jeb_。X（曾名Twitter），2015年11月24日。",
+      "@MushirMickeyJoe @erismetis We started working on 1.9 before we released 1.8. Therefore, \"1.9 started\" minus \"1.8 released\" is negative! :D，来自@Dinnerbone。X（曾名Twitter），2015年10月15日。",
+      "@MushirMickeyJoe @JordanFisher_YT Negative month or two. We started working on 1.9 long before we released the first snapshot.，来自@Dinnerbone。X（曾名Twitter），2015年10月15日。"
+    ]
+  }
+}

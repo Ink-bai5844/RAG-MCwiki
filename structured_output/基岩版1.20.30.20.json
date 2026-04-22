@@ -1,0 +1,353 @@
+{
+  "title": "基岩版1.20.30.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.30.20",
+  "structured_content": {
+    "默认分类": [
+      "1.20.30.20"
+    ],
+    "服务端版本": [
+      "1.20.30.20"
+    ],
+    "版本码": [
+      "Android：",
+      "952003020（armeabi-v7a，33）",
+      "962003020（x86，33）",
+      "972003020（arm64-v8a，33）",
+      "982003020（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年8月3日"
+    ],
+    "测试版归属": [
+      "1.20.30"
+    ],
+    "协议版本": [
+      "612",
+      "◄◄1.20.15",
+      "1.20.31►►",
+      "◄1.20.20.23",
+      "1.20.30.21►",
+      "beta 1.20.30.20（ChromeOS/Android）、Preview 1.20.30.20（Xbox/Windows/iOS/iPadOS）是基岩版1.20.30的第5个测试版，发布于2023年8月3日，在实验性玩法中对交易做出了平衡性调整、为RenderDragon加入了新功能，并修复了一些漏洞。"
+    ],
+    "游戏规则": [
+      "加入了doLimitedCrafting游戏规则。",
+      "用于控制是否禁止玩家合成未解锁配方的物品。",
+      "仅在配方解锁机制开启时生效。",
+      "默认值为false。"
+    ],
+    "常规": [
+      "移除了@minecraft/server中的MinecraftItemTypes，并将其替换为@minecraft/vanilla-data中的版本。"
+    ],
+    "实验性玩法": [
+      "加入了“村民贸易再平衡”子选项。",
+      "用于启用对交易做出的平衡性调整。",
+      "加入了“为创建者提供的渲染龙功能”子选项。",
+      "用于启用与RenderDragon相关的创作者功能。",
+      "目前仅测试版本可用。"
+    ],
+    "设置": [
+      "在Windows平台上的视频设置中加入了“垂直同步”选项。",
+      "用于启用垂直同步功能。"
+    ],
+    "方块": [
+      "自定义方块现在仅会在自身属于单位立方体且所有材料均不透明时传输红石信号。（MCPE-168998）",
+      "第三人称相机视角不再能够穿过雪、泥巴和灵魂沙。",
+      "使用错误工具挖掘切石机时，切石机不再会掉落为物品。（MCPE-33950）",
+      "镐现在可以加快挖掘活塞和黏性活塞的速度。（MCPE-62797）",
+      "激活或取消激活红石中继器和红石比较器时不再会中断水流。（MCPE-157055）",
+      "第三人称相机视角现在能够穿过玻璃、玻璃板和铁栏杆。（MCPE-85429）"
+    ],
+    "混凝土粉末": [
+      "IDconcrete_powder现在被拆分为：white_concrete_powder、​orange_concrete_powder、​magenta_concrete_powder、​light_blue_concrete_powder、​yellow_concrete_powder、​lime_concrete_powder、​pink_concrete_powder、​gray_concrete_powder、​light_gray_concrete_powder、​cyan_concrete_powder、​purple_concrete_powder、​blue_concrete_powder、​brown_concrete_powder、​green_concrete_powder、​red_concrete_powder和​black_concrete_powder。",
+      "concrete_powder及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "幽匿感测体和校频幽匿感测体": [
+      "现在能检测以下动作："
+    ],
+    "潜影盒": [
+      "现在闭合时属于红石导体。"
+    ],
+    "切石机": [
+      "使用错误工具或徒手挖掘时不再会掉落为物品。"
+    ],
+    "未知方块": [
+      "不再能够通过命令放置。"
+    ],
+    "物品": [
+      "在1.20.30及更高版本的JSON格式中开放了实验性内容minecraft:enchantable。",
+      "弃用了1.20.30及更高版本的JSON格式中的minecraft:mining_speed。",
+      "使用minecraft:digger代替之可实现相同功能。",
+      "修复了在启用“假日创造者功能”选项的世界中无法加载带有使用格式版本为1.20.20及更高版本的menu_category字段的物品的问题。",
+      "移除了minecraft:requires_interact组件。"
+    ],
+    "镐": [
+      "现在可用于加快挖掘活塞和黏性活塞的速度。"
+    ],
+    "矿石分布": [
+      "钻石矿石会在主世界的深板岩层更加频繁地生成。",
+      "加入了中型钻石矿团，其他现有的钻石矿团放置保持不变。",
+      "中型钻石矿团的大小为1-8个钻石矿石，每个区块尝试生成2次，在Y=-64到-4之间均匀分布。暴露在空气中的钻石矿石有50%的概率跳过生成。"
+    ],
+    "游戏内容": [
+      "将长按合成输出槽的触摸控制功能恢复为在输出槽中快速合成单个物品。（MCPE-169728）",
+      "将长按合成输出槽时的物品合成速度减缓至每秒4个物品，启用快速合成功能前的长按所需时间减少至700ms。",
+      "更新了睡觉时的文本以适应PlayersSleepingPercentage游戏规则。（MCPE-172917）",
+      "将PlayersSleepingPercentage游戏规则设置为0时不再会跳过睡觉动画。（MCPE-172910）",
+      "现在没有入睡的玩家在其他所有玩家均在睡觉的情况下离开时，夜晚会正确被跳过。",
+      "玩家在末地传送门正下方睡觉时不再会立即进入末地传送门。（MCPE-165062）"
+    ],
+    "睡觉": [
+      "现在睡觉时会在界面上显示是否可以跳过夜晚的消息。",
+      "可以跳过夜晚时的消息：“整夜睡觉”。",
+      "不能跳过夜晚时的消息：“今晚不能再休息了”。"
+    ],
+    "声音": [
+      "现在未使用的流浪者射箭音效会正常播放。",
+      "现在将盾牌装备到副手上时会播放音效。"
+    ],
+    "市场": [
+      "玩家现在可以给创作者发送单向消息，提供所购买物品相关的反馈。",
+      "反馈会被用于完善未来内容与更改。"
+    ],
+    "音乐": [
+      "更改了以下音乐可播放的位置：",
+      "“Bromeliad”“Crescent Dunes”“Echo in the Wind”和“A Familiar Room”现在会在菜单屏幕中播放。",
+      "“Aerie”“Firebugs”和“Labyrinthine”不再会在菜单屏幕上播放。"
+    ],
+    "随机刻": [
+      "现在会控制冰和雪的形成。"
+    ],
+    "配方书": [
+      "加入了用于一键清空搜索栏的按钮。"
+    ],
+    "附加包和脚本引擎": [
+      "加入了一些脚本绑定函数，用以获取或设置CompoundBlockVolumeorigin的原点。",
+      "为部分方法加入了用以查询CompoundBlockVolume的父项与子项的位置相对性的可选参数。",
+      "为部分方法加入了用以在提交原点更改时冻结位置相对性的可选参数。",
+      "大型垂滴叶现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "小型垂滴叶现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "粉红色花簇现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "末地传送门框架现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "讲台现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "铁砧现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "营火现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "灵魂营火现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "校频幽匿感测体现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "激活的红石比较器现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "未激活的红石比较器现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "激活的红石中继器现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "未激活的红石中继器现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2和​3。",
+      "高炉现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2、​3、​5和​6。",
+      "熔炉现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2、​3、​5和​6。",
+      "燃烧中的高炉现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2、​3、​5和​6。",
+      "燃烧中的熔炉现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2、​3、​5和​6。",
+      "燃烧中的烟熏炉现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2、​3、​5和​6。",
+      "烟熏炉现在使用方块状态minecraft:cardinal_direction，而不是direction，该状态使用字符串值south、​west、​north和​east，而不是0、​1、​2、​3、​5和​6。"
+    ],
+    "AI意向": [
+      "cooldown目标描述符现在会在minecraft:behavior.nearest_prioritized_attackable_target意向中正确运作。"
+    ],
+    "基岩版编辑器": [
+      "修复了方块更新时不会重新计算选择光标的位置的漏洞。",
+      "Vec3组件的最小限制现在默认为Number.MAX_SAFE_INTEGER。",
+      "为状态栏加入了玩家总数。",
+      "API更新：",
+      "修复了CompoundBlockVolume的相对值导致的漏洞。",
+      "现在会规范CompoundBlockVolume的使用，而不是Selection的使用。",
+      "更新了CompoundBlockVolume以将内部体积列表维持为相对值。",
+      "将CompoundBlockVolume转换为相对于原点的体积列表。",
+      "加入了CompoundBlockVolumeRelativeType以将体积推送操作指示为相对的或绝对的。",
+      "加入了一些获取或设置原点的函数和一个翻译函数。"
+    ],
+    "生物": [
+      "现在以数字开头的实体名称会触发内容日志错误。",
+      "生物现在只能用主手持有和举起灾厄旗帜。（MCPE-151745）",
+      "修复了玩家在船上时其肩上的鹦鹉会面朝与玩家不同的位置的问题。"
+    ],
+    "物品展示框": [
+      "现在鞘翅的破损状态会在物品展示框中正确渲染。（MCPE-19700）"
+    ],
+    "脚本API": [
+      "将CompoundBlockVolumecontainer转换为使用内部原点的相对坐标。",
+      "现在会规范编辑器API中CompoundBlockVolume的使用，而不是Selection的使用。"
+    ],
+    "用户界面": [
+      "修复了其他玩家或服务器丢失连接时出现的“检测到丢失连接”错误未被本地化的问题。（MCPE-173028）",
+      "修复了在Android设备上按住返回键时文本框文本有时不会更新的问题。（MCPE-169840）",
+      "修复了iOS和Android平台上对全键盘玩法的支持的相关问题。",
+      "启用立即重生后不再会出现新的死亡屏幕。",
+      "修复了带有括号的物品名称不会显示在物品栏或合成菜单上的标题中的问题。（MCPE-161134）",
+      "现在使用游戏手柄在书与笔中切换页面时会播放音效。（MCPE-162253）",
+      "在Xbox平台上按下虚拟键盘上的Return键时不再会删除光标。（MCPE-172835）",
+      "现在在携带版UI下打开锻造台UI时会使背景变暗。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“村民贸易再平衡”、“假日创造者功能”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "村民": [
+      "图书管理员的最后一个附魔书交易项从专家级改为大师级。",
+      "现在不同生物群系着装的图书管理员出售不同的附魔书。",
+      "每种着装（热带草原除外）都有对应的3种普通附魔书和1种特殊附魔书（表格见下方）。",
+      "新手、学徒、老手级的附魔书交易项均为普通附魔书（其魔咒等级不定），大师级交易项为特殊附魔书（其魔咒等级一定）。",
+      "沼泽和丛林着装的村民一般不会自然生成，需要玩家在对应生物群系繁殖村民或者治愈对应生物群系生成的僵尸村民。",
+      "不再出售用于弩、三叉戟和钓鱼竿的附魔书。"
+    ],
+    "流浪商人": [
+      "现在每个流浪商人有2个收购选项、2个特殊售货选项和5个普通售货选项。",
+      "新增并更改了一些交易选项，详见下表："
+    ],
+    "烤马铃薯": [
+      "4"
+    ],
+    "绿宝石": [
+      "1",
+      "3",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6-20",
+      "1",
+      "1",
+      "5",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "发酵蛛眼": [
+      "1"
+    ],
+    "干草捆": [
+      "1"
+    ],
+    "奶桶": [
+      "1"
+    ],
+    "水瓶": [
+      "1"
+    ],
+    "水桶": [
+      "1"
+    ],
+    "金合欢原木": [
+      "8",
+      "4"
+    ],
+    "白桦原木": [
+      "8",
+      "4"
+    ],
+    "樱花原木": [
+      "8",
+      "4"
+    ],
+    "深色橡木原木": [
+      "8",
+      "4"
+    ],
+    "附魔铁镐": [
+      "1"
+    ],
+    "丛林原木": [
+      "8",
+      "4"
+    ],
+    "橡木原木": [
+      "8",
+      "4"
+    ],
+    "隐身药水（延长版）": [
+      "1"
+    ],
+    "云杉原木": [
+      "8",
+      "4"
+    ],
+    "河豚桶": [
+      "1",
+      "4"
+    ],
+    "热带鱼桶": [
+      "1",
+      "4"
+    ],
+    "浮冰": [
+      "1",
+      "6"
+    ],
+    "RenderDragon": [
+      "加入了新的跨平台图形功能。目前仅在Windows、Xbox和Android平台的特定设备上可用，包括下列功能："
+    ],
+    "API": [
+      "修复了setLore会错误计算含有多字节字符的词缀字符串的长度的漏洞。（MCPE-173189）",
+      "加入了remove函数。",
+      "用于移除Entity。",
+      "不可在Player上调用，但可在GameTest中的SimulatedPlayer上调用。"
+    ],
+    "MolangVariableMap": [
+      "加入了setFloat函数。",
+      "将setColorRBG、​setColorRGBA、​setSpeedAndDirection和​setVector3的返回类型更改为void。",
+      "将spawnParticle上的MolangVariableMap属性更改为可选属性：spawnParticle(effectName: string, location: Vector3, molangVariables?: MolangVariableMap): void",
+      "将Colorinterface重命名为RGBA。",
+      "加入了RGB接口。"
+    ],
+    "音频": [
+      "现在流浪者拉弓射箭时会播放正确的音效。（MCPE-172385）",
+      "现在在盔甲槽中切换附魔、纹饰不同但其他相同的盔甲部件时会播放穿戴装备的音效。（MCPE-171527）",
+      "现在足迹与故事音乐曲目会在游戏菜单中播放。（MCPE-171489）",
+      "现在将盾牌装备到副手槽中时会播放音效。（MCPE-168039）"
+    ],
+    "樱花树林": [
+      "现在樱花树林中的水下迷雾使用会在一段时间后增加能见度的过渡效果。（MCPE-171822）"
+    ],
+    "图形": [
+      "在视频菜单中加入了垂直同步选项。（MCPE-98861）"
+    ],
+    "性能与稳定性": [
+      "修复了在Realms设置中反复按Esc键时可能会删除UI或黑屏的漏洞。",
+      "修复了玩家被卡在熔岩柱中的恶魂包围时服务器会无响应的问题。（MCPE-119093）",
+      "将物品堆叠中的一个物品放入已满且相同的物品堆叠时不再会导致游戏崩溃。"
+    ],
+    "触摸控制": [
+      "修复了飞行时的潜行操作无法对可交互物品正常生效的问题。（MCPE-167043）"
+    ],
+    "原版趋同": [
+      "现在村民睡觉时不会获得职业。（MCPE-81790）",
+      "调整了潜影盒的红石信号以匹配Java版。",
+      "现在冰和雪的形成由随机刻控制。",
+      "修复了村庄被袭击击败时会使袭击栏自动变为空白的漏洞。（MCPE-161438）"
+    ],
+    "振动": [
+      "现在投掷末影之眼时会产生振动。",
+      "现在空载的矿车在铁轨上行驶时会不断产生振动。",
+      "现在使用水桶收集鱼、美西螈或蝌蚪时会产生振动。",
+      "现在在炼药锅中清洗物品时会产生振动。",
+      "现在在炼药锅中给皮革盔甲染色时会产生振动。",
+      "现在使用炼药锅制作药箭时会产生振动。",
+      "现在使用染料改变炼药锅中的水的颜色时会产生振动。",
+      "现在非玩家活动对象将盾牌装备到副手槽中时会产生振动事件。"
+    ],
+    "多人游戏": [
+      "修复了客户端在某些情况下无法尝试连接专用服务器的问题。"
+    ],
+    "命令": [
+      "修复了命令中的波浪号（作为Z坐标）与方块名称之间没有空格时，会丢失方括号后的值的自动补全提示的问题。",
+      "未知方块不再能够通过命令来设置或放置。（MCPE-165301）",
+      "现在hasitem选择器选中可损坏物品时会使用数据值作为所损坏的耐久。（MCPE-159409）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.30.20 — Minecraft Feedback，2023年8月3日。",
+      "Minecraft Preview 1.20.30.20 — Minecraft.net，2023年8月3日。"
+    ]
+  }
+}

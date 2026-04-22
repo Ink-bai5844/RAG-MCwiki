@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:元素背袋",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%85%83%E7%B4%A0%E8%83%8C%E8%A2%8B",
+  "text": "此条目包含嚎风山巅的内容。\n元素背袋\n类型\n法器\n稀有度\n远古狩猎符文\n存档ID\nSatchelOfTheElements\n谜团重重的原始背袋，它会爆发出火焰、寒冰还是其他什么不好的东西？\n——物品描述\n元素背袋（Satchel Of Elements）是Minecraft Dungeons的DLC嚎风山巅中的法器。\n获取\n地点：\n烈风圣地\n圣殿之翼（冒险难度以上）\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用后在火焰，寒冰或雷电三种元素中随机选择一种施加给周围的生物。\n火焰：对生物释放火焰造成持续性伤害，造成的总伤害与法器面板伤害值一致，火焰元素的伤害可以被烈焰汇聚魔咒加成。\n寒冰：对生物施加减速效果，但不对生物造成伤害。\n雷电：降下雷电对周围的生物造成伤害，雷电元素的伤害可以被雷霆汇聚魔咒加成。\n属性\nX 法器伤害\n最多7个目标\n10秒 冷却\n数据\n等级\n召唤伤害\n171\n233332\n音效\n描述\n文件\n使用\nDLC_sfx_item_artifact_SatchelOfTheElements_Activate\n掉落\nDLC_sfx_item_artifact_SatchelOfTheElements_Land\n拾取\nDLC_sfx_item_artifact_SatchelOfTheElements_PickUp\n装备\nDLC_sfx_item_artifact_SatchelOfTheElements_Place\n历史\nMinecraft Dungeons\n1.7.2.0\n加入了元素背袋。\n1.13.1.0\n削弱作用范围。\n1.14.1.0\n再次削弱作用范围。\n导航"
+}

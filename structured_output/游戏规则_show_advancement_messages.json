@@ -1,0 +1,23 @@
+{
+  "title": "游戏规则/show advancement messages",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fshow_advancement_messages",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "show_advancement_messages": [
+      "show_advancement_messages是控制是否在聊天框中公告玩家进度的达成的游戏规则。"
+    ],
+    "行为": [
+      "当show_advancement_messages为false时，玩家达成进度后将不会在聊天栏通知。"
+    ],
+    "Java版": [
+      "1.12",
+      "17w18a",
+      "加入了游戏规则announceAdvancements。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则announceAdvancements重命名为show_advancement_messages。"
+    ]
+  }
+}

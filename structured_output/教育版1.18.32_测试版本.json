@@ -1,0 +1,34 @@
+{
+  "title": "教育版1.18.32/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.18.32%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了教育版1.18.32的测试版本。",
+      "1.18.10.04",
+      "1.18.10.04是教育版1.18.32的首个开发版本，发布于2022年2月24日，加入了洞穴与山崖第二部分的特性。"
+    ],
+    "常规": [
+      "主条目：基岩版1.18.0",
+      "加入了洞穴与山崖第二部分的特性。",
+      "1.18.30.0",
+      "1.18.30.0（Windows/macOS/iOS/iPadOS）、1.18.30.1（ChromeOS/Android）是教育版1.18.32的第2个开发版本，发布于2022年6月16日，加入了基岩版1.18.30的特性和对Android、iPhone和iPod Touch设备的支持。",
+      "主条目：基岩版1.18.30",
+      "加入了基岩版1.18.30的特性。",
+      "加入了对Android、iPhone和iPod Touch设备的支持。",
+      "1.18.31.0",
+      "1.18.31.0是教育版1.18.32的第3个开发版本，发布于2022年7月14日，启用了新的渲染引擎RenderDragon，并对WebSocket做出了一些技术性更改。"
+    ],
+    "RenderDragon": [
+      "现在使用新的渲染引擎RenderDragon。"
+    ],
+    "WebSocket": [
+      "将Websocket服务器和代码构建器发送的JSON格式更新为分层型JSON格式，以代替平面型格式。",
+      "移除了用途不大的属性，并将方块和物品ID移动至较新的基于名称的格式，以代替数值型格式。",
+      "将Websocket中基于智能体的命令移动至新的action:agent格式，现在所有命令都排列在其中，并包含关联响应的唯一ID。",
+      "现在Websocket和代码构建器API相关的重大更改都会使protocolVersion的值增加。"
+    ],
+    "注释与参考": [
+      "What's New in the Beta（存档） — Minecraft Education Edition Support。"
+    ]
+  }
+}

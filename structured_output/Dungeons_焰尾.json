@@ -1,0 +1,29 @@
+{
+  "title": "Dungeons:焰尾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%84%B0%E5%B0%BE",
+  "structured_content": {
+    "Firetrail": [
+      "翻滚后会在身后产生具体持续伤害的火焰4秒。"
+    ],
+    "——魔咒描述": [
+      "焰尾（Fire Trail）是Minecraft Dungeons中的魔咒，效果为在玩家翻滚后的4秒内点燃玩家经过的位置，并给踏入其中的生物造成伤害，火焰在熄灭前会持续4秒。造成伤害随着魔咒等级提升而提高。",
+      "焰尾魔咒的伤害可以被烈焰汇聚魔咒加成。"
+    ],
+    "I": [
+      "1x 每秒火焰伤害",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "2x 每秒火焰伤害",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "3x 每秒火焰伤害",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了焰尾。"
+    ]
+  }
+}

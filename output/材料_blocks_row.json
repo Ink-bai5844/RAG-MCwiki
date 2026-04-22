@@ -1,0 +1,5 @@
+{
+  "title": "材料/blocks row",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9D%90%E6%96%99%2Fblocks_row",
+  "text": "[ 编辑 | 历史 | 刷新 ]文档页面\n此模板使用了Module:Materials row，此脚本使用Lua编写。\n更多详情，请参阅Wikipedia:Lua和Extension:Scribunto。\n该模板用于在材料上创建含方块列表的表格。\n参数\n|name=：第一列显示的名称。\n|blocks=：一个逗号方块分割列表，包含了要显示的材料，以使用 {{slot}} 进行显示。它支持所有除了数字的网格格式。\n另请参阅\n{{:材料/properties row}}"
+}

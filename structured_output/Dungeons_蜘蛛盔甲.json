@@ -1,0 +1,33 @@
+{
+  "title": "Dungeons:蜘蛛盔甲",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%9C%98%E8%9B%9B%E7%9B%94%E7%94%B2",
+  "structured_content": {
+    "存档ID": [
+      "AssassinArmor_Unique1",
+      "由盗贼大师所作，灵感来自蜘蛛的敏捷天赋。"
+    ],
+    "——游戏内描述": [
+      "蜘蛛盔甲（Spider Armor）是Minecraft Dungeons中的一件盔甲。它是窃贼之甲的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "红石矿山（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "属性": [
+      "+25% 近战攻击速度",
+      "6% 吸血光环"
+    ],
+    "掉落": [
+      "sfx_item_assassinArmorUnique1Drop"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了蜘蛛盔甲。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic服务器1.8",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.8",
+  "text": "此版本的服务端目前已丢失。\n虽然此版本的服务端可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n1.8\n版本\nJava版\n客户端版本\n0.0.20a\n发布时间\n2009年6月20日\n下载\n不可用\n协议版本\n6\n其他版本的1.8\nJava版Classic服务器\nJava版Beta\n基岩版\n教育版\nNew Nintendo 3DS版\nMinecraft Dungeons\n◄◄1.7\n1.9►►\n1.8.1►\n1.8是Classic服务器的一次更新，发布于2009年6月20日20:53（UTC）。\n新内容\n游戏内容\n多人游戏\n为Classic 0.0.20a中的新增方块加入了服务端支持。\n命令格式\n/solid\n可用于在放置普通石头和不可破坏的基岩之间切换。\n更改\n游戏内容\n常规\n服务端不再允许普通玩家破坏基岩，但管理员仍然可以。\n参考\nNew server, new client version 0.0.20（存档） — The Word of Notch，2009年6月20日。\nIRC记录 on Archive.org; #minecraft.20090620.log. \"P3:53:35 <Notch> new minecraft-server.zip up, new client up, there's a protocol change, so you need to update all servers\" (2009年6月20日 20:53:35 UTC)\n导航"
+}

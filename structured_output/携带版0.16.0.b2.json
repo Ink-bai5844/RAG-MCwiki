@@ -1,0 +1,39 @@
+{
+  "title": "携带版0.16.0.b2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.16.0.b2",
+  "structured_content": {
+    "默认分类": [
+      "0.16.0.b2"
+    ],
+    "版本码": [
+      "Android：",
+      "840159001（armeabi-v7a，22）",
+      "841159001（x86，22）",
+      "870159001（armeabi-v7a，22）",
+      "871159001（x86，22）"
+    ],
+    "发布时间": [
+      "2016年8月30日"
+    ],
+    "测试版归属": [
+      "0.16.0"
+    ],
+    "协议版本": [
+      "90",
+      "◄◄0.15.10",
+      "0.16.1►►",
+      "◄0.16.0.b1",
+      "0.16.0.b3►",
+      "v0.16.0 alpha build 2（也被称为0.15.90.1）是v0.16.0 alpha，即Boss更新的第2个测试版。"
+    ],
+    "更改": [
+      "完全移除了边界、黑板、摄像机方块和相片簿。",
+      "NPC刷怪蛋在创造模式的物品栏中移除。"
+    ],
+    "参考": [
+      "http://pocketbeta.minecraft.net/2016/08/notes-for-016-beta-build-1-aka-015901.html",
+      "https://bugs.mojang.com/browse/MCPE/fixforversion/15667",
+      "http://pocketbeta.minecraft.net/2016/09/0160-beta-build-numbers.html"
+    ]
+  }
+}

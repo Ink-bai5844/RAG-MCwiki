@@ -1,0 +1,20 @@
+{
+  "title": "哞菇/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%93%9E%E8%8F%87%2FED",
+  "structured_content": {
+    "实体数据值": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "stew_effects：棕色哞菇产生的谜之炖菜的状态效果列表。如果棕色哞菇没有保存状态效果则不存在此标签。",
+      "：一项状态效果。",
+      "duration：（默认为160游戏刻（8秒））状态效果的持续时间。"
+    ],
+    "*": [
+      "*id：状态效果的命名空间ID。",
+      "*Type：哞菇的种类。可以为red（红色）或brown（棕色）。如果设置值无效则重置为red（红色）。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.20.5-pre3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-pre3",
+  "text": "1.20.5-pre3\n版本\nJava版\n类型\n预发布版\n发布时间\n2024年4月16日\n预发布版归属\n1.20.5\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073742011\nHEX: 400000BB\n数据版本\n3831\n资源包版本\n31\n数据包版本\n41\n◄◄1.20.4\n1.20.6►►\n◄1.20.5-pre2\n1.20.5-pre4►\n1.20.5-pre3是Java版1.20.5的第3个预发布版，发布于2024年4月16日，修复了一些漏洞。\n更改\n常规\n数据包\n将数据包版本号更改为41。\n标签\n将实体类型标签#punchable_projectiles重命名为#redirectable_projectile。\n属性\n回退了上个预发布版对generic.step_height的更改。\n修复\n修复了8个漏洞\n1.20.5开发版本的漏洞\nMC-269384 — 退出世界时，全景图偶尔高速旋转。\nMC-270097 — 当set_ominous_bottle_amplifer物品修饰器设为溢出的倍率时游戏崩溃。\nMC-270375 — 更改渲染距离和生物群系过渡设置时屏幕反复闪烁。\nMC-270608 — 弹射物不再能反弹恶魂火球。\nMC-270609 — 客户端需要StoreCookiePacket和​TransferPacket之间的一刻来储存cookie。\nMC-270634 — 由发射器发射的烟花火箭飞的比以前高。\nMC-270668 — 物品数据序列化明显比以前慢。\n上个开发版本的漏洞\nMC-270799 — 自从1.20.5 Pre-Release 2开始，玩家不再能疾跑或步行跨过一个方块的间隙。\n参考\nMinecraft 1.20.5 Pre-Release 3 — Minecraft.net，2024年4月16日。\n导航"
+}

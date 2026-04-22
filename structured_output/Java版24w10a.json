@@ -1,0 +1,174 @@
+{
+  "title": "Java版24w10a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8824w10a",
+  "structured_content": {
+    "默认分类": [
+      "24w10a"
+    ],
+    "发布时间": [
+      "2024年3月6日"
+    ],
+    "快照归属": [
+      "1.20.5"
+    ],
+    "协议版本": [
+      "DEC: 1073742003",
+      "HEX: 400000B3"
+    ],
+    "数据版本": [
+      "3821"
+    ],
+    "资源包版本": [
+      "28"
+    ],
+    "数据包版本": [
+      "34",
+      "◄◄1.20.4",
+      "1.20.6►►",
+      "◄24w09a",
+      "24w11a►",
+      "24w10a是Java版1.20.5的第11个快照，发布于2024年3月6日，加入了狼的新变种和物品堆叠组件的简化格式，更新了物品栏槽位名称，让物品堆叠组件可在部分配方中生效，并修复了一些漏洞。"
+    ],
+    "狼": [
+      "加入了狼的多个变种，生成的变种取决于其自然生成时所处的生物群系，或是繁殖生成时其双亲所属的变种。",
+      "苍狼，即使用先前纹理的狼，在针叶林中以4只为一群生成。",
+      "森林狼，在森林中以4只为一群生成。",
+      "灰狼，在积雪针叶林中以4只为一群生成。",
+      "黑狼，在原始松木针叶林中以2-4只为一群生成。",
+      "栗色狼，在原始云杉针叶林中以2-4只为一群生成。",
+      "赭红狼，在稀疏丛林中以2-4只为一群生成。",
+      "斑点狼，在热带高原中以4-8只为一群生成。",
+      "条纹狼，在疏林恶地中以4-8只为一群生成。",
+      "雪狼，在雪林中罕见地生成一只。",
+      "在除以上的其他生物群系使用刷怪蛋及命令生成的狼均为苍狼。",
+      "现在可以在砂土和灰化土上生成。",
+      "现在会生成于稀疏丛林、热带高原和疏林恶地生物群系中。"
+    ],
+    "常规": [
+      "现在物品数为1时count又会被储存了。",
+      "如果该字段无效则默认为1。"
+    ],
+    "实体谓词": [
+      "加入了实体副谓词slots，用于比较任何实体的单个或多个槽位。",
+      "比较时，槽位区间中的任意槽位符合条件即视为整项通过。",
+      "格式：槽位名称与物品谓词的键值对。",
+      "示例：",
+      "{\"condition\":\"minecraft:entity_properties\",\"entity\":\"this\",\"predicate\":{\"slots\":{\"container.*\":{\"items\":\"dirt\"}}}}"
+    ],
+    "物品栏": [
+      "加入了下列新的槽位名称：",
+      "container.*：包含container.0到container.53。",
+      "hotbar.*：包含hotbar.0到hotbar.8。",
+      "inventory.*：包含inventory.0到inventory.26。",
+      "enderchest.*：包含enderchest.0到enderchest.26。",
+      "villager.*：包含villager.0到villager.7。",
+      "horse.*：包含horse.0到horse.14。",
+      "weapon.*：包含weapon.mainhand和​weapon.offhand。",
+      "armor.*：包含armor.head、​armor.chest、​armor.legs、​armor.feed和​armor.body。",
+      "player.cursor：创造模式物品栏外玩家的鼠标持有的物品。",
+      "player.crafting.0、​player.crafting.1、​player.crafting.2、​player.crafting.3和​player.crafting.*：玩家物品栏中的合成栏。",
+      "<slot>参数不可使用以*为后缀的槽位区间。"
+    ],
+    "砂轮": [
+      "现在不接受具有unbreakable组件但没有魔咒的物品。",
+      "如果上方物品允许存在耐久度，则可使用下方附魔的无法破坏物品为其修复，输出的物品不会继承unbreakable组件；如果交换物品顺序，则既不可祛魔也不可修复；如果只存在附魔的无法破坏物品，则仅祛魔而保留unbreakable组件。",
+      "现在不可同时为两本附魔书祛魔。"
+    ],
+    "玩家的头": [
+      "现在于custom_name标签中储存物品名称。",
+      "NBT标签SkullOwner和​ExtraType被profile替代以与物品形式的组件格式统一。"
+    ],
+    "雪林": [
+      "不再生成鸡、猪、牛和绵羊。"
+    ],
+    "/execute": [
+      "条件子命令现在可用新类型items以比较物品或为物品计数。"
+    ],
+    "execute if|unless items <source> <slots> <item_predicate>": [
+      "<source>：用法与/item中相同。",
+      "示例：block <x> <y> <z>或entity <target>（可返回多个实体）。",
+      "<slots>：可以为单个槽位（如container.0）或槽位区间（如container.*）",
+      "<item_predicate>：用法与/clear中的物品谓词相同。",
+      "如果单独使用，则会返回符合条件的物品堆中物品的总数。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为34。",
+      "现在旗帜图案会从data/<命名空间>/banner_pattern/<id>中加载到动态注册表中。",
+      "：根标签。",
+      "asset_id：（命名空间ID）用于解析纹理位置。示例：custom:pattern会被解析为assets/custom/textures/entity/banner/pattern.png和assets/custom/textures/entity/shield/pattern.png。",
+      "translation_key：一个翻译键前缀。示例：block.minecraft.banner.custom.pattern会被解析为block.minecraft.banner.custom.pattern.<所染颜色>。"
+    ],
+    "提示框": [
+      "鼠标悬停于元素外时，按钮提示框不再显示。"
+    ],
+    "配方": [
+      "现在可以指定物品组件。",
+      "crafting_shaped、​crafting_shapeless、​stonecutting和​smithing_transform的result物品堆现在接受components。",
+      "smelting、​blasting、​smoking和​campfire_cooking类型配方的result字段现在改为无数量的物品堆叠格式，即必须指定id且可指定components数据。"
+    ],
+    "标签": [
+      "在方块标签#wolves_spawnable_on中加入了coarse_dirt和​podzol。"
+    ],
+    "物品堆叠组件": [
+      "profile不再需要name字段。",
+      "现在某些组件支持用于代替的简单定义：",
+      "profile现在也可以定义为profile来表示玩家名称。示例：profile=\"jeb_\"。",
+      "dyed_color现在也可以定义为dyed_color。示例：dyed_color=16711680。",
+      "attribute_modifiers现在可以直接定义为attribute_modifiers。示例：attribute_modifiers=[{type:'generic.scale',uuid:[1,2,3,4],name:'大！',amount:1.0,operation:'add_multiplied_base'}]。",
+      "potion_contents现在可以定义为单一药水IDpotion_contents。示例：potion_contents=\"invisibility\"。",
+      "enchantments和stored_enchantments现在可以定义为包含魔咒ID和等级的内联键值对。示例：enchantments={sharpness:1}。",
+      "这些定义仅为简化替代，它们总是以完整形式存储。",
+      "现在container组件适用于所有的容器而不只有潜影盒。",
+      "将lodestone_target组件重命名为lodestone_tracker。",
+      "pos和dimension现在被移入target（可选）。",
+      "target不存在时，指南针会旋转。",
+      "lore和fireworks/explosions的项数最大值现在被提升到256。",
+      "具有can_break和can_place_on组件的物品现在可以正常堆叠了，此前仅能堆叠1个物品。"
+    ],
+    "宝库": [
+      "再次更改了未激活状态的宝库的纹理。"
+    ],
+    "修复": [
+      "修复了31个漏洞",
+      "1.20.4前正式版的漏洞",
+      "MC-131636 — JSON文本组件的末尾允许存在一个额外字符。",
+      "MC-140397 — 将两个附魔的无法破坏的物品放入砂轮，会输出两个堆叠的物品。",
+      "MC-157133 — 使用砂轮能将诅咒附魔书堆叠。",
+      "MC-167324 — 多个UI按钮同时高亮。",
+      "MC-174496 — 玩家的头被放置后丢失名称。",
+      "MC-187746 — “编辑游戏规则”屏幕中的游戏规则按钮即使被遮盖，也会被高亮。",
+      "MC-217084 — 玩家的头的NBTExtraType在不使用DataFixerUpper升级路径时不再被存储。",
+      "1.20.5开发版本的漏洞",
+      "MC-268392 — 属性generic.gravity为0.0的玩家会因飞行而被踢出服务器。",
+      "MC-268462 — 拥有饱和效果的谜之炖菜现在给予7秒效果而非7刻。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-268800 — 所有工具均为4攻击伤害和1.6攻击速度。",
+      "MC-268801 — 保存于快捷栏中的潜影盒从NBT数据到物品组件的更新不一致。",
+      "MC-268813 — 在给玩家一个带有未知或无效标签的can_break或can_place_on组件的物品时崩溃。",
+      "MC-268824 — 从砂轮中祛魔的书不与物品栏中的书堆叠。",
+      "MC-268830 — 用指定无粒子效果的/effect命令时粒子效果出现。",
+      "MC-268834 — 宝库的纹理不一致。",
+      "MC-268842 — 在保存有物品形式的画的世界时崩溃。",
+      "MC-268845 — 在创造模式下，带有can_break或can_place_on组件的物品总在更改物品栏时更新。",
+      "MC-268850 — 切换快捷栏中物品时属性修饰符的效果未更新。",
+      "MC-268851 — 弩不发出射箭音效。",
+      "MC-268853 — 不能加载任何变种的画。",
+      "MC-268856 — 加载带有单个无效物品的潜影盒或收纳袋会使其所有组件失效。",
+      "MC-268864 — 具有重复物品堆叠组件的物品修饰符会阻止（重新）加载整个数据包而不是在加载数据包时忽略此物品修饰符。",
+      "MC-268879 — 损坏高损伤值的物品导致游戏崩溃。",
+      "MC-268897 — 带有数量为1的物品堆的实体不能被目标选择器选中。",
+      "MC-268904 — 谜之炖菜不给予状态效果。",
+      "MC-268921 — 卸载世界后，箭失去粒子。",
+      "MC-268971 — 破坏磁石指针绑定的磁石后，磁石指针停止工作。",
+      "MC-269005 — 来源于24w07a的玩家的头有时导致游戏崩溃，有时数据转化异常。",
+      "MC-269062 — 右键单击删除过bundle_contents组件的收纳袋后，该组件还原。",
+      "MC-269066 — 物品修饰符不能删除custom_name。",
+      "MC-269091 — 具有失效字段的AttributeModifiersNBT未正确地升级为组件。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 24w10a — Minecraft.net，2024年3月6日。",
+      "MC-269127 — 漏洞状态为“有意为之”。"
+    ]
+  }
+}

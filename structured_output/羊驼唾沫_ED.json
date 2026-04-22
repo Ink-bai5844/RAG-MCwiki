@@ -1,0 +1,10 @@
+{
+  "title": "羊驼唾沫/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BE%8A%E9%A9%BC%E5%94%BE%E6%B2%AB%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "弹射物共通标签，见Template:Nbt inherit/projectile/source"
+    ]
+  }
+}

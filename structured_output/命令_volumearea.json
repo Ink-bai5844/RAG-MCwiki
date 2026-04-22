@@ -1,0 +1,62 @@
+{
+  "title": "命令/volumearea",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fvolumearea",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少示例",
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "在当前维度中添加、移除或列出功能域。"
+    ],
+    "语法": [
+      "volumearea add <identifier: string> <from: x y z> <to: x y z> <name: string>",
+      "在指定范围内添加功能域。",
+      "volumearea list [all-dimensions: VolumeAreaAllDimensions]",
+      "列出当前维度中的功能域。若指定可选参数[all-dimensions: VolumeAreaAllDimensions]，则会列出当前已定义的所有功能域。",
+      "volumearea remove <name: string>",
+      "移除指定名称的功能域。",
+      "volumearea remove <position: x y z>",
+      "移除指定位置上的功能域。"
+    ],
+    "volumearea remove_all": [
+      "移除所有功能域。"
+    ],
+    "参数": [
+      "identifier: string：basic_string",
+      "指定标识符的名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "from: x y z：CommandPosition和to: x y z：CommandPosition",
+      "指定添加功能域范围的两组对角方块坐标。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "name: string：basic_string",
+      "指定功能域的名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "position: x y z：CommandPosition",
+      "指定功能域的位置。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "all-dimensions: VolumeAreaAllDimensions：enum",
+      "指定是否列出其他维度的功能域。"
+    ],
+    "基岩版": [
+      "1.18.30",
+      "1.18.20.21",
+      "加入了/volumearea。",
+      "1.21.20",
+      "1.21.10.22",
+      "移除了/volumearea。"
+    ],
+    "失败": [
+      "0"
+    ],
+    "成功": [
+      "1"
+    ]
+  }
+}

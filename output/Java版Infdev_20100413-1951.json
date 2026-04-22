@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100413-1951",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100413-1951",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年4月13日\n下载\n不可用\nal_version\n1.121\n◄◄Minecraft Indev\nInfdev 20100618►►\n◄Infdev 20100330-1611\nInfdev 20100413-1953►\nMinecraft Infdev的一个版本发布于2010年4月13日19:51（UTC），加入了Infdev大树。\n新内容\n世界生成\n树木\n加入了Paul Spooner使用脚本实现的Infdev大树。\n更改\n方块\n沙子和沙砾\n现在会再次自然生成了。\n树叶\n现在不再枯萎。\n非生物实体\n箭\n不再在击中方块时生成生物。\n世界生成\n常规\n更新了世界生成器。\n修复\n修复了3个漏洞\n方块不再能放置在玩家所在的位置。\n之前，放置方块可能会导致消耗两个方块，现已被修复。\n光照漏洞已经被修复。有些区域的光照过去较暗，除非有方块更新。这项修复只应用于新生成的区块中。\n参考\nIRC logs: \"(15:51:10) <Notch> I think infdev's been updated\"...\"(15:52:13) <revenant> nice new trees Notch...\"\nPaul Spooner's Minecraft Scripting Story\nStill going slow, but here's a new screenshot!（存档） — The Word of Notch，2010年4月8日。\n导航"
+}

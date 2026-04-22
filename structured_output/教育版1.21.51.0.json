@@ -1,0 +1,29 @@
+{
+  "title": "教育版1.21.51.0",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.21.51.0",
+  "structured_content": {
+    "默认分类": [
+      "1.21.51.0"
+    ],
+    "发布时间": [
+      "Windows, Android, iOS, iPadOS, ChromeOS, macOS - 2025年1月28日"
+    ],
+    "预览版归属": [
+      "1.21.91"
+    ],
+    "协议版本": [
+      "768",
+      "◄◄1.21.10",
+      "1.21.92►►",
+      "◄1.21.50.1",
+      "1.21.80.1►",
+      "Preview 1.21.51.0（Android/ChromeOS/Windows）、beta 1.21.51.0（iOS/iPadOS/macOS/Windows）是教育版1.21.91的第4个开发版本，发布于2025年1月28日，优化了客户端的稳定性。"
+    ],
+    "修复": [
+      "优化了客户端的稳定性。"
+    ],
+    "参考": [
+      "What's New in the Garden Awakens Preview/Beta v1.21.51 — Minecraft Education Support。"
+    ]
+  }
+}

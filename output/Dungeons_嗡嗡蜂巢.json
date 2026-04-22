@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:嗡嗡蜂巢",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%97%A1%E5%97%A1%E8%9C%82%E5%B7%A2",
+  "text": "提示：本条目的主题不是嗡嗡蜂群。\n本条目介绍的是Minecraft Dungeons中的物品。关于Minecraft中的方块，请见“蜂巢（方块）”。\n嗡嗡蜂巢\n类型\n法器\n稀有度\n远古狩猎符文\n爱蜜蜂的人和被蜜蜂爱的人都是嗡嗡蜂巢的粉丝，但不要被里面可爱的蜜蜂所迷惑——它们蜇人真的疼！\n——物品描述\n嗡嗡蜂巢（Buzzy Nest）是Minecraft Dungeons中的法器。\n获取\n地点：\n潮湿洞穴\n地下神殿\n昏暗丛林\n树梢缠结\n巍峨壁垒\n下界荒地\n居民：\n村庄商人\n神秘商人\n奢侈品商人\n使用\n使用后会将法器置于地上，并召唤蜜蜂帮助玩家战斗。\n蜂巢存在期间最多召唤3只蜜蜂，如果蜜蜂少于3只则会继续补充。\n召唤出来的蜜蜂会围着嗡嗡蜂巢附近行动，待法器消失后才会跟随玩家。\n蜜蜂跟随玩家一段时间后会消失，同时伴随着一阵黄色烟雾效果。\n属性\nX 召唤物伤害\n23 秒冷却\n音效\n描述\n文件\n空闲\nD2P2_sfx_item_beenestIdle\n掉落\nD2P2_sfx_item_beenesttDrop\n拾取\nD2P2_sfx_item_beenesttPickup\n装备\nD2P2_sfx_item_beenesttPlace\n生成蜜蜂\nD2P2_sfx_item_beenesttSpawn\n使用\nD2P2_sfx_item_beenesttUse\n历史\nMinecraft Dungeons\n1.4.3.0\n加入了嗡嗡蜂巢。\n导航"
+}

@@ -1,0 +1,150 @@
+{
+  "title": "基岩版1.20.20.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.20.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.20.22"
+    ],
+    "服务端版本": [
+      "1.20.20.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952002022（armeabi-v7a，33）",
+      "962002022（x86，33）",
+      "972002022（arm64-v8a，33）",
+      "982002022（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年7月20日"
+    ],
+    "测试版归属": [
+      "1.20.30"
+    ],
+    "协议版本": [
+      "607",
+      "◄◄1.20.15",
+      "1.20.31►►",
+      "◄1.20.20.21",
+      "1.20.20.23►",
+      "beta 1.20.20.22（ChromeOS/Android）、Preview 1.20.20.22（Xbox/Windows/iOS/iPadOS）是基岩版1.20.30的第3个测试版，发布于2023年7月20日，将爬行机制和/camera命令从实验性玩法移出，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "移除了server.properties中的server-authoritative-sound布尔型变量。",
+      "为脚本公开了DimensionType。",
+      "在1.20.20及更高版本的JSON格式中开放了实验性物品组件minecraft:wearable。",
+      "公开了数据驱动生物群系实验性选项中的一些地物放置规则。现在允许创作者将自定义地物附加在生物群系上并定义放置这些地物的规则。",
+      "minecraft:aggregate_feature",
+      "minecraft:cave_carver_feature",
+      "minecraft:fossil_feature",
+      "minecraft:geode_feature",
+      "minecraft:growing_plant_feature",
+      "minecraft:multiface_feature",
+      "minecraft:nether_cave_carver_feature",
+      "minecraft:ore_feature",
+      "minecraft:partially_exposed_blob_feature",
+      "minecraft:scatter_feature",
+      "minecraft:search_feature",
+      "minecraft:sequence_feature",
+      "minecraft:single_block_feature",
+      "minecraft:snap_to_surface_feature",
+      "minecraft:structure_template_feature",
+      "minecraft:surface_relative_threshold_feature",
+      "minecraft:tree_feature",
+      "minecraft:underwater_cave_carver_feature",
+      "minecraft:vegetation_patch_feature",
+      "minecraft:weighted_random_feature"
+    ],
+    "创建新的世界": [
+      "加入了“配方解锁”选项。",
+      "用于启用配方解锁机制。"
+    ],
+    "游戏内容": [
+      "现在玩家在头部高于水面的情况下游泳时会恢复氧气条。（MCPE-170969）"
+    ],
+    "爬行": [
+      "不再属于实验性玩法。"
+    ],
+    "/camera": [
+      "不再属于实验性玩法。"
+    ],
+    "/recipe": [
+      "将目标参数victim: target更改为player: target。"
+    ],
+    "构建信息": [
+      "加入了“Resolution”字样，其后方会显示屏幕分辨率。"
+    ],
+    "实验性玩法": [
+      "移除了“爬行”子选项。"
+    ],
+    "物品": [
+      "在1.20.20及更高版本的JSON格式中开放了实验性物品组件minecraft:digger。",
+      "弃用了1.20.20及更高版本的JSON格式中的minecraft:digger物品组件的on_dig参数。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”子选项后才可使用。"
+    ],
+    "API": [
+      "为下列API加入了相机脚本API：",
+      "setCamera():",
+      "将相机设置为指定预设。",
+      "fade():",
+      "开始相机的淡入淡出效果。",
+      "clear():",
+      "清除相机上的当前设置。",
+      "将ScoreboardAPI由测试版发布到1.4.0。",
+      "将Scoreboard.getObjective、​getObjectiveAtDisplaySlot和​clearObjectiveAtDisplaySlot更新为返回undefined。",
+      "移除了@minecraft/server中定义的MinecraftBlockTypes。",
+      "将ItemUseBeforeEvent移动至1.4.0。",
+      "将ItemUseOnBeforeEvent移动至1.4.0。",
+      "将ItemUseAfterEvent移动至1.4.0。",
+      "将ItemUseOnAfterEvent移动至1.4.0。",
+      "将ItemStartUseOnAfterEvent移动至1.4.0。",
+      "将ItemStopUseAfterEvent移动至1.4.0。",
+      "将ItemStopUseOnAfterEvent移动至1.4.0。",
+      "将ItemCompleteUseAfterEvent移动至1.4.0。",
+      "将ItemReleaseUseAfterEvent移动至1.4.0。",
+      "将ItemStartUseAfterEvent移动至1.4.0。",
+      "将DimensionLocation移动至1.4.0。",
+      "将PositionInUnloadedChunkError重命名为LocationInUnloadedChunkError，并其移动至1.4.0。",
+      "将PositionOutOfWorldBoundariesError重命名为LocationOutOfWorldBoundariesError，并将其移动至1.4.0。",
+      "将getSpawnPoint移动至1.4.0。",
+      "将setSpawnPoint移动至1.4.0。",
+      "将getDefaultSpawnLocation移动至1.4.0。",
+      "将setDefaultSpawnLocation移动至1.4.0。",
+      "为下列类将isValid()由测试版发布到1.4.0。"
+    ],
+    "WorldAfterEvents": [
+      "移除了projectileHit。",
+      "加入projectileHitBlock。",
+      "加入了projectileHitEntity。",
+      "加入了ProjectileHitBlockAfterEvent的导出类：ProjectileHitBlockAfterEvent { readonly dimension: Dimension; readonly hitVector: Vector3; readonly location: Vector3; readonly projectile: Entity; readonly source?: Entity; getBlockHit(): BlockHitInformation; }。",
+      "加入了ProjectileHitEntityAfterEvent的导出类：ProjectileHitEntityAfterEvent { readonly dimension: Dimension; readonly hitVector: Vector3; readonly location: Vector3; readonly projectile: Entity; readonly source?: Entity; getEntityHit(): EntityHitInformation; }。",
+      "修复了ContainerSlot无法对部分容器类型生效的漏洞。（MCPE-172782）"
+    ],
+    "活动对象": [
+      "兔子、北极熊和物品实体不再能悬浮在雪层上。（MCPE-172381）"
+    ],
+    "方块": [
+      "现在当玩家手持结构空位时，放置于世界中的结构空位再次可以高亮显示和被破坏。（MCPE-172429）"
+    ],
+    "配方解锁": [
+      "现在玩家可以在创建新的世界屏幕中启用配方解锁机制。（MCPE-172956）",
+      "更新了/recipe命令，现在命令提示会给出player: target，而不是victim: target。（MCPE-172402）"
+    ],
+    "性能与稳定性": [
+      "修复了Xbox平台上缺失存储空间不足警告的问题。"
+    ],
+    "辅助功能": [
+      "现在在没有互联网连接的情况下打开游戏菜单时，文本转语音旁白会读出游戏菜单中的断开连接消息。"
+    ],
+    "用户界面": [
+      "修复了在iOS平台上进行多行文本编辑的过程中，使用空格键重新定位插入符后输入文本时会偶尔删除部分文本的问题。（MCPE-166152）",
+      "将订阅设置中的按钮文本由“管理”更改为“取消”。",
+      "修复了地下晕影效果会渲染在快捷栏顶部的分层问题。（MCPE-159217）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.20.22 — Minecraft Feedback，2023年7月20日。"
+    ]
+  }
+}

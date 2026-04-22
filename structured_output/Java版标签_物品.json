@@ -1,0 +1,1285 @@
+{
+  "title": "Java版标签/物品",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E7%89%A9%E5%93%81",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "物品标签（Item Tags）是物品的组合。"
+    ],
+    "使用": [
+      "物品标签常用于物品类型的判断。例如物品谓词、配方原料、命令/execute if items等。只要物品在此标签内，测试就会成功。",
+      "在创造模式物品栏中，可以使用#<任意文字>来依靠标签搜索物品。",
+      "游戏也使用物品标签控制了一些游戏行为。"
+    ],
+    "acacia_logs": [
+      "用于acacia_planks.json进度和配方文件。",
+      "#acacia_logs（4项）"
+    ],
+    "anvil": [
+      "#anvil（3项）"
+    ],
+    "armadillo_food": [
+      "可以用于喂食犰狳的物品。",
+      "#armadillo_food（1项）"
+    ],
+    "arrows": [
+      "控制哪些物品可以被弓和弩射出。添加到标签中的任何物品都可以像箭一样被射出和捡起。",
+      "#arrows（3项）"
+    ],
+    "axes": [
+      "#axes（7项）"
+    ],
+    "axolotl_food": [
+      "带有此标签的物品可用于喂食、引诱美西螈。",
+      "#axolotl_food（1项）"
+    ],
+    "bamboo_blocks": [
+      "#bamboo_blocks（2项）"
+    ],
+    "banners": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加300刻的燃烧时间。",
+      "#banners（16项）"
+    ],
+    "bars": [
+      "#bars（9项）"
+    ],
+    "beacon_payment_items": [
+      "用于检查哪些物品可以放置在信标GUI中以选择效果。",
+      "#beacon_payment_items（5项）"
+    ],
+    "beds": [
+      "#beds（16项）"
+    ],
+    "bee_food": [
+      "可以用于喂食蜜蜂的物品。",
+      "#bee_food（29项）"
+    ],
+    "birch_logs": [
+      "用于birch_planks.json进度和配方文件。",
+      "#birch_logs（4项）"
+    ],
+    "boats": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加1200刻的燃烧时间。",
+      "#boats（11项）"
+    ],
+    "book_cloning_target": [
+      "可通过与成书合成来复制的物品。",
+      "#book_cloning_target（1项）"
+    ],
+    "bookshelf_books": [
+      "带有此标签的物品可被放入雕纹书架的柜位里。",
+      "#bookshelf_books（5项）"
+    ],
+    "breaks_decorated_pots": [
+      "使用未附有精准采集魔咒且在此标签下的物品破坏饰纹陶罐会将其cracked方块状态设置为true。",
+      "#breaks_decorated_pots（7项）"
+    ],
+    "#swords": [
+      "添加于：24w03a。移除于：25w41a。"
+    ],
+    "brewing_fuel": [
+      "带有此标签的物品可被放入酿造台的燃料槽位并消耗。任意物品都会提供与烈焰粉相同的热值。",
+      "#brewing_fuel（1项）"
+    ],
+    "bundles": [
+      "用于进度和收纳袋染色配方。",
+      "#bundles（17项）"
+    ],
+    "buttons": [
+      "#buttons（2项）"
+    ],
+    "camel_food": [
+      "可以用于喂食骆驼的物品。",
+      "#camel_food（1项）"
+    ],
+    "camel_husk_food": [
+      "可以用于喂食骆驼尸壳的物品。",
+      "#camel_husk_food（1项）"
+    ],
+    "candles": [
+      "蛋糕使用这个标签来决定蜡烛物品是否能放置在上面。",
+      "将其他物品加入这个标签不会有任何作用。",
+      "#candles（17项）"
+    ],
+    "cat_collar_dyes": [
+      "用于给猫的项圈染色的物品。",
+      "设置的颜色取自物品的minecraft:dye组件。",
+      "#cat_collar_dyes（1项）"
+    ],
+    "cat_food": [
+      "可以用于喂食猫的物品。",
+      "#cat_food（2项）"
+    ],
+    "cauldron_can_remove_dye": [
+      "可以在装有水的炼药锅中使用以去除minecraft:dyed_color组件的物品。",
+      "#cauldron_can_remove_dye（6项）"
+    ],
+    "chains": [
+      "#chains（9项）"
+    ],
+    "cherry_logs": [
+      "#cherry_logs（4项）"
+    ],
+    "chest_armor": [
+      "属于胸部盔甲（胸甲）的物品。",
+      "#chest_armor（7项）"
+    ],
+    "chest_boats": [
+      "#chest_boats（10项）"
+    ],
+    "chicken_food": [
+      "可以用于喂食鸡的物品。",
+      "#chicken_food（6项）"
+    ],
+    "cluster_max_harvestables": [
+      "使用此标签下的物品破坏紫水晶簇可以获得最大掉落量的紫水晶碎片。",
+      "#cluster_max_harvestables（7项）"
+    ],
+    "coal_ores": [
+      "#coal_ores（2项）"
+    ],
+    "coals": [
+      "用于合成营火。",
+      "#coals（2项）"
+    ],
+    "compasses": [
+      "包含所有指南针。",
+      "#compasses（2项）"
+    ],
+    "completes_find_tree_tutorial": [
+      "物品栏中有具此标签的物品时可完成“找到一棵树”教学提示。",
+      "#completes_find_tree_tutorial（3项）"
+    ],
+    "concrete": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#concrete[即将到来]（16项）"
+    ],
+    "concrete_powders": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#concrete_powders[即将到来]（16项）"
+    ],
+    "copper": [
+      "#copper（8项）"
+    ],
+    "copper_chests": [
+      "#copper_chests（8项）"
+    ],
+    "copper_golem_statues": [
+      "#copper_golem_statues（8项）"
+    ],
+    "copper_ores": [
+      "#copper_ores（2项）"
+    ],
+    "copper_tool_materials": [
+      "用于铜质工具的合成配方和修复材料。",
+      "#copper_tool_materials（1项）"
+    ],
+    "cow_food": [
+      "可以用于喂食牛的物品。",
+      "#cow_food（1项）"
+    ],
+    "creeper_drop_music_discs": [
+      "用于确定苦力怕被骷髅杀死后掉落哪些物品。",
+      "#creeper_drop_music_discs（12项）",
+      "music_disc_13（音乐唱片）"
+    ],
+    "music_disc_ward（音乐唱片）": [
+      "music_disc_11（音乐唱片）"
+    ],
+    "creeper_igniters": [
+      "用于确定苦力怕可被哪些物品点燃。",
+      "#creeper_igniters（2项）"
+    ],
+    "crimson_stems": [
+      "用于crimson_planks.json进度和配方文件。",
+      "#crimson_stems（4项）"
+    ],
+    "dampens_vibrations": [
+      "#dampens_vibrations（2项）"
+    ],
+    "dark_oak_logs": [
+      "用于dark_oak_planks.json进度和配方文件。",
+      "#dark_oak_logs（4项）"
+    ],
+    "decorated_pot_ingredients": [
+      "带有此标签的物品能合成饰纹陶罐。",
+      "#decorated_pot_ingredients（2项）"
+    ],
+    "decorated_pot_sherds": [
+      "#decorated_pot_sherds（23项）"
+    ],
+    "diamond_ores": [
+      "#diamond_ores（2项）"
+    ],
+    "diamond_tool_materials": [
+      "用于钻石工具的合成配方和修复材料。",
+      "#diamond_tool_materials（1项）"
+    ],
+    "dirt": [
+      "#dirt（3项）"
+    ],
+    "doors": [
+      "#doors（10项）"
+    ],
+    "drowned_preferred_weapons": [
+      "溺尸更愿意拾取的物品。",
+      "#drowned_preferred_weapons（1项）"
+    ],
+    "duplicates_allays": [
+      "带有此标签的物品可对跳舞的悦灵使用以复制悦灵。",
+      "#duplicates_allays（1项）"
+    ],
+    "dyes": [
+      "#dyes（16项）"
+    ],
+    "eggs": [
+      "#eggs（3项）"
+    ],
+    "emerald_ores": [
+      "#emerald_ores（2项）"
+    ],
+    "enchantable/armor": [
+      "可以附上适用于盔甲的魔咒的物品。",
+      "#enchantable/armor（4项）"
+    ],
+    "enchantable/bow": [
+      "可以附上适用于弓的魔咒的物品。",
+      "#enchantable/bow（1项）"
+    ],
+    "enchantable/chest_armor": [
+      "可以附上适用于胸甲的魔咒的物品。",
+      "#enchantable/chest_armor（1项）"
+    ],
+    "enchantable/crossbow": [
+      "可以附上适用于弩的魔咒的物品。",
+      "#enchantable/crossbow（1项）"
+    ],
+    "enchantable/durability": [
+      "可以附上影响耐久度的魔咒的物品。",
+      "#enchantable/durability（22项）"
+    ],
+    "enchantable/equippable": [
+      "可以附上可装备（Equippable）魔咒的物品。",
+      "#enchantable/equippable（7项）"
+    ],
+    "可附魔火焰附加魔咒的物品": [
+      "#enchantable/fire_aspect（2项）"
+    ],
+    "enchantable/fishing": [
+      "可以附上适用于钓鱼竿的魔咒的物品。",
+      "#enchantable/fishing（1项）"
+    ],
+    "enchantable/foot_armor": [
+      "可以附上适用于靴子的魔咒的物品。",
+      "#enchantable/foot_armor（1项）"
+    ],
+    "enchantable/head_armor": [
+      "可以附上适用于头盔的魔咒的物品。",
+      "#enchantable/head_armor（1项）"
+    ],
+    "enchantable/leg_armor": [
+      "可以附上适用于护腿的魔咒的物品。",
+      "#enchantable/leg_armor（1项）"
+    ],
+    "enchantable/lunge": [
+      "可以附上突进魔咒的物品。",
+      "#enchantable/lunge（1项）"
+    ],
+    "enchantable/mace": [
+      "可以附上适用于重锤的魔咒的物品。",
+      "#enchantable/mace（1项）"
+    ],
+    "enchantable/melee_weapon": [
+      "可以附上适用于近战武器的魔咒的物品。",
+      "#enchantable/melee_weapon（2项）"
+    ],
+    "enchantable/mining": [
+      "可以附上影响挖掘速度的魔咒的物品。",
+      "#enchantable/mining（5项）"
+    ],
+    "enchantable/mining_loot": [
+      "可以附上影响挖掘掉落物的魔咒的物品。",
+      "#enchantable/mining_loot（4项）"
+    ],
+    "enchantable/sharp_weapon": [
+      "可以附上锋利魔咒的物品。",
+      "#enchantable/sharp_weapon（2项）"
+    ],
+    "enchantable/sweeping": [
+      "可以附上横扫之刃魔咒的物品。",
+      "#enchantable/sweeping（1项）"
+    ],
+    "enchantable/trident": [
+      "可以附上适用于三叉戟的魔咒的物品。",
+      "#enchantable/trident（1项）"
+    ],
+    "enchantable/vanishing": [
+      "可以附上可使物品消失的魔咒的物品。",
+      "#enchantable/vanishing（4项）"
+    ],
+    "enchantable/weapon": [
+      "可以附上适用于武器的魔咒的物品。",
+      "#enchantable/weapon（2项）"
+    ],
+    "fence_gates": [
+      "#fence_gates（12项）"
+    ],
+    "fences": [
+      "#fences（2项）"
+    ],
+    "fishes": [
+      "此标签中的物品出现在玩家的主手或副手中时，海豚会背着玩家游泳。",
+      "使用此标签中的物品喂养海豚会使它们“信任”玩家。",
+      "用于统计已捕获的鱼的数量的fish_caught统计数据。",
+      "#fishes（6项）"
+    ],
+    "flowers": [
+      "#flowers（15项）"
+    ],
+    "foot_armor": [
+      "属于脚部盔甲（靴子）的物品。",
+      "#foot_armor（7项）"
+    ],
+    "fox_food": [
+      "可以用于喂食狐狸的物品。",
+      "#fox_food（2项）"
+    ],
+    "freeze_immune_wearables": [
+      "穿戴拥有此标签的物品可以使玩家免疫冰冻伤害。",
+      "#freeze_immune_wearables（5项）"
+    ],
+    "frog_food": [
+      "可以用于喂食青蛙的物品。",
+      "#frog_food（1项）"
+    ],
+    "furnace_minecart_fuel": [
+      "用于给动力矿车填充燃料的物品。",
+      "#furnace_minecart_fuel（2项）"
+    ],
+    "gaze_disguise_equipment": [
+      "掩饰正在注视其他生物的玩家。",
+      "#gaze_disguise_equipment（1项）"
+    ],
+    "glazed_terracotta": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "#glazed_terracotta[即将到来]（16项）"
+    ],
+    "goat_food": [
+      "可以用于喂食山羊的物品。",
+      "#goat_food（1项）"
+    ],
+    "gold_ores": [
+      "#gold_ores（3项）"
+    ],
+    "gold_tool_materials": [
+      "用于金质工具的合成配方和修复材料。",
+      "#gold_tool_materials（1项）"
+    ],
+    "grass_blocks": [
+      "#grass_blocks（3项）"
+    ],
+    "hanging_signs": [
+      "#hanging_signs（12项）"
+    ],
+    "happy_ghast_food": [
+      "可用于喂食快乐恶魂的物品。",
+      "#happy_ghast_food（1项）"
+    ],
+    "happy_ghast_tempt_items": [
+      "可用于引诱快乐恶魂的物品。",
+      "#happy_ghast_tempt_items（2项）"
+    ],
+    "harnesses": [
+      "所有挽具物品，用于其他标签。",
+      "#harnesses（16项）"
+    ],
+    "head_armor": [
+      "属于头部盔甲（头盔）的物品。",
+      "#head_armor（8项）"
+    ],
+    "hoes": [
+      "#hoes（7项）"
+    ],
+    "hoglin_food": [
+      "可以用于喂食疣猪兽的物品。",
+      "#hoglin_food（1项）"
+    ],
+    "horse_food": [
+      "可以用于喂食马的物品。",
+      "#horse_food（8项）"
+    ],
+    "horse_tempt_items": [
+      "可以用于引诱马的物品。",
+      "#horse_tempt_items（3项）"
+    ],
+    "ignored_by_piglin_babies": [
+      "幼年猪灵不会试图拾起拥有这个标签的物品。",
+      "仍然遵循成年猪灵遵循的其他规则。",
+      "#ignored_by_piglin_babies（1项）"
+    ],
+    "iron_ores": [
+      "#iron_ores（2项）"
+    ],
+    "iron_tool_materials": [
+      "用于铁质工具的合成配方和修复材料。",
+      "#iron_tool_materials（1项）"
+    ],
+    "jungle_logs": [
+      "用于jungle_planks.json进度和配方文件。",
+      "#jungle_logs（4项）"
+    ],
+    "lanterns": [
+      "#lanterns（10项）"
+    ],
+    "lapis_ores": [
+      "#lapis_ores（2项）"
+    ],
+    "leaves": [
+      "#leaves（11项）"
+    ],
+    "lectern_books": [
+      "可以在讲台上放置的物品。讲台的实际功能取决于物品的物品堆叠组件。",
+      "#lectern_books（2项）"
+    ],
+    "leg_armor": [
+      "属于腿部盔甲（护腿）的物品。",
+      "#leg_armor（7项）"
+    ],
+    "lightning_rods": [
+      "#lightning_rods（8项）"
+    ],
+    "llama_food": [
+      "可以用于喂食羊驼的物品。",
+      "#llama_food（2项）"
+    ],
+    "llama_tempt_items": [
+      "可以用于引诱羊驼的物品。",
+      "#llama_tempt_items（1项）"
+    ],
+    "logs": [
+      "用于各种检测，以跳过或进入“punch_tree”教程步骤。",
+      "#logs（3项）"
+    ],
+    "logs_that_burn": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加300刻的燃烧时间。",
+      "用于木炭的进度和配方文件。",
+      "#logs_that_burn（9项）"
+    ],
+    "loom_dyes": [
+      "允许在织布机界面上设置图案颜色的物品。",
+      "织布机屏幕仍然需要物品堆叠具有minecraft:dye组件。",
+      "#loom_dyes（1项）"
+    ],
+    "loom_patterns": [
+      "允许在织布机界面上解锁图案的物品。",
+      "织布机屏幕仍然需要物品堆叠具有minecraft:provides_banner_patterns组件。",
+      "#loom_patterns（10项）"
+    ],
+    "mangrove_logs": [
+      "用于mangrove_planks.json进度和配方文件。",
+      "#mangrove_logs（4项）"
+    ],
+    "map_invisibility_equipment": [
+      "能被装备以隐藏在其他玩家地图上的玩家标记的物品。",
+      "#map_invisibility_equipment（1项）"
+    ],
+    "meat": [
+      "肉类物品。未被游戏直接使用，但可能包含于其他标签中。",
+      "#meat（11项）"
+    ],
+    "metal_nuggets": [
+      "用于命名牌的合成配方。",
+      "#metal_nuggets（3项）"
+    ],
+    "moss_blocks": [
+      "#moss_blocks（2项）"
+    ],
+    "mud": [
+      "#mud（2项）"
+    ],
+    "nautilus_bucket_food": [
+      "可驯服鹦鹉螺和僵尸鹦鹉螺的桶类物品。使用后会返还水桶。",
+      "#nautilus_bucket_food（4项）"
+    ],
+    "nautilus_food": [
+      "可喂养鹦鹉螺和僵尸鹦鹉螺的物品。",
+      "#nautilus_food（2项）"
+    ],
+    "nautilus_taming_items": [
+      "可驯服鹦鹉螺和僵尸鹦鹉螺的物品。",
+      "#nautilus_taming_items（2项）"
+    ],
+    "netherite_tool_materials": [
+      "用于下界合金质工具的锻造配方和修复材料。",
+      "#netherite_tool_materials（1项）"
+    ],
+    "non_flammable_wood": [
+      "此标签下的物品不能作为燃料在类熔炉中燃烧。",
+      "#non_flammable_wood（32项）"
+    ],
+    "noteblock_top_instruments": [
+      "对音符盒顶部使用此标签下的物品不会触发音符盒的默认交互功能。",
+      "#noteblock_top_instruments（7项）"
+    ],
+    "oak_logs": [
+      "用于oak_planks.json进度和配方文件。",
+      "#oak_logs（4项）"
+    ],
+    "ocelot_food": [
+      "可以用于喂食豹猫的物品。",
+      "#ocelot_food（2项）"
+    ],
+    "pale_oak_logs": [
+      "#pale_oak_logs（4项）"
+    ],
+    "panda_eats_from_ground": [
+      "带有此标签的物品能被熊猫拿起。",
+      "#panda_eats_from_ground（2项）"
+    ],
+    "panda_food": [
+      "可以用于喂食熊猫的物品。",
+      "#panda_food（1项）"
+    ],
+    "parrot_food": [
+      "可以用于喂食鹦鹉的物品。",
+      "#parrot_food（6项）"
+    ],
+    "parrot_poisonous_food": [
+      "可以用于喂食鹦鹉并致使其中毒的物品。",
+      "#parrot_poisonous_food（1项）"
+    ],
+    "pickaxes": [
+      "#pickaxes（7项）"
+    ],
+    "pig_food": [
+      "可以用于喂食猪的物品。",
+      "#pig_food（3项）"
+    ],
+    "piglin_food": [
+      "猪灵可以吃下拥有这个标签的物品。",
+      "猪灵可以将拥有这个标签的物品放在它们的物品栏中。",
+      "#piglin_food（2项）"
+    ],
+    "piglin_loved": [
+      "猪灵“喜爱”含有此标签的物品，并且会主动寻找它们。",
+      "它们也会将持有此标签物品的玩家视为持有“喜爱”的物品。",
+      "用于金光闪闪进度。",
+      "#piglin_loved（26项）"
+    ],
+    "piglin_preferred_weapons": [
+      "成年猪灵更愿意拾取的物品。",
+      "#piglin_preferred_weapons（2项）"
+    ],
+    "piglin_repellents": [
+      "猪灵不会尝试捡起这些物品。",
+      "#piglin_repellents（3项）"
+    ],
+    "piglin_safe_armor": [
+      "猪灵不会主动攻击装备这些物品的玩家。",
+      "#piglin_safe_armor（4项）"
+    ],
+    "pillager_preferred_weapons": [
+      "掠夺者更愿意拾取的物品。",
+      "#pillager_preferred_weapons（1项）"
+    ],
+    "planks": [
+      "用于各种检测，以跳过或进入“craft_planks”教学提示步骤。",
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加300刻的燃烧时间。",
+      "#planks（12项）"
+    ],
+    "rabbit_food": [
+      "可以用于喂食兔子的物品。",
+      "#rabbit_food（3项）"
+    ],
+    "rails": [
+      "#rails（4项）"
+    ],
+    "redstone_ores": [
+      "#redstone_ores（2项）"
+    ],
+    "repairs_chain_armor": [
+      "锁链盔甲的维修用物品，即锁链盔甲的repairable组件默认值。",
+      "#repairs_chain_armor（1项）"
+    ],
+    "repairs_copper_armor": [
+      "铜盔甲的维修用物品，即铜盔甲的repairable组件默认值。",
+      "#repairs_copper_armor（1项）"
+    ],
+    "repairs_diamond_armor": [
+      "钻石盔甲的维修用物品，即钻石盔甲的repairable组件默认值。",
+      "#repairs_diamond_armor（1项）"
+    ],
+    "repairs_gold_armor": [
+      "金盔甲的维修用物品，即金盔甲的repairable组件默认值。",
+      "#repairs_gold_armor（1项）"
+    ],
+    "repairs_iron_armor": [
+      "铁盔甲的维修用物品，即铁盔甲的repairable组件默认值。",
+      "#repairs_iron_armor（1项）"
+    ],
+    "repairs_leather_armor": [
+      "皮革盔甲的维修用物品，即皮革盔甲的repairable组件默认值。",
+      "#repairs_leather_armor（1项）"
+    ],
+    "repairs_netherite_armor": [
+      "下界合金盔甲的维修用物品，即下界合金盔甲的repairable组件默认值。",
+      "#repairs_netherite_armor（1项）"
+    ],
+    "repairs_turtle_helmet": [
+      "海龟鳞甲盔甲的维修用物品，即海龟壳的repairable组件默认值。",
+      "#repairs_turtle_helmet（1项）"
+    ],
+    "repairs_wolf_armor": [
+      "犰狳鳞甲盔甲的维修用物品，即狼铠的repairable组件默认值。",
+      "#repairs_wolf_armor（1项）"
+    ],
+    "sand": [
+      "用于glass.json进度和配方文件。",
+      "#sand（3项）"
+    ],
+    "saplings": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加100刻的燃烧时间。",
+      "#saplings（11项）"
+    ],
+    "shearable_from_copper_golem": [
+      "可从铜傀儡头部剪下的物品。",
+      "#shearable_from_copper_golem（1项）"
+    ],
+    "sheep_food": [
+      "可以用于喂食羊的物品。",
+      "#sheep_food（1项）"
+    ],
+    "shovels": [
+      "#shovels（7项）"
+    ],
+    "shulker_boxes": [
+      "用于进度和潜影盒染色配方。",
+      "#shulker_boxes（17项）"
+    ],
+    "signs": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加200刻的燃烧时间。",
+      "#signs（12项）"
+    ],
+    "skeleton_preferred_weapons": [
+      "骷髅、流浪者、沼骸和焦骸更愿意拾取的物品。",
+      "#skeleton_preferred_weapons（1项）"
+    ],
+    "skulls": [
+      "属于生物头颅的物品。",
+      "#skulls（7项）"
+    ],
+    "slabs": [
+      "#slabs（57项）"
+    ],
+    "small_flowers": [
+      "#small_flowers（17项）"
+    ],
+    "smelts_to_glass": [
+      "这些物品可以被烧炼成玻璃。",
+      "#smelts_to_glass（2项）"
+    ],
+    "sniffer_food": [
+      "可以用于喂食嗅探兽的物品。",
+      "#sniffer_food（1项）"
+    ],
+    "soul_fire_base_blocks": [
+      "此标签中的物品可用于制造灵魂营火和灵魂火把，并将解锁配方书中的配方。",
+      "#soul_fire_base_blocks（2项）"
+    ],
+    "spears": [
+      "#spears（7项）"
+    ],
+    "spruce_logs": [
+      "用于spruce_planks.json进度和配方文件。",
+      "#spruce_logs（4项）"
+    ],
+    "stairs": [
+      "#stairs（53项）"
+    ],
+    "stone_bricks": [
+      "用于解锁雕纹石砖、石砖台阶和石砖楼梯的合成配方。",
+      "#stone_bricks（4项）"
+    ],
+    "stone_buttons": [
+      "#stone_buttons（2项）"
+    ],
+    "stone_crafting_materials": [
+      "用于酿造台和熔炉的配方。",
+      "#stone_crafting_materials（3项）"
+    ],
+    "stone_tool_materials": [
+      "用于石器时代进度。",
+      "用于石质工具的合成配方和修复材料。",
+      "#stone_tool_materials（3项）"
+    ],
+    "strider_food": [
+      "可以用于喂食炽足兽的物品。",
+      "#strider_food（1项）"
+    ],
+    "strider_tempt_items": [
+      "可以用于引诱炽足兽的物品。",
+      "#strider_tempt_items（2项）"
+    ],
+    "sulfur_cube_archetype/bouncy": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为弹性。",
+      "#sulfur_cube_archetype/bouncy[即将到来]（4项）"
+    ],
+    "sulfur_cube_archetype/fast_flat": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为快速平移。",
+      "#sulfur_cube_archetype/fast_flat[即将到来]（25项）"
+    ],
+    "sulfur_cube_archetype/fast_sliding": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为快速滑行。",
+      "#sulfur_cube_archetype/fast_sliding[即将到来]（3项）"
+    ],
+    "sulfur_cube_archetype/high_resistance": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为高抗性。",
+      "#sulfur_cube_archetype/high_resistance[即将到来]（2项）"
+    ],
+    "sulfur_cube_archetype/light": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为轻盈。",
+      "#sulfur_cube_archetype/light[即将到来]（1项）"
+    ],
+    "sulfur_cube_archetype/regular": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为普通。",
+      "#sulfur_cube_archetype/regular[即将到来]（109项）"
+    ],
+    "sulfur_cube_archetype/slow_flat": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为缓慢平移。",
+      "#sulfur_cube_archetype/slow_flat[即将到来]（42项）"
+    ],
+    "sulfur_cube_archetype/slow_sliding": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为缓慢滑行。",
+      "#sulfur_cube_archetype/slow_sliding[即将到来]（6项）"
+    ],
+    "sulfur_cube_archetype/sticky": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "吸收这些物品的硫方怪的原型会被设置为黏性。",
+      "#sulfur_cube_archetype/sticky[即将到来]（1项）"
+    ],
+    "sulfur_cube_food": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "可以喂食小型硫方怪的物品。",
+      "#sulfur_cube_food[即将到来]（1项）"
+    ],
+    "sulfur_cube_swallowable": [
+      "本段落包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "可以放置在大型硫方怪内的物品。",
+      "#sulfur_cube_swallowable[即将到来]（9项）"
+    ],
+    "swords": [
+      "#swords（7项）"
+    ],
+    "terracotta": [
+      "#terracotta（17项）"
+    ],
+    "trapdoors": [
+      "#trapdoors（10项）"
+    ],
+    "trim_materials": [
+      "可用于在锻造台中作为附加盔甲纹饰的材料。",
+      "#trim_materials（11项）"
+    ],
+    "trimmable_armor": [
+      "#trimmable_armor（4项）"
+    ],
+    "turtle_food": [
+      "可以用于喂食海龟的物品。",
+      "#turtle_food（1项）"
+    ],
+    "villager_picks_up": [
+      "会吸引村民捡起的物品。",
+      "#villager_picks_up（4项）"
+    ],
+    "villager_plantable_seeds": [
+      "可被村民种植的物品。",
+      "#villager_plantable_seeds（6项）"
+    ],
+    "walls": [
+      "#walls（32项）"
+    ],
+    "warped_stems": [
+      "用于warped_planks.json进度和配方文件。",
+      "#warped_stems（4项）"
+    ],
+    "wart_blocks": [
+      "#wart_blocks（2项）"
+    ],
+    "wither_skeleton_disliked_weapons": [
+      "凋灵骷髅不想拾取的物品。",
+      "#wither_skeleton_disliked_weapons（2项）"
+    ],
+    "wolf_collar_dyes": [
+      "用于给狼的项圈染色的物品。",
+      "设置的颜色取自物品的minecraft:dye组件。",
+      "#wolf_collar_dyes（1项）"
+    ],
+    "wolf_food": [
+      "可以用于喂食狼的物品。",
+      "#wolf_food（8项）"
+    ],
+    "wooden_buttons": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加100刻的燃烧时间。",
+      "在#buttons中使用。",
+      "#wooden_buttons（12项）"
+    ],
+    "wooden_doors": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加200刻的燃烧时间。",
+      "在#doors中使用。",
+      "#wooden_doors（12项）"
+    ],
+    "wooden_fences": [
+      "#wooden_fences（12项）"
+    ],
+    "wooden_pressure_plates": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加300刻的燃烧时间。",
+      "#wooden_pressure_plates（12项）"
+    ],
+    "wooden_shelves": [
+      "#wooden_shelves（12项）"
+    ],
+    "wooden_slabs": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加150刻的燃烧时间。",
+      "用于阳光探测器、堆肥桶、雕纹书架和讲台的配方。",
+      "#wooden_slabs（12项）"
+    ],
+    "wooden_stairs": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加300刻的燃烧时间。",
+      "#wooden_stairs（12项）"
+    ],
+    "wooden_tool_materials": [
+      "用于木质工具和盾牌的合成配方和修复材料。",
+      "#wooden_tool_materials（1项）"
+    ],
+    "wooden_trapdoors": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加300刻的燃烧时间。",
+      "#wooden_trapdoors（12项）"
+    ],
+    "wool": [
+      "用于检查一个物品是否能进入熔炉的燃料槽并增加100刻的燃烧时间。",
+      "用于画的配方和配方解锁。",
+      "#wool（16项）"
+    ],
+    "wool_carpets": [
+      "用于检查物品是否能放入熔炉的燃料槽，并重置燃烧时间67。",
+      "#wool_carpets（16项）"
+    ],
+    "zombie_horse_food": [
+      "可以用于喂食僵尸马的物品。",
+      "#zombie_horse_food（1项）"
+    ],
+    "[需要更多信息]": [
+      "添加于：18w16a。移除于：1.13-pre8。",
+      "#coral_blocks（2项）",
+      "添加于：18w10a。移除于：1.13-pre8。",
+      "#coral_fans（5项）",
+      "添加于：18w09a。移除于：1.13-pre8。",
+      "#corals（5项）",
+      "添加于：18w16a。移除于：1.13-pre8。",
+      "#dead_coral_blocks（5项）",
+      "添加于：18w14b。移除于：1.13-pre8。",
+      "#live_coral_blocks（5项）",
+      "添加于：22w42a。移除于：22w46a。",
+      "#stripped_logs（9项）",
+      "添加于：19w34a。移除于：24w45a。",
+      "#tall_flowers（5项）",
+      "添加于：23w07a。移除于：1.20.5-pre1。",
+      "#tools（6项）",
+      "添加于：23w04a。移除于：24w46a。",
+      "#trim_templates（18项）"
+    ],
+    "enchantable/sword": [
+      "可以附上适用于剑的魔咒的物品。",
+      "被#enchantable/sweeping和#enchantable/melee_weapon替代。",
+      "#enchantable/sword（1项）"
+    ],
+    "furnace_materials": [
+      "被#stone_crafting_materials替代。",
+      "添加于：20w15a。移除于：20w28a。",
+      "#furnace_materials（2项）"
+    ],
+    "music_discs": [
+      "曾用于判断物品是否是音乐唱片，因jukebox_playable组件的加入而不再需要。",
+      "添加于：18w43a。移除于：24w21a。",
+      "#music_discs（8项）"
+    ],
+    "music_disc_otherside": [
+      "music_disc_5"
+    ],
+    "overworld_natural_logs": [
+      "目前依然存在同名的方块标签。",
+      "添加于：22w17a。移除于：22w45a。",
+      "#overworld_natural_logs（7项）"
+    ],
+    "Java版": [
+      "1.13",
+      "17w49a",
+      "加入了物品标签：#planks、​#wool、​#buttons、​#carpets、​#doors、​#logs、​#saplings和​#stone_bricks。",
+      "17w50a",
+      "加入了#wooden_buttons和​#wooden_doors。",
+      "向#buttons加入了石质按钮。",
+      "向#doors加入了铁门。",
+      "18w06a",
+      "加入了#banners、​#boats、​#wooden_pressure_plates、​#wooden_slabs和​#wooden_stairs。",
+      "18w07a",
+      "加入了#acacia_logs、​#birch_logs、​#dark_oak_logs、​#jungle_logs和​#spruce_logs。",
+      "18w07b",
+      "加入了#rails和​#sand。",
+      "18w09a",
+      "加入了#coral。",
+      "18w10a",
+      "加入了#coral_plants。",
+      "18w19a",
+      "加入了#fishes和​#leaves。",
+      "1.14",
+      "18w43a",
+      "加入了#music_discs、​#signs、​#small_flowers和​#walls。",
+      "修改了#slabs和​#stairs。",
+      "18w44a",
+      "加入了#beds。",
+      "1.15",
+      "19w34a",
+      "加入了#flowers和​#tall_flowers。",
+      "19w42a",
+      "加入了#lectern_books。",
+      "1.16",
+      "20w06a",
+      "加入了#crimson_stems和​#warped_stems。",
+      "#planks、​#signs、​#wooden_buttons、​#wooden_doors、​#wooden_fences、​#wooden_pressure_plates、​#wooden_slabs、​#wooden_stairs和​#wooden_trapdoors里加入了诡异木和绯红木。",
+      "#slabs现在使用对应的#wooden_slabs标签。",
+      "20w07a",
+      "加入了#beacon_payment_items。",
+      "20w10a"
+    ],
+    "菌柄的加入了绯红菌核、诡异菌核和它们的去皮变种": [
+      "20w11a",
+      "加入了#gold_ores和​#piglin_repellents。",
+      "20w13a",
+      "加入了#logs_that_burn和​#non_flammable_wood。",
+      "#logs现在使用#logs_that_burn、​#crimson_stems和​#warped_stems。",
+      "20w15a",
+      "加入了#furnace_materials、​#soul_fire_base_blocks和​#stone_tool_materials。",
+      "#buttons里加入了磨制黑石。",
+      "#slabs、​#stairs和​#walls里加入了黑石、磨制黑石与磨制黑石砖。",
+      "20w16a",
+      "加入了#creeper_drop_music_discs。",
+      "将#music_discs同步到#creeper_drop_music_discs并加入了minecraft:music_disc_pigstep。",
+      "20w18a",
+      "#piglin_repellents里加入了灵魂营火。",
+      "20w20a",
+      "加入了#piglin_loved。",
+      "pre1",
+      "#piglin_loved现在使用#gold_ores并加入了金粒。",
+      "pre3",
+      "#piglin_loved里移除了金粒。",
+      "1.16.2",
+      "20w28a",
+      "加入了#stone_crafting_materials。",
+      "移除了#furnace_materials。",
+      "1.17",
+      "20w45a",
+      "加入了#candles、​#ignored_by_piglin_babies和​#piglin_food。",
+      "20w48a",
+      "加入了#freeze_immune_wearables。",
+      "20w51a",
+      "加入了#axolotl_tempt_items和​#occludes_vibration_signals。",
+      "21w05a",
+      "加入了#fox_food。",
+      "#leaves里加入了杜鹃树叶和盛开的杜鹃树叶。",
+      "21w07a",
+      "#stone_crafting_materials和​#stone_tool_materials里加入了阴沉石。",
+      "#slab、​#stairs和​#wall里加入了阴沉石的各类变种。",
+      "21w08a",
+      "加入了#diamond_ores、​#iron_ores、​#lapis_ores和​#redstone_ores。",
+      "#stone_crafting_materials和​#stone_tool_materials里加入了深板岩圆石并移除了阴沉石。",
+      "#slab、​#stairs和​#wall里加入了深板岩圆石的各类变种并将阴沉石的各类变种更改为深板岩。",
+      "21w10a",
+      "加入了#coal_ores、​#copper_ores和​#emerald_ores。",
+      "21w11a",
+      "加入了#cluster_max_harvestables。",
+      "21w13a",
+      "将切制铜台阶、楼梯及其非氧化变种加入#slabs和​#stairs。",
+      "#small_flowers里加入了杜鹃花丛和盛开的杜鹃花丛。",
+      "#freeze_immune_wearables里加入了皮革马铠。",
+      "21w14a",
+      "#stairs和​#slabs里加入了切制铜台阶和楼梯的氧化变种。",
+      "#piglin_loved里加入了粗金。",
+      "21w16a",
+      "#dirt标签里加入了草方块、菌丝体、苔藓块。",
+      "从一些已经包含#dirt的标签中移除了重复出现的方块。",
+      "21w18a",
+      "#piglin_loved里加入了粗金块。",
+      "21w19a",
+      "#saplings加入了杜鹃花丛和盛开的杜鹃花丛。",
+      "21w20a",
+      "#axolotl_tempt_items里移除了热带鱼。",
+      "1.18.2",
+      "22w11a",
+      "加入了#mangrove_logs。",
+      "向#flowers加入了红树胎生苗。",
+      "向#logs_that_burn分别加入了#mangrove_logs。",
+      "将红树类、泥砖类物品加入其所属组别的物品标签内。",
+      "22w12a",
+      "加入了#chest_boats，包含所有运输船。",
+      "向#boats加入了红树木船和#chest_boats。",
+      "22w13a",
+      "将#carpets重命名为#wool_carpets。",
+      "加入了#compasses。",
+      "22w15a",
+      "加入了#completes_find_tree_tutorial和​#wart_blocks。",
+      "向#dirt加入了泥巴和沾泥的红树根。",
+      "22w16a",
+      "将music_disc_5加入了#music_discs。",
+      "22w17a",
+      "加入了#overworld_natural_logs。",
+      "1.19",
+      "22w11a",
+      "加入了#mangrove_logs。",
+      "向#flowers中加入了红树胎生苗。",
+      "向#logs_that_burn方中加入了#mangrove_logs方块和物品标签。",
+      "将红树类、泥砖类方块和物品分别加入其所属组别的方块或物品标签内。",
+      "22w12a",
+      "加入了#chest_boats，包含所有运输船。",
+      "向#boats中加入了红树木船和#chest_boats标签。",
+      "22w13a",
+      "将#carpets重命名为#wool_carpets。",
+      "22w14a",
+      "加入了#compasses。",
+      "22w15a",
+      "加入了#completes_find_tree_tutorial和​#wart_blocks。",
+      "向#dirt中加入了泥巴和沾泥的红树根。",
+      "将#occludes_vibration_signals重命名为#dampens_vibrations，并向其中加入了#wool_carpets。",
+      "22w16a",
+      "将music_disc_5加入了#music_discs。",
+      "22w17a",
+      "加入了#overworld_natural_logs。",
+      "1.19.3",
+      "22w42a",
+      "加入了#stripped_logs。",
+      "向#non_flammable_wood中加入了悬挂式绯红木告示牌和悬挂式诡异木告示牌。",
+      "1.19.3"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "22w42a",
+      "加入了#bookshelf_books和​#hanging_signs。",
+      "向#boats加入了竹筏。",
+      "向#chest_boats加入了运输竹筏。",
+      "向#planks加入了竹板。",
+      "向#signs加入了竹告示牌。",
+      "向#wooden_buttons加入了竹按钮。",
+      "向#wooden_doors加入了竹门。",
+      "向#wooden_fences加入了竹栅栏。",
+      "向#wooden_pressure_plates加入了竹压力板。",
+      "向#wooden_slabs加入了竹台阶和竹马赛克台阶。",
+      "向#wooden_stairs加入了竹楼梯和竹马赛克楼梯。",
+      "向#wooden_trapdoors加入了竹活板门。",
+      "22w44a",
+      "从#wooden_slabs移除了竹马赛克台阶。",
+      "从#wooden_stairs移除了竹马赛克楼梯。",
+      "将非实验性#non_flammable_wood的悬挂式绯红木告示牌和悬挂式诡异木告示牌移入内置实验性数据包中。",
+      "22w44a",
+      "向#mineable/axe方块标签中加入了竹马赛克台阶和竹马赛克楼梯。",
+      "从#wooden_slabs方块和物品标签中移除了竹马赛克台阶。",
+      "从#wooden_stairs方块和物品标签中移除了竹马赛克楼梯。",
+      "将非实验性#non_flammable_wood物品标签中的悬挂式绯红木告示牌和悬挂式诡异木告示牌移入内置实验性数据包中。",
+      "1.19.3",
+      "22w44a",
+      "加入了#fence_gates。",
+      "22w45a",
+      "移除了#overworld_natural_logs。",
+      "1.19.3",
+      "1.20更新",
+      "22w45a",
+      "加入了#bamboo_blocks。",
+      "1.19.3",
+      "22w46a",
+      "移除了#stripped_logs。",
+      "1.19.3",
+      "1.20更新",
+      "23w03a",
+      "加入了#noteblock_top_instruments。",
+      "23w04a",
+      "加入了#trim_materials、​#trim_templates和​#trimmable_armor。",
+      "23w05a",
+      "向#trimmable_armor加入了#leather_helmet、​#leather_chestplate、​#leather_leggings和​#leather_boots。",
+      "1.19.3",
+      "23w07a",
+      "加入了#axes、​#breaks_decorated_pots、​#hoes、​#pickaxes、​#shovels、​#swords和​#tools。",
+      "1.19.3",
+      "1.20更新",
+      "23w07a",
+      "加入了#cherry_logs、​#decorated_pot_shards和​#sniffer_food。",
+      "向#boats加入了樱花木船。",
+      "向#wooden_buttons加入了樱花木按钮。",
+      "向#chest_boats加入了樱花木运输船。",
+      "向#wooden_doors加入了樱花木门。",
+      "向#fence_gates加入了樱花木栅栏门。",
+      "向#wooden_fences加入了樱花木栅栏。",
+      "向#hanging_signs加入了悬挂式樱花木告示牌。",
+      "向#planks加入了樱花木板。",
+      "向#wooden_pressure_plates加入了樱花木压力板。",
+      "向#signs加入了樱花木告示牌。",
+      "向#wooden_slabs加入了樱花木台阶。",
+      "向#wooden_stairs加入了樱花木楼梯。",
+      "向#wooden_trapdoors加入了樱花木活板门。",
+      "pre1",
+      "将#breaks_decorated_pots移入实验性内容。",
+      "向#small_flowers加入了火把花。",
+      "向#flowers加入了樱花树叶和粉红色花簇。",
+      "向#leaves加入了樱花树叶。",
+      "向#logs_that_burn加入了#cherry_logs。",
+      "向#sand加入了可疑的沙子。",
+      "向#saplings加入了樱花树苗。",
+      "1.19.3",
+      "pre1",
+      "加入了#smelts_to_glass。",
+      "1.20",
+      "23w12a",
+      "所有实验性标签不再属于实验性内容。",
+      "向#decorated_pot_shards加入了垂钓、利刃、佳酿、烈焰、危机、探险、朋友、爱心、心碎、狼嚎、采矿、悲恸、富饶、麦捆、树荫、嗅探纹样陶片。",
+      "向#trim_templates加入了向导、塑造、幽静、牧民、雇主盔甲纹饰。",
+      "向#tall_flowers加入了瓶子草。",
+      "23w16a",
+      "加入了#stone_buttons和​#villager_plantable_seeds。",
+      "从#buttons移除了石头按钮和磨制黑石按钮，并加入了新加入的#stone_buttons标签。",
+      "将#decorated_pot_shards重命名为#decorated_pot_sherds，并将其内部成员做了相应更改。",
+      "23w17a",
+      "加入了#decorated_pot_ingredients。",
+      "从#decorated_pot_sherds移除了红砖。",
+      "向#music_discs加入了音乐唱片Relic。",
+      "pre7",
+      "向#slabs加入了竹马赛克台阶。",
+      "向#stairs加入了竹马赛克楼梯。",
+      "rc1",
+      "向#bookshelf_books加入了知识之书。",
+      "1.20.2",
+      "23w33a",
+      "向#flowers加入了紫颂花和孢子花。",
+      "1.20.5",
+      "24w03a",
+      "加入了#skulls、​#chest_armor、​#foot_armor、​#leg_armor、​#head_armor、​#enchantable/foot_armor、​#enchantable/leg_armor、​#enchantable/chest_armor、​#enchantable/head_armor、​#enchantable/armor、​#enchantable/weapon、​#enchantable/sword、​#enchantable/mining、​#enchantable/mining_loot、​#enchantable/fishing、​#enchantable/trident、​#enchantable/durability、​#enchantable/bow、​#enchantable/equippable、​#enchantable/crossbow和​#enchantable/vanishing。",
+      "24w05a",
+      "加入了#dyeable。",
+      "24w12a",
+      "加入了#meat、​#piglin_food、​#fox_food、​#cow_food、​#goat_food、​#sheep_food、​#wolf_food、​#cat_food、​#horse_food、​#horse_tempt_items、​#camel_food、​#armadillo_food、​#bee_food、​#chicken_food、​#frog_food、​#hoglin_food、​#llama_food、​#llama_tempt_items、​#ocelot_food、​#panda_food、​#pig_food、​#rabbit_food、​#strider_food、​#strider_tempt_items、​#turtle_food、​#parrot_food和​#parrot_poisonous_food。",
+      "将#axolotl_tempt_items重命名为#axolotl_food。",
+      "24w13a",
+      "加入了#enchantable/fire_aspect和​#enchantable/sharp_weapon。",
+      "pre1",
+      "移除了#tools。",
+      "1.20.5",
+      "1.21更新",
+      "24w13a",
+      "加入了#enchantable/mace。",
+      "1.21",
+      "24w18a",
+      "将“1.21更新”实验性内容中的所有标签变更移入游戏中。",
+      "向#music_discs加入了三张新音乐唱片。",
+      "24w19a",
+      "将items目录名称更改为item。",
+      "24w21a",
+      "移除了#music_discs。",
+      "1.21.2",
+      "24w33a",
+      "加入了#furnace_minecart_fuel、​#villager_picks_up、​#wooden_tool_materials、​#iron_tool_materials、​#gold_tool_materials、​#diamond_tool_materials和​#netherite_tool_materials。",
+      "将cod、​cooked_cod、​salmon、​cooked_salmon、​tropical_fish、​pufferfish和​rabbit_stew加入到#wolf_food。",
+      "24w36a",
+      "加入了#piglin_safe_armor、​#repairs_chain_armor、​#repairs_diamond_armor、​#repairs_gold_armor、​#repairs_iron_armor、​#repairs_leather_armor、​#repairs_netherite_armor、​#repairs_turtle_helmet和​#repairs_wolf_armor。",
+      "24w37a",
+      "加入了#brewing_fuel、​#duplicates_allays和​#panda_eats_from_ground。",
+      "24w38a",
+      "加入了#shulker_boxes。",
+      "1.21.2"
+    ],
+    "收纳袋": [
+      "24w38a",
+      "加入了#bundles。",
+      "1.21.2",
+      "24w39a",
+      "加入了#map_invisibility_equipment。",
+      "#bundles不再属于实验性内容。",
+      "24w40a",
+      "加入了#gaze_disguise_equipment。",
+      "1.21.2"
+    ],
+    "冬季小更新": [
+      "24w40a",
+      "加入了#pale_oak_logs。",
+      "pre2",
+      "#chest_boat现在包含pale_oak_chest_boat而不是pale_oak_boat。",
+      "1.21.4",
+      "24w44a",
+      "#pale_oak_logs不再属于实验性内容。",
+      "24w45a",
+      "加入了#skeleton_preferred_weapon、​#piglin_preferred_weapon、​#pillager_preferred_weapon和​#drowned_preferred_weapon。",
+      "移除了#flowers和#tall_flowers。",
+      "24w46a",
+      "加入了wither_skeleton_disliked_weapons。",
+      "将24w45a中加入的标签分别重命名为#skeleton_preferred_weapons、​#piglin_preferred_weapons、​#pillager_preferred_weapons和​#drowned_preferred_weapons。",
+      "将#trim_materials的resin_clump修正为resin_brick。",
+      "移除了#trim_templates。",
+      "1.21.5",
+      "25w06a",
+      "加入了#eggs。",
+      "25w10a",
+      "加入了#flowers。",
+      "1.21.6",
+      "25w15a",
+      "加入了#happy_ghast_food、​#happy_ghast_tempt_items和​#harnesses。",
+      "25w21a",
+      "向#horse_food加入了carrot。",
+      "1.21.9",
+      "25w31a",
+      "加入了#copper_chests、​#copper、​#copper_tool_materials、​#repairs_copper_armor、​#copper_golem_statues、​#lightning_rods、​#wooden_shelves、​#chains、​#lanterns和​#bars。",
+      "25w33a",
+      "加入了#shearable_from_copper_golem。",
+      "向#cluster_max_harvestables加入了copper_pickaxe。",
+      "1.21.11",
+      "25w41a",
+      "加入了#nautilus_taming_items、​#nautilus_bucket_food、​#nautilus_food、​#zombie_horse_food、​#spears、​#enchantable/lunge和​#enchantable/melee_weapon。",
+      "将#enchantable/sword重命名为#enchantable/sweeping。",
+      "25w42a",
+      "向#piglin_loved加入了金鹦鹉螺铠。",
+      "25w44a",
+      "加入了#camel_husk_food。",
+      "pre1",
+      "向#piglin_preferred_weapons加入了金矛。",
+      "26.1",
+      "snapshot-2",
+      "加入了#metal_nuggets。",
+      "snapshot-5",
+      "加入了#dyes、​#loom_dyes、​#loom_patterns、​#cat_collar_dyes、​#wolf_collar_dyes和​#cauldron_can_remove_dye。",
+      "移除了#dyeable。",
+      "snapshot-6",
+      "加入了#mud、​#moss_blocks和​#grass_blocks。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了#concrete、​#concrete_powders、​#glazed_terracotta、​#sulfur_cube_food、​#sulfur_cube_swallowable、​#sulfur_cube_archetype/regular、​#sulfur_cube_archetype/bouncy、​#sulfur_cube_archetype/slow_flat、​#sulfur_cube_archetype/fast_flat、​#sulfur_cube_archetype/light、​#sulfur_cube_archetype/fast_sliding、​#sulfur_cube_archetype/slow_sliding、​#sulfur_cube_archetype/high_resistance和​#sulfur_cube_archetype/sticky。"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Java版Classic服务器1.7",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.7",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前已丢失。",
+      "虽然此版本的服务端可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "1.7"
+    ],
+    "客户端版本": [
+      "0.0.19a 06"
+    ],
+    "发布时间": [
+      "2009年6月20日"
+    ],
+    "协议版本": [
+      "5",
+      "其他版本的1.7"
+    ],
+    "教育版": [
+      "New Nintendo 3DS版",
+      "◄◄1.6",
+      "1.8►►",
+      "1.7是Classic服务器的一次更新，发布于2009年6月20日。"
+    ],
+    "/tp": [
+      "/teleport的简写。"
+    ],
+    "参考": [
+      "c1.8.2.zip (README.txt):",
+      "Version 1.7: + Added /tp as an alias for teleport"
+    ]
+  }
+}

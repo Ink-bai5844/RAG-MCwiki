@@ -1,0 +1,5 @@
+{
+  "title": "属性/路径点接收距离",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E8%B7%AF%E5%BE%84%E7%82%B9%E6%8E%A5%E6%94%B6%E8%B7%9D%E7%A6%BB",
+  "text": "本条目所述内容仅适用于Java版。\n路径点接收距离\n类型\n中性\n默认值\n0\n值域\n0 – 60000000\n属性ID\nwaypoint_receive_range\n路径点接收距离（Waypoint Receive Range）是控制玩家与可接收的路径点间距离的属性。\n行为\n主条目：路径点\n红色范围表示路径点传输距离，蓝色范围表示路径点接收距离。仅当Alex的传输范围包含Steve且Steve的接收范围包含Alex时（即第二种情况），Steve才能看到Alex的路径点图标\n路径点接收距离大于0的玩家会被标记为路径点接收者，否则该玩家会从接收者列表中移除。\n只有接收者与路径点源的距离小于等于接收者的路径点接收距离和源的路径点传输距离属性（waypoint_transmit_range），这个路径点才能在定位栏中显示。\n适用的生物\n生物\n基值\n玩家\n60000000\n已知修饰符\n路径点接收距离没有已知修饰符。\n历史\nJava版\n1.21.6\n25w15a\n加入了路径点接收距离属性，ID为waypoint_receive_range。\n导航"
+}

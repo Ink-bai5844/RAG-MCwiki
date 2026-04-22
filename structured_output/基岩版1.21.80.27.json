@@ -1,0 +1,145 @@
+{
+  "title": "基岩版1.21.80.27",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.80.27",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "1.21.80.27"
+    ],
+    "服务端版本": [
+      "1.21.80.27"
+    ],
+    "版本码": [
+      "Android：",
+      "952108027（armeabi-v7a，34）",
+      "962108027（x86，34）",
+      "972108027（arm64-v8a，34）",
+      "982108027（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2025年4月8日"
+    ],
+    "测试版归属": [
+      "1.21.80"
+    ],
+    "协议版本": [
+      "800",
+      "◄◄1.21.73",
+      "1.21.81►►",
+      "◄1.21.80.25",
+      "1.21.80.28►",
+      "beta 1.21.80.27（ChromeOS/Android）、Preview 1.21.80.27（Xbox/Windows/iOS/iPadOS）是基岩版1.21.80的第5个测试版，发布于2025年4月8日，修复了一些漏洞。"
+    ],
+    "设置": [
+      "在Xbox和Nintendo Switch平台上的通用设置中加入了“不雅词汇过滤器”选项。"
+    ],
+    "实验性玩法": [
+      "移除了“数据驱动拼图结构”子选项。"
+    ],
+    "API": [
+      "@minecraft/server的1.19.0版本",
+      "将StructureManager.placeJigsaw和​StructureManager.placeJigsawStructure方法由beta移动至1.19.0。",
+      "将JigsawPlaceOptions接口由beta移动至1.19.0。",
+      "将JigsawStructurePlaceOptions接口由beta移动至1.19.0。",
+      "将PlaceJigsawError错误类由beta移动至1.19.0。",
+      "@minecraft/server的2.0.0-beta版本",
+      "协程（承诺）现在会在早期执行中刷新，以允许异步导入以与如自定义组件和自定义命令等早期执行API交互。",
+      "加入了对自定义命令枚举的支持。",
+      "为CustomCommandParamType加入了Enum类型。",
+      "Dimension的spawnEntity方法不再支持在identifier参数内使用生成事件。",
+      "SpawnEntityOptions接口现在有一个可选的字符串成员spawnEvent?: string，用于指定实体生成时发送给该实体的生成事件。",
+      "identifier参数内任何现有的生成事件需要更新为使用spawnEvent选项。",
+      "例如：spawnEntity(\"minecraft:horse<minecraft:ageable_grow_up>\", {x:0, y:0, z:0})应该变为spawnEntity(\"minecraft:horse\", {x:0, y:0, z:0}, {spawnEvent: 'minecraft:ageable_grow_up'})。",
+      "移除了EntityGroundOffsetComponent。",
+      "Block的getComponent方法现在会为2.0.0中使用BlockComponentRegistry注册的自定义组件返回BlockCustomComponentInstance。",
+      "@minecraft/server-ui的2.0.0-beta版本"
+    ],
+    "ModalFormResponse": [
+      "将formValues属性的类型由(boolean | number | string)[]更改为(boolean | number | string | undefined)[]。",
+      "新签名：formValues?: (boolean | number | string | undefined)[]。",
+      "旧签名：formValues?: (boolean | number | string)[]。",
+      "formValues数组现在包含由请求提供的所有元素的项。这意味着标签、标头和分隔符会被视为未定义值。"
+    ],
+    "方块组件": [
+      "修复了minecraft:material_instances中的各同向性纹理会被挤压和拉伸的问题。"
+    ],
+    "组件": [
+      "内容日志错误现在会记录minecraft:entity_placer和​minecraft:projectile物品组件中缺失的实体引用。"
+    ],
+    "基岩版编辑器": [
+      "修复了在粘贴预览中（实际没有激活剪贴板）将结构移动至剪贴板时不会更新剪贴板客户端小部件的漏洞。",
+      "修复了体积非常大的手绘选区的一些漏洞。",
+      "为一些画笔体积的最大尺寸设置了上限，以使其不会超过选择操作的最大体素数量。",
+      "修复了在编辑器打开期间将下界作为起始维度而进入时会触发大量脚本小部件错误的漏洞。",
+      "修复了鼠标会在切换至十字准星模式时被释放的漏洞。",
+      "在视口上加入了一个动画，并且现在会在记录错误时打开日志面板。",
+      "重组了工具轨道中的核心模态框工具。",
+      "为3D方块光标加入了指示器，以显示鼠标指向的面。",
+      "加入了一个新的教程流程，可在帮助菜单中激活。"
+    ],
+    "结构": [
+      "现在古迹废墟会在相同世界种子的Java版和基岩版的原始桦木森林中生成在相同位置上。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“2025 第二次更新”、“灵动视效”、“即将推出的创作者功能”和“创建者照相机的实验性功能”子选项后才可使用。"
+    ],
+    "生物": [
+      "修复了唤魔者行走时其腿部不会移动的问题。（MCPE-191193）"
+    ],
+    "快乐恶魂": [
+      "现在生命值为20（ × 10），而不是40（ × 20）。"
+    ],
+    "游戏内容": [
+      "加入了minecraft:replace_biomes组件，允许自定义生物群系替换掉原版生物群系的一部分。",
+      "将此组件添加到行为包中的生物群系文件中即可使用此组件。",
+      "更改了鞘翅的行为，现在使用其滑翔时，即使将烟花火箭放置在方块上，烟花火箭也只能用于加快滑翔速度。",
+      "修复了在如甘蔗等另一方块中为鞘翅使用烟花火箭时会出现来回弹动现象的问题。（MCPE-191595）"
+    ],
+    "灵动视效": [
+      "加入了“云”画面选项。",
+      "用于调整云的渲染距离。"
+    ],
+    "/controlscheme": [
+      "用于修改相机预设的控制方案，语法如下：",
+      "/controlscheme <players: target> clear",
+      "清除控制方案。",
+      "/controlscheme <players: target> set <control scheme: controlscheme>",
+      "设置控制方案。",
+      "参数：",
+      "players: target：指定要被修改相机预设控制方案的玩家。",
+      "control scheme: controlscheme：指定控制方案。目前可用的控制方案有camera_relative、​camera_relative_strafe、​locked_player_relative_strafe、​player_relative和​player_relative_strafe。"
+    ],
+    "方块": [
+      "为剔除规则模式加入了新字段condition。其会提供对将要触发面或部分被剔除的方块的更多控制。",
+      "支持的值有default、​same_culling_layer、​same_block和​same_block_permutation。",
+      "若相邻方块为完整方块且不透明，则default通过条件。",
+      "所有条件均为default的扩展，这意味在检查扩展的same_*条件前，完整且不透明的方块始终会通过条件。",
+      "若在几何组件中定义，相邻方块与被遮挡的方块共享相同的culling_layer，则same_culling_layer通过条件。",
+      "若所比较的剔除层中有一个为minecraft:culling_layer.undefined，则条件永远不会通过。",
+      "若相邻方块拥有相同的标识符，则same_block通过条件。",
+      "若相邻方块拥有相同的标识符且排列方式完全相同，则same_block_permutation通过条件。",
+      "此功能仅在开启“即将推出的创作者功能”选项后可用。",
+      "为方块的几何组件加入了新字段culling_layer。其允许在剔除规则文件中使用same_culling_layer条件时将不同方块分组在一起。",
+      "使用minecraft命名空间时，允许的值只有：minecraft:culling_layer.undefined或minecraft:culling_layer.leaves。",
+      "此功能仅在开启“即将推出的创作者功能”选项后可用。",
+      "现在在蓝冰和熔岩已经再次位于适当的位置后，玄武岩会在最后放置灵魂土时生成。（MCPE-194008）"
+    ],
+    "图形": [
+      "为所有平台上的灵动视效模式重新启用了局部曝光。",
+      "修复了蜡烛、雕纹书架和干海带块在灵动视效模式和光线追踪模式下不会使用PBR纹理的问题。（MCPE-132021）",
+      "现在染色玻璃在使用灵动视效时会以正确颜色渲染。"
+    ],
+    "方块环境音效": [
+      "现在沙子、枯萎的灌木和陶瓦会播放环境音效。（MCPE-194677）"
+    ],
+    "用户界面": [
+      "现在在携带版UI下与物品栏选项卡交互时，收纳袋UI会正确消失。",
+      "修复了离开睡觉屏幕后游戏会在短时间内无响应的漏洞。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.80.27 — Minecraft Feedback，2025年4月8日。"
+    ]
+  }
+}

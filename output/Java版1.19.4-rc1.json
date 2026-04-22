@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.19.4-rc1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-rc1",
+  "text": "1.19.4-rc1\n版本\nJava版\n类型\n发布候选\n发布时间\n2023年3月9日\n发布候选归属\n1.19.4\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741948\nHEX: 4000007C\n数据版本\n3334\n资源包版本\n13\n数据包版本\n12\n◄◄1.19.3\n1.20►►\n◄1.19.4-pre4\n1.19.4-rc2►\n1.19.4-rc1是Java版1.19.4的首个发布候选版本，发布于2023年3月9日，修复了一些漏洞。\n更改\n非生物实体\n展示实体\n对插值过程做了以下更改：\n插值过程现在会在客户端游戏刻起始时开始。\nstart_interpolation替代了interpolation_start字段，且含义与之前的不同：\nstart_interpolation代表当接收到用以启动插值的更新后，从下个客户端游戏刻起始时计算的游戏刻数量。\n例如：值为0，当接收到用以启动插值的更新后，插值过程会在下个客户端游戏刻起始时开始。\nstart_interpolation不存储在实体数据中。\n使用/data命令时，若插值被更新但start_interpolation未出现在修改过的NBT标签中时，插值会在上一次更新的时刻上继续执行，但此时使用新值。\n修复\n修复了1个漏洞\n上个开发版本的漏洞\nMC-260857 — 使用初始变换数据召唤的展示实体会在下一次变换的对默认变换数据的插值过程中出现错误。\n参考\nMinecraft 1.19.4 Release Candidate 1 — Minecraft.net，2023年3月9日。\n导航"
+}

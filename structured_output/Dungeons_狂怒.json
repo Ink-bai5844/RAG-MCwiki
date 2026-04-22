@@ -1,0 +1,29 @@
+{
+  "title": "Dungeons:狂怒",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%8B%82%E6%80%92",
+  "structured_content": {
+    "Rampaging": [
+      "击杀生物后有10%的概率在短时间增加50%的攻击速度。"
+    ],
+    "——游戏内描述": [
+      "狂怒（Rampaging）是Minecraft Dungeons中的魔咒。它会给予玩家短时间内提升攻击速度的机会。持续时间随着等级提升依次递增5秒。"
+    ],
+    "I": [
+      "5 秒时长",
+      "1 附魔点数"
+    ],
+    "II": [
+      "10 秒时长",
+      "2 附魔点数"
+    ],
+    "III": [
+      "15 秒时长",
+      "3 附魔点数",
+      "同时装备多个狂怒魔咒时，持续时间会叠加，最高可达45秒。"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了狂怒。"
+    ]
+  }
+}

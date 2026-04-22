@@ -1,0 +1,5 @@
+{
+  "title": "命令/unban",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Funban",
+  "text": "本条目介绍的是Classic时期的解封命令。关于现在的解封命令，请见“命令/pardon”。\n此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\nunban\n需要的权限等级\n3\n限制条件\n无\n解除对一个玩家的封禁。\n是Classic时期的/pardon等效命令。\n语法\nunban <名称>\n参数\n此段落暂无内容。\n你可以帮助我们加入信息。\n历史\nJava版Classic\n0.0.15a\n加入了/unban命令。\nJava版Indev\n0.31\n?\n移除了所有命令。\n导航"
+}

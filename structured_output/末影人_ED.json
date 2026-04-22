@@ -1,0 +1,14 @@
+{
+  "title": "末影人/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%BD%B1%E4%BA%BA%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "中立的生物共通标签，见Template:Nbt inherit/angerable/source",
+      "carriedBlockState：末影人拿着的方块。",
+      "方块状态，见Template:Nbt inherit/block state/source"
+    ]
+  }
+}

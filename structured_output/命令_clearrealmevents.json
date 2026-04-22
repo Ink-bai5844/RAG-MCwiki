@@ -1,0 +1,21 @@
+{
+  "title": "命令/clearrealmevents",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fclearrealmevents",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少历史",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "4"
+    ],
+    "仅专用服务端": [
+      "清除世界数据中存储的所有Realms事件。"
+    ],
+    "结果": [
+      "永远执行成功。"
+    ]
+  }
+}

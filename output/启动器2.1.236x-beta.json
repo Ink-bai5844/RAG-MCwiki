@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.236x-beta",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.236x-beta",
+  "text": "2.1.236x-beta\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2019年2月11日\n测试版归属\n2.1.247x\n◄◄2.1.1462\n2.1.248x►►\n◄2.1.2358-beta\n2.1.246x-beta►\n2.1.2366-beta（Windows）、2.1.2365-beta（macOS）或2.1.2364-beta（Linux）是一个启动器更新，发布于2019年2月11日，修复了一些漏洞。\n添加\n启动器现在会通知启动器的新版本，即使是在启动器运行时发布的更新也是如此。\n修复\n修复了一个当launcher_profiles.json文件丢失时会导致启动器被软锁定的漏洞。\nMCL-5436 - 无法启动目录连接文件。\nMCL-10280 - 启动器无法在档案中保存游戏目录。\n导航"
+}

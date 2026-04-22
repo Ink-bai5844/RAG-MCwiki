@@ -1,0 +1,61 @@
+{
+  "title": "Dungeons:冰霜杀手",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%86%B0%E9%9C%9C%E6%9D%80%E6%89%8B",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含凛冽战栗活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。",
+      "此条目包含冰霜节活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。"
+    ],
+    "力量": [
+      "10"
+    ],
+    "速度": [
+      "1"
+    ],
+    "攻击范围": [
+      "6"
+    ],
+    "存档ID": [
+      "Claymore_Winter1",
+      "这把传说中的武器只会在冬季中最黑暗、寒冷的日子里重返战地。"
+    ],
+    "——物品描述": [
+      "冰霜杀手（Frost Slayer）是Minecraft Dungeons中的近战武器，它是大剑的特殊活动变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "高塔": [
+      "活动："
+    ],
+    "使用": [
+      "冰霜杀手拥有很高攻击力，极低攻击速度和中等攻击范围。攻击方式与阔剑无异。"
+    ],
+    "掉落": [
+      "P3_sfx_item_claymoreWinter1Drop"
+    ],
+    "拾取": [
+      "P3_sfx_item_claymoreWinter1PickUp"
+    ],
+    "装备": [
+      "P3_sfx_item_claymoreWinter1Place"
+    ],
+    "击中物体": [
+      "P3_sfx_item_claymoreWinter1Impact"
+    ],
+    "攻击": [
+      "P3_sfx_item_claymoreWinter1Swing"
+    ],
+    "突进攻击": [
+      "P3_sfx_item_claymoreWinter1SwingStab"
+    ],
+    "Minecraft Dungeons": [
+      "1.7.3.0",
+      "加入了冰霜杀手。",
+      "1.17.0.0",
+      "现在冰霜杀手可以从高塔中获取。"
+    ]
+  }
+}

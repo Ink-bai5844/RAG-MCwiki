@@ -1,0 +1,14 @@
+{
+  "title": "末影螨/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%BD%B1%E8%9E%A8%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ],
+    "*": [
+      "*Lifetime：末影螨已存在的时间。如果PersistenceRequired为true，则此值不增加。当此值达到或超过2400游戏刻（120秒）时末影螨会自动删除。"
+    ]
+  }
+}

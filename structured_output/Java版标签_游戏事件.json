@@ -1,0 +1,121 @@
+{
+  "title": "Java版标签/游戏事件",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E6%B8%B8%E6%88%8F%E4%BA%8B%E4%BB%B6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "游戏事件标签（Game Event Tags）是游戏事件的组合。"
+    ],
+    "使用": [
+      "游戏事件标签不可被主动调用，它们被游戏用来控制振动系统中的各项检测条件。"
+    ],
+    "allay_can_listen": [
+      "悦灵可以检测的游戏事件。",
+      "添加其他游戏事件不影响悦灵的AI活动，默认游戏事件被移除后悦灵将不能被音符盒吸引。",
+      "#allay_can_listen（1项）"
+    ],
+    "ignore_vibrations_sneaking": [
+      "潜行的实体产生这些游戏事件时，不会被振动监听器检测。",
+      "#ignore_vibrations_sneaking（6项）"
+    ],
+    "shrieker_can_listen": [
+      "幽匿尖啸体可以检测的游戏事件。",
+      "#shrieker_can_listen（1项）"
+    ],
+    "vibrations": [
+      "幽匿感测体和校频幽匿感测体可以检测的游戏事件。",
+      "游戏事件只能移除，游戏不会检测非默认的游戏事件。",
+      "#vibrations（56项）"
+    ],
+    "unequip": [
+      "resonate_1",
+      "resonate_2",
+      "resonate_3",
+      "resonate_4",
+      "resonate_5",
+      "resonate_6",
+      "resonate_7",
+      "resonate_8",
+      "resonate_9",
+      "resonate_10",
+      "resonate_11",
+      "resonate_12",
+      "resonate_13",
+      "resonate_14",
+      "resonate_15",
+      "resonate_1",
+      "resonate_2",
+      "resonate_3",
+      "resonate_4",
+      "resonate_5",
+      "resonate_6",
+      "resonate_7",
+      "resonate_8",
+      "resonate_9",
+      "resonate_10",
+      "resonate_11",
+      "resonate_12",
+      "resonate_13",
+      "resonate_14",
+      "resonate_15"
+    ],
+    "warden_can_listen": [
+      "监守者可以检测的游戏事件。",
+      "#warden_can_listen（57项）"
+    ],
+    "[需要更多信息]": [
+      "添加于：22w13a。移除于：22w17a。",
+      "#dampenable_vibrations（2项）"
+    ],
+    "Java版": [
+      "1.17",
+      "20w49a",
+      "加入了#ignore_vibrations_stepping_carefully和​#vibrations。",
+      "20w51a",
+      "从#vibrations中移除了开始进食事件。",
+      "21w05a",
+      "将#ignore_vibrations_stepping_carefully重命名为#ignore_vibrations_sneaking并加入了游泳事件。",
+      "#vibrations里移除了武装盔甲架、结束进食、攻击实体和使用打火石事件并加入了方块变化、饮用完毕、进食、实体受伤、杀死实体、放置实体、装备物品、生物互动、矿车移动、引爆 、劫掠兽咆哮、鸣钟、剪切、潜影贝关闭和潜影贝打开事件。",
+      "1.19",
+      "exp1",
+      "加入了#warden_events_can_listen。",
+      "22w12a",
+      "在常规快照中加入了#warden_events_can_listen，包含#vibrations标签下除flap的所有项目，以及#sculk_sensor_tendrils_clicking和​#shriek。",
+      "加入了#ignore_vibrations_on_occluding_block。",
+      "更改了一些#vibrations和​#warden_events_can_listen中的游戏事件。",
+      "22w14a",
+      "加入了#shrieker_can_listen。",
+      "将#warden_events_can_listen重命名为#warden_can_listen，并移除了其中的#sculk_sensor_tendrils_clicking，向其中加入了#shrieker_can_listen。",
+      "22w15a",
+      "将#ignore_vibrations_on_occluding_block重命名为#dampenable_vibrations。",
+      "22w16a",
+      "加入了#allay_can_listen。",
+      "移除了#dampenable_vibrations。",
+      "22w18a",
+      "从#vibrations和​#warden_can_listen中移除了flap事件。",
+      "pre1",
+      "向#ignore_vibrations_sneaking中加入了#item_interact_start和​#item_interact_finish。",
+      "向#vibrations和​#warden_can_listen中加入了#instrument_play。",
+      "pre2",
+      "向#vibrations和​#warden_can_listen中加入了teleport。",
+      "pre3",
+      "从#vibrations和​#warden_can_listen中移除了#item_interact_start。",
+      "1.19.1",
+      "22w24a",
+      "向#vibrations和​#warden_can_listen中加入了#jukebox_play和​#jukebox_stop_play。",
+      "pre1",
+      "回退了上个版本作出的更改。",
+      "1.20",
+      "23w12a",
+      "对#vibrations和​#warden_can_listen进行了许多更改。",
+      "1.20.2",
+      "23w31a",
+      "从#vibrations和​#warden_can_listen中移除了entity_roar和​entity_shake，并加入了entity_action。",
+      "23w32a",
+      "向#vibrations和​#warden_can_listen中加入了unequip。",
+      "1.21",
+      "24w19a",
+      "将game_events目录重命名为game_event。"
+    ]
+  }
+}

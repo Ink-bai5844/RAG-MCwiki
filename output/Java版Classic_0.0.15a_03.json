@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.15a 03",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.15a_03",
+  "text": "此版本可能不存在。\n此版本的存在是基于间接证据推测的，没有直接证据。\n如果你有关于此版本的存在证据，请在讨论页提出。\n此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n注：此版本可能是0.0.15a_02的重新上传版本\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n0.0.15a_03\n版本\nJava版\n发布时间\n2009年6月4日\n下载\n不可用\n协议版本\n未知\nal_version\n未知\n◄◄0.0.15a\n0.0.16a►►\n◄0.0.15a_02\n0.0.15a_03[来源请求]是Java版的一次更新，发布于2009年6月4日。\n新内容\n游戏内容\n多人游戏\n增加了关于无效协议的错误消息。\n修复\n修复了2个漏洞\n修复了一个使游戏崩溃的漏洞。\n当服务器满的时候会立刻踢出玩家。\n参考\nIRC日志：#minecraft.20090604.log（2009年6月4日, UTC−6）\nIRC日志：“[14:46] <@Notch> AHHH!!!”、“[14:46] <unknownczar> CRASH”[...]“[14:47] <@Notch> lol, I'm fixing some stuff. =)”[...]“[14:49] <Onforty> Notch? MP test up?”[...]“[14:49] <@Notch> Onforty: Yes”（20:47至 20:49 UTC）\nIRC日志：“[15:02] <@Notch> I added a new message to the protocol. error. But the client doesn't deal with it yet”（21:02 UTC）\nIRC日志：“[15:03] <@Notch> and I made the server kick people IMMEDIATELY when it's full. it used to wait for the login message, but that means you can dos the server by just connecting a hundred people”（21:03 UTC）\n导航"
+}

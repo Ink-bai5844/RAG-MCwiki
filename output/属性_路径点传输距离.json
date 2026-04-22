@@ -1,0 +1,5 @@
+{
+  "title": "属性/路径点传输距离",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E8%B7%AF%E5%BE%84%E7%82%B9%E4%BC%A0%E8%BE%93%E8%B7%9D%E7%A6%BB",
+  "text": "本条目所述内容仅适用于Java版。\n路径点传输距离\n类型\n中性\n默认值\n0\n值域\n0 – 60000000\n属性ID\nwaypoint_transmit_range\n路径点传输距离（Waypoint Transmit Range）是控制生物向周围玩家传输路径点的属性。\n行为\n主条目：路径点\n红色范围表示路径点传输距离，蓝色范围表示路径点接收距离。仅当Alex的传输范围包含Steve且Steve的接收范围包含Alex时（即第二种情况），Steve才能看到Alex的路径点图标\n路径点传输距离大于0的生物会被标记为路径点传输器（或称为路径点源），并创建一个路径点。\n只有接收者与路径点源的距离小于等于源的路径点传输距离和接收者的路径点接收距离属性（waypoint_receive_range），这个路径点才能在定位栏中显示。\n此属性被修改后，如果路径点传输距离为0，则该生物的路径点会被移除。\n适用的生物\n生物\n基值\n玩家\n60000000\n其他生物\n0\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\neffect.waypoint_transmit_range_hide\nadd_multiplied_total (Op2)\n-1\n是\n隐身状态效果\nwaypoint_transmit_range_crouch\nadd_multiplied_total (Op2)\n-1\n否\n玩家潜行时添加，脱离潜行状态时移除\nwaypoint_transmit_range_hide\nadd_multiplied_total (Op2)\n-1\n否\n头颅和雕刻南瓜，应用于head（头盔）槽位\n历史\nJava版\n1.21.6\n25w15a\n加入了路径点传输距离属性，ID为waypoint_transmit_range。\n导航"
+}

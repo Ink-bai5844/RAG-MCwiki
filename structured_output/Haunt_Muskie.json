@@ -1,0 +1,114 @@
+{
+  "title": "Haunt Muskie",
+  "source_url": "https://zh.minecraft.wiki/w/Haunt_Muskie",
+  "structured_content": {
+    "作者": [
+      "C418"
+    ],
+    "发行时间": [
+      "2013年11月9日"
+    ],
+    "时长": [
+      "06:01"
+    ],
+    "Minecraft - Volume Beta": [
+      "No.10"
+    ],
+    "Warmth ►": [
+      "“Haunt Muskie”，如果我没记错，是“Hatsune Miku”（初音未来）的异序词。缘由已经说不清了，但确实如此。这首曲子寄托着我的怀旧之情，本以为只有我一个人会喜欢，结果发现它还挺受欢迎的。我以前喜欢玩一款特别古早的电子游戏，是那种要修理故障过山车的解谜游戏。它的音乐算不上出众，但它承载的情感使我铭记至今。“Haunt Muskie”便是我印象中那段音乐的模样。",
+      "——C418评论于c418.org",
+      "Haunt Muskie是一首由C418创作的音乐。"
+    ],
+    "播放概率": [
+      "玩家处于创造模式，且在主世界的下列生物群系中："
+    ],
+    "深暗之域": [
+      "0.00%[仅Java版]",
+      "16.67%[仅基岩版]"
+    ],
+    "玩家处于创造模式，且在主世界的非上述生物群系中": [
+      "3.57%[仅Java版]",
+      "16.67%[仅基岩版]"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "Haunt Muskie是一首轻快、氛围感强、有节奏的曲子。它以回声钟声和单簧管逐渐加快的声音开场。随后，一架反向钢琴伴随着合成手风琴或类似乐器的演奏，开始上下音阶的演奏，不久后回响并渐渐消失，然后歌曲的主要部分开始。在曲子的某些部分，可以听到合成音效的旋风般的声音。在整首作品的大部分背景中，可以听到带有大量混响的合成萨克斯风。曲子以一个出乎意料的不协和钢琴和弦作为结尾。"
+    ],
+    "ID": [
+      "Java版:"
+    ],
+    "Haunt Muskie": [
+      "creative3.ogg"
+    ],
+    "music.creative": [
+      "基岩版:"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "Java版": [
+      "2013音乐更新",
+      "加入了\"creative3.ogg\"。",
+      "1.7.4",
+      "13w49a",
+      "\"creative3.ogg\"现在是散列资源文件，而非直接存储。",
+      "1.20.3",
+      "23w45a",
+      "\"creative3.ogg\"被重命名为\"haunt_muskie.ogg\"。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了包含\"creative3.ogg\"的可下载音乐，属于市场内容。"
+    ],
+    "基岩版": [
+      "1.19.10",
+      "1.19.10.20",
+      "iOS/iPadOS平台上的游戏应用现在会自带音乐，\"creative3.ogg\"不再需要在市场中下载。",
+      "1.19.30",
+      "1.19.30.22",
+      "Android平台上的游戏应用现在会自带音乐，\"creative3.ogg\"不再需要在市场中下载。"
+    ],
+    "正式版": [
+      "Fire平台上的游戏应用现在会自带音乐，\"creative3.ogg\"不再需要在市场中下载。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU24",
+      "CU1",
+      "1.07",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"creative3.ogg\"。",
+      "TU24",
+      "CU1",
+      "1.07",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"creative3.ogg\"。"
+    ],
+    "你知道吗": [
+      "该曲目名称是虚拟歌手初音未来（初音（はつね） ミク，Hatsune Miku）的英文名称经过字母重排得到的。"
+    ],
+    "参考": [
+      "MC-299683",
+      "https://c418.org/albums/minecraft-volume-beta/"
+    ]
+  }
+}

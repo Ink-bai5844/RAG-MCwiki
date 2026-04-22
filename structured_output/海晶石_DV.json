@@ -1,0 +1,15 @@
+{
+  "title": "海晶石/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B5%B7%E6%99%B6%E7%9F%B3%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1",
+      "0x2",
+      "一个值范围0-2的2位二进制数，储存海晶石类型：",
+      "0：海晶石",
+      "1：暗海晶石",
+      "2：海晶石砖",
+      "0x8"
+    ]
+  }
+}

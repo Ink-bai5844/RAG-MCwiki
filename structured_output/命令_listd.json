@@ -1,0 +1,61 @@
+{
+  "title": "命令/listd",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Flistd",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版和​基岩版。"
+    ],
+    "需要的权限等级": [
+      "3"
+    ],
+    "仅专用服务端": [
+      "返回当前在线玩家及其信息。"
+    ],
+    "用法": [
+      "将在线玩家列出，这个命令通常被WebSocket端使用。",
+      "仅在本机执行该命令时返回信息（即WebSocket端与客户端在同一设备上时），其他设备（WebSocket端与客户端不在同一设备上时）的效果与/list相同。",
+      "信息将被###* 和​ *###包裹在内，并以JSON返回，格式见下：[需要更多信息]"
+    ],
+    "JSON根对象": [
+      "command：被执行的命令，始终为listd。",
+      "result：执行结果。",
+      "：一项玩家信息。"
+    ],
+    "activeSessionId": [
+      "avgpacketloss：游戏平均丢包率。",
+      "avgping：游戏平均延迟。"
+    ],
+    "globalMultiplayerCorrelationId": [
+      "id：玩家实体的唯一ID。",
+      "maxbps：游戏传输时的最大比特率。",
+      "name：玩家名称。",
+      "packetloss：游戏当前丢包率。",
+      "pfid：已登录玩家的PlayFab ID。",
+      "ping：游戏当前延迟。"
+    ],
+    "split-screen-player": [
+      "uuid：玩家UUID。",
+      "xuid：已登录玩家的Xbox UID。"
+    ],
+    "返回信息示例": [
+      "目前有1/10个玩家在线：realonDrag###*{\"command\":\"listd\",\"result\":[{\"activeSessionId\":\"247e7691-2b2c-46c8-a100-05723212fe11\",\"avgpacketloss\":0.0,\"avgping\":0,\"clientId\":\"raknet:12559757114371867158\",\"color\":\"ffededed\",\"deviceSessionId\":\"69dd179a-1436-3f0d-8fd1-eebb5be17a1d\",\"globalMultiplayerCorrelationId\":\"<raknet>ad22-6266-f70d-f197\",\"id\":-12884901887,\"maxbps\":100000000,\"name\":\"realonDrag\",\"packetloss\":0.0,\"pfid\":\"a5588d818d6f5091\",\"ping\":0,\"randomId\":4436948217943248741,\"split-screen-player\":false,\"uuid\":\"15ea2c6e-523f-324d-9b3c-1ab7d6593f9c\",\"xuid\":\"2535459021878058\"}]}*###"
+    ],
+    "语法": [
+      "listd [details: ListDetails]"
+    ],
+    "参数": [
+      "details: ListDetails：enum",
+      "必须为以下其中之一：",
+      "ids — 同时列出randomId。",
+      "uuids — 同时列出uuid。",
+      "stats — 向信息中加入avgpacketloss、avgping、maxbps、packetloss和ping。"
+    ],
+    "携带版": [
+      "0.16.0",
+      "加入了命令/listd。"
+    ],
+    "?": [
+      "加入了命令/listd。"
+    ]
+  }
+}

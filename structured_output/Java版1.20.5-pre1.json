@@ -1,0 +1,250 @@
+{
+  "title": "Java版1.20.5-pre1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-pre1",
+  "structured_content": {
+    "默认分类": [
+      "1.20.5-pre1"
+    ],
+    "发布时间": [
+      "2024年4月10日"
+    ],
+    "预发布版归属": [
+      "1.20.5"
+    ],
+    "协议版本": [
+      "DEC: 1073742009",
+      "HEX: 400000B9"
+    ],
+    "数据版本": [
+      "3829"
+    ],
+    "资源包版本": [
+      "31"
+    ],
+    "数据包版本": [
+      "39",
+      "◄◄1.20.4",
+      "1.20.6►►",
+      "◄24w14a",
+      "1.20.5-pre2►",
+      "1.20.5-pre1是Java版1.20.5的首个预发布版，发布于2024年4月10日，加入了4个新进度，在内置实验性数据包中加入了1个新进度，更改了试炼密室的结构，并修复了一些漏洞。"
+    ],
+    "进度": [
+      "加入了4个新进度。",
+      "加入了1个新进度。"
+    ],
+    "常规": [
+      "更改了在刷怪笼方块实体数据SpawnPotentials中和试炼刷怪笼方块实体数据spawn_potentials中的可选字段equipment_loot_table。",
+      "现在被重命名为equipment。"
+    ],
+    "语言": [
+      "加入了维奥沙语。"
+    ],
+    "自定义结构": [
+      "为已配置的结构地物加入了新的地形调整方式encapsulate。",
+      "结构每一部分周围的密度都会增加。",
+      "适用于需要完全埋藏在地下的结构。"
+    ],
+    "战利品表函数": [
+      "modify_contents：对容器类组件中的每个物品应用modifier中战利品表函数的新函数。",
+      "conditions：（默认为[]）一个战利品表谓词列表。当其中的条件全部符合时才会应用此物品修饰器。",
+      "component：目标组件，值可以为：container、​bundle_contents和​charged_projectiles。",
+      "modifier：应用于目标组件中所有物品的战利品表函数。",
+      "如果组件不存在，此函数不生效。",
+      "set_item：不更改数量和组件即可替换物品堆叠类型的新函数。",
+      "conditions：（默认为[]）一个战利品表谓词列表。当其中的条件全部符合时才会应用此物品修饰器。",
+      "item：新物品ID。",
+      "filtered：仅对符合物品谓词的物品应用modifier中战利品表函数的新函数。",
+      "conditions：（默认为[]）一个战利品表谓词列表。当其中的条件全部符合时才会应用此物品修饰器。",
+      "item_filter：用于匹配物品的物品谓词。",
+      "modifier：应用于物品的战利品表函数。",
+      "set_custom_model_data：设置custom_model_data组件的新函数。",
+      "conditions：（默认为[]）一个战利品表谓词列表。当其中的条件全部符合时才会应用此物品修饰器。",
+      "value：一个整型数值提供器。"
+    ],
+    "实体谓词": [
+      "在实体子谓词equipment中加入了body选项，以匹配实体铠甲槽中的物品。"
+    ],
+    "标签": [
+      "加入了以下实体类型标签：",
+      "#punchable_projectiles：fireball。",
+      "能被玩家击中且会随视角方向偏转的弹射物。",
+      "加入了以下魔咒标签：",
+      "#tooltip_order：binding_curse、​vanishing_curse、​riptide、​channeling、​frost_walker、​sharpness、​smite、​bane_of_arthropods、​impaling、​power、​piercing、​sweeping_edge、​multishot、​fire_aspect、​flame、​knockback、​punch、​protection、​blast_protection、​fire_protection、​projectile_protection、​feather_falling、​fortune、​looting、​silk_touch、​luck_of_the_sea、​efficiency、​quick_charge、​lure、​respiration、​aqua_affinity、​soul_speed、​swift_sneak、​depth_strider、​thorns、​loyalty、​unbreaking、​infinity和​mending。",
+      "控制在物品提示框中所显示魔咒的顺序。",
+      "移除了以下物品标签：",
+      "在实体类型标签#punchable_projectiles中加入了wind_charge和​breeze_wind_charge。",
+      "在物品标签#breaks_decorated_pots中加入了mace。",
+      "在魔咒标签#tooltip_order的channeling后加入了wind_burst，在power后加入了density和​breach。"
+    ],
+    "equipment": [
+      "loot_table：一个用于生成装备的战利品表。",
+      "slot_drop_chances：（可选）为浮点型时，表示对所有槽位生效的掉落概率。为列表时，表示每个槽位装备的掉落概率列表。",
+      "<槽位ID>：一个装备槽位与指定掉落概率的键值对。",
+      "示例：equipment: {loot_table: \"minecraft:equipment/trial_chamber\", slot_drop_chances: {\"head\": 0.0f, \"chest\": 0.25f, \"legs\": 1.0f, \"feet\": 0.25f}}"
+    ],
+    "药水": [
+      "将不可合成的药水由品红色更改为蓝色。",
+      "现在盘丝药水、渗浆药水和虫蚀药水只能由命令获取，酿造配方现在属于实验性内容。"
+    ],
+    "盘丝": [
+      "现在生物死亡时会更稳定地生成2-3个蜘蛛网。",
+      "现在蜘蛛网可以替代具有#replaceable标签的方块。",
+      "现在是否生成蜘蛛网受mobGriefing游戏规则影响。",
+      "现在玩家也能受到穿过蜘蛛网的移速增益。",
+      "玩家和其他会被蜘蛛网减速的生物会以正常速度的50%而不是25%穿过蜘蛛网。"
+    ],
+    "寄生": [
+      "现在生成1-2个蠹虫的概率为10%而非5%。",
+      "现在蠹虫生成在实体边界箱中心，并会朝着受伤实体所面对的方向被抛出。"
+    ],
+    "渗浆": [
+      "现在只会在实体周围5×5×5的区域生成史莱姆，直到达到实体挤压上限。"
+    ],
+    "袭击之兆": [
+      "更改了图标。"
+    ],
+    "魔咒": [
+      "现在魔咒会按#tooltip_order标签在提示框中排序。",
+      "风爆魔咒不再能通过村民交易、战利品箱和钓鱼获取。",
+      "风爆魔咒不再对非生物实体生效。",
+      "风爆魔咒不再在剑、镐、斧、锹、锄、三叉戟和重锤以外的物品上生效。",
+      "风爆魔咒不再能从附魔台获取。",
+      "风爆魔咒现在需要使用重锤猛击才能生效。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为39。"
+    ],
+    "set_contents": [
+      "移除了未使用的type字段。",
+      "加入了必选字段component，描述将加入物品的目标组件。",
+      "可选的值为container、​bundle_contents和​charged_projectiles，其中bundle_contents和​charged_projectiles会忽略空堆叠。"
+    ],
+    "set_custom_data": [
+      "tag现在也接受SNBT字符串数据和不扁平标签。"
+    ],
+    "物品堆叠组件": [
+      "移除了written_book_content组件中的pages项数上限。",
+      "现在若物品存在max_damage组件，则它的max_stack_size组件只能为1。",
+      "现在尝试用命令获取同时存在这两种组件且max_stack_size大于1的物品时，会警告“Item cannot be damageable and stackable”（物品不能是既可受损也可堆叠的）。",
+      "移除了food组件中的saturation_modifier，并加入了saturation字段作为替代。",
+      "saturation是所增加玩家饱和度的精确值，而非saturation_modifier所定义的saturation = nutrition * saturation_modifier * 2。"
+    ],
+    "粒子": [
+      "现在，命令中的粒子选项，以及区域效果云中诸如Particles的字段的表示格式与worldgen/biome中文件的相应属性一致（与生物群系环境粒子设置类似）。",
+      "例如，命令/particle minecraft:dust 1.0 0.0 0.0 2.0 ...变为了/particle minecraft:dust{color:[1.0, 0.0, 0.0], scale:2.0} ...。",
+      "没有额外选项的粒子（如minecraft:villager）的语法依旧不变。",
+      "对方块粒子（block、​block_marker、​falling_dust和​dust_pillar）选项做出了以下更改：",
+      "将value字段重命名为block_state。",
+      "该block_state字段可接受一个普通方块ID，以表示某方块的默认方块状态。",
+      "以下为旧格式到新格式的转换示例：",
+      "minecraft:block minecraft:redstone_lamp[lit=true]变为minecraft:block{block_state: {Name: \"minecraft:redstone_lamp\", Properties: {lit: \"true\"}}}，minecraft:block minecraft:diamond_block变为minecraft:block{block_state: \"minecraft:diamond_block\"}。",
+      "对minecraft:item选项的更改：",
+      "将value字段重命名为item。",
+      "item字段可接受一个普通的物品ID，以表示某带有默认物品堆叠组件的物品堆叠。",
+      "如minecraft:item minecraft:dirt可转换为minecraft:item{item: {id: \"minecraft:dirt\"}}，minecraft:item minecraft:dirt可转换为minecraft:item{item: \"minecraft:dirt\"}。",
+      "对dust_color_transition选项的更改：",
+      "将fromColor重命名为from_color。",
+      "将toColor重命名为to_color。",
+      "新旧格式转换示例：",
+      "dust_color_transition 1.0 0.0 0.0 0.5 0.0 1.0 0.5变为dust_color_transition{from_color: [1.0f, 0.0f, 0.0f], scale: 0.5f, to_color: [0.0f, 1.0f, 0.5f]}",
+      "对entity_effect选项的更改：",
+      "将value字段重命名为color。",
+      "color现在也接受一个浮点数列表，以表示一个RGBA颜色。"
+    ],
+    "#tools": [
+      "与#breaks_decorated_pots重合。"
+    ],
+    "试炼刷怪笼和宝库": [
+      "更改了纹理。"
+    ],
+    "重锤": [
+      "现在可以打破饰纹陶罐，使之掉落合成自身的物品。"
+    ],
+    "试炼密室": [
+      "现在使用新的地形调整方式encapsulate，因此更常被地形掩埋。",
+      "加入了新的决斗室assembly及其独有的附加结构。",
+      "移除了决斗室chamber_6及其独有的附加结构c6_chest、​c6_column_full、​c6_column_tall、​c6_column_tall_wide、​c6_cover、​c6_cover_long、​c6_cover_short、​c6_cover_small、​c6_cover_small_1、​c6_cover_small_2、​c6_cover_small_3、​c6_melee_spawner、​c6_ranged_column_short、​c6_ranged_column_short_wide、​c6_stairs和​c6_wide_platform。",
+      "加入了新的交叉口intersection_3。",
+      "加入了新的发射器机关wall_dispenser和​floor_dispenser。",
+      "wall_dispenser放置于决斗室chamber_1、​chamber_2、​chamber_8、​assembly、​pedestal和​slanted的墙面，取代了旧样式的发射器机关。",
+      "floor_dispenser放置于决斗室assembly的地面。",
+      "为决斗室eruption的附加结构quadrant_1、​quadrant_2和​quadrant_4添加了更多铜灯。",
+      "修复了柱廊中的各种拼图断连问题。"
+    ],
+    "不祥试炼": [
+      "现在所生成生物携带的装备可能附有魔咒。",
+      "盔甲魔咒包括保护IV、弹射物保护IV和火焰保护IV。",
+      "武器魔咒包括锋利I、击退I、力量I和冲击I。",
+      "生物身上的装备不再在死亡时掉落。",
+      "现在玩家有50%概率被不祥之物生成器选中。",
+      "现在弹射物会更精准地生成在选中实体上方。"
+    ],
+    "修复": [
+      "修复了53个漏洞",
+      "1.20.4前正式版的漏洞",
+      "MC-165435 — 创造模式玩家站在2×2岩浆块气泡柱中间时不能飞行。",
+      "MC-188497 — 生成时不能设定AngerTime和​AngryAt。",
+      "MC-207353 — 如果攻击造成0伤害，则恶魂火球和风弹不能被近战反弹。",
+      "MC-263315 — 疣猪兽和僵尸疣猪兽的攻击目标不能被/execute on target检测到。",
+      "MC-264456 — 被青蛙和美西螈选为目标的实体不能被/execute on target检测到。",
+      "MC-265390 — /forceload命令提供错误的输出。",
+      "1.20.4的漏洞",
+      "MC-268000 — 使用/give给予玩家一个头颅时，客户端崩溃。",
+      "MC-269496 — 在矿车或船中与旋风人战斗不会受到任何伤害。",
+      "1.20.5开发版本的漏洞",
+      "MC-267934 — 在发送ClientboundTransferPacket后断开连接只会踢出玩家。",
+      "MC-268346 — 在generic.jump_strength被设为0时跳跃会导致速度提升。",
+      "MC-268947 — minecraft:generic.gravity属性增大时，不能稳定起飞。",
+      "MC-269191 — 旧的村民不能交易。",
+      "MC-269192 — 旋风人不受/execute on target命令的影响。",
+      "MC-269266 — 由苦力怕爆炸生成的区域效果云粒子着色不正确。",
+      "MC-269320 — 含有超过100页的书升级后被截断。",
+      "MC-269357 — 涡流和旋风旗帜图案描述显示为原始翻译字符串。",
+      "MC-269366 — 重锤不像其他工具一样打破饰纹陶罐。",
+      "MC-269501 — 即使“文本背景”设置为“全局”，旁观模式快捷栏上方的文本也没有背景。",
+      "MC-269508 — 玩家被音波攻击后跳起或落地时保持垂直动量。",
+      "MC-269609 — 风弹可以伤害栖息于返回传送门顶端的末影龙，这与箭和三叉戟不同。",
+      "MC-269610 — 风弹能对生命值达到一半或更低的凋灵造成伤害。",
+      "MC-269680 — 将物品的max_stack_size更改至低于其当前堆叠数量后，游戏于尝试保存时崩溃。",
+      "MC-269707 — 酿造台槽位存在设定为64的最大堆叠数量。",
+      "MC-269765 — 如果使用重锤攻击一次后仍在摔落，则其伤害不会被重置。",
+      "MC-269933 — limit_count物品修饰器能创造堆叠量溢出的物品。",
+      "MC-269947 — 使用重锤连点总共造成很高伤害。",
+      "MC-269948 — minecraft:event.mob_effect.raid_omen音效事件字幕显示为原始翻译字符串。",
+      "MC-269949 — “袭击之兆”效果新纹理基于Programmer Art中的唤魔者制作。",
+      "MC-269954 — 使用附魔风爆的重锤攻击非生物实体会将玩家向上推动，即使他（们）正在飞行。",
+      "MC-269955 — 在创造模式下飞行时，使用附魔风爆的重锤攻击末影龙将玩家向上推动，与攻击其他生物的行为不同。",
+      "MC-269959 — 加入世界时，控制台输出Not a list。",
+      "MC-269963 — 禁用实验性功能时，不祥之兆不会被移除。",
+      "MC-269974 — 带有盘丝状态效果的生物死亡时不能用蜘蛛网替代可被替换的方块。",
+      "MC-269976 — 风爆附魔书可由村民交易获取。",
+      "MC-269977 — 风爆魔咒可由附魔台获取。",
+      "MC-269980 — 风爆魔咒仅需普攻就能触发，而非需猛击。",
+      "MC-269993 — 使用附魔风爆的重锤攻击风弹造成非常高的上升动量。",
+      "MC-269999 — 不启用实验性功能时，盘丝、渗浆和虫蚀药水也能被获取。",
+      "MC-270001 — 粒子minecraft:item minecraft:air导致客户端崩溃。",
+      "MC-270004 — 给自己一个带有高于3级的风爆魔咒的物品，用它攻击某些实体会导致游戏崩溃。",
+      "MC-270005 — 下落一次可以使用重锤造成多次猛击。",
+      "MC-270048 — 宝库纹理不一致。",
+      "MC-270060 — 试炼刷怪笼的发光部分纹理不一致。",
+      "MC-270094 — 不启用实验性功能时，制箭师也会卖出新药箭。",
+      "MC-270099 — 即使禁用了mobGriefing，杀死一个带有盘丝效果的生物的行为也会放置蜘蛛网。",
+      "MC-270119 — /item命令的内容槽不适用于射出的箭、三叉戟和火球。",
+      "MC-270125 — 风爆可由箱子和钓鱼战利品获取。",
+      "MC-270161 — 风爆魔咒在载具实体上明显更强。",
+      "MC-270201 — 在第三人称视角下，钓鱼竿渔线未处理scale属性。",
+      "MC-270236 — 区域效果云和滞留药水导致potion_contents.custom_color略微透明。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-270387 — 反弹恶魂火球时，风爆能将玩家向上发射。",
+      "MC-270412 — 在非实验性世界中，风弹物品造成崩溃。",
+      "MC-270475 — 容器组件slot:-1造成崩溃。"
+    ],
+    "参考": [
+      "Minecraft 1.20.5 Pre-Release 1 — Minecraft.net，2024年4月10日。",
+      "MC-270589 — 漏洞状态为“不予修复”。",
+      "MC-270612 — 漏洞状态为“不予修复”。"
+    ]
+  }
+}

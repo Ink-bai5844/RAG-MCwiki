@@ -1,0 +1,53 @@
+{
+  "title": "Dungeons:腐化南瓜",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%85%90%E5%8C%96%E5%8D%97%E7%93%9C",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含惊悚深秋活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。"
+    ],
+    "存档ID": [
+      "CorruptedBeacon_Spooky1",
+      "腐化南瓜散发着超自然的力量，其射出的光束能照亮夜晚的最黑处。"
+    ],
+    "——物品描述": [
+      "腐化南瓜（Corrupted Pumpkin）是Minecraft Dungeons中的法器，它是腐化信标的活动物品变种，也是现存唯一的独特品质法器。"
+    ],
+    "获取": [
+      "活动："
+    ],
+    "使用": [
+      "腐化南瓜的使用方式与腐化信标相同。",
+      "腐化南瓜的伤害可以被灵魂汇聚魔咒加成。",
+      "P3_sfx_item_corruptedBeaconSpooky1Activate"
+    ],
+    "X 每秒法器伤害": [
+      "2.5秒 冷却",
+      "+1 灵魂收集"
+    ],
+    "伤害值": [
+      "124",
+      "21718",
+      "170",
+      "142855",
+      "260",
+      "5526964"
+    ],
+    "掉落": [
+      "P3_sfx_item_corruptedBeaconSpooky1Drop"
+    ],
+    "循环音效": [
+      "P3_sfx_item_corruptedBeaconSpooky1Loop"
+    ],
+    "拾取": [
+      "P3_sfx_item_corruptedBeaconSpooky1PickUp"
+    ],
+    "装备": [
+      "P3_sfx_item_corruptedBeaconSpooky1Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.5.0.0",
+      "加入了腐化南瓜。"
+    ]
+  }
+}

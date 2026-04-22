@@ -1,0 +1,102 @@
+{
+  "title": "基岩版1.21.20.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.20.23",
+  "structured_content": {
+    "默认分类": [
+      "1.21.20.23"
+    ],
+    "服务端版本": [
+      "1.21.20.23"
+    ],
+    "版本码": [
+      "Android：",
+      "952102023（armeabi-v7a，34）",
+      "962102023（x86，34）",
+      "972102023（arm64-v8a，34）",
+      "982102023（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年7月17日"
+    ],
+    "测试版归属": [
+      "1.21.20"
+    ],
+    "协议版本": [
+      "712",
+      "◄◄1.21.3",
+      "1.21.21►►",
+      "◄1.21.20.22",
+      "1.21.20.24►",
+      "beta 1.21.20.23（ChromeOS/Android）、Preview 1.21.20.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的第8个测试版，发布于2024年7月17日，修复了一些漏洞。"
+    ],
+    "实验性玩法": [
+      "移除了“假日创造者功能”子选项。",
+      "使用该实验性功能的内容可能不再会正常运行。"
+    ],
+    "基岩版编辑器": [
+      "更新了方块快捷栏以拥有非空气的默认值。",
+      "为默认快捷栏加入了持久性。",
+      "加入了ExtensionContext.settings.theme，用于表示世界内UI主题。",
+      "此功能目前拥有3个函数：resolveColorKey(string): Color、​setCurrentTheme(string): void和​getThemeList(): string[]。",
+      "只有minecraft:default一种主题。",
+      "在未来将会加入创建、修改和删除自定义主题的能力，但默认主题并不可修改。",
+      "更新了PropertyPaneAPI的子集以使用IObservable样式。",
+      "加入了备选的属性窗格APIaddVector3，用于利用类型安全的、可使用makeObservableAPI来创建的IObservable可观察量。",
+      "为新的属性项目加入了IVector3PropertyItem和​IVector3PropertyItemOptions接口。",
+      "将用于创建Vector3属性包的函数重命名为addVector3_deprecated。",
+      "加入了备选的属性窗格APIaddBoolAPI，用于利用类型安全的IObservableProp值API。",
+      "为新的属性项目加入了IBoolPropertyItem和​IBoolPropertyItemOptions接口。",
+      "将用于创建属性包布尔项目的函数重命名为addBool_deprecated。",
+      "转换了属性窗格APIaddText以使用IObservableProp。",
+      "为按钮属性项目加入了IButtonPropertyItem和​IButtonPropertyItemOptions接口。",
+      "IPropertyPane和​addButtonAPI现在可以取用普通函数。",
+      "移除了ButtonVariant类型，并加入了ButtonPropertyItemVariant枚举API。",
+      "将EDITOR_PANE_PROPERTY_ITEM_TYPE枚举API重命名为PropertyItemType。",
+      "转换了属性窗格APIaddImage以支持IObservable。将ImageResourceData作为值而使用自定义图像格式（如图标和方块）也将成为可能。",
+      "为IImagePropertyItemOptionsAPI加入了onClick函数和alignment属性。"
+    ],
+    "实体组件": [
+      "优化了behavior.follow_owner的传送逻辑：",
+      "实体现在会在传送至其主人处时无缝地重新开始寻路。",
+      "加入了post_teleport_distance字段，允许指定实体传送后会被放置在离其主人有多远的位置。",
+      "若未指定值，则使用增加一的stop_distance。",
+      "这些更改仅影响格式版本为1.21.20或更高版本的实体。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“创作者镜头：焦点目标镜头”子选项后才可使用。"
+    ],
+    "创作者相机 - 聚焦目标": [
+      "现在聚焦目标实验性内容是可用的，并且将会在未来的正式版中加入更多功能。",
+      "加入了新的相机命令，用于将实体作为目标，并将其保持在屏幕中央。",
+      "包含从实体中心添加偏移量的选项。",
+      "包含移除目标的选项。"
+    ],
+    "辅助功能": [
+      "修复了Apple Pencil不会被识别为有效输入法的问题。（MCPE-158895）"
+    ],
+    "方块": [
+      "light_block_0（光源方块）及其衍生方块现在拥有已定义的方块音效。（MCPE-183449）"
+    ],
+    "游戏提示": [
+      "现在只会在不能在水下呼吸时显示游泳游戏提示。"
+    ],
+    "游戏内容": [
+      "修复了使用触摸控制和自定义相机视角时，控制可能会停止按预期运作的问题。"
+    ],
+    "文本输入": [
+      "修复了Xbox平台上先前使用的文本框的内容会遗留到告示牌中的问题。（MCPE-182645）"
+    ],
+    "用户界面": [
+      "聊天快速访问的历史记录不再会记录重复的聊天项。"
+    ],
+    "用户界面游戏内容": [
+      "修复了将物品堆叠快速移动至非空白的物品堆叠时物品图标会闪烁的问题。"
+    ],
+    "原版趋同": [
+      "拴绳现在会拴在船的前部，而不是船的中心。（MCPE-182145）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.20.23 — Minecraft Feedback，2024年7月17日。"
+    ]
+  }
+}

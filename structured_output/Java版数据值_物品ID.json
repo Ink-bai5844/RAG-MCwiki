@@ -1,0 +1,30 @@
+{
+  "title": "Java版数据值/物品ID",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC%2F%E7%89%A9%E5%93%81ID",
+  "structured_content": {
+    "默认分类": [
+      "下表列出了除大多数方块外所有物品的命名空间ID。此处所谓“大多数方块”的命名空间ID见Java版数据值/方块ID。"
+    ],
+    "tadpole_bucket": [
+      "硫方怪桶[新增：JE 26.2]"
+    ],
+    "goat_horn": [
+      "音乐唱片13",
+      "music_disc_13"
+    ],
+    "music_disc_ward": [
+      "音乐唱片11",
+      "music_disc_11"
+    ],
+    "music_disc_relic": [
+      "音乐唱片5",
+      "music_disc_5"
+    ],
+    "唱片残片": [
+      "disc_fragment_5"
+    ],
+    "sniffer_spawn_egg": [
+      "硫方怪刷怪蛋[新增：JE 26.2]"
+    ]
+  }
+}

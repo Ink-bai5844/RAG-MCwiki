@@ -1,0 +1,5 @@
+{
+  "title": "镐方块/BS",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%95%90%E6%96%B9%E5%9D%97%2FBS",
+  "text": "名称\n默认值\n接受值\n描述\nfacing\nnorth\neast\nnorth\nsouth\nwest\n镐方块的朝向。\ntriggered\nfalse\ntrue\nfalse\n镐方块是否被激活，此属性不与客户端同步。"
+}

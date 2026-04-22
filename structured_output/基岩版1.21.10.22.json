@@ -1,0 +1,205 @@
+{
+  "title": "基岩版1.21.10.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.10.22",
+  "structured_content": {
+    "默认分类": [
+      "1.21.10.22"
+    ],
+    "服务端版本": [
+      "1.21.10.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952101022（armeabi-v7a，34）",
+      "962101022（x86，34）",
+      "972101022（arm64-v8a，34）",
+      "982101022（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年6月5日"
+    ],
+    "测试版归属": [
+      "1.21.20"
+    ],
+    "协议版本": [
+      "704",
+      "◄◄1.21.3",
+      "1.21.21►►",
+      "◄1.21.10.21",
+      "1.21.10.23►",
+      "beta 1.21.10.22（ChromeOS/Android）、Preview 1.21.10.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的第3个测试版，发布于2024年6月5日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "方块": [
+      "现在物品栏中的沉重核心的大小是正确的。（MCPE-179656）",
+      "现在物品展示框中的沉重核心会位于正确位置。（MCPE-181155）",
+      "钟被风弹弹射物击中时不再会发出两次响声。",
+      "修复了远古城市入口使用单个深板岩瓦而非深板岩瓦双层台阶的问题。"
+    ],
+    "合成器": [
+      "将crafter.craft和​crafter.fail音效的衰减距离由16格减少至5格。",
+      "修复了合成器的音效能够在5格距离及更远处听到的问题。"
+    ],
+    "门": [
+      "现在由不同材料制成的门也能构成双开门。"
+    ],
+    "海晶石": [
+      "prismarine现在被拆分为：prismarine、​dark_prismarine和​prismarine_bricks。",
+      "prismarine的数据值仍然可用。"
+    ],
+    "台阶": [
+      "红砂岩双层台阶、紫珀双层台阶、海晶石双层台阶、暗海晶石双层台阶、海晶石砖双层台阶、苔石双层台阶、平滑砂岩台阶和红色下界砖台阶的IDdouble_stone_block_slab2现在被拆分为：red_sandstone_double_slab、​purpur_double_slab、​prismarine_double_slab、​dark_prismarine_double_slab、​prismarine_brick_double_slab、​mossy_cobblestone_double_slab、​smooth_sandstone_double_slab和​red_nether_brick_double_slab。",
+      "double_stone_block_slab2及其数据值仍然可用，但不会在命令提示中出现。",
+      "末地石砖双层台阶、平滑红砂岩双层台阶、磨制安山岩双层台阶、安山岩双层台阶、闪长岩双层台阶、磨制闪长岩双层台阶、花岗岩双层台阶和磨制花岗岩双层台阶的IDdouble_stone_block_slab3现在被拆分为end_stone_brick_double_slab、​smooth_red_sandstone_double_slab、​polished_andesite_double_slab、​andesite_double_slab、​diorite_double_slab、​polished_diorite_double_slab、​granite_double_slab和​polished_granite_double_slab。",
+      "double_stone_block_slab3及其数据值仍然可用，但不会在命令提示中出现。",
+      "苔石砖双层台阶、平滑石英双层台阶、石头双层台阶、切制砂岩双层台阶和切制红砂岩双层台阶的IDdouble_stone_block_slab4现在被拆分为：mossy_stone_brick_double_slab、​smooth_quartz_double_slab、​normal_stone_double_slab、​cut_sandstone_double_slab和​cut_red_sandstone_double_slab。",
+      "double_stone_block_slab4及其数据值仍然可用，但不会在命令提示中出现。",
+      "将海晶石双层台阶、暗海晶石双层台阶、海晶石砖双层台阶、安山岩双层台阶、磨制安山岩双层台阶、闪长岩双层台阶、磨制闪长岩双层台阶、花岗岩双层台阶、磨制花岗岩双层台阶和苔石砖双层台阶的硬度更改为1.5。",
+      "将末地石砖双层台阶的硬度更改为3。"
+    ],
+    "宝库": [
+      "现在玩家在已经解锁的宝库旁边时会播放新音效。"
+    ],
+    "物品": [
+      "在1.20.10及更高版本的JSON格式中开放了实验性物品组件minecraft:custom_components。",
+      "引入了作为马等实体的额外盔甲槽slot.armor.body，被限于单个盔甲物品，但需要全套盔甲的效果。",
+      "引入了minecraft:damage_absorption物品组件，以使物品能够吸收其穿戴者受到的伤害。",
+      "absorbable_causes字段允许指定吸收哪些伤害。",
+      "吸收伤害会消耗物品的耐久度，多余的伤害会被忽略。",
+      "需要将物品装备在盔甲槽中才会吸收伤害。",
+      "装备多个伤害吸收物品时会随机选择一个合适的物品来吸收受到的伤害。",
+      "引入了minecraft:durability_sensor物品组件，以使物品能够在受到伤害而损失耐久度时发出音效和粒子。",
+      "durability_thresholds字段允许定义耐久度阈值和达到阈值时发出的效果的列表。",
+      "物品受到足以同时达到多个阈值的伤害时，只有与最低耐久度相对应的阈值会被考虑。"
+    ],
+    "沉重核心、三叉戟和重锤": [
+      "现在稀有度由“常见”更改为“史诗”。"
+    ],
+    "旗帜图案": [
+      "现在苦力怕盾徽、头颅盾徽和猪鼻旗帜图案的稀有度由“常见”更改为“少见”。",
+      "现在涡流旗帜图案和旋风旗帜图案的稀有度由“常见”更改为“稀有”。",
+      "现在Mojang旗帜图案的稀有度由“常见”更改为“史诗”。"
+    ],
+    "溺尸": [
+      "更改了生成机制以近似匹配Java版。",
+      "将溺尸在河流生物群系中的生成数量由2-4更改为1。",
+      "现在溺尸在溶洞生物群系中的生成条件为地下和水下，此前为地表和水下。",
+      "这意味着溺尸现在能够在溶洞的含水层中生成。",
+      "将溺尸在溶洞生物群系中的生成权重由100降低至95。",
+      "将溺尸在溶洞生物群系中的生成密度上限由2提高至5。"
+    ],
+    "风弹": [
+      "将玩家发射风弹的速度提高50%，以同步Java版。",
+      "现在风弹的模型会在其边界箱内正确渲染。"
+    ],
+    "/volumearea": [
+      "移除了此命令。"
+    ],
+    "常规": [
+      "minecraft:scatter_feature现在拥有用于定义分散设置的distribution字段，类似于minecraft:feature_rules。",
+      "地物现在使用模式版本1.21.10。"
+    ],
+    "教学提示": [
+      "加入了表情提示，会在联机玩家靠近玩家，并且玩家与其他玩家在世界中已同时停留至少30秒时显示。"
+    ],
+    "附加包和脚本引擎": [
+      "弃用了实体置换。",
+      "置换不再能通过其在置换旗标下的JSON文件进行解析和应用。",
+      "弃用了功能域和/volumearea命令。",
+      "弃用了format_version被指定为1.21.10或更高版本时的实体别名。"
+    ],
+    "API": [
+      "将WorldInitializeBeforeEvent由beta开放至1.12.0。",
+      "将WorldInitializeBeforeEventSignal由beta开放至1.12.0。",
+      "加入了playerEmote。",
+      "玩家使用表情后触发。"
+    ],
+    "自定义组件": [
+      "将ItemComponentRegistry由beta开放至1.12.0。",
+      "将ItemCustomComponent由beta开放至1.12.0。",
+      "将ItemComponentBeforeDurabilityDamageEvent由beta开放至1.12.0。",
+      "将ItemComponentCompleteUseEvent由beta开放至1.12.0。",
+      "将ItemComponentConsumeEvent由beta开放至1.12.0。",
+      "将ItemComponentHitEntityEvent由beta开放至1.12.0。",
+      "将ItemComponentMineBlockEvent由beta开放至1.12.0。",
+      "将ItemComponentUseEvent由beta开放至1.12.0。",
+      "将ItemComponentUseOnEvent由beta开放至1.12.0。",
+      "将带有getTameItems、​isTamed、​probability、​tamedToPlayer和​tamedToPlayerId属性和tame函数的EntityTameableComponent由beta移动至1.12.0。",
+      "将带有duration、​growUp和​transformToItem属性和getDropItems、​getFeedItems、​EntityDefinitionFeedItem和​Trigger函数的EntityAgeableComponent由beta开放至1.12.0。",
+      "server-net现在可以在本地编辑器扩展中使用。"
+    ],
+    "相机视角": [
+      "为实验性的follow_orbit预设加入了第三人称相机的视角偏移。",
+      "视角偏移固定在屏幕中心的轴心点上。应用于follow_orbit时，玩家会被从偏移量指定的中心挪动到远处。",
+      "偏移量的范围为-100到100。",
+      "可通过命令和JSON进行设置：",
+      "/camera @s set minecraft:follow_orbit view_offset 视角X偏移量视角Y偏移量",
+      "为follow_orbit和第三人称自拍式相机视角加入了起始半径和旋转方向。",
+      "起始半径（与玩家的距离）现在固定在距离玩家所在位置10格处。",
+      "起始旋转方向（俯仰角和偏航角）现在固定在45°X和45°Y。",
+      "跟随视角相机是仅有的可用预设，第三人称自拍预设将会在未来的正式版中出现。",
+      "为行为包公开了半径组件。同时将minecraft:third_person和​minecraft:third_person_front加入到可被继承的预设的允许列表中。",
+      "允许创作者基于原版的第三人称相机视角制作第三人称相机视角，但半径是可变的。",
+      "半径（与玩家的距离）不受限制，但仍存在渲染距离限制和其他限制。",
+      "不允许修改原版相机视角。"
+    ],
+    "基岩版编辑器": [
+      "移除了粘贴预览中用于阻止向右移动的D按键绑定。",
+      "现在可以使用侧边面板来选择固定距离模式。",
+      "修复了编辑器中缺失Ctrl + X按键绑定的问题。",
+      "扩展了方块调色板服务API，以允许管理调色板和调色板项目。",
+      "为数字输入框加入了径向拖动，以允许通过鼠标拖动移动来更改值。",
+      "引入了新的脚本画笔管理器方法getBrushVolume。",
+      "指定一组画笔管线操作，为画笔建造一个绝对复合方块体积。",
+      "修复了画笔工具中的小动作会导致光标追踪不正确的漏洞。"
+    ],
+    "实体组件": [
+      "为弹射物加入了wind_burst_on_hit子组件。",
+      "在被从世界中移除之前，带有该子组件的弹射物会在与实体或方块相碰撞后产生风爆。",
+      "风弹被命令移除时不再会产生风爆。"
+    ],
+    "Realms": [
+      "修复了客户端已过期且Realm已有待定更新时不会出现接连两个错误屏幕的漏洞。",
+      "修复了由于加载屏幕无限加载以及“创建免费的预览版/测试版Realm”按钮不起作用，用户无法通过世界选项卡中的“免费的可用Realm”按钮来创建新的Realm的漏洞。",
+      "加入了新的汇报流程，可以让玩家添加更多该报告相关原因的背景和信息。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "方块自定义组件": [
+      "使用onTick事件现在需要方块拥有用于配置如何更新的minecraft:tick。",
+      "世界生成的且拥有minecraft:tick组件的方块现在会进行更新。"
+    ],
+    "图形": [
+      "为延迟渲染预览功能加入了亮度/伽马值校准屏幕。",
+      "校准屏幕可在延迟渲染图形设置下的视频设置菜单内找到。"
+    ],
+    "性能与稳定性": [
+      "修复了在配备Arm Mali GPU的Android设备上启用延迟渲染预览功能实验性内容时发生的崩溃。",
+      "修复了在Amazon设备上加入世界时游戏有时会崩溃的问题。"
+    ],
+    "附加包": [
+      "修复了加入Realms时附加包中的部分物品可能会丢失纹理或名称的漏洞。"
+    ],
+    "自定义控制": [
+      "现在在iOS平台上自定义控制按键时，按钮可以完全向右滑动。",
+      "现在自定义触摸控制按键时，左侧和右侧的安全区域会被忽略。"
+    ],
+    "游戏内容": [
+      "现在玩家处于世界加载或维度转移加载屏幕中时不会受到伤害。（MCPE-42310）",
+      "玩家走向上方有至少1.5格空间的床时不再会在一刻后进入爬行状态。（MCPE-178370、MCPE-180810）"
+    ],
+    "弹射物": [
+      "设置中的生物破坏被禁用时，旋风人发射的风弹弹射物不再能够切换方块状态。（MCPE-181211）"
+    ],
+    "用户界面": [
+      "修复了在分屏模式下使用极限模式时，死亡屏幕上可能会显示错误文本的漏洞。"
+    ],
+    "原版趋同": [
+      "溺尸现在会在河流中单独生成，而不是成群生成。",
+      "溺尸现在会在溶洞的含水层中生成。（MCPE-144066）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.10.22 — Minecraft Feedback，2024年6月5日。"
+    ]
+  }
+}

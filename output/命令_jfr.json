@@ -1,0 +1,5 @@
+{
+  "title": "命令/jfr",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fjfr",
+  "text": "本条目所述内容仅适用于Java版。\njfr\n需要的权限等级\n4\n限制条件\n无\n使用Java Flight Recorder分析数据和某些自定义事件。\n用法\n分析包含以下几种自定义事件：\nminecraft.ServerTickTime：采样事件，反映服务器平均TPS。\nminecraft.ChunkGeneration：生成单个区块阶段所需的时间。\nminecraft.PacketReceived或minecraft.PacketSent：网络流量。\nminecraft.NetworkSummaryEvent：网络数据包的数量等信息。\nminecraft.WorldLoadFinishedEvent：初始化世界加载耗费的时间。\nminecraft.ChunkRegionRead和minecraft.ChunkRegionWrite：区块文件的写入和读取。\nminecraft.StructureGeneration：结构生成。\nminecraft.ClientFps：客户端FPS。\n分析的结果摘要会以JSON格式写入日志以及debug文件夹中。\n此外，以.jfr格式保存的记录文件会保存于debug文件夹中，可使用如JMC及其他支持此格式的工具做进一步分析。\n语法\njfr start\n开始JFR分析。\njfr stop\n结束JFR分析。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整\n无法解析\n/jfr start\n已开始JFR分析\n执行失败\n/jfr stop\n未开始JFR分析\n任意\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\nN/A\n0\n执行成功\nN/A\n1\n历史\nJava版\n1.18\n21w37a\n加入了/jfr。\n1.20.5\n24w06a\n加入了JFR事件ChunkRegionRead和ChunkRegionWrite。\n1.21.11\n25w41a\n加入了JFR事件ClientFps。\n导航"
+}

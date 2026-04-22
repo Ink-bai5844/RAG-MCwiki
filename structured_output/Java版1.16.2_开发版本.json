@@ -1,0 +1,644 @@
+{
+  "title": "Java版1.16.2/开发版本",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.16.2%2F%E5%BC%80%E5%8F%91%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了Java版1.16.2的开发版本。",
+      "20w27a",
+      "20w27a是Java版1.16.2的首个快照，发布于2020年7月1日，加入了猪灵蛮兵及刷怪蛋和新的方块标签，并修复了一些漏洞。"
+    ],
+    "刷怪蛋": [
+      "加入了猪灵蛮兵刷怪蛋。"
+    ],
+    "猪灵蛮兵": [
+      "猪灵的强化变种，携带着金斧。",
+      "总是对玩家敌对。",
+      "拥有50（ × 25）生命值。",
+      "只在世界生成时生成在堡垒遗迹里。"
+    ],
+    "标签": [
+      "加入了mushroom_grow_block方块标签。",
+      "应用于菌丝体、灰化土、绯红菌岩和诡异菌岩。",
+      "决定方块即使在光照条件较强的环境下也能种植蘑菇和使巨型蘑菇生长。",
+      "加入了base_stone_nether方块标签。",
+      "应用于下界岩、玄武岩和黑石。",
+      "持有该标签的方块在生成时可以被远古残骸替代。",
+      "加入了base_stone_overworld方块标签。",
+      "应用于石头、花岗岩、闪长岩和安山岩。",
+      "持有该标签的方块可在生成时被下列方块替代：",
+      "移除了furnace_materials物品标签。",
+      "现在可以使用\"required\": false将标签内的每一项标记为可选。",
+      "例如，values: [\"#minecraft:beds\", \"minecraft:stone\"]允许所有床和石头拥有此标签。也可写成values: [{id: \"#minecraft:beds\", \"required\": true}, {id: \"minecraft:stone\", \"required\": true}]。将\"required\"设置为false将使任一项成为可选项。"
+    ],
+    "下界菌": [
+      "现在可以种植在菌丝体上。"
+    ],
+    "僵尸疣猪兽": [
+      "现在可被拴绳牵引。"
+    ],
+    "堡垒遗迹": [
+      "现在会在世界生成期间生成猪灵蛮兵。",
+      "普通猪灵仍会正常生成。",
+      "更改了箱子的战利品表。",
+      "提高了战利品的总体价值。提高了稀有物品的权重，同时也增加了很多物品的数量。许多随机池的抽取次数也变多。",
+      "移除了所有“空”的战利品项。",
+      "大部分有耐久度的物品，其平均耐久度现在增加。",
+      "向多个战利品表内加入了附魔的金斧、金胡萝卜和铁块。",
+      "疣猪兽棚结构内的箱子现可能包含一把附魔的钻石镐。",
+      "从宝箱中移除了铁粒。",
+      "宝箱中未附魔的钻石盔甲现在不再有耐久度损失了。",
+      "堡垒遗迹内的宝箱现在更有可能生成在镶金黑石上。"
+    ],
+    "进度": [
+      "将猪灵蛮兵加入到了进度“怪物猎人”和“资深怪物猎人”的达成要求当中。",
+      "现在可以修改空白进度页面描述下方的“:(”了（本地化键名为advancements.sad_label）。",
+      "将进度“带信标回家”的英文名“Bring Home the Beacon”中的“Beacon”的大小写修正为“beacon”。",
+      "将进度“天涯共此石”的英文描述中的指南针“Compass”的大小写修正为“compass”。"
+    ],
+    "菜单": [
+      "现在将资源包拖入菜单会使资源包列表直接更新，不再需要重新加载来刷新。",
+      "现在数据包的根文件夹中会有pack.png，且会展示在数据包菜单中。"
+    ],
+    "修复": [
+      "修复了29个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-1058 — 如果头戴龙首的实体不在视野内，那么它戴的龙首不会显示。",
+      "MC-2404 — 在方块边缘潜行会掉下方块。",
+      "MC-49476 — HideFlagsNBT标签不会隐藏皮革盔甲的“已染色”。",
+      "MC-68487 — 同一个玩家的头有相同的皮肤纹理，即使其纹理数据不同。",
+      "MC-97507 — 使用改变手持物品的物品会显示“盔甲：装备”字幕。",
+      "MC-124365 — 退出世界时不释放持有的数据包或资源包（压缩包形式）的文件句柄。",
+      "MC-145691 — 将“开启/关闭物品栏”绑定为Tab ↹只会开启而不会关闭物品栏。",
+      "MC-150417 — 当灵魂沙上方有液体时，在上面的掉落物会卡住。",
+      "MC-160723 — 在竹子上潜行时会滑落。",
+      "MC-170628 — 服务器启动时，含n个用户项的UserCache会将相同文件写入n次。",
+      "MC-180447 — 放置玩家头颅导致游戏崩溃。",
+      "1.16的漏洞",
+      "MC-171739 — 缠怨藤、垂泪藤、海带和竹子可通过同时破坏并放置方块被“幼苗”替换。",
+      "MC-174762 — 村民的铁傀儡生成计时器会在区块重新载入时重置。",
+      "MC-178729 — 红色和棕色蘑菇在菌岩上不能长成巨型蘑菇，尽管它们能在其他“草”方块上生长。",
+      "MC-182652 — 废弃传送门生成时并不总是带有箱子。",
+      "MC-183663 — 农民村民不正确地堆肥。",
+      "MC-183743 — 铁傀儡数量过多。",
+      "MC-185274 — 20w21a后，字幕仍然在进食时显示“盔甲：装备”。",
+      "MC-188473 — 增加或减少资源包后资源包界面不再更新。",
+      "MC-188969 — 在物品栏中拥有一个谜之炖菜会阻止从棕色哞菇中获得所有种类的谜之炖菜。",
+      "MC-189909 — player_interacted_with_entity当只有一个物品且被消耗后不会触发。",
+      "MC-190021 — 潜行时为猪或炽足兽上鞍会播放手的动画。",
+      "MC-190266 — 玩家和其他实体在熔岩表面骑炽足兽时登录后会着火。",
+      "MC-190274 — 创造模式下用瓶子收集水瓶时和新的用铁桶获取水桶时的机制不一致。",
+      "MC-190849 — 黏液块只能将实体弹起5方块高，而不是1.15.2中的6方块高。",
+      "MC-191467 — 更改文件夹中的资源包后，资源包界面不会随之即刻更新。",
+      "1.16.1的漏洞",
+      "MC-191915 — 装备的鞘翅在船内不显示附魔。",
+      "MC-191953 — 末地折跃门有时无法将玩家传送回主岛。",
+      "MC-192894 — 透明层调整大小后失去辅助深度缓冲ID。",
+      "20w28a",
+      "20w28a是Java版1.16.2的第2个快照，发布于2020年7月8日，加入了新的方块与物品标签，并修复了一些漏洞。",
+      "修复了40个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-34661 — 荆棘魔咒会对盔甲造成双倍耐久损耗。",
+      "MC-65953 — 无法使用/entitydata（/data）修改生物标签isBaby和isVillager的值。",
+      "MC-121098 — 从高下界传送门传送至矮传送门时，玩家会被生成在顶部，从而造成窒息伤害。",
+      "MC-172221 — 疣猪兽、僵尸疣猪兽、劫掠兽、铁傀儡和北极熊半身悬空时不会主动走向下一格方块。",
+      "MC-179369 — 流浪商人在下界和末地中会一直保持隐身状态。",
+      "MC-182868 — 自1.14后，如果铁轨在红石绝缘体的顶部，那么铁轨的更新会延迟4-5倍。",
+      "MC-185925 — 矿石团簇使用32位浮点数生成，这会导致运算精度的丢失和潜在的崩溃。",
+      "1.16的漏洞",
+      "MC-171363 — 巨型下界菌和小型植物只会在下界较高处的菌岩上生成，而下界较低处几乎没有植物。",
+      "MC-173526 — 所有矿车都无法被熔岩损坏。",
+      "MC-174479 — 无法将海泡菜放在灵魂沙上。",
+      "MC-174520 — soul粒子动画贴图的第一帧显示不正确。",
+      "MC-176753 — 如果猪灵的CanPickUpLoot生物标签被设为0b，那么它们会一直站在金质物品的周围但无法拾起该物品。",
+      "MC-181204 — 游戏规则doDaylightCycle的英文描述有误。",
+      "MC-181233 — 生物可以生成在铁活板门、绯红木活板门和诡异木活板门上。",
+      "MC-182430 — 猪灵无法拾起楼梯上的物品。",
+      "MC-185684 — 末影人被击中后，即使未达到瞬移条件，也仍然会瞬移。",
+      "MC-186627 — 在自定义维度中，亡灵生物遇到阳光不会燃烧。",
+      "MC-187112 — 拼图方块中“保留拼图”按钮有一个多余的空格。",
+      "MC-187126 — 拼图方块在按下“生成”按钮后不会自动关闭UI界面。",
+      "MC-187129 — 拼图方块在更改参数后除非重新打开UI界面否则无法生成正确的结构。",
+      "MC-187598 — 在非极佳视频设置下，半透明方块的碰撞箱仍然显示为全透明。",
+      "MC-188459 — 仙人掌盆栽的模型顶部仍然缺少cullface参数。",
+      "MC-188534 — 仙人掌盆栽缺少底部模型。",
+      "MC-189769 — 下界菌在生长为巨型下界菌时无法替换火。",
+      "MC-190098 — 服务器中结构方块的相对位置和结构大小仍然限制为32。",
+      "MC-190852 — 在使用从右至左书写的语言时，进度公告的括号方向错误。",
+      "MC-190856 — 在使用从右至左书写的语言时，/list [uuids]输出内容的括号方向错误。",
+      "MC-190860 — 在使用从右至左书写的语言时，聊天栏或命令方块内输入的/会显示为旧版格式修饰符。",
+      "MC-190891 — 某些红石电路会引起游戏卡顿。",
+      "MC-190892 — 在使用从右至左书写的语言时，药水效果的括号方向错误。",
+      "MC-191501 — 在1.16中打开1.14版本的世界会导致原有的村民消失。",
+      "1.16.1的漏洞",
+      "MC-191571 — 在使用从右至左书写的语言时，中括号方向错误。",
+      "MC-191579 — 在使用从右至左书写的语言时，成书签名的中的文本格式不正确。",
+      "MC-191656 — 在创造模式物品栏中，从右至左书写的文本无法正常显示。",
+      "MC-191947 — 在下界传送门中被计算了1游戏刻的实体不会进入下界。",
+      "MC-192306 — 绯红木台阶和诡异木台阶在地图上显示的颜色不正确。",
+      "修复了22个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-153230 — 旁观模式的玩家可以停住矿车。",
+      "MC-157774 — 玩家在创造模式下飞行时会被从方块边缘弹开。",
+      "MC-158735 — 没有弩的掠夺者仍旧会像其有弩的时候举起胳膊朝向某些人。",
+      "MC-166718 — 生物在头部卡入灵魂沙、耕地和草径中时不会受到窒息伤害。",
+      "MC-176778 — 玩家的视角和位置由于高延迟会被重置到先前一段时间的视角和位置。",
+      "MC-176836 — 无装备的卫道士在攻击时手部依然使用斧的动画。",
+      "1.16的漏洞",
+      "MC-185019 — 使用structures参数为空的世界生成设置的世界会频繁生成所有的结构。",
+      "MC-189788 — 一些生物在船里移动的时候会受到溺水伤害。",
+      "MC-190559 — 幼年炽足兽在熔岩中的同时在雨中不会导致死亡。",
+      "MC-190875 — 在一个包含不能在给定生物群系生成的结构的自定义超平坦世界中使用/locate命令定位此结构，会导致游戏被软锁定。",
+      "MC-191031 — 在旁观模式下的玩家可以与船互动。",
+      "1.16.1的漏洞",
+      "MC-191623 — 末影龙战斗音乐在打败末影龙后不会停止播放。",
+      "MC-192021 — 透明方块的附魔光效在极佳画质下的渲染不正确。",
+      "1.16.2开发版本的漏洞",
+      "MC-193560 — 鞘翅附魔光效在特定情况下不会渲染。",
+      "MC-193662 — 在方块表面上方0.6格以内飞行的创造模式玩家在同时按住跳跃和潜行键会导致玩家被限制在那个方块的边缘上。",
+      "修复了30个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-35765 — 从右向左书写的语言（比如阿拉伯语）在游戏语言设置为从左向右书写的语言（比如中文或英文等大多数语言）时显示连字出现连不起来的问题。",
+      "MC-57869 — 一些工具提示使用§以改变文本颜色，导致使用从右向左书写的语言时文本显示不正确。",
+      "MC-93024 — 从骷髅陷阱中获得的弓上会出现两次同种魔咒。",
+      "MC-116857 — 进度提示中一些用语被不必要地大写。",
+      "MC-148447 — 村民们尝试同时通过门时会卡住。",
+      "MC-149060 — 村民有时会“滥用”（十分快速地开关）门。",
+      "MC-153195 — 生物可以掉落拥有重复附魔的物品。",
+      "MC-158767 — 玩家在熔岩边的床上醒来时会落入熔岩。",
+      "MC-181925 — 无装备的恼鬼在攻击时依然使用铁剑的动画。",
+      "1.16的漏洞",
+      "MC-187344 — 流畅图像品质的悬浮提示中的“tree-leaves”拼写不正确。",
+      "MC-187379 — 本地化键名为pack.incompatible.confirm.new的字符串有问题。",
+      "MC-187380 — 本地化键名为pack.dropConfirm的字符串的英语（美国）翻译有语法错误。",
+      "MC-188389 — 本地化键名为datapackFailure.title的字符串的几个小问题。",
+      "MC-188390 — 四个字符串中存在逗号粘连问题。",
+      "MC-188392 — 被凋灵之首射杀的死亡消息在一些情况下存在语法问题。",
+      "MC-188621 — 制作人员名单中Mojang“产品经理”一栏的缩进比别的栏长一些。",
+      "MC-188880 — 骑在鸡身上幼年僵尸猪灵的显示位置不正确。",
+      "MC-189918 — 多人游戏警告中仍然使用“Mojang”而非“Mojang Studios”。",
+      "MC-190102 — 一些UI文本的大小写不一致。",
+      "MC-190288 — 极佳和高品质图像品质的悬浮提示缺失逗号。",
+      "MC-191441 — 从右向左书写的语言文本在某些情况下会倒过来渲染。",
+      "1.16.1的漏洞",
+      "MC-191562 — 在向Realms上传世界时，“取消”按钮覆盖在“完成”按钮上，导致用户无法上传世界。",
+      "MC-192296 — 从刷怪笼矿车中生成的蜘蛛骑士会导致崩溃：java.lang.IllegalStateException: Entity is already tracked。",
+      "MC-193276 — 玩家在骑乘炽足兽时的位置稍微往上浮动了一些。",
+      "MC-193339 — 在rcon启用且没有设置密码时，关闭服务器会导致NullPointerException错误。",
+      "1.16.2开发版本的漏洞",
+      "MC-194273 — 新的下界生物群系的存档信息在将世界升级到20w28a以上版本时会丢失。",
+      "MC-194350 — 在数据包中的一些地形特征设置并不会被载入（java.lang.IllegalArgumentException: value already present: clh@77f95e19）。",
+      "修复了29个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-73884 — 弹射物在触碰到不完整方块后会破碎。",
+      "MC-96007 — 箭、三叉戟、投掷物、喷溅和滞留药水无法通过末地传送门、末地折跃门或下界传送门传送。",
+      "MC-102967 — 潜影弹无法通过下界/末地传送门。",
+      "MC-125758 — 气泡柱对弹射物的运动没有影响。",
+      "MC-158987 — 即使袭击范围内的所有村民被闪电击中后转化为女巫，袭击也不会停止。",
+      "MC-163767 — 村民在转化为僵尸村民后会自动离开矿车。",
+      "MC-167045 — 物品栏中旗帜的渲染过暗。",
+      "MC-175334 — 若村民周围的工作站点方块过多，会导致村民需要更长的时间去认领工作站点。",
+      "MC-185490 — 行商羊驼的拴绳断开会导致服务器TPS降低。",
+      "1.16的漏洞",
+      "MC-174469 — 灵魂疾行在跳跃时会失效。",
+      "MC-174574 — 将高度相似的台阶或方块放在灵魂沙上时，灵魂疾行会失效。",
+      "MC-176015 — 当玩家手持诡异菌钓竿骑乘炽足兽并向上看时，炽足兽会窒息。",
+      "MC-176034 — 玩家可以在炽足兽上行走。",
+      "MC-177651 — 炽足兽不会主动靠近熔岩。",
+      "MC-178061 — 聊天延迟选项并未显示在聊天设置中。",
+      "MC-182330 — 持有弩的猪灵在追赶隐形玩家时的行为异常。",
+      "MC-187398 — 锻造台和切石机的配方在使用时无法解锁。",
+      "MC-187904 — 数据包在创建世界期间无法替换原版维度的设置。",
+      "MC-189414 — 锻造台无法正确计算输出物品的数量。",
+      "MC-189797 — 疣猪兽、僵尸疣猪兽、使用近战武器的猪灵和猪灵蛮兵无法攻击正常攻击范围内的隐形实体。",
+      "MC-191168 — 矿车上的猪灵在转化为僵尸猪灵后会卡在其下方的方块内。",
+      "1.16.1的漏洞",
+      "MC-192032 — 村民不会始终优先认领最近的工作站点方块，有时还会注意不存在的或过远的工作站点方块。",
+      "MC-193213 — 拴绳在玩家和流浪商人上的位置不正确。",
+      "MC-195062 — 若村庄内有工作站点方块，即使所有村民都已死亡，袭击也不会失败。",
+      "MC-195544 — 击杀被凋灵骷髅骑乘的守卫者骑乘的生物会导致游戏崩溃。",
+      "MC-196737 — 玩家灯笼上使用⇧ Shift键仍会掉下来。",
+      "1.16.2开发版本的漏洞",
+      "MC-194263 — 大型末地城生成错误，使其被切断。",
+      "MC-194299 — 模板池无法通过数据包加载。",
+      "MC-194845 — “曲速泡”进度无法在7千米的距离内完成。",
+      "1.16.2-pre2",
+      "1.16.2-pre2是Java版1.16.2的第2个预发布版，发布于2020年8月5日，更改了菌索的破坏方式，并修复了一些漏洞。",
+      "修复了28个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-69876 — 位于Y=1处的活塞不会向下推，位于Y=254处的活塞不会向上推。",
+      "MC-124320 — 末影人捡起上方为雪的草方块后，再次放下来后会生成上方没有雪，但snowy为true的草方块。",
+      "MC-130558 — 游戏规则doEntityDrops被设为false之后不能清空物品展示框。",
+      "MC-134084 — 游戏规则sendCommandFeedback被禁用后，/msg或/tell不再向发信者显示信息。",
+      "MC-136553 — 创造模式物品栏内的染料的顺序反掉了。",
+      "MC-152037 — 动力铁轨、探测铁轨和激活铁轨被推或拉到自身不能被放置在上面的方块上时会被游戏直接删除。",
+      "MC-169203 — 斜面状态的铁轨（除普通铁轨）被活塞推到无可附着方块的位置上时不掉落物品。",
+      "MC-177684 — 可可豆、骨粉和青金石在创造模式物品栏内和染料排在一起。",
+      "MC-177733 — 动力铁轨和激活铁轨复制。",
+      "1.16的漏洞",
+      "MC-176491 — 熔岩会使菌岩随机地着火，之后火会一直燃烧下去。",
+      "MC-187357 — 自定义维度在floating_islands或caves预设下不会生成要塞。",
+      "MC-189736 — 战利品表谓词内的distance不再起作用。",
+      "MC-190552 — 在演示模式下打开存档时，玩家的物品栏和坐标会被重置。",
+      "MC-190859 — floating_islands或caves自选世界不再生成要塞；末影之眼也不再能正确地定位升级后的世界中在1.16前生成的要塞。",
+      "1.16.1的漏洞",
+      "MC-192136 — 熔岩伤害与上个版本的运作方式不同。",
+      "MC-192236 — 末影人可以将方块放置在贴着地面的物品展示框上。",
+      "MC-192371 — 在同一方块空间内部的多幅画，在区块卸载又加载后，一些画会自动掉下来。",
+      "MC-192845 — 1.16版本的方块事件（比如活塞和音符盒）造成的卡顿相比之前的版本来说更卡。（疑似未完全修复）",
+      "MC-195851 — 头盔的“帽子”层在猪灵以物易物时会从它们的头上脱离。",
+      "MC-196245 — 闪电苦力怕在爆炸时，若周围有能掉落头颅的生物的同时有僵尸的变种（比如尸壳），则可能不掉落头颅。",
+      "MC-196473 — 河豚给予反胃II而非该状态效果的最高级反胃I。",
+      "1.16.2开发版本的漏洞",
+      "MC-194867 — 矿车在传送时会从下界传送门错误的一边出来，并且回到主世界时会失去动量。",
+      "MC-194953 — 战利品表谓词中无法使用自定义生物群系。",
+      "MC-195803 — 英文（美国）中，生物击杀统计页面的变量显示位置颠倒了：“<次数> killed you <生物> times”（翻译过来为“<次数>杀死了你<生物>次”，但中文没有此漏洞）。",
+      "修复了12个漏洞",
+      "1.16前正式版的漏洞",
+      "MC-105248 — 湿的狼在昏暗处会变成近乎黑色的。",
+      "MC-107529 — Marker属性为1b的盔甲架在固体方块内部时，自身和其装备依然会渲染成黑色。",
+      "MC-167756 — 狼在没有受到天空光照直接照射时变得很暗。",
+      "1.16的漏洞",
+      "MC-191388 — 控制台反复提示“No key position_predicate in MapLike”。",
+      "1.16.1的漏洞",
+      "MC-197049 — 重新登录后会保存待处理消息，而不保存普通消息。",
+      "MC-197053 — 按下F3 + D会清除“+<数量>行待发送”的提示，但是不会清除实际上待发送的信息。",
+      "1.16.2开发版本的漏洞",
+      "MC-196534 — 游戏不识别自定义维度类型：java.lang.IllegalStateException: Unregistered dimension type。",
+      "修复了7个漏洞",
+      "1.16的漏洞",
+      "MC-190103 — 使用下界传送门时会崩溃：java.lang.IndexOutOfBoundsException: fromIndex < 0: -2368549。",
+      "1.16.1的漏洞",
+      "MC-197275 — 由于对墙的更改，pack_format: 5的资源包实际上并不跨版本（1.15到1.16）兼容。",
+      "1.16.2开发版本的漏洞",
+      "MC-194933 — 游戏在尝试载入自定义生物群系时会崩溃：java.lang.UnsupportedOperationException: Trying to add tag of type 8 to list of 10。",
+      "MC-197197 — 在创建/进入一个无预设的超平坦世界后，游戏会崩溃/无响应。",
+      "MC-197225 — 当自定义生物群系的spawners参数为空时，游戏会崩溃：java.util.concurrent.CompletionException: u: Exception generating new chunk。",
+      "修复了4个漏洞",
+      "1.16.2开发版本的漏洞",
+      "MC-197348 — 在某些活塞装置中有时会出现两个活塞头。"
+    ],
+    "虫蚀方块": [
+      "添加了stone_crafting_materials物品标签。",
+      "应用于圆石和黑石。",
+      "用于furnace.json的进度和配方文件中。",
+      "用于brewing_stand.json的配方文件中。"
+    ],
+    "酿造台": [
+      "现在可以使用黑石合成。",
+      "由stone_crafting_materials物品标签定义。"
+    ],
+    "熔炉": [
+      "现在可以使用stone_crafting_materials物品标签来解锁制作配方和配方书。",
+      "这个更改在游戏中并不明显，因为此标签与旧的furnace_materials物品标签的内容相同。"
+    ],
+    "仙人掌盆栽": [
+      "现在模型顶部使用cullface参数。",
+      "现在拥有了底部模型。"
+    ],
+    "不死图腾": [
+      "现在生效时会给予玩家40秒的抗火II状态效果。"
+    ],
+    "村民": [
+      "现在在加入村庄和认领床或工作站点后会出现绿色粒子，与基岩版保持一致。",
+      "现在会在传送到其他维度后失去工作站点。"
+    ],
+    "自定义": [
+      "自定义世界现在支持对生物群系的自定义。"
+    ],
+    "以物易物": [
+      "调整了各交换物的权重和数量。",
+      "加入黑石、光灵箭和水瓶。",
+      "移除荧石粉和岩浆膏。"
+    ],
+    "数据包": [
+      "现在对worldgen目录提供了实验性支持。",
+      "worldgen/biome可以包含对生物群系的定义。",
+      "worldgen/configured_carver可以包含对世界生成状态carver的定义。",
+      "worldgen/configured_feature可以包含对地形特征放置的定义。",
+      "worldgen/configured_structure_feature可以包含对生成结构放置的定义。",
+      "worldgen/configured_surface_builder可以包含对世界生成状态surface的定义。",
+      "worldgen/processor_list可以包含对方块处理的定义。",
+      "worldgen/template_pool可以包含对拼图结构的定义。",
+      "现在启用含生物群系的数据包后，就可以在单一生物群系、洞穴和浮岛中使用自定义生物群系。",
+      "现在自定义生物群系可以在自定义维度生成器中使用。",
+      "修改了一部分GUI文本字符串。",
+      "将“Errors in currently selected datapacks prevented world from loading.[换行] You can either try to load only with vanilla datapack (‘safe mode’) or go back to title screen and fix it manually.”改为“Errors in currently selected datapacks prevented the world from loading.[换行] You can either try to load it with only the vanilla data pack (‘safe mode’), or go back to the title screen and fix it manually.”。",
+      "修正了一些语法。",
+      "将“This pack was made for a newer version of Minecraft and may no longer work correctly.”更改为“This pack was made for a newer version of Minecraft and may not work correctly.”（pack.incompatible.confirm.new）。",
+      "将“Do you want to add following packs to Minecraft?”更改为“Do you want to add the following packs to Minecraft?”（pack.dropConfirm）。"
+    ],
+    "距离现象": [
+      "矿石团簇现在不再使用32位浮点数（单精度浮点数）生成。这使得它们无论在何处，都能以正确的形状生成，并能防止因使用Mods移动世界边界时引起的崩溃。"
+    ],
+    "GPU警告列表": [
+      "更新了GPU警告列表。现在不再针对Mesa和Gallium渲染器或厂商为X.Org的显示设备，而是针对所有OpenGL版本低于3.0的设备。"
+    ],
+    "服务器": [
+      "服务器现在可以限制客户端的速率。",
+      "服务器现在可以踢出在一秒内持续发送数据包过多的客户端。",
+      "由server.properties中的rate-limit设置控制。",
+      "默认为0（无限制）。"
+    ],
+    "创建世界": [
+      "将游戏规则doDaylightCycle的英文描述由“Advance in-game time”更改为“Advance time of day”。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-193073 — 当猪灵或猪灵蛮兵转化为僵尸猪灵时，游戏可能会崩溃。",
+      "MC-193089 — 如果生物同时处于熔岩和水中，则不会受到火焰伤害。",
+      "MC-193125 — 搜索配方书时按下物品栏键会直接关闭物品栏界面而不是将对应字符输入到搜索框中。",
+      "MC-193659 — 鹦鹉不会模仿猪灵蛮兵的声音。",
+      "20w29a",
+      "20w29a是Java版1.16.2的第3个快照，发布于2020年7月15日，更新了命令/spawnpoint和/setworldspawn，并修复了一些漏洞。",
+      "MC-194173 — 在流畅和高品质图像品质下，捡起物品或经验时判定箱的渲染会偏移。",
+      "MC-194200 — 白桦树在白桦森林和白桦森林山丘生物群系中生成不正确，都尝试生成在区块的西北角。",
+      "MC-194220 — 不死图腾给予抗火II效果而非该效果的最高等级抗火I。",
+      "MC-194257 — 在vanilla_worldgen设置中的部分snowy的实例被误拼为snovy。",
+      "MC-194298 — 使用骨粉不再能生成花。",
+      "MC-194300 — 当旧版本的世界更新到20w28a时，掠夺者前哨、村庄和堡垒遗迹的结构数据会丢失。",
+      "MC-194464 — large_oak_foliage_placer被错误地序列化为blob_foliage_placer。",
+      "20w30a",
+      "20w30a是Java版1.16.2的第4个，也是最后一个快照，发布于2020年7月22日，将灯笼更改为可含水方块，更改了堡垒遗迹的宝藏生成机制，并修复了一些漏洞。",
+      "MC-195052 — /spawnpoint命令的参数angle不使用rotation解析器。",
+      "MC-195119 — “经典平坦”超平坦预设中不再生成村庄。",
+      "MC-195582 — 在聊天栏中输入命令表示一个函数/物品/方块等（即输入需要minecraft:something的地方）时打两个冒号或在一个斜杠后打一个冒号会导致游戏崩溃（比如/function :example:，/clear @s minecraft/:或/execute as @e[type=minecraft::）。",
+      "1.16.2-pre1",
+      "1.16.2-pre1是Java版1.16.2的首个预发布版，发布于2020年7月29日，该版本添加了“屏幕扭曲效果”和“视场角效果”选项，允许锁链沿各坐标轴方向放置，并修复了一些漏洞。",
+      "MC-196441 — 切石机/锻造台配方在合成多个物品时，第一次以外的合成不会触发解锁。（例如，在第一次合成后立马移除该配方的解锁，则第二次不会触发）",
+      "MC-196469 — F1会隐藏反胃效果的绿色视觉效果。",
+      "MC-196653 — 多个自定义维度引用同一个dimension_type字符串时，会导致崩溃“unregistered dimension”（维度未注册）。",
+      "MC-196743 — 自定义/修改原版的生物群系在主世界不起作用。",
+      "1.16.2-pre3",
+      "1.16.2-pre3是Java版1.16.2的第3个，也是最后一个预发布版，发布于2020年8月6日，解决了狼在暗处的渲染错误，并修复了一些漏洞。",
+      "MC-197122 — 游戏在创建或进入调试模式世界后崩溃。",
+      "MC-197152 — 部分活塞结构会生成幽灵方块。",
+      "MC-197218 — 活塞臂缩回的时候有时会同时出现两个。",
+      "MC-197223 — 创建或进入一个没有定义生物群系或配置文件有问题的自定义世界时，游戏崩溃。",
+      "MC-197242 — 自定义多噪声维度导致游戏崩溃：Crash with custom multi-noise dimension: java.lang.IllegalStateException: Unregistered dimension type: cha@90d4173。",
+      "1.16.2-rc1",
+      "1.16.2-rc1是Java版1.16.2的首个发布候选版本，发布于2020年8月7日，将资源包和数据包的版本提升至6，并修复了一些漏洞。",
+      "MC-197258 — 特定自定义维度可以导致游戏崩溃。",
+      "MC-197263 — 末地天空和下界迷雾有时在服务器上不起作用。",
+      "1.16.2-rc2",
+      "1.16.2-rc2是Java版1.16.2的第2个，也是最后一个发布候选版本，发布于2020年8月10日，修复了一些漏洞。",
+      "MC-197354 — 1.16.2-rc1中方块事件的卡顿仍然高于1.15.2。",
+      "MC-197362 — 如果第二个资源包不兼容，则无法加载两个或多个资源包。",
+      "MC-197512 — 无法显示不兼容资源包的名称和描述。"
+    ],
+    "/spawnpoint和/setworldspawn": [
+      "加入了angle参数，可以设置玩家重生时面朝的方向。",
+      "语法："
+    ],
+    "/setworldspawn [<pos>] [<angle>]": [
+      "angle：角度制下的浮点数角度值。支持标识符~，会被转换为执行玩家当前的朝向角度值。"
+    ],
+    "窒息": [
+      "现在生物在头部卡入灵魂沙、耕地和草径中时会受到窒息伤害。"
+    ],
+    "掠夺者": [
+      "更改了非武装掠夺者的攻击动画。"
+    ],
+    "卫道士": [
+      "更改了非武装卫道士的攻击动画。"
+    ],
+    "创造模式物品栏": [
+      "工具现在在创造模式物品栏中按其材料排序。"
+    ],
+    "自定义世界生成": [
+      "worldgen/noise_settings现在可以包含噪声配置。"
+    ],
+    "灯笼和灵魂灯笼": [
+      "现在可以含水。"
+    ],
+    "告示牌": [
+      "现在，使用第三方工具重新编辑告示牌时，将使用现有告示牌文本初始化告示牌编辑屏幕。"
+    ],
+    "恼鬼": [
+      "修改了无装备恼鬼的攻击动画。"
+    ],
+    "/summon": [
+      "为尝试生成重复UUID的实体加入了一条错误提示：“UUID重复，无法召唤实体”。"
+    ],
+    "死亡消息": [
+      "将被头颅击中的死亡信息从“<玩家名> was shot by a <实体名>'s skull”改为“<玩家名> was shot by a skull from <实体名>”。"
+    ],
+    "重生": [
+      "修改了床和重生锚确定重生位置的机制。",
+      "重生锚现在优先选择东南西北四个基本方向，而不是斜对角。",
+      "床现在优先选择玩家进入床的一侧，其次是从床尾到床头一圈的空间。",
+      "重生的玩家会朝向重生的方块。",
+      "当可能时会避免将玩家放置到危险的方块上。"
+    ],
+    "文本翻译": [
+      "将一些字符串变成大写。",
+      "将“Back to title screen”更改为“Back to Title Screen”（gui.toTitle）。",
+      "将“Back to server list”更改为“Back to Server List”（gui.toList）。",
+      "将“Game paused”更改为“Game Paused”（menu.paused）。",
+      "将“Optimize world”更改为“Optimize World”（optimizeWorld.confirm.title）。",
+      "将“Now playing: <record>”更改为“Now Playing: <record>”（record.nowPlaying）。",
+      "将“Continue without support”更改为“Continue without Support”（options.graphics.warning.accept）。",
+      "将“Take me back”更改为“Take me Back”（options.graphics.warning.cancel）。",
+      "将“Spectate world”更改为“Spectate World”（deathScreen.spectate）。",
+      "将“Title screen”更改为“Title Screen”（deathScreen.titleScreen）。",
+      "将“You died!”更改为“You Died!”（deathScreen.title）。",
+      "将“Game over!”更改为“Game Over!”（deathScreen.title.hardcore）。",
+      "将“Level requirement: <level>”更改为“Level Requirement: <level>”（container.enchant.level.requirement）。",
+      "将“Save mode - write to file”更改为“Save Mode - Write to File”（structure_block.mode_info.save）。",
+      "将“Load mode - load from file”更改为“Load mode - Load from File”（structure_block.mode_info.load）。",
+      "将“Data mode - game logic marker”更改为“Data mode - Game Logic Marker”（structure_block.mode_info.data）。",
+      "将“Corner mode - placement and size marker”更改为“Corner Mode - Placement and Size Marker”（structure_block.mode_info.corner）。",
+      "将“Show invisible blocks:”更改为“Show Invisible Blocks:”（structure_block.show_air）。",
+      "将“Show bounding box:”更改为“Show Bounding Box:”（structure_block.show_boundingbox）。",
+      "将“Target pool:”更改为“Target Pool:”（jigsaw_block.pool）。",
+      "将“Target name:”更改为“Target Name:”（jigsaw_block.target）。",
+      "将“Joint type:”更改为“Joint Type:”（jigsaw_block.joint_label）。",
+      "将“Raiders remaining: <number>”更改为“Raiders Remaining: <number>”（event.minecraft.raid.raiders_remaining）。",
+      "将“Press <dismount> to dismount”更改为“Press <dismount> to Dismount”（mount.onboard）。",
+      "将“When in main hand:”更改为“When in Main Hand:”（item.modifiers.mainhand）。",
+      "将“When in off hand:”更改为“When in Off Hand:”（item.modifiers.offhand）。",
+      "将“When on feet:”更改为“When on Feet:”（item.modifiers.feet）。",
+      "将“When on legs:”更改为“When on Legs:”（item.modifiers.legs）。",
+      "将“When on body:”更改为“When on Body:”（item.modifiers.body）。",
+      "将“When on head:”更改为“When on Head:”（item.modifiers.head）。",
+      "将“World updates”更改为“World Updates”（gamerule.category.updates）。",
+      "修正了一些字符串中的标点使用。",
+      "将极佳图像品质的描述“Fabulous! graphics uses screen shaders for drawing weather, clouds and particles behind translucent blocks and water.[换行]This may severely impact performance for portable devices and 4K displays.”更改为“Fabulous! graphics uses screen shaders for drawing weather, clouds, and particles behind translucent blocks and water.[换行]This may severely impact performance for portable devices and 4K displays.”。",
+      "将高品质图像品质的描述“Fancy graphics balances performance and quality for the majority of machines.[换行]Weather, clouds and particles may not appear behind translucent blocks or water.”更改为“Fancy graphics balances performance and quality for the majority of machines.[换行]Weather, clouds,and particles may not appear behind translucent blocks or water.”。",
+      "将“Multiplayer is disabled, please check your launcher settings.”更改为“Multiplayer is disabled. Please check your launcher settings.”（title.multiplayer.disabled）。",
+      "将“Unable to switch gamemode, no permission”更改为“Unable to switch gamemode; no permission”（debug.creative_spectator.error）。",
+      "将“Unable to open game mode switcher, no permission”更改为“Unable to open game mode switcher; no permission”（debug.gamemodes.error）。",
+      "将“Reload failed, keeping old data”更改为“Reload failed; keeping old data”（commands.reload.failure）。",
+      "将多人模式警告信息中的“Mojang”改为“Mojang Studios”。",
+      "将“流畅”图像品质描述中的“tree-leaves”改为“leaves”。"
+    ],
+    "配方书": [
+      "将一些字符串变成大写。",
+      "将“Right Click for more”更改为“Right Click for More”。",
+      "将“Showing all”更改为“Showing All”。",
+      "将“Showing craftable”更改为“Showing Craftable”。",
+      "将“Showing smeltable”更改为“Showing Smeltable”。",
+      "将“Showing blastable”更改为“Showing Blastable”。",
+      "将“Showing smokable”更改为“Showing Smokable”。"
+    ],
+    "字幕": [
+      "将一些英文字幕变成大写。",
+      "将“Turtle shell thunks”更改为“Turtle Shell thunks”（subtitles.item.armor.equip_turtle）。"
+    ],
+    "字体": [
+      "加入了11种分数字形：",
+      "细微更改了部分字形。"
+    ],
+    "⅐": [
+      "\\u2150"
+    ],
+    "⅑": [
+      "\\u2151"
+    ],
+    "⅕": [
+      "\\u2155"
+    ],
+    "⅖": [
+      "\\u2156"
+    ],
+    "⅗": [
+      "\\u2157"
+    ],
+    "⅘": [
+      "\\u2158"
+    ],
+    "⅙": [
+      "\\u2159"
+    ],
+    "⅚": [
+      "\\u215A"
+    ],
+    "⅒": [
+      "\\u2152"
+    ],
+    "↉": [
+      "\\u2189"
+    ],
+    "⅟": [
+      "\\u215F"
+    ],
+    "本次加入的emoji与其对应的游戏中的物品": [
+      "加入了8种与游戏物品相关的emoji："
+    ],
+    "🗡": [
+      "\\uD83D \\uDDE1"
+    ],
+    "🏹": [
+      "\\uD83C \\uDFF9"
+    ],
+    "🪓": [
+      "\\uD83C \\uDE93"
+    ],
+    "🔱": [
+      "\\uD83D \\uDD31"
+    ],
+    "🎣": [
+      "\\uD83C \\uDFA3"
+    ],
+    "🧪": [
+      "\\uD83E \\uDDEA"
+    ],
+    "⚗": [
+      "\\u2697"
+    ],
+    "🛡️": [
+      "\\uD83D \\uDEE1"
+    ],
+    "盾牌": [
+      "加入了3种其他字形："
+    ],
+    "⯪": [
+      "\\u2BEA"
+    ],
+    "⯫": [
+      "\\u2BEB"
+    ],
+    "Ɑ": [
+      "\\u2C6D"
+    ],
+    "选项": [
+      "添加了“屏幕扭曲效果”选项，可影响诸如反胃效果和下界传送门产生的视觉扭曲。",
+      "强度范围为关闭（0%）到100%。",
+      "当强度较低时，反胃效果将会在屏幕边缘增加绿色的视觉效果。",
+      "强度设置得越低，屏幕上的绿色视觉效果越明显。",
+      "虽然选项菜单称该选项会取代低等级的反胃状态效果造成的视觉扭曲，但实际效果与该描述相反。反胃状态效果造成的视觉扭曲只会在强度设置为“关闭”时才会被真正禁用。",
+      "加入了“视场角效果”选项。"
+    ],
+    "气泡柱": [
+      "现在会正常影响弹射物的运动。"
+    ],
+    "锁链": [
+      "现在可沿任意坐标轴方向放置。"
+    ],
+    "菌索": [
+      "现在需使用剪刀采集。",
+      "现在可使用任意工具采集，而不再需要使用剪刀采集。"
+    ],
+    "末影人": [
+      "不再会将搬起的方块放在基岩上。"
+    ],
+    "猪灵": [
+      "现在会在玩家在附近破坏或打开运输矿车时被激怒。"
+    ],
+    "炽足兽": [
+      "现在会尝试寻路到熔岩上，并且会避免走出熔岩。"
+    ],
+    "僵尸猪灵": [
+      "现在骑乘炽足兽的僵尸猪灵在生成时会手持诡异菌钓竿。"
+    ],
+    "魔咒": [
+      "现在在灵魂沙或灵魂土上跳跃或放置不完整方块不会使灵魂疾行的加速效果中断。"
+    ],
+    "自定义维度和自定义世界生成": [
+      "自定义世界生成和维度设置现在在数据包中使用相同的文件夹模式（namespace/<类型>/resource.json），与其他资源保持一致。"
+    ],
+    "菜单屏幕": [
+      "将聊天延迟加入到了聊天设置界面。"
+    ],
+    "下界植物": [
+      "不再可燃。"
+    ],
+    "探测铁轨": [
+      "若放在活板门上，在活板门开启时锁定信号，直接输出的信号不再变化。锁定在未激活的不能激活红石比较器，会在活板门关闭时恢复。锁定在激活的能被红石比较器检测但发不出比较器更新，被活塞移动才能恢复。"
+    ],
+    "河豚": [
+      "现在给予反胃I效果，而不是反胃II。",
+      "这不会影响实际游戏效果，因为反胃状态效果的实际效果与其等级基本无关（实际上反胃的眩晕效果随等级提升变快，但是每一级间的差异微弱）。"
+    ],
+    "/execute": [
+      "in子命令现在对于相对坐标和局部坐标会遵循不同维度的坐标缩放。比如，在主世界使用/execute in模拟在下界执行命令时，命令环境执行位置的X轴与Z轴坐标会被除以8。反过来，执行位置的X轴与Z轴坐标会被乘8。",
+      "需要注意的是，如果先执行in子命令，再在/tp（或者其他命令）的参数~后面加了一个数字（例如~5），那么游戏会先计算缩放（主世界到下界除以8，下界到主世界乘8），再计算~5。",
+      "例如，在主世界(16,64,16)处执行/execute in minecraft:the_nether run tp ~ ~ ~，现在会被传送到下界(2,64,2)处。",
+      "相对地，在下界(2,64,2)处执行/execute in minecraft:overworld run tp ~ ~ ~，现在会被传送到主世界(16,64,16)处。",
+      "在主世界(80,64,80)处执行/execute in minecraft:the_nether run tp ~ ~ ~5，现在会被传送到下界(10,64,15)处。",
+      "在主世界(16,64,16)处执行/execute in minecraft:the_nether run tp 16 64 16，依然会被传送到下界(16,64,16)处。",
+      "此版本之前的行为可以通过执行/execute in <目标维度> positioned as @s run tp ~ ~ ~实现。",
+      "同样适用于自定义维度。"
+    ],
+    "自定义维度类型": [
+      "shrunk参数现在被coordinate_scale参数替代。",
+      "例如，维度类型minecraft:overworld的coordinate_scale是1.0，minecraft:the_nether是8.0，因此上述往主世界的/execute in命令实际上是把执行位置的X/Z坐标乘了8.0/1.0（反过来就是乘1.0/8.0），也就等于8（反过来就是0.125）。",
+      "假设有两个自定义维度类型，类型custom:a（coordinate_scale为2.33）和类型custom:b（coordinate_scale为3.14），那么类似上述前往custom:a的/execute in命令就会将执行位置的X/Z坐标乘3.14/2.33（反过来就是2.33/3.14）。"
+    ],
+    "狼": [
+      "现在在暗处会正确渲染了。"
+    ],
+    "资源包": [
+      "由于MC-197275，将资源包和数据包版本提升至6。"
+    ],
+    "注释与参考": [
+      "Minecraft Snapshot 20w27a — Minecraft.net，2020年7月1日。",
+      "Minecraft Snapshot 20w28a — Minecraft.net，2020年7月8日。",
+      "Minecraft Snapshot 20w29a — Minecraft.net，2020年7月15日。",
+      "Minecraft Snapshot 20w30a — Minecraft.net，2020年7月22日。",
+      "Minecraft 1.16.2 Pre-Release 1 — Minecraft.net，2020年7月29日。",
+      "Minecraft 1.16.2 Pre-Release 2 — Minecraft.net，2020年8月5日。",
+      "Minecraft 1.16.2 Pre-Release 2 — Minecraft.net，2020年8月6日。",
+      "Minecraft 1.16.2 Release Candidate 1 — Minecraft.net，2020年8月7日。",
+      "Minecraft 1.16.2 Release Candidate 2 — Minecraft.net，2020年8月10日。"
+    ]
+  }
+}

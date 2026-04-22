@@ -1,0 +1,251 @@
+{
+  "title": "基岩版1.18.20.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.20.21",
+  "structured_content": {
+    "默认分类": [
+      "1.18.20.21"
+    ],
+    "版本码": [
+      "Android：",
+      "951802021（armeabi-v7a，30）",
+      "961802021（x86，30）",
+      "971802021（arm64-v8a，30）",
+      "981802021（x86_64，30）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, Android - 2022年1月27日",
+      "iOS/iPadOS - 2022年1月31日"
+    ],
+    "测试版归属": [
+      "1.18.30"
+    ],
+    "协议版本": [
+      "490",
+      "◄◄1.18.12",
+      "1.18.31►►",
+      "1.18.20.23►",
+      "beta 1.18.20.21是基岩版1.18.30的首个测试版，发布于2022年1月27日，更新了创建新世界UI，在实验性玩法中调整了青蛙相关特性，并修复了一些漏洞。",
+      "此版本于2022年1月31日在iOS/iPadOS平台上以Preview 1.18.20.22发布。"
+    ],
+    "生物": [
+      "生物现在能够越过杜鹃花丛。（MCPE-129373）",
+      "生物现在能够越过未完全倾斜的大型垂滴叶，并在其上正确寻路。",
+      "生物现在能够越过石笋，并在其尖端正确寻路。（MCPE-133270）",
+      "生物现在能够在如钟、酿造台和附魔台等不完整固体方块上移动。",
+      "生物现在能够在不完整固体方块跳跃到更高位置的完整方块上。",
+      "生物现在能够在台阶或其他足够高的不完整固体方块跳跃到毗邻的栅栏上。",
+      "现在即使上方已有方块的空间与生物高度一致，生物也可以穿过不到半格的雪。（MCPE-148355）",
+      "生物现在能够越过珊瑚和珊瑚扇，因为生物不再将其视作固体障碍物。（MCPE-128687）",
+      "修复了玩家手持刷怪蛋时无法打开村民的交易界面的问题。（MCPE-76153）",
+      "修复了袭击期间生成的女巫可能会在袭击期间消失的问题。（MCPE-149883）",
+      "鳕鱼、鲑鱼、河豚、热带鱼和海豚现在又会正确生成于其对应海洋生物群系的深海变种。（MCPE-150191）"
+    ],
+    "狼": [
+      "未驯服的狼现在可以被拴绳拴住。"
+    ],
+    "游戏内容": [
+      "修复了唤魔者召唤的唤魔者尖牙无法在无边界框的方块中生成的问题。",
+      "现在可以对着如光源方块、大型垂滴叶等可含水的方块使用水桶或熔岩桶。（MCPE-148392）",
+      "访客权限的玩家不再可以破坏画和矿车。（MCPE-132869）",
+      "现在垂直传送至渲染距离之外的高度时会正确加载地形。（MCPE-150021）",
+      "提高了伤害计算的准确性。",
+      "修复了手持可蓄力物品与钟交互时无法连续敲钟的问题。（MCPE-56968）",
+      "修复了穿戴鞘翅的玩家在某些情况下骑行会切换至滑翔状态的漏洞。（MCPE-147904）"
+    ],
+    "交易": [
+      "更改了盔甲匠、牧师、渔夫、牧羊人、工具匠和武器匠的交易选项以匹配Java版。",
+      "渔夫村民现在会根据其生物群系服饰而出售不同种类的船。",
+      "牧师村民现在会出售荧石而不是荧石粉。",
+      "武器匠出售附魔铁剑所需的级别更改为新手级别。",
+      "盔甲匠收购钻石所需的级别更改为老手级别。"
+    ],
+    "目标选择器": [
+      "加入了hasitem过滤器。",
+      "用于根据物品栏中的物品或穿戴的物品来定位实体。"
+    ],
+    "常规": [
+      "StorageVersion为8或更低的世界现在会提升至9，并且世界的RandomSeed的范围由仅使用64位种子的后32位更改为使用完整64位种子，但仍然表示着之前相同的数字。",
+      "该更改仅和正负号位需要扩展的负数32位种子相关。"
+    ],
+    "创建新世界": [
+      "重新设计了新的创建新世界UI。",
+      "仅部分玩家可用。",
+      "可切换回旧UI。"
+    ],
+    "实验性玩法": [
+      "移除了“其他修改功能”子选项。"
+    ],
+    "RenderDragon": [
+      "重新在Android平台上启用。"
+    ],
+    "种子": [
+      "现在支持使用64位种子。"
+    ],
+    "命令": [
+      "加入了/tickingarea命令preload的重载。",
+      "实体现在必须加载在一个区域中才能被视为已完全加载并滴答。"
+    ],
+    "Molang": [
+      "在活动对象资源定义的动画scripts（pre_animation和​initialize）中的包含大写字母的Molang表达式现在可以使用1.18.20或更高版本的format_version以正确计算。"
+    ],
+    "用户界面": [
+      "现在加载进度屏幕会在加载被标记为preload的常加载区域时显示。",
+      "将Pocket UI下的物品栏中的默认标签更改为左侧的“可合成”和右侧的“合成中”标签。",
+      "移除了Pocket UI下的物品栏中的问号按钮。",
+      "不使用工作台合成时配方表中不再会显示3×3方格的合成配方。",
+      "玩家现在能够在Pocket UI下的工作台界面使用自由移动来脱下和装备盔甲。（MCPE-148970）",
+      "更新了移动设备上的常规控制器面板图标。",
+      "现在按下Ctrl + Delete会删除输入光标后方的整个单词。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“荒野更新”、“即将推出的创作者功能”和“应用测试框架”子选项后才可使用。"
+    ],
+    "方块": [
+      "现在点燃的TNT可以正确地随机向X/Z方向移动。",
+      "修复了快速破坏并放置方块后掉落的物品有时会保持变黑的问题。",
+      "雪下落时不再会卡在下方方块的边缘。"
+    ],
+    "青蛙卵": [
+      "英文名由“Frog Egg”更改为“Frog Spawn”。",
+      "略微更改了纹理。",
+      "增加了孵化出蝌蚪的所需时间。"
+    ],
+    "青蛙": [
+      "提高了跳跃频率。",
+      "现在生成于草甸的青蛙为温带（橙色）变种。",
+      "调整了跳跃和吐舌头时的动画。"
+    ],
+    "蝌蚪": [
+      "增大了碰撞箱。"
+    ],
+    "动画": [
+      "清理了青蛙的动画、实体和控制器文件。",
+      "青蛙的水中和游泳动画由线性动画更改为平滑动画。"
+    ],
+    "/volumearea": [
+      "用于添加、移除或列出功能域。"
+    ],
+    "GameTest框架": [
+      "加入了包含API结构的新模块：mojang-minecraft-ui。",
+      "用于创建简易的对话框。",
+      "在mojang-minecraft-ui命名空间中加入了ActionFormData、​ModalFormData和​MessageFormData类。"
+    ],
+    "World": [
+      "将world.events.beforeItemUseOn和​world.events.itemUseOn中的属性direction更新为blockFace。",
+      "加入了事件World.event.beforeDataDrivenEntityTriggerEvent。",
+      "应用数据驱动触发器前触发。",
+      "加入了事件World.event.dataDrivenEntityTriggerEvent。",
+      "应用数据驱动触发器后触发。",
+      "上述事件均接受可选的EntityDataDrivenTriggerEventOptions。",
+      "移除了属性entity。",
+      "加入了属性entities: Entity[]。",
+      "若被指定，则仅限于指定实体。",
+      "将函数getPlayers返回的类型更改为PlayerIterator。"
+    ],
+    "EntityDataDrivenTriggerEventOptions": [
+      "继承自EntityEventOptions。",
+      "属性eventTypes: string[]",
+      "若被指定，则限制为具有指定名称的事件（如minecraft:ageable_grow_up）。",
+      "（继承的）属性entities: Entity[]",
+      "若被指定，则仅限于指定实体。",
+      "（继承的）属性entityTypes: string[]",
+      "若被指定，则限制为具有指定类型的实体（如minecraft:creeper）。"
+    ],
+    "DefinitionModifier": [
+      "只读属性componentGroupsToAdd: string[]",
+      "将组件组列表作为该修饰器的一部分添加。",
+      "只读属性componentGroupsToRemove: string[]",
+      "将组件组列表作为该修饰器的一部分删除。",
+      "属性triggers: Trigger[]",
+      "将组件组列表作为该修饰器的一部分触发。"
+    ],
+    "Trigger": [
+      "属性eventName: string",
+      "该触发器的事件名。"
+    ],
+    "DataDrivenEntityTriggerEvent": [
+      "只读属性entity: Entity",
+      "触发事件的实体。",
+      "只读属性id: string",
+      "事件名称。"
+    ],
+    "BeforeDataDrivenEntityTriggerEvent": [
+      "只读属性entity: Entity",
+      "触发事件的实体。",
+      "只读属性id: string",
+      "事件名称。",
+      "属性modifiers: DefinitionModifier[]",
+      "事件触发时应用的修饰器列表。",
+      "属性cancel: bool",
+      "若为true，事件将不会触发。"
+    ],
+    "EnchantmentType": [
+      "加入了EnchantmentType类。",
+      "只读属性id: string",
+      "魔咒类型的名称。",
+      "只读属性maxLevel: int",
+      "该魔咒可拥有的最高等级。"
+    ],
+    "EnchantmentInstance": [
+      "加入了EnchantmentInstance类，表示可被添加至物品的EnchantmentType和等级的绑定。",
+      "构造器EnchantmentInstance(type: EnchantmentType, level : int)",
+      "只读属性type: EnchantmentType",
+      "该实例的魔咒类型。",
+      "属性level: int",
+      "该魔咒实例的等级。"
+    ],
+    "EnchantmentSlot": [
+      "加入了EnchantmentSlot枚举，该枚举表示一个魔咒可被应用到的物品槽位，或称之为物品类型。"
+    ],
+    "EnchantmentList": [
+      "加入了EnchantmentList类，表示可应用于物品的魔咒合集。",
+      "构造器EnchantmentList(slot : EnchantSlot)",
+      "只读属性slot: EnchantSlot",
+      "该合集可以被应用到的物品槽位或类型。",
+      "只读属性allEnchantments: EnchantmentInstance[]",
+      "作为该魔咒合集的一部分的所有魔咒。",
+      "方法canAddEnchantment(instance : EnchantmentInstance): bool",
+      "返回是否可以将给予的EnchantmentInstance添加至该合集中。",
+      "方法addEnchantment(instance : EnchantmentInstance): bool",
+      "尝试将魔咒添加至该合集中。若执行成功则返回true。",
+      "方法removeEnchantment(type : EnchantmentType)",
+      "若存在，则移除该合集中带有type类型的EnchantmentInstance。",
+      "方法hasEnchantment(type : EnchantmentType): int",
+      "若合集中存在带有type类型的EnchantmentInstance，则返回魔咒的等级，否则返回0。"
+    ],
+    "ItemEnchantmentComponent": [
+      "加入了ItemEnchantmentComponent物品组件类。"
+    ],
+    "ItemStack": [
+      "属性enchantments: EnchantmentList",
+      "获取该ItemStack上的当前魔咒合集的一个副本。亦或允许用户为ItemStack设置EnchantmentList。"
+    ],
+    "方法removeAllEnchantments": [
+      "移除所有可能存在于该ItemStack的魔咒。",
+      "加入了函数setLore(loreList: string[]): void。",
+      "设置物品的词缀文本。",
+      "加入了函数getLore(): string[]。",
+      "获取物品的词缀文本。"
+    ],
+    "原版趋同": [
+      "现在可以使用64位种子（-9223372036854775808至9223372036854775807）来创建世界，会生成与Java版相同的世界。（MCPE-144994、MCPE-148168）",
+      "现在非数字种子会转化为与Java版相同的种子。",
+      "玩家拉弓并蓄力完成时手臂不再会摆动。（MCPE-148486）",
+      "现在下落的方块又具有完整方块的碰撞箱了。",
+      "修复了老手级别的牧师村民会出售荧石粉而不是荧石的漏洞。（MCPE-57524）",
+      "未驯服的狼现在可以被拴绳拴住。（MCPE-82050）"
+    ],
+    "性能与稳定性": [
+      "修复了在更衣室中离开缩小菜单时可能发生的崩溃。"
+    ],
+    "村民": [
+      "修复了玩家手持绿宝石时村民不会手持交易物品的问题。（MCPE-150303）",
+      "村民不再会远离僵尸猪灵。（MCPE-94102）",
+      "村民不再会分享小麦种子和甜菜种子。"
+    ],
+    "参考": [
+      "1.18.20 rolled into 1.18.30，来自CornerHard。Twitch，2022年3月30日。",
+      "Minecraft Beta - 1.18.20.21 (Xbox / Windows / Android) — Minecraft Feedback，2022年1月27日。"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Dungeons:迅捷之靴",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%BF%85%E6%8D%B7%E4%B9%8B%E9%9D%B4",
+  "structured_content": {
+    "BootsOfSwiftness": [
+      "附魔过的靴子可以让你迅速移动，在情况不明朗的时候很有用。"
+    ],
+    "——物品描述": [
+      "迅捷之靴（Boots of Swiftness）是Minecraft Dungeons中的法器。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "破碎城堡": [
+      "居民："
+    ],
+    "使用": [
+      "使用后会给予玩家加速增益效果，可以提高玩家的移动速度，持续时长取决于法器等级。"
+    ],
+    "属性": [
+      "5 秒冷却"
+    ],
+    "持续时长（秒）": [
+      "98",
+      "2.5",
+      "107",
+      "2.5",
+      "109",
+      "2.5",
+      "251",
+      "4.0"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了迅捷之靴。"
+    ]
+  }
+}

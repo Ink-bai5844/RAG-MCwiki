@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:冻结",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%86%BB%E7%BB%93",
+  "structured_content": {
+    "Chilling": [
+      "每2秒发出冲击，降低附近敌人1秒的移动速度和攻击速度。"
+    ],
+    "——魔咒描述": [
+      "冻结（Chilling）是Minecraft Dungeons中的魔咒。会让附近的生物周期性的被减缓移动速度和攻击速度，并在其身上发出蓝色光亮。效果随着魔咒等级提升依次递增20%。"
+    ],
+    "I": [
+      "-20% 生物速度",
+      "2 附魔点数"
+    ],
+    "II": [
+      "-40% 生物速度",
+      "3 附魔点数"
+    ],
+    "III": [
+      "-60% 生物速度",
+      "4 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了冻结。"
+    ]
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "title": "Java版24w14potato/potato quest",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8824w14potato%2Fpotato_quest",
+  "structured_content": {
+    "本条目包含Minecraft中的详细内容，阅读后可能会降低你亲自发现游戏的秘密的乐趣。后果自负！": [
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。",
+      "本页面为24w14potato中马铃薯事件的流程，仅供参考。"
+    ],
+    "intro": [
+      "当玩家在主世界初次将毒马铃薯植物放入头盔栏中时，就会触发该段对话。"
+    ],
+    "(Press [空格] to acknowledge)": [
+      "哎呀呀，看来我们还是被你发现了。"
+    ],
+    "（按下[空格]键确认）": [
+      "方括号内为玩家为跳跃分配的键位，如在选项中更改了对应的键位，则此处显示为更改后的键位。"
+    ],
+    "Woah, steady on your feet there <玩家名称>.": [
+      "不许动，<玩家名称>。",
+      "You're probably thinking: \"What's the deal with this guy?\"",
+      "你也许在想：“这家伙怎么回事？”"
+    ],
+    "I invite you to take a moment to consider my situation.": [
+      "我请你花点时间考虑一下我的处境。"
+    ],
+    "We've been planning on infiltrating Minecraft for weeks.": [
+      "我们计划潜入Minecraft已经好几周了。"
+    ],
+    "But all we could manage is sneaking into this April Fools' Snapshot.": [
+      "但最终我们只能偷偷潜入这个愚人节快照里。"
+    ],
+    "And now you've discovered us.": [
+      "现在，你发现了我们。"
+    ],
+    "It's not as simple as copying samples from the internet.": [
+      "这可不像在网上抄示例那么简单。"
+    ],
+    "There's also a lot of pasting involved.": [
+      "要知道粘贴也是很累的。"
+    ],
+    "我们只能滚键盘滚出几十行的代码，": [
+      "然后祈求出现最好的结果。",
+      "And now that I have finally infiltrated Minecraft:"
+    ],
+    "现在我好不容易入侵了Minecraft，": [
+      "你却跳过来，捡起我，扑通一下把我挂在你脸上。"
+    ],
+    "I must say, you have incredible balance keeping me up here.": [
+      "不得不说，你的平衡感真是难以置信，能让我稳定在这里。"
+    ],
+    "Especially considering you're jumping so much.": [
+      "尤其是考虑到你正跳得这么欢。"
+    ],
+    "I don't see much to be startled by around here.": [
+      "我没看到这里有什么吓人的物件。"
+    ],
+    "Then again, I have no eyes as I am a Poisonous Potato.": [
+      "另外重复一遍，我没长眼睛，因为我是毒马铃薯。"
+    ],
+    "So really I'm not going to see much at all.": [
+      "所以我真的什么也看不到。"
+    ],
+    "Although the little sprouts growing out of me are also called eyes.": [
+      "虽然从我身上长出来的小芽也能叫做芽“眼”。"
+    ],
+    "Perhaps if I squint hard enough I can see where we're at.": [
+      "或许我使劲眯眼，就能看见我们在哪里了。"
+    ],
+    "This world is very startling, afterall.[原文如此]": [
+      "也许你需要喘口气，放松一下。",
+      "毕竟，这个世界可能真的吓到你了。"
+    ],
+    "If we can find a Village we could take one of those Beds and rest.": [
+      "如果我们能找到村庄，就可以打掉一张床休息一下。"
+    ],
+    "Let's find a Minecraft Village.": [
+      "我们找个村庄吧。"
+    ],
+    "in_village": [
+      "当玩家进入村庄时，就会触发该段对话。"
+    ],
+    "There should be a Bed around here that we can take.": [
+      "这里应该有我们能打掉的一张床。"
+    ],
+    "took_bed": [
+      "完成in_village后，当玩家在物品栏中获得床后就会触发该段对话。"
+    ],
+    "Did I say take a Bed? I think I meant to say \"Take a nap\".": [
+      "我有说过打一个床吗。我觉得我说的是“打一个盹”。",
+      "随后会引出meta_one对话。"
+    ],
+    "slept_in_bed": [
+      "完成in_village后，当玩家在床上睡觉后就会触发该段对话。"
+    ],
+    "I'm pretty sure I said TAKE a Bed.": [
+      "我很确定我说的是打一个床。"
+    ],
+    "Sleeping in a Bed is not the same as taking a Bed.": [
+      "打一个床并不是指睡一个床。",
+      "If I had meant that, I would have said:"
+    ],
+    "\"Hey <玩家名称>. You should TAKE a nap\".": [
+      "如果我想这么说的话，我会说："
+    ],
+    "“嘿，<玩家名称>。你应该打一个盹。”": [
+      "随后会引出meta_one对话。"
+    ],
+    "leaving_village": [
+      "完成in_village后，如果玩家没有完成took_bed或slept_in_bed就离开村庄，就会触发该段对话。"
+    ],
+    "Let's go back to that Village and take a Bed.": [
+      "我们回到刚才的村庄，然后打张床吧。"
+    ],
+    "I preferred the one where you could only pick up a single Block.": [
+      "我比较喜欢只能搬起一个方块的那一期。",
+      "即指Java版22w13oneBlockAtATime。"
+    ],
+    "But this year I think they nailed it.": [
+      "但我想今年让他们得逞了。"
+    ],
+    "Hilarious.": [
+      "真是荒谬。"
+    ],
+    "Anyways. I am genuinely interested in your thoughts.": [
+      "不管怎样，我对你的想法挺感兴趣的。"
+    ],
+    "……": [
+      "What I'm trying to say is: Start digging.",
+      "我想说的是：开始向下挖。"
+    ],
+    "我试着读取你的想法，": [
+      "但我并不觉得我们在通过心灵感应交流。"
+    ],
+    "At least, two-way telepathy. This feels rather unidirectional.": [
+      "至少，不是双向的心灵感应。感觉最多就是单向的。"
+    ],
+    "And then you jump every now and then.": [
+      "然后你就会时不时地跳起来。"
+    ],
+    "I am only assuming that jumping is a sign of acknowledgement.": [
+      "我只能假设跳起来是同意的意思了。"
+    ],
+    "也许我能够修改你的物品栏…": [
+      "对话结束后，玩家会获得一张带有额外描述的纸（[[|]]）。随后会引出got_paper对话。"
+    ],
+    "You should hopefully have some Paper on you.": [
+      "希望你身上有带一些纸。"
+    ],
+    "Oh wait, you need an Anvil too.": [
+      "哦，等等，你还需要一个铁砧。",
+      "对话结束后，玩家的面前会生成一个铁砧，以下落的方块形式出现。随后会引出anvil_dropped对话。"
+    ],
+    "There, that should do it.": [
+      "好了，应该可以了。"
+    ],
+    "Use that Anvil to write your thoughts on the Paper.": [
+      "用铁砧把你的想法写到纸上。"
+    ],
+    "wrote_thoughts": [
+      "当玩家从铁砧的输出栏中取出重命名之后的纸后，就会触发该段对话。使用⇧ Shift+左键取出则不能触发。"
+    ],
+    "I don't think I can read this Paper.": [
+      "我觉得自己应该看不到这张纸。"
+    ],
+    "My Potato eyes aren't suitable for reading.": [
+      "我的马铃薯之眼并不适合阅读。"
+    ],
+    "Remember what I said about not being able to see?": [
+      "还记得我有说过我根本看不见吗。"
+    ],
+    "Nothing has changed in that department.": [
+      "那一部分并没有改变。"
+    ],
+    "I will assume that you are VERY enthusiastic about the Snapshot.": [
+      "我将假设你非常期待本次快照的内容。",
+      "It will be on page 1 of my report.",
+      "这像是我报告的第1页上要写的内容。"
+    ],
+    "There. It's in my report.": [
+      "这里，我有在报告里这么写。"
+    ],
+    "Actually I might need that Paper back.": [
+      "实际上，我可能想把刚才那张纸收回来。"
+    ],
+    "I tore it from the back of my report.": [
+      "这是我从报告后面撕下来的。"
+    ],
+    "And I think that page was the appendix.": [
+      "现在我觉得应该把那一页做成附录。"
+    ],
+    "The first item in the appendix will be your take on this Snapshot.": [
+      "附录的第一条会是你对本次快照的看法。"
+    ],
+    "You must be wondering what this report is about.": [
+      "你一定很想知道这份报告里都写了些什么。"
+    ],
+    "It pertains as to why I am here in Minecraft.": [
+      "这牵扯到我会出现在Minecraft游戏里的原因。"
+    ],
+    "And that information is CLASSIFIED.": [
+      "但我不能说，这些内容是保密的。"
+    ],
+    "But I will hint that it involves the Poisonous Potato.": [
+      "不过我能提示一下，它是和毒马铃薯有关的。"
+    ],
+    "We believe there is some significance to the Poisonous Potato.": [
+      "我们相信毒马铃薯有着某种重要的意义。"
+    ],
+    "We believe you should try cutting out the eyes.": [
+      "我们认为你应该试着把眼睛挖出来。",
+      "Or more accurately: Craft out the Potato Eyes.",
+      "或者更准确地讲：合成马铃薯之眼。"
+    ],
+    "Craft Potato Eyes from a Poisonous Potato.": [
+      "去吧，<玩家名称>。",
+      "把毒马铃薯做成马铃薯之眼。"
+    ],
+    "crafted_eyes": [
+      "当玩家在完成wrote_thoughts后合成马铃薯之眼时，就会触发该段对话。"
+    ],
+    "Now we're going to go on a little adventure.": [
+      "现在我们要开始一个小小的大冒险了。"
+    ],
+    "Throw the Potato Eye into the air.": [
+      "把马铃薯之眼丢出去。"
+    ],
+    "When I say \"throw\" I don't mean \"drop\".": [
+      "我说的是“丢出”而不是“丢弃”。"
+    ],
+    "It's something to do with \"Using\" the Potato Eye with 右键.": [
+      "这理应是按下右键键“使用”马铃薯之眼的过程。",
+      "右键为玩家为使用分配的键位，如在选项中更改了对应的键位，则显示为更改后的键位，下同。"
+    ],
+    "Look into the sky and use the Potato Eye with 右键.": [
+      "看向天空并按下右键键使用马铃薯之眼。"
+    ],
+    "thrown_eye": [
+      "当玩家在完成crafted_eyes之后首次使用马铃薯之眼后，就会触发该段对话。"
+    ],
+    "Excellent.": [
+      "很好。"
+    ],
+    "It looks like a developer copy-pasted the Ender Eye code for this.": [
+      "开发者似乎直接把末影之眼的代码复制粘贴到了这个物品上。"
+    ],
+    "That means there's a chance these Potato Eyes could break.": [
+      "这意味着马铃薯之眼会有一定概率破碎。"
+    ],
+    "Remember to craft more if you lose a Potato Eye.": [
+      "如果你失去了一个马铃薯之眼，记得多合成一点。"
+    ],
+    "Wow a Minecraft adventure. This is exciting.": [
+      "哇哦，是一场Minecraft冒险，真的好开心哦。"
+    ],
+    "Perhaps the Developers REALLY like Potatoes.": [
+      "也许一部分开发者是真心喜欢马铃薯的。"
+    ],
+    "At least, the Poisonous ones.": [
+      "至少，有毒的那些。"
+    ],
+    "Poisonous Potatoes, that is.": [
+      "我说“有毒”的时候，我是指毒马铃薯。"
+    ],
+    "Not Poisonous Developers.": [
+      "不是指有毒的开发者。"
+    ],
+    "You should take my Minecraft ideas to show them.": [
+      "你应该把我对Minecraft的想法拿给他们看。",
+      "对话完成后，玩家会获得一本成书（[[|]]）。随后会引出got_book对话。"
+    ],
+    "防脱脚跑步靴": [
+      "第一页。"
+    ],
+    "护齿牙刷": [
+      "第二页。"
+    ],
+    "来自去年愚人节玩笑的光线追踪": [
+      "第三页。最后一项指的是Java版23w13a_or_b里的生物光线追踪（Ray Tracing）。"
+    ],
+    "I've written my best Minecraft ideas in this book.": [
+      "我把我对Minecraft最棒的想法都写在了这本书上。"
+    ],
+    "They are very original ideas.": [
+      "这些都是非常新颖的想法。"
+    ],
+    "If the Developers don't use them then I could make a mod.": [
+      "如果开发者不打算采用的话，我就编个模组。"
+    ],
+    "I could start by making everyone coffee.": [
+      "我可以从给大家煮咖啡开始干起。"
+    ],
+    "I'd tell jokes about drinking coffee and writing Java code.": [
+      "我会讲关于喝咖啡和写Java代码的笑话。",
+      "这是一个Java的双关语。"
+    ],
+    "They probably only hire Minecraft experts.": [
+      "但他们可能只雇佣Minecraft大佬。"
+    ],
+    "And I know the perfect way to do that.": [
+      "并且我有一个完美的方案。",
+      "Our intelligence tells us of a legendary Greatstaff: Potatiesh.",
+      "我们的情报是这样说的，有一个神奇的法杖叫做马铃耶什。",
+      "Spoiler alert: It is the ultimate item in this April Fools' Snapshot.",
+      "剧透警告：它是本次愚人节快照的最终物品。"
+    ],
+    "You need to acquire Potatiesh, Greatstaff of the Peasant.": [
+      "你需要找到马铃耶什，农民的传说之杖。"
+    ],
+    "found_portal": [
+      "当玩家扔出的马铃薯之眼因靠近废弃马铃薯传送门而向下飞行时，或接近主世界的马铃薯传送门时[需要更多信息]，就会触发该段对话。"
+    ],
+    "It seems a little...Worse for wear.": [
+      "似乎有点不太妙。"
+    ],
+    "I see a Pedestal in the middle.": [
+      "我看到中间有一个传送门底座。"
+    ],
+    "Try using a Poisonous Potato with the Pedestal.": [
+      "试着在传送门底座上使用一个毒马铃薯。"
+    ],
+    "portal_opened": [
+      "当玩家使用毒马铃薯激活传送门底座时，就会触发该段对话。"
+    ],
+    "Just as I thought. A portal.": [
+      "正如我所想的那样，一个传送门出现了。"
+    ],
+    "I think you know what happens next.": [
+      "我想你应该知道接下来要做什么。"
+    ],
+    "你会在那跳支舞，找条龙，": [
+      "还会摧毁一些马铃薯风格的水晶。"
+    ],
+    "This Snapshot is dripping with creativity.": [
+      "这次的快照可太有创造力了。"
+    ],
+    "Lucky that I am here to provide commentary and context.": [
+      "我很幸运能在这里提供解说和评论。"
+    ],
+    "dimension": [
+      "当玩家通过马铃薯传送门进入马铃薯维度后，就会触发该段对话。"
+    ],
+    "At last. The Potato Dimension.": [
+      "最后，我们来到了马铃薯维度。"
+    ],
+    "I think you need to change your shampoo.": [
+      "我觉得是你该换洗发水了。"
+    ],
+    "I am feeling quite greasy up here.": [
+      "这里是有点太油腻了。"
+    ],
+    "Let's focus on the task at hand.": [
+      "还是把注意力放在主线任务上吧。"
+    ],
+    "This place is looking rather tragic.": [
+      "这个地方看起来蛮凄凉的。"
+    ],
+    "The Minecraft Pig is looking pretty cheeky.": [
+      "Minecraft的猪在这里看起来像没吃好。"
+    ],
+    "Very cheeky.": [
+      "牛也是。",
+      "相当的不健康。"
+    ],
+    "Anyhow, we should find a Potato Village.": [
+      "不管怎样，我们应该去寻找马铃薯村庄。"
+    ],
+    "potato_village": [
+      "当玩家在完成dimension后进入马铃薯村庄时，就会触发该段对话。"
+    ],
+    "Awesome, you're in a Potato Village.": [
+      "太棒了，你现在身处于一座马铃薯村庄。"
+    ],
+    "This will be our base of operations from here on out.": [
+      "从现在开始，这里将是我们的行动基地。"
+    ],
+    "Familiarize yourself with the Villagers.": [
+      "跟这些村民混熟点。"
+    ],
+    "Steal their loot, etc. The usual Minecraft stuff.": [
+      "然后偷点它们的战利品啥的。一些Minecraft里常见的东西。"
+    ],
+    "There's some neat stuff around here.": [
+      "这里有一些更好的东西。"
+    ],
+    "You'll be right at home.": [
+      "但只要你觉得马铃薯是好东西。",
+      "你很快就会爱上这里的。",
+      "Once you're ready:"
+    ],
+    "等你准备好了，": [
+      "你就再丢出一个马铃薯之眼。"
+    ],
+    "thrown_eye_part_two": [
+      "当玩家在完成potato_village后在马铃薯维度扔出马铃薯之眼时，就会触发该段对话。"
+    ],
+    "On the road, once again.": [
+      "我们又一次出发了。"
+    ],
+    "This time we're looking for a dangerous place.": [
+      "这次我们要去的是一个危险的地方。"
+    ],
+    "It'll be a battle against the ultimate Potato.": [
+      "将会有一场与超级马铃薯怪物的战斗。"
+    ],
+    "That's all the information I have.": [
+      "这就是我掌握的所有情报。",
+      "If I were to guess: It's probably a Maris Piper.",
+      "让我去猜的话：它会是一种叫马里斯派珀的马铃薯品种。",
+      "马里斯派珀马铃薯是一种在英国常见的马铃薯，常用于制作薯片、烤马铃薯和马铃薯泥等。"
+    ],
+    "Known to be the most versatile of the Potatoes.": [
+      "以拥有最多种吃法闻名。"
+    ],
+    "It's worth going in with the right tools.": [
+      "所以最好带上合适的工具。"
+    ],
+    "Sharpen up some swords, boil up some potions.": [
+      "打磨一些剑，酿造一些药水。"
+    ],
+    "Don't forget to also cook up some potatoes.": [
+      "也别忘了烤制一些马铃薯。"
+    ],
+    "We're certainly not lacking for potatoes here.": [
+      "在这里我们是不会缺马铃薯的。"
+    ],
+    "found_colosseum": [
+      "当玩家扔出的马铃薯之眼因指向角斗场而向下移动时，就会触发该段对话。"
+    ],
+    "The Potato Eye is pointing around here.": [
+      "马铃薯之眼指向了这附近的地方。"
+    ],
+    "That means we're near the right place!": [
+      "这意味着我们快到目的地了。"
+    ],
+    "Let's start digging until we find the structure.": [
+      "我们开始向下挖吧，一定能挖出这个结构的。"
+    ],
+    "Come on, <玩家名称>. Time to put the MINE into Minecraft.": [
+      "加油，<玩家名称>。是时候去做Minecraft里代表Mine的部分了。"
+    ],
+    "Mine your way into the structure.": [
+      "向下挖到这个结构。"
+    ],
+    "inside_colosseum": [
+      "当玩家完成found_colosseum后进入角斗场时，就会触发该段对话。"
+    ],
+    "Woah. I think we're here.": [
+      "哇啊。我想我们到了。"
+    ],
+    "This looks like some kind of Colosseum.": [
+      "这看着像某种角斗场。"
+    ],
+    "I think you'll need this Wooden Sword.": [
+      "我想你会需要这把木剑的。",
+      "对话结束后，玩家会获得一个木剑，随后会引出got_sword对话。"
+    ],
+    "这是TNT吗？": [
+      "指超级马铃薯怪发射的火球。"
+    ],
+    "If only you were wearing a Helmet.": [
+      "要是你能戴上头盔就好了。",
+      "毒马铃薯植物与玩家对话时前者会占用后者的头盔栏。"
+    ],
+    "别去管它！": [
+      "闪烁标语中也有此句。"
+    ],
+    "试着去高速旋转！": [
+      "该对话将会循环显示，直到玩家获得“马铃耶什，农民的传说之杖”。"
+    ],
+    "got_staff": [
+      "当玩家在物品栏中获得“马铃耶什，农民的传说之杖”后，就会触发该段对话。"
+    ],
+    "Now I need you to follow my instructions very carefully.": [
+      "现在我需要你仔细听从我的指示。"
+    ],
+    "Place Potatiesh into a Composter.": [
+      "将马铃耶什放入堆肥桶里。"
+    ],
+    "Trust me. I will definitely NOT betray you.": [
+      "相信我。我是绝对不会背叛你的。"
+    ],
+    "Find a Composter, and pop Potatiesh in there.": [
+      "找一个堆肥桶，把马铃耶什放进去。"
+    ],
+    "It would be super cool if you closed your eyes afterwards.": [
+      "这之后如果你闭上眼睛，那会超酷的。"
+    ],
+    "Just pop Potatiesh into a Composter, and then close your eyes.": [
+      "只需将马铃耶什放到堆肥桶里，然后闭上眼睛。"
+    ],
+    "It's a really real thing that you can definitely do.": [
+      "这是真的，你绝对可以做到。"
+    ],
+    "Find a Composter, and use Potatiesh with it.": [
+      "找一个堆肥桶，然后对着它使用马铃耶什。"
+    ],
+    "composted_staff": [
+      "当玩家对堆肥桶使用“马铃耶什，农民的传说之杖”后，就会触发该段对话。"
+    ],
+    "Wow I can't believe you fell for that.": [
+      "哇哦，我真不敢相信你居然上当了。"
+    ],
+    "Potatiesh really is the ultimate Staff.": [
+      "马铃耶什确实是终极之杖。"
+    ],
+    "And now it's half-way composted into Bonemeal[原文如此].": [
+      "但现在它快被分解成骨粉了。"
+    ],
+    "Congratulations.": [
+      "恭喜。"
+    ],
+    "I made a fool out of you <玩家名称>.": [
+      "我成功骗到<玩家名称>了。"
+    ],
+    "愚人节快乐！": [
+      "对话结束后，屏幕上方会显示玩家完成马铃薯事件所用的时间，该时间亦可在统计信息中的“马铃薯事件时长”查看。"
+    ],
+    "参考": [
+      "MC-271199 — 漏洞状态为“已修复”。",
+      "https://www.chefsresource.com/what-are-maris-piper-potatoes/"
+    ]
+  }
+}

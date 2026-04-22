@@ -1,0 +1,78 @@
+{
+  "title": "Java版pre-Classic rd-131655",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88pre-Classic_rd-131655",
+  "structured_content": {
+    "默认分类": [
+      "关于该版本的开发过程，请见“Java版pre-Classic rd-131655/开发者版本”。",
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此条目记录了从未发布的版本。",
+      "尽管它未公开发布过，但有证据证明这个版本的确存在。",
+      "rd-131655"
+    ],
+    "开发时间": [
+      "2009年5月13日"
+    ],
+    "不可用": [
+      "rd-132211►",
+      "rd-131655，即Cave Game技术测试（Cave game tech test、Cave Game tech demo），是2009年5月13日16时55分（UTC）制作完成的pre-Classic版本。"
+    ],
+    "空气": [
+      "尚未被列为方块。"
+    ],
+    "草方块": [
+      "纹理与RubyDung中的相同。",
+      "草方块为随机生成，有随机概率出现在石头上方的明亮位置，不一定与石头相邻。一个石头的正上方最多生成一个草方块，也可能不生成。Y坐标越高，草方块生成概率越大。"
+    ],
+    "石头": [
+      "纹理与RubyDung中的相同。"
+    ],
+    "玩家": [
+      "暂时没有可视化模型。",
+      "高度为1.72格。"
+    ],
+    "世界生成": [
+      "世界大小为256×64×256。",
+      "生成256×64×256大小的世界约需20秒。",
+      "玩家可跨越世界界限并掉出世界。"
+    ],
+    "区块": [
+      "生成每个区块约需0.1秒。",
+      "每个区块大小为16×16方块。",
+      "离玩家越近的区块会被优先加载。"
+    ],
+    "洞穴": [
+      "一直延伸到距离世界底部还有几层方块的位置，形成峡谷。"
+    ],
+    "亮度": [
+      "光照引擎非常简单，仅有明暗两个光照等级。",
+      "“阳光”从世界顶端开始，垂直照射下方所有方块，不受距离影响。它可穿过透明方块并照亮其下方的方块。",
+      "未接收到阳光的方块均处于光照等级相同的阴影中，这与光源距离无关。黑暗中的方块有一层较厚的黑雾，且距离越远看起来越黑。[需要在Java版上验证]这导致了奇怪的视觉漏洞。"
+    ],
+    "创造模式": [
+      "仅能四处移动。"
+    ],
+    "传送": [
+      "玩家可以按下R将自己传送到世界中心。"
+    ],
+    "你知道吗": [
+      "该版本的开发始于2009年5月10日或11日，持续到12日，并在13日继续推进。Notch于当日约17:00（UTC）开始录制视频，并在17:36上传了录制内容。该版本的新增特性可在2009年5月13日发布的Cave game技术测试视频中查看。",
+      "版本号前的“rd”源自Notch此前制作后放弃的游戏RubyDung，其代码库后来被Minecraft复用。该游戏是Minecraft的部分灵感来源。"
+    ],
+    "参考": [
+      "lwjgl IRC logs（存档） — Echelog，May 13, 2009 (UTC+2)。",
+      "Rotab's IRC logs on Archive.org; #minecraft.20090525.log. May 25, 2009 (UTC+2)",
+      "Cave game tech test，来自Internet Video Archive。YouTube，2009年5月13日。",
+      "Cave Game tech demo!（存档） — The Word of Notch，2009年5月13日。",
+      "LWJGL IRC记录: “[18:55:45] <Notch_> the chunk size is 16x16 now..” [...] “[18:56:47] <Notch_> 8x8 chunks are SLOWER”",
+      "LWJGL IRC记录：“[13:37:42] <Notch> rebuilding a chunk of these takes almost 100 ms, but that's everything, including tesselation, calculating lighting, and building the display list.”",
+      "LWJGL IRC记录：“[13:37:08] <Notch> I've got chunks of blocks, 16x16x16 blocks. Each block can have a maximum of three quads, but that's worst case scenario”",
+      "IRC记录：“[19:51:48] <Notch_> i'll update tiles chunks the player first, and force a full update upon game start”",
+      "IRC记录：“[20:02:58] <Notch_> it takes like 20 seconds to grow a 256*256*64 map, though. :-\\”",
+      "About the game（存档） — Minecraft，2009年6月1日。",
+      "Rotab's IRC记录：“(10:40:09) <@Notch> heh, the game game tech test video is from the 13'th” [...] “(10:40:18) <@Notch> that was after two days of work, so I started the 11'th, probably”",
+      "LWJGL IRC记录：“[13:34:09] <Notch> i was trying to narrow down a performance issue last night.”",
+      "LWJGL IRC记录：“[19:00:52] <Notch_> hmm, I wonder if I could make a vid of this” [...] “[19:14:02] <Notch_> haha, the video ended up at 1.05 GB” [...] “[19:15:36] <Notch_> well, this is annoying. I guess I have to recapture. Google has a limit of 2 gb” [...] “[19:36:42] <Notch_> upload complete, processing video” [...] “[19:50:18] <Notch_> ok, the quality is still crap until the processing finishes, but: http://www.youtube.com/watch?v=F9t3FREAZ-k”"
+    ]
+  }
+}

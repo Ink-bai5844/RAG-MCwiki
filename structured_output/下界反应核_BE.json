@@ -1,0 +1,11 @@
+{
+  "title": "下界反应核/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%8B%E7%95%8C%E5%8F%8D%E5%BA%94%E6%A0%B8%2FBE",
+  "structured_content": {
+    "方块实体共通标签，见load|方块实体|block": [
+      "HasFinished：在反应核运作结束后为true，并且变成黑色纹理。",
+      "IsInitialized：在反应核被激活后为true，并且变成红色纹理。",
+      "Progress：反应核的运作时间，在经过900刻（45秒）后自动设为0。"
+    ]
+  }
+}

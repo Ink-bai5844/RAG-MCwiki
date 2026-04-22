@@ -1,0 +1,5 @@
+{
+  "title": "紫珀块/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%B4%AB%E7%8F%80%E5%9D%97%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n一个值范围0-3的两位2进制数，储存紫珀块的类型：\n0：紫珀块\n1：雕纹紫珀块\n2：紫珀柱\n3：tile.deprecated_purpur_block_2.name[原文如此]（平滑紫珀块）\n0x4\n0x8\n一个值范围0-3的两位2进制数，储存紫珀块的变种，只有紫珀柱使用了该数：\n0：紫珀柱（纵向）\n1：紫珀柱（东西方向）\n2：紫珀柱（南北方向）"
+}

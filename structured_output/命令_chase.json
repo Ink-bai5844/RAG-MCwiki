@@ -1,0 +1,59 @@
+{
+  "title": "命令/chase",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fchase",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "调试工具仅应作调试用途使用，而不应在正常游戏过程中开启。开启调试工具可能会崩溃或对存档产生不可逆的损害。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "仅启用调试工具MC_DEBUG_CHASE_COMMAND": [
+      "同步不同游戏实例的玩家的移动。"
+    ],
+    "用法": [
+      "此命令需要在至少两个独立的游戏实例上执行，单个游戏实例内没有任何作用。",
+      "/chase lead将创建一个chase服务端，/chase follow将创建一个chase客户端。游戏会尝试连接chase服务端与chase客户端。",
+      "连接完毕后，游戏会将chase服务端玩家列表的首个玩家的移动同步到chase客户端玩家列表的首个玩家上。当chase服务端的玩家的位置或朝向改变时，游戏实际上会将chase客户端的玩家传送到chase服务端玩家的位置（包含朝向），本质上就是chase客户端玩家以权限等级4执行命令/execute in %s run tp @s <目标X坐标> <目标Y坐标> <目标Z坐标> <目标偏航角> <目标俯仰角>。"
+    ],
+    "chase follow [<host>] [<port>]": [
+      "创建chase客户端，将作为被同步移动的一方。"
+    ],
+    "chase lead [<bind_address>] [<port>]": [
+      "创建chase服务端，将作为发出同步移动的一方。"
+    ],
+    "chase stop": [
+      "停止chase客户端或停止chase服务端。"
+    ],
+    "参数": [
+      "<host>：string",
+      "指定chase客户端的地址，默认为localhost。",
+      "必须为字符串。",
+      "<port>：integer（在/chase follow中）",
+      "指定chase客户端的端口，默认为10000。",
+      "必须为32位整数。且必须在1和65535之间（含）。",
+      "<port>：integer（在/chase lead中）",
+      "指定chase服务端的端口，默认为10000。",
+      "必须为32位整数。且必须在1024和65535之间（含）。",
+      "<bind_address>：string",
+      "指定chase服务端的地址，默认为0.0.0.0。",
+      "必须为字符串。"
+    ],
+    "Java版": [
+      "1.21.9",
+      "25w37a",
+      "加入了/chase命令，仅在启用调试工具MC_DEBUG_CHASE_COMMAND时可用。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "0"
+    ],
+    "参考": [
+      "https://www.youtube.com/watch?v=a2dVp0A3uwM"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "命令/remove",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fremove",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "无": [
+      "移除实体。"
+    ],
+    "语法": [
+      "remove [target: target]"
+    ],
+    "参数": [
+      "target: target：CommandSelector<Actor>",
+      "指定要移除的目标。",
+      "必须为玩家名或目标选择器。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "示例": [
+      "移除自己的智能体：/remove @c",
+      "移除所有的智能体：/remove @v",
+      "移除所有的实体：/remove @e"
+    ],
+    "教育版": [
+      "1.7",
+      "加入了/remove命令。"
+    ]
+  }
+}

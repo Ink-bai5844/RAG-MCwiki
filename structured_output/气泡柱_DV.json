@@ -1,0 +1,15 @@
+{
+  "title": "气泡柱/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B0%94%E6%B3%A1%E6%9F%B1%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1",
+      "气泡柱类型：",
+      "0：涡流",
+      "1：涌流",
+      "0x2",
+      "0x4",
+      "0x8"
+    ]
+  }
+}

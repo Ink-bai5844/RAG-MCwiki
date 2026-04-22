@@ -1,0 +1,5 @@
+{
+  "title": "Java版18w48b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8818w48b",
+  "text": "18w48b\n版本\nJava版\n类型\n快照\n发布时间\n2018年11月30日\n快照归属\n1.14\n下载\n客户端（.json）\n服务端\n协议版本\n449\n数据版本\n1915\n资源包版本\n4\n数据包版本\n4\n◄◄1.13.2\n1.14.1►►\n◄18w48a\n18w49a►\n18w48b是Java版1.14的第10个快照，发布于2018年11月30日，修复了一些漏洞。\n修复\n修复了4个漏洞\n1.14前正式版的漏洞\nMC-118971 — 在旁观模式中进入方块时天空会变暗。\n1.14开发版本的漏洞\nMC-139725 — 世界生成时水方块被破坏（伴有破坏石头的音效和水粒子）。\n上个开发版本的漏洞\nMC-140234 — server-port在server.properties中被忽视。\nMC-140235 — 使用/locate命令或生成区块时导致Datafixer崩溃。\n参考\nMinecraft Snapshot 18w48b — Minecraft.net，2018年11月30日。\n导航"
+}

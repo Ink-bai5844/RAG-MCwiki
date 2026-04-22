@@ -1,0 +1,54 @@
+{
+  "title": "Java版1.21.5-pre2",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5-pre2",
+  "structured_content": {
+    "默认分类": [
+      "1.21.5-pre2"
+    ],
+    "发布时间": [
+      "2025年3月12日"
+    ],
+    "预发布版归属": [
+      "1.21.5"
+    ],
+    "协议版本": [
+      "DEC: 1073742064",
+      "HEX: 400000F0"
+    ],
+    "数据版本": [
+      "4321"
+    ],
+    "资源包版本": [
+      "55"
+    ],
+    "数据包版本": [
+      "71",
+      "◄◄1.21.4",
+      "1.21.6►►",
+      "◄1.21.5-pre1",
+      "1.21.5-pre3►",
+      "1.21.5-pre2是Java版1.21.5的第2个预发布版，发布于2025年3月12日，修复了一些漏洞。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为71。"
+    ],
+    "修复": [
+      "修复了7个漏洞",
+      "1.21.5开发版本的漏洞",
+      "MC-280309 — 夜晚天空渲染错误。",
+      "MC-280482 — 使用Mesa 25.0时，主菜单完全损坏。",
+      "MC-280485 — 受游戏规则影响，在发射器中未能点燃TNT的打火石会消耗耐久度。",
+      "MC-280490 — 日志中频繁出现随机的OpenGL错误。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-293618 — 尝试加载世界时崩溃。/java.lang.IllegalStateException: Close the existing render pass before performing additional commands",
+      "MC-296644 — 渲染区段时游戏崩溃。/java.lang.NullPointerException: Cannot read field \"b\" because \"$$3\" is null"
+    ],
+    "未公开漏洞": [
+      "其他导致崩溃的漏洞。"
+    ],
+    "参考": [
+      "Minecraft 1.21.5 Pre-Release 2 — Minecraft.net，2025年3月12日。"
+    ]
+  }
+}

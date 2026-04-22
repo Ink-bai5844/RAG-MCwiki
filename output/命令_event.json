@@ -1,0 +1,5 @@
+{
+  "title": "命令/event",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fevent",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\nevent\n需要的权限等级\n1\n限制条件\n启用作弊\n触发实体事件。\n语法\nevent entity <target: target> <eventName: string>\n参数\n<target: target>\n必须为玩家名称或目标选择器。\n指定实体事件的作用对象。\n<eventName: string>\n必须为单词（其间不能夹杂空格）或用引号标记的字符串。\n指定命令触发的实体事件。应使用生成事件。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\ntarget: target未能选中一个或多个实体（指定的玩家必须在线上）\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n失败\n0\n成功\n触发该实体事件的实体数量\n示例\n所有炽足兽重新自然生成：/event entity @e[type=strider] minecraft:entity_spawned\n所有的村民变成僵尸村民：/event entity @e[type=villager] become_zombie\n历史\n基岩版\n1.16.100\n1.16.100.57\n加入了/event命令。\n导航"
+}

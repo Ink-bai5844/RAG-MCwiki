@@ -1,0 +1,96 @@
+{
+  "title": "漏洞追踪器",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%BC%8F%E6%B4%9E%E8%BF%BD%E8%B8%AA%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Mojang的官方漏洞追踪器。关于Minecraft Wiki上曾经用于记录漏洞的页面，请见“en:Minecraft Wiki:Issues”。"
+    ],
+    "Wiki上有与该主题相关的教程！": [
+      "见教程:汇报漏洞。",
+      "见教程:汇报漏洞。"
+    ],
+    "网址": [
+      "https://bugs.mojang.com",
+      "https://report.bugs.mojang.com"
+    ],
+    "需要注册": [
+      "bugs.mojang.com：否",
+      "report.bugs.mojang.com：是"
+    ],
+    "推出时间": [
+      "2012年10月23日（13年前）"
+    ],
+    "活跃": [
+      "有时，漏洞可能会突然出现并毁掉一切。因此，我们希望您能协助我们记录漏洞，以便Minecraft团队尽快修复。"
+    ],
+    "——Minecraft.net": [
+      "Mojang漏洞追踪器（亦称Mojira）是一个面向玩家的Minecraft官方漏洞反馈网站。与反馈网站类似，其主要由社区玩家管理。"
+    ],
+    "可用": [
+      "下面列出了漏洞追踪器上所有可用的项目。"
+    ],
+    "链接": [
+      "Minecraft: Java Edition"
+    ],
+    "是": [
+      "用于追踪Java版的漏洞。",
+      "用于追踪基岩版的漏洞。基岩版是携带版的后续版本，故前者使用了后者曾用的项目名。",
+      "用于追踪基岩版专用服务器软件的漏洞。",
+      "用于追踪Minecraft启动器的漏洞。",
+      "用于追踪Realms的漏洞。",
+      "用于追踪Mojang Studios所属网站及所属API的漏洞。"
+    ],
+    "Mojira - MC Issues": [
+      "Minecraft: Java Edition - Jira Service Management",
+      "Minecraft: Bedrock Edition"
+    ],
+    "Mojira - MCPE Issues": [
+      "Minecraft: Bedrock Edition - Jira Service Management"
+    ],
+    "不可用": [
+      "普通用户无法访问漏洞追踪器的部分项目，它们曾用于追踪已停止更新游戏/版本的漏洞，或仅作为存档用途。"
+    ],
+    "否": [
+      "曾用于追踪Minecraft Dungeons的漏洞。由于Minecraft Dungeons已停止更新，此项目不再接受新的漏洞报告。",
+      "曾用于追踪Minecraft Legends的漏洞。由于Minecraft Legends已停止更新，此项目不再接受新的漏洞报告。",
+      "曾用于追踪原主机版的漏洞。",
+      "曾用于追踪New Nintendo 3DS版的漏洞。",
+      "Minecraft: New Nintendo 3DS Edition （存档）",
+      "Minecraft: Earth",
+      "曾用于追踪Minecraft Earth的漏洞。",
+      "Minecraft: Earth - Jira （存档）",
+      "曾用于追踪Scrolls的漏洞。",
+      "作为破坏了漏洞追踪器规则的无效漏洞报告的永久存档。",
+      "曾用于Minecraft API的建议收集。",
+      "作为此前提交给漏洞追踪器的携带版功能请求和建议的只读存档，以便用户将其功能请求和建议迁移到Minecraft论坛。用户只能看见自己提交的功能请求和建议。最初计划在“几周内”移除，但直到2014年7月8日和10月11日之间的某个时间点才被移除。"
+    ],
+    "Minecraft Console Edition - Jira": [
+      "Minecraft: New Nintendo 3DS Edition"
+    ],
+    "漏洞追踪器的第一张截图": [
+      "早前，英文Minecraft Wiki上的MCW:Issues页面用于追踪漏洞反馈，但许多人抱怨其操作过于复杂。鉴于玩家对于使用一个合适的漏洞追踪器而不是Wiki来反馈问题的旺盛需求，Mojang联系了Atlassian。其由于自身的高灵活性与高自定义性成为了Mojang的选择。Mojang向Atlassian发送了邮件，向其请求了对于开发一个适宜的漏洞跟踪平台的帮助。Atlassian立刻伸出了援手，提供了一份免费的JIRA许可证。"
+    ],
+    "——Mojang": [
+      "2012年10月24日，Erik Broes与Atlassian正式发布了该基于JIRA的漏洞追踪器。"
+    ],
+    "迁移": [
+      "Atlassian在2024年2月15日终止了对Jira Server的支持，尽管漏洞追踪器获得了额外的一年支持，但由于许可证即将到期，2025年1月10日，Mojang决定将漏洞追踪器迁移至Jira Cloud。旧的漏洞追踪器将于2月7日关闭，在此之前，用户可以将自己的账户迁移至新系统。同年1月31日，Mojang声称服务会在2月10日至12日间不可用，但由于迁移中出现问题，服务器维护时间延长。2月18日，漏洞追踪器完成了基本迁移工作，重新开放，但旧格式链接暂不可用。2月19日，以旧格式指向漏洞报告的链接（browse/<项目>-<编号>）被重定向至正确位置（browse/<项目>/<项目>-<编号>）。2月26日，WEB项目重新开放。"
+    ],
+    "Mojang漏洞追踪器现在的徽标": [
+      "2020年旧版Mojang漏洞追踪器徽标",
+      "Mojang漏洞追踪器在2020年之前使用的徽标"
+    ],
+    "视频": [
+      "下面的这一段视频展示了Atlassian出众的JIRA开发者为JIRA v5.0研发的应用编程接口。"
+    ],
+    "参考": [
+      "Bug Us About Bugs — Minecraft.net，2019年7月31日。",
+      "Mojang Bug Tracker Guidelines — Minecraft.net。",
+      "Introducing the Minecraft Bug Tracker!（存档），来自Erik Broes。Mojang.com，2012年10月24日。",
+      "Browse Projects - JIRA（存档），2014年7月8日。",
+      "Browse Projects - JIRA（存档），2014年10月11日。",
+      "Changes to our bug reporting system — Minecraft.net，2025年1月10日。",
+      "Final days to migrate your bug account — Minecraft.net，2025年1月31日。"
+    ]
+  }
+}

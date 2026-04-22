@@ -1,0 +1,909 @@
+{
+  "title": "锹",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%94%B9",
+  "structured_content": {
+    "装备": [
+      "主条目：掉落物 § 装备物",
+      "僵尸、尸壳和僵尸村民[仅JE]有0.67%（在困难难度下是3.33%）的概率在生成时持有铁锹。如果被玩家杀死，它们有8.5%[仅JE]/25%[仅BE]（抢夺魔咒每级增加1%）的概率掉落此铁锹。掉落的铁锹通常是严重损坏的，并且可能附有魔咒：普通难度是0-25%，困难难度是3.125%-25%，根据区域难度变化，魔咒和5-22级的附魔台魔咒相同。"
+    ],
+    "最大耐久度": [
+      "木锹：59",
+      "石锹：131",
+      "铜锹：190",
+      "铁锹：250",
+      "金锹：32",
+      "钻石锹：1,561",
+      "下界合金锹：2,031"
+    ],
+    "烧炼时间": [
+      "木锹：200游戏刻（10秒，1个物品）",
+      "石锹、铜锹、铁锹、金锹、钻石锹、下界合金锹：无"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "可再生": [
+      "木锹、石锹、铜锹、铁锹、金锹、钻石锹：是",
+      "下界合金锹：否"
+    ],
+    "物品ID": [
+      "木锹：wooden_shovel",
+      "石锹：stone_shovel",
+      "铜锹：copper_shovel",
+      "铁锹：iron_shovel",
+      "金锹：golden_shovel",
+      "钻石锹：diamond_shovel",
+      "下界合金锹：netherite_shovel",
+      "Minecraft最大的乐趣之一在于，当你眺望那方块构成的风景时，眼前的一切皆可改变。在大多数其他游戏中，地形是静态且不可改变的，但在Minecraft中，你可以几乎无限地重塑地形，将其布置成你想要的模样。当然，完成任何宏大的景观改造项目都需要花费一些时间，但幸运的是，有一件工具可以帮上忙。而恰巧，这正是我们的本周物品——锹。"
+    ],
+    "——Duncan Geere": [
+      "锹（Shovel）是一种可提高泥土等软质方块采集效率的工具。"
+    ],
+    "钻石锹": [
+      "物品进行了5–19级附魔，不能提供宝藏型魔咒（由标签#on_traded_equipment控制）。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加两把锹的剩余耐久度，再额外获得5%的耐久度，会损失所有非诅咒魔咒。"
+    ],
+    "[[|]]": [
+      "2把锹的耐久度加在一起，再增加额外的5%耐久度。会损失所有非诅咒魔咒。",
+      "[[|]]0.1"
+    ],
+    "锻造": [
+      "下界合金锹可通过在锻造台中升级钻石锹来获得。"
+    ],
+    "铁砧": [
+      "主条目：铁砧机制"
+    ],
+    "修复和命名 木锹石锹铜锹铁锹金锹钻石锹下界合金锹[[|]][[|]][[|]]": [
+      "每个材料可以恢复锹25%的耐久（向下取整）。",
+      "叠加两把锹的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "箱子战利品": [
+      "Java版："
+    ],
+    "村庄工具匠小屋": [
+      "0.52",
+      "1",
+      "41.18%",
+      "2.4",
+      "0.52",
+      "1",
+      "41.18%",
+      "2.4"
+    ],
+    "末地城": [
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9"
+    ],
+    "堡垒遗迹疣猪兽棚": [
+      "0.15",
+      "1",
+      "15%",
+      "6.7",
+      "0.17",
+      "1",
+      "17.05%",
+      "5.9"
+    ],
+    "废弃传送门": [
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9"
+    ],
+    "堡垒遗迹塔尖": [
+      "0.07",
+      "1",
+      "6.74%",
+      "14.8",
+      "基岩版：",
+      "0.07",
+      "1",
+      "6.74%",
+      "14.8",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品会具有其总耐久的15%到80%之间的耐久度。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。"
+    ],
+    "远古城市": [
+      "远古城市中心的一种地下室房间内会生成一个熔炉，其燃料槽中有一把木锹。"
+    ],
+    "袭击": [
+      "在基岩版中，袭击中生成的卫道士和掠夺者有4.1%（困难难度下是5.12%）的概率掉落一个严重损坏的铁锹，有时附有随机的魔咒。"
+    ],
+    "Java版": [
+      "锹的攻击速度是1，需要1秒来恢复。",
+      "1.3.1",
+      "12w18a",
+      "木锹现在可以用作熔炉的燃料。",
+      "12w21a",
+      "铁匠村民现在会以7个绿宝石的价格出售钻石锹，以4-5个绿宝石的价格出售铁锹。",
+      "1.8",
+      "14w02a",
+      "村民现在不再交易钻石锹，使得它们不可再生。",
+      "1.9",
+      "15w31a",
+      "现在锹能够将草方块转变为草径。",
+      "15w34a",
+      "锹现在使用“攻击速度”战斗机制，回复时间为0.8秒。",
+      "15w34c",
+      "锹现在能制造较多伤害，但回复时间更慢了。",
+      "15w35a",
+      "锹现在制造较少的伤害。",
+      "15w41a",
+      "木锹现在可以用来合成船。",
+      "15w50a",
+      "为锹加入了新的音效：item.shovel.flatten。",
+      "16w04a",
+      "木锹现在不再能用来合成船。",
+      "1.11.1",
+      "16w50a",
+      "铁锹和金锹现在可以烧炼成铁粒和金粒。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，这些物品的数字ID分别是269、273、256、277和284。",
+      "1.14",
+      "18w43a",
+      "更改了所有锹的纹理。",
+      "19w13a",
+      "现在工具匠村民可能会向带有村庄英雄效果的玩家投掷石锹。",
+      "1.15",
+      "19w37a",
+      "锹现在能用来熄灭营火了。",
+      "1.16",
+      "20w06a",
+      "加入了下界合金锹。",
+      "20w09a",
+      "更改了钻石锹的纹理。",
+      "20w10a",
+      "更改了下界合金锹的纹理。",
+      "移除了原有的下界合金锹的合成配方。",
+      "下界合金锹现在需要通过在锻造台上升级钻石锹获得。",
+      "20w15a",
+      "现在可以用黑石合成石锹。",
+      "1.17",
+      "20w45a",
+      "现在锹能够将泥土、砂土、菌丝体和灰化土转变为土径。",
+      "21w08a",
+      "现在可以用深板岩圆石合成石锹。",
+      "1.19.4"
+    ],
+    "基岩版": [
+      "锹没有攻击冷却。",
+      "1.10.0",
+      "1.10.0.3",
+      "更改了所有锹的纹理。",
+      "1.11.0",
+      "1.11.0.1",
+      "铁锹现在可以在村庄的工具匠的房子中找到。",
+      "1.11.0.4",
+      "当生成在袭击中的卫道士和掠夺者死亡时现在会掉落铁锹。",
+      "更改了交易，工具商现在有25%的概率以2个绿宝石的价格出售附魔了的铁锹，作为其的第3层交易的一部分。",
+      "石锹和附魔钻石锹现在可以通过工具匠村民购买。",
+      "1.16.0",
+      "1.16.0.51",
+      "加入了下界合金锹。",
+      "更改了钻石锹的纹理。",
+      "1.16.0.55",
+      "调整了锹的耐久以匹配Java版。",
+      "1.16.0.57",
+      "现在可以用黑石合成石锹。",
+      "1.16.200",
+      "1.16.200.52",
+      "现在锹能够将泥土、砂土、菌丝体和灰化土转变为土径。",
+      "1.17.0",
+      "1.16.230.50",
+      "现在锹能够将缠根泥土转变为土径。",
+      "1.17.0.50",
+      "现在可以用深板岩圆石合成石锹。",
+      "1.19.80"
+    ],
+    "新手级工具匠": [
+      "40%",
+      "25%"
+    ],
+    "老手级工具匠": [
+      "40%",
+      "25%",
+      "绿宝石 × 7–21"
+    ],
+    "专家级工具匠": [
+      "67%",
+      "50%",
+      "绿宝石 × 10–24"
+    ],
+    "礼物": [
+      "主条目：村庄英雄 § 给予物品",
+      "本段落所述内容仅适用于Java版。",
+      "工具匠可能会向带有村庄英雄效果的玩家投掷石锹。"
+    ],
+    "用途": [
+      "物品实体形式的下界合金锹会漂浮在熔岩上，且不会被火和熔岩摧毁。"
+    ],
+    "挖掘工具": [
+      "主条目：挖掘 § 挖掘速度",
+      "锹是一种挖掘工具，每次成功挖掘了任何硬度不为0的方块会消耗1耐久度。",
+      "以下方块的合适挖掘工具包含锹："
+    ],
+    "雪块": [
+      "0.2",
+      "1",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "雪": [
+      "0.1",
+      "0.5",
+      "0.1",
+      "0.05"
+    ],
+    "沾泥的红树根": [
+      "0.7",
+      "1.05",
+      "0.55",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "土径": [
+      "0.65",
+      "1",
+      "0.5",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "黏土": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "耕地": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "草方块": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "沙砾": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "菌丝体": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "砂土": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "白色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "淡灰色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "灰色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "黑色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "棕色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "红色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "橙色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "黄色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "黄绿色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "绿色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "青色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "淡蓝色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "蓝色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "紫色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "品红色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "粉红色混凝土粉末": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "泥土": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "泥巴": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "灰化土": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "红沙": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "缠根泥土": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "沙子": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "灵魂沙": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "灵魂土": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "可疑的沙子": [
+      "0.25",
+      "0.4",
+      "0.2",
+      "0.1",
+      "0.05"
+    ],
+    "可疑的沙砾": [
+      "0.25",
+      "0.4",
+      "0.2",
+      "0.1",
+      "0.05",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。"
+    ],
+    "近战攻击": [
+      "锹每成功进行一次近战攻击会减少2点耐久度。"
+    ],
+    "攻击伤害": [
+      "2.5（ × 1.25）",
+      "3.5（ × 1.75）",
+      "4.5（ × 2.25）",
+      "5.5（ × 2.75）",
+      "6.5（ × 3.25）",
+      "2（）",
+      "3（）",
+      "4（）",
+      "5（）",
+      "6（）"
+    ],
+    "攻击速度": [
+      "1"
+    ],
+    "每秒攻击伤害（DPS）": [
+      "2.5（ × 1.25）",
+      "3.5（ × 1.75）",
+      "4.5（ × 2.25）",
+      "5.5（ × 2.75）",
+      "6.5（ × 3.25）",
+      "4（）",
+      "6（）",
+      "8（）",
+      "10（）",
+      "12（ × 6）"
+    ],
+    "可使用次数": [
+      "30",
+      "16",
+      "66",
+      "95",
+      "125",
+      "781",
+      "1016",
+      "30",
+      "17",
+      "66",
+      "96",
+      "126",
+      "781",
+      "1016"
+    ],
+    "总攻击伤害": [
+      "75（ × 37.5）",
+      "40（ × 20）",
+      "231（ × 115.5）",
+      "332.5（ × 166.25）",
+      "562.5（ × 281.25）",
+      "4295.5（ × 2147.75）",
+      "6604（ × 3302）",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、暴击、受击后伤害免疫和攻击冷却。",
+      "60（ × 30）",
+      "34（ × 17）",
+      "198（ × 99）",
+      "288（ × 144）",
+      "504（ × 252）",
+      "3905（ × 1952.5）",
+      "6096（ × 3048）",
+      "攻击间隔取受击后伤害免疫的最大持续时间。",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、暴击和受击后伤害免疫。"
+    ],
+    "转化方块": [
+      "对着上方为空气的草方块、泥土、砂土、菌丝体、灰化土或缠根泥土的侧面或顶部使用锹可使其变为土径，并消耗1点耐久度。",
+      "对点燃的营火使用锹可使其熄灭。"
+    ],
+    "魔咒": [
+      "锹能被附加以下魔咒："
+    ],
+    "I": [
+      "精准采集与时运相互排斥。",
+      "只能通过使用相应的附魔书在铁砧上叠加而获得。"
+    ],
+    "燃料": [
+      "木锹能被用作熔炉、高炉或烟熏炉的燃料，每把木锹可以烧炼1个物品。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "锹：压地"
+    ],
+    "subtitles.item.shovel.flatten": [
+      "物品：损坏"
+    ],
+    "subtitles.entity.item.break": [
+      "基岩版："
+    ],
+    "break": [
+      "1.0",
+      "0.9",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "wooden_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.wooden_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:wooden_tool_materials\"},\"minecraft:enchantable\":{\"value\":15},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_wooden_tool\"},{\"speed\":2,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":59,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":1.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:wooden_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "stone_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.stone_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:stone_tool_materials\"},\"minecraft:enchantable\":{\"value\":5},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_stone_tool\"},{\"speed\":4,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":131,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":2.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:stone_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "copper_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:copper_tool_materials\"},\"minecraft:enchantable\":{\"value\":13},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_copper_tool\"},{\"speed\":5,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":190,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":2.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "iron_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:iron_tool_materials\"},\"minecraft:enchantable\":{\"value\":14},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_iron_tool\"},{\"speed\":6,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":250,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":3.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "diamond_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:diamond_tool_materials\"},\"minecraft:enchantable\":{\"value\":10},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_diamond_tool\"},{\"speed\":8,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":1561,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":4.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "golden_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:gold_tool_materials\"},\"minecraft:enchantable\":{\"value\":22},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_gold_tool\"},{\"speed\":12,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":32,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":1.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "netherite_shovel": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_shovel\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_netherite_tool\"},{\"speed\":9,\"blocks\":\"#minecraft:mineable/shovel\",\"correct_for_drops\":true}]},\"minecraft:repairable\":{\"items\":\"#minecraft:netherite_tool_materials\"},\"minecraft:enchantable\":{\"value\":15},\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:max_damage\":2031,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":5.5,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_shovel\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "item.minecraft.netherite_shovel": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*value：（值≥1）物品的附魔能力。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。",
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。",
+      "minecraft:tool：物品的挖掘工具属性。",
+      "can_destroy_blocks_in_creative：（默认为true）创造模式玩家能否使用此物品破坏方块。",
+      "damage_per_block：（值≥0，默认为1）破坏硬度非0的方块时物品损失的耐久度。",
+      "default_mining_speed：（值≥0，默认为1）挖掘方块时的速度。",
+      "*rules：物品与对应可以挖掘的方块的映射列表。",
+      "：一项物品与方块列表的挖掘配置数据。",
+      "*blocks：此配置指定的有效方块。可以为一个#开头的方块标签、一个方块ID、或一个方块ID的列表。",
+      "correct_for_drops：此物品是否是所有上方指定方块的合适挖掘工具。",
+      "speed：覆盖所有上方指定方块的使用此物品挖掘时的挖掘速度。",
+      "minecraft:weapon：设置物品的武器数据。此组件存在时物品使用次数统计信息会在用此物品攻击时增加。",
+      "disable_blocking_for_seconds：（值≥0，默认为0）攻击成功禁用目标盾牌的秒数。",
+      "item_damage_per_attack：（值≥0，默认为1）每次攻击对此物品造成的损伤值，即损耗的耐久度。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。"
+    ],
+    "wooden_shovel,stone_shovel,copper_shovel,iron_shovel,golden_shovel,diamond_shovel,netherite_shovel所共有的组件": [
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:enchantable"
+    ],
+    "netherite_shovel单独拥有的组件": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "MOAR Tools": [
+      "每种类型的工具各制作一个。",
+      "合成任意品质的镐、锹、斧、锄各一把。",
+      "15G"
+    ],
+    "用黄金分散猪灵的注意力": [
+      "被猪灵攻击时朝它丢弃金质物品，让它捡起来。",
+      "30G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "下界": [
+      "在身上未装备金盔甲时将这些拥有物品标签#piglin_loved的物品之一扔给猪灵："
+    ],
+    "粗金": [
+      "或手持金锭对猪灵按使用键。进度不会在玩家装备金盔甲而猪灵愤怒时触发。如有其他金质物品可以正常使用，进度和猪灵会将其忽略。"
+    ],
+    "历史": [
+      "此段落需要更新。",
+      "理由：锹的物品纹理在indev有所更改。"
+    ],
+    "Java版Indev": [
+      "0.31",
+      "20091231-2147",
+      "加入了铁锹。",
+      "锹被用于采集泥土、沙子和沙砾之类的方块，且效率是空手采集的4倍。",
+      "创建新的世界时，玩家会获得每种工具各一个。",
+      "20100124-2119",
+      "新建世界时玩家不再会获得一整套工具。取而代之的是Indev房子里的几个箱子，内含所有可用的方块和物品，包括工具。",
+      "20100128-2203",
+      "现在铁锹在被玩家手持时是立体的。",
+      "20100128-2200",
+      "更改了铁锹的纹理。",
+      "20100129-1447",
+      "加入了木锹、石锹和钻石锹。",
+      "加入了各种锹的合成配方。",
+      "20100130",
+      "加入了金锹。",
+      "20100201-0025",
+      "工具会随着使用而消耗耐久。",
+      "20100206-2034",
+      "更改了金锹的纹理。"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "23w04a",
+      "现在钻石锹还需要下界合金升级锻造模板才能升级为下界合金锹。",
+      "1.20",
+      "23w12a",
+      "23w04a中的变更不再属于实验性内容。",
+      "23w13a",
+      "现在远古城市的1种地下室结构内的熔炉燃料槽会有1把木锹。",
+      "1.20.3",
+      "1.21更新",
+      "23w45a",
+      "附魔铁锹现在可以在试炼密室的奖励箱中获得。",
+      "1.21",
+      "24w18a",
+      "23w45a中的变更不再属于实验性内容。",
+      "1.21.9",
+      "25w31a",
+      "加入了铜锹。"
+    ],
+    "携带版Alpha": [
+      "0.2.0",
+      "加入了锹。",
+      "木、铁、金、钻石锹暂时无法正常获取。",
+      "0.3.0",
+      "木锹现在可以正常获取了。",
+      "0.3.2",
+      "铁、金和钻石锹现在可以正常获取了。",
+      "0.11.0",
+      "build 1",
+      "现在木锹能用来合成船。",
+      "在创造模式物品栏中加入了铁锹。",
+      "现在锹能够将草方块转变为草径。",
+      "build 11",
+      "在创造模式物品栏中加入了木、石、金和钻石锹。",
+      "build 12",
+      "将所有锹从创造模式物品栏中移除。",
+      "build 13",
+      "重新将所有锹加入创造模式物品栏。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "附魔的铁锹和钻石锹现在能在末地城的箱子里找到。",
+      "1.0.4",
+      "1.0.4.0",
+      "工具匠村民现在以4-5个绿宝石出售附魔的铁锹。",
+      "1.1.0",
+      "1.1.0.0",
+      "铁锹和金锹现在可以烧炼成铁粒和金粒。"
+    ],
+    "实验性玩法": [
+      "更新 1.21 版",
+      "1.20.60.20",
+      "附魔铁锹现在可以在试炼密室的奖励箱中获得。",
+      "1.21.0",
+      "1.21.0.22",
+      "1.20.60.20中的变更不再属于实验性玩法。",
+      "1.21.50",
+      "1.21.50.20",
+      "现在锹不再是竹子的合适挖掘工具。",
+      "1.21.100",
+      "2025 年第 3 次更新",
+      "1.21.100.23",
+      "加入了铜锹。",
+      "1.21.111",
+      "1.21.110.20",
+      "铜锹不再属于实验性玩法。"
+    ],
+    "下一个主要更新": [
+      "1.19.80.21",
+      "现在钻石锹还需要下界合金升级锻造模板才能升级为下界合金锹。",
+      "1.20.0",
+      "1.20.0.21",
+      "1.19.80.21中的变更不再属于实验性玩法。",
+      "1.20.10",
+      "1.20.10.20",
+      "合成船不再需要木锹，但竹筏暂时未受影响。",
+      "1.20.10.21",
+      "合成竹筏不再需要木锹。",
+      "1.20.60"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入所有种类的锹。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "铁锹和金锹现在可以烧炼成铁粒和金粒。",
+      "1.90",
+      "更改了所有锹的纹理。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入所有种类的锹。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "铁锹和金锹现在可以烧炼成铁粒和金粒。",
+      "1.90",
+      "更改了所有锹的纹理。"
+    ],
+    "导航": [
+      "Taking Inventory: Shovel — Minecraft.net，2018年11月16日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "三色旗",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%89%E8%89%B2%E6%97%97",
+  "text": "此条目描述的是一个愚人节玩笑版本23w13a_or_b中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n三色旗\n[[|]]\n创造标签页（JE）\n无\n最大堆叠\n64\n可再生\n否\n物品ID\nle_tricolore\n三色旗（Le Tricolore）是用作法国国旗的物品。\n获取\n在开启french_mode规则的瞬间，所有物品栏中没有三色旗的玩家会自动获得一个三色旗。\n在关闭french_mode规则的瞬间，所有玩家物品栏中的三色旗会消失。\n用途\n三色旗没有实际用途。\n数据值\nID\n名称\n命名空间ID\n本地化键名\nLe Tricolore\nle_tricolore\nitem.minecraft.le_tricolore\n导航"
+}

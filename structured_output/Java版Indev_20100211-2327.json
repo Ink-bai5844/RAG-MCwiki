@@ -1,0 +1,44 @@
+{
+  "title": "Java版Indev 20100211-2327",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_20100211-2327",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。"
+    ],
+    "发布时间": [
+      "2010年2月11日"
+    ],
+    "al_version": [
+      "1.096",
+      "◄◄0.31"
+    ],
+    "Minecraft Infdev►►": [
+      "◄Indev 20100207-1703",
+      "Indev 20100211-2333►",
+      "Minecraft Indev的一个版本发布于2010年2月11日23:27（UTC），加入了昼夜更替。"
+    ],
+    "昼夜更替": [
+      "每个昼夜更替的周期为15分钟。",
+      "每个周期包括7.5分钟的白天和7.5分钟的黑夜。",
+      "决定生物的生成时间。"
+    ],
+    "绵羊": [
+      "现在被击中时会掉落1-3个羊毛，羊毛的颜色可能是白色、浅灰色或灰色。"
+    ],
+    "音效": [
+      "加入了被动型生物的音效。",
+      "在此版本之前，它们均使用玩家的音效。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z（UTC-5）",
+      "Adura的IRC记录: \"(18:27:56) <Miclee> Day/night is in indev.\"...\"(18:28:32) <Notch> oh, yeah, it's updated\"",
+      "Day/night cycle in indev!（存档） — The Word of Notch，2010年2月11日。",
+      "Minecraft Indev，来自Chudooder。YouTube，2010年2月11日。",
+      "Adura的IRC记录: \"(18:32:10) <rcfighter> And now I can hear the sheep outside my farm\""
+    ]
+  }
+}

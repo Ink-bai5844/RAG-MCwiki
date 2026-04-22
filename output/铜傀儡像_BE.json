@@ -1,0 +1,5 @@
+{
+  "title": "铜傀儡像/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%93%9C%E5%82%80%E5%84%A1%E5%83%8F%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\n铜傀儡像使用数据组件保存将要生成的铜傀儡的自定义名称。\ncomponents：方块实体的数据组件信息。\nminecraft:custom_name：（文本组件）自定义名称。"
+}

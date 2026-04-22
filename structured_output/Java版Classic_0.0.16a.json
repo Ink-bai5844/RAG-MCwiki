@@ -1,0 +1,52 @@
+{
+  "title": "Java版Classic 0.0.16a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.16a",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.16a"
+    ],
+    "服务端版本": [
+      "1.0"
+    ],
+    "发布时间": [
+      "2009年6月7日"
+    ],
+    "未知": [
+      "◄◄0.0.15a",
+      "0.0.17a►►",
+      "◄0.0.15a_03",
+      "0.0.16a_01►",
+      "0.0.16a是Java版的一次更新，发布于2009年6月7日，加入了新的命令，并修复了一些漏洞。"
+    ],
+    "/ban": [
+      "用于将玩家档案列入封禁列表。"
+    ],
+    "/banip": [
+      "用于封禁一个IP地址。"
+    ],
+    "/broadcast": [
+      "用于向整个服务器广播消息。"
+    ],
+    "/kick": [
+      "用于将玩家踢出服务器。"
+    ],
+    "多人游戏": [
+      "降低了带宽占用。"
+    ],
+    "修复": [
+      "修复了2个漏洞"
+    ],
+    "修复了一些小的漏洞。[需要更多信息]": [
+      "修复了玩家在登录时，如果更改了游戏，则会出现不同步现象的漏洞。"
+    ],
+    "参考": [
+      "IRC日志, #minecraft.20090607.log (2009年6月7日, UTC−6)",
+      "By popular demand, another MP test today（存档） — The Word of Notch，2009年6月7日。",
+      "IRC日志: \"[11:08] <Barlon> yay 0.0.16a!\" (17:08 UTC)",
+      "IRC日志: \"[11:26] * Notch changes topic to 'http://www.minecraft.net/ | http://www.minecraft.net/mptest.jsp | 64 player limit. Huge map. | I might have to restart the server a few times..'\" (17:26 UTC)"
+    ]
+  }
+}

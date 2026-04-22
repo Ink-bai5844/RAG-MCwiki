@@ -1,0 +1,5 @@
+{
+  "title": "活塞/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B4%BB%E5%A1%9E%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n0x4\n一个值范围0-5的3位二进制数，储存活塞朝向：\n0：活塞朝下\n1：活塞朝上\n2：活塞朝北\n3：活塞朝南\n4：活塞朝西\n5：活塞朝东\n0x8\n（未使用）"
+}

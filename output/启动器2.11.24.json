@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.11.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.11.24",
+  "text": "2.11.24\n程序类型\nMinecraft启动器\n发布时间\n2023年10月10日\n测试版本\n2个测试版\n（查看全部）\n◄◄2.10.25\n2.12.17►►\n2.11.24是一次启动器更新，发布于2023年10月10日。\n更改\n重新加入了Minecraft Live标签页，可通过此进行生物投票。\n修复\n修复了一些与布局和UI分层有关的漏洞。\n针对Minecraft Live，优化了UI并修复了一些与之相关的漏洞。\nMCL-23643 - 在可选择的配置图标中，淡蓝色带釉陶瓦标注的名称却是带釉陶瓦。\nMCL-23667 - 在Linux和Mac上，UnsupportedPlatformMessage显示的是过时的信息。\nMCL-23707 - 社区准则字符串中的不定式拆分会产生歧义。\n导航"
+}

@@ -1,0 +1,150 @@
+{
+  "title": "命令/give",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgive",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊": [
+      "给予玩家指定数量的物品。"
+    ],
+    "用法": [
+      "给予玩家指定数量的物品，若<targets>或player: target指定了多个目标，每个目标都会收到指定数量的物品。",
+      "在Java版中，将在目标位置生成指定的物品实体。当目标物品栏有剩余空间或处于创造模式时，该物品实体与实际给予的物品无关，无法被捡起且会在1刻后消失；若目标物品栏已满，则此物品实体为物品栏无法容纳的部分，可以被立即捡起，且只有目标玩家能捡起此掉落物。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre4",
+      "加入了耐久值参数。",
+      "1.3.1",
+      "12w16a",
+      "现在能在单人游戏中使用。",
+      "1.4.2",
+      "12w38a",
+      "/give现在会把物品直接放入玩家的物品栏内，而不是扔到地上。",
+      "1.5",
+      "13w04a",
+      "/give现在可以接受数据值作为其第四个参数。",
+      "1.7.2",
+      "13w36a",
+      "加入了dataTag参数。",
+      "13w37a",
+      "物品参数现在也可以接受名称ID。",
+      "1.8",
+      "14w03b",
+      "物品参数不再接受数字ID。",
+      "14w25a",
+      "更改了物品渲染的方式和方块数据值的内部表示法。",
+      "14w32b",
+      "现在物品参数无法突破堆叠限制。",
+      "1.12",
+      "17w16b",
+      "当目标指定为玩家自己时，实际上会使用@s选择器作为目标。",
+      "1.13",
+      "17w45a",
+      "移除了数据值和NBT标签参数。",
+      "1.17",
+      "21w10a",
+      "加入了数量限制，现在一次性只能给予玩家等价于100组的物品了。",
+      "1.20.5",
+      "24w09a",
+      "更改了语法，现在不再使用物品NBT标签，而是物品堆叠组件。"
+    ],
+    "基岩版": [
+      "give <player: target> <itemName: Item> [amount: int] [data: int] [components: json]"
+    ],
+    "参数": [
+      "JE：<targets>：entity",
+      "BE：player: target：CommandSelector<Player>",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。",
+      "JE：<item>：item_stack",
+      "BE：itemName: Item：CommandItem",
+      "指定给予的物品。",
+      "在Java版中，必须是格式为物品ID[物品堆叠组件]的指定物品参数，物品堆叠组件必须以中括号包围，可仅在需要时指定。在基岩版中，必须为物品ID或存在其物品形式的方块ID。",
+      "JE：<count>：integer",
+      "BE：amount: int：int",
+      "指定给予的物品数量。必须在1~100组（目标物品最大堆叠数×100，一般为6400）[仅Java版]或1~32767[仅基岩版]间（含）。若未指定，默认为1。",
+      "BE：data: int：int",
+      "指定所给予物品的数据值。必须为介于0和32767之间的整数（含），但是当数据值对于指定的物品ID无效时，会被重置为0。若未指定，默认为0。",
+      "BE：components: json：Json::Value",
+      "指定所给予物品的物品堆叠组件。",
+      "必须为JSON 对象。"
+    ],
+    "无法解析": [
+      "<targets>或player: target未能选中一个或多个玩家"
+    ],
+    "执行失败": [
+      "<item>或itemName: item为不可获得物品",
+      "player: target是非玩家类型的目标选择器",
+      "0",
+      "0"
+    ],
+    "N/A": [
+      "amount: int小于1或大于32767",
+      "data: int小于0或大于32767",
+      "<count>多于100组物品"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "给予执行者64个泥土：",
+      "/give @s dirt 64",
+      "给予所有玩家一瓶夜视药水：",
+      "JE：/give @a potion[minecraft:potion_contents={potion:\"minecraft:night_vision\"}]",
+      "BE：/give @a potion 1 5",
+      "给予自己一把即使在冒险模式下也可以破坏草方块的铁锹：",
+      "JE：/give @s iron_shovel[minecraft:can_break={blocks:\"minecraft:grass_block\"}] 1",
+      "BE：/give @s iron_shovel 1 0 {\"minecraft:can_destroy\":{\"blocks\":[\"grass\"]}}",
+      "在Java版中，给予最近的玩家一把钻石剑，物品附加描述“Sword”：",
+      "/give @p minecraft:diamond_sword[minecraft:lore=[\"Sword\"]] 1",
+      "在Java版中，给予自己一把带有锋利X的钻石剑：",
+      "/give @s minecraft:diamond_sword[minecraft:enchantments={\"minecraft:sharpness\":10}]",
+      "给予自己一块即使在冒险模式中也能放置在泥土上、破坏石英块的钻石块：",
+      "JE：/give @s minecraft:diamond_block[minecraft:can_place_on={blocks:\"minecraft:dirt\"},minecraft:can_break={blocks:\"minecraft:quartz_block\"}] 1",
+      "BE：/give @s diamond_block 1 0 {\"minecraft:can_place_on\":{\"blocks\":[\"dirt\"]},\"minecraft:can_destroy\":{\"blocks\":[\"quartz_block\"]}}",
+      "在Java版中，给予所有玩家一瓶带有击退X效果的2级衰变药水：",
+      "/give @a minecraft:potion[minecraft:potion_contents={custom_effects:[{id:\"minecraft:wither\", amplifier:1b, duration:420}], custom_color:5653821}, minecraft:custom_name={type:\"text\", text:\"衰变药水\", italic:false}, minecraft:enchantments={\"minecraft:knockback\":10}] 1",
+      "给予自己一块即使在冒险模式下也可以放置在石头上的草方块：",
+      "JE：/give @s grass_block[can_place_on={blocks:\"stone\"}] 1",
+      "BE：/give @s grass 1 0 {\"minecraft:can_place_on\":{\"blocks\":[\"stone\"]}}",
+      "在Java版中，给予自己一个在放置后会生成村庄的盔甲匠的战利品宝箱：",
+      "/give @s chest[block_entity_data={id:\"chest\",LootTable:\"chests/village/village_armorer\"}] 1或/give @s chest[container_loot={loot_table:\"chests/village/village_armorer\"}] 1",
+      "给予自己一把已消耗58点耐久度的木镐：",
+      "JE：/give @s wooden_pickaxe[damage=58] 1",
+      "BE：/give @s wooden_pickaxe 1 58",
+      "在Java版中，给予自己一把无法破坏的钻石剑："
+    ],
+    "Java版旧格式示例": [
+      "给予自己一把无法破坏的钻石剑：",
+      "1.13 – 1.20.4：/give @s minecraft:diamond_sword{Unbreakable:1b}",
+      "给予最近的玩家一把钻石剑，物品附加描述“Sword”：",
+      "1.13 – 1.20.4：/give @p minecraft:diamond_sword{display:{Lore:['\"Sword\"']}} 1",
+      "1.20.5 – 1.21.4：/give @p minecraft:diamond_sword[minecraft:lore=['\"Sword\"']] 1",
+      "给予所有玩家一瓶夜视药水：",
+      "1.13 – 1.20.4：/give @a potion{Potion:\"minecraft:night_vision\"}",
+      "给予自己一把带有锋利X的钻石剑：",
+      "1.13 – 1.20.4：/give @s minecraft:diamond_sword{Enchantments:[{id:\"minecraft:sharpness\",lvl:10}]} 1",
+      "给予自己一块即使在冒险模式中也能放置在泥土上、破坏石英块的钻石块：",
+      "1.13 – 1.20.4：/give @s minecraft:diamond_block{CanPlaceOn:[\"minecraft:dirt\"],CanDestroy:[\"minecraft:quartz_block\"]} 1",
+      "1.20.5 – 1.21.4：/give @s minecraft:diamond_block[minecraft:can_place_on={predicates:[{blocks:\"minecraft:dirt\"}]},minecraft:can_break={predicates:[{blocks:\"minecraft:quartz_block\"}]}] 1",
+      "给予自己一个在放置后会生成村庄的盔甲匠的战利品宝箱：",
+      "1.13 – 1.20.4：/give @s chest{BlockEntityTag:{LootTable:\"chests/village/village_armorer\"}} 1",
+      "给予自己一把已消耗58点耐久度的木镐：",
+      "1.7.2 – 1.12.2：/give @s wooden_pickaxe 1 58"
+    ],
+    "Java版Alpha": [
+      "v1.0.15",
+      "（Java版Alpha服务器0.1.0）加入了/give。命令用于给予特定玩家的单个物品，并且只能使用数字ID。",
+      "v1.0.16_01",
+      "加入了数量参数。"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/give命令。",
+      "用法与Java版1.10中基本相同：不支持NBT标签，且player目标是可选的。"
+    ]
+  }
+}

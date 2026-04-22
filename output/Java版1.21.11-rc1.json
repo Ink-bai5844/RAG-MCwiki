@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.21.11-rc1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.11-rc1",
+  "text": "此版本的未混淆版本目前在Minecraft启动器中不可用。\n虽然此版本的未混淆版本存在留档，但却无法从启动器下载到。\n1.21.11-rc1\n版本\nJava版\n类型\n发布候选\n发布时间\n2025年12月4日\n发布候选归属\n1.21.11\n下载\n常规版本\n客户端 （.json）\n服务端\n未混淆版本\n客户端（.zip · .json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073742108\nHEX: 4000011C\n数据版本\n4668\n资源包版本\n75.0\n数据包版本\n94.1\n◄◄1.21.10\n26.1►►\n◄1.21.11-pre5\n1.21.11-rc2►\n1.21.11-rc1是Java版1.21.11的首个发布候选版本，发布于2025年12月4日，更改了矛冲锋攻击可造成击退的时间和攻击动画。\n此版本也额外发布了未经混淆的版本，称为1.21.11 Release Candidate 1 Unobfuscated（启动器内称1.21.11-rc1_unobfuscated），旨在过渡至后续小更新时移除混淆。\n更改\n物品\n矛\n增加了矛在冲锋攻击时可以造成击退的持续时间。\n冲锋攻击的动画现在更好地对应矛的不同阶段。\n视频\n由slicedlime制作的视频：\n注释\n解压至.minecraft/versions目录\n参考\nMinecraft 1.21.11 Release Candidate 1 — Minecraft.net，2025年12月4日。\nRemoving obfuscation in Java Edition — Minecraft.net，2025年10月29日。\n导航"
+}

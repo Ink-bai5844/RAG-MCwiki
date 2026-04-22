@@ -1,0 +1,25 @@
+{
+  "title": "命令/getlocalplayername",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgetlocalplayername",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少输出",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "无": [
+      "显示玩家本地名称。"
+    ],
+    "结果": [
+      "永远执行成功。"
+    ],
+    "?": [
+      "加入了/getlocalplayername。",
+      "加入了/getlocalplayername。"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "熊猫/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%86%8A%E7%8C%AB%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source"
+    ],
+    "*": [
+      "*HiddenGene：熊猫拥有的隐藏基因，可以转移到其子代。",
+      "*MainGene：熊猫拥有的主要基因，可以转移到其子代。"
+    ],
+    "基因": [
+      "主条目：熊猫/DV"
+    ]
+  }
+}

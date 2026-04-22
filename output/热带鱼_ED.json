@@ -1,0 +1,5 @@
+{
+  "title": "热带鱼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%83%AD%E5%B8%A6%E9%B1%BC%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n*\n*FromBucket：表示此热带鱼是否曾被从桶中放出。如果为true，热带鱼不会自然删除。\n*\n*Variant：决定热带鱼的外观。此值分为4部分：从低到高字节分别代表热带鱼的体型、花纹、颜色和花纹颜色。体型只有两种，0代表大型，1代表小型。花纹共有6种，与体型结合共有12种。如果体型和花纹有一个是无效的，就会使用石首类变种。颜色和花纹颜色与对应染料序号的颜色一致。"
+}

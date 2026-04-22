@@ -1,0 +1,23 @@
+{
+  "title": "启动器2.0.16x-stage",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.0.16x-stage",
+  "structured_content": {
+    "默认分类": [
+      "2.0.16x-stage"
+    ],
+    "发布时间": [
+      "2016年10月26日"
+    ],
+    "测试版归属": [
+      "2.0.700",
+      "◄◄1.6.93",
+      "2.0.713►►",
+      "◄2.0.15x-dev",
+      "2.0.28x-stage►",
+      "2.0.164-stage（Windows）或2.1.163-stage（macOS）是一个启动器版本，发布于2016年10月26日。"
+    ],
+    "更改": [
+      "将dev版本换成stage版本。"
+    ]
+  }
+}

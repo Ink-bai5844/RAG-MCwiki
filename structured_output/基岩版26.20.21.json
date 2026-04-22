@@ -1,0 +1,135 @@
+{
+  "title": "基岩版26.20.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.20.21",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "26.20.21"
+    ],
+    "内部版本号": [
+      "Android：1.26.20.21",
+      "Windows：1.26.2021.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952602021（armeabi-v7a，35）",
+      "962602021（x86，35）",
+      "972602021（arm64-v8a，35）",
+      "982602021（x86_64，35）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2026年3月17日"
+    ],
+    "测试版归属": [
+      "26.20"
+    ],
+    "协议版本": [
+      "962",
+      "◄◄26.13",
+      "◄26.20.20",
+      "26.20.22►",
+      "beta 26.20.21（ChromeOS/Android）、Preview 26.20.21（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的第2个测试版，发布于2026年3月17日，修复了一些漏洞。"
+    ],
+    "生物": [
+      "更新了幼年白色狐狸睡觉时的纹理：眼睛现在是深蓝色的，以匹配成年狐狸睡觉时的纹理。（MCPE-236972）",
+      "幼年僵尸骑乘幼年生物时不再会飘浮。",
+      "现在兔子被拴住时会禁用空闲动画。",
+      "现在幼年狼坐下时其后腿会正确地旋转。",
+      "修复了slime（史莱姆）族生物的弹跳动画会突然中断的问题。"
+    ],
+    "狐狸": [
+      "更改了幼年白色狐狸睡觉时的纹理，以匹配成年个体。"
+    ],
+    "方块": [
+      "现在当minecraft:block_placer组件定义为设置为true的replace_block_item时，选取方块操作会给予花盆中的物品。（MCPE-234586）",
+      "修复了使用转换组件按比例缩放的大型几何结构的验证问题。（MCPE-236317）",
+      "使用骨粉生成高海草时，高海草不再会被破坏。（MCPE-112509）",
+      "骨粉不再能在其他植物上方生成高海草的上半部分。（MCPE-224063）"
+    ],
+    "AI意向": [
+      "现在minecraft:behavior.jump_around_target的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。浮点数字段valid_distance_to_target和​landing_distance_from_target现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.jump_to_block的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。浮点数字段cooldown_range现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.move_around_target的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。浮点数字段destination_position_range现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.find_cover",
+      "minecraft:behavior.find_mount",
+      "minecraft:behavior.find_underwater_treasure",
+      "minecraft:behavior.flee_sun",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.float",
+      "minecraft:behavior.follow_owner",
+      "minecraft:behavior.follow_parent",
+      "minecraft:behavior.hold_ground"
+    ],
+    "API": [
+      "为DebugShape加入了maximumRenderDistance属性。",
+      "为PrimitiveShape加入了maximumRenderDistance属性。",
+      "DebugShape和​PrimitiveShape默认使用的渲染距离现在是玩家客户端的渲染距离，而不是无限的。若需要与旧版行为相匹配，则可以将maximumRenderDistance设置为一个非常大的数字（由于平台差异，无限在脚本中是无效的）。",
+      "为@minecraft/common的1.3.0版本中的InvalidArgumentErrorType枚举加入了InvalidType和​UnsupportedValue。",
+      "在beta中为@minecraft/server-admin加入了opPlayer和​deopPlayer函数。",
+      "在beta中为@minecraft/server中的World类加入了allowCheats布尔属性。",
+      "在beta中为@minecraft/server-net加入了WebSocket客户端。",
+      "加入了WebSocket类，用于创建和连接WebSocket客户端。这会在@minecraft/server-net中创建为全局的websocket对象。",
+      "加入了WebSocketClient类，用于与WebSocket交互和通过事件从服务端接收数据。",
+      "在@minecraft/server-net中将BiomeTypes.getAll移动至2.7.0。",
+      "在@minecraft/server-net中将BiomeTypes.get移动至2.7.0。",
+      "在@minecraft/server-net中将BiomeType.hasTags移动至2.7.0。",
+      "在@minecraft/server-net中将BiomeType.getTags移动至2.7.0。"
+    ],
+    "DDUI": [
+      "现在关闭按钮更具权威性，以使表单更快关闭。"
+    ],
+    "基岩版编辑器": [
+      "现在快速触发多个错误时，弹窗通知会被分组。",
+      "现在仅键盘光标模式处于激活状态时，鼠标左键粘贴会在粘贴预览中被禁用。",
+      "为编辑器工具轨道加入了基元工具。",
+      "现在在已选择仅按键模式的情况下通过下拉菜单、T键或工具激活进入仅按键光标模式时，粘贴预览会出现在不可预测的位置的问题。粘贴预览现在会显示在玩家看向的方块上，若视角内没有方块则会显示在相机视角前方32格处。",
+      "实现了结构详细信息设置的自动保存，并移除了结构详细信息窗格中的保存按钮和保存菜单。",
+      "灵动视效生成资源包按钮现在会将所有已编辑的配置导出资源包，同时提供文件夹链接。"
+    ],
+    "实体过滤器": [
+      "移除了has_equipment_block_tag实体过滤器。",
+      "用于物品行为的物品上的方块标签不应被查看，该过滤器因此被移除。"
+    ],
+    "常规": [
+      "将粒子、交易和相机JSON资源更新至Cereal slice 1.26.10并重新序列化，以与新的模式保持一致。",
+      "摔落伤害视觉效果现在会在实体落地时触发。"
+    ],
+    "物品": [
+      "新的1.26.10附着物现在使用新的渲染控制器controller.render.armor.v2，而不是更新后的controller.render.armor。修复了部分创作者内容的自定义盔甲不会正确渲染的问题。"
+    ],
+    "网络协议": [
+      "修改了PlayerEnchantOptionsPacket的二进制格式。"
+    ],
+    "用户界面": [
+      "修复了在游戏中禁用屏幕动画后会导致HUD无法加载，有时还会导致卡死的问题。（MCPE-236881）",
+      "修复了iOS平台上使用物理键盘时，插入符会移动两次以及退格键会删除过多文本的问题。",
+      "改进了采用缺口、圆角或安全区域的设备上的Ore UI菜单屏幕中可滚动屏幕内容的显示方式。内容现在可以平滑滚动到安全区域下方，而不是被切断。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“熔炉配方书”和“测试版 API”子选项后才可使用。"
+    ],
+    "配方书": [
+      "现在玩家获得相应的材料时会解锁熔炉配方。"
+    ],
+    "图形": [
+      "更新了幼年蜜蜂的MERS纹理以匹配成年蜜蜂的MERS纹理。（MCPE-236685）",
+      "修复了灵动视效模式下的静态彩色光照不会在完全空白的区块中传播的问题。"
+    ],
+    "输入": [
+      "修复了由掌机式更改为底座式Joy-Con后会阻止输入的问题。"
+    ],
+    "音效": [
+      "现在下列幼年生物的生成音效会以正确的音调播放："
+    ],
+    "性能与稳定性": [
+      "修复了PlayStation平台上加载Token FAQ页面时可能发生的崩溃。",
+      "修复了记录Molang内容时可能发生的崩溃。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 26.20.21 — Minecraft Feedback，2026年3月17日。"
+    ]
+  }
+}

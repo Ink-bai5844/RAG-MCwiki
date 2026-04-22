@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100415",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100415",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年4月15日\n下载\n客户端（.json）\nal_version\n1.124\n◄◄Minecraft Indev\nInfdev 20100618►►\n◄Infdev 20100414\nInfdev 20100420►\nMinecraft Infdev的一个版本发布于2010年4月15日，修复了一些漏洞。\n更改\n生物\n常规\n生物现在正常生成。\n大多数生物都会被保存了。\n非生物实体\n常规\n大多数实体都会被保存了。\n射出的箭仍不会被保存。\n游戏内容\n皮肤\n现在可以正常使用自定义皮肤了。\n在离线情况下玩家的皮肤会显示为黑色。\n修复\n修复了3个漏洞\n修复一些损坏的光照代码。\n光照现在正确更新了。\n内存占用量降低。\n生成时未暴露在天空下的方块不再是完全黑色的。\n参考\n(too many) Monsters in infdev and further reports（存档） — The Word of Notch，2010年4月15日。\n导航"
+}

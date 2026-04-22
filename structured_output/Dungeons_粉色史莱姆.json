@@ -1,0 +1,20 @@
+{
+  "title": "Dungeons:粉色史莱姆",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%B2%89%E8%89%B2%E5%8F%B2%E8%8E%B1%E5%A7%86",
+  "structured_content": {
+    "行为": [
+      "粉色史莱姆不会移动，它们生成后会往玩家所在的地方发射粉色的光球来伤害玩家。",
+      "粉色史莱姆会在生成后10秒自行消失。"
+    ],
+    "敌对型": [
+      "粉色史莱姆（Pink Slime）是Minecraft Dungeons中的敌对生物，仅会在腐化锅釜怪Boss战中出现。"
+    ],
+    "外观": [
+      "粉色史莱姆和史莱姆外观无异，但粉色史莱姆的体型只有中型，不像史莱姆那样有大中小的体型，且不会分裂。"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了粉色史莱姆。"
+    ]
+  }
+}

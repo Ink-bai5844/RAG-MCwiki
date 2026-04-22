@@ -1,0 +1,27 @@
+{
+  "title": "命令/setfixedinvslots",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsetfixedinvslots",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "不在命令方块上执行": [
+      "固定一个槽位中最多可存放多少数量的物品。"
+    ],
+    "语法": [
+      "setfixedinvslots <fixedinvslotnum：整数>"
+    ],
+    "参数": [
+      "fixedinvslotnum：整数",
+      "设置最大存放数量，可最多选择3个槽位。"
+    ],
+    "历史": [
+      "此段落暂无内容。",
+      "你可以帮助我们加入信息。"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "基岩版材料/Material rows",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E6%9D%90%E6%96%99%2FMaterial_rows",
+  "structured_content": {
+    "[ 编辑 | 历史 | 刷新 ]文档页面": [
+      "此模板用于生成基岩版材料#材料的表格。"
+    ],
+    "黑石 | | | | | | | | | |": [
+      "Reserved6 | | | | |"
+    ],
+    "竹马赛克台阶 | | | | | | | | | | | | | | |": [
+      "石头台阶 | | | | |tile.double_stone_slab4.stone.name | | | | |tile.stone_slab4.stone.name | | | | |",
+      "花岗岩台阶 | | | | |tile.stone_slab3.granite.name | | | | |tile.double_stone_slab3.granite.name | | | | |",
+      "闪长岩台阶 | | | | |tile.stone_slab3.diorite.name | | | | |tile.double_stone_slab3.diorite.name | | | | |",
+      "安山岩台阶 | | | | |tile.stone_slab3.andesite.name | | | | |tile.double_stone_slab3.andesite.name | | | | |"
+    ],
+    "泥砖台阶 | | | | | | | | | | | | | | |": [
+      "紫珀台阶 | | | | |tile.stone_slab2.purpur.name | | | | |tile.double_stone_slab2.purpur.name | | | | |",
+      "末地石砖台阶 | | | | |tile.stone_slab3.end_brick.name | | | | |tile.double_stone_slab3.end_brick.name | | | | |"
+    ],
+    "下界砖台阶 | | | | |tile.stone_slab.nether_brick.name | | | | |tile.double_stone_slab.nether_brick.name | | | | |": [
+      "石英台阶 | | | | |tile.stone_slab.quartz.name | | | | |tile.stone_slab4.smooth_quartz.name | | | | |",
+      "海晶石台阶 | | | | |tile.stone_slab2.prismarine.rough.name | | | | |tile.double_stone_slab2.prismarine.rough.name | | | | |"
+    ],
+    "仙人掌花 | | | | | | | | | |": [
+      "暗海晶石台阶 | | | | |tile.stone_slab2.prismarine.dark.name | | | | |tile.double_stone_slab2.prismarine.dark.name | | | | |",
+      "海晶石砖台阶 | | | | |tile.stone_slab2.prismarine.brick.name | | | | |tile.double_stone_slab2.prismarine.brick.name | | | | |"
+    ],
+    "雕纹石砖 | | | | |tile.stonebrick.chiseled.name | | | | |": [
+      "苔石台阶 | | | | |tile.stone_slab2.mossy_cobblestone.name | | | | |tile.double_stone_slab2.mossy_cobblestone.name | | | | |"
+    ],
+    "磨制凝灰岩台阶 | | | | | | | | | | | | | | |": [
+      "磨制花岗岩台阶 | | | | |tile.stone_slab3.granite.smooth.name | | | | |tile.double_stone_slab3.granite.smooth.name | | | | |"
+    ],
+    "红树胎生苗 | | | | | | | | | |": [
+      "磨制闪长岩台阶 | | | | |tile.stone_slab3.diorite.smooth.name | | | | |tile.double_stone_slab3.diorite.smooth.name | | | | |",
+      "磨制安山岩台阶 | | | | |tile.stone_slab3.andesite.smooth.name | | | | |tile.double_stone_slab3.andesite.smooth.name | | | | |",
+      "苔石砖台阶 | | | | |tile.stone_slab4.mossy_stone_brick.name | | | | |tile.double_stone_slab4.mossy_stone_brick.name | | | | |",
+      "切制红砂岩台阶 | | | | |tile.stone_slab4.cut_red_sandstone.name | | | | |tile.double_stone_slab4.cut_red_sandstone.name | | | | |",
+      "切制砂岩台阶 | | | | |tile.stone_slab4.cut_sandstone.name | | | | |tile.double_stone_slab4.cut_sandstone.name | | | | |",
+      "红砂岩台阶 | | | | |tile.stone_slab2.red_sandstone.name | | | | |tile.double_stone_slab2.red_sandstone.name | | | | |",
+      "平滑砂岩台阶 | | | | |tile.stone_slab2.sandstone.smooth.name | | | | |tile.double_stone_slab2.sandstone.smooth.name | | | | |",
+      "平滑红砂岩台阶 | | | | |tile.stone_slab3.red_sandstone.smooth.name | | | | |tile.double_stone_slab3.red_sandstone.smooth.name | | | | |"
+    ],
+    "红色下界砖楼梯 | | | | | | | | | |": [
+      "红色下界砖台阶 | | | | |tile.stone_slab2.red_nether_brick.name | | | | |tile.double_stone_slab2.red_nether_brick.name | | | | |"
+    ]
+  }
+}

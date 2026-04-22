@@ -1,0 +1,5 @@
+{
+  "title": "Earth:泥猪",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E6%B3%A5%E7%8C%AA",
+  "text": "本条目介绍的是Minecraft Earth中猪沾上泥的变种。关于其他类似于猪的生物，请见“猪（消歧义）”。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n泥猪\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：0.9格（不包括花）\n宽度：0.9格\n实体ID\n?\n泥猪是泥浆浴鉴赏大师。乍一看您可能不知道，但它们也有着很强的时尚感。\n——Minecraft Earth内描述\n泥猪（Muddy Pig）是猪沾上泥的变种，属于被动型生物。它们有着史诗级的稀有度。\n生成\n如果一只泥猪生成在泥中或者进入了泥，它就会沾上泥并显示出沾满泥的纹理。\n如果一只泥猪生成在泥外或者离开了泥，它就会变干并显示出沾有干的泥的纹理。\n行为\n主条目：猪 § 行为\n与普通的猪相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成摔落伤害的悬崖。\n如果一只泥猪处于干燥状态，那么它就会寻找泥。一旦它发现了泥，就会跳入泥中并四处翻滚，直到它恢复沾满泥的外观。\n音效\n描述\n文件\n空闲时随机播放此音效\nmob.pig.say\n死亡\nmob.pig.death\n受伤\nmob.pig.say\n行走\nmob.pig.step\nBloom\nSFX_muddypig_bloom\n打滚\nSFX_muddypig_wallow\n数据值\nID\n名称\n命名空间ID\n本地化键名\n泥猪\nmud_pig\nentity.mud_pig.name\n历史\nMinecraft Earth\nRelease\n加入了泥猪。\n0.1.0\n为泥猪加入了更多动画。\n0.3.0\n泥猪的动画现已被调整。\n导航"
+}

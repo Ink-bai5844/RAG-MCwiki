@@ -1,0 +1,122 @@
+{
+  "title": "开发者版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是仅开发者可用的测试版本。关于公开发布的测试版本，请见“版本记录”。",
+      "该页面正在草稿中编辑。",
+      "由于页面过旧或未完全翻译等原因，此页面的内容目前位于草稿中。",
+      "请移步至草稿查看或编辑最近的版本。",
+      "此页面列出了目前已知的开发者版本（Developer Build），或称内部版本（Internal version）。这类版本通常是内部测试中的版本，因此很少由非官方人员持有，目前已知的开发者版本大多数是被泄露或官方在媒体中透露的版本。"
+    ],
+    "Pre-Classic和Classic": [
+      "0.0.11a之前的所有版本",
+      "0.0.12a的早期版本",
+      "0.0.13a的早期版本",
+      "0.0.14a的早期版本",
+      "Classic 0.0.14a_08音效测试",
+      "Classic 0.0.15a的一个早期版本",
+      "Classic 0.0.19a的一个早期版本",
+      "0.24_SURVIVAL_TEST的早期版本",
+      "0.26 SURVIVAL TEST的早期版本",
+      "0.28的早期版本"
+    ],
+    "Indev": [
+      "Indev 0.31 20091223-0040的早期版本"
+    ],
+    "Infdev": [
+      "Infdev 20100227-1414的早期版本"
+    ],
+    "Alpha": [
+      "Alpha v1.2.0-preview",
+      "Alpha v1.2.2a"
+    ],
+    "Beta": [
+      "Beta 1.2_02 (20110517)",
+      "Beta 1.3a",
+      "Beta 1.4的早期版本",
+      "Beta 1.6-trailer",
+      "Beta 1.7-trailer",
+      "Beta 1.8-trailer",
+      "Beta 1.8 (PAX Prime)",
+      "Beta 1.6 Test Build 3",
+      "Beta 1.9 Beta 2",
+      "Beta 1.9 Beta 2的截图"
+    ],
+    "正式版": [
+      "1.7.5-wip",
+      "MC2O15[原文如此]",
+      "1ac6b643d9",
+      "1.6.0 DEMO build development",
+      "1.13.0.3",
+      "1.14.0.5",
+      "1.16.0.51 beta build 3849713",
+      "1.16.0.52",
+      "1.16.0.54",
+      "1.16.0.65",
+      "1.16.10.060 build 4837185",
+      "1.16.20.51",
+      "1.16.51.0(64bit)",
+      "1.16.200.50",
+      "1.16.200.54",
+      "1.16.210.05 build 5526115",
+      "1.16.10060.0(64bit)",
+      "1.16.21005.0(64bit)",
+      "1.17.11.01 build 6880185",
+      "1.17.30.23 build 7022333",
+      "1.17.1101.0(32bit&64bit)",
+      "1.17.3023.0(64bit)",
+      "1.18.30.04 build 9275582",
+      "1.18.3004.0(64bit)",
+      "1.19.499.0(64bit)",
+      "1.19.50.02 build 12683682",
+      "1.19.5002.0(64bit)",
+      "1.19.6022.0(64bit)",
+      "1.19.8021.0(64bit)",
+      "1.20.0.22 build 15248555",
+      "1.20.20.0(64bit)",
+      "26.0.43"
+    ],
+    "prototype-lua-scripting-refac***": [
+      "1.15/blaze3d @ 4d7e50b2ad",
+      "1.15/blaze3d @ 214d725f3d",
+      "1.18/gameplay-tweaks @ 8f847b11fb2",
+      "一张开发者版本1ac6b643d9的截图，其中展示了另外几个开发者版本的名称",
+      "1.18/gameplay-tweaks @ 8f847b11fb2的主菜单截图"
+    ],
+    "携带版Demo": [
+      "v0.6.2 alpha",
+      "MINECON 2016中展示的0.16.0的特殊内部版本",
+      "MINECON 2016中展示的携带版0.16.0的特殊内部版本"
+    ],
+    "开发者版本": [
+      "主条目：基岩版 § 开发者版本"
+    ],
+    "教育版": [
+      "0.14.2",
+      "0.16.0"
+    ],
+    "中国版": [
+      "主条目：中国版:开发者启动器版本记录",
+      "Xbox 360版",
+      "1.66.0016.0",
+      "1.66.0033.0",
+      "1.66.0035.0",
+      "0.66.0054.0",
+      "GDC 2012 Build"
+    ],
+    "树莓派版": [
+      "0.1.0 alpha"
+    ],
+    "注释": [
+      "0.0.11a是第一个公开发布的Minecraft版本，在此之前的所有版本都未被发布。"
+    ],
+    "参考": [
+      "https://www.youtube.com/c9Lp9p5yjuo",
+      "https://twitter.com/notch/status/119031614553587713",
+      "MINECON 2015 The Minecraft Team: Behind the Scenes，来自Minecraft。YouTube，2015年8月10日。",
+      "I'm also excited to show the first update to our world selection screen. It didn't feel well integrated with the main menu before, so that's now fixed.，来自@SeargeDP。X（曾名Twitter）。",
+      "https://youtube.com/TycBrFKEteU"
+    ]
+  }
+}

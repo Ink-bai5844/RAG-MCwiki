@@ -1,0 +1,61 @@
+{
+  "title": "携带版0.1.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.1.2",
+  "structured_content": {
+    "默认分类": [
+      "0.1.2"
+    ],
+    "版本码": [
+      "Android（主版本）：",
+      "1025（armeabi-v7a，9）",
+      "Android（J版本）：",
+      "1023（armeabi-v7a，7）",
+      "iOS/iPadOS：",
+      "4862800"
+    ],
+    "发布时间": [
+      "Android - 2011年10月13日[来源请求]",
+      "iOS - 2011年11月17日"
+    ],
+    "未知": [
+      "其他版本的0.1.2"
+    ],
+    "Java版Alpha服务器": [
+      "◄◄0.1.0",
+      "0.2.0►►",
+      "◄0.1.1",
+      "0.1.3►",
+      "v0.1.2 alpha是携带版的一次次要更新，发布于2011年10月13日。这是首个在iOS设备上发布的携带版版本。从此开始，iOS设备拥有了独有的控制。"
+    ],
+    "更改": [
+      "加入了仅背面的第三人称视角。",
+      "为左利手玩家提供了镜像控制。",
+      "加入了游戏内声音调整。",
+      "没有购买游戏时会弹出帮助提示。"
+    ],
+    "内部版本": [
+      "v0.1.2 alpha的内部版本号为0.1.2(1025)，大小为1.57MB。"
+    ],
+    "J版本": [
+      "v0.1.2 alpha的J版本",
+      "v0.1.2j alpha在Google Play上于未知日期发布。其内部版本号为0.1.2(1023)，大小为1.98MB。"
+    ],
+    "J版本的演示版": [
+      "v0.1.2 alpha的免费J版本“lite”演示版曾在Google Play上发布，发布日期未知。[来源请求]2014年中旬，其被从Google Play与App Store中删除。其内部版本号与J版本相同。"
+    ],
+    "演示版": [
+      "v0.1.2的免费“lite”演示版曾在Google Play上发布，发布日期未知。2014年中旬，其被从Google Play与App Store中移除。其内部版本号现未知。",
+      "v0.1.2的免费“lite”演示版也曾在iOS的App Store上于2011年11月21日发布。"
+    ],
+    "画廊": [
+      "MINECON 2011期间Xperia Play展台的游戏玩法",
+      "MINECON 2011"
+    ],
+    "参考": [
+      "https://web.archive.org/web/20111120033506/http://itunes.apple.com/us/app/id479516143?mt=8",
+      "Minecraft - Pocket Edition on iOS!（存档），2011年11月18日。",
+      "https://www.youtube.com/watch?v=pw1xdNdyuWw",
+      "https://www.appspy.com/app/554457/minecraft-pocket-edition-lite"
+    ]
+  }
+}

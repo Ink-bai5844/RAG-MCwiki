@@ -1,0 +1,73 @@
+{
+  "title": "Tutorial:生成下落的方块",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E7%94%9F%E6%88%90%E4%B8%8B%E8%90%BD%E7%9A%84%E6%96%B9%E5%9D%97",
+  "structured_content": {
+    "默认分类": [
+      "本教程所述内容仅适用于Java版。",
+      "下落的方块是一种实体，会受到重力的作用。它有多种应用，可以是简单的落体动画，也可以利用命令方块实现更复杂的功能。这里讲述的是一些比较简单的、使用命令方块的应用。"
+    ],
+    "数据定义": [
+      "参见：实体数据格式 § 其他",
+      "在游戏内部中，该实体是如何被定义的？在它的实体数据中，我们可以窥知一二："
+    ],
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source"
+    ],
+    "*": [
+      "*BlockState：此下落的方块实体存储的方块。如果设置为空气，则游戏立刻清除此实体。未指定或数据无效时默认为沙子。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "*CancelDrop：表示下落的方块是否在落地时立刻被破坏且不放置方块或掉落任何物品。",
+      "*DropItem：（默认为true）表示下落的方块落地无法放置方块而被破坏时是否要掉落物品。如果存储的方块没有对应的方块物品，即使此值设置为true也不会掉落物品。",
+      "FallHurtAmount：（默认为0，*",
+      "*HurtEntities为true时存在并有效）下落的方块每下落一格增加的伤害。",
+      "FallHurtMax：（默认为40，*",
+      "*HurtEntities为true时存在并有效）被这个下落的方块砸中的实体所承受的最大伤害。",
+      "*HurtEntities：（默认为false，但*",
+      "*BlockState指定的方块属于方块标签#anvil时，默认为true）表示是否要对它碰到的实体造成伤害。如果此项为false，但方块本身带有#anvil标签，那么游戏会尝试对碰到它的实体进行伤害，但伤害初始值为0。",
+      "TileEntityData：存储方块的方块实体数据。",
+      "见方块实体数据格式。不包含id、x、y、z。",
+      "*Time：下落的方块已存在的时间，生成时设为0，每游戏刻增加1。当此值超过600游戏刻（30秒），或者处于世界建造高度之外且此值超过100游戏刻（5秒）时，下落的方块就会被删除。",
+      "可见，要操控下落的方块，我们只需修改这些数据即可——它们就像是控制其行为的开关。在正题开始之前，你不妨使用/summon和/data等命令来试验一番，看看效果是否如你所想。",
+      "*BlockState：此下落的方块实体存储的方块。如果设置为空气，则游戏立刻清除此实体。未指定或数据无效时默认为沙子。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "使用/summon命令生成下落的方块。其中，Name字段决定了其将会渲染为何种方块：",
+      "summonfalling_block<X坐标><Y坐标><Z坐标>{BlockState:{Name:\"<方块ID>\"}}",
+      "注意，这只是一个命令模板，并不能直接运行。这里的坐标和方块ID是常见的“待补全项”，你需要把它们填写完整。",
+      "坐标可以通过Tab ↹按键自动补全为所指向的方块坐标。",
+      "所指向的方块的ID可以通过调试屏幕查询，参见调试屏幕 § 右侧。当然，所有方块的ID都可以在Java版数据值页面中查到。",
+      "别忘了，还可以添加Properties字段：",
+      "summonfalling_block<X坐标><Y坐标><Z坐标>{BlockState:{Name:\"<方块ID>\",Properties:{<方块属性>:<值>,...}}}",
+      "很多方块有额外的方块状态变种，比如橡木楼梯使用facing来表示朝向，一些植物方块使用age表示生长阶段等。该字段负责区分这些状态。",
+      "就算不写这个字段，其内部也会填充一个默认值，故该字段可省略。",
+      "试试查询方块状态，这有助于帮助你正确填写这个字段。"
+    ],
+    "相关行为": [
+      "参见：下落的方块 § 行为和方块基本属性 § 可替代",
+      "下落的方块是一个“不稳定”的实体——它的状态可能发生如下变化：",
+      "可见，当我们需要制作与方块有关的变化时，它会有很大用处。"
+    ],
+    "生成下落的方块": [
+      "在其实体数据中，找到以下字段："
+    ],
+    "跳动的紫水晶簇": [
+      "这时可修改Motion字段——该字段表示实体在下一个游戏刻内可以移动的距离。以下命令所生成的下落的方块将以0.5格方块/刻的初速度垂直向上移动后再下落。",
+      "summonminecraft:falling_block~~0.5~{BlockState:{Name:\"minecraft:amethyst_cluster\"},Motion:[0d,0.5d,0d],NoGravity:0b}",
+      "Motion有3个分量，依次对应XYZ轴方向的速度。这里仅设置了Y轴速度，所以一开始会做竖直上移运动。",
+      "由于NoGravity默认false，即默认受到重力影响，所以向上的速度会渐渐减小，之后反向下落。你可以试试将NoGravity设置为true，看看效果如何。"
+    ],
+    "飘浮的方块": [
+      "summonminecraft:falling_block~~0.5~{BlockState:{Name:\"minecraft:amethyst_cluster\"},NoGravity:1b}",
+      "这会生成一个飘浮在空中不动的“方块”。",
+      "其Time将会自动增长，增长读速度为每刻+1。当为600时，下落的方块将消失，同时可能产生掉落物。",
+      "要想制作持续时间长且功能更强大稳定的“幽灵方块”，可使用方块展示实体。"
+    ],
+    "一键命令方块": [
+      "可以通过设置骑乘实体来制作一键命令方块。",
+      "summonfalling_block~~1~{Time:1,BlockState:{Name:redstone_block},Passengers:[{id:armor_stand,Health:0,DeathTime:20,Passengers:[{id:falling_block,Time:1,BlockState:{Name:activator_rail},Passengers:[{id:command_block_minecart,Command:'gamerule commandBlockOutput false'},{id:command_block_minecart,Command:'一直复制此行并在此处输入命令'},{id:command_block_minecart,Command:'setblock ~ ~1 ~ command_block{auto:1,Command:\"fill ~ ~ ~ ~ ~-2 ~ air\"}'},{id:command_block_minecart,Command:'kill @e[type=command_block_minecart,distance=..0.01]'}]}]}]}"
+    ],
+    "你知道吗": [
+      "在基岩版1.16.100以前，可以通过放置或发射数据值为66的刷怪蛋（可通过物品栏修改器或携带版Alpha 0.16.0中的/give命令获得）生成下落的方块实体。",
+      "此法生成的实体表现为一个下落的随机方块。由于缺乏实体NBT，这是在基岩版中生成下落的非原版受重力影响方块的唯一方法。"
+    ]
+  }
+}

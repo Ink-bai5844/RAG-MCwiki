@@ -1,0 +1,5 @@
+{
+  "title": "相片簿",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9B%B8%E7%89%87%E7%B0%BF",
+  "text": "本条目所述内容仅适用于教育版。\n相片簿\n[[|]]\n创造分类（BE）\n物品\n最大堆叠\n1\n可再生\n否\n物品ID\nportfolio\n相片簿（Portfolio）是一种能保存摄像机拍摄的照片的物品。\n获取\n相片簿不能在生存模式中正常获得，但可以通过创造模式物品栏或命令获得。\n用途\n相片簿界面\n用摄像机拍摄完成的照片会在相片簿中展示出来。手持相片簿并按使用键会出现一本有玩家已经拍摄的照片的书，一次展示两页。照片按时间排序。图片下方能够添加标题。按下“添加照片”按钮会将物品栏内的照片导入进相片簿内。按下“导出相片簿”按钮会在指定的文件夹里生成一个名称为“玩家名称-世界名称-创建日期”的.pdf文件，内含该相片簿内所有的照片。按下“导出物品”按钮会将相应的照片以物品形式放入物品栏中。\n数据值\nID\n名称\n命名空间ID\n本地化键名\n相片簿\nportfolio\nitem.portfolio.name\n历史\n携带版Alpha\n0.16.0\nbuild 1\n加入了相片簿。\nbuild 2\n移除了相片簿。\n教育版\n1.0\n加入了相片簿。\n参考\nhttps://education.minecraft.net/support/knowledge-base/using-cameras-portfolios/\n导航"
+}

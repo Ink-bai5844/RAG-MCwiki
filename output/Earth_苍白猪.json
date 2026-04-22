@@ -1,0 +1,5 @@
+{
+  "title": "Earth:苍白猪",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E8%8B%8D%E7%99%BD%E7%8C%AA",
+  "text": "本条目介绍的是Minecraft Earth中颜色苍白的猪变种。关于其他类似于猪的生物，请见“猪（消歧义）”。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n苍白猪\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：0.9格\n宽度：0.9格\n实体ID\n?\n这只小猪虽然少了点色彩，但它的可爱完全足以弥补。\n——Minecraft Earth内描述\n苍白猪（Pale Pig）是猪的变种，属于被动型生物。它们有着罕见级的稀有度。\n行为\n主条目：猪 § 行为\n与普通的猪相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n音效\n描述\n文件\n空闲时随机播放此音效\nmob.pig.say\n死亡\nmob.pig.death\n受伤\nmob.pig.say\n行走\nmob.pig.step\n数据值\nID\n名称\n命名空间ID\n本地化键名\n苍白猪\npale_pig\nentity.pale_pig.name\n历史\nMinecraft Earth\n0.17.0\n加入了苍白猪。\n你知道吗\n苍白猪类似于切斯特白猪，这是一种苍白的猪。\n导航"
+}

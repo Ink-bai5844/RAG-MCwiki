@@ -1,0 +1,151 @@
+{
+  "title": "Java版14w07a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8814w07a",
+  "structured_content": {
+    "默认分类": [
+      "14w07a"
+    ],
+    "发布时间": [
+      "2014年2月14日"
+    ],
+    "快照归属": [
+      "1.8"
+    ],
+    "协议版本": [
+      "11"
+    ],
+    "资源包版本": [
+      "1",
+      "◄◄1.7.10",
+      "1.8.1►►",
+      "◄14w06b",
+      "14w08a►",
+      "14w07a是Java版1.8的第12个快照，发布于2014年2月14日，加入了铁活板门，新的命令/execute、/testforblocks和目标选择器，此外还更新了记分板，并修复了一些漏洞。"
+    ],
+    "铁活板门": [
+      "仅能通过红石开关，与铁门相似。",
+      "通过使用2×2的铁锭来合成1个铁活板门。"
+    ],
+    "/execute": [
+      "允许命令在实体的位置执行。",
+      "示例：/execute @e[type=Chicken] ~ ~ ~ fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:glass"
+    ],
+    "/testforblocks": [
+      "比较世界上的两个区域。",
+      "示例：/testforblocks 100 64 100 107 69 107 0 64 0 masked"
+    ],
+    "目标选择器": [
+      "新的选择器参数可以选定有特定面向角度的实体：",
+      "rxm：x轴最小角度",
+      "rx：x轴最大角度",
+      "rym：y轴最小角度",
+      "ry：y轴最大角度",
+      "示例：@a[rxm=-15,rx=15,rym=-45,ry=45], /say @a[rx=30], don't look down!。"
+    ],
+    "记分板": [
+      "名字开头为“#”的记分板目标将永不会出现在侧栏中。",
+      "新的/scoreboard子命令：/scoreboard operation和/scoreboard test。",
+      "operation子命令可以对分数进行算术运算（+ – * / %）和累计玩家的分数。",
+      "示例：/scoreboard players operation #teamscores redScore += @a[team=red] blueKills将每个红队玩家的杀蓝队数加到红队的杀敌数上。",
+      "test子命令可以用来检测一个记分板数值是否在指定的最小值和最大值之间。",
+      "示例：/scoreboard players test #global anObjective 12 19将检测一个目标的分数是否在12和19之间。",
+      "不同的队伍可以有不同的目标显示在侧栏中。",
+      "示例：/scoreboard objectives setdisplay sidebar.team.yellow anotherObjective（指的是队伍颜色，而非队伍名字）。",
+      "队伍现在可以设定它们的名字是否显示：/scoreboard teams option red nametagVisibility hideForOtherTeam还可以被设为hideForOwnTeam、never或always（默认）。"
+    ],
+    "常规": [
+      "更新了方块模型的格式。",
+      "可利用性降低。",
+      "UV必须为[0,1]（纹理现在不能从相邻的方块纹理中“借用”了）。",
+      "平面至少要有1轴相同（向x，y，或z轴对齐）。",
+      "平面倾斜角度只能是单轴的-45/45°旋转。",
+      "UV方位现在以“像素空间”为单位（方块的十六分之一）。",
+      "翻转了方块底面的UV。"
+    ],
+    "命令方块": [
+      "现在会显示（@e）实体参数。"
+    ],
+    "发射器": [
+      "现在能放置命令方块了。"
+    ],
+    "火把和红石火把": [
+      "放置在墙上的火把和红石火把现在有了倾斜的顶部。"
+    ],
+    "烈焰棒": [
+      "现在与拿着工具的方式相似。"
+    ],
+    "/testfor、/testforblock、/clear": [
+      "能测试NBT列表中的部分匹配。",
+      "示例：/testfor @p {Inventory:[{Slot:6b,id:\"minecraft:diamond_sword\"}],SelectedItemSlot:6}"
+    ],
+    "/tellraw": [
+      "现在能在消息内显示记分板里的分数。",
+      "示例：/tellraw @p {text:\"Have \",extra:[{score:{name:\"Searge\",objective:\"reward\"}},{text:\" diamonds\"}]}"
+    ],
+    "创造模式": [
+      "在创造模式中，玩家可以使用ctrl+选取方块键（默认为鼠标滚轮键）来将方块复制到快捷栏中，包括NBT数据。"
+    ],
+    "旁观模式": [
+      "现在可以分享LAN世界。"
+    ],
+    "资源包": [
+      "资源包现在可以与一个世界打包在一起，通过将其放置在存档的目录内并命名为resources.zip。",
+      "示例：.minecraft/saves/新的世界/resources.zip"
+    ],
+    "调试屏幕": [
+      "在看某个方块时会显示那个方块的坐标。",
+      "方块的物品现在能储存自定义的NBT标签并在放置后融入方块实体中。",
+      "示例：/give @p command_block 1 0 {BlockEntityTag:{Command:\"setblock ~ ~ ~ minecraft:diamond_block\"}}"
+    ],
+    "物品栏": [
+      "重写了物品栏系统。",
+      "不包含在Java版1.8正式版内。",
+      "修复了些漏洞，提升了性能和使改进变得更简单。",
+      "允许游戏不处理的自定义的NBT数据被储存在物品中。",
+      "即使物品的NBT数据在游戏内被修改（如重命名），自定义的标签仍会保持原样。"
+    ],
+    "修复": [
+      "修复了31个漏洞",
+      "1.8前正式版的漏洞",
+      "MC-1818 — 在创造模式中，使用选取键获得头颅时，头颅的Skullowner标签会消失。",
+      "MC-7133 — 在物品栏中，燃烧的熔炉（ID为62）的纹理不显示熔炉的正面。",
+      "MC-11270 — 记分板对离线或不存在的玩家不起作用。",
+      "MC-36947 — 使用/weather clear时，晴天的时长比给定的时间要短。",
+      "MC-41594 — 生成一匹背上有末地水晶的马导致游戏崩溃。",
+      "MC-44829 — 不能加载Twitch运行库。",
+      "MC-46431 — 铁傀儡会扯断拴绳。",
+      "1.8开发版本的漏洞",
+      "MC-44489 — /kill @e命令不能杀死末影龙。",
+      "MC-45106 — Mipmapping值不适用于非标准方块。",
+      "MC-45571 — 农民不会在没有草的超平坦世界生成。",
+      "MC-45773 — 地牢中的箱子不生成。",
+      "MC-46400 — 玩家在旁观模式中按三次F5后切换到创造模式时手臂不可见。",
+      "MC-46559 — 观察生物时，玩家视角固定为两格高。",
+      "MC-46838 — /testfor命令中NBT解析错误。",
+      "MC-47520 — 玩家处于方块下水或熔岩的顶端时，视野会加上蓝色或红色的滤镜。",
+      "MC-47543 — 向地上生成一个具有PickupDelay标签的物品，如果此物品与其他没有此标签的物品合并，则合并后的所有物品都适用此标签。",
+      "MC-47545 — 木门的CanPlaceOn标签不起作用。",
+      "MC-47555 — 不能放置船。",
+      "MC-47596 — 同种掉落物会无视数据值而合并在一起。",
+      "MC-47598 — 甘蔗的颜色不会随着群系的改变而改变。",
+      "MC-47796 — 树叶、草以及高草的纹理很鲜艳。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-47212 — 对背包使用/testfor命令有错误。",
+      "MC-47642 — Hopper: java.lang.ArrayIndexOutOfBoundsException: 4。",
+      "MC-47653 — 火把被放置在一个方块下方时，会短暂出现无效纹理。",
+      "MC-47685 — Hopper: java.lang.ArrayIndexOutOfBoundsException: 3。",
+      "MC-47817 — 幼年僵尸猪人的疾跑时的速度很奇怪。",
+      "MC-47821 — 和平难度下，恶魂不会消失。",
+      "MC-48043 — 手持烈焰棒时，烈焰棒不在手上。",
+      "MC-48341 — 使用/blockdata不能锁定箱子、熔炉等方块，并且显示“此方块不保存blockdata”。",
+      "MC-48357 — 在/kill命令中，方形范围选择器返回的是无序结果。",
+      "MC-48784 — 可以利用重力复制物品。"
+    ],
+    "参考": [
+      "Minecraft snapshot 14w07a（存档），来自Dinnerbone。Mojang.com，2014年2月14日。",
+      "https://www.reddit.com/r/Minecraft/comments/31z5gz/dinnerbone_working_with_inventories/cq6k74n?context=1",
+      "https://twitter.com/Dinnerbone/status/586076509565284352"
+    ]
+  }
+}

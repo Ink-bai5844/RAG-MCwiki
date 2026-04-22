@@ -1,0 +1,5 @@
+{
+  "title": "命令/debugmobspawning",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdebugmobspawning",
+  "text": "本条目所述内容仅适用于Java版。\n调试工具仅应作调试用途使用，而不应在正常游戏过程中开启。开启调试工具可能会崩溃或对存档产生不可逆的损害。\ndebugmobspawning\n需要的权限等级\n2\n限制条件\n仅IDE或启用调试工具MC_DEBUG_DEV_COMMANDS\n在指定位置上进行一次生物的周期生成。\n语法\ndebugmobspawning <类别> <at>\n参数\n<类别>\n指定生成类别。必须为以下之一：monster、creature、ambient、axolotls、underground_water_creature、water_creature、water_ambient或misc。\n<at>：block_pos\n指定开始生成的位置。\n表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行成功\n1\n历史\nJava版\n1.20.3\n23w43a\n加入了/debugmobspawning，仅在IDE中可用。\n1.21.9\npre1\n现在/debugmobspawning命令在启用调试工具MC_DEBUG_DEV_COMMANDS时可用。\n导航"
+}

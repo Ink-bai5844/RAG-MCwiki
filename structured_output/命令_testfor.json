@@ -1,0 +1,54 @@
+{
+  "title": "命令/testfor",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftestfor",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "检测并统计符合指定条件的实体（玩家、生物、物品等）。"
+    ],
+    "语法": [
+      "testfor <victim: target>"
+    ],
+    "参数": [
+      "victim: target：CommandSelector<Actor>",
+      "指定计数的目标。",
+      "必须为玩家名或目标选择器。"
+    ],
+    "无法解析": [
+      "victim: target未能选中一个或多个实体（指定的玩家必须在线上）"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "示例": [
+      "检测Alice是否在线上：/testfor Alice",
+      "统计圆心为(0,64,0)、半径为3米的区域内的生存玩家数量：/testfor @a[x=0,y=64,z=0,r=3,m=0]",
+      "统计圆心为(0,64,0)、半径为20米的区域内的僵尸数量：/testfor @e[x=0,y=64,z=0,r=20,type=zombie]",
+      "检测掉落物：/testfor @e[type=item]"
+    ],
+    "Java版": [
+      "1.5",
+      "13w03a",
+      "加入了/testfor。",
+      "1.8",
+      "14w02a",
+      "加入了dataTag变量。",
+      "/testfor不再为命令方块独用。",
+      "1.13",
+      "17w45a",
+      "移除了/testfor，并加入/execute if entity取代其功能。"
+    ],
+    "携带版": [
+      "1.0.5",
+      "1.0.5.0",
+      "加入了/testfor。"
+    ]
+  }
+}

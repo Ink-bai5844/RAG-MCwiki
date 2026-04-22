@@ -1,0 +1,297 @@
+{
+  "title": "Java版23w12a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8823w12a",
+  "structured_content": {
+    "默认分类": [
+      "23w12a"
+    ],
+    "发布时间": [
+      "2023年3月22日"
+    ],
+    "快照归属": [
+      "1.20"
+    ],
+    "协议版本": [
+      "DEC: 1073741951",
+      "HEX: 4000007F"
+    ],
+    "数据版本": [
+      "3442"
+    ],
+    "资源包版本": [
+      "13"
+    ],
+    "数据包版本": [
+      "13",
+      "◄◄1.19.4",
+      "1.20.1►►",
+      "23w13a►",
+      "23w12a是Java版1.20的首个快照，发布于2023年3月22日，将“1.20更新”实验性内容正式加入到游戏内，加入了紫水晶块的共振功能、校频幽匿感测体、嗅探兽蛋、瓶子草以及5种新的锻造模板，考古特性方面则加入了可疑的沙砾、16种新的陶片和更多的考古地点，并修复了一些漏洞。"
+    ],
+    "校频幽匿感测体": [
+      "幽匿感测体的新变种，无法自然生成。",
+      "可以使用1个幽匿感测体与3个紫水晶碎片合成。",
+      "有一面可以接收红石信号，使其只能检测到频率与该红石信号强度相等数值的振动。"
+    ],
+    "瓶子草植株": [
+      "可用瓶子草荚果在耕地上种出。",
+      "共有5个生长阶段。",
+      "若完全成熟，破坏时掉落瓶子草；若未完全成熟，破坏时掉落瓶子草荚果。"
+    ],
+    "瓶子草": [
+      "一种2格高的装饰性植物。",
+      "可用于合成青色染料。"
+    ],
+    "嗅探兽蛋": [
+      "可以从热带海底废墟中的可疑的沙子中获取。",
+      "两只嗅探兽繁殖后也会产下嗅探兽蛋。",
+      "放置于苔藓块上时会在大约10分钟后孵化。放置于其余方块上时的孵化时长约为20分钟。"
+    ],
+    "可疑的沙砾": [
+      "与沙砾相似，但纹理看起来更粗糙。",
+      "受重力影响，会在落地时消失。",
+      "被挖掘或被活塞推动时不掉落任何物品，用附有精准采集的工具挖掘也不会掉落。",
+      "会在寒带海底废墟和古迹废墟中自然生成。",
+      "用刷子刷扫可疑的沙砾可以刷出物品。",
+      "刷扫时，可疑的沙砾会经历4个阶段，若中途停止，会逐渐恢复原状。",
+      "刷扫完成后，可疑的沙砾会变为普通沙砾。",
+      "带有有效战利品表的可疑的沙砾才能刷出物品。"
+    ],
+    "瓶子草荚果": [
+      "一种新的种子。",
+      "可通过嗅探兽刨挖获得。"
+    ],
+    "陶片": [
+      "加入了垂钓、利刃、佳酿、烈焰、危机、探险、挚友、爱心、心碎、狼嚎、采矿、悲恸、富饶、麦捆、树荫和嗅探16种变种。",
+      "可以在以下5个考古地点中找到：沙漠水井、沙漠神殿、热带海底废墟、寒带海底废墟、古迹废墟。"
+    ],
+    "锻造模板": [
+      "加入了向导、牧民、塑造、雇主和幽静5种盔甲纹饰锻造模板。",
+      "幽静盔甲纹饰锻造模板可在远古城市的箱子中找到，其余可在古迹废墟中的可疑的沙砾中生成。",
+      "更改了沙丘盔甲纹饰锻造模板的物品纹理和实际应用后的盔甲纹理。",
+      "更改了哨兵盔甲纹饰锻造模板实际应用后的盔甲纹理，使用的是原先沙丘盔甲纹饰锻造模板的；并更改了物品纹理。",
+      "更改了塑造盔甲纹饰锻造模板实际应用后的盔甲纹理，使用的是原先哨兵盔甲纹饰锻造模板的。"
+    ],
+    "古迹废墟": [
+      "一种被掩埋的陶瓦建筑群结构。",
+      "自然生成于丛林、针叶林、积雪针叶林、原始松木针叶林、原始云杉针叶林和原始桦木森林。",
+      "主要由泥砖、各色陶瓦和带釉陶瓦以及一些功能方块构成。",
+      "不包含箱子，但会生成可疑的沙子和可疑的沙砾。"
+    ],
+    "标签": [
+      "加入了下列方块标签：",
+      "#combination_step_sound_blocks：#wool_carpets、​moss_carpet、​snow、​nether_sprouts、​warped_roots和​crimson_roots。",
+      "此处定义的方块的行走音效会与其下方方块的行走音效合并。",
+      "#sniffer_egg_hatch_boost：moss_block。",
+      "此处定义的方块会加速嗅探兽蛋的孵化。",
+      "#trail_ruins_replaceable：sand、​gravel、​dirt和​coarse_dirt。",
+      "#vibration_resonators：amethyst_block。",
+      "加入了下列生物群系标签：",
+      "#has_structure/trail_ruins：taiga、​snowy_taiga、​old_growth_pine_taiga、​old_growth_spruce_taiga、​old_growth_birch_forest和​jungle。",
+      "从#inside_step_sound_blocks方块标签中移除了snow、​nether_sprouts、​warped_roots、​crimson_roots、​moss_carpet和​#wool_carpets。",
+      "向#mineable/hoe方块标签中加入了calibrated_sculk_sensor。",
+      "从#vibrations和​#warden_can_listen游戏事件标签中移除了dispense_fail、​piston_contract和​piston_extend，并加入了resonate_1、​resonate_2、​resonate_3、​resonate_4、​resonate_5、​resonate_6、​resonate_7、​resonate_8、​resonate_9、​resonate_10、​resonate_11、​resonate_12、​resonate_13、​resonate_14和​resonate_15。",
+      "将#decorated_pot_shards物品标签中的pottery_shard_archer、​pottery_shard_prize、​pottery_shard_arms_up和​pottery_shard_skull分别改为archer_pottery_shard、​prize_pottery_shard、​arms_up_pottery_shard和​skull_pottery_shard，并加入了angler_pottery_shard、​blade_pottery_shard、​brewer_pottery_shard、​burn_pottery_shard、​danger_pottery_shard、​explorer_pottery_shard、​friend_pottery_shard、​heart_pottery_shard、​heartbreak_pottery_shard、​howl_pottery_shard、​miner_pottery_shard、​mourner_pottery_shard、​plenty_pottery_shard、​sheaf_pottery_shard、​shelter_pottery_shard和​snort_pottery_shard。",
+      "向#trim_templates物品标签中加入了wayfinder_armor_trim_smithing_template、​shaper_armor_trim_smithing_template、​silence_armor_trim_smithing_template、​raiser_armor_trim_smithing_template和​host_armor_trim_smithing_template。",
+      "向#is_overworld生物群系标签中加入了cherry_grove。"
+    ],
+    "紫水晶块": [
+      "现在放置在幽匿感测体旁时具有共振功能。",
+      "当幽匿感测体接收到振动时，紫水晶块会在其位置发送一个频率相同的振动。",
+      "可以在不重新创造振动源的情况下远程传递振动。"
+    ],
+    "幽匿感测体": [
+      "加入了可感测到的15个resonate游戏事件，对应15个振动频率。",
+      "更改了许多可感测的游戏事件的振动频率，新的振动种类及其对应的振动频率见下表："
+    ],
+    "移动": [
+      "1"
+    ],
+    "落地": [
+      "2"
+    ],
+    "与物品互动": [
+      "3"
+    ],
+    "鞘翅滑翔及实体的独有动作（如劫掠兽咆哮、狼甩掉身上的水）": [
+      "4"
+    ],
+    "离开坐骑及装备物品": [
+      "5"
+    ],
+    "骑上坐骑及与实体互动": [
+      "6"
+    ],
+    "实体受伤": [
+      "7"
+    ],
+    "进食及饮用": [
+      "8"
+    ],
+    "方块取消激活": [
+      "9"
+    ],
+    "方块激活": [
+      "10"
+    ],
+    "方块变化": [
+      "11"
+    ],
+    "破坏方块": [
+      "12"
+    ],
+    "放置方块": [
+      "13"
+    ],
+    "传送及放置实体": [
+      "14"
+    ],
+    "爆炸及实体死亡": [
+      "15"
+    ],
+    "告示牌": [
+      "现在在放置后可以通过与其交互来重新编辑文字。",
+      "现在告示牌的两面可以分别显示独立的文字和文字颜色。",
+      "在首次放置时会默认编辑正面。",
+      "现在可以使用蜜脾涂蜡，涂蜡后的告示牌无法再进行编辑。"
+    ],
+    "药水和药箭": [
+      "更改了缓降药水（所有形式）和缓降之箭的颜色。"
+    ],
+    "展示实体": [
+      "现在当interpolation_duration为0时所有先前的值都会被丢弃。",
+      "现在所有的渲染属性都会同时应用到对象上。",
+      "现在展示实体在接收到初始的数据后才会渲染，所以在部分情况下展示实体并不会在插值的第一刻显示。"
+    ],
+    "海底废墟": [
+      "现在包含可疑的沙子和可疑的沙砾。"
+    ],
+    "状态效果": [
+      "更改了缓降和凋零效果的粒子颜色，使其可辨识度更高。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为13。",
+      "将“1.20更新”实验性内容加入到游戏内。"
+    ],
+    "游戏事件": [
+      "移除了piston_contract游戏事件，现在对应的动作会触发block_deactivate游戏事件。",
+      "移除了piston_extend和dispense_fail游戏事件，现在对应的动作会触发block_activate游戏事件。",
+      "更改了许多游戏事件的振动频率："
+    ],
+    "更改后包含": [
+      "1"
+    ],
+    "step、​swim和​flap": [
+      "2"
+    ],
+    "projectile_land、​hit_ground和​splash": [
+      "3"
+    ],
+    "item_interact_finish、​projectile_shoot和​instrument_play": [
+      "4"
+    ],
+    "entity_roar、​entity_shake和​elytra_glide": [
+      "5"
+    ],
+    "entity_dismount和​equip": [
+      "6"
+    ],
+    "entity_mount、​entity_interact和​shear": [
+      "7"
+    ],
+    "entity_damage": [
+      "8"
+    ],
+    "drink和​eat": [
+      "9"
+    ],
+    "container_close、​block_close、​block_deactivate和​block_detach": [
+      "10"
+    ],
+    "container_open、​block_open、​block_activate、​block_attach、​prime_fuse和​note_block_play": [
+      "11"
+    ],
+    "block_change": [
+      "12"
+    ],
+    "block_destroy和​fluid_pickup": [
+      "13"
+    ],
+    "block_place和​fluid_place": [
+      "14"
+    ],
+    "entity_place、​lightning_strike和​teleport": [
+      "15"
+    ],
+    "功能开关": [
+      "移除了update_1_20功能开关以及对应的内置数据包，并将其内容加入到游戏内。"
+    ],
+    "粒子": [
+      "更改了樱花树叶飘落的花瓣粒子的纹理，并将3种状态的花瓣粒子dripping_cherry_leaves、​falling_cherry_leaves和​landing_cherry_leaves合并为cherry_leaves。"
+    ],
+    "声音": [
+      "现在行走于地毯、雪、下界苗和菌索上时，行走音效会与其下方方块的行走音效合并。",
+      "下方方块行走音效的音量和音高都会略低于默认值。"
+    ],
+    "结构后处理器": [
+      "加入了capped后处理器，用于限制指定的结构后处理器中可随机变换的方块的数量。",
+      "必选参数：",
+      "delegate：执行方块变换的结构后处理器。",
+      "limit：指定的结构后处理器中可随机变换的方块的最大数量。",
+      "当达到其设定的最大值前，结构中的方块会随机传递至delegate参数指定的结构后处理器中。",
+      "现在output_nbt字段会引用block_entity_modifier，而不是由自定义规则指定。",
+      "有如下几种内置的block_entity_modifier：",
+      "passthrough：默认值，保留方块实体的原有字段。",
+      "append_static：向方块实体添加静态字段。",
+      "clear：移除方块实体的原有字段。",
+      "append_loot：向方块实体添加战利品表和种子，需通过loot_table参数指定添加到方块实体LootTable字段的战利品表。",
+      "基于方块位置的随机战利品表种子LootTableSeed也会添加到方块实体中。"
+    ],
+    "修复": [
+      "修复了39个漏洞",
+      "1.20前正式版的漏洞",
+      "MC-74955 — 在栅栏旁行走/疾跑并跳跃时，栅栏会发出声音。",
+      "MC-157727 — 蜂蜜块和黏液块内部的小立方体不会显示在物品栏中。",
+      "MC-165221 — 3D模型的药水在GUI中展示不正确。",
+      "MC-167957 — 水平方向射出的烟花火箭能产生脚步声。",
+      "MC-197241 — 狼的项圈颜色可由主人以外的玩家改变。",
+      "MC-201647 — 实体骑乘实体会导致位置与坐标不同步。",
+      "MC-209104 — 在方块内或方块旁用鞘翅飞行，会使方块播放脚步声。",
+      "MC-213936 — “矿车移动”事件不会触发正确振动频率。",
+      "MC-256488 — 竹筏和运输竹筏的模型在地面上是悬空的。",
+      "MC-256551 — 幼年骆驼拥有可查看的物品栏。",
+      "MC-256585 — 悬挂式告示牌的文本存在深度冲突现象。",
+      "MC-259201 — 驴耳朵的顶部和底部颜色错误。",
+      "MC-259879 — 具有过大的shadow_radius的显示实体会导致性能问题。",
+      "MC-260020 — 重新加载世界会重置棕色哞菇吃下的花。",
+      "MC-260043 — 创造模式下饰纹陶罐不会播放破坏的声音。",
+      "MC-260047 — 创造模式物品栏的饰纹陶罐和没有NBT的空白全新饰纹陶罐会匹配最近一次玩家制作的饰纹陶罐的纹理。",
+      "MC-260053 — 当使用调试棒旋转饰纹陶罐时，它会生成一个饰纹陶罐物品。",
+      "MC-260061 — 嗅探兽的耳朵和头部存在深度冲突。",
+      "MC-260069 — 紧挨在一起生长的樱花树的树叶会凋谢。",
+      "MC-260197 — 饰纹陶罐掉落下来的东西没有拾起延时。",
+      "MC-260251 — 嗅探兽的行走动画不会随移动速度改变。",
+      "MC-260282 — 嗅探兽会闻嗅和跟随旁观模式下的玩家。",
+      "MC-260296 — 粉红色花簇的模型没有经过优化。",
+      "MC-260301 — 使用/setblock和/fill命令，用空气替换原有方块时，饰纹陶罐会以掉落物形式掉落。",
+      "MC-260315 — 趋同事项：陶片的纹理与基岩版不一致。",
+      "MC-260317 — 嗅探兽尝试闻嗅它们无法到达的被阻挡的方块。",
+      "MC-260326 — 嗅探兽濒死时仍能挖掘。",
+      "MC-260409 — 樱花树林缺少#is_overworld生物群系标签。",
+      "MC-260503 — 嗅探兽不会挖掘顶部放有非固体方块的土类方块。",
+      "MC-260632 — 骑乘相距过远的实体会导致客户端与服务端不同步。",
+      "MC-260678 — 隐身药水和缓降药水的外观过于相近。",
+      "MC-260750 — 岩浆块为已过时的特性使用不必要的随机刻，造成性能问题。",
+      "MC-260757 — 更新大量的铁栏杆会导致游戏在游戏进行时或是在“保存世界中”屏幕时卡死。",
+      "MC-260777 — 嗅探兽在闻嗅和寻路时会忽略部分危险的方块，导致其受到伤害。",
+      "MC-260799 — 在刷子的字幕中，词语“Sand”没有大写。",
+      "MC-260839 — 生物会把主手持有的武器换成盔甲。",
+      "MC-260885 — 使用初始变换数据召唤的展示实体会在下一次变换的对默认变换数据的插值过程中出现错误。",
+      "MC-260897 — 展示实体的插值前状态异常。",
+      "MC-261015 — 趋同事项：可疑的沙子不生成在温水海洋中的海底废墟里，与基岩版不同。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 23w12a — Minecraft.net，2023年3月22日。"
+    ]
+  }
+}

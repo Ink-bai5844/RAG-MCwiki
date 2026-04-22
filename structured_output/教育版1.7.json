@@ -1,0 +1,58 @@
+{
+  "title": "教育版1.7",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.7",
+  "structured_content": {
+    "默认分类": [
+      "1.7"
+    ],
+    "发布时间": [
+      "Windows 10、macOS、iOS、Android（Beta） – 2018年11月12日"
+    ],
+    "协议版本": [
+      "291",
+      "其他版本的1.7"
+    ],
+    "基岩版": [
+      "New Nintendo 3DS版",
+      "◄◄1.4",
+      "1.9►►",
+      "1.7.0（Windows）、1.7.1（macOS）或1.7.3（iOS）是代码构建器更新的首个正式版，也是教育版的一次更新，加入了水域更新第二阶段的特性，并改进了游戏内编程。"
+    ],
+    "/remove": [
+      "移除世界上的所有智能体。",
+      "玩家能够在HUD上看到智能体的坐标。",
+      "/summon agent现在可以生成或传送使用该命令的玩家的智能体到该玩家的位置。",
+      "新的目标选择器。",
+      "@c用于选择用户的智能体，@v用于选择所有智能体。",
+      "只有拥有worldbuilder权限的玩家才能选择所有智能体。所有用户的worldbuilder权限默认都设置为false。",
+      "普通的目标选择器也可用于选择特定的智能体，因此/tp @e[type=Agent,name=Steve.Agent] @s可以查找所有名称为“Steve.Agent”、类型为智能体的实体，并将它们传送到命令执行者的位置。玩家还可以用更简单的/tp @v[name=Steve.Agent] @s来选择一个并非自己拥有的特定玩家的智能体。",
+      "为智能体加入了刷怪蛋。"
+    ],
+    "Library Beta": [
+      "允许玩家在游戏中查看和下载世界，而无需访问教育版网站。玩家将在主屏幕上看到一个名为“Library”的新按钮，该按钮会生成一个由教师调整的“必须拥有”世界的列表。"
+    ],
+    "HUD": [
+      "在游戏中的HUD中加入了鼠标和键盘控制提示，以帮助玩家学习如何移动、破坏、放置方块等。",
+      "这些提示会为教师默认打开，学生则默认为关闭，这可以在设置菜单中进行调整。"
+    ],
+    "游戏指南": [
+      "在游戏指南菜单中加入了教育版内容。"
+    ],
+    "Educator Resources": [
+      "主菜单上的一个按钮（仅教师显示），教师可以访问官方网站上的新资源，旨在将这些资源与最新、最好的培训、课程与社区内容联系起来。"
+    ],
+    "编程": [
+      "代码构建器现在可以在游戏中使用，而不用通过单独的应用程序。如果在用鼠标/键盘时使用键盘上的C按键，或者在触屏模式时按下屏幕顶部中间、暂停/聊天旁边的智能体图标，玩家可以启动代码连接。",
+      "Code.org和Scratch将不会出现在游戏中，TBD则将在它们不在时出现。代码连接应用程序仍可用于这些应用。",
+      "移除了/code。"
+    ],
+    "修复": [
+      "修复了各种漏洞。"
+    ],
+    "参考": [
+      "Download the Code Builder Update to Learn Coding in Minecraft — Minecraft：教育版，2018年11月13日。[失效链接]",
+      "What's New: November Release (Version 1.7.1)（存档） — Minecraft: Education Edition Support。",
+      "https://minecrafteducation.zendesk.com/hc/en-us/articles/360001429323-Code-Builder-in-Minecraft-Education-Edition-version-1-7-[失效链接]"
+    ]
+  }
+}

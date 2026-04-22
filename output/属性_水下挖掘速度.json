@@ -1,0 +1,5 @@
+{
+  "title": "属性/水下挖掘速度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%B0%B4%E4%B8%8B%E6%8C%96%E6%8E%98%E9%80%9F%E5%BA%A6",
+  "text": "本条目所述内容仅适用于Java版。\n水下挖掘速度\n类型\n正面\n默认值\n0.2\n值域\n0 – 20\n属性ID\nsubmerged_mining_speed\n水下挖掘速度（Submerged Mining Speed）是控制玩家视线浸入水中时挖掘速度的属性。\n行为\n主条目：挖掘 § 挖掘速度\n当玩家视线浸入水中时，游戏会将玩家的挖掘速度乘以此属性计算值，从而影响玩家在水中的挖掘速度。\n适用的生物\n生物\n基值\n玩家\n0.2\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\nenchantment.aqua_affinity/head\nadd_multiplied_total (Op2)\n等级×4\n否\n水下速掘魔咒，应用于head（头盔）槽位，仅限玩家\n历史\nJava版\n1.21\n24w18a\n加入了水下挖掘速度属性，ID为player.submerged_mining_speed。\n24w21a\n水下速掘魔咒修饰符的ID现在是enchantment.aqua_affinity/head，此前为60B1B7DB-FFFD-4AD0-817C-D6C6A93D8A45。\n1.21.2\n24w33a\n水下挖掘速度属性的ID从player.submerged_mining_speed重命名为submerged_mining_speed。\n导航"
+}

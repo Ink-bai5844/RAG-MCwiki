@@ -1,0 +1,40 @@
+{
+  "title": "自定义Boss栏存储格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%87%AA%E5%AE%9A%E4%B9%89Boss%E6%A0%8F%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "自定义Boss栏存储文件是游戏存储自定义Boss栏所用的文件。"
+    ],
+    "存储格式": [
+      "自定义Boss栏存储文件位于<存档根目录>/data/minecraft/custom_boss_events.dat。",
+      "自定义Boss栏存储文件使用GZip压缩的NBT文件格式保存，其内部有下列NBT结构："
+    ],
+    "*": [
+      "*data：存储数据。",
+      "<命名空间ID>：一项自定义Boss栏数据。",
+      "*Color：Boss栏的颜色代码，可以为pink（粉色）、blue（蓝色）、red（红色）、green（绿色）、yellow（黄色）、purple（紫色）和white（白色）。",
+      "*CreateWorldFog：Boss栏是否创建世界迷雾效果。",
+      "*DarkenScreen：Boss栏是否会使天空变得黯淡。",
+      "*Max：Boss栏的最大值。",
+      "*Name：（文本组件）Boss栏所显示的文本。",
+      "*Overlay：Boss栏的显示样式。可以的值有progress（完整进度条）、notched_6（进度条分为6段）、notched_10（进度条分为10段）、notched_12（进度条分为12段）和notched_20（进度条分为20段）。",
+      "*PlayBossMusic：Boss栏是否播放boss音乐。",
+      "*Players：可以看见Boss栏的玩家列表。",
+      ": （UUID）一个玩家。",
+      "*Value：Boss栏的当前值。",
+      "*Visible：Boss栏是否对列表中的玩家可见。",
+      "*DataVersion：保存此自定义Boss栏存储文件的游戏的数据版本。如果此项不存在则游戏认为此项是1343（Java版1.12.2）。"
+    ],
+    "存储行为": [
+      "加载存档时，如果不存在自定义Boss栏存储文件，则游戏会自动生成新文件。",
+      "自定义Boss栏的所有数据由命令/bossbar管理，游戏只会在存档保存时更新此文件。"
+    ],
+    "Java版": [
+      "26.1",
+      "snapshot-6",
+      "加入了自定义Boss栏存储文件。",
+      "此前，自定义Boss栏存储于level.dat的CustomBossEvents标签中。"
+    ]
+  }
+}

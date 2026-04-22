@@ -1,0 +1,156 @@
+{
+  "title": "Dungeons:复仇末影之心",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%A4%8D%E4%BB%87%E6%9C%AB%E5%BD%B1%E4%B9%8B%E5%BF%83",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：",
+      "在渲染图的头部发光方块最上方补上小型紫色火焰方块。"
+    ],
+    "动画的“火冠”进行动态处理（如冲刺时，火冠的位置应该更高）": [
+      "眨眼动画。",
+      "此条目包含虚空回响的内容。"
+    ],
+    "行为": [
+      "复仇末影之心共有7种行为，其中包括5种攻击行为、1种恢复行为和1种被动防御行为；且自身始终免疫虚空强袭附魔效果。有20%远程伤害抗性提升。"
+    ],
+    "基础生命值": [
+      "14800"
+    ],
+    "基础伤害": [
+      "冲刺范围伤害:78",
+      "虚空虹吸范围伤害:200",
+      "复仇末影之心（Vengeful Heart of Ender）是虚空回响DLC的最终Boss，也是有关支配之球和奇厄教主故事的最终Boss。在关卡破碎城堡中作为关底最终Boss存在。"
+    ],
+    "剧透警告！ 本段落包含Minecraft Dungeons的详细内容，阅读后可能会降低你在体验有关部分时的乐趣。后果自负！": [
+      "当玩家在黑曜之巅中击败末影之心后，它似乎死亡了。但是，正如过场动画展示的那样，支配之球的碎片正在自己重新组合成更大的碎片。",
+      "过场动画中的这些碎片是由两个末影人发现的，它们把它带到了末地，并派出了6个携带末影之眼的末影遣使去关闭传送门，这样就没人可以追寻碎片了。回到末地，由于末地的神秘力量，碎片将自己改造成了一个不完美的形式，并在末地荒野和破碎城堡中跟踪玩家。",
+      "最终，在破碎城堡的尽头，复仇末影之心将自己转变成最终形态。玩家设法击败了它，支配之球的最后残余碎片被摧毁。然后玩家穿过传送门，返回主世界并庆祝胜利。"
+    ],
+    "外观": [
+      "复仇末影之心看上去有多节，每节都有紫色的眼睛。它还有4条小腿，长脖子，头部长有两个紫色的长角，尖端、下巴和头顶有紫色火焰，还有锯齿状的牙齿。其肢体会时不时地“抽搐”。"
+    ],
+    "虚空冲击": [
+      "复仇末影之心会在玩家攻击时，向玩家快速冲撞过来，造成持续大量的伤害并强力击飞和击退玩家。"
+    ],
+    "召唤生物": [
+      "复仇末影之心有时会快速甩动身体，释放大量末影螨和附有锋利的末影螨参与到攻击玩家或技能阶段的恢复血量当中。"
+    ],
+    "魔法吐息": [
+      "复仇末影之心有时会在玩家远离时，从口中吐出大量火球和末影液体炸弹，造成大范围伤害并遗留大片末影液体。",
+      "D6_sfx_mob_finalFormVoidSpewIn",
+      "D6_sfx_mob_finalFormVoidSpewOut"
+    ],
+    "末影回复": [
+      "复仇末影之心有时会快速旋转身体，召回场地中的末影螨并恢复1⁄128血量。"
+    ],
+    "碎片庇护": [
+      "复仇末影之心会在2⁄3血量和1⁄3血量时自动使用碎片护盾并遁入虚空池中避免进一步受伤，并会随机使用下列两种攻击方式："
+    ],
+    "虚空弹幕": [
+      "复仇末影之心会在场地边缘召唤几个末地水晶，随后在虚空池中旋转身体，释放极多的末影光弹，覆盖整个屏幕。当光弹碰到水晶时会偏转。光弹会对玩家造成较高伤害并击退一段距离。光弹的个数会随着Boss生命值的减少而增加。",
+      "D6_sfx_mob_finalFormPinWheelIn",
+      "D6_sfx_mob_finalFormPinWheelLoop",
+      "D6_sfx_mob_finalFormPinWheelOut"
+    ],
+    "末影虹吸": [
+      "复仇末影之心会释放大量末影能量，强制吸引玩家并召唤少量末影螨牵制玩家，随后释放冲击波造成大范围伤害且会强力击退玩家。吸引的力度和爆炸的冲击波范围会随着Boss生命值的减少而增强。",
+      "D6_sfx_mob_finalFormGenericLoopV2",
+      "D6_sfx_mob_finalFormVoidPullOut"
+    ],
+    "旋律循环": [
+      "D6 bgm mob blciBossLoop"
+    ],
+    "旋律结束（旧）": [
+      "D6 bgm mob blciBossEnd"
+    ],
+    "战斗胜利": [
+      "D6 bgm env blciPostBoss"
+    ],
+    "开场": [
+      "D6_mix_cin_cinematic3_blciIntro"
+    ],
+    "受伤": [
+      "D6_sfx_mob_finalFormHurt"
+    ],
+    "拖拽": [
+      "D6_sfx_mob_finalFormDragVoice"
+    ],
+    "发射虚空光弹": [
+      "D6_sfx_mob_finalFormLaserShot"
+    ],
+    "Magic chimes": [
+      "D6_sfx_mob_finalFormMagicChimes"
+    ],
+    "吸收末影螨": [
+      "D6_sfx_mob_finalFormEndermiteFeastIn"
+    ],
+    "末影螨落地": [
+      "D6_sfx_mob_finalFormEndermiteLand"
+    ],
+    "召唤末影螨": [
+      "D6_sfx_mob_finalFormEndermiteScatterIn",
+      "D6_sfx_mob_finalFormEndermiteScatterLoopV1",
+      "D6_sfx_mob_finalFormEndermiteScatterOut"
+    ],
+    "生成末影螨": [
+      "D6_sfx_mob_finalFormEndermiteSpawn"
+    ],
+    "Void demon": [
+      "D6_sfx_mob_finalFormVoidDemonLoop"
+    ],
+    "末影爆炸": [
+      "D6_sfx_mob_finalFormVoidSlugExplode"
+    ],
+    "虚空之池拖拽": [
+      "D6_sfx_mob_finalFormVoidPoolDrag"
+    ],
+    "进入/退出虚空之池": [
+      "D6_sfx_mob_finalFormVoidPoolEnter",
+      "D6_sfx_mob_finalFormVoidPoolExit"
+    ],
+    "空闲": [
+      "D6_sfx_mob_finalFormIdle"
+    ],
+    "退场/死亡": [
+      "D6_mix_cin_cinematic4_blciOutroPart1"
+    ],
+    "爬行": [
+      "D6_sfx_mob_imperfectFormSteps"
+    ],
+    "Whoosh": [
+      "D6_sfx_mob_imperfectFormWhoosh"
+    ],
+    "Minecraft Dungeons": [
+      "2021年7月12日",
+      "虚空回响DLC的Boss外观在官方宣传海报上出现。此时它还没有名字。",
+      "2021年7月13日 — YouTube。",
+      "在虚空回响DLC的开发日志中，一位开发者透露虚空回响DLC的Boss名称为复仇末影之心。",
+      "1.10.2.0",
+      "加入了复仇末影之心。"
+    ],
+    "成就": [
+      "主条目：MCD:成就"
+    ],
+    "Heartbreaker": [
+      "在破碎城堡击败复仇末影之心。"
+    ],
+    "—": [
+      "50G"
+    ],
+    "复仇末影之心的“不完全体”，会在末地荒野和破碎城堡中“跟随”玩家": [
+      "复仇末影之心的背景音乐被叫做“Broken Heart of Ender”。",
+      "在游戏内部文件中，复仇末影之心被叫做“完全体（PerfectForm）”，可能指支配之球本身发挥了最大能量。",
+      "在声音文件中，它也被叫做\"最终形态（FinalForm）\"，可能指支配之球的最终形态。",
+      "此外，在Boss战之前，它被叫做\"不完全体（ImperfectForm）\"。",
+      "复仇末影之心的不完全体在爬行时会发出洞穴环境音效。",
+      "第二个Drag Voice音效似乎是被扭曲的\"Beginning\"。一个相似的音效会在要塞的开场动画中听见。"
+    ],
+    "参考": [
+      "Bilibili搬运 — 哔哩哔哩。",
+      "It’s the End, but not the end! Hear from our dev team about Echoing Void – the gripping conclusion of your Dungeons' story, and learn more about the free update, the Ultimate Edition and life after the Orb of Dominance. Watch the full episode now!，来自@dungeonsgame。X（曾名Twitter），2021年7月23日。",
+      "Broken Heart of Ender — YouTube。"
+    ]
+  }
+}

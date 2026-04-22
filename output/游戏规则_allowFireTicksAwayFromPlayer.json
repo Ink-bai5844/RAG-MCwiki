@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/allowFireTicksAwayFromPlayer",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FallowFireTicksAwayFromPlayer",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\nallowFireTicksAwayFromPlayer\n名称\n允许火在远离玩家处蔓延\n描述\n控制火和熔岩能否在距离任何玩家超过8个区块处蔓延。\n分类（JE）\n世界更新\n值类型\n布尔值\n默认值\nfalse\n值域（JE）\n?\n游戏规则ID\nallowFireTicksAwayFromPlayer\nallowFireTicksAwayFromPlayer是控制远离玩家的火是否更新的游戏规则。\n行为\n当allowFireTicksAwayFromPlayer为false时，区块中心与玩家的距离大于128格的区块：\n其中的火不会被游戏更新状态。\n其中的火不会破坏方块。\n其中的火不会传播。\n其中的火不会熄灭。\n其中的熔岩不会产生火。\n历史\nJava版\n1.21.5\n25w06a\n加入了游戏规则allowFireTicksAwayFromPlayer。\n1.21.11\n25w44a\n移除了游戏规则allowFireTicksAwayFromPlayer，并加入fire_spread_radius_around_player取代其功能。\n导航"
+}

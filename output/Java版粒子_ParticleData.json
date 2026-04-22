@@ -1,0 +1,5 @@
+{
+  "title": "Java版粒子/ParticleData",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E7%B2%92%E5%AD%90%2FParticleData",
+  "text": "[ 编辑 | 历史 | 刷新 ]文档页面\n用于在Java版粒子页面生成描述。\n设置1=表示粒子的ID，留空为无ID。\n设置2=表示粒子的图片。\n设置3=表示粒子的描述。\n设置hidden=1将折叠粒子描述。"
+}

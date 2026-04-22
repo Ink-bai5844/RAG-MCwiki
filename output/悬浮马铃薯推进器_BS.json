@@ -1,0 +1,5 @@
+{
+  "title": "悬浮马铃薯推进器/BS",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%82%AC%E6%B5%AE%E9%A9%AC%E9%93%83%E8%96%AF%E6%8E%A8%E8%BF%9B%E5%99%A8%2FBS",
+  "text": "名称\n默认值\n接受值\n描述\nfacing\nnorth\nsouth\neast\nwest\nup\ndown\n方块一面所朝的方向。\n是玩家放置方块时朝向的反方向。\ntriggered\nfalse\ntrue\nfalse\n当方块被激活时为true。"
+}

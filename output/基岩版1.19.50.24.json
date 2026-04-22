@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.19.50.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.19.50.24",
+  "text": "1.19.50.24\n版本\n基岩版\n服务端版本\n1.19.50.24\n版本码\nAndroid：\n951905024（armeabi-v7a，31）\n961905024（x86，31）\n971905024（arm64-v8a，31）\n981905024（x86_64，31）\n类型\n测试版\n发布时间\nXbox, Windows, Android, iOS/iPadOS - 2022年11月9日\n测试版归属\n1.19.50\n下载\n服务端\nWindowsLinux\n协议版本\n560\n◄◄1.19.41\n1.19.51►►\n◄1.19.50.23\n1.19.50.25►\nbeta 1.19.50.24（Android）、Preview 1.19.50.24（iOS/iPadOS/Xbox/Windows）是基岩版1.19.50的第5个测试版，发布于2022年11月9日，更改了恼鬼的模型和纹理，并修复了一些漏洞。\n更改\n生物\n恼鬼\n更改了模型和纹理。\n仍保留了比模型稍大一些的判定箱，以便于其战斗。\n技术性\n生物\n被玩家控制的input_ground_controlled不再会增加自动步数。\n可改用variable_max_auto_step组件。使用\"base_value\": 1.0625和\"jump_prevented_value\": 0.5625可与之前版本保持一致。\n修复\n游戏内容\n修复了玩家靠近缩回的活塞时可能会被推到墙的另一侧的漏洞。\n修复了蜜蜂离开蜂箱时蜂箱不会增加honey_level值的漏洞。（MCPE-163938）\n触摸控制\n现在触摸控制玩家飞行时的键盘控制会与其他控制模式一致，双击Space键会正确取消触控模式下的飞行状态。\n修复了将物品放在创造模式物品栏中的另一物品上时，该物品不会被丢弃的问题。（MCPE-162124）\n命令\n现在执行/execute align xyz entity命令时会产生错误信息，而不是导致崩溃。（MCPE-162733）\n参考\nMinecraft Beta & Preview - 1.19.50.24 — Minecraft Feedback，2022年11月9日。\n导航"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Earth:Minecraft Genoa",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3AMinecraft_Genoa",
+  "structured_content": {
+    "否": [
+      "Minecraft Genoa是Minecraft Earth的首个开发周期，开始于2014年，在2019年逐渐被Minecraft Earth Beta取代。"
+    ],
+    "开发": [
+      "微软自2015年1月21日起发布了几支用Microsoft HoloLens全息透镜随地游玩Minecraft的宣传视频。同时，Jeb发文称自己正在HoloLens上开发Minecraft的玩具和游戏项目。",
+      "E3 2015上，佩戴HoloLens的工作人员与游戏中的玩家互动",
+      "在随后的2015年电子娱乐展（E3 2015）上，微软HoloLens员工与Lydia Winters共同展示了AR版Minecraft。Lydia在Surface Pro 3上游玩Minecraft Windows 10版，随后工作人员通过HoloLens将游戏世界展现在桌面上。",
+      "2019年5月6日，微软发布了Minecraft Earth的预告片。2019年5月8日，微软又展示了Minecraft Earth中的一些AR Mod。Minecraft十周年庆上，Minecraft Earth正式发布。"
+    ],
+    "模式": [
+      "HoloLens上有“墙面”和“现实”2种游戏模式。",
+      "“墙面”模式中，HoloLens会将游戏画面投影到墙上，玩家可用Xbox控制器操控，画面可缩放、固定。",
+      "“现实”模式则是将3D的游戏世界投影至特定位置，如桌面。选定位置后会播放一个全息动画：沙子铺满平面后逐渐下陷，显露出游戏世界的部分区域。被玩家视线锁定的方块会变亮，玩家可通过语音口令或手势在该处挖掘、放置方块。玩家也可以下达口令召唤实体、追踪其他玩家，或是用手缩放、平移游戏世界。"
+    ],
+    "视频": [
+      "https://vimeo.com/396356164",
+      "https://vimeo.com/390266465",
+      "https://vimeo.com/394702886",
+      "https://vimeo.com/387622544",
+      "https://vimeo.com/390425663"
+    ],
+    "画廊": [
+      "2018-2019制作概念"
+    ],
+    "参考": [
+      "https://www.wired.co.uk/article/minecraft-earth-app-beta",
+      "Microsoft HoloLens - Transform your world with holograms - Microsoft YouTube频道，2015年1月21日",
+      "I've tried 2 Minecraft projects on #HoloLens. One is a toy, one is closer to the game, both are awesome! Very much wip, but definitely real，来自@jeb_。X（曾名Twitter），2015年1月21日。",
+      "Microsoft Press Conference - E3 2015，来自GameSpot。YouTube，2015年6月15日。",
+      "What's Minecraft up to? — YouTube。",
+      "I played 'Minecraft' with Microsoft's HoloLens - Engadget，2015年7月8日",
+      "https://www.kellykhristianne.com/kelly-minecraft-earth"
+    ]
+  }
+}

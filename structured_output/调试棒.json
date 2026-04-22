@@ -1,0 +1,111 @@
+{
+  "title": "调试棒",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%B0%83%E8%AF%95%E6%A3%92",
+  "structured_content": {
+    "稀有度": [
+      "Java版：史诗",
+      "基岩版：常见"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "debug_stick": [
+      "调试棒（Debug Stick）是一个用于修改方块的方块状态的物品，它的外观是一个有光效的木棍。",
+      "在基岩版中，调试棒在公开零售版本中不存在，它只在开发者版本中存在。"
+    ],
+    "获取": [
+      "参见：Tutorial:获取任意物品",
+      "调试棒无法在未开启作弊的生存模式的世界中获取。使用创造模式或启用作弊，调试棒可以通过创造模式物品栏（需要启用“管理员用品标签页”，或“已保存的快捷栏”中有调试棒）[仅Java版]或命令等方式获得。"
+    ],
+    "用途": [
+      "调试棒能被用于调整方块状态。对方块敲击可以指定所想要更改的方块状态。例如，可以为命令方块修改conditional与facing这两个方块状态。对方块使用将循环改变指定的方块状态。例如，如果选择了facing这个方块状态，可以让命令方块朝向north（北）、south（南）、east（东）或west（西）。潜行点击将会使它反向循环。",
+      "对于可交互的方块（如箱子、拉杆、蛋糕、告示牌等），使用调试棒并不会改变其方块状态，而是直接使用该方块，除非玩家是在潜行点击。",
+      "调试棒在生存模式和冒险模式下不会发挥作用，但使用时仍会播放交互动画。"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.debug_stick": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:debug_stick_state：调试棒的调试数据。",
+      "<方块命名空间ID>：一个方块和此方块将要修改的方块属性的键值对。",
+      "minecraft:enchantment_glint_override：是否显示光效。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:enchantment_glint_override\":true,\"minecraft:debug_stick_state\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.debug_stick\"},\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"epic\",\"minecraft:item_model\":\"minecraft:debug_stick\",\"minecraft:repair_cost\":0,\"minecraft:lore\":[]}",
+      "在默认组件的基础上，调试棒使用下列组件来保存附加数据：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:debug_stick_state：调试棒的调试数据。",
+      "<方块命名空间ID>：一个方块和此方块将要修改的方块属性的键值对。",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "Java版": [
+      "1.13",
+      "17w47a",
+      "加入了调试棒。",
+      "1.16",
+      "20w10a",
+      "由于火现在有判定箱，现在可以用调试棒调整火。",
+      "1.19.3",
+      "22w44a",
+      "现在调试棒可从创造模式物品栏中获取。"
+    ],
+    "基岩版": [
+      "1.14.0",
+      "1.14.0.1",
+      "加入了调试棒，但只在开发者版本中可以获取并使用。"
+    ],
+    "你知道吗": [
+      "玩家和一些人形生物手持长条状物品（调试棒、木棍、骨头、竹子、烈焰棒、旋风棒）的方式和手持工具类似。"
+    ],
+    "参考": [
+      "MC-200199 — 漏洞状态为“无效”。"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "title": "属性/攻击速度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%94%BB%E5%87%BB%E9%80%9F%E5%BA%A6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "4"
+    ],
+    "值域": [
+      "0 – 1024"
+    ],
+    "attack_speed": [
+      "攻击速度（Attack Speed）是玩家每秒可以进行全力攻击的次数。"
+    ],
+    "行为": [
+      "主条目：近战攻击 § 攻击冷却",
+      "攻击速度为玩家20游戏刻（1秒）内能进行完整伤害近战攻击的次数。"
+    ],
+    "玩家": [
+      "4"
+    ],
+    "base_attack_speed": [
+      "add_value（Op0）"
+    ],
+    "重锤": [
+      "-3.4"
+    ],
+    "铜斧": [
+      "-3.2"
+    ],
+    "铁斧": [
+      "-3.1"
+    ],
+    "锹": [
+      "-3"
+    ],
+    "三叉戟": [
+      "-2.9"
+    ],
+    "镐": [
+      "-2.8"
+    ],
+    "剑": [
+      "-2.4"
+    ],
+    "锄": [
+      "0"
+    ],
+    "effect.haste": [
+      "add_multiplied_total（Op2）",
+      "等级×0.1"
+    ],
+    "effect.mining_fatigue": [
+      "add_multiplied_total（Op2）",
+      "等级×-0.1"
+    ],
+    "Java版": [
+      "1.9",
+      "15w34b",
+      "加入了攻击速度属性。",
+      "1.16",
+      "20w14a",
+      "重命名generic.attackSpeed到generic.attack_speed。",
+      "1.21.2",
+      "24w33a",
+      "攻击速度属性的ID从generic.attack_speed重命名为attack_speed。"
+    ]
+  }
+}

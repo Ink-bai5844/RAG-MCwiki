@@ -1,0 +1,17 @@
+{
+  "title": "移动的活塞/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A7%BB%E5%8A%A8%E7%9A%84%E6%B4%BB%E5%A1%9E%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source"
+    ],
+    "*": [
+      "*blockState：所代表的被移动的方块。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "*extending：表示移动的活塞是否是由推出的活塞移动而被创建的。",
+      "*facing：（0≤值≤5）创建移动的活塞的活塞的方向。从0到5分别对应下上北南西东，如果超过值域则对6取余并取绝对值后对应方向。",
+      "*progress：（0≤值≤1）方块已经移动的进度。如果设置值超过1则重置为1，并到位。",
+      "*source：表示移动的活塞是否为引发移动的活塞或活塞头。"
+    ]
+  }
+}

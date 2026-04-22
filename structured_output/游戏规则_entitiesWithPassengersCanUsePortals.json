@@ -1,0 +1,26 @@
+{
+  "title": "游戏规则/entitiesWithPassengersCanUsePortals",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FentitiesWithPassengersCanUsePortals",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "entitiesWithPassengersCanUsePortals": [
+      "entitiesWithPassengersCanUsePortals是控制带有乘客的实体是否可以穿过传送门的游戏规则。"
+    ],
+    "描述": [
+      "允许被骑乘的实体通过下界传送门、末地传送门和末地折跃门传送。"
+    ],
+    "行为": [
+      "当entitiesWithPassengersCanUsePortals为true时，带有乘客的实体可以瞬间穿过下界传送门、末地传送门和末地折跃门。"
+    ],
+    "Java版": [
+      "1.21",
+      "24w21a",
+      "加入了游戏规则entitiesWithPassengersCanUsePortals。",
+      "pre1",
+      "移除了游戏规则entitiesWithPassengersCanUsePortals。"
+    ]
+  }
+}

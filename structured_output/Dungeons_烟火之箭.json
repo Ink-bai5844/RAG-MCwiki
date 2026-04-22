@@ -1,0 +1,37 @@
+{
+  "title": "Dungeons:烟火之箭",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%83%9F%E7%81%AB%E4%B9%8B%E7%AE%AD",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft Dungeons中的物品。关于Minecraft中的物品，请见“烟花火箭”。"
+    ],
+    "——物品描述": [
+      "烟火之箭（Fireworks Arrow）是Minecraft Dungeons中的法器。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "巍峨壁垒": [
+      "居民："
+    ],
+    "使用": [
+      "使用后会给予玩家1支烟火之箭，发射后会对敌人造成大范围爆炸伤害，伤害取决于当前远程武器面板值和当前法器本身面板值，可以与超级蓄力、力量药水等魔咒或消耗品搭配来造成更高伤害，但不受多级蓄力魔咒的影响。"
+    ],
+    "X 远程伤害": [
+      "30 秒冷却"
+    ],
+    "数据值": [
+      "伤害标签：Damage.Explosion伤害·爆炸",
+      "箭矢物品ID：FireworksArrow",
+      "爆炸半径：4方块距离",
+      "基础伤害：200"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了烟火之箭。"
+    ],
+    "你知道吗": [
+      "生物身上的偏转和荆棘魔咒对烟火之箭无效。"
+    ]
+  }
+}

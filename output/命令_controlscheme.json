@@ -1,0 +1,5 @@
+{
+  "title": "命令/controlscheme",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fcontrolscheme",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\ncontrolscheme\n需要的权限等级\n1\n限制条件\n启用作弊\n修改相机预设的控制方案。\n此命令需与/camera命令一同使用。\n语法\ncontrolscheme <players: target> clear\n清除控制方案。\ncontrolscheme <players: target> set <control scheme: controlscheme>\n设定控制方案。\n参数\nplayers: target：CommandSelector<Player>\n指定要被修改控制方案的玩家。\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\ncontrol scheme: controlscheme：Enum\n指定控制方案。\n必须为字符串，且必须为单个词。必须为以下其中之一：\ncamera_relative — 相对相机进行移动，视角保持水平并跟随移动方向\ncamera_relative_strafe — 相对相机进行移动，视角保持水平并跟随朝向\nlocked_player_relative_strafe — 相对玩家进行移动，视角跟随朝向\nplayer_relative — 相对玩家进行移动，视角保持水平并跟随移动方向\nplayer_relative_strafe — 相对玩家进行移动，视角保持水平并跟随朝向\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\nplayers: target未能选中一个或多个在线玩家\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n被修改的玩家数\n历史\n基岩版\n1.21.80\n实验性玩法\n创建者照相机的实验性功能\n1.21.80.27\n加入了/controlscheme命令。\n1.21.90\n1.21.90.23\n/controlscheme命令不再属于实验性玩法。\n1.21.90.26\ncamera_relative_strafe控制方案不再属于实验性玩法。\n导航"
+}

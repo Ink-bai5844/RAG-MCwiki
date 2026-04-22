@@ -1,0 +1,76 @@
+{
+  "title": "原主机版TU63、CU53、1.67、Patch 32、1.0.13",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU63%E3%80%81CU53%E3%80%811.67%E3%80%81Patch_32%E3%80%811.0.13",
+  "structured_content": {
+    "默认分类": [
+      "TU63"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.12.1857.0",
+      "1.12.1857.0",
+      "1.12.1857.0",
+      "1.12.1857.0"
+    ],
+    "发布时间": [
+      "2018年3月27日",
+      "◄TU62",
+      "TU64►",
+      "CU53",
+      "2018年3月27日",
+      "◄CU52",
+      "CU54►",
+      "1.67",
+      "2018年3月27日",
+      "其他版本的1.67",
+      "PlayStation 4版",
+      "2018年3月27日",
+      "其他版本的1.67",
+      "PlayStation 3版",
+      "2018年3月27日",
+      "其他版本的1.67",
+      "PlayStation 3版",
+      "PlayStation 4版",
+      "◄1.66",
+      "1.68►",
+      "Patch 32",
+      "2018年3月27日",
+      "◄Patch 31",
+      "Patch 33►",
+      "1.0.13",
+      "2018年3月27日",
+      "其他版本的1.0.13"
+    ],
+    "PlayStation Vita版": [
+      "◄1.66",
+      "1.68►",
+      "1.67",
+      "◄1.66",
+      "1.68►",
+      "1.67"
+    ],
+    "Java版Alpha": [
+      "◄1.0.12",
+      "1.0.14►",
+      "TU63/CU53/1.67/Patch 32/1.0.13是原主机版的一次更新，发布于2018年3月27日，修复了一些漏洞。"
+    ],
+    "混搭包": [
+      "添加Star Wars Sequel Skin Pack。",
+      "PS：添加Minecraft Classic Skin Pack 1。",
+      "WIIU和NS：添加Halo Mash-Up Pack。",
+      "添加用于通知玩家末地水晶已经达到世界上限的聊天消息提醒。",
+      "PS4：错误代码已加入了Network错误信息。"
+    ],
+    "修复": [
+      "修复了31个漏洞"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

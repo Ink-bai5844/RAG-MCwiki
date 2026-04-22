@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:速度窃取",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%80%9F%E5%BA%A6%E7%AA%83%E5%8F%96",
+  "structured_content": {
+    "TempoTheft": [
+      "偷取怪物的移动速度并给予你，持续4秒。"
+    ],
+    "——魔咒描述": [
+      "速度窃取（Tempo Theft）是Minecraft Dungeons中的魔咒。会偷取生物的移动速度并给予自身移动速度加成。偷取效果随着魔咒等级提升而提升。"
+    ],
+    "I": [
+      "偷取 17% 速度",
+      "2 附魔点数"
+    ],
+    "II": [
+      "偷取 33% 速度",
+      "3 附魔点数"
+    ],
+    "III": [
+      "偷取 50% 速度",
+      "4 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了速度窃取。"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "毒马铃薯附加包",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%AF%92%E9%A9%AC%E9%93%83%E8%96%AF%E9%99%84%E5%8A%A0%E5%8C%85",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "——市场内描述": [
+      "毒马铃薯附加包（Poisonous Potato Add-On）是由Jigarbov Productions开发的官方附加包，发布于2024年4月1日，作为2024年愚人节玩笑的一部分。"
+    ],
+    "烤毒马铃薯（Baked Poisonous Potato）": [
+      "通过在熔炉烹饪毒马铃薯获得。",
+      "无法通过烟熏炉和营火烹饪。",
+      "可以回复5（）+6饱和度并给予玩家3-4种5级的正面状态效果，这些状态效果会持续30秒。"
+    ],
+    "爆炸毒马铃薯（Explosive Poisonous Potato）": [
+      "使用时会被抛出并产生巨大的爆炸。",
+      "由1个毒马铃薯、4个火药和4个红石粉合成。"
+    ],
+    "毒马铃薯块（Poisonous Potato Nubs）": [
+      "由毒马铃薯合成。",
+      "与药水类似，投掷后会造成中毒状态效果。"
+    ],
+    "爆炸马铃薯块（Explosive Poisonous Potato Nubs）": [
+      "由7个毒马铃薯块、1个火药和1个红石粉合成。",
+      "投掷后会造成小型爆炸。"
+    ],
+    "毒马铃薯靴子（Poisonous Potato Boots）": [
+      "提供4（）护甲值。"
+    ],
+    "毒马铃薯指南（Poisonous Potato Guide）": [
+      "指导玩家如何制作烤毒马铃薯和制作毒马铃薯方块、毒马铃薯剑、毒马铃薯盔甲和毒马铃薯矿车。",
+      "包含附加包的制作人员名单。"
+    ],
+    "毒马铃薯剑": [
+      "攻击力为普通剑的2倍。"
+    ],
+    "扳手（Wrench）": [
+      "Jigarbov Productions制作的所有附加包中都包含的物品。"
+    ],
+    "毒马铃薯方块（Poisonous Potato Block）": [
+      "由9个毒马铃薯合成。"
+    ],
+    "毒马铃薯地毯（Poisonous Potato Carpet）": [
+      "由2个毒马铃薯方块合成。"
+    ],
+    "巨型毒马铃薯（Jumbo Poisonous Potato）": [
+      "由Mutato掉落。"
+    ],
+    "巨型红色毒马铃薯（Jumbo Red Poisonous Potato）": [
+      "由Mashacre掉落。"
+    ],
+    "毒马铃薯气球（Poisonous Potato Balloon）": [
+      "可以骑乘。"
+    ],
+    "毒马铃薯矿车（Poisonous Potato Powered Minecart）": [
+      "不需要铁轨也可以移动。"
+    ],
+    "Mutato": [
+      "一种被动生物, 在破坏马铃薯植株时有2%的概率生成。",
+      "拥有60（ × 30）生命值和7（）的攻击力。",
+      "在攻击时会给予目标15秒的中毒效果。",
+      "可通过马铃薯或毒马铃薯驯服。"
+    ],
+    "块茎行者（Tuber Trekkers）": [
+      "可以被骑乘。",
+      "死亡时掉落其刷怪蛋。"
+    ],
+    "Mashacre": [
+      "Mutato的敌对变种。",
+      "拥有100（ × 50）生命值和20（ × 10）的攻击力。"
+    ],
+    "注释": [
+      "此方块仅在使用Jigarbov的“Papercraft”附加包时可用。"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "title": "基岩版1.20.0.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.0.22"
+    ],
+    "服务端版本": [
+      "1.20.0.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952000022（armeabi-v7a，33）",
+      "962000022（x86，33）",
+      "972000022（arm64-v8a，33）",
+      "982000022（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年4月26日"
+    ],
+    "测试版归属": [
+      "1.20.0"
+    ],
+    "协议版本": [
+      "588",
+      "◄◄1.19.83",
+      "1.20.1►►",
+      "◄1.20.0.21",
+      "1.20.0.23►",
+      "beta 1.20.0.22（ChromeOS/Android）、Preview 1.20.0.22（Xbox/Windows/iOS/iPadOS）是基岩版1.20.0的第3个测试版，发布于2023年4月26日，加入了音乐唱片Relic、新的音乐曲目和/camera命令，并修复了一些漏洞。"
+    ],
+    "物品": [
+      "使用minecraft:record的自定义物品现在在悬浮提示中和在唱片机播放时会显示正确的声音描述。",
+      "将牧民盔甲纹饰锻造模板的图标向右移动了一个像素。（MCPE-168934）",
+      "将向导盔甲纹饰锻造模板的图标向右移动了一个像素。（MCPE-168934）",
+      "修复了物品展示框中的物品在某些情况下显得过小的问题。（MCPE-163399）"
+    ],
+    "音乐唱片": [
+      "加入了音乐唱片Relic，作者为Aaron Cherof。",
+      "目前仅能通过创造模式物品栏或命令获得。",
+      "能通过红石比较器输出15格红石信号。"
+    ],
+    "实验性玩法": [
+      "加入了“实验相机[原文如此]”子选项。",
+      "用于启用/camera命令。"
+    ],
+    "加载提示": [
+      "加入了足迹与故事相关的加载提示。"
+    ],
+    "音乐": [
+      "加入了4首新的音乐，作者为Aaron Cherof：",
+      "“Bromeliad”会在竹林、樱花树林、繁花森林、森林、丛林和稀疏的丛林中播放。",
+      "“Crescent Dunes”会在沙漠和所有种类的恶地中播放。",
+      "“Echo in the Wind”会在樱花树林、繁花森林、繁茂洞穴和所有种类的恶地中播放。",
+      "“A Familiar Room”目前不会播放。",
+      "不同于Java版，这些音乐目前均不会在菜单屏幕中播放。",
+      "更改了以下音乐可播放的位置：",
+      "“Aerie”“Firebugs”和“Labyrinthine”现在不再会在所有种类的丛林中播放。"
+    ],
+    "闪烁标语": [
+      "加入了以下闪烁标语：",
+      "为下列闪烁标语加入了感叹号以匹配Java版："
+    ],
+    "苔藓块": [
+      "现在可以在上方种植甘蔗和竹子。"
+    ],
+    "瓶子草": [
+      "现在能合成出2个青色染料，而不是1个。"
+    ],
+    "火把花": [
+      "现在可用于喂食哞菇。",
+      "哞菇现在可以被喂食火把花。（MCPE-169607）"
+    ],
+    "嗅探兽蛋": [
+      "现在仅当放置于苔藓块上时会发出粒子效果。"
+    ],
+    "可疑的沙砾": [
+      "现在可以在上方种植竹子。"
+    ],
+    "可疑的沙子": [
+      "现在可以在上方种植甘蔗、仙人掌和枯萎的灌木。"
+    ],
+    "幽匿感测体": [
+      "激活状态的持续时长由40游戏刻改为30游戏刻。",
+      "冷却状态的持续时长由1游戏刻改为10游戏刻。"
+    ],
+    "校频幽匿感测体": [
+      "激活状态的持续时长由20游戏刻改为10游戏刻。",
+      "冷却状态的持续时长由1游戏刻改为10游戏刻。"
+    ],
+    "陶片": [
+      "英文名称由“Pottery Shard”更改为“Pottery Sherd”。"
+    ],
+    "嗅探兽": [
+      "现在能被火把花种子吸引。",
+      "嗅探兽现在会倾向于繁殖，而不是倾向于搜寻并刨挖物品或被吸引。",
+      "嗅探兽现在会在刨挖时产生粒子效果。（MCPE-167193）",
+      "嗅探兽不再会在水中搜寻并刨挖物品。",
+      "调整了嗅探兽的行走循环动画，使之更加流畅。",
+      "嗅探兽蛋现在只会在放置在苔藓块上时产生粒子效果，以表示加速孵化。"
+    ],
+    "古迹废墟": [
+      "新增了34个结构文件。",
+      "不再生成沙子和可疑的沙子。",
+      "调整了沙砾和泥土的数量。",
+      "调整了可疑的沙砾的数量。",
+      "可疑的沙砾中的战利品表现在被拆分。",
+      "稀有战利品和普通战利品现在有各自独立的战利品表。"
+    ],
+    "海底废墟": [
+      "向热带海底废墟的可疑的沙子的战利品表中加入了嗅探兽蛋。"
+    ],
+    "Honey, I grew the bees!": [
+      "<3 Max & 99 & Ducky!"
+    ],
+    "附加包和脚本引擎": [
+      "现在南瓜方块会使用minecraft:cardinal_direction字符串类型状态而不是direction整型状态。"
+    ],
+    "命令": [
+      "has item命令选择器现在可以正确检测活动对象的物品栏中是否有已创建的地图或烟火之星。",
+      "现在/inputpermission会在命令栏的预览中显示命令描述。"
+    ],
+    "基岩版编辑器": [
+      "修复了客户端的默认命令权限与多人游戏的命令权限显示不同的漏洞。",
+      "工具模式现在会使用原版键盘进行移动控制，而非使用硬编码的W/A/S/D/Space/⇧ Shift键。现在可以在设置菜单中自定义移动与键盘的绑定。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“假日创造者功能”、“即将推出的创作者功能”、“测试版 API”和“实验相机”子选项后才可使用。"
+    ],
+    "/camera": [
+      "用于修改玩家的相机视角和屏幕的淡入淡出。"
+    ],
+    "附加包": [
+      "将minecraft:cardinal_direction和minecraft:facing_direction的类型更改为字符串。",
+      "minecraft:cardinal_direction拥有north、south、east和west四个有效值。",
+      "minecraft:facing_direction拥有down、up、north、south、east和west六个有效值。",
+      "移除了knockback_resistance物品组件。"
+    ],
+    "API": [
+      "将下列API从测试版移至@minecraft/server 1.2.0:",
+      "将applyDamage(amount: number, options?: EntityApplyDamageByProjectileOptions | EntityApplyDamageOptions): boolean移至2.0。",
+      "将kill(): boolean移至2.0。",
+      "将EntityApplyDamageOptions移至2.0。",
+      "将EntityApplyDamageByProjectileOptionsto 2.0。",
+      "将EntityDamageCause移至2.0。",
+      "将addTag(tag: string)移至2.0。",
+      "将removeTag(tag: string)移至2.0。",
+      "将hasTag(tag: string)移至2.0。",
+      "将getTags()移至2.0。",
+      "将Container、BlockInventoryComponent和EntityInventoryComponent移至2.0。",
+      "将Music APIs从测试版移至正式版。",
+      "将Sound APIs从测试版移至正式版。",
+      "将ModalFormData、MessageFormData和ActionFormData移至0.0。",
+      "修复了MessageFormResponse的响应中按下的按钮和选择相反的漏洞。",
+      "将ItemStackconstructor和getter APIs移至2.0。",
+      "将EntityItemComponent、ItemComponent、ItemTypeand和ItemLockMode移至2.0。",
+      "将applyImpulse(vector: Vector3): void移至2.0。",
+      "将applyKnockback(directionX: number, directionZ: number, horizontalStrength: number, verticalStrength: number): void移至2.0。",
+      "将clearVelocity(): void移至2.0。",
+      "将runCommand从测试版移至2.0。"
+    ],
+    "Enchantments": [
+      "移除了MinecraftEnchantmentTypes类。",
+      "现在附魔类型可以用字符串指定。",
+      "现在ExplosionBeforeEvent的source为可选项。"
+    ],
+    "TameableComponent": [
+      "移除了unimplemented和tameEvent。",
+      "更新了API以更好地处理未加载和非常加载区块的操作。",
+      "现在与处于未加载和非常加载区块的Block物体交互会抛出PositionInUnloadedChunkError: Exception错误。",
+      "现在与维度高度限制之外的区域交互会抛出PositionInUnloadedChunkError: Exception错误。"
+    ],
+    "Dimension": [
+      "getBlock现在的返回Block值现在为可选项，当指定方块处于未加载区块内时会返回undefined。"
+    ],
+    "Signs": [
+      "向BlockSignComponent中的setText、getText、getRawText、setTextDyeColor和getTextDyeColor加入了SignSide参数以支持获取和设置告示牌两边的文字和文字颜色。",
+      "向BlockSignComponent加入了isWaxed属性以表明玩家是否可以编辑告示牌。",
+      "向BlockSignComponent加入了setWaxed方法以禁止玩家编辑告示牌。",
+      "Dimension和Entity的runCommand和runCommandAsync函数现在可以报错。",
+      "runCommand会抛出CommandError错误。",
+      "runCommandAsync会将CommandError移交至reject处理器。"
+    ],
+    "可疑的方块": [
+      "甘蔗、仙人掌和枯萎的灌木现在可以种植在可疑的沙子上。（MCPE-169142、MCPE-169141）",
+      "竹子现在可以种植在可疑的沙子和可疑的沙砾上。（MCPE-169142、MCPE-169141)",
+      "甘蔗和竹子现在可以种植在苔藓块上。"
+    ],
+    "考古": [
+      "古迹废墟不再会部分裸露地生成。（MCPE-168869）",
+      "古迹废墟的可疑的沙砾战利品表中不再会出现重复的红砖抽出项。（MCPE-168856）"
+    ],
+    "瓶子草与瓶子草植株": [
+      "修复了植株纹理显得更暗的问题。",
+      "现在用瓶子草合成青色染料会给予2个染料，而不是1个。（MCPE-169498）"
+    ],
+    "游戏内容": [
+      "楼梯下飞行时不再会禁用飞行。（MCPE-168999）",
+      "蜜蜂进食时不再会发出玩家进食的音效。（MCPE-169567）"
+    ],
+    "用户界面": [
+      "启用“显示坐标”选项后，新的死亡屏幕中不再会显示坐标。",
+      "为缺失感叹号的闪烁标语加入了感叹号以匹配Java版。（MCPE-165962）",
+      "更新了取消骑乘骆驼的提示框以匹配其他可骑乘生物的提示框。"
+    ],
+    "注释": [
+      "据韦氏词典对shard和sherd的解释，英文语境下，尽管shard和sherd基本同义，但考古学上更偏好“sherd”这一词形。即，sherd一词可特指考古发掘出的陶片。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.0.22 — Minecraft Feedback，2023年4月26日。",
+      "MCPE-169958 — 漏洞状态为“已修复”。",
+      "MCPE-171489 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

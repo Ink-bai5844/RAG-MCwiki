@@ -1,0 +1,5 @@
+{
+  "title": "唱片机/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%94%B1%E7%89%87%E6%9C%BA%2FDV",
+  "text": "位\n描述\n0x1\n唱片机是否含有音乐唱片\n0x2\n0x4\n0x8\n（未使用）\n与其绑定的方块实体被用于来记录所包含的音乐唱片。"
+}

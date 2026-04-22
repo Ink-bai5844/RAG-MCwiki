@@ -1,0 +1,26 @@
+{
+  "title": "游戏规则/freeze damage",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Ffreeze_damage",
+  "structured_content": {
+    "freezeDamage": [
+      "freeze_damage[仅Java版]或freezeDamage[仅基岩版]是控制玩家是否会受到冰冻伤害的游戏规则。"
+    ],
+    "行为": [
+      "当freeze_damage[仅Java版]或freezeDamage[仅基岩版]为false时，玩家免疫冰冻伤害（在Java版中为#is_freezing标签包含的伤害类型）。",
+      "此游戏规则不影响玩家冰冻程度的变化和冰冻导致的减速效果。"
+    ],
+    "Java版": [
+      "1.17",
+      "20w48a",
+      "加入了游戏规则freezeDamage。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则freezeDamage重命名为freeze_damage。"
+    ],
+    "基岩版": [
+      "1.16.210",
+      "1.16.210.53",
+      "加入了游戏规则freezeDamage。"
+    ]
+  }
+}

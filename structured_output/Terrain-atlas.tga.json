@@ -1,0 +1,60 @@
+{
+  "title": "Terrain-atlas.tga",
+  "source_url": "https://zh.minecraft.wiki/w/Terrain-atlas.tga",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。",
+      "携带版Alpha 0.14.3中的terrain-atlas.tga，其为最后一个使用该文件的版本",
+      "terrain-atlas.tga及其mipmap变种terrain-atlas_mip0.tga、terrain-atlas_mip1.tga、terrain-atlas_mip2.tga和terrain-atlas_mip3.tga是minecraft.apk中的纹理贴图集，用于加载游戏中的方块纹理。"
+    ],
+    "格式": [
+      "terrain-atlas.tga是一个固定宽度的512×256像素的文件，被分成16×16个不同的正方形，分别对应游戏中每个方块的纹理。",
+      "terrain-atlas_mip0.tga为256×128像素，terrain-atlas_mip1.tga为128×64像素，terrain-atlas_mip2.tga为64×32像素，而terrain-atlas_mip3.tga为32×16像素，分别被分成8×8、4×4、2×2和1×1个正方形，对应游戏中每个方块的mipmap纹理。"
+    ],
+    "携带版Alpha": [
+      "0.8.0",
+      "build 1",
+      "terrain.png不再使用，并被terrain-opaque.png及其mipmap变种terrain-opaque_mip0.png、terrain-opaque_mip1.png、terrain-opaque_mip2.png和terrain-opaque_mip3.png取代。",
+      "build 2",
+      "更新了terrain-opaque.png，并将其及其mipmap变种的文件名分别改为terrain-atlas.tga、terrain-atlas_mip0.tga、terrain-atlas_mip1.tga、terrain-atlas_mip2.tga和terrain-atlas_mip3.tga，同时文件格式由png变为tga。",
+      "移除了terrain.png。",
+      "build 4",
+      "更新了terrain-atlas.tga。",
+      "build 5",
+      "更新了terrain-atlas.tga。",
+      "build 7",
+      "更新了terrain-atlas.tga。",
+      "0.9.0",
+      "build 1",
+      "更新了terrain-atlas.tga，并将该图像垂直反转了。",
+      "0.10.0",
+      "build 1",
+      "更新了terrain-atlas.tga。",
+      "0.11.0",
+      "build 1",
+      "更新了terrain-atlas.tga。",
+      "0.12.1",
+      "build 1",
+      "更新了terrain-atlas.tga。"
+    ],
+    "正式版": [
+      "更新了terrain-atlas.tga。",
+      "0.13.0",
+      "build 1",
+      "更新了terrain-atlas.tga。",
+      "0.14.0",
+      "build 1",
+      "更新了terrain-atlas.tga。",
+      "build 4",
+      "更新了terrain-atlas.tga。",
+      "0.14.2",
+      "更新了terrain-atlas.tga。",
+      "0.15.0",
+      "build 1",
+      "terrain-atlas.tga不再使用并被移除，代之以相互独立的方块纹理文件。"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "title": "基岩版1.14.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.14.1",
+  "structured_content": {
+    "默认分类": [
+      "1.14.1"
+    ],
+    "服务端版本": [
+      "1.14.1.4"
+    ],
+    "内部版本号": [
+      "Android：1.14.1.5",
+      "PS4：2.01"
+    ],
+    "版本码": [
+      "Android（试玩版本）：",
+      "941140105（armeabi-v7a，28）",
+      "Android（主版本）：",
+      "941140105（armeabi-v7a，28）",
+      "942140105（x86，28）",
+      "iOS/iPadOS：",
+      "833993676"
+    ],
+    "发布时间": [
+      "Android, iOS, Fire OS, Windows 10, Windows 10 Mobile, Gear VR, Fire TV, Xbox One – 2019年12月18日",
+      "PS4, Nintendo Switch - 2019年12月19日"
+    ],
+    "测试版本": [
+      "5个测试版"
+    ],
+    "协议版本": [
+      "389",
+      "其他版本的1.14.1"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.14.0",
+      "1.16.0►►",
+      "◄1.14.0.12",
+      "1.14.20►",
+      "1.14.1是基岩版的一次次要更新，在PlayStation 4和Nintendo Switch上发布于2019年12月19日，而在其他平台上发布于12月18日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了21个漏洞"
+    ],
+    "崩溃": [
+      "修复了所有平台上游戏过程中的一些崩溃。",
+      "修复了部分安卓设备上登录Xbox Live账号导致崩溃的问题。",
+      "修复了在Xbox One上更新游戏后导致崩溃和UI损坏的潜在漏洞。"
+    ],
+    "性能": [
+      "优化了玩家较多的区域的性能。",
+      "提升了在精选服务器上加载皮肤的性能。"
+    ],
+    "常规": [
+      "修复了多人游戏下一些奖杯会为全体玩家解锁的漏洞。"
+    ],
+    "游戏内容": [
+      "修正了面朝南方和北方时的视角晃动。（MCPE-56214）"
+    ],
+    "生物": [
+      "幼年蜜蜂受到攻击时，现在也会激怒附近的蜜蜂。",
+      "蜜蜂现在在攻击后会死亡。（MCPE-53860）",
+      "怪物不再生成在草和树叶上。"
+    ],
+    "物品": [
+      "修复了合成某些物品会使物品消失的漏洞。（MCPE-56118）",
+      "修复了奶桶中的奶有时会随机消失的漏洞。（MCPE-57194）"
+    ],
+    "角色创建器": [
+      "修复了部分角色创建器物品显示不正确的漏洞。",
+      "修复了角色创建器页面右侧的下滑栏的问题。"
+    ],
+    "图像": [
+      "修复了资源包禁用后出现损坏纹理的问题。"
+    ],
+    "UI": [
+      "修复了使用分屏且没有购买Nintendo Switch Online订阅的Nintendo Switch访客尝试加入多人游戏世界时出现的提示的问题。",
+      "修复了主菜单上的登录按钮在使用部分语言时的错位问题。",
+      "修复了玩家无法在商城中退出物品栏页面的问题。",
+      "修复了占位符字符出现在资源包和行为包界面上的问题。",
+      "修复了日语游戏界面中的多处漏洞。",
+      "修复了Nintendo Switch平台无法加载Mario skin pack的描述的问题。"
+    ],
+    "你知道吗": [
+      "1.14.1的首个测试版发布于1.14.0正式版发布之前。",
+      "这是自1.2.13以来首个拥有测试版本的次要更新。"
+    ],
+    "参考": [
+      "The Minecraft Bedrock 1.14.1 update is now available! Lots of fixes, especially with login issues on PlayStation 4. Give it a whirl!",
+      "Nintendo Switch players: You should be receiving the update around 7pm Pacific tonight so thanks for hanging in there.，来自@MattGartzke。X（曾名Twitter），2019年12月19日。",
+      "Minecraft - 1.14.1 (Bedrock) — Minecraft Feedback，2019年12月18日。"
+    ]
+  }
+}

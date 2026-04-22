@@ -1,0 +1,11 @@
+{
+  "title": "末影珍珠/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%BD%B1%E7%8F%8D%E7%8F%A0%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "弹射物共通标签，见Template:Nbt inherit/projectile/source",
+      "投掷物弹射物共通标签，见Template:Nbt inherit/item projectile/source"
+    ]
+  }
+}

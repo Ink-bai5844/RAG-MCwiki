@@ -1,0 +1,5 @@
+{
+  "title": "启动器1.6.5",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.6.5",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n1.6.5\n程序类型\nMinecraft启动器\n发布时间\n2014年5月2日\n其他版本的1.6.5\nJava版Beta\n◄◄1.6.3\n2.0.700►►\n1.6.11►\n1.6.5是2014年5月2日发布的一个启动器小更新。\n更改\n测试启动器。\n启动器日志现在会记录proxy了，例如proxy == DIRECT。\n修复\nMCL-3287 - 运行Minecraft.msi时发生未知错误。\n导航"
+}

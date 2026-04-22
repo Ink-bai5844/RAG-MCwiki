@@ -1,0 +1,179 @@
+{
+  "title": "RenderDragon",
+  "source_url": "https://zh.minecraft.wiki/w/RenderDragon",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是末影龙。",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "在Minecraft文件中找到的RenderDragon徽标": [
+      "RenderDragon是基于bgfx的用于基岩版和教育版的跨平台渲染引擎，以取代老旧的HAL着色器。"
+    ],
+    "图形API": [
+      "不同的设备平台使用了不同的图形API，分别如下：",
+      "DirectX 11或12（Windows和Xbox版本）"
+    ],
+    "功能": [
+      "作为视觉和性能升级的一部分，RenderDragon具有边缘高光和新的照明技术。它支持一系列图形功能，具体取决于设备的功能。",
+      "RenderDragon虽然可以提升Minecraft在部分设备上的性能，但同时也降低了Minecraft在不少设备上的性能。",
+      "RenderDragon支持基于物理的渲染（PBR）管线，可用于光线追踪和延迟渲染。PBR纹理格式如下：",
+      "R通道存储金属度，0为非金属、255为完全金属。",
+      "G通道存储自发光值，0为完全不发光、255为最大发光。",
+      "B通道存储粗糙度，0为完全平滑、255为完全粗糙。",
+      "A通道存储次表面散射值（仅延迟渲染支持）。"
+    ],
+    "第三方着色器": [
+      "该段落的内容不代表Mojang Studios或Minecraft Wiki的官方意见。",
+      "目前RenderDragon暂未提供第三方着色器支持，亦不兼容基于HAL的着色器。但借助BetterRenderDragon-xmake、MaterialBinLoader或Matject可修改.bin文件来应用适用于RenderDragon的第三方着色器。"
+    ],
+    "光线追踪": [
+      "关于愚人节玩笑快照中的同名生物，请见“光线追踪（生物）”。",
+      "本段落所述内容已停止更新。",
+      "其最终版本仍然可用，但已不再会收到任何修复和改进。",
+      "RenderDragon支持任何兼容DXR 1.1的显卡使用光线追踪，官方声称支持光线追踪的图形设备有NVIDIA GeForce RTX系列和AMD Radeon RX 6000系列的显卡。但DXR API并不局限于这些显卡，因为已经证明RenderDragon的光线追踪可通过DXR仿真来实现。",
+      "光线追踪可在满足配置需求且装载光线追踪资源包的世界中开启。"
+    ],
+    "操作系统": [
+      "Windows 64位"
+    ],
+    "GPU": [
+      "NVIDIA GeForce RTX 20系列或AMD Radeon RX 6000系列或更高版本"
+    ],
+    "CPU": [
+      "英特尔酷睿 i5或同等/更高性能"
+    ],
+    "RAM": [
+      "8GB或以上"
+    ],
+    "Minecraft版本": [
+      "基岩版1.16.200或更高"
+    ],
+    "延迟渲染": [
+      "主条目：灵动视效",
+      "延迟渲染管线是一组实验性的图形自定义功能，创作者可在资源包中为其提供支持并自定义其效果。",
+      "目前支持的功能有：PBR纹理、点光源[仅为创建者提供的渲染龙功能]、体积雾、全局照明、阴影、光华、色调映射、次表面散射、屏幕空间反射等内容。",
+      "延迟渲染管线可在符合配置需求的世界中开启，若未装载第三方PBR资源包则会使用游戏内置资源包。"
+    ],
+    "历史": [
+      "2019年6月20日",
+      "Helen Zbihlyj在推特上发布了一张在Minecraft Earth上使用RenderDragon v0.0.2的图像。"
+    ],
+    "基岩版": [
+      "1.13.0",
+      "1.13.0.13",
+      "Xbox One平台启用了RenderDragon。",
+      "1.14.0",
+      "PlayStation 4平台启用了RenderDragon。"
+    ],
+    "RTX Beta": [
+      "1.15.0.8",
+      "Windows 10平台的RTX beta启用了RenderDragon。",
+      "1.15.0.9",
+      "修复了与RenderDragon和RTX有关的漏洞。",
+      "1.16.100",
+      "1.16.100.54",
+      "Windows 10平台启用了RenderDragon。",
+      "1.16.100.55",
+      "Windows 10平台禁用了RenderDragon。",
+      "1.16.100.59",
+      "Windows 10平台重新启用了RenderDragon。",
+      "1.16.100.60",
+      "Windows 10平台再次禁用了RenderDragon。",
+      "1.16.200",
+      "1.16.200.51",
+      "Windows 10平台重新启用了RenderDragon。",
+      "1.16.200.53",
+      "现在RenderDragon可在非RTX Beta中支持RTX。",
+      "1.17.40",
+      "1.17.40.20",
+      "Android平台（ARMv7）启用了RenderDragon。",
+      "1.17.40.21",
+      "Android平台（ARMv7）禁用了RenderDragon。",
+      "1.18.10",
+      "1.18.10.22",
+      "Android平台（所有设备）启用了RenderDragon。",
+      "1.18.10.26",
+      "Android平台再次禁用了RenderDragon。",
+      "1.18.30",
+      "1.18.20.21",
+      "Android平台再次启用了RenderDragon。",
+      "1.18.20.25",
+      "Android平台再次禁用了RenderDragon。",
+      "1.18.30.20",
+      "Android平台再次启用了RenderDragon，同时为iOS/iPadOS平台启用了RenderDragon。"
+    ],
+    "正式版": [
+      "Fire、Nintendo Switch平台和Windows 10 x86设备启用了RenderDragon。",
+      "1.20.30",
+      "延迟渲染功能在正式版中不可用。",
+      "1.20.70",
+      "延迟渲染功能在正式版中不可用。",
+      "1.20.80",
+      "延迟渲染功能在正式版中不可用。",
+      "1.21.80"
+    ],
+    "为创建者提供的渲染龙功能": [
+      "1.20.30.20",
+      "为Android、Xbox和Windows平台加入了延迟渲染功能。",
+      "1.20.70.21",
+      "为iOS设备启用了延迟渲染预览功能。",
+      "为延迟渲染加入了点光源阴影功能。",
+      "1.20.80.20",
+      "为延迟渲染加入了次表面散射功能。",
+      "1.21.0",
+      "1.21.0.22",
+      "为延迟渲染功能加入了颜色分级、色调映射和光照预曝光功能。",
+      "1.21.20",
+      "1.21.20.22",
+      "为延迟渲染功能加入了生物光学照明模型和屏幕空间反射功能。",
+      "1.21.30",
+      "1.21.30.21",
+      "现在能够通过纹理集来数据驱动次表面散射功能。",
+      "1.21.30.22",
+      "为延迟渲染功能加入了真实感波浪功能。",
+      "1.21.51.01",
+      "由于一个漏洞，现在处理器架构为ARM64的Android设备未启用RenderDragon，而是启用了旧版本的HAL着色器。",
+      "1.21.51.02",
+      "通过热更新修复了上述漏洞，现在所有符合上述条件的设备均会正确启用RenderDragon。",
+      "1.21.60",
+      "1.21.60.21",
+      "现在光线追踪图像模式完全损坏了，进入使用光线追踪模板创建的地图后也不会自动切换到光线追踪图像模式。",
+      "1.21.60",
+      "1.21.60.23",
+      "为PlayStation平台启用了延迟渲染预览功能。",
+      "1.21.80.20",
+      "为延迟渲染功能加入了水的焦散功能。",
+      "1.21.80",
+      "1.21.80.25",
+      "将图形模式“延迟技术预览”（Deferred Technical Preview）重命名为“灵动视效”（Vibrant Visuals）。",
+      "1.21.90",
+      "1.21.90.25",
+      "移除了使用;切换图形模式的功能。",
+      "1.21.130",
+      "1.21.130.27",
+      "为延迟渲染功能加入了彩色静态方块光照功能。"
+    ],
+    "教育版": [
+      "1.18.32",
+      "1.18.31.0",
+      "启用了RenderDragon。"
+    ],
+    "你知道吗": [
+      "Helen Zbihlyj声称RenderDragon起初是为Java版设计的引擎，尽管后来它没有在Java版中使用。但据Felix Jones所说，代码中没有任何内容可以证明这一点。"
+    ],
+    "画廊": [
+      "由Helen Zbihlyj在Twitter上发布的RenderDragon v0.0.2的图片"
+    ],
+    "参考": [
+      "Someone doesn't watch our official livestreams! 😄 It's ok, I forgive you. 😉 We're still working on RenderDragon, the new graphics engine for Bedrock that also drives Minecraft Earth. Check the pic if you want proof that RenderDragon is still in development.，来自@HelenAngel。X（曾名Twitter），2019年6月20日。",
+      "MCPE-142934 — 漏洞状态为“有意为之”。"
+    ],
+    "A new way to experience Minecraft — Minecraft.net。“There are no changes planned to ray tracing for Windows with the announcement of Vibrant Visuals. Ray tracing for Windows will continue to perform on all supported devices as before, even once Vibrant Visuals is released.”": [
+      "Minimum Requirements For Ray Tracing In Minecraft: Bedrock Edition For Windows",
+      "What's New: Moar Beeeezzz! - Sept 12, 2019 — YouTube。",
+      "MCPE-218532",
+      "Only if the Java team implements Render Dragon. Render Dragon was designed as such that it could be used in the Java codebase as well just in case the Java team wanted to use it.，来自@HelenAngel。X（曾名Twitter），2019年8月23日。",
+      "From what I've seen so far, there's currently nothing in RenderDragon that indicates it is usable in the Java codebase. I'm not convinced it would be good for RenderDragon if Java Edition used it, for now it's best we don't pollute RenderDragon with Java Edition's many issues.，来自@Xilefian。X（曾名Twitter），2021年3月10日。"
+    ]
+  }
+}

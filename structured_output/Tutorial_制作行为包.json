@@ -1,0 +1,463 @@
+{
+  "title": "Tutorial:制作行为包",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%88%B6%E4%BD%9C%E8%A1%8C%E4%B8%BA%E5%8C%85",
+  "structured_content": {
+    "默认分类": [
+      "本教程介绍的是基岩版制作行为包的教程。关于基岩版制作资源包的教程，请见“Tutorial:制作资源附加包”；关于Java版上的数据包，请见“Tutorial:制作数据包”。",
+      "本教程所述内容仅适用于基岩版。"
+    ],
+    "该文章的内容可能与实际略有出入": [
+      "您可以查看中文玩家社区的优质教程。",
+      "此教程需要更新。",
+      "教程中某些信息已经不符合当前版本情况。"
+    ],
+    "该教程需要整理以符合格式指导。讨论": [
+      "请协助改善内容来使它符合规定。"
+    ],
+    "概述": [
+      "这篇文章和“资源包教程”有类似之处，建议先了解一下如何创建资源包，这篇教程可能会忽略一些与资源包教程的共同点。下面会讲解如下内容："
+    ],
+    "所需工具": [
+      "跟随下面给出的步骤继续教程："
+    ],
+    "文本编辑器": [
+      "你可以按照自己的喜好选择任意的文本编辑器，甚至是Windows自带的记事本。手机端的文件管理器通常集成了文本编辑的功能，因此也可以考虑使用。",
+      "电脑/Linux：",
+      "集成开发环境（IDE）：Visual Studio Code下载地址",
+      "手机："
+    ],
+    "MT管理器 下载地址（Android）": [
+      "另外，如果你的iPhone/iPad已越狱，也可以使用iFile或者Filza。"
+    ],
+    "文件管理器": [
+      "可以使用任何一种文件管理器。Windows可以用系统自带的文件管理器和解压缩软件（但是请你安装好压缩和解压用的软件，如WinRAR，7z等，以便不时之需）。iOS/iPadOS设备上则可以用系统自带的“文件”应用，或是文件全能王（英文名FileMaster）；Android可以使用推荐使用MT管理器，功能比较齐全，也可以选择ES文件管理器，最新的ES文件管理器还具备了代码纠错功能，但美中不足的是其编写代码系统很不好用，仅推荐作为文件管理器。"
+    ],
+    "示例附加包": [
+      "官方提供的示例附加包（下载地址）可以帮助你了解行为包的基本格式，同时也提供了原版的部分JSON文件及原版纹理供你参考，行为包很多时候都需要与资源附加包相配合，建议解压后保留里面的所有文件。"
+    ],
+    "JSON数据格式": [
+      "参见：Tutorial:NBT与JSON § JSON的语法",
+      "在开始制作行为包之前，我们需要先快速了解一下JSON是怎么运作的。我们不会去太过于深入JSON技术的一些细节，但是如果你希望了解更多，你可以参阅[1]。",
+      "JSON里由两种不同的数据结构所组成："
+    ],
+    "键值对（对象表示键值对）": [
+      "例如：\"name\": value"
+    ],
+    "对象数组": [
+      "例如：[\"value1\", \"value2\", ...]",
+      "你可以创建一个由键值对组成的对象。值也可以是数组或对象。"
+    ],
+    "对象范例": [
+      "{\"minecraft:scale\":{\"value\":0.5}}",
+      "上面的对象由一个字符串组成，其中\"minecraft:scale\"是键（该对象的名称），值是另一个键值对（\"value\": 0.5）。"
+    ],
+    "带列表的对象范例": [
+      "{\"minecraft:health\":{\"value\":10,\"max\":20}}"
+    ],
+    "带数组的对象范例": [
+      "{\"minecraft: type_family\":{\"family\":[\"monster\",\"undead\"]}}"
+    ],
+    "注意": [
+      "键与值之间总是使用冒号分开，值之间则使用逗号分开。另外，每一个左花括号{必须用右花括号}关闭，即不允许只出现一个左花括号但是没有右花括号的情况；方括号[]、双引号\"\"同理。这一点非常重要！请务必记住。如果上述符号没有封闭，将可能造成错误的结果，让你的JSON代码无法执行。",
+      "单从文件名称和大致结构看来纹理包和行为包的“manifest.json”似乎是完全一样的。但是modules中的“type”决定了它是哪种类型的包，行为包对应“data”，纹理包对应“resources”，脚本API包对应“script”。不过与此同时，你需要让header和modules的UUID不同，同样的纹理包的所有UUID也不能和行为包重合。如果真的出现相同的情况，则会导致只能导入其中一个包。即使该资源包仅有manifest.json也是可以成功导入的，因此导入的成功与否并不代表资源包的内容是否正确。若manifest.json出现错误，则会出现<该资源包无法解析>的字样，因此若没有可用的代码验证工具，可上sojson将代码复制进网址后进行在线格式验证。",
+      "在Minecraft中，这不是有效的json！这只是一个如何编写一个可用实体json的示例。如果你查看一下现有的pig.json你将会注意到“在这填写组件”这一部分事实上已经写入了真正的组件。",
+      "format_version是用来告诉Minecraft该读取哪个版本的JSON。当我们升级JSON文件并添加新组件时，应当告诉游戏它需要寻找对应版本。这是通过修改format_version后的版本号来完成的。",
+      "所以，请你尽可能不改变这个数字，因为当Minecraft的默认JSON更新时，你也需要更新你的JSON来适应新的变化。一旦你更改了你的JSON，你就需要改变这个版本号。你应该把官方已更新的JSON复制过来，做好你自己的修改后再覆盖回去。请使用官方的版本号，不要使用自己的版本号。"
+    ],
+    "创建行为包": [
+      "行为包作为附加包的一部分，允许你更改一个实体的行为来达到全新的表现效果。不过目前仅支持添加或修改一个实体已经存在的行为（当然这个实体也应该是存在的）。这个简单的教程将向你展示如何将苦力怕的爆炸行为添加到猪身上，不过在修改猪之前，我们要先让别人知道自己是这个附加包的作者。"
+    ],
+    "步骤": [
+      "找到com.mojang文件夹中的development_behavior_packs文件夹，下面的表格展示了com.mojang文件夹的默认位置。"
+    ],
+    "Windows，正式版": [
+      "独立内容：%APPDATA%\\Minecraft Bedrock\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock\\Users\\Shared\\games\\com.mojang"
+    ],
+    "Windows，Minecraft Preview": [
+      "独立内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\Shared\\games\\com.mojang",
+      "Minecraft给用户分配的用户ID，区分不同的微软账户与离线账户。"
+    ],
+    "Android和Fire OS": [
+      "应用程序：/data/user/<Android用户ID>/com.mojang.minecraftpe/games/com.mojang",
+      "外部：/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftpe/files/games/com.mojang",
+      "Android系统给用户分配的用户ID，一般情况下设备拥有者的用户ID为0。"
+    ],
+    "我的iPhone/Minecraft/games/com.mojang": [
+      "将原版行为包文件夹复制下来并粘贴到这个文件夹中，重命名为“tutorial_behavior_pack”。接着，打开这个新创建的文件夹。"
+    ],
+    "manifest.json": [
+      "manifest.json在行为包中相当于目录及清单的作用。因此manifest.json是一个行为包的必要组成部分。"
+    ],
+    "json": [
+      "{\"format_version\":2,\"header\":{\"description\":\"行为包简介\",\"name\":\"行为包名称\",\"uuid\":\"ee649bcf-256c-4013-9068-6a802b89d756\",//uuid采用16进制\"version\":[1,0,0],//行为包版本\"min_engine_version\":[1,19,0]//行为包运行版本最低要求},\"modules\":[{\"description\":\"子行为包简介\",\"type\":\"data\",//表示该包是行为包\"uuid\":\"fa6e90c8-c925-460f-8155-c8a60b753caa\",//uuid采用16进制\"version\":[1,0,0]//子行为包版本}]}",
+      "当然，你完全可以把原版行为包的“manifest.json”复制进你的行为包文件夹并修改它。如果你需要让你行为包配套纹理绑定到行为包上，就要让行为包中“dependencies”里面的“uuid”和纹理包中modules的“uuid”相同。",
+      "{\"minecraft:entity\":{pig}scale11.111\"format_version\":0.1,\"component_groups\":{在这填写组件组},\"components\":{在这填写组件},\"events\":{在这填写事件}}}"
+    ],
+    "创建行为包图标": [
+      "创建行为包图标的过程其实与创建资源包图标相同，可以在创建资源包的教程中查看细节。当然，资源包和行为包图标一样也是可以的。可以命名一个pack_icon.png的图片，将其放在行为包根目录里。"
+    ],
+    "测试自己的行为包": [
+      "现在可以尝试运行了！创建一个新的世界，在创建世界页面的左边可以看到行为包选项，点进去之后找到你导入的行为包并选中。如果有弹窗就点确定，一般来说，行为包会导致这个世界不再能够获得成就：",
+      "如果你的行为包存储在behavior_packs而不是上文提到的development_behavior_packs，每当你更改行为包时，你都需要创建一个新世界，因为游戏会在创建世界时制作行为包的副本。修改世界文件夹中包含的附加包或将行为包文件存储到development_behavior_packs都可以避免这种情况。对于前者，如果你想将这个包应用到其他世界，则还需要手动将它复制回com.mojang/behavior_packs文件夹。"
+    ],
+    "设置JSON文件结构": [
+      "现在我们的这个包所需的东西已经准备好了，让我们把这些json文件放进一个文件夹里。",
+      "在这个名为“tutorial_behavior_pack”的文件夹里，新建一个名为“entities”的文件夹。",
+      "所有改变实体行为的json文件都放在entities文件夹内。我们开始吧。",
+      "首先，把pig.json从bedrock-samples-游戏版本号/Behavior_Pack/entities/pig.json复制出来，然后，把它粘贴到entities文件夹里面。现在pig.json已经复制完了，请用你选择的文本编辑器打开它。"
+    ],
+    "实体JSON概述": [
+      "在我们修改JSON代码前，让我们首先简要地看看我们的实体.json怎么建立。",
+      "Minecraft实体JSON有4个部分：",
+      "minecraft:entity",
+      "这是每个生物的主要对象，接下来所有行为behavior和事件event都是这个对象中包含的值。"
+    ],
+    "组件组（Component groups）": [
+      "用于定义一组行为，用于简单地去除或增加多个行为，对于改变生物状态十分有用（例如幼年猪与成年猪行为的转换）。",
+      "在pig.json中含有pig_baby、pig_adult两个复合标签组。可以看到，只有当某个组件组当前被加入这个实体中时，这个组件组才会运行。因此，当这只猪是幼年猪时，pig_baby这个组件组将会被加入并运行，而pig_adult则不会。"
+    ],
+    "组件（Components）": [
+      "用于定义该种生物的共有行为。",
+      "可以看到“minecraft:identifier”和“minecraft:type_family”存在于这一部分，因为我们希望每一种猪都有这些行为。"
+    ],
+    "事件（Events）": [
+      "事件用于加入或移除复合标签组。事件被我们加入的组件或者Minecraft本身的代码所触发。",
+      "事件可以使用randomize函数在不同结果之间进行选择（请参阅pig.json中的“minecraft：entity_spawned”）。 请注意，randomize的权重可以增加到100以上。这是因为它们不是百分比！ 如果你把成年猪的比重设定为23，然后将小猪的比重设定为100，那么你将有23/123的机会获得成年猪和100/123的机会获得一头小猪。",
+      "“note:”的组件",
+      "minecraft:identifier",
+      "这个语句对每一个实体来说都是必要的。它告诉游戏你的JSON对哪些实体有效。",
+      "请注意：标识符（identifier）必须被正确命名！如果乱输你可能会遇到一些不可描述的事情或是实体大罢工。不知道/不确定如何命名？请参考原版行为包中关于那个实体的JSON文件。（在bedrock-samples-游戏版本号/Behavior_Pack/entities/）",
+      "minecraft:type_family",
+      "它为实体设置族类型。族类型利用多种多样的要素，选择特定的实体。具体例子请参考“minecraft:rideable”和“minecraft:breedable”。",
+      "minecraft:entity_spawned",
+      "当你规定的实体生成时，这个语句会被触发。 在pig.json中有一个随机化函数，可以随机地生成大猪或小猪。你可以阅读它来加深理解。"
+    ],
+    "现在我们已经明白了一个实体是如何被设置的；是时候魔改一下关于猪的代码了！": [
+      "找到creeper.json和pig.json文件（在bedrock-samples-游戏版本号/Behavior_Pack/entities/）然后分别打开它们。你眼前应该有两个分离的窗口（这样便于来回切换）。",
+      "首先，让猪找到一个攻击对象。你可以往pig.json的组件对象中写入“minecraft:nearest_attackable_target”和“minecraft:target_nearby_sensor”来达到这一目的。",
+      "然后，猪要找目标。在组件对象中找到“minecraft:behavior.random_look_around”。它应该刚好在“events”小节之前。"
+    ],
+    "最后，爆炸吧！从creeper.json中复制“target_nearby_sensor”和“nearest_attackable_target”组件，粘贴到pig.json的“random_look_around”组件之后。（下边有详细代码供查看）": [
+      "pig.json片段:",
+      "\"minecraft:behavior.random_look_around\": { \"priority\": 9 }, \"minecraft:behavior.nearest_attackable_target\": { \"priority\": 1, \"entity_types\": [ { \"filters\": { \"other_with_families\": \"player\" }, \"max_dist\": 16 } ], \"must_see\": true }, \"minecraft:target_nearby_sensor\": { \"inside_range\": 3.0, \"outside_range\": 7.0, \"on_inside_range\": { \"event\": \"minecraft:start_exploding\", \"target\": \"self\" }, \"on_outside_range\": { \"event\": \"minecraft:stop_exploding\", \"target\": \"self\" } }",
+      "注意：最后的括号后没加逗号，这是因为“minecraft:target_nearby_sensor”是最后一个组件（话说完了，不用逗号）。",
+      "minecraft:nearest_attackable_target",
+      "这个组件让实体在你定义的限制下攻击最近的目标。下面是一些设置的说明。",
+      "Priority – 优先级，设置这个组件的重要程度。优先级数越高，组件就越可能优先运行（比如两个组件冲突时）。"
+    ],
+    "Entity_types – 选择你定义的实体，把它/它们设置为目标。（上边提到过）": [
+      "Max_dist – 最大距离。目标在这个范围内才能被追踪和攻击。",
+      "Must_see – 必须被看见。目标必须在玩家的视野范围内，才会被你设置的实体攻击。",
+      "在上面的代码中，我们选定了玩家作为目标。当玩家走进以猪为中心16块为半径的区域时，就会遭到追击。",
+      "minecraft:target_nearby_sensor",
+      "目标靠近传感器。在你设定的范围内如果有目标，这个组件就会被触发。"
+    ],
+    "Outside_range – 设置“外部范围”的距离": [
+      "On_inside_range – 当目标进入“内部范围”，触发这个函数内的语句。",
+      "On_outside_range – 当目标脱离“外部范围”，触发该函数内的语句。",
+      "上面的代码中，我们想要利用on_inside_range和on_outside_range触发“minecraft:start_exploding”（开始爆炸）和“minecraft:stop_exploding”（停止爆炸）。当然现在啥也不会发生，因为我们还没添加这两个事件呢！（下面就要讲怎么添加事件）"
+    ],
+    "添加事件": [
+      "在pig.json中滚动到“events”对象底部并在“minecraft:on_unleash”的右花括号后添加一个逗号。我们将添加新的开始/停止爆炸事件。",
+      "从creeper.json复制“minecraft:start_exploding”和“minecraft:stop_exploding”事件，粘贴到pig.json。pig.json看起来应该像这样（新的文本以绿色高亮）。",
+      "pig.json 片段:",
+      "\"minecraft:on_unleash\": { \"remove\": { \"component_groups\": [ \"minecraft:pig_leashed\" ] } }, \"minecraft:start_exploding\": { \"remove\": { \"component_groups\":[ \"minecraft:hunting\" ] }, \"add\": { \"component_groups\": [ \"minecraft:exploding\" ] } }, \"minecraft:stop_exploding\": { \"remove\": { \"component_groups\": [ \"minecraft:exploding\" ] }, \"add\": { \"component_groups\": [ \"minecraft:hunting\" ] } }",
+      "现在我们带来了苦力怕的事件，但它需要一些清理。我们的猪不需要一个狩猎组件组。因此我们可以从start_exploding移除“remove”部分，从stop_exploding移除“add”部分。现在我们的代码看起来像这样：",
+      "pig.json 片段:",
+      "\"minecraft:on_unleash\": { \"remove\": { \"component_groups\": [ \"minecraft:pig_leashed\" ] } }, \"minecraft:start_exploding\": { \"add\": { \"component_groups\": [ \"minecraft:exploding\" ] } }, \"minecraft:stop_exploding\": { \"remove\": { \"component_groups\": [ \"minecraft:exploding\" ] } }",
+      "注意两个事件分别在添加和移除一个组件组叫做“minecraft:exploding”。我们的pig.json还没有这个组件组呢！"
+    ],
+    "添加组件组": [
+      "向上滚动到pig.json的顶部到“component_groups”部分。找到最后一个组件组，该组应该是pig_leashed，并在其右大括号中添加逗号。现在输入以下内容，或者从creeper.json复制“minecraft:exploding”组件组。pig.json现在应该如下所示（绿色新代码）："
+    ],
+    "pig.json 片段": [
+      "\"minecraft:pig_leashed\": { \"minecraft:behavior.move_towards_restriction\": { \"priority\": 2, \"speed_multiplier\": 1.0 } }, \"minecraft:exploding\": { \"minecraft:explode\": { \"fuseLength\": 1.5, \"fuseLit\": true, \"power\": 3, \"causesFire\": false } } }, \"components\": { \"minecraft:damage_sensor\": {",
+      "minecraft:explode",
+      "\"minecraft:exploding\": { \"minecraft:explode\": { \"fuseLength\": 1.5, \"fuseLit\": true, \"power\": 3, \"causesFire\": false }, \"minecraft:scale\": { \"value\": 2 } } }, \"components\": { \"minecraft:damage_sensor\": {",
+      "minecraft:scale",
+      "Value – 实体正常规模的倍率。值为2将使比例加倍，值为.5将使比例减半等。"
+    ],
+    "causesFire – 这决定了爆炸是否会导致附近的方块着火": [
+      "让我们在这个群组中添加一个“scale”组件，这样我们的猪在它爆炸之前就会变大！在“explode”组件的结束大括号中添加一个逗号，并输入以下内容（绿色的新文本）："
+    ],
+    "测试我们的行为包": [
+      "启动游戏。",
+      "创建新世界。",
+      "设置世界为创造模式。",
+      "打开作弊。",
+      "单击行为包。",
+      "在右侧列表中找到“Tutorial Behavior Pack”并单击它激活。",
+      "单击创建世界。",
+      "从创造模式的背包中拿出猪的刷怪蛋，并生成一只猪（或者输入/summon pig）。",
+      "跑离20方块左右。",
+      "使用命令将模式切换为生存模式：/gamemode s。",
+      "冲向那只猪。"
+    ],
+    "其他事项": [
+      "到这里你只是简单接触到了行为包的可能性！！如果你希望能够做的不仅仅是爆炸，请查看实体组件参考指南以查看可以添加到实体的其他行为和组件！你还可以随时查看如何为示例设置Vanilla的行为包，如果你的游戏版本为1.8以上，你还可以尝试自定义实体，1.12以上可尝试自定义物品和合成表以及生物群系（高级）。"
+    ],
+    "注意实体特有的不可更改行为": [
+      "目前为止，并不是实体的所有行为均可更改，在最新基岩版内，大部分实体行为已经可以进行更改了，但仍有部分行为并未放置在实体行为文件中，例如女巫扔药水的特性就没有写在其行为文件里。而这些特有行为往往都是为某些生物量身定做的，例如潜影贝的半方块状态以及瞬移，末影人的躲避弓箭和水，凋灵的召唤时蓄力以及半血召唤凋灵骷髅，发射蓝色凋灵骷髅头，和死后爆炸等，以及岩浆怪和史莱姆的死后分裂，甚至还有末影人，烈焰人等生物行走的粒子效果。这些行为均未记录在行为文件中。以前我们可能无可奈何，但是基岩版1.8更新以后，我们可以通过\"runtime_identifier\": \"minecraft:实体ID\"代码【在1.10版本更新后，越来越多的原版特性被加入到行为包当中，包括瞬移，分裂等】（来源：MINECON Earth 2018官方展示行为包中的鸭子行为代码），来获取某个实体的特有行为，下面给出一个例子：",
+      "{\"format_version\":\"1.8.0\",\"minecraft:entity\"{\"description\":{\"identifier\":\"dfsteve:ditto\",\"runtime_identifier\":\"minecraft:rabbit\",\"is_spawnable\":true,\"is_summonable\":true,\"is_experimental\":false},...},...}",
+      "其中我把一个自定义实体的运行标识符设定为\"rabbit\"，则该自定义实体便拥有了兔子的一些特性，其中甚至包括彩蛋。此外还有其他实例，例如:",
+      "自定义实体史蒂夫继承了原版生物特性，用Grumm命名使其倒立了，即便如此，你仍不能改变一个实体原来的特性，仅能为其增加新的特性。",
+      "当然，对于我们行为包作者来说，我们希望未来这些特性会逐步加入到行为文件中供我们开发，这将对我们的开发起着重要作用，例如潜影贝的半方块特性以及凋灵的血条，用途很广泛。总之，希望官方把行为包功能做得越来越完善。"
+    ],
+    "挑战": [
+      "既然你已经有了一些基础的经验，你可以挑战一下下列任务：",
+      "使僵尸可以被玩家骑乘。",
+      "再尝试让玩家能够用某种东西控制僵尸的方向。（提示：可以参照猪的item_controllable以及controlled_by_player组件）",
+      "使村民在持有弓时转变为骷髅。（提示：可以参照狼的tameable组件和村民的transformation组件）"
+    ],
+    "改变太阳和月亮的纹理。（和资源包类似）": [
+      "用桶对着苦力怕获得熔岩桶。",
+      "使牛可以发射恶魂火球。"
+    ],
+    "排查故障": [
+      "如果你的JSON更改似乎在游戏中不起作用，请检查以下内容："
+    ],
+    "确保.json文件位于正确的文件夹中并正确命名！": [
+      "你应该有一个名为entities的文件夹，其中包含所有.json文件。",
+      "确保你的实体具有正确的标识符。",
+      "如果你不确定它应该是什么，请检查Vanilla Minecraft行为包中的.json文件。",
+      "原版的.json文件可以在bedrock-samples-游戏版本号/Behavior_Pack/entities中找到。",
+      "如果你的实体行为很奇怪，无AI，甚至悬浮，敲击或者其他行为后实体会垂直升天或者下坠，并穿过方块，这可能是代码格式正确但与该实体冲突的结果，尝试删除多余不合理行为。",
+      "进阶：自定义实体",
+      "在本章节，你将学会如何创建一个完整的名字为npc的自定义实体，并学会如何更改该自定义实体的部分属性。"
+    ],
+    "行为包部分": [
+      "在行为包根目录新建一个entities文件夹，在文件夹中放入你新增的实体的json。这个json的名字为[实体子名].json，其中实体子名为identifier中的命名空间ID的名称部分。",
+      "{\"format_version\":\"1.8.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"test:npc\",\"runtime_identifier\":\"test:npc\",\"is_spawnable\":true,\"is_summonable\":true,\"is_experimental\":false},\"components\":{\"minecraft:fire_immune\":true,\"minecraft:type_family\":{\"family\":[\"test\",\"npc\"]}}}}",
+      "自定义的实体json与其他生物实体json的写法相同，具体可参照上文。"
+    ],
+    "资源包部分": [
+      "在资源包根目录创建一个entity文件夹，将实体的属性json写进去，名字同样为[实体子名].json。如:",
+      "{\"format_version\":\"1.8.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"test:npc\",\"materials\":{\"default\":\"npc\"},\"textures\":{\"default\":\"textures/entity/npc\"},\"geometry\":{\"default\":\"geometry.npc\"},\"render_controllers\":[\"controller.render.npc\"],\"spawn_egg\":{\"base_color\":\"#99e550\",\"overlay_color\":\"#99e550\"}}}}",
+      "identifier与之前行为包中所写ID需统一，materials决定了将被这个实体所调用的材料。textures后面为实体贴图纹理路径，geometry则确定了实体的建模文件路径，render_controllers决定了这个实体所拥有的渲染控制器。两个color则分别确定了生成这个实体的刷怪蛋的斑点的颜色与底色，格式为十六进制。",
+      "先在资源部根目录创建一个blocks.json的文件，将方块的属性写进去，写法可参照原版的blocks.json。",
+      "{\"format_version\":[1,1,0],\"test:space\":{\"textures\":\"space\",\"sound\":\"stone\"}}",
+      "三个元素分别为命名空间ID，纹理，音效，若纹理及音效为自定义，则需要在terrain_texture.json和sound_definitions中增加对应的路径。",
+      "接着创建textures文件夹，在文件夹中创建一个名为terrain_texture.json的文件。",
+      "{\"resource_pack_name\":\"vanilla\",\"texture_name\":\"atlas.terrain\",\"padding\":8,\"num_mip_levels\":4,\"texture_data\":{\"space\":{\"textures\":[\"textures/blocks/space\"]}}}",
+      "从texture_data开始写，space为在blocks.json中所指定的纹理ID。textures的值为该纹理的路径位置。",
+      "之后需要根据路径在textures中创建一个blocks的文件夹，在内放入一个名字为space.png的图片，导入即可。",
+      "注意：只有基岩版1.16.100.56以上的版本才支持修改/添加方块模型。",
+      "进阶：自定义物品与合成表",
+      "此段落仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "基岩版支持了自定义物品（1.10），方块（1.10）和合成表（1.12），具体方法做以下概述。"
+    ],
+    "materials": [
+      "接着你需要在资源包根目录再创建一个名字为materials的文件夹，在里面放置实体的材料entity.material.例:",
+      "{\"materials\":{\"version\":\"1.0.0\",\"npc:entity_alphatest\":{}}}",
+      "不同的materials材料将会给实体应用上不同的渲染效果，具体可参照原版纹理包中的materials/entity.material。 注：在materials中，\"npc\"需要与之前的identifier中的子名相统一。"
+    ],
+    "render_controllers": [
+      "依然是在根目录创建一个名为render_controllers的文件夹，在里面放入这个实体的动画文件，名字为[实体子名].json。",
+      "{\"format_version\":\"1.8.0\",\"render_controllers\":{\"controller.render.npc\":{\"geometry\":\"Geometry.default\",\"materials\":[{\"*\":\"Material.default\"}],\"textures\":[\"Texture.default\"]}}}",
+      "其中\"controller.render.npc\"，npc为实体子名，其他部分为基础内容。",
+      "注意：如果你没有添加\"render_controllers\"，那么你用Blockbench旋转的方块模型将会发生错误。如果没有\"render_controllers\"，直接把你旋转的方块模型导入进Minecraft，将不会进行旋转，而是长着难看的样子或看不见任何的方块模型。",
+      "最后就是纹理，模型，与语言文件的部分。纹理需要根据在之前entity中所写的路径对应，在对应的路径放入名字为实体子名的贴图即可。模型也是同样的，在指定的路径中放入名字为实体子名的json模型文件，模型的实体名为\"geometry.[实体子名]\"。具体可参照Tutorial:修改实体模型。语言文件需要在根目录，新建一个texts的文件夹，在里面放入名为zh_CN.lang的文件。其他语言则将文件名改成对应的语言代码即可。在里面写上以下内容："
+    ],
+    "entity.npc.name=npcitem.spawn_egg.entity.npc.name=npc": [
+      "每有一个自定义实体都要在需要语言文件中加上以下内容："
+    ],
+    "item.spawn_egg.entity.[实体子名].name=生物蛋名": [
+      "（注：未加入以上内容也不影响自定义实体的任何功能）",
+      "完成以上步骤，你将会得到一个完整的自定义实体。 行为包拥有了自定义实体功能后，正在逐渐向着mod的方向发展。",
+      "进阶：自定义方块",
+      "自定义方块是基岩版1.12.0.2中的新增内容，可以修改原版方块的部分特性及增加一个全新的方块。"
+    ],
+    "首先，在行为包根目录新建一个blocks的文件夹，在文件夹中放入你新增的方块的json": [
+      "{\"format_version\":\"1.10.0\",\"minecraft:block\":{\"description\":{\"identifier\":\"test:space\",\"is_experimental\":false,\"register_to_creative_menu\":true},\"components\":{\"minecraft:destroy_time\":{\"value\":1},\"minecraft:block_light_absorption\":{\"value\":0},\"minecraft:block_light_emission\":{\"emission\":0.0},\"minecraft:explosion_resistance\":{\"value\":0.0},\"minecraft:flammable\":{\"burn_odds\":0,\"flame_odds\":0},\"minecraft:friction\":{\"value\":0.1},\"minecraft:loot\":{\"table\":\"loot_table/blocks/space\"},\"minecraft:map_color\":{\"color\":\"#ffff99\"}}}}",
+      "format_version：定义了此文件的版本，除非有充分理由，否则请勿更改",
+      "minecraft:block"
+    ],
+    "description": [
+      "identifier：方块命名空间ID",
+      "is_experimental：此方块是否使用实验性玩法",
+      "register_to_creative_menu：此方块是否出现在创造模式物品栏中",
+      "identifier：物品命名空间ID",
+      "components：物品行为",
+      "minecraft:max_damage：耐久度",
+      "minecraft:hand_equipped：是否为手持装备",
+      "minecraft:stacked_by_data：是否可以重叠",
+      "minecraft:glint：是否让物品拥有类似附魔的闪烁效果",
+      "minecraft:block：物品在方块状态下的名称",
+      "minecraft:max_stack_size：物品的最大堆叠数量",
+      "minecraft:seed：物品作为种子的相关属性",
+      "crop_result：种下后产生的方块",
+      "plant_at：一个字符串数组，指出种子可以种植在哪些方块上",
+      "minecraft:use_duration：使用所需时间（如食用食物的时间）",
+      "minecraft:food：物品作为食物的相关属性。",
+      "nutrition：补充的饥饿值",
+      "saturation_modifier：补充的饱和度等级，默认为normal",
+      "poor：稀少，1",
+      "low：较少，3",
+      "normal：普通，6",
+      "good：较多，8",
+      "max：很多，10",
+      "supernatural：超自然，12",
+      "using_converts_to：使用后，此物品转换为这一栏中的物品",
+      "on_use_action：使用物品后的效果",
+      "chorus_teleport：类似食用紫颂果后的效果，瞬移",
+      "on_use_range：3个范围的数组，传送位置x,y,z的偏移值",
+      "is_meat：决定食物是否为肉。",
+      "cooldown_type：可填\"chorusfruit\"或不填",
+      "cooldown_time：使用此物品的冷却时间（以刻为单位）",
+      "can_always_eat：是否总是可以吃（饥饿值为满时）",
+      "effects：食用后的状态效果",
+      "name：状态效果名称",
+      "chance：随机选中该状态效果的概率，范围是0-1",
+      "duration：状态效果长度（以秒为单位）",
+      "amplifier：状态效果的强度等级",
+      "你可以查看基岩版物品文档来获取比上述列表更详细的描述。",
+      "2.定义合成表（可选）",
+      "自定义合成表前，需要先确认需要何种配方，配方大致共分为有序合成、无序合成与其他合成（熔炉、酿造台、切石机等）三种，并创建一个名为recipes的文件夹，放入行为包里。",
+      "接着需要创建类似如下的文件，并为其命名，文件内部大致介绍如下：",
+      "identifier：命名空间ID",
+      "tags：物品可在哪里合成",
+      "pattern：指定需在工作台里如何摆放物品以合成，一列一个元素",
+      "key：解释\"pattern\"中使用的代号为何种物品，以下使用蛋糕合成表解释",
+      "A：代号\"A\"所代表的数据",
+      "item：在此为“桶”（尚未指定为哪一种桶）",
+      "data：将此值设定为\"1\"，将桶指定为“牛奶”",
+      "B：代号\"B\"所代表的数据",
+      "item：在此为“糖”",
+      "C：代号\"C\"所代表的数据",
+      "item：在此为“小麦”",
+      "E：代号\"E\"所代表的数据",
+      "item：在此为“蛋”",
+      "result：指定输出何种物品，可有多个输出",
+      "item：此为第一个合成物品，蛋糕",
+      "：此为第二个合成物品（尚未指定为何种物品）",
+      "item：在此指定物品为“桶”（尚未指定为何种桶）",
+      "count：将“桶”的数量设为“3”",
+      "data：将此值设定为\"0\"，将桶指定为“铁桶”",
+      "identifier：命名空间ID",
+      "tags：可在哪里合成",
+      "ingredients：需要将哪些物品放入工作台（不限位置）",
+      "item：指定为何种物品",
+      "identifier：命名空间ID",
+      "tags：可在哪里合成",
+      "furnace：熔炉",
+      "blast_furnace：高炉",
+      "smoker：烟熏炉",
+      "campfire：营火",
+      "soul_campfire：灵魂营火",
+      "input：输入物品",
+      "output：输出物品",
+      "其他合成如酿造台、切石机等的合成配方与熔炉配方相似，在此不多做赘述。如果你想让物品有多种合成方法，需要创建多个json文件，名称不受限制。",
+      "3.添加资源包中物品的定义",
+      "定义完了物品行为后，我们就要到资源包的部分进一步定义。这可以决定物品的性质。在资源包目录下创建items文件夹，然后在其中创建一个json文件。文件内容如下所示：",
+      "{\"format_version\":\"1.10\",\"minecraft:item\":{\"description\":{\"identifier\":\"minecraft:testitem\",\"category\":\"Nature\"},\"components\":{\"minecraft:icon\":\"apple_golden\",\"minecraft:use_animation\":\"eat\",\"minecraft:hover_text_color\":\"light_purple\",\"minecraft:render_offsets\":\"apple\"}}}",
+      "格式：",
+      "format_version：定义了清单的当前版本。",
+      "minecraft:item",
+      "identifier：物品命名空间ID",
+      "category：物品的分类，影响在创造模式物品栏中的显示位置。",
+      "Construction：建筑",
+      "Equipment：装备",
+      "Items：物品",
+      "Nature：自然",
+      "components：组件",
+      "minecraft:icon：纹理名称",
+      "minecraft:use_animation：使用动画",
+      "eat：食用",
+      "drink：饮用，类似于蜂蜜瓶",
+      "camera：摄像机效果",
+      "minecraft:hover_text_color：文本颜色",
+      "minecraft:render_offsets：手持物品的渲染位移，决定了物品在手中与玩家的相对位置关系",
+      "4.添加纹理"
+    ],
+    "components": [
+      "minecraft:destroy_time：破坏此方块所需的时间",
+      "value：值",
+      "minecraft:block_light_absorption：此方块会吸收多少光亮",
+      "value：值",
+      "minecraft:block_light_emission：此方块的亮度等级",
+      "emission：值",
+      "minecraft:explosion_resistance：此方块的爆炸抗性",
+      "value：值",
+      "minecraft:flammable：此方块的燃烧属性",
+      "burn_odds：着火时，此方块被烧毁的概率（设为0则不可燃）",
+      "flame_odds：周围有火时，此方块被引燃的概率",
+      "minecraft:friction：此方块的摩擦系数，影响实体在其上的移动速度",
+      "value：值",
+      "minecraft:loot：破坏此方块时掉落的物品，使用战利品表的路径表示",
+      "table：值",
+      "minecraft:map_color：此方块在地图上显示的颜色，使用十六进制颜色编码表示（#RRGGBB）",
+      "color：值"
+    ],
+    "命名空间ID": [
+      "主条目：命名空间ID",
+      "自定义物品的命名空间不能是minecraft，也建议不要是类似于addon、custom和test的名称。建议是行为包的简易英文名称或作者名称。而ID则可以是物品英文名，空格请替换成下划线_或连字符-。",
+      "1.定义物品行为",
+      "自定义物品的大致格式，你需要创建一个items文件夹放入行为包内，然后创建一个json文件。接着像这样格式，自定义你的物品。",
+      "{\"format_version\":\"1.12.0\",\"minecraft:item\":{\"description\":{\"identifier\":\"minecraft:testitem\"},\"components\":{\"minecraft:max_damage\":10,\"minecraft:hand_equipped\":false,\"minecraft:stacked_by_data\":false,\"minecraft:foil\":false,\"minecraft:block\":\"\",\"minecraft:max_stack_size\":64,\"minecraft:use_duration\":32,\"minecraft:food\":{\"nutrition\":4,\"saturation_modifier\":\"low\",\"using_converts_to\":\"testitem\",\"on_use_action\":\"\",\"on_use_range\":4,\"cooldown_type\":\"\",\"cooldown_time\":4,\"can_always_eat\":true,\"effects\":[{\"name\":\"regeneration\",\"chance\":1.0,\"duration\":30,\"amplifier\":4},{\"name\":\"absorption\",\"chance\":1.0,\"duration\":120,\"amplifier\":3}],\"minecraft:seed\":{\"crop_result\":\"sweet_berry_bush\",\"plant_at\":[\"grass\",\"dirt\",\"podzol\"]}}}}}",
+      "下面是物品json的格式，大部分内容都是可以省略的。",
+      "format_version：定义了清单的当前版本。除非有充分的理由，否则请勿更改，如需使用下述全部属性，需要填入1.13",
+      "minecraft:item"
+    ],
+    "有序合成（以蛋糕为例）": [
+      "{\"format_version\":\"1.12\",\"minecraft:recipe_shaped\":{\"description\":{\"identifier\":\"minecraft:cake\"},\"tags\":[\"crafting_table\"],\"pattern\":[\"AAA\",\"BEB\",\"CCC\"],\"key\":{\"A\":{\"item\":\"minecraft:bucket\",\"data\":1},\"B\":{\"item\":\"minecraft:sugar\"},\"C\":{\"item\":\"minecraft:wheat\"},\"E\":{\"item\":\"minecraft:egg\"}},\"result\":[{\"item\":\"minecraft:cake\"},{\"item\":\"minecraft:bucket\",\"count\":3,\"data\":0}]}}",
+      "format_version：此文件的版本，若非必要，请勿更改",
+      "minecraft:recipe_shaped：表示此为有序合成"
+    ],
+    "无序合成（以南瓜派为例）": [
+      "{\"format_version\":\"1.12\",\"minecraft:recipe_shapeless\":{\"description\":{\"identifier\":\"minecraft:pumpkin_pie\"},\"tags\":[\"crafting_table\"],\"ingredients\":[{\"item\":\"minecraft:pumpkin\"},{\"item\":\"minecraft:sugar\"},{\"item\":\"minecraft:egg\"}],\"result\":{\"item\":\"minecraft:pumpkin_pie\"}}}",
+      "format_version：此文件的版本，若非必要请勿更改此项",
+      "minecraft_shapeless：表示此为无序合成"
+    ],
+    "result": [
+      "item：指定输出何种物品，不可有多个输出"
+    ],
+    "其他合成 - 熔炉合成（以绿色染料为例）": [
+      "{\"format_version\":\"1.12\",\"minecraft:recipe_furnace\":{\"description\":{\"identifier\":\"minecraft:furnace_cactus\"},\"tags\":[\"furnace\"],\"input\":\"minecraft:cactus\",\"output\":\"minecraft:dye:2\"}}",
+      "format_version：此文件的版本，若非必要请勿更改此项",
+      "minecraft:recipe_furnace：表示此为熔炉合成"
+    ],
+    "添加的物品还需要添加纹理文件才能显示。纹理文件不一定要放在textures/items/下。在textures文件夹下创建item_texture.json，内容如下": [
+      "{\"resource_pack_name\":\"Vanilla\",\"texture_name\":\"atlas.item\",\"texture_data\":{\"item\":{\"textures\":\"textures/item/item\"}}}",
+      "resource_pack_name：资源包名称，可以填入vanilla或其他名称[需要验证]。",
+      "texture_name：[需要更多信息]请填atlas.item",
+      "texture_data：纹理数据。",
+      "(name)：一个元素，名称为上面所讲的minecraft:icon的值。",
+      "textures：纹理路径（无需扩展名，以资源包文件夹为根目录）。如果只有单个纹理，它是字符串类型，如果是多个纹理（我们这里没有用到），它则是数组类型。",
+      "5.添加语言文件",
+      "参见：语言和详细教程",
+      "在得到物品后，你会发现它缺少名称，因为还没有定义语言文件。请在资源包内新建texts文件夹，并创建lang文件。文件名由语言决定，如zh_CN.lang（如果已经存在，就直接打开）。然后添加一行（无需括号）："
+    ],
+    "item.(物品命名空间ID).name=(名称)#": [
+      "6.完成！",
+      "恭喜你完成了自定义物品！你可以进入游戏看看效果了。如果你为其添加了合成配方，你可以合成它，如果没有，可以用/give命令获得它。",
+      "本页面暂做概述，欢迎补充。"
+    ],
+    "导出与分享": [
+      "现在你已经制作好了行为包。想与朋友分享？为此，请执行以下操作："
+    ],
+    "找到并进入你的development_behavior_packs文件夹。（参见本教程开头提供的文件路径）": [
+      "进入你创建的行为包顶级文件夹。",
+      "选择所有文件及文件夹。",
+      "压缩选中的文件及文件夹。在Windows中，你需要右键单击高亮的文件，然后选择“发送到” ->“ 压缩（zipped）文件夹”。",
+      "确保你在压缩文件时选择了行为包里面的内容而不是这个文件夹本身。",
+      "把生成的文件重命名为tutorial_behavior_pack.mcpack。",
+      "确保你把文件扩展名更改成了.mcpack。",
+      "当弹出窗口询问“如果改变文件扩展名，可能会导致文件不可用。确实要更改吗？”时，请点击“是”。"
+    ],
+    "提醒": [
+      "你可以通过删除development_behavior_packs文件夹中的副本（首先进行备份！），然后打开.mcpack文件导入它来测试导出的附加包是否有效。如果它不起作用，请确保在制作.mcpack zip压缩文档时选择了tutorial_behavior_pack中的内容而不是文件夹本身。",
+      "使用上述方式不会同时导出行为包可能依赖的资源包。如果你的行为包依赖于另一个资源包工作，除了分别导出为.mcpack文件这种解决方式以外，你还可以同时选中你制作的行为包和资源包的文件夹并压缩，之后把压缩文件的后缀改为.addon。这样，你就能做到一次性导入了！关于如何为行为包和资源包添加依赖关系，请参见附加包的清单文件格式，在资源包及行为包的manifest.json中添加dependencies字段。"
+    ],
+    "注释": [
+      "也可以依照驼峰命名规范，如附魔金苹果appleEnchanted，但不建议使用。"
+    ],
+    "参考": [
+      "Transfer Your World to Another Device in Minecraft: Bedrock Edition — help.minecraft.net。",
+      "I Can’t Find my Minecraft World on Android — help.minecraft.net。",
+      "How to Locate Minecraft World Files on Mobile — help.minecraft.net。"
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "title": "命令/loot",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Floot",
+  "structured_content": {
+    "loot": [
+      "this_entity：命令执行者实体（如果有）",
+      "origin：命令执行位置"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "将指定的战利品放入物品栏或世界。"
+    ],
+    "Java版": [
+      "1.14",
+      "18w43a",
+      "加入了/drop。",
+      "18w44a",
+      "删除了<来源>中的award。",
+      "18w45a",
+      "将/drop重命名为/loot并重做。",
+      "1.20.5",
+      "24w09a",
+      "更改了语法，现在不再使用物品NBT标签，而是物品堆叠组件。",
+      "24w12a",
+      "现在接受内联战利品定义。",
+      "1.21.2",
+      "24w35a",
+      "现在会在尝试生成无对应战利品表的方块掉落物时报错。"
+    ],
+    "loot <目标> <来源>": [
+      "其中：",
+      "<目标>可以为：",
+      "其中：",
+      "<目标>可以为：",
+      "give <player: target>",
+      "给予玩家物品。空物品堆叠会被直接忽略。",
+      "insert <position: x y z>",
+      "将物品发放到容器方块中。空物品堆叠会被直接忽略。",
+      "spawn <position: x y z>",
+      "生成物品实体。空物品堆叠会被直接忽略。",
+      "replace block <position: x y z> slot.container <slotId: int>",
+      "replace entity <entity: target> <slotType: EntityEquipmentSlot> <slotId: int>",
+      "用物品堆叠按顺序逐一替换连续的槽位。空物品堆叠会清空一个槽位。",
+      "replace block <position: x y z> slot.container <slotId: int> [count: int]",
+      "replace entity <entity: target> <slotType: EntityEquipmentSlot> <slotId: int> [count: int]",
+      "清空指定数量的连续的槽位，并将物品按顺序放置至其中。空物品堆叠也会正常放置。若生成的物品堆叠数量超过指定的槽位数量，超出的物品堆叠直接忽略。要求一个实体或目标容器必须存在指定数量的连续槽位，才会进行清除和放置。",
+      "<来源>可以为：",
+      "kill <entity: target> [\"<tool>|mainhand|offhand\": string]",
+      "模拟使用指定工具杀死指定实体。",
+      "loot <loot_table: string> [\"<tool>|mainhand|offhand\": string]",
+      "模拟使用指定工具获取指定战利品表。",
+      "mine <TargetBlockPosition: x y z> [\"<tool>|mainhand|offhand\": string]",
+      "模拟使用指定工具挖掘指定位置的方块。"
+    ],
+    "give <players>": [
+      "给予玩家物品。空物品堆叠会被直接忽略。"
+    ],
+    "insert <targetPos>": [
+      "将物品发放到容器方块中。空物品堆叠会被直接忽略。"
+    ],
+    "spawn <targetPos>": [
+      "生成物品实体。空物品堆叠也会生成，但会立即消失。"
+    ],
+    "replace entity <entities> <slot>": [
+      "用物品堆叠按顺序逐一替换连续的槽位。空物品堆叠会清空一个槽位。"
+    ],
+    "replace entity <entities> <slot> <count>": [
+      "清空指定数量的连续的槽位，并将物品按顺序放置至其中。空物品堆叠也会正常放置。若生成的物品堆叠数量超过指定的槽位数量，超出的物品堆叠直不会生成。",
+      "<来源>可以为："
+    ],
+    "fish <loot_table> <pos> [<tool>|mainhand|offhand]": [
+      "模拟在指定位置使用指定工具钓鱼。"
+    ],
+    "kill <target>": [
+      "模拟杀死指定实体。"
+    ],
+    "loot <loot_table>": [
+      "直接使用指定战利品表。"
+    ],
+    "mine <pos> [<tool>|mainhand|offhand]": [
+      "模拟使用指定工具挖掘指定位置的方块。",
+      "各个来源所提供的战利品上下文为："
+    ],
+    "fish": [
+      "this_entity：命令执行者实体（如果有）",
+      "origin：指定方块位置的方块正中心",
+      "tool：指定的工具"
+    ],
+    "kill": [
+      "this_entity：指定的实体",
+      "last_damage_player：命令执行玩家（如果执行者是玩家）",
+      "attacking_entity：命令执行者实体（如果有）",
+      "direct_attacking_entity：命令执行者实体（如果有）",
+      "damage_source：magic伤害类型",
+      "origin：命令执行位置"
+    ],
+    "mine": [
+      "this_entity：命令执行者实体（如果有）",
+      "origin：方块的正中心",
+      "block_state：指定的方块",
+      "block_entity：方块实体（如果有）",
+      "tool：指定的工具"
+    ],
+    "基岩版": [
+      "1.18.0",
+      "1.18.0.21",
+      "加入了/loot。",
+      "1.18.0.22",
+      "移除了/loot。",
+      "1.18.10",
+      "1.18.10.21",
+      "重新加入了/loot。",
+      "1.18.10.24",
+      "加入了/loot spawn ... kill ...语法。",
+      "1.18.30",
+      "1.18.20.21",
+      "加入了give语法。",
+      "1.18.30.20",
+      "加入了insert语法。",
+      "1.19.0",
+      "1.19.0.30",
+      "加入了replace entity语法。",
+      "1.19.40",
+      "1.19.40.20",
+      "加入了replace block语法。",
+      "1.21.50"
+    ],
+    "参数": [
+      "JE：<loot_table>：loot_table",
+      "BE：loot_table: string：string",
+      "指定所使用的战利品表。",
+      "在Java版中，以命名空间ID或SNBT形式指定战利品表。必须是一个SNBT格式的战利品表数据，或者是一个具有指定ID的战利品表（minecraft:loot_table注册表中的注册项）。对于NBT标签，若是一个字符串标签，也会被解析成一个命名空间ID并获取具有此ID的战利品表；否则将此SNBT解析为一个战利品表数据。",
+      "在基岩版中，必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。且应指向路径为loot_tables/loot_table: string.json的战利品表。",
+      "JE：<tool>：item_stack",
+      "指定用来模拟挖掘或钓鱼的工具物品。",
+      "必须是格式为物品ID[物品堆叠组件]的指定物品参数，物品堆叠组件必须以中括号包围，可仅在需要时指定。",
+      "BE：\"<tool>|mainhand|offhand\": string：string",
+      "指定用来模拟杀死生物或获取战利品的工具。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。可以为mainhand（使用执行者主手的物品）、offhand（使用执行者副手的物品），或指定物品ID。",
+      "JE：<target>：entity",
+      "BE：entity: target：CommandSelector<Actor>（来源为kill）",
+      "指定要模拟杀死的实体。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。在Java版中，目标选择器必须为单一数量，否则此命令将无法解析。",
+      "JE：<players>：entity",
+      "BE：player: target：CommandSelector<Player>",
+      "指定要给予物品的一个或多个玩家。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。",
+      "JE：<pos>：block_pos和<targetPos>：block_pos（仅replace block或insert模式）",
+      "BE：TargetBlockPosition: x y z：CommandPositionFloat和position: x y z：CommandPositionFloat (仅replace block或insert模式)",
+      "指定方块坐标。",
+      "在Java版中，表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。",
+      "在基岩版中，必须为三维坐标，元素为单精度浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "JE：<targetPos>：block_pos",
+      "BE：position: x y z：CommandPositionFloat（仅spawn模式）",
+      "指定要生成物品实体的位置。",
+      "必须为三维坐标，元素为双精度[仅Java版]或单精度[仅基岩版]浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "JE：<entities>：entity",
+      "BE：entity: target：CommandSelector<Actor>",
+      "指定要修改的一个或多个实体。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。",
+      "JE：<count>：integer",
+      "BE：count: int：int",
+      "指定要清空并放入物品的连续槽位数。",
+      "必须为32位整数。在Java版中，必须大于等于0。",
+      "JE：<slot>：item_slot",
+      "BE：slotType: EntityEquipmentSlot：enum，slot.container和slotId: int：int",
+      "指定要修改的物品栏槽位。",
+      "必须为指定单个槽位的槽位名，由槽位类型和槽位编号组成。对于具体的槽位名和槽位编号，参见槽位。格式为<槽位类型>、<槽位类型>.<槽位编号>[仅Java版]或<槽位类型> <槽位编号>[仅基岩版]。"
+    ],
+    "/... mine ...": [
+      "<pos>或position: x y z位于世界外或未被加载"
+    ],
+    "执行失败": [
+      "0",
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "若<来源>提供了0个物品堆叠，输出1。否则输出拥有指定的单个槽位的实体的数量",
+      "若<来源>提供了0个物品堆叠，输出1。否则输出完整拥有指定的多个连续的槽位的实体数量"
+    ],
+    "/... kill ...": [
+      "<target>或entity: target无法选出单个实体（指定的玩家必须在线上）"
+    ],
+    "N/A": [
+      "/loot replace entity ... <slotId: int> <来源>",
+      "/loot replace entity ... <slotId: int> <count: int> <来源>"
+    ],
+    "/... loot ...": [
+      "loot_table: string非有效的战利品表"
+    ],
+    "/loot replace entity ...": [
+      "<entities>或entity: target无法选中一个或多个实体（指定的玩家必须在线上）"
+    ],
+    "/loot replace entity <entities> <slot> <来源>": [
+      "/loot replace entity ... <slotId: int> <来源>"
+    ],
+    "/loot replace entity <entities> <slot> <count> <来源>": [
+      "/loot replace entity ... <slotId: int> <count: int> <来源>"
+    ],
+    "/loot give ...": [
+      "<entities>或player: target无法选中一个或多个玩家（指定的玩家必须在线上）"
+    ],
+    "/loot replace block ...": [
+      "<targetPos>或position: x y z位于世界外或未被加载"
+    ],
+    "/loot replace block <targetPos> <slot> <来源>": [
+      "/loot replace block ... <slotId: int> <来源>"
+    ],
+    "执行出错": [
+      "0",
+      "0"
+    ],
+    "/loot replace block <targetPos> <slot> <count> <来源>": [
+      "/loot replace block ... <slotId: int> <count: int> <来源>",
+      "指定的slotId: int（或<slot>）加上count: int（或<cound>）超过了该容器的槽位编号上限"
+    ],
+    "示例": [
+      "lootgive@slootminecraft:entities/zombie",
+      "根据战利品表minecraft:entities/zombie生成物品并给予执行者。",
+      "lootinsert123lootminecraft:chests/end_city_treasure",
+      "根据战利品表minecraft:chests/end_city_treasure生成物品，并将生成的物品插入到位于(1, 2, 3)处的容器方块中。",
+      "lootreplaceblock123container.03lootminecraft:chests/abandoned_mineshaft",
+      "根据战利品表minecraft:chests/abandoned_mineshaft生成3个物品堆叠，并将(1, 2, 3)处容器方块container.0槽位及其之后一共3个格子中的物品替换为生成的物品。",
+      "lootspawn123lootminecraft:equipment/trial_chamber",
+      "根据战利品表minecraft:equipment/trial_chamber生成物品，该物品将以掉落物的形式生成在主世界的(1.5, 2.5, 3.5)坐标处（坐标经过了中心修正）。",
+      "lootgive@sfishminecraft:gameplay/fishing/treasure123mainhand",
+      "在Java版中，根据战利品表minecraft:gameplay/fishing/treasure生成物品并给予执行者。该过程如同执行者使用主手物品从(1, 2, 3)位置进行了一次“钓鱼”。",
+      "lootgive@skill@r[type=minecraft:pig]",
+      "根据战利品表minecraft:entities/pig生成物品并给予执行者。所给予的物品如同击杀某只猪后所掉落的物品。",
+      "lootgive@smine123mainhand",
+      "如果(1, 2, 3)位置处为一个铁矿石，则会根据其战利品表生成物品并给予执行者，所给予的物品如同执行者使用主手挖掘该铁矿石后所掉落的物品。在Java版中，即使主手未持有石镐或品质更好的镐，仍会掉落1个粗铁。"
+    ],
+    "即将推出的创作者功能": [
+      "1.21.50.20",
+      "加入了mine语法。",
+      "1.21.60",
+      "1.21.60.23",
+      "mine语法不再属于实验性玩法。"
+    ],
+    "参见": [
+      "/give — 不通过战利品表，直接给予玩家指定物品。"
+    ]
+  }
+}

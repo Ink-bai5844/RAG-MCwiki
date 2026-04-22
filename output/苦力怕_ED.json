@@ -1,0 +1,5 @@
+{
+  "title": "苦力怕/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%8B%A6%E5%8A%9B%E6%80%95%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n*ExplosionRadius：苦力怕爆炸的威力或闪电苦力怕爆炸的威力的一半。不存在此值时游戏默认为3。\n*Fuse：此苦力怕从引燃到爆炸的时间。当苦力怕的内部爆炸计时器达到此值时苦力怕爆炸。不存在此值时游戏默认为30游戏刻（1.5秒）。\n*ignited：表示此苦力怕是否被玩家用物品点燃。\n*powered：表示此苦力怕是否为闪电苦力怕。"
+}

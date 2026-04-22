@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.8.3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.8.3",
+  "text": "1.8.3\n版本\nJava版\n发布时间\n2015年2月20日\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n47\n资源包版本\n1\n其他版本的1.8.3\nJava版Classic服务器\nMinecraft Dungeons\n◄◄1.8\n1.9►►\n◄1.8.2\n1.8.4►\n1.8.3是Java版的一次次要更新，发布于2015年2月20日，修复了一些漏洞。此版本兼容1.8到1.8.2的服务端。\n修复\n修复了11个漏洞\n1.8前正式版的漏洞\nMC-39120 — 在建筑高度限制之上可以放置方块。\nMC-59168 — TNT爆炸延迟。\n1.8的漏洞\nMC-45074 — MinecartSpawners可以生成幽灵猪。\nMC-45171 — 在末地传送门处，重力方块有图像错误。\nMC-55078 — 自定义世界中，草方块的生成不会随着海平面高度定义的不同而改变。\nMC-66156 — 玩家卡在漏斗里。\nMC-68601 — 使用/summon FallingSand命令生成的落沙位置与玩家的位置有关。\n1.8.1的漏洞\nMC-74508 — 玩家在使用/summon Boat ~ ~ ~ {Riding:{id:ArmorStand,Marker:1b}}生成的实体的盔甲架上时会有弹跳效果。\n1.8.2的漏洞\nMC-75690 — 钓鱼竿的碰撞箱有变化，并且不能触发绊线。\nMC-76520 — 小盔甲架的渲染问题。\n当前版本的热修复漏洞\nMC-78781 — ?e{Realms} Your server will be restarted in * minute(s)。\n参考\nMinecraft 1.8.3 is now available（存档），来自Searge。Mojang.com，2015年2月19日。\nhttps://twitter.com/SeargeDP/status/568778496627122178\n导航"
+}

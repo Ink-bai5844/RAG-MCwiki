@@ -1,0 +1,60 @@
+{
+  "title": "Dungeons:蔚蓝探索者",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%94%9A%E8%93%9D%E6%8E%A2%E7%B4%A2%E8%80%85",
+  "structured_content": {
+    "力量": [
+      "7"
+    ],
+    "速度": [
+      "2"
+    ],
+    "弹药上限": [
+      "4"
+    ],
+    "存档ID": [
+      "Crossbow_Unique2",
+      "如果听到声音时看到一抹蓝，那一定是蔚蓝探索者的射击。"
+    ],
+    "——物品描述": [
+      "蔚蓝探索者（Azure Seeker）是Minecraft Dungeons中的远程武器。它是弩的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "熊猫高原（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "蔚蓝探索者拥有中等攻击力，很低攻击速度和低弹药上限。初始弹药数量为53。"
+    ],
+    "伤害值": [
+      "71",
+      "380",
+      "104",
+      "1509",
+      "107",
+      "1705",
+      "110",
+      "1908"
+    ],
+    "击中物体": [
+      "sfx_item_crossbowUnique2ArrowImpactNormal"
+    ],
+    "射击破风声": [
+      "sfx_item_crossbowUnique2ArrowWhoosh"
+    ],
+    "射击": [
+      "sfx_item_crossbowUnique2Shoot"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了蔚蓝探索者。"
+    ],
+    "画廊": [
+      "一把战力为249的蔚蓝探索者"
+    ]
+  }
+}

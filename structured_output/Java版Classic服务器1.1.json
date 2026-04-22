@@ -1,0 +1,39 @@
+{
+  "title": "Java版Classic服务器1.1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.1",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前已丢失。",
+      "虽然此版本的服务端可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "1.1"
+    ],
+    "客户端版本": [
+      "0.0.16a_01"
+    ],
+    "发布时间": [
+      "2009年6月8日"
+    ],
+    "未知": [
+      "其他版本的1.1"
+    ],
+    "Java版Beta": [
+      "New Nintendo 3DS版",
+      "◄◄1.0",
+      "1.2►►",
+      "1.1是Classic服务器的一次更新，发布于2009年6月8日。"
+    ],
+    "/say": [
+      "取代/broadcast。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了“private”标志不工作的问题。"
+    ],
+    "参考": [
+      "c1.2.zip (README.TXT):",
+      "Version 1.1: + Made the private flag work + Added a /say command. Used to be /broadcast",
+      "New server up（存档） — The Word of Notch，2009年6月8日。"
+    ]
+  }
+}

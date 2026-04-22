@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:收割者",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%94%B6%E5%89%B2%E8%80%85",
+  "text": "收割者\n类型\n法器\n稀有度\n远古狩猎符文\n收割者会吸收死者的灵魂，释放成一股强大的力量。\n——物品描述\n收割者（Harvester）是Minecraft Dungeons中的法器，会消耗灵魂对周围的怪物造成范围伤害。\n获取\n地点：\n潮湿沼泽\n红石矿山\n灵魂沙峡谷\n烈风圣地（天启难度以上）\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用法器后，将会消耗40的灵魂值，并造成范围伤害。\n收割者的伤害可以被灵魂汇聚魔咒加成。\n属性\nX 法器伤害\n4 秒冷却\n+1 灵魂收集\n需要灵魂\n数据\n等级\n伤害值\n17\n5-122\n53\n24-604\n65\n39-986\n音效\n描述\n文件\nVoice\nsfx_item_harvesterVoices\n装备\nsfx_multi_harvesterPlace\n传输灵魂\nsfx_item_harvesterSoulTransport\n释放灵魂\nsfx_item_harvesterSoulUnleashed\n收集灵魂\nsfx_item_harvesterSoulCollect\n爆炸\nsfx_item_harvesterGlobalTmpBoom\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了收割者。\n1.3.2.0\n将灵魂消耗从25点改为40点。\n将冷却时间从1秒改为4秒。\n由于伤害是指每个灵魂伤害，因此将最大伤害值提升60%。\n移除了随机灵魂消耗。\n画廊\n收割者的精灵图\n导航"
+}

@@ -1,0 +1,220 @@
+{
+  "title": "基岩版1.21.30.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.30.23",
+  "structured_content": {
+    "默认分类": [
+      "1.21.30.23"
+    ],
+    "服务端版本": [
+      "1.21.30.23"
+    ],
+    "版本码": [
+      "Android：",
+      "952103023（armeabi-v7a，34）",
+      "962103023（x86，34）",
+      "972103023（arm64-v8a，34）",
+      "982103023（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年8月15日"
+    ],
+    "测试版归属": [
+      "1.21.30"
+    ],
+    "协议版本": [
+      "726",
+      "◄◄1.21.23",
+      "1.21.31►►",
+      "◄1.21.30.22",
+      "1.21.30.24►",
+      "beta 1.21.30.23（ChromeOS/Android）、Preview 1.21.30.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的第3个测试版，发布于2024年8月15日，在实验性玩法中加入了收纳袋，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "从格式版本1.21.30开始，以下ID在blocks.json中被认为已经过时：",
+      "minecraft:carpet",
+      "minecraft:colored_torch_bp",
+      "minecraft:colored_torch_rg",
+      "minecraft:concrete",
+      "minecraft:concrete_powder",
+      "minecraft:coral",
+      "minecraft:coral_block",
+      "minecraft:coral_fan",
+      "minecraft:coral_fan_dead",
+      "minecraft:coral_fan_hang",
+      "minecraft:coral_fan_hang2",
+      "minecraft:coral_fan_hang3",
+      "minecraft:double_plant",
+      "minecraft:double_stone_block_slab",
+      "minecraft:double_stone_block_slab2",
+      "minecraft:double_stone_block_slab3",
+      "minecraft:double_stone_block_slab4",
+      "minecraft:double_wooden_slab",
+      "minecraft:fence",
+      "minecraft:hard_stained_glass",
+      "minecraft:hard_stained_glass_pane",
+      "minecraft:leaves",
+      "minecraft:leaves2",
+      "minecraft:light_block",
+      "minecraft:log",
+      "minecraft:log2",
+      "minecraft:monster_egg",
+      "minecraft:planks",
+      "minecraft:red_flower",
+      "minecraft:sapling",
+      "minecraft:shulker_box",
+      "minecraft:stained_glass",
+      "minecraft:stained_glass_pane",
+      "minecraft:stone_block_slab",
+      "minecraft:stone_block_slab2",
+      "minecraft:stone_block_slab3",
+      "minecraft:stone_block_slab4",
+      "minecraft:stonebrick",
+      "minecraft:tallgrass",
+      "minecraft:terracotta",
+      "minecraft:wood",
+      "minecraft:wooden_slab",
+      "minecraft:wool"
+    ],
+    "实验性玩法": [
+      "加入了“同捆包”子选项。",
+      "用于启用收纳袋。"
+    ],
+    "方块": [
+      "现在如果解析blocks.json的format_version大于或等于它覆盖的方块名称，会产生内容错误。",
+      "数据驱动方块中的item_display_transforms字段不再需要“即将推出的创作者功能”选项。",
+      "修复了minecraft:redstone_conductivity对自定义方块的支持问题。",
+      "如果现在blocks.json的格式版本大于或等于它覆盖的方块名称，则解析blocks.json会产生内容错误。"
+    ],
+    "TNT和水下TNT": [
+      "IDtnt现在被拆分为tnt和​underwater_tnt。",
+      "tnt的数据值仍然可用。"
+    ],
+    "化合物创建器、材料分解器、元素构造器和实验台": [
+      "IDchemistry_table现在被拆分为：compound_creator、​material_reducer、​element_constructor和​lab_table。",
+      "chemistry_table及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "红树根": [
+      "现在属于红石导体。"
+    ],
+    "信标、TNT和海晶灯": [
+      "现在不再属于红石导体。"
+    ],
+    "雪": [
+      "现在使用附有精准采集魔咒的锹挖掘雪时，掉落的数量与层数相对应。",
+      "若有8层，则会掉落一个雪块。"
+    ],
+    "物品": [
+      "版本为1.16.100+的物品数据现在可以被包堆栈中更高版本的物品数据覆盖。",
+      "现在创作者可以用1.16.100+的数据覆盖1.16.100+的使用数据驱动的原版物品。",
+      "加入了minecraft:storage_item物品组件，允许物品存储与之关联的动态容器的数据：",
+      "此组件要求开启“Bundles”实验性玩法选项。",
+      "动态容器是用于存储关联的物品而不是方块或者实体的物品容器。",
+      "要使用此组件，物品必须将minecraft:max_stack_size设置为1。",
+      "max_slots字段（1至64）定义了动态容器的槽位数量。",
+      "max_weight_limit字段定义了动态容器所有槽位中物品数量的最大允许总和。",
+      "能够堆叠到64的物品每个视为1，能够堆叠到16的物品每个视为4，不可堆叠的物品视为64。",
+      "allow_nested_storage_items字段允许将带有minecraft:storage_item组件的其他物品放入其中。",
+      "weight_in_storage_item（0至64）定义了在另一个能存储的物品中增加的额外数量。",
+      "数值为0则表示此物品不允许收纳进另一个能存储的物品。",
+      "banned_items字段定义了物品动态容器中不允许的物品。",
+      "allowed_items字段定义了项目动态容器中唯一允许的项目。",
+      "如果为空，所有物品都允许在物品的动态容器中。",
+      "添加了minecraft:bundle_interaction物品组件，以启用特定于收纳袋的交互方式和工具提示。",
+      "此组件要求开启“Bundles”实验性玩法选项。",
+      "要使用此组件，物品必须定义minecraft:storage_item组件。",
+      "minecraft:bundle_interaction组件与minecraft:storage_item组件创建的容器交互。",
+      "num_viewable_slots字段（1至64）定义了从收纳袋顶部可访问的物品堆栈的最大数量，而其他槽位是隐藏的。",
+      "文件名为[item_name]_open_front和[item_name]_open_back的纹理必须添加到textures/textures_list.json中。",
+      "修复了当导入早于1.5.0的世界时，方块物品会变成不正确的变体的漏洞。（MCPE-181944）",
+      "教育版功能：修复了材料分解器的配方对部分扁平化后的方块（如安山岩或陶瓦）不起作用的漏洞。"
+    ],
+    "命名牌": [
+      "为实体上显示的名字加入了输入字形支持。"
+    ],
+    "生物": [
+      "旋风人不再具有能攻击生物的最小距离限制。（MCPE-183011）",
+      "鹦鹉现在能模仿末影螨的声音。",
+      "鹦鹉现在能模仿溺尸的声音。（MCPE-46302）"
+    ],
+    "鹦鹉": [
+      "现在可以模仿末影螨和溺尸的声音。"
+    ],
+    "林地府邸": [
+      "现在在“蘑菇农场房间”中使用的是砂土而不是泥土。"
+    ],
+    "AI意向": [
+      "移除了未使用的minecraft:behavior.peekAI意向组件。"
+    ],
+    "API": [
+      "更改了迭代器，使它们能够正确存储自己的状态，简化并更好地处理常见用法。",
+      "修复了可迭代对象的next方法。",
+      "以下API已从实验性玩法中移出：PlayerCursorInventoryComponentAPI、活动对象属性API的目标选择器和BlockRecordPlayerComponentAPI。",
+      "将PlayerCursorInventoryComponent类由beta移动至1.14.0。"
+    ],
+    "基岩版编辑器": [
+      "加入了导航面板并添加了一张小地图，可以在世界各地传送，并为关键点添加标签。",
+      "加入了结构面板操作栏项目，用于管理项目中存储的结构。",
+      "加入了编辑器结构管理器API来与之链接。",
+      "在导出窗口中加入了极限模式选项。",
+      "将getSelectedToolId和setSelectedToolId函数加入到了IModalToolContainerAPI中。",
+      "修复了编辑器操作可能会耗尽所有可用的活动区域，导致所有未来操作失败的漏洞。",
+      "修复了有时IModalTool.onModalToolActivationAPI事件以错误的顺序调用的漏洞。",
+      "修复了有时笔刷遮罩无法加载的漏洞。"
+    ],
+    "村民交易表": [
+      "村民交易表文件现已版本化：",
+      "TradeTier的total_exp_required是版本1.21.30的必要的一部分。",
+      "TradeTier的groups是版本1.21.30的必要的一部分。",
+      "TradeItem的数量min不能低于1.21.30版本的max。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“同捆包”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "收纳袋": [
+      "使用1个线和1个皮革来合成。",
+      "用于存储其他物品。",
+      "不能存储潜影盒。",
+      "每个收纳袋只能存储一组物品，但允许存储不同种类的物品。",
+      "单组最大堆叠量较少的物品（如末影珍珠）会占用更多存储空间。",
+      "收纳袋的存储空间可以通过手持并使用该收纳袋打开。",
+      "虽然收纳袋不能堆叠，但仍能放入其他收纳袋中。",
+      "每个收纳袋最多能同时存储16个收纳袋。",
+      "可以通过命令来使收纳袋存储任意数量的任意物品。",
+      "GUI中最多会显示8种物品，这8种物品都可随意取出；其他物品则会被隐藏。",
+      "如果其中物品不多于8种，则它们都会显示。",
+      "通过左键单击可放入物品，右键单击以取出首个物品。",
+      "物品提示框显示时，可使用数字键或鼠标滚轮更改选中的物品（所显示的物品之一），然后右键单击将其取出。",
+      "当物品被取出时，它会从收纳袋中钻出来。",
+      "可拿在手中按下使用键释放所有物品。"
+    ],
+    "图形": [
+      "修复了延迟渲染预览功能中夜视没有效果的问题。",
+      "现在在延迟渲染预览功能中更改FOV设置后，钓鱼线可以在第一人称视角正确渲染。"
+    ],
+    "游戏内容": [
+      "修复了末地折跃门无法正确传送某些玩家的问题。（MCPE-66061）",
+      "当现有相机插值正在运行时，/camera set命令现在将以正确的顺序运行。（MCPE-183986）"
+    ],
+    "音效": [
+      "玄武岩三角洲现在又有了氛围环境音效。"
+    ],
+    "用户界面": [
+      "在Ore UI游玩屏幕中将“所有世界”选项卡重命名为“世界”（仅限预览版）。",
+      "现在新游玩屏幕中世界上显示的极限模式红心在鼠标悬停在世界上时会动画化（仅限预览版）。",
+      "信标标题文本不再与携带版UI中的其他容器不同。（MCPE-176186）",
+      "修复了在经典UI中隐藏配方书后，制作类别选项卡在携带版UI中不可见的漏洞。（MCPE-183825）",
+      "现在与其他类似界面一样，切石机界面上的箭头始终可见。（MCPE-160236）",
+      "修复了物品耐久条和存储栏在某些屏幕上尺寸和位置不正确的问题。"
+    ],
+    "原版趋同": [
+      "修复了林地府邸的“蘑菇农场房间”错误地使用了泥土而不是砂土的问题。",
+      "以下方块的红石导体性质已同步Java版：",
+      "现在使用附有精准采集魔咒的锹挖掘雪时，掉落的数量与层数相对应。（MCPE-59729）",
+      "若有8层，则会掉落一个雪块。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.30.23 — Minecraft Feedback，2024年8月15日。",
+      "Minecraft Preview 1.21.30.23，来自Jay Wells。Minecraft.net，2024年8月15日。"
+    ]
+  }
+}

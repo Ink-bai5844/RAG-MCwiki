@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/players sleeping percentage",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fplayers_sleeping_percentage",
+  "text": "players_sleeping_percentage（Java版）\n名称\n入睡占比\n描述\n跳过夜晚所需的入睡玩家占比。\n分类（JE）\n玩家\n值类型\n整型\n默认值\n100\n值域（JE）\n0 – 2147483647\n游戏规则ID\nplayers_sleeping_percentage\nplayersSleepingPercentage（基岩版）\n名称\n旧UI：需要跳过夜晚的玩家\n新UI：需要睡觉的玩家\n描述\n必须有多少名玩家躺在床上才能跳过夜晚？\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n整型\n默认值\n100\n游戏规则ID\nplayersSleepingPercentage\nplayers_sleeping_percentage[仅Java版]或playersSleepingPercentage[仅基岩版]是控制跳过夜晚所需的入睡玩家占比的游戏规则。\n行为\n至少有一名玩家正在入睡，且正在入睡的玩家占所有非旁观模式玩家的比例大于等于当前值⁄100时，可以跳过夜晚或雷暴天气。设置为大于100的值时，玩家无法通过入睡跳过夜晚或雷暴天气。\n在Java版中，players_sleeping_percentage的值不能低于0。\n历史\nJava版\n1.17\n20w51a\n加入了游戏规则playersSleepingPercentage。\n1.21.11\n25w44a\n将游戏规则playersSleepingPercentage重命名为players_sleeping_percentage。\n现在players_sleeping_percentage的值最小只能为0。\n基岩版\n1.20.30\n1.20.20.21\n加入了游戏规则playersSleepingPercentage。\n导航"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "物品堆叠组件/suspicious stew effects",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fsuspicious_stew_effects",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "suspicious_stew_effects 物品堆叠组件": [
+      "：一项状态效果信息。",
+      "duration：状态效果的持续刻数，默认为160。"
+    ],
+    "*": [
+      "*id：状态效果的命名空间ID。"
+    ]
+  }
+}

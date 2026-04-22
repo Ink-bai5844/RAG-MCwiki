@@ -1,0 +1,133 @@
+{
+  "title": "基岩版1.21.110.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.110.24",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "1.21.110.24"
+    ],
+    "服务端版本": [
+      "1.21.110.24"
+    ],
+    "版本码": [
+      "Android：",
+      "952111024（armeabi-v7a，34）",
+      "962111024（x86，34）",
+      "972111024（arm64-v8a，34）",
+      "982111024（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年8月12日"
+    ],
+    "测试版归属": [
+      "1.21.111"
+    ],
+    "协议版本": [
+      "840",
+      "◄◄1.21.101",
+      "1.21.112►►",
+      "◄1.21.110.23",
+      "1.21.110.25►",
+      "beta 1.21.110.24（ChromeOS/Android）、Preview 1.21.110.24（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.111的第4个测试版，发布于2025年8月12日，修复了一些漏洞。"
+    ],
+    "方块": [
+      "墙现在不会与绯红菌、诡异菌和竹子相连接。",
+      "现在对铜傀儡像使用选取方块功能时会获得相同姿势的铜傀儡像。（MCPE-225265）",
+      "修复了铜火把的配方会给予一个铜火把而不是四个的问题。",
+      "现在只有物品发生变化的展示架会发出方块毗邻更新，如供侦测器侦测。（MCPE-225461）"
+    ],
+    "铜火把": [
+      "现在合成铜火把时会给予4个，而不是1个。"
+    ],
+    "展示架": [
+      "更改了模型，以移除重叠的纹理UV。"
+    ],
+    "生物": [
+      "铜傀儡现在会在箱子或铜箱子被玩家打开时在旁边排队等候。",
+      "铜傀儡现在会看向其走向的容器。"
+    ],
+    "铜傀儡": [
+      "现在使用剪刀剪掉铜傀儡头上的虞美人时会掉落1个虞美人。"
+    ],
+    "常规": [
+      "现在将自定义生物群系添加到已有自定义生物群系的世界时会更加稳定。"
+    ],
+    "声音": [
+      "将block.copper_chest.open、​block.copper_chest.closed、​block.copper_chest.weathered.open、​block.copper_chest.weathered.closed、​block.copper_chest.oxidized.open、​block.copper_chest.oxidized.closed、​mob.copper_golem.step、​mob.copper_golem.spin、​mob.copper_golem.weathered.step、​mob.copper_golem.oxidized.step、​mob.copper_golem.weathered.spin和​mob.copper_golem.oxidized.spin的衰减距离更改为12格。",
+      "将record.tears和​record.lava_chicken的分类由sound更改为record。"
+    ],
+    "命令": [
+      "修复了/place命令无法在超平坦世界中正常运作的问题。"
+    ],
+    "运输物品意向": [
+      "若allow_simultaneous_interaction为true，现在拥有该意向的生物会在玩家与其目标容器交互时排队等候。"
+    ],
+    "基岩版编辑器": [
+      "加入了弹窗通知支持。",
+      "通过在LogMessage类中引入新属性logChannel和新字段subMessage，加入了对弹窗通知的支持。",
+      "现在带有弹窗通道的日志消息会在发生错误时在视口中显示为弹窗通知。",
+      "subMessage字段允许在弹窗中显示额外的上下文信息。",
+      "加入了一个新设置“显示弹窗通知”。",
+      "为设置面板加入了新的复选框设置“显示弹窗通知”。",
+      "启用时，除了错误之外，信息和警告消息也会显示为弹窗通知。",
+      "更新了方块选取器，以在筛选模式为名称时为搜索栏给予输入焦点。",
+      "修复了启用灵动视效后仍会保留选区画笔指示器的漏洞。",
+      "更新了召唤工具，以能够使用⇧ Shift + 鼠标滚轮来旋转实体。",
+      "更新了一些消息，以使其显示为弹窗通知。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“自定义生物群系”和“测试版 API”子选项后才可使用。"
+    ],
+    "@minecraft/server": [
+      "修复了在使用GameTest.setAfterBatchCallback方法的情况下在命令控制台中使用/reload时会抛出GameTest错误的漏洞。",
+      "加入了Dimension.getBiome(location: Vector3)，可用于定位指定位置的生物群系。",
+      "为beta加入了Entity.getBlockStandingOn(options?: GetBlocksStandingOnOptions): Block | undefined方法。",
+      "为beta加入了Entity.getAllBlocksStandingOn(options?: GetBlocksStandingOnOptions): Block[];方法。",
+      "加入了GetBlocksStandingOnOptions接口。",
+      "可选参数blockFilter?: BlockFilter用于过滤返回的方块。",
+      "可选参数ignoreThinBlocks?: boolean用于确定是否忽略高度为0.2或更低的方块。",
+      "为beta加入了Camera.setCameraWithEase(cameraPreset: string, easeOptions: EaseOptions): void方法。"
+    ],
+    "生物群系": [
+      "修复了部分生物群系中的生物群系音乐组件会被移除的问题。"
+    ],
+    "音效": [
+      "将不可装备在手上的物品拿在手上时，生物不再会播放装备音效。（MCPE-223747）",
+      "现在铜箱子的关闭音效会与其动画正确同步。（MCPE-223966）",
+      "现在铜箱子的打开和关闭音效最多只能在12格范围内听到。（MCPE-224011）",
+      "现在铜傀儡的音效最多只能在16格范围内听到。（MCPE-223867）",
+      "铜傀儡更频繁播放的脚步声和旋转音效范围更小，只有12格。"
+    ],
+    "物品": [
+      "现在“Tears”音乐唱片的音效由游戏设置中的“音乐方块”音频滑块控制。（MCPE-222162）",
+      "现在“Lava Chicken”音乐唱片的音效由游戏设置中的“音乐方块”音频滑块控制。（MCPE-224504）"
+    ],
+    "游戏内容": [
+      "修复了在对着生物的情况下装备盔甲时会产生“幽灵”复制物品的问题。（MCPE-220172）",
+      "修复了通过/controlscheme命令设置的控制方案在后来激活的相机视角不支持其时不会被保留的问题。自游戏基版本1.21.110起，此类方案会按预期保持存在，直到通过/controlscheme命令明确清除。",
+      "修复了熔炉/高炉/烟熏炉的进度条会在没有烧炼进度时卡住的问题。（MCPE-63099）"
+    ],
+    "编辑器": [
+      "现在详细结构面板中的复制到剪贴板按钮会在被按下时切换为粘贴预览。",
+      "现在编辑器中的铅笔能够在场景中放置“对象”。对象是指有意义的Minecraft要素，如床、门、植物等。"
+    ],
+    "用户界面": [
+      "修复了锈蚀的铜块在创造模式物品栏中排序不正确的问题。（MCPE-189611）",
+      "更新了各板块和购买按钮上的Marketplace Pass的V形图标，以使其拥有正确的缩放。",
+      "调整了市场侧边栏图标的大小，以与图标的适当大小相匹配。",
+      "调整了库存分类选择图标的大小，以与图标的适当大小相匹配。",
+      "加入了大小合适的我的游戏库按钮，以供顶栏使用。",
+      "更改了出现信息灯泡的部分位置，以使用正确的分辨率。",
+      "更新了市场错误动画，以使其以正确分辨率显示。",
+      "为促销横幅加入了新图标，以适应UI的像素化样式。"
+    ],
+    "图形": [
+      "修复了展示架的方块破坏纹理会以两倍大小显示的问题。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.110.24 — Minecraft Feedback，2025年8月12日。"
+    ]
+  }
+}

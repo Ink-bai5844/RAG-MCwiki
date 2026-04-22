@@ -1,0 +1,5 @@
+{
+  "title": "骆驼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%AA%86%E9%A9%BC%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n马类共通标签，见Template:Nbt inherit/horse/source\n*\n*LastPoseTick：骆驼最后一次起身的时间。当此值为负值时骆驼坐下，且其相反数代表开始坐下的时间。"
+}

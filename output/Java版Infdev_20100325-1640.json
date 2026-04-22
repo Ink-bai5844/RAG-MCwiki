@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100325-1640",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100325-1640",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年3月25日\n下载\n客户端（.json）\nal_version\n1.116\n◄◄Minecraft Indev\nInfdev 20100618►►\n◄Infdev 20100325-1545\nInfdev 20100327►\nMinecraft Infdev的一个版本发布于2010年3月25日16:40（UTC），修复了一些漏洞。\n更改\n常规\n性能\n提升了性能，然而游戏的性能仍会不断降低。\n修复\n修复了2个漏洞\n生成洞穴不再会降低性能。\n暴露在天空的花不再会枯萎。\n参考\nIRC记录, Adura.7z（UTC-5）\nAdura的IRC记录: \"(12:41:47) <Notch> flowers that can see the sky will no longer die, but there's still a bug with flowers under trees\"\n导航"
+}

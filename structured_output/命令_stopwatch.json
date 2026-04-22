@@ -1,0 +1,54 @@
+{
+  "title": "命令/stopwatch",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fstopwatch",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "管理秒表以记录现实时间。秒表的时间不受/tick freeze影响，相关存储格式参见秒表存储格式。"
+    ],
+    "stopwatch create <id>": [
+      "创建新的秒表。"
+    ],
+    "stopwatch query <id> [<scale>]": [
+      "查询指定的秒表的时间，以秒为单位（精确到小数点后3位）。如果给定<scale>参数，则将时间值乘以<scale>向下取整后返回。"
+    ],
+    "stopwatch restart <id>": [
+      "重置指定的秒表的时间。"
+    ],
+    "stopwatch remove <id>": [
+      "移除指定的秒表。"
+    ],
+    "参数": [
+      "<id>：resource_location",
+      "指定秒表的ID。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "<scale>：double",
+      "/stopwatch query ...的返回值乘数，默认为1。",
+      "必须为双精度浮点数。"
+    ],
+    "Java版": [
+      "1.21.11",
+      "25w41a",
+      "加入了/stopwatch。",
+      "25w42a",
+      "修改了<id>参数的位置，先前格式为/stopwatch <id> <操作>而不是/stopwatch <操作> <id>。",
+      "向query子命令添加了可选参数scale，为返回值的乘数。",
+      "query子命令现在返回秒表的时间乘以乘数，先前只返回1。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1"
+    ],
+    "你知道吗": [
+      "该命令之所以被添加，是为了取代之前版本中使用/worldborder来测量现实时间流逝的方法。"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Tutorial:架设Spigot服务器",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E6%9E%B6%E8%AE%BESpigot%E6%9C%8D%E5%8A%A1%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "本教程介绍的是如何架设Spigot服务器。关于架设原版服务器，请见“Tutorial:架设服务器”。",
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。",
+      "如果你希望服务器拥有更多的自定义功能，以及易于设置和使用的接口。你可以尝试使用Spigot。此教程将向你展示如何轻松架设服务器并让你的朋友加入，使用各种插件，以及维护升级。",
+      "请注意，Spigot是原版插件服务器，仅支持Spigot与Bukkit插件（不兼容Paper核心插件）。本教程仅适用于Windows。如果你在使用macOS或Linux，请阅读此教程。"
+    ],
+    "获取程序": [
+      "首先，点击这里下载最新的BuildToolsGUI.exe（你也可以下载BuildToolsGUI.jar，但请确保它使用Java打开）。若正常要使用此程序，需要安装Java 8或更新版本，你可以在这里下载；由于编译过程中要拉取源代码，请确保你的设备已经安装有PortableGit（如果未检测到，工具会自动从GitHub获取），你也可以在这里下载并手动安装。对于旧版，可能需要安装.NET Framework 4.5或更新版本，如果你的计算机已经使用了一段时间的话，你很可能已经安装了。如果没有，请在这里获取安装程序并安装。"
+    ],
+    "准备服务器": [
+      "你需要安装并打开BuildToolsGUI.exe。如果需要，可以使用下拉菜单来更改版本。点击“Compile”后，它将开始运行，请稍等片刻直到它完成运行。等待的时间取决于你的网络状态和计算机性能。完成运行之后，打开与可执行文件在同一目录下的BuildTools文件夹。接着，在桌面上创建一个名为“Spigot”的文件夹。复制文件spigot-1.x.x.jar”并将其重命名为spigot.jar。",
+      "然后，打开一个文本编辑器粘贴并修改以下命令：",
+      "@echo off java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar --nogui pause"
+    ],
+    "（#是你为程序分配的运行内存。超过主机的最大内存可能导致崩溃。）": [
+      "在文本编辑器中，选择文件>另存为，然后找到“Spigot”目录。将文件的名称更改为run.bat。若加载失败，可尝试将-jar参数后的文件名用双引号包住。"
+    ],
+    "使用Aikar的启动参数": [
+      "当您成功开服后，可使用该参数替换启动脚本中的内容，以求更加性能。",
+      "Aikar的标志（Tuning the JVM – G1GC Garbage Collector Flags for Minecraft）是一套高效的Minecraft垃圾收集系统。其对垃圾收集的改进，已在各种规模的服务器，各种类型的服务器中被反复证明有效。使用这些参数来启动您的服务器，有助于避免出现大的垃圾回收高峰，稳定服务器TPS。",
+      "使用该参数建议为服务器至少分配 6-10GB 内存，该标准不受玩家数量影响。G1GC 垃圾收集器在内存充足的环境下可发挥更优性能。需注意内存扩容的性能收益有边际递减效应，32GB以上效果十分有限。",
+      "切勿将所有可用内存分给服务器。"
+    ],
+    "建议的参数": [
+      "使用这些参数仅仅需要更改 Xmx 和 Xms。这些参数应该适用于任何大小的内存。注意Xmx与Xms数值相等，推荐大小为系统预留1G-1.5G后的全部内存。",
+      "java -Xms10G -Xmx10G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar 本服务端.jar --nogui"
+    ],
+    "Java垃圾收集日志配置": [
+      "若使用上述参数后出现老年代相关问题，可根据所使用的Java版本添加以下参数以启用垃圾收集（GC）日志功能：",
+      "Java 8-10版本",
+      "终端命令： -Xloggc:gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=1M",
+      "Java 11及以上版本",
+      "终端命令： -Xlog:gc*:logs/gc.log:time,uptime:filecount=5,filesize=1M 垃圾收集日志功能不会对服务器性能造成影响，可长期保持开启状态。日志文件占用的存储空间极小（约5MB）"
+    ],
+    "第一次启动服务器": [
+      "步骤：",
+      "双击在“Spigot”目录中的“run.bat”。命令提示符的窗口将在短暂打开后关闭。",
+      "打开在“Spigot”目录中的“eula.txt”然后将“eula=false”改为“eula=true”。",
+      "双击“run.bat”再次启动程序，这会让程序在“Spigot”目录中创建一些新文件。",
+      "你的服务器现在已经启动并运行，若要连接它，请打开你的服务器对应的Minecraft版本，点击“多人游戏”，再点击“直接连接”，然后输入“localhost”作为服务器IP地址。你应该会连接到刚刚产生的世界。现在，你就可以开始使用包含各种选项和可下载插件的自定义服务器了。",
+      "你可以按以下步骤查询计算机的IP地址："
+    ],
+    "输入“ipconfig”；": [
+      "你的IP地址会显示在“IPv4 地址”的后面。（注意，在中国大陆很有可能获取到的是局域网IP）[需要更多信息]"
+    ],
+    "定制服务器": [
+      "在命令提示符仍然运行的情况下。输入“/op <你的用户名>”命令，“/”可以省略。你现在是一个管理员了！你拥有在服务器上执行命令的权限。另一个文件是“server.properties”。你可以用文本编辑器打开它，然后设定它的参数，互联网中有许多关于这些的指南。若要关闭服务器，可在控制台中输入“/stop”以停止服务器。如果你想在服务器上添加插件，你可以在这些网址中找到一些比如：Curseforge、Modrinth、Spigot官网、Bukkit官网。",
+      "若要安装下载的插件，请把它放在“Spigot”目录中的“Plugins”文件夹。若需重启服务器，可双击“run.bat”。"
+    ],
+    "维护升级": [
+      "如果你的服务器想要升级至更高的游戏版本你可以按照以下步骤去做："
+    ],
+    "替换原来的服务器核心，注意是只替换核心；": [
+      "重新启动服务器，服务器将自动下载升级文件，自动替换文件。"
+    ]
+  }
+}

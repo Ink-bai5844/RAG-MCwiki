@@ -1,0 +1,5 @@
+{
+  "title": "快乐恶魂/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%BF%AB%E4%B9%90%E6%81%B6%E9%AD%82%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n*still_timeout：快乐恶魂剩余滞空时间。此值小于5且快乐恶魂头顶可以找到有效玩家时，此值被设为10，随后每游戏刻减少1，直至0时恢复控制和移动。"
+}

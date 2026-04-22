@@ -1,0 +1,5 @@
+{
+  "title": "Earth:咯菇",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E5%92%AF%E8%8F%87",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n咯菇\n最大生命值\n4（）\n类型\n被动型\n尺寸\n高度：0.7格（不包括蘑菇）\n宽度：0.4格\n实体ID\n?\n几年前，远道而来的探险家们发现了一种奇异而罕见的长满了蘑菇的鸡。正如它的名字一样，咯菇是鸡的一个奇怪的亚种。它好吃吗？只有时间会告诉我们答案。\n——Minecraft Earth内描述\n咯菇（Cluckshroom）是鸡长着蘑菇的变种。它们有着稀有级的稀有度。\n获取\n咯菇作为稀有级别的生物在鸡可点击物中以2.3%的概率获得。\n咯菇也可以通过购买建造模板获得。\n行为\n主条目：鸡 § 行为\n咯菇在黑暗处行走时，走过的地方会长出红色蘑菇。除此之外，它们与鸡的AI行为几乎完全相同，会漫无目的地行走并躲避熔岩。不同的是，咯菇会主动躲避至较暗的地方。如果一只咯菇处于阳光直射下，那么它就会疯狂地四处奔跑直到离开阳光。\n掉落物\n咯菇在死亡时掉落：\n红色蘑菇[需要更多信息]\n羽毛\n生鸡肉（如被烧死则掉落1熟鸡肉）\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.chicken.say\n受伤\nmob.chicken.hurt\n死亡\nmob.chicken.hurt\n行走\nmob.chicken.step\n生下蘑菇\nSFX_cluckshroom_lay_mushroom\n数据值\nID\n名称\n命名空间ID\n本地化键名\n咯菇\ncluck_shroom\nentity.cluck_shroom.name\n历史\nMinecraft Earth\n2019年7月13日\n在Twitter的预告视频中，咯菇以阴影形式出现。\n2019年7月25日\n咯菇被宣布将会加入游戏。\nRelease\n加入了咯菇。\n0.8.0\n咯菇入水时不再会沉入水下。\n?\n获得咯菇的概率从1.6%改为2.3%。\n?\n获得咯菇的概率改为2%。\n导航"
+}

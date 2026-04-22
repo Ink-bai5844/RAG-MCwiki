@@ -1,0 +1,39 @@
+{
+  "title": "Java版Classic服务器1.6",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.6",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "1.6"
+    ],
+    "客户端版本": [
+      "0.0.19a_04、0.0.19a_05"
+    ],
+    "发布时间": [
+      "2009年6月19日"
+    ],
+    "协议版本": [
+      "5",
+      "其他版本的1.6"
+    ],
+    "基岩版": [
+      "New Nintendo 3DS版"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.5",
+      "1.7►►",
+      "1.6是Classic服务器的一次更新，发布于2009年6月19日23:47（UTC）。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了海绵的奇怪行为。"
+    ],
+    "参考": [
+      "IRC日志于Archive.org；#minecraft.20090619.log. 2009年6月19日（UTC−5）。",
+      "IRC记录: \"P6:49:21 <Notch> it should say 1.6 in the readme\" (23:49 UTC)",
+      "IRC记录: \"P6:47:50 <Notch> new server update if you want to fix sponges\" (23:47:50 UTC)",
+      "Sponges won’t vanish randomly now, and glass looks better.（存档） — The Word of Notch，2009年6月19日 23:54。"
+    ]
+  }
+}

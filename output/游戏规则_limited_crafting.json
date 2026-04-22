@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/limited crafting",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Flimited_crafting",
+  "text": "limited_crafting（Java版）\n名称\n合成需要配方\n描述\n若启用，玩家只能使用已解锁的配方合成。\n分类（JE）\n玩家\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\nlimited_crafting\ndoLimitedCrafting（基岩版）\n名称\n无\n描述\n无\n分类（BE旧UI）\n无\n分类（BE新UI）\n无\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\ndoLimitedCrafting\nlimited_crafting[仅Java版]或doLimitedCrafting[仅基岩版]是控制玩家能否只可合成已解锁的配方的游戏规则。\n行为\n当limited_crafting[仅Java版]或doLimitedCrafting[仅基岩版]为true时，玩家只能合成已解锁的配方。\n历史\nJava版\n1.12\n17w13a\n加入了游戏规则doLimitedCrafting。\n1.21.11\n25w44a\n将游戏规则doLimitedCrafting重命名为limited_crafting。\n基岩版\n1.20.30\n1.20.30.20\n加入了游戏规则doLimitedCrafting。\n导航"
+}

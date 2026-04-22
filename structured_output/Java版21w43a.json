@@ -1,0 +1,105 @@
+{
+  "title": "Java版21w43a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8821w43a",
+  "structured_content": {
+    "默认分类": [
+      "21w43a"
+    ],
+    "发布时间": [
+      "2021年10月27日"
+    ],
+    "快照归属": [
+      "1.18"
+    ],
+    "协议版本": [
+      "DEC: 1073741871",
+      "HEX: 4000002F"
+    ],
+    "数据版本": [
+      "2844"
+    ],
+    "资源包版本": [
+      "8"
+    ],
+    "数据包版本": [
+      "8",
+      "◄◄1.17.1",
+      "1.18.1►►",
+      "◄21w42a",
+      "21w44a►",
+      "21w43a是Java版1.18的第7个快照，发布于2021年10月27日，优化了升级存档时新旧地形的融合，同时对地形生成做了一些调整和修复。"
+    ],
+    "旧世界升级": [
+      "在旧区块周围生成新区块时，地形会根据旧区块进行调整，更好地贴合旧区块。",
+      "现在旧区块中Y=0到Y=4处的基岩层会由深板岩替代。",
+      "若Y=0处为基岩，则其下方会以深板岩填充。",
+      "洞穴不会在此生成，但紫晶洞和熔岩湖可能会生成。",
+      "新的基岩层位于Y=-64处。",
+      "在此快照中升级存档的过程中对区块进行的更改是永久性的。",
+      "此功能尚未开发完毕，可能会持续改进。"
+    ],
+    "标签": [
+      "加入了big_dripleaf_placeable方块标签。",
+      "包含耕地、dirt方块标签和small_dripleaf_placeable方块标签。",
+      "大型垂滴叶能被放置在拥有此标签的方块上方。"
+    ],
+    "大型垂滴叶": [
+      "现在只能放置在黏土、砂土、泥土、耕地、草方块、苔藓块、菌丝体、灰化土和缠根泥土上。"
+    ],
+    "含水层": [
+      "降低了含水层水位高度发生变化的频率，因此大片水位相同的区域更加常见了。",
+      "略微减少了熔岩含水层的数量。"
+    ],
+    "洞穴": [
+      "减少了河流和海洋岸边充水的洞穴生成的数量。"
+    ],
+    "海洋": [
+      "移除了暖水深海。",
+      "暖水海洋现在会在深水区生成。"
+    ],
+    "种子": [
+      "再次被完全更改，新生成的世界不与之前快照的一致。"
+    ],
+    "区块存储格式": [
+      "移除了区块中的Level，并将其内部的内容移出。",
+      "Level.Entities移至entities。",
+      "Level.TileEntities移至block_entities。",
+      "Level.TileTicks和Level.ToBeTicked移至block_ticks。",
+      "Level.LiquidTicks和Level.LiquidsToBeTicked移至fluid_ticks。",
+      "Level.Sections移至sections。",
+      "Level.Structures移至structures。",
+      "Level.Structures.Starts移至structures.starts。",
+      "Level.Sections[].block_states移至sections[].block_states。",
+      "Level.Sections[].biomes移至sections[].biomes。",
+      "加入了yPos ，以记录区块内子区块Y轴位置的最小值。",
+      "加入了below_zero_retrogen，以支持Y=0以下的地形生成。",
+      "加入了blending_data，包含了支持新区块与旧区块间地形生成混合算法的数据。"
+    ],
+    "选项": [
+      "将视频设置里的“更新优先项”重命名为“区块构建器”。三个选项各自新增了一条鼠标悬停时的注释，并被重命名："
+    ],
+    "刻": [
+      "更改了方块计划刻和液体计划刻的内部细节，以使存档保存得更快。"
+    ],
+    "修复": [
+      "修复了11个漏洞",
+      "1.18前正式版的漏洞",
+      "MC-49010 — 用/clone命令克隆正处于激活状态的压力板或按钮会使其永久保持被按下的状态。",
+      "MC-131930 — 暖水深海中不生成珊瑚和海泡菜。",
+      "MC-156616 — 恶地地层不正确生成。",
+      "MC-217379 — 暖水深海中不生成河豚。",
+      "MC-224205 — 用/clone命令克隆倾斜值不为none的大型垂滴叶会使其永久保持倾斜的状态。",
+      "MC-228745 — 大型垂滴叶不能被放置在耕地上。",
+      "MC-238073 — 装饰器独立于世界种子。",
+      "1.18开发版本的漏洞",
+      "MC-236615 — 更新优先项选项的英文大小写不正确。",
+      "MC-236624 — 暖水深海没有被计入进度“探索的时光”的达成条件中。",
+      "MC-236970 — Y=160及以上处，恶地地层会被橙色陶瓦覆盖。",
+      "MC-238939 — 石头会在下界生成。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 21w43a — Minecraft.net，2021年10月27日。",
+      "Unfortunately the seeds have been shuffled again, so worlds will not look like they did in previous snapshots. Hopefully world seeds will be stable after this though, so let the real seed hunt begin!，来自@henrikkniberg。X（曾名Twitter），2021年10月27日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/camerashake",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fcamerashake",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\ncamerashake\n需要的权限等级\n1\n限制条件\n启用作弊\n对玩家视野施以一定强度和时间的摇晃效果（若玩家在无障碍设置中禁用了视角摇晃，则不会看到此效果）。\n语法\ncamerashake add <player: target> [intensity: float] [seconds: float] [shakeType: CameraShakeType]\n给玩家添加视野摇晃效果。\ncamerashake stop [player: target]\n停止视野摇晃。\n参数\nplayer: target：CommandSelector<Player>\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\n指定要施以视野摇晃效果的玩家。如果未指定，默认为命令执行者。\nintensity: float：float\n必须为单精度浮点数。必须是0到4以内的数（包含0和4）。\n指定视野摇晃的强度。\nseconds: float：float\n必须为单精度浮点数。\n指定视野摇晃的时长。以秒为单位。\nshakeType: CameraShakeType：CameraShakeType\n必须为positional（坐标摇晃）或rotational（角度摇晃）。\n指定视野摇晃方向的种类。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\nintensity: float小于0或大于4\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n被选中的玩家数量\n示例\n对最近的玩家施以5秒强度为0.25的坐标视野摇晃。\n/camerashake add @p 0.25 5 positional\n对最近的玩家施以5秒强度为0.25的角度视野摇晃。\n/camerashake add @p 0.25 5 rotational\n坐标视野摇晃的示例\n角度视野摇晃的示例\n历史\n基岩版\n1.16.100\n1.16.100.57\n加入了/camerashake命令。\n1.16.100.59\n加入了选择摇晃类型的功能。\n1.16.210\n1.16.210.54\n加入了停止视野摇晃的命令。\n导航"
+}

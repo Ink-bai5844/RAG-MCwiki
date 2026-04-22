@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100330-1203",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100330-1203",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年3月30日\n下载\n不可用\nal_version\n1.119\n◄◄Minecraft Indev\nInfdev 20100618►►\n◄Infdev 20100327\nInfdev 20100330-1611►\nMinecraft Infdev的一个版本发布于2010年3月30日。\n更改\n方块\n熔炉\n烧炼一个物品的时间由4秒改回了8秒。\n修复\n修复了5个漏洞\n修复了导致容器内容物（如箱子和熔炉）有时未能保存的漏洞。\n修复了台阶的光照错误。\n世界的顶部不再完全被照亮，其不再导致崩溃。[需要验证]\n修复了世界重新加载时导致树和矿石重新生成的漏洞。\n小麦作物在被破坏后不再保留其生长阶段，此漏洞曾经导致新种植的作物呈现先前生长在该方块上的作物的生长阶段。\n参考\nInfdev's been updated, bugs have been fixed（存档） — The Word of Notch，2010年3月30日。\n导航"
+}

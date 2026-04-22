@@ -1,0 +1,12 @@
+{
+  "title": "讲台/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%AE%B2%E5%8F%B0%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "Book：讲台上的书。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "Page：讲台上的书目前翻开的页数，从0开始。如果设置值小于0则重置为0，超过书的页数范围则重置为书的最后一页。如果讲台上没有书则此项不存在。"
+    ]
+  }
+}

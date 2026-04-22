@@ -1,0 +1,42 @@
+{
+  "title": "辅助程序与编辑器/物品栏修改器",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2F%E7%89%A9%E5%93%81%E6%A0%8F%E4%BF%AE%E6%94%B9%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "INVedit": [
+      "NBTedit的分支，历经多次转手。当前已知最新版本为2.0，但实际开发者在游玩Minecraft 1.7.x世界时似乎遇到了问题。",
+      "2014-01-25",
+      "2.0"
+    ],
+    "论坛": [
+      "1.8.1"
+    ],
+    "Inside Job": [
+      "Mac OS X平台上INVedit的替代品，存在部分物品显示未知、缩略图与游戏内不符的问题。",
+      "2011-03-27",
+      "0.11.1"
+    ],
+    "网站": [
+      "1.2.5",
+      "携带版0.3.3"
+    ],
+    "Minecraft Pocket Edition World Inventory Editor": [
+      "适用于iOS和Android携带版，以及Windows、Mac、Linux平台的物品栏编辑器。",
+      "2012-08-11",
+      "0.1"
+    ],
+    "PocketInveditor": [
+      "针对携带版0.14.0的物品栏编辑器。",
+      "2014-01-25",
+      "1.17.6",
+      "携带版0.14.0"
+    ],
+    "Universal Minecraft Editor": [
+      "可编辑任何Minecraft平台的物品栏，截至2018年3月2日，是唯一支持新添加的长阵列NBT标签的NBT编辑器。",
+      "2016-06-16",
+      "1.2.6"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:燃烧箭袋",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%87%83%E7%83%A7%E7%AE%AD%E8%A2%8B",
+  "text": "燃烧箭袋\n类型\n法器\n稀有度\n远古狩猎符文\n这个箭袋中全是最致命的箭。\n——物品描述\n燃烧箭袋（Flaming Quiver）是Minecraft Dungeons中的法器，装备后可以发射燃烧的箭。\n获取\n地点：\n南瓜牧场\n烈焰锻造厂\n下界要塞\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用燃烧箭袋会给予玩家7只带有灼伤伤害的灼烧之箭（Burning Arrows），全部发射后进入冷却期。\n灼烧之箭的灼烧伤害可以被烈焰汇聚魔咒加成。\n属性\nX 每秒远程伤害\n30 秒冷却\n数据\n等级\n伤害值\n1\n6\n5\n8\n10\n15\n13\n20\n16\n25\n21\n30\n26\n35\n33\n40\n41\n45\n51\n50\n63\n55\n77\n60\n96\n65\n118\n70\n145\n75\n178\n80\n219\n85\n269\n90\n330\n95\n405\n100\n497\n103\n573\n105\n609\n音效\n描述\n文件\n使用\nsfx_item_fireQuiverActivate_soundWave\n装备\nsfx_item_fireQuiverPlace_soundWave\n射击\nsfx_multi_fireProjectileShoot\n箭矢飞行\nsfx_item_fireProjectileFly_soundWave\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了燃烧箭袋。\n导航"
+}

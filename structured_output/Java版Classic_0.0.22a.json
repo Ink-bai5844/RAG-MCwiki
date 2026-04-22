@@ -1,0 +1,63 @@
+{
+  "title": "Java版Classic 0.0.22a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.22a",
+  "structured_content": {
+    "默认分类": [
+      "此版本的客户端目前已丢失。",
+      "虽然此版本的服务端有留档，但对应的客户端却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "0.0.22a"
+    ],
+    "服务端版本": [
+      "1.8.2"
+    ],
+    "发布时间": [
+      "2009年6月29日"
+    ],
+    "协议版本": [
+      "6"
+    ],
+    "未知": [
+      "◄◄0.0.21a",
+      "0.0.23a►►",
+      "◄0.0.21a_01",
+      "0.0.22a_01►",
+      "0.0.22a是Java版的一次更新，发布于2009年6月29日，加入了音效和音乐。"
+    ],
+    "音效": [
+      "加入了基本音效。",
+      "包括基本的脚步声音，在玻璃上脚步的声音以及在布料和草方块上脚步的声音。",
+      "破坏方块会发出脚步声。"
+    ],
+    "音乐": [
+      "加入了\"calm1.ogg\"、\"calm2.ogg\"和\"calm3.ogg\"三首曲目。"
+    ],
+    "熔岩": [
+      "熔岩的纹理变得更亮。"
+    ],
+    "其他": [
+      "用FPS限制器替代了FPS计。",
+      "限制FPS为200。"
+    ],
+    "重新上传": [
+      "该版本的客户端于21:58（UTC）被重新上传，以修复玩家无法连接到服务器的漏洞。"
+    ],
+    "参考": [
+      "Archive.org上的IRC记录; #minecraft.20090629.log. 2009年6月29日(UTC−5)。",
+      "IRC记录: \"P5:21:52 <Rroff> before on just plain 22a sound was fine for me\". (22:21:52 UTC)",
+      "IRC记录: \"P4:56:47 <akuryo> notch you did an update?\", \"P4:56:55 <AlLnAtuRalX> Notch, server update?\". (21:56 UTC)",
+      "IRC记录: \"P4:58:39 <08Notch> yeah, this is very basic sound\". (21:58:39 UTC)",
+      "IRC记录: \"P4:59:46 <akuryo> SOUND IS HERE\" (21:59:46 UTC)",
+      "IRC记录: \"P4:59:07 <C418> I actually really love the destroying sound being footsteps\". (21:59:07 UTC)",
+      "IRC记录: \"P4:58:59 <AlLnAtuRalX> I love the walk on glass sound\". (21:58:59 UTC)",
+      "IRC记录: \"P5:01:06 <AlLnAtuRalX> the footsteps on cloth / grass one\" (22:01:06 UTC)",
+      "IRC记录: \"P5:00:04 <AlLnAtuRalX> I hear music?\" [...] \"P5:00:59 <Quatroking> what the hell is this music\" [...] \"P5:03:36 <Lmaoboat> Lol, I heared the music after a a while without it, and I was about to yell at my brother for playing the piano again\" (22:00:04至22:03:36 UTC)",
+      "IRC记录: \"P5:01:51 <C418> I should have made hard techno\" [...] \"P5:46:34 <08Notch> no, C418 did the music\" (22:01:51和22:46:34 UTC)",
+      "IRC记录: \"P5:05:14 <Fishlips> thank you so much for making lava look a thousand times better!\" [...] \"P5:08:36 <Evil-Ville> ah you made lava brighter\" [...] \"P5:10:35 <Fishlips> lava has been changed\" [...] \"P5:10:39 <Quatroking> Yep\" [...] \"P5:10:46 <Quatroking> just checked the pic on the wiki and this one is brighter\" [...] \"P5:10:58 <AlLnAtuRalX> New lava owns\" (22:05:14至22:10:58 UTC)",
+      "IRC记录: \"P5:06:14 <08Notch> i took out the fps meter\" [...] P5:06:18 <08Notch> and added a framerate limiter\". (22:06 UTC)",
+      "IRC记录: \"P4:58:33 <08Notch> there we go, the client should work again\". (21:58:33 UTC)"
+    ]
+  }
+}

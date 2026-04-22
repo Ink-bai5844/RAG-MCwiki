@@ -1,0 +1,5 @@
+{
+  "title": "命令/toggledownfall",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftoggledownfall",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\n此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\ntoggledownfall\n需要的权限等级\n1\n限制条件\n启用作弊\n切换天气。若当前天气为晴天，则切换为降雨；若当前天气为降雨或雷暴，则切换为晴天。\n语法\ntoggledownfall\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行成功\n1\n历史\nJava版\n1.0.0\nBeta 1.9-pre5\n加入了/toggledownfall。\n1.3.1\n12w16a\n/toggledownfall现在可在单人游戏中使用了。\n更改了执行命令时显示的消息。\n1.13\n17w45a\n移除了/toggledownfall。\n携带版Alpha\n0.16.0\nbuild 1\n加入了/toggledownfall。\n导航"
+}

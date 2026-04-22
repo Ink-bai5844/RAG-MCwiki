@@ -1,0 +1,12 @@
+{
+  "title": "灵魂",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%81%B5%E9%AD%82",
+  "structured_content": {
+    "soul[仅Java版]": [
+      "minecraft:soul_particle[仅基岩版]"
+    ],
+    "soul_fire_flame[仅Java版]": [
+      "minecraft:blue_flame_particle[仅基岩版]"
+    ]
+  }
+}

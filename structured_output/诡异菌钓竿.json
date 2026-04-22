@@ -1,0 +1,138 @@
+{
+  "title": "诡异菌钓竿",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%AF%A1%E5%BC%82%E8%8F%8C%E9%92%93%E7%AB%BF",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是控制炽足兽的物品。关于控制猪的物品，请见“胡萝卜钓竿”；关于其他用法，请见“钓竿（消歧义）”。"
+    ],
+    "[[|]]": [
+      "诡异菌必须放置在钓鱼竿右下角的方格。",
+      "不会继承钓鱼竿的魔咒和耐久。",
+      "2个诡异菌钓竿的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。"
+    ],
+    "最大耐久度": [
+      "100"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "warped_fungus_on_a_stick": [
+      "炽足兽……好吧，可以这么说：当造物者赋予生物智慧时，它们排队的位置并不靠前。它们往往会漫无目的地四处游荡，这在你逃离一群猪灵并需要快速穿过熔岩时没什么帮助。幸运的是，有一种所有炽足兽都喜欢的美味食物——诡异菌。"
+    ],
+    "——Duncan Geere": [
+      "诡异菌钓竿（Warped Fungus on a Stick）是一种可以用来控制装有鞍的炽足兽的物品。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "2个诡异菌钓竿的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。"
+    ],
+    "修复和命名诡异菌钓竿[[|]][[|]][[|]]": [
+      "叠加两把诡异菌钓竿的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "僵尸猪灵": [
+      "僵尸猪灵骑乘炽足兽生成时会持有诡异菌钓竿。将其击杀后有一定概率掉落诡异菌钓竿。"
+    ],
+    "用途": [
+      "诡异菌钓竿能用来吸引炽足兽。"
+    ],
+    "骑炽足兽": [
+      "参见：炽足兽 § 骑乘",
+      "骑在炽足兽上时，如果玩家手持诡异菌钓竿，则炽足兽会朝玩家面向的方向前进；使用诡异菌钓竿还可以加快炽足兽的行进速度，同时使诡异菌钓竿降低1点耐久度。",
+      "诡异菌钓竿的耐久度耗尽后会变成钓鱼竿并保留魔咒。"
+    ],
+    "魔咒": [
+      "诡异菌钓竿可以通过铁砧获得以下魔咒："
+    ],
+    "I": [
+      "在基岩版中，还可以用附魔台直接对诡异菌钓竿附魔，由这种方法附魔出的魔咒一定是耐久。"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.warped_fungus_on_a_stick": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:max_damage\":100,\"minecraft:rarity\":\"common\",\"minecraft:item_name\":{\"translate\":\"item.minecraft.warped_fungus_on_a_stick\"},\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:warped_fungus_on_a_stick\",\"minecraft:repair_cost\":0,\"minecraft:lore\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "下界": [
+      "拿着诡异菌钓竿骑乘炽足兽时，按下使用键对其加速且消耗了诡异菌钓竿的耐久度。"
+    ],
+    "Java版": [
+      "1.16",
+      "20w13a",
+      "加入了诡异菌钓竿。",
+      "20w14a",
+      "将诡异菌钓竿的耐久度从25提升至100。",
+      "现在每次使用诡异菌钓竿为炽足兽加速只消耗其1点耐久度。",
+      "1.16.2",
+      "pre1",
+      "现在僵尸猪灵骑乘炽足兽生成时会手持诡异菌钓竿。"
+    ],
+    "基岩版": [
+      "1.16.0",
+      "1.16.0.57",
+      "加入了诡异菌钓竿。",
+      "1.16.0.63",
+      "现在诡异菌钓竿可以在铁砧上附魔。",
+      "1.16.100",
+      "1.16.100.54",
+      "现在僵尸猪灵骑乘炽足兽生成时会手持诡异菌钓竿。"
+    ],
+    "参考": [
+      "Taking Inventory: Warped Fungus on a Stick — Minecraft.net，2025年1月24日。",
+      "MC-183764 — 诡异菌钓竿的耐久度没有被消耗时，“画船添足”进度不会被完成"
+    ]
+  }
+}

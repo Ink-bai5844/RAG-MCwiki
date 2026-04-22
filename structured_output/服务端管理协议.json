@@ -1,0 +1,497 @@
+{
+  "title": "服务端管理协议",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%AE%A1%E7%90%86%E5%8D%8F%E8%AE%AE",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Java版中基于JSON-RPC协议，用于服务端管理的API。关于Java版中基于RCON协议，用于远程执行命令的API，请见“远程控制台协议”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "Wiki上有与该主题相关的教程！": [
+      "见教程:服务端管理协议。",
+      "见教程:服务端管理协议。",
+      "服务端管理协议（Server Management Protocol）是用于管理服务端而开放的API。"
+    ],
+    "配置": [
+      "服务端管理协议默认关闭，必须设置服务端配置文件中的management-server-enabled为true才可以开启。",
+      "在服务端配置文件中，下列配置与服务端管理协议有关：",
+      "management-server-enabled：（默认为false）是否开启服务端管理协议。",
+      "management-server-host：（默认为localhost）服务端管理协议绑定的主机名。",
+      "management-server-port：（默认为0）服务端管理协议监听的端口。如果此值为0，游戏将绑定当前未被占用的可绑定端口。",
+      "management-server-secret：（默认为随机生成的有效令牌）用于认证的令牌，必须为只包含大写字母、小写字母及数字的长度为40的字符串（即满足正则表达式^[a-zA-Z0-9]{40}$）。",
+      "management-server-allowed-origins：在使用浏览器WebSocket API的情况下，服务端管理协议允许连入的来源。以逗号（,）分割，且不允许有前后空格。",
+      "management-server-tls-enabled：（默认为true）是否启用TLS。",
+      "management-server-tls-keystore：保存服务端用于TLS的私钥和证书的KeyStore。",
+      "management-server-tls-keystore-password：KeyStore的密码。",
+      "status-heartbeat-interval：（默认为0）控制管理服务器向已连接的客户端发送心跳通知的间隔，单位为秒。设置为0会禁用此功能。",
+      "如果服务端启动时不能绑定指定的主机名和端口，服务端将启动失败。"
+    ],
+    "协议内容": [
+      "服务端管理协议基于WebSocket（仅支持HTTP/1.1）和JSON-RPC 2.0协议进行双向通信。"
+    ],
+    "认证与安全": [
+      "服务端管理协议要求客户端连入时必须携带认证数据。游戏要求客户端建立WebSocket连接时，请求中需要包含Authorization或Sec-WebSocket-Protocol认证请求头：",
+      "对于Authorization请求头，游戏要求输入格式为Bearer <认证令牌>。",
+      "对于Sec-WebSocket-Protocol，游戏要求输入格式为minecraft-v1, <认证令牌>。此格式用于浏览器WebSocket API认证。",
+      "如果客户端连入时不带有有效的认证请求头，或认证令牌不匹配，游戏会直接返回HTTP状态码401（Unauthorized）中止连接。对于浏览器WebSocket API认证方式，游戏还将验证连接来源（请求头Origin）：如果来源不在management-server-allowed-origins中列出，游戏也将以HTTP状态码401中止连接。",
+      "假设服务端管理协议绑定在40745端口，且认证令牌设置为n2pQcIG1OQ92jot2xG1M0aw0ZWnrh4F3Z3jw8qRP。此处使用websocat进行举例说明，连接请求应如下所示：",
+      "$websocatws://localhost:40745 websocat:WebSocketError:WebSocketError:Receivedunexpectedstatuscode(401Unauthorized) websocat:errorrunning $websocatws://localhost:40745-H'Authorization: Bearer n2pQcIG1OQ92jot2xG1M0aw0ZWnrh4F3Z3jw8qRP'{\"jsonrpc\":\"2.0\",\"method\":\"server/status\",\"id\":0}{\"jsonrpc\":\"2.0\",\"id\":0,\"result\":{\"started\":true,\"version\":{\"name\":\"25w37a\",\"protocol\":1073742092}}}",
+      "使用浏览器WebSocket API则如下所示。部分网页可能具有内容安全策略（CSP）从而阻止不安全的WebSocket连接或跨域连接，因此此脚本不能在所有网页或控制台内生效。启用TLS（见下文）可解决不安全WebSocket问题，但仍不能绕过CSP的跨域限制。",
+      "constsocket=newWebSocket('ws://localhost:40745',['minecraft-v1','n2pQcIG1OQ92jot2xG1M0aw0ZWnrh4F3Z3jw8qRP']);socket.onmessage=console.log;",
+      "同时，服务端管理协议还可以设置使用TLS（Transport Layer Security，传输层安全性协议）以提高整个协议的安全性。TLS默认开启，但服务端默认不设置相应的KeyStore文件和密码。",
+      "游戏初始化服务端管理协议时，如果使用TLS，游戏会按照下列流程逐步获取基础信息：",
+      "游戏首先读取management-server-tls-keystore配置中指定的KeyStore。",
+      "如果文件未设置，游戏报错TLS is enabled but keystore is not configured。",
+      "如果文件不存在，或不是一个文件，则报错Supplied keystore is not a file or does not exist: <文件>。",
+      "读取KeyStore密码：",
+      "首先读取环境变量MINECRAFT_MANAGEMENT_TLS_KEYSTORE_PASSWORD，如果此值不存在，则进行下一步。",
+      "其次读取系统属性management.tls.keystore.password，如果此值不存在，则进行下一步。",
+      "最后读取management-server-tls-keystore-password配置。",
+      "如果上述3个步骤均未获得密码，游戏报错Keystore password not set。",
+      "如果文件和密码都设置且有效，游戏会以PKCS #12格式读取KeyStore，获取其中的服务端证书和私钥。如果证书和私钥无效，在服务端初始化时将直接报错。任何在TLS初始化过程中的报错均会停止服务端。",
+      "服务端本身不会检验TLS证书的可信性，但客户端可能会检查。例如使用自签名证书时客户端将报错：",
+      "$websocatwss://localhost:40745-H'Authorization: Bearer n2pQcIG1OQ92jot2xG1M0aw0ZWnrh4F3Z3jw8qRP' websocat:WebSocketError:WebSocketSSLerror:error:0A000086:SSLroutines:tls_post_process_server_certificate:certificateverifyfailed:ssl/statem/statem_clnt.c:2123:(self-signedcertificate) websocat:errorrunning $websocatwss://localhost:40745-H'Authorization: Bearer n2pQcIG1OQ92jot2xG1M0aw0ZWnrh4F3Z3jw8qRP'--insecure# 不验证证书可信性{\"jsonrpc\":\"2.0\",\"method\":\"server/status\",\"id\":0}{\"jsonrpc\":\"2.0\",\"id\":0,\"result\":{\"started\":true,\"version\":{\"name\":\"25w37a\",\"protocol\":1073742092}}}"
+    ],
+    "JSON-RPC": [
+      "JSON-RPC（JSON-Remote Procedure Call）是基于JSON的一种轻量级的远程过程调用协议。",
+      "Minecraft中的实现与原版规范有较大差异，本章节主要描述Minecraft中的JSON-RPC协议规范。",
+      "客户端负责发起请求和处理响应，服务端负责处理请求和发送响应。服务端管理协议支持双向通信，因此websocat与Minecraft服务端既充当了客户端，也充当了服务端。在客户端和服务端的数据互换过程中，成员是区分大小写的。",
+      "*意味着websocat向Minecraft服务端发送数据时，Minecraft要求成员必须存在。",
+      "*意味着Minecraft服务端向websocat发送数据时，成员一定存在。",
+      "在服务端管理协议中，所有的请求方法名称均为有效的命名空间ID。所有以minecraft:notification/作为前缀的ID都是服务端发送到客户端的通知，而其他的ID均为客户端发送到服务端的请求。下文中，对于请求省略minecraft命名空间前缀，对于通知省略minecraft:notification/前缀。",
+      "所有请求或通知的参数均作为第一个方法传参传入，不具有名称。以下为示例（右箭头代表向服务端的信息，左箭头反之）：",
+      "->{\"jsonrpc\":\"2.0\",\"method\":\"minecraft:allowlist/set\",\"params\":[[{\"name\":\"jeb_\"}]],\"id\":1} <-{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]} <-{\"jsonrpc\":\"2.0\",\"method\":\"minecraft:notification/allowlist/added\",\"params\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]} ->{\"jsonrpc\":\"2.0\",\"method\":\"minecraft:allowlist\",\"id\":2} <-{\"jsonrpc\":\"2.0\",\"id\":2,\"result\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]}",
+      "下列为游戏对JSON-RPC协议的具体实现。"
+    ],
+    "请求": [
+      "每个RPC调用都对应一个请求（Request）。"
+    ],
+    "JSON元素根标签": [
+      "*jsonrpc：使用的JSON-RPC协议版本，严格等于2.0。",
+      "id：由客户端建立的标识符，需要包含一个数字，否则视为通知。",
+      "*jsonrpc：使用的JSON-RPC协议版本，严格等于\"2.0\"。",
+      "*id：与请求中id成员相同。",
+      "*result：具体内容，取决于调用的方法。",
+      "*jsonrpc：使用的JSON-RPC协议版本，严格等于\"2.0\"。",
+      "id：与请求中id成员相同。",
+      "*id：玩家的UUID。为带连字符的十六进制格式。",
+      "*name：玩家名称。",
+      "*id：玩家的UUID。为带连字符的十六进制格式。",
+      "*name：玩家名称。",
+      "在请求时，UUID的读取优先级高于名称。如果两项数据均不设置，游戏将忽略此无效数据，不抛出错误。",
+      "*expires：封禁的过期时间。格式参见封禁列表存储格式。",
+      "*expires：封禁的过期时间。格式参见封禁列表存储格式。",
+      "*expires：封禁的过期时间。格式参见封禁列表存储格式。",
+      "*expires：封禁的过期时间。格式参见封禁列表存储格式。",
+      "*bypassesPlayerLimit：玩家是否可以不受最大玩家数量限制进入服务端。",
+      "*permissionLevel：玩家的权限等级。",
+      "*bypassesPlayerLimit：玩家是否可以不受最大玩家数量限制进入服务端。",
+      "*permissionLevel：玩家的权限等级。",
+      "*players：服务端在线的玩家。",
+      "*players：服务端在线的玩家。",
+      "*key：游戏规则的ID。",
+      "*type：游戏规则的值类型。只可能是boolean或integer。",
+      "*value：游戏规则的值。类型与对应游戏规则有关。",
+      "*key：游戏规则的ID。",
+      "*type：游戏规则的值类型。只可能是boolean或integer。",
+      "*value：游戏规则的值。类型与对应游戏规则有关。"
+    ],
+    "*": [
+      "*method：包含要调用的方法的名称。",
+      "params：在调用方法时使用的参数值负载。",
+      "如果类型为数组，则直接传递参数：",
+      "：单个参数，具体负载的数据类型见下文。",
+      "如果类型为对象，则按名称传递参数：",
+      "*<参数名称>：一项参数名及对应的负载。",
+      "：单个参数，具体负载的数据类型见下文。",
+      "下文中，各个负载的参数名称会写在其参数后，例如allowlist/set负载的数据类型为数组，参数名称为players，那么会表示成players。",
+      "尽管缺失元素时游戏可以正常解析，但并不会有效执行请求，返回的通知也仅为空数组。",
+      "*error：错误对象。",
+      "*code：错误代码，表示发生的错误类型。",
+      "*message：错误消息，一条单句。",
+      "data：详细的错误信息。",
+      "以下是常见的错误列表：",
+      "*player：一个玩家。",
+      "*player：一个玩家。",
+      "*ip：一个IP地址。",
+      "*reason：封禁的原因。",
+      "*source：封禁的操作者。",
+      "*ip：一个IP地址。",
+      "*reason：封禁的原因。",
+      "*source：封禁的操作者。",
+      "*player：一个玩家。",
+      "*player：一个玩家。",
+      "*started：服务端是否已启动。",
+      "*version：服务端版本信息。",
+      "*name：版本名称。",
+      "*protocol：服务端的协议版本。",
+      "*started：服务端是否已启动。",
+      "*version：服务端版本信息。",
+      "*name：版本名称。",
+      "*protocol：服务端的协议版本。",
+      "*message：踢出玩家的原因。",
+      "literal：（translatable存在时无效）要发送的文本。",
+      "translatable：一个本地化键名，游戏会根据当前语言显示文本。",
+      "translatableParams：替换本地化文本内的参数。处理方法详见文本组件 § 本地化文本组件。",
+      "：一个参数。",
+      "*player：要踢出的玩家。",
+      "*message：要发送的消息。如果不存在任何有效文本则响应直接为false。",
+      "literal：（translatable存在时无效）要发送的文本。",
+      "translatable：一个本地化键名，游戏会根据当前语言显示文本。",
+      "translatableParams：替换本地化文本内的参数。处理方法详见文本组件 § 本地化文本组件。",
+      "：一个参数。",
+      "*overlay：此消息是否在动作栏而不是在聊天栏显示。",
+      "*receivingPlayers：若指定，则仅这些玩家可接收此消息。"
+    ],
+    "通知": [
+      "通知（Notification）是id成员无效的请求。通知表明了客户端对相应的响应对象不感兴趣。因此，无论成功或失败，服务端都不会向客户端返回响应对象。"
+    ],
+    "响应": [
+      "当调用RPC时，除非请求是通知，服务器必须发送一个响应（Response）。",
+      "save：是否保存成功。",
+      "sent：是否有玩家接收到了此服务端消息。",
+      "enabled：设置的值。此值与传入负载一致。",
+      "difficulty：设置的值。此值与传入负载一致。",
+      "enforced：设置的值。此值与传入负载一致。",
+      "used：设置的值。此值与传入负载一致。",
+      "max：设置的值。此值与传入负载一致。",
+      "seconds：设置的值。此值与传入负载一致。",
+      "seconds：设置的值。此值与传入负载一致。",
+      "allowed：设置的值。此值与传入负载一致。",
+      "message：设置的值。此值与传入负载一致。",
+      "radius：设置的值。此值与传入负载一致。",
+      "forced：设置的值。此值与传入负载一致。",
+      "mode：设置的值。此值与传入负载一致。",
+      "distance：设置的值。此值与传入负载一致。",
+      "distance：设置的值。此值与传入负载一致。",
+      "accepted：设置的值。此值与传入负载一致。",
+      "seconds：设置的值。此值与传入负载一致。",
+      "level：设置的值。此值与传入负载一致。",
+      "hidden：设置的值。此值与传入负载一致。",
+      "enabled：设置的值。此值与传入负载一致。",
+      "percentage_points：设置的值。此值与传入负载一致。"
+    ],
+    "描述": [
+      "-32700"
+    ],
+    "Parse error": [
+      "请求字符串无法被解析为JSON。",
+      "-32600"
+    ],
+    "Invalid Request[原文如此]": [
+      "请求对象无效。",
+      "-32601"
+    ],
+    "Method not found": [
+      "方法不存在。",
+      "-32602"
+    ],
+    "Invalid params": [
+      "调用参数无效。",
+      "-32603"
+    ],
+    "Internal error": [
+      "服务端内部错误。"
+    ],
+    "批处理请求": [
+      "Minecraft的JSON-RPC实现可以正确识别批处理请求格式并返回相应结果。",
+      "批处理的格式为多个请求组成的数组，游戏将按顺序进行解析并执行。以下为示例：",
+      "->[{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"minecraft:allowlist/set\",\"params\":[[{\"name\":\"jeb_\"}]]},{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"minecraft:allowlist\",\"params\":[]},{\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"minecraft:allowlist/clear\",\"params\":[]}] <-[{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]},{\"jsonrpc\":\"2.0\",\"id\":2,\"result\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]},{\"jsonrpc\":\"2.0\",\"id\":3,\"result\":[]}] <-{\"jsonrpc\":\"2.0\",\"method\":\"minecraft:notification/allowlist/added\",\"params\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]} <-{\"jsonrpc\":\"2.0\",\"method\":\"minecraft:notification/allowlist/removed\",\"params\":[{\"id\":\"853c80ef-3c37-49fd-aa49-938b674adae6\",\"name\":\"jeb_\"}]}"
+    ],
+    "通用结构": [
+      "在请求与通知中，有很多方法共通使用了同一种结构用于请求或响应。"
+    ],
+    "PlayerDto": [
+      "用于玩家相关的基础数据结构。",
+      "*reason：封禁的原因。",
+      "*source：封禁的操作者。",
+      "*reason：封禁的原因。",
+      "*source：封禁的操作者。",
+      "*reason：封禁的原因。",
+      "*source：封禁的操作者。"
+    ],
+    "UserBanDto": [
+      "用于封禁玩家列表的基础结构。"
+    ],
+    "IpBanDto": [
+      "用于封禁IP列表的基础结构。"
+    ],
+    "OperatorDto": [
+      "用于管理员列表的基础结构。"
+    ],
+    "ServerState": [
+      "服务端状态的基本结构。"
+    ],
+    "TypedRule": [
+      "游戏规则信息的基本结构。"
+    ],
+    "请求方法": [
+      "下文中，对于无参数的请求，请求对应的章节内仅包含响应JSON结构；有参数的请求则同时包含负载和响应两部分。"
+    ],
+    "白名单管理": [
+      "白名单相关方法共有5个，分别用于获取、设置、添加、修改及清空白名单。"
+    ],
+    "allowlist": [
+      "：一项在白名单中的玩家。",
+      "：一项在白名单中的玩家。此数组与传入负载一致。",
+      "：一项在白名单中的玩家。",
+      "：一项在白名单中的玩家。",
+      "：一项白名单中的玩家。"
+    ],
+    "负载": [
+      "flush：是否立刻保存服务端数据。",
+      "enable：将设置的值。",
+      "difficulty：将设置的值。取值只能为peaceful、​easy、​normal和​hard。",
+      "enforce：将设置的值。",
+      "use：将设置的值。",
+      "max：将设置的值。",
+      "seconds：将设置的值。",
+      "seconds：将设置的值。数据类型和值取决于具体的方法。",
+      "allow：将设置的值。",
+      "message：将设置的值。",
+      "radius：将设置的值。",
+      "force：将设置的值。",
+      "mode：将设置的值。取值只能为survival、​creative、​adventure和​spectator。",
+      "distance：将设置的值。",
+      "distance：将设置的值。",
+      "accept：将设置的值。",
+      "seconds：将设置的值。",
+      "level：将设置的值。",
+      "hide：将设置的值。",
+      "enable：将设置的值。",
+      "percentage_points：将设置的值。"
+    ],
+    "players": [
+      "：一项在白名单中的玩家。",
+      "：一个在线的玩家。"
+    ],
+    "add": [
+      "：一项要加入白名单中的玩家。",
+      "：一项要加入封禁玩家列表中的玩家。",
+      "：一项要加入封禁IP玩家列表中的IP。",
+      "*expires：封禁的过期时间。",
+      "*ip：一个IP。",
+      "*player：一个玩家，游戏将获取此玩家的IP地址。",
+      "：一项要加入管理员列表中的玩家。"
+    ],
+    "remove": [
+      "：一项要被移除于白名单中的玩家。",
+      "：一项要被移除于封禁玩家列表中的玩家。",
+      "：一项要被移除于管理员列表中的玩家。"
+    ],
+    "封禁玩家列表管理": [
+      "封禁玩家列表相关方法共有5个，分别用于获取、设置、添加、修改及清空封禁玩家列表。"
+    ],
+    "bans": [
+      "：一项在封禁玩家列表中的玩家。"
+    ],
+    "banlist": [
+      "：一项在封禁玩家列表中的玩家。",
+      "：一项在封禁玩家列表中的玩家。此数组与传入负载一致。",
+      "：一项在封禁玩家列表中的玩家。",
+      "：一项在封禁玩家列表中的玩家。",
+      "：一项在封禁玩家列表中的玩家。",
+      "：一项在封禁IP列表中的玩家。",
+      "：一项在封禁IP列表中的玩家。",
+      "：一项在封禁IP列表中的玩家。此数组与传入负载一致。",
+      "：一项在封禁IP列表中的IP。",
+      "：一项在封禁IP列表中的IP。",
+      "：一项在封禁IP列表中的IP。"
+    ],
+    "封禁IP列表管理": [
+      "封禁IP列表相关方法共有5个，分别用于获取、设置、添加、修改及清空封禁IP列表。"
+    ],
+    "ip": [
+      "：一个要被移除于封禁IP列表中的IP。"
+    ],
+    "玩家管理": [
+      "玩家相关方法共有2个，分别用于获取玩家列表和踢出玩家。"
+    ],
+    "kick": [
+      "：一项要踢出的玩家。"
+    ],
+    "kicked": [
+      "：一项玩家。此数组仅包含实际被踢出的玩家。"
+    ],
+    "管理员列表管理": [
+      "管理员列表相关方法共有5个，分别用于获取、设置、添加、修改及清空管理员列表。"
+    ],
+    "operators": [
+      "：一项在管理员列表中的玩家。",
+      "：一项在管理员列表中的玩家。",
+      "：一项在管理员列表中的玩家。此数组与传入负载一致。",
+      "：一项在管理员列表中的玩家。",
+      "：一项在管理员列表中的玩家。",
+      "：一项在管理员列表中的玩家。"
+    ],
+    "服务端状态管理": [
+      "服务端状态相关方法共有4个。"
+    ],
+    "server/stop": [
+      "stopping：是否已停止服务端。"
+    ],
+    "服务端设置管理": [
+      "服务端设置相关方法共有40个。部分设置亦在服务端配置文件中。",
+      "下列方法的ID均遵守serversettings/*和serversettings/*/set的格式，它们的负载（若有）和响应的格式也类似："
+    ],
+    "serversettings/autosave": [
+      "enabled：查询结果。"
+    ],
+    "serversettings/difficulty": [
+      "difficulty：查询结果。"
+    ],
+    "serversettings/use_allowlist": [
+      "used：查询结果。"
+    ],
+    "serversettings/max_players": [
+      "max：查询结果。"
+    ],
+    "serversettings/pause_when_empty_seconds": [
+      "seconds：查询结果。"
+    ],
+    "serversettings/player_idle_timeout": [
+      "seconds：查询结果。数据类型和值取决于具体的方法。"
+    ],
+    "serversettings/allow_flight": [
+      "allowed：查询结果。"
+    ],
+    "serversettings/motd": [
+      "message：查询结果。"
+    ],
+    "serversettings/spawn_protection_radius": [
+      "radius：查询结果。"
+    ],
+    "serversettings/force_game_mode": [
+      "forced：查询结果。"
+    ],
+    "serversettings/game_mode": [
+      "mode：查询结果。"
+    ],
+    "serversettings/view_distance": [
+      "distance：查询结果。"
+    ],
+    "serversettings/simulation_distance": [
+      "distance：查询结果。"
+    ],
+    "serversettings/accept_transfers": [
+      "accepted：查询结果。"
+    ],
+    "serversettings/status_heartbeat_interval": [
+      "seconds：查询结果。"
+    ],
+    "serversettings/operator_user_permission_level": [
+      "level：查询结果。"
+    ],
+    "serversettings/hide_online_players": [
+      "hidden：查询结果。"
+    ],
+    "serversettings/status_replies": [
+      "enabled：查询结果。"
+    ],
+    "serversettings/entity_broadcast_range": [
+      "percentage_points：查询结果。"
+    ],
+    "serversettings/enforced": [
+      "enforced：查询结果。"
+    ],
+    "游戏规则管理": [
+      "游戏规则相关方法共有2个。"
+    ],
+    "gamerules": [
+      "：一项游戏规则。"
+    ],
+    "gamerule": [
+      "*key：游戏规则的ID。",
+      "*value：游戏规则的值。类型与对应游戏规则有关。"
+    ],
+    "通知方法": [
+      "通知是服务端发向客户端的数据，不存在id。下文中没有负载的通知将不单独以章节介绍，有负载的通知对应章节仅包含负载结构。"
+    ],
+    "服务端状态": [
+      "有关服务端状态的通知均不包含负载。"
+    ],
+    "server/activity": [
+      "服务端与一个有效的客户端成功建立连接并开始握手流程，此通知30秒内只会发送一次"
+    ],
+    "玩家": [
+      "有关玩家的通知共有2个。"
+    ],
+    "players/joined": [
+      "player：加入服务端的玩家。"
+    ],
+    "players/left": [
+      "player：离开服务端的玩家。"
+    ],
+    "管理员列表更改": [
+      "有关管理员列表更改的通知共有2个。"
+    ],
+    "operators/added": [
+      "player：新增的管理员的信息。"
+    ],
+    "operators/removed": [
+      "player：被撤销的管理员的信息。"
+    ],
+    "白名单更改": [
+      "有关白名单更改的通知共有2个。"
+    ],
+    "allowlist/added": [
+      "player：加入白名单的玩家。"
+    ],
+    "allowlist/removed": [
+      "player：从白名单中移除的玩家。"
+    ],
+    "封禁IP列表更改": [
+      "有关封禁IP列表更改的通知共有2个。"
+    ],
+    "ip_bans/added": [
+      "player：被封禁的IP。",
+      "player：被封禁的玩家。"
+    ],
+    "ip_bans/removed": [
+      "player：被解除封禁的IP地址。",
+      "player：被解除封禁的玩家。"
+    ],
+    "封禁玩家列表更改": [
+      "有关封禁玩家列表更改的通知共有2个。"
+    ],
+    "游戏规则更改": [
+      "有关游戏规则更改的通知共有1个。"
+    ],
+    "gamerules/updated": [
+      "gamerule：游戏规则信息。"
+    ],
+    "服务端心跳": [
+      "有关服务端心跳的通知共有1个。"
+    ],
+    "Java版": [
+      "1.21.9",
+      "25w35a",
+      "加入了服务端管理协议。",
+      "25w37a",
+      "为服务端管理协议加入了强制认证，并允许使用TLS提高安全性。",
+      "现在服务端管理协议支持批处理请求格式。",
+      "pre1",
+      "通知请求使用前缀minecraft:notification/而不是此前的notification:命名空间。",
+      "pre2",
+      "现在支持按名称指定参数。",
+      "1.21.11",
+      "25w41a",
+      "将服务端管理协议版本号更改为1.1.0。",
+      "添加通知server/activity。",
+      "25w42a",
+      "现在允许使用浏览器WebSocket API连入服务端管理协议。",
+      "25w44a",
+      "将服务端管理协议版本号更改为2.0.0。",
+      "修改了游戏规则管理相关的请求和响应格式，以适配游戏规则注册表。"
+    ],
+    "参考": [
+      "https://developer.mozilla.org/zh-CN/docs/Glossary/Origin",
+      "可参照RFC2616，14.8节及MDN文档",
+      "可参照RFC6455，1.9节及MDN文档",
+      "https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket",
+      "可参照RFC6454，7章及MDN文档",
+      "https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/CSP",
+      "https://www.jsonrpc.org/",
+      "MC-301554 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

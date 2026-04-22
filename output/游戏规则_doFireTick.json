@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/doFireTick",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FdoFireTick",
+  "text": "本条目所述内容仅适用于基岩版。\n此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\ndoFireTick\n名称\nJava版：火焰蔓延\n基岩版：火焰蔓延\n描述\nJava版：无\n基岩版：火焰可以在实体之间蔓延\n分类（JE）\n世界更新\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n布尔值\n默认值\ntrue\n值域（JE）\n?\n游戏规则ID\ndoFireTick\ndoFireTick是控制火是否更新的游戏规则。\n行为\n当doFireTick为false时：\n火不会被游戏更新状态。\n火不会破坏方块。\n火不会传播。\n火不会熄灭。\n熔岩不会产生火。\n历史\nJava版\n1.4.2\n12w32a\n加入了游戏规则doFireTick。\n1.21.11\n25w44a\n移除了游戏规则doFireTick，并加入fire_spread_radius_around_player取代其功能。\n携带版\n1.1.0\n1.1.0.0\n加入了游戏规则doFireTick。\n导航"
+}

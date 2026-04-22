@@ -1,0 +1,41 @@
+{
+  "title": "游戏规则/tnt explodes",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Ftnt_explodes",
+  "structured_content": {
+    "tntExplodes": [
+      "tnt_explodes[仅Java版]或tntExplodes[仅基岩版]是控制TNT是否可以爆炸的游戏规则。"
+    ],
+    "行为": [
+      "当tnt_explodes[仅Java版]或tntExplodes[仅基岩版]为false时：",
+      "TNT不能被激活。",
+      "TNT矿车不能被激活，也不能爆炸。",
+      "被激活的TNT不能爆炸。",
+      "在Java版中，发射器不能射出TNT。"
+    ],
+    "Java版": [
+      "1.21.5",
+      "25w10a",
+      "加入了游戏规则tntExplodes，以同步基岩版。",
+      "pre1",
+      "设置为false时，TNT矿车和被激活的TNT不能爆炸。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则tntExplodes重命名为tnt_explodes。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了游戏规则tntExplodes。",
+      "1.2.0.11",
+      "设置为false时，发射器不能射出TNT。",
+      "设置为false时，TNT矿车不能被激活，也不能爆炸。",
+      "1.18.10",
+      "1.18.10.20",
+      "设置为false时，由命令生成的TNT不能爆炸。"
+    ],
+    "参考": [
+      "MC-280474 — 漏洞状态为“已修复”。",
+      "MC-280477 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "title": "甜菜根",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9C%E8%8F%9C%E6%A0%B9",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是可食用根茎。关于种植用的种子以及作物方块，请见“甜菜种子”；关于做成的汤，请见“甜菜汤”。"
+    ],
+    "食物属性": [
+      "1（）+1.2饱和度"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "beetroot": [
+      "甜菜根（Beetroot）是一种食物类物品。"
+    ],
+    "获取": [
+      "甜菜根能通过收成完全成熟的甜菜植株来获取，每次掉落1个[仅Java版]/1-2个[仅基岩版]甜菜根，然后系统会尝试进行3次掉落，每次有约57%（p=4⁄7）[仅Java版]或53%（p=8⁄15）[仅基岩版]的概率掉落1份甜菜种子（平均掉落2 5⁄7份种子），挖掘工具的时运魔咒每增加1级，尝试次数增加1。甜菜植株可以在村庄的农田中发现，或由甜菜种子种植得到。"
+    ],
+    "食物": [
+      "主条目：食物",
+      "手持甜菜根按住使用键即可食用，每个甜菜根可以回复1（）+1.2饱和度。"
+    ],
+    "繁殖": [
+      "甜菜根能用来吸引及繁殖猪。",
+      "村民可以通过拾起至少12个甜菜根来产生繁殖意愿。"
+    ],
+    "堆肥": [
+      "将甜菜根放入堆肥桶中，会有65%的概率增加一层堆肥层。"
+    ],
+    "Java版": [
+      "1.9",
+      "15w31a",
+      "加入了甜菜根，同时还有对应的种子和汤。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，此物品的数字ID是434。",
+      "1.14",
+      "18w43a",
+      "更改了甜菜根的纹理。",
+      "19w03a",
+      "现在将甜菜根放入堆肥桶时有50%的概率使堆肥层数增加1。",
+      "19w05a",
+      "现在将甜菜根放入堆肥桶时有65%的概率使堆肥层数增加1。",
+      "19w11a",
+      "现在新手级别的农民有40%的概率以1个绿宝石的价格购买15个甜菜根。"
+    ],
+    "基岩版": [
+      "1.10.0",
+      "1.10.0.3",
+      "更改了甜菜根的纹理。",
+      "1.11.0",
+      "1.11.0.1",
+      "现在将甜菜根放入堆肥桶时有65%的概率使堆肥层数增加1。",
+      "1.11.0.4",
+      "新手级别的农民村民现在有25%的概率以1个绿宝石的价格购买15个甜菜根。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了甜菜根。"
+    ],
+    "新手级农民": [
+      "40%",
+      "25%",
+      "甜菜根 × 15"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.beetroot": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*type：消耗使用效果类型。",
+      "如果type为apply_effects，则对使用此物品的生物添加状态效果：",
+      "*effects：物品使用后添加的状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "probability：（0≤值≤1，默认为1）食用后施加此状态效果的概率。",
+      "如果type为clear_all_effects，则对使用此物品的生物移除所有状态效果。",
+      "如果type为play_sound，则播放指定的声音：",
+      "*sound：要播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "如果type为remove_effects，则对使用此物品的生物移除指定状态效果：",
+      "*effects：物品使用后要移除的状态效果。可以为以#开头的状态效果标签、一个状态效果ID、或以多个状态效果ID组成的列表。",
+      "如果type为teleport_randomly，则对使用此物品的生物进行随机传送：",
+      "diameter：（值>0，默认为16）随机传送的半径，以传送前的位置作为原点。",
+      "sound：（默认为entity.generic.eat）使用物品时产生的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:food：物品的食物属性。",
+      "can_always_eat：（默认为false）表示物品是否可以无视当前饥饿值食用。",
+      "*nutrition：（值≥0）食用物品时增加的饥饿值。",
+      "*saturation：食用物品时增加的饱和度。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:consumable：物品的消耗使用行为。",
+      "animation：（默认为eat）物品使用时的动画。可以为none（无动作）、eat（吃）、drink（饮用）、block（格挡）、bow（拉弓）、brush（清刷）、crossbow（弩上弦）、spear（矛蓄力）、trident（三叉戟投掷）、spyglass（看望远镜）、toot_horn（吹山羊角）和bundle（使用收纳袋）。",
+      "consume_seconds：（值≥0，默认为1.6）物品使用的时间，单位为秒。当此值为0时，物品立刻使用，不会像拉弓等操作需要等待时间。",
+      "has_consume_particles：（默认为true）物品在使用时是否产生物品破碎粒子。",
+      "on_consume_effects：当物品被使用后产生的效果列表。",
+      "：一项消耗使用效果。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:consumable\":[],\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:lore\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.beetroot\"},\"minecraft:enchantments\":[],\"minecraft:food\":{\"saturation\":1.2,\"nutrition\":1},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:beetroot\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "–": [
+      "消耗下列物品之一："
+    ],
+    "热带鱼": [
+      "如有其他物品可被消耗，进度也会达成。",
+      "如有其他食物可以正常食用，进度会将其忽略。"
+    ],
+    "开荒垦地": [
+      "食用下列所有食物（共40种）："
+    ],
+    "携带版Alpha": [
+      "2013年11月13日",
+      "Jeb在Instagram上宣布Johan Bernhardsson正在为0.8.0加入一个惊喜，他同时附上了一张玩家拿着甜菜根的图片。",
+      "2013年11月14日",
+      "Johan发布了另一张甜菜根的图片，证实了Jeb发表的图片内容确实为甜菜根。",
+      "0.8.0",
+      "build 2",
+      "加入了甜菜根。",
+      "甜菜根现在无法在创造模式物品栏中找到。",
+      "0.9.0",
+      "build 1",
+      "甜菜根现在可以用来吸引和繁殖猪了。",
+      "0.12.1",
+      "build 1",
+      "甜菜根现在会回复饥饿值而不是生命值。",
+      "build 8",
+      "甜菜根现在可以在村庄的农田中找到。",
+      "0.13.1",
+      "甜菜根现在可以在创造模式物品栏中找到了。",
+      "0.16.2",
+      "现在甜菜根可以在积雪针叶林和雪原村庄大型住宅里面或后面的箱子里找到。"
+    ],
+    "携带版": [
+      "1.0.4",
+      "1.0.4.0",
+      "现在村民可以通过拾起至少12个甜菜根来产生繁殖意愿。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU43",
+      "CU33",
+      "1.36",
+      "Patch 13",
+      "1.0.1",
+      "加入了甜菜根。",
+      "1.90",
+      "更改了甜菜根的纹理。",
+      "TU43",
+      "CU33",
+      "1.36",
+      "Patch 13",
+      "1.0.1",
+      "加入了甜菜根。",
+      "1.90",
+      "更改了甜菜根的纹理。"
+    ],
+    "参考": [
+      "MCPE-10497 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

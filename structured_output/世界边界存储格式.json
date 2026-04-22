@@ -1,0 +1,57 @@
+{
+  "title": "世界边界存储格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%96%E7%95%8C%E8%BE%B9%E7%95%8C%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "世界边界存储文件是游戏存储每个维度世界边界信息所用的文件。"
+    ],
+    "存储格式": [
+      "世界边界存储文件位于<维度根目录>/data/minecraft/world_border.dat。例如，主世界的世界边界存储文件位于<存档根目录>/dimensions/minecraft/overworld/data/minecraft/world_border.dat，下界的位于<存档根目录>/dimensions/minecraft/the_nether/data/minecraft/world_border.dat。",
+      "世界边界存储文件使用GZip压缩的NBT文件格式保存，其内部有下列NBT结构："
+    ],
+    "*": [
+      "*data：存储数据。",
+      "*center_x：世界边界中心的X坐标。如果此项不存在则游戏默认为0。",
+      "*center_z：世界边界中心的Z坐标。如果此项不存在则游戏默认为0。",
+      "*damage_per_block：越过世界边界的安全区后，玩家每远离安全区一格增加的伤害值。如果此项不存在则游戏默认为0.2。",
+      "*safe_zone：越过世界边界后，玩家仍然不会受到伤害的安全区的宽度。如果此项不存在则游戏默认为5。",
+      "*size：世界边界的宽度。如果此项不存在则游戏默认为59999968。",
+      "*lerp_target：世界边界过渡到目标位置的宽度。如果此项不存在则游戏默认为59999968。",
+      "*lerp_time：世界边界的过渡时间。如果此项不存在则游戏默认为0。",
+      "*warning_blocks：玩家靠近世界边界出现红色警告框的最大距离。如果此项不存在则游戏默认为5。",
+      "*warning_time：当玩家接近边界距离小于边界过渡速度乘以此值时渲染出现红色警告框。如果此项不存在则游戏默认为300。",
+      "*DataVersion：保存此世界边界存储文件的游戏的数据版本。如果此项不存在则游戏认为此项是1343（Java版1.12.2）。"
+    ],
+    "存储行为": [
+      "所有维度都有对应的世界边界存储文件，保存了自身维度的世界边界信息。",
+      "如果世界边界存储文件不存在或数据无效，游戏会将世界边界的所有属性视为默认值计算。游戏只会在存档保存时更新此文件。"
+    ],
+    "Java版": [
+      "1.21.9",
+      "25w36a",
+      "加入了世界边界存储文件。",
+      "此前，世界边界信息存储于level.dat中，且重命名了所有标签的名称。"
+    ],
+    "Data": [
+      "*BorderCenterX：世界边界中心的X坐标。如果此项不存在则游戏默认为0。",
+      "*BorderCenterZ：世界边界中心的Z坐标。如果此项不存在则游戏默认为0。",
+      "*BorderDamagePerBlock：超出边界安全区后，玩家每远离安全区一格增加的伤害值。如果此项不存在则游戏默认0.2。",
+      "*BorderSafeZone：超出边界后，玩家仍然不会受到伤害的安全区的宽度。如果此项不存在则游戏默认为5。",
+      "*BorderSize：边界宽度。如果此项不存在则游戏默认为59999968。",
+      "*BorderSizeLerpTarget：边界宽度过渡到的目标宽度。如果此项不存在则游戏默认为59999968。",
+      "*BorderSizeLerpTime：边界宽度的过渡时间。如果此项不存在则游戏默认为0。",
+      "*BorderWarningBlocks：玩家接近边界渲染出现红色警告框的最大距离。如果此项不存在则游戏默认为5。",
+      "*BorderWarningTime：当玩家接近边界距离小于边界过渡速度乘以此值时渲染出现红色警告框。如果此项不存在则游戏默认为15。",
+      "25w44a",
+      "lerp_time和warning_time的单位现在是游戏刻，而不是秒。",
+      "warning_time的默认值由15改为300。",
+      "26.1",
+      "snapshot-6",
+      "将主世界的世界边界数据从<存档根目录>/data/world_border.dat移动到<存档根目录>/dimensions/minecraft/overworld/data/minecraft/world_border.dat。",
+      "将下界的世界边界数据从<存档根目录>/DIM-1/data/world_border.dat移动到<存档根目录>/dimensions/minecraft/the_nether/data/minecraft/world_border.dat。",
+      "将末地的世界边界数据从<存档根目录>/DIM1/data/world_border.dat移动到<存档根目录>/dimensions/minecraft/the_end/data/minecraft/world_border.dat。",
+      "将其他维度的世界边界数据从<维度根目录>/data/world_border.dat移动到<维度根目录>/data/minecraft/world_border.dat。"
+    ]
+  }
+}

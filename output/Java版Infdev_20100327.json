@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100327",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100327",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年3月27日\n下载\n客户端（.json）\nal_version\n1.118\n◄◄Minecraft Indev\nInfdev 20100618►►\n◄Infdev 20100325-1640\nInfdev 20100330-1203►\nMinecraft Infdev的一个版本发布于2010年3月27日。\n新内容\n常规\n选择世界菜单\n点击“Single player”按钮可进入。\n可以新建、加载和删除世界。\n只能同时存档五个世界。\n生命\n玩家现在可以重生。\n其他\n游戏现在会自动保存。\n更改\n方块\n熔炉\n现在烧炼的速度更快了。\n现在烧炼一个物品仅需4秒而非8秒。\n花\n不再自然生成。\n游戏内容\n常规\n玩家生成时不再携带任何物品。\n现在玩家死亡会重生在出生点，而不是强制使玩家重新载入最后一次保存。\n现在玩家死亡后会导致其携带的物品全部掉落。\n世界生成\n红砖块金字塔\n被移除。\n洞穴\n不再自然生成。\n常规\n改进了地形生成器，让地形看起来更加真实。\n常规\n世界加载屏幕\n改进了世界保存界面。\n主菜单\n“创建新的世界（generate new level...）”按钮现在被“单人游戏（single player）”按钮所取代，用于打开选择世界菜单。\n“加载世界（load level...）”按钮现在被“多人游戏（Multi player）”按钮所取代，但目前为不可用状态。\n移除了控制世界类型、世界形状、世界大小和世界主题的对应的四个按钮。\n存档格式\n世界格式从Indev世界格式升级到Alpha世界格式。\n修复\n修复了1个漏洞\n游戏的性能不再逐渐降低。\n参考\nInfdev’s been updated with saving and new terrain（存档） — The Word of Notch，2010年3月27日。\n导航"
+}

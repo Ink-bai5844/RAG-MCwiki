@@ -1,0 +1,60 @@
+{
+  "title": "基岩版1.19.51",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.19.51",
+  "structured_content": {
+    "默认分类": [
+      "1.19.51"
+    ],
+    "服务端版本": [
+      "1.19.51.01",
+      "1.19.52.01"
+    ],
+    "内部版本号": [
+      "Android：1.19.51.01",
+      "PlayStation：2.55",
+      "Windows：1.19.5101.0"
+    ],
+    "版本码": [
+      "Android：",
+      "951905101（armeabi-v7a，31）",
+      "961905101（x86，31）",
+      "971905101（arm64-v8a，31）",
+      "981905101（x86_64，31）",
+      "iOS/iPadOS：",
+      "853797723"
+    ],
+    "发布时间": [
+      "Android, Fire, iOS/iPadOS, PlayStation, Windows, Xbox - 2022年12月13日",
+      "Nintendo Switch - 2022年12月14日"
+    ],
+    "下载": [
+      "服务端（1.19.51.01）"
+    ],
+    "WindowsLinux": [
+      "服务端（1.19.52.01）"
+    ],
+    "协议版本": [
+      "560",
+      "◄◄1.19.0",
+      "1.20.0►►",
+      "◄1.19.50",
+      "1.19.60►",
+      "1.19.51是基岩版的一次热修复更新，在除Nintendo Switch外的平台上发布于2022年12月13日，在Nintendo Switch上发布于2022年12月14日，修复了一些漏洞。此版本与其他平台上的1.19.50相兼容。"
+    ],
+    "组件": [
+      "为minecraft:variable_max_auto_step组件加入了新属性controlled_value。",
+      "当拥有minecraft:input_ground_controlled的生物被玩家控制时，该属性会覆写base_value属性。",
+      "该属性的优先级低于jump_prevented_value。"
+    ],
+    "修复": [
+      "修复了游戏过程中可能发生的崩溃。",
+      "方块在被活塞推动时被破坏后不再会重新出现。",
+      "被推动的马不再能跨过上方放有地毯的栅栏。（MCPE-164717）",
+      "Nintendo Switch平台上不再会显示触摸控制选择屏幕。",
+      "修复了结构方块的UI屏幕中Y值字段无法通过键盘选择的问题。（MCPE-164148）"
+    ],
+    "参考": [
+      "Minecraft - 1.19.51 (Bedrock) — Minecraft Feedback，2022年12月13日。"
+    ]
+  }
+}

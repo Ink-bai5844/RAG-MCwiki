@@ -1,0 +1,121 @@
+{
+  "title": "Tutorial:自定义物品",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E8%87%AA%E5%AE%9A%E4%B9%89%E7%89%A9%E5%93%81",
+  "structured_content": {
+    "默认分类": [
+      "本教程所述内容仅适用于基岩版。",
+      "欢迎你来阅读本篇自定义物品教程！物品是MC中非常重要的一个概念，本教程希望从原理开始，通俗易懂地向你展示如何在基岩版添加一个物品。",
+      "当然，在阅读本篇教程之前，请确保你已经能够创建一个行为包和资源包，创建一个新物品需要两个包的共同合作。如果你还不清楚，请先浏览Tutorial:制作行为包页面后再来浏览本教程。"
+    ],
+    "准备好合适的工具": [
+      "如果你是Windows用户，你可以使用Visual Studio Code来编写。这是一个非常强大且实用的IDE，可以大幅简化你的工作流程。",
+      "如果你是Android用户，MT管理器也许是个不错的选择。"
+    ],
+    "不同版本之间的差异": [
+      "自定义物品有三个分水岭版本存在：",
+      "1.10，这是你可以创建自定义物品的最低版本，包含最基础最简单的一些组件；",
+      "1.16.100，该版本添加或修改了非常多全新的物品组件，使得物品功能有了巨大的飞跃；",
+      "1.20.X，从1.20.0开始的后续版本开始令1.16.100加入的物品组件走出实验性玩法（即不开启实验性玩法也能够使用它们），并进行了非常多的整合与修改。这意味着这些物品组件正趋于稳定。",
+      "了解了这些之后，我们就可以按照需求选择版本。本教程将基于1.10和1.20+的版本编写，因为它们是稳定的。当然，1.16.100~1.20-的物品格式编写我们也会简单介绍，向你展示其中的一些重点内容。"
+    ],
+    "模板的获取": [
+      "Mojang提供了一些原版的实例，这对于我们编写自己的物品有一些帮助。你可以在这里下载到原版的样例包："
+    ],
+    "资源包和行为包样例": [
+      "1.10至1.16.100的自定义物品编写",
+      "首先创建一个行为包和资源包，并写入manifest.json。这是在阅读本教程之前应掌握的基础，这里不多赘述。"
+    ],
+    "行为包部分": [
+      "物品的行为包部分主要声明这个物品在底层上是如何工作的，例如定义它可以吃，可以种下种子等等属性。因此，如果这个物品不能按照你预期的方式工作，你可以看看是不是行为包出了问题。",
+      "在你的行为包中新建一个文件夹items，请注意名字必须完全对应，不要忘记那个s。接下来我们创建一个文件my_custom_item.item.json，写入下面的内容：",
+      "{\"format_version\":\"1.16.0\",\"minecraft:item\":{\"description\":{\"identifier\":\"test:my_custom_item\"}}}",
+      "这是一个自定义物品所具有的最基本的属性，相当于你给这个物品打了一个地基。我们来简单解释一下这里的内容：",
+      "format_version：格式版本，我们写的是标准的旧版本物品，它将代表Minecraft将以旧版本的组件格式来分析它。我们可以写入1.10至1.16.100（不包括1.16.100）之间的合理版本。",
+      "description：物品描述，介绍该物品最基础的一些属性。",
+      "identifier：ID，这是物品的“身份证”，是独属于这个物品的唯一属性。/give、/clear等对物品操作的命令都有物品ID这样的参数，指代的就是这里的内容。我们在这里写入了\"test:my_custom_item\"，其中的test我们称之为命名空间，代表的是你这个包的一些通用属性，它可以任意填写，但不允许minecraft这样的命名空间（因为这是给Minecraft原版用的）。我们建议你的命名空间足够独特且易懂，否则如果名称过于通用可能会在多个包同时应用的情况下产生冲突。my_custom_item叫做ID名称，根据你的物品的性质而命名，建议起的直观易懂一些。现在你已经知道，ID是由命名空间和ID名称所组成的了，关于命名空间的更多细节请见命名空间ID。",
+      "现在我们打完了地基，开始建大楼吧！假设我们希望这个物品只能堆叠至多1个，你可以看下面这段json代码：",
+      "{\"format_version\":\"1.16.0\",\"minecraft:item\":{\"description\":{\"identifier\":\"test:my_custom_item\"},\"components\":{\"minecraft:max_stack_size\":1}}}",
+      "这样的话，你的自定义物品将至多堆叠1个。我们现在来解释一下：",
+      "components：组件，声明该物品所具有的组件。组件是Minecraft自定义内容中的重要成分，Minecraft已经将一些功能做成了组件，你只需要像拼拼图一样将你想要的功能拼在一起就可以了。组件被广泛地用于基岩版addon的方方面面，包括物品、方块、实体等都是采用组件这个形式。",
+      "minecraft:max_stack_size：最大堆叠，这是旧版本物品中可用的其中一个组件。将这个值设定为1，你会发现这个物品将是1个为1组。它的默认值为64，代表该物品将以64个为1组。",
+      "旧版本物品的组件数目十分有限，目前仅有以下几个可用：",
+      "minecraft:block、minecraft:food、minecraft:foil、minecraft:hand_equipped、minecraft:max_damage、minecraft:max_stack_size、minecraft:seed、minecraft:stacked_by_data、minecraft:use_duration。",
+      "旧版本物品最常用的一个例子是食物。事实上1.20+的物品组件因minecraft:food组件不支持施加自定义的状态效果，想要更方便的加入带有状态效果的物品就只能用旧版本物品。下面是一个原版的实例，蜂蜜瓶。请注意这个实例来自原版，所以它的命名空间是minecraft，你的自定义物品是不能把minecraft作为命名空间的！",
+      "{\"format_version\":\"1.14\",\"minecraft:item\":{\"description\":{\"identifier\":\"minecraft:honey_bottle\"},\"components\":{\"minecraft:use_duration\":40,\"minecraft:max_stack_size\":16,\"minecraft:food\":{\"nutrition\":6,\"saturation_modifier\":\"poor\",\"can_always_eat\":true,\"using_converts_to\":\"glass_bottle\",\"remove_effects\":[\"poison\"]}}}}",
+      "关于此物品的物品组件解释，请自行在相关的组件页面查阅，这里不予赘述。当然需要指出的一点是，能够读懂原版实例是提升自己能力很重要的一环，请多加训练这样的能力。",
+      "我们同样还是先新建一个文件夹items，创建一个文件my_custom_item_2.item.json。你不必删除你刚刚写入的内容，因为新版的物品是可以和旧版的物品并存的。写入下面的内容：",
+      "{\"format_version\":\"1.20.60\",\"minecraft:item\":{\"description\":{\"identifier\":\"test:my_custom_item_2\",\"menu_category\":{\"category\":\"equipment\"}},\"components\":{\"minecraft:icon\":{\"texture\":\"my_custom_item_2\"}}}}",
+      "相信你已经注意到了，在1.20+的物品中，我们把category和minecraft:icon放到了行为包里来写，而在旧版本中这是属于资源包的部分。事实上我们在1.20+中可以把本应在资源包items中的组件一并搬到行为包中，因为Mojang在1.16.100时对这些内容做了整合，并在1.20+的版本开始正式公布。这样可以更加方便地调整物品的组件，改变它的底层行为。",
+      "使用最新版本作为格式版本时，若物品图标无法显示，可尝试将\"minecraft:icon\": { \"texture\" : \"my_custom_item_2\" }换成\"minecraft:icon\": \"my_custom_item_2\"。",
+      "我们在这里先搭好框架，在后面我们来举几个简单的例子帮助你理解。关于1.20+可用的组件，见1.20可用的物品组件。"
+    ],
+    "资源包部分": [
+      "物品的资源包主要声明这个物品如何在你的游戏屏幕上呈现，包括它的图标（icon）、动画和文字翻译等。因此如果你的物品不能正常显示，或者文字音效等外显方面出了问题，你可以来排查一下资源包的问题。当然有时候重启游戏或许可以解决问题。这里要指代的内容多而繁杂，希望你可以耐心地读下去。",
+      "首先，同理地，在你的资源包中新建一个文件夹items，注意名字必须完全对应。接下来我们创建一个文件my_custom_item.item.json，写入下面的内容：",
+      "{\"format_version\":\"1.16.0\",\"minecraft:item\":{\"description\":{\"identifier\":\"test:my_custom_item\",\"category\":\"Equipment\"},\"components\":{\"minecraft:icon\":\"my_custom_item\"}}}",
+      "同样地，我们来解释一下这其中的内容：",
+      "format_version：格式版本，和行为包同理。我们可以写入1.10至1.16.100（不包括1.16.100）之间的合理版本。",
+      "description：物品描述，介绍该物品最基础的一些属性。",
+      "identifier：ID，这里写入的ID必须和行为包完全一致。",
+      "category：物品目录，指代该物品将要放到配方书（或创造模式物品栏）中哪一栏的位置。基岩版的配方书有4个栏位：建筑（Construction）、装备（Equipment）、物品（Items）、自然（Nature），你可以在这4个值中选择一个填进。",
+      "minecraft:icon：物品图标，指代该物品将要调用的图标。该图标是在textures/item_texture.json中所调用的。我们写入了my_custom_item，称之为短ID，短ID是可以任意写的，但最好清楚直观。",
+      "在资源包的物品组件中允许以下内容：",
+      "minecraft:icon、minecraft:render_offsets、minecraft:use_animation",
+      "请自行查阅其中所允许的内容。温馨提醒，如果你定义了你的物品为食物并且想使用喝下食物的音效，请按下文定义：",
+      "\"minecraft:use_animation\":\"drink\"",
+      "接下来我们希望让这个物品正确地显示出来。现在请在你的资源包目录下新建一个文件夹textures，并创建一个新文件item_texture.json（注意没有s），写入下面的内容：",
+      "{\"resource_pack_name\":\"vanilla\",\"texture_name\":\"atlas.items\",\"texture_data\":{\"my_custom_item\":{\"textures\":\"textures/items/my_custom_item\"}}}",
+      "在高版本中的资源包部分，我们不必再创建items文件夹了，因为这里的内容都放在了行为包里，包括短ID的设置。而item_texture.json和语言文件的设置步骤则是和上面所一致的。但是语言文件上还是有一些细微的差异点，在于翻译键名从item.物品ID.name改为了item.物品ID，少了后面的.name。",
+      "1.16.100至1.20的自定义物品编写",
+      "将这一部分放到后面来展示，是因为两点:",
+      "第一，启用这些组件必须使用假日创作者功能实验性玩法，而实验性玩法一般都是不稳定的，它需要你不断地维护且不能关闭，否则你可能会被背刺，你的物品功能不能正常实现，这对你的创作较为不利。",
+      "第二，在1.20之后对这些组件进行了大规模的整合、移除和弃用，因此现在的文档大多已不适用于这个版本区间。所幸在Minecraft基岩版开发Wiki还剩下一些有关于这个版本区间的组件介绍供你使用。",
+      "关于行为包和资源包的相关部分，事实上和1.20的自定义物品编写更加接近，即没有资源包的items文件夹，所有组件整合到行为包中去。",
+      "如果你正在使用中国版，很不幸的是如果你需要的话你可能必须要用这个版本区间的物品组件。当然，中国版拥有非常丰富的接口可供你使用，你完全可以通过它们实现意想不到的功能。"
+    ],
+    "前两行你可以不必留意，把它们当作是固定内容。从第三行的texture_data开始，这是物品的短ID与物品贴图所链接的地方。一般格式为": [
+      "\"texture_data\":{\"（短ID）\":{\"textures\":\"（物品贴图文件路径，不带后缀名）\"},\"（短ID）\":{\"textures\":\"（物品贴图文件路径，不带后缀名）\"},...}",
+      "因此还需要将你的物品贴图放到对应位置上。如果你急于没有贴图的话，先从原版实例那里白嫖一个苹果什么的过来，之后，如果你有自己画的需求，推荐使用Blockbench（Windows）、IsoPix（Android）或者专业的画图软件（例如Photoshop）画图。推荐16*16的贴图，但不管怎么说，它必须是一个正方形的贴图。",
+      "到此为止你的物品就应该可以正常显示了，然而如果此时你进入游戏，你的物品名字会变成一段“乱码”：item.test:my_custom_item.name。不要慌张，这是我们还没有定义它的名字。我们需要在资源包的语言文件下指定它的名字。在你的资源包目录下新建一个文件夹texts，并创建两个新文件en_US.lang和zh_CN.lang，分别写入下面的内容："
+    ],
+    "en_US.lang": [
+      "item.test:my_custom_item.name=My Custom Item"
+    ],
+    "zh_CN.lang": [
+      "item.test:my_custom_item.name=我的自定义物品",
+      "这里做个简单解释：",
+      "item.test:my_custom_item.name：翻译键名，指代在游戏中要用什么样的翻译显示这段文本。一般而言，物品的键名格式为item.物品ID.name。右侧为你希望让它显示出来的内容，并用等号连接。",
+      "现在你已经写好了你的第一个自定义物品！它将只能堆叠一个，显示出你自定义的贴图。当然，仅凭旧版组件能够实现的内容太少了，因此我们需要更高版本的组件来实现我们想要的功能。",
+      "1.20及更高版本的自定义物品编写",
+      "首先请注意，1.20或更高版本很多地方都是与低版本组件的编写大同小异的，因此请确保你已经清楚了1.10~1.16.100格式版本的物品编写方式。我们在这里只是简要提一些大概流程和差异点。"
+    ],
+    "制作一把自己的剑": [
+      "制作一把剑在旧版本物品中是难以实现的。然而在1.20+的物品组件中，实现一把剑并不是什么非常困难的事情。我们这里略过资源包，因为这些步骤都是常规的。实现一把剑的几个关键要素如下：",
+      "使用更高的伤害，这可以使用minecraft:damage来实现；",
+      "让剑立在你的手上而不是让它躺平，这可以使用minecraft:hand_equipped来实现；",
+      "可以让剑附上专属魔咒，这可以使用minecraft:enchantable来实现；",
+      "不允许堆叠，这可以使用minecraft:max_stack_size来实现；",
+      "加快特定方块的破坏速度，这可以使用minecraft:digger来实现；",
+      "在创造模式下不能破坏方块，这可以使用minecraft:can_destroy_in_creative来实现；",
+      "设置耐久，这可以使用minecraft:durability来实现；",
+      "基于此我们可以写出如下内容：",
+      "{\"format_version\":\"1.20.60\",\"minecraft:item\":{\"description\":{\"identifier\":\"wiki:emerald_sword\",\"menu_category\":{\"category\":\"equipment\",\"creative_category\":\"itemGroup.name.sword\"}},\"components\":{\"minecraft:damage\":9,\"minecraft:enchantable\":{\"value\":10,\"slot\":\"sword\"},\"minecraft:can_destroy_in_creative\":false,\"minecraft:digger\":{\"destroy_speeds\":[{\"block\":\"minecraft:web\",\"speed\":15},{\"block\":\"minecraft:bamboo\",\"speed\":30}]},\"minecraft:icon\":{\"texture\":\"emerald_sword\"},\"minecraft:max_stack_size\":1,\"minecraft:hand_equipped\":true,\"minecraft:durability\":{\"max_durability\":300,\"damage_chance\":{\"min\":1,\"max\":2}}}}}",
+      "这样就实现了一把可以+9伤害的，耐久值为300的绿宝石剑！"
+    ],
+    "制作一个放下即炸的TNT！": [
+      "我们知道TNT必须点燃之后才能开始爆炸，但是我们可以直接制作一个放下即炸的TNT！实现它的关键要素如下：",
+      "召唤一个TNT实体，这可以使用minecraft:entity_placer来实现。",
+      "基于此我们可以写出如下内容：",
+      "{\"format_version\":\"1.20.0\",\"minecraft:item\":{\"description\":{\"identifier\":\"wiki:tnt\"},\"components\":{\"minecraft:entity_placer\":{\"entity\":\"minecraft:tnt\"},\"minecraft:icon\":{\"texture\":\"wiki_tnt\"}}}}"
+    ],
+    "制作一个自定义的手榴弹": [
+      "假如说你希望实现一个手榴弹，且落地即炸，这背后需要的工作量比较大，但是你也需要一个自定义物品，毕竟如果把鸡蛋雪球改了就有污染原版的嫌疑了哦。",
+      "主要问题在于我们如何创建一个可投掷的物品。这可以使用minecraft:projectile和minecraft:throwable来实现；",
+      "当然你应该不希望它连续投出（即一直按下右键就像加特林一样），我们可以加一个冷却，这可以使用minecraft:cooldown来实现。",
+      "基于此我们可以写出如下内容：",
+      "{\"format_version\":\"1.20.10\",\"minecraft:item\":{\"description\":{\"identifier\":\"wiki:grenade\"},\"components\":{\"minecraft:cooldown\":{\"category\":\"grenade\",\"duration\":0.3},\"minecraft:projectile\":{\"minimum_critical_power\":1,\"projectile_entity\":\"wiki:grenade\"},\"minecraft:throwable\":{\"do_swing_animation\":true,\"max_launch_power\":1,\"scale_power_by_draw_duration\":false},\"minecraft:icon\":{\"texture\":\"grenade\"}}}}",
+      "当然手榴弹还需要自定义实体的合力发挥才能实现。如果你在这个基础上，将minecraft:projectile中projectile_entity改为minecraft:arrow，你就可以立刻获得简易版飞刀了。",
+      "本教程为基础教程，不同组件的结合会产生非常有意思的效果，例如自定义盔甲、武器、食物、投掷物等都可以实现。希望对你有所帮助。有关自定义物品的详解请前往基岩版物品文档查看。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/ability",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fability",
+  "text": "本条目所述内容仅适用于教育版和​基岩版。\n此页面描述的是教育版相关特性。\n该特性仅在教育版和开启了“Education Edition”选项的基岩版世界中可用。\nability\n需要的权限等级\n1\n限制条件\n启用作弊\n赋予或剥夺玩家的能力。\n语法\nability <player: target> <ability: Ability> <value: Boolean>\nability <player: target> [ability: Ability]\n参数\nplayer: target：CommandSelector<Player>\n指定要赋予或剥夺能力的玩家。\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\nability: Ability：enum\n指定要操作的能力。必须是下面几项的其中之一：\nworldbuilder给予玩家成为世界建造者的能力。\nmayfly给予飞行的能力。\nmute将玩家禁言。聊天时其他人将无法看见或听见目标。\nvalue: Boolean：enum\n指定此能力是否对玩家可用。\n必须为 布尔值（true或false）。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\nplayer: target未能选中一个或多个在线玩家\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n/ability ... false\n/ability ... true\n执行成功\n1\n在列出的情况外\n执行成功\n选中的玩家数\n示例\n禁言所有玩家：/ability @a mute true\n历史\n携带版Alpha\n0.16.0\nbuild 1\n加入了/ability。\n教育版\n?\n加入了/ability。\n导航"
+}

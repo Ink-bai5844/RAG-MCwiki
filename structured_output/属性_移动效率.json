@@ -1,0 +1,36 @@
+{
+  "title": "属性/移动效率",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E7%A7%BB%E5%8A%A8%E6%95%88%E7%8E%87",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "0 – 1"
+    ],
+    "movement_efficiency": [
+      "移动效率（Movement Efficiency）是影响生物在方块（灵魂沙、蜂蜜块等）上移动的属性。"
+    ],
+    "行为": [
+      "此属性降低方块的速度乘数对生物移动速度影响强度。移动效率为1时，方块的速度乘数不会对生物移动有影响。"
+    ],
+    "所有生物": [
+      "0"
+    ],
+    "enchantment.soul_speed/feet": [
+      "add_value (Op0)",
+      "1"
+    ],
+    "Java版": [
+      "1.21",
+      "24w18a",
+      "加入了移动效率属性，ID为generic.movement_efficiency。",
+      "1.21.2",
+      "24w33a",
+      "移动效率属性的ID从generic.movement_efficiency重命名为movement_efficiency。"
+    ]
+  }
+}

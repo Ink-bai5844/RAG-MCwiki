@@ -1,0 +1,27 @@
+{
+  "title": "鹦鹉/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%B9%A6%E9%B9%89%2FED",
+  "structured_content": {
+    "默认分类": [
+      "Java版26.2前："
+    ],
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "可驯服动物共通标签，见Template:Nbt inherit/tameable/source",
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "可驯服动物共通标签，见Template:Nbt inherit/tameable/source"
+    ],
+    "*": [
+      "*Variant：（0≤值≤4）鹦鹉的颜色。从0到4分别为红色、蓝色、绿色、青色和灰色。如果设置值小于0则重置为0（红色），大于4则重置为4（灰色）。",
+      "Java版26.2起：",
+      "*Variant：（0≤值≤4）鹦鹉的颜色。从0到4分别为红色、蓝色、绿色、青色和灰色。如果设置值小于0则重置为0（红色），大于4则重置为4（灰色）。"
+    ]
+  }
+}

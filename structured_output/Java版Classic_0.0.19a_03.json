@@ -1,0 +1,35 @@
+{
+  "title": "Java版Classic 0.0.19a 03",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.19a_03",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.19a_03"
+    ],
+    "发布时间": [
+      "2009年6月20日"
+    ],
+    "al_version": [
+      "6.12",
+      "◄◄0.0.19a",
+      "0.0.20a►►",
+      "◄0.0.19a_02",
+      "0.0.19a_04►",
+      "0.0.19a_03是Java版的一次更新，发布于2009年6月20日。"
+    ],
+    "修复": [
+      "修复了4个漏洞",
+      "尝试修复一个由于奔跑速度太快，客户端错误中断玩家连接的问题。",
+      "修复了镜像。",
+      "修复了默认玩家的姿势，但是人类的皮肤仍然有问题。",
+      "修复了旋转插补的问题。"
+    ],
+    "参考": [
+      "IRC记录：IRC logs on Archive.org; #minecraft.20090619.log. 2009年6月19日 (UTC−5).",
+      "IRC记录: \"P7:09:43 <Notch> fixed mirrong, fixed default stance, fixed rotation interpolation bugs\" (0:09:43 UTC)",
+      "IRC记录: \"P7:49:51 <Notch> if you're running too fast, it SHOULD kick you. But the client really should throttle it better\" [...] \"P7:50:04 <Notch> I tried to fix it in _03, but I guess it didn't work\" (0:49至0:50 UTC)"
+    ]
+  }
+}

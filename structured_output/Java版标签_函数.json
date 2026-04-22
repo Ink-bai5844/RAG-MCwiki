@@ -1,0 +1,47 @@
+{
+  "title": "Java版标签/函数",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E5%87%BD%E6%95%B0",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "函数标签（Function Tags）是函数的组合。"
+    ],
+    "使用": [
+      "参见：Java版函数 § 通过函数标签和Tutorial:制作数据包 § 创建并运行函数",
+      "函数标签可以在/function命令中使用，所有在该标签中指定的函数都会按照它们第一次出现的顺序执行。即使一个函数在标签以及子标签中被多次引用，它也只会被执行一次。",
+      "游戏内部定义了两个标签，在#tick标签中标记的函数将会在每游戏刻的开始时执行，在#load标签中标记的函数将会在服务器加载及重载后的第1游戏刻开始时执行1次。",
+      "原版数据包中不存在任何使用了函数标签的文件，但允许在原版命名空间minecraft中使用这些函数标签来驱动其他函数。"
+    ],
+    "load": [
+      "该标签中的函数仅在服务端启动后的第一刻执行一次。"
+    ],
+    "tick": [
+      "该标签中的函数在世界中每一刻开始的时候都会执行一次。"
+    ],
+    "示例": [
+      "例如，如果在<数据包名称>/data/minecraft/function下定义了函数文件example.json,并写入了<数据包名称>/data/minecraft/tags/function/load.json中，如下。",
+      "{\"values\":[\"minecraft:example\"]}",
+      "则会在游戏加载时运行一次minecraft:example函数。",
+      "写入<数据包名称>/data/minecraft/tags/function/tick.json中，会在每个游戏刻运行一次 minecraft:example函数。"
+    ],
+    "Java版": [
+      "1.13",
+      "17w49b",
+      "加入了#tick。",
+      "18w01a",
+      "加入了#load。",
+      "1.14.1",
+      "pre1",
+      "函数标签现在按照文件内排列的顺序执行。",
+      "1.19.3",
+      "22w46a",
+      "修复了#tick在#load前执行的漏洞。",
+      "1.21",
+      "24w21a",
+      "将functions目录重命名为function。"
+    ],
+    "参考": [
+      "MC-187539 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

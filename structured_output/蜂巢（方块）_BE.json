@@ -1,0 +1,16 @@
+{
+  "title": "蜂巢（方块）/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9C%82%E5%B7%A2%EF%BC%88%E6%96%B9%E5%9D%97%EF%BC%89%2FBE",
+  "structured_content": {
+    "*": [
+      "*bees：巢内目前存在的蜜蜂信息。",
+      "：一只蜜蜂的数据。",
+      "entity_data：蜜蜂的部分实体数据。如果保存的实体数据不是带有#beehive_inhabitors的实体（默认为蜜蜂），则尝试放出此实体时实体不会被生成，其数据会被删除。",
+      "*id：实体类型。",
+      "见实体数据格式。下列标签不会被保存，也不会被加载：Air、drop_chances、equipment、Brain、CanPickUpLoot、DeathTime、fall_distance、FallFlying、Fire、HurtByTimestamp、HurtTime、LeftHanded、Motion、NoGravity、OnGround、PortalCooldown、Pos、Rotation、sleeping_pos、CannotEnterHiveTicks、TicksSincePollination、CropsGrownSincePollination、hive_pos、Passengers、leash、UUID。",
+      "*min_ticks_in_hive：蜜蜂会在巢内滞留的最短时间。",
+      "*ticks_in_hive：蜜蜂在巢内已滞留的时间。",
+      "flower_pos：储存花的位置，以便其他蜜蜂能够找到。内部的三个整数分别代表了位置的XYZ坐标值。"
+    ]
+  }
+}

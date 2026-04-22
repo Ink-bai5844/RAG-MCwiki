@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:精神焕发",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%B2%BE%E7%A5%9E%E7%84%95%E5%8F%91",
+  "structured_content": {
+    "PotionThirstRanged": [
+      "击败一个生物可减少治疗药水的冷却时间，让你能更快地再次治疗。"
+    ],
+    "——魔咒描述": [
+      "精神焕发（Refreshment）是Minecraft Dungeons中的魔咒。作用为当杀死生物后减少治疗药水的冷却时间。减少量随着等级提升而提高。它是少数可以同时附在近战和远程武器的魔咒之一。"
+    ],
+    "I": [
+      "1.0秒治疗药水冷却时间",
+      "2附魔点数"
+    ],
+    "II": [
+      "2.0秒治疗药水冷却时间",
+      "3附魔点数"
+    ],
+    "III": [
+      "3.0秒治疗药水冷却时间",
+      "4附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "1.9.1.0",
+      "加入了精神焕发。"
+    ]
+  }
+}

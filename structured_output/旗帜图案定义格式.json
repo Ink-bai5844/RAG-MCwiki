@@ -1,0 +1,31 @@
+{
+  "title": "旗帜图案定义格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%97%97%E5%B8%9C%E5%9B%BE%E6%A1%88%E5%AE%9A%E4%B9%89%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "旗帜图案定义文件是用于定义旗帜和盾牌可用的图案类型的数据驱动定义文件。"
+    ],
+    "定义格式": [
+      "旗帜图案在游戏内使用BANNER_PATTERN注册表，数据包路径为banner_pattern，即所有旗帜图案定义文件都需要在data/<命名空间>/banner_pattern目录内定义，旗帜图案标签则需要在data/<命名空间>/tags/banner_pattern目录内定义。",
+      "旗帜图案定义文件使用JSON格式，并具有下列结构："
+    ],
+    "*": [
+      "*asset_id：（命名空间ID）旗帜图案使用的纹理，游戏在渲染时会将此值解析为assets/<命名空间>/textures/entity/banner/<路径>.png（旗帜）和assets/<命名空间>/textures/entity/shield/<路径>.png（盾牌）。",
+      "*translation_key：旗帜图案在提示框中显示名称的翻译键的前缀，游戏会根据这一层图案的颜色使用<此值>.<颜色名称>作为完整的翻译键。"
+    ],
+    "定义行为": [
+      "旗帜图案定义数据仅在服务端启动时被加载一次，使用/reload命令不可以使旗帜图案定义被重新加载，而必须重启服务端。",
+      "旗帜图案定义了单层图案所使用的图案样式，而每一层图案都包括图案样式和图案颜色，游戏会按照旗帜图案列表顺序依次渲染，后层图案会覆盖前层图案。",
+      "单层旗帜图案的名称由图案样式translation_key和图案颜色决定。例如，单层图案的翻译键为block.minecraft.banner.custom.pattern、颜色为红色时，游戏解析的完整的翻译键名为block.minecraft.banner.custom.pattern.red。"
+    ],
+    "Java版": [
+      "1.20.5",
+      "24w10a",
+      "BANNER_PATTERN变为可写注册表，加入了旗帜图案定义格式。"
+    ],
+    "参考": [
+      "MC-271587 — 漏洞状态为“无效”。"
+    ]
+  }
+}

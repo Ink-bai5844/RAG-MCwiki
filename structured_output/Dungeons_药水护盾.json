@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:药水护盾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%8D%AF%E6%B0%B4%E6%8A%A4%E7%9B%BE",
+  "structured_content": {
+    "PotionFortification": [
+      "使用治疗药水后触发-90%的短时间伤害减免。"
+    ],
+    "——魔咒描述": [
+      "药水护盾（Potion Barrier）是Minecraft Dungeons中的魔咒，效果为使用治疗药水后触发短时间的90%伤害减免。持续时长随着魔咒等级提升而提高。"
+    ],
+    "I": [
+      "5秒时长",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "7秒时长",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "9秒时长",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了药水护盾。"
+    ]
+  }
+}

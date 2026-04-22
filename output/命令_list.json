@@ -1,0 +1,5 @@
+{
+  "title": "命令/list",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Flist",
+  "text": "“List”重定向至此。关于愚人节快照23w13a_or_b中的物品，请见“列表标签”。\nlist\n需要的权限等级\n0\n限制条件\n无\n列出在服务器上的玩家。\n语法\nJava版\nlist\nlist uuids\n基岩版\nlist\n描述\n显示所有当前连接的玩家的名字（与按下Tab ↹相同）。\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n成功\n1\n玩家的数量\n基岩版\n成功\n1\nN/A\n历史\nJava版Alpha\nv1.0.16_02\n加入了/list命令。\nJava版\n1.8.1\npre1\n加入了/list uuids。\n携带版Alpha\n0.16.0\nbuild 1\n加入了/list命令。\n参见\n/listd\n导航"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "定制服务器/entry",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%AE%9A%E5%88%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%2Fentry",
+  "structured_content": {
+    "[ 查看 | 编辑 | 历史 | 刷新 ]文档页面": [
+      "这个模板用于在定制服务器中显示对应的表格。"
+    ],
+    "依赖项": [
+      "{{:定制服务器/header}}"
+    ],
+    "用法": [
+      "{{:定制服务器/header| {{:定制服务器/entry |name=定制服务器名 |developer=定制服务器开发者 |version=JE 1.16.2 |lang=开发语言 |remark=备注 }} }}"
+    ],
+    "备注": [
+      "[ 查看 | 编辑 | 历史 | 刷新 ]上述文档引用自定制服务器/entry/doc。"
+    ],
+    "定制服务器开发者": [
+      "1.16.2"
+    ]
+  }
+}

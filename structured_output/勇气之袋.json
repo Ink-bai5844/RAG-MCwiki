@@ -1,0 +1,50 @@
+{
+  "title": "勇气之袋",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8B%87%E6%B0%94%E4%B9%8B%E8%A2%8B",
+  "structured_content": {
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/勇气之袋以及基岩版指南/勇气之袋以查看勇气之袋的指南。",
+      "见Java版指南/勇气之袋以及基岩版指南/勇气之袋以查看勇气之袋的指南。",
+      "勇气之袋（Bundles of Bravery）是一次小更新，发布于2024年10月22日。其主题于2024年9月28日公布于Minecraft Live 2024。其主要内容为加入收纳袋及为基岩版和Realms加入极限模式。"
+    ],
+    "重要特性": [
+      "主条目：Java版1.21.2和基岩版1.21.40"
+    ],
+    "收纳袋": [
+      "由线和皮革合成。"
+    ],
+    "[[|]]": [
+      "可以容纳一组堆叠的不同物品。",
+      "有16种染色变种，可以使用染料更改颜色。"
+    ],
+    "极限模式": [
+      "现在可以在Java版Realms和基岩版中创建极限模式世界。",
+      "世界难度锁定为困难，玩家死亡后无法重生，只能以旁观模式观察世界。"
+    ],
+    "Java版": [
+      "1.21.3发布以修复一些漏洞。"
+    ],
+    "基岩版": [
+      "1.21.41发布以修复一些漏洞。",
+      "1.21.43发布以修复一些漏洞。",
+      "1.21.44发布以修复一些漏洞。"
+    ],
+    "你知道吗": [
+      "此次更新的名称在正式公布的前几天被意外泄露到minecraft.net上。",
+      "此次更新中收纳袋的加入，标志着所有原定于洞穴与山崖发布的特性均已实装。",
+      "本次更新也被称为“秋季小更新（Fall Drop）”。"
+    ],
+    "开发截图": [
+      "Minecraft Live 2020展示的收纳袋及其UI",
+      "Minecraft Live 2024展示的基岩版极限模式菜单"
+    ],
+    "参考": [
+      "Minecraft Java Edition 1.21.2 — Minecraft.net，2024年10月22日。",
+      "Minecraft: Bedrock Edition 1.21.40 - Bundles of Bravery — Minecraft Feedback，2024年10月22日。",
+      "Minecraft 1.21.40 Bedrock Changelog — Minecraft.net，2024年10月22日。",
+      "Bundles of Bravery，来自Sophie Austin。Minecraft.net，2024年10月22日。",
+      "https://web.archive.org/web/20240924180401/https://www.minecraft.net/en-us/live",
+      "Minecraft.net上宣布此次更新的文章标题图片“MCV_falldrop_launch_editorial_1170x500.jpg”中出现了“falldrop”字样。"
+    ]
+  }
+}

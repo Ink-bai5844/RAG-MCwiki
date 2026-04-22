@@ -1,0 +1,5 @@
+{
+  "title": "潜影弹/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%BD%9C%E5%BD%B1%E5%BC%B9%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n弹射物共通标签，见Template:Nbt inherit/projectile/source\nDir：（0≤值≤5）潜影弹正在移动的方向。从0到5分别对应下上北南西东，如果超过值域则对6取余并取绝对值后对应方向。\n*\n*Steps：下次强制改变移动方向的倒计时，即潜影弹在一个方向上能移动的最大“步数”。\nTarget：潜影弹目标的UUID。\n*\n*TXD：潜影弹直线飞行的向量X轴上的分量。\n*\n*TYD：潜影弹直线飞行的向量Y轴上的分量。\n*\n*TZD：潜影弹直线飞行的向量Z轴上的分量。"
+}

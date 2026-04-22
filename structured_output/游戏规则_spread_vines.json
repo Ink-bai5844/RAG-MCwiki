@@ -1,0 +1,26 @@
+{
+  "title": "游戏规则/spread vines",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fspread_vines",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "spread_vines": [
+      "spread_vines是控制藤蔓是否传播的游戏规则。"
+    ],
+    "描述": [
+      "控制藤蔓方块能否随机向相邻的方块蔓延。不会影响其他藤蔓类方块（例如垂泪藤和缠怨藤等）。"
+    ],
+    "行为": [
+      "当spread_vines为false时，藤蔓不会传播。"
+    ],
+    "Java版": [
+      "1.19.4",
+      "23w06a",
+      "加入了游戏规则doVinesSpread。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则doVinesSpread重命名为spread_vines。"
+    ]
+  }
+}

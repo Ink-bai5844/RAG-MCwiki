@@ -1,0 +1,68 @@
+{
+  "title": "属性/摩擦力修正系数",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%91%A9%E6%93%A6%E5%8A%9B%E4%BF%AE%E6%AD%A3%E7%B3%BB%E6%95%B0",
+  "structured_content": {
+    "默认分类": [
+      "本页面包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。"
+    ],
+    "默认值": [
+      "1"
+    ],
+    "值域": [
+      "0 – 2048"
+    ],
+    "friction_modifier": [
+      "摩擦力修正系数（Friction Modifier）是控制生物在地面上行走时受到的阻力的属性。"
+    ],
+    "行为": [
+      "主条目：实体 § 运动",
+      "生物在空气中运动时，如果站在了某个平面上，则会使用此属性的计算值和所在方块的阻力系数的乘积作为方块提供的阻力。",
+      "如果生物没有站在某个平面上，则来自方块的阻力视为1。"
+    ],
+    "所有生物": [
+      "1.0"
+    ],
+    "bouncy_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.7"
+    ],
+    "fast_flat_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.9"
+    ],
+    "fast_sliding_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.95"
+    ],
+    "high_resistance_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "0.0"
+    ],
+    "light_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.7"
+    ],
+    "regular_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.7"
+    ],
+    "slow_flat_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.7"
+    ],
+    "slow_sliding_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.95"
+    ],
+    "sticky_mul_friction_modifier": [
+      "add_multiplied_total (Op2)",
+      "1.0"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了摩擦力修正系数。"
+    ]
+  }
+}

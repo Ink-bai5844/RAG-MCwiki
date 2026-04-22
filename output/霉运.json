@@ -1,0 +1,5 @@
+{
+  "title": "霉运",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9C%89%E8%BF%90",
+  "text": "本条目所述内容仅适用于Java版。\n霉运\n颜色\n#C0A44D\n类型\n负面\n即时生效\n否\n免疫的生物\n末影龙\n凋灵\n状态效果ID\nunluck\n霉运（Bad Luck）是一种能减小获得高质量战利品概率的状态效果。\n效果\n受影响生物的幸运值属性减少 1 × 等级，使战利品表中quality值高的结果的出现减少，而quality值为负的结果的出现提升。quality值每次结果的新权重为floor(base_weight + quality * generic.luck)。\n来源\n霉运不能在未开启作弊的生存模式世界中正常获得。通过启用作弊，霉运可以通过/effect等方式获得。\n数据值\nID\n名称\n命名空间ID\n本地化键名\n霉运\nunluck\neffect.minecraft.unluck\n历史\nJava版\n1.9\n15w44b\n加入了霉运。\n1.14\n18w43a\n更改了效果图标纹理。\n19w08a\n再次更改了效果图标纹理。\n1.20.2\n23w32a\n在此版本前，霉运的存档ID是27。\n导航"
+}

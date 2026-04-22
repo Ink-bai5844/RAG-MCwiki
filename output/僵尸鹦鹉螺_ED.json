@@ -1,0 +1,5 @@
+{
+  "title": "僵尸鹦鹉螺/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%83%B5%E5%B0%B8%E9%B9%A6%E9%B9%89%E8%9E%BA%2FED",
+  "text": "Java版26.2前：\n实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n可驯服动物共通标签，见Template:Nbt inherit/tameable/source\n*\n*variant：僵尸鹦鹉螺的变种，不存在或无效时默认为temperate。\nJava版26.2起：\n实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n动物共通标签，见Template:Nbt inherit/animal/source\n可驯服动物共通标签，见Template:Nbt inherit/tameable/source\n*\n*variant：僵尸鹦鹉螺的变种，不存在或无效时默认为temperate。"
+}

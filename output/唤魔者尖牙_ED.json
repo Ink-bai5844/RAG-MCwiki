@@ -1,0 +1,5 @@
+{
+  "title": "唤魔者尖牙/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%94%A4%E9%AD%94%E8%80%85%E5%B0%96%E7%89%99%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\nOwner：召唤该尖牙的实体的UUID。尖牙不对具有此UUID的生物造成伤害。\n*\n*Warmup：尖牙出现前的剩余时间。尖牙在此值小于等于0时出现并开始闭合，设置为负值会导致其没有延迟立刻闭合。当此值为-8时尖牙会对周围实体进行伤害。无论此值为多少，尖牙都会在生成的22游戏刻（1.1秒）后被删除。"
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Crescent Dunes",
+  "source_url": "https://zh.minecraft.wiki/w/Crescent_Dunes",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：补充描述章节"
+    ],
+    "发行时间": [
+      "2023年4月26日"
+    ],
+    "时长": [
+      "04:08"
+    ],
+    "网易云音乐": [
+      "Minecraft: Trails & Tales (Original Game Soundtrack)",
+      "No.4"
+    ],
+    "Relic ►": [
+      "Crescent Dunes是一首由Aaron Cherof创作的音乐。"
+    ],
+    "疏林恶地": [
+      "14.29%"
+    ],
+    "沙漠": [
+      "30%"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。"
+    ],
+    "ID": [
+      "Java版:"
+    ],
+    "music.overworld.desert": [
+      "基岩版:"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "Java版": [
+      "1.20",
+      "23w17a",
+      "加入了\"crescent_dunes.ogg\"。",
+      "现在\"crescent_dunes.ogg\"会在主菜单播放。",
+      "1.21",
+      "24w18a",
+      "现在\"crescent_dunes.ogg\"不再能在主菜单播放了。"
+    ],
+    "基岩版": [
+      "1.20.0",
+      "1.20.0.22",
+      "加入了\"crescent_dunes.ogg\"。",
+      "1.20.30",
+      "1.20.30.20",
+      "现在\"crescent_dunes.ogg\"会在主菜单播放。",
+      "1.21.0",
+      "1.21.0.24",
+      "现在\"crescent_dunes.ogg\"不再能在主菜单播放。"
+    ],
+    "你知道吗": [
+      "曲名“Crescent Dunes”意为新月形沙丘，是沙漠中常见的风积地貌。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "属性/攻击速度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%94%BB%E5%87%BB%E9%80%9F%E5%BA%A6",
+  "text": "本条目所述内容仅适用于Java版。\n攻击速度\n类型\n正面\n默认值\n4\n值域\n0 – 1024\n属性ID\nattack_speed\n攻击速度（Attack Speed）是玩家每秒可以进行全力攻击的次数。\n行为\n主条目：近战攻击 § 攻击冷却\n攻击速度为玩家20游戏刻（1秒）内能进行完整伤害近战攻击的次数。\n适用的生物\n生物\n基值\n玩家\n4\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\nbase_attack_speed\nadd_value（Op0）\n重锤\n-3.4\n否\n斧、锄、镐、锹、剑、重锤、三叉戟，应用于mainhand（主手）槽位\n木斧\n石斧\n铜斧\n-3.2\n铁斧\n-3.1\n金斧\n钻石斧\n下界合金斧\n锹\n-3\n三叉戟\n-2.9\n镐\n-2.8\n剑\n-2.4\n锄\n0\neffect.haste\nadd_multiplied_total（Op2）\n等级×0.1\n是\n急迫状态效果\neffect.mining_fatigue\nadd_multiplied_total（Op2）\n等级×-0.1\n是\n挖掘疲劳状态效果\n历史\nJava版\n1.9\n15w34b\n加入了攻击速度属性。\n1.16\n20w14a\n重命名generic.attackSpeed到generic.attack_speed。\n1.21.2\n24w33a\n攻击速度属性的ID从generic.attack_speed重命名为attack_speed。\n导航"
+}

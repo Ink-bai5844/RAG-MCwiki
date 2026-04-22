@@ -1,0 +1,5 @@
+{
+  "title": "小麦种子/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B0%8F%E9%BA%A6%E7%A7%8D%E5%AD%90%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n0x4\n一个值范围0-7的3位二进制数，储存小麦生长阶段：\n0：刚被种下\n1：第1阶段\n2：第2阶段\n3：第3阶段\n4：第4阶段\n5：第5阶段\n6：第6阶段\n7：成熟\n0x8\n（未使用）"
+}

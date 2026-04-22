@@ -1,0 +1,19 @@
+{
+  "title": "游戏规则/neverEatArmor",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FneverEatArmor",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。"
+    ],
+    "neverEatArmor": [
+      "neverEatArmor是控制玩家是否会食用毒马铃薯胸甲的游戏规则。"
+    ],
+    "名称": [
+      "永远不会在饥饿时吃掉盔甲，即便看上去很美味。"
+    ],
+    "行为": [
+      "当neverEatArmor为false时，如果玩家的饥饿值即将消耗，玩家会食用毒马铃薯胸甲，并取消这次饥饿消耗。"
+    ]
+  }
+}

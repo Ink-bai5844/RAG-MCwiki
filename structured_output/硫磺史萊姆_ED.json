@@ -1,0 +1,18 @@
+{
+  "title": "硫磺史萊姆/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A1%AB%E7%A3%BA%E5%8F%B2%E8%90%8A%E5%A7%86%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source"
+    ],
+    "*": [
+      "*Size：（0≤值≤126）硫方怪的大小，同时影响硫方怪的最大生命值、移动速度和攻击力。如果设置小于0则重置为0，大于126则重置为126。",
+      "*wasOnGround：表示硫方怪在上一游戏刻是否接触地面。",
+      "*pickup_timer：（默认为0）硫方怪可以捡起物品实体的倒计时。此值不小于0时每刻减少1，且硫方怪也不会搜寻并捡起物品实体。",
+      "*FromBucket：表示此硫方怪是否曾被从桶中放出。如果为true，硫方怪不会自然删除。"
+    ]
+  }
+}

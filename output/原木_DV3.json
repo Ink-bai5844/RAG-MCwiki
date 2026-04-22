@@ -1,0 +1,5 @@
+{
+  "title": "原木/DV3",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E6%9C%A8%2FDV3",
+  "text": "位\n描述\n0x1\n0x2\n一个值范围0-3的2位二进制数，储存原木朝向：\n0： 竖直朝向（与Y轴平行）\n1： 东西朝向（与X轴平行）\n2： 南北朝向（与Z轴平行）\n3： 六面均为树皮\n0x4\n0x8\n（未使用）"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic服务器1.8.2",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.8.2",
+  "text": "此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\n1.8.2\n版本\nJava版\n客户端版本\n0.0.20a_02 – 0.0.23a_01\n发布时间\n2009年6月20日\n下载\n服务端\n协议版本\n6\n其他版本的1.8.2\nJava版Classic服务器\n◄◄1.8\n1.9.1►►\n◄1.8.1\n1.8.3►\n1.8.2是1.8的一个漏洞修复版本，发布于2009年6月20日21:09（UTC）。\n尽管从0.24至0.27的版本可以连接到该服务器，但由于服务器上缺乏对生存模式的支持从而无法正常工作。\n修复\n修复了1个漏洞\n修复玩家能够破坏不可破坏的方块的问题。\n参考\nIRC logs on Archive.org; #minecraft.20090620.log. (21:09:22 UTC).\nNew minecraft-server.zip, new client（存档） — The Word of Notch，2009年6月20日。 – 这篇博文中提到了修复玩家能够破坏不可破坏的方块的问题，在IRC记录也同样提及： \"P4:09:25 <Notch> new minecraft-server.zip that doesn't allow that block\" (21:09:25 UTC).\n导航"
+}

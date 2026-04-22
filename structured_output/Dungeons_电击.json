@@ -1,0 +1,29 @@
+{
+  "title": "Dungeons:电击",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%94%B5%E5%87%BB",
+  "structured_content": {
+    "Electrified": [
+      "翻滚时给周围的2个敌人造成电击伤害。"
+    ],
+    "——魔咒描述": [
+      "电击（Electrified）是Minecraft Dungeons中的魔咒，会在玩家翻滚时生成闪电劈向周围生物并造成伤害。造成的伤害随魔咒等级提升而增加。",
+      "电击魔咒的伤害可以被雷霆汇聚魔咒加成。"
+    ],
+    "I": [
+      "1x 造成伤害",
+      "1 附魔点数"
+    ],
+    "II": [
+      "2x 造成伤害",
+      "2 附魔点数"
+    ],
+    "III": [
+      "3x 造成伤害",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了电击。"
+    ]
+  }
+}

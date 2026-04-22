@@ -1,0 +1,81 @@
+{
+  "title": "Java版22w07a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8822w07a",
+  "structured_content": {
+    "默认分类": [
+      "22w07a"
+    ],
+    "发布时间": [
+      "2022年2月16日"
+    ],
+    "快照归属": [
+      "1.18.2"
+    ],
+    "协议版本": [
+      "DEC: 1073741892",
+      "HEX: 40000044"
+    ],
+    "数据版本": [
+      "2969"
+    ],
+    "资源包版本": [
+      "8"
+    ],
+    "数据包版本": [
+      "8",
+      "◄◄1.18.1",
+      "1.19►►",
+      "◄22w06a",
+      "1.18.2-pre1►",
+      "22w07a是Java版1.18.2的第4个，也是最后一个快照，发布于2022年2月16日，修复了一些漏洞。"
+    ],
+    "自定义世界生成": [
+      "在已配置结构文件中加入了biomes字段，值是一个标签。"
+    ],
+    "标签": [
+      "在原版数据包中加入了以下生物群系标签：",
+      "#is_badlands：badlands、​eroded_badlands和​wooded_badlands。",
+      "#is_beach：beach和​snowy_beach。",
+      "#is_deep_ocean：deep_frozen_ocean、​deep_cold_ocean、​deep_ocean和​deep_lukewarm_ocean。",
+      "#is_forest：forest、​flower_forest、​birch_forest、​old_growth_birch_forest、​dark_forest和​grove。",
+      "#is_hill：windswept_hills、​windswept_forest和​windswept_gravelly_hills。",
+      "#is_jungle：bamboo_jungle、​jungle和​sparse_jungle。",
+      "#is_mountain：meadow、​frozen_peaks、​jagged_peaks、​stony_peaks和​snowy_slopes。",
+      "#is_nether：nether_wastes、​basalt_deltas、​soul_sand_valley、​crimson_forest和​warped_forest。",
+      "#is_ocean：#is_deep_ocean、​frozen_ocean、​ocean、​cold_ocean、​lukewarm_ocean和​warm_ocean。",
+      "#is_river：river和​frozen_river。",
+      "#is_taiga：taiga、​snowy_taiga、​old_growth_pine_taiga和​old_growth_spruce_taiga。",
+      "加入了用于指定结构可以在哪些生物群系中生成的生物群系标签，存储于tags/worldgen/biome/has_structure下。",
+      "可以在其中的values字段中指定结构可以在哪些生物群系（可为生物群系ID或生物群系标签）中生成。",
+      "从#azalea_root_replaceable标签中移除了#lush_ground_replaceable，并加入了#base_stone_overworld、​#dirt、​clay、​gravel和​sand。"
+    ],
+    "调试屏幕": [
+      "将\"Terrain\"行合并进\"Multinoise\"行，并更名为\"NoiseRouter\"，新格式为：NoiseRouter T: 数据 H: 数据 C: 数据 E: 数据 D: 数据 W: 数据 PV: 数据 AS: 数据 N: 数据。",
+      "T、​H、​C、​E和​W与之前\"Multinoise\"行中的同名值一致。",
+      "PV与之前\"Terrain\"行中的同名值一致。",
+      "D是深度，AS是不加粗糙度的原始密度值，N是最终密度值。和其他数据不同，这三项在受到X、Z轴坐标影响的同时也受到Y轴（高度）的影响。当坐标位于地面以上，这三个值通常为负数；而坐标在地下时，这三个值通常为正数。"
+    ],
+    "修复": [
+      "修复了11个漏洞",
+      "1.18前正式版的漏洞",
+      "MC-53850 — 带有InvulnerableNBT标签的物品实体和经验球在受到伤害时会被移除，但计算仅在客户端一侧。",
+      "1.18的漏洞",
+      "MC-237110 — 草方块可以在水下生成。",
+      "MC-238977 — 发光鱿鱼可以在超平坦世界中村民的农田以及喷泉中生成。",
+      "MC-243190 — 缠根泥土生成时可以替换洞穴藤蔓。",
+      "MC-244683 — 繁茂洞穴中的热带鱼在气泡柱内生成。",
+      "1.18.1的漏洞",
+      "MC-245857 — 附魔台斜上方的方块会阻碍下面的书架发挥作用。",
+      "MC-245925 — doImmediateRespawn为true而玩家死亡时，下落的方块会在视觉显示上有问题。",
+      "MC-246465 — 熔岩可能只在客户端侧使实体燃烧、受到伤害或被破坏，而由此造成不同步的现象。",
+      "MC-248095 — 存档升级至1.18时，已被激活的循环型命令方块会停止运行。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-248523 — 尝试打开信标界面时，游戏崩溃。",
+      "MC-248617 — 加载数据包时客户端崩溃：java.lang.IllegalStateException: Trying to access unbound value。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 22w07a — Minecraft.net，2022年2月16日。"
+    ]
+  }
+}

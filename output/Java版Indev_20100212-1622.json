@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 20100212-1622",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_20100212-1622",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Indev\n版本\nJava版\n发布时间\n2010年2月12日\n下载\n客户端（.json）\nal_version\n1.100\n1.101\n◄◄0.31\nMinecraft Infdev►►\n◄Indev 20100212-1210\nIndev 20100213►\nMinecraft Indev的一个版本发布于2010年2月12日16:22（UTC）。\n新内容\n常规\n调试屏幕\n在右上角添加了“Free memory”和“Allocated memory”信息。\n该信息用§8（深灰色）颜色代码显示而不是通常的§f（白色）。\n更改\n游戏内容\n皮肤\n皮肤系统现在会正常工作了。\n出于测试目的，该版本的玩家皮肤总会显示为Notch。\n在没有代理时，玩家会显示为纯黑色。\n音乐\n被临时禁用。\n声音\n被临时禁用。\n参考\nI need your help debugging indev（存档） — The Word of Notch，2010年2月12日。\n导航"
+}

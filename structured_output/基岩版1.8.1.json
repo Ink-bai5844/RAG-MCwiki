@@ -1,0 +1,43 @@
+{
+  "title": "基岩版1.8.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.8.1",
+  "structured_content": {
+    "默认分类": [
+      "1.8.1"
+    ],
+    "服务端版本": [
+      "1.8.1.2"
+    ],
+    "内部版本号": [
+      "Windows：1.8.102.0"
+    ],
+    "版本码": [
+      "Android：",
+      "871080102（armeabi-v7a，26）",
+      "872080102（x86，26）",
+      "iOS/iPadOS：",
+      "829682862"
+    ],
+    "发布时间": [
+      "Nintendo Switch – 2018年12月17日",
+      "Android, iOS, Windows 10, Windows 10 Mobile, Gear VR, Xbox One, Fire OS, Fire TV – 2019年1月8日"
+    ],
+    "协议版本": [
+      "313",
+      "其他版本的1.8.1"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.8.0",
+      "1.9.0►►",
+      "1.8.1是基岩版的一次热修复更新，在Nintendo Switch上发布于2018年12月17日，而在其他平台上发布于次年1月8日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "修复了存盘时的一个问题（仅Nintendo Switch版）。",
+      "修复无法加载从Realms或者精选服务器下载的世界的问题（不包括Nintendo Switch版）。"
+    ],
+    "参考": [
+      "Minecraft - 1.8.1 (Bedrock) — Minecraft Feedback，2019年1月8日。"
+    ]
+  }
+}

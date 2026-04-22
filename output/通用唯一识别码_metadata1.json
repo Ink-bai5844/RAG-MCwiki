@@ -1,0 +1,5 @@
+{
+  "title": "通用唯一识别码/metadata1",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%80%9A%E7%94%A8%E5%94%AF%E4%B8%80%E8%AF%86%E5%88%AB%E7%A0%81%2Fmetadata1",
+  "text": "通用\n有连字符的十六进制\n高低位\n整型数组\n用于\n比特位区间\n区间大小\n值\n所在段\n比特位区间\n所在段\n比特位区间\n所在段\n比特位区间\n自\n至\n自\n至\n自\n至\n自\n至\nUUID格式\n62\n63\n2\nclock-seq-and-reserved\n6\n7\n低位\n62\n63\n索引1\n30\n31\nUUID版本\n76\n79\n4\ntime-high-and-version\n12\n15\n高位\n12\n15\n索引2\n12\n15"
+}

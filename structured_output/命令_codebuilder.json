@@ -1,0 +1,64 @@
+{
+  "title": "命令/codebuilder",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fcodebuilder",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "控制指定玩家的代码构建器。"
+    ],
+    "语法": [
+      "codebuilder code check code_status <status: CodeBuilderCodeStatus> <player: target>",
+      "检查代码构建器运行结果是否匹配。",
+      "codebuilder navigate <player: target> <openCodeBuilderWindow: Boolean> <URL: text>",
+      "将代码构建器导向指定链接（仅限已支持平台）。",
+      "codebuilder reset <player: target>",
+      "重置代码构建器。",
+      "codebuilder runtime <action: CodeBuilderRuntime> <player: target>",
+      "控制代码构建器运行状态。",
+      "codebuilder subscribe scoreboard <player: target> <objective: string>",
+      "将代码构建器关联记分项。",
+      "codebuilder unsubscribe scoreboard <player: target> <objective: string>",
+      "将代码构建器取消关联记分项。"
+    ],
+    "参数": [
+      "status: CodeBuilderCodeStatus：Enum",
+      "指定运行结果，必须为以下其中之一："
+    ],
+    "succeeded — 成功运行": [
+      "player: target：CommandSelector<Player>",
+      "指定要控制的玩家。",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "openCodeBuilderWindow: Boolean：Enum",
+      "指定是否打开窗口。",
+      "必须为 布尔值（true或false）。",
+      "URL: text：CommandRawText",
+      "指定链接文本。",
+      "此参数为贪婪字符串参数，即命令的剩余部分全部视作该字符串参数，可以包含空格。",
+      "action: CodeBuilderRuntime：Enum",
+      "指定运行状态，必须为以下其中之一："
+    ],
+    "stop — 终止": [
+      "objective: string：basic_string",
+      "指定记分项名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。"
+    ],
+    "无法解析": [
+      "player: target未能选中一个或多个玩家"
+    ],
+    "执行失败": [
+      "player: target是非玩家类型的目标选择器",
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "?": [
+      "加入了命令/codebuilder。"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "教育版1.12.3",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.12.3",
+  "structured_content": {
+    "默认分类": [
+      "1.12.3"
+    ],
+    "发布时间": [
+      "2019年10月23日"
+    ],
+    "测试版归属": [
+      "1.12.5"
+    ],
+    "协议版本": [
+      "362",
+      "◄◄1.12.1",
+      "1.12.60►",
+      "1.12.3是教育版1.12.5的首个也是唯一一个测试版，发布于2019年10月23日。"
+    ],
+    "Library": [
+      "经用户的反馈，更新了Library菜单。可将课程内容引入游戏中，提供课程的计划及分类，以简化课程、世界、建筑挑战和教程。"
+    ],
+    "参考": [
+      "The upcoming #LibraryUpdate streamlines your lesson-search! This update brings content directly into the #MinecraftEdu Library, adding school subjects & tags so users can find activities without leaving the game. Join the Beta to try out the new features: http://msft.social/F5NTC6，来自@PlayCraftLearn。X（曾名Twitter）。"
+    ]
+  }
+}

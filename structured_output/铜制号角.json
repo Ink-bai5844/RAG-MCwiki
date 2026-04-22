@@ -1,0 +1,237 @@
+{
+  "title": "铜制号角",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%93%9C%E5%88%B6%E5%8F%B7%E8%A7%92",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "copper_horn": [
+      "铜制号角（Copper Horn）是山羊角的镀铜变种，会根据吹奏者不同的吹奏姿势而发出不同的音色。"
+    ],
+    "箱子战利品": [
+      "铜制号角有25%概率出现在掠夺者前哨站的战利品箱中。"
+    ],
+    "用途": [
+      "当拿着铜制号角时，按住使用键会显示吹奏动画并发出其对应的吹奏音效。铜制号角在吹奏者抬头、潜行或做出其他姿势时会发出三种不同的响声。铜制号角吹奏时播放的音效取决于多重条件，其优先级顺序如下：",
+      "若处于潜行状态，则播放潜行时吹奏的音效。",
+      "若在非潜行状态下抬头（仰角45度），则播放仰视时吹奏的音效。",
+      "若上述条件均不满足，则播放平视时吹奏的音效。",
+      "铜制号角每次吹奏时长为1秒，在使用后会有4秒的冷却时间，并会在快捷栏中显示白色覆盖层，类似于末影珍珠。同时，玩家物品栏中的其他铜制号角与山羊角也会有一段冷却时间。"
+    ],
+    "描述": [
+      "0"
+    ],
+    "铜制号角Great Sky Falling音效（平视时吹奏）": [
+      "horn.melody.0",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Old Hymn Resting音效（平视时吹奏）": [
+      "horn.melody.1",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Pure Water Desire音效（平视时吹奏）": [
+      "horn.melody.2",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Humble Fire Memory音效（平视时吹奏）": [
+      "horn.melody.3",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Dry Urge Anger音效（平视时吹奏）": [
+      "horn.melody.4",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Clear Temper Journey音效（平视时吹奏）": [
+      "horn.melody.5",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Fresh Nest Thought音效（平视时吹奏）": [
+      "horn.melody.6",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Secret Lake Tear音效（平视时吹奏）": [
+      "horn.melody.7",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Fearless River Gift音效（平视时吹奏）": [
+      "horn.melody.8",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Sweet Moon Love音效（平视时吹奏）": [
+      "horn.melody.9",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Great Sky Falling音效（仰视时吹奏）": [
+      "horn.harmony.0",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Old Hymn Resting音效（仰视时吹奏）": [
+      "horn.harmony.1",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Pure Water Desire音效（仰视时吹奏）": [
+      "horn.harmony.2",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Humble Fire Memory音效（仰视时吹奏）": [
+      "horn.harmony.3",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Dry Urge Anger音效（仰视时吹奏）": [
+      "horn.harmony.4",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Clear Temper Journey音效（仰视时吹奏）": [
+      "horn.harmony.5",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Fresh Nest Thought音效（仰视时吹奏）": [
+      "horn.harmony.6",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Secret Lake Tear音效（仰视时吹奏）": [
+      "horn.harmony.7",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Fearless River Gift音效（仰视时吹奏）": [
+      "horn.harmony.8",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Sweet Moon Love音效（仰视时吹奏）": [
+      "horn.harmony.9",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Great Sky Falling音效（潜行时吹奏）": [
+      "horn.bass.0",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Old Hymn Resting音效（潜行时吹奏）": [
+      "horn.bass.1",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Pure Water Desire音效（潜行时吹奏）": [
+      "horn.bass.2",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Humble Fire Memory音效（潜行时吹奏）": [
+      "horn.bass.3",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Dry Urge Anger音效（潜行时吹奏）": [
+      "horn.bass.4",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Clear Temper Journey音效（潜行时吹奏）": [
+      "horn.bass.5",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Fresh Nest Thought音效（潜行时吹奏）": [
+      "horn.bass.6",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Secret Lake Tear音效（潜行时吹奏）": [
+      "horn.bass.7",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Fearless River Gift音效（潜行时吹奏）": [
+      "horn.bass.8",
+      "1.0",
+      "16"
+    ],
+    "铜制号角Sweet Moon Love音效（潜行时吹奏）": [
+      "horn.bass.9",
+      "1.0",
+      "16"
+    ],
+    "物品数据": [
+      "铜制号角使用以下数据值："
+    ],
+    "铜制号角（Great Sky Falling）": [
+      "1"
+    ],
+    "铜制号角（Old Hymn Resting）": [
+      "2"
+    ],
+    "铜制号角（Pure Water Desire）": [
+      "3"
+    ],
+    "铜制号角（Humble Fire Memory）": [
+      "4"
+    ],
+    "铜制号角（Dry Urge Anger）": [
+      "5"
+    ],
+    "铜制号角（Clear Temper Journey）": [
+      "6"
+    ],
+    "铜制号角（Fresh Nest Though）": [
+      "7"
+    ],
+    "铜制号角（Secret Lake Tear）": [
+      "8"
+    ],
+    "铜制号角（Fearless River Gift）": [
+      "9"
+    ],
+    "基岩版": [
+      "1.18.30"
+    ],
+    "香草实验": [
+      "1.18.30.26",
+      "加入了铜制号角。",
+      "1.18.30.28",
+      "更改了铜制号角的纹理。",
+      "1.19.0",
+      "1.19.0.24",
+      "移除了铜制号角。"
+    ],
+    "你知道吗": [
+      "同种铜制号角在仰头和平视时吹奏所发出的声音是同一段音频的高音和低音版本。",
+      "在玩家吹响铜制号角后，会在吹奏完成时的头部中心发出声音，在这之后即使玩家坐标发生变化，声音的来源仍不会改变。",
+      "铜制号角被移除的原因是其未能满足开发者的设计目标。",
+      "在一篇推文中，Kingbdogz提到铜制号角的设计初衷更多是出于社交目的而非游戏玩法考量。",
+      "铜制号角并未像以往那样设置为不可获得，而是被直接移除，这可能是因为它一直没有从实验性玩法中被移出至常规玩法里。"
+    ],
+    "画廊": [
+      "基岩版1.18.30.28前铜制号角和山羊角在物品栏的纹理对比"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.19.0.24/25 — Minecraft Feedback，2022年4月14日。"
+    ],
+    "There aren't future plans outside of it just being diverse instruments. They're more of a social feature than a gameplay feature.": [
+      "One thing it can do with the normal goat horn is that you can hear the sound from very far away, so it can be used to locate your friends on a server，来自@kingbdogz。X（曾名Twitter），2022年3月16日。"
+    ]
+  }
+}

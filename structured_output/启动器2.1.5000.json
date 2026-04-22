@@ -1,0 +1,33 @@
+{
+  "title": "启动器2.1.5000",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.5000",
+  "structured_content": {
+    "默认分类": [
+      "2.1.4998/2.1.4999/2.1.5000"
+    ],
+    "发布时间": [
+      "2019年6月17日"
+    ],
+    "测试版归属": [
+      "2.1.523x",
+      "◄◄2.1.367x",
+      "2.1.538x►►",
+      "◄2.1.497x",
+      "2.1.50xx►",
+      "2.1.4998（Windows）、2.1.4999（macOS）或2.1.5000（Linux）是在2019年6月17日发布的启动器测试版本，更新了翻译并修复了一些漏洞。"
+    ],
+    "翻译": [
+      "更新了翻译。"
+    ],
+    "修复": [
+      "MCL-11001 - 无法在新的beta启动器上进行登录。"
+    ],
+    "An updated beta version of the Minecraft Launcher is now rolling out.": [
+      "Changes in this version:"
+    ],
+    "- Fixed a bug causing some players to be unable to log in.": [
+      "- Updated translations.，来自@slicedlime。X（曾名Twitter）。",
+      "https://piston-meta.mojang.com/mc/launcher_beta_changelog.md"
+    ]
+  }
+}

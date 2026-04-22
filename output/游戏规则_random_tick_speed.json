@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/random tick speed",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Frandom_tick_speed",
+  "text": "random_tick_speed（Java版）\n名称\n随机刻速率\n描述\n无\n分类（JE）\n世界更新\n值类型\n整型\n默认值\n3\n值域（JE）\n0 – 2147483647\n游戏规则ID\nrandom_tick_speed\nrandomTickSpeed（基岩版）\n名称\n随机刻速度\n描述\n影响某些方块的行为，如植被生长和腐烂的速度（最多 4096）\n分类（BE旧UI）\n作弊\n分类（BE新UI）\n无敌模式\n值类型\n整型\n默认值\n3\n游戏规则ID\nrandomTickSpeed\nrandom_tick_speed[仅Java版]或randomTickSpeed[仅基岩版]是一个用于控制每游戏刻每区段中随机刻发生频率的游戏规则。\n行为\n主条目：刻 § 随机刻\nrandom_tick_speed[仅Java版]或randomTickSpeed[仅基岩版]控制了随机刻速率，即植物生长、树叶腐烂、铜类方块氧化等方块相关事件的频率。\n在Java版中，random_tick_speed的值不能低于0。\n历史\nJava版\n1.8\n14w17a\n加入了游戏规则randomTickSpeed。\n1.20.2\n23w31a\n现在游戏规则randomTickSpeed影响区块刻处理时露天方块检查天气更新的频率。\n1.21.11\n25w44a\n将游戏规则randomTickSpeed重命名为random_tick_speed。\n现在random_tick_speed的值最小只能为0。\n基岩版\n1.8.0\n1.8.0.8\n加入了游戏规则randomTickSpeed。\n你知道吗\n如果随机刻速率设置过高，游戏可能会因为在某一时刻（或时段）处理游戏的随机事件过多，导致游戏主刻处理发生延迟。具体表现例如：正在循环执行命令的命令方块的执行频率下降。\n导航"
+}

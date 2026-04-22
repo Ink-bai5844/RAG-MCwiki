@@ -1,0 +1,95 @@
+{
+  "title": "已配置的地表生成器",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B7%B2%E9%85%8D%E7%BD%AE%E7%9A%84%E5%9C%B0%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。",
+      "已配置的地表生成器（Configured Surface builder）控制了地形的表面如何生成，以及方块如何生成。它以JSON文件的格式存储在数据包的data/<命名空间>/worldgen/configured_surface_builder目录下。地表生成器用于世界生成。"
+    ],
+    "根标签": [
+      "*type：所使用的地表生成器类型。",
+      "*config：地表生成器的配置。",
+      "*top_material：海平面上地形最高层所使用的方块。",
+      "*Name：所使用的方块的命名空间ID。",
+      "Properties：方块状态。",
+      "<方块属性>：一个方块状态的键值对。",
+      "*under_material：地形最高层在海平面上时的除顶层外的表面几层和地形最高层在海平面下约10格内时的表面几层所使用的方块。",
+      "*Name：所使用的方块的命名空间ID。",
+      "Properties：方块状态。",
+      "<方块属性>：一个方块状态的键值对。",
+      "*underwater_material：海平面下约10格外的顶层所使用的方块。",
+      "*Name：所使用的方块的命名空间ID。",
+      "Properties：方块状态。",
+      "<方块属性>：一个方块状态的键值对。"
+    ],
+    "地表生成器类型": [
+      "地表生成器类型决定了游戏是否进行以及如何进行额外修饰。不论哪种类型，都可能在雕刻器雕刻过的方块上执行top_material字段。",
+      "对于nether、​nether_forest、​soul_sand_valley和​basalt_deltas类型，海平面下的表面几层始终使用under_material字段的方块，且除nether_forest类型外海平面附近均会随机填充沙砾。"
+    ],
+    "使用config字段的类型": [
+      "default：默认",
+      "swamp：沼泽",
+      "若Y=63处为与空气直接接触的地形最高层，则随机替换为维度默认流体。",
+      "frozen_ocean：冻洋",
+      "随机放置冰山。",
+      "深水表层为沙砾。",
+      "lofty_peaks：尖峭山峰",
+      "同default。",
+      "nether：下界",
+      "海平面附近额外随机填充灵魂沙。",
+      "nether_forest：绯红、诡异森林",
+      "地形最高层概率生成under_material和​underwater_material的方块。",
+      "badlands：恶地",
+      "海平面上约7格内的区域正常执行top_material。",
+      "海平面下表面一层使用under_material的方块。",
+      "海平面下除表层的几层和其他区域随机填充各种陶瓦。",
+      "wooded_badlands：疏林恶地",
+      "与badlands相比：",
+      "约Y>100的地形最高层随机填充砂土和草方块。",
+      "eroded_badlands：风蚀恶地",
+      "与badlands相比：",
+      "随机放置陶瓦岩柱。",
+      "nope：无",
+      "什么都不执行。"
+    ],
+    "不使用config字段的类型": [
+      "下列类型类似随机选择配置，无视config字段。",
+      "mountain：山地",
+      "shattered_savanna：破碎的热带草原",
+      "gravelly_mountain：风袭沙砾丘陵",
+      "giant_tree_taiga：原始松木针叶林",
+      "soul_sand_valley：灵魂沙峡谷",
+      "basalt_deltas：玄武岩三角洲",
+      "grove：雪林",
+      "snowcapped_peaks：冰封山峰",
+      "snowy_slopes：积雪山坡",
+      "stone_shore：石岸",
+      "stony_peaks：裸岩山峰"
+    ],
+    "每个类型的作用效果": [
+      "标记为“是”代表此地表生成器可能选择此配置，标记为“否”代表不选择。"
+    ],
+    "否": [
+      "\"snowy\":\"false\"",
+      "\"axis\":\"y\"",
+      "正常执行underwater_material字段。"
+    ],
+    "Java版": [
+      "1.16.2",
+      "20w28a",
+      "加入了已配置的地表生成器，存储于数据包的worldgen/configured_surface_builder目录下。",
+      "20w30a",
+      "将地表生成器类型类型字段name重命名为type。",
+      "pre1",
+      "已配置的地表生成器从data/minecraft/worldgen/configured_surface_builder/<命名空间>/<路径>移动到data/<命名空间>/worldgen/configured_surface_builder/<路径>，和其他资源保持一致。",
+      "1.18",
+      "21w37a",
+      "现在eroded_badlands类型不再对地形最高层为水的区域执行，包括不再将陶瓦岩柱置于水上。",
+      "现在除frozen_ocean、​badlands、​wooded_badlands、​eroded_badlands、​nether、​soul_sand_valley和​basalt_deltas类型外的地表生成器将水的高度视为海平面，而非噪声设置里的海平面。",
+      "加入了地表生成器类型grove、​lofty_peaks、​snowcapped_peaks、​snowy_slopes、​stone_shore和​stony_peaks。",
+      "21w41a",
+      "移除了已配置的地表生成器，其大部分功能被表面规则取代。"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "title": "基岩版1.19.40.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.19.40.22",
+  "structured_content": {
+    "默认分类": [
+      "1.19.40.22"
+    ],
+    "版本码": [
+      "Android：",
+      "951904022（armeabi-v7a，31）",
+      "961904022（x86，31）",
+      "971904022（arm64-v8a，31）",
+      "981904022（x86_64，31）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, Android, iOS/iPadOS - 2022年9月21日"
+    ],
+    "测试版归属": [
+      "1.19.40"
+    ],
+    "协议版本": [
+      "555",
+      "◄◄1.19.31",
+      "1.19.41►►",
+      "◄1.19.40.21",
+      "1.19.40.23►",
+      "beta 1.19.40.22（Android）、Preview 1.19.40.22（iOS/iPadOS/Xbox/Windows）是基岩版1.19.40的第3个测试版，发布于2022年9月21日，为配方加入了对物品标签的支持，并修复了一些漏洞。"
+    ],
+    "设置": [
+      "在视频设置中加入了“最大帧率”选项。",
+      "用于控制游戏可到达的最大帧率。",
+      "将“下蹲切换”选项重命名为“潜行切换”。"
+    ],
+    "方块": [
+      "脚手架现在会以正确的燃烧时间作为熔炉燃料，即烧炼1⁄4个物品。（MCPE-42949）",
+      "现在破坏被雪层覆盖的花下方方块后会使花掉落，而不是使雪层掉落。（MCPE-61609）"
+    ],
+    "脚手架": [
+      "现在每个脚手架只能烧炼0.25个物品。"
+    ],
+    "物品": [
+      "加入了对配方直接使用物品标签而不是物品名称的支持。",
+      "加入了一些新的物品标签：",
+      "minecraft:coals、​minecraft:logs、​minecraft:logs_that_burn、​minecraft:planks、​minecraft:soul_fire_base_blocks、​minecraft:stone_crafting_materials、​minecraft:stone_tool_materials、​minecraft:wooden_slabs和​minecraft:wool。",
+      "将部分配方由代码转换为自己的配方文件。",
+      "加入了一些使用新标签的配方以覆盖大量的旧版、物品特定配方（这些配方仍然存在，以支持后向兼容）：",
+      "barrel、​beehive、​bookshelf、​bowl、​brewing_stand、​campfire、​cartography_table、​chest、​composter、​crafting_table、​daylight_detector、​fire_charge、​fletching_table、​furnace、​grindstone、​jukebox、​lectern、​loom、​noteblock、​painting、​piston、​shield、​smithing_table、​smoker、​soul_campfire、​soul_torch、​stick、​stone_axe、​stone_hoe、​stone_pickaxe、​stone_shovel、​stone_sword、​torch、​tripwire_hook、​wooden_axe、​wooden_hoe、​wooden_pickaxe、​wooden_shovel和​wooden_sword。"
+    ],
+    "附魔书": [
+      "现在使用带有时运的附魔书挖掘马铃薯、胡萝卜、西瓜、下界疣、向日葵、丁香、玫瑰丛、牡丹、荧石和沙砾时会增加物品的掉落概率。"
+    ],
+    "游戏内容": [
+      "回退了导致箭和三叉戟停止移动的更改。（MCPE-162085）",
+      "修复了凋零效果造成的伤害会被无保护魔咒盔甲减免的问题。（MCPE-159407）"
+    ],
+    "配方": [
+      "现在合成配方中的同类合成材料可以任意混合（如使用圆石和黑石合成石剑）。"
+    ],
+    "/gametest": [
+      "不再属于实验性玩法。"
+    ],
+    "实验性玩法": [
+      "将“应用测试框架”子选项重命名为“测试版 API”。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“即将推出的创作者功能”和“应用测试框架”子选项后才可使用。"
+    ],
+    "附加包与脚本引擎": [
+      "加入了has_property、int_property、bool_property、float_property和enum_property活动对象行为过滤器。"
+    ],
+    "Events": [
+      "移除了在每一刻内调用的tick事件。"
+    ],
+    "System": [
+      "加入了函数run()。",
+      "用于在队列中加入在下一随机刻中运行的回调，并重新对随机刻进行排列。"
+    ],
+    "Block": [
+      "将id属性重命名为typeId。"
+    ],
+    "BlockComponent": [
+      "将id属性重命名为typeId。"
+    ],
+    "Entity": [
+      "将id属性重命名为typeId。",
+      "加入了只读属性id: string。",
+      "用于返回该实体在世界加载范围内独特且保持不变的标识符。"
+    ],
+    "EntityComponent": [
+      "将id属性重命名为typeId。"
+    ],
+    "ItemComponent": [
+      "将id属性重命名为typeId。"
+    ],
+    "ItemStack": [
+      "将id属性重命名为typeId。"
+    ],
+    "GameTest框架": [
+      "修复了EntityHurtEvent在玩家死亡时不会触发的漏洞。",
+      "将实验性GameTest框架重命名为Beta API。",
+      "现已重命名的Beta API实验性内容仍然需要访问包括核心Minecraft API和GameTest API在内的所有测试版API。"
+    ],
+    "旁观模式（实验性）": [
+      "旁观模式玩家进入或离开气泡柱时不再会播放音效。（MCPE-161536）"
+    ],
+    "命令": [
+      "使用/clone命令复制气泡柱不再会导致产生隐形的水。（MCPE-153903）"
+    ],
+    "图形": [
+      "修复了信标从远处看会突然消失不见的问题。"
+    ],
+    "生物": [
+      "修复了溺尸能够在攻击生物时切换手持物品的问题。（MCPE-40288）"
+    ],
+    "触摸控制": [
+      "改进了轻触设置中的三种控制设计的对应图像。"
+    ],
+    "用户界面": [
+      "修复了玩家无法在装备界面拖拽或选择物品的问题。",
+      "将“黑暗效果强度”和“通知持续时间”辅助功能选项的描述文本的颜色更改为较浅的色度，以提升阅读体验。（MCPE-162047）",
+      "修复了玩家不能通过触摸控制来使不可堆叠物品交换位置的问题。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.19.40.22 — Minecraft Feedback，2022年9月21日。"
+    ]
+  }
+}

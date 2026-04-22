@@ -1,0 +1,54 @@
+{
+  "title": "命令/ability",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fability",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版和​基岩版。",
+      "此页面描述的是教育版相关特性。",
+      "该特性仅在教育版和开启了“Education Edition”选项的基岩版世界中可用。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "赋予或剥夺玩家的能力。"
+    ],
+    "语法": [
+      "ability <player: target> <ability: Ability> <value: Boolean>",
+      "ability <player: target> [ability: Ability]"
+    ],
+    "参数": [
+      "player: target：CommandSelector<Player>",
+      "指定要赋予或剥夺能力的玩家。",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "ability: Ability：enum",
+      "指定要操作的能力。必须是下面几项的其中之一：",
+      "worldbuilder给予玩家成为世界建造者的能力。",
+      "mayfly给予飞行的能力。",
+      "mute将玩家禁言。聊天时其他人将无法看见或听见目标。",
+      "value: Boolean：enum",
+      "指定此能力是否对玩家可用。",
+      "必须为 布尔值（true或false）。"
+    ],
+    "无法解析": [
+      "player: target未能选中一个或多个在线玩家"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "禁言所有玩家：/ability @a mute true"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/ability。"
+    ],
+    "?": [
+      "加入了/ability。"
+    ]
+  }
+}

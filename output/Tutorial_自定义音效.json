@@ -1,0 +1,5 @@
+{
+  "title": "Tutorial:自定义音效",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%9F%B3%E6%95%88",
+  "text": "本教程所述内容仅适用于基岩版。\n此教程仍需完善。\n你可以帮助我们加入更多信息。\n在浏览本教程前，请确保你已能独立制作资源包。如果尚未掌握，建议先学习Tutorial:制作资源附加包。本教程结束后，你将学会如何创建完整的音效资源包，并在游戏中添加自定义音效。\n音源格式与要求\n游戏主要使用FSB5格式的音频，同时也支持IMA WAV、PCM WAV和OGG Vorbis音频，并支持任意采样率。\n同时，对于大多数addons开发者和玩家来说，普遍使用ogg格式的加密音效，因其兼容性和音质兼备。\n更改原版音效\n参见：基岩版声音事件\n首先，在与manifest.json同层的地方，创建一个名字为sounds的文件夹，将准备好的音效ogg与要替代的音效放在同一个路径处，名字为[实际音效名].json。\n格式如下：\n[实际音效名].json\njson\n{\"minecraft.bgm.1\":{//音效的ID\"category\":\"music\",\"sounds\":[{\"name\":\"sounds/bgm/1\",//音源路径\"stream\":true//是否以流线播放，用于缓解时间较长的音效产生的卡顿，也决定在未播放完音效下播放同一音效是否会叠加，流线情况下不会叠加则为重新播放。}]},\"minecraft.bgm.2\":{\"category\":\"music\",\"sounds\":[{\"name\":\"sounds/bgm/2\",\"stream\":true}]}}\n在上述代码中，\"minecraft.bgm.1\"为该音效的调用名，即该音效在Minecraft中的调用命令为/playsound minecraft.bgm.1。同理，若想在Minecraft中停止播放该音效，则需输入/stopsound @a minecraft.bgm.1。 处于\"name\"后面的部分则为这个音效的对应的路径，且从sounds文件夹开始。\n将音源放入对应的路径，并将路径与调用名填入sound_definitions.json，装载后即可使用。\n完成以上步骤后，你的自定义音效包就初具雏形了。若想为该音效添加其他调用方式，请参考Tutorial:制作行为包。\n参见\nTutorial:自定义实体\nTutorial:自定义方块\nTutorial:自定义物品\n导航"
+}

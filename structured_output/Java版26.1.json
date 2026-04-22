@@ -1,0 +1,1232 @@
+{
+  "title": "Java版26.1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8826.1",
+  "structured_content": {
+    "默认分类": [
+      "26.1"
+    ],
+    "发布时间": [
+      "2026年3月24日"
+    ],
+    "开发版本": [
+      "11个快照",
+      "3个预发布版",
+      "3个发布候选"
+    ],
+    "协议版本": [
+      "775"
+    ],
+    "数据版本": [
+      "4786"
+    ],
+    "资源包版本": [
+      "84.0"
+    ],
+    "数据包版本": [
+      "101.1",
+      "其他版本的26.1"
+    ],
+    "基岩版": [
+      "◄◄1.21.11",
+      "26.2►►",
+      "26.1.1►"
+    ],
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/小鬼当家以查看小鬼当家的指南。",
+      "见Java版指南/小鬼当家以查看小鬼当家的指南。",
+      "26.1是小鬼当家的正式版，也是Java版的一次小更新，发布于2026年3月24日。此次更新为幼年生物加入了新的纹理、模型和音效，加入了金蒲公英，加入了命名牌的合成配方和音符盒的小号音色，并修复了一些漏洞。",
+      "此次Java版更新首次采用新版本格式，该格式宣布于2025年12月2日。同时，此次更新也彻底移除了代码混淆。从该版本起，启动游戏要求的最低Java版本为25。"
+    ],
+    "金蒲公英": [
+      "一种新的花，可用于阻止幼年动物成长。",
+      "对幼年动物使用时，将阻止其成长。",
+      "被阻止成长的幼年动物无法喂食其他物品。",
+      "对已被阻止成长的幼年动物使用时，将使其重新开始成长。",
+      "无法对幼年僵尸马和幼年骷髅马使用。",
+      "使用时会在该生物周围释放绿色粒子，向下表示停止生长，向上表示恢复生长。",
+      "使用1个蒲公英和8个金粒合成。"
+    ],
+    "[[|]]": [
+      "可用于合成黄色染料。",
+      "可用于合成谜之炖菜，给予玩家饱和效果。",
+      "可放入花盆中。"
+    ],
+    "音符盒": [
+      "加入了新的音色“小号”（Trumpet），对应的乐器方块为铜块、雕纹铜块、切制铜块、切制铜楼梯、切制铜台阶及其氧化和涂蜡变种。",
+      "音色会随着氧化程度的不同而改变。"
+    ],
+    "命名牌": [
+      "加入了合成配方，即用1张纸和1个任意金属颗粒合成1个命名牌："
+    ],
+    "猫、牛和鸡": [
+      "加入了新的成年音效变种："
+    ],
+    "picky": [
+      "原先的音效变种被称为classic。",
+      "已有生物的音效变种会是所有变种中的随机一种。"
+    ],
+    "猪": [
+      "加入了新的成年音效变种：",
+      "更改了幼年个体的纹理和模型。",
+      "调整了幼年个体的边界箱以匹配其新模型。",
+      "为幼年个体加入了单独的音效。",
+      "幼年猪身上的鞍现在不再渲染。"
+    ],
+    "big": [
+      "原先的音效变种被称为classic。",
+      "已有生物的音效变种会是所有变种中的随机一种。",
+      "所有变种均有独特的喂食音效。"
+    ],
+    "/swing": [
+      "新的命令，允许手臂摆动。",
+      "并非所有实体都支持摆动，命令可能会返回成功，但客户端只会在允许的情况下显示动画。",
+      "例如，这可以使玩家模型摆动手臂。",
+      "返回实体的数量。",
+      "语法："
+    ],
+    "/fetchprofile": [
+      "加入了entity子命令，用于输出世界中实体的档案信息。",
+      "语法：/fetchprofile entity <entity>",
+      "如果选中的实体没有档案（目前只有玩家和玩家模型有），命令会执行失败。",
+      "档案会原样显示，不会额外进行解析。"
+    ],
+    "选项": [
+      "加入了“世界选项”选项，在先前“难度”选项的位置。",
+      "包括“难度”选项、行为限制和游戏规则屏幕。",
+      "因此，现在可以通过暂停菜单进入游戏规则屏幕，而不仅仅是在创建新的世界时。",
+      "游戏规则屏幕仅对管理员可用。",
+      "加入了视频设置：独占全屏，用来控制全屏模式是否应该完全控制整个显示器。"
+    ],
+    "默认为false（即禁用独占全屏模式）": [
+      "所有的更改都只会在游戏重新启动后使用。",
+      "警告：独占全屏模式可能会禁用输入法使用。"
+    ],
+    "用户界面": [
+      "在游戏规则屏幕的顶栏加入了一个搜索框。",
+      "可以根据描述和类型来搜索游戏规则。",
+      "加入了展示升级进度的屏幕，在升级世界时显示。",
+      "加入了游戏内的输入法候选栏，显示在当前编辑的文本上方。",
+      "目前仅支持Windows和macOS。",
+      "需要升级存档格式的世界现在会显示升级并打开世界而不是进入选中的世界，且世界升级前“编辑世界”和“重建”按钮会被禁用。",
+      "全屏时不再使用独占模式。",
+      "如果没有屏幕打开，则输入法输入会被取消。",
+      "输入法会在文本在焦点时打开，在文本不在焦点时关闭。"
+    ],
+    "调试屏幕": [
+      "新增下列选项：",
+      "looking_at_block和looking_at_fluid不再显示标签，标签显示转移到其他调试选项中。",
+      "重命名以下调试选项："
+    ],
+    "looking_at_entity_tags": [
+      "新增了一个调试渲染光照贴图纹理，可以通过F3 + 4启用。",
+      "和FPS图表以及网络图表互斥。",
+      "右下角实时显示光照纹理。",
+      "纹理的纵轴代表天空光照强度，从下到上0至15。",
+      "纹理的横轴代表方块光照强度，从左到右0至15。",
+      "每个像素的颜色代表将对应方块光照和天空光照下要应用到方块和实体的颜色。",
+      "加入了调试选项detailed_memory，用于显示已使用内存的详细信息。",
+      "加入了调试选项sound_cache。"
+    ],
+    "数据包": [
+      "加入了pig_sound_variant、cat_sound_variant、cow_sound_variant和chicken_sound_variant子文件夹。",
+      "猫、猪、牛和鸡的音效变种现在可由数据包定义。",
+      "将数据包版本号更改为101.1。",
+      "猪灵和村民的物品栏可以使用mob.inventory.*访问。",
+      "因此，移除了villager.*。"
+    ],
+    "注册表": [
+      "加入了PIG_SOUND_VARIANT、​COW_SOUND_VARIANT、​CHICKEN_SOUND_VARIANT和​CAT_SOUND_VARIANT可写注册表。"
+    ],
+    "村民交易定义格式": [
+      "现在村民和流浪商人的交易选项由数据包控制。",
+      "villager_trade文件夹下的每个文件都代表一个交易蓝图，村民和流浪商人使用它来生成实际交易。",
+      "格式：",
+      "wants：代表交易收购的物品类型和物品数量。",
+      "id：物品ID。",
+      "count：可选，物品的数量，默认为1。",
+      "components：可选，物品的组件检查，默认为空。",
+      "additional_wants：可选，村民收购的第二个物品，格式同上。",
+      "gives：村民交易的物品，与现有的物品格式相同。",
+      "given_item_modifiers：可选，对于出售物品的修饰，例如对魔咒或药水的修饰，而不是硬编码它们。",
+      "使用现有的物品修饰器格式。",
+      "如果最终物品堆叠为空，则此交易选项将被废弃。",
+      "不支持引用物品修饰器。",
+      "如果物品的stored_enchantments组件包含属于#double_trade_price标签的魔咒，则价格翻倍。",
+      "max_uses：一个数值提供器，交易的最大交易次数，默认为4，如果数值过低则视为1。",
+      "reputation_discount：一个数值提供器，交易的价格乘数，默认为0，如果数值过低则视为0。",
+      "xp：一个数值提供器，交易完成后的村民获得的经验值，默认为1，如果数值过低则视为0。",
+      "merchant_predicate：村民需要满足的条件，满足条件才可以出现这项交易。",
+      "与现有的战利品表谓词格式一致，不支持引用。",
+      "double_trade_price_enchantments：一个魔咒ID、魔咒标签ID或魔咒ID列表，表示会使minecraft:enchant_randomly和minecraft:enchant_with_levels的消耗翻倍的魔咒，前提是include_additional_cost_component为true且物品的stored_enchantments组件包含此魔咒。",
+      "这是一个示例，使用绿宝石交换一本附魔书，仅限沙漠村民：",
+      "{\"additional_wants\":{\"id\":\"minecraft:book\"},\"double_trade_price_enchantments\":\"#minecraft:double_trade_price\",\"given_item_modifiers\":[{\"function\":\"minecraft:enchant_randomly\",\"include_additional_cost_component\":true,\"only_compatible\":false,\"options\":\"#minecraft:trades/desert_common\"},{\"function\":\"minecraft:filtered\",\"item_filter\":{\"items\":\"minecraft:enchanted_book\",\"predicates\":{\"minecraft:stored_enchantments\":[{}]}},\"on_fail\":{\"function\":\"minecraft:discard\"}}],\"gives\":{\"count\":1,\"id\":\"minecraft:enchanted_book\"},\"max_uses\":12.0,\"merchant_predicate\":{\"condition\":\"minecraft:entity_properties\",\"entity\":\"this\",\"predicate\":{\"predicates\":{\"minecraft:villager/variant\":\"minecraft:desert\"}}},\"reputation_discount\":0.2,\"wants\":{\"id\":\"minecraft:emerald\"}}"
+    ],
+    "交易集定义格式": [
+      "trade_set文件夹下的文件是村民提供的交易组合。",
+      "目前交易集合的调用是硬编码的：<profession>/level_<level>用于村民，wandering_trader/buying、wandering_trader/uncommon和wandering_trader/common用于流浪商人。",
+      "格式：",
+      "trades：交易ID、交易ID的列表或交易标签，表示要抽取的交易。",
+      "amount：一个数值提供器，此交易提供提供的交易选项数量。如果最终大于总的交易数量，则所有交易都只会出现一次，除非allow_duplicates为true。",
+      "allow_duplicates：可选，是否允许出现相同的交易，默认为false。",
+      "random_sequence：一个随机序列，决定抽取哪些交易。",
+      "这是一个示例，提供#minecraft:armorer/level_1中的两笔交易，允许重复：",
+      "{\"amount\":2.0,\"trades\":\"#minecraft:armorer/level_1\",\"random_sequence\":\"minecraft:trade_set/armorer/level_1\",\"allow_duplicates\":true}"
+    ],
+    "世界时钟": [
+      "世界时钟包含一个内部时间，每游戏刻都会增加。它们可以定义在数据包的world_clock注册表下（data/<namespace>/world_clock/<id>）。",
+      "世界时钟可以暂停或恢复，其时间也可以用/time查询。",
+      "格式：空对象。"
+    ],
+    "时间线定义格式": [
+      "加入了clock字段：世界时钟ID，指定此时间线用哪个世界时钟。",
+      "必选，但为了与之前的行为匹配，可以使用minecraft:overworld。",
+      "新增了一个可选的time_markers字段，用以指定带命名空间的时间标记ID与数值或对象的映射。",
+      "格式：",
+      "非负整数，此时间标记的游戏刻。",
+      "或对象格式：",
+      "ticks：在0至period_ticks的整数，此时间标记的游戏刻。",
+      "show_in_commands：此时间标记是否显示在命令提示中，默认为false。"
+    ],
+    "时间标记": [
+      "时间标记为特定世界时钟的特定时间节点赋予特定名称。时间标记取代了之前用在/time set中的预设名称，如day和night。",
+      "时间标记会在特定的世界时钟中存在，这意味着不同的时间标记可以被不同的时间线定义，但只有一个具有特定ID、代表特定世界时钟的时间标记。这也意味着两个世界时钟可以有相同的时间标记。"
+    ],
+    "时间标记的内置用途": [
+      "部分时间标记被用于控制游戏行为，它们不会在/time命令中提示：",
+      "minecraft:wake_up_from_sleep：玩家从睡眠中醒来的时间。",
+      "minecraft:roll_village_siege：开始评估僵尸围城发生的时间。"
+    ],
+    "环境属性": [
+      "minecraft:visual/block_light_tint",
+      "方块光照的色调，方块光照颜色在低光照下为灰色，中等光照时会被此属性染色，高光时为白色。默认情况下，它呈现出火把的黄色调。明亮的颜色最适合这个属性，此时至少有一个通道是完全明亮的。该色调适用于屏幕上所有可见的光源，独立的光源无法有不同的色调。",
+      "值类型：RGB颜色",
+      "默认值：#FFD88C",
+      "修饰符：RGB颜色修饰符",
+      "可插值：是",
+      "获取位置：摄像机位置",
+      "minecraft:visual/ambient_light_color",
+      "环境光照的颜色和亮度，这种光照以0级别的光照等级应用到世界，在方块光照和天空光照之上。",
+      "值类型：RGB颜色",
+      "默认值：#0A0A0A代表主世界，#302821代表下界，#3f473f代表末地",
+      "修饰符：RGB颜色修饰符",
+      "可插值：是",
+      "获取位置：摄像机位置",
+      "minecraft:visual/night_vision_color",
+      "类似于环境光照颜色，当夜视效果激活时，R、G、B每个通道的使用minecraft:visual/night_vision_color和minecraft:visual/ambient_light_color的最大值作为最终颜色。夜视系统默认没有色调。",
+      "值类型：RGB颜色",
+      "默认值：#999999",
+      "修饰符：RGB颜色修饰符",
+      "可插值：是",
+      "获取位置：摄像机位置",
+      "将环境属性gameplay/turtle_egg_hatch_chance的默认值更改为0.002。"
+    ],
+    "猫音效变种定义格式": [
+      "猫的音效变种可通过data/<命名空间>/cat_sound_variant/<id>.json来添加。",
+      "格式："
+    ],
+    "父标签": [
+      "adult_sounds：成年猫使用的音效。",
+      "ambient_sound：猫空闲音效的命名空间ID，或直接定义一个声音事件。",
+      "stray_ambient_sound：猫驯服前空闲音效的命名空间ID，或直接定义一个声音事件。",
+      "hiss_sound：猫威慑幻翼音效的命名空间ID，或直接定义一个声音事件。",
+      "hurt_sound：猫受伤音效的命名空间ID，或直接定义一个声音事件。",
+      "death_sound：猫死亡音效的命名空间ID，或直接定义一个声音事件。",
+      "eat_sound：猫进食音效的命名空间ID，或直接定义一个声音事件。",
+      "beg_for_food_sound：猫求食音效的命名空间ID，或直接定义一个声音事件。",
+      "purr_sound：猫呼噜声音效的命名空间ID，或直接定义一个声音事件。",
+      "purreow_sound：猫驯服后空闲音效的命名空间ID，或直接定义一个声音事件。",
+      "baby_sounds：幼年猫使用的音效。",
+      "格式同adult_sounds。",
+      "adult_sounds：成年鸡使用的音效。",
+      "ambient_sound：鸡空闲音效的命名空间ID，或直接定义一个声音事件。",
+      "hurt_sound：鸡受伤音效的命名空间ID，或直接定义一个声音事件。",
+      "death_sound：鸡死亡音效的命名空间ID，或直接定义一个声音事件。",
+      "step_sound：鸡行走音效的命名空间ID，或直接定义一个声音事件。",
+      "baby_sounds：幼年鸡使用的音效。",
+      "格式同adult_sounds。",
+      "adult_sounds：成年猪使用的音效。",
+      "ambient_sound：猪空闲音效的命名空间ID，或直接定义一个声音事件。",
+      "hurt_sound：猪受伤音效的命名空间ID，或直接定义一个声音事件。",
+      "death_sound：猪死亡音效的命名空间ID，或直接定义一个声音事件。",
+      "step_sound：猪行走音效的命名空间ID，或直接定义一个声音事件。",
+      "eat_sound：猪进食音效的命名空间ID，或直接定义一个声音事件。",
+      "baby_sounds：幼年猪使用的音效。",
+      "格式同adult_sounds。",
+      "ambient_sound：牛空闲音效的命名空间ID，或直接定义一个声音事件。",
+      "hurt_sound：牛受伤音效的命名空间ID，或直接定义一个声音事件。",
+      "death_sound：牛死亡音效的命名空间ID，或直接定义一个声音事件。",
+      "step_sound：牛行走音效的命名空间ID，或直接定义一个声音事件。"
+    ],
+    "鸡音效变种定义格式": [
+      "鸡的音效变种可通过data/<命名空间>/chicken_sound_variant/<id>.json来添加。",
+      "格式："
+    ],
+    "猪音效变种定义格式": [
+      "猪的音效变种可通过data/<命名空间>/pig_sound_variant/<id>.json来添加。",
+      "格式："
+    ],
+    "牛音效变种定义格式": [
+      "牛的音效变种可通过data/<命名空间>/cow_sound_variant/<id>.json来添加。",
+      "格式："
+    ],
+    "数据组件": [
+      "加入了additional_trade_cost组件。",
+      "用于修改村民收购物品gives的数量的临时组件，交易生成后会立刻被移除。",
+      "格式：整型。",
+      "加入了dye组件。",
+      "代表一种染料颜色。",
+      "用于曾经需要匹配染料物品的各种场合，包括方块和生物互动。",
+      "注意：该组件的存在不意味着启用这些功能。该物品必须明确具有这些功能，例如添加到标签或作为配方材料。",
+      "格式：white、orange、magenta、light_blue、yellow、lime、pink、gray、light_gray、cyan、purple、blue、brown、green、red或black其一。",
+      "更改了minecraft:provides_banner_patterns组件：",
+      "此组件现在除了接受标签外，还接受ID或ID的列表。",
+      "更改了minecraft:blocks_attacks组件：",
+      "bypassed_by字段现在除了接受标签外，还接受ID或ID的列表。",
+      "更改了minecraft:damage_resistant组件：",
+      "types字段现在除了接受标签外，还接受ID或ID的列表。"
+    ],
+    "战利品上下文": [
+      "加入了villager_trade。",
+      "this_entity：生成交易的实体。",
+      "origin：此实体脚部的位置。"
+    ],
+    "物品修饰器": [
+      "加入了minecraft:set_random_dyes。",
+      "如果物品在#dyeable标签中，则设置物品的minecraft:dyed_color数据组件。",
+      "conditions：应用修饰器的条件。",
+      "number_of_dyes：一个数值提供器，应用于该物品的染料数量。",
+      "共16种染料，可能会被重复染色。",
+      "加入了minecraft:set_random_potion。",
+      "设置物品的minecraft:potion_contents数据组件。",
+      "conditions：应用修饰器的条件。",
+      "options：可选的药水，可以是药水效果ID、药水效果标签或药水效果标签。默认来自potions注册表。",
+      "向minecraft:enchant_with_levels新增下列字段：",
+      "include_additional_cost_component：可选布尔值，表示是否根据魔咒的花费为物品增加minecraft:additional_trade_cost组件。",
+      "默认为false。",
+      "组件的值由levels数值提供器确定，并在数值上与确定附魔所用的等级相同。",
+      "向minecraft:enchant_randomly新增下列字段：",
+      "include_additional_cost_component：可选布尔值，表示是否根据魔咒的花费为物品增加minecraft:additional_trade_cost组件。",
+      "默认为false。",
+      "组件的值由魔咒的等级level确定，计算公式为2 + random(0, 5 + level * 10) + 3 * level。"
+    ],
+    "谓词": [
+      "加入了战利品表谓词minecraft:environment_attribute_check。",
+      "在指定的位置上精确匹配环境属性的值。",
+      "如果环境属性可以随位置变化，则需要具有参数origin的战利品上下文。",
+      "格式：",
+      "attribute：要测试的环境属性的ID。",
+      "value：要匹配的环境属性的精确值。",
+      "示例：{condition: 'environment_attribute_check', attribute: 'gameplay/piglins_zombify', value: true}。",
+      "time_check：",
+      "新增字段clock：一个世界时钟的ID，指定对哪个世界时钟进行检查。"
+    ],
+    "实体谓词": [
+      "向玩家子谓词增加下列字段：",
+      "food：食物谓词。",
+      "level：整数或整数范围，检查饥饿度等级。",
+      "saturation：浮点数或浮点数范围，检查饱和度等级。"
+    ],
+    "数值提供器": [
+      "加入了minecraft:sum。",
+      "返回多个数值提供器的和。",
+      "格式：summands，一个数值提供器的列表。",
+      "加入了minecraft:environment_attribute。",
+      "获取并提供可以代表数值的环境属性的值。",
+      "如果环境属性可以随位置变化，则需要具有参数origin的战利品上下文。",
+      "格式：",
+      "attribute：要获取的环境属性的ID。",
+      "示例：{type: 'environment_attribute', attribute: 'gameplay/sky_light_level'}。"
+    ],
+    "整数提供器": [
+      "加入了整数提供器trapezoid。",
+      "类似于浮点提供器trapezoid，根据梯形分布选择随机数。",
+      "格式：",
+      "min：整数，生成值的最小值。",
+      "max：整数，生成值的最大值。",
+      "plateau：整数，整个分布中概率相同的“平台”宽度。",
+      "为0时代表三角分布。",
+      "为max - min时代表均匀分布。"
+    ],
+    "标签": [
+      "加入了方块标签：",
+      "#cannot_support_kelp：magma_block",
+      "无法支撑海带的方块。",
+      "#cannot_support_seagrass：magma_block",
+      "无法支撑海草和高海草的方块。",
+      "#enables_bubble_column_drag_down：magma_block",
+      "能生成涡流气泡柱的方块。",
+      "#enables_bubble_column_push_up：soul_sand",
+      "能生成涌流气泡柱的方块。",
+      "#grows_crops：farmland",
+      "上方种植的小麦植株、胡萝卜、马铃薯、甜菜根、火把花植株、瓶子草植株、南瓜茎、西瓜茎能够生长的方块。",
+      "#support_override_cactus_flower：cactus和​farmland",
+      "能支撑仙人掌花、无视上表面完整性的方块。",
+      "#supports_crops：farmland",
+      "能支撑所有生长阶段的小麦植株、胡萝卜、马铃薯、甜菜根、火把花植株及瓶子草植株的方块。",
+      "#supports_stem_crops：#supports_crops",
+      "#supports_melon_stem：#supports_stem_crops",
+      "能支撑西瓜茎的方块。",
+      "#supports_pumpkin_stem：#supports_stem_crops",
+      "能支撑南瓜茎的方块。",
+      "#supports_vegetation：#dirt和​farmland",
+      "能支撑灌木丛、萤火虫灌木丛、甜浆果丛、矮草丛、高草丛、蕨、大型蕨、花（凋灵玫瑰除外）、粉红色花簇、野花簇、树苗的方块。",
+      "#supports_azalea：#supports_vegetation和​clay",
+      "能支撑杜鹃花丛和盛开的杜鹃花丛的方块。",
+      "#supports_cactus：#sand",
+      "能支撑仙人掌的方块。",
+      "#supports_chorus_flower：end_stone",
+      "能支撑紫颂花的方块。",
+      "#supports_chorus_plant：end_stone",
+      "能支撑紫颂植株的方块。",
+      "#supports_cocoa：#jungle_logs",
+      "能支撑可可果的方块。",
+      "#supports_warped_fungus：#supports_vegetation、​#nylium、​mycelium和​soul_soil",
+      "能支撑诡异菌的方块。",
+      "#supports_crimson_fungus：#supports_warped_fungus",
+      "能支撑绯红菌的方块。",
+      "#supports_warped_roots：#supports_vegetation、​#nylium和​soul_soil",
+      "能支撑诡异菌索的方块。",
+      "#supports_crimson_roots：#supports_warped_roots",
+      "能支撑绯红菌索的方块。",
+      "#supports_frogspawn：默认为空",
+      "能支撑青蛙卵的方块。",
+      "#supports_mangrove_propagule：#supports_vegetation和​clay",
+      "能支撑红树胎生苗的方块。",
+      "#supports_hanging_mangrove_propagule：mangrove_leaves",
+      "能支撑悬挂的红树胎生苗的方块。",
+      "#supports_lily_pad：ice和​frosted_ice",
+      "能支撑睡莲的方块。",
+      "#supports_nether_sprouts：#supports_vegetation、​#nylium和​soul_soil",
+      "能支撑下界苗的方块。",
+      "#supports_nether_wart：soul_sand",
+      "能支撑下界疣的方块。",
+      "#supports_sugar_cane：#dirt和​sand",
+      "能支撑甘蔗的方块。",
+      "#supports_sugar_cane_adjacently：frosted_ice",
+      "能与甘蔗下方方块毗邻的方块。",
+      "#supports_wither_rose：#supports_vegetation、​netherrack、​soul_sand和​soul_soil",
+      "能支撑凋灵玫瑰的方块。",
+      "#supports_stem_fruit：#supports_vegetation",
+      "#supports_pumpkin_stem_fruit：#supports_stem_fruit",
+      "南瓜茎能在这些方块上方生成南瓜。",
+      "#supports_melon_stem_fruit：#supports_stem_fruit",
+      "西瓜茎能在这些方块上方生成西瓜。",
+      "#mud：泥巴和沾泥的红树根",
+      "#moss_blocks：苔藓块和苍白苔藓块",
+      "#grass_blocks：草方块、菌丝体和灰化土",
+      "#substrate_overworld：#dirt、#mud、#moss_blocks和#grass_blocks",
+      "用于集合世界生成条件。",
+      "更改了以下标签的名称以保持一致性：",
+      "同时其中的值#dirt和​farmland被替换为#supports_vegetation。",
+      "移除了物品标签#dyeable。",
+      "向方块标签#flower_pots中加入了金蒲公英盆栽。",
+      "向方块标签#small_flowers、物品标签#piglin_loved和​#small_flowers、村民交易标签#wandering_trader/common中加入了金蒲公英。",
+      "拆分了方块标签#dirt，现在仅包含泥土、砂土和缠根泥土。",
+      "移除了下列标签："
+    ],
+    "#beneath_tree_podzol_replaceable": [
+      "定义适用于树木下方可被灰化土替代的方块。"
+    ],
+    "#beneath_bamboo_podzol_replaceable": [
+      "定义适用于竹子下方可被灰化土替代的方块。",
+      "#cannot_replace_below_tree_trunk：#dirt、#mud、#moss_blocks和灰化土"
+    ],
+    "#forest_rock_can_place_on": [
+      "定义哪些方块之上可放置forest_rock地物。"
+    ],
+    "#huge_brown_mushroom_can_place_on": [
+      "定义哪些方块之上可放置huge_brown_mushroom地物。"
+    ],
+    "#huge_red_mushroom_can_place_on": [
+      "定义哪些方块之上可放置huge_red_mushroom地物。"
+    ],
+    "#ice_spike_replaceable": [
+      "定义冰刺可替换哪些方块。",
+      "#prevents_nearby_leaf_decay：包含所有原木和菌柄。",
+      "定义树叶距离何种方块计程车距离6格内时不消失。",
+      "加入了流体标签：",
+      "#bubble_column_can_occupy：water",
+      "能被气泡柱占据的流体。",
+      "#supports_frogspawn：water",
+      "能支撑青蛙卵的流体。",
+      "#supports_lily_pad：water",
+      "能支撑睡莲的流体。",
+      "#supports_sugar_cane_adjacently：water",
+      "甘蔗下方方块需要毗邻的流体。",
+      "加入了控制村民交易集合的标签。",
+      "村民根据职业和等级由#<profession>/level_<level>控制，最高5级。",
+      "铁匠由#common_smith/level_<level>控制，代表盔甲匠、武器匠和工具匠的通用交易，最高5级。",
+      "流浪商人由#wandering_trader/buying、#wandering_trader/uncommon和#wandering_trader/common控制。",
+      "加入了药水效果标签：",
+      "#tradeable：可以被制箭师村民售卖的药箭。",
+      "加入了物品标签：",
+      "#metal_nuggets：包含铜粒、铁粒和金粒。",
+      "#dyes：辅助标签，包含原版游戏中的所有染料。",
+      "#loom_dyes：允许在织布机界面上设置图案颜色的物品。",
+      "织布机屏幕仍然需要物品堆叠具有minecraft:dye组件。",
+      "#loom_patterns：允许在织布机界面上解锁图案的物品。",
+      "织布机屏幕仍然需要物品堆叠具有minecraft:provides_banner_patterns组件。",
+      "#cat_collar_dyes：用于给猫的项圈染色的物品。",
+      "设置的颜色取自物品的minecraft:dye组件。",
+      "#wolf_collar_dyes：用于给狼的项圈染色的物品。",
+      "设置的颜色取自物品的minecraft:dye组件。",
+      "#cauldron_can_remove_dye：可以在装有水的炼药锅中使用以去除minecraft:dyed_color组件的物品。"
+    ],
+    "#mud": [
+      "与方块标签对应。"
+    ],
+    "#moss_blocks": [
+      "与方块标签对应。"
+    ],
+    "#grass_blocks": [
+      "与方块标签对应。",
+      "加入了实体类型标签：",
+      "#cannot_be_age_locked：不可以被金蒲公英停止生长的可成长生物。",
+      "加入了已配置的地物标签：",
+      "#can_spawn_from_bone_meal：可以通过使用骨粉在生物群系中生成的地物。地物本身必须在对应的生物群系中引用。"
+    ],
+    "粒子": [
+      "加入了粒子pause_mob_growth：对幼年生物使用金蒲公英使其停止生长的粒子。",
+      "加入了粒子reset_mob_growth：对幼年生物使用金蒲公英使其重新开始生长的粒子。"
+    ],
+    "配方": [
+      "加入了minecraft:crafting_dye配方类型。",
+      "替代了minecraft:crafting_special_armordye。",
+      "输出：",
+      "此类型的配方会先将与target原料匹配的物品的minecraft:dyed_color组件值和与dye原料匹配的minecraft:dye组件值混合。",
+      "结果将由与target匹配的物品转化至result物品堆叠来构建，并设置新的minecraft:dyed_color组件。",
+      "格式：",
+      "category：配方书的分类，可以为building、redstone、equipment或misc之一，默认为misc。",
+      "group：配方书的分组，默认为空字符串。",
+      "show_notification：可选布尔值，配方解锁时是否显示弹窗，默认为true。",
+      "target：原料，曾被硬编码为#dyable标签。",
+      "dye：原料，曾被硬编码为染料物品。",
+      "此物品必须具有minecraft:dye组件。",
+      "result：结果物品堆叠，曾经始终是与target匹配的物品副本。",
+      "加入了minecraft:crafting_imbue配方类型。",
+      "替代了minecraft:crafting_special_tippedarrow。",
+      "匹配一个单一物品source原料，并被8个material原料环绕。",
+      "输出：",
+      "此类型的配方会复制与source匹配的物品的minecraft:potion_contents组件到输出物品上。",
+      "格式：",
+      "category：配方书的分类，可以为building、redstone、equipment或misc之一，默认为misc。",
+      "group：配方书的分组，默认为空字符串。",
+      "show_notification：可选布尔值，配方解锁时是否显示弹窗，默认为true。",
+      "source：原料，曾被硬编码为minecraft:lingering_potion。",
+      "material：原料，曾被硬编码为minecraft:arrow。",
+      "result：结果物品堆叠，曾被硬编码为8个minecraft:tipped_arrow。",
+      "result字段现在在所有配方类型中更加一致。",
+      "它现在可以使用简写格式，如\"minecraft:foo\"相当于{\"id\":\"minecraft:foo\", \"count\": 1}。",
+      "对于配方类型smelting、​blasting、​smoking和​campfire_cooking，现在也可以接受count字段。",
+      "移除了minecraft:crafting_special_mapcloning配方类型，其功能被整合到minecraft:crafting_transmute。",
+      "现在show_notification字段可以在所有配方上工作了，此前只在crafting_shaped上工作：",
+      "minecraft:crafting_shapeless",
+      "minecraft:crafting_shaped",
+      "minecraft:crafting_transmute",
+      "minecraft:smelting",
+      "minecraft:blasting",
+      "minecraft:smoking",
+      "minecraft:campfire_cooking",
+      "minecraft:stonecutting",
+      "minecraft:smithing_transform",
+      "minecraft:smithing_trim",
+      "移除了下列没有配方书的配方的group字段：",
+      "minecraft:stonecutting",
+      "minecraft:smithing_transform",
+      "minecraft:smithing_trim",
+      "更改了minecraft:crafting_transmute配方类型。",
+      "此类型的配方现在可以接受与material匹配的多个物品。",
+      "附加字段：",
+      "material_count：整数范围，material字段匹配的物品数量。",
+      "必须为[1, 8]的子区间。",
+      "默认为[1, 1]。",
+      "add_material_count_to_result：布尔值，默认为false。",
+      "为true时，被原料material匹配上的物品数量会增加到结果物品的数量上。",
+      "更改了minecraft:crafting_special_bannerduplicate配方类型。",
+      "现在可以限制原料。",
+      "现在可以指定输出。",
+      "此配方依旧只作用于旗帜物品。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "banner：可用于来源和结果物品的原料，曾被硬编码为旗帜物品。",
+      "result：结果物品堆叠，曾被硬编码为不带有空图案的旗帜物品。",
+      "输出：",
+      "此配方会搜寻第一个与banner匹配的旗帜物品，并将其视为源旗帜。",
+      "结果将由源旗帜转化至result物品堆叠来构建。",
+      "源旗帜依旧会留在合成方格内。",
+      "更改了crafting_special_bookcloning配方类型。",
+      "现在可配置原料和输出。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "source：作为来源书的原料。",
+      "为了整个配方进行匹配，此物品必须具有minecraft:written_book_content组件。",
+      "material：将要被复制的原料，曾被硬编码为#book_cloning_target标签。",
+      "allowed_generations：整数范围，被material匹配的原料的minecraft:written_book_content组件中generation的允许值。",
+      "必须是[0, 2]的子区间。",
+      "默认为[0, 1]，即允许原稿和副本，但不允许副本的副本。",
+      "result：结果物品堆叠，曾经总是source原料的副本。",
+      "输出：",
+      "此类型的配方会先获取与source匹配的物品的minecraft:written_book_content组件。",
+      "minecraft:written_book_content组件的generation字段会增加1。",
+      "结果将由与source匹配的物品转化至result物品堆叠来构建，并设置新的written_book_content组件。",
+      "与material匹配的物品数量会增加到结果物品堆叠上。",
+      "与source匹配的物品会留在合成方格中。",
+      "更改了minecraft:crafting_decorated_pot配方类型。",
+      "现在可配置原料和输出。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "back、left、right、front：原料，曾被硬编码为#decorated_pot_ingredients标签。",
+      "result：结果物品堆叠，曾被硬编码为1个minecraft:decorated_pot。",
+      "其他功能保持不变。例如，与原料匹配的物品会将给结果物品加上内容对应的minecraft:pot_decorations组件。",
+      "更改了minecraft:crafting_special_firework_rocket配方类型。",
+      "现在可配置原料和输出。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "shell：原料，曾被硬编码为minecraft:paper。",
+      "fuel：原料，曾被硬编码为minecraft:gunpowder。",
+      "star：原料，曾被硬编码为minecraft:firework_star。",
+      "result：结果物品堆叠，曾被硬编码为3个minecraft:firework_rocket。",
+      "输出：",
+      "必须精确存在一个与shell原料匹配的物品。",
+      "与fuel匹配的物品堆叠数量会控制flight_duration字段。",
+      "explosions字段复制自star原料的minecraft:firework_explosion组件（如果有的话）。",
+      "更改了minecraft:crafting_special_firework_star_fade配方类型。",
+      "现在可以配置原料。",
+      "移除了未使用的category字段。",
+      "此配方现在使用minecraft:dye组件，而不是在染料物品中硬编码颜色。",
+      "附加字段：",
+      "target：原料，曾被硬编码为minecraft:firework_star。",
+      "dye：原料，曾被硬编码为染料物品。",
+      "为了整个配方进行匹配，此物品必须具有minecraft:dye组件。",
+      "result：结果物品堆叠，曾经总是被target匹配的物品副本。",
+      "输出：",
+      "此配方会找到被target匹配的原料物品的minecraft:firework_explosion组件的当前值。",
+      "firework_explosion的fade_colors字符会被设置为被dye匹配上的物品的颜色。",
+      "结果将由与target匹配的物品转化至result物品堆叠来构建，并设置新的minecraft:firework_explosion组件。",
+      "更改了minecraft:crafting_special_firework_star配方类型。",
+      "现在可配置原料和输出。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "trail：原料，曾被硬编码为minecraft:diamond。",
+      "twinkle：原料，曾被硬编码为minecraft:glowstone_dust。",
+      "fuel：原料，曾被硬编码为minecraft:gunpowder。",
+      "dye：原料，曾被硬编码为染料物品。",
+      "为了整个配方进行匹配，此物品必须具有minecraft:dye组件。",
+      "shapes：一组形状与材料的映射。",
+      "允许的键值与minecraft:firework_explosion组件的shape字段相同。"
+    ],
+    "物品模型映射": [
+      "minecraft:bell特殊模型类型",
+      "新的特殊模型类型，渲染钟方块的动画部分。",
+      "无额外字段。",
+      "minecraft:book特殊模型类型",
+      "新的特殊模型类型，渲染附魔台和讲台的书。",
+      "格式：",
+      "open_angle：角度制角度，书的封面和书中轴线的角度。（0表示合上，90表示摊平）",
+      "page1、page2：书中两书页的位置。",
+      "0.0表示在最左侧，1.0表示在最右侧。",
+      "minecraft:end_cube特殊模型类型",
+      "新的特殊模型类型，用相同的纹理效果渲染一个立方体，就像末地传送门和末地折跃门方块那样。",
+      "格式：",
+      "effect：纹理效果，必须为portal或gateway之一。",
+      "物品模型类型minecraft:model、​minecraft:special、​minecraft:range_dispatch、​minecraft:composite、​minecraft:select和​minecraft:condition现在拥有了transformation字段。",
+      "这些字段的格式和展示实体的transformation格式相同，例如，可以是16个数字组成的列表来代表矩阵，或是分解为具有平移、旋转和缩放信息的结构。",
+      "对于具有子节点的类型（minecraft:range_dispatch、​minecraft:composite、​minecraft:select和​minecraft:condition），除了minecraft:bundle/selected_item，变换将由子节点的变换组成。",
+      "物品模型的变换将在物品渲染变换（烘焙模型display字段）之后进行。",
+      "一些特殊的物品模型（即由minecraft:special引用的类型）的变换已经提取到物品模型自身。（而不是硬编码）",
+      "受影响的特殊模型：",
+      "minecraft:bed",
+      "minecraft:banner",
+      "minecraft:conduit",
+      "minecraft:copper_colem_statue",
+      "minecraft:head",
+      "minecraft:player_head",
+      "minecraft:shulker_box",
+      "minecraft:shield",
+      "minecraft:trident",
+      "minecraft:standing_sign",
+      "minecraft:hanging_sign",
+      "minecraft:bed特殊模型类型",
+      "此模型现在只渲染一半床。",
+      "为了渲染整张床，现在需要使用minecraft:composite模型。",
+      "新字段：",
+      "part：可以为head和foot之一。",
+      "minecraft:banner特殊模型类型",
+      "新字段：",
+      "attachment：要使用的模型，可以为wall和ground之一。默认为ground。",
+      "minecraft:chest特殊模型类型",
+      "新字段：",
+      "chest_type：要使用的模型，可以为single、left和right之一。默认为single。",
+      "minecraft:hanging_sign特殊模型类型",
+      "新字段：",
+      "attachment：要使用的模型，可以为wall、ceiling和ceiling_middle之一。默认为ceiling_middle。",
+      "minecraft:standing_sign特殊模型类型",
+      "新字段：",
+      "attachment：要使用的模型，可以为wall和ground之一。默认为ground。",
+      "minecraft:shulker_box特殊模型类型",
+      "移除了orientation字段。"
+    ],
+    "铜箱子": [
+      "圣诞节期间不再使用圣诞节礼物纹理。"
+    ],
+    "去皮云杉原木": [
+      "更改了顶面纹理以匹配基岩版。"
+    ],
+    "炼药锅": [
+      "现在装有的水是透明的。"
+    ],
+    "滴水石锥": [
+      "现在当滴水石锥附着于下表面的滴水石块上方为含水方块时，下方的滴水石锥可以生长。"
+    ],
+    "石头": [
+      "现在石头可在切石机中直接制作圆石及其不同形状的变种。"
+    ],
+    "深板岩": [
+      "现在深板岩可在切石机中直接制作深板岩圆石、磨制深板岩、深板岩砖、深板岩瓦、雕纹深板岩以及它们不同形状的变种。"
+    ],
+    "盔甲": [
+      "现在幼年人形生物拥有独特的盔甲模型。",
+      "不包括小型盔甲架。",
+      "幼年人形生物装备的盔甲不再会渲染盔甲纹饰。"
+    ],
+    "矛": [
+      "更改了矛冲锋攻击使受击者脱离骑乘状态的速度阈值，以匹配基岩版。"
+    ],
+    "驴、骡、海龟、蜜蜂、狐狸、犰狳、北极熊、羊驼、熊猫、疣猪兽、僵尸疣猪兽、山羊和嗅探兽": [
+      "更改了幼年个体的纹理和模型。"
+    ],
+    "牛、绵羊、豹猫、哞菇、鱿鱼、发光鱿鱼、僵尸、尸壳、溺尸、猪灵、僵尸猪灵、村民和僵尸村民": [
+      "更改了幼年个体的纹理和模型。",
+      "调整了以上幼年生物的边界箱以匹配其新模型。"
+    ],
+    "猫、鸡和马": [
+      "更改了幼年个体的纹理和模型。",
+      "调整了以上幼年生物的边界箱以匹配其新模型。",
+      "为幼年个体加入了单独的音效。"
+    ],
+    "狼": [
+      "更改了幼年个体的纹理和模型。",
+      "调整了幼年个体的边界箱以匹配其新模型。",
+      "为幼年个体加入了单独的音效。",
+      "幼年狼身上的狼铠现在不再渲染。"
+    ],
+    "兔子": [
+      "更改了纹理和模型。",
+      "调整了边界箱以匹配其新模型。",
+      "现在拥有了新动画。"
+    ],
+    "美西螈": [
+      "更改了幼年个体的纹理和模型。",
+      "调整了幼年个体的边界箱以匹配其新模型。",
+      "为幼年美西螈加入了装死的动画。"
+    ],
+    "骆驼": [
+      "更改了幼年个体的纹理和模型。",
+      "幼年骆驼身上的鞍现在不再渲染。"
+    ],
+    "海豚": [
+      "更改了幼年个体的纹理和模型。",
+      "现在会跟随骑乘鹦鹉螺的玩家，以匹配基岩版。"
+    ],
+    "炽足兽": [
+      "更改了幼年个体的纹理和模型。",
+      "现在骑乘在红色纹理炽足兽上的炽足兽也会是红色纹理，以匹配基岩版。"
+    ],
+    "僵尸马": [
+      "更改了幼年个体的纹理和模型。",
+      "调整了幼年个体的边界箱以匹配其新模型。",
+      "受伤后不再会进入惊慌状态。",
+      "现在幼年僵尸马可以通过刷怪蛋或命令生成。",
+      "幼年个体现在不再会成长为成年个体。"
+    ],
+    "骷髅马": [
+      "更改了幼年个体的纹理和模型。",
+      "调整了幼年个体的边界箱以匹配其新模型。",
+      "幼年个体现在不再会成长为成年个体。"
+    ],
+    "僵尸": [
+      "现在“领头”僵尸在生成时的生命值等于其生命值上限。",
+      "现在增援僵尸不再试图攻击创造模式下的玩家。"
+    ],
+    "骆驼尸壳": [
+      "移除了未使用的幼年个体。"
+    ],
+    "行商羊驼": [
+      "更改了幼年个体的纹理和模型。",
+      "现在繁殖生成的行商羊驼不再会自然消失。"
+    ],
+    "交易": [
+      "村民交易的刷新现在依赖于随机序列。",
+      "大师等级的图书管理员不再出售命名牌。",
+      "大师等级的图书管理员现在会以3个绿宝石的价格出售红色蜡烛和黄色蜡烛。",
+      "流浪商人现在会以1个绿宝石的价格出售命名牌。",
+      "大师等级的图书管理员不再出售命名牌。",
+      "大师等级的图书管理员现在会以3个绿宝石的价格出售红色蜡烛或黄色蜡烛。"
+    ],
+    "远古城市和林地府邸": [
+      "从战利品表中移除了命名牌。"
+    ],
+    "进度": [
+      "“金光闪闪”现在也可以通过丢出金蒲公英获取。"
+    ],
+    "选取方块": [
+      "现在对玩家或玩家模型使用Ctrl和选取方块组合键时会显示对此实体执行/fetchprofile相同的结果。"
+    ],
+    "/time": [
+      "/time现在基于世界时钟。",
+      "世界时钟可选择性地指定为命令的输入，如/time of <clock> ...。",
+      "如果未指定世界时钟（像之前一样的time ...），则使用本维度默认的世界时钟。",
+      "set和add子命令的返回值（/execute store ...）现在是世界时钟经过的总刻数，而不是当前时间。",
+      "语法：",
+      "time [of <clock>] set <time>：设置世界时钟经过的总刻数。",
+      "time [of <clock>] set <timemarker>：将当前的世界时钟快进到下一时间标记。",
+      "对于世界时钟minecraft:overworld，可用的时间标记是day、​noon、​night和​midnight。",
+      "time [of <clock>] add <time>：将当前的世界时钟加上刻数，可以为正数或负数。",
+      "time [of <clock>] pause：暂停当前世界时钟。",
+      "time [of <clock>] resume：继续暂停的世界时钟。",
+      "time [of <clock>] query <timeline>：显示并返回当前时间线在本周期内经过的刻数。",
+      "time [of <clock>] query <timeline> repetitions：显示并返回当前时间线经过的周期数。",
+      "time [of <clock>] query time：显示并返回当前世界时钟经过的总刻数。",
+      "time [of <clock>] rate <rate>，设定时钟步进的速率乘数。",
+      "注意：这只会影响世界时钟及其相关时间线内部时钟的速率。",
+      "例如，对于时钟minecraft:overworld，速率设定为更大的值时昼夜更替更加快，但实际的游戏模拟不会加速，不会像/tick rate那样。",
+      "rate为1时对应正常速度。",
+      "rate是一个浮点数，在0（不包含）和1000（包含）之间。",
+      "time query gametime：与之前一样，世界中经过的总刻数，不受/time更改的影响。"
+    ],
+    "Java版本": [
+      "现在启动游戏要求的最低Java版本为25。",
+      "现在使用的Java发行版为Microsoft构建的OpenJDK 25。"
+    ],
+    "LWJGL": [
+      "将LWJGL从版本3.3.3更新到了3.4.1。"
+    ],
+    "默认JVM选项": [
+      "游戏现在初始分配2GB内存。",
+      "游戏现在默认分配4GB内存。",
+      "在兼容的设备上，使用的垃圾回收器由G1GC变更为ZGC。"
+    ],
+    "Lightmap算法": [
+      "重写了算法。",
+      "新算法预计和之前相同，但：",
+      "它更简单、更直接，修复了之前的许多问题，详见下方修复部分。",
+      "凋零战斗的黑暗效果和世界变暗效果现在在所有维度中都以相同的方式工作。",
+      "夜视效果现在只会影响环境光照，而不是对颜色值进行缩放。",
+      "这意味着完全黑暗的区域不再比有方块光照或天空光照照亮的地方更明亮。",
+      "算法的其他方面，如方块漫反射颜色、环境光照颜色和夜视效果颜色，现在由环境属性控制。"
+    ],
+    "looking_at_fluid -> looking_at_fluid_state": [
+      "从local_difficulty项拆分出了day_count项，显示玩家在世界内度过的游戏日。"
+    ],
+    "闪烁标语": [
+      "将“Java 16 + 1 + 4 = 21!”更改为“Java 16 + 1 + 4 * 2 = 25!”。"
+    ],
+    "聊天": [
+      "现在可以随时打开聊天屏幕，即使聊天被聊天设置所限制。",
+      "发送、接收信息以及发送命令仍会被聊天设置所限制。",
+      "若在限制聊天的情况下打开聊天屏幕，聊天框顶部和输入框上方会显示关于限制的提示信息。",
+      "点击聊天框顶部的提示信息会打开一个屏幕，以提醒玩家更改聊天设置以及目前能在聊天屏幕做什么。",
+      "现在即使玩家或服务端的聊天被限制，客户端在聊天框做出的记录（如截图）也会显示。",
+      "现在更改聊天设置后，聊天框中的所有受限制的信息都会被隐藏。",
+      "在本地服务器上聊天信息的处理方式现在在聊天设置上与专用服务器上更为一致。"
+    ],
+    "全景图": [
+      "更新了主菜单全景图以匹配小鬼当家。"
+    ],
+    "资源包": [
+      "将资源包版本号更改为84.0。",
+      "移除了Programmer Art资源包中的兔子纹理。",
+      "绊线的纹理现在由alpha cutout渲染，而不再是透明的。",
+      "由发光鱿鱼、避雷针、方块的涂蜡、上蜡和刮削发出的粒子现在渲染不透明，因为它们实际上从未使用过半透明渲染。",
+      "移除了demo_background.png，改为使用精灵图popup/background.png。"
+    ],
+    "实体数据格式": [
+      "将玩家独有标签current_explosion_impact_pos和current_impulse_context_reset_grace_time添加到了所有的生物上。",
+      "移除了玩家数据的ignore_fall_damage_from_current_explosion。"
+    ],
+    "狼音效变种定义格式": [
+      "将所有字段移动到adult_sounds内，并加入了baby_sounds表示幼年狼的音效。"
+    ],
+    "鸡变种定义格式、猪变种定义格式、牛变种定义格式和猫变种定义格式": [
+      "加入了baby_asset_id以指定幼年生物的纹理。"
+    ],
+    "狼变种定义格式": [
+      "加入了baby_assets以指定幼年狼的纹理。"
+    ],
+    "魔咒定义格式": [
+      "post_piercing_attack组件默认不再检查玩家的饥饿度等级。"
+    ],
+    "测试环境定义格式": [
+      "将time_of_day替换为clock_time。",
+      "新增必选字段clock：一个世界时钟的ID，此世界时钟将被设置为对应时间。",
+      "加入了测试环境定义类型timeline_attributes来设置任意数量的时间线。",
+      "格式：timelines：要设置的时间线的列表。"
+    ],
+    "维度类型": [
+      "增加了下列字段：",
+      "default_clock：可选的世界时钟ID。",
+      "指定用于/time的默认世界时钟。",
+      "如果不存在，那么/time将需要明确的世界时钟参数。",
+      "同时指定了要应用时间标记minecraft:wake_up_from_sleep和minecraft:roll_village_siege的世界时钟。",
+      "如果不存在，则这些时间标记将在本维度内永远不会生效。",
+      "加入了has_ender_dragon_fight：布尔值，控制此维度是否有末影龙战斗。"
+    ],
+    "战利品表函数": [
+      "更改了minecraft:set_instrument：",
+      "options字段现在除了接受标签外，还接受ID或ID的列表。"
+    ],
+    "文本组件": [
+      "从文本组件nbt解析的标签，若设置为interpret: false，现在会经过语法渲染，而不是单一扁平的text组件。",
+      "selector类型：",
+      "selector指定的选择器后不再接受尾随数据。",
+      "nbt类型：",
+      "interpret为false时，文本组件进行排版印刷，而不是展开为单一扁平的text组件。",
+      "nbt和block的内容解析失败时不再静默忽略。",
+      "entity指定的选择器后不再接受尾随数据。",
+      "加入了新的可选选项plain，用于移除精美印刷的文本的样式。",
+      "plain和interpret不能同时启用。",
+      "对object类型的更改：",
+      "加入了新的可选字段fallback，内容为文本组件，当对象组件无法渲染时使用，例如在服务器控制台打印消息或复述文本。",
+      "player类型的对象组件（渲染玩家的头）不再可以在服务器状态消息（MotD）中使用。",
+      "所有此类型的组件都将被替换为回落文本。",
+      "MOTD中嵌套超过16层的文本组件现在将被丢弃，并用省略号替代。"
+    ],
+    "small_ball": [
+      "large_ball，曾被硬编码为minecraft:fire_charge。",
+      "burst，曾被硬编码为minecraft:feather。",
+      "star，曾被硬编码为minecraft:gold_nugget。",
+      "creeper，曾被硬编码为生物头颅。",
+      "result：结果物品堆叠，曾被硬编码为3个minecraft:firework_star。",
+      "此配方现在使用minecraft:dye组件，而不是在染料物品中硬编码颜色。",
+      "输出：",
+      "必须精确存在一个与fuel原料匹配的物品。",
+      "结果会基于result字段，其minecraft:firework_explosion组件的内容将由下列值决定：",
+      "被dye匹配的原料的minecraft:dye组件会添加到colors字段。",
+      "如果存在一个物品被trial匹配，则has_trail字段被设置为true。",
+      "如果存在一个物品被twinkle匹配，则has_twinkle字段被设置为true。",
+      "shape字段由shape字段匹配的原料决定，不存在时为small_ball。",
+      "更改了minecraft:crafting_special_mapextending配方类型。",
+      "现在可配置原料和输出。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "map：原料，曾被硬编码为具有minecraft:map_id的minecraft:filled_map物品。",
+      "为了整个配方进行匹配，此物品必须具有minecraft:map_id组件。",
+      "material：原料，曾被硬编码为minecraft:paper。",
+      "result：结果物品堆叠，曾经总是与map原料匹配的物品副本。",
+      "输出：",
+      "此配方会先找到与map原料匹配的物品的minecraft:map_id组件。",
+      "结果物品将原料物品转化来构建。",
+      "minecraft:map_post_processing组件将设置在结果物品上。",
+      "源物品会保留在合成方格中。",
+      "更改了minecraft:crafting_special_shielddecoration配方类型。",
+      "现在可配置原料和输出。",
+      "移除了未使用的category字段。",
+      "附加字段：",
+      "banner：原料，曾被硬编码为旗帜物品。",
+      "只会于旗帜物品匹配。",
+      "target：原料，曾被硬编码为minecraft:shield。",
+      "为了整个配方进行匹配，此物品的minecraft:banner_patterns组件必须要么为空，要么不存在。",
+      "result：结果物品堆叠，曾经总是与target匹配的物品副本。",
+      "功能保持不变。例如该配方将对与target匹配的物品进行如下更改：",
+      "输出：",
+      "结果将由与target匹配的物品转化至result物品堆叠来构建，然后：",
+      "复制与banner匹配的物品的minecraft:banner_pattern组件。",
+      "根据与banner匹配的旗帜类型来设置minecraft:base_color组件。"
+    ],
+    "存档格式": [
+      "所有的维度现在存储在维度子文件夹中。",
+      "主世界的数据现在移动到dimensions/minecraft/overworld。",
+      "这包括区块、实体和兴趣点文件夹，以及位于data中的相关文件。",
+      "下界的数据从DIM-1移动到dimensions/minecraft/the_nether。",
+      "末地的数据从DIM1移动到dimensions/minecraft/the_end。",
+      "根目录的data文件夹现在只用于存储和维度无关的数据，而不是和主世界的数据共享。",
+      "玩家存储移动到players子目录中。",
+      "世界指定资源包（resources.zip）移动到resourcepacks子目录中。",
+      "数据存储的数据文件夹现在带命名空间了。",
+      "这意味着所有的此类数据现在会存储在data文件夹下的命名空间子文件夹下。",
+      "所有原版游戏的文件都按此规则移动。",
+      "命令存储现在使用命名空间子文件夹而不是命名空间后缀。",
+      "chunks.dat被重命名为chunk_tickets.dat。",
+      "地图数据现在存储在data/minecraft/maps子文件夹中。",
+      "地图索引文件被重命名为数字。",
+      "idcounts.dat被重命名为last_id.dat。",
+      "没有特例raids_end.dat了。",
+      "末地现在也使用raids.dat。",
+      "结构方块存储的结构从generated/namespace/structures移动到generated/namespace/structure。"
+    ],
+    "存档基础数据存储格式": [
+      "Player标签被singleplayer_uuid取代，以引用玩家数据文件。",
+      "与难度相关的设置移动到difficulty_settings标签中。",
+      "Difficulty被difficulty取代。",
+      "允许值："
+    ],
+    "hard": [
+      "DifficultyLocked被重命名为locked。",
+      "hardcore仅移动，未作其他更改。",
+      "末影龙战斗数据被移出到data文件夹中。",
+      "它现在位于dimensions/minecraft/the_end/data/minecraft/ender_dragon_fight.dat。",
+      "末影龙战斗现在也可以在其他维度启动，参见下方的维度类型章节。",
+      "数据更改：",
+      "NeedsStateScanning被重命名为needs_state_scanning。",
+      "DragonKilled被重命名为dragon_killed。",
+      "PreviouslyKilled被重命名为previously_killed。",
+      "IsRespawning被替换为respawn_stage。",
+      "允许值："
+    ],
+    "end": [
+      "Dragon被重命名为dragon_uuid。",
+      "ExitPortalLocation被重命名为exit_portal_location。",
+      "Gateways被重命名为gateways。",
+      "加入了respawn_time，表示自重生阶段开始后已经经过的时间。",
+      "加入了respawn_crystals：一个UUID的列表，表示触发重生的末地水晶。",
+      "流浪商人数据被移出到data文件夹中。",
+      "它现在位于data/minecraft/wandering_trader.dat。",
+      "数据更改：",
+      "移除了WanderingTraderId。",
+      "WanderingTraderSpawnChance被重命名为spawn_chance。",
+      "WanderingTraderSpawnDelay被重命名为spawn_delay。",
+      "CustomBossEvents被移出到data文件夹中。",
+      "它现在位于data/minecraft/custom_boss_events.dat。",
+      "与天气相关的数据被移出到data文件夹中。",
+      "它现在位于data/minecraft/weather.dat。",
+      "数据更改：",
+      "clearWeatherTime被重命名为clear_weather_time。",
+      "rainTime被重命名为rain_time。",
+      "thunderTime被重命名为thunder_time。",
+      "ScheduledEvents被移出到data文件夹中。",
+      "它现在位于data/minecraft/scheduled_events.dat。",
+      "数据更改：",
+      "Name被重命名为id。",
+      "TriggerTime被重命名为trigger_time。",
+      "Callback被重命名为callback。",
+      "Type被重命名为type。",
+      "Name被重命名为id。",
+      "game_rules被移出到data文件夹中。",
+      "它现在位于data/minecraft/game_rules.dat。",
+      "WorldGenSettings被移出到data文件夹中。",
+      "它现在位于data/minecraft/world_gen_settings.dat。",
+      "数据更改：",
+      "generate_features被重命名为generate_structures。",
+      "world_clocks被移出到data文件夹中。",
+      "它现在位于data/minecraft/world_clocks.dat。"
+    ],
+    "已配置的地物": [
+      "forest_rock地物类型被重命名为block_blob。",
+      "block_blob地物类型的配置现在支持下列参数：",
+      "state：岩石的组成方块。",
+      "can_place_on：方块谓词，定义岩石的方块可放置在哪里。",
+      "ice_spike地物类型被重命名为spike。",
+      "spike地物类型的配置现在支持下列参数：",
+      "state：冰刺的组成方块。",
+      "can_place_on：方块谓词，定义冰刺的方块可放置在哪里。",
+      "can_replace：方块谓词，定义冰刺的方块可替换的方块。",
+      "huge_red_mushroom和huge_brown_mushroom地物类型的配置现在有了一个新参数：",
+      "can_place_on：方块谓词，定义巨型蘑菇可放置在哪里。",
+      "tree地物类型的配置将force_dirt和dirt_provider替换为单一的方块状态提供器below_trunk_provider。",
+      "此前使用过force_dirt的树木现在都具有below_trunk_provider，且始终是泥土。",
+      "通过使用骨粉生成的地物现在不再要求是flower地物类型，而是改为使用已配置的地物标签#can_spawn_from_bone_meal来控制。",
+      "移除了flower、flower_no_bonemeal、和random_patch地物类型。",
+      "作为替代，斑块可以表达为一个count和random_offset放置修饰器组成的序列。"
+    ],
+    "已放置的地物": [
+      "count放置修饰器：",
+      "count字段现在可以在0至4096之间取值，此前是256。"
+    ],
+    "配方书": [
+      "重命名了下列切石机配方，关联的进度一并被重命名：",
+      "minecraft:chiseled_stone_bricks_stone_from_stonecutting被重命名为minecraft:chiseled_stone_bricks_from_stone_stonecutting。",
+      "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting被重命名为minecraft:end_stone_brick_slab_from_end_stone_bricks_stonecutting。",
+      "minecraft:end_stone_brick_stairs_from_end_stone_brick_stonecutting被重命名为minecraft:end_stone_brick_stairs_from_end_stone_bricks_stonecutting。",
+      "minecraft:end_stone_brick_wall_from_end_stone_brick_stonecutting被重命名为minecraft:end_stone_brick_wall_from_end_stone_bricks_stonecutting。",
+      "minecraft:mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting被重命名为minecraft:mossy_stone_brick_slab_from_mossy_stone_bricks_stonecutting。",
+      "minecraft:mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting被重命名为minecraft:mossy_stone_brick_stairs_from_mossy_stone_bricks_stonecutting。",
+      "minecraft:mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting被重命名为minecraft:mossy_stone_brick_wall_from_mossy_stone_bricks_stonecutting。",
+      "minecraft:prismarine_brick_slab_from_prismarine_stonecutting被重命名为minecraft:prismarine_brick_slab_from_prismarine_bricks_stonecutting。",
+      "minecraft:prismarine_brick_stairs_from_prismarine_stonecutting被重命名为minecraft:prismarine_brick_stairs_from_prismarine_bricks_stonecutting。",
+      "minecraft:quartz_slab_from_stonecutting被重命名为minecraft:quartz_slab_from_quartz_block_stonecutting。",
+      "minecraft:stone_brick_walls_from_stone_stonecutting被重命名为minecraft:stone_brick_wall_from_stone_stonecutting。"
+    ],
+    "方块模型": [
+      "所有方块模型现在均可支持镂空或半透明（部分像素透明）纹理。",
+      "四边形被划分至镂空渲染通道还是半透明渲染通道，取决于其指定精灵图的纹理内容。",
+      "含有半透明（部分像素透明）像素的精灵图将被分配至“半透明”通道。",
+      "含有完全透明像素的精灵图将被分配至“镂空”通道。",
+      "其余所有精灵图均分配至“实心”通道。",
+      "更新了textures纹理映射的格式：",
+      "非字符串类型的条目现在将被拒绝，不再会被解析为字符串。",
+      "除了此前已有的内联精灵图ID形式外，条目现在还可以通过包含以下字段的对象来定义："
+    ],
+    "sprite - 精灵图ID": [
+      "force_translucent - 可选布尔值，若设为true，则使用此纹理的所有几何体将被强制划入“半透明”通道。",
+      "该选项对例如使用mean均值mipmap策略但不含半透明像素的方块很有用。",
+      "默认值：false"
+    ],
+    "方块状态": [
+      "告示牌和旗帜的rotation方块属性的默认值从0改为8。"
+    ],
+    "自定义世界生成": [
+      "加入了新的方块状态提供器rule_based_state_provider。",
+      "它曾经是一种独立解析的类型，但现在是一种方块状态提供器。",
+      "它现在可以用在其他所有使用方块状态提供器的地物配置上，而不再只是disk地物类型上。",
+      "格式：",
+      "fallback：可选，方块状态提供器。",
+      "rules：一个规则的列表。",
+      "if_true：方块谓词，检查要放置方块前的位置。",
+      "then：方块状态提供器。"
+    ],
+    "方块状态渲染": [
+      "对部分场景的方块状态渲染进行了一些更改，例如末影人手持的方块、方块展示实体方块，但不包括下落的方块和移动的活塞。",
+      "附魔台现在会在方块顶部展示一本书。",
+      "使用特殊渲染的方块（例如箱子、旗帜和生物头颅）现在尊重方块属性："
+    ],
+    "渲染现在尊重方块属性rotation和facing。（若适用）": [
+      "床现在只渲染一半，取决于方块属性part。",
+      "铜傀儡像现在尊重方块属性copper_golem_pose。",
+      "墙上和站立的告示牌、悬挂式告示牌、旗帜、生物头颅现在有了独立的模型。"
+    ],
+    "箱子现在尊重方块属性part。（若适用）": [
+      "现在可以正常在这些场合中渲染末地传送门和末地折跃门。",
+      "注意：一般来说，所有方块状态在方块展示实体中和被放置在世界中的效果应该相同，除了流体。"
+    ],
+    "数据生成器": [
+      "默认组件报告生成器不再生成不存在任何组件的项目的输出文件。"
+    ],
+    "实体纹理": [
+      "重命名了下列纹理："
+    ],
+    "entity/turtle/turtle.png": [
+      "移动了下列纹理："
+    ],
+    "着色器与后处理管线": [
+      "lightmap.fsh被大幅修改。",
+      "UniformLightmapInfo现在拥有两个新字段："
+    ],
+    "NightVisionColor": [
+      "移除了AmbientLightFactor，其值现在会预先乘进AmbientColor。",
+      "将DarkenWorldFactor重命名为BossOverlayWorldDarkeningFactor。",
+      "UI中的物品和文字渲染现在使用独立的1x1白色lightmap纹理，因此lightmap着色器不再需要保持15，15的纯白色。",
+      "着色器core/rendertype_item_entity_translucent_cull被移除，由core/entity取代。",
+      "着色器core/rendertype_entity_alpha和core/rendertype_entity_decal被移除，改为core/entity实现的DISSOLVE标志。",
+      "UI和世界中的物品渲染现在由core/entity拆分到新着色器core/item。",
+      "block.vsh与terrain.vsh顶点着色器现在不再接收Normal法线顶点属性。",
+      "移除了着色器core/rendertype_translucent_moving_block，以支持core/block。"
+    ],
+    "其他更改": [
+      "如果服务器磁盘空间不足，服务器管理员会看到弹窗。",
+      "更改了区块几何数据在GPU内存中的存储方式及其渲染逻辑的内部实现。"
+    ],
+    "更改（实验性）": [
+      "以下内容仅在创建世界时启用“村民交易的平衡性调整”内置数据包后才会出现。"
+    ],
+    "远古城市": [
+      "从战利品表中移除了命名牌。"
+    ],
+    "魔咒提供器": [
+      "移除了所有实验性的魔咒提供器。"
+    ],
+    "修复": [
+      "修复了87个漏洞",
+      "1.21.11前正式版的漏洞",
+      "MC-13187 — 炼药锅中的水不透明。",
+      "MC-64087 — 增援僵尸会试图攻击创造模式下的玩家。",
+      "MC-91132 — 游戏不支持跨平台中日韩输入法。",
+      "MC-98631 — 第一人称视角下，盾牌的高度因使用主手或副手持盾而不同。",
+      "MC-99647 — below_name记分板显示位置对非玩家实体无效。",
+      "MC-102774 — 可以只用2个末地水晶重生末影龙。",
+      "MC-129886 — 尝试在min_y以下放置方块不会产生错误信息。",
+      "MC-131745 — 沉船有时会在区块边界两侧生成不同的木板变种。",
+      "MC-134573 — 游戏在备份世界时卡住。",
+      "MC-153831 — 繁殖出的行商羊驼会消失。",
+      "MC-163978 — 生物可以在移动的方块上生成。",
+      "MC-178713 — 可以对位于建筑高度限制的特定植物使用骨粉，但是其不会生长。",
+      "MC-179949 — 无法通过/item replace来修改猪灵的物品栏。",
+      "MC-181169 — 带有PersistenceRequired标签的骷髅陷阱马仍会消失。",
+      "MC-184432 — 在植物无法向上或向下生长而超出建筑高度限制时对其使用骨粉不会产生警告。",
+      "MC-184433 — 对位于建筑高度限制的矮草丛、蕨、下界菌使用骨粉时，不会产生警告，且植物的较高部分被截断。",
+      "MC-195237 — 末影人手持的或作为方块展示实体的末地传送门方块和末地折跃门方块不渲染，但下界传送门方块渲染。",
+      "MC-197497 — 平滑光照从等级1过渡到0时并不平滑。",
+      "MC-199589 — 在创造模式攻击会反击的生物后切换至生存模式，会导致该生物试图攻击玩家。",
+      "MC-199975 — 末影人手持的钟和钟方块展示实体只会渲染钟架。",
+      "MC-219981 — 僵尸首领类生物生成时生命值仍为20，尽管其生命值上限更高。",
+      "MC-222949 — 骑乘实体时可以使用附魔了激流的三叉戟。",
+      "MC-230746 — 滴水石锥上方2格是含水方块时，可以填充炼药锅，但不会生长。",
+      "MC-231663 — 龙蛋传送时不检查目的地下方是否有方块。",
+      "MC-248092 — 被拴绳拴到栅栏上的未驯服的猫会消失。",
+      "MC-254785 — 对上面有方块的2×2像素大小的竹子使用骨粉会消耗骨粉。",
+      "MC-257362 — 破坏青蛙卵产生的粒子是透明的。",
+      "MC-259032 — /data对较小的负数输出正数结果。",
+      "MC-260148 — show_notification只适用于有序配方。",
+      "MC-263488 — 粉红色花簇的物品纹理有一个位置错误的透明像素。",
+      "MC-264155 — 骨粉对洞穴空气或虚空空气下方的草方块不起作用。",
+      "MC-264187 — 光照限制设置为不包含15的区间的刷怪笼不会在夜晚露天生成生物。",
+      "MC-273228 — 使用自定义世界生成数据包生成水湖时，游戏崩溃。",
+      "MC-274238 — 被持久化的行商羊驼在被流浪商人拴住时仍会消失。",
+      "MC-275014 — 启用平滑光照时，点亮的锈蚀和氧化的铜灯周围有阴影。",
+      "MC-297536 — 调试屏幕上的十字准星存在深度冲突。",
+      "MC-298136 — 信标外层光柱现在总是在方块实体后面渲染。",
+      "MC-299730 — 使用TTF字体时转储纹理会导致游戏崩溃。",
+      "MC-299992 — 手动将某些组件设置为默认值时，给予物品或对物品进行测试会出现异常行为。",
+      "MC-300465 — 带有最大数量标记的地图无法放入物品展示框中。",
+      "MC-301003 — 铜傀儡鞍槽位里的钟的钟部分不可见。",
+      "MC-302186 — 下界环境光照颜色与旧版本相比出现异常。",
+      "MC-302408 — 潮涌能量和夜视效果会导致水下光照渲染异常。",
+      "MC-302528 — 天空光照与方块光照在同一区域叠加时会导致渲染异常。",
+      "MC-302635 — 通过被活塞推动的半透明方块观察时，半透明方块在固体方块前面渲染。",
+      "MC-302734 — 僵尸马反复进入并离开水直到被烧死。",
+      "MC-303119 — 在生存模式下当物品栏槽位中仅剩一个食物时，喂食猫或狼时恢复的生命值低于正常值。",
+      "MC-303125 — 当玩家在附近有处于爆炸计时中的苦力怕时死亡，苦力怕仍会爆炸。",
+      "MC-303344 — 即使光标没有悬停在物品上，对话框的选择物品的提示框仍会显示。",
+      "MC-303389 — 末影龙的速度会受到击退效果的影响。",
+      "MC-303403 — 悬挂式告示牌方块展示实体渲染成黑色，且在其他方块和生物前面渲染。",
+      "MC-303684 — 被拴绳拴住的疣猪兽会消失。",
+      "MC-303685 — 被拴绳拴住的僵尸疣猪兽会消失。",
+      "MC-303692 — 当关闭视频设置中的“改进透明显示”选项时，调试屏幕叠加层文本会缩进。",
+      "MC-303749 — 被拴绳拴住的海豚会消失。",
+      "MC-303750 — 被拴绳拴住的鱿鱼和发光鱿鱼会消失。",
+      "MC-304023 — 多余的世界数据修复文件被保存在存档的data文件夹中。",
+      "MC-304217 — 突进魔咒的额外饥饿度要求会被作用于包含post_piercing_attack组件的自定义魔咒。",
+      "MC-304361 — 僵尸鹦鹉螺的头的尾部有较大空隙。",
+      "MC-304446 — 用海绵触发珍珠滞留室时会删除末影珍珠。",
+      "MC-304599 — 海豚不会像在基岩版中那样在玩家骑乘鹦鹉螺时跟随玩家。",
+      "MC-304631 — 当“各向异性过滤”选项被设置为8x时，使用奇数尺寸的透明与半透明纹理的方块会在远距离变得透明。",
+      "MC-304705 — 调试屏幕叠加层entity_render_stats项的E值没有正常运作。",
+      "MC-304725 — 使用默认的僵尸村民刷怪蛋生成的僵尸村民总是平原变种。",
+      "MC-304761 — 抬起时间较长的矛的冲锋动画旋转时间太长。",
+      "MC-304796 — 光标悬停在禁用的滑块上时显示手形光标而不是禁止光标。",
+      "MC-304991 — 在旁观模式下，尝试打开尚未生成战利品的容器时会播放block.chest.locked音效。",
+      "MC-305012 — 游戏规则universal_anger的描述中仍然使用游戏规则forgive_dead_players的旧ID。",
+      "MC-305040 — 繁殖生成的鹦鹉螺会自然消失。",
+      "MC-305123 — 盔甲架上物品的消失诅咒不生效。",
+      "MC-305196 — 女巫离目标太近时无法命中目标。",
+      "MC-305292 — 铜箱子使用圣诞节礼物纹理。",
+      "MC-305369 — 尝试将拴绳拴到其最大长度以外的栅栏上会出现幽灵拴绳结并播放音效。",
+      "MC-305388 — 蜜蜂一直保持被激怒的状态。",
+      "MC-305471 — 使用启用了mipmap的高清纹理包时，仙人掌的边缘和角落会出现缝隙。",
+      "MC-305580 — 幼年僵尸马和幼年骷髅马会生长为成年变种，和其他幼年亡灵生物不一致。",
+      "MC-305699 — 成群的猪灵不会尝试捕猎疣猪兽。",
+      "MC-305857 — 游戏冻结时，实体判定箱会抖动。",
+      "MC-305888 — 在下界或末地的海龟蛋不再孵化。",
+      "MC-306064 — 可以使用命令强制生物表现出正在死亡的样子，即使实际上它们并未死亡。",
+      "MC-306123 — 狼在和平难度下仍然尝试攻击玩家。",
+      "MC-306566 — 不死图腾的动画效果在使用tick freeze进行游戏冻结时会抖动。",
+      "MC-306658 — 即使有充足的空气，海豚也会让自己溺水。",
+      "MC-306798 — DragonDeathTime为200或更高的末影龙永远不会消失。",
+      "MC-306840 — 附近没有玩家时，海豚仍然会让自己溺水。"
+    ],
+    "未公开漏洞": [
+      "流浪商人不在雪原的单一生物群系世界中生成。（MC-304683）",
+      "在特定情况下可以复制绊线钩。"
+    ],
+    "视频": [
+      "由slicedlime制作的视频："
+    ],
+    "你知道吗": [
+      "为了呼应更新主题，此版本的更新日志提及了“移除了幼年Herobrine”，而非其他版本的“移除了Herobrine”。"
+    ],
+    "参考": [
+      "Minecraft Java Edition 26.1 — Minecraft.net，2026年3月24日。",
+      "Minecraft’s new version numbering system — Minecraft.net，2025年12月2日。",
+      "Removing obfuscation in Java Edition — Minecraft.net，2025年10月29日。"
+    ]
+  }
+}

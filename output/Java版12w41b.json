@@ -1,0 +1,5 @@
+{
+  "title": "Java版12w41b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8812w41b",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\n12w41b\n版本\nJava版\n类型\n快照\n发布时间\n2012年10月12日\n快照归属\n1.4.2\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n46\n◄◄1.3.2\n1.4.4►►\n◄12w41a\n12w42a►\n12w41b是Java版1.4.2的第13个快照，发布于2012年10月12日，发布以修复12w41a里的漏洞和崩溃。\n更改\n方块\n铁砧\n现在会根据掉落的高度受损。\n修复\n修复了3个漏洞\n修复了铁砧掉落时会自行修复的问题。\n修复了在多人游戏中重命名物品时会发生的一些崩溃。\n修复了/kill命令不生效和不显示截屏信息的问题。\n参考\nMinecraft Snapshot 12w41a (Updated!)（存档），来自Dinnerbone。Mojang.com，2012年10月11日。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.16.5-rc1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.16.5-rc1",
+  "text": "1.16.5-rc1\n版本\nJava版\n类型\n发布候选\n发布时间\n2021年1月13日\n发布候选归属\n1.16.5\n下载\n原始版本\n客户端（.json）\n服务端\n重新上传\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741834\nHEX: 4000000A\n数据版本\n2585\n资源包版本\n6\n数据包版本\n6\n◄◄1.16.4\n1.17►►\n1.16.5-rc1是Java版1.16.5的唯一一个发布候选版本，发布于2021年1月13日，修复了两个重要稳定性漏洞。\n修复\n修复了4个漏洞\n1.16.3的漏洞\nMC-203337 — 崩溃错误“java.lang.IllegalStateException: POI data mismatch: already registered”。\n当前版本的热修复漏洞\nMC-211307 — 1.16.5 Release Candidate 1在游戏内被称为1.16.5 Pre-release 1。\n其他漏洞\n修复了2个重要稳定性漏洞。\n重新上传\n该版本于15:58（UTC）被重新上传，以修复游戏内版本号被误写为“1.16.5 Pre-release 1”的漏洞。\n你知道吗\n此版本发布于Java版1.17的快照版本20w51a之后。\n参考\nMinecraft 1.16.5 Release Candidate 1 — Minecraft.net，2021年1月13日。\n导航"
+}

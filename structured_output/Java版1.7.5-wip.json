@@ -1,0 +1,34 @@
+{
+  "title": "Java版1.7.5-wip",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.7.5-wip",
+  "structured_content": {
+    "默认分类": [
+      "此条目记录了从未发布的版本。",
+      "尽管它未公开发布过，但有证据证明这个版本的确存在。",
+      "1.7.5-wip"
+    ],
+    "开发时间": [
+      "2014年2月18日"
+    ],
+    "开发者版本归属": [
+      "1.7.5"
+    ],
+    "不可用": [
+      "◄◄1.7.4",
+      "1.7.6►►",
+      "1.7.5-wip是Java版1.7.5的开发测试版本，它出现于2014年2月18日官方的一个YouTube视频中。此版本用于测试将小游戏添加到Realms并允许管理员在正常世界与小游戏世界之间进行切换的功能。"
+    ],
+    "Realms": [
+      "添加了“小游戏”功能，可以由管理员临时启用。",
+      "包括5个小游戏：",
+      "Cake Defense 2，作者为FVDisco。",
+      "Blocks vs. Zombies，作者为SethBling。",
+      "The Walls，作者为Hypixel。",
+      "Autospleef，作者为SethBling。",
+      "Dash of Doom，作者为Dragnoz。"
+    ],
+    "参考": [
+      "Mini Games on Minecraft Realms (work in progress)，来自Minecraft。YouTube，2014年2月18日。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "矿车（消歧义）",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9F%BF%E8%BD%A6%EF%BC%88%E6%B6%88%E6%AD%A7%E4%B9%89%EF%BC%89",
+  "structured_content": {
+    "默认分类": [
+      "矿车（Minecart）是一类可以在铁轨上行驶的实体，包括："
+    ],
+    "Minecraft": [
+      "矿车 - 载具实体。",
+      "漏斗矿车 - 一个漏斗在矿车里所组成的实体。",
+      "命令方块矿车 - 一个命令方块在矿车里所组成的实体。",
+      "运输矿车 - 一个箱子在矿车里所组成的实体。"
+    ],
+    "动力矿车 - 一个熔炉在矿车里所组成的实体。[仅Java版]": [
+      "TNT矿车 - 一个TNT在矿车里所组成的实体。"
+    ],
+    "Minecraft Dungeons": [
+      "矿车 - 一个可以对接触其的实体造成撞击伤害的实体。",
+      "Minecraft: Story Mode"
+    ]
+  }
+}

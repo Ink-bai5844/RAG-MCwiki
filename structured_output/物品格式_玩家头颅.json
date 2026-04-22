@@ -1,0 +1,28 @@
+{
+  "title": "物品格式/玩家头颅",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E6%A0%BC%E5%BC%8F%2F%E7%8E%A9%E5%AE%B6%E5%A4%B4%E9%A2%85",
+  "structured_content": {
+    "默认分类": [
+      "SkullOwner：指定头颅渲染的玩家。可以为玩家名称或一个玩家游戏档案标签。当存储时，玩家名称会自动解析为游戏档案标签。",
+      "Id：（可选）玩家的UUID。",
+      "Name：（可选）玩家的用户名。",
+      "Properties：玩家游戏档案配置属性。",
+      "textures：游戏档案纹理属性。",
+      "：一个独立的纹理。",
+      "Signature：（可能不存在）Value使用Yggdrasil私钥的签名后得到的Base64字符串。",
+      "Value：Base64字符串，其中包含游戏档案内所有的纹理（皮肤和披风）。在解密之后，能获得下面的JSON对象：",
+      "：纹理对象。",
+      "profileId：游戏档案的UUID，不带连字符。",
+      "profileName：游戏档案名称。",
+      "signatureRequired：（可能不存在）代表此纹理属性是否已被签名。如果Signature存在，则此项也存在并为true。",
+      "textures：纹理数据。",
+      "CAPE：（可能不存在）披风纹理。如果此游戏档案不包含披风，此项不存在。",
+      "url：披风纹理的URL链接。",
+      "SKIN：（可能不存在）皮肤纹理。如果此游戏档案不包含自定义皮肤，此项不存在。",
+      "metadata：（可能不存在）皮肤的元数据。",
+      "model：（可能不存在）固定值slim。当皮肤模型手臂为3像素时存在，否则不存在。",
+      "url：皮肤纹理的URL链接。",
+      "timestamp：Unix时间戳，以毫秒为单位，时间为请求玩家游戏档案数据的时间。"
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "title": "结构片段存储格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BB%93%E6%9E%84%E7%89%87%E6%AE%B5%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "结构片段是世界生成时进行结构放置的单元。对于不同的结构，有不同的结构片段进行不同的结构放置。"
+    ],
+    "存储格式": [
+      "结构片段数据位于所有区块数据的structures.starts.<结构的命名空间ID>.Children内。",
+      "所有结构片段数据都有下面的标签："
+    ],
+    "*": [
+      "*BB：结构片段的范围。此数组一共有6个整数，分别代表了最小X、Y、Z坐标和最大X、Y、Z坐标。",
+      "*GD：生成深度，用于正确生成结构片段的位置与方向。",
+      "*id：（命名空间ID）结构片段的类型。",
+      "*O：结构片段的方向，从0到3分别对应南西北东。",
+      "*hps：此走廊是否有洞穴蜘蛛刷怪笼。",
+      "*hr：此走廊是否有铁轨。",
+      "*Num：走廊长度。",
+      "*MST：废弃矿井的类型。0代表普通类型，1代表恶地类型。",
+      "*sc：表示此走廊是否有蜘蛛网。",
+      "*D：此交叉区域的建构时的方向，从0到3分别对应南西北东，防止重复创建一块结构片段。",
+      "*MST：废弃矿井的类型。0代表普通类型，1代表恶地类型。",
+      "*tf：此交叉区域是否有两层。",
+      "*Entrances：房间的入口。",
+      "：房间入口的范围。此数组一共有6个int，分别代表了最小X、Y、Z坐标和最大X、Y、Z坐标。",
+      "*MST：废弃矿井的类型。0代表普通类型，1代表恶地类型。",
+      "*MST：废弃矿井的类型。0代表普通类型，1代表恶地类型。",
+      "*Seed：生成结构片段时使用的种子。",
+      "*Chest：生成结构时是否添加战利品箱。",
+      "*Mob：已经放置了烈焰人刷怪笼。",
+      "*Chest：是否已经放置了战利品箱。",
+      "*EntryDoor：此走廊入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*EntryDoor：此走廊入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*Steps：走廊长度。",
+      "sh5c",
+      "此结构片段表示要塞中的五通道路口（StrongHold FiveCrossing）。",
+      "*EntryDoor：此走廊入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*leftHigh：五通道路口中是否在下面向下的楼梯中有一个出口。",
+      "*leftLow：五通道路口中是否在下面向上的楼梯中有一个出口。",
+      "*rightHigh：五通道路口中是否在上面向下的楼梯中有一个出口。",
+      "*rightLow：五通道路口中是否在上面向上的楼梯中有一个出口。",
+      "*EntryDoor：此走廊入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*EntryDoor：此图书馆入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*Tall：图书馆是否有通往上方的楼梯。",
+      "*EntryDoor：此图书馆入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*Mob：是否已经放置了蠹虫刷怪笼。",
+      "*EntryDoor：此牢房入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*EntryDoor：此房间入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*Type：房间的类型。0-2分别代表石柱房、喷泉房和楼梯房；3、4代表空房间。",
+      "*EntryDoor：此楼梯入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*Source：此旋转楼梯是否为要塞的起点。",
+      "*EntryDoor：此走廊入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*Left：在走廊左侧是否有一个开口。",
+      "*Right：在走廊右侧是否有一个开口。",
+      "*EntryDoor：此楼梯入口门的类型。可以为OPENING（开放入口）、WOOD_DOOR（木门）、GRATES（铁栅栏）和IRON_DOOR（铁门）。",
+      "*placedTrap1：是否已经放置走廊发射器发射箭的陷阱。",
+      "*placedTrap2：是否已经放置箱子发射器发射箭的陷阱。",
+      "*placedMainChest：是否已经放置主箱子。",
+      "*placedHiddenChest：是否已经放置隐藏箱子。",
+      "*BiomeType：此遗迹所处的海洋的温度。可以为WARM（温暖海域）和COLD（寒冷海域）。",
+      "*Integrity：此结构的完整度。",
+      "*IsLarge：此结构是否为大型废墟。",
+      "*Rot：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*Rot：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*Mirror：此结构放置时的采取的对称方式，可以为NONE（不进行镜像对称）、LEFT_RIGHT（左右镜像对称）、FRONT_BACK（前后镜像对称）。",
+      "*Properties：废弃传送门的放置属性。",
+      "*air_pocket：此废弃传送门是否含有空洞。",
+      "*cold：此废弃传送门是否已经冷却，决定放置熔岩、岩浆块和下界岩。",
+      "*mossiness：传送门的废弃程度，值越大结构中方块的形式越破碎。",
+      "*overgrown：此废弃传送门是否生成树叶。",
+      "*replace_with_blackstone：此废弃传送门中的一部分方块是否替换为黑石。",
+      "*vines：此废弃传送门是否生成藤蔓。",
+      "*Rotation：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*VerticalPlacement：废弃传送门的垂直放置模式，可以为on_land_surface（地表）、partly_buried（部分掩埋）、on_ocean_floor（海床上）、in_mountain（山中）、underground（地下）和in_nether（下界）。",
+      "*Cat：是否已经在这个沼泽小屋里生成猫。",
+      "*Depth：结构的深度。",
+      "*Height：结构的高度。",
+      "*HPos：为将结构放置在地面上而移动到的Y高度。若该结构未被移动则为-1。",
+      "*Width：结构的宽度。",
+      "*Witch：是否已经在这个沼泽小屋里生成女巫。",
+      "*Depth：结构的深度。",
+      "*hasPlacedChest0：是否放置了南方的箱子。",
+      "*hasPlacedChest1：是否放置了西方的箱子。",
+      "*hasPlacedChest2：是否放置了北方的箱子。",
+      "*hasPlacedChest3：是否放置了东方的箱子。",
+      "*Height：结构的高度。",
+      "*HPos：为将结构放置在地面上而移动到的Y高度。若该结构未被移动则为-1。",
+      "*Width：结构的宽度。",
+      "*OW：在结构放置时是否只忽略结构内的结构方块。",
+      "*Rot：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*Mi：此结构放置时的采取的对称方式，可以为NONE（不进行镜像对称）、LEFT_RIGHT（左右镜像对称）、FRONT_BACK（前后镜像对称）。",
+      "*Rot：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*isBeached：表示此沉船是否搁浅。",
+      "*Rot：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*Rot：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。",
+      "*Template：（命名空间ID）此结构使用的结构模板。",
+      "*TPX：结构模板的X坐标起始点。",
+      "*TPY：结构模板的Y坐标起始点。",
+      "*TPZ：结构模板的Z坐标起始点。",
+      "*ground_level_delta：为将结构放置在地面上而移动到的Y高度。",
+      "*junctions：连接点列表。",
+      "：一个连接点。",
+      "*delta_y：Y坐标的偏移量。",
+      "*dest_proj：结构调整方式，可以为terrain_matching（根据地形进行调整）或rigid（不调整）。",
+      "*source_ground_y：Y坐标。",
+      "*source_x：X坐标。",
+      "*source_z：Z坐标。",
+      "liquid_settings：结构生成时内部的液体将如何处理。可以为apply_waterlogging（此项不存在时默认，将可含水方块转换为含水方块）和ignore_waterlogging（直接替代液体方块）。",
+      "*pool_element：结构池的元素信息。",
+      "见结构池。",
+      "*PosX：结构的X坐标起始点。",
+      "*PosY：结构的Y坐标起始点。",
+      "*PosZ：结构的Z坐标起始点。",
+      "*rotation：此结构放置时的旋转角度，可以为NONE（不旋转）、CLOCKWISE_90（顺时针旋转90度）、CLOCKWISE_180（旋转180度）、COUNTERCLOCKWISE_90（逆时针旋转90度）。"
+    ],
+    "无附加标签片段": [
+      "目前游戏中有56种结构片段，其中24种没有额外的标签，它们分别是："
+    ],
+    "mscorridor": [
+      "此结构片段表示废弃矿井中的铁轨区域与刷怪笼区域（Mine Shaft Corridor）。"
+    ],
+    "mscrossing": [
+      "此结构片段表示废弃矿井中的交叉区域（Mine Shaft Crossing）。"
+    ],
+    "msroom": [
+      "此结构片段表示废弃矿井中的房间区域（Mine Shaft Room）。"
+    ],
+    "msstairs": [
+      "此结构片段表示废弃矿井中的楼梯区域（Mine Shaft Stairs）。"
+    ],
+    "nebef": [
+      "此结构片段表示下界要塞桥梁的尽头（Nether Fortress Bridge End Filler）。"
+    ],
+    "nesclt/nescrt": [
+      "此结构片段表示下界要塞中的弯走廊（Nether Fortress Castle Small Corridor Left/Right Turn）。"
+    ],
+    "nemt": [
+      "此结构片段表示下界要塞中的瞭望台（Nether Fortress Monster Throne）。"
+    ],
+    "shcc": [
+      "此结构片段表示要塞中含战利品祭坛的走廊（StrongHold Chest Corridor）。"
+    ],
+    "shfc": [
+      "此结构片段表示要塞中的走廊（StrongHold Filler Corridor）。"
+    ],
+    "shlt/shrt": [
+      "此结构片段表示要塞中的转角（StrongHold Left/Right Turn）。"
+    ],
+    "shli": [
+      "此结构片段表示要塞中的图书馆（StrongHold Library）。"
+    ],
+    "shpr": [
+      "此结构片段表示要塞中的传送门房间（StrongHold Portal Room）。"
+    ],
+    "shph": [
+      "此结构片段表示要塞中的牢房（StrongHold Prison Hall）。"
+    ],
+    "shrc": [
+      "此结构片段表示要塞中的交叉房间（StrongHold Room Crossing）。"
+    ],
+    "shsd/shstart": [
+      "此结构片段表示要塞中的旋转楼梯（StrongHold Stairs Down/StrongHold Start）。"
+    ],
+    "shs": [
+      "此结构片段表示要塞中的直走廊（StrongHold Straight）。"
+    ],
+    "shssd": [
+      "此结构片段表示要塞中的直楼梯（StrongHold Straight Stairs Down）。"
+    ],
+    "丛林神庙结构片段": [
+      "丛林神庙结构片段的命名空间ID为tejp（Jungle Pyramid Piece）。"
+    ],
+    "海底废墟结构片段": [
+      "海底废墟结构片段的命名空间ID为orp（Ocean Ruin）。"
+    ],
+    "雪屋结构片段": [
+      "雪屋结构片段的命名空间ID为iglu（Igloo）。"
+    ],
+    "废弃传送门结构片段": [
+      "废弃传送门结构片段的命名空间ID为rupo（Ruined Potral）。"
+    ],
+    "沼泽小屋结构片段": [
+      "沼泽小屋结构片段的命名空间ID为tesh（Swampland Hut）。"
+    ],
+    "沙漠神殿结构片段": [
+      "沙漠神殿结构片段的命名空间ID为tedp（Desert Pyrmaid Piece）。"
+    ],
+    "末地城结构片段": [
+      "末地城结构片段的命名空间ID为ecp（End City Piece）。"
+    ],
+    "林地府邸结构片段": [
+      "林地府邸结构片段的命名空间ID为wmp（Woodland Mansion Piece）。"
+    ],
+    "沉船结构片段": [
+      "沉船结构片段的命名空间ID为shipwreck（Shipwreck Piece）。"
+    ],
+    "下界化石结构片段": [
+      "下界化石结构片段的命名空间ID为nefos（Nether Fossil）。"
+    ],
+    "拼图结构片段": [
+      "拼图结构片段的命名空间ID为jigsaw。未使用上述所有结构片段的结构均使用拼图结构片段控制生成。",
+      "结构片段数据根标签。"
+    ],
+    "存储行为": [
+      "结构片段数据会根据自身区块和周围区块的生成状况发生更新。一个结构最远可以扩展的范围是从结构起始点算起向外扩展8个区块，这些区块被生成时可能会修改结构起始点区块内对应的结构片段数据。",
+      "当结构片段生成后，结构片段数据会被移除减少区块数据体积。"
+    ]
+  }
+}

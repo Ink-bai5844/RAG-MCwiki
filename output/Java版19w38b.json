@@ -1,0 +1,5 @@
+{
+  "title": "Java版19w38b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8819w38b",
+  "text": "19w38b\n版本\nJava版\n类型\n快照\n发布时间\n2019年9月18日\n快照归属\n1.15\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\n555\n数据版本\n2206\n资源包版本\n4\n数据包版本\n4\n◄◄1.14.4\n1.15.1►►\n◄19w38a\n19w39a►\n19w38b是Java版1.15的第6个快照，发布于2019年9月18日，修复了一些漏洞（包括上个快照中的一个严重漏洞）。\n修复\n修复了3个漏洞\n1.15前正式版的漏洞\nMC-997 — 玩家在内部或上方观察时，云层是透明的，但在下方观察时并不透明。\n上个开发版本的漏洞\nMC-161268 — 嵌入方块模型时报错java.lang.IndexOutOfBoundsException；游戏会在破坏方块时崩溃。\nMC-161312 — 在生存模式下破坏方块时不显示方块的损坏动画。\n参考\nMinecraft Snapshot 19w38b — Minecraft.net，2019年9月18日。\n导航"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "磁石/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A3%81%E7%9F%B3%2FBE",
+  "structured_content": {
+    "方块实体共通标签，见load|方块实体|block": [
+      "trackingHandle：（可能不存在）磁石的唯一ID。"
+    ]
+  }
+}

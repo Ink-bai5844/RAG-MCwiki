@@ -1,0 +1,27 @@
+{
+  "title": "游戏规则/block explosion drop decay",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fblock_explosion_drop_decay",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "block_explosion_drop_decay": [
+      "block_explosion_drop_decay是控制部分爆炸中一些方块是否不会掉落战利品的游戏规则。"
+    ],
+    "描述": [
+      "在与方块交互引起的爆炸中，部分被破坏方块的掉落物会被炸毁。"
+    ],
+    "行为": [
+      "当block_explosion_drop_decay为false时，在床、重生锚和末地水晶引起的爆炸中，所有被破坏方块的掉落物都不会被炸毁。",
+      "当block_explosion_drop_decay为true时，在上述爆炸中，部分被破坏方块的掉落物会被炸毁。"
+    ],
+    "Java版": [
+      "1.19.3",
+      "22w44a",
+      "加入了游戏规则blockExplosionDropDecay。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则blockExplosionDropDecay重命名为block_explosion_drop_decay。"
+    ]
+  }
+}

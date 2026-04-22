@@ -1,0 +1,74 @@
+{
+  "title": "基岩版1.16.42",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.16.42",
+  "structured_content": {
+    "默认分类": [
+      "1.16.42"
+    ],
+    "内部版本号": [
+      "PS4: 2.13 / 2.14"
+    ],
+    "发布时间": [
+      "PS4 - 2020年9月22日"
+    ],
+    "协议版本": [
+      "408",
+      "◄◄1.16.0",
+      "1.17.0►►",
+      "◄1.16.40",
+      "1.16.50►",
+      "1.16.42是基岩版的一次热修复更新，仅在PS4上发布，发布于2020年9月22日，增加了PlayStation VR的支持。此版本在修复一些漏洞后立即重新发布。"
+    ],
+    "常规": [
+      "在PS4平台上加入了对PlayStation VR的支持。",
+      "PSVR采用无线控制器游玩。"
+    ],
+    "设置": [
+      "加入了“PlayStation VR”设置，包含以下选项："
+    ],
+    "准星置中": [
+      "切换是否将准星置于中央。"
+    ],
+    "镜头移动": [
+      "在“Snap”、“Classic”、“Wheel”和“Snap Wheel”间选择。"
+    ],
+    "镜头移动角度": [
+      "调整每次镜头移动的大小。"
+    ],
+    "可变镜头移动角度": [
+      "调整每次镜头移动的大小，基于右摇杆移动的距离。"
+    ],
+    "镜头移动声音": [
+      "调整每次镜头移动时发出的声音。"
+    ],
+    "运动": [
+      "可以设置为“Linear”或“Classic”。"
+    ],
+    "跳跃": [
+      "可以设置为“Linear”或“Classic”。"
+    ],
+    "头部转动": [
+      "在“Follow Gaze”与“Follow Player Angle”间选择。"
+    ],
+    "粘性挖掘": [
+      "在“Lock-On”与“Disabled”间选择。"
+    ],
+    "HUD位置": [
+      "可以设置为“Drift”或“Fixed”。"
+    ],
+    "HUD间距": [
+      "控制HUD距离玩家的视野中心有多远。"
+    ],
+    "修复": [
+      "2.13修复",
+      "修正了多种语言的奖杯翻译。",
+      "2.14修复",
+      "修复了各种小错误和崩溃。"
+    ],
+    "参考": [
+      "Minecraft - 1.16.42 (PlayStation®VR) — Minecraft Feedback，2020年9月22日。",
+      "Minecraft Update 2.14 Patch Notes on September 22 — Games-Guides.com，2020年9月22日。",
+      "Minecraft on PlayStation®VR FAQ — Minecraft Help Center。"
+    ]
+  }
+}

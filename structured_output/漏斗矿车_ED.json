@@ -1,0 +1,12 @@
+{
+  "title": "漏斗矿车/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%BC%8F%E6%96%97%E7%9F%BF%E8%BD%A6%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "矿车共通标签，见Template:Nbt inherit/minecart/source",
+      "容器运输实体共通标签，见Template:Nbt inherit/container entity/source",
+      "*Enabled：表示漏斗矿车是否能将物品吸取至自己的物品栏里。此项不存在时游戏默认为true。"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "沙子/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B2%99%E5%AD%90%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1",
+      "该位储存沙子类型：",
+      "0：沙子",
+      "1：红沙",
+      "0x2",
+      "0x4",
+      "0x8"
+    ]
+  }
+}

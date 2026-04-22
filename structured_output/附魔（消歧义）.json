@@ -1,0 +1,23 @@
+{
+  "title": "附魔（消歧义）",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%99%84%E9%AD%94%EF%BC%88%E6%B6%88%E6%AD%A7%E4%B9%89%EF%BC%89",
+  "structured_content": {
+    "Minecraft": [
+      "魔咒（Enchantment） - 适用于物品的额外效果，能够为物品提供多种功能。",
+      "附魔（物品修饰）（Enchanting） - 为物品随机生成魔咒的操作。",
+      "魔咒 § 获取附魔物品 - 获取附魔物品的方式。",
+      "附魔（Enchanted） - 具有魔咒的物品称为附魔物品。"
+    ],
+    "经验": [
+      "光效 - 一种渲染效果，亦称为附魔光效。",
+      "附魔金毒马铃薯 - 愚人节快照24w14potato的食物类物品。"
+    ],
+    "Minecraft Dungeons": [
+      "Dungeons:附魔"
+    ],
+    "生物": [
+      "Dungeons:附魔师",
+      "Dungeons:附魔生物"
+    ]
+  }
+}

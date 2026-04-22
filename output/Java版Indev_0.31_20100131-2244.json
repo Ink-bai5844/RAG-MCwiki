@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 0.31 20100131-2244",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100131-2244",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\n0.31\n版本\nJava版\n发布时间\n2010年1月31日\n下载\n客户端（.json）\nal_version\n未知\n◄◄0.30\nMinecraft Indev►►\n◄0.31 20100131-2241\n0.31 20100201-0025►\n0.31的一个版本发布于2010年1月31日22:44（UTC）。\n更改\n物品\n工具[需要验证]\n更改了不同种类工具的伤害数值[需要更多信息]：\n锹：1\n镐：2\n斧：3\n剑：4\n更改了不同材料工具的挖掘速度：\n木质：1\n石质：2\n铁质：3\n钻石质：4\n参考\nIRC logs[需要更多信息]: \"[17:42] <vede> Shovel=1, Pick=2, Axe=3, Sword=4, Wood: x1, Stone: x2, Iron: x3, Diamond, x4\"...\"[17:43] <Notch> vede: Great idea!\"...\"[17:46] <Notch> ok, updated with vede's suggested damage model :D\"\n导航"
+}

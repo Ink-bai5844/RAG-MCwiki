@@ -1,0 +1,163 @@
+{
+  "title": "基岩版1.20.40.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.40.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.40.22"
+    ],
+    "服务端版本": [
+      "1.20.40.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952004022（armeabi-v7a，33）",
+      "962004022（x86，33）",
+      "972004022（arm64-v8a，33）",
+      "982004022（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年9月20日"
+    ],
+    "测试版归属": [
+      "1.20.40"
+    ],
+    "协议版本": [
+      "622",
+      "◄◄1.20.32",
+      "1.20.41►►",
+      "◄1.20.40.21",
+      "1.20.40.23►",
+      "beta 1.20.40.22（ChromeOS/Android）、Preview 1.20.40.22（Xbox/Windows/iOS/iPadOS）是基岩版1.20.40的第3个测试版，发布于2023年9月20日，加入了触摸控制的自定义按键功能，并修复了一些漏洞。"
+    ],
+    "触摸控制": [
+      "加入了自定义按键功能。",
+      "目前仅在世界中可用，且需要开启“可调整大小 UI”选项。",
+      "略微更改了十字键控制下的按钮样式。"
+    ],
+    "设置": [
+      "在轻触设置中加入了“可调整大小 UI”选项。",
+      "用于启用触摸控制的自定义按键功能。"
+    ],
+    "生物": [
+      "加入了新的查询函数query.is_in_lava，用以确认生物目前是否处于熔岩中。",
+      "骆驼行走时不再看起来像是滑行。（MCPE-169666）",
+      "骆驼站立不动时不再会移动四肢。（MCPE-172846）",
+      "骆驼不再能够在熔岩中无限冲刺。（MCPE-172369）"
+    ],
+    "女巫": [
+      "看向玩家的距离范围由半径4格内增加至半径8格内。"
+    ],
+    "游戏内容": [
+      "现在山羊角的吹奏声能够在256格距离之外听见。（MCPE-153254）"
+    ],
+    "声音": [
+      "山羊角吹奏音效的衰减距离由16格增加至256格。"
+    ],
+    "API": [
+      "将相机API由测试版移动至1.6.0。",
+      "将Entity.is*API由beta开放至1.6.0。",
+      "加入了getWeather函数。"
+    ],
+    "isFalling": [
+      "将玩家等级和经验API由beta开放至1.6.0。"
+    ],
+    "resetLevel": [
+      "将Player.is*API由beta开放至1.6.0。"
+    ],
+    "isFlying": [
+      "更新了除ActionFormData、​MessageFormData和​ModalFormData上显示的方法外的所有方法，以支持在只读模式下调用它们。"
+    ],
+    "BlockInventoryComponent": [
+      "container成员变量现在会反映其可以是容器或未定义。",
+      "修复了@minecraft/server-ui模块无法与版本高于1.2.0的@minecraft/server一同运行的版本控制漏洞。",
+      "将WeatherType移动至1.6.0。",
+      "将setWeather函数移动至1.6.0",
+      "将entityRemove事件或属性由测试版移动至1.6.0。",
+      "将EntityRemovedAfterEvent类由测试版移动至1.6.0。",
+      "将EntityRemoveAfterEventSignal类由测试版移动至1.6.0。",
+      "将EntityRemovedBeforeEvent类由测试版移动至1.6.0。",
+      "将EntityRemoveBeforeEventSignal类由测试版移动至1.6.0。",
+      "将entityLoad事件或属性由测试版移动至1.6.0。",
+      "将EntityLoadAfterEvent类由测试版移动至1.6.0。",
+      "将EntityLoadAfterEventSignal类由测试版移动至1.6.0。",
+      "将entitySpawn事件或属性由测试版移动至1.6.0。",
+      "将EntityInitializationCause枚举由测试版移动至1.6.0。",
+      "将EntitySpawnAfterEvent类由测试版移动至1.6.0。",
+      "将EntitySpawnAfterEventSignal类由测试版移动至1.6.0。",
+      "将playerBreakBlock事件或属性由测试版移动至1.6.0。",
+      "将PlayerBreakBlockAfterEvent类由测试版移动至1.6.0。",
+      "将PlayerBreakBlockAfterEventSignal类由测试版移动至1.6.0。",
+      "将PlayerBreakBlockBeforeEvent类由测试版移动至1.6.0。",
+      "将PlayerBreakBlockBeforeEventSignal类由测试版移动至1.6.0。",
+      "将playerPlaceBlock事件或属性由测试版移动至1.6.0。",
+      "将PlayerPlaceBlockAfterEvent类由测试版移动至1.6.0。",
+      "将PlayerPlaceBlockAfterEventSignal类由测试版移动至1.6.0。",
+      "将BlockEventSignalOptions类由测试版移动至1.6.0。",
+      "将isAir(): boolean由测试版移动至1.6.0。",
+      "将isLiquid(): boolean由测试版移动至1.6.0。",
+      "将amount由测试版移动至1.6.0。",
+      "将keepOnDeath: boolean由测试版移动至1.6.0。",
+      "将lockMode: ItemLockMode由测试版移动至1.6.0。",
+      "将nameTag?: string由测试版移动至1.6.0。",
+      "将clone(): ItemStack由测试版移动至1.6.0。",
+      "将getTags(): string[]由测试版移动至1.6.0。",
+      "将hasTag(tag: string): boolean由测试版移动至1.6.0。",
+      "将setCanDestroy(blockIdentifiers?: string[]): void由测试版移动至1.6.0。",
+      "将getCanDestroy(): string[]由测试版移动至1.6.0。",
+      "将setCanPlaceOn(blockIdentifiers?: string[]): void由测试版移动至1.6.0。",
+      "将getCanPlaceOn(): string[]由测试版移动至1.6.0。",
+      "将getProperty函数移动至1.6.0。",
+      "将resetProperty函数移动至1.6.0。",
+      "将setProperty函数移动至1.6.0。"
+    ],
+    "基岩版编辑器": [
+      "发布了0.5版本的第一版：编辑与测试精简版。",
+      "有完整的往返编辑功能，可在编辑器的上下文中（游玩）测试体验。",
+      "玩家可以自定义测试世界的条件。",
+      "玩家在测试会话中做出的更改不会保存。",
+      "市场和角色会在测试体验中被禁用。",
+      "目前仅在单人游戏中可用。",
+      "修复了所选工具中的Vector3原点的Y轴会超出维度高度范围的漏洞。",
+      "修复了无法在撤销后将方块放置在上一方块所放置的位置上的漏洞。"
+    ],
+    "实体组件": [
+      "behavior.random_look_around_and_sit现已公开continue_sitting_on_reload字段以供创作者使用。",
+      "用于控制骆驼在重载时保持坐下姿势的方式。",
+      "将behavior.is_scenting重命名为通用的behavior.timer_flag_1，并对创作者开放。",
+      "behavior.timer_flag_1：开始此行为时触发事件，等待一段时间后停止。因超时或被其他行为中断而停止时会触发另一事件。 query.timer_flag_1会在此行为运行时在客户端和服务端上返回1.0，否则返回0.0。",
+      "将behavior.is_rising重命名为通用的behavior.timer_flag_2，并对创作者开放。",
+      "behavior.timer_flag_2：开始此行为时触发事件，等待一段时间后停止。因超时或被其他行为中断而停止时会触发另一事件。 query.timer_flag_2会在此行为运行时在客户端和服务端上返回1.0，否则返回0.0。",
+      "将behavior.is_feeling_happy重命名为通用的behavior.timer_flag_3，并对创作者开放。",
+      "behavior.timer_flag_3：开始此行为时触发事件，等待一段时间后停止。因超时或被其他行为中断而停止时会触发另一事件。 query.timer_flag_3会在此行为运行时在客户端和服务端上返回1.0，否则返回0.0。"
+    ],
+    "性能与稳定性": [
+      "特定音效定义使用错误JSON类型时，音效定义文件sound_definitions.json不再会导致游戏崩溃。（MCPE-168913）",
+      "修复了在部分Android设备（如Mali GPU）上启用延迟渲染预览功能的情况下加载世界时发生的崩溃。（MCPE-173934）",
+      "禁用了不支持当前计算着色器需求（GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS >= 256）的部分Android设备上的延迟渲染预览功能。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "方块": [
+      "修复了编辑告示牌时偶尔会编辑到错误的一侧的问题。（MCPE-169067）",
+      "修复了物品展示框被击中或破坏时可能不会掉落其中的物品的漏洞，该漏洞极其罕见，约有0.000003%的概率出现。"
+    ],
+    "教育版选项": [
+      "修复了在打开相片簿的情况下关闭游戏时会导致游戏崩溃的漏洞。"
+    ],
+    "游戏规则": [
+      "将重生半径游戏规则的默认值更改为10。"
+    ],
+    "用户界面": [
+      "自动补全文本现在会将插入符移动至行末。"
+    ],
+    "原版趋同": [
+      "现在创建铁傀儡和雪傀儡时会产生类似于方块被破坏的粒子效果。",
+      "现在使用与Java版相匹配的流动的水和熔岩的混合机制。（MCPE-41103）",
+      "女巫现在会看向16格距离内的玩家。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.40.22 — Minecraft Feedback，2023年9月20日。"
+    ]
+  }
+}

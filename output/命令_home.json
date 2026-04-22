@@ -1,0 +1,5 @@
+{
+  "title": "命令/home",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fhome",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\nhome\n需要的权限等级\n0\n限制条件\n无\n将玩家传送至其出生点。\n语法\nhome\n结果\n永远执行成功。\n历史\nJava版Alpha\nv1.0.16\n加入了/home命令。\nv1.2.5\n移除了/home命令。\n导航"
+}

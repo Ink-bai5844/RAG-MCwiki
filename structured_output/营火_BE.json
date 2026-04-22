@@ -1,0 +1,15 @@
+{
+  "title": "营火/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%90%A5%E7%81%AB%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "CookingTimes：每个物品已被烹饪多长时间。此标签一共有4个元素，第一个索引为槽位0，以此类推。",
+      "CookingTotalTimes：每个物品需要被烹饪的时间。此标签一共有4个元素，第一个索引为槽位0，以此类推。"
+    ],
+    "*": [
+      "*Items：正在烹饪的物品。营火一共有4个槽位，超出槽位范围的物品无效。",
+      "物品共通标签，见Template:Nbt inherit/item/source"
+    ]
+  }
+}

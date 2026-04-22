@@ -1,0 +1,38 @@
+{
+  "title": "Java版1.8.2-pre3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.8.2-pre3",
+  "structured_content": {
+    "默认分类": [
+      "1.8.2-pre3"
+    ],
+    "发布时间": [
+      "2015年1月15日"
+    ],
+    "预发布版归属": [
+      "1.8.2"
+    ],
+    "协议版本": [
+      "47"
+    ],
+    "资源包版本": [
+      "1",
+      "◄◄1.8.1",
+      "1.8.3►►",
+      "◄1.8.2-pre2",
+      "1.8.2-pre4►",
+      "1.8.2-pre3是Java版1.8.2的第3个预发布版，发布于2015年1月15日。"
+    ],
+    "修复": [
+      "修复了2个漏洞"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-76556 — 苦力怕、烈焰人、猪、豹猫和兔子会每0.5秒受到1点伤害。"
+    ],
+    "当前版本的热修复漏洞": [
+      "MC-76569 — Realms：\"[Client thread/FATAL]: Error executing task\"。"
+    ],
+    "参考": [
+      "Minecraft 1.8.2-pre4 - Updated Christmas Gift Edition（存档），来自Searge。Mojang.com，2014年12月18日。"
+    ]
+  }
+}

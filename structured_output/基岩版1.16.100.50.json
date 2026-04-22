@@ -1,0 +1,75 @@
+{
+  "title": "基岩版1.16.100.50",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.16.100.50",
+  "structured_content": {
+    "默认分类": [
+      "1.16.100.50"
+    ],
+    "版本码": [
+      "Android：",
+      "951610050（armeabi-v7a，28）",
+      "952610050（x86，28）",
+      "953610050（arm64-v8a，28）",
+      "954610050（x86_64，28）"
+    ],
+    "发布时间": [
+      "Xbox One、Windows 10、Android - 2020年7月30日"
+    ],
+    "测试版归属": [
+      "1.16.100"
+    ],
+    "协议版本": [
+      "409",
+      "◄◄1.16.61",
+      "1.16.101►►",
+      "1.16.100.51►",
+      "beta 1.16.100.50是基岩版1.16.100的首个测试版，发布于2020年7月30日，更改了成就界面，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "自定义名称现在可以修改Boss栏了。（MCPE-43473）",
+      "修复了简体中文和繁体中文的系统语言设置被游戏忽视的漏洞。",
+      "Nintendo Switch已经可以正常向Realms上传世界了。（REALMS-474）",
+      "此项修复还处Beta阶段，所以还没有应用到Realms和没有Beta测试的平台。",
+      "玩家重新加入多人游戏后，游戏不会再因为玩家打开自己脚下的潜影盒而崩溃了。",
+      "修复了部分墙在世界加载后没有正常连接的问题。",
+      "钓鱼竿现在可以正常地在其他生物附近抛掷了。（MCPE-65249）",
+      "修复了方块选取框位置高出方块的问题。",
+      "修复了破坏竹子时动画缺失的问题。",
+      "在档案的设置界面添加了Noto Sans字体授权协议按钮与对话框。"
+    ],
+    "成就": [
+      "加入了一个新的成就详情界面。",
+      "该功能在多次试行后已可用。"
+    ],
+    "设置": [
+      "在设置页面上添加了Noto Sans字体许可证按钮和弹出式对话框。"
+    ],
+    "摄像机": [
+      "再一次可通过/give命令获得。"
+    ],
+    "下界砖、铁粒和金粒": [
+      "现在可以作为熔炉、高炉和烟熏炉的燃料。"
+    ],
+    "更改了UI": [
+      "该功能在多次试行后已可用。"
+    ],
+    "地图制作和附加包": [
+      "目标minecraft:behavior.controlled_by_player现在为数据驱动。",
+      "物理组件的has_gravity现在可以用于决定生物是否受水流重力影响，即使是相对应的导航组件不存在。",
+      "末地水晶不能被推动了。",
+      "鱿鱼的渲染现在由数据驱动。",
+      "矿车现在由数据驱动，矿车的可骑乘组件、运输矿车、漏斗矿车、命令方块矿车和TNT矿车亦然。"
+    ],
+    "图形": [
+      "修复了部分Windows 10设备上City Living世界中有关玻璃方块的一项图形漏洞。",
+      "修复了部分设备上Skybox Background图形渲染异常的问题。"
+    ],
+    "参考": [
+      "No, we're still beta testing that :)，来自@Mega_Spud。X（曾名Twitter），2020年8月11日。",
+      "Minecraft Beta - 1.16.100.50 (Xbox One/Windows 10/Android) — Minecraft Feedback，2020年7月30日。",
+      "Uh-oh! I think I pressed something, and now 5% of #Minecraft beta users will see the new achievements screen. Well, might as well ask for feedback here: https://aka.ms/mcAchievementBeta.，来自@Volgar。X（曾名Twitter），2020年7月31日。",
+      "MCPE-114216 — 漏洞状态为“已修复”。",
+      "I think I am enjoying this design. What do you think?，来自@CrisXolt。X（曾名Twitter），2020年8月1日。"
+    ]
+  }
+}

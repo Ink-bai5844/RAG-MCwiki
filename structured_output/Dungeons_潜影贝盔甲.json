@@ -1,0 +1,39 @@
+{
+  "title": "Dungeons:潜影贝盔甲",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%BD%9C%E5%BD%B1%E8%B4%9D%E7%9B%94%E7%94%B2",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含虚空回响的内容。"
+    ],
+    "ShulkerArmor": [
+      "潜影贝盔甲的硬度可以媲美最坚硬的钢板。"
+    ],
+    "——物品描述": [
+      "潜影贝盔甲（Shulker Armor）是Minecraft Dungeons的DLC虚空回响中的一种盔甲。它的独特变种是坚固潜影贝盔甲。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "末地荒野": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "拾取": [
+      "D6_sfx_item_shulkerArmour_pick"
+    ],
+    "掉落": [
+      "D6_sfx_item_shulkerArmour_drop"
+    ],
+    "装备": [
+      "D6_sfx_item_shulkerArmour_place"
+    ],
+    "Minecraft Dungeons": [
+      "1.10.2.0",
+      "加入了潜影贝盔甲。",
+      "1.12.0.0",
+      "现在潜影贝盔甲可从高塔中获取。"
+    ]
+  }
+}

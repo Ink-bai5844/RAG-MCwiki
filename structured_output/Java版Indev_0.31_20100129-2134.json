@@ -1,0 +1,34 @@
+{
+  "title": "Java版Indev 0.31 20100129-2134",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100129-2134",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月29日"
+    ],
+    "未知": [
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100129-2129",
+      "0.31 20100129-2138►",
+      "0.31的一个版本发布于2010年1月29日21:34（UTC），尝试修复了一个漏洞但最终失败。"
+    ],
+    "其他": [
+      "尝试修复“无法验证证书链”的漏洞，但没有成功。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z（UTC-5）",
+      "Adura的IRC记录: \"(16:34:33) <Notch> vede: Now?\"...\"(16:35:54) <Notch> Peerko: Reload the page now\"",
+      "Adura的IRC记录: \"(16:30:12) <vede> Fatal error (5)\"...\"(16:30:35) <vede> Unable to validate certificate chain.\"...\"16:30:45 <Notch> uh, sorry about that. ;D\"",
+      "Adura的IRC记录: \"(16:35:54) <vede> Same.\"...\"(16:37:10) <Peerko> \"Unable to validate certificate chain. Native entry did not have a certificate at all\""
+    ]
+  }
+}

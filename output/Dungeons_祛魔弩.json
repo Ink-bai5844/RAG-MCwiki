@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:祛魔弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%A5%9B%E9%AD%94%E5%BC%A9",
+  "text": "祛魔弩\n类型\n远程武器\n稀有度\n力量\n4\n速度\n4\n弹药上限\n3\n自带魔咒\n祛魔\n远古狩猎符文\n存档ID\nDualCrossbows_Unique1\n这些充满魔法的弩会对附魔的敌人造成更多的伤害。\n——物品描述\n祛魔弩（Spellbound Crossbows）是Minecraft Dungeons中的武器。它是双持弩的变种。\n获取\n地点：\n迎风之巅\n地下神殿（冒险难度以上）\n深渊神殿（天启难度以上）\n居民：\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n？？？？？\n使用\n祛魔弩拥有低力量，低速度和低弹药上限。初始弹药数为46。\n属性\n射出两只箭\n对附魔敌人的伤害增加\n数据\n等级\n伤害值\n113\n1364 x2\n音效\n描述\n文件\n掉落\nP1_sfx_item_dualCrossbowsUnique1Drop\n拾取\nP1_sfx_item_dualCrossbowsUnique1Pickup\n装备\nP1_sfx_item_dualCrossbowsUnique1Place\n击中物体\nP1_sfx_item_dualCrossbowsUnique1ArrowImpactNormal\n射击\nP1_sfx_item_dualCrossbowsUnique1Shoot\n历史\nMinecraft Dungeons\n1.3.2.0\n加入了祛魔弩。\n导航"
+}

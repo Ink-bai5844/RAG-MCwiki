@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.20.80.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.80.24",
+  "text": "1.20.80.24\n版本\n基岩版\n服务端版本\n1.20.80.24\n版本码\nAndroid：\n952008024（armeabi-v7a，34）\n962008024（x86，34）\n972008024（arm64-v8a，34）\n982008024（x86_64，34）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年3月27日\n测试版归属\n1.20.80\n下载\n服务端\nWindowsLinux\n协议版本\n671\n◄◄1.20.73\n1.20.81►►\n◄1.20.80.23\nbeta 1.20.80.24（ChromeOS/Android）、Preview 1.20.80.24（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.20.80的第5个测试版，发布于2024年3月27日，修复了一些漏洞。\n更改\n技术性\n方块\n修复了minecraft:geometry.full_block拥有不正确的纹理UV的问题。\n实体组件\n执行behavior.follow_owner的实体传送至其主人所在位置时不再会出现互相卡住的情况。\n修复\n性能与稳定性\n修复了在创建新的世界和编辑世界屏幕中激活资源包时发生的崩溃。\n参考\nMinecraft Beta & Preview - 1.20.80.24 — Minecraft Feedback，2024年3月27日。\n导航"
+}

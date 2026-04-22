@@ -1,0 +1,48 @@
+{
+  "title": "Java版Classic服务器1.10",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.10",
+  "structured_content": {
+    "默认分类": [
+      "此版本现存的留档并非原版。",
+      "虽然此版本存在留档，但其并非完全的原版。",
+      "如果您有留档，请于讨论页提出。",
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "1.10"
+    ],
+    "客户端版本": [
+      "0.30"
+    ],
+    "发布时间": [
+      "2009年11月10日"
+    ],
+    "协议版本": [
+      "7",
+      "其他版本的1.10"
+    ],
+    "基岩版": [
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "PlayStation Vita版": [
+      "◄◄1.9",
+      "◄1.9.1",
+      "1.10.1►",
+      "1.10是Classic服务器的一次更新，发布于2009年11月10日。"
+    ],
+    "服务端配置文件格式": [
+      "加入了admin-slot。",
+      "将这一项设置为true可以阻止不是管理员的玩家在服务器将满时登录。",
+      "加入了在关闭verify-names时的警告。",
+      "警告的内容是："
+    ],
+    "######################### WARNING ######################### verify-names is set to false! This means that anyone who connects to this server can choose any username he or she wants! This includes impersonating an OP! AND SINCE THIS IS A PUBLIC SERVER, IT WILL HAPPEN TO YOU! If you wish to fix this, edit server.properties, and change verify-names to true. ###########################################################": [
+      "翻译："
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "尝试修复grow-trees。",
+      "修复了长用户名的玩家能够登录服务器的漏洞。"
+    ]
+  }
+}

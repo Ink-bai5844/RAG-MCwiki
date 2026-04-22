@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:导火索",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%AF%BC%E7%81%AB%E7%B4%A2",
+  "structured_content": {
+    "FuseShot": [
+      "每几次射击后会有一箭在命中后1秒内爆炸，造成100%的伤害。"
+    ],
+    "——魔咒描述": [
+      "导火索（Fuse Shot）是Minecraft Dungeons中的魔咒。会使玩家的远程武器在射出几箭后产生爆炸并造成伤害。触发频率随着等级提升而增加。"
+    ],
+    "I": [
+      "每 5次 射击",
+      "1 附魔点数"
+    ],
+    "II": [
+      "每 4次 射击",
+      "2 附魔点数"
+    ],
+    "III": [
+      "每 3次 射击",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了导火索。",
+      "1.13.1.0",
+      "现在不再与爆裂弩及其独特变种兼容。"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Java版Infdev 20100413-1951",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100413-1951",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。"
+    ],
+    "发布时间": [
+      "2010年4月13日"
+    ],
+    "al_version": [
+      "1.121"
+    ],
+    "◄◄Minecraft Indev": [
+      "Infdev 20100618►►",
+      "◄Infdev 20100330-1611",
+      "Infdev 20100413-1953►",
+      "Minecraft Infdev的一个版本发布于2010年4月13日19:51（UTC），加入了Infdev大树。"
+    ],
+    "树木": [
+      "加入了Paul Spooner使用脚本实现的Infdev大树。"
+    ],
+    "沙子和沙砾": [
+      "现在会再次自然生成了。"
+    ],
+    "树叶": [
+      "现在不再枯萎。"
+    ],
+    "箭": [
+      "不再在击中方块时生成生物。"
+    ],
+    "常规": [
+      "更新了世界生成器。"
+    ],
+    "修复": [
+      "修复了3个漏洞",
+      "方块不再能放置在玩家所在的位置。",
+      "之前，放置方块可能会导致消耗两个方块，现已被修复。",
+      "光照漏洞已经被修复。有些区域的光照过去较暗，除非有方块更新。这项修复只应用于新生成的区块中。"
+    ],
+    "参考": [
+      "IRC logs: \"(15:51:10) <Notch> I think infdev's been updated\"...\"(15:52:13) <revenant> nice new trees Notch...\""
+    ],
+    "Paul Spooner's Minecraft Scripting Story": [
+      "Still going slow, but here's a new screenshot!（存档） — The Word of Notch，2010年4月8日。"
+    ]
+  }
+}

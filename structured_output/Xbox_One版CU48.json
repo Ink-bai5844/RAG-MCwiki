@@ -1,0 +1,24 @@
+{
+  "title": "Xbox One版CU48",
+  "source_url": "https://zh.minecraft.wiki/w/Xbox_One%E7%89%88CU48",
+  "structured_content": {
+    "默认分类": [
+      "CU48"
+    ],
+    "发布时间": [
+      "2017年7月31日",
+      "◄CU47",
+      "CU49►",
+      "CU48是Xbox One版的一次更新，发布于2017年7月31日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了3个漏洞",
+      "修复了当玩家离开世界后处于求爱模式中的动物试图繁殖导致的崩溃。",
+      "修复了当其他玩家正在睡觉时加入游戏发生的崩溃。",
+      "修复了退出游戏时可能发生的崩溃。"
+    ],
+    "参考": [
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

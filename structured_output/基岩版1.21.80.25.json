@@ -1,0 +1,258 @@
+{
+  "title": "基岩版1.21.80.25",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.80.25",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "1.21.80.25"
+    ],
+    "服务端版本": [
+      "1.21.80.25",
+      "1.21.80.26"
+    ],
+    "版本码": [
+      "Android：",
+      "952108025（armeabi-v7a，34）",
+      "962108025（x86，34）",
+      "972108025（arm64-v8a，34）",
+      "982108025（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年4月3日"
+    ],
+    "测试版归属": [
+      "1.21.80"
+    ],
+    "下载": [
+      "服务端（1.21.80.25）"
+    ],
+    "WindowsLinux": [
+      "服务端（1.21.80.26）"
+    ],
+    "协议版本": [
+      "798",
+      "◄◄1.21.73",
+      "1.21.81►►",
+      "◄1.21.80.22",
+      "1.21.80.27►",
+      "beta 1.21.80.25（ChromeOS/Android）、Preview 1.21.80.25（Xbox/Windows/iOS/iPadOS）、Preview 1.21.80.26（PlayStation）是基岩版1.21.80的第4个测试版，发布于2025年4月3日，在实验性玩法中加入了失水恶魂、快乐恶魂、挽具和灵动视效，并修复了一些漏洞。"
+    ],
+    "实验性玩法": [
+      "加入了“2025 第二次更新”子选项。",
+      "用于启用将于2025年第二个小更新加入的特性。",
+      "加入了“灵动视效”子选项。",
+      "用于启用灵动视效功能。",
+      "加入了“自定义组件 V2”子选项。",
+      "用于启用V2版本的自定义组件。"
+    ],
+    "游戏规则": [
+      "加入了locatorBar游戏规则。",
+      "用于控制是否显示定位栏。",
+      "仅开启实验性玩法“定位栏”后生效。",
+      "默认值为true。"
+    ],
+    "设置": [
+      "在PlayStation平台上的通用设置中加入了“不雅词汇过滤器”选项。"
+    ],
+    "API": [
+      "将Difficulty枚举由beta移动至1.19.0版本。",
+      "@minecraft/server的2.0.0-beta版本",
+      "加入了CustomCommandOrigin，用于自定义命令脚本回调。",
+      "加入了CustomCommandSource枚举。",
+      "将CustomCommandPermissionLevel重命名为CommandPermissionLevel。",
+      "将CustomCommandParamType.Position重命名为CustomCommandParamType.Location。",
+      "BlockCustomComponent现在会取用自定义组件V2实验性内容中的可选的CustomComponentParameters对象，作为2.0.0-beta中事件回调的第二个参数。",
+      "将CustomComponentParameters加入至2.0.0-beta。",
+      "在2.0.0-beta中为CustomComponentparameters加入了params属性。",
+      "ItemCustomComponent现在会取用自定义组件V2实验性内容中的可选的CustomComponentParameters对象，作为2.0.0-beta中事件回调的第二个参数。",
+      "将2.0.0-beta版本中的EntityFrictionModifierComponent更改为只读的。"
+    ],
+    "World": [
+      "将getDifficulty(): Difficulty由beta移动至1.19.0版本。",
+      "将setDifficulty(difficulty: Difficulty): void由beta移动至1.19.0版本。",
+      "将一些Player的方法由beta移动至1.19.0版本。",
+      "将BoundingBox重命名为BlockBoundingBox，并将其由beta开放至1.19.0版本。",
+      "将BoundingBoxUtils重命名为BlockBoundingBoxUtils。",
+      "将dimension.placeFeature和​dimension.placeFeatureRule由beta移动至1.19.0版本。"
+    ],
+    "生物群系": [
+      "移除了对未使用的minecraft:consolidated_features和​minecraft:legacy_world_generation_rulesJSON组件的遗留支持。"
+    ],
+    "方块": [
+      "现在新的render_method类型对minecraft:material_instances可用。此类型用于支持方块相对于竹竿等其他会消失的方块，拥有像树叶一样在远处不透明的相同行为。",
+      "\"render_method\": \"blend_to_opaque\"",
+      "\"render_method\": \"alpha_test_to_opaque\"",
+      "\"render_method\": \"alpha_test_single_sided_to_opaque\"",
+      "minecraft:map_color组件中的tint_method字段不再需要开启“即将推出的创作者功能”选项。",
+      "minecraft:destruction_particles组件中的tint_method字段不再需要开启“即将推出的创作者功能”选项。",
+      "minecraft:material_instances组件中的tint_method字段不再需要开启“即将推出的创作者功能”选项。",
+      "现在启用自定义组件V2实验性内容时，minecraft:custom_components组件会在1.21.80及更高的格式版本中被弃用。",
+      "现在启用自定义组件V2实验性内容时，自定义组件会与其他组件内联扁平化，并允许1.21.80及更高的格式版本中的参数。示例：",
+      "\"components\":{\"example_namespace:example_component\":{\"someParam\":3,\"anotherParam\":\"test\"}}",
+      "花现在具有与Java版相同的随机偏移范围和值。",
+      "竹子、垂根和红树胎生苗、下界苗现在具有与Java版相同的随机偏移范围和值。",
+      "珊瑚和珊瑚扇现在具有与Java版相同的随机偏移范围和值。",
+      "如向日葵等两格高的植物现在具有与Java版相同的随机偏移范围和值。",
+      "滴水石锥、高草丛和枯草丛现在具有与Java版相同的随机偏移范围和值。"
+    ],
+    "组件": [
+      "修复了会对有效的物品纹理引用显示不正确的JSON错误大小的漏洞。",
+      "为minecraft:interact组件引入了drop_item_y_offset参数。",
+      "定义丢弃物品时的自定义Y轴偏移。",
+      "需要指定drop_item_slot。",
+      "在格式版本为1.21.80及更高版本的情况下，minecraft:leashable组件的on_unleash触发器会在拴住行为中断时触发。",
+      "旧行为仍可选择通过将on_unleash_interact_only设置为true来启用。"
+    ],
+    "基岩版编辑器": [
+      "为修剪和移除选区中的空气加入了未绑定的键位绑定。",
+      "修复了在维度边界附近或外部手绘选择会导致选区变得不可使用的问题。",
+      "修复了选区体积能够转换以往的世界边界或调整以往世界边界的大小的问题。这也修复了配合手绘选区（和魔法选择）在世界边界附近使用大型画笔形状时的问题。",
+      "修复了金字塔画笔形状的拉伸轴选项不正确的漏洞。",
+      "修复了在结构面板中删除结构时会永久删除文件和文件夹的相关问题。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器has_equipment_tag，运作与has_equipment相似，但是取用物品标签而非物品名称。"
+    ],
+    "Android上的AGDK更新": [
+      "Minecraft现在在最新的Android Game Development Kit（AGDK）上运行，而不再是NativeActivity。"
+    ],
+    "图形": [
+      "加入了多个定位器与拴绳配合使用的支持，用于渲染两个实体之间的多个绳索。",
+      "为延迟渲染预览功能中的云加入了新的光照模型。光照参数目前无法配置。",
+      "增加了延迟渲染预览功能中云渲染的范围。",
+      "在延迟渲染预览功能中加入了像素化反射。此新效果会使反射与世界中纹理的纹素方格进行对齐。",
+      "在延迟渲染预览功能中加入了像素化阴影。",
+      "此新效果可通过新的阴影模式shadows/global.json来控制。",
+      "此文件可添加用于控制游戏中阴影样式的新设置。",
+      "可用的参数有可设为soft_shadows或blocky_shadows的shadow_stlye，以及texel_size。",
+      "soft_shadows为默认样式，而blocky_shadows会产生外观像素化的阴影。",
+      "启用blocky_shadows后，texel_size会控制像素化效果的尺寸。",
+      "texel_size应与方块纹理尺寸相等，以便在纹理中的像素与通过启用blocky_shadows而产生的像素化效果之间实现一对一映射，但这不是必需的。",
+      "shadows/global.json的示例版本如下所示：",
+      "{\"format_version\":\"1.21.80\",\"minecraft:shadow_settings\":{\"shadow_style\":\"blocky_shadows\",\"texel_size\":16}}"
+    ],
+    "multi_lead_n": [
+      "n的取值范围为{1, 2, 3, 4}，用于定义实体被拴在不同实体上时的定位器。",
+      "当且仅当其拥有对应的multi_lead_hold_n且两个实体上的数字n相等时使用。"
+    ],
+    "multi_lead_hold_n": [
+      "n的取值范围为{1, 2, 3, 4}，用于定义实体拴住不同实体时的定位器。",
+      "当且仅当其拥有对应的multi_lead_n且两个实体上的数字n相等时使用。"
+    ],
+    "lead": [
+      "若其在几何中未定义，则设置为原点。"
+    ],
+    "lead_hold": [
+      "若其在几何中未定义，则设置为原点。"
+    ],
+    "物品": [
+      "收纳袋的打开图标现在通过IconItemComponent指定。",
+      "这解决了打开的自定义收纳袋会显示无效纹理的问题。",
+      "收纳袋图标路径现已拆分为item_texture.json中的唯一键名。",
+      "现在启用自定义组件V2实验性内容时，minecraft:custom_components组件会在1.21.80及更高的格式版本中被弃用。",
+      "现在启用自定义组件V2实验性内容时，自定义组件会与其他组件内联扁平化，并允许1.21.80及更高的格式版本中的参数。示例：",
+      "\"components\":{\"example_namespace:example_component\":{\"someParam\":3,\"anotherParam\":\"test\"}}"
+    ],
+    "Molang": [
+      "加入了query.has_any_leashed_entity_of_type，用于获取实体标识的列表，并检查活动对象是否已拴住任何所列出的实体。客户端和服务端上均可用。",
+      "用法：query.has_any_leashed_entity_of_type( 'minecraft:sheep', 'minecraft:creeper' )"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“2025 第二次更新”、“灵动视效”、“测试版 API”、“自定义组件 V2”、“创建者照相机的实验性功能”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "失水恶魂": [
+      "在下界中作为下界化石的一部分自然生成。",
+      "可使用1个骨块和8个恶魂之泪合成。",
+      "含水时会经历3个状态（不包括初始的“干燥”状态），持续20分钟后会生成一只小恶魂。",
+      "被放置时默认处于“干燥”状态。",
+      "不再含水时，失水恶魂会在与其含水时长相等的时间后转换为“干燥”状态。"
+    ],
+    "挽具": [
+      "一种能够装备在快乐恶魂上的物品，允许玩家骑乘快乐恶魂。",
+      "可使用3个皮革、2个玻璃和1个羊毛合成。",
+      "可通过与染料合成以重新染色。",
+      "对快乐恶魂使用剪刀可卸下其装备的挽具。"
+    ],
+    "刷怪蛋": [
+      "加入了快乐恶魂刷怪蛋。"
+    ],
+    "生物": [
+      "农民村民收集种下的农作物时不再会偶尔卡住。（MCPE-166344）"
+    ],
+    "快乐恶魂": [
+      "一种生命值为40（ × 20）的飞行可骑乘生物。",
+      "幼年形态的快乐恶魂被称为小恶魂，有着不同的行为：",
+      "生命值为20（ × 10）。",
+      "由持续含水20分钟的失水恶魂生成。",
+      "也可使用/summon happy_ghast ~ ~ ~ ~ ~ minecraft:spawn_baby命令生成。",
+      "生成后会尝试跟随以下生物：",
+      "半径16格内的玩家",
+      "半径16格内的非水生成年友好生物",
+      "若附近没有合适的可跟随生物，小恶魂会在其原点位置（生成位置或最后与之交互的位置）32格内游荡。",
+      "会在400分钟后成长。",
+      "可被喂食雪球以加速成长，也会被雪球吸引。",
+      "可装备挽具，最多允许4名玩家骑乘。",
+      "被骑乘时护目镜会下降并遮住眼睛，表示能够被控制。",
+      "未被骑乘时护目镜会升起，并且快乐恶魂会开始在原点位置附近游荡。",
+      "第一个骑乘快乐恶魂的玩家会坐在最前方，能够控制它。",
+      "后来骑乘的玩家会坐在两侧的槽位上，以第一个骑乘的玩家开始顺时针排序。",
+      "玩家按下潜行会脱离快乐恶魂。",
+      "玩家位于其上方时会停止移动。",
+      "会被雪球和挽具吸引。",
+      "已装备挽具时不会被挽具吸引。",
+      "无法繁殖和乘船。",
+      "会缓慢地自然恢复生命值，降雨、降雪或飞行高度与云的高度相同时会加快恢复速度。",
+      "游荡时会保持位于原点位置（生成位置或最后与之交互的位置）64格内。",
+      "已装备挽具时会更靠近原点位置，保持位于32格内。",
+      "单独游荡时会尝试靠近方块。"
+    ],
+    "恶魂": [
+      "更新了纹理。",
+      "略微缩小了碰撞箱宽度，以与快乐恶魂保持一致。"
+    ],
+    "游戏内容": [
+      "修复了玩家在水中疾跑会比游泳速度更快的漏洞。"
+    ],
+    "灵动视效": [
+      "将视频设置中的“图像模式”切换为“灵动视效”（Vibrant Visuals）即可启用此功能。",
+      "视频设置中会提供“性能优先”和“视觉优先”两种预设，分别偏向于性能体验和视觉效果体验。",
+      "也可以选择展开“灵动视效选项”（Vibrant Visuals Options），调整特定功能和视觉设置。",
+      "不支持分屏模式，若有玩家在本地加入游戏，“图像模式”会变回“花式”或“简约”。",
+      "可与来自市场的附加包、皮肤、角色物件一同使用，但不兼容世界和纹理包。",
+      "配置要求：",
+      "Android：Adreno 640（骁龙855/855+/860）、Mali-G68（天玑900/920）、Mali-G77（天玑1000）或Xclipse 530 GPU（三星Exynos 1480）或更高版本",
+      "iOS：A12或M1或更高版本",
+      "PC：任意支持DX12的图形运算设备"
+    ],
+    "@mincraft/server-admin": [
+      "加入了AsyncPlayerJoinBeforeEvent。",
+      "加入了beforeEvents.asyncPlayerJoin、​AsyncPlayerJoinBeforeEvent和​AsyncPlayerJoinBeforeEventSignal，以允许创作者延迟玩家加入世界。",
+      "AsyncPlayerJoinBeforeEventSignal.subscribe与其他事件不同，因为其接受的回调会返回一个承诺。承诺解决时，玩家会加入世界；若承诺被拒绝，则玩家会断开连接而不加入世界。承诺待处理时，玩家会处于加载屏幕。"
+    ],
+    "相机视角": [
+      "更改了开启“创建者照相机的实验性功能”选项后在移动的目标之间缓动的方式。"
+    ],
+    "角色创建器": [
+      "修复了使用自定义皮肤时玩家模型会以错误大小显示的问题。（MCPE-189739）"
+    ],
+    "编辑器": [
+      "现在在结构面板中编辑结构的字段时允许在字段被编辑时保存。"
+    ],
+    "音乐": [
+      "修复了在游戏暂停的情况下从设置菜单进入鸣谢名单时不会播放鸣谢名单的音乐的问题。（MCPE-190625）"
+    ],
+    "配方": [
+      "修复了dolimitedcrafting游戏规则开启时玩家仍然可以合成未知配方的漏洞。（MCPE-186699）"
+    ],
+    "原版趋同": [
+      "盾牌现在会因爆炸而产生耐久度损耗。（MCPE-121484）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.80.25 — Minecraft Feedback，2025年4月3日。",
+      "Minecraft Preview 1.21.80.25 — Minecraft.net，2025年4月3日。",
+      "MCPE-212378 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

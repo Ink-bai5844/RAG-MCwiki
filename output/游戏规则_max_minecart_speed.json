@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/max minecart speed",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fmax_minecart_speed",
+  "text": "本页面包含在Java版的实验性内容中出现的内容。\n这些特性在当前版本中需要开启“矿车改进”选项才可使用。\nmax_minecart_speed\n名称\n矿车最大速度\n描述\n矿车在地面上移动的默认最大速度。\n分类（JE）\n杂项\n值类型\n整型\n默认值\n8\n值域（JE）\n1 – 1000\n游戏规则ID\nmax_minecart_speed\nmax_minecart_speed是控制矿车在铁轨上可抵达的最大速度的游戏规则。\n行为\n此游戏规则可以更改矿车沿轨道移动的最大速度，单位为格/秒。\n在陆地铁轨上运动时，矿车最大速度约为0.06+此游戏规则的值÷20格/刻。\n水中的矿车沿轨道移动的最大速度受此游戏规则的影响只有一半：0.06+此游戏规则的值÷40格/刻。\n此速度表示沿轨道移动的矿车每刻位移前后位置间的欧几里得距离。\n受限于加速条件、空气阻力（或水阻力）等因素，矿车不一定能达到最大速度。\nmax_minecart_speed的值不能低于1，不能高于1000。\n历史\nJava版\n1.21.2\n实验性内容\n矿车改进\n24w33a\n加入了游戏规则minecartMaxSpeed。\n1.21.11\n实验性内容\n矿车改进\n25w44a\n将游戏规则minecartMaxSpeed重命名为max_minecart_speed。\n注释\n在激活的动力铁轨上行驶时，矿车额外获得0.06格/刻速度。\n导航"
+}

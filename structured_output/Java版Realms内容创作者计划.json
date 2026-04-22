@@ -1,0 +1,1067 @@
+{
+  "title": "Java版Realms内容创作者计划",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Realms%E5%86%85%E5%AE%B9%E5%88%9B%E4%BD%9C%E8%80%85%E8%AE%A1%E5%88%92",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "Java版Realms内容创作者计划（Java Realms Content Creator Program），通常简称为Java Creators，是一个由Mojang运营的计划，旨在让地图制作者能够将自己制作的地图发布到Realms上，供Java版玩家游玩。通过该计划发布的地图会被添加到一个内容库中，Realms订阅者可以下载并游玩。",
+      "该计划由Marc Watson创立于2013年，目前由Oskar Thysell管理。"
+    ],
+    "提交地图": [
+      "申请加入此计划，需要在Reddit的Realms子版块r/realms上提交一张自制的地图。提交的地图会进入一个队列，等待Mojang的内容协调员审核。每位用户在任一时刻只能有一张地图位于队列中。",
+      "提交的地图经过审核并获得批准后，提交者将获得访问Atlas提交门户以及供项目成员使用的Slack工作区和Discord服务器的权限。之后，提交者可以通过Atlas提交任何地图，这些地图将在Atlas中等待内容协调员的完整审核。地图通过完整审核后，将会被安排在本月或下个月发布，并在minecraft.net进行公告。",
+      "如果提交的地图涉及多名作者，他们可能会获得访问Slack工作区和Discord服务器的权限，但除非他们自己也在Reddit子板块上有已被批准的地图，或者因创作了足够数量的地图而获得过Realms地图制作者披风，否则他们无法访问Atlas。",
+      "所有提交的地图都必须遵守Realms地图指南。截至2025年4月，内容协调员为Oskar和Nadja。"
+    ],
+    "分类": [
+      "通过该计划发布的地图分为以下五类：",
+      "小游戏 - 流程简短、内容独立且可重复游玩的地图。",
+      "世界模板 - 为生存模式提供附加内容的地图，例如一座城堡或一个村庄。",
+      "冒险地图 - 侧重于线性叙事和探索的完整长流程地图。",
+      "体验地图 - 无明确通关目标，以提供环境互动体验为主的地图，例如主题公园。（2025年9月起，不再接受提交此类别的地图，现有地图将逐步移至其他类别。）",
+      "灵感建筑 - 以展示建筑技巧和创意为主的地图。"
+    ],
+    "Java Realms Day": [
+      "Java Realms Day是一个“完全合法的年度十二月传统”，标志着该年度最后一批地图的发布。该活动固定于十二月的第三个星期五举行，这通常是Mojang开启假期前的最后一个工作日。其余月度发布则安排在各月的最后一个星期五（非假日）。"
+    ],
+    "地图列表": [
+      "此章节缺失以下信息：两张未知地图的名称（分别于2013年12月及2018年3月发布）、Memory Battle与TNT Run的发布日期、大部分地图的分类信息",
+      "“可用”一列表示截至2025年11月，该地图是否仍可在Realms上下载。",
+      "2013-2014"
+    ],
+    "可用": [
+      "2013年12月12日",
+      "2015年7月17日",
+      "2016年1月7日",
+      "2017年1月20日",
+      "2018年1月26日",
+      "2019年2月15日",
+      "2020年2月7日",
+      "2021年2月5日",
+      "2022年1月28日",
+      "2023年1月27日",
+      "2024年1月25日",
+      "2025年1月31日",
+      "2026年1月30日"
+    ],
+    "否": [
+      "蛋糕保卫战2（Cake Defense 2）",
+      "1张未知地图",
+      "2014年10月15日",
+      "多元冒险2（Diversity 2）",
+      "2014年10月17日",
+      "2014年10月20日",
+      "2014年10月22日",
+      "2014年10月24日",
+      "2014年10月27日",
+      "2015",
+      "2015年7月27日",
+      "2015年8月14日",
+      "2015年8月20日",
+      "2015年8月21日",
+      "2015年8月28日",
+      "2015年9月28日",
+      "2015年10月5日",
+      "2015年10月20日",
+      "日灼：重铸版（SunBurn: Reforged）",
+      "Wire Segal和The Destruc7ion",
+      "2015年10月21日",
+      "2015年10月22日",
+      "2015年10月27日",
+      "城堡崛起：兄弟之争（CastleRise: Brother's Feud）",
+      "2015年11月4日",
+      "2015年11月12日",
+      "2015年12月9日",
+      "2015年12月17日",
+      "2016",
+      "2016年1月20日",
+      "2016年1月21日",
+      "2016年2月2日",
+      "2016年2月29日",
+      "2016年3月7日",
+      "2016年3月30日",
+      "2016年4月5日",
+      "2016年4月11日",
+      "2016年4月12日",
+      "暗影光：光影（Oscilight: The Light Shadow）",
+      "2016年4月12日",
+      "日灼：凤凰（Sunburn: Phoenix）",
+      "Wire Segal和The Destruc7ion",
+      "2016年4月22日",
+      "2016年4月28日",
+      "2016年5月16日",
+      "2016年5月27日",
+      "2016年6月7日",
+      "2016年6月10日",
+      "囚禁生存IV：冬季领域（Captive Minecraft IV: Winter Realm）",
+      "2016年6月28日",
+      "2016年7月14日",
+      "2016年7月18日",
+      "2016年8月1日",
+      "2016年8月8日",
+      "2016年8月10日",
+      "2016年8月15日",
+      "2016年8月16日",
+      "2016年8月23日",
+      "2016年8月24日",
+      "2016年9月16日",
+      "2016年10月29日",
+      "2016年10月31日",
+      "2016年11月5日",
+      "悲伤熊猫历险记2（Sad Panda Adventures 2）",
+      "2016年11月14日",
+      "2016年11月23日",
+      "2016年12月2日",
+      "2016年12月16日",
+      "2016年12月16日",
+      "2017",
+      "2017年2月8日",
+      "十分钟跑酷（10 Minute Parkour）",
+      "2017年3月16日",
+      "2017年3月31日",
+      "2017年4月8日",
+      "2017年4月24日",
+      "2017年6月30日",
+      "未述之事4：日冕试炼（Untold Stories 4: Corona Trials）",
+      "2017年7月14日",
+      "2017年8月4日",
+      "Minecraft: The Island",
+      "陨石矿工：太空游戏（Meteor Miners: A Generic Space Game）",
+      "likeabaus、123maarten123和YZEROgame",
+      "钻石守护者2（Diamond Defender 2）",
+      "Xisuma、Pollieboy和vilder50",
+      "2017年8月25日",
+      "2017年9月15日",
+      "2017年10月6日",
+      "2017年10月20日",
+      "2017年11月9日",
+      "抽象化：MINECON EARTH（Abstraction: MINECON EARTH）",
+      "2017年12月15日",
+      "巫师之书2（Sorcerer's Book 2）",
+      "2018",
+      "2018年2月23日",
+      "未述之事5：灾厄峡谷（Untold Stories 5 - Calamity Canyon）",
+      "2018年3月16日",
+      "2018年3月29日",
+      "1张未知地图",
+      "2018年4月19日",
+      "2018年5月11日",
+      "王国：生存（Kingdom: Survival）",
+      "2018年7月18日",
+      "蔓延2（Spread 2）",
+      "2018年8月8日",
+      "2018年8月24日",
+      "2018年9月28日",
+      "第四维度（The 4th Dimension）",
+      "2019年3月29日",
+      "缤纷旋转2（Colorful Rotation 2）",
+      "2019年5月9日",
+      "Minecraft十周年（10 Years of Minecraft）",
+      "2019年5月15日",
+      "2019年6月6日",
+      "2019年7月25日",
+      "2019年8月15日",
+      "生物群系跑酷2（Biome Run 2）",
+      "Supersette、Chumbleweasel和PurpleCrystal02",
+      "土豆游戏：重制版（Potato Games: Remastered）",
+      "2019年10月3日",
+      "摩托教程2（Motor Course 2）",
+      "四子连棋（Connect 4）",
+      "2019年11月21日",
+      "钻石守护者3（Diamond Defender 3）",
+      "2020年2月28日",
+      "400层（400 Levels）",
+      "2020年3月13日",
+      "2020年4月14日",
+      "幻术师 第一部分（The Illusioner Part 1）",
+      "陨石矿工2（Meteor Miners 2）",
+      "likeabauws、123maarten123和YZEROgame",
+      "2020年6月18日",
+      "幻术师 第二部分（The Illusioner Part 2）",
+      "3D图形计算器（3D Graphing Calculator）",
+      "2020年10月8日",
+      "2020年11月27日",
+      "2020年12月7日",
+      "战斗立方2（Combat Cube 2）",
+      "2020年12月18日",
+      "无赖2（Rogues 2）",
+      "2021",
+      "缩小版跑酷3（Shrink Parkour 3）",
+      "2021年3月19日",
+      "2021年4月9日",
+      "心跳冲刺2（Heart Rush 2）",
+      "音乐唱片600 - 极限跑酷（Disc 600 - An Extreme Parkour Map）",
+      "生物群系跑酷3（Biome Run 3）",
+      "Supersette、Chopper2112和Argozzo",
+      "征服之王2（Capture Kings 2）",
+      "2022年3月11日",
+      "灾星2（Disaster Star 2）",
+      "Jontohil2",
+      "2022年5月27日",
+      "跑酷螺旋3（Parkour Spiral 3）",
+      "2022年6月23日",
+      "2022年8月26日",
+      "只需按空格3（Just Press Spacebar 3）",
+      "Zombie1111",
+      "2023年5月25日",
+      "2023年6月30日",
+      "2023年7月27日",
+      "2023年9月29日",
+      "冰封峭壁2：寒霜纷争（Frozen Crag 2: Frostbite Frenzy）",
+      "2024"
+    ],
+    "是": [
+      "2014年11月25日",
+      "2015年9月3日之前",
+      "2015年12月10日",
+      "2015年12月14日",
+      "3D扫雷（3D Minesweeper）",
+      "2016年1月8日",
+      "2016年1月12日",
+      "2016年3月21日",
+      "2016年5月10日",
+      "2016年8月9日",
+      "2016年10月14日",
+      "2016年11月18日",
+      "2017年4月14日",
+      "2018年10月26日",
+      "2018年12月14日",
+      "2019",
+      "2019年6月28日",
+      "2019年9月12日",
+      "2019年10月28日",
+      "2019年12月12日",
+      "像素派对2（Pixel Party 2）",
+      "2020",
+      "2020年5月7日",
+      "2020年8月21日",
+      "垂钓跑酷2.0（RodRun 2.0）",
+      "2020年10月28日",
+      "禁锢2（Confinement 2）",
+      "狗狗球：救赎（Dog Ball: Redemption）",
+      "2021年5月20日",
+      "2021年6月18日",
+      "2021年8月27日",
+      "隐秘狙击手3（Sneaky Snipers 3）",
+      "2021年10月28日",
+      "2021年11月26日",
+      "2021年12月16日",
+      "2022",
+      "2022年3月25日",
+      "2022年4月29日",
+      "2022年7月29日",
+      "2022年9月30日",
+      "2022年10月28日",
+      "2022年11月25日",
+      "2022年12月23日",
+      "2023",
+      "2023年2月24日",
+      "2023年3月31日",
+      "2023年4月28日",
+      "迷你建筑2（Mini Builds 2）",
+      "2023年10月27日",
+      "2023年11月24日",
+      "2023年12月21日",
+      "2024年2月23日",
+      "2024年3月27日",
+      "2024年5月16日",
+      "十周年社区地图（10 Years Community Map）",
+      "2024年5月24日",
+      "2024年9月5日",
+      "2024年10月25日",
+      "找按钮：卡林合集（Find the Button: The Carlin Collection）",
+      "2024年11月29日",
+      "公元前1200年：太空漫游（1200 BCE: A Space Odyssey）",
+      "LunaEclipse4304",
+      "2024年12月20日",
+      "雪地激战2：雪崩（Snowy Skirmish 2: Avalanche）",
+      "2025",
+      "布勒普斯：箭已上弦（Bleps: Nocked and Loaded）",
+      "2025年3月7日",
+      "2025年3月28日",
+      "巨型迷你非常规非凸截角十二面体跑酷2（Mega Parkour Irregular Non-Convex Rhombicosidodecahedron Mini 2）",
+      "TheWorfer27和Twelfth115",
+      "2025年4月25日",
+      "2025年5月30日",
+      "战斗高塔2（Battle Towers 2）",
+      "2025年6月27日",
+      "光之盒2（Lightbox 2）",
+      "2025年8月29日",
+      "狐狸的一生2（A Fox's Life 2）",
+      "100种死法（100 Ways to Die）",
+      "TheWorfer27、Twelfth、Augerbine、pigwa和kndoa",
+      "2025年9月26日",
+      "2025年10月30日",
+      "2025年11月28日",
+      "2025年12月19日",
+      "我的冬日工作2（My Winter Job 2）",
+      "Tofetta、TrefleA4和82xp",
+      "2026"
+    ],
+    "鲨鱼大战史蒂夫（Sharks vs. Steve）": [
+      "TwitchNitr0"
+    ],
+    "迷宫（Labyrinth）": [
+      "samasaurus6、buckingirl4和MineyCow"
+    ],
+    "记忆战争（Memory Battle）": [
+      "K1ll1er、Huntondoom、Quazymoodo和ImLeeRii"
+    ],
+    "怪物传送门（Monster's Portal）": [
+      "Vilder50和Matdog1999"
+    ],
+    "惊天劫案（The Heist）": [
+      "Cubehamster、samasaurus6和Wubba"
+    ],
+    "迷途奇观Mini版（Wayward Wonders Mini）": [
+      "M0ndy"
+    ],
+    "花之岛（后更名为花之山）（Flower Island）": [
+      "Emoluvjd2"
+    ],
+    "宁静圣殿（Tranquil Temple）": [
+      "K1ll1er、ImLeeRii和Mouldy_Burrito"
+    ],
+    "斯塔尔哈默（Staalhamer）": [
+      "Springstof和Jappie172"
+    ],
+    "我们是护林员（We are the Rangers）": [
+      "Blockworks、Dragnoz和samasaurus6"
+    ],
+    "鲜花牧场（Floral Ranch）": [
+      "Pe3tr和Twett"
+    ],
+    "埃勒洛斯（Elleroth）": [
+      "Pe3tr和Twett"
+    ],
+    "攀爬方块（Clambering Cubes）": [
+      "bananenbroek4"
+    ],
+    "骰子棋（Ludo）": [
+      "Plagiatus、dragonmaster95和Vilder50"
+    ],
+    "鬼镇（Ghost Town）": [
+      "Pe3tr、Twett和Tiliba"
+    ],
+    "帝国（Imperium）": [
+      "Vilder 50和Pollieboy"
+    ],
+    "雷登（Reddern）": [
+      "Pe3tr、Twett、Tiliba"
+    ],
+    "华盖之梦（Canopy Dream）": [
+      "Theticman30和ChildOfStars"
+    ],
+    "不给糖就捣蛋（Trick or Treat）": [
+      "CommanderRedstone、BREEZ90、gilly330和Pebble"
+    ],
+    "南瓜派对（Pumpkin Party）": [
+      "Plagiatus、dragonmaster95和Tomhelduf"
+    ],
+    "立方体谜题（Cublex）": [
+      "Vilder50和Pollieboy"
+    ],
+    "控制（Control）": [
+      "Plagiatus、dragonmaster96、Etex和Tomhelduf"
+    ],
+    "红石博物馆（The Museum of Redstone）": [
+      "WebWorm3"
+    ],
+    "进阶天空（Advanced Sky）": [
+      "Mr3DAlien"
+    ],
+    "悬浮（Levitate）": [
+      "0SirAwesome"
+    ],
+    "五连方块（PentaBlock）": [
+      "Incarceron、Jbip和dragonmaster95"
+    ],
+    "Cave Game": [
+      "Mr3DAilen"
+    ],
+    "反射（Reflections）": [
+      "CommandRedstone、Barf Creations、Ds43m和illio"
+    ],
+    "巨像（The Colossus）": [
+      "spacegame202和iLAVA"
+    ],
+    "粉碎的饼干（Cookie Crumble）": [
+      "Swifter_1243"
+    ],
+    "生存专家（Survivalists）": [
+      "Archee、Tomhelduf和dragonmaster95"
+    ],
+    "高塔世界（The World of Towers）": [
+      "WebWorm和Wither20"
+    ],
+    "毁灭的城市（Downtown Destruction）": [
+      "Pollieboy、Kooleyy和Vilder50"
+    ],
+    "跳棋（Draughts）": [
+      "federick90、marhjo和Aerh"
+    ],
+    "短引线（Short Fuse）": [
+      "Archee、DragonEye3k和BigNinjaChicken"
+    ],
+    "管道工（Plumber）": [
+      "Wector11211"
+    ],
+    "发条（Clockwork）": [
+      "Swifter_1243"
+    ],
+    "失踪的三明治II（The Missing Sandwich II）": [
+      "ElectroBleach、GenericallyNamed和Meeepy12"
+    ],
+    "洞穴（The Cave）": [
+      "LetzTaco和EliMe5"
+    ],
+    "无畏军舰（Dreadnought）": [
+      "Chopper2112、CoolKidProof和waterprincess244"
+    ],
+    "海盗捉迷藏（Pirates Hide & Seek）": [
+      "iWacky、ALEX_CY和It5msSam"
+    ],
+    "载具（Showcase of Vehicles）": [
+      "PopularYouTube、MagicTin和MagicJer10"
+    ],
+    "TIX.TAX": [
+      "Wector11211"
+    ],
+    "炫彩空间（Chromatica）": [
+      "the_suso_craft和adri2711"
+    ],
+    "空中表演（Airshow）": [
+      "PopularYouTube、MagicJer10和MagicTim"
+    ],
+    "假日收藏（Holiday Collection）": [
+      "PopularYouTube、MagicTin和MagicJer10"
+    ],
+    "绵羊卡牌（Sheep Shuffle）": [
+      "The_Artist123"
+    ],
+    "恼人幽灵（Annoying Ghosts）": [
+      "ElectroBleach、GenericallyNamed和Meeepy12"
+    ],
+    "终端速度（Terminal Velocity）": [
+      "the_suso_craft和adri2711"
+    ],
+    "舞池（Dance Floor）": [
+      "Cavinator1和CemreK"
+    ],
+    "扭曲实验室（The Twist Labs）": [
+      "warco311、MaxLoewe和christina_12"
+    ],
+    "造船厂（Shipyard Inc）": [
+      "Celisio、b3nj1和zun"
+    ],
+    "矿船竞速（MineBoatRace）": [
+      "warco311、MaxLoewe和christina_12"
+    ],
+    "逃离电网（Off the Grid）": [
+      "PopularYouTube、MagicJer10和MagicTin"
+    ],
+    "质朴聚落（Rustic Huddle）": [
+      "Terasal、Zerghunter666和Jrxss"
+    ],
+    "汽车闪避者（Car Dodger）": [
+      "The_Artist123、Ferao和darkMagicmachine"
+    ],
+    "信标启动者（Beaconators）": [
+      "Jbip、Ewol51和6pri1"
+    ],
+    "夏至（Summer Solstice）": [
+      "Terasal、Zerghunter666、Jrxss和Ethernets"
+    ],
+    "高山飞瀑（Alpine Falls）": [
+      "Celisio、b3nj1和zun"
+    ],
+    "寂静劫案（The Silent Heist）": [
+      "Jontohil2"
+    ],
+    "木筏漂流（Raft Rush）": [
+      "MelonBP、Rman和RedSthunder00"
+    ],
+    "丛林漂流（Jungle Castaway）": [
+      "Tomm2000"
+    ],
+    "灾星求生（Disaster Star Survival）": [
+      "Jontohil2"
+    ],
+    "城堡岛（Castle Island）": [
+      "feran、62h和Bikesnob"
+    ],
+    "遗忘之岛（Forgotten Island）": [
+      "Tomm2000"
+    ],
+    "点位奔跑者 - 重制版（Point Runner - Remastered）": [
+      "Xisuma、Vilder50和pollieboy"
+    ],
+    "巅峰之巅（Summit Peak）": [
+      "Celisio、b3nj1和zun"
+    ],
+    "鹿堡（Deercastle）": [
+      "Hoonas2003和mattikrokki"
+    ],
+    "落日度假村（Sunset Resort）": [
+      "Feran和62h"
+    ],
+    "士兵（Pawn）": [
+      "Meeples10、Pebble和Kovu"
+    ],
+    "潜影盒战争（Shulker War）": [
+      "RaZZoR409"
+    ],
+    "猎人谜案（Hunter Mystery）": [
+      "Kirill17、Frilled和Xentrin"
+    ],
+    "蜂蜜导弹大战（Honey Missile Wars）": [
+      "Chopper2112、Supersette和kruthers"
+    ],
+    "地板是陷阱（Floor is a Trap）": [
+      "RaZZoR409"
+    ],
+    "灵感内饰（Inspiring Interior）": [
+      "edelewill、Feran和62h"
+    ],
+    "方块谜题（Puzzle with Squares）": [
+      "warco311、MaxLoewe和christina_12"
+    ],
+    "宁静花园（Tranquil Gardens）": [
+      "pollieboy和Vilder50"
+    ],
+    "野兽的背叛（Beastly Betrayal）": [
+      "Jontohil2"
+    ],
+    "黄金国度（El Dorado）": [
+      "Tomm2000和jackk_ice"
+    ],
+    "Bingo": [
+      "Flytre和J70"
+    ],
+    "寻找物品（Item Hunt）": [
+      "Lumesio、ZiraTeck和Mathaym25"
+    ],
+    "南瓜派对重制版（Pumpkin Party Remastered）": [
+      "Plagiatus和dragonmaster95"
+    ],
+    "冬季村庄（Winter Village）": [
+      "Celisio、ChrisBoi和b3nj1"
+    ],
+    "疯狂矿场（Crazy Quarries）": [
+      "Calverin和J70"
+    ],
+    "红石谜题（Redstone Puzzles）": [
+      "MelonBP、Tim400和hilligans"
+    ],
+    "主题对比（Contrast of Themes）": [
+      "edelewill、osme和Ian923"
+    ],
+    "洞穴爆破（Cave Blast）": [
+      "IngoHHacks、Nightcart和Theo8"
+    ],
+    "海滨之城（The City by the Sea）": [
+      "Theo8"
+    ],
+    "宁静小镇（Calmville）": [
+      "talaing00、ha6和hm4"
+    ],
+    "毁灭机器人（Destroyobot）": [
+      "Mrinin、LegendaryYT_HU和7Keyz"
+    ],
+    "红岩山谷（Red Rock Valley）": [
+      "osme和Ian923"
+    ],
+    "光辉之地（Effulgent）": [
+      "Axxy、ItzEnd3r和SweetPotqto"
+    ],
+    "过山车岛（Coaster Island）": [
+      "osme和Ian923"
+    ],
+    "日式别墅（Japanese Villa）": [
+      "taalaingg、ha6、hm4和Zeter3k"
+    ],
+    "献礼（Tribute）": [
+      "Theo8"
+    ],
+    "维京村庄（Viking Village）": [
+      "icupo3和ball"
+    ],
+    "北极渔村（Arctic Fishing Village）": [
+      "Zaldoria、Feran和62h"
+    ],
+    "女巫逃生（Witch Escape）": [
+      "Primt、1iClown和Zaldoria"
+    ],
+    "毁灭者（Destroyer）": [
+      "Jontohil2"
+    ],
+    "城市跑酷（Parkour City）": [
+      "_Elton、Zombie1111和LiamHenricson"
+    ],
+    "太阳（Taiyou）": [
+      "icupo3和ball"
+    ],
+    "仓库番合集（Sokoban Collection）": [
+      "Shurik204"
+    ],
+    "速战速掘（Battle Box）": [
+      "Kirill17和Frilled"
+    ],
+    "风格跑酷（Style Parkour）": [
+      "Bisou、Endermite、N4X和KaiAF"
+    ],
+    "热带岛屿（Tropical Islands）": [
+      "Tomm2000、Tamsu和Bemson"
+    ],
+    "山巅宫殿（Mountain Palace）": [
+      "taalaingg、ha6、hm4和Orange_Polska"
+    ],
+    "霜冻镇（Frostville）": [
+      "taalaingg和hm4"
+    ],
+    "Dominexis": [
+      "107",
+      "10"
+    ],
+    "线条（Lines）": [
+      "Chopper2112和Supersette"
+    ],
+    "艾拉纳斯废墟（Ruins of Aeranas）": [
+      "Zaldoria、Primt和Steve161803"
+    ],
+    "霜冻跑酷（Frost Runner）": [
+      "Bisou、Jiingy、Sk18r、Riren和AstronomerAugust"
+    ],
+    "空心山丘（Hollow Hill）": [
+      "Kirill17"
+    ],
+    "边境之外（Beyond the Border）": [
+      "TheblueMan003和Benjamin874"
+    ],
+    "万圣节狂野西部小镇（Halloween Wild West Town）": [
+      "S0gga"
+    ],
+    "漩涡跑酷（Whirlpool Parkour）": [
+      "__Sac和Zombie1111"
+    ],
+    "蘑菇大陆（MushroomLand）": [
+      "Em5ire、Atleeh和Waultex"
+    ],
+    "丛林岛（Jungled Island）": [
+      "S0gga和CatOnTheWall"
+    ],
+    "计算机玩意（Computery Stuff）": [
+      "TheblueMan003和Benjamin874"
+    ],
+    "隆德伯格（Lundberg）": [
+      "Em5ire、Atleeh和Waultex"
+    ],
+    "海岸定居点（Coastal Settlement）": [
+      "Napkiinsa和M4xymoos"
+    ],
+    "恐龙世界（DinoWorld）": [
+      "Em5ire、Atleeh和Waultex"
+    ],
+    "荒野之地（Wild Land）": [
+      "Atleeh、Em5ire和Waultex"
+    ],
+    "魔法庇护所（Enchanted Haven）": [
+      "Frozen11111"
+    ],
+    "尘土之岛（Dusty Island）": [
+      "S0gga和CatOnTheWall"
+    ],
+    "灰烬（Ashen）": [
+      "Supersette和Chopper2112"
+    ],
+    "南瓜园地（Pumpkin Grounds）": [
+      "Dxgital和RiceFarmer11"
+    ],
+    "火山湾（Volcano Bay）": [
+      "RiceFarmer11"
+    ],
+    "北方村庄（The Northern Village）": [
+      "S0gga和CatOnTheWall"
+    ],
+    "神性终焉（Divinity's End）": [
+      "Like 25 People"
+    ],
+    "菜鸟到赢家（Noob to Winner）": [
+      "Zombie1111"
+    ],
+    "一命通关（OneShot）": [
+      "TheBlueMan003和Benjamin874"
+    ],
+    "格伦伍德跑酷（Glenwood Parkour）": [
+      "Horace_Altman、Qu1nten和Bansed"
+    ],
+    "坠落的天空（Falling Sky）": [
+      "WoutBelt和Ender3K"
+    ],
+    "群岛村落（Villages Archipelago）": [
+      "S0gga"
+    ],
+    "沉船宝藏（Sunken Treasure）": [
+      "GAA和APOC_101"
+    ],
+    "棕榈岛（Palm Island）": [
+      "GAA、APOC_101和GeoFri"
+    ],
+    "梦想之树（The Tree of Dreams）": [
+      "Cobra063、Tiger_Clood和DemitriMaximoff"
+    ],
+    "失落的村庄（The Lost Village）": [
+      "Mats3209"
+    ],
+    "多米诺骨牌（Dominoes Game）": [
+      "Dad_L0y"
+    ],
+    "跑酷比赛（Parkour Duel）": [
+      "Mats3209和Thunderie"
+    ],
+    "黑暗仆从（Servants of Darkness）": [
+      "TheWorfer27和Twelfth"
+    ],
+    "艾琳娜的恶作剧（Elena's Trick）": [
+      "Zenection、Snux和7x2"
+    ],
+    "诡异氛围（Spooky Vibes）": [
+      "Cobra063、Tiger_Clood和DemitriMaximoff"
+    ],
+    "旗帜大战（Banner Battle）": [
+      "0SirAwesome、Chopper2112和ABrightMoore"
+    ],
+    "落雪基地（Snowfall Base）": [
+      "Kirill17"
+    ],
+    "超越顶峰（Over The Top）": [
+      "TheWorfer27和Twelfth"
+    ],
+    "苔藓智者（Mindful Mossman）": [
+      "digi_x3和cobra063"
+    ],
+    "海妖栈道（Kraken's Boardwalk）": [
+      "digi_x3、Risely和Applles"
+    ],
+    "无处可逃（Cornered）": [
+      "SmartyAlek和TheWorfer27"
+    ],
+    "骷髅王暗影（Shadow of the Skeleton King）": [
+      "pigwa、eepyhana、TheWorfer27"
+    ],
+    "惊魂夜时尚（Fright Night Fashion）": [
+      "pigwa、Hana、Interwall、Leroidesafk、Scorpionem和TheWorfer27"
+    ],
+    "巴罗萨恐怖屋（Barosa's House of Horror）": [
+      "TheWorfer27和Twelfth115"
+    ],
+    "女巫在何处？（Witch Doesn't Belong）": [
+      "TheWorfer27、Twelfth115和kdnoa"
+    ],
+    "摇椅谜题（The Rocking Chair）": [
+      "MrCube6、4CVIT和Bansed"
+    ],
+    "花园墙外（Over the Garden Wall）": [
+      "Juhler1234"
+    ],
+    "寂静之地（A Quiet Place）": [
+      "digi_x3、Zubuu和Pennes"
+    ],
+    "极光群岛（Aurora Archipelago）": [
+      "MegaCow、KeepYourHairOn和digi_x3"
+    ],
+    "林地海岸（Woodland Coast）": [
+      "MegaCow、KeepYourHairOn、Impressified和digi_x3"
+    ],
+    "蘑菇大都会（Mushroom Metropolis）": [
+      "SrNug、KeepYourHairOn和digi_x3"
+    ],
+    "狂乱骷髅（Skull's Mayhem）": [
+      "limace_qui_passe、BlaZzy和Chairgamertag87"
+    ],
+    "圣诞老人村庄（Santa's Village）": [
+      "sa1mator、ItzCleverMan和Dojlgin"
+    ],
+    "石港城堡（Stonehaven Castle）": [
+      "xBoTa、3skr和reking"
+    ],
+    "坚硬沙滩（Crusty Sands）": [
+      "Juhler1234"
+    ],
+    "珀西的公园（Percy's Park）": [
+      "100percentme"
+    ],
+    "礼物包装（Wrapping Up）": [
+      "TheBlueComet、Billignton、Scorpionem和TheWorfer27"
+    ],
+    "小鸡纷争（Chicken Frenzy）": [
+      "Scorpionem、Smarty、Twelfth、TheWorfer27和refortor"
+    ],
+    "山谷漫游（Wander Valley）": [
+      "2blocks"
+    ],
+    "磁力（Magnetism）": [
+      "7ks、Maartin和Morriis"
+    ],
+    "为钻石造的船（Build a Boat for Diamonds）": [
+      "TheWorfer27、Twelfth115、pigwa、kndoa和Scorpionem"
+    ],
+    "随机狂热（RandoMania）": [
+      "Scorpionem、TheWorfer27、Twelfth115和refortor"
+    ],
+    "线形跑酷（Line Parkour）": [
+      "Omar_6374、Teddyishappyl和Dasdron"
+    ],
+    "永恒生长（Evergrowth）": [
+      "Gamemode 4"
+    ],
+    "巅峰对决（Showdown）": [
+      "AlongCameN4te和runegate"
+    ],
+    "深红深渊（Crimson Abyss）": [
+      "2blocks"
+    ],
+    "港口小镇（Harbor Town）": [
+      "taha4444、_Wofflan_和_StayLing_"
+    ],
+    "沙尘暴（Sandstorm）": [
+      "MrAdrien79、Tagazok_和Oayoo"
+    ],
+    "Nether Ninjas": [
+      "127.5",
+      "7"
+    ],
+    "速通纷争（Speedrun Mayhem）": [
+      "craftdiamonds和Puzzle_Dude98"
+    ],
+    "地下墓穴（Catacombs）": [
+      "A5GARD"
+    ],
+    "潜意识（Subconscious）": [
+      "MrCube6、4CVIT和Bansed"
+    ],
+    "甜甜圈跑酷（Parkour Donut）": [
+      "Omar_6374、Teddyishappyl和___Artem__"
+    ],
+    "缤纷世界（Colouring World）原文有误": [
+      "100percentme"
+    ],
+    "世界大礼堂（The World Auditorium）": [
+      "Error 404"
+    ],
+    "海盗天堂（Buccaneer's Bliss）": [
+      "MYNAMEISPHILLIP、Clarksburg和C51"
+    ],
+    "和风村（Peacewind Village）": [
+      "Konor1dze、XDymaridzo和Sharky_Naky"
+    ],
+    "又是谁？（Who is it Again?）": [
+      "Tofetta、TrefleA4和82xp"
+    ],
+    "死寂树林（Necrotic Grove）": [
+      "2blocks"
+    ],
+    "冬之深渊（Winter Abyss）": [
+      "Konor1dze、XDymaridzo和Sharky_Naky"
+    ],
+    "混乱局势（Chaotic Conditions）": [
+      "Kahterina | Error 404 Studio"
+    ],
+    "暮光镇（Twilight Town）": [
+      "Konor1dze、XDymaridzo和Sharky_Naky"
+    ],
+    "圣诞港（Yulehaven）": [
+      "Kahterina | Error 404 Studio"
+    ],
+    "欢愉苔原（The Joyful Tundra）": [
+      "TW98NS | Error 404 Studio"
+    ],
+    "霜冻开关（Frost Switch）": [
+      "Cobra063、Jiingy和Leroidesafk"
+    ],
+    "Anaglyph": [
+      "Ctarron, Tecno80, and Ivan2lc",
+      "Hitze – Ctarron、ivan2lc和tecno80",
+      "6"
+    ],
+    "Xaleem's Battle of the Bands": [
+      "LunaEclipse4304, Technodono, and Xyphia"
+    ],
+    "Sky Brawl": [
+      "MortizSnek, A5GARD, and Virtknight"
+    ],
+    "披风": [
+      "主条目：Realms地图制作者披风",
+      "发布了特定数量地图的作者可能有资格获得一个专属披风。所需地图数量根据地图所属类别有所不同，通常在2至4张之间。",
+      "2019年至2023年，每年都会组织披风持有者的合影活动，Mojang会尽可能多地召集披风持有者在同一服务器内拍摄集体照。2024年起，此活动允许所有地图制作者（无论是否拥有披风）参加。"
+    ],
+    "Realms地图制作者披风纹理": [
+      "2021年披风持有者合照",
+      "2022年披风持有者合照",
+      "2023年披风持有者合照"
+    ],
+    "地图制作比赛": [
+      "地图制作比赛（Map Jam）是一项要求参与者在规定时间内，围绕指定的一个或多个主题创作地图的活动。自2024年起，地图制作者计划每年举办一届地图制作比赛，前三名的地图将发布至Realms。可通过此邀请链接加入官方Discord服务器。",
+      "Java版Realms内容创作者计划10周年地图制作比赛",
+      "作为Java版Realms内容创作者计划十周年庆典的一部分，Java版Realms内容创作者计划10周年地图制作比赛（Java Realms Creators 10th Anniversary Mapjam）于2024年4月6日12:00至4月11日12:00(UTC)举行。 同一地图至多可由3名参赛者完成。地图由Oskar、Aandel、Edou_和Flcme依据四个标准评审：创意、视觉效果、完成度与体验。每项标准分值为0至40分，总分最高为160分，排名前三的地图将发布至Realms。",
+      "除官方评审外，还设有社区投票环节，社区投票选出的前三名的地图的作者可获得Discord Nitro礼品作为奖励。",
+      "比赛主要主题为“宇宙”与“神话”，次要主题为“古董”与“奥德赛”。参赛作品须至少包含一个主要主题和一个次要主题。",
+      "活动期间共收到28份有效提交。获胜的三张地图于2024年11月29日公布。"
+    ],
+    "评分": [
+      "1",
+      "1"
+    ],
+    "NBT – DrSallan、Tado和Eroxen": [
+      "149.5",
+      "2"
+    ],
+    "The Rocking Chair": [
+      "The Runner-ups – MrCube6、4CVIT和Bansed",
+      "135",
+      "3",
+      "1200 BCE: A Space Odyssey",
+      "LunaEclipse4304",
+      "129.5",
+      "4"
+    ],
+    "Quill(mark)": [
+      "129",
+      "5"
+    ],
+    "TMD": [
+      "128",
+      "6"
+    ],
+    "The elderly": [
+      "119.5",
+      "8"
+    ],
+    "Pst": [
+      "111",
+      "9"
+    ],
+    "Sherdsters": [
+      "104.5"
+    ],
+    "Java创作者地图制作比赛": [
+      "继上年比赛获取成功后，新一轮地图制作比赛于2025年5月23日02:00至5月27日02:00(UTC)举行。规则与上年类似，同一地图至多可由3名参赛者完成。地图由Oskar、Flcme、TheWorfer27和Nadja根据四个标准评判：建筑、玩法、功能与主题契合度。每项标准分值为0至10分，总分最高为40分，最终成绩取平均分。",
+      "比赛开始时公布了五个主题，所有提交的作品须至少包含其中两个。这五个主题（及包含该主题的作品数量）为：以寡敌众（7）、成双成对（15）、深潜之下（18）、重建（6）与突变（6）。",
+      "共计158位参与者组成了80支队伍报名。活动期间共收到39份提交（其中2份因使用预制资源被取消资格）。其中四张仅支持多人游戏的地图由评审团队于2025年6月4日在Nadja的Twitch频道进行了直播试玩。"
+    ],
+    "Team Scripted – Flamingosaurus、Frenderman和SwishierTuna": [
+      "36.33",
+      "2"
+    ],
+    "Their Sea Glows": [
+      "Confusing Crafters – Luiql、Gibbah和ALk2106",
+      "35.33",
+      "3"
+    ],
+    "Blind Carbon Copy – Billignton、Calverin和Chipchase": [
+      "32.67",
+      "4"
+    ],
+    "Slaughterhouse – unknowedoficial": [
+      "5"
+    ],
+    "Cauliflower Meadow - rednls": [
+      "29",
+      "7"
+    ],
+    "Dragon Fruit – GosRIP": [
+      "8"
+    ],
+    "Orange Oranges – SmartyAlek": [
+      "9"
+    ],
+    "C.B.'s Mob Factory": [
+      "Three of Them – maybejake、floofy2410和psydoux",
+      "10"
+    ],
+    "Tesseract Entertainment – Kodeur_Kubik、CMANIF和RyanSkull": [
+      "28.33"
+    ],
+    "Realms地图制作奖": [
+      "2025年11月19日的一次会议宣布将于2026年2月4日举办首届官方的Realms地图制作者奖颁奖典礼，旨在表彰广受欢迎与具有代表性的Realms地图及其作者。活动宗旨为“嘉奖创意、独特性与一贯性”。颁奖典礼将进行公开直播。"
+    ],
+    "你知道吗": [
+      "在Realms早期阶段，地图制作者无法主动申请添加地图，而是由Mojang直接联系邀请。现行的申请流程大约确定于2014年。"
+    ],
+    "画廊": [
+      "2024年为纪念Minecraft Realms十周年拍摄的地图制作者合照",
+      "2025年5月拍摄的地图制作者合照",
+      "2025年9月拍摄的地图制作者合照"
+    ],
+    "注释": [
+      "Oskar于2025年12月3日在私人Slack工作区发布的公告。",
+      "措辞表明这两张地图在2015年9月3日之前就已添加到Realms，但无法找到具体的添加日期信息。",
+      "后更名为花之山（Flower Mountain）。",
+      "目前在Realms上名为山间猴子（Mountain Monkey）。",
+      "全名：That Time I Accidentally Got Transported to an Actual Abandoned Alien Ship and Had to Collect My Stolen Antiques to Get Home: An Astronomical Antiques Adventure",
+      "依据Flcme于2025年5月27日在Discord上的发言统计。",
+      "此信息由Oskar Thysell在2025年4月16日的一次会议中确认。"
+    ],
+    "参考": [
+      "https://www.minecraft.net/article/realms-page-content-creator",
+      "https://www.linkedin.com/in/oskar-thysell-4ba41bba/",
+      "https://www.minecraft.net/article/new-on-java-realms-december-20250",
+      "https://web.archive.org/web/20140122053000/https://www.mojang.com/2013/12/the-minecraft-realms-beta-has-launched-in-sweden/",
+      "https://www.youtube.com/watch?v=zJ5fHoawp6U&t=53s",
+      "https://web.archive.org/web/20141024233323/https://www.mojang.com/2014/10/realms-is-packed-with-awesome-maps/",
+      "https://web.archive.org/web/20150907035304/https://www.mojang.com/2015/08/realms-map-explosion-and-free-weekend-trials/",
+      "https://twitter.com/Marc_IRL/status/634371073992167424",
+      "https://twitter.com/Marc_IRL/status/634371491904245760",
+      "https://twitter.com/Marc_IRL/status/634372116289318912",
+      "https://web.archive.org/web/20151113051513/https://www.mojang.com/2015/11/realms-map-round-up/",
+      "https://www.reddit.com/r/grian/comments/gg6oa6/grian_created_tnt_run/",
+      "https://web.archive.org/web/20160205203005/https://www.mojang.com/2016/02/new-realms-content-post/",
+      "https://twitter.com/Marc_IRL/status/689760539187146756",
+      "https://twitter.com/Marc_IRL/status/689764079871766528",
+      "https://twitter.com/Marc_IRL/status/689768938637422592",
+      "https://twitter.com/Marc_IRL/status/690110703764705280",
+      "https://twitter.com/Marc_IRL/status/690145687770664960",
+      "https://web.archive.org/web/20160424021601/http://www.mojang.com/2016/04/lions-and-towers-and-snares-oh-my/",
+      "https://twitter.com/Marc_IRL/status/711868074396393472",
+      "https://twitter.com/Marc_IRL/status/711909867582259200",
+      "https://twitter.com/Marc_IRL/status/719498064113897474",
+      "https://twitter.com/Marc_IRL/status/719513873934610432",
+      "https://twitter.com/Marc_IRL/status/719827560981467136",
+      "https://twitter.com/Marc_IRL/status/719862496706891777",
+      "https://web.archive.org/web/20160623135749/http://www.mojang.com/2016/06/realms-map-round-up-puzzles-presents-and-flights-of-fancy/",
+      "https://twitter.com/Marc_IRL/status/741240216724381696",
+      "https://twitter.com/Marc_IRL/status/741240774378016768",
+      "https://twitter.com/Marc_IRL/status/741249874084003841",
+      "http://web.archive.org/web/20160917045029/https://www.mojang.com/2016/09/realms-map-round-up-spleef-swordplay-and-board-games-for-bored-days/",
+      "https://twitter.com/Marc_IRL/status/765484959121436673",
+      "https://twitter.com/Marc_IRL/status/765544946606768128",
+      "https://twitter.com/Marc_IRL/status/765563933981802496",
+      "https://twitter.com/Marc_IRL/status/768062771795726337",
+      "https://twitter.com/Marc_IRL/status/768124243867492353",
+      "https://web.archive.org/web/20161119041338/https://www.mojang.com/2016/11/bop-a-buddy-or-journey-through-jungles/",
+      "https://twitter.com/Marc_IRL/status/809865912379535360",
+      "https://twitter.com/Marc_IRL/status/809867227587481604",
+      "https://twitter.com/Marc_IRL/status/809868159066849280",
+      "https://twitter.com/Marc_IRL/status/809870885460983808",
+      "https://www.minecraft.net/article/new-realms-jolly-holly-folly",
+      "https://twitter.com/Marc_IRL/status/852904086257184769",
+      "https://twitter.com/Marc_IRL/status/852905261366988801",
+      "https://www.minecraft.net/article/new-realms-fireworks-and-freeform-forts",
+      "因未知原因，直到2017年7月3日才被添加。",
+      "https://www.minecraft.net/article/new-realms-easter-egg-factory",
+      "https://www.minecraft.net/article/new-realms-caves-crashing-and-clockwork",
+      "https://www.minecraft.net/article/new-realms--totally-twisted",
+      "https://www.minecraft.net/article/new-realms--blast-past",
+      "New on Java Realms: December 2025，来自hexakon。YouTube，2025年12月19日。",
+      "We've had a few small gatherings but nothing official until 2019. This year was the third official one I suppose.，来自@TheChopper2112。X（曾名Twitter），2021年3月17日。",
+      "https://x.com/TheChopper2112/status/1640088731758780417",
+      "https://x.com/YeggsStudios/status/1505285548092665860",
+      "https://www.reddit.com/r/realms/comments/m51tnc/we_held_another_realms_mapmaker_cape_event_and/",
+      "https://www.reddit.com/r/realms/comments/1bq01rr",
+      "https://docs.google.com/document/d/1ornjKlMOZ4HZBWh8l1HET--A09U2FY5JT6bTug-5LXo/edit?tab=t.0#heading=h.dqp5a17hxj00",
+      "How I WON Mojang‘s Map Making Contest，来自MrCube6。YouTube，2025年3月13日。",
+      "https://docs.google.com/spreadsheets/d/1e4iMoCZdKfU0mQSjser4oAal6fTVWPezTUD5MwylXbg/edit?gid=0#gid=0",
+      "https://docs.google.com/spreadsheets/d/1OHMo3sOfdI6lH-JF1Ur5-WFFWW4aBbPuhH-6FNOn4pM/edit?gid=0#gid=0"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100624",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100624",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年6月24日\n下载\n客户端（.json）\nal_version\n1.133\n◄◄Infdev 20100618\nInfdev 20100625-1917►►\nInfdev 20100625-0922►\nMinecraft Infdev的一个版本发布于2010年6月24日，修复了一些漏洞。\n新内容\n非生物实体\n矿车\n可乘坐且无法被开启的矿车。\n常规\n控制\n按下F6会显示性能图表。\n更改\n方块\n羊毛\n移除了除了白色羊毛以外的所有羊毛。\n白色羊毛的ID由36改为35。\n无限水源和无限熔岩源\n被移除。\n世界中仍然存在的ID为52或53的方块或物品在被加载时会导致游戏崩溃。\n铁轨\n调整了铁轨铺设代码。\n物品\n矿车\n更改了纹理。\n生物\n羊\n现在掉落白色羊毛。\n世界生成\n云\n更改了高品质画质下云的纹理。\n常规\n更改了世界生成器，以避免山过高从而被高度限制切断。\n常规\n存档功能\n新的储存文件格式。\n储存得到的世界文件很大。\n崩溃\n新的崩溃报告画面。\n修复\n修复了2个漏洞\n更佳FPS。\n更少崩溃。\n参考\nHere’s a review of something I recently bought（存档） — The Word of Notch，2010年6月24日。\n导航"
+}

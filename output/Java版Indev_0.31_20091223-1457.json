@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 0.31 20091223-1457",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20091223-1457",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n0.31\n版本\nJava版\n发布时间\n2009年12月23日\n下载\n不可用\nal_version\n未知\n◄◄0.30\nMinecraft Indev►►\n◄0.31 20091223-0040\n0.31 20091223-1459►\n0.31的一个版本发布于2009年12月23日14:57（UTC），加入了火把。\n新内容\n方块\n火把\n一种装饰性方块。\n不会自然生成在世界中。\n可以提供光照。\n更改\n方块\n草方块\n现在在光线稍暗的地方也可以蔓延。\n树苗\n现在在较暗处不会消失。\n水\n更改了侧面纹理。\n现在有竖直的线条向下流动。\n树叶\n现在会产生阴影。\n正因如此，树附近的草方块会变成泥土。\n参考\nIRC记录, minecraft.20091222.log. (UTC−5)\nTree shadows, grass growing in slightly lit tiles, and torch tiles（存档） — The Word of Notch，2009年12月23日。\nminecraft.20091222的IRC记录: \"(09:00:31) <Iguana> What's in the new update? \"...\" (09:01:10) <08Notch> torches\"\n导航"
+}

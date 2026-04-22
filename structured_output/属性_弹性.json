@@ -1,0 +1,67 @@
+{
+  "title": "属性/弹性",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E5%BC%B9%E6%80%A7",
+  "structured_content": {
+    "默认分类": [
+      "本页面包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "0 – 1"
+    ],
+    "bounciness": [
+      "弹性（Bounciness）是控制生物碰撞后水平速度保留量的属性。"
+    ],
+    "行为": [
+      "非潜行状态下的生物如果和方块或可碰撞的实体发生了碰撞，则X方向和Z方向上的碰撞后速度分量等于对应的碰撞前速度分量与此属性计算值的乘积。",
+      "潜行状态下的生物在碰撞后永远丢失所有速度，不论此属性的计算值为何。"
+    ],
+    "所有生物": [
+      "0.0"
+    ],
+    "bouncy_add_bounciness": [
+      "add_value (Op0)",
+      "0.9"
+    ],
+    "fast_flat_add_bounciness": [
+      "add_value (Op0)",
+      "0.2"
+    ],
+    "fast_sliding_add_bounciness": [
+      "add_value (Op0)",
+      "0.1"
+    ],
+    "high_resistance_add_bounciness": [
+      "add_value (Op0)",
+      "0.2"
+    ],
+    "light_add_bounciness": [
+      "add_value (Op0)",
+      "1.0"
+    ],
+    "regular_add_bounciness": [
+      "add_value (Op0)",
+      "0.5"
+    ],
+    "slow_flat_add_bounciness": [
+      "add_value (Op0)",
+      "0.2"
+    ],
+    "slow_sliding_add_bounciness": [
+      "add_value (Op0)",
+      "0.1"
+    ],
+    "sticky_add_bounciness": [
+      "add_value (Op0)",
+      "0.0"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了弹性。"
+    ]
+  }
+}

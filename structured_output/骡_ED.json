@@ -1,0 +1,21 @@
+{
+  "title": "骡/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%AA%A1%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "马类共通标签，见Template:Nbt inherit/horse/source"
+    ],
+    "*": [
+      "*ChestedHorse：表示骡身上是否带箱子。",
+      "Items：（当*",
+      "*ChestedHorse为true时存在并有效）物品栏列表。骡共有15个槽位，超过槽位范围的物品无效。",
+      "：一个物品。",
+      "物品共通标签，见Template:Nbt inherit/item/source"
+    ]
+  }
+}

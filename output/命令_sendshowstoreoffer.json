@@ -1,0 +1,5 @@
+{
+  "title": "命令/sendshowstoreoffer",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsendshowstoreoffer",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\nsendshowstoreoffer\n需要的权限等级\n4\n限制条件\n启用作弊\n仅专用服务端\n向玩家发送显示商店特惠的请求。\n语法\nsendshowstoreoffer <player: target> <redirectType: RedirectLocation> <offerId: string>\nsendshowstoreoffer <player: target> server\n参数\nplayer: target：CommandSelector<Player>\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\nredirectType: RedirectLocation：enum\n指定请求类型，可用值有：\nmarketplace\ncharacter\nofferId: string：string\n指定商店特惠ID。\n必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n导航"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Java版标签/猫变种",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E7%8C%AB%E5%8F%98%E7%A7%8D",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。",
+      "猫变种标签（Cat Variant Tags）是猫变种的组合。"
+    ],
+    "使用": [
+      "猫变种标签不可被主动调用，它们被游戏用来控制猫的变种选择。"
+    ],
+    "default_spawns": [
+      "在村庄中生成时，每天都可以生成的猫变种。该行为被spawn_conditions替代。",
+      "添加于：22w13a。移除于：25w04a。",
+      "标签内容：",
+      "#default_spawns（10项）"
+    ],
+    "full_moon_spawns": [
+      "在村庄中生成时，只在满月时可以生成的猫变种。该行为被spawn_conditions替代。",
+      "添加于：22w13a。移除于：25w04a。",
+      "标签内容：",
+      "#full_moon_spawns（2项）"
+    ],
+    "Java版": [
+      "1.19",
+      "22w14a",
+      "加入了猫变种标签：#default_spawns和​#full_moon_spawns。",
+      "pre1",
+      "将猫变种标签#default_spawns中的british替换为british_shorthair。",
+      "1.21.5",
+      "25w04a",
+      "移除了猫变种标签。"
+    ]
+  }
+}

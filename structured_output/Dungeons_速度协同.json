@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:速度协同",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%80%9F%E5%BA%A6%E5%8D%8F%E5%90%8C",
+  "structured_content": {
+    "SpeedSynergy": [
+      "使用法器后会在短时间内增加20%的移动速度。"
+    ],
+    "——魔咒描述": [
+      "速度协同（Speed Synergy）是Minecraft Dungeons中的魔咒，效果为使用任意法器后提高20%的移动速度。持续时间随着魔咒等级提升而延长。"
+    ],
+    "I": [
+      "1秒时长",
+      "1 附魔点数"
+    ],
+    "II": [
+      "2秒时长",
+      "2 附魔点数"
+    ],
+    "III": [
+      "3秒时长",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了速度协同。",
+      "1.3.2.0",
+      "魔咒也可以在使用雷霆法杖和腐化信标时触发了。"
+    ]
+  }
+}

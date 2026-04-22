@@ -1,0 +1,113 @@
+{
+  "title": "Java版Beta 1.8 (PAX Prime)",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Beta_1.8_%28PAX_Prime%29",
+  "structured_content": {
+    "默认分类": [
+      "此条目记录了从未发布的版本。",
+      "尽管它未公开发布过，但有证据证明这个版本的确存在。",
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "Beta 1.8 (PAX Prime)"
+    ],
+    "开发时间": [
+      "2011年8月25日"
+    ],
+    "预览版归属": [
+      "Beta 1.8"
+    ],
+    "不可用": [
+      "◄◄Beta 1.7.3",
+      "1.0.0►►",
+      "Beta 1.8-trailer►",
+      "在PAX Prime 2011上，Mojang展示了早期开发的Beta 1.8版本。该版本于2011年8月25日编译，并在第二天的活动中展示给公众。",
+      "与Java版Beta 1.8-pre1的不同"
+    ],
+    "枯萎的灌木": [
+      "缺少提示框。"
+    ],
+    "藤蔓": [
+      "缺少提示框。"
+    ],
+    "箱子": [
+      "仍然使用完整方块的模型。"
+    ],
+    "栅栏门": [
+      "缺少提示框。",
+      "在物品栏中显示为平面纹理：。"
+    ],
+    "仙人掌": [
+      "对玩家造成伤害时会补充其饥饿值。"
+    ],
+    "常规": [
+      "每个生物死亡时都会掉落十个单独的经验球。",
+      "被动生物受到攻击时不会跑来跑去。",
+      "创建世界时玩家会生成在村庄中。"
+    ],
+    "猪": [
+      "使用有扁平鼻子的旧模型。"
+    ],
+    "末影人": [
+      "死亡时掉落0-2个钻石。"
+    ],
+    "玫瑰": [
+      "会在世界中生成。"
+    ],
+    "村庄": [
+      "会生成在任何生物群系，包括海洋。"
+    ],
+    "沙漠": [
+      "一层沙子会生成在泥土上。"
+    ],
+    "沼泽": [
+      "作为一个占位符生物群系。",
+      "生物群系颜色与平原相同。",
+      "不会生成树和矮草丛。"
+    ],
+    "针叶林": [
+      "作为一个占位符生物群系。",
+      "生物群系颜色与平原相同。",
+      "会有稀疏的树木生成。",
+      "不会生成矮草丛。"
+    ],
+    "风袭丘陵": [
+      "不会生成矮草丛。"
+    ],
+    "海洋": [
+      "不会生成矮草丛。"
+    ],
+    "物品栏": [
+      "[[|]][[|]][[|]]64[[|]]4[[|]][[|]]64",
+      "玩家在生存模式创建世界时会携带以上物品。"
+    ],
+    "疾跑": [
+      "一次仅持续五秒，在此期间移动速度和视野都会减小。"
+    ],
+    "平视显示器": [
+      "当玩家的经验等级至少为1时，在经验条的顶部就会显示玩家的“Skill point”，其的数量是经验等级的三倍。",
+      "版本号不会在左上角出现。"
+    ],
+    "控制": [
+      "按键绑定不能绑定到鼠标。",
+      "只需要按下F键即可调节渲染距离，而无需另外按下F3键。"
+    ],
+    "主菜单": [
+      "使用了旧的Mojang徽标。"
+    ],
+    "多人游戏": [
+      "多人游戏屏幕没有“刷新”按钮。"
+    ],
+    "光照": [
+      "使用旧的更新代码。"
+    ],
+    "你知道吗": [
+      "该版本是PAX Prime 2011中能在现场游玩两个版本中的一个，另外一个是携带版Demo。"
+    ],
+    "参考": [
+      "Files have been copied to a USB stick. We will be installing 1.8 onto a bunch of computers here at PAX tomorrow. :D Now I sleep! <3，来自@notch。X（曾名Twitter），2011年8月25日。",
+      "Strangely, running into a cactus refreshes the food bar. I assume @jeb_ added some debug code.，来自@notch。X（曾名Twitter），2011年8月31日。",
+      "I spent most of today tweaking stuff for 1.8. You can bind any action to a mouse button now, or to a keyboard key. Really helps trackpads.，来自@notch。X（曾名Twitter），2011年9月1日。",
+      "I am very sorry, but I took away the fog-toggle key. Next up, I'm removing jumping and cubes.，来自@notch。X（曾名Twitter），2011年9月2日。",
+      "Committing new light update code. It's quite a bit more stable, so far.，来自@notch。X（曾名Twitter），2011年9月5日。"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "缤纷更新",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BC%A4%E7%BA%B7%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/缤纷更新以查看缤纷更新的指南。",
+      "见Java版指南/缤纷更新以查看缤纷更新的指南。"
+    ],
+    "Mojang发布的缤纷更新的图像": [
+      "缤纷更新（Bountiful Update）是Java版的一次主要更新，发布于2014年9月2日。本次更新的名称是Mojang官方博客于2014年8月22日公布的。本次更新的两个主要内容分别针对地图制作和生存元素。",
+      "此次更新的开发始于14w02a，其发布于2014年1月9日。"
+    ],
+    "重要特性": [
+      "主条目：Java版1.8"
+    ],
+    "新内容": [
+      "5条新的游戏规则",
+      "36种新方块：花岗岩、安山岩、闪长岩和各自的磨制变种；3种海晶石；与红砂岩相关的5种方块；5种材料的门、栅栏及栅栏门；以及海晶灯、湿海绵、黏液块、砂土、屏障、铁活板门和旗帜",
+      "新的水下结构：海底神殿",
+      "3种新生物：末影螨，守卫者和兔子"
+    ],
+    "logAdminCommands、randomTickSpeed、reducedDebugInfo、sendCommandFeedback和showDeathMessages": [
+      "5种新的统计信息"
+    ],
+    "crouchOneCm、sprintOneCm、talkedToVillager、timeSinceDeath和tradedWithVillager": [
+      "12种新的命令"
+    ],
+    "/blockdata、/clone、/entitydata、/execute、/fill、/particle、/replaceitem、/stats、/testforblocks、/title、/trigger和/worldborder": [
+      "13种新的NBT标签"
+    ],
+    "高级OpenGL被移除以支持高级洞穴剔除算法": [
+      "使用64位Java和分配2GB内存给游戏时渲染距离最远为32个区块"
+    ],
+    "跟进版本": [
+      "Java版1.8.1带来了性能优化和漏洞修复；",
+      "Java版1.8.2带来了新的统计和调试屏幕的渲染图表，以及性能优化和漏洞修复；",
+      "Java版1.8.3在Java版1.8.2后很快发布来修复其中的崩溃；",
+      "在Java版1.8.4、Java版1.8.5、Java版1.8.6和Java版1.8.7中，对一些漏洞进行了修复；",
+      "Java版1.8.8中包含了新的Realms小游戏，在Realms中使用纹理包的功能，以及更多漏洞的修复。",
+      "Java版1.8.9添加了Realms通知功能，并修复了一些漏洞。"
+    ],
+    "你知道吗": [
+      "Java版1.8到Java版1.8.9的所有版本协议版本相同，也就是说它们互相兼容。"
+    ],
+    "参考": [
+      "https://twitter.com/jeb_/status/502754167518404608",
+      "http://tomcc.github.io/2014/08/31/visibility-1.html"
+    ]
+  }
+}

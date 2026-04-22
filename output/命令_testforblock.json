@@ -1,0 +1,5 @@
+{
+  "title": "命令/testforblock",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftestforblock",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\n此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\ntestforblock\n需要的权限等级\n1\n限制条件\n启用作弊\n探测某个方块是否在特定位置。\n语法\ntestforblock <position: x y z> <tileName: Block> [blockStates: block states]\n参数\nposition: x y z：CommandPosition\n指定待探测的方块的坐标。\n必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。不可超出正常游戏范围。\ntileName: Block：enum\n指定要探测的方块类型。\n必须为方块ID。\nblockStates: block states：BlockStateCommandParam\n指定要探测的方块状态。\n必须为格式为[\"<键1>\"=<值1>,\"<键2>\"=<值2>,...]的方块状态（例如：[\"old_leaf_type\"=\"birch\",\"persistent_bit\"=true]）。\n结果\n命令\n触发条件\n基岩版\n任意\n命令未完整或参数未正确指定\n无法解析\n指定的位置未加载或在世界外\n执行失败\n指定位置上的方块与指定的方块ID或状态不匹配\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n1\n示例\n检测坐标(0,64,0)处是否为箱子：/testforblock 0 64 0 chest\n检测下方方块是否为点亮的铜灯：/testforblock ~ ~-1 ~ copper_bulb[\"lit\"=true]\n历史\nJava版\n1.7.2\n13w37a\n加入了/testforblock。\n1.11\n16w32a\n为/testforblock加入了方块状态的支持。\n1.13\n17w45a\n移除了/testforblock，并加入/execute if block取代其功能。\n携带版Alpha\n0.16.0\nbuild 1\n加入了/testforblock。\n基岩版\n1.19.70\n1.19.70.21\n移除了dataValue: int参数。\n导航"
+}

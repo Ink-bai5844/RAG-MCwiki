@@ -1,0 +1,5 @@
+{
+  "title": "Tutorial:编写启动器/version manifest.json/示例内容",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E7%BC%96%E5%86%99%E5%90%AF%E5%8A%A8%E5%99%A8%2Fversion_manifest.json%2F%E7%A4%BA%E4%BE%8B%E5%86%85%E5%AE%B9",
+  "text": "{\"latest\":{\"release\":\"1.19\",\"snapshot\":\"22w24a\"},\"versions\":[{\"id\":\"22w24a\",\"type\":\"snapshot\",\"url\":\"https://piston-meta.mojang.com/v1/packages/b74d6df246b9b60e39855076ef171aa7071276f7/22w24a.json\",\"time\":\"2022-06-15T16:26:14+00:00\",\"releaseTime\":\"2022-06-15T16:21:49+00:00\"},{\"id\":\"1.19\",\"type\":\"release\",\"url\":\"https://piston-meta.mojang.com/v1/packages/b03af5eb291163f7acc042d1553f2d212b220ecc/1.19.json\",\"time\":\"2022-06-15T16:13:27+00:00\",\"releaseTime\":\"2022-06-07T09:42:18+00:00\"},...]}"
+}

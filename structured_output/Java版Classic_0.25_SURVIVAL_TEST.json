@@ -1,0 +1,68 @@
+{
+  "title": "Java版Classic 0.25 SURVIVAL TEST",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.25_SURVIVAL_TEST",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.25 SURVIVAL TEST"
+    ],
+    "发布时间": [
+      "2009年9月3日"
+    ],
+    "未知": [
+      "◄◄0.24_SURVIVAL_TEST",
+      "0.26 SURVIVAL TEST►►",
+      "◄0.24_SURVIVAL_TEST_03",
+      "0.25_05 SURVIVAL TEST►",
+      "0.25 SURVIVAL TEST是Java版的一次更新，发布于2009年9月3日，修复了一些漏洞。"
+    ],
+    "常规": [
+      "现在可以保存和加载世界。",
+      "生物现在移动的更快，并且有了更大的跟随半径。",
+      "生物会在更远的地方观察到玩家。",
+      "生物现在随时间而消失。",
+      "玩家现在带着20支箭生成。"
+    ],
+    "猪": [
+      "现在会掉落0-2个棕色蘑菇。"
+    ],
+    "骷髅": [
+      "攻击方式改为远程攻击。",
+      "现在会发射紫色的箭。",
+      "现在死亡时会随机向周围短距离内射出4-9支箭。"
+    ],
+    "怪物": [
+      "现在会互相攻击，但这在骷髅之间不会发生。"
+    ],
+    "箭": [
+      "更改了纹理。",
+      "现在能飞得更远。"
+    ],
+    "平视显示器": [
+      "在右上角现在会显示分数。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "箭矢飞行时间超过1秒后现在也会造成伤害了。",
+      "修复了可以穿墙攻击怪物的问题。"
+    ],
+    "重新上传": [
+      "该版本于16:15（UTC）被第一次重新上传，将箭的伤害从7（）更改为3（）。",
+      "该版本于16:26（UTC）被第二次重新上传，在死亡界面加入了“加载世界（Load Level）”按钮。",
+      "该版本于16:58（UTC）被第三次重新上传，现在箭在方块上会停留更长时间，可以通过URL加载世界，以及玩家不能再单击右键来造成伤害了。"
+    ],
+    "参考": [
+      "IRC记录 on Archive.org; #minecraft.20090903.log. 2009年9月3日 (UTC−5)。",
+      "Survival Mode test updated to 0.25（存档） — The Word of Notch，2009年9月3日。",
+      "IRC记录: \"A11:15:20 <08Notch> Evil-Ville: Actually, there was a bug. They didn't cause damage at all after one second flight time. :D\" (16:15:20 UTC)",
+      "IRC日志：“A11:15:16 <Real> do arrows have increased damage now that they're limited, Notch?”[...]“A11:15:29 <08Notch> Real: Yes, in a few seconds. ;)”",
+      "IRC记录: \"A11:26:38 <08Notch> ok, I fixed the creeper craters\" [...] \"A11:26:43 <08Notch> and added a load button to the death screen\" (16:26 UTC)",
+      "IRC记录: \"A11:58:33 <08Notch> i didn't bump the number :-O\" [...] \"A11:58:56 <Quatroking> Notch: but we do have a new version?\" [...] \"A11:59:11 <08Notch> yes, Quatroking \" (16:58至16:59 UTC)",
+      "Minecraft survival update, attacked by skeletons，来自citricsquid。YouTube，2009年9月3日 17:21:06 UTC。 | As cited in IRC logs: \"P12:02:24 <citricsquid> got a video :D\" (17:02:24 UTC)",
+      "IRC记录: \"A11:57:05 <08Notch> level loading will work any second now\", \"A11:57:08 <08Notch> just uploaded a new index.jsp\" [...] \"A11:58:06 <08Notch> loading via url works now, yay\", \"A11:58:10 <08Notch> and arrows stay around much longer\" (16:58 UTC)",
+      "IRC记录: \"A11:51:55 <ZomBuster> Ill ask this again, can you stop mobs getting hurt from right-clicking?\" (16:51:55 UTC)"
+    ]
+  }
+}

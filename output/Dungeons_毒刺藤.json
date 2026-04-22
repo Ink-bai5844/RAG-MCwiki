@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:毒刺藤",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%AF%92%E5%88%BA%E8%97%A4",
+  "text": "此条目包含觉醒丛林的内容。\n毒刺藤\n行为\n敌对型\n毒刺藤（Poison Quill Vine）是Minecraft Dungeons中的DLC觉醒丛林中的生物。\n外观\n毒刺藤的外观像是速生藤上长着一朵紫色的毒花。\n生成\n关卡：\n昏暗丛林\n熊猫高原\n荒芜神庙\n树梢缠结\n高塔\n远古狩猎\n生物生成：\n唤藤者\n树梢唤藤者\n行为\n当玩家靠近毒刺藤时，它们会张开花瓣，向玩家发射毒刺来攻击玩家，并给予5秒中毒效果。当玩家远离时则会合上花瓣。\n与速生藤不同，它们会停留在地面上，而不会钻回地下。\n音效\n旧音效\n音效\n描述\n文件\n钻出地面\nDLC_mob_poisvine_burst\n张开花瓣\nDLC_mob_poisvine_open_mouth_F\n合拢花瓣\nDLC_mob_poisvine_close_mouth_F\n受损 （击打声）\nDLC_mob_poisvine_dmg_F\n受损 （人声采样）\nDLC_mob_poisvine_dmg_V\n发射毒刺\nDLC_mob_poisvine_firing\n空闲\nDLC_mob_poisvine_idle_03_F\n新音效\n音效\n描述\n文件\n钻出地面\nDLC_mob_poisvine_burst_New\n张开花瓣\nDLC_mob_poisvine_open_mouth_F_New\n合拢花瓣\nDLC_mob_poisvine_close_mouth_F_New\n死亡\nDLC_mob_poisvine_destroyed_New\n受损 （人声采样）\nDLC_mob_poisvine_dmg_V_New\n毒液喷射\nDLC_mob_poisvine_firing_New\n历史\nMinecraft Dungeons\n1.3.2.0\n加入了毒刺藤。\n相关变种\n毒海葵\n导航"
+}

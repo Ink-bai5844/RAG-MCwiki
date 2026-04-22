@@ -1,0 +1,293 @@
+{
+  "title": "Java版23w06a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8823w06a",
+  "structured_content": {
+    "默认分类": [
+      "23w06a"
+    ],
+    "发布时间": [
+      "2023年2月8日"
+    ],
+    "快照归属": [
+      "1.19.4"
+    ],
+    "协议版本": [
+      "DEC: 1073741942",
+      "HEX: 40000076"
+    ],
+    "数据版本": [
+      "3326"
+    ],
+    "资源包版本": [
+      "12"
+    ],
+    "数据包版本": [
+      "12",
+      "◄◄1.19.3",
+      "1.20►►",
+      "◄23w05a",
+      "23w07a►",
+      "23w06a是Java版1.19.4的第4个快照，发布于2023年2月8日，加入了3种展示实体、/damage命令、伤害类型和伤害类型标签，并修复了一些漏洞。"
+    ],
+    "展示实体": [
+      "包括方块展示实体、物品展示实体和文本展示实体三个实体，其ID分别为block_display、​item_display和​text_display，分别用于灵活展示方块、物品和文本。",
+      "与标记（marker）相同，不会导致任何更新，不会与其他实体碰撞，没有物理效果。",
+      "模型在实体所在的位置渲染，并正常绕X轴和Y轴旋转（即可以被传送类命令控制旋转角度），但同时也受到任意的模型变换影响。",
+      "加入了2种新的数据类型，每种数据类型接受2种形式，但只有其中1个用于存档，如下所示："
+    ],
+    "rotation": [
+      "四元数形式（用于存档）：由4个数字组成的数组，分别描述 (x, y, z, w) 这4个分量。",
+      "轴-角度形式：具有以下字段的复合标签：",
+      "axis：三维向量。",
+      "angle：角度（弧度制）。",
+      "transformation：任意的仿射变换，由以下字段组成并由以下顺序合成：",
+      "矩阵形式：由16个数字组成的数组，描述一个行主序（Row-major）矩阵。",
+      "分解形式（用于存档）：具有以下字段的复合标签：",
+      "translation：三维向量。",
+      "left_rotation：rotation对象。",
+      "scale：三维向量。",
+      "right_rotation：rotation对象。",
+      "这些实体的部分属性可插值，以在客户端营造渐变效果，而非跳跃式的突变。",
+      "这些实体会记录插值的“当前值”和“先前值”：",
+      "以下所有被标记为“可插值”的属性都是单个插值集的一部分。",
+      "所有对可插值的属性的更新都会导致插值集里面的所有值被保存为“当前值”。",
+      "不改变属性值的data命令的执行（即便属性存在于NBT中）不算作更新。",
+      "每个刻同步到客户端的更新最多只有一次，即命令内的多个更新依然算一次更新。",
+      "上一批“当前值”被保存为“先前值”。",
+      "启用插值时，实体会随时间在“先前值”和“当前值”之间变化。",
+      "插值起点（实体完全处于“先前值”状态）由字段interpolation_start（游戏时间，单位为刻）定义。",
+      "设为-1将加载当前游戏时间。",
+      "插值终点（实体完全处于“当前值”状态）定义为interpolation_start + interpolation_duration（单位为刻）。",
+      "三个实体都具有以下字段：",
+      "transformation：应用于模型的transformation（经过正常的实体旋转后）。默认为单位矩阵，可插值。",
+      "billboard：用于控制这些实体渲染时是否应该旋转面对玩家：",
+      "fixed：无旋转（默认）。",
+      "vertical：实体可绕垂直轴旋转。",
+      "horizontal：实体可绕水平轴旋转。",
+      "center：实体可以绕中心点旋转。",
+      "brightness：若存在，覆盖渲染所用的亮度值。默认省略（即渲染时会使用实体所在的地方的光照）。该复合标签有两个字段：",
+      "sky：天空光照的值，0至15。",
+      "block：方块光照的值，0至15。",
+      "view_range：此实体的最大可视范围。实际距离也取决于客户端的渲染距离和实体渲染距离。默认值为1.0（与火球大致相同）。",
+      "shadow_radius：实体阴影的大小。默认为0（无阴影）。可插值。",
+      "shadow_strength：实体阴影的强度。作为随与下方方块的距离而变化的函数，控制阴影的不透明度。默认为1。可插值。",
+      "width和​height：描述剔除边界框（Culling bounding box）的大小。边界框自实体位置的所有方向纵向伸展y至y+height，横向伸展width/2。若其中一个字段设为0，则禁用剔除。默认都为0。",
+      "glow_color_override：覆盖发光边框颜色。默认为0（使用队伍的颜色）。",
+      "除去这些共通字段外，各个实体由于其类型不同，也具有一些特有字段：",
+      "物品展示实体（item_display）：展示单个物品堆（Item stack，可通过命令设置槽位inventory.0更改）。",
+      "item：要展示的物品，格式与物品栏中物品的相同。",
+      "示例：{id: \"minecraft:dirt\", Count: 1}",
+      "item_display：描述应用到物品模型的变换（定义于模型JSON的display部分）：",
+      "可用值：none（无，默认）、thirdperson_lefthand、​thirdperson_righthand、​firstperson_lefthand、​firstperson_righthand、​head、​gui、​ground和​fixed。",
+      "方块展示实体（block_display）：展示单个方块状态，但不会展示方块实体，即使在一般情况下方块放置时会随即创建方块实体（比如箱子）。",
+      "block_state：要展示的方块状态。格式与末影人手持的物品相同。",
+      "示例：{Name:\"minecraft:dirt\"}",
+      "文本展示实体（text_display）：展示文本组件（背景使用新的着色器类型 rendertype_text_background和​rendertype_text_background_see_through）。",
+      "text：要展示的文本。解析文本组件时，会使用该实体所在的上下文。",
+      "line_width：用于控制换行的行宽（但需要插入新行也可以用\\n字符）。默认为200。",
+      "text_opacity：被渲染文本的不透明度（Alpha部分）。默认为255。可插值。",
+      "background：背景颜色。包括Alpha通道。默认为0x40000000。可插值。",
+      "default_background：若为true，则渲染时使用默认的背景颜色（与聊天栏相同）。默认为false。",
+      "shadow：文本是否显示阴影。默认为false。",
+      "see_through：文本是否可以穿透方块显示。默认为false。",
+      "alignment：文字对齐方向。",
+      "可用值：center（默认）、left和​right。"
+    ],
+    "游戏规则": [
+      "加入了doVinesSpread，默认为true，用于决定藤蔓是否会向周围扩散，不影响洞穴藤蔓、缠怨藤和垂泪藤。"
+    ],
+    "/damage": [
+      "用于对指定实体造成伤害，语法如下："
+    ],
+    "/damage <target> <amount> [<damageType>] [by <entity>] [from <cause>]": [
+      "参数：",
+      "target：要被伤害的实体。",
+      "amount：要造成的伤害值。",
+      "damageType：要造成的伤害的类型。决定伤害影响实体的方式，以及要显示出来的死亡消息。",
+      "location：伤害源位置（若无实体造成了伤害）。",
+      "例如，此值可代表下界中床爆炸的位置。",
+      "entity：造成伤害的实体。",
+      "cause：间接造成的伤害的来源实体。",
+      "例如，当实体被骷髅射箭击中时，entity为箭，cause为骷髅。"
+    ],
+    "/execute": [
+      "加入了/execute summon子命令，语法如下："
+    ],
+    "/execute summon <entity> -> execute": [
+      "此子命令用于立即创建一个实体，并同时将命令执行者（@s）设为此实体。此功能用于简化实体设置过程并减少对原始NBT编辑的需求。"
+    ],
+    "常规": [
+      "为专用服务器命令行加入了--pidFile参数，用于将服务端的进程ID（PID）写入到特定文件中。"
+    ],
+    "数据包": [
+      "加入了伤害类型，作为一种新的注册表项，用于决定游戏如何处理伤害。",
+      "包括伤害应该具有哪些属性，以及实体因此类型伤害死亡时需要使用哪种死亡消息。示例如下：",
+      "{\"exhaustion\":0.1,\"message_id\":\"arrow\",\"scaling\":\"when_caused_by_living_non_player\"}",
+      "已定义的字段如下：",
+      "message_id：用于此伤害类型的消息ID，将与其他字符串片段组合成完整的翻译字符串。",
+      "exhaustion：此伤害类型所造成的饥饿等级的提升量。",
+      "scaling：难度是否影响该伤害对玩家的伤害值，可为下列值：",
+      "never：难度不影响该伤害对玩家的伤害值。",
+      "always：难度总是影响该伤害对玩家的伤害值。",
+      "when_caused_by_living_non_player：难度仅在该伤害有玩家以外的生物来源时才会影响该伤害对玩家的伤害值。",
+      "effects：可选，伤害施加于玩家时的表现形式，可为下列值：",
+      "hurt（默认值）：一般受伤音效。",
+      "thorns：荆棘受伤音效。",
+      "drowning：溺水音效。",
+      "burning：1游戏刻的着火音效。",
+      "poking：甜浆果丛刺伤音效。",
+      "freezing：冻结音效。",
+      "death_message_type：可选，用于指定是否使用死亡消息的特殊变体，可为下列值：",
+      "default（默认值）：不显示特殊死亡消息。",
+      "fall_variants：显示摔落类死亡消息（如death.fell.assist.item）。",
+      "intentional_game_design：显示“刻意的游戏设计”类死亡消息。",
+      "伤害类型标签决定解释来自不同来源的伤害的方式。",
+      "版本更改为12。"
+    ],
+    "选项": [
+      "加入了“受伤抖动效果”辅助功能选项，用于控制受到伤害时视角抖动的量。",
+      "在“按键绑定”屏幕中加入了按键冲突时的提示框。",
+      "“通知显示时长”辅助功能选项的英文名称由“Notification Display Time”改为“Notification Time”。",
+      "现在，若选项按钮文本过长，文本会滚动显示。"
+    ],
+    "标签": [
+      "加入了下列伤害类型标签：",
+      "#always_most_significant_fall：out_of_world。",
+      "#always_triggers_silverfish：magic。",
+      "#avoids_guardian_thorns：magic。",
+      "#burns_armor_stands：on_fire。",
+      "#bypasses_armor：on_fire、​in_wall、​cramming、​drown、​fly_into_wall、​generic、​wither、​dragon_breath、​freeze、​starve、​fall、​freeze、​stalagmite、​magic、​indirect_magic、​out_of_world和​sonic_boom。",
+      "#bypasses_effects：starve。",
+      "#bypasses_enchantments：sonic_boom。",
+      "#bypasses_invulnerability：out_of_world。",
+      "#bypasses_resistance：out_of_world。",
+      "#damages_helmet：falling_anvil、​falling_block和​falling_stalactite。",
+      "#ignites_armor_stands：in_fire。",
+      "#is_drowning：drown。",
+      "#is_explosion：fireworks、​explosion、​player_explosion和​bad_respawn_point。",
+      "#is_fall：fall和​stalagmite。",
+      "#is_fire：in_fire、​on_fire、​lava、​hot_floor、​unattributed_fireball和​fireball。",
+      "#is_freezing：freeze。",
+      "#is_lightning：lightning_bolt。",
+      "#is_projectile：arrow、​trident、​mob_projectile、​unattributed_fireball、​fireball、​wither_skull和​thrown。",
+      "#no_anger：mob_attack_no_aggro。",
+      "#no_impact：drown。",
+      "#witch_resistant_to：magic、​indirect_magic、​sonic_boom和​thorns。",
+      "#wither_immune_to：drown。"
+    ],
+    "唱片机": [
+      "现在在播放音乐唱片时会产生音符粒子，以匹配基岩版。"
+    ],
+    "幽匿感测体": [
+      "现在可感测到属于以下游戏事件的动作：",
+      "block_change：",
+      "使用剪刀修剪洞穴藤蔓、海带、缠怨藤和垂泪藤。",
+      "采集发光浆果。",
+      "取下讲台上的书。",
+      "与物品展示框或荧光物品展示框中的物品互动。",
+      "将耕地踩踏成泥土。",
+      "为重生锚充能。",
+      "与堆肥桶交互。",
+      "block_place：",
+      "海龟和青蛙产卵。",
+      "container_close：",
+      "关闭运输矿车或运输船。",
+      "entity_dismount（新游戏事件，信号强度6）：",
+      "离开载具。",
+      "entity_interact：",
+      "给绵羊染色。",
+      "用拴绳拴住实体。",
+      "解除拴住实体的拴绳。",
+      "entity_mount（新游戏事件，信号强度7）：",
+      "进入载具。"
+    ],
+    "盾牌": [
+      "现在当放置到副手时会播放音效。"
+    ],
+    "漏斗矿车": [
+      "现在打开时不再会激怒猪灵。"
+    ],
+    "创建新的世界": [
+      "现在各标签页可通过按Ctrl + Tab ↹和Ctrl + ⇧ Shift + Tab ↹键切换。",
+      "现在可通过Ctrl + 标签页序号切换至指定标签页。",
+      "加入了实验性内容选择屏幕，用于更方便地启用或禁用实验性功能。",
+      "此屏幕总是可以在“更多”标签页中找到。",
+      "若为快照版本，此屏幕还可在“游戏”标签页中快捷进入。"
+    ],
+    "创造模式物品栏": [
+      "向“功能方块”分类中加入了各种画。",
+      "若为预定义的种类，其名称、作者和尺寸会显示在提示框中。",
+      "其他4种不能在生存模式下获取的画位于“管理员用品”中。",
+      "向“原材料”分类中加入了火焰弹。"
+    ],
+    "options.txt": [
+      "移除了heldItemTooltips。"
+    ],
+    "谓词": [
+      "移除了伤害类型谓词中的is_projectile、​is_explosion、​bypasses_armor、​bypasses_invulnerability、​bypasses_magic、​is_fire、​is_magic和​is_lightning字段。",
+      "加入了新的tags数组。数组内的每一项都有以下字段：",
+      "id：伤害类型标签的命名空间ID。",
+      "expected：指定的伤害类型标签是否要被谓词用于匹配过程。"
+    ],
+    "盔甲": [
+      "将iron与iron_darker调色板对调后整体加深了iron_dark调色板的颜色。",
+      "在chestplate_trim带纹饰盔甲物品纹理上添加了一个颜色最深的像素点。"
+    ],
+    "修复": [
+      "修复了43个漏洞",
+      "1.19前正式版的漏洞",
+      "MC-12729 — 实体穿着的护腿和靴子上会出现深度冲突。",
+      "MC-145765 — 辅助功能选项中的“文本背景”和“文本背景不透明度”两个选项的设置文本会超出按钮范围。",
+      "MC-156443 — 在一些语言中，文本会太长并超出按钮范围。",
+      "MC-198874 — 打开漏斗不激怒猪灵，但打开漏斗矿车会。",
+      "MC-209622 — 幽匿感测体不能感测到与物品展示框和荧光物品展示框的交互动作。",
+      "MC-209896 — 向重生锚中放荧石的充能动作不激活幽匿感测体。",
+      "MC-209929 — 填充堆肥桶不激活幽匿感测体。",
+      "MC-210276 — 踩踏耕地不激活幽匿感测体。",
+      "MC-210294 — 骑乘或脱离非生物实体不激活幽匿感测体。",
+      "MC-210334 — 给绵羊染色不激活幽匿感测体。",
+      "MC-210707 — 关闭运输船、运输竹筏或运输矿车不激活幽匿感测体。",
+      "MC-210715 — 为实体上拴绳或下拴绳不激活幽匿感测体。",
+      "MC-212501 — 从讲台上取书不激活幽匿感测体。",
+      "MC-213803 — 从洞穴藤蔓上收取发光浆果不激活幽匿感测体。",
+      "MC-215767 — 海龟下蛋不激活幽匿感测体。",
+      "MC-233972 — 按键绑定菜单中，正在给按键分配功能时或一个按键被分配了多个功能时，按钮文本会出现在按钮范围外。",
+      "MC-236988 — 对洞穴藤蔓、缠怨藤、垂泪藤或海带使用剪刀不激活幽匿感测体。",
+      "MC-237450 — “模拟距离”选项文本可以超出滑块范围。",
+      "MC-237879 — 村民在堆肥桶上工作不激活幽匿感测体。",
+      "MC-249878 — 音乐和声音选项菜单中的“设备”选项的文本可以出现在按钮范围外。",
+      "1.19的漏洞",
+      "MC-251917 — 将盾牌放入副手槽时不播放音效，也没有对应的字幕。",
+      "MC-251934 — 青蛙产卵不激活幽匿感测体。",
+      "MC-252434 — 手持拴绳时与栅栏交互不激活幽匿感测体。",
+      "1.19.2的漏洞",
+      "MC-257873 — 手持盔甲与盔甲槽中同种类的盔甲交换位置时不播放音效。",
+      "MC-258156 — 困难难度下，监守者对玩家与实体造成的伤害不相等。",
+      "1.19.3的漏洞",
+      "MC-258622 — 创造模式物品栏中，火焰弹不属于原材料。",
+      "1.19.4开发版本的漏洞",
+      "MC-259193 — “通知显示时长”选项文本可以超出滑块范围。",
+      "MC-259195 — 对另一个维度中的实体使用/ride命令会导致服务端与客户端间的不同步。",
+      "MC-259197 — 伤害倾斜效果不可通过辅助功能选项控制。",
+      "MC-259221 — 对无效实体使用/ride命令会使玩家传送到此实体的位置上。",
+      "MC-259224 — 用盾阻挡攻击会使伤害倾斜动画和受伤的红色效果播放出来。",
+      "MC-259227 — 单独执行/execute if loaded <pos>命令总是失败。",
+      "MC-259233 — 参数值过低的错误消息的英语文本中，各错误消息中的拼写不一致。",
+      "MC-259245 — 玩家看着被玩家用/ride骑乘的末影人时，末影人会一直传送。",
+      "MC-259247 — /execute on owner子命令不选中马、驴或骡的主人。",
+      "MC-259360 — selectWorld.mapFeatures.info字符串的英文文本中，“Shipwrecks”一词前缺少了一个逗号。",
+      "MC-259432 — chestplate_trim物品纹理上缺失了几个像素点。",
+      "MC-259442 — 不能按住⇧ Shift键将物品放入铁砧的第二个槽位。",
+      "MC-259454 — 堡垒遗迹中疣猪兽棚战利品箱的战利品表使用的是桥战利品箱的。",
+      "MC-259468 — empty_slot_amethyst_shard纹理不出现在锻造台槽位上。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-259599 — 手持的盔甲可以交换出已装备的附有绑定诅咒的盔甲。",
+      "MC-259635 — 用于盔甲纹饰的iron和iron_darker调色板被翻转了。",
+      "MC-259640 — iron和iron_darker两个调色板中最亮的三个像素是一样的。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 23w06a — Minecraft.net，2023年2月8日。"
+    ]
+  }
+}

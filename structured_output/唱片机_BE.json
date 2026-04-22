@@ -1,0 +1,12 @@
+{
+  "title": "唱片机/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%94%B1%E7%89%87%E6%9C%BA%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "RecordItem：唱片机内的音乐唱片。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "ticks_since_song_started：音乐唱片已经播放的时间，以游戏刻为单位。如果此值不存在则唱片机当前没有播放音乐唱片。"
+    ]
+  }
+}

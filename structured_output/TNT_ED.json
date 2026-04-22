@@ -1,0 +1,16 @@
+{
+  "title": "TNT/ED",
+  "source_url": "https://zh.minecraft.wiki/w/TNT%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "*block_state：用于显示的方块状态。此项不存在时游戏默认为TNT。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "explosion_power：TNT的爆炸威力，取值为0到128之间的浮点数，小于0时会被设为0，大于128时会被设为128。不存在时默认为4。"
+    ],
+    "*": [
+      "*fuse：（默认为80，单位为刻，即4秒）在爆炸之前要经过的时间，负值则在游戏刻计算时立刻爆炸。",
+      "owner：点燃该TNT的生物的UUID，用于计算爆炸伤害来源实体。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.590x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.590x",
+  "text": "2.1.5906/2.1.5907/2.1.5908\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2019年7月22日\n测试版归属\n2.1.596x\n◄◄2.1.5410\n2.1.961x►►\n◄2.1.581x\n2.1.5906（Windows）、2.1.5907（macOS）或2.1.5908（Linux）是启动器的一次更新，发布于2019年7月22日，修复了一些漏洞。\n修复\nMCL-10463 - Minecraft在启动时卡死。\nMCL-10963 - Application Data目录不随--workDir参数变化。\nMCL-11268 - 在启动游戏时，本地启动器不能正确地设置当前工作目录。\nMCL-11315 - 游戏目录的相对路径被使用两次。\nMCL-11393 - 在启动时，启动器有80-90％的概率卡死然后崩溃。\nMCL-11565 - 当按下“play”时启动器不加载游戏并报错：“Game Crashed”。\n修复了在某些系统中以错误的参数启动游戏的漏洞。\n修复了当设置了自定义目录的情况下以错误的目录设置启动游戏的漏洞。\n参考\nhttps://piston-meta.mojang.com/mc/launcher_beta_changelog.md\n导航"
+}

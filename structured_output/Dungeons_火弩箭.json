@@ -1,0 +1,59 @@
+{
+  "title": "Dungeons:火弩箭",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%81%AB%E5%BC%A9%E7%AE%AD",
+  "structured_content": {
+    "力量": [
+      "12"
+    ],
+    "速度": [
+      "1"
+    ],
+    "弹药上限": [
+      "1"
+    ],
+    "存档ID": [
+      "ExplodingCrossbow_Unique2",
+      "射出去的爆炸箭无疑能造成一连串的混乱。"
+    ],
+    "——物品描述": [
+      "火弩箭（Firebolt Thrower）是Minecraft Dungeons中的远程武器。它是爆炸弩的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "树梢缠结（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "火弩箭拥有很高的攻击力，极低的速度和弹药上限。初始弹药量为20。"
+    ],
+    "伤害值": [
+      "106",
+      "2614",
+      "113",
+      "3363"
+    ],
+    "击中物体": [
+      "sfx_item_explodingCrossbowUnique2ArrowImpactNormal"
+    ],
+    "击中物体（新）": [
+      "sfx_item_explodingCrossbowArrowUnique2ImpactNormal_Updated"
+    ],
+    "装备": [
+      "sfx_item_explodingCrossBowUnique2Equip"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了火弩箭。",
+      "1.13.1.0",
+      "优化了与其他远程魔咒的联动表现。",
+      "不再与导火索魔咒兼容。"
+    ],
+    "你知道吗": [
+      "火弩箭的游戏资源名称为Blazing Bomber。"
+    ]
+  }
+}

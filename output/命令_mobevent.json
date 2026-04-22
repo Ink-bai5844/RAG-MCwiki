@@ -1,0 +1,5 @@
+{
+  "title": "命令/mobevent",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fmobevent",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\nmobevent\n需要的权限等级\n1\n限制条件\n启用作弊\n控制或查询允许运行的生物事件。\n语法\nmobevent <event: MobEvent> [value: Boolean]\n参数\nevent: MobEvent：enum\n指定要控制或查询的事件。可以是以下之一：\nminecraft:ender_dragon_event 用于初次进入末地时生成末影龙。\nminecraft:pillager_patrols_event 用于生成灾厄巡逻队。\nminecraft:wandering_trader_event 用于生成流浪商人。\nevents_enabled 用于事件子系统。禁用此选项时，不会发生任何事件；启用此选项时，只会发生启用的事件。\nvalue: Boolean：enum\n如果指定，则true启用事件，false禁用事件。如果忽略，则显示当前启用状态。\n必须为 布尔值（true或false）。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n1\n示例\n禁用所有事件：mobevent events_enabled false\n允许生成流浪商人（在启用事件子系统时）：mobevent minecraft:wandering_trader_event true\n查询灾厄巡逻队生成的状态：mobevent minecraft:pillager_patrols_event\n历史\n基岩版\n1.11.0\n1.11.0.3\n加入了/mobevent。\n1.16.0\n1.16.0.59\n加入了minecraft:ender_dragon_event。\n导航"
+}

@@ -1,0 +1,123 @@
+{
+  "title": "属性/击退抗性",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E5%87%BB%E9%80%80%E6%8A%97%E6%80%A7",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "-2 – 1"
+    ],
+    "knockback_resistance": [
+      "击退抗性（Knockback Resistance）是降低生物所受击退效果的属性。"
+    ],
+    "行为": [
+      "主条目：伤害 § 击退抗性",
+      "击退抗性会降低生物所受击退的威力。"
+    ],
+    "监守者": [
+      "1"
+    ],
+    "劫掠兽": [
+      "0.75"
+    ],
+    "僵尸疣猪兽": [
+      "0.6"
+    ],
+    "其他所有生物": [
+      "0"
+    ],
+    "armor.helmet": [
+      "add_value (Op0)",
+      "0.1"
+    ],
+    "armor.chestplate": [
+      "add_value (Op0)",
+      "0.1"
+    ],
+    "armor.leggings": [
+      "add_value (Op0)",
+      "0.1"
+    ],
+    "armor.feet": [
+      "add_value (Op0)",
+      "0.1"
+    ],
+    "random_spawn_bonus": [
+      "add_value (Op0)",
+      "0-0.05均匀分布随机数"
+    ],
+    "僵尸、溺尸、尸壳、僵尸村民和僵尸猪灵生成时额外增加击退抗性": [
+      "bouncy_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "-2"
+    ],
+    "硫方怪吸收方块后，且原型为弹性": [
+      "fast_flat_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "-2"
+    ],
+    "硫方怪吸收方块后，且原型为快速平移": [
+      "fast_sliding_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "0.5"
+    ],
+    "硫方怪吸收方块后，且原型为快速滑行": [
+      "high_resistance_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "0.7"
+    ],
+    "硫方怪吸收方块后，且原型为高抗性": [
+      "light_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "-1"
+    ],
+    "硫方怪吸收方块后，且原型为轻盈": [
+      "regular_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "-1"
+    ],
+    "硫方怪吸收方块后，且原型为普通": [
+      "slow_flat_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "0.7"
+    ],
+    "硫方怪吸收方块后，且原型为缓慢平移": [
+      "slow_sliding_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "0.8"
+    ],
+    "硫方怪吸收方块后，且原型为缓慢滑行": [
+      "sticky_add_knockback_resistance[新增：JE 26.2]",
+      "add_value (Op0)",
+      "-2"
+    ],
+    "Java版": [
+      "1.6.1",
+      "13w16a",
+      "加入了击退抗性属性，ID为Knockback Resistance。",
+      "13w21a",
+      "击退抗性属性的ID重命名为generic.knockbackResistance。",
+      "1.16",
+      "20w06a",
+      "击退抗性属性现在用于修饰下界合金盔甲。",
+      "击退抗性属性除了会影响不会被击退的概率外，现在还会按一定比例计算承受的击退距离。",
+      "20w14a",
+      "击退抗性属性的ID被重命名为generic.knockback_resistance。",
+      "1.18.2",
+      "22w03a",
+      "击退抗性属性不再有概率无视击退。",
+      "1.21.2",
+      "24w33a",
+      "击退抗性属性的ID从generic.knockback_resistance重命名为knockback_resistance。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "击退抗性属性的最小值由0改为-2。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "物品展示框/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%B1%95%E7%A4%BA%E6%A1%86%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n悬挂类实体共通标签，见Template:Nbt inherit/hangable/source\n*\n*Facing：（0≤值≤5）当前物品展示框面对的方向。从0到5分别对应下上北南西东，如果超过值域则对6取余并取绝对值后对应方向。\n*\n*Fixed：表示物品展示框是否被固定。如果为true，物品展示框将不再因失去支撑方块、被移动（如被活塞推动）、受到伤害而掉落，但也不能在物品展示框内放置、移除或旋转物品。\n*\n*Invisible：表示物品展示框是否处于隐形状态。在隐形状态下，物品展示框内包含的物品和地图依然可见。\nItem：物品展示框内的物品。\n物品共通标签，见Template:Nbt inherit/itemnoslot/source\nItemDropChance：（默认为1）物品展示框被破坏时内部物品掉落的概率。当物品展示框内有物品时此标签才有效。\nItemRotation：（0≤值≤7，Item存在时此项存在并有效）展示物品的方向，从0到7分别代表了物品展示框中物品的8个方向，如果超过值域则对8取余后对应方向。当物品展示框内有物品时此标签才有效。"
+}

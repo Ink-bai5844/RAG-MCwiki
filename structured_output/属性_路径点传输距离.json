@@ -1,0 +1,49 @@
+{
+  "title": "属性/路径点传输距离",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E8%B7%AF%E5%BE%84%E7%82%B9%E4%BC%A0%E8%BE%93%E8%B7%9D%E7%A6%BB",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "0 – 60000000"
+    ],
+    "waypoint_transmit_range": [
+      "路径点传输距离（Waypoint Transmit Range）是控制生物向周围玩家传输路径点的属性。"
+    ],
+    "行为": [
+      "主条目：路径点"
+    ],
+    "红色范围表示路径点传输距离，蓝色范围表示路径点接收距离。仅当Alex的传输范围包含Steve且Steve的接收范围包含Alex时（即第二种情况），Steve才能看到Alex的路径点图标": [
+      "路径点传输距离大于0的生物会被标记为路径点传输器（或称为路径点源），并创建一个路径点。",
+      "只有接收者与路径点源的距离小于等于源的路径点传输距离和接收者的路径点接收距离属性（waypoint_receive_range），这个路径点才能在定位栏中显示。",
+      "此属性被修改后，如果路径点传输距离为0，则该生物的路径点会被移除。"
+    ],
+    "玩家": [
+      "60000000"
+    ],
+    "其他生物": [
+      "0"
+    ],
+    "effect.waypoint_transmit_range_hide": [
+      "add_multiplied_total (Op2)",
+      "-1"
+    ],
+    "waypoint_transmit_range_crouch": [
+      "add_multiplied_total (Op2)",
+      "-1"
+    ],
+    "waypoint_transmit_range_hide": [
+      "add_multiplied_total (Op2)",
+      "-1"
+    ],
+    "Java版": [
+      "1.21.6",
+      "25w15a",
+      "加入了路径点传输距离属性，ID为waypoint_transmit_range。"
+    ]
+  }
+}

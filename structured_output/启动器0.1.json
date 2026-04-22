@@ -1,0 +1,22 @@
+{
+  "title": "启动器0.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A80.1",
+  "structured_content": {
+    "默认分类": [
+      "0.1"
+    ],
+    "发布时间": [
+      "2013年4月18日",
+      "0.2►►",
+      "0.1是在2013年4月18日发布的第一个启动器主要版本。"
+    ],
+    "更改": [
+      "更改了.minecraft的路径结构：",
+      "“assets”文件夹：存储资源，如语言包和声音。",
+      "所有音乐唱片现在使用.ogg格式，而不是.mus格式了。",
+      "“library”文件夹：存储Java库，如LWJGL和jinput.jar。",
+      "“versions”文件夹：有一个“versions.json”文件（元数据）和为每个版本存储了minecraft.jar的文件夹（它的名字与版本相同，如13w16a为“versions/13w16a/13w16a.jar”）。",
+      "启动器现在是可执行程序了。"
+    ]
+  }
+}

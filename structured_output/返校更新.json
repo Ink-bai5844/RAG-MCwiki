@@ -1,0 +1,30 @@
+{
+  "title": "返校更新",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BF%94%E6%A0%A1%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "返校更新的更新横幅": [
+      "返校更新（Back to School Release）是教育版的一次主要更新，其正式版1.12.0发布于2019年8月14日，加入了来自基岩版1.10.0和1.11.0的村庄与掠夺的特性，以及课堂体验和性能改进。"
+    ],
+    "重要特性": [
+      "主条目：基岩版1.10.0和基岩版1.11.0",
+      "加入了村庄与掠夺的特性。"
+    ],
+    "导出": [
+      "学生现在可以使用导出功能将书与笔中的内容保存为PDF。",
+      "支持评估，除了帮助学生记录和分享他们的工作。"
+    ],
+    "沉浸式阅读器": [
+      "一种游戏内工具，支持阅读和翻译游戏内文本，为学生提供格式化选项，并提供带有特定于Minecraft图像的图片字典。"
+    ],
+    "简单登录": [
+      "用户可以选择根据其凭据自动登录，或者随时注销，并根据需要以其他用户身份登录。"
+    ],
+    "跟进版本": [
+      "1.12.1发布以修复一些漏洞。"
+    ],
+    "参考": [
+      "What's New: Back to School Release (Version 1.12)（存档） — Minecraft: Education Edition Support。",
+      "https://education.minecraft.net/en-us/blog/back-to-school-update-now-available-for-all-users"
+    ]
+  }
+}

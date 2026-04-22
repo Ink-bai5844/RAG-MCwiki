@@ -1,0 +1,31 @@
+{
+  "title": "Java版Infdev 20100330-1611",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100330-1611",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。"
+    ],
+    "发布时间": [
+      "2010年3月30日"
+    ],
+    "al_version": [
+      "1.12"
+    ],
+    "◄◄Minecraft Indev": [
+      "Infdev 20100618►►",
+      "◄Infdev 20100330-1203",
+      "Infdev 20100413-1951►",
+      "Minecraft Infdev的一个版本发布于2010年3月30日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "云不再沿X轴和Z轴“跟随”玩家。"
+    ],
+    "参考": [
+      "Infdev’s been updated, bugs have been fixed（存档） — The Word of Notch，2010年3月30日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:双刃斧",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%8F%8C%E5%88%83%E6%96%A7",
+  "text": "双刃斧\n类型\n近战武器\n稀有度\n力量\n9\n速度\n2\n攻击范围\n13\n远古狩猎符文\n存档ID\nDoubleAxe\n一种适合野蛮战士的毁灭性武器。\n——物品描述\n双刃斧（Double Axe）是Minecraft Dungeons中的近战武器。它的独特变种是旋风斧和诅咒之斧。\n获取\n地点:\n要塞\n潮湿沼泽（天启难度以上）\n潮湿洞穴（天启难度以上）\n昏暗丛林（天启难度以上）\n树梢缠结（天启难度以上）\n迎风之巅（天启难度以上）\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n憎恶编织者\n使用\n双刃斧有着高攻击，低速度以及极高攻击范围的属性，它的攻击方式只有旋转攻击。\n属性\n旋转攻击\n数据值\n基础伤害：100\n视角度：180°\n攻击距离：3方块距离\n攻击动画持续时间：0.6秒\n攻击间隔时间：0.1秒\n击退强度：0.2\nZ方向击退分量：1.0\n伤害溅射系数：0.75\n效果击退系数：1.0\n效果击晕系数：1.0\n伤害标签：无\n音效\n描述\n文件\n击中物体\nsfx_item_doubleAxeImpactDuff_soundWave\n击中物体\nsfx_item_doubleAxeImpactShing_soundWave\n攻击\nsfx_item_doubleAxeSwingBase_soundWave\n攻击\nsfx_item_doubleAxeSwingMetalDetails_soundWave\n攻击\nsfx_item_doubleAxeSwingMetalDrag_soundWave\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了游戏。\n画廊\n双刃斧的精灵图\n导航"
+}

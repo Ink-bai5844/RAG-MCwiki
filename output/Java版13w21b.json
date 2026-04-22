@@ -1,0 +1,5 @@
+{
+  "title": "Java版13w21b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8813w21b",
+  "text": "13w21b\n版本\nJava版\n类型\n快照\n发布时间\n2013年5月27日\n快照归属\n1.6.1\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n67\n◄◄1.5.2\n1.6.2►►\n◄13w21a\n13w22a►\n13w21b是Java版1.6.1的第9个快照，2013年5月27日，发布以修复13w21a里的漏洞和崩溃。\n修复\n修复了13个漏洞\n1.5.2前正式版的漏洞\nMC-3695 — 末影珍珠无法穿过船、矿车。\nMC-4822 — 在创造模式攻击骷髅会使其像僵尸一样攻击。\nMC-9317 — /scoreboard语法缺失（/help scoreboard）。\nMC-11605 — 一些死亡消息会用null作为导致死亡的玩家或生物的名称。\nMC-16554 — en_US语言文件在death.fell.finish.item的语法错误。\n1.6.1开发版本的漏洞\nMC-15388 — 驴、骡箱子中的物品可被复制。\nMC-15815 — 储存在驴、骡箱子中的附魔物品会在其死亡时失去魔咒。\n上个开发版本的漏洞\nMC-16143 — 疾跑和速度不起作用。\nMC-16144 — 服务器不翻译字符串。\nMC-16150 — 声音一段时间后消失。\nMC-16151 — 更新至13w21a后马鞍和盔甲消失。\nMC-16353 — 崩溃：IllegalArgumentException.\nMC-16531 — 内存不足而崩溃。\n你知道吗\n该版本的宣传截图中出现了Grum的Minecraft皮肤。\n参考\nMinecraft snapshot 13w21a（存档），来自Dinnerbone。Mojang.com，2013年5月23日。\n导航"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "悦灵/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%82%A6%E7%81%B5%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ],
+    "*": [
+      "*DuplicationCooldown：悦灵复制的冷却时间。悦灵被复制时此值设为6000游戏刻（5分），每游戏刻减少1直到0。",
+      "*Inventory：已被悦灵拾起的物品列表，此列表最多包含一组物品。当读取时，如果列表数量超过1，则超出范围的物品尝试与范围内的物品合并，如果无法合并则被删除。此处并非玩家给予悦灵的物品，被给予的物品被记录在equipment.mainhand中。",
+      "：一项物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "*listener：悦灵的振动事件监听器。",
+      "振动监听器，见Template:Nbt inherit/vibration listener/source"
+    ]
+  }
+}

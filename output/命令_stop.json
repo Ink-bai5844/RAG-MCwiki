@@ -1,0 +1,5 @@
+{
+  "title": "命令/stop",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fstop",
+  "text": "stop\n需要的权限等级\n4\n限制条件\n启用作弊[仅基岩版]\n仅专用服务端\n将所有玩家踢出服务器，把所有的更改保存到硬盘，然后关闭服务端。\n语法\nstop\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行成功\nN/A\n1\n历史\n此章节缺失以下信息：缺少基岩版历史\nJava版Alpha\nv1.0.16\n加入了/stop。\n导航"
+}

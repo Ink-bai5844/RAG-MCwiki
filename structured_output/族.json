@@ -1,0 +1,17 @@
+{
+  "title": "族",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%97%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是族的列表。关于目标选择器参数family，请见“目标选择器 § 族”。",
+      "本条目所述内容仅适用于基岩版。",
+      "族（Family），是基岩版独有技术性标签，用于指定一个生物或实体所属的族，实体的族在实体类型的族行为组件（minecraft:type_family）中被定义。可应用于目标选择器以及创作附加包，使用json文件编辑。",
+      "原版行为包使用的默认值："
+    ],
+    "参考": [
+      "MCPE-233650 — \"animal\" family entity type is missing all animals but goats",
+      "https://github.com/Mojang/bedrock-samples/blob/bfe49ca826b0b51a1824dc6ca501d056341179ea/behavior_pack/entities/husk.json#L124",
+      "MCPE-152628 — Piglin, piglin brute, goat, panda, and fish are not assigned \"mob\" type_family"
+    ]
+  }
+}

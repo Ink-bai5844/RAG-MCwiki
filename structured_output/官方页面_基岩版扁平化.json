@@ -1,0 +1,984 @@
+{
+  "title": "官方页面/基岩版扁平化",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%AE%98%E6%96%B9%E9%A1%B5%E9%9D%A2%2F%E5%9F%BA%E5%B2%A9%E7%89%88%E6%89%81%E5%B9%B3%E5%8C%96",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是基岩版扁平化待完成的内容。关于扁平化过程中的更改，请见“基岩版扁平化”；关于Java版的扁平化，请见“Java版1.13/扁平化”。",
+      "此条目被建议移动至Minecraft Wiki:基岩版扁平化。移动讨论链入",
+      "注意：中文Wiki的移动页面需要在讨论批准后进行，大量移动由机器人完成。",
+      "请不要使用复制粘贴条目内容的方式来移动页面，因为这样会丢失所有的编辑历史。",
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "该条目需要整理以符合格式指导。讨论": [
+      "请协助改善内容来使它符合规定。",
+      "说明：将渲染图更换为方块sprite，与Java版扁平化一致。",
+      "开发者有意让Java版和​基岩版保持一致。为了达到这个目的，需要修改许多基岩版的方块和物品等的数据值。这个过程也被称作“扁平化”（见Java版扁平化）。 此页面当前的内容为Java版和​基岩版之间标识符的比较，展示了基岩版中需要更改的地方。",
+      "所有字符串都会有其对应的命名空间，但命名空间是可选的。（默认为minecraft:。）"
+    ],
+    "方块和物品": [
+      "教育版的方块和物品拥有自己的命名空间：education:，与minecraft:不同。"
+    ],
+    "数据更新方块（ate!upd）": [
+      "info_update2",
+      "Reserved6",
+      "reserved6"
+    ],
+    "光源方块": [
+      "level=0-15"
+    ],
+    "活塞头": [
+      "facing_direction=0-5"
+    ],
+    "黏性活塞头": [
+      "facing_direction=0-5"
+    ],
+    "阳光探测器": [
+      "redstone_signal=0-15",
+      "power=0-15"
+    ],
+    "音符盒": [
+      "note=0-24"
+    ],
+    "雪": [
+      "layers=1-8"
+    ],
+    "南瓜灯": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "小型垂滴叶": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "红石中继器": [
+      "delay=1-4"
+    ],
+    "激活的红石中继器": [
+      "minecraft:cardinal_direction=east|north|south|west",
+      "repeater_delay=0-3"
+    ],
+    "激活的红石比较器": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "水": [
+      "education:water"
+    ],
+    "熔岩": [
+      "level=0-15"
+    ],
+    "流动的熔岩": [
+      "liquid_depth=0-15"
+    ],
+    "酿造台": [
+      "has_bottle_0=false|true",
+      "has_bottle_1=false|true",
+      "has_bottle_2=false|true"
+    ],
+    "蛋糕": [
+      "bite_counter=0-6",
+      "bites=0-6"
+    ],
+    "海带": [
+      "age=0-15",
+      "age=0-25"
+    ],
+    "洞穴藤蔓": [
+      "growing_plant_growth=0-25"
+    ],
+    "垂泪藤": [
+      "weeping_vines_age=0-25",
+      "age=0-25"
+    ],
+    "缠怨藤": [
+      "twisting_vines_age=0-25",
+      "age=0-25"
+    ],
+    "西瓜茎": [
+      "growth=0-7",
+      "facing_direction=0-5",
+      "age=0-7"
+    ],
+    "床": [
+      "direction=0-3"
+    ],
+    "甜菜": [
+      "growth=0-7",
+      "age=0-3"
+    ],
+    "水下TNT": [
+      "education:underwater_tnt"
+    ],
+    "允许方块": [
+      "education:allow"
+    ],
+    "拒绝方块": [
+      "education:deny"
+    ],
+    "照片": [
+      "education:photo"
+    ],
+    "相片簿": [
+      "education:portfolio"
+    ],
+    "冰弹": [
+      "education:ice_bomb"
+    ],
+    "超级肥料": [
+      "education:super_fertilizer"
+    ],
+    "漂白剂": [
+      "education:bleach"
+    ],
+    "智能体刷怪蛋": [
+      "education:agent_spawn_egg"
+    ],
+    "NPC刷怪蛋": [
+      "education:npc_spawn_egg"
+    ],
+    "边界": [
+      "education:border"
+    ],
+    "化合物创建器": [
+      "education:compound_creator"
+    ],
+    "材料分解器": [
+      "education:material_reducer",
+      "direction=0-3"
+    ],
+    "元素构造器": [
+      "education:element_constructor"
+    ],
+    "实验台": [
+      "education:lab_table"
+    ],
+    "加热块": [
+      "education:heat_block"
+    ],
+    "解毒剂": [
+      "education:antidote"
+    ],
+    "灵药": [
+      "education:elixir"
+    ],
+    "眼药水": [
+      "education:eye_drops"
+    ],
+    "补药": [
+      "education:tonic"
+    ],
+    "氧化铝": [
+      "education:aluminum_oxide"
+    ],
+    "氨": [
+      "education:ammonia"
+    ],
+    "硫酸钡": [
+      "education:barium_sulfate"
+    ],
+    "苯": [
+      "education:benzene"
+    ],
+    "三氧化硼": [
+      "education:boron_trioxide"
+    ],
+    "溴化钙": [
+      "education:calcium_bromide"
+    ],
+    "原油": [
+      "education:crude_oil"
+    ],
+    "黏合剂（氰基丙烯酸酯）": [
+      "education:glue"
+    ],
+    "过氧化氢": [
+      "education:hydrogen_peroxide"
+    ],
+    "硫化亚铁": [
+      "education:iron_sulfide"
+    ],
+    "乳胶": [
+      "education:latex"
+    ],
+    "氢化锂": [
+      "education:lithium_hydride"
+    ],
+    "鲁米诺": [
+      "education:luminol"
+    ],
+    "碱液": [
+      "education:lye"
+    ],
+    "硝酸镁": [
+      "education:magnesium_nitrate"
+    ],
+    "氧化镁": [
+      "education:magnesium_oxide"
+    ],
+    "聚乙烯": [
+      "education:polyethylene"
+    ],
+    "碘化钾": [
+      "education:potassium_iodide"
+    ],
+    "食盐": [
+      "education:salt"
+    ],
+    "肥皂": [
+      "education:soap"
+    ],
+    "乙酸钠": [
+      "education:sodium_acetate"
+    ],
+    "氟化钠": [
+      "education:sodium_fluoride"
+    ],
+    "氢化钠": [
+      "education:sodium_hydride"
+    ],
+    "次氯酸钠": [
+      "education:sodium_hypochlorite"
+    ],
+    "氧化钠": [
+      "education:sodium_oxide"
+    ],
+    "硫酸盐": [
+      "education:sulfate"
+    ],
+    "氯化钙": [
+      "education:calcium_chloride"
+    ],
+    "氯化铈": [
+      "education:cerium_chloride"
+    ],
+    "氯化汞": [
+      "education:mercuric_chloride"
+    ],
+    "氯化钾": [
+      "education:potassium_chloride"
+    ],
+    "氯化钨": [
+      "education:tungsten_chloride"
+    ],
+    "废物": [
+      "education:garbage"
+    ],
+    "橙色烟花": [
+      "education:orange_sparkler"
+    ],
+    "蓝色烟花": [
+      "education:blue_sparkler"
+    ],
+    "红色烟花": [
+      "education:red_sparkler"
+    ],
+    "紫色烟花": [
+      "education:purple_sparkler"
+    ],
+    "绿色烟花": [
+      "education:green_sparkler"
+    ],
+    "白色气球": [
+      "education:white_balloon"
+    ],
+    "橙色气球": [
+      "education:orange_balloon"
+    ],
+    "品红色气球": [
+      "education:magenta_balloon"
+    ],
+    "淡蓝色气球": [
+      "education:light_blue_balloon"
+    ],
+    "黄色气球": [
+      "education:yellow_balloon"
+    ],
+    "黄绿色气球": [
+      "education:lime_balloon"
+    ],
+    "粉红色气球": [
+      "education:pink_balloon"
+    ],
+    "灰色气球": [
+      "education:gray_balloon"
+    ],
+    "淡灰色气球": [
+      "education:light_gray_balloon"
+    ],
+    "青色气球": [
+      "education:cyan_balloon"
+    ],
+    "紫色气球": [
+      "education:purple_balloon"
+    ],
+    "蓝色气球": [
+      "education:blue_balloon"
+    ],
+    "棕色气球": [
+      "education:brown_balloon"
+    ],
+    "绿色气球": [
+      "education:green_balloon"
+    ],
+    "红色气球": [
+      "education:red_balloon"
+    ],
+    "黑色气球": [
+      "education:black_balloon"
+    ],
+    "白色荧光棒": [
+      "education:white_glow_stick"
+    ],
+    "橙色荧光棒": [
+      "education:orange_glow_stick"
+    ],
+    "品红色荧光棒": [
+      "education:magenta_glow_stick"
+    ],
+    "淡蓝色荧光棒": [
+      "education:light_blue_glow_stick"
+    ],
+    "黄色荧光棒": [
+      "education:yellow_glow_stick"
+    ],
+    "黄绿色荧光棒": [
+      "education:lime_glow_stick"
+    ],
+    "粉红色荧光棒": [
+      "education:pink_glow_stick"
+    ],
+    "灰色荧光棒": [
+      "education:gray_glow_stick"
+    ],
+    "青色荧光棒": [
+      "education:cyan_glow_stick"
+    ],
+    "紫色荧光棒": [
+      "education:purple_glow_stick"
+    ],
+    "蓝色荧光棒": [
+      "education:blue_glow_stick"
+    ],
+    "棕色荧光棒": [
+      "education:brown_glow_stick"
+    ],
+    "绿色荧光棒": [
+      "education:green_glow_stick"
+    ],
+    "红色荧光棒": [
+      "education:red_glow_stick"
+    ],
+    "黑板": [
+      "direction=0-3"
+    ],
+    "小黑板": [
+      "education:slate",
+      "rotation=0-15"
+    ],
+    "横幅": [
+      "education:poster"
+    ],
+    "大黑板": [
+      "education:board"
+    ],
+    "墙上的小黑板": [
+      "education:wall_slate"
+    ],
+    "墙上的横幅": [
+      "education:wall_poster"
+    ],
+    "墙上的大黑板": [
+      "education:wall_board"
+    ],
+    "红色火把": [
+      "education:red_torch"
+    ],
+    "墙上的红色火把": [
+      "education:red_wall_torch"
+    ],
+    "绿色火把": [
+      "education:green_torch"
+    ],
+    "墙上的绿色火把": [
+      "education:green_wall_torch"
+    ],
+    "蓝色火把": [
+      "education:blue_torch"
+    ],
+    "墙上的蓝色火把": [
+      "education:blue_wall_torch"
+    ],
+    "紫色火把": [
+      "education:purple_torch"
+    ],
+    "墙上的紫色火把": [
+      "education:purple_wall_torch"
+    ],
+    "水下火把": [
+      "education:underwater_torch"
+    ],
+    "墙上的水下火把": [
+      "education:underwater_wall_torch"
+    ],
+    "强化玻璃": [
+      "education:hardened_glass"
+    ],
+    "白色强化玻璃": [
+      "education:hardened_white_stained_glass"
+    ],
+    "橙色强化玻璃": [
+      "education:hardened_orange_stained_glass"
+    ],
+    "品红色强化玻璃": [
+      "education:hardened_magenta_stained_glass"
+    ],
+    "淡蓝色强化玻璃": [
+      "education:hardened_light_blue_stained_glass"
+    ],
+    "黄色强化玻璃": [
+      "education:hardened_yellow_stained_glass"
+    ],
+    "黄绿色强化玻璃": [
+      "education:hardened_lime_stained_glass"
+    ],
+    "粉红色强化玻璃": [
+      "education:hardened_pink_stained_glass"
+    ],
+    "灰色强化玻璃": [
+      "education:hardened_gray_stained_glass"
+    ],
+    "淡灰色强化玻璃": [
+      "education:hardened_light_gray_stained_glass"
+    ],
+    "青色强化玻璃": [
+      "education:hardened_cyan_stained_glass"
+    ],
+    "紫色强化玻璃": [
+      "education:hardened_purple_stained_glass"
+    ],
+    "蓝色强化玻璃": [
+      "education:hardened_blue_stained_glass"
+    ],
+    "棕色强化玻璃": [
+      "education:hardened_brown_stained_glass"
+    ],
+    "绿色强化玻璃": [
+      "education:hardened_green_stained_glass"
+    ],
+    "红色强化玻璃": [
+      "education:hardened_red_stained_glass"
+    ],
+    "黑色强化玻璃": [
+      "education:hardened_black_stained_glass"
+    ],
+    "强化玻璃板": [
+      "education:hardened_glass_pane"
+    ],
+    "白色强化玻璃板": [
+      "education:hardened_white_stained_glass_pane"
+    ],
+    "橙色强化玻璃板": [
+      "education:hardened_orange_stained_glass_pane"
+    ],
+    "品红色强化玻璃板": [
+      "education:hardened_magenta_stained_glass_pane"
+    ],
+    "淡蓝色强化玻璃板": [
+      "education:hardened_light_blue_stained_glass_pane"
+    ],
+    "黄色强化玻璃板": [
+      "education:hardened_yellow_stained_glass_pane"
+    ],
+    "黄绿色强化玻璃板": [
+      "education:hardened_lime_stained_glass_pane"
+    ],
+    "粉红色强化玻璃板": [
+      "education:hardened_pink_stained_glass_pane"
+    ],
+    "灰色强化玻璃板": [
+      "education:hardened_gray_stained_glass_pane"
+    ],
+    "淡灰色强化玻璃板": [
+      "education:hardened_light_gray_stained_glass_pane"
+    ],
+    "青色强化玻璃板": [
+      "education:hardened_cyan_stained_glass_pane"
+    ],
+    "紫色强化玻璃板": [
+      "education:hardened_purple_stained_glass_pane"
+    ],
+    "蓝色强化玻璃板": [
+      "education:hardened_blue_stained_glass_pane"
+    ],
+    "棕色强化玻璃板": [
+      "education:hardened_brown_stained_glass_pane"
+    ],
+    "绿色强化玻璃板": [
+      "education:hardened_green_stained_glass_pane"
+    ],
+    "红色强化玻璃板": [
+      "education:hardened_red_stained_glass_pane"
+    ],
+    "黑色强化玻璃板": [
+      "education:hardened_black_stained_glass_pane"
+    ],
+    "debug_stick": [
+      "这些方块在不修改的情况下无法获得，它们只被用作方块。",
+      "在Java版中，不祥旗帜实际上是以白色旗帜为底印制而成的，因此白色旗帜也包含不祥旗帜。"
+    ],
+    "村民（新版）": [
+      "villager_v2"
+    ],
+    "僵尸村民（新版）": [
+      "zombie_villager_v2"
+    ],
+    "方块实体ID": [
+      "改动后的ID必须带有命名空间（minecraft:在前）。"
+    ],
+    "告示牌": [
+      "ground_sign_direction=0-15",
+      "rotation=0-15"
+    ],
+    "幽匿感测体": [
+      "sculk_sensor_phase=0-2",
+      "power=0-15"
+    ],
+    "校频幽匿感测体": [
+      "minecraft:cardinal_direction=east|north|south|west",
+      "sculk_sensor_phase=0-2"
+    ],
+    "展示架": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "铜傀儡像": [
+      "minecraft:cardinal_direction=north|south|east|west"
+    ],
+    "漏斗": [
+      "facing_direction=0-5"
+    ],
+    "投掷器": [
+      "facing_direction=0-7"
+    ],
+    "木桶": [
+      "facing_direction=0-5"
+    ],
+    "讲台": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "雕纹书架": [
+      "books_stored=0-63",
+      "direction=0-3"
+    ],
+    "饰纹陶罐": [
+      "facing_direction=0-3"
+    ],
+    "宝库": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "末影箱": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "拼图方块": [
+      "facing_direction=0-5",
+      "rotation=0-3"
+    ],
+    "Chalkboard": [
+      "education:chalkboard"
+    ],
+    "ChemistryTable": [
+      "education:lab_table"
+    ],
+    "the_void": [
+      "由于Java版1.18中移除了大多数子生物群系（以及基岩版的自然生成），该生物群系将被移除。"
+    ],
+    "粒子ID": [
+      "该章节的编辑正在进行中。",
+      "请帮助我们扩充或改进它。"
+    ],
+    "crossbow.quick_charge.end": [
+      "item.crossbow.quick_charge_3"
+    ],
+    "crossbow.quick_charge.middle": [
+      "item.crossbow.quick_charge_2"
+    ],
+    "crossbow.quick_charge.start": [
+      "item.crossbow.quick_charge_1"
+    ],
+    "block.wood.hit": [
+      "horn.call.0",
+      "item.goat_horn.sound.0",
+      "horn.call.1",
+      "item.goat_horn.sound.1",
+      "horn.call.2",
+      "item.goat_horn.sound.2",
+      "horn.call.3",
+      "item.goat_horn.sound.3",
+      "horn.call.4",
+      "item.goat_horn.sound.4",
+      "horn.call.5",
+      "item.goat_horn.sound.5",
+      "horn.call.6",
+      "item.goat_horn.sound.6",
+      "horn.call.7",
+      "item.goat_horn.sound.7"
+    ],
+    "item.crop.plant": [
+      "item.enchant.lunge1",
+      "item.spear.lunge_1",
+      "item.enchant.lunge2",
+      "item.spear.lunge_2",
+      "item.enchant.lunge3",
+      "item.spear.lunge_3"
+    ],
+    "entity.item.pickup": [
+      "random.pop2"
+    ],
+    "item.totem.use": [
+      "record.11",
+      "music_disc.11",
+      "record.13",
+      "music_disc.13",
+      "record.5",
+      "music_disc.5"
+    ],
+    "树苗": [
+      "stage=0-1"
+    ],
+    "红树胎生苗": [
+      "age=0-3"
+    ],
+    "hanging=false|true": [
+      "propagule_stage=0-4",
+      "stage=0-1"
+    ],
+    "pillar_axis=x|y|z": [
+      "deprecated=0-3"
+    ],
+    "树叶": [
+      "distance=1-7"
+    ],
+    "海泡菜": [
+      "pickles=0-4"
+    ],
+    "dead_bit=false|true": [
+      "cluster_count=0-3"
+    ],
+    "big_dripleaf_tilt=none|unstable|partial_tilt|full_tilt": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "facing=east|north|south|west": [
+      "flower_amount=1-4",
+      "segment_amount=1-4",
+      "hydration=0-3",
+      "power=0-15",
+      "slot_0_occupied=false|true",
+      "slot_1_occupied=false|true",
+      "slot_2_occupied=false|true",
+      "slot_3_occupied=false|true",
+      "slot_4_occupied=false|true",
+      "slot_5_occupied=false|true",
+      "honey_level=0-5"
+    ],
+    "竹子": [
+      "stage=0-1"
+    ],
+    "leaves=large|none|small": [
+      "age=0-1"
+    ],
+    "berries=false|true": [
+      "age=0-25"
+    ],
+    "甜浆果丛": [
+      "growth=0-3",
+      "age=0-3"
+    ],
+    "小麦作物": [
+      "growth=0-7",
+      "age=0-7"
+    ],
+    "南瓜": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "可可果": [
+      "age=0-15",
+      "direction=0-3",
+      "age=0-2"
+    ],
+    "瓶子草植株": [
+      "growth=0-7",
+      "age=0-4"
+    ],
+    "火把花植株": [
+      "growth=0-7",
+      "age=0-1"
+    ],
+    "野花": [
+      "growth=0-7",
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "枯叶堆": [
+      "growth=0-7",
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "失水恶魂": [
+      "minecraft:cardinal_direction=east|north|south|west",
+      "rehydration_level=0-3"
+    ],
+    "双层台阶": [
+      "minecraft:vertical_half=bottom|top"
+    ],
+    "末地烛": [
+      "facing_direction=0-5"
+    ],
+    "楼梯": [
+      "weirdo_direction=0-3"
+    ],
+    "铜箱子": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "耕地": [
+      "moisturized_amount=0-7",
+      "moisture=0-7"
+    ],
+    "covered_bit=false|true": [
+      "height=0-7"
+    ],
+    "蘑菇方块": [
+      "huge_mushroom_bits=0-15"
+    ],
+    "藤蔓": [
+      "vine_direction_bits=0-15"
+    ],
+    "幽匿脉络": [
+      "multi_face_direction_bits=0-63"
+    ],
+    "栅栏门": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "末地传送门框架": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "带釉陶瓦": [
+      "facing_direction=0-5"
+    ],
+    "灵魂火": [
+      "age=0-15"
+    ],
+    "火": [
+      "age=0-15",
+      "age=0-15"
+    ],
+    "海龟蛋": [
+      "eggs=1-4",
+      "hatch=0-2"
+    ],
+    "嗅探兽蛋": [
+      "hatch=0-2"
+    ],
+    "失活的珊瑚扇": [
+      "coral_fan_direction=0-1"
+    ],
+    "墙上的失活珊瑚扇": [
+      "coral_direction=0-3"
+    ],
+    "脚手架": [
+      "stability=0-7",
+      "distance=0-7"
+    ],
+    "红石粉": [
+      "redstone_signal=0-15",
+      "power=0-15"
+    ],
+    "attached_bit=false|true": [
+      "facing_direction=0-5",
+      "ground_sign_direction=0-15"
+    ],
+    "powered_bit=false|true": [
+      "powered_shelf_type=0-3"
+    ],
+    "attached=false|true": [
+      "rotation=0-15"
+    ],
+    "绊线钩": [
+      "direction=0-3"
+    ],
+    "木质按钮": [
+      "facing_direction=0-5"
+    ],
+    "木质压力板": [
+      "redstone_signal=0-15"
+    ],
+    "重质测重压力板": [
+      "redstone_signal=0-15",
+      "power=0-15"
+    ],
+    "铁轨": [
+      "rail_direction=0-9"
+    ],
+    "探测铁轨": [
+      "rail_direction=0-9"
+    ],
+    "黏性活塞": [
+      "facing_direction=0-5"
+    ],
+    "侦测器": [
+      "minecraft:facing_direction=down|east|north|south|up|west"
+    ],
+    "木门": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "木活板门": [
+      "direction=0-3"
+    ],
+    "标靶": [
+      "power=0-15"
+    ],
+    "装有熔岩的炼药锅": [
+      "level=0-6",
+      "level=0-3"
+    ],
+    "堆肥桶": [
+      "composter_fill_level=0-8",
+      "level=0-8"
+    ],
+    "生物头颅": [
+      "facing_direction=0-5",
+      "rotation=0-15"
+    ],
+    "梯子": [
+      "facing_direction=0-5"
+    ],
+    "织布机": [
+      "direction=0-3"
+    ],
+    "点亮的高炉": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "attachment=standing|hanging|side|multiple": [
+      "direction=0-3"
+    ],
+    "重生锚": [
+      "respawn_anchor_charge=0-4",
+      "charges=0-4"
+    ],
+    "ominous=false|true": [
+      "trial_spawner_state=0-5"
+    ],
+    "可疑的沙子": [
+      "brushed_progress=0-4",
+      "dusted=0-4"
+    ],
+    "灵魂营火": [
+      "minecraft:cardinal_direction=east|north|south|west"
+    ],
+    "避雷针": [
+      "facing_direction=0-5"
+    ],
+    "蜂箱": [
+      "direction=0-3",
+      "honey_level=0-5"
+    ],
+    "循环型命令方块": [
+      "facing_direction=0-5"
+    ],
+    "画": [
+      "改动后的ID必须带有命名空间（minecraft:在前）。"
+    ],
+    "aztec": [
+      "Aztec2",
+      "aztec2"
+    ],
+    "译名": [
+      "更多内容见基岩版译名对照表，本表仅列出对照表中没有的译名。"
+    ],
+    "战利品表": [
+      "set_data函数已移除。",
+      "set_data_from_color_index函数已移除。"
+    ],
+    "行为包": [
+      "biomes文件夹重命名为biome。",
+      "loot_tables文件夹重命名为loot_table。",
+      "recipes文件夹重命名为recipe。",
+      "structures文件夹重命名为structure。"
+    ],
+    "属性": [
+      "spell_effects重命名为status_effects。"
+    ],
+    "组件": [
+      "addrider重命名为add_rider。"
+    ],
+    "breathable": [
+      "non_breathe_blocks重命名为non_breathable_blocks。",
+      "color2重命名为pattern_color。",
+      "foot_size重命名为step_size。"
+    ],
+    "projectile": [
+      "semi_random_diff_damage重命名为semirandom_diff_damage。"
+    ],
+    "shooter": [
+      "def重命名为entity_definition。",
+      "tamemount重命名为tame_mount。",
+      "attempt_temper_mod重命名为increase_temper。",
+      "temper_mod重命名为increase_temper。",
+      "autoRejectItems重命名为auto_reject_items。"
+    ],
+    "teleport": [
+      "light_teleport_chance重命名为daylight_teleport_chance。"
+    ],
+    "timer": [
+      "randomInterval重命名为random_interval。"
+    ],
+    "behavior.delayed_attack": [
+      "hit_delay_pct重命名为hit_delay_percentage。",
+      "behavior.dragonchargeplayer重命名为behavior.dragon_charge_at_player。",
+      "behavior.dragondeath重命名为behavior.dragon_death。",
+      "behavior.dragonflaming重命名为behavior.dragon_flaming。",
+      "behavior.dragonholdingpattern重命名为behavior.dragon_holding_pattern。",
+      "behavior.dragonlanding重命名为behavior.dragon_landing。",
+      "behavior.dragonscanning重命名为behavior.dragon_scanning。",
+      "behavior.dragonstrafeplayer重命名为behavior.dragon_strafe_at_player。",
+      "behavior.dragontakeoff重命名为behavior.dragon_take_off。"
+    ],
+    "behavior.drop_item_for": [
+      "seconds_before_pickup重命名为seconds_before_pick_up。"
+    ],
+    "behavior.explore_outskirts": [
+      "dist_from_boundary重命名为distance_from_boundary。",
+      "explore_dist重命名为explore_distance。",
+      "min_dist_from_target重命名为min_distance_from_target。",
+      "behavior.ocelotattack重命名为behavior.ocelot_attack。",
+      "behavior.pickup_items重命名为behavior.pick_up_items。",
+      "can_pickup_any_item重命名为can_pick_up_any_item。",
+      "can_pickup_to_hand_or_equipment重命名为can_pick_up_to_hand_or_equipment。",
+      "max_dist重命名为max_distance。",
+      "pickup_based_on_chance重命名为pick_up_based_on_chance。",
+      "behavior.silverfish_merge_with_stone重命名为behavior.silverfish_infest_block。"
+    ],
+    "value": [
+      "flySpeed重命名为fly_speed。",
+      "instabuild重命名为instant_build。",
+      "mayfly重命名为may_fly。",
+      "verticalFlySpeed重命名为vertical_fly_speed。",
+      "walkSpeed重命名为walk_speed。",
+      "worldbuilder重命名为world_builder。",
+      "light_green重命名为lime。",
+      "silver重命名为light_gray。"
+    ],
+    "实体模型": [
+      "重命名以使用新的ID。"
+    ],
+    "纹理": [
+      "重命名以使用新的ID。",
+      "blocks文件夹重命名为block。",
+      "items文件夹重命名为item。"
+    ],
+    "block.<namespace>.<block_id>": [
+      "<argument>可以为任意方块的字符串，例如深色橡树树叶的字符串为“leaves2.big_oak”",
+      "tile.leaves2.big_oak.name=Dark Oak Leaves"
+    ],
+    "更改为": [
+      "\"block.minecraft.dark_oak_leaves\": \"Dark Oak Leaves\"",
+      "\"item.minecraft.glowstone_dust\": \"Glowstone Dust\"",
+      "\"entity.minecraft.minecart\": \"Minecart\"",
+      "\"enchantment.minecraft.aqua_affinity\": \"Aqua Affinity\"",
+      "\"effect.minecraft.mining_fatigue\": \"Mining Fatigue\""
+    ]
+  }
+}

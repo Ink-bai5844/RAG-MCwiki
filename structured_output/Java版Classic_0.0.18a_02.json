@@ -1,0 +1,44 @@
+{
+  "title": "Java版Classic 0.0.18a 02",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.18a_02",
+  "structured_content": {
+    "默认分类": [
+      "关于游戏内同名的开发者版本，请见“Java版Classic 0.0.19a/开发者版本”。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.0.18a_02"
+    ],
+    "服务端版本": [
+      "1.4.1"
+    ],
+    "发布时间": [
+      "2009年6月14日"
+    ],
+    "协议版本": [
+      "4"
+    ],
+    "al_version": [
+      "6.08",
+      "◄◄0.0.18a",
+      "0.0.19a►►",
+      "◄0.0.18a_01",
+      "0.0.18a_02是Java版的一次更新，发布于2009年6月14日，修复了一些漏洞。"
+    ],
+    "字体": [
+      "支持字符|、@和$。",
+      "修改了字符{和I的显示。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "修复了0.0.18a中帧率不稳定的问题。"
+    ],
+    "你知道吗": [
+      "0.0.19a有一个被标记为“0.0.18a_02”的开发版本，添加了用于测试的海绵和玻璃。"
+    ],
+    "参考": [
+      "IRC日志于Archive.org; #minecraft.20090614.log. 2009年6月14日（UTC−5）",
+      "Client 0.0.18a_02 is up（存档） — The Word of Notch，2009年6月14日。",
+      "IRC日志: \"A4:54:18 <Notch> ok, new client up, with fixed font so you can tell an I from an l, the ability to say @, |, \\ and $ in the chat, and probably better framerate\" (09:54:18 UTC)"
+    ]
+  }
+}

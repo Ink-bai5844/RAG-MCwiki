@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.1.1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.1.1",
+  "text": "此条目介绍的版本在特定条件下存在严重问题。\n此版本包含一段调试代码，会将显示器的伽马值和对比度设为零，可能导致某些屏幕完全变灰，且须重启计算机后才能恢复。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nAlpha v1.1.1\n版本\nJava版\n正式名称\n秘密周六更新1\n服务端版本\n0.2.1\n发布时间\n2010年9月18日\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n2\n其他版本的1.1.1\n启动器\n携带版\nMinecraft Dungeons\n◄◄Alpha v1.1.0\nAlpha v1.2.0►►\nAlpha v1.1.2►\nWiki上有本次更新的指南！\n见Java版指南/秘密周六更新1以查看秘密周六更新1的指南。\nWiki上有本次更新的指南！\n见Java版指南/秘密周六更新1以查看秘密周六更新1的指南。\nAlpha v1.1.1是Java版的一次秘密更新，发布于2010年9月18日，加入了潜行、新的画和钓鱼竿。\n新内容\n物品\n钓鱼竿\n目前没有用途。\n可以堆叠。\n非生物实体\n画\n加入了5幅新的画：\nGraham\nCreebet\nDonkey Kong\nSkeleton\nPigscene\n游戏内容\n潜行\n一种新的游戏机制，按住⇧ Shift触发。\n常规\n现在能改变鼠标的灵敏度。\n加入了滑动条以改变音乐和音效的音量大小。\n增加了音轨calm4.ogg。\n更改\n非生物实体\n画\n更改了Sea和Stage的纹理。\n常规\n调整FPS/调试屏幕的设置已经被F3键取代。F3 + S可重新加载所有网络上的资源。\n昼夜更替现在更加流畅。\n无限世界预览器\n现在不再可用。\n修复\n修复了2个漏洞\n修复了刷雪球的漏洞。\n雪块现在只会掉落4个雪球。\n你知道吗\n由于技术原因，周末可免费游玩该版本，其因是登录服务器不能正确工作。\n参考\nRegarding the Grayscreen issue（存档） — The Word of Notch，2010年9月19日。\nSeecret Saturday 1! But I failed Biomes AGAIN!（存档） — The Word of Notch，2010年9月18日。\n导航"
+}

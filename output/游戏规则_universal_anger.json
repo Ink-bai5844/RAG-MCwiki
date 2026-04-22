@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/universal anger",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Funiversal_anger",
+  "text": "本条目所述内容仅适用于Java版。\nuniversal_anger\n名称\n无差别愤怒\n描述\n愤怒的中立生物将攻击附近的所有玩家，而不再限于激怒它们的玩家。禁用forgive_dead_players可达到最佳效果。\n分类（JE）\n生物\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\nuniversal_anger\nuniversal_anger是控制条件敌对生物被激怒时行为的游戏规则。\n行为\n当universal_anger为true时，末影人、北极熊、猪灵、狼、蜜蜂和铁傀儡被激怒时会对附近的所有玩家敌对，而不再限于激怒它们的玩家。\n无论此游戏规则为何值，蜜蜂所在蜂巢被破坏时仍然会攻击附近所有玩家。\n历史\nJava版\n1.16\npre1\n加入了游戏规则universalAnger。\n1.21.11\n25w44a\n将游戏规则universalAnger重命名为universal_anger。\n参考\nRevamped anger management for neutral mobs in minecraft. Now angered neutral mobs won't attack innocent bystanders, won't forget you just cuz you log out & log in, and won't keep killing you after you die & respawn. Etc. Find anything wonky? Report at bugs.mojang.com，来自@henrikkniberg。X（曾名Twitter），2020年6月5日。\n导航"
+}

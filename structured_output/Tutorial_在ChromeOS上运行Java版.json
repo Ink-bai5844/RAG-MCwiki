@@ -1,0 +1,49 @@
+{
+  "title": "Tutorial:在ChromeOS上运行Java版",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%9C%A8ChromeOS%E4%B8%8A%E8%BF%90%E8%A1%8CJava%E7%89%88",
+  "structured_content": {
+    "默认分类": [
+      "本教程介绍的是在ChromeOS上游玩Java版。关于在ChromeOS游玩基岩版，请见“Tutorial:获取游戏 § 基岩版”。"
+    ],
+    "该教程需要整理以符合格式指导。讨论": [
+      "请协助改善内容来使它符合规定。",
+      "本教程所述内容仅适用于Java版。",
+      "这篇教程会介绍如何在ChromeOS或ChromeOS Flex系统上运行Java版。"
+    ],
+    "准备": [
+      "一台Chromebook或ChromeOS Flex设备（关于安装ChromeOS Flex，参照此处）。",
+      "访问Chrome OS和ChromeOS Flex中内置的Linux虚拟机。",
+      "微软账号。"
+    ],
+    "安装Linux": [
+      "打开设置。",
+      "点击“关于 ChromeOS”-“开发者”-“Linux 开发环境”-“设置”。",
+      "根据引导完成操作。"
+    ],
+    "打开终端": [
+      "更新软件源：sudo apt update",
+      "升级软件包：sudo apt upgrade",
+      "安装JDK：sudo apt install default-jdk（如果只想安装JRE，请在终端输入：sudo apt install default-jre）"
+    ],
+    "官方启动器": [
+      "前往官网。",
+      "在官网下方找到“需要重新下载？”板块，进入下载页面。",
+      "选择“Debian 和基于 Debian 的发行版”。",
+      "下载完成后，点击minecraft.deb文件。",
+      "点击安装并等待安装完成。",
+      "打开ChromeOS启动器，打开“Linux 应用”文件夹。",
+      "运行官启，登录账号。"
+    ],
+    "MultiMC": [
+      "该段落的内容不代表Mojang Studios或Minecraft Wiki的官方意见。",
+      "前往MultiMC官网。",
+      "向下滑找到“Download & Install”。",
+      "选择“Linux”-“Debian/Ubuntu”。",
+      "运行刚刚下载的文件以安装MultiMC。",
+      "打开MultiMC，选择一个已安装的Java版本，登录账号。"
+    ],
+    "注释": [
+      "由于未知原因，启动器不会正常显示其图标，而被默认Linux应用图标代替。"
+    ]
+  }
+}

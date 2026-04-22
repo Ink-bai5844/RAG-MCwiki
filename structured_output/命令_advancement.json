@@ -1,0 +1,73 @@
+{
+  "title": "命令/advancement",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fadvancement",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是管理进度的命令。关于进度系统，请见“进度”；关于已移除的用于管理成就的命令，请见“命令/achievement”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "给予或移除玩家的进度或某一进度的一项准则（Criterion）。"
+    ],
+    "advancement (grant|revoke) <targets> everything": [
+      "授予（grant）或移除（revoke）玩家的全部已载入进度。"
+    ],
+    "advancement (grant|revoke) <targets> only <advancement> [<criterion>]": [
+      "授予或移除玩家指定的进度或进度的一项准则。"
+    ],
+    "advancement (grant|revoke) <targets> from <advancement>": [
+      "授予或移除玩家指定进度及其下游的全部进度。",
+      "进度的遍历顺序是指定进度 > 下游进度 > 下游进度的下游进度 > ……，以DFS遍历（即优先列举节点的子节点，而后才列举节点的兄弟节点）。"
+    ],
+    "advancement (grant|revoke) <targets> through <advancement>": [
+      "授予或移除玩家指定进度及其全部上游和下游进度。",
+      "进度的遍历顺序是until和from的结合，首先进行until，然后进行from，即上游进度 > 上游进度的上游进度 > …… > 根进度 > 指定进度 > 下游进度 > 下游进度的下游进度 > ……。"
+    ],
+    "advancement (grant|revoke) <targets> until <advancement>": [
+      "授予或移除玩家指定进度及其全部上游进度。",
+      "进度的遍历顺序是上游进度 > 上游进度的上游进度 > …… > 根进度 > 指定进度。"
+    ],
+    "参数": [
+      "<targets>：entity",
+      "指定一个或多个玩家。",
+      "必须为玩家名、目标选择器或UUID。且要求目标选择器为玩家类型，若不是则此命令将无法解析。",
+      "<advancement>：resource_location",
+      "指定要给予或移除的进度识别符。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "<criterion>：string",
+      "指定要授予或移除的进度准则。",
+      "若未指定，授予或移除整个进度。",
+      "若指定，只授予或移除进度中指定的这条准则，而不是整个进度。",
+      "必须为字符串。是一个贪婪字符串，即命令的剩余部分全部被视作该字符串参数，可以包含空格。"
+    ],
+    "Java版": [
+      "1.12",
+      "17w13a",
+      "加入了/advancement命令。",
+      "1.13",
+      "17w45a",
+      "移除了/advancement test的用法，以应对实体选择器的修改。",
+      "1.20.3",
+      "23w45a",
+      "/advancement不再抛出未处理的异常。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "授予自己“钻石护体”进度：advancement grant @s only minecraft:story/shiny_gear",
+      "授予所有玩家所有进度：advancement grant @a everything"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "现在使用/advancement执行成功时，会输出所有玩家改变的进度状态数量和改变影响到的玩家数量。"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "基岩版1.5.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.5.1",
+  "structured_content": {
+    "默认分类": [
+      "1.5.1"
+    ],
+    "内部版本号": [
+      "1.5.1.2",
+      "Windows：1.5.102.0"
+    ],
+    "版本码": [
+      "Android：",
+      "841050102（armeabi-v7a，22）",
+      "842050102（x86，22）",
+      "871050102（armeabi-v7a，24）",
+      "872050102（x86，24）"
+    ],
+    "发布时间": [
+      "Nintendo Switch – 2018年7月19日",
+      "Android、iOS、Fire OS、Windows 10、Windows 10 Mobile、Gear VR、Xbox One – 2018年7月20日"
+    ],
+    "协议版本": [
+      "274",
+      "其他版本的1.5.1"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.5.0",
+      "1.6.0►►",
+      "1.5.2►",
+      "1.5.1是基岩版的一次热修复更新，在Nintendo Switch上发布于2018年7月19日，而在其他平台发布于7月20日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了7个漏洞",
+      "修复数个游玩时出现的崩溃问题。",
+      "现在游戏会防止玩家物品栏丢失。（MCPE-35324）",
+      "对于已丢失物品的玩家，团队正在进一步调查该漏洞。",
+      "修复偶尔无法在Nintendo Switch上登录微软账号的问题。",
+      "修复有混搭包启用时登录游戏的下载进程停滞的问题。",
+      "在Nintendo Switch上的全局资源中加载特定的包后，纹理不再损坏。（MCPE-34633）",
+      "在内容下载时切换到本地网络时，不再出现无限的提醒。",
+      "修复数个VR设备上用手柄无法滚动某些界面的问题。"
+    ],
+    "参考": [
+      "Minecraft - 1.5.1 (Bedrock) — Minecraft Feedback，2018年7月19日。",
+      "The 1.5.1 hotfix is out for Switch now, other platforms will receive it later today. This addresses the nasty bug where player save data was getting lost, and a separate fix to recover lost items is being worked on. More information on that later!，来自@Mega_Spud。X（曾名Twitter），2018年7月20日。"
+    ]
+  }
+}

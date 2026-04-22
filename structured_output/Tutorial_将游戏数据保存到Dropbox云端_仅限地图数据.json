@@ -1,0 +1,76 @@
+{
+  "title": "Tutorial:将游戏数据保存到Dropbox云端/仅限地图数据",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%B0%86%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E4%BF%9D%E5%AD%98%E5%88%B0Dropbox%E4%BA%91%E7%AB%AF%2F%E4%BB%85%E9%99%90%E5%9C%B0%E5%9B%BE%E6%95%B0%E6%8D%AE",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "警告": [
+      "因为这是Wiki的一个条目，可以在任何时间内被任何人编辑，因此建议你不要完全使用这个脚本，而是将其当作编写脚本的指导手册看待。",
+      "这里是一个如何把游戏地图数据上传到云端的教程，以便你可以在任何地方游玩该存档。",
+      "为了链接任何你希望游玩的计算机，你需要遵循下列步骤：安装Dropbox、同步文件和创建符号链接。"
+    ],
+    "注意": [
+      "该教程假设你只想上传Minecraft地图数据文件夹。如果你希望分离不同系统的文件夹（如Minecraft/Linux、Minecraft/Windows，Minecraft/Toaster等等），那么你就要在Dropbox里创建它们。本教程只会同步地图数据，其他的.jar自定义文件（例如Mod）或数据包等则不包含在内。",
+      "你一次只能在一台计算机上游玩，在别的计算机游玩之前，必须让Dropbox完成同步。如果不这样做，那么你将会丢失你当前的进度，而且有可能会损坏你的存档。",
+      "本教程仅适用于官方启动器，第三方启动器可能在它所在的目录创建.minecraft文件夹，请以启动器显示的文件夹位置为准。",
+      "本教程讲解的是Java版的操作方法，如果你在Windows系统上游玩基岩版，并且要使用Dropbox同步游戏文件，则需要把下文的Minecraft地图数据文件路径改为%localappdata%\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\minecraftWorlds，然后再按照Windows的方法操作。"
+    ],
+    "下载和安装Dropbox": [
+      "第一步就是下载Dropbox。Dropbox会自动同步服务器的内容，允许你在线或通过PC客户端访问这些内容。Dropbox是跨平台的，你也可以通过网页进行访问。",
+      "前往Dropbox网站，注册一个免费账户，下载应用程序并安装它。你会自动获得2GB的免费云存储空间。",
+      "安装了Dropbox后，你需要知道Dropbox的文件夹位置：",
+      "在Windows中，默认Dropbox文件夹在C:\\Users\\用户名\\Dropbox。",
+      "使用环境变量表示：%HomeDrive%%HomePath%\\Dropbox。",
+      "在Linux中，默认位置在用户的home目录。例如~/Dropbox。",
+      "在macOS中，其位置也应该在用户的home目录。",
+      "无论你使用哪个系统，Dropbox都有非常好的文档，可以协助你查找帮助。"
+    ],
+    "复制你的地图数据到Dropbox": [
+      "下一步，我们将会需要备份一份Minecraft的地图数据，并且把这个备份存到Dropbox云端。要完成本教程，我们将会复制.minecraft里面的saves文件夹，并把这个文件夹放进Dropbox文件夹里面的Minecraft文件夹。你也可以选择把它存在你选择的Dropbox位置里。"
+    ],
+    "Windows": [
+      "在Windows中，你的Minecraft地图数据文件夹位于你的AppData文件夹。你可以通过按下⊞ Windows + R，然后在文本框中输入%AppData%\\.minecraft。这将会为你打开Minecraft文件夹。复制名为saves的文件夹，我们将会在Dropbox文件夹中创建Minecraft文件夹，然后把地图数据储存在这里面。",
+      "一旦这些文件复制完成后，回到你的.minecraft文件夹，然后重命名saves文件夹为saves-backup。该步骤可确保你在出现不可恢复的错误时拥有一个备份，以及允许在最后的一个步骤中创建正确的符号链接。",
+      "符号链接和快捷方式类似，但是更强大。在Windows中，mklink命令会创建一个符号链接。",
+      "以管理员身份打开命令提示符。这样做是必要的，即使你当前机器上使用的用户是管理员用户。否则，命令提示符将报错：您没有足够的权限执行此操作，从而无法创建符号链接。",
+      "然后在窗口中输入："
+    ],
+    "备选方法（命令提示符）": [
+      "打开命令提示符，输入："
+    ],
+    "xcopy /I /E %AppData%\\.minecraft\\saves %HomeDrive%%HomePath%\\Dropbox\\Minecraft cd %AppData%/.minecraft rename（或ren） saves saves-backup": [
+      "注：输入rename（或ren） %AppData%\\.minecraft\\saves %AppData%\\.minecraft\\saves-backup会报错：命令语法不正确，要按照上文执行该命令。"
+    ],
+    "macOS": [
+      "在macOS中，Minecraft地图数据文件夹在~/Library/Application Support/minecraft/saves。你可以通过打开访达窗口，按下⇧ Shift + ⌘ Command + G打开“前往文件夹”窗口，然后输入~/Library/Application Support/minecraft后按下↵ Enter来快速找到它。要在稍后的时候引用saves文件夹，最好为该文件夹制作一个别名，然后复制它到你的桌面。",
+      "现在，复制里面的saves文件夹到你希望存在Dropbox中的位置。最好重命名原始地图数据文件夹（~/Library/Application Support/minecraft/saves）为saves-backup作为备份，以防止发生意外情况时存档文件夹出现问题。它也允许我们在接下来的一个步骤里创建链接到正确位置的符号链接。",
+      "在macOS中创建符号链接是很容易的，我们要使用一个叫做SymboliceLinker的免费程序，它允许你通过在访达右击文件夹来创建一个符号链接。",
+      "安装该程序后，移动你的Minecraft文件夹（~/Library/Application Support/minecraft）到你的Dropbox文件夹里。右击该新文件夹并选择Make symbolic link。这将会在相同文件夹中创建一个符号链接。移动该文件夹到原本的位置里（确保它和原始文件夹名称相同），并且你已经选取全部的游戏数据到互联网上。"
+    ],
+    "备选方法（终端）": [
+      "打开终端，输入：",
+      "打开终端，输入：",
+      "打开终端，输入："
+    ],
+    "Linux": [
+      "在Linux中，你的Minecraft数据文件夹位置在用户的home文件夹。这个文件可能被隐藏。如果你正在使用GUI，确保已在文件管理器按下Ctrl + H以显示隐藏的文件。",
+      "复制.minecraft文件夹中的saves文件夹到你的Dropbox文件夹。和之前提到的一样，在Dropbox里面新建一个Minecraft文件夹。",
+      "复制完成后，重命名saves文件夹为saves-backup。",
+      "打开终端，输入："
+    ],
+    "创建符号链接": [
+      "这是本教程的最后一个步骤，这允许我们链接到地图数据文件的在线版本。"
+    ],
+    "mklink /d \"%AppData%\\.minecraft\\saves\" \"%HomeDrive%%HomePath%\\Dropbox\\Minecraft\"": [
+      "如果出现了一个错误：当文件已存在时，无法创建该文件，确保saves文件夹已被删除或重命名。上述命令会尝试新建一个叫作saves的文件夹，不会替换存在相同名称的文件或文件夹。",
+      "如果要删除一个符号链接，可以在文件资源管理器安全删除它。"
+    ],
+    "ln -s ~/Dropbox/Minecraft/saves ~/Library/Application\\ Support/minecraft/saves": [
+      "如果你更改了Dropbox文件夹的位置，那么你需要修改第一个路径。"
+    ],
+    "ln -s ~/.minecraft/saves ~/Dropbox/Minecraft": [
+      "现在，saves文件夹应该出现在你的Dropbox文件夹，并且你在启动Minecraft时会看见你保存的世界。"
+    ]
+  }
+}

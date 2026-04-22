@@ -1,0 +1,147 @@
+{
+  "title": "Tutorial:优化数据包",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E4%BC%98%E5%8C%96%E6%95%B0%E6%8D%AE%E5%8C%85",
+  "structured_content": {
+    "默认分类": [
+      "本教程所述内容仅适用于Java版。",
+      "本教程将介绍如何优化命令和数据包。"
+    ],
+    "性能分析": [
+      "主条目：性能分析报告文件 § 性能转储数据",
+      "如果你不确定要优化哪些命令，务必运行性能分析。",
+      "在专用服务器上使用/perf命令，或在单人游戏使用F3 + L进行性能分析，可以获取服务器性能分析数据。",
+      "分析之后，打开<服务端根目录>/debug/profiling/<时间>-<存档名称>-<游戏版本>.zip（也可通过点击聊天栏访问），解压server/profiling.txt。",
+      "其中tick下的commandFunctions和tick/levels/ServerLevel[<世界名>] <维度ID>/tick下的scheduledFunctions就是函数性能数据。"
+    ],
+    "最佳方案": [
+      "Minecraft是一个复杂的游戏，没有总是适用的规则，并且命令的行为可能偏离预期。如果你不确定如何优化命令，可以反复尝试。"
+    ],
+    "减少运行的命令": [
+      "这似乎显而易见，但它是优化命令的最佳途径之一。",
+      "对于一部分命令，你不必每刻都要运行它们。试着延长这些命令的运行周期，或是使用不依赖刻循环的方式实现。"
+    ],
+    "使用schedule命令": [
+      "将/schedule function指向自身可产生间隔循环执行的效果。将这个函数添加至#minecraft:load标签（或相关逻辑）而非#minecraft:tick标签。",
+      "example:loop/2t"
+    ],
+    "mcfunction": [
+      "+ schedule function example:loop/2t 2t execute as @e run ...",
+      "advancementrevoke@sonlyexample:player/score",
+      "- execute as @a[nbt={SelectedItem:{id:\"minecraft:apple\"}}] run ...+ execute if items entity @s weapon.mainhand apple run ...",
+      "- execute as @a[nbt={RootVehicle:{id:\"minecraft:pig\"}}] run ...+ execute as @a[predicate=example:riding_pig] run ...",
+      "example:riding_pig",
+      "- data modify entity @s Item.count set value 10+ item modify entity @s contents {function:\"set_count\",count:10}",
+      "datamodifystorageexample:tempcustom_datasetfromentity@sitem.components.minecraft:custom_data# 你的代码……datamodifyentity@sitem.components.minecraft:custom_datasetfromstorageexample:tempcustom_data",
+      "- execute as @a[tag=hider] if score @s timer matches 0.. run ...+ execute as @a[tag=hider,scores={timer=0..}] run ...",
+      "example:f/hi",
+      "- execute as @e[type=item] if items entity @s contents apple run ...- execute as @e[type=item] if items entity @s contents cobblestone run ...+ execute as @e[type=item] run function example:f/process_item",
+      "example:f/process_item",
+      "- execute as @e[type=marker,tag=test] run ...+ execute as @e[type=marker,tag=test,distance=..1] run ...",
+      "- execute as @e[type=item] at @s run ...+ execute as @e[type=item] at @s if entity @a[distance=..24] run ...",
+      "schedulefunctionoptimize:loop/2t2texecuteat@arun functionoptimize:f/tagging_active_entity",
+      "optimize:f/tagging_active_entity",
+      "tag@e[tag=!active.64,distance=..64]addactive.64tag@e[tag=active.64,distance=64..]removeactive.64",
+      "- execute if predicate some:1 run function some:1- execute if predicate some:2 at @s run function some:2- execute if predicate some:3 in minecraft:overworld run function some:3+ execute if predicate some:1 run return run function some:1+ execute if predicate some:2 run return run execute at @s run function some:2+ execute if predicate some:3 run return run execute in minecraft:overworld run function some:3",
+      "executeifscore#0examplematches0..127run returnrun functionexample:node/0..127executeifscore#0examplematches128..255run returnrun functionexample:node/128..255",
+      "example:node/0..127",
+      "executeifscore#0examplematches..63run returnrun functionexample:node/0..63executeifscore#0examplematches64..run returnrun functionexample:node/64..127",
+      "example:node/128..255",
+      "executeifscore#0examplematches..191run returnrun functionexample:node/128..191executeifscore#0examplematches192..run returnrun functionexample:node/192..255"
+    ],
+    "使用实体周期谓词": [
+      "如果命令周期集中运行的效果不佳（如同时在玩家周围实体播放声音，使得声音叠加），可以尝试实体谓词 § 实体谓词格式的periodic_tick。",
+      "相对于/schedule性能更差，因为还是会运行目标选择器，只是会检测实体的出现时间是否是periodic_tick的倍数。"
+    ],
+    "在玩家身上使用进度": [
+      "如果仅匹配玩家，使用进度避免命令选中@a的性能损耗。",
+      "在进度内设置触发条件，在函数末尾添加要运行的命令。",
+      "example:player/score"
+    ],
+    "...": [
+      "{\"criteria\":{\"example\":{\"trigger\":\"minecraft:tick\",\"conditions\":{\"player\":[{\"condition\":\"minecraft:entity_scores\",\"entity\":\"this\",\"scores\":{\"example.score\":{\"min\":1}}}]}}},\"rewards\":{\"function\":\"example:triggered\"}}",
+      "example:triggered",
+      "{\"description\":\"example\",\"anvil_cost\":1,\"max_level\":1,\"weight\":1,\"min_cost\":{\"base\":1,\"per_level_above_first\":3},\"max_cost\":{\"base\":2,\"per_level_above_first\":3},\"supported_items\":\"minecraft:paper\",\"slots\":[\"saddle\"],\"effects\":{\"minecraft:tick\":[{\"effect\":{\"type\":\"run_function\",\"function\":\"example:foo\"}}]}}"
+    ],
+    "在生物身上使用魔咒": [
+      "相比于进度，魔咒适用于几乎所有的生物。然而魔咒能够应用的场景相对有限。当你需要在非玩家身上应用命令时优先考虑魔咒是否可用。",
+      "一个值得在这里提出的技巧是：即便一个槽位看似不被某个生物应用，在该槽位上仍能设置物品且魔咒往往也能生效。例如，你可以在僵尸身上应用鞍槽位。",
+      "example:example"
+    ],
+    "优化NBT操作": [
+      "访问或修改NBT数据是高开销行为，对玩家更是如此。这是因为游戏实际上会先将实体数据保存到硬盘，再对数据进行操作；如果是对NBT数据进行修改，还要再读取回来并创建一个新的实体。"
+    ],
+    "用/execute if items替换物品匹配": [
+      "example:tick"
+    ],
+    "用谓词替换匹配操作": [
+      "example:tick"
+    ],
+    "predicate": [
+      "+ {+ \"condition\": \"minecraft:entity_properties\",+ \"entity\": \"this\",+ \"predicate\": {+ \"vehicle\": {+ \"type\": \"minecraft:pig\"+ }+ }+ }"
+    ],
+    "用物品修饰器替换物品操作": [
+      "example:f/set_count"
+    ],
+    "用命令存储缓存NBT": [
+      "如果在使用上述方法优化后，仍有三条以上操作实体或方块NBT的命令，可以使用命令存储缓存NBT。",
+      "example:f/custom_data"
+    ],
+    "减少execute子命令": [
+      "example:tick"
+    ],
+    "- execute as @a[tag=hider] run effect give @s glowing+ effect give @a[tag=hider] glowing": [
+      "example:tick"
+    ],
+    "优化目标选择器": [
+      "参见：Tutorial:目标选择器 § 选择器差异"
+    ],
+    "为选择器添加类型判断": [
+      "除非你意在检测所有的实体种类，否则你可以在选择器内加入type=参数。这样做可以排除不需要检测的实体，优化选择器性能。",
+      "example:tick"
+    ],
+    "减少@e选择器": [
+      "寻找世界上所有匹配的实体是高开销行为。如果你有多个使用重复或相似选择器的命令，请考虑将它们合并为单个函数，然后使用开销更低的@s代替多余的选择器。",
+      "example:tick"
+    ],
+    "为选择器添加距离限制": [
+      "Minecraft以区块为单位加载和读取实体。因此若你知晓想要选中的实体就在上下文当前位置，应当尽量使用distance=做距离限制，以减少被影响的区块。",
+      "example:tick"
+    ],
+    "优化宏函数": [
+      "参见：宏函数"
+    ],
+    "减少不必要的宏函数": [
+      "调用宏函数具有开销。请考虑仅在绝对必要时使用它们。",
+      "example:f/set_age"
+    ],
+    "使用宏函数缓存": [
+      "游戏将尝试缓存8个在调用中被使用过的参数。",
+      "所以，如果你的宏函数有16个参数，考虑创建两个输入8个参数的宏函数，以显著提升性能。"
+    ],
+    "备选方案": [
+      "以下方案有错误使用的风险，或优化效果一般。"
+    ],
+    "判断玩家距离": [
+      "参见：目标选择器 § 距离",
+      "如果一个性能损耗较大的功能在玩家附近才有效，考虑判断玩家距离。"
+    ],
+    "在实体处匹配": [
+      "example:tick"
+    ],
+    "在玩家处匹配": [
+      "如果实体数量很多（或选中实体多次），匹配距离可能会有较大的损耗，这时可以先使用/tag命令为玩家周围的实体打上标签，再选中tag=进行执行。只需标记一次就可在各处使用。还可搭配§ 减少运行的命令方法。",
+      "optimize:loop/2t"
+    ],
+    "使用return run结束函数": [
+      "如果匹配到一种情况后，后面的情况都不会发生，可使用/return run结束当前函数。如果逻辑上没有先后关系，可以将更容易出现的放在前面。",
+      "注意：",
+      "/return run 会立即结束函数。应该在一个单独的，处理各种分支匹配情况函数中使用这个方法。",
+      "如果有多个命令分支（如选中多个实体/execute as @e），只会执行第一个分支。",
+      "example:f/match"
+    ],
+    "使用二叉树": [
+      "如遇极端情况（无法使用宏函数且分支数量巨大），可使用二叉树。",
+      "example:root"
+    ]
+  }
+}

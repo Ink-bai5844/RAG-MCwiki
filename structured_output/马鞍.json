@@ -1,0 +1,38 @@
+{
+  "title": "马鞍",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%A9%AC%E9%9E%8D",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Java版已移除的物品。关于当前版本的鞍，请见“鞍”。",
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "马鞍": [
+      "416"
+    ],
+    "最大堆叠": [
+      "32"
+    ],
+    "物品ID": [
+      "416",
+      "马鞍（Horse Saddle）是能够装备在马身上的物品。"
+    ],
+    "用途": [
+      "主条目：鞍",
+      "马鞍的用途与鞍相同，但其只能对马使用。想要为马佩戴上马鞍，需要先将其驯服。"
+    ],
+    "Java版": [
+      "1.6.1",
+      "13w16a",
+      "加入了马鞍。",
+      "13w18a",
+      "移除了马鞍。"
+    ],
+    "你知道吗": [
+      "游戏里的马鞍与DrZhark制作的Mo' Creatures Mod中的马鞍具有相同的纹理，因为DrZhark参与了游戏中马的开发。该物品也有着和游戏中的马鞍相同的配方和翻译。"
+    ],
+    "参考": [
+      "Also big thanks to @DrZhark, the creator of Mo' Creatures, that have assisted us to make it happen!，来自@jeb_。X（曾名Twitter），2013年4月4日。"
+    ]
+  }
+}

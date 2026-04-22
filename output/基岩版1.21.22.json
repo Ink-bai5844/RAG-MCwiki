@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.22",
+  "text": "1.21.22\n版本\n基岩版\n服务端版本\n1.21.22.01\n内部版本号\nAndroid：1.21.22.01\nPlayStation：2.95\nWindows：1.21.2201.0\n版本码\nAndroid：\n952102201（armeabi-v7a，34）\n962102201（x86，34）\n972102201（arm64-v8a，34）\n982102201（x86_64，34）\niOS/iPadOS：\n868505793\n发布时间\nChromeOS/Android, Nintendo Switch, PlayStation, Windows, Xbox - 2024年8月26日\nFire, iOS/iPadOS - 2024年8月27日\n下载\n服务端\nWindowsLinux\n协议版本\n712\n◄◄1.21.0\n1.21.40►►\n◄1.21.21\n1.21.23►\n1.21.22是基岩版的一次热修复更新，在除Fire和iOS/iPadOS外的平台上发布于2024年8月26日，在Fire和iOS/iPadOS平台上发布于2024年8月27日，修复了一些漏洞。此版本与1.21.20和1.21.21相互兼容。\n修复\n修复了一些游戏过程中可能发生的崩溃。\n优化了来自市场的附加包的加载过程。\n修复了UI中所有的自定义方块都会旋转180度的漏洞。\ngui、​item_display_transforms和​rotation字段的默认值现在为[30, 45, 0]，而不是[30, 225, 0]。\n\"item_display_transforms\":{\"gui\":{\"translation\":[0,0,0],\"rotation\":[30,45,0],\"scale\":[0.625,0.625,0.625],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0],\"fit_to_frame\":true}}\n参考\nMinecraft - 1.21.22 (Bedrock) — Minecraft Feedback，2024年8月26日。\n导航"
+}

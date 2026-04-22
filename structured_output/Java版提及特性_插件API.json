@@ -1,0 +1,32 @@
+{
+  "title": "Java版提及特性/插件API",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%8F%90%E5%8F%8A%E7%89%B9%E6%80%A7%2F%E6%8F%92%E4%BB%B6API",
+  "structured_content": {
+    "默认分类": [
+      "插件API（Plugin API，社区中亦称Workbench）是计划允许Mod作者更容易增加更多内容到游戏中。和Mod相比之下，插件不需要在minecraft.jar内改变任何东西。但是他们也会稍微限制一些权限。Bukkit团队将会帮助开发官方插件API。",
+      "插件API已经在一些版本更新计划提及，Alpha v1.0.1_01发布后不久，这个计划就定在1.3正式版，然后被推迟到1.4，又定在1.5，但没有完全实现。之后被无限推迟。"
+    ],
+    "功能": [
+      "根据计划，插件应该更容易找到，下载并安装API将不会和Bukkit一样。",
+      "以下功能是部分已计划的插件API：",
+      "插件将会兼容多人模式。",
+      "它的目的是让Mod（或者说插件）更容易地安装，并且让它更不容易破坏你的游戏。",
+      "Minecraft官网将会改进，帮助带来最有趣的社区插件和自定义地图的界面。",
+      "这将更容易添加和动画模型。",
+      "改变游戏的存储数据方式，对于它的许多材料和物品。",
+      "在MineCon 2012，Mojang分享他们对未来的Plugin API愿景。可以在这里观看完整的演示："
+    ],
+    "参考": [
+      "https://twitter.com/Dinnerbone/status/184570898920112128",
+      "https://twitter.com/Dinnerbone/status/184585004389646336",
+      "模块化 API: 模块化 API",
+      "模块化 API: Bukkit 研发 API",
+      "Server scripting（存档） — The Word of Notch，2010年7月5日。",
+      "https://twitter.com/jeb_/status/246175831037202432",
+      "https://twitter.com/Dinnerbone/status/272733076738682881",
+      "https://twitter.com/Dinnerbone/status/184583108547444736",
+      "模块化 API: Curse 访问 Jeb（第一部分）",
+      "模块化 API: Curse 访问 Jeb（第二部分)"
+    ]
+  }
+}

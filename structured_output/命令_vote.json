@@ -1,0 +1,78 @@
+{
+  "title": "命令/vote",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fvote",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本23w13a_or_b中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "管理投票和投票规则。"
+    ],
+    "vote dump_all [long|short]": [
+      "在日志输出所有投票规则的信息，并在聊天栏输出“Whew! That was scary!（呼！太可怕了！）”。"
+    ],
+    "vote io (flush|reload)": [
+      "刷新或重新加载投票。"
+    ],
+    "vote pending discard (*|<id>)": [
+      "放弃投票，不启用投票规则。"
+    ],
+    "vote pending finish (*|<id>)": [
+      "结束投票，根据结果启用投票规则。"
+    ],
+    "vote pending repeal": [
+      "开始为废除投票规则投票。"
+    ],
+    "vote pending start <rule>": [
+      "开始为启用投票规则投票，参数随机。"
+    ],
+    "vote pending vote <id> <option> [<count>]": [
+      "为指定投票的选项投票。"
+    ],
+    "vote rule ? approve": [
+      "启用投票规则。"
+    ],
+    "vote rule (*|?) repeal": [
+      "废除投票规则。"
+    ],
+    "long|short": [
+      "指定日志中输出的信息。默认为long。",
+      "long — 输出完整介绍，格式为：",
+      "<投票规则ID> Example proposals: <JSON数据> Approve: <投票规则启用表述> Repeal: <投票规则废除表述>",
+      "short — 仅输出简介，格式为：<投票规则ID>: \"<投票规则表述，每个参数使用逗号分隔>\""
+    ],
+    "*": [
+      "所有投票规则或效果。"
+    ],
+    "?": [
+      "随机投票规则或效果。",
+      "<rule>：resource",
+      "指定投票规则名称。",
+      "必须是一个注册在minecraft:rules注册表的一个注册项的命名空间ID。",
+      "<id>：uuid",
+      "指定投票的UUID。",
+      "必须为带连字符的十六进制UUID。接受下列字符：-、A-F、a-f、0-9。",
+      "<option>：integer",
+      "指定投票的选项。",
+      "必须为32位整数。",
+      "<count>：integer",
+      "指定票数。默认为1。",
+      "必须为32位整数。",
+      "<value>：nbt_tag",
+      "指定对应投票规则的参数。",
+      "必须为SNBT格式的任意类型NBT标签。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1"
+    ]
+  }
+}

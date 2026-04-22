@@ -1,0 +1,11 @@
+{
+  "title": "生物/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9F%E7%89%A9%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ]
+  }
+}

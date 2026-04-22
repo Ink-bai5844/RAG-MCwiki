@@ -1,0 +1,5 @@
+{
+  "title": "服务器/需求/服务器",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E5%99%A8%2F%E9%9C%80%E6%B1%82%2F%E6%9C%8D%E5%8A%A1%E5%99%A8",
+  "text": "本文章不适用于Classic服务器软件。\n本文章仅描述SMP服务器运行的技术性信息。\n由于Minecraft很少使用多个线程，因此购买超过2个内核可能会造成浪费。然而这并不适用于独占线程的Mod和插件——请自行估算购买。如果大多数服务器的负载在单个核心上，那么主要性能影响因素便是CPU主频，同时CPU缓存大小和RAM延迟也是影响服务器性能的因素。使用高端桌面处理器或许也是好选择。\n使用插件\nWindows 7\n*测试时使用了插件\n需求\n玩家\nCPU\n内存\nSSD\n备份硬盘\n上传带宽\n下载带宽\n注释\n最低配置\n100+\n2.5+ GHz\n8 GB+\n120 GB 可用空间\n500 GB 备份空间\n10 Mbit/s\n推荐配置\n1000+\n3.5+ GHz\n20 GB+\n240 GB 可用空间\n1 TB 备份空间\n100 Mbit/s\n最佳配置\n10000+\n4.0+ GHz\n30 GB+\n400 GB 可用空间\n2 TB 备份空间\n1 Gbit/s\nRAMDisk可以大大加快在一个人气很高的服务器世界上储存/加载的速度\n仅使用Mod\nWindows 7\n*测试时没有使用插件！\n需求\n玩家\nCPU\n内存\nSSD\n备份硬盘\n上传速度\n下载速度\n注释\n最低配置\n50+\n2.5+ GHz\n3 GB+\n120 GB 可用空间\n1 TB 备份空间\n150 Mbit/s\n推荐配置\n300+\n3.5+ GHz\n8 GB+\n320 GB 可用空间\n2 TB 备份空间\n200 Mbit/s\n最佳配置\n500+\n4.0+ GHz\n16 GB+\n560 GB 可用空间\n10 TB 备份空间\n1 Gbit/s\nRAMDisk可以大大加快在一个人气很高的服务器世界上储存/加载的速度"
+}

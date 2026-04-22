@@ -1,0 +1,5 @@
+{
+  "title": "末影之眼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%BD%B1%E4%B9%8B%E7%9C%BC%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n*Item：实体渲染时使用的物品，同时也控制掉落时产生的物品。此项不存在或无效时游戏使用末影之眼物品作为默认值。\n物品共通标签，见Template:Nbt inherit/itemnoslot/source"
+}

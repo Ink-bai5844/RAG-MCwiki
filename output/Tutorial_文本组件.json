@@ -1,0 +1,5 @@
+{
+  "title": "Tutorial:文本组件",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E6%96%87%E6%9C%AC%E7%BB%84%E4%BB%B6",
+  "text": "本教程所述内容仅适用于Java版。\n该教程至少适用于Java版1.21.5。\n若发现内容和版本不匹配、缺失最新版本内容等问题，请帮助我们修改。\n本教程将介绍文本组件的格式和相关应用。在Java版25w02a，命令中的文本组件改用SNBT来表示。在Java版1.21.4正式版及以前，JSON是文本组件的标准书写格式。\n告示牌使用了文本组件。图中为一个白桦木告示牌，文字的颜色是通过修改文本组件设置的\n本教程建议学习者事先具备JSON或SNBT基础。\n基础\n主条目：Tutorial:文本组件/基础\n实例\n主条目：Tutorial:文本组件/实例\n生成器\nmisode.github.io - Text Component。\n参见\n文本组件\n命令/tellraw\n命令/title\nTutorial:NBT与JSON\n导航"
+}

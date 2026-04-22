@@ -1,0 +1,69 @@
+{
+  "title": "属性/空气阻力修正系数",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E7%A9%BA%E6%B0%94%E9%98%BB%E5%8A%9B%E4%BF%AE%E6%AD%A3%E7%B3%BB%E6%95%B0",
+  "structured_content": {
+    "默认分类": [
+      "本页面包含会在下一次更新中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。"
+    ],
+    "默认值": [
+      "1"
+    ],
+    "值域": [
+      "0 – 2048"
+    ],
+    "air_drag_modifier": [
+      "空气阻力修正系数（Air Drag Modifier）是控制生物在空气中运动时受到的阻力的属性。"
+    ],
+    "行为": [
+      "主条目：实体 § 运动",
+      "生物在空气中移动时，其运动速度会乘上此属性的计算值、来自方块的阻力系数和0.91的乘积。如果生物不是蜜蜂、鹦鹉和吸收了方块的硫方怪，则竖直方向上的速度还会再乘0.98。",
+      "来自方块的阻力系数的计算参见[[属性/摩擦力修正系数|摩擦力修正系数]]属性（friction_modifier）。",
+      "山羊、青蛙和旋风人的长跳或大跳不受空气阻力影响。"
+    ],
+    "所有生物": [
+      "1.0"
+    ],
+    "bouncy_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.99"
+    ],
+    "fast_flat_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.99"
+    ],
+    "fast_sliding_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.99"
+    ],
+    "high_resistance_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.99"
+    ],
+    "light_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "0.8"
+    ],
+    "regular_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.9"
+    ],
+    "slow_flat_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.9"
+    ],
+    "slow_sliding_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.99"
+    ],
+    "sticky_mul_air_drag_modifier": [
+      "add_multiplied_total (Op2)",
+      "-0.99"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了空气阻力修正系数。"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "骷髅/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%AA%B7%E9%AB%85%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "StrayConversionTime：骷髅转化为流浪者前要经历的时间。骷髅在细雪中140游戏刻（7秒）后，此值被设置为300游戏刻（15秒），并每游戏刻减少1，如果脱离细雪则此值无效。当此值被减少到不大于0时，骷髅被转化为流浪者。如果不处于细雪中也没有在转化过程中，此值为-1。"
+    ]
+  }
+}

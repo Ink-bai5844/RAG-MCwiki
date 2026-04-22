@@ -1,0 +1,5 @@
+{
+  "title": "命令方块矿车/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%E6%96%B9%E5%9D%97%E7%9F%BF%E8%BD%A6%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n矿车共通标签，见Template:Nbt inherit/minecart/source\n*\n*Command：命令方块矿车中的命令。\nCustomName：（文本组件，默认为“@”）命令方块矿车的自定义名称。\nLastOutput：（文本组件，当*TrackOutput为true时存在并有效）上一条命令的输出。游戏规则“广播命令方块输出”（command_block_output）为false时依旧会储存。\nLastExecution：（当*UpdateLastExecution为true时存在并有效）上一条命令执行的时间戳。\n*\n*SuccessCount：命令执行的成功次数，影响用红石比较器输出的模拟信号强度。只在命令方块矿车用激活铁轨激活后更新。\n*TrackOutput：表示是否储存上一条命令的输出，在GUI中点击\"上一个输出\"文本框旁的按钮进行开关。按钮上的标志指示出目前的状态：O为true，X为false。当此项不存在时游戏默认为true。\n*UpdateLastExecution：表示是否储存上一条命令执行的时间戳。当此项不存在时游戏默认为true。"
+}

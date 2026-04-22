@@ -1,0 +1,5 @@
+{
+  "title": "Earth:煤烟猪",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E7%85%A4%E7%83%9F%E7%8C%AA",
+  "text": "本条目介绍的是Minecraft Earth中的头部与尾部有黑色皮毛的猪变种。关于其他类似于猪的生物，请见“猪（消歧义）”。\n煤烟猪\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：0.9格\n宽度：0.9格\n实体ID\n?\n煤烟猪（Sooty Pig）是一种头部和尾部都有黑色皮毛的猪变种。\n获取\n煤烟猪可作为罕见级别的生物在猪可点击物中获得。\n行为\n主条目：猪 § 行为\n煤烟猪有着与普通猪相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n煤烟猪死亡时掉落：\n1-3 生猪排（若被烧死则掉落熟猪排）\n音效\n描述\n文件\n空闲时随机播放此音效\nmob.pig.say\n死亡\nmob.pig.death\n受伤\nmob.pig.say\n行走\nmob.pig.step\n数据值\nID\n名称\n命名空间ID\n煤烟猪\n?\n历史\nMinecraft Earth\n0.33.0\n加入了煤烟猪。\n你知道吗\n煤烟猪的外观与现实中的汉普夏猪相似。\n日记中透露，煤烟猪是在黑森林生成的。\n导航"
+}

@@ -1,0 +1,40 @@
+{
+  "title": "游戏规则/keep inventory",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fkeep_inventory",
+  "structured_content": {
+    "keepInventory": [
+      "keep_inventory[仅Java版]或keepInventory[仅基岩版]是控制玩家在死亡时掉落物品和经验值的游戏规则。"
+    ],
+    "行为": [
+      "当keep_inventory[仅Java版]或keepInventory[仅基岩版]为false时，玩家在死亡时将会失去所有物品，掉落物品栏中所有不具有消失诅咒的物品，且不受抢夺魔咒影响。无论玩家因何种原因身亡，玩家始终会掉落等同于自身经验等级×7的经验值，至多能掉落100 经验值。",
+      "当keep_inventory[仅Java版]或keepInventory[仅基岩版]为true时，玩家在死亡时将保留他们的物品栏和经验值，并携带着物品和经验值复活。"
+    ],
+    "Java版": [
+      "1.4.2",
+      "12w32a",
+      "加入了游戏规则keepInventory。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则keepInventory重命名为keep_inventory。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "加入了游戏规则keepInventory。"
+    ],
+    "基岩版": [
+      "1.21.50",
+      "1.21.50.20",
+      "现在游戏难度为和平或简单时，游戏规则keepInventory的默认值为true。"
+    ],
+    "正式版": [
+      "1.21.50.20中的变更在正式版中不可用。",
+      "1.21.70",
+      "1.21.70.23",
+      "回退了1.21.50.20中的变更。"
+    ],
+    "参考": [
+      "MCPE-188761 — 漏洞状态为“有意为之”。"
+    ]
+  }
+}

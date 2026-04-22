@@ -1,0 +1,14 @@
+{
+  "title": "海绵/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B5%B7%E7%BB%B5%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1"
+    ],
+    "海绵是否已吸水（是否为湿海绵）": [
+      "0x2",
+      "0x4",
+      "0x8"
+    ]
+  }
+}

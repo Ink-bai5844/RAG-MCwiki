@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:再生图腾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%86%8D%E7%94%9F%E5%9B%BE%E8%85%BE",
+  "text": "再生图腾\n类型\n法器\n稀有度\n远古狩猎符文\n存档ID\nTotemOfRegeneration\n这个手工制作的木雕发出犹如营火般的温暖，治愈每个人。\n——物品描述\n再生图腾（Totem of Regeneration）是Minecraft Dungeons中的法器。\n获取\n地点：\n潮湿沼泽\n潮湿洞穴\n烈焰锻造厂\n昏暗丛林\n玄武岩三角洲\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用法器后，将会以玩家为中心召唤一个半径为4格，持续10秒的治疗区域，并同时进入冷却期。冷却结束后，可以再次使用。\n属性\nX 生命恢复\n25 秒冷却\n数据\n等级\n回复量\n111\n2659\n114\n2917\n256\n1879043\n音效\n描述\n文件\n激活\nsfx_item_totemRegenActivate\n装备\nsfx_item_totemRegenPlaceGround\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了再生图腾。\n1.7.2.0\n将回复量进行翻倍，由每秒20至每秒40。\n画廊\n再生图腾的精灵图\n导航"
+}

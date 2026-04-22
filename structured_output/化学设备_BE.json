@@ -1,0 +1,11 @@
+{
+  "title": "化学设备/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8C%96%E5%AD%A6%E8%AE%BE%E5%A4%87%2FBE",
+  "structured_content": {
+    "方块实体共通标签，见load|方块实体|block": [
+      "itemAux：（仅实验台使用）即将生成的物品的元数据。",
+      "itemId：（仅实验台使用）即将生成的物品的数字ID。参见基岩版数据值。",
+      "itemStack：（仅实验台使用）即将生成的物品数量。"
+    ]
+  }
+}

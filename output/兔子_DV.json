@@ -1,0 +1,5 @@
+{
+  "title": "兔子/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%85%94%E5%AD%90%2FDV",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n种类\n字符串ID（仅JE）\n数字ID（仅JE）\n数字ID（仅BE）\n褐色兔子\nbrown\n0\n白色兔子\nwhite\n1\n黑色兔子\nblack\n2\n黑白斑点兔子\nwhite_splotched\n3\n金黄色兔子\ngold\n4\n棕白色兔子\nsalt\n5\n杀手兔\nevil\n99\nN/A\nToast兔\n由兔子的名称决定，覆盖上述皮肤\n在Java版中，游戏使用数字ID进行存档保存，但允许在命令等场合使用字符串ID。\n在基岩版中，游戏使用数字ID进行存档保存。"
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Dungeons:西洋剑",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%A5%BF%E6%B4%8B%E5%89%91",
+  "structured_content": {
+    "力量": [
+      "1"
+    ],
+    "速度": [
+      "12"
+    ],
+    "攻击范围": [
+      "6"
+    ],
+    "Rapier": [
+      "西洋剑，剑刃灵活狭长，出手又快又狠。"
+    ],
+    "——物品描述": [
+      "西洋剑（Rapier）是Minecraft Dungeons中的近战武器。它的独特变种是蜂之螫针和霜冻花剑。"
+    ],
+    "获取": [
+      "远古生物："
+    ],
+    "庄严巨人": [
+      "其他："
+    ],
+    "使用": [
+      "西洋剑拥有极低攻击力，很高攻击速度和中等攻击范围。攻击方式为12次快速的突进攻击加1次蓄力穿刺，前12次快速的突进伤害最低，最后一次蓄力穿刺伤害最高。"
+    ],
+    "攻击力": [
+      "108",
+      "252-1373"
+    ],
+    "掉落": [
+      "D2P2_sfx_item_rapierLand"
+    ],
+    "拾取": [
+      "D2P2_sfx_item_rapierPickUp"
+    ],
+    "装备": [
+      "D2P2_sfx_item_rapierPlace",
+      "攻击（1）",
+      "D2P2_sfx_item_rapierSwing1",
+      "攻击（2）",
+      "D2P2_sfx_item_rapierSwing2",
+      "攻击（3）",
+      "D2P2_sfx_item_rapierSwing3"
+    ],
+    "Minecraft Dungeons": [
+      "1.4.3.0",
+      "加入了西洋剑。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版26.0.29",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.0.29",
+  "text": "26.0.29\n版本\n基岩版\n服务端版本\n1.26.0.29\n内部版本号\nAndroid：1.26.0.29\nWindows：1.26.29.0\n版本码\nAndroid：\n952600029（armeabi-v7a，35）\n962600029（x86，35）\n972600029（arm64-v8a，35）\n982600029（x86_64，35）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2026年1月20日\n测试版归属\n26.0\n下载\n服务端\nWindowsLinux\n协议版本\n924\n◄◄1.21.132\n26.1►►\n◄26.0.28\nbeta 26.0.29（ChromeOS/Android）、Preview 26.0.29（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.0的第6个测试版，发布于2026年1月20日，修复了一些漏洞。\n更改\n生物\n北极熊\n现在成年北极熊再次会攻击靠近幼年北极熊的玩家。\n现在幼年北极熊再次会在某些情况下攻击玩家。\n技术性\n方块\n移除了几何和材质实例组件的方块置换组件验证。\n修复\n游戏内容\n修复了下界传送门不会被熔岩引燃的问题。\n物品\n修复了纹饰盔甲无法在暂停并回到游戏后正确显示的问题。（MCPE-234122）\n现在物品再次会在水中正常流动。（MCPE-234749）\n参考\nMinecraft Beta & Preview - 26.0.29 — Minecraft Feedback，2026年1月20日。\n导航"
+}

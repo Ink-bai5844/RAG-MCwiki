@@ -1,0 +1,29 @@
+{
+  "title": "Dungeons:引力",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%BC%95%E5%8A%9B",
+  "structured_content": {
+    "GravityMelee": [
+      "将一定范围内的敌人拉向武器的攻击点。"
+    ],
+    "——魔咒描述": [
+      "引力（Gravity）是Minecraft Dungeons中的魔咒，可以将范围内的敌人拉向武器攻击点。持续时间随着等级提升而延长。",
+      "它是少数同时能用于近战和远程武器的魔咒之一。"
+    ],
+    "I": [
+      "1.0秒 时长",
+      "2附魔点数"
+    ],
+    "II": [
+      "1.5秒 时长",
+      "3附魔点数"
+    ],
+    "III": [
+      "2.0秒 时长",
+      "4附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了引力。"
+    ]
+  }
+}

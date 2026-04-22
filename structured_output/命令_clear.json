@@ -1,0 +1,96 @@
+{
+  "title": "命令/clear",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fclear",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "清除玩家物品栏的物品。"
+    ],
+    "用法": [
+      "可以清除物品栏中的物品，当从容器（箱子、工作台等）中用光标拿起物品时，此类物品也可以清除。",
+      "在基岩版中，还可以清除光标持有的、来自物品栏的物品，而在Java版中，此类物品只能在非创造模式下清除。",
+      "在Java版中，还可以清除玩家的2×2合成槽位中的物品。"
+    ],
+    "Java版": [
+      "1.4.2",
+      "12w37a",
+      "加入了/clear命令。",
+      "12w38a",
+      "向/clear加入了item参数。",
+      "1.8",
+      "14w02a",
+      "向/clear加入了data参数。",
+      "1.9",
+      "15w31b",
+      "/clear现在可以更改副手槽位的物品。",
+      "1.13",
+      "17w45a",
+      "/clear的语法从/clear [<targets>] [<item>] [<data>] [<count>] [<nbt>]变为/clear [<targets>] [<item>] [<count>]。",
+      "1.16",
+      "20w07a",
+      "/clear现在会清除玩家合成栏中的物品。",
+      "20w22a",
+      "/clear现在会正确地清除玩家合成栏中的物品。",
+      "1.20.5",
+      "24w09a",
+      "更改了语法，现在不再使用物品NBT标签，而是物品堆叠组件。",
+      "现在目标物品必须具有每个与指定键值对完全相同的组件。若有未指定的组件则视为目标物品含有该组件的默认值。"
+    ],
+    "基岩版": [
+      "clear [player: target] [itemName: Item] [data: int] [maxCount: int]"
+    ],
+    "参数": [
+      "JE：<targets>：entity",
+      "BE：player: target：CommandSelector<Player>",
+      "指定要被清除物品的玩家。如果未指定，默认为命令执行者。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。",
+      "JE：<item>：item_predicate",
+      "BE：itemName: Item：CommandItem",
+      "指定要被清除的物品。如果未指定，默认为所有物品。",
+      "在Java版中，必须形如<物品类型>[<测试项1>,<测试项2>,...]，<物品类型>后的部分是可选的，参见参数类型 § minecraft:item_predicate。在基岩版中，必须为物品ID或存在其物品形式的方块ID。",
+      "data: int：int",
+      "指定要被清除物品的数据值。如果未指定或为-1，则不考虑物品的数据值；如果指定数据值对该物品无效，默认为0。",
+      "必须为32位整数。应该在-1到2147483647之间（含）。",
+      "JE：<maxCount>：integer",
+      "BE：maxCount: int：int",
+      "指定要被清除物品的最大值。如果未指定或为-1[仅基岩版]，则默认清除所有符合要求的物品；如果为0，则不会清除物品，而是返回指定物品的数量。",
+      "必须为32位整数。在Java版中，必须大于等于0。在基岩版中，应该在-1到2147483647之间（含）。"
+    ],
+    "无法解析": [
+      "未指定<targets>或player: target参数，且命令执行者不是玩家"
+    ],
+    "执行失败": [
+      "<targets>或player: target未能选中在线玩家",
+      "0",
+      "0"
+    ],
+    "玩家物品栏中不存在指定物品": [
+      "player: target是非玩家类型的目标选择器"
+    ],
+    "N/A": [
+      "data :int或maxCount: int小于-1"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "清除自己的所有物品：clear",
+      "清除Alice的所有物品：clear Alice",
+      "清除Alice的所有羊毛：clear Alice #minecraft:wool[仅Java版]或clear Alice minecraft:wool[仅基岩版]",
+      "清除所有玩家的橙色羊毛：clear @a minecraft:orange_wool或clear @a wool 1[仅基岩版]",
+      "清除距离最近玩家的带有“锋利 I”附魔的金剑：clear @p minecraft:golden_sword[minecraft:enchantments[{\"minecraft:sharpness\":1}][仅Java版]",
+      "检测一个随机玩家的物品栏内是否拥有石头：clear @r minecraft:stone -1 0[仅基岩版]或 clear @r minecraft:stone 0[仅Java版]"
+    ],
+    "携带版": [
+      "1.0.5",
+      "1.0.5.0",
+      "加入了/clear命令。"
+    ],
+    "参考": [
+      "MC-172272 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "物品堆叠组件/food",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Ffood",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "food 物品堆叠组件": [
+      "can_always_eat：（默认为false）表示物品是否可以无视当前饥饿值食用。"
+    ],
+    "*": [
+      "*nutrition：（值≥0）食用物品时增加的饥饿值。",
+      "*saturation：食用物品时增加的饱和度。"
+    ]
+  }
+}

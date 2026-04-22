@@ -1,0 +1,5 @@
+{
+  "title": "命令/clearfixedinv",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fclearfixedinv",
+  "text": "此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\nclearfixedinv\n需要的权限等级\n2\n限制条件\n无\n清除固定的物品栏。\n语法\nclearfixedinv\n结果\n命令\n触发条件\n基岩版\n任意\n没有固定的物品栏\n执行失败\n不符合以上所有条件\n执行成功\n历史\n携带版Alpha\n0.16.0\nbuild 1\n加入了/clearfixedinv。\nbuild 2\n移除了/clearfixedinv。\n导航"
+}

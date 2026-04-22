@@ -1,0 +1,56 @@
+{
+  "title": "Dungeons:始与末",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%A7%8B%E4%B8%8E%E6%9C%AB",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含虚空回响的内容。"
+    ],
+    "力量": [
+      "6"
+    ],
+    "速度": [
+      "3"
+    ],
+    "攻击范围": [
+      "2"
+    ],
+    "存档ID": [
+      "VoidTouchedBlades_Unique1",
+      "这把双刃由命中注定前往末地远征的生还者锻造，携带着黑暗的秘密。"
+    ],
+    "——物品描述": [
+      "始与末（The Beginning and The End）是Minecraft Dungeons的DLC虚空回响中的近战武器。 它是虚空之蚀的独特变种。"
+    ],
+    "获取": [
+      "地点:"
+    ],
+    "破碎城堡": [
+      "居民:"
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "始与末拥有中等力量，低速度和低攻击范围。攻击方式与虚空之蚀无异。"
+    ],
+    "连击": [
+      "D6_sfx_wpn_bladesOfNihility_combo"
+    ],
+    "掉落": [
+      "D6_sfx_wpn_bladesOfNihility_drop"
+    ],
+    "拾取": [
+      "D6_sfx_wpn_bladesOfNihility_pick"
+    ],
+    "装备": [
+      "D6_sfx_wpn_bladesOfNihility_place"
+    ],
+    "攻击": [
+      "D6_sfx_wpn_bladesOfNihility_swing"
+    ],
+    "Minecraft Dungeons": [
+      "1.10.2.0",
+      "加入了始与末。"
+    ]
+  }
+}

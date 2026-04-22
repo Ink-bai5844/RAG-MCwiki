@@ -1,0 +1,44 @@
+{
+  "title": "Dungeons:北极狐护甲",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%8C%97%E6%9E%81%E7%8B%90%E6%8A%A4%E7%94%B2",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含凛冽战栗活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。",
+      "此条目包含冰霜节活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。"
+    ],
+    "存档ID": [
+      "WolfArmor_Winter1",
+      "如果你想在冰原上过的风光，北极狐护甲是最佳的选择。"
+    ],
+    "——物品描述": [
+      "北极狐护甲（Arctic Fox Armor）是Minecraft Dungeons中的盔甲，它是狼甲的特殊活动变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "高塔": [
+      "活动："
+    ],
+    "属性": [
+      "30%概率抵消伤害",
+      "+20%武器伤害提升"
+    ],
+    "掉落": [
+      "P3_sfx_Item_wolfArmorWinter1Drop"
+    ],
+    "拾取": [
+      "P3_sfx_Item_wolfArmorWinter1PickUp"
+    ],
+    "装备": [
+      "P3_sfx_Item_wolfArmorWinter1Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.7.3.0",
+      "加入了北极狐护甲。",
+      "1.17.0.0",
+      "现在北极狐护甲可以从高塔中获取。"
+    ]
+  }
+}

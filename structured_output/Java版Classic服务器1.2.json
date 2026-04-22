@@ -1,0 +1,39 @@
+{
+  "title": "Java版Classic服务器1.2",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.2",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "1.2"
+    ],
+    "客户端版本": [
+      "0.0.16a_02"
+    ],
+    "发布时间": [
+      "2009年6月8日"
+    ],
+    "协议版本": [
+      "3",
+      "其他版本的1.2"
+    ],
+    "基岩版": [
+      "New Nintendo 3DS版"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.1",
+      "1.3►►",
+      "1.2是Classic服务器的一次更新，发布于2009年6月8日。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "修复了一个连接问题。",
+      "尝试修复/banip命令。"
+    ],
+    "参考": [
+      "And there’s another server update（存档） — The Word of Notch，2009年6月8日。 \"If the readme says “1.2”, you’ve got the latest version. =)\".",
+      "c1.2.zip (README.txt):",
+      "Version 1.2: + Fixed a connection problem + Maybe fixed /banip"
+    ]
+  }
+}

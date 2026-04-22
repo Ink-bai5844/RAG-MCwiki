@@ -1,0 +1,25 @@
+{
+  "title": "行商羊驼/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%A1%8C%E5%95%86%E7%BE%8A%E9%A9%BC%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "马类共通标签，见Template:Nbt inherit/horse/source"
+    ],
+    "*": [
+      "*ChestedHorse：表示行商羊驼身上是否带箱子。",
+      "Items：（当*",
+      "*ChestedHorse为true时存在并有效）物品栏列表。行商羊驼共有3×s（s是*",
+      "*Strength的值）个槽位，超过槽位范围的物品无效。",
+      "：一个物品。",
+      "物品共通标签，见Template:Nbt inherit/item/source",
+      "*Strength：（1≤值≤5）行商羊驼的“强度”，决定行商羊驼可以携带的物品数量以及使狼逃离的能力。",
+      "*Variant：（0≤值≤3）行商羊驼的类型。从0到3分别对应creamy、​white、​brown和​gray。如果此值小于0则被重置为0（creamy），如果此值大于3则重置为3（gray）。",
+      "*DespawnDelay：（默认为47999）距离行商羊驼被删除的时间。"
+    ]
+  }
+}

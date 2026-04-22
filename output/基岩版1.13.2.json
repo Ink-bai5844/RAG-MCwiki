@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.13.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.13.2",
+  "text": "1.13.2\n版本\n基岩版\n服务端版本\n1.13.2.0\n版本码\niOS/iPadOS：833602520\n发布时间\niOS - 2019年11月14日\n下载\n服务端\nWindowsLinux\n协议版本\n388\n其他版本的1.13.2\nJava版\nRealms\n◄◄1.13.0\n1.14.0►►\n◄1.13.1\n1.13.3►\n1.13.2是基岩版的一次热修复更新，仅在iOS上发布于2019年11月14日，修复了一个导致崩溃的漏洞。此版本兼容1.13.0和1.13.1的服务端。\n修复\n修复了在iOS设备上启动游戏时崩溃的问题。（MCPE-54465）\n参考\nMinecraft - 1.13.2 (Bedrock) — Minecraft Feedback，2019年11月14日。\n导航"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "雕纹书架/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9B%95%E7%BA%B9%E4%B9%A6%E6%9E%B6%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source"
+    ],
+    "*": [
+      "*Items：雕纹书架内物品的列表，超出槽位范围的物品无效。雕纹书架共有6个槽位，从左上角起，按从左到右，从上到下的顺序进行编号。",
+      "：一个物品。",
+      "物品共通标签，见Template:Nbt inherit/item/source",
+      "*last_interacted_slot：（-1≤值≤5）最后一次交互的槽位编号。若雕纹书架从未使用过则为-1。"
+    ]
+  }
+}

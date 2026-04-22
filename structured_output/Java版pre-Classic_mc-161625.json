@@ -1,0 +1,31 @@
+{
+  "title": "Java版pre-Classic mc-161625",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88pre-Classic_mc-161625",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此条目记录了从未发布的版本。",
+      "尽管它未公开发布过，但有证据证明这个版本的确存在。",
+      "mc-161625"
+    ],
+    "开发时间": [
+      "2009年5月16日"
+    ],
+    "不可用": [
+      "◄mc-161616",
+      "mc-161648►",
+      "mc-161625是2009年5月16日16:25（UTC）制作完成的pre-Classic版本，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "修复了一个纹理漏洞。",
+      "修复了鼠标翻转失效的漏洞。"
+    ],
+    "参考": [
+      "TigIRC logs（存档） — Archive.org，May 16, 2009, UTC–4。",
+      "TigIRC logs: (12:25:56) notch: dock, fartron: New version, reload the page.",
+      "TigIRC logs: (12:31:15) fartron: ok, close and reopen of firefox brought back textures and got invert working"
+    ]
+  }
+}

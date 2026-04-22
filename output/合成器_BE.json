@@ -1,0 +1,5 @@
+{
+  "title": "合成器/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%88%E6%88%90%E5%99%A8%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\nCustomName：（文本组件）当前合成器的名称，会取代默认名称出现在合成器的界面中。\nlock：如果存在，合成器只能用符合该物品谓词的物品打开。\n物品堆叠谓词，见Template:Nbt inherit/item predicate/source\nItems：（当LootTable不存在时存在且有效）当前合成器内物品的列表，超出槽位范围的物品无效。如果战利品未生成，则此项不存在。合成器共有9个槽位，从左上角槽位开始横向遍历到右下角槽位结束。\n：一个物品。\n物品共通标签，见Template:Nbt inherit/item/source\nLootTable：决定合成器第一次被打开时，生成战利品所用的战利品表的命名空间ID。此项将在战利品生成之后被删除。\nLootTableSeed：（当LootTable存在时有效）生成战利品使用的种子，0或不输入将使用随机序列。此项将在战利品生成之后被删除。\n*\n*crafting_ticks_remaining：合成器取消合成状态倒计时。当合成器成功合成物品后，此值被设置为6游戏刻（0.3秒），并将方块属性crafting设置为true。当此值降低为0时，crafting设置为false。\n*\n*disabled_slots：合成器内禁用的槽位，槽位编号与存放物品列表内的槽位编号顺序相同。\n*\n*triggered：表示合成器是否被红石信号激活，与方块属性triggered同步。当此值为1时代表true，其他值都代表false。"
+}

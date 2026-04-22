@@ -1,0 +1,5 @@
+{
+  "title": "命令/warden spawn tracker",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fwarden_spawn_tracker",
+  "text": "本条目所述内容仅适用于Java版。\n调试工具仅应作调试用途使用，而不应在正常游戏过程中开启。开启调试工具可能会崩溃或对存档产生不可逆的损害。\nwarden_spawn_tracker\n需要的权限等级\n2\n限制条件\n仅IDE或启用调试工具MC_DEBUG_DEV_COMMANDS\n设置幽匿尖啸体生成监守者之前应接收到多少次振动。\n语法\nwarden_spawn_tracker clear\n清空玩家的监守者计数器，包括警告等级和冷却时间。\nwarden_spawn_tracker set <warning_level>\n将玩家的警告等级设为指定值。\n参数\n<warning_level>：integer\n指定警告等级的数值。\n必须为32位整数。且必须在0和4之间（含）。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整或参数未正确指定\n无法解析\n执行者不是玩家\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n执行成功\n1\n示例\n将玩家的警告等级设为1：/warden_spawn_tracker set 1\n历史\nJava版\n1.19\nexp1\n加入了/warden_spawn_tracker命令。\n22w11a\n移除了/warden_spawn_tracker命令。\n1.20.3\n23w43a\n现在可以通过IDE使用/warden_spawn_tracker命令。\n1.21.9\npre1\n现在可以通过调试工具使用/warden_spawn_tracker命令。\n导航"
+}

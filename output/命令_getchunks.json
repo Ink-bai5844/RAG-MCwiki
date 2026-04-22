@@ -1,0 +1,5 @@
+{
+  "title": "命令/getchunks",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgetchunks",
+  "text": "此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\n本条目所述内容仅适用于教育版。\ngetchunks\n是否可见\n隐藏\n需要的权限等级\n3\n限制条件\n不在命令方块上执行\n启用作弊\n获取指定维度的已加载区块列表。\n语法\ngetchunks <dimension: Dimension>\n参数\ndimension: Dimension：enum\n需要设置的维度。\n必须为命名空间ID，将会在命令执行时尝试获取对应的维度。minecraft命名空间下的维度默认有overworld、​nether和​the_end。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n指定的维度未加载\n执行失败\n不符合以上所有条件\n执行成功\n历史\n教育版\n?\n加入了/getchunks命令。\n导航"
+}

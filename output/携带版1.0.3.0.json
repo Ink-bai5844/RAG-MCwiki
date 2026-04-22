@@ -1,0 +1,5 @@
+{
+  "title": "携带版1.0.3.0",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%881.0.3.0",
+  "text": "1.0.3.0\n版本\n携带版\n版本码\nAndroid：\n841000300（armeabi-v7a，22）\n842000300（x86，22）\n871000300（armeabi-v7a，22）\n872000300（x86，22）\n类型\n测试版\n发布时间\n2017年2月1日\n测试版归属\n1.0.3\n协议版本\n101\n◄◄1.0.2\n1.0.4►►\nalpha 1.0.3.0是1.0.3的测试版，发布于2017年2月1日，加入了荷兰语、多人游戏的服务器移动包，并修复了一些漏洞。\n新内容\n常规\n语言\n支持荷兰语。\n多人游戏\n为服务器加入了移动包（TransferPacket），允许将玩家移动到另一个服务器。\n服务器现在可以检测到客户端的一些有用数据。\n修复\n修复了16个漏洞\nMCPE-15502 - 侦测器的顶部纹理总是朝着北。\nMCPE-17421 - 不会显示外部服务器的活动状态。\n服务器的活动状态总是会在离线和在线之间切换。\n玩家离开导致Realms世界崩溃。\n使用相同的物品时游戏崩溃。\n玩家进入生物群系变种时使得服务器崩溃。\n压力板、按钮和其他红石元件无法更新。\n漏斗的方块刻不会运作。\n破坏门时出现问题。\n可以复制物品。\n玩家可以获得末地传送门方块。\n侦测器的箭头不会指示正确的方块。\n侦测器可以颠倒放置。\nRealms世界里不会显示非好友玩家。\n蝙蝠不会经常生成。\n移动端里的末地折跃门方块渲染出错。\n参考\nMCPE Android Beta - 1.0.3。\nhttps://twitter.com/darngeek/status/826738195723386881\nhttps://twitter.com/shoghicp/status/826665876057423873\nhttps://twitter.com/shoghicp/status/826710264984776704\nhttps://twitter.com/shoghicp/status/826665876057423873\nhttps://twitter.com/shoghicp/status/826710264984776704\nhttps://twitter.com/NiclasOlofsson/status/826774029524688898\n导航"
+}

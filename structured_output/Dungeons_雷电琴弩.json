@@ -1,0 +1,65 @@
+{
+  "title": "Dungeons:雷电琴弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%9B%B7%E7%94%B5%E7%90%B4%E5%BC%A9",
+  "structured_content": {
+    "力量": [
+      "4"
+    ],
+    "速度": [
+      "8"
+    ],
+    "弹药上限": [
+      "4"
+    ],
+    "存档ID": [
+      "ScatterCrossbow_Unique2",
+      "闪电的力量极大地改变了这张弩发射时的声音。"
+    ],
+    "——物品描述": [
+      "雷电琴弩（Lightning Harp Crossbow）是Minecraft Dungeons中的远程武器，它是散射弩的独特变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "灵魂沙峡谷": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "雷电琴弩拥有低力量，较高速度和低弹药上限。初始弹药数为53。"
+    ],
+    "伤害": [
+      "25",
+      "36 x 3",
+      "78",
+      "345 x 3",
+      "104",
+      "998 x 3"
+    ],
+    "掉落": [
+      "sfx_item_scatterCrossbowUnique2Land"
+    ],
+    "捡起": [
+      "sfx_item_scatterCrossbowUnique2PickUp"
+    ],
+    "装备": [
+      "sfx_item_scatterCrossbowUnique2Place"
+    ],
+    "射击": [
+      "sfx_item_scatterCrossbowUnique2Shoot"
+    ],
+    "未使用音效": [
+      "sfx_item_scatterCrossbowUnique2Arrow"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了雷电琴弩。"
+    ],
+    "你知道吗": [
+      "搭配多重射击魔咒可以达到一次发射几十只箭的效果。",
+      "雷电琴弩可以与特殊箭矢法器搭配，一次发射3个或更多的特殊箭。"
+    ]
+  }
+}

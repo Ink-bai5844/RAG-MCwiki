@@ -1,0 +1,97 @@
+{
+  "title": "命令/gametest",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgametest",
+  "structured_content": {
+    "默认分类": [
+      "“Gametest”重定向至此。关于其他用法，请见“游戏测试”。",
+      "关于Java版中功能相似的命令，请见“命令/test”。",
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少示例",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "管理和运行游戏测试框架。"
+    ],
+    "gametest runthis": [
+      "执行或重新执行15格半径内的测试结构。",
+      "gametest run <testName: string> <stopOnFailure: Boolean> <repeatCount: int> [rotationSteps: int]",
+      "gametest run <testName: string> [rotationSteps: int]",
+      "执行一个特定的测试。",
+      "gametest runsetuntilfail [tag: string] [rotationSteps: int]",
+      "创建和执行所有测试，直到某个执行失败。",
+      "gametest runset [tag: string] [rotationSteps: int]",
+      "创建和执行所有测试。"
+    ],
+    "gametest clearall": [
+      "清除所有的测试。"
+    ],
+    "gametest pos": [
+      "在200格半径范围内寻找最近的测试结构。"
+    ],
+    "gametest stopall": [
+      "停止执行所有测试。",
+      "gametest create <testName: string> [width: int] [height: int] [depth: int]",
+      "创建测试。"
+    ],
+    "gametest runthese": [
+      "在200格半径范围内执行测试。"
+    ],
+    "参数": [
+      "testName: string：string",
+      "指定测试的名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "repeatCount: int：int",
+      "指定测试的执行次数。",
+      "必须为32位整数。且必须大于0。",
+      "stopOnFailure: Boolean：enum",
+      "必须为 布尔值（true或false）。",
+      "rotationSteps: int：int",
+      "指定测试的旋转角度。",
+      "1为顺时针旋转90度；2为顺时针旋转180度；3为顺时针旋转270度。其他值不会使测试旋转。",
+      "必须为32位整数。",
+      "tag: string：string",
+      "指定要执行的测试的名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "width: int：int",
+      "指定结构的X轴大小。默认为5。",
+      "必须为32位整数。",
+      "height: int：int",
+      "指定结构的Y轴大小。默认为5。",
+      "必须为32位整数。",
+      "depth: int：int",
+      "指定结构的Z轴大小。默认为5。",
+      "必须为32位整数。"
+    ],
+    "基岩版": [
+      "1.16.210"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "启用游戏测试框架": [
+      "1.16.210.60",
+      "加入了/gametest。",
+      "1.17.0",
+      "1.16.230.50",
+      "将/gametest runall命令重命名为/gametest runset。",
+      "1.18.30"
+    ],
+    "应用测试框架": [
+      "1.18.20.27",
+      "移除了/gametest clearall命令的radius参数。",
+      "1.19.40",
+      "1.19.40.22",
+      "/gametest不再属于实验性玩法。",
+      "1.19.80",
+      "1.19.80.22",
+      "加入了runsetuntilfail和​stopall语法。"
+    ]
+  }
+}

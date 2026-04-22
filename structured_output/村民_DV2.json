@@ -1,0 +1,55 @@
+{
+  "title": "村民/DV2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9D%91%E6%B0%91%2FDV2",
+  "structured_content": {
+    "默认分类": [
+      "此页面记录所描述对象关联的数据值。",
+      "此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。"
+    ],
+    "armorer": [
+      "8"
+    ],
+    "butcher": [
+      "11"
+    ],
+    "cartographer": [
+      "6"
+    ],
+    "cleric": [
+      "7"
+    ],
+    "farmer": [
+      "1"
+    ],
+    "fisherman": [
+      "2"
+    ],
+    "fletcher": [
+      "4"
+    ],
+    "nitwit": [
+      "14"
+    ],
+    "leatherworker": [
+      "12"
+    ],
+    "librarian": [
+      "5"
+    ],
+    "mason": [
+      "13"
+    ],
+    "none": [
+      "0"
+    ],
+    "shepherd": [
+      "3"
+    ],
+    "toolsmith": [
+      "10"
+    ],
+    "weaponsmith": [
+      "9"
+    ]
+  }
+}

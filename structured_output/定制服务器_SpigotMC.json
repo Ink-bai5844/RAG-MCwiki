@@ -1,0 +1,24 @@
+{
+  "title": "定制服务器/SpigotMC",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%AE%9A%E5%88%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%2FSpigotMC",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "最新版本": [
+      "SpigotMC 1.21"
+    ],
+    "发布日期": [
+      "2012年11月"
+    ],
+    "大小": [
+      "40.5 MB (git-Spigot-0d820fa-5717601)"
+    ],
+    "兼容": [
+      "1.7.10 - 1.21"
+    ],
+    "\"高性能的Minecraft服务器\"": [
+      "SpigotMC，也简称为Spigot，是流行Bukkit服务器mod的一个分支。Spigot旨在提高传统Bukkit服务器Mod的性能和效率，同时仍然保持与Bukkit服务器Mod的插件的兼容性。许多大型服务器使用Spigot，因为较大的服务器倾向于使用比普通服务器更多的资源。 Spigot也非常适合缺乏购买硬件升级或支付托管费用的家庭服务器。家庭服务器往往滞后很多，通常是因为互联网限制或缺乏资源。通过运行“Minecraft”服务器，Spigot可以帮助减轻计算机上的压力，并消除游戏中的一些延迟。"
+    ]
+  }
+}

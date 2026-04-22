@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/allow entering nether using portals",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fallow_entering_nether_using_portals",
+  "text": "本条目所述内容仅适用于Java版。\nallow_entering_nether_using_portals\n名称\n允许进入下界\n描述\n控制玩家能否进入下界。\n分类（JE）\n杂项\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nallow_entering_nether_using_portals\nallow_entering_nether_using_portals是控制实体是否能通过下界传送门的游戏规则。\n行为\n当allow_entering_nether_using_portals为false时，即使存在下界，实体也不能通过下界传送门传送至下界。\n历史\nJava版\n1.21.9\n25w35a\n加入了游戏规则allowEnteringNetherUsingPortals。\n1.21.11\n25w44a\n将游戏规则allowEnteringNetherUsingPortals重命名为allow_entering_nether_using_portals。\n导航"
+}

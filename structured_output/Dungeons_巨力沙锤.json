@@ -1,0 +1,51 @@
+{
+  "title": "Dungeons:巨力沙锤",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%B7%A8%E5%8A%9B%E6%B2%99%E9%94%A4",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含下界之焰的内容。"
+    ],
+    "MobMasher": [
+      "摇晃巨力沙锤能给你带来一段美好时光，不过对于敌人来说可能就没那么有趣了。"
+    ],
+    "——物品描述": [
+      "巨力沙锤（Powershaker）是Minecraft Dungeons的DLC下界之焰中的法器。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "下界要塞（冒险难度以上）": [
+      "居民："
+    ],
+    "使用": [
+      "使用法器给予玩家5次攻击爆炸效果，可以对实体造成额外伤害。待次数耗尽，或超过15秒后将进入冷却期。",
+      "D4_sfx_item_powerShakerUse"
+    ],
+    "X 法器伤害": [
+      "10秒冷却时间"
+    ],
+    "数据值": [
+      "基础伤害：250",
+      "伤害半径：3方块距离",
+      "击退强度：3",
+      "爆炸冲击波扩展持续时间：0.1秒"
+    ],
+    "掉落": [
+      "D4_sfx_item_powerShakerDrop"
+    ],
+    "拾取": [
+      "D4_sfx_item_powerShakerPickUp"
+    ],
+    "装备": [
+      "D4_sfx_item_powerShakerPlace"
+    ],
+    "Minecraft Dungeons": [
+      "1.8.0.0",
+      "加入了巨力沙锤。",
+      "1.16.2.0",
+      "将攻击次数从4次改为5次。",
+      "法器伤害提高10%。",
+      "法器冷却时间由8秒提高到10秒。"
+    ]
+  }
+}

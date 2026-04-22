@@ -1,0 +1,44 @@
+{
+  "title": "教育版版本记录/课堂模式",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95%2F%E8%AF%BE%E5%A0%82%E6%A8%A1%E5%BC%8F",
+  "structured_content": {
+    "此页面在英语Wiki中被建议拆分。讨论": [
+      "原因：为所有版本建立独立的条目页面",
+      "请勿在中文Wiki的讨论达成共识前进行拆分。"
+    ],
+    "更新日志": [
+      "1.83",
+      "2023年3月24日至6月1日之间"
+    ],
+    "？": [
+      "1.82",
+      "2022年5月22日至2023年1月31日之间",
+      "1.81 v2",
+      "2021年12月16日",
+      "安全补丁。",
+      "1.81",
+      "2020年12月24日至2021年1月30日之间",
+      "1.80",
+      "1.7",
+      "2018年6月12日",
+      "修复了一些漏洞。",
+      "1.61",
+      "2018年4月6日",
+      "修复了应用程序在通过微软商店进行安装时无法连接到游戏客户端的问题。",
+      "1.60",
+      "2018年2月22日",
+      "现在会在左下角显示版本号。"
+    ],
+    "正式版": [
+      "2016年11月1日",
+      "发布了第一个正式版。",
+      "在2023年3月24日的存档中，aka.ms/meecwin10会跳转下载ClassroomModeSetup_1_82.msi。在2023年6月1日的存档中，aka.ms/meecwin10会跳转下载ClassroomModeSetup1.83.msi。因此，1.83必然发布于这两个日期之间。",
+      "在2022年5月22日的存档中，aka.ms/meecmwin10会跳转下载ClassroomModeSetup_1_81_v2.msi。在2023年1月31日的存档中，aka.ms/meecwin10会跳转下载ClassroomModeSetup_1_82.msi。因此，1.82必然发布于这两个日期之间。",
+      "\"Service notification: Update to the latest version of Classroom Mode\"，来自Penny",
+      "\"Service notification: Update to the latest version of Classroom Mode\"（存档），来自Penny",
+      "https://edusupport.minecraft.net/hc/en-us/articles/360047116652-Get-Started-with-Classroom-Mode",
+      "在2020年12月24日的存档中，aka.ms/meecmmacos会跳转下载1.81版本前的Classroom_Mode.dmg。在2021年1月30日的存档中，aka.ms/meecmwin10会跳转下载ClassroomModeSetup_1_81.msi。因此，1.81必然发布于这两个日期之间。",
+      "\"What's New: Learn to Code Update (version 1.14.50)\"，来自Kyle M"
+    ]
+  }
+}

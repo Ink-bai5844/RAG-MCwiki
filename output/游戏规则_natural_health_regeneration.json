@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/natural health regeneration",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fnatural_health_regeneration",
+  "text": "natural_health_regeneration（Java版）\n名称\n生命值自然恢复\n描述\n无\n分类（JE）\n玩家\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nnatural_health_regeneration\nnaturalRegeneration（基岩版）\n名称\n自然生命恢复\n描述\n根据饥饿程度增加或减少生命值\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nnaturalRegeneration\nnatural_health_regeneration[仅Java版]或naturalRegeneration[仅基岩版]是控制玩家是否能在饥饿值足够时可自然恢复生命值的游戏规则。\n行为\n参见：饥饿 § 饥饿影响\n当natural_health_regeneration[仅Java版]或naturalRegeneration[仅基岩版]为true时:\n玩家的饥饿值高于18（）时持续恢复生命值。\n难度为和平时，玩家持续增加生命值、饥饿值、饱和度。\n此游戏规则不影响其他影响生命值、饥饿值、饱和度的方式。\n历史\nJava版\n1.6.1\n13w23a\n加入了游戏规则naturalRegeneration。\n1.21.11\n25w44a\n将游戏规则naturalRegeneration重命名为natural_health_regeneration。\n基岩版\n1.2.0\n1.2.0.2\n加入了游戏规则naturalRegeneration。\n导航"
+}

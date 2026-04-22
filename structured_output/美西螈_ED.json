@@ -1,0 +1,17 @@
+{
+  "title": "美西螈/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BE%8E%E8%A5%BF%E8%9E%88%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source"
+    ],
+    "*": [
+      "*FromBucket：表示此美西螈是否曾被从桶中放出。如果为true，美西螈不会自然消失。",
+      "*Variant：美西螈变种的ID。"
+    ]
+  }
+}

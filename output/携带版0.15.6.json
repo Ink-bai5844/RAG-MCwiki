@@ -1,0 +1,5 @@
+{
+  "title": "携带版0.15.6",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.15.6",
+  "text": "0.15.6\n版本\n携带版\n版本码\nAndroid：\n840150600（armeabi-v7a，22）\n841150600（x86，22）\n870150600（armeabi-v7a，22）\n871150600（x86，22）\niOS/iPadOS：\n818416822\n发布时间\niOS, Android, FireOS - 2016年8月10日\nWindows Phone, Windows 10 - 2016年8月11日\n协议版本\n82\n◄◄0.15.0\n0.16.0►►\n◄0.15.5\n0.15.7►\nv0.15.6 alpha是携带版的一次次要更新，在iOS、Android和FireOS上发布于2016年8月10日，在Windows Phone和Windows 10中发布于8月11日，修复了Alpha 0.15.4中的一些漏洞与崩溃。\n新内容\n常规\n控制\nWindows 10 Beta版现在支持Oculus Rift。\n更改\n常规\n控制\n启用Oculus Rift时提供更好的键盘和鼠标支持。\nUI\n调整了Oculus Rift模式下的Windows 10 UI以提高可用性。\n修复\n修复了10个漏洞\n0.15.0以往正式版的漏洞\nMCPE-10056 — 取消乘坐的按键绑定出错。\nMCPE-11241 — 将燃料移入熔炉只会选择快捷栏中最靠左的燃料，而不是玩家指定的燃料。\n0.15.1的漏洞\nMCPE-16038 — 成就的翻译丢失。\n0.15.2的漏洞\nMCPE-16168 — 活塞移动时不能摧毁红石线。\n0.15.4的漏洞\nMCPE-16445 — 僵尸会在雨中燃烧。\n其他漏洞\n更新了Oculus平台启动器的本地化翻译，以及修复了Virtual Studio的可分发的数据包。\n音频现在会根据玩家选择的扬声器来播放。\nC按钮现在能用于切换电视模式和沉浸模式。\n修复了一些字符显示问题。\n修复了Gear VR版的一些崩溃现象。\n参考\nMCPE/WIN 10/Gear VR - 0.15.6 — Minecraft Feedback。\n导航"
+}

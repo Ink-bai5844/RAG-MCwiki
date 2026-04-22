@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:烟火之箭",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%83%9F%E7%81%AB%E4%B9%8B%E7%AE%AD",
+  "text": "本条目介绍的是Minecraft Dungeons中的物品。关于Minecraft中的物品，请见“烟花火箭”。\n烟火之箭\n类型\n法器\n稀有度\n远古狩猎符文\n将TNT的爆炸威力与箭的速度完美结合 - 似乎没毛病？\n——物品描述\n烟火之箭（Fireworks Arrow）是Minecraft Dungeons中的法器。\n获取\n地点：\n鱿鱼海岸\n红石矿山\n高墩大厅\n大厅之下\n巍峨壁垒\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用后会给予玩家1支烟火之箭，发射后会对敌人造成大范围爆炸伤害，伤害取决于当前远程武器面板值和当前法器本身面板值，可以与超级蓄力、力量药水等魔咒或消耗品搭配来造成更高伤害，但不受多级蓄力魔咒的影响。\n属性\nX 远程伤害\n30 秒冷却\n数据值\n伤害标签：Damage.Explosion伤害·爆炸\n箭矢物品ID：FireworksArrow\n爆炸半径：4方块距离\n基础伤害：200\n音效\n描述\n文件\n拾取\nsfx_item_fireworksPickUp\n掉落\nsfx_item_fireworksDrop\n闪光\nsfx_item_fireworksTwinkle\n发射\nsfx_item_fireworksLaunch\n爆炸\nsfx_item_fireworksBlast\n大型爆炸\nsfx_item_fireworksBlastLarge\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了烟火之箭。\n你知道吗\n生物身上的偏转和荆棘魔咒对烟火之箭无效。\n画廊\n物品栏中的烟火之箭\n烟火之箭的精灵图\n使用竖琴弩并附魔多重射击后的爆炸效果\n导航"
+}

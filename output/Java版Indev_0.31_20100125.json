@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 0.31 20100125",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100125",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\n0.31\n版本\nJava版\n发布时间\n2010年1月25日\n下载\n客户端（.json）\nal_version\n1.047\n◄◄0.30\nMinecraft Indev►►\n◄0.31 20100124-2310\n0.31 20100128-2203►\n0.31的一个版本发布于2010年1月25日，加入了一些粒子。\n新内容\n常规\n粒子\n加入了火把、火和熔岩的粒子效果。\n更改\n世界生成\nIndev房子\n添加了一个含有每种布料各一组的箱子。\n布料不再能够在含有主要方块的箱子中找到。\n方块\n熔岩\n暴露在空气中的熔岩会变成石头。\n水\n现在会蒸发。\nTNT\n不再对实体造成损伤，也不会摧毁掉落物。\n不再在水中爆炸。\n从点燃到爆炸的时间由2秒改为4秒。\n现在点燃时会闪烁。\n游戏内容\n伤害\n溺水受到的伤害由2颗心/秒降低到1颗心/秒。\n现在会在溺水实体周围产生溺水粒子。\n修复\n修复了1个漏洞\n修复了挖掘某些方块时若切换手中的物品，方块会出现错误并快速循环变换纹理的漏洞。\n参考\n~Lava hardens to stone over time even without water. It tends to happen around the edges.（存档），来自mrfatcat。Minecraft Forum，2010年1月25日。\nWhy doesn't tnt work under water, or even beside it?（存档），来自Alpha_Squad。Minecraft Forum，2010年1月25日。\nTNT no longer works in water.（存档），来自Orj。Minecraft Forum，2010年1月25日。\n导航"
+}

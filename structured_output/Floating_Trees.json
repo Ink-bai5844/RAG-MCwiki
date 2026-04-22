@@ -1,0 +1,97 @@
+{
+  "title": "Floating Trees",
+  "source_url": "https://zh.minecraft.wiki/w/Floating_Trees",
+  "structured_content": {
+    "作者": [
+      "C418"
+    ],
+    "发行时间": [
+      "2013年11月9日"
+    ],
+    "时长": [
+      "04:04"
+    ],
+    "Minecraft - Volume Beta": [
+      "No.12"
+    ],
+    "Aria Math ►": [
+      "Floating Trees是一首由C418创作的音乐。"
+    ],
+    "播放条件": [
+      "Floating Trees会在主菜单中播放，概率为11%。"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "Floating Trees是一首温暖、空灵且令人平静的环境音乐，主要由风琴演奏，配以明亮的合成器，并由低音弦乐伴奏，所有乐器都与Minecraft的调性相同。在接近结尾的地方，有一些非常轻柔的叮当声作为背景。结尾部分由远处回响的钢琴轻柔演奏，呼应了Subwoofer Lullaby的结尾旋律。"
+    ],
+    "ID": [
+      "Java版:"
+    ],
+    "Floating Trees": [
+      "menu4.ogg"
+    ],
+    "music.menu": [
+      "基岩版:"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "Java版": [
+      "2013音乐更新",
+      "加入了\"menu4.ogg\"。",
+      "1.7.4",
+      "13w49a",
+      "\"menu4.ogg\"现在是散列资源文件，而非直接存储。",
+      "1.20.3",
+      "23w45a",
+      "\"menu4.ogg\"被重命名为\"floating_trees.ogg\"。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了包含\"menu4.ogg\"的可下载音乐，属于市场内容。"
+    ],
+    "基岩版": [
+      "1.19.10",
+      "1.19.10.20",
+      "iOS/iPadOS平台上的游戏应用现在会自带音乐，\"menu4.ogg\"不再需要在市场中下载。",
+      "1.19.30",
+      "1.19.30.22",
+      "Android平台上的游戏应用现在会自带音乐，\"menu4.ogg\"不再需要在市场中下载。"
+    ],
+    "正式版": [
+      "Fire平台上的游戏应用现在会自带音乐，\"menu4.ogg\"不再需要在市场中下载。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU24",
+      "CU1",
+      "1.07",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"menu4.ogg\"。",
+      "TU24",
+      "CU1",
+      "1.07",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"menu4.ogg\"。"
+    ]
+  }
+}

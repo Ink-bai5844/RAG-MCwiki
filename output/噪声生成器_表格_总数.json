@@ -1,0 +1,5 @@
+{
+  "title": "噪声生成器/表格/总数",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%99%AA%E5%A3%B0%E7%94%9F%E6%88%90%E5%99%A8%2F%E8%A1%A8%E6%A0%BC%2F%E6%80%BB%E6%95%B0",
+  "text": "装饰性噪声生成器（主世界）\n生成器\n生物群系填充噪声\n恶地噪声柱（风蚀恶地的岩柱）\n恶地黏土带偏移噪声\n沼泽噪声\n花分布噪声\n范围\nX\nZ\nX\nY\nZ\nX\nY\nZ\nX\nY\nZ\nX\nY\nZ\nOffset\n3\n?\nFactor\n2.333...\n?\nOctaves\n4\n?\nFrequency\n0.00781...\n?\n时期\n128\n?\n每个方块的增加量\n0.0625\n?\n每次采样的增加量\n0.25\n?\n预期32位溢出距离\n34,359,738,368\n?\n预期64位溢出距离\n~147*10^15\n?"
+}

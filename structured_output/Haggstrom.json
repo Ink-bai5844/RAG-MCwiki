@@ -1,0 +1,156 @@
+{
+  "title": "Haggstrom",
+  "source_url": "https://zh.minecraft.wiki/w/Haggstrom",
+  "structured_content": {
+    "作者": [
+      "C418"
+    ],
+    "发行时间": [
+      "2011年3月4日"
+    ],
+    "时长": [
+      "03:24"
+    ],
+    "Minecraft - Volume Alpha": [
+      "No.7"
+    ],
+    "MHG MHG MHG": [
+      "——C418评论于bandcamp.com",
+      "Haggstrom是一首由C418创作的音乐。"
+    ],
+    "播放条件": [
+      "Haggstrom会在玩家处于生存模式或创造模式[仅Java版]时播放。"
+    ],
+    "黑森林[仅Java版]": [
+      "5%"
+    ],
+    "黑森林[仅基岩版]": [
+      "5.26%"
+    ],
+    "原始桦木森林[仅基岩版]": [
+      "5.88%"
+    ],
+    "疏林恶地": [
+      "7.14%"
+    ],
+    "裸岩山峰": [
+      "7.69%"
+    ],
+    "稀疏丛林": [
+      "8.33%"
+    ],
+    "繁花森林": [
+      "9.09%"
+    ],
+    "冰封山峰[仅基岩版]": [
+      "10%"
+    ],
+    "冰封山峰[仅Java版]": [
+      "11.11%"
+    ],
+    "积雪山坡": [
+      "14.29%",
+      "其他："
+    ],
+    "蘑菇岛": [
+      "4.55%[仅Java版]",
+      "4.76%[仅基岩版]"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "“Haggstrom”是一首欢快、明亮与充满希望的曲目，其在拇指琴上演奏，可能还有钢片琴和钟琴，并带有贝斯和偶尔的和弦。随着旋律上升，和弦变得更加拉长，安静的木管乐器随后加入旋律以与和弦相称和。",
+      "温暖和充满回声的合成器（或者是低沉的竖琴声）悄悄地淡入，竖琴轻柔地演奏，小号在音乐背景中遥远地回荡，然后更响亮的钟琴开始演奏稀疏的旋律。最后和弦停止，所有乐器慢慢淡出。",
+      "“Haggstrom”的节拍是七拍（准确地说是7/4拍）。"
+    ],
+    "ID": [
+      "Java版:"
+    ],
+    "Haggstrom": [
+      "hal3.ogg"
+    ],
+    "music.creative": [
+      "基岩版:"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "Java版Alpha": [
+      "v1.2.0",
+      "加入了\"hal3.ogg\"。",
+      "v1.2.1",
+      "现在\"hal3.ogg\"可以在多人游戏中播放了。"
+    ],
+    "Java版": [
+      "1.6.1",
+      "13w24a",
+      "现在\"hal3.ogg\"存储于assets/music。",
+      "1.7.2",
+      "13w42a",
+      "现在\"hal3.ogg\"存储于assets/sounds/music。",
+      "1.7.4",
+      "13w49a",
+      "\"hal3.ogg\"现在是散列资源文件，而非直接存储。",
+      "1.18",
+      "21w42a",
+      "现在\"hal3.ogg\"可以在尖峭山峰、冰封山峰、草甸、积雪山坡和裸岩山峰中播放。",
+      "1.19",
+      "22w17a",
+      "现在\"hal3.ogg\"可以在森林、繁花森林、丛林和原始针叶林中播放。",
+      "1.20",
+      "23w17a",
+      "现在\"hal3.ogg\"可以在恶地和沙漠中播放。",
+      "1.20.3",
+      "23w45a",
+      "\"hal3.ogg\"被重命名为\"haggstrom.ogg\"。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了包含\"hal3.ogg\"的可下载音乐，属于市场内容。"
+    ],
+    "基岩版": [
+      "1.19.10",
+      "1.19.10.20",
+      "iOS/iPadOS平台上的游戏应用现在会自带音乐，\"hal3.ogg\"不再需要在市场中下载。",
+      "1.19.30",
+      "1.19.30.22",
+      "Android平台上的游戏应用现在会自带音乐，\"hal3.ogg\"不再需要在市场中下载。"
+    ],
+    "正式版": [
+      "Fire平台上的游戏应用现在会自带音乐，\"hal3.ogg\"不再需要在市场中下载。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"hal3.ogg\"。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了\"hal3.ogg\"。"
+    ],
+    "你知道吗": [
+      "该曲目与Key、Door、Living Mice、Moog City、Minecraft、Oxygène、Équinoxe、Mice on Venus、Clark、Chris和Beginning使用了同一个音乐动机。",
+      "此外，Minecraft - Volume Beta中也有一些曲目使用了这个音乐动机。"
+    ]
+  }
+}

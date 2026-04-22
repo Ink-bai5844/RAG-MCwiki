@@ -1,0 +1,105 @@
+{
+  "title": "命令/gamemode",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgamemode",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于控制玩家进行游戏的方式的系统，请见“游戏模式”。"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "非编辑器[仅基岩版]": [
+      "设置玩家的游戏模式。"
+    ],
+    "Java版": [
+      "1.3.1",
+      "12w16a",
+      "/gamemode现在能在单人游戏中使用。",
+      "语法更改为gamemode <游戏模式> [玩家]，玩家参数是可选（默认是自身）的，模式参数可以是数字和survival/creative/s/c。",
+      "12w30a",
+      "/gamemode 3更改为/gamemode 0（生存模式）",
+      "1.8",
+      "14w05a",
+      "加入了spectator（旁观模式）。",
+      "1.9",
+      "15w43a",
+      "现在/gamemode会在聊天栏中显示玩家更改为的游戏模式。",
+      "1.13",
+      "17w45a",
+      "现在/gamemode不再支持简写。"
+    ],
+    "基岩版": [
+      "gamemode <gameMode: GameMode> [player: target]",
+      "gamemode <gameMode: int> [player: target]",
+      "1.17.30",
+      "1.17.30.20",
+      "加入了default参数。",
+      "1.18.30",
+      "1.18.30.20",
+      "加入了6参数，用于旁观模式。",
+      "1.18.31",
+      "加入了spectator参数，用于旁观模式。",
+      "1.19.30",
+      "1.19.30.20",
+      "移除了6参数。"
+    ],
+    "参数": [
+      "JE：<gamemode>：gamemode",
+      "BE：gameMode: GameMode：enum和gameMode: int：int",
+      "指定玩家的新游戏模式，必须为以下其中之一：",
+      "survival（在基岩版中，可简写为s或0）代表生存模式",
+      "creative（在基岩版中，可简写为c或1）代表创造模式",
+      "adventure（在基岩版中，可简写为a或2）代表冒险模式",
+      "default（可简写为d或5）代表世界默认模式[仅基岩版]"
+    ],
+    "spectator代表旁观模式": [
+      "极限模式不是一个有效选项，因为它作用于世界，而不是玩家。",
+      "JE：<target>：entity",
+      "BE：player: target：CommandSelector<Actor>",
+      "指定要被修改游戏模式的玩家。如果未指定，默认为命令执行者。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。"
+    ],
+    "无法解析": [
+      "<target>或player: target未指定且命令执行者不是玩家"
+    ],
+    "执行失败": [
+      "<target>或player: target未能选中一个或多个在线玩家",
+      "gameMode: int非有效模式ID",
+      "0",
+      "0"
+    ],
+    "N/A": [
+      "player: target非玩家目标选择器"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "使执行者进入创造模式："
+    ],
+    "gamemode c[仅基岩版]": [
+      "gamemode 1[仅基岩版]",
+      "使所有玩家进入生存模式："
+    ],
+    "gamemode s @a[仅基岩版]": [
+      "gamemode 0 @a[仅基岩版]"
+    ],
+    "Java版Beta": [
+      "1.8",
+      "pre1",
+      "加入了gamemode <玩家> <游戏模式>。"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/gamemode命令。",
+      "只能使用创造和生存模式。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "加入了adventure参数。"
+    ]
+  }
+}

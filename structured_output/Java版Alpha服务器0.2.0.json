@@ -1,0 +1,37 @@
+{
+  "title": "Java版Alpha服务器0.2.0",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha%E6%9C%8D%E5%8A%A1%E5%99%A80.2.0",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "0.2.0"
+    ],
+    "发布时间": [
+      "2010年9月10日"
+    ],
+    "协议版本": [
+      "2",
+      "其他版本的0.2.0"
+    ],
+    "Minecraft Earth": [
+      "◄◄0.1.0",
+      "0.2.1►►",
+      "◄0.1.4",
+      "0.2.0_01►",
+      "0.2.0是一个Alpha服务器版本，与客户端1.1.0在2010年9月10日一起发布。"
+    ],
+    "新内容": [
+      "加入了服务器侧背包。",
+      "使服务器可以保存玩家退出服务器时的位置。"
+    ],
+    "更改": [
+      "使得箱子、告示牌和熔炉能在多人游戏中正常工作。",
+      "向server.properties中加入了monsters=false。",
+      "此设置可以开启实验性生物，但是它们不能被直接伤害。"
+    ],
+    "参考": [
+      "Seecret Friday 9! OooooOOOoo! And Minecraft Alpha 1.1.0! And Minecraft Server 0.2.0!（存档） — The Word of Notch，2010年9月10日。"
+    ]
+  }
+}

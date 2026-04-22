@@ -1,0 +1,520 @@
+{
+  "title": "基岩版1.21.30/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.30%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了基岩版1.21.30的测试版本。",
+      "1.21.30.21",
+      "beta 1.21.30.21（ChromeOS/Android）、Preview 1.21.30.21（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的首个测试版，发布于2024年8月1日，调整了试炼密室的结构，更改了许多物品的稀有度，为旗帜图案加入了不同的纹理，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "更新了地物规则文档。",
+      "为“Creator”栏设置加入了“GUI Log Level”选项，此选项可控制启用内容日志时内容日志在屏幕上显示的等级。",
+      "修复了最小化然后恢复游戏后会导致出现占位符纹理的漏洞。",
+      "更改了一些方块的英文名称以匹配Java版：",
+      "更改了一些物品的英文名称以匹配Java版：",
+      "从格式版本1.21.30开始，以下ID在blocks.json中被认为已经过时：",
+      "minecraft:carpet",
+      "minecraft:colored_torch_bp",
+      "minecraft:colored_torch_rg",
+      "minecraft:concrete",
+      "minecraft:concrete_powder",
+      "minecraft:coral",
+      "minecraft:coral_block",
+      "minecraft:coral_fan",
+      "minecraft:coral_fan_dead",
+      "minecraft:coral_fan_hang",
+      "minecraft:coral_fan_hang2",
+      "minecraft:coral_fan_hang3",
+      "minecraft:double_plant",
+      "minecraft:double_stone_block_slab",
+      "minecraft:double_stone_block_slab2",
+      "minecraft:double_stone_block_slab3",
+      "minecraft:double_stone_block_slab4",
+      "minecraft:double_wooden_slab",
+      "minecraft:fence",
+      "minecraft:hard_stained_glass",
+      "minecraft:hard_stained_glass_pane",
+      "minecraft:leaves",
+      "minecraft:leaves2",
+      "minecraft:light_block",
+      "minecraft:log",
+      "minecraft:log2",
+      "minecraft:monster_egg",
+      "minecraft:planks",
+      "minecraft:red_flower",
+      "minecraft:sapling",
+      "minecraft:shulker_box",
+      "minecraft:stained_glass",
+      "minecraft:stained_glass_pane",
+      "minecraft:stone_block_slab",
+      "minecraft:stone_block_slab2",
+      "minecraft:stone_block_slab3",
+      "minecraft:stone_block_slab4",
+      "minecraft:stonebrick",
+      "minecraft:tallgrass",
+      "minecraft:terracotta",
+      "minecraft:wood",
+      "minecraft:wooden_slab",
+      "minecraft:wool"
+    ],
+    "设置": [
+      "在存储设置中加入了“删除本地截图”按钮。",
+      "用于删除本地保存的截图。",
+      "将“最大帧率”选项重命名为“帧率限制”，并为其加入了提示框，以更好地描述其用途。"
+    ],
+    "方块": [
+      "加入了minecraft:redstone_conductivity组件以控制自定义方块的基本红石属性。",
+      "使用活塞垂直拉回含水方块时不再会在客户端上产生“幽灵水”。（MCPE-144222）",
+      "为数据驱动方块加入了新的原版方块标签和物品标签，以支持原版物品的品质等级破坏时间。",
+      "现在所有原木、去皮原木、木头和去皮木头都会在各种场景下得到一致处理：",
+      "现在能够降落在树上的飞行生物会将这些方块识别为合适的降落位置。",
+      "鹦鹉现在会倾向于将这些方块作为降落位置。",
+      "此前，上述行为仅适用于这些方块的子集。",
+      "海带不再能够放置在任意类型的栅栏上，而非只是不能放置在栅栏的子集方块上。",
+      "海龟蛋不再能够放置在任意类型的栅栏上，而非只是不能放置在栅栏的子集方块上。",
+      "在minecraft:destructible_by_mining方块组件中加入了新的实验性字段item_specific_speeds。",
+      "现在如果解析blocks.json的format_version大于或等于它覆盖的方块名称，会产生内容错误。",
+      "数据驱动方块中的item_display_transforms字段不再需要“即将推出的创作者功能”选项。",
+      "修复了minecraft:redstone_conductivity对自定义方块的支持问题。",
+      "如果现在blocks.json的格式版本大于或等于它覆盖的方块名称，则解析blocks.json会产生内容错误。"
+    ],
+    "南瓜": [
+      "不再可用于生成铁傀儡和雪傀儡。"
+    ],
+    "紫珀块、紫珀柱、雕纹紫珀块和平滑紫珀块": [
+      "IDpurpur_block现在被拆分为：purpur_block、​purpur_pillar、​deprecated_purpur_block_1和​deprecated_purpur_block_2。",
+      "purpur_block的数据值仍然可用。",
+      "deprecated_purpur_block_1和​deprecated_purpur_block_2用于向后兼容，不会在命令提示中出现。"
+    ],
+    "结构空位": [
+      "移除了方块状态structure_void_type。",
+      "structure_void_type为air的结构空位（即结构空气）现在会转换为普通的结构空位。"
+    ],
+    "墙": [
+      "圆石墙、苔石墙、花岗岩墙、闪长岩墙、安山岩墙、砂岩墙、红砖墙、石砖墙、苔石砖墙、下界砖墙、末地石砖墙、海晶石墙、红砂岩墙和红色下界砖墙的IDcobblestone_wall现在被拆分为：cobblestone_wall、​mossy_cobblestone_wall、​granite_wall、​diorite_wall、​andesite_wall、​sandstone_wall、​brick_wall、​stone_brick_wall、​mossy_stone_brick_wall、​nether_brick_wall、​end_stone_brick_wall、​prismarine_wall、​red_sandstone_wall和​red_nether_brick_wall。",
+      "cobblestone_wall的数据值仍然可用。",
+      "将花岗岩墙、闪长岩墙、安山岩墙、石砖墙、苔石砖墙和海晶石墙的硬度更改为1.5。",
+      "将砂岩墙和红砂岩墙的硬度更改为0.8，爆炸抗性更改为0.8。",
+      "将末地石砖墙的硬度更改为3，爆炸抗性更改为9。"
+    ],
+    "物品": [
+      "现在若不能由icon_name从1.10数据的minecraft:icon中找到物品对应图标，则会抛出内容错误。",
+      "加入了minecraft:rarity物品组件以允许指定物品的稀有度。",
+      "此组件具有唯一字段value，可接受以下值：",
+      "现在旗帜图案物品的稀有度颜色会显示在正确的位置。（MCPE-182508）",
+      "版本为1.16.100+的物品数据现在可以被包堆栈中更高版本的物品数据覆盖。",
+      "现在创作者可以用1.16.100+的数据覆盖1.16.100+的使用数据驱动的原版物品。",
+      "加入了minecraft:storage_item物品组件，允许物品存储与之关联的动态容器的数据：",
+      "此组件要求开启“Bundles”实验性玩法选项。",
+      "动态容器是用于存储关联的物品而不是方块或者实体的物品容器。",
+      "要使用此组件，物品必须将minecraft:max_stack_size设置为1。",
+      "max_slots字段（1至64）定义了动态容器的槽位数量。",
+      "max_weight_limit字段定义了动态容器所有槽位中物品数量的最大允许总和。",
+      "能够堆叠到64的物品每个视为1，能够堆叠到16的物品每个视为4，不可堆叠的物品视为64。",
+      "allow_nested_storage_items字段允许将带有minecraft:storage_item组件的其他物品放入其中。",
+      "weight_in_storage_item（0至64）定义了在另一个能存储的物品中增加的额外数量。",
+      "数值为0则表示此物品不允许收纳进另一个能存储的物品。",
+      "banned_items字段定义了物品动态容器中不允许的物品。",
+      "allowed_items字段定义了项目动态容器中唯一允许的项目。",
+      "如果为空，所有物品都允许在物品的动态容器中。",
+      "添加了minecraft:bundle_interaction物品组件，以启用特定于收纳袋的交互方式和工具提示。",
+      "此组件要求开启“Bundles”实验性玩法选项。",
+      "要使用此组件，物品必须定义minecraft:storage_item组件。",
+      "minecraft:bundle_interaction组件与minecraft:storage_item组件创建的容器交互。",
+      "num_viewable_slots字段（1至64）定义了从收纳袋顶部可访问的物品堆栈的最大数量，而其他槽位是隐藏的。",
+      "文件名为[item_name]_open_front和[item_name]_open_back的纹理必须添加到textures/textures_list.json中。",
+      "修复了当导入早于1.5.0的世界时，方块物品会变成不正确的变体的漏洞。（MCPE-181944）",
+      "教育版功能：修复了材料分解器的配方对部分扁平化后的方块（如安山岩或陶瓦）不起作用的漏洞。",
+      "minecraft:dyeable组件现在向创作者公开。",
+      "修复了装有物品的收纳袋被漏斗或漏斗矿车从容器中吸取后会损坏的问题。（MCPE-185467）"
+    ],
+    "旗帜图案": [
+      "为每种旗帜图案加入了不同的物品纹理以便区分。",
+      "更改了命名方式。现在直接会在物品名称中指示图案类型，而非显示在提示框的小标题中。"
+    ],
+    "不祥旗帜": [
+      "英文名称由“Illager Banner”更改为“Ominous Banner”。"
+    ],
+    "锻造模板": [
+      "更改了命名方式。现在会以模板的具体类型作为物品名称，而以“锻造模板”作为提示框中的小标题。"
+    ],
+    "稀有度": [
+      "重新评估并更改了一些物品的稀有度：",
+      "金苹果的稀有度由“稀有”更改为“常见”。",
+      "所有附魔书的稀有度由“少见”更改为“常见”。",
+      "鞘翅、龙首、龙蛋和幽静盔甲纹饰的稀有度由“常见”更改为“史诗”。",
+      "附魔金苹果、三叉戟和Mojang徽标旗帜图案的稀有度由“史诗”更改为“稀有”。",
+      "信标、下界之星、监守盔甲纹饰、眼眸盔甲纹饰、恼鬼盔甲纹饰、尖塔盔甲纹饰和凋灵骷髅头颅的稀有度由“常见”更改为“稀有”。",
+      "嗅探兽蛋、锁链头盔、锁链胸甲、锁链护腿、锁链靴子、追溯指针、唱片残片5、鹦鹉螺壳、回响碎片、山羊角、陶片、不祥之瓶、不祥旗帜、书、龙息、海洋之心、潮涌核心、附魔之瓶、不死图腾以及其余锻造模板和生物头颅的稀有度由“常见”更改为“少见”。",
+      "除了Pigstep、otherside和Creator以外，其余音乐唱片的稀有度由“稀有”更改为“少见”。",
+      "头颅盾徽旗帜图案的稀有度由“少见”更改为“稀有”。",
+      "现在物品具有魔咒时稀有度会提升，由常见或少见变为稀有，或由稀有变为史诗。",
+      "更改了各种物品和方块所设定的稀有度。（MCPE-182414）"
+    ],
+    "生物": [
+      "修复了自定义的实体名称不会在死亡消息中正确显示的问题。（MCPE-158447）",
+      "旋风人不再具有能攻击生物的最小距离限制。（MCPE-183011）",
+      "鹦鹉现在能模仿末影螨的声音。",
+      "鹦鹉现在能模仿溺尸的声音。（MCPE-46302）"
+    ],
+    "雪傀儡": [
+      "拥有抗火效果时不再会在温度高的生物群系中受到伤害。"
+    ],
+    "世界生成": [
+      "修复了滴水石锥在试炼密室的encounter_4和trapped_staircase结构倒置的问题。（MCPE-184789）"
+    ],
+    "试炼密室": [
+      "加入了新的过道结构encounter_1、​encounter_2、​encounter_3、​encounter_4、​encounter_5和​trapped_staircase。",
+      "包含短暂的挑战，通往更大的决斗室。",
+      "加入了摆设black_bed、​blue_bed、​brown_bed、​cyan_bed、​gray_bed、​green_bed、​light_blue_bed、​light_gray_bed、​lime_bed、​magenta_bed、​orange_bed、​pink_bed、​purple_bed、​red_bed、​white_bed和​yellow_bed。",
+      "即16种不同颜色的床，随机放置于交叉口的隐藏房间内。",
+      "加入了摆设disposal，包含漏斗和木桶。",
+      "取代了决斗室入口处的空箱子，以更好地提示玩家其用于弃置和管理物品。",
+      "移除了决斗室的附加结构walkway_extension。",
+      "移除了slanted决斗室独有的附加结构hallway_4和​hallway_5。",
+      "交叉口中床的颜色现在是随机的。（MCPE-180424）",
+      "修复了多个试炼密室模板中方块缺失或不正确的问题。（MCPE-176952）",
+      "修复了试炼密室中的陷阱可能生成在墙后以致无法生效的问题。（MCPE-180912）",
+      "现在一些史莱姆试炼刷怪笼在没有玩家干预的情况下不再生成史莱姆。",
+      "修复了pedestal和chamber_1/2决斗室中不祥宝库可能生成失败的问题。",
+      "暂时回退了1.21.30.21中作出的修复和更改，漏斗和木桶相关的更改除外。"
+    ],
+    "控制": [
+      "在全键盘游戏模式的JSON UI菜单（包括物品栏菜单）中加入了Q和E，作为左键和右键的等效按键。",
+      "改进了新版十字键触控。",
+      "十字键布局现在更紧凑了。",
+      "加入了向后轻扫时的按钮。",
+      "在十字键周围加入了一小部分外延区域，该区域不会接收镜头输入，以免操控十字键时意外移动镜头。",
+      "现在自定义触控时十字键会显示斜向移动的按钮了。"
+    ],
+    "暂停菜单": [
+      "加入了截图按钮。",
+      "用于截图，仅登录后可用。",
+      "可在档案页面的“屏幕截图库”屏幕中查看自己的截图。"
+    ],
+    "用户界面": [
+      "为游戏指南的主题文本标签加入了换行的能力，以取代行过长时在句末添加“...”。",
+      "将在另一台设备上登录的URL缩短为microsoft.com/link。",
+      "修复了购买订阅时可能发生的软锁。",
+      "修复了玩家拿有不祥之瓶时不显示“饮用”提示的问题。",
+      "修复了玩家生命值向下取整而非向上取整的问题，该问题导致HUD有时会显示生命值为空。（MCPE-183157）",
+      "现在游戏重新获得焦点后，聊天输出的滚动位置会得到保留。",
+      "在Ore UI游玩屏幕中将“所有世界”选项卡重命名为“世界”（仅限预览版）。",
+      "现在新游玩屏幕中世界上显示的极限模式红心在鼠标悬停在世界上时会动画化（仅限预览版）。",
+      "信标标题文本不再与携带版UI中的其他容器不同。（MCPE-176186）",
+      "修复了在经典UI中隐藏配方书后，制作类别选项卡在携带版UI中不可见的漏洞。（MCPE-183825）",
+      "现在与其他类似界面一样，切石机界面上的箭头始终可见。（MCPE-160236）",
+      "修复了物品耐久条和存储栏在某些屏幕上尺寸和位置不正确的问题。",
+      "效果图标现在会根据GUI比例改变大小。（MCPE-180238）",
+      "修复了创建新的世界屏幕中可能会缺少种子模板按钮的问题。"
+    ],
+    "附加包和脚本引擎": [
+      "从加入世界流程的数据包中移除了已弃用的行为包下载功能相关代码。",
+      "在方块几何文件中加入了item_display_transforms控件，其控制方块在UI内、玩家手上及作为掉落物时的视觉呈现方式。",
+      "其置于minecraft:geometryJSON对象中，需要将format_version设为1.21.0或更高，并打开“即将推出的创作者功能”。",
+      "默认值示例：",
+      "\"item_display_transforms\":{\"gui\":{\"translation\":[0,0,0],\"rotation\":[30,225,0],\"scale\":[0.625,0.625,0.625],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0],\"fit_to_frame\":true},\"firstperson_righthand\":{\"translation\":[0,0,0],\"rotation\":[0,45,0],\"scale\":[0.4,0.4,0.4],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]},\"firstperson_lefthand\":{\"translation\":[0,0,0],\"rotation\":[0,-135,0],\"scale\":[0.4,0.4,0.4],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]},\"thirdperson_righthand\":{\"translation\":[0,2.5,0],\"rotation\":[75,45,0],\"scale\":[0.375,0.375,0.375],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]},\"thirdperson_lefthand\":{\"translation\":[0,2.5,0],\"rotation\":[75,45,0],\"scale\":[0.375,0.375,0.375],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]},\"ground\":{\"translation\":[0,3.0,0],\"rotation\":[0,0,0],\"scale\":[0.25,0.25,0.25],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]},\"fixed\":{\"translation\":[0,0,0],\"rotation\":[0,0,0],\"scale\":[0.5,0.5,0.5],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]},\"head\":{\"translation\":[0,0,0],\"rotation\":[0,0,0],\"scale\":[1,1,1],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0]}}",
+      "修复了UI中所有的自定义方块都会旋转180度的漏洞。",
+      "gui、​item_display_transforms和​rotation字段的默认值现在为[30, 45, 0]，而不是[30, 225, 0]。",
+      "\"item_display_transforms\":{\"gui\":{\"translation\":[0,0,0],\"rotation\":[30,45,0],\"scale\":[0.625,0.625,0.625],\"rotation_pivot\":[0,0,0],\"scale_pivot\":[0,0,0],\"fit_to_frame\":true}}"
+    ],
+    "API": [
+      "开放了1.3.0版本的@minecraft/server。",
+      "注：这仍能在Preview中更改。",
+      "加入了1.4.0-beta版本的@minecraft/server。",
+      "将playerEmoteWorldafter事件从Beta开放至1.14.0。",
+      "将BlockRecordPlayerComponent类从beta开放至1.14.0。",
+      "将UIManagerclass从Beta开放至1.3.0。",
+      "将EntityQueryPropertyOptions从beta开放至1.14.0。",
+      "将EntityStrengthComponent从beta移动至1.13。",
+      "更改了迭代器，使它们能够正确存储自己的状态，简化并更好地处理常见用法。",
+      "修复了可迭代对象的next方法。",
+      "以下API已从实验性玩法中移出：PlayerCursorInventoryComponentAPI、活动对象属性API的目标选择器和BlockRecordPlayerComponentAPI。",
+      "将PlayerCursorInventoryComponent类由beta移动至1.14.0。"
+    ],
+    "命令": [
+      "/locate structure命令输出现在会显示找到结构的标识符而非名称。"
+    ],
+    "实体组件": [
+      "behavior.fire_at_target不再限制于原版内容。",
+      "此意向现在允许实体通过间歇发射弹射物来攻击实体。",
+      "behavior.jump_around_target不再限制于原版内容。",
+      "此意向允许实体绕目标跳跃。",
+      "behavior.move_around_target不再限制于原版内容。",
+      "此意向允许实体绕目标移动。"
+    ],
+    "游戏内容": [
+      "公开了实体偏移量，因此用户能更改第三人称相机相对于实体中心的相机枢轴点。",
+      "现在可以通过使用任意等级的不祥之瓶来重置不祥之兆效果。",
+      "船在冰上滑行时不再会消失。（MCPE-180432）",
+      "修复了在黏性活塞移动讲台的情况下打开该讲台时可能发生的崩溃。现在讲台被移动时会关闭书本屏幕。（MCPE-183508）",
+      "在部分平台上脱离载具时不再会导致玩家卡进地面。（MCPE-184363、MCPE-182448）",
+      "修复了试炼刷怪笼的碰撞箱形状不正确的问题。试炼刷怪笼现在拥有与普通方块相同大小的碰撞箱。（MCPE-178305）",
+      "修复了末地折跃门无法正确传送某些玩家的问题。（MCPE-66061）",
+      "当现有相机插值正在运行时，/camera set命令现在将以正确的顺序运行。（MCPE-183986）",
+      "聚焦目标相机：在自由相机预设JSON加入了rotation_speed，以控制瞄准实体时的旋转速度。",
+      "此值为浮点数，表示每秒转动的度数。",
+      "聚焦目标相机：在自由相机预设JSON加入了snap_to_target bool布尔值，以能够在第一刻时捕捉所瞄准的实体。",
+      "回退了导致重锤出现各种与堆叠、附魔和耐久度相关的漏洞的更改。因此，生物再次无法使用重锤进行猛击。（MCPE-185896、MCPE-186155）"
+    ],
+    "epic": [
+      "也可写作内联值，如：\"minecraft:rarity\": uncommon。",
+      "物品的稀有度决定其名称所显示的颜色。",
+      "如果物品已指定minecraft:hover_text_color组件，则悬浮提示文本的颜色会优先于稀有度颜色使用。"
+    ],
+    "战利品表": [
+      "加入了set_potion物品修饰器，它能通过药水ID设置兼容物品的药水类型。",
+      "它具有唯一字段id，接受以下药水ID值："
+    ],
+    "infested": [
+      "下列物品种类兼容set_potion函数："
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”、“即将推出的创作者功能”和“为创建者提供的渲染龙功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“即将推出的创作者功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“同捆包”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“同捆包”、“测试版 API”、“创作者镜头：焦点目标镜头”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "PlayerInteractWithBlockBeforeEvent": [
+      "向beta版本加入了只读属性isFirstEvent: boolean。如果事件由玩家单击交互按钮触发，则此值为true；如果事件由长按交互按钮触发，则此值为false。"
+    ],
+    "PlayerInteractWithBlockAfterEvent": [
+      "向beta版本加入了只读属性beforeItemStack?: ItemStack，表示交互成功前被玩家选中的物品。",
+      "向beta版本加入了只读属性isFirstEvent: boolean。如果事件由玩家单击交互按钮触发，则此值为true；如果事件由长按交互按钮触发，则此值为false。",
+      "现在需要成功交互方块才会触发此after事件，且它将不再总因空手触发。"
+    ],
+    "PlayerInteractWithEntityAfterEvent": [
+      "向beta版本加入了只读属性beforeItemStack?: ItemStack，表示交互成功前被玩家选中的物品。",
+      "取消before事件现在不再触发after事件。",
+      "此事件当前只会因成功交互而被触发。"
+    ],
+    "图形": [
+      "移除了一个在插入太阳照度和太阳颜色的关键帧值过程中错误的偏移，太阳照度和太阳颜色的关键帧值现与其他时间依赖关键帧值保持一致。",
+      "创作者将需要将任何太阳照度和颜色关键帧偏移0.5。",
+      "在延迟渲染预览功能中加入了通过纹理集数据驱动次表面散射的能力。类似于蜡、树叶或皮肤，其效果允许光线穿透定量物体表面。次表面值从所提供纹理的alpha通道中提取。",
+      "树叶原有的默认次表面效果已被移除，其纹理现由包提供。",
+      "创作者可以在纹理集JSON中使用metalness_emissive_roughness_subsurface而非metalness_emissive_roughness来激活特定方块、生物等的效果。",
+      "注意此新字段仅在格式版本为1.21.30的纹理集JSON中可用。",
+      "更改了延迟渲染预览功能的颜色分级JSON模式，现在需要明确启用高光和阴影的特定颜色分级设置。",
+      "在编辑器的延迟渲染预览功能中加入了高光和阴影颜色分级控制。",
+      "在延迟渲染预览功能中加入了数据驱动自发光去饱和的能力。",
+      "在延迟渲染预览功能中加入了对附魔物品的支持。",
+      "在延迟渲染预览功能中，减少了启用“画质提升”后摆动玩家手中的物品时偶现的模糊或“重影”假象。",
+      "修复了无论位置如何，旗帜都会在其他透明对象的前方渲染的问题。（MCPE-130262）",
+      "在延迟渲染预览功能中加入了水的数据驱动参数的功能。",
+      "在延迟渲染预览功能中加入了新功能：真实感波浪。此新功能必须通过资源包选择加入，默认情况下不会启用。",
+      "修复了延迟渲染预览功能中夜视没有效果的问题。",
+      "现在在延迟渲染预览功能中更改FOV设置后，钓鱼线可以在第一人称视角正确渲染。",
+      "在启用延迟渲染预览功能的Android设备上，SSR不再会在错误方向泄漏。"
+    ],
+    "合成": [
+      "现在在合成烟花火箭时从方格中添加或移除物品时会相应更新输出物品。（MCPE-183455）"
+    ],
+    "多人游戏": [
+      "修复了游戏中的邀请屏幕不会正确显示子状态的问题。"
+    ],
+    "Realms": [
+      "修复了RealismCraft等资源包在Realms上无法使用的问题。这是一个设备端的热修复更新，同时应用到了Preview版和最新正式版中。（REALMS-11940、REALMS-11913、REALMS-11916）",
+      "Realms故事内容不再在滚动时被裁剪。",
+      "在任意UI尺寸的Galaxy Z Flip设备上的Realms故事里，文本不再与截图重叠。",
+      "选择Preview Realm创建世界时，手柄图例不再与UI元素重叠。",
+      "分屏模式下仅显示首个玩家的订阅选项卡。",
+      "在连接到Realm时或在相关界面中，Realm ID现在会在preview/beta构建的调试文本中显示。",
+      "Realms备份列表现在会显示备份创建的日期，而不是备份的时间。"
+    ],
+    "触控": [
+      "修复了隐藏HUD的命令无法隐藏十字键的问题。（MCPE-184157）"
+    ],
+    "原版趋同": [
+      "实体的落水声现在与Java版相同。（MCPE-44120）",
+      "修复了单独一个脚手架方块无法放置在结构方块上面的问题。（MCPE-169818）",
+      "拥有抗火效果的雪傀儡不再会在温度高的生物群系中受到伤害。（MCPE-94448）",
+      "未雕刻的南瓜不再能用于搭建雪傀儡和铁傀儡。（MCPE-33801）",
+      "1.21.30.22",
+      "beta 1.21.30.22（ChromeOS/Android）、Preview 1.21.30.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的第2个测试版，发布于2024年8月7日，同步了一些Java版的特性，并修复了一些漏洞。",
+      "只有一个可能等级的魔咒不再会在名称中显示“I”级。",
+      "更改了许多物品和方块的英文名称以趋同Java版。（MCPE-101388）",
+      "石匠村民的英文名称由“Stone Mason”重命名为“Mason”，以匹配Java版。",
+      "哞菇现在会生成于光照等级为9及以上的地方。（MCPE-66830）",
+      "1.21.30.23",
+      "beta 1.21.30.23（ChromeOS/Android）、Preview 1.21.30.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的第3个测试版，发布于2024年8月15日，在实验性玩法中加入了收纳袋，并修复了一些漏洞。",
+      "修复了林地府邸的“蘑菇农场房间”错误地使用了泥土而不是砂土的问题。",
+      "以下方块的红石导体性质已同步Java版：",
+      "现在使用附有精准采集魔咒的锹挖掘雪时，掉落的数量与层数相对应。（MCPE-59729）",
+      "若有8层，则会掉落一个雪块。",
+      "1.21.30.24",
+      "beta 1.21.30.24（ChromeOS/Android）、Preview 1.21.30.24（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的第4个测试版，发布于2024年8月21日，同步了一些Java版的特性，在实验性玩法中对收纳袋作出了一些调整，并修复了一些漏洞。",
+      "玩家现在可以使用1个瓶子草合成2个青色染料。（MCPE-171061）",
+      "狐狸现在拥有10（）点生命值。（MCPE-48233）",
+      "村民在睡觉时不再会发出空闲声音。",
+      "1.21.30.25",
+      "beta 1.21.30.25（ChromeOS/Android）、Preview 1.21.30.25（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的第5个测试版，发布于2024年8月28日，修复了一些漏洞。"
+    ],
+    "伤害类型": [
+      "加入了新的伤害类型mace_smash，用于重锤猛击以产生新的死亡消息。"
+    ],
+    "死亡消息": [
+      "加入了被重锤猛击杀死时的死亡消息："
+    ],
+    "彩色火把": [
+      "IDcolored_torch_rg和​colored_torch_bp现在被拆分为colored_torch_red、​colored_torch_green、​colored_torch_blue和​colored_torch_purple。",
+      "colored_torch_rg和​colored_torch_bp及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "海绵和湿海绵": [
+      "IDsponge现在被拆分为：sponge和​wet_sponge。",
+      "sponge的数据值仍然可用。"
+    ],
+    "雪": [
+      "现在使用附有精准采集魔咒的锹挖掘雪时，掉落的数量与层数相对应。",
+      "若有8层，则会掉落一个雪块。"
+    ],
+    "Player Head": [
+      "skull:3"
+    ],
+    "Light": [
+      "light_block_0"
+    ],
+    "哞菇": [
+      "现在会生成于光照等级不低于9的地方，而非不低于12的地方。"
+    ],
+    "村民": [
+      "石匠的英文名称由“Stone Mason”更改为“Mason”，以匹配Java版。"
+    ],
+    "魔咒": [
+      "最大等级为I时，I级的魔咒不再会在提示框中显示等级。",
+      "例如I级的无限魔咒会显示“无限”，而不是“无限I”。"
+    ],
+    "/reload": [
+      "加入了all: reload_all参数。",
+      "接受值只有all。",
+      "使玩家退出并重新加入世界，同时重载所有行为包和资源包。"
+    ],
+    "资源包和行为包": [
+      "玩家的helmet_layer_visible变量现在基于has_head_gearMolang检查的结果，玩家和角色渲染控制器对头盔层的部分可见性不再检查头饰的存在。",
+      "修复了可附加脚本，将helmet_layer_visible设置为1.0，以便正常工作，并维护了一个修复程序，防止角色头发和头饰在生物和南瓜头之外被裁剪。"
+    ],
+    "ItemUseOnBeforeEvent": [
+      "将只读属性isFirstEvent: boolean加入到beta。如果事件是在玩家按下初始交互按钮时触发的，则该值为true，在按住交互按钮时触发的事件时，该值为false。"
+    ],
+    "ItemUseOnAfterEvent": [
+      "将只读属性isFirstEvent: boolean加入到beta。如果事件是在玩家按下初始交互按钮时触发的，则该值为true，在按住交互按钮时触发的事件时，该值为false。"
+    ],
+    "实验性玩法": [
+      "加入了“同捆包”子选项。",
+      "用于启用收纳袋。"
+    ],
+    "TNT和水下TNT": [
+      "IDtnt现在被拆分为tnt和​underwater_tnt。",
+      "tnt的数据值仍然可用。"
+    ],
+    "化合物创建器、材料分解器、元素构造器和实验台": [
+      "IDchemistry_table现在被拆分为：compound_creator、​material_reducer、​element_constructor和​lab_table。",
+      "chemistry_table及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "红树根": [
+      "现在属于红石导体。"
+    ],
+    "信标、TNT和海晶灯": [
+      "现在不再属于红石导体。"
+    ],
+    "命名牌": [
+      "为实体上显示的名字加入了输入字形支持。"
+    ],
+    "鹦鹉": [
+      "现在可以模仿末影螨和溺尸的声音。"
+    ],
+    "林地府邸": [
+      "现在在“蘑菇农场房间”中使用的是砂土而不是泥土。"
+    ],
+    "AI意向": [
+      "移除了未使用的minecraft:behavior.peekAI意向组件。"
+    ],
+    "基岩版编辑器": [
+      "加入了导航面板并添加了一张小地图，可以在世界各地传送，并为关键点添加标签。",
+      "加入了结构面板操作栏项目，用于管理项目中存储的结构。",
+      "加入了编辑器结构管理器API来与之链接。",
+      "在导出窗口中加入了极限模式选项。",
+      "将getSelectedToolId和setSelectedToolId函数加入到了IModalToolContainerAPI中。",
+      "修复了编辑器操作可能会耗尽所有可用的活动区域，导致所有未来操作失败的漏洞。",
+      "修复了有时IModalTool.onModalToolActivationAPI事件以错误的顺序调用的漏洞。",
+      "修复了有时笔刷遮罩无法加载的漏洞。",
+      "移除了编辑器暂停菜单中的截图和个人资料按钮。"
+    ],
+    "村民交易表": [
+      "村民交易表文件现已版本化：",
+      "TradeTier的total_exp_required是版本1.21.30的必要的一部分。",
+      "TradeTier的groups是版本1.21.30的必要的一部分。",
+      "TradeItem的数量min不能低于1.21.30版本的max。"
+    ],
+    "收纳袋": [
+      "使用1个线和1个皮革来合成。",
+      "用于存储其他物品。",
+      "不能存储潜影盒。",
+      "每个收纳袋只能存储一组物品，但允许存储不同种类的物品。",
+      "单组最大堆叠量较少的物品（如末影珍珠）会占用更多存储空间。",
+      "收纳袋的存储空间可以通过手持并使用该收纳袋打开。",
+      "虽然收纳袋不能堆叠，但仍能放入其他收纳袋中。",
+      "每个收纳袋最多能同时存储16个收纳袋。",
+      "可以通过命令来使收纳袋存储任意数量的任意物品。",
+      "GUI中最多会显示8种物品，这8种物品都可随意取出；其他物品则会被隐藏。",
+      "如果其中物品不多于8种，则它们都会显示。",
+      "通过左键单击可放入物品，右键单击以取出首个物品。",
+      "物品提示框显示时，可使用数字键或鼠标滚轮更改选中的物品（所显示的物品之一），然后右键单击将其取出。",
+      "当物品被取出时，它会从收纳袋中钻出来。",
+      "可拿在手中按下使用键释放所有物品。",
+      "现在获得皮革或线时会解锁收纳袋的合成配方。",
+      "现在使用触摸屏设备在收纳袋中加入或移除物品时会显示正确的动画。",
+      "现在将包含多个物品的物品堆叠移入收纳袋时，收纳袋内已有的相同物品会正确移至顶部。",
+      "未染色的潜影盒不再能被放入收纳袋中。（MCPE-185477）",
+      "现在使用游戏手柄右摇杆“向上”方向进行操控时可以在收纳袋的子菜单中正常移动。",
+      "现在收纳袋物品提示框最多显示3行物品而非2行，使得折叠部分物品的收纳袋至少能展示8种物品。"
+    ],
+    "音效": [
+      "玄武岩三角洲现在又有了氛围环境音效。",
+      "现在在sounds.json文件中指定无效声音事件时会触发内容日志错误。",
+      "现在sculk_charge粒子拥有音效。",
+      "凋灵骷髅现在拥有自己的“脚步声”。（MCPE-174857）"
+    ],
+    "瓶子草": [
+      "现在再次能合成出2个青色染料，而不是1个。"
+    ],
+    "重锤": [
+      "现在所有手持重锤的生物均可进行猛击。"
+    ],
+    "狐狸": [
+      "生命值由20（ × 10）减少至10（）。"
+    ],
+    "粒子": [
+      "sculk_charge_particle粒子现在拥有了音效。"
+    ],
+    "状态效果": [
+      "效果图标现在会根据GUI比例改变大小。"
+    ],
+    "极限模式": [
+      "现在如果玩家在极限模式世界中死亡，该世界会在新的选择世界菜单UI中显示灰色边框（仅测试版本）。"
+    ],
+    "世界模板屏幕": [
+      "更新了新UI中的世界模板屏幕。",
+      "现在与世界模板相关的内容分为3个选项卡：",
+      "“Marketplace Pass”：Marketplace Pass中包含的一系列世界模板。",
+      "“精选创作者”：由Minecraft创作者设计的一系列世界模板（可选择在市场中发现更多世界模板）。",
+      "“归我所有 (已拥有的世界模板数量)”：已购买的世界模板。玩家可以在此处通过世界模板创建世界，以及为世界模板评分。",
+      "现在可以使用搜索栏来快速搜索世界模板，并可以使用过滤器和排序顺序来优化结果。",
+      "现在可以发现Marketplace Pass的所有内容，并轻松进行注册。"
+    ],
+    "性能与稳定性": [
+      "修复了加载纹理时可能发生的崩溃。（MCPE-184728）"
+    ],
+    "注释与参考": [
+      "Minecraft Beta & Preview - 1.21.30.21 — Minecraft Feedback，2024年8月1日。",
+      "MCPE-184791",
+      "MCPE-184806",
+      "Minecraft Beta & Preview - 1.21.30.22 — Minecraft Feedback，2024年8月7日。",
+      "Minecraft Beta & Preview - 1.21.30.23 — Minecraft Feedback，2024年8月15日。",
+      "Minecraft Preview 1.21.30.23，来自Jay Wells。Minecraft.net，2024年8月15日。",
+      "Minecraft Beta & Preview - 1.21.30.24 — Minecraft Feedback，2024年8月21日。",
+      "Minecraft Beta & Preview - 1.21.30.25 — Minecraft Feedback，2024年8月28日。"
+    ]
+  }
+}

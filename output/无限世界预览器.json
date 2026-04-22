@@ -1,0 +1,5 @@
+{
+  "title": "无限世界预览器",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%97%A0%E9%99%90%E4%B8%96%E7%95%8C%E9%A2%84%E8%A7%88%E5%99%A8",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\n无限世界预览器\n无限世界预览器（Infinite Map Visualizer，或Level Previewer）是可以预览游戏内世界的工具，用于替代Indev版本的等轴截图。\n用法\n无限世界预览器用于预览游戏存档，位于minecraft.net/infdev/preview.jsp，其仅适用于网页版。\n历史\n2010年6月9日\n无限世界预览器首次被展示。\nJava版Infdev\n20100616-2210\n加入了无限世界预览器。\n如果玩家在无限世界预览器中打开世界，世界文件会受到损坏。\n20100617-1205\n修复了上述漏洞。\nJava版Alpha\nv1.1.1\n无限世界预览器现在不再可用。\nJava版\n1.3.1\n12w18a\n从源代码移除了无限世界预览器。\n画廊\n参考\nOops, the visualizer thing deletes your inventory. Be careful!，来自@notch。X（曾名Twitter），2010年6月16日。\n导航"
+}

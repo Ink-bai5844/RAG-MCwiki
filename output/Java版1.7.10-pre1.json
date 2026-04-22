@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.7.10-pre1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.7.10-pre1",
+  "text": "1.7.10-pre1\n版本\nJava版\n类型\n预发布版\n发布时间\n2014年6月3日\n预发布版归属\n1.7.10\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n5\n资源包版本\n1\n◄◄1.7.9\n1.8►►\n1.7.10-pre2►\n1.7.10-pre1是Java版1.7.10的首个预发布版，发布于2014年6月3日。\n更改\n常规\nRealms\n所有与Realms有关的模块已经被移入一个单独的库中。\n未来得到Realms的新内容不再需要更新Minecraft。\n新特性：\n玩家活动监视器。\n可访问更多的服务器设置：\nPvP：开/关\n难度：和平/简单/普通/困难\n生成保护：关/1~16\n游戏模式：创造/生存/冒险\n生成动物：开/关\n生成怪物：开/关\n生成NPC：开/关\n改进了Realms的UI。\n修复\n修复了1个漏洞\n1.7.9的漏洞\nMC-55580 — Minecraft Realms：重新邀请用户后，他们仍然拥有操作员权限。\n参考\nMinecraft 1.7.10 pre-release（存档），来自Searge。Mojang.com，2014年6月3日。\n导航"
+}

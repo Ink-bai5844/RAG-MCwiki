@@ -1,0 +1,101 @@
+{
+  "title": "命令/experience",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fexperience",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于玩家在战斗和生产活动中获得的可消耗资源，请见“经验”。"
+    ],
+    "需要的权限等级": [
+      "2",
+      "1"
+    ],
+    "启用作弊": [
+      "给予玩家经验。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre5",
+      "加入了/xp。",
+      "1.3.1",
+      "12w16a",
+      "/xp命令现在能在单人游戏中使用。",
+      "更改了语法，现在是等级参数在前，玩家参数在后，并且玩家参数是可选的。",
+      "1.4.2",
+      "12w39a",
+      "加入了L符号。等级可以减少，但经验值不可以且会报错“不能给予玩家负数值的经验”。",
+      "/xp的上限现在为2,147,483,647（231−1）而不是5000。",
+      "1.13",
+      "17w45a",
+      "加入了/experience并且/xp变成了简称。",
+      "语法被重构为/experience add、/experience set和/experience query。",
+      "现在支持负数值。"
+    ],
+    "experience add <targets> <amount> [levels|points]": [
+      "增加或减少玩家的经验值或经验等级。",
+      "若增加或减少经验值，则会计入玩家的分数。",
+      "若增加或减少经验等级，则不会计入玩家的分数。当前经验条中的经验值按比例缩放，保持经验条的进度不变。"
+    ],
+    "experience set <targets> <amount> [levels|points]": [
+      "设置玩家的经验值或经验等级，不会改变玩家的分数。",
+      "若设置经验值，则不会改变经验等级，若指定的经验值大于等于一玩家当前经验条的剩余容量，则无法设置该玩家的经验值。",
+      "若设置经验等级，则当前经验条中的经验值按比例缩放，保持经验条的进度不变。"
+    ],
+    "experience query <targets> (levels|points)": [
+      "查询玩家的经验等级或当前经验条中的经验值。"
+    ],
+    "基岩版": [
+      "xp <amount: int> [player: target]",
+      "增加玩家的经验值。",
+      "xp <amount: int>L [player: target]",
+      "增加或减少玩家的经验等级。当前经验条中的经验值按比例缩放，保持经验条的进度不变。"
+    ],
+    "参数": [
+      "JE：<amount>：integer（仅add模式下）",
+      "指定要给予玩家的经验值或经验等级的数量。负数表示移除玩家的经验。",
+      "必须为32位整数。",
+      "JE：<amount>：integer（仅set模式下）",
+      "指定要设置成的经验值数量或经验等级。",
+      "必须为32位整数。且必须大于等于0。",
+      "BE：amount: int：int",
+      "指定要给予玩家的经验值或经验等级的数量。",
+      "如果在后面加上L，则会给予或移除指定数量的经验等级，否则给予或移除经验值。负数表示移除玩家的经验。",
+      "必须为32位整数。如果是经验值（没有L后缀），则应大于零0。",
+      "JE：<targets>：entity（在add和set模式下）",
+      "BE：player: target：CommandSelector<Player>",
+      "指定命令作用的目标实体。在基岩版中，若未指定，默认为命令执行者。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。",
+      "JE：<targets>：entity（query模式）",
+      "指定要查询的目标实体。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量和玩家类型，否则此命令将无法解析。",
+      "JE: levels|points",
+      "指定命令将影响获取经验等级还是经验值。levels表示经验等级，points表示经验值。"
+    ],
+    "任意": [
+      "player: target未能选中在线玩家"
+    ],
+    "执行失败": [
+      "未指定player: target，且命令执行者不是玩家",
+      "player: target是非玩家类型的目标选择器",
+      "amount: int后无L且小于0"
+    ],
+    "失败": [
+      "0",
+      "0"
+    ],
+    "成功": [
+      "1",
+      "1"
+    ],
+    "示例": [
+      "显示Steve当前的经验等级：experience query Steve levels[仅Java版]",
+      "为自己增加7点经验值：experience add @s 7[仅Java版]或xp 7[仅基岩版]",
+      "将Alice的等级提升3级：experience add Alice 3 levels[仅Java版]或xp 3L Alice[仅基岩版]",
+      "将所有玩家的等级归零：experience set @a 0[仅Java版]或experience set @a 0 levels[仅Java版]或xp -2147483648L @a[仅基岩版]"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/xp。"
+    ]
+  }
+}

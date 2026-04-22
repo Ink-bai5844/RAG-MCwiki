@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 20100213",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_20100213",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Indev\n版本\nJava版\n发布时间\n2010年2月13日\n下载\n客户端（.json）\nal_version\n1.102\n◄◄0.31\nMinecraft Infdev►►\n◄Indev 20100212-1622\nIndev 20100214►\nMinecraft Indev的一个版本发布于2010年2月13日。\n更改\n生物\n骷髅和僵尸\n现在会在阳光下燃烧。\n蜘蛛\n现在在白天不会攻击玩家，除非它被玩家攻击。\n眼睛现在会发光。\n世界生成\nIndev房子\n现在由石头和木板组成。\n常规\n调试屏幕\n仅显示FPS开启时，才会显示已分配内存和可用内存。\n内存指示器现在使用§7（灰色）颜色代码来显示。\n修复\n修复了2个漏洞\n台阶不再导致光照问题。\n地狱主题世界不再一开始完全明亮，之后逐渐变暗。\n参考\nThat was a lot of work, but it should behave better now（存档） — The Word of Notch，2010年2月13日。\n导航"
+}

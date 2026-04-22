@@ -1,0 +1,168 @@
+{
+  "title": "基岩版1.21.40.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.40.22",
+  "structured_content": {
+    "默认分类": [
+      "1.21.40.22"
+    ],
+    "服务端版本": [
+      "1.21.40.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952104022（armeabi-v7a，34）",
+      "962104022（x86，34）",
+      "972104022（arm64-v8a，34）",
+      "982104022（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年9月18日"
+    ],
+    "测试版归属": [
+      "1.21.40"
+    ],
+    "协议版本": [
+      "747",
+      "◄◄1.21.31",
+      "1.21.41►►",
+      "◄1.21.40.21",
+      "1.21.40.23►",
+      "beta 1.21.40.22（ChromeOS/Android）、Preview 1.21.40.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.40的第3个测试版，发布于2024年9月18日，在实验性玩法中加入了收纳袋的染色变种，并修复了一些漏洞。"
+    ],
+    "磁石指针": [
+      "现在可以堆叠至64个。"
+    ],
+    "生物": [
+      "旋风人站在蜂蜜块上时不再能够跳向玩家。（MCPE-176991）",
+      "现在由下界传送门生成的僵尸猪灵会有15秒的使用传送门的冷却时间。",
+      "跳跃提升现在能够提升旋风人的跳跃高度。（MCPE-176922）",
+      "修复了矿车会错误停下，然后只能朝一个方向推动的问题。（MCPE-185643）"
+    ],
+    "蝙蝠": [
+      "更改了生成规则：",
+      "蝙蝠现在可以在被方块遮挡且满足亮度要求的任意高度处生成。",
+      "因此，蝙蝠现在可能碰巧会在地表上生成。",
+      "蝙蝠现在必须生成在石头、花岗岩、闪长岩、安山岩、凝灰岩或深板岩上。",
+      "每群生成数量由2只增加至8只，以匹配Java版。",
+      "由于环境生物的种群控制上限为2，实际上仍然最多生成2只。"
+    ],
+    "Realms": [
+      "加入了一个新的Realm事件。"
+    ],
+    "API": [
+      "修复了entityRemove世界事件有时无法触发的一些问题。",
+      "将getRedstonePower由beta移动至1.15.0。",
+      "将PlayerInteractWithBlockBeforeEvent和​PlayerInteractWithBlockAfterEvent由beta移动至1.15.0。",
+      "将PlayerInteractWithEntityBeforeEvent和​PlayerInteractWithEntityAfterEvent由beta移动至1.15.0。",
+      "加入了PlatformType枚举。",
+      "用于导出PlatformType { Console = 'Console', Desktop = 'Desktop', Mobile = 'Mobile', }。"
+    ],
+    "方块": [
+      "更新了拼图方块。",
+      "修复了按下“完成”时不会保存方块数据的问题。（MCPE-181405）",
+      "更新了拼图方块UI。",
+      "加入了“选择优先级”和“放置优先级”选项。",
+      "修复了旧版方块ID会错误覆盖来自format_version为1.21.20或更高版本的blocks.json的新版方块ID数据的漏洞。（MCPE-186255）",
+      "更新了行为包的颜色配方文件中对旧方块名称的引用。",
+      "更新了行为包的地物文件中对旧方块名称的引用。",
+      "更新了生物群系定义文件中对旧方块名称的引用。"
+    ],
+    "相机视角": [
+      "minecraft:follow_orbit预设不再需要开启实验性选项。",
+      "加入了相机视角相对运动，需要开启“新的第三人称预设”实验性选项。",
+      "相机视角相对运动对任何继承自minecraft:follow_orbit以及将align_camera_and_target_forward设置为false的相机视角启用。"
+    ],
+    "组件": [
+      "将minecraft:redstone_conductivity组件从format_version为1.21.30及更高版本的即将推出的创作者功能实验性内容中移出。"
+    ],
+    "实体组件": [
+      "behavior.jump_around_target不再可以被站在蜂蜜块上生物使用。（MCPE-176991）",
+      "跳跃提升现在能够提升实体在使用behavior.jump_around_target时的跳跃高度。（MCPE-176922）",
+      "风弹现在使用minecraft:explode组件，而不是minecraft:wind_burst。",
+      "扩展了minecraft:explode，加入了下列字段：",
+      "damage_scaling：应用于对实体造成的爆炸伤害的比例系数。",
+      "值为0时会阻止爆炸造成伤害。",
+      "负值会导致爆炸治疗实体。",
+      "toggles_blocks：若为true，则爆炸会转换爆炸半径内的方块。",
+      "knockback_scaling：应用于爆炸造成的击退力的比例系数。",
+      "particle_effect：所使用的粒子效果的名称。",
+      "可接受的字符串为wind_burst或breeze_wind_burst。",
+      "所有其他输入值均会使用默认的爆炸粒子。",
+      "sound_effect：触发爆炸时所播放的音效的名称。",
+      "negates_fall_damage：定义爆炸是否应该为玩家应用摔落伤害免疫。",
+      "allow_underwater：若为true，则爆炸会影响水下的方块和实体。"
+    ],
+    "图形": [
+      "自游戏基版本1.21.40起，内置的biomes_client.json文件将不再加载。",
+      "其他包中的该文件仍会继续加载。",
+      "水和迷雾设置现在位于资源包中的单个client_biome.json文件中。",
+      "当biomes_client.json和单个client_biome.json文件指定了相互冲突的值时，加载自创作者内容的biomes_client.json会有优先级。",
+      "更新了延迟渲染预览功能资源包的一些JSON模式。创作者必须将包更新为新格式。",
+      "将lighting/global.json的内容拆分为3个文件：lighting/global.json、point_lights/global.json和pbr/global.json。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“同捆包”、“即将推出的创作者功能”、“测试版 API”、“创作者相机：新的第三人称预设”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "收纳袋": [
+      "加入了16种染色的收纳袋。",
+      "与潜影盒不同，装有水的炼药锅无法洗去染色收纳袋上的颜色。"
+    ],
+    "附加包和脚本引擎": [
+      "为使用minecraft:block_placer物品组件的自定义物品加入了使用所引用的block作为物品图标的支持。",
+      "若已指定minecraft:icon组件，则会覆盖block图标。",
+      "需要开启“即将推出的创作者功能”选项。必须使用1.21.40或更高版本的物品JSON格式版本。"
+    ],
+    "ScriptClientSystemInfo类": [
+      "加入了platformType字段。",
+      "加入了maxRenderDistance字段。"
+    ],
+    "json": [
+      "{\"minecraft:lighting_settings\":{\"format_version\":\"1.21.40\",\"description\":{\"identifier\":字符串},\"directional_lights\":{\"sun\":{\"illuminance\":浮点数,\"color\":RGB颜色},\"moon\":{\"illuminance\":浮点数,\"color\":RGB颜色},\"orbital_offset_degrees\":浮点数},\"emissive\":{\"desaturation\":浮点数}}}",
+      "{\"minecraft:point_light_settings\":{\"format_version\":\"1.21.40\",\"colors\":{\"minecraft:block_name\":RGB颜色,...}}}",
+      "{\"minecraft:pbr_fallback_settings\":{\"format_version\":\"1.21.40\",\"blocks\":{\"global_metalness_emissive_roughness_subsurface\":RGBA颜色},\"actors\":{\"global_metalness_emissive_roughness_subsurface\":RGBA颜色},\"particles\":{\"global_metalness_emissive_roughness_subsurface\":RGBA颜色},\"items\":{\"global_metalness_emissive_roughness_subsurface\":RGBA颜色}}}",
+      "分别包含定向光照与自发光去饱和度、点光源颜色以及MERS回滚。",
+      "lighting/global.json的模式现在被包裹在新的minecraft:lighting_settings中，并且需要带有identifier字符串的description对象作为设置的唯一名称。",
+      "format_version字段也被修改为需要字符串而非整数数组，并且必须使用1.21.40版本。",
+      "将大气散射文件的文件路径迁移至atmospherics/atmospherics.json。",
+      "atmospherics/atmospherics.json的模式现在被包裹在新的minecraft:atmosphere_settings中，并且需要带有identifier字符串的description对象作为设置的唯一名称。",
+      "{\"minecraft:atmosphere_settings\":{\"format_version\":\"1.21.40\",\"description\":{\"identifier\":字符串},...}}",
+      "同时需要format_version字符串，必须为1.21.40版本。",
+      "color_grading/color_grading.json的模式现在需要format_version字符串，必须为1.21.40版本。",
+      "{\"minecraft:color_grading_settings\":{\"format_version\":\"1.21.40\",\"description\":{\"identifier\":字符串},...}}",
+      "water/water.json的模式现在需要format_version字符串，必须为1.21.40版本。",
+      "{\"minecraft:water_settings\":{\"format_version\":\"1.21.40\",\"description\":{\"identifier\":字符串},...}}"
+    ],
+    "Molang": [
+      "加入了query.client_max_render_distance。",
+      "返回当前客户端的区块中的最大渲染距离。",
+      "仅在客户端（资源包）上可用。"
+    ],
+    "Android": [
+      "修复了在部分游戏手柄上使用模拟触发器时会触发两次操作的问题。（MCPE-175113）"
+    ],
+    "游戏内容": [
+      "现在被重锤猛击杀死的玩家会收到正确的死亡消息。（MCPE-185952）",
+      "修复了玩家可能无法正确重生的问题。（MCPE-186324）",
+      "TNT爆炸不再会重置其他下落的被激活的TNT的动量。这应该会修复TNT大炮出现的任何问题。（MCPE-181055）"
+    ],
+    "用户界面": [
+      "现在单击以破坏会在创造模式下使用摇杆/十字准星控制时生效，而不会导致方块出错。（MCPE-181789）",
+      "修复了Realms邀请链接可能会溢出其文本框的漏洞。",
+      "在配方屏幕中放入相同物品时，物品不再会卡在合成方格中。（MCPE-73593）",
+      "修复了实验性睡觉屏幕在某些情况下无法被完整复述的问题（仅测试版本）。",
+      "修复了实验性睡觉屏幕在禁用屏幕动画时会缺失覆盖层的问题（仅测试版本）。（MCPE-184090）",
+      "现在使用游戏手柄选择收纳袋时，从收纳袋中拿出物品功能会优先于清理快捷栏功能。（MCPE-186359）",
+      "除非配方书搜索屏幕实际可见，否则物品栏屏幕不再会在提示框中显示物品分类。（MCPE-128464）",
+      "在开启交换潜行和跳跃选项而使用触摸控制的情况下，潜行按钮不再会在玩家触摸靠近其时消失。（MCPE-159557）"
+    ],
+    "原版趋同": [
+      "现在相同的磁石指针最多可以堆叠至64个，以匹配Java版。（MCPE-109595）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.40.22 — Minecraft Feedback，2024年9月18日。",
+      "Minecraft Preview 1.21.40.22 — Minecraft.net，2024年9月18日。",
+      "MCPE-186687",
+      "MCPE-186686 — 漏洞状态为“无效”。"
+    ]
+  }
+}

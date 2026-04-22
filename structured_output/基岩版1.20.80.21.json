@@ -1,0 +1,191 @@
+{
+  "title": "基岩版1.20.80.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.80.21",
+  "structured_content": {
+    "默认分类": [
+      "1.20.80.21"
+    ],
+    "服务端版本": [
+      "1.20.80.21"
+    ],
+    "版本码": [
+      "Android：",
+      "952008021（armeabi-v7a，34）",
+      "962008021（x86，34）",
+      "972008021（arm64-v8a，34）",
+      "982008021（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年3月6日"
+    ],
+    "测试版归属": [
+      "1.20.80"
+    ],
+    "协议版本": [
+      "665",
+      "◄◄1.20.73",
+      "1.20.81►►",
+      "◄1.20.80.20",
+      "1.20.80.22►",
+      "beta 1.20.80.21（ChromeOS/Android）、Preview 1.20.80.21（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.20.80的第2个测试版，发布于2024年3月6日，加入了狼的新变种，更新了服务器列表UI，并修复了一些漏洞。"
+    ],
+    "生物": [
+      "狼现在会正确地跳跃攻击目标。（MCPE-19740）",
+      "兔子现在拥有比之前版本的更高概率生成于雪林。",
+      "狐狸现在拥有比之前版本的更低概率生成于雪林。"
+    ],
+    "狼": [
+      "加入了狼的多个变种，生成的变种取决于其自然生成时所处的生物群系，或是繁殖生成时其双亲所属的变种。",
+      "苍狼，即使用先前纹理的狼，在针叶林中以4只为一群生成。",
+      "森林狼，在森林中以4只为一群生成。",
+      "灰狼，在积雪针叶林中以4只为一群生成。",
+      "黑狼，在原始松木针叶林中以2-4只为一群生成。",
+      "栗色狼，在原始云杉针叶林中以2-4只为一群生成。",
+      "赭红狼，在稀疏丛林中以2-4只为一群生成。",
+      "斑点狼，在热带高原中以4-8只为一群生成。",
+      "条纹狼，在疏林恶地中以4-8只为一群生成。",
+      "雪狼，在雪林中罕见地生成一只。",
+      "在除以上的其他生物群系使用刷怪蛋及命令生成的狼均为苍狼。",
+      "降低了生成于雪林的概率。",
+      "现在可以在砂土上生成。",
+      "现在会生成于稀疏丛林、热带高原和疏林恶地生物群系中。",
+      "现在会像蜘蛛一样跳跃攻击。"
+    ],
+    "客户端请求占位符方块": [
+      "更改了物品纹理。",
+      "数据更新方块、reserved6和未知方块",
+      "更改了纹理。"
+    ],
+    "狐狸": [
+      "降低了生成于雪林的概率。"
+    ],
+    "兔子": [
+      "提高了生成于雪林的概率。"
+    ],
+    "服务器列表": [
+      "更新了UI。",
+      "精选服务器现在会显示服务器活动和新闻。",
+      "现在拥有新的观感。"
+    ],
+    "API": [
+      "暂时移除了方块自定义组件。",
+      "动态导入（如import(\"/my-module.js\")）现在再次具有功能。",
+      "BlockTypes现在会为扁平化或已重构的方块名称返回有效值。"
+    ],
+    "EntityMountTamingComponent": [
+      "将EntityMountTamingComponent重命名为EntityTameMountComponent。",
+      "将setTamed重命名为tame。",
+      "将BlockComponentTypes由beta开放至1.10.0。",
+      "将EntityComponentTypes由beta开放至1.10.0。",
+      "将ItemComponentTypes由beta开放至1.10.0。"
+    ],
+    "基岩版编辑器": [
+      "加入了“重载”按钮，用于在Ore UI出现错误时重载UI。",
+      "将线条工具栏图标更新为正确的设计图标。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“即将推出的创作者功能”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "沼骸": [
+      "更新了模型和纹理。",
+      "现在可对其使用剪刀剪下2个蘑菇（红色和棕色蘑菇均有可能）。"
+    ],
+    "风弹": [
+      "将造成的伤害减少至1（）。",
+      "发射的风弹现在会居中生成。",
+      "调整了击退效果和爆炸威力以匹配Java版。（MCPE-178892）",
+      "玩家发射的风弹现在会造成与旋风人发射的风弹相同的伤害。（MCPE-178903）",
+      "不再会在被投掷时短暂地遮挡玩家视野。（MCPE-178890、MCPE-178896）",
+      "现在被投掷时会对潜行的玩家造成额外的击退效果。（MCPE-178897）",
+      "现在被垂直投掷时会以十字准星为中心进行水平居中。（MCPE-178886）"
+    ],
+    "试炼密室": [
+      "生成时不再会穿过维度的边缘。（MCPE-176919）"
+    ],
+    "/hud": [
+      "加入了新的可用HUD元素：item_text和​status_effects。",
+      "healthHUD元素现在包含伤害吸收生命值。"
+    ],
+    "图形": [
+      "降低了开启延迟渲染预览功能后的饱和度。",
+      "修复了开启延迟渲染预览功能后打开点光源阴影时发生的崩溃。",
+      "现在开启“隐藏手”选项后，拴绳物品会正确渲染。"
+    ],
+    "EntityQueryOptions": [
+      "加入了propertyOptions?: EntityQueryPropertyOptions[];字段。"
+    ],
+    "EntityQueryPropertyOptions": [
+      "加入了exclude字段。",
+      "排除propertyId。",
+      "加入了propertyId字段。",
+      "属性ID。",
+      "加入了value字段。",
+      "目标值或对比。"
+    ],
+    "EqualsComparison": [
+      "加入了equals。"
+    ],
+    "GreaterThanComparison": [
+      "加入了greaterThan。"
+    ],
+    "GreaterThanOrEqualsComparison": [
+      "加入了greaterThanOrEquals。"
+    ],
+    "LessThanComparison": [
+      "加入了lessThan。"
+    ],
+    "LessThanOrEqualsComparison": [
+      "加入了lessThanOrEquals。"
+    ],
+    "NotEqualsComparison": [
+      "加入了notEquals。"
+    ],
+    "RangeComparison": [
+      "加入了lowerBound和​upperBound。",
+      "将worldInitialize由beta移动至1.10.0。",
+      "将EntityProjectileComponent由beta移动至1.10.0。",
+      "移除了旧的Vector。",
+      "可使用@minecraft/math中的Vector3Utils作为替代。"
+    ],
+    "ModalFormData": [
+      "加入了submitButton方法。",
+      "用于设置表单的提交按钮的文本。"
+    ],
+    "StructureAPI": [
+      "加入了setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, waterlogged?: boolean): void函数。",
+      "设置结构内指定位置的方块排列。",
+      "加入了saveToWorld(): void函数。",
+      "将结构保持为更广阔的世界存储的一部分。",
+      "加入了saveAs(identifier: string, saveMode?: StructureSaveMode): Structure函数。",
+      "使用新的标识符保存结构的副本。"
+    ],
+    "EntityHitBlockAfterEvent": [
+      "为beta加入了hitBlockPermutation属性。"
+    ],
+    "游戏内容": [
+      "现在铁桶放置液体后再次可以立即收集液体。（MCPE-176634）",
+      "修复了访客玩家不能给自定义盔甲添加纹饰的漏洞。（MCPE-170317）"
+    ],
+    "Realms": [
+      "修复了玩家可能会在选择故事的过程中卡死的问题。",
+      "现在未选择Realms故事的玩家的头像在所有的故事界面上均会显示为灰色。",
+      "现在玩家发布新故事后会跳转到第一个故事页面。",
+      "现在玩家在发布故事前退出“添加故事”页面时，所选的截图会与故事草稿一同保存下来。",
+      "加宽了点赞、评论或选项按钮以适应单词长度较长的语言。",
+      "修复了用户输入的文本超出文本框时，用户无法看见自己所输入的内容的问题。"
+    ],
+    "结构": [
+      "古迹废墟现在会在32位设备上正确生成。（MCPE-178549）",
+      "试炼密室现在会在32位设备上正确生成。（MCPE-178885）"
+    ],
+    "用户界面": [
+      "修复了无解锁条件的配方不会显示在配方书中的漏洞。",
+      "现在触控设备上的转移物品动画会渲染在静止的物品上方。",
+      "修复了实际上正在进行登录时，“登录中…”文本可能不会显示在主菜单上的问题。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.80.21 — Minecraft Feedback，2024年3月6日。",
+      "Minecraft Preview 1.20.80.21 — Minecraft.net，2024年3月6日。"
+    ]
+  }
+}

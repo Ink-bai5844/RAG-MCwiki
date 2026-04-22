@@ -1,0 +1,5 @@
+{
+  "title": "泥土/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B3%A5%E5%9C%9F%2FDV",
+  "text": "位\n描述\n0x1\n该位储存泥土类型：\n0：泥土\n1：砂土\n0x2\n0x4\n0x8\n（未使用）"
+}

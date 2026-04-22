@@ -1,0 +1,35 @@
+{
+  "title": "PlayStation 4版1.93",
+  "source_url": "https://zh.minecraft.wiki/w/PlayStation_4%E7%89%881.93",
+  "structured_content": {
+    "默认分类": [
+      "1.93"
+    ],
+    "版本": [
+      "PlayStation 4版"
+    ],
+    "发布时间": [
+      "2019年6月25日",
+      "◄1.92",
+      "1.94►",
+      "1.93是PlayStation 4版的一个更新，发布于2019年6月25日，修复了一些漏洞。"
+    ],
+    "混搭包": [
+      "加入了《玩具总动员》混搭包。"
+    ],
+    "修复": [
+      "修复了8个漏洞",
+      "修复了在村庄附近时发生的崩溃。",
+      "修复了当玩家从下界进入主世界时发生的崩溃。",
+      "修复了村民在保存/补货后有概率改变交易的问题。",
+      "修复了缩放地图后会给你一个远离你当前位置的地图。",
+      "修复了铁傀儡不会在加载过的村庄里生成。",
+      "修复了箱子分开作为单独箱子时发挥作用。",
+      "修复了石台阶的配方在经典合成中不正确。",
+      "修复了村民在一个玩家在末地或下界交易。"
+    ],
+    "参考": [
+      "A bug fix patch for Minecraft: PlayStation 4 Edition is rolling out now in Europe and Japan, and later today in North America. Fix list is here，来自@4JStudios。X（曾名Twitter），2019年6月25日。"
+    ]
+  }
+}

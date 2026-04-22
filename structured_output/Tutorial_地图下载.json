@@ -1,0 +1,67 @@
+{
+  "title": "Tutorial:地图下载",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%9C%B0%E5%9B%BE%E4%B8%8B%E8%BD%BD",
+  "structured_content": {
+    "默认分类": [
+      "在玩家的游戏中生成的地图（Worlds）可以被其他玩家下载并进行游玩。",
+      "地图存档的存储位置取决于其所使用的操作系统以及所分的游戏版本。在Java版中，存档通常位于.minecraft文件夹，在基岩版中，存档通常位于com.mojang文件夹。"
+    ],
+    "先决条件": [
+      "一个解压缩软件，例如Windows中的WinRAR或7-Zip以及Linux中的Archive Manager等。一些文件如.rar一般不能在没有压缩软件的情况下进行解压，而在没有压缩软件的情况下可以处理.zip文件。",
+      "如果你要安装的地图文件的后缀名是.mcworld，则不用进行解压操作，直接进行导入。"
+    ],
+    "你可以从Minecraft资源分享网站上下载发布的地图，或是你朋友分享给你的地图.": [
+      "参见：Tutorial:自定义地图 § 分享地图",
+      "对于基岩版，你可以在MC社区应用中寻找地图或在商店中购买地图。",
+      "注意事项：欲导入的地图最好与你的游戏版本号匹配，以避免因版本不匹配导致的地图文件损坏或异常显示。"
+    ],
+    "解压地图": [
+      "如果你下载的地图是一个压缩文件（如.zip、.rar或.7z文件），则需要执行此步骤。",
+      "打开压缩文件进行检查。",
+      "如果看见一个名为level.dat的文件，你就可以直接进行解压。",
+      "如果没有该文件，应查看其子文件夹直到查找到level.dat，或是前往发布页面查看相关路径说明，或检查文件下载是否正确。然后解压该文件所在的文件夹。"
+    ],
+    "Java版": [
+      "完成解压步骤后，应将地图文件夹放入.minecraft中对应的文件夹里。",
+      "复制解压后的文件夹。",
+      "打开.minecraft文件夹。下面的表格显示.minecraft文件夹所在的默认目录。"
+    ],
+    "~/.minecraft": [
+      "注：一些第三方启动器默认会在同启动器所在的文件夹创建.minecraft，请以第三方启动器显示的位置为准。",
+      "对于未开启版本隔离的Minecraft游戏，在.minecraft/saves文件夹中会集中存放所有的地图。若开启了版本隔离，在.minecraft/versions/<目标导入版本>/saves文件夹中会存放该版本的地图。",
+      "粘贴文件夹（Ctrl + V或⌘ Cmd + V）到saves文件夹中。",
+      "启动游戏，你现在能在选择世界菜单中找到你的地图了。复制的地图文件夹的名称在地图名字下方，可以辅助你寻找导入的地图。"
+    ],
+    "自动导入地图": [
+      "如果你下载的是.mcworld文件，则可以直接打开文件进行导入。打开该地图文件（可能要弹窗询问文件打开方式或是手动选择打开方式，选择“用Minecraft打开”），游戏将自动导入地图。待提示导入完成后，你的世界就会出现在选择世界菜单中了。",
+      "你也可以把下载的压缩文件的后缀名更改为.mcworld，这样就可以用上面的方法导入地图了。如果导入失败，请把文件改回之前的后缀名，先解压地图，再手动导入地图。"
+    ],
+    "手动导入地图": [
+      "复制解压后的文件夹。",
+      "打开com.mojang/minecraftWorlds文件夹。下面的表格展示了com.mojang文件夹的默认位置。"
+    ],
+    "Windows，正式版": [
+      "独立内容：%APPDATA%\\Minecraft Bedrock\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock\\Users\\Shared\\games\\com.mojang"
+    ],
+    "Windows，Minecraft Preview": [
+      "独立内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\Shared\\games\\com.mojang",
+      "Minecraft给用户分配的用户ID，区分不同的微软账户与离线账户。"
+    ],
+    "Android和Fire OS": [
+      "应用程序：/data/user/<Android用户ID>/com.mojang.minecraftpe/games/com.mojang",
+      "外部：/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftpe/files/games/com.mojang",
+      "Android系统给用户分配的用户ID，一般情况下设备拥有者的用户ID为0。"
+    ],
+    "我的iPhone/Minecraft/games/com.mojang": [
+      "粘贴文件夹到minecraftWorlds文件夹中。",
+      "文件粘贴在正确的位置后，启动游戏，你现在能在选择世界菜单中找到你的地图了。"
+    ],
+    "参考": [
+      "Transfer Your World to Another Device in Minecraft: Bedrock Edition — help.minecraft.net。",
+      "I Can’t Find my Minecraft World on Android — help.minecraft.net。",
+      "How to Locate Minecraft World Files on Mobile — help.minecraft.net。"
+    ]
+  }
+}

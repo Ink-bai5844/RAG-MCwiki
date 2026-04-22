@@ -1,0 +1,27 @@
+{
+  "title": "启动器1.6.13",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.6.13",
+  "structured_content": {
+    "默认分类": [
+      "此页面还需添加更多图像。",
+      "请在添加后将此信息移除。",
+      "1.6.13"
+    ],
+    "发布时间": [
+      "2015年7月1日"
+    ],
+    "Launcher.jar": [
+      "◄◄1.6.3",
+      "2.0.700►►",
+      "◄1.6.12",
+      "1.6.19►",
+      "1.6.13是发布于2015年7月1日的一个启动器小更新。"
+    ],
+    "更改": [
+      "启动器会在游戏目录中创建“server-resource-packs”文件夹。"
+    ],
+    "修复": [
+      "MCL-3732 - 服务器资源包没有下载：“Internal Exception: java.lang.IllegalArgumentException: Parameter 'directory' is not a directory”。"
+    ]
+  }
+}

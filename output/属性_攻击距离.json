@@ -1,0 +1,5 @@
+{
+  "title": "属性/攻击距离",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%94%BB%E5%87%BB%E8%B7%9D%E7%A6%BB",
+  "text": "此条目记述的内容是一个分支版本Combat Test的内容。\n此条目所述的内容并不适用于Minecraft的正式版本，且已被无限期搁置。\n请注意：该特性的本地化名称由本wiki自行确定，原版游戏内的相关内容显示为英文。\n攻击距离\n默认值\n3\n值域\n0 – 6\n属性ID\ngeneric.attackReach\n攻击距离（Attack Reach）是控制玩家可以近战攻击实体的最远距离的属性。\n此属性在Java版的主分支上已被实现为实体交互距离属性（entity_interaction_range）。\n行为\n此属性的计算值代表了玩家可以近战攻击实体的最远距离。此距离并非玩家到实体的最近距离，而是玩家的眼部位置到指定实体的碰撞箱底面中心点的距离。\n适用的生物\n生物\n基值\n玩家\n3\n已知修饰符\n修饰符UUID\n操作\n值\n数据持久化\n来源\n26cb07a3-209d-4110-8e10-1010243614c8\nadd_value（Op0）\n0.5\n否\n剑，应用于mainhand（主手）槽位\n26cb07a3-209d-4110-8e10-1010243614c8\nadd_value（Op0）\n1\n否\n锄、三叉戟，应用于mainhand（主手）槽位\n历史\nJava版\nCombat Test\n1.14.3 - Combat Test\n加入了攻击距离，ID为generic.attackReach。\n导航"
+}

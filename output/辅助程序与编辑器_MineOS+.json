@@ -1,0 +1,5 @@
+{
+  "title": "辅助程序与编辑器/MineOS+",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2FMineOS%2B",
+  "text": "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。\n辅助程序与编辑器\n作者\nPhant0mX、Nickjf20\n平台\n编写于\nPython、PHP\n最新版本\n0.4.6\n发布日期\n2012年6月30日\n大小\n103MB\n版权\nGNU GPL 3.0\n源代码\n是\n兼容\n1.4.6\n链接\n网站社区\n说明\n一个服务Minecraft的完整操作系统。\nMineOS+是一款专注于减少Minecraft运行环境人工配置的Linux发行版，在增加功能的同时，保留了Minecraft所有的定制性和功能。它主要设计用于虚拟环境（如Virtualbox/VMWare），不过也可作为本地操作系统安装在电脑上。它是Tiny Core Linux项目“microcore”的分支。\n安装\n如何安装MineOS+\n下载官方服务器ISO，并按照主页的指示进行安装。\n配置\n如何自定义MineOS+\n社区制作了大量教程，帮助用户完成导入世界、使用虚拟硬盘、减轻服务器负载等常见操作。此外，MineOS+与其他发行版一样可修改，关于添加MineOS+组件的准确信息，详见tinycorelinux网站。\nMineOS+特点\n连通性和安全性\nMineOS+使用SSH及基于SSH的SCP（类FTP文件服务器），确保能安全、可控地访问服务器文件，通过SCP浏览器（如WinSCP和Filezilla）可轻松编辑和更新文件。\n它采用IP表进行防火墙保护，仅开放安全所需端口，如22（SSH）、80（向最终用户生成地图）、8080（网络管理员）和25565（Minecraft），这些端口可按需修改。\n链接\nMineOS+网站\nMineOS+社区\nMineOS+ Wiki"
+}

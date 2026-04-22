@@ -1,0 +1,48 @@
+{
+  "title": "命令/controlscheme",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fcontrolscheme",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "修改相机预设的控制方案。",
+      "此命令需与/camera命令一同使用。"
+    ],
+    "语法": [
+      "controlscheme <players: target> clear",
+      "清除控制方案。",
+      "controlscheme <players: target> set <control scheme: controlscheme>",
+      "设定控制方案。"
+    ],
+    "参数": [
+      "players: target：CommandSelector<Player>",
+      "指定要被修改控制方案的玩家。",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "control scheme: controlscheme：Enum",
+      "指定控制方案。",
+      "必须为字符串，且必须为单个词。必须为以下其中之一："
+    ],
+    "基岩版": [
+      "1.21.80"
+    ],
+    "无法解析": [
+      "players: target未能选中一个或多个在线玩家"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "创建者照相机的实验性功能": [
+      "1.21.80.27",
+      "加入了/controlscheme命令。",
+      "1.21.90",
+      "1.21.90.23",
+      "/controlscheme命令不再属于实验性玩法。",
+      "1.21.90.26",
+      "camera_relative_strafe控制方案不再属于实验性玩法。"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "title": "音乐唱片mall",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9F%B3%E4%B9%90%E5%94%B1%E7%89%87mall",
+  "structured_content": {
+    "音乐唱片": [
+      "C418 - mall"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "music_disc_mall": [
+      "mall是一张音乐唱片，可用于播放由C418创作的同名曲目。"
+    ],
+    "苦力怕": [
+      "苦力怕被骷髅、流浪者、沼骸、凋灵骷髅[仅Java版]或焦骸杀死后有概率额外掉落一张音乐唱片mall。"
+    ],
+    "音乐": [
+      "主条目：音乐唱片 § 音乐"
+    ],
+    "作者": [
+      "C418"
+    ],
+    "发行时间": [
+      "2013年11月9日"
+    ],
+    "时长": [
+      "03:18"
+    ],
+    "Minecraft - Volume Beta": [
+      "No.27"
+    ],
+    "Blocks ►": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "Mall是一首宁静的音乐，由卡林巴琴与其他乐器演奏，游戏内时长为3分17秒。"
+    ],
+    "红石": [
+      "主条目：音乐唱片 § 红石",
+      "音乐唱片mall放于唱片机中可使红石比较器输出强度为6的信号。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "无": [
+      "MC-91042",
+      "基岩版："
+    ],
+    "music_disc.mall": [
+      "基岩版："
+    ],
+    "record.mall": [
+      "0.5",
+      "1.0",
+      "64.0"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:jukebox_playable：（命名空间ID）唱片机曲目。此组件存在时物品可插进唱片机中播放。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:mall\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_mall\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_mall\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Sound of Music": [
+      "用唱片机的音乐声为草甸增添生机。",
+      "将任意一张音乐唱片放入位于草甸生物群系的唱片机中。",
+      "10G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "甜蜜的梦": [
+      "将任意一张音乐唱片放入位于草甸生物群系的唱片机中。"
+    ],
+    "?": [
+      "加入了\"mall.ogg\"。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre2",
+      "加入了音乐唱片mall。",
+      "1.1",
+      "11w50a",
+      "音乐唱片mall现在有概率在苦力怕被骷髅杀死时掉落。",
+      "1.4.2",
+      "12w36a",
+      "音乐唱片mall现在还会在苦力怕被凋灵骷髅杀死时掉落。",
+      "1.5",
+      "13w04a",
+      "现在将音乐唱片mall放于唱片机中可使红石比较器输出强度为6的信号。",
+      "1.13",
+      "17w47a",
+      "ID由record_mall改为music_disc_mall。",
+      "在扁平化之前，此物品的数字ID为2261。",
+      "1.14",
+      "18w43a",
+      "音乐唱片mall现在还会在苦力怕被流浪者杀死时掉落。",
+      "1.20.5"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "24w07a",
+      "音乐唱片mall现在还会在苦力怕被沼骸杀死时掉落。",
+      "1.21",
+      "24w18a",
+      "24w07a中的变更不再属于实验性内容。",
+      "1.21.2",
+      "24w33a",
+      "音乐唱片mall的稀有度由稀有更改为少见。",
+      "1.21.11",
+      "25w44a",
+      "音乐唱片mall现在还会在苦力怕被焦骸杀死时掉落。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了音乐唱片mall。",
+      "1.10.0",
+      "1.10.0.3",
+      "音乐唱片mall现在还会在苦力怕被流浪者杀死时掉落。",
+      "1.16.100",
+      "1.16.100.56",
+      "ID由record_mall改为music_disc_mall。",
+      "1.21.30",
+      "1.21.30.21",
+      "音乐唱片mall的稀有度由稀有更改为少见。",
+      "1.21.40",
+      "1.21.40.20",
+      "音乐唱片mall现在还会在苦力怕被沼骸杀死时掉落。",
+      "1.21.130",
+      "1.21.130.26",
+      "音乐唱片mall现在还会在苦力怕被焦骸杀死时掉落。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU5",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了音乐唱片mall。",
+      "TU5",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了音乐唱片mall。"
+    ]
+  }
+}

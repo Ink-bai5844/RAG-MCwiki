@@ -1,0 +1,137 @@
+{
+  "title": "基岩版1.20.30.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.30.24",
+  "structured_content": {
+    "默认分类": [
+      "1.20.30.24"
+    ],
+    "服务端版本": [
+      "1.20.30.24"
+    ],
+    "版本码": [
+      "Android：",
+      "952003024（armeabi-v7a，33）",
+      "962003024（x86，33）",
+      "972003024（arm64-v8a，33）",
+      "982003024（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年8月23日"
+    ],
+    "测试版归属": [
+      "1.20.30"
+    ],
+    "协议版本": [
+      "617",
+      "◄◄1.20.15",
+      "1.20.31►►",
+      "◄1.20.30.23",
+      "1.20.30.25►",
+      "beta 1.20.30.24（ChromeOS/Android）、Preview 1.20.30.24（Xbox/Windows/iOS/iPadOS）是基岩版1.20.30的第9个测试版，发布于2023年8月23日，修复了一些漏洞。"
+    ],
+    "生物": [
+      "为minecraft:behavior.melee_attack组件公开了新的数据参数can_spread_on_fire，以指定着火的生物在攻击时能否将目标设置为着火状态。（MCPE-77746）",
+      "现在溺尸、尸壳、僵尸和僵尸村民在着火时攻击会使攻击目标着火。（MCPE-77746）"
+    ],
+    "骆驼和嗅探兽": [
+      "现在可以被气球拴住。"
+    ],
+    "溺尸、尸壳、僵尸和僵尸村民": [
+      "现在在着火时攻击会使攻击目标着火。"
+    ],
+    "游戏内容": [
+      "同一刻内发送的/camera命令不再会被忽略。（MCPE-173524）",
+      "与其他仍然可见的玩家一同潜行时，玩家名称不再会完全不可见。（MCPE-168789）"
+    ],
+    "声音": [
+      "加入了玩家进入或离开水中的音效。"
+    ],
+    "API": [
+      "将scoreboardIdentity更改为即使实体被杀死后也会有效。"
+    ],
+    "物品": [
+      "修复了最新格式版本中的物品的内容日志错误会因其他物品而出现的问题。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "世界事件": [
+      "将BlockBreakAfterEvent重命名为PlayerBreakBlockAfterEvent。",
+      "加入了readonly itemStackAfterBreak?: ItemStack (undefined if empty hand)事件。",
+      "加入了readonly itemStackBeforeBreak?: ItemStack (undefined if empty hand)事件。",
+      "将BlockBreakAfterEventSignal重命名为PlayerBreakBlockAfterEventSignal。",
+      "subscribe函数现在选用options?: BlockEventOptions。",
+      "加入了PlayerBreakBlockBeforeEvent，包含下列成员。",
+      "cancel: boolean",
+      "取消事件发生。",
+      "itemStack?: ItemStack",
+      "玩家使用的物品堆叠（若空手则为未定义）。",
+      "readonly player: Player",
+      "玩家破坏方块。",
+      "加入了PlayerBreakBlockBeforeEventSignal。",
+      "将BlockPlaceAfterEvent重命名为PlayerPlaceBlockAfterEvent。",
+      "将Renamed BlockPlaceAfterEventSignal重命名为PlayerPlaceBlockAfterEventSignal。",
+      "subscribe函数现在选用options?: BlockEventOptions。",
+      "加入了PlayerPlaceBlockBeforeEvent，包含下列成员。",
+      "cancel: boolean",
+      "取消事件发生。",
+      "readonly face: Direction",
+      "方块所放置在的面。",
+      "readonly faceLocation: Vector3",
+      "方块所放置在的面上的位置。",
+      "itemStack: ItemStack",
+      "用于放置方块的物品堆叠。",
+      "readonly player: Player",
+      "放置方块的玩家。",
+      "加入了PlayerPlaceBlockBeforeEventSignal。",
+      "修改了WorldAfterEvents。",
+      "将blockBreak重命名为playerBreakBlock。",
+      "将Renamed blockPlace重命名为playerPlaceBlock。",
+      "修改了WorldBeforeEvents。",
+      "加入了playerBreakBlock。",
+      "加入了playerPlaceBlock。",
+      "加入了BlockEventOptions，包含下列成员。",
+      "blockTypes?: string[]",
+      "要过滤的方块的名称。",
+      "permutations?: BlockPermutation[]",
+      "指定要过滤的方块置换。",
+      "加入了EntityLoadAfterEvent类。",
+      "新字段entity: Entity。",
+      "加入了EntityLoadAfterEventSignal类。"
+    ],
+    "EntitySpawnAfterEvent类": [
+      "加入了readonly cause: EntityInitializationCause_属性。"
+    ],
+    "WorldAfterEvents类": [
+      "加入了readonly entityLoad: EntityLoadAfterEventSignal属性。",
+      "加入了EntityInitializationCause枚举。"
+    ],
+    "图形": [
+      "在延迟渲染预览功能中使用延迟渲染或光线追踪时，禁用美丽的天空和平滑光照后不再会影响视觉效果。",
+      "现在延迟渲染预览功能中的“美丽的天空”和“平滑光照”按钮仅显示在简易图像和精致图像的图形菜单中。",
+      "在延迟渲染预览功能中移除了简易图像、精致图像和光线追踪菜单中的“光泛”选项。"
+    ],
+    "用户界面": [
+      "修复了新的游玩屏幕中的反馈按钮不会链接至反馈页面的问题。",
+      "新的死亡屏幕现在支持部分格式化代码（彩色和静态混淆）。",
+      "修复了HUD屏幕上的各种像素缩放问题。",
+      "现在游戏手柄的游戏菜单快捷方式会在新的死亡屏幕中正常运作。",
+      "加入了3个关于用户好友断开连接的错误消息，并改进了另外2个同样的错误消息。"
+    ],
+    "音频": [
+      "现在玩家进入或离开水中会播放正确的音效。（MCPE-132511）"
+    ],
+    "方块": [
+      "修复了除非玩家跳跃否则方块渲染不会更新的问题。（MCPE-173706）",
+      "绊线钩不再会在南边和西边延迟解除触发。（MCPE-174011）",
+      "现在混凝土粉末在之前版本导入的世界中拥有正确的颜色。"
+    ],
+    "教育版特性": [
+      "现在海豚被气球拴住时会正确上浮。",
+      "现在骆驼和嗅探兽可以被气球拴住。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.30.24 — Minecraft Feedback，2023年8月23日。"
+    ]
+  }
+}

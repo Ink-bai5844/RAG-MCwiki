@@ -1,0 +1,56 @@
+{
+  "title": "Dungeons:脊寒矛",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%84%8A%E5%AF%92%E7%9F%9B",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含骨寒深秋活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。"
+    ],
+    "力量": [
+      "6"
+    ],
+    "速度": [
+      "2"
+    ],
+    "攻击范围": [
+      "9"
+    ],
+    "存档ID": [
+      "Spear_Spooky2",
+      "据说这种恐怖武器的制造者与巨眼有一股亲和力，幸运的是，这种武器是他们疯狂的程度。"
+    ],
+    "——游戏内描述": [
+      "脊寒矛（Spine-Chill Spear）是Minecraft Dungeons中的近战武器。它是长矛的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "高塔": [
+      "活动："
+    ],
+    "使用": [
+      "脊寒矛有着中等攻击，低速度和高攻击范围。攻击方式与长矛无异。"
+    ],
+    "轻击": [
+      "sfx_wpn_Spear_Spooky2_HitLight"
+    ],
+    "重击": [
+      "sfx_wpn_Spear_Spooky2_HitMedium"
+    ],
+    "掉落": [
+      "sfx_wpn_Spear_Spooky2_Land"
+    ],
+    "捡起": [
+      "sfx_wpn_Spear_Spooky2_PickUp"
+    ],
+    "装备": [
+      "sfx_wpn_Spear_Spooky2_Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.16.2.0",
+      "加入了脊寒矛。",
+      "1.17.0.0",
+      "现在脊寒矛可以从高塔中获取。"
+    ]
+  }
+}

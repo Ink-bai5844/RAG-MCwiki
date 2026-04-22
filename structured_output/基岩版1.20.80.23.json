@@ -1,0 +1,182 @@
+{
+  "title": "基岩版1.20.80.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.80.23",
+  "structured_content": {
+    "默认分类": [
+      "1.20.80.23"
+    ],
+    "服务端版本": [
+      "1.20.80.23"
+    ],
+    "版本码": [
+      "Android：",
+      "952008023（armeabi-v7a，34）",
+      "962008023（x86，34）",
+      "972008023（arm64-v8a，34）",
+      "982008023（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年3月20日"
+    ],
+    "测试版归属": [
+      "1.20.80"
+    ],
+    "协议版本": [
+      "671",
+      "◄◄1.20.73",
+      "1.20.81►►",
+      "◄1.20.80.22",
+      "1.20.80.24►",
+      "beta 1.20.80.23（ChromeOS/Android）、Preview 1.20.80.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.20.80的第4个测试版，发布于2024年3月20日，更新了添加好友屏幕，在实验性玩法中加入了试炼密室地图，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "修复了使用connect?localLevelId=或connect?localWorld=执行协议启动时，主用户登录在启动世界前不会得到解决的问题。（MCL-24096）",
+      "修复了无法加载行为包中的自定义地物的漏洞。",
+      "修复了加载本地化字符串的过程中发生的崩溃。",
+      "为spawnEntity(…)函数加入了带有initialPersistence布尔字段的可选项SpawnEntityOptions。",
+      "用于支持编辑器菜单中的持久性实体。",
+      "StructureManager.place现在会以与/structure命令相同的方式放置旋转的结构。（MCPE-179447）",
+      "将getItemStack(amount?: number, withData?: boolean): ItemStack | undefined由beta移动至1.10.0。",
+      "将getItemStack(amount?: number): ItemStack | undefined由beta移动至1.10.0。",
+      "修复了玩家离开世界后长时间不使用设备时，iOS设备不会自动锁屏或进入休眠模式的问题。（MCPE-179214）"
+    ],
+    "设置": [
+      "在通用设置中加入了“帮助中心”按钮。",
+      "用于打开反馈页面。",
+      "移除了“新的“你死了”屏幕（实验性）”选项。"
+    ],
+    "方块": [
+      "在Beta API实验性内容中加入了minecraft:entity_fall_on方块组件。",
+      "在Beta API实验性内容中加入了minecraft:tick方块组件。"
+    ],
+    "失活的珊瑚扇": [
+      "IDcoral_fan_dead现在被拆分为：dead_tube_coral_fan、​dead_brain_coral_fan、​dead_bubble_coral_fan、​dead_fire_coral_fan和​dead_horn_coral_fan。",
+      "coral_fan_dead及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "花": [
+      "IDred_flower现在被拆分为：poppy、​blue_orchid、​allium、​azure_bluet、​red_tulip、​orange_tulip、​white_tulip、​pink_tulip、​oxeye_daisy、​cornflower和​lily_of_the_valley。",
+      "red_flower及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "狼": [
+      "现在于下列生物群系中使用刷怪蛋或/summon召唤的狼不再为苍狼。",
+      "丛林和竹林中召唤的狼为赭红狼。",
+      "热带草原和风袭热带草原中召唤的狼为斑点狼。",
+      "恶地和风蚀恶地中召唤的狼为条纹狼。",
+      "现在使用/summon命令召唤的狼可以被驯服。（MCPE-179414）"
+    ],
+    "/hud": [
+      "不再属于实验性玩法。"
+    ],
+    "世界编辑屏幕": [
+      "将“硬核模式[原文如此]”（Harcore）选项重命名为“极限模式”（Hardcore）。"
+    ],
+    "用户界面": [
+      "更新了添加好友屏幕。",
+      "加入了好友推荐与建议列表。",
+      "优化了搜索方式，现在输入文本时会给出部分结果。",
+      "加入了二维码和分享链接功能。",
+      "用于分享玩家的个人资料信息。",
+      "加入了“复制玩家代号”按钮。",
+      "用于将玩家名称复制到剪切板。",
+      "进入方式：",
+      "对于新版UI，点击好友抽屉式菜单中的“搜索玩家”按钮。",
+      "对于旧版UI，点击好友选项卡中的“添加好友”按钮。",
+      "现在默认使用新的死亡屏幕，且不再可以切换回旧版死亡屏幕。",
+      "修复了新的死亡屏幕在开启“Education Edition”选项后不可用的问题。（MCPE-168125）"
+    ],
+    "附加包和脚本引擎": [
+      "现在在带有minecraft:crafting_table组件的自定义方块的crafting_tags字段中使用自定义标签的方块支持自定义可解锁配方。（MCPE-175555）",
+      "同时修复了配方解锁时不会显示部分配方的漏洞。"
+    ],
+    "实体组件": [
+      "加入了minecraft:body_rotation_blocked组件。",
+      "用于阻止生物在视觉上转身以与自身朝向相匹配。",
+      "behavior.timer_flag_1、​behavior.timer_flag_2和​behavior.timer_flag_3现在会在开始和停止时正确随机化，而不是只在生成时随机化。",
+      "为EntityRideableComponent加入了passengerMaxWidth属性。",
+      "为Seat加入了seatRotation属性。"
+    ],
+    "配方": [
+      "为有序配方加入了assume_symmetry布尔属性。",
+      "允许对称的有序配方使用不同的输出方式。"
+    ],
+    "基岩版编辑器": [
+      "现在若未被锁定，鼠标悬停在工具栏上时会展开模态框工具抽屉式菜单。",
+      "更新了快速开始面板的信息。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”和“测试版 API”子选项后才可使用。"
+    ],
+    "物品": [
+      "在Beta API功能旗标下加入了minecraft:custom_components物品组件。"
+    ],
+    "探险家地图": [
+      "加入了试炼密室地图。",
+      "可与老手级制图师村民交易获得。",
+      "用于指向最近的试炼密室。"
+    ],
+    "重锤": [
+      "加入了摔落距离超过5格时的新攻击音效。"
+    ],
+    "EntityAgeableComponent": [
+      "在beta中加入了transformToItem属性。"
+    ],
+    "EntityDefinitionFeedItem": [
+      "在beta中将item属性更新为返回带有命名空间的名称。",
+      "将EntityTypeFamilyComponent由beta移动至1.10.0。",
+      "为beta加入了BlockComponentTickEvent。",
+      "加入了onTick。",
+      "为beta加入了BlockComponentEntityFallOnEvent。",
+      "加入了onEntityFallOn。",
+      "为beta加入了BlockComponentPlayerPlaceBeforeEvent。",
+      "加入了beforeOnPlayerPlace。",
+      "为beta加入了BlockComponentPlayerInteractEvent。",
+      "加入了onPlayerInteract。",
+      "为beta加入了BlockComponentPlayerDestroyEvent。",
+      "加入了onPlayerDestroy。",
+      "为beta加入了BlockComponentOnPlaceEvent。",
+      "加入了onPlace。",
+      "为beta加入了ItemComponentRegistry。",
+      "为beta加入了ItemCustomComponent。",
+      "为beta加入了ItemComponentUseEvent。",
+      "将structureManager由beta移动至1.10.0。"
+    ],
+    "结构管理器": [
+      "将createEmpty由beta移动至1.10.0。",
+      "将delete由beta移动至1.10.0。",
+      "将get由beta移动至1.10.0。",
+      "将place由beta移动至1.10.0。",
+      "将id由beta移动至1.10.0。",
+      "将getBlockPermutation由beta移动至1.10.0。",
+      "将getIsWaterlogged由beta移动至1.10.0。",
+      "将isValid由beta移动至1.10.0。",
+      "将StructureSaveMode由beta移动至1.10.0。",
+      "将StructureRotation由beta移动至1.10.0。",
+      "将StructureAnimationMode由beta移动至1.10.0。",
+      "将StructureMirrorAxis由beta移动至1.10.0。",
+      "移除了StructureReadOptions。",
+      "将StructureCreateOptions由beta移动至1.10.0。",
+      "将StructurePlaceOptions由beta移动至1.10.0。",
+      "将InvalidStructureError由beta移动至1.10.0。"
+    ],
+    "游戏内容": [
+      "现在死亡屏幕上的相机视角会切换至第三人称视角。（MCPE-179365）",
+      "在水下游泳时按住跳跃键的情况下，玩家不再会出现看似在水面上游泳实则溺水的情况。（MCPE-170969）",
+      "现在在水面或水面附近水平地（而非向上）游泳时按住跳跃键的情况下，玩家会保持位于在水面上游泳时可以呼吸的高度。（MCPE-170969）"
+    ],
+    "犰狳": [
+      "犰狳不再会在蜷缩不久后转身看向玩家。"
+    ],
+    "狼铠": [
+      "现在放置于物品展示框中的狼铠会正确渲染。（MCPE-179564）"
+    ],
+    "Realms": [
+      "分屏模式多人游戏下的访客用户不再能触发Realm事件。",
+      "修复了启用Realms故事需要重启游戏的问题（仅测试版本）。",
+      "现在最近玩过游戏的玩家会在Realms故事的“最近玩过的”部分出现。",
+      "修复了各种漏洞，并进行了多项性能更新。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.80.23 — Minecraft Feedback，2024年3月20日。"
+    ]
+  }
+}

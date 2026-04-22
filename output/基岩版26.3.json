@@ -1,0 +1,5 @@
+{
+  "title": "基岩版26.3",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.3",
+  "text": "26.3\n版本\n基岩版\n服务端版本\n1.26.3.1\n内部版本号\nAndroid：1.26.3.1\nPlayStation 4：3.33\nPlayStation 5：1.043.000\nWindows：1.26.301.0\n版本码\nAndroid：\n952600301（armeabi-v7a，35）\n962600301（x86，35）\n972600301（arm64-v8a，35）\n982600301（x86_64，35）\niOS/iPadOS：\n882876669\n发布时间\n2026年3月2日\n下载\n服务端\nWindowsLinux\n协议版本\n924\n◄◄1.21.130\n26.10►►\n◄26.2\n26.3是基岩版的一次热修复更新，发布于2026年3月2日，修复了一些漏洞。此版本与26.0至26.2相互兼容。\n修复\n修复了群骑纷争小更新中的部分物品不会被本地化的问题。这些物品现在会根据所选语言正确显示。（MCPE-235956）\n修复了加载世界或Realm时可能发生的崩溃。\n参考\nMinecraft: Bedrock Edition 26.3 Changelog — Minecraft Feedback，2026年3月2日。\n导航"
+}

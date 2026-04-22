@@ -1,0 +1,598 @@
+{
+  "title": "画",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%BB",
+  "structured_content": {
+    "创造标签页（JE）": [
+      "画（地，火，水，风）：管理员用品",
+      "画（其他）：功能方块"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "painting": [
+      "画（Painting）是可以挂在墙上的装饰性实体。"
+    ],
+    "[需要更多信息]": [
+      "minecraft:cavebird",
+      "悬崖上的一个洞穴，一只鸟在空中飞过。"
+    ],
+    "生成": [
+      "画不会生成在世界中。"
+    ],
+    "获取": [
+      "在Java版中，通过创造模式物品栏可以获取指定画作的对应物品，指定画作的提示框中会显示画作名称、作者和尺寸（详见§ 画作列表）。"
+    ],
+    "合成": [
+      "画可以使用任何颜色的羊毛合成，羊毛的颜色不影响画放置后显示的内容。"
+    ],
+    "Java版": [
+      "1.4.2",
+      "12w36a",
+      "加入了“Wither”（凋灵）画作。",
+      "画的放置有一些小错误。从1.3.2升级的几乎所有不是1×1或1×2的画都会掉落成物品，这是因为画没有得到完全的支撑。",
+      "12w40a",
+      "修复了上述漏洞。",
+      "1.8",
+      "14w10a",
+      "画不能再放在其他的画之中。",
+      "1.9",
+      "15w49a",
+      "画不能再被闪电破坏。",
+      "15w50a",
+      "加入了音效entity.painting.place和entity.painting.break。",
+      "1.11",
+      "16w32a",
+      "实体ID由Painting更改为painting。",
+      "1.12",
+      "17w06a",
+      "画现在有了一个更好的放置检测系统。放置时它们现在将尝试在可用空间中放置可能最大的大小。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，画的数字ID是321。",
+      "18w02a",
+      "画现在用命名空间ID区分图案。",
+      "1.14",
+      "18w43a",
+      "更改了画的物品纹理。",
+      "19w07a",
+      "画的纹理被拆分成单独的文件。",
+      "现在画支持动态纹理。",
+      "1.17",
+      "21w11a",
+      "更改了画背面的纹理，使之契合纹理更新后的木板纹理。",
+      "1.19",
+      "22w16a",
+      "加入了古典四元素画作，但无法在游戏内正常获取。",
+      "表示画内容的标签由Motive更改为variant。",
+      "1.19.4",
+      "23w06a",
+      "现在可以从创造模式物品栏获取指定的画作，在“管理员用品”标签页下还可以获取未使用的四元素画作。",
+      "1.21",
+      "24w18a",
+      "加入了“Baroque”“Humble”“Meditative”“Prairie Ride”“Unpacked”“Backyard”“Bouquet”“Cavebird”“Changing”“Cotan”“Endboss”“Fern”“Finding”“Lowmist”“Orb”“Owlemons”“Passage”“Pond”“Sunflowers”和“Tides”共20幅画作。",
+      "画变种的注册表现在可以通过数据包和资源包加载。",
+      "在数据包中加入了painting_variant目录，用于注册画的变种。",
+      "24w20a",
+      "现在画变种数据可接受内联定义。",
+      "1.21.5",
+      "25w04a",
+      "现在画变种数据不再接受内联定义。",
+      "1.21.7",
+      "rc1",
+      "加入了1幅新的画作“Dennis”。"
+    ],
+    "基岩版": [
+      "1.10.0",
+      "1.10.0.3",
+      "更改了画的物品纹理。",
+      "1.11.0",
+      "1.11.0.4",
+      "画现在可以与牧羊人村民交易获得。",
+      "1.12.0",
+      "1.12.0.6",
+      "画现在可以使用染色羊毛合成。",
+      "1.17.0",
+      "1.17.0.50",
+      "更改了画背面的纹理，使之契合纹理更新后的木板纹理。",
+      "1.21.0"
+    ],
+    "大师级牧羊人": [
+      "100%",
+      "绿宝石 × 2",
+      "画 × 3"
+    ],
+    "用途": [
+      "使用画可以将其放置在固体方块的侧面。与这幅画相邻的其他方块空间可以是任何方块。",
+      "画具有不同的尺寸。放置时，画会检查最大的可摆放空间，然后会根据空间随机选择画的内容。因此，若玩家想要放置特定尺寸的画，可以预先在摆放画的墙面放置方块来限制可摆放空间。"
+    ],
+    "行为": [
+      "作为实体，画可以与例如水和火把一类的方块位于同一位置。具体来说，它们能与任何碰撞箱不与其冲突的方块共享同一个位置。",
+      "玩家和生物可以无阻碍地穿过画，只要支撑画的方块允许。光照能穿过画传播。",
+      "画不能着火。",
+      "如果画受到伤害（即使受到的伤害值为0（），如伤害来自失败的近战攻击[仅Java版]或雪球等弹射物）或支持画的方块被移除，画就会被破坏并掉落为物品。在Java版中，被船撞击的画也会被破坏并掉落为物品。在基岩版中，画作为实体不可以被下界传送门传送，但可以被末地折跃门和有效的末地传送门传送。"
+    ],
+    "画作列表": [
+      "游戏中一共有47种画。其原始作品大多数都由Kristoffer Zetterstrand创作，而且这些适用于Minecraft的低分辨率版本也出自他之手。"
+    ],
+    "Java版加入版本": [
+      "2×2格",
+      "32×32像素"
+    ],
+    "基岩版加入版本": [
+      "1×1格",
+      "16×16像素"
+    ],
+    "Kristoffer Zetterstrand": [
+      "minecraft:kebab",
+      "一袋土耳其烤肉配意大利红肠，以及三颗青椒。",
+      "Indev 20100223",
+      "携带版0.5.0",
+      "minecraft:wanderer",
+      "该画作是浪漫派画家卡斯帕·大卫·弗里德里希的《雾海上的旅人》的低分辨率版本。",
+      "Indev 20100223",
+      "携带版0.5.0",
+      "minecraft:pool",
+      "几名男子和女子在一个铺有黑白瓷砖的方形泳池内裸泳，右下角还有一位老人在躺着休息。",
+      "Indev 20100223",
+      "携带版0.5.0",
+      "minecraft:bouquet",
+      "楼梯旁的一束花，旁边坐着一个人。",
+      "基岩版1.21.0.24",
+      "minecraft:backyard",
+      "院子里砖砌的拱门旁坐着两个妇女。该场景基于彼得·德·霍赫的The Courtyard of a House in Delft。右边的人物来自雅克-路易·大卫的《荷拉斯兄弟之誓》。",
+      "24w18a",
+      "基岩版1.21.0.24",
+      "minecraft:orb",
+      "意大利夜景中的一个光球。这幅画基于乔瓦尼·贝利尼的St. Francis in Ecstasy。",
+      "基岩版1.21.0.24"
+    ],
+    "\"de_aztec\"": [
+      "minecraft:aztec",
+      "游戏《反恐精英》地图“de_aztec”（阿兹特克，别称雨林遗迹）的自由视角画面。",
+      "minecraft:aztec2",
+      "游戏《反恐精英》地图“de_aztec”（阿兹特克，别称雨林遗迹）的自由视角画面。"
+    ],
+    "\"Albanian\"": [
+      "minecraft:alban",
+      "一个戴着毡帽的男子站在位于沙漠中的房子与树丛旁边。据画作名称，这应该是阿尔巴尼亚的景色。然而阿尔巴尼亚大部分是雪山，并没有沙漠，因此不可能位于阿尔巴尼亚。"
+    ],
+    "\"Target successfully bombed\"": [
+      "minecraft:bomb",
+      "游戏《反恐精英》地图“de_dust2”（炙热沙城II）的B点，恐怖分子胜利后的“target successfully bombed”场景。"
+    ],
+    "\"Paradisträd\"": [
+      "minecraft:plant",
+      "花瓶中两株植物的写生。单词\"Paradisträd\"在瑞典语中意思是“天堂树”，这是斯堪的纳维亚所描绘物种的一个常见名称。"
+    ],
+    "\"Wasteland\"": [
+      "minecraft:wasteland",
+      "荒地的景色，一只小动物（大概是兔子）坐在窗边。"
+    ],
+    "–": [
+      "minecraft:humble",
+      "两个村民并立在平原村庄的小型房屋前。这是对美国画家格兰特·伍德作品《美国哥特式》的致敬。",
+      "3×3格",
+      "48×48像素"
+    ],
+    "Sarah Boeving": [
+      "minecraft:meditative",
+      "日出背景下土地上盛开的一朵玫瑰，这是对西班牙超现实主义画家萨尔瓦多·达利作品《冥想的玫瑰》的致敬。基于原作额外添加的玫瑰茎部则取自游戏中已移除的玫瑰纹理（现为虞美人）。",
+      "24w18a",
+      "基岩版1.21.0.21",
+      "1×2格",
+      "16×32像素",
+      "minecraft:prairie_ride",
+      "Noor在金黄色荒野的石子路上策马奔驰，这是对美国画家弗雷德里克·雷明顿作品《西部牛仔》的致敬。",
+      "24w18a",
+      "基岩版1.21.0.21",
+      "2×1格",
+      "32×16像素",
+      "minecraft:baroque",
+      "桌面上的静物，包括一个饰纹陶罐、一个蛋糕和一束向日葵，致敬了巴洛克艺术。",
+      "24w18a",
+      "基岩版1.21.0.21",
+      "minecraft:dennis",
+      "一幅苍狼的画像，灵感来自A Minecraft Movie中描绘丹尼斯的画。",
+      "1.21.7-rc1",
+      "基岩版1.21.90",
+      "3×4格",
+      "48×64像素",
+      "minecraft:unpacked",
+      "一个Minecraft世界中的景观，河岸上有一座小山丘，山上有涌泉流下，河里有一只猪。以pack.png为原型，原图的猪被放大了。",
+      "24w18a",
+      "基岩版1.21.0.21"
+    ],
+    "\"Graham\"": [
+      "minecraft:graham",
+      "格雷姆国王的形象，他是游戏国王密使系列中的角色之一。原画还有Juan Sánchez Cotán的画作中的榅桲、卷心菜和黄瓜。",
+      "Alpha v1.1.1"
+    ],
+    "\"Bonjour monsieur Courbet\"": [
+      "minecraft:courbet",
+      "两位旅行者在互相打招呼。这是对法国现实主义画家库尔贝作品《你好，库尔贝》的致敬。"
+    ],
+    "\"sunset_dense\"": [
+      "minecraft:sunset",
+      "夕阳下的山峦。"
+    ],
+    "\"Seaside\"": [
+      "minecraft:sea",
+      "山峦与湖的景色，窗台上有一幅绘有山峰的照片和一株颜色鲜艳的植物。",
+      "Indev 20100223 / Alpha v1.1.1"
+    ],
+    "Creebet": [
+      "minecraft:creebet",
+      "山峦与湖的景色，窗边有一幅绘有山峰的照片，还有一只向内窥探的苦力怕。",
+      "Alpha v1.1.1",
+      "2×2格",
+      "32×32像素"
+    ],
+    "\"Match\"": [
+      "minecraft:match",
+      "一只手拿着火柴，在白色的方块上燃起像素火焰。",
+      "Indev 20100223"
+    ],
+    "\"Bust\"": [
+      "minecraft:bust",
+      "罗马皇帝马可·奥勒留的半身雕塑被像素火焰包围着。"
+    ],
+    "\"The stage is set\"": [
+      "minecraft:stage",
+      "《星际密使I》中的场景，《国王密使》中的角色格雷姆站在一边。",
+      "Indev 20100223 / Alpha v1.1.1"
+    ],
+    "\"The Void\"": [
+      "minecraft:void",
+      "一名天使朝着像虚空一样的方向祷告，画面下方露出像素火焰。",
+      "Indev 20100223"
+    ],
+    "\"Moonlight Installation\"": [
+      "minecraft:skull_and_roses",
+      "冷光映照下的骷髅头，身旁开满玫瑰。原图与之差别较大，描绘了一个女子坐在沙发上，一个骷髅立在冰水沟中的场景。"
+    ],
+    "Jens Bergensten": [
+      "minecraft:wither",
+      "展示凋灵的创造方法。",
+      "1.4.2 (12w36a)",
+      "携带版1.0.7"
+    ],
+    "“The Abyss”": [
+      "minecraft:cotan",
+      "由一根绳子系在空中的金苹果和窗台上的闪烁的西瓜片。同画作Graham一样，这幅画基于Juan Sánchez Cotán的画作Still Life with Quince, Cabbage, Melon, and Cucumber。原画中主要包含的是柠檬、卷心菜、哈密瓜和黄瓜。"
+    ],
+    "“Consider it”": [
+      "minecraft:endboss",
+      "左边是砖砌拱门下的骷髅，右边是游戏国王密使系列角色Graham的白色剪影。"
+    ],
+    "（蕨）": [
+      "[1]",
+      "minecraft:fern",
+      "桌上放着一盆蕨类植物，并有一团像素小火焰。"
+    ],
+    "“Lemons and owl”": [
+      "minecraft:owlemons",
+      "盒子里的二维猫头鹰，旁边有一些柠檬。背景取自多米尼哥·基兰达奥的《老人和他的孙子》。"
+    ],
+    "“Lion and Sunflowers”": [
+      "minecraft:sunflowers",
+      "桌子上摆放着一些盆栽、一幅画和一朵二维向日葵。"
+    ],
+    "“Oh, The Sea”": [
+      "minecraft:tides",
+      "一个人以胎儿般的姿势坐在海岸线边。原画中人物为裸体。"
+    ],
+    "“Death And The Maiden”": [
+      "minecraft:pond",
+      "一个少女坐在池塘里，旁边是半沉的骷髅。“死亡与少女”（Death and the Maiden）是文艺复兴时期艺术的常见主题，最初源自中世纪的死亡之舞。",
+      "4×2格",
+      "64×32像素"
+    ],
+    "\"Fighters\"": [
+      "minecraft:fighters",
+      "两个平面的像素小人准备比武。人物来自游戏《国际空手道+》，背景取自威拉德·梅特卡夫的Indian Summer, Vermont。",
+      "Indev 20100223",
+      "携带版0.5.0"
+    ],
+    "“Change of set”": [
+      "minecraft:changing",
+      "一个人在一些场景前换衣服，包括阴郁的山和阳光明媚的郊外，形成鲜明对比。人物取自皮耶罗·德拉·弗朗切斯卡的《 基督受洗》。",
+      "24w18a",
+      "基岩版1.21.0.24"
+    ],
+    "“The Find”": [
+      "minecraft:finding",
+      "一个人看着一个新挖的洞，背景是古希腊遗址，旁边架着摄影棚灯光。"
+    ],
+    "“LowMist”": [
+      "minecraft:lowmist",
+      "山的数字渲染图，由场景生成器Terragen生成，并在构建过程中人为崩溃。"
+    ],
+    "“The passage”": [
+      "minecraft:passage",
+      "位于海滩场景前的一个超现实矿井式通道，摆放着人的骨架和已灭绝的大地懒的骨架。",
+      "4×3格",
+      "64×48像素"
+    ],
+    "\"Mortal Coil\"": [
+      "minecraft:skeleton",
+      "游戏《冥界狂想曲》中的角色Bruno Martinez。",
+      "Alpha v1.1.1",
+      "携带版0.5.0"
+    ],
+    "\"Kong\"": [
+      "minecraft:donkey_kong",
+      "街机游戏《咚奇刚》最终关卡“100m”的画面。",
+      "4×4格",
+      "64×64像素"
+    ],
+    "\"Pointer\"": [
+      "minecraft:pointer",
+      "电子游戏《空手道》中的一个像素小人（游戏里的白发被改为黑发）在与一只大手对抗。也可能是对米开朗基罗的著名画作《创造亚当》的戏仿。背景取自卡斯帕·大卫·弗里德里希的Winter Landscape with Church。",
+      "Indev 20100223"
+    ],
+    "\"RGB\"": [
+      "minecraft:pigscene",
+      "一个女孩用手指着画布上的猪头。原画中画布上所绘的是红绿蓝三色的方块，代表用于电脑显示的三原色光模式。这幅画是对弗兰德斯画家雅各布·范·奥斯特作品The Artist’s Studio的致敬。"
+    ],
+    "\"Skull on Fire\"": [
+      "minecraft:burning_skull",
+      "一个头骨，上面燃着Minecraft中的火焰粒子（flame），背景是一个Minecraft世界的夜晚，满月挂在山丘上方。",
+      "Beta 1.2_01 / Beta 1.3"
+    ],
+    "特殊的画": [
+      "在Java版中，这4幅画可从创造模式物品栏的管理员用品标签页中获取，其提示框中均没有署名信息。",
+      "在基岩版中，它们存在于kz.png中而未被使用，见基岩版未使用特性 § 画了解更多信息。",
+      "据Helen Zbihlyj透露，这些画作原本打算用在MINECON 2012或2013的携带版宣传世界中。"
+    ],
+    "（地）": [
+      "minecraft:earth",
+      "4种古典元素之一的“地”。",
+      "0.5.0",
+      "22w16a"
+    ],
+    "（火）": [
+      "minecraft:fire",
+      "4种古典元素之一的“火”。"
+    ],
+    "（水）": [
+      "minecraft:water",
+      "4种古典元素之一的“水”。"
+    ],
+    "（风）": [
+      "minecraft:wind",
+      "4种古典元素之一的“风”。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "画：被破坏"
+    ],
+    "subtitles.entity.painting.break": [
+      "画：被放置"
+    ],
+    "subtitles.entity.painting.place": [
+      "基岩版："
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "block.itemframe.add_item": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "entity.minecraft.painting": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*facing：（0≤值≤3）当前画面对的方向，从0到3分别对应南西北东，如果超过值域则对4取余并取绝对值后对应方向。",
+      "*variant：（命名空间ID）画的内容。如果设置值无效则设置为alban。",
+      "基岩版：",
+      "参见：基岩版存档格式/实体格式和基岩版存档格式/实体格式/组件"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.painting\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:painting\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "实体数据": [
+      "Java版：",
+      "主条目：实体数据格式",
+      "画有与之相联系的包含许多该实体属性的存档数据。",
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "悬挂类实体共通标签，见Template:Nbt inherit/hangable/source"
+    ],
+    "数据驱动": [
+      "主条目：画变种定义格式",
+      "在Java版中，画变种数据可在数据包中定义。"
+    ],
+    "Java版Indev": [
+      "20100223",
+      "加入了画。",
+      "加入了19幅画作。",
+      "现在可以用8个木板与1个布料合成画。"
+    ],
+    "Java版Infdev": [
+      "20100227-1414",
+      "更改了合成配方，现在需要木棍而不是木板来合成画了。"
+    ],
+    "Java版Alpha": [
+      "v1.1.1",
+      "加入了5幅画作。",
+      "更改了“Seaside”（海滨）画作的纹理。",
+      "更改了“The Stage Is Set”（舞台已搭成）画作的纹理。"
+    ],
+    "Java版Beta": [
+      "1.2_01",
+      "加入了“Skull On Fire”（燃烧的头骨）画作的代码。但由于未加入对应图像，此时该画作被紫色网格纹理占用。",
+      "1.3",
+      "加入了“Skull On Fire”（燃烧的头骨）画作。",
+      "2011年4月27日",
+      "Notch提及了自定义的画。",
+      "1.7.3",
+      "现在画被活塞推动后会掉落其自身。"
+    ],
+    "携带版Alpha": [
+      "0.5.0",
+      "加入了画。",
+      "加入了29幅画作，其中后4种不会在游戏中正常出现。",
+      "0.8.0",
+      "build 2",
+      "更改了“Earth”“Water”“Fire”“Wind”四幅画作的纹理。",
+      "build 3",
+      "现在画有了新的渲染方式。",
+      "0.15.0",
+      "build 1",
+      "现在放置和破坏画有音效了。"
+    ],
+    "携带版": [
+      "1.0.7",
+      "加入了“Wither”（凋灵）画作。"
+    ],
+    "实验性玩法": [
+      "更新 1.21 版",
+      "1.21.0.21",
+      "加入了“Baroque”“Humble”“Meditative”“Prairie Ride”和“Unpacked”共5幅画作。",
+      "1.21.0",
+      "1.21.0.22",
+      "“Baroque”“Humble”“Meditative”“Prairie Ride”和“Unpacked”画作不再属于实验性玩法。",
+      "1.21.0.24",
+      "加入了“Backyard”“Bouquet”“Cavebird”“Changing”“Cotan”“Endboss”“Fern”“Finding”“Lowmist”“Orb”“Owlemons”“Passage”“Pond”“Sunflowers”和“Tides”共15幅画作。",
+      "1.21.90"
+    ],
+    "正式版": [
+      "加入了“Dennis”画作。",
+      "1.21.93",
+      "更改了“Dennis”画作的纹理以匹配Java版。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了画。",
+      "加入了25幅画作。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了画。",
+      "加入了25幅画作。",
+      "TU11",
+      "新增了世界中画的数量限制。当画的数量达到限制时会显示一条信息。",
+      "TU14",
+      "1.04",
+      "加入了“Wither”（凋灵）画作。",
+      "TU43",
+      "CU33",
+      "1.36",
+      "Patch 13",
+      "加入了画的音效。",
+      "1.90",
+      "更改了画的物品纹理。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了画。",
+      "加入了25幅画作。",
+      "TU11",
+      "新增了世界中画的数量限制。当画的数量达到限制时会显示一条信息。",
+      "TU14",
+      "1.04",
+      "加入了“Wither”（凋灵）画作。",
+      "TU43",
+      "CU33",
+      "1.36",
+      "Patch 13",
+      "加入了画的音效。",
+      "1.90",
+      "更改了画的物品纹理。"
+    ],
+    "你知道吗": [
+      "画其实不是完全贴在墙上的，画与墙之间有一道缝隙。",
+      "画背面的纹理修改自木板的纹理，但其色调与游戏中存在的任何一种木板都不相同。",
+      "Java版1.17和基岩版1.17.0之前的背面纹理则是修改自Java版1.0.0前木板的纹理，其与正式版至纹理更新前的木板纹理不相对应。",
+      "在多人游戏中，当玩家站在画的后面时，其他玩家不会看到该玩家的名字。",
+      "由于画属于实体，在Java版中旁观模式的玩家可以对画按下使用键进入画的视角。",
+      "“燃烧的头骨”（Skull On Fire）画作的背景是一个能够真正生成的Minecraft世界，其基于作者2010年10月12日13:22:49（UTC+2）于Java版Alpha v1.1.2_01（或更早版本）中截取的截图。",
+      "该世界的种子为-6984854390176336655或-1044887956651363087（二者生成的世界相同），坐标为X=-249.65，Y=91，Z=-29.04。",
+      "Kristoffer Zetterstrand亲笔签名、零售估价为3700美元的“燃烧的头骨”原作被赠予了Webhallen Minecraft纹理包大奖赛的冠军Wojciech Mroczek。",
+      "愚人节快照24w14potato加入了7幅与马铃薯有关的画：美味的形状（Tasty Shapes）、自画像（Self-portrait）、马铃薯（Potato）、聚光灯下（In The Spotlight）、烫手洋芋（Hot Potato）、这不是马铃薯（This is not a potato）、马铃薯的叛逆（The Treachery Potatoes）。"
+    ],
+    "注释": [
+      "在Java版中，对应物品的提示框不显示署名。"
+    ],
+    "参考": [
+      "https://www.reddit.com/r/Minecraft/comments/1tzav2/comment/cedagcy/，来自jeb_。Reddit，2013年12月30日。",
+      "The Backyard, Me, Oil on canvas, 2022，来自Kristoffer Zetterstrand。Reddit，2022年8月9日。“Yes, the 'scenery' is based on a painting by Pieter de Hooch.”",
+      "The Backyard, Me, Oil on canvas, 2022，来自Kristoffer Zetterstrand。Reddit，2022年8月10日。“Yes, that's correct”",
+      "Original Minecraft painting Number 15/25: 'Fighters'，来自Kristoffer Zetterstrand。Instagram，2024年6月27日。“The backdrop is a painting by american painter Metcalf.”",
+      "Found one of them. (Lowmist)，来自Kristoffer Zetterstrand。Instagram，2024年11月12日。“It's a landscape in the process of being constructed by a landscape generator called Terragen. I crashed the renderer before it could finish and painted the result.”",
+      "Realm News（§ An Exclusive Interview with Artist Kristoffer Zetterstrand），来自Greg Howard。Spotify，2024年6月13日。",
+      "https://old.reddit.com/r/Minecraft/comments/u8hpnx/thoughts_on_the_new_paintings/i5olue6/?context=3",
+      "The original (never publicly shared before) screenshot that Kristoffer Zetterstrand took and based his painting on. — Imgur。",
+      "https://pastebin.com/fzAY9ES4",
+      "The original screenshot seed of the Minecraft — Reddit。",
+      "https://web.archive.org/web/20110110003612/http://www.webhallen.com:80/minecraft/",
+      "https://www.planetminecraft.com/texture-pack/pixeludi-pack-texture-pack-compo-winner/"
+    ]
+  }
+}

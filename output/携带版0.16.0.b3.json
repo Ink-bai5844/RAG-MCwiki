@@ -1,0 +1,5 @@
+{
+  "title": "携带版0.16.0.b3",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.16.0.b3",
+  "text": "0.16.0.b3\n版本\n携带版\n版本码\nAndroid：\n840159002（armeabi-v7a，22）\n841159002（x86，22）\n870159002（armeabi-v7a，22）\n871159002（x86，22）\n类型\n测试版\n发布时间\n2016年8月30日\n测试版归属\n0.16.0\n协议版本\n90\n◄◄0.15.10\n0.16.1►►\n◄0.16.0.b2\n0.16.0.b4►\nv0.16.0 alpha build 3（也被称为0.15.90.2）是v0.16.0 alpha的第3个测试版，发布于2016年8月30日，修复了一些漏洞。\n修复\n修复了6个漏洞\n0.15.10前正式版的漏洞\nMCPE-8424 — 破坏玩家前方的方块时只会破坏一个。\nMCPE-11796 — 收获成熟的下界疣作物只掉落一个下界疣。\nMCPE-12279 — 拉杆、按钮、红石块等方块不能放置在刷怪笼上面。\nMCPE-14691 — 皮肤不会在应有的地方显示。\nMCPE-14971 — 对着骷髅马和僵尸马投掷伤害药水时会伤害它们。\n其他漏洞\n移除了作为占位符的画。\n参考\nhttp://pocketbeta.minecraft.net/2016/08/notes-for-revised-revised-0.html\nhttps://bugs.mojang.com/browse/MCPE/fixforversion/15668\nhttp://pocketbeta.minecraft.net/2016/09/0160-beta-build-numbers.html\n导航"
+}

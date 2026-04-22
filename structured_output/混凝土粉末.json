@@ -1,0 +1,384 @@
+{
+  "title": "混凝土粉末",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B7%B7%E5%87%9D%E5%9C%9F%E7%B2%89%E6%9C%AB",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是制造混凝土的原料。关于混凝土方块本身，请见“混凝土”。"
+    ],
+    "硬度": [
+      "0.5",
+      "0.5"
+    ],
+    "爆炸抗性": [
+      "0.5"
+    ],
+    "地图基色": [
+      "白色混凝土粉末："
+    ],
+    "#FFFFFF": [
+      "淡灰色混凝土粉末：",
+      "#999999",
+      "灰色混凝土粉末：",
+      "#4C4C4C",
+      "黑色混凝土粉末：",
+      "#191919",
+      "棕色混凝土粉末：",
+      "#664C33",
+      "红色混凝土粉末：",
+      "#993333",
+      "橙色混凝土粉末：",
+      "#D87F33",
+      "黄色混凝土粉末：",
+      "#E5E533",
+      "黄绿色混凝土粉末：",
+      "#7FCC19",
+      "绿色混凝土粉末：",
+      "#667F33",
+      "青色混凝土粉末：",
+      "#4C7F99",
+      "淡蓝色混凝土粉末：",
+      "#6699D8",
+      "蓝色混凝土粉末：",
+      "#334CB2",
+      "紫色混凝土粉末：",
+      "#7F3FB2[仅Java版]"
+    ],
+    "或": [
+      "#995ACD[仅基岩版]",
+      "品红色混凝土粉末：",
+      "#B24CD8",
+      "粉红色混凝土粉末：",
+      "#F27FA5"
+    ],
+    "方块ID": [
+      "白色混凝土粉末：white_concrete_powder",
+      "淡灰色混凝土粉末：light_gray_concrete_powder",
+      "灰色混凝土粉末：gray_concrete_powder",
+      "黑色混凝土粉末：black_concrete_powder",
+      "棕色混凝土粉末：brown_concrete_powder",
+      "红色混凝土粉末：red_concrete_powder",
+      "橙色混凝土粉末：orange_concrete_powder",
+      "黄色混凝土粉末：yellow_concrete_powder",
+      "黄绿色混凝土粉末：lime_concrete_powder",
+      "绿色混凝土粉末：green_concrete_powder",
+      "青色混凝土粉末：cyan_concrete_powder",
+      "淡蓝色混凝土粉末：light_blue_concrete_powder",
+      "蓝色混凝土粉末：blue_concrete_powder",
+      "紫色混凝土粉末：purple_concrete_powder",
+      "品红色混凝土粉末：magenta_concrete_powder",
+      "粉红色混凝土粉末：pink_concrete_powder"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "白色混凝土粉末：white_concrete_powder",
+      "淡灰色混凝土粉末：light_gray_concrete_powder",
+      "灰色混凝土粉末：gray_concrete_powder",
+      "黑色混凝土粉末：black_concrete_powder",
+      "棕色混凝土粉末：brown_concrete_powder",
+      "红色混凝土粉末：red_concrete_powder",
+      "橙色混凝土粉末：orange_concrete_powder",
+      "黄色混凝土粉末：yellow_concrete_powder",
+      "黄绿色混凝土粉末：lime_concrete_powder",
+      "绿色混凝土粉末：green_concrete_powder",
+      "青色混凝土粉末：cyan_concrete_powder",
+      "淡蓝色混凝土粉末：light_blue_concrete_powder",
+      "蓝色混凝土粉末：blue_concrete_powder",
+      "紫色混凝土粉末：purple_concrete_powder",
+      "品红色混凝土粉末：magenta_concrete_powder",
+      "粉红色混凝土粉末：pink_concrete_powder"
+    ],
+    "——Duncan Geere": [
+      "混凝土粉末（Concrete Powder）是用于制造混凝土的方块。"
+    ],
+    "生成": [
+      "混凝土粉末不会生成在世界中。"
+    ],
+    "[[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]]": [
+      "[[|]]8888888888888888",
+      "[[|]]8888"
+    ],
+    "描述": [
+      "0"
+    ],
+    "破坏": [
+      "挖掘混凝土粉末的合适工具是锹。"
+    ],
+    "白色混凝土粉末": [
+      "1"
+    ],
+    "淡灰色混凝土粉末": [
+      "9"
+    ],
+    "灰色混凝土粉末": [
+      "8"
+    ],
+    "棕色混凝土粉末": [
+      "13"
+    ],
+    "红色混凝土粉末": [
+      "15"
+    ],
+    "橙色混凝土粉末": [
+      "2"
+    ],
+    "黄色混凝土粉末": [
+      "5"
+    ],
+    "黄绿色混凝土粉末": [
+      "6"
+    ],
+    "绿色混凝土粉末": [
+      "14"
+    ],
+    "青色混凝土粉末": [
+      "10"
+    ],
+    "淡蓝色混凝土粉末": [
+      "4"
+    ],
+    "蓝色混凝土粉末": [
+      "12"
+    ],
+    "紫色混凝土粉末": [
+      "11"
+    ],
+    "品红色混凝土粉末": [
+      "3"
+    ],
+    "粉红色混凝土粉末": [
+      "7"
+    ],
+    "徒手": [
+      "0.75"
+    ],
+    "木质": [
+      "0.4"
+    ],
+    "石质": [
+      "0.2"
+    ],
+    "铜质": [
+      "0.15"
+    ],
+    "铁质": [
+      "0.15"
+    ],
+    "钻石质": [
+      "0.1"
+    ],
+    "下界合金质": [
+      "0.1"
+    ],
+    "金质": [
+      "0.1"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "混凝土粉末被破坏后会掉落自身。"
+    ],
+    "制造混凝土": [
+      "混凝土粉末接触水时会凝固成混凝土方块。特别的是，它需要被放置、落入[仅Java版]或临近流动的水、水源或含水方块[仅Java版]。如果混凝土粉末在降落时从侧面经过水，它不会凝固。任何含水方块[仅基岩版]、雨、炼药锅、喷溅型水瓶或位于混凝土粉末下方的流动的水、水源或含水方块对混凝土粉末没有影响。混凝土粉末的物品实体同样不会凝固。",
+      "在Java版中，当混凝土粉末接触到含水树叶除顶面外的五个面时，它均会凝固成混凝土。而如果它被放置在其他含水方块（如含水楼梯，含水红树根等）旁边，则其必须与水可以流出的面相邻，例如楼梯的三个开口侧面，但不能是楼梯的背面和上下面、红树根的所有面[仅Java版]等水不可以流出的面。混凝土粉末会在接触水的同一游戏刻凝固。",
+      "在基岩版中，混凝土粉末只在与水源或水流毗邻或在其下方时才会凝固。"
+    ],
+    "下落的方块": [
+      "主条目：下落的方块"
+    ],
+    "普通的沙子会沉到水里，而混凝土粉末在与水接触时会直接凝固": [
+      "混凝土粉末在下方没有不可替代的方块时会变为下落的方块。",
+      "除了具有大多下落的方块的行为，下落的混凝土粉末还会在接触到水的时候变为对应的混凝土。",
+      "混凝土粉末在没有得到支撑时，会在方块下方产生粒子。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "subtitles.block.generic.break": [
+      "某物：摔落到方块上"
+    ],
+    "subtitles.block.generic.fall": [
+      "方块：损坏中"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "subtitles.block.generic.footsteps": [
+      "基岩版："
+    ],
+    "item.use.on": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "hit": [
+      "0.23",
+      "0.5",
+      "16"
+    ],
+    "place": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "fall": [
+      "0.4",
+      "1.0",
+      "16"
+    ],
+    "step": [
+      "0.15",
+      "1.0",
+      "16"
+    ],
+    "jump": [
+      "0.05",
+      "1.0",
+      "16"
+    ],
+    "land": [
+      "0.14",
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "white_concrete_powder": [
+      "concrete_powder, concretepowder / 0"
+    ],
+    "orange_concrete_powder": [
+      "concrete_powder, concretepowder / 1"
+    ],
+    "magenta_concrete_powder": [
+      "concrete_powder, concretepowder / 2"
+    ],
+    "light_blue_concrete_powder": [
+      "concrete_powder, concretepowder / 3"
+    ],
+    "yellow_concrete_powder": [
+      "concrete_powder, concretepowder / 4"
+    ],
+    "lime_concrete_powder": [
+      "concrete_powder, concretepowder / 5"
+    ],
+    "pink_concrete_powder": [
+      "concrete_powder, concretepowder / 6"
+    ],
+    "gray_concrete_powder": [
+      "concrete_powder, concretepowder / 7"
+    ],
+    "light_gray_concrete_powder": [
+      "concrete_powder, concretepowder / 8"
+    ],
+    "cyan_concrete_powder": [
+      "concrete_powder, concretepowder / 9"
+    ],
+    "purple_concrete_powder": [
+      "concrete_powder, concretepowder / 10"
+    ],
+    "blue_concrete_powder": [
+      "concrete_powder, concretepowder / 11"
+    ],
+    "brown_concrete_powder": [
+      "concrete_powder, concretepowder / 12"
+    ],
+    "green_concrete_powder": [
+      "concrete_powder, concretepowder / 13"
+    ],
+    "red_concrete_powder": [
+      "concrete_powder, concretepowder / 14"
+    ],
+    "black_concrete_powder": [
+      "concrete_powder, concretepowder / 15"
+    ],
+    "block.minecraft.black_concrete_powder": [
+      "基岩版："
+    ],
+    "方块数据": [
+      "参见：基岩版数据值",
+      "在基岩版中，混凝土粉末使用以下数据值："
+    ],
+    "方块状态": [
+      "参见：方块状态",
+      "Java版："
+    ],
+    "此方块没有方块属性": [
+      "基岩版："
+    ],
+    "Java版": [
+      "1.12",
+      "2017年2月2日",
+      "Jens Bergensten发布了一个视频，展示了一个受重力影响的粉红色方块与水接触时变成了一个固体方块。",
+      "他后来补充说，它会有16种不同的颜色。",
+      "17w06a",
+      "加入了混凝土粉末。",
+      "1.13",
+      "17w47a",
+      "concrete_powder的不同方块状态被拆分成为各自独有的ID。",
+      "熔岩现在与混凝土粉末接触时都可以将其硬化为混凝土，而不是只有掉入熔岩源中才如此。",
+      "在扁平化前，该方块的数字ID为252。",
+      "1.13.1",
+      "18w30a",
+      "熔岩不再硬化混凝土粉末。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "加入了混凝土粉末。"
+    ],
+    "基岩版": [
+      "1.20.30",
+      "1.20.30.20",
+      "拆分了混凝土粉末的IDconcrete_powder，现在不同颜色的混凝土粉末拥有了各自的ID，同时弃用了方块状态color。",
+      "New Nintendo 3DS版",
+      "1.9.19",
+      "加入了混凝土粉末。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU53",
+      "CU53",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "加入了混凝土粉末。",
+      "TU53",
+      "CU53",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "加入了混凝土粉末。"
+    ],
+    "参考": [
+      "Block of the Week: Concrete — Minecraft.net，2018年3月9日。",
+      "https://twitter.com/jeb_/status/827078378444488705"
+    ]
+  }
+}

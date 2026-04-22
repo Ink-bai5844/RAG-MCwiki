@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.15-pre5",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.15-pre5",
+  "text": "1.15-pre5\n版本\nJava版\n类型\n预发布版\n发布时间\n2019年12月5日\n预发布版归属\n1.15\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\n570\n数据版本\n2222\n资源包版本\n5\n数据包版本\n5\n◄◄1.14.4\n1.15.1►►\n◄1.15-pre4\n1.15-pre6►\n1.15-pre5是Java版1.15的第5个预发布版，发布于2019年12月5日，调整了客户端下载资源包的大小上限，并修复了一些漏洞。\n更改\n常规\n资源包\n将客户端下载资源包的大小上限从50MB增加至100MB。\n修复\n修复了12个漏洞\n1.15前正式版的漏洞\nMC-104818 — 无法正确处理在options.txt中没有指定值的配置项（Skipping bad option: lastServer:）。\nMC-117449 — 用默认的操作系统编码读取/写入options.txt。\nMC-147750 — 当有资源包尝试使用不存在的.ttf文件时，游戏崩溃。\nMC-148704 — “Server Light”（服务器内光照等级）部分会消失，然后再次出现。\nMC-151173 — 读取options.txt的文件流从不关闭。\nMC-153698 — 在水中的船上跳跃会导致你受到坠落伤害。\nMC-158870 — 调试图标不允许进入进入分析器部分。\nMC-166865 — 游戏初始化崩溃：java.lang.IllegalArgumentException: MALFORMED。\n1.15开发版本的漏洞\nMC-164691 — 调试饼图的渲染不正确。\n上个开发版本的漏洞\nMC-167074 — 附魔台UI内的书图标偏暗。\nMC-167080 — 选择资源包界面的上移箭头缺失。\n未公开漏洞\nMC-166950 — 可以刷火把。\n参考\nMinecraft 1.15 Pre-Release 5 — Minecraft.net，2019年12月5日。\n导航"
+}

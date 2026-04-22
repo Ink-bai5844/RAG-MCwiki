@@ -1,0 +1,207 @@
+{
+  "title": "蜂蜜瓶",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9C%82%E8%9C%9C%E7%93%B6",
+  "structured_content": {
+    "默认分类": [
+      "“蜂蜜”重定向至此。关于由蜂蜜瓶合成的蜂蜜方块，请见“蜂蜜块”。关于一种非食物物品，请见“蜜脾”。关于其他用法，请见“蜜”。"
+    ],
+    "[[|]]": [
+      "在Java版中，合成蜂蜜块后空玻璃瓶会留在合成方格中。",
+      "[[|]]3",
+      "合成糖后空玻璃瓶会留在合成格中。"
+    ],
+    "食物属性": [
+      "6（）+1.2饱和度"
+    ],
+    "最大堆叠": [
+      "16"
+    ],
+    "honey_bottle": [
+      "蜂蜜瓶（Honey Bottle）是可从蜂巢或蜂箱获得的食物。"
+    ],
+    "获取": [
+      "对装满蜂蜜（honey_level为5）的蜂巢或蜂箱使用玻璃瓶或触发装有玻璃瓶的发射器可以获得1个蜂蜜瓶。"
+    ],
+    "[[|]][[|]][[|]][[|]][[|]]": [
+      "[[|]]4"
+    ],
+    "箱子战利品": [
+      "Java版与基岩版："
+    ],
+    "试炼密室宝库或奖品箱 - 普通": [
+      "0.18",
+      "1-2",
+      "12%",
+      "8.3"
+    ],
+    "食物": [
+      "主条目：食物",
+      "手持蜂蜜瓶按住使用键即可食用，每个蜂蜜瓶可以恢复6（）+1.2饱和度。食用后，该玩家身上的中毒效果会被消除。每个蜂蜜瓶被食用后会返还一个玻璃瓶。",
+      "玩家在饥饿值满时也可以食用蜂蜜瓶。",
+      "玩家食用一个蜂蜜瓶的时长为40游戏刻（2秒），长于其他多数食物的32游戏刻（1.6秒），且还会发出独特的吞咽音效。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "subtitles.item.honey_bottle.drink": [
+      "基岩版："
+    ],
+    "drink.honey": [
+      "0.75",
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.honey_bottle": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*type：消耗使用效果类型。",
+      "如果type为apply_effects，则对使用此物品的生物添加状态效果：",
+      "*effects：物品使用后添加的状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "probability：（0≤值≤1，默认为1）食用后施加此状态效果的概率。",
+      "如果type为clear_all_effects，则对使用此物品的生物移除所有状态效果。",
+      "如果type为play_sound，则播放指定的声音：",
+      "*sound：要播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "如果type为remove_effects，则对使用此物品的生物移除指定状态效果：",
+      "*effects：物品使用后要移除的状态效果。可以为以#开头的状态效果标签、一个状态效果ID、或以多个状态效果ID组成的列表。",
+      "如果type为teleport_randomly，则对使用此物品的生物进行随机传送：",
+      "diameter：（值>0，默认为16）随机传送的半径，以传送前的位置作为原点。",
+      "sound：（默认为entity.generic.eat）使用物品时产生的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:food：物品的食物属性。",
+      "can_always_eat：（默认为false）表示物品是否可以无视当前饥饿值食用。",
+      "*nutrition：（值≥0）食用物品时增加的饥饿值。",
+      "*saturation：食用物品时增加的饱和度。",
+      "minecraft:use_remainder：控制物品在消耗使用且物品数量减少后游戏返还的物品。如果玩家物品栏在欲返还物品时已满，则掉落成为物品实体。",
+      "物品模板，见Template:Nbt inherit/item template/source"
+    ],
+    "该物品的其他组件": [
+      "minecraft:consumable：物品的消耗使用行为。",
+      "animation：（默认为eat）物品使用时的动画。可以为none（无动作）、eat（吃）、drink（饮用）、block（格挡）、bow（拉弓）、brush（清刷）、crossbow（弩上弦）、spear（矛蓄力）、trident（三叉戟投掷）、spyglass（看望远镜）、toot_horn（吹山羊角）和bundle（使用收纳袋）。",
+      "consume_seconds：（值≥0，默认为1.6）物品使用的时间，单位为秒。当此值为0时，物品立刻使用，不会像拉弓等操作需要等待时间。",
+      "has_consume_particles：（默认为true）物品在使用时是否产生物品破碎粒子。",
+      "on_consume_effects：当物品被使用后产生的效果列表。",
+      "：一项消耗使用效果。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":16,\"minecraft:use_remainder\":{\"id\":\"minecraft:glass_bottle\"},\"minecraft:consumable\":{\"on_consume_effects\":[{\"effects\":\"minecraft:poison\",\"type\":\"minecraft:remove_effects\"}],\"animation\":\"drink\",\"consume_seconds\":2,\"has_consume_particles\":false,\"sound\":\"minecraft:item.honey_bottle.drink\"},\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:lore\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.honey_bottle\"},\"minecraft:enchantments\":[],\"minecraft:food\":{\"can_always_eat\":true,\"saturation\":1.2,\"nutrition\":6},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:honey_bottle\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Bee our guest": [
+      "使用营火从蜂箱中收集蜂蜜，使用瓶子，并避免激怒蜜蜂。",
+      "在满蜜的蜂巢或蜂箱下方放置营火或灵魂营火，并使用瓶子获得蜂蜜瓶。",
+      "15G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "农牧业": [
+      "在蜂巢或蜂箱下面放置一个营火或灵魂营火，然后对着蜂巢或蜂箱使用玻璃瓶来收集蜂蜜。"
+    ],
+    "–": [
+      "消耗下列物品之一："
+    ],
+    "热带鱼": [
+      "如有其他物品可被消耗，进度也会达成。",
+      "如有其他食物可以正常食用，进度会将其忽略。"
+    ],
+    "开荒垦地": [
+      "食用下列所有食物（共40种）："
+    ],
+    "Java版": [
+      "1.15",
+      "19w34a",
+      "加入了蜂蜜瓶。",
+      "19w35a",
+      "现在食用蜂蜜瓶可以消除玩家身上的中毒效果。",
+      "现在完成进度“均衡饮食”还需要使用蜂蜜瓶。",
+      "蜂蜜瓶现在拥有3个新的进食音效。",
+      "19w36a",
+      "将蜂蜜瓶可回复的饱和度从9.6降至1.2。",
+      "19w41a",
+      "现在可以用于合成蜂蜜块。",
+      "19w44a",
+      "现在可以由蜂蜜块和4个玻璃瓶合成。",
+      "现在可以以最多16个为1组堆叠。",
+      "1.20.5"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "24w11a",
+      "蜂蜜瓶现在可以从宝库普通战利品中获得。",
+      "1.21",
+      "24w18a",
+      "24w11a中的变更不再属于实验性内容。"
+    ],
+    "基岩版": [
+      "1.14.0",
+      "1.14.0.1",
+      "加入了蜂蜜瓶。",
+      "1.14.0.4",
+      "蜂蜜瓶现在使用和Java版相同的纹理。",
+      "现在可以由蜂蜜块和4个玻璃瓶合成。",
+      "现在可以以最多16个为1组堆叠。",
+      "蜂蜜瓶现在拥有一个新的进食音效。",
+      "1.20.80"
+    ],
+    "实验性玩法": [
+      "更新 1.21 版",
+      "1.20.80.22",
+      "蜂蜜瓶现在可以从宝库普通战利品中获得。",
+      "1.21.0",
+      "1.21.0.22",
+      "1.20.80.22中的变更不再属于实验性玩法。"
+    ]
+  }
+}

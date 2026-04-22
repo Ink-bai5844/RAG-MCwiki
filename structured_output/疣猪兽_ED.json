@@ -1,0 +1,18 @@
+{
+  "title": "疣猪兽/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%96%A3%E7%8C%AA%E5%85%BD%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "CannotBeHunted：（当此值为true时存在）表示猪灵是否不会攻击这只疣猪兽。",
+      "IsImmuneToZombification：（当此值为true时存在）表示疣猪兽在主世界是否不会变成僵尸疣猪兽。当此项为true时，TimeInOverworld会被重置为0。"
+    ],
+    "*": [
+      "*TimeInOverworld：疣猪兽在对猪灵不安全的维度（默认为下界以外的维度）停留的总时间。如果此值大于300游戏刻（15秒），疣猪兽会转化成僵尸疣猪兽。当回到对猪灵安全的维度时此值重置为0。"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "title": "命令/item",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fitem",
+  "structured_content": {
+    "默认分类": [
+      "关于基岩版和教育版中功能大致相同的命令，请见“命令/replaceitem”。",
+      "“Item”重定向至此。关于命名空间ID为item的实体，请见“物品（实体）”。关于存在于物品栏中的物品，请见“物品”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "修改方块（箱子、熔炉等）或实体（玩家等实体）物品栏内的物品。"
+    ],
+    "item modify (block <pos>|entity <targets>) <slot> <modifier>": [
+      "对指定槽位的物品施加指定的物品修饰器。"
+    ],
+    "item replace (block <pos>|entity <targets>) <slot> with <item> [<count>]": [
+      "将指定槽位的物品替换为指定的物品。"
+    ],
+    "item replace (block <pos>|entity <targets>) <slot> from (block <sourcePos>|entity <sourceTarget>) <sourceSlot> [<modifier>]": [
+      "将源槽位的物品复制到目标槽位，可以同时施加指定的物品修饰器。",
+      "语法的其他表示方式：",
+      "简化的语法树："
+    ],
+    "... from <来源> <sourceSlot> [<modifier>]": [
+      "上述可代入参数有："
+    ],
+    "<来源> = (block <sourcePos>|entity <sourceTarget>)": [
+      "精简版："
+    ],
+    "/item (modify (block <pos>|entity <targets>) <slot> <modifier>|replace (block <pos>|entity <targets>) <slot> (with <item> [<count>]|from (block <sourcePos>|entity <sourceTarget>) <sourceSlot> [<modifier>]))": [
+      "展开版："
+    ],
+    "参数": [
+      "<pos>：block_pos",
+      "指定要改变的方块的位置。",
+      "表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。",
+      "<targets>：entity",
+      "指定一个或多个要改变的实体。",
+      "必须为玩家名、目标选择器或UUID。",
+      "<slot>：item_slot",
+      "指定要改变的槽位。有效值取决于要改变的方块或实体。",
+      "必须为指定单个槽位的槽位名，由槽位类型和槽位编号组成。对于具体的槽位名和槽位编号，参见槽位。格式为<槽位类型>或<槽位类型>.<槽位编号>。",
+      "<modifier>：loot_modifier",
+      "指定使用的物品修饰器。",
+      "以命名空间ID或SNBT形式指定物品修饰器。必须是一个SNBT格式的物品修饰器数据，或者是一个具有指定ID的物品修饰器（minecraft:item_modifier注册表中的注册项）。对于NBT标签，若是一个字符串标签，也会被解析成一个命名空间ID并获取具有此ID的物品修饰器；否则将此SNBT解析为一个物品修饰器数据。",
+      "<item>：item_stack",
+      "指定被放置于方块或实体的物品栏槽位内的物品。",
+      "必须是格式为物品ID[物品堆叠组件]的指定物品参数，物品堆叠组件必须以中括号包围，可仅在需要时指定。",
+      "<count>：integer",
+      "指定被放置的物品的数量。",
+      "必须为32位整数。且必须在1和99之间（含）。",
+      "<sourcePos>：block_pos",
+      "指定要复制其中物品的方块的位置。",
+      "表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。",
+      "<sourceTarget>：entity",
+      "指定要复制其中物品的单个实体。",
+      "必须为玩家名、目标选择器或UUID。",
+      "<sourceSlot>：item_slot",
+      "指定要复制其中物品的槽位。有效值取决于要改变的方块或实体。",
+      "必须为指定单个槽位的槽位名，由槽位类型和槽位编号组成。对于具体的槽位名和槽位编号，参见槽位。格式为<槽位类型>或<槽位类型>.<槽位编号>。"
+    ],
+    "Java版": [
+      "1.8",
+      "14w26a",
+      "加入了/replaceitem命令。",
+      "1.14",
+      "18w43a",
+      "现在/replaceitem可以在物品展示框上使用。",
+      "1.17",
+      "20w46a",
+      "加入了/item以取代/replaceitem。",
+      "21w19a",
+      "更改了语法。",
+      "1.20.5",
+      "24w09a",
+      "item_stack参数类型更改了语法，现在不再使用物品NBT标签，而是物品堆叠组件。",
+      "24w12a",
+      "现在接受SNBT格式的内联物品修饰器定义。",
+      "24w14a",
+      "现在<count>参数最大值从64改为99。",
+      "pre1",
+      "现在使用/item命令应用物品修饰器后，物品数量如果超过其最大堆叠数量，则只会返回最大堆叠数量的物品。"
+    ],
+    "/item ... from ...": [
+      "<modifier>不满足以下所有条件："
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "<targets>无法选中一个或多个实体（被指定的玩家必须在线上）": [
+      "指定的所有实体都满足以下条件中的至少一个："
+    ],
+    "执行成功": [
+      "1",
+      "1"
+    ],
+    "示例": [
+      "将上方2格处的一个小型箱子右下角槽位内的物品替换成4棵云杉树苗：",
+      "/item replace block ~ ~2 ~ container.26 with minecraft:spruce_sapling 4",
+      "将最近玩家的快捷栏最右槽位内的物品替换成4棵云杉树苗：",
+      "/item replace entity @p hotbar.8 with minecraft:spruce_sapling 4",
+      "定义一个内联物品修饰器，尝试将执行者主手上的可以放进熔炉烧制的物品替换为其烧制之后的物品（比如生猪排将替换为熟猪排）：",
+      "/item modify entity @s weapon.mainhand {function:\"furnace_smelt\"}",
+      "定义一个内联物品修饰器，尝试移除玩家头盔栏内物品上的绑定诅咒和消失诅咒魔咒：",
+      "/item modify entity @s armor.head {function:\"set_enchantments\", enchantments:{\"binding_curse\":0, \"vanishing_curse\":0}, add:false}"
+    ],
+    "参见": [
+      "/data - 通过修改NBT来替换一个容器或实体物品栏中的物品。",
+      "/give - 直接给予玩家物品，但不指定具体的槽位或覆盖原有物品。"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Version manifest.json",
+  "source_url": "https://zh.minecraft.wiki/w/Version_manifest.json",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "version_manifest.json及其变种version_manifest_v2.json是一个来自piston-meta.mojang.com的包含Java版版本记录列表的文件。它为启动器列出了可用的Minecraft版本。",
+      "如果一个版本不在这个列表中，则被认为是在启动器中不可用，如Java版1.14.3 - Combat Test。",
+      "这个列表将在每次Mojang发布新版Java版时更新。"
+    ],
+    "JSON格式": [
+      "这是version_manifest.json的JSON格式。",
+      "根标签。",
+      "latest：最新的稳定发布版和快照版。",
+      "release：最新稳定发布版的版本ID。",
+      "snapshot：最新快照版的版本ID。",
+      "versions：可用版本列表。",
+      "：其中一个版本条目。",
+      "id：该版本的ID。",
+      "type：版本类型，可以是：release（正式版）、snapshot（快照）、old_beta（Beta版）或old_alpha（Alpha及更早的版本）。",
+      "url：下载版本对应的<version id>.json文件链接。",
+      "time：使用ISO 8601格式化的数据，用于表示版本的更新时间。[需要更多信息]",
+      "releaseTime：使用ISO 8601格式化的数据，用于表示版本的发布时间。",
+      "sha1（仅v2）：该版本的SHA1散列值，也是JSON文件的ID。",
+      "complianceLevel（仅v2）：如果为0，启动器会警告用户此版本因老旧而不足以支持最新的玩家安全特性。其他情况为1。"
+    ],
+    "历史": [
+      "2022年6月15日",
+      "托管version_manifest.json和version_manifest_v2.json文件的主机由launchermeta.mojang.com改为piston-meta.mojang.com。"
+    ],
+    "version_manifest.json": [
+      "version_manifest_v2.json"
+    ]
+  }
+}

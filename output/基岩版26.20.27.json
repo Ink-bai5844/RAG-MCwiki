@@ -1,0 +1,5 @@
+{
+  "title": "基岩版26.20.27",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.20.27",
+  "text": "26.20.27\n版本\n基岩版\n服务端版本\n1.26.20.27\n内部版本号\nAndroid：1.26.20.27\nWindows：1.26.2027.0\n版本码\nAndroid：\n952602027（armeabi-v7a，35）\n962602027（x86，35）\n972602027（arm64-v8a，35）\n982602027（x86_64，35）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2026年4月14日\n测试版归属\n26.20\n下载\n服务端\nWindowsLinux\n协议版本\n975\n◄◄26.13\n◄26.20.26\n26.20.28►\nbeta 26.20.27（ChromeOS/Android）、Preview 26.20.27（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的第6个测试版，发布于2026年4月14日，修复了一个漏洞。\n修复\nRealms\n修复了尝试在启用“2026 年第 2 次更新”实验性选项的情况下创建或进入Realm时可能发生的错误。\n参考\nMinecraft Beta & Preview - 26.20.27/28 — Minecraft Feedback，2026年4月14日。\n导航"
+}

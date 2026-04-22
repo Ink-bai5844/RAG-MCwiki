@@ -1,0 +1,14 @@
+{
+  "title": "物品格式/指南针",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E6%A0%BC%E5%BC%8F%2F%E6%8C%87%E5%8D%97%E9%92%88",
+  "structured_content": {
+    "默认分类": [
+      "LodestoneDimension：磁石指针指向的坐标的所在维度。",
+      "LodestonePos：磁石指针指向的坐标。",
+      "X：X坐标。",
+      "Y：Y坐标。",
+      "Z：Z坐标。",
+      "LodestoneTracked：表示指南针是否绑定在一个磁石上。为false时，当磁石被破坏后LodestoneDimension和LodestonePos不会被自动移除，指南针仍然指向该位置。"
+    ]
+  }
+}

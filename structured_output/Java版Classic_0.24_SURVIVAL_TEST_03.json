@@ -1,0 +1,34 @@
+{
+  "title": "Java版Classic 0.24 SURVIVAL TEST 03",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.24_SURVIVAL_TEST_03",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.24_SURVIVAL_TEST_03"
+    ],
+    "发布时间": [
+      "2009年9月1日"
+    ],
+    "协议版本": [
+      "6"
+    ],
+    "al_version": [
+      "6.47",
+      "◄◄0.24_SURVIVAL_TEST",
+      "0.25 SURVIVAL TEST►►",
+      "◄0.24_SURVIVAL_TEST_02",
+      "0.24_SURVIVAL_TEST_03是Java版的一次更新，发布于2009年9月1日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了3个漏洞",
+      "修复了当苦力怕炸毁液体时，液体会掉落自己的漏洞。",
+      "修复了一个允许玩家将方块复制到快捷栏中的漏洞。",
+      "修复了大多数0.24 SURVIVAL TEST中的其他漏洞。"
+    ],
+    "参考": [
+      "IRC记录 on Archive.org; #minecraft.20090901.log. 2009年9月1日 (UTC−5)。",
+      "IRC记录: \"P1:22:12 <Marach> now it is _03 version!\" (18:22 UTC)"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title": "命令/dialog",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdialog",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是命令/dialogue。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "向玩家展示或清除对话框。"
+    ],
+    "dialog clear <targets>": [
+      "清除对话框。"
+    ],
+    "dialog show <targets> <dialog>": [
+      "展示对话框。"
+    ],
+    "参数": [
+      "<targets>：entity",
+      "必须为玩家名、目标选择器或UUID。且要求目标选择器为玩家类型，若不是则此命令将无法解析。",
+      "<dialog>：dialog",
+      "指定要展示的对话框。",
+      "以命名空间ID或SNBT形式指定对话框。必须是一个SNBT格式的对话框数据，或者是一个具有指定ID的对话框（minecraft:dialog注册表中的注册项）。对于NBT标签，若是一个字符串标签，也会被解析成一个命名空间ID并获取具有此ID的对话框；否则将此SNBT解析为一个对话框数据。"
+    ],
+    "Java版": [
+      "1.21.6",
+      "25w20a",
+      "加入了/dialog命令。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "向最近的玩家展示位于数据包data/custom/dialog/example/test.json中的对话框：",
+      "/dialog show @p custom:example/test",
+      "向所有玩家展示一个标题为“你好”，正文为“很高兴认识你！”的对话框：",
+      "/dialog show @a {type:\"minecraft:notice\", title:\"你好\", body:[{type:\"minecraft:plain_message\", contents:\"很高兴认识你！\"}]}",
+      "为所有玩家清除任何可见对话框："
+    ]
+  }
+}

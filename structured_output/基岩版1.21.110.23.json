@@ -1,0 +1,199 @@
+{
+  "title": "基岩版1.21.110.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.110.23",
+  "structured_content": {
+    "默认分类": [
+      "1.21.110.23"
+    ],
+    "服务端版本": [
+      "1.21.110.23"
+    ],
+    "版本码": [
+      "Android：",
+      "952111023（armeabi-v7a，34）",
+      "962111023（x86，34）",
+      "972111023（arm64-v8a，34）",
+      "982111023（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年8月6日"
+    ],
+    "测试版归属": [
+      "1.21.111"
+    ],
+    "协议版本": [
+      "838",
+      "◄◄1.21.101",
+      "1.21.112►►",
+      "◄1.21.110.22",
+      "1.21.110.24►",
+      "beta 1.21.110.23（ChromeOS/Android）、Preview 1.21.110.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.111的第3个测试版，发布于2025年8月6日，加入了一些铜质装饰性方块，并修复了一些漏洞。"
+    ],
+    "方块": [
+      "自定义方块现在永远不可在material_instance组件中用于支持多个不同的render_method。此方案现在会发出内容日志警告以告知创作者。（MCPE-190430）",
+      "选取方块现在对所有光源方块变种生效，包括light_block_0至light_block_15。（MCPE-135298）",
+      "为blocks.json加入了oak_planks、​spruce_planks、​birch_planks、​jungle_planks、​acacia_planks和​dark_oak_planks定义。（MCPE-177977）",
+      "为blocks.json加入了mossy_stone_brick_double_slab、​smooth_quartz_double_slab、​normal_stone_double_slab、​cut_sandstone_double_slab和​cut_red_sandstone_double_slab定义。",
+      "现在红石比较器能够从背面检测任意朝向的展示架。（MCPE-225226）",
+      "修复了在铜箱子上行走、跳跃和着陆时会播放默认音效的问题。（MCPE-223737）",
+      "修复了多人游戏和分屏模式中的铜傀儡像不会始终更新姿势的问题。",
+      "现在铜傀儡像被活塞推动时会像其他非完整立体装饰性方块一样掉落。",
+      "修复了铜傀儡像不能含水的问题。（MCPE-225241）",
+      "修复了只有未氧化的避雷针会在被闪电击中时发出红石信号的问题。",
+      "现在所有避雷针被闪电击中时都会像Java版一样闪烁白色。"
+    ],
+    "铜火把": [
+      "火把的变种。",
+      "由铜粒、煤炭和木棍合成。"
+    ],
+    "铜栏杆": [
+      "铁栏杆的铜质变种。",
+      "由6个铜锭合成。",
+      "能够氧化、被涂蜡、除蜡或除锈。"
+    ],
+    "铜链": [
+      "铁链的铜质变种。",
+      "由2个铜粒和1个铜锭合成。",
+      "能够氧化、被涂蜡、除蜡或除锈。",
+      "与铁链一样，可用于合成悬挂式告示牌。"
+    ],
+    "铜灯笼": [
+      "灯笼的铜质变种。",
+      "由8个铜粒和1个铜火把合成。",
+      "能够氧化、被涂蜡、除蜡或除锈。",
+      "氧化程度仅会改变外观，不会影响亮度。"
+    ],
+    "粒子": [
+      "加入了green_flame_particle粒子。"
+    ],
+    "铜箱子": [
+      "现在可与蜜脾合成为对应的涂蜡变种。"
+    ],
+    "铜傀儡像": [
+      "现在被活塞推动时会被破坏并掉落，并且不再能被黏性活塞拉动。",
+      "现在可以含水。",
+      "现在可与蜜脾合成为对应的涂蜡变种。"
+    ],
+    "铜活板门": [
+      "配方由6个铜锭更改为4个铜锭。"
+    ],
+    "铁链": [
+      "锁链（Chain）现在被重命名为铁链（Iron Chain）。",
+      "ID由chain更改为iron_chain。",
+      "chain仍然可用，但不会在命令提示中显示。"
+    ],
+    "避雷针": [
+      "现在未涂蜡的避雷针会在被闪电击中时完全变白，以匹配Java版。",
+      "现在可与蜜脾合成为对应的涂蜡变种。"
+    ],
+    "展示架": [
+      "现在创造模式玩家手持物品与未激活的展示架交互时，所选槽位中的物品会被替换为玩家手持物品，而不是与之交换。",
+      "调整了槽位中物品的位置。"
+    ],
+    "物品": [
+      "修复了自定义物品的menu_category的is_hidden_in_commands值不会发送给客户端，并且这些物品会在不该显示时在命令自动补全中显示的漏洞。",
+      "现在所有可食用物品均带有minecraft:is_food标签，glow_berries（发光浆果）除外。"
+    ],
+    "剪刀": [
+      "现在可用于剪下铜傀儡头上的虞美人。",
+      "不会掉落虞美人。"
+    ],
+    "生物": [
+      "minecraft:shareables组件现在也接受已指定物品标签的物品项，以能够命名所有带有该标签的物品以使它们在指定设置下变得可分享。",
+      "狐狸现在使用minecraft:is_food标签，而不是手动列出所有物品，除了glow_berries发光浆果仍然需要手动列出。",
+      "修复了minecraft:shareables组件会在其items列表中混合重复项的属性的漏洞。",
+      "例如，之前priority会取用第一个重复元素，max_amount会取用最后一个，而现在第一个“匹配”项会完全覆盖后来的项。",
+      "在minecraft:shareables中考虑使用新功能tag的items列表：",
+      "\"items\":[{\"item\":\"minecraft:apple\",\"priority\":1,\"max_amount\":2},{\"item\":\"minecraft:is_food\",\"priority\":0,\"max_amount\":1}]",
+      "之前minecraft:apple（苹果）的priority为1，但max_amount为1而非2，现在这种情况会正确使用第一个物品项苹果中的所有数据。",
+      "修复了狼铠只会在受到伤害后在视觉上显示，而不是在装备时就显示的问题。（MCPE-225471）",
+      "狐狸现在会将蜂蜜瓶视为食物物品，并以与其他食物物品相同的方式优先捡起蜂蜜瓶。",
+      "铜傀儡现在仅会在能够找到前往方块的路径时将该方块计入最大搜寻次数。（MCPE-223837）",
+      "铜傀儡被拴住时不再会尝试运输物品。",
+      "修复了无法将铜傀儡拴在其他实体上的问题。",
+      "修复了坐在船上时位置不正确的问题。",
+      "修复了铜傀儡转变为铜傀儡像时会复制其物品的问题。（MCPE-225251）",
+      "修复了铜傀儡会尝试寻路到任意距离过远以至于无法打开的悬空铜箱子的问题。",
+      "修复了铜傀儡有时会在转变为铜傀儡像时放置两个铜傀儡像的问题。（MCPE-225259）",
+      "缩小了铜傀儡的碰撞箱，以使能够像其他生物一样正常穿过门。",
+      "修复了铜傀儡的step4音效文件被命名为step4_，进而导致该音效永远不会播放的问题。（MCPE-223857）"
+    ],
+    "铜傀儡": [
+      "将碰撞箱宽度由0.875格缩小至0.6格。",
+      "现在可以开关木门和铜门。"
+    ],
+    "铁傀儡": [
+      "现在会将虞美人赠予附近的铜傀儡，接受的铜傀儡会将其戴到头上。"
+    ],
+    "狐狸": [
+      "现在会将蜂蜜瓶视为食物类食品，并会倾向于将其捡起。"
+    ],
+    "生物群系": [
+      "现在洞穴与山崖前组件minecraft:overworld_generation_rules和​minecraft:multinoise_generation_rules不会对生物群系生成起作用，并且会在用于自定义生物群系时返回内容日志错误。"
+    ],
+    "基岩版编辑器": [
+      "为脚本加入了EditorStructure缺失的显示名称字段。",
+      "加入了对弹窗消息显示的支持。",
+      "此项具体任务在设置面板中加入了一个名为“显示弹窗通知”的新选项。",
+      "选中此复选框时，信息和警告消息会显示为弹窗消息。",
+      "在GraphicsSettingsProperty枚举中加入了新的值ShowToastNotifications。",
+      "修复了一个漏洞，因此结构面板中设置的原点值现在会在粘贴预览中反映。",
+      "修复了结构面板中设置的原点值和尺寸值无法传播至编辑器结构元数据的漏洞。",
+      "修复了导致水平方向子窗格中部分属性项目的布局出现损坏的漏洞。",
+      "修复了导致部分已暂停的实体变形的漏洞。",
+      "修复了定位工具无法找到远处生物群系的漏洞。",
+      "更新了定位工具，以使用组合框进行生物群系选择。",
+      "修复了线条工具无法填充长线条或远离玩家的线条的漏洞。",
+      "修复了隐藏的小工具小部件会在创建时显示的漏洞。"
+    ],
+    "Molang": [
+      "将query.is_cooldown_type重命名为query.is_cooldown_category，以更好反映其功能。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”子选项后才可使用。"
+    ],
+    "API": [
+      "为GameTest加入了setAfterBatchMethod和​setBeforeBatchMethod，可用于添加在测试批次之前和之后运行的方法。",
+      "为方块脚本API加入了一些方法，允许创作者获取指定位置上的总光照等级和天空光照等级。",
+      "移除了beta中的PotionModifierType。",
+      "移除了beta中的PotionOptions。",
+      "将beta中的PotionLiquidType重命名为PotionDeliveryType。",
+      "为beta加入了InvalidPotionDeliveryTypeError和​InvalidPotionEffectTypeError错误。"
+    ],
+    "Potions": [
+      "为beta加入了resolve(potionEffectType: PotionEffectType | T, potionDeliveryType: PotionDeliveryType | U): ItemStack方法。",
+      "此方法取代了ItemStack中被移除的createPotion(options: PotionOptions): ItemStack。",
+      "移除了beta中的getPotionModifierType(potionModifierId: string): PotionModifierType | undefined。",
+      "为beta加入了getAllDeliveryTypes(): PotionDeliveryType[]方法。",
+      "此方法会返回所有的药水投掷类型。",
+      "为beta加入了getAllEffectTypes(): PotionEffectType[]方法。",
+      "此方法会返回所有的药水效果类型。",
+      "将beta中的getPotionEffectType重命名为getEffectType。",
+      "将beta中的getPotionLiquidType重命名为getDeliveryType。"
+    ],
+    "ItemPotionComponent": [
+      "移除了beta中的readonly potionLiquidType: PotionLiquidType属性。",
+      "将beta中的readonly potionLiquidType: PotionLiquidType属性重命名为readonly potionDeliveryType: PotionDeliveryType。"
+    ],
+    "PotionEffectType": [
+      "为beta加入了readonly durationTicks?: number属性。",
+      "这是效果持续的刻数。未定义意味着效果不会到期。",
+      "移除了static createPotion(options: PotionOptions): ItemStack方法。",
+      "此方法已被Potions.resolve取代。"
+    ],
+    "常规": [
+      "改进了冻河区块附近的混合效果。（MCPE-189996）"
+    ],
+    "用户界面": [
+      "现在使用/hud命令来隐藏触摸控制按钮时会正确隐藏所有触控按钮。（MCPE-184856）",
+      "动作栏现在拥有文本阴影。（MCPE-186346）",
+      "现在使用/hud命令来隐藏进度条时也会隐藏马和骆驼的蓄力条以及定位栏。（MCPE-184858）"
+    ],
+    "辅助功能": [
+      "为所有更衣室页面加入了文本转语音支持。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.110.23 — Minecraft Feedback，2025年8月6日。"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "基岩版1.21.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.21",
+  "structured_content": {
+    "默认分类": [
+      "1.21.21"
+    ],
+    "内部版本号": [
+      "Android：1.21.21.01",
+      "PlayStation：2.94",
+      "Windows：1.21.2101.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952102101（armeabi-v7a，34）",
+      "962102101（x86，34）",
+      "972102101（arm64-v8a，34）",
+      "982102101（x86_64，34）",
+      "iOS/iPadOS：",
+      "868215813"
+    ],
+    "发布时间": [
+      "ChromeOS/Android, iOS/iPadOS, Fire, PlayStation, Xbox - 2024年8月14日",
+      "Windows - 2024年8月15日",
+      "Nintendo Switch - 2024年8月20日"
+    ],
+    "协议版本": [
+      "712",
+      "◄◄1.21.0",
+      "1.21.40►►",
+      "◄1.21.20",
+      "1.21.22►",
+      "1.21.21是基岩版的一次热修复更新，在除Windows和Nintendo Switch外的平台上发布于2024年8月14日，在Windows平台上发布于2024年8月15日，在Nintendo Switch平台上发布于2024年8月20日，修复了一个漏洞。此版本与1.21.20相兼容。"
+    ],
+    "修复": [
+      "提高了连接到Realms的可靠性。"
+    ],
+    "参考": [
+      "Minecraft - 1.21.21 (Bedrock) — Minecraft Feedback，2024年8月14日。"
+    ]
+  }
+}

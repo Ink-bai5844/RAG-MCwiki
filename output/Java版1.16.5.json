@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.16.5",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.16.5",
+  "text": "1.16.5\n版本\nJava版\n发布时间\n2021年1月15日\n开发版本\n1个发布候选\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\n754\n数据版本\n2586\n资源包版本\n6\n数据包版本\n6\n◄◄1.16\n1.17►►\n◄1.16.4\n1.16.5是Java版的一次次要更新，发布于2021年1月15日，修复了两个有关服务器崩溃的重要稳定性漏洞。此版本不兼容1.16到1.16.3的服务端，兼容1.16.4的服务端。\n修复\n修复了3个漏洞\n1.16.3的漏洞\nMC-203337 — 崩溃错误“java.lang.IllegalStateException: POI data mismatch: already registered”。\n其他漏洞\n修复了2个重要稳定性漏洞。\n参考\nMinecraft Java 1.16.5 Released — Minecraft.net，2021年1月15日。\n导航"
+}

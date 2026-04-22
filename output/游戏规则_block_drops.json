@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/block drops",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fblock_drops",
+  "text": "block_drops（Java版）\n名称\n方块掉落\n描述\n控制方块是否掉落资源，包括经验球。\n分类（JE）\n掉落\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nblock_drops\ndoTileDrops（基岩版）\n名称\n方块掉落\n描述\n方块被破坏时会掉落战利品\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ndoTileDrops\nblock_drops[仅Java版]或doTileDrops[仅基岩版]或是控制方块掉落物品的游戏规则。\n行为\n当block_drops[仅Java版]或doTileDrops[仅基岩版]为false时：\n方块被破坏时不会使用其战利品表生成任何掉落物，不会掉落经验球。\n破坏潜影盒不会掉落任何物品。\n破坏虫蚀方块时不会生成蠹虫。\n盔甲架死亡时不会掉落自身和装备的物品。\n对着蜂巢/蜂箱使用剪刀不会掉落蜜脾。\n对着甜浆果丛/洞穴藤蔓按下使用键不会掉落甜浆果/发光浆果。\n对着大型花/粉红色花簇/野花簇使用骨粉时，不会掉落对应花种。\n此游戏规则不影响箱子等容器被破坏时掉落内容物的行为。\n此游戏规则不影响盔甲架死亡时从战利品表抽取的掉落物，这一行为受游戏规则“生物战利品掉落”（mob_drops[仅Java版]或doMobLoot[仅基岩版]）控制。\n历史\nJava版\n1.4.2\n12w32a\n加入了游戏规则doTileDrops。\n1.8.1\npre1\ndoTileDrops不再影响非生物实体的掉落。\n1.9\n15w46a\n现在doTileDrops也影响方块经验的掉落。\n1.16\npre5\n将游戏规则doTileDrops的描述由“控制是否掉落资源，包括经验球”改为“控制破坏方块后是否掉落资源，包括经验球”。\n1.21.11\n25w44a\n将游戏规则doTileDrops重命名为block_drops。\n携带版\n1.1.0\n1.1.0.0\n加入了游戏规则doTileDrops。\n导航"
+}

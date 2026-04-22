@@ -1,0 +1,937 @@
+{
+  "title": "定义",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%AE%9A%E4%B9%89",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。",
+      "定义（Definitions）是基岩版中实体NBT格式下的一个列表型NBT标签，用于确定该实体的实际行为。"
+    ],
+    "实现方式": [
+      "实体的定义文件中定义了实体的组件、组件组。组件组是包含一系列组件的集合，可以在原版服务端附加包内的entities文件夹内发现。每一个实体都有其对应的.json文件，而文件内的component_groups键值对即为该实体的具体定义组件。",
+      "实体NBT格式里包含了一个名为definitions的列表型NBT标签，该NBT标签以“操作符+定义组件组ID”的方式来对单个实体的行为进行了详细的定义。",
+      "操作符类型只有两种：+和-。+操作符是用来定义目前的实体行为的。在实体行为得到更新后，原来的定义组件组ID不会直接移除，而是将操作符更改为-以表示将该定义删除。",
+      "若该实体没有任何定义组件组，则会给definitions标签留下一个\"+\"和它自身名称（例如\"+minecraft:player\"）以作占位符。",
+      "此外，某些定义组件组ID是互斥的，这意味着它们不可能同时存在。利用操作符可以控制哪种ID该实现或（暂时性地）删除。"
+    ],
+    "成年": [
+      "minecraft:camel_baby",
+      "minecraft:cat_baby",
+      "minecraft:chicken_baby",
+      "minecraft:cow_baby",
+      "minecraft:dolphin_baby",
+      "minecraft:donkey_baby",
+      "minecraft:baby_drowned",
+      "minecraft:fox_baby",
+      "minecraft:horse_wild",
+      "minecraft:zombie_husk_baby",
+      "minecraft:llama_baby",
+      "minecraft:cow_baby",
+      "minecraft:mule_baby",
+      "minecraft:ocelot_baby",
+      "minecraft:panda_baby",
+      "minecraft:parrot_red",
+      "minecraft:pig_baby",
+      "minecraft:baby",
+      "minecraft:baby",
+      "minecraft:sheep_baby",
+      "minecraft:skeleton_trap",
+      "minecraft:strider_baby",
+      "minecraft:baby",
+      "minecraft:wolf_baby",
+      "minecraft:zombie_baby",
+      "minecraft:horse_baby",
+      "minecraft:pig_zombie_baby"
+    ],
+    "幼年": [
+      "minecraft:camel_saddled",
+      "minecraft:cat_wild",
+      "minecraft:dolphin_angry",
+      "minecraft:donkey_wild",
+      "minecraft:mode_switcher",
+      "minecraft:fox_with_item",
+      "minecraft:horse_adult",
+      "minecraft:look_to_start_zombie_transformation",
+      "minecraft:llama_wandering_trader",
+      "minecraft:mooshroom_fed_nothing",
+      "minecraft:mule_wild",
+      "minecraft:ocelot_wild",
+      "minecraft:panda_lazy",
+      "minecraft:pig_transform",
+      "minecraft:baby_wild",
+      "minecraft:coat_brown",
+      "minecraft:loot_sheared",
+      "minecraft:strider_saddled",
+      "minecraft:pregnant",
+      "minecraft:wolf_wild",
+      "minecraft:look_to_start_drowned_transformation",
+      "minecraft:pig_zombie_angry"
+    ],
+    "棕色": [
+      "minecraft:llama_gray"
+    ],
+    "在陆地上干涸受伤": [
+      "minecraft:dolphin_swimming_navigation"
+    ],
+    "在陆地上": [
+      "minecraft:dolphin_on_land"
+    ],
+    "骆驼": [
+      "minecraft:camel_adult"
+    ],
+    "已装备鞍": [
+      "minecraft:camel_standing",
+      "minecraft:base_white",
+      "minecraft:strider_unsaddled"
+    ],
+    "站立": [
+      "minecraft:camel_sitting"
+    ],
+    "猫": [
+      "minecraft:cat_adult"
+    ],
+    "野生": [
+      "minecraft:cat_tame",
+      "minecraft:donkey_tamed",
+      "minecraft:horse_tamed",
+      "minecraft:llama_tamed",
+      "minecraft:mule_tamed",
+      "minecraft:parrot_tame",
+      "minecraft:wolf_angry"
+    ],
+    "已驯服": [
+      "minecraft:cat_gift_for_owner",
+      "minecraft:donkey_unchested",
+      "minecraft:horse_saddled",
+      "minecraft:llama_unchested",
+      "minecraft:mule_unchested"
+    ],
+    "送给主人的礼物": [
+      "minecraft:cat_white"
+    ],
+    "白猫": [
+      "minecraft:cat_tuxedo"
+    ],
+    "西服猫": [
+      "minecraft:cat_red"
+    ],
+    "红虎斑猫": [
+      "minecraft:cat_siamese"
+    ],
+    "暹罗猫": [
+      "minecraft:cat_british"
+    ],
+    "英国短毛猫": [
+      "minecraft:cat_calico"
+    ],
+    "花猫": [
+      "minecraft:cat_persian"
+    ],
+    "波斯猫": [
+      "minecraft:cat_ragdoll"
+    ],
+    "布偶猫": [
+      "minecraft:cat_tabby"
+    ],
+    "虎斑猫": [
+      "minecraft:cat_black"
+    ],
+    "黑猫": [
+      "minecraft:cat_jellie"
+    ],
+    "洞穴蜘蛛": [
+      "minecraft:spider_jockey"
+    ],
+    "被骷髅骑乘": [
+      "minecraft:spider_stray_jockey",
+      "minecraft:spider_stray_jockey"
+    ],
+    "被流浪者骑乘": [
+      "minecraft:spider_wither_jockey",
+      "minecraft:spider_wither_jockey"
+    ],
+    "被凋灵骷髅骑乘": [
+      "minecraft:spider_neutral",
+      "minecraft:spider_neutral"
+    ],
+    "在日光下变为中立状态": [
+      "minecraft:spider_hostile",
+      "minecraft:spider_hostile"
+    ],
+    "默认敌对状态": [
+      "minecraft:spider_angry",
+      "minecraft:spider_angry"
+    ],
+    "在日光下被攻击后恢复敌对": [
+      "minecraft:spider_poison_easy"
+    ],
+    "简单难度下的中毒效果": [
+      "minecraft:spider_poison_normal"
+    ],
+    "普通难度下的中毒效果": [
+      "minecraft:spider_poison_hard"
+    ],
+    "鸡": [
+      "minecraft:chicken_adult"
+    ],
+    "牛": [
+      "minecraft:cow_adult"
+    ],
+    "苦力怕": [
+      "minecraft:exploding"
+    ],
+    "常规苦力怕爆炸": [
+      "minecraft:charged_creeper"
+    ],
+    "闪电苦力怕": [
+      "minecraft:charged_exploding"
+    ],
+    "闪电苦力怕爆炸": [
+      "minecraft:forced_exploding"
+    ],
+    "常规苦力怕被打火石点燃": [
+      "minecraft:forced_charged_exploding"
+    ],
+    "海豚": [
+      "minecraft:dolphin_adult"
+    ],
+    "敌对状态": [
+      "minecraft:dolphin_dried",
+      "minecraft:guardian_passive",
+      "minecraft:llama_angry_wolf",
+      "minecraft:baby_scared",
+      "minecraft:wolf_tame",
+      "minecraft:pig_zombie_calm"
+    ],
+    "寻找海底废墟或沉船": [
+      "minecraft:dolphin_on_land"
+    ],
+    "驴": [
+      "minecraft:donkey_adult"
+    ],
+    "未装备箱子": [
+      "minecraft:donkey_chested",
+      "minecraft:llama_chested",
+      "minecraft:mule_chested"
+    ],
+    "已装备箱子": [
+      "minecraft:donkey_saddled",
+      "minecraft:llama_angry",
+      "minecraft:mule_saddled"
+    ],
+    "溺尸": [
+      "minecraft:adult_drowned"
+    ],
+    "选择行为模式（见下方ID）": [
+      "minecraft:ranged_mode"
+    ],
+    "使用三叉戟远程攻击": [
+      "minecraft:melee_mode"
+    ],
+    "近战攻击": [
+      "minecraft:hunter_mode",
+      "minecraft:raid_configuration"
+    ],
+    "定位并追逐生物": [
+      "minecraft:wander_mode"
+    ],
+    "末影龙": [
+      "minecraft:dragon_sitting"
+    ],
+    "停留在返回传送门上": [
+      "minecraft:dragon_flying"
+    ],
+    "飞行": [
+      "minecraft:dragon_death"
+    ],
+    "末影人": [
+      "minecraft:enderman_calm"
+    ],
+    "中立状态": [
+      "minecraft:enderman_angry"
+    ],
+    "唤魔者": [
+      "minecraft:celebrate"
+    ],
+    "庆祝": [
+      "minecraft:raid_configuration",
+      "minecraft:ranged_attack",
+      "minecraft:pillager_rider",
+      "minecraft:vindicator_aggro",
+      "minecraft:raid_configuration"
+    ],
+    "定义袭击事件": [
+      "minecraft:illager_squad_captain",
+      "minecraft:hostile",
+      "minecraft:illager_squad_captain"
+    ],
+    "狐狸": [
+      "minecraft:fox_adult"
+    ],
+    "叼着物品": [
+      "minecraft:trusting_fox"
+    ],
+    "信任玩家": [
+      "minecraft:docile_fox"
+    ],
+    "可使唤": [
+      "minecraft:defending_fox"
+    ],
+    "逃离玩家或天敌": [
+      "minecraft:fox_red"
+    ],
+    "红色狐狸": [
+      "minecraft:fox_arctic"
+    ],
+    "白色狐狸": [
+      "minecraft:fox_thunderstorm"
+    ],
+    "处于雷暴天气下": [
+      "minecraft:fox_day"
+    ],
+    "处于白天状态下": [
+      "minecraft:fox_night"
+    ],
+    "处于黑夜状态下": [
+      "minecraft:fox_ambient_normal"
+    ],
+    "发出常规空闲声音": [
+      "minecraft:fox_ambient_sleep"
+    ],
+    "发出睡觉空闲声音": [
+      "minecraft:fox_ambient_night"
+    ],
+    "发光鱿鱼": [
+      "minecraft:squid_baby"
+    ],
+    "守卫者": [
+      "minecraft:guardian_aggressive"
+    ],
+    "马": [
+      "minecraft:horse_baby"
+    ],
+    "白色底": [
+      "minecraft:base_creamy"
+    ],
+    "奶油色底": [
+      "minecraft:base_chestnut"
+    ],
+    "栗色底": [
+      "minecraft:base_brown"
+    ],
+    "棕色底": [
+      "minecraft:base_black"
+    ],
+    "黑色底": [
+      "minecraft:base_gray"
+    ],
+    "灰色底": [
+      "minecraft:base_darkbrown"
+    ],
+    "深棕色底": [
+      "minecraft:markings_none"
+    ],
+    "没有斑点（纯色）": [
+      "minecraft:markings_white_details"
+    ],
+    "白色斑点": [
+      "minecraft:markings_white_fields",
+      "minecraft:markings_black_dots"
+    ],
+    "雪片白斑": [
+      "minecraft:markings_white_dots"
+    ],
+    "尸壳": [
+      "minecraft:zombie_husk_jockey"
+    ],
+    "作为骑士": [
+      "minecraft:zombie_husk_adult",
+      "minecraft:can_have_equipment"
+    ],
+    "受到溺水伤害": [
+      "minecraft:start_zombie_transformation",
+      "minecraft:start_drowned_transformation"
+    ],
+    "开始转变为僵尸": [
+      "minecraft:convert_to_zombie"
+    ],
+    "转变为僵尸": [
+      "minecraft:convert_to_baby_zombie"
+    ],
+    "铁傀儡": [
+      "minecraft:player_created"
+    ],
+    "由玩家生成": [
+      "minecraft:village_created"
+    ],
+    "羊驼": [
+      "minecraft:llama_adult"
+    ],
+    "行商羊驼": [
+      "minecraft:strength_<数字>",
+      "“强度”数据（数字为1-5）",
+      "minecraft:llama_creamy"
+    ],
+    "奶油色": [
+      "minecraft:llama_white"
+    ],
+    "白色": [
+      "minecraft:llama_brown"
+    ],
+    "灰色": [
+      "minecraft:llama_wild"
+    ],
+    "对狼保持敌对状态": [
+      "minecraft:llama_defend_trader"
+    ],
+    "保护流浪商人": [
+      "minecraft:in_caravan"
+    ],
+    "岩浆怪": [
+      "minecraft:slime_large"
+    ],
+    "大型岩浆怪": [
+      "minecraft:slime_medium"
+    ],
+    "中型岩浆怪": [
+      "minecraft:slime_small"
+    ],
+    "小型岩浆怪": [
+      "minecraft:slime_calm"
+    ],
+    "空闲状态": [
+      "minecraft:slime_aggressive",
+      "minecraft:silverfish_angry",
+      "minecraft:slime_aggressive"
+    ],
+    "攻击状态": [
+      "minecraft:vindicator_johnny"
+    ],
+    "哞菇": [
+      "minecraft:mooshroom_become_cow"
+    ],
+    "变成普通牛": [
+      "minecraft:cow_adult"
+    ],
+    "棕色哞菇没有被喂食花": [
+      "minecraft:mooshroom_brown_fed_poppy"
+    ],
+    "棕色哞菇被喂食虞美人": [
+      "minecraft:mooshroom_brown_fed_cornflower"
+    ],
+    "棕色哞菇被喂食矢车菊": [
+      "minecraft:mooshroom_brown_fed_tulips"
+    ],
+    "棕色哞菇被喂食郁金香": [
+      "minecraft:mooshroom_brown_fed_azure_bluet"
+    ],
+    "棕色哞菇被喂食蓝花美耳草": [
+      "minecraft:mooshroom_brown_fed_lily_of_the_valley"
+    ],
+    "棕色哞菇被喂食铃兰": [
+      "minecraft:mooshroom_brown_fed_dandelion"
+    ],
+    "棕色哞菇被喂食蒲公英": [
+      "minecraft:mooshroom_brown_fed_blue_orchid"
+    ],
+    "棕色哞菇被喂食兰花": [
+      "minecraft:mooshroom_brown_fed_allium"
+    ],
+    "棕色哞菇被喂食绒球葱": [
+      "minecraft:mooshroom_brown_fed_oxeye_daisy"
+    ],
+    "棕色哞菇被喂食滨菊": [
+      "minecraft:mooshroom_brown_fed_wither_rose"
+    ],
+    "棕色哞菇被喂食凋灵玫瑰": [
+      "minecraft:mooshroom_red"
+    ],
+    "红色哞菇": [
+      "minecraft:mooshroom_brown"
+    ],
+    "骡": [
+      "minecraft:mule_adult"
+    ],
+    "豹猫": [
+      "minecraft:ocelot_adult"
+    ],
+    "野生（未获取信任）": [
+      "minecraft:ocelot_trusting"
+    ],
+    "与玩家获取信任": [
+      "minecraft:ocelot_tame"
+    ],
+    "熊猫": [
+      "minecraft:panda_adult"
+    ],
+    "懒惰的熊猫": [
+      "minecraft:panda_worried"
+    ],
+    "忧郁的熊猫": [
+      "minecraft:panda_playful",
+      "minecraft:panda_sneezing"
+    ],
+    "顽皮的熊猫": [
+      "minecraft:panda_brown"
+    ],
+    "棕色熊猫": [
+      "minecraft:panda_weak"
+    ],
+    "体弱的熊猫": [
+      "minecraft:panda_worried"
+    ],
+    "打喷嚏": [
+      "minecraft:panda_aggressive"
+    ],
+    "好斗的熊猫": [
+      "minecraft:panda_angry"
+    ],
+    "鹦鹉": [
+      "minecraft:parrot_adult"
+    ],
+    "红色鹦鹉": [
+      "minecraft:parrot_blue"
+    ],
+    "蓝色鹦鹉": [
+      "minecraft:parrot_green"
+    ],
+    "绿色鹦鹉": [
+      "minecraft:parrot_cyan"
+    ],
+    "青色鹦鹉": [
+      "minecraft:parrot_silver"
+    ],
+    "灰色鹦鹉": [
+      "minecraft:parrot_wild"
+    ],
+    "猪": [
+      "minecraft:pig_adult"
+    ],
+    "转变为僵尸猪灵": [
+      "minecraft:pig_unsaddled"
+    ],
+    "未装备鞍": [
+      "minecraft:pig_saddled",
+      "minecraft:strider_piglin_jockey"
+    ],
+    "远程攻击": [
+      "minecraft:melee_attack",
+      "minecraft:melee_attack",
+      "minecraft:melee_attack"
+    ],
+    "掠夺者": [
+      "minecraft:celebrate"
+    ],
+    "袭击队伍的队长（未使用）": [
+      "minecraft:patrol_captain",
+      "minecraft:patrol_captain"
+    ],
+    "灾厄巡逻队的队长（未使用）": [
+      "minecraft:patrol_follower",
+      "minecraft:patrol_follower"
+    ],
+    "玩家": [
+      "minecraft:add_bad_omen"
+    ],
+    "获得不祥之兆": [
+      "minecraft:clear_bad_omen_spell_effect"
+    ],
+    "清除不祥之兆": [
+      "minecraft:raid_trigger"
+    ],
+    "北极熊": [
+      "minecraft:adult"
+    ],
+    "幼年空闲状态": [
+      "minecraft:baby_scared"
+    ],
+    "幼年惊慌状态": [
+      "minecraft:adult_wild"
+    ],
+    "成年空闲状态": [
+      "minecraft:adult_hostile"
+    ],
+    "河豚": [
+      "minecraft:normal_puff"
+    ],
+    "未膨胀": [
+      "minecraft:half_puff_inflate"
+    ],
+    "从半膨胀到完全膨胀": [
+      "minecraft:half_puff_deflate"
+    ],
+    "从半膨胀到未膨胀": [
+      "minecraft:start_deflate"
+    ],
+    "开始收缩": [
+      "minecraft:full_puff"
+    ],
+    "完全膨胀": [
+      "minecraft:deflate_sensor"
+    ],
+    "兔子": [
+      "minecraft:adult"
+    ],
+    "棕色兔子": [
+      "minecraft:coat_white"
+    ],
+    "白色兔子": [
+      "minecraft:coat_black"
+    ],
+    "黑色兔子": [
+      "minecraft:coat_splotched"
+    ],
+    "斑点兔子": [
+      "minecraft:coat_desert"
+    ],
+    "黄色兔子": [
+      "minecraft:coat_salt"
+    ],
+    "劫掠兽": [
+      "minecraft:celebrate"
+    ],
+    "被掠夺者骑乘": [
+      "minecraft:pillager_rider_for_raid"
+    ],
+    "在袭击中被掠夺者骑乘": [
+      "minecraft:evoker_rider_for_raid"
+    ],
+    "在袭击中被唤魔者骑乘": [
+      "minecraft:pillager_captain_rider"
+    ],
+    "被袭击队长骑乘（未使用）": [
+      "minecraft:vindicator_rider"
+    ],
+    "被卫道士骑乘": [
+      "minecraft:vindicator_captain_rider"
+    ],
+    "在袭击中被卫道士骑乘": [
+      "minecraft:raid_configuration"
+    ],
+    "定义敌对行为": [
+      "minecraft:stunned"
+    ],
+    "眩晕": [
+      "minecraft:roaring"
+    ],
+    "鲑鱼": [
+      "minecraft:scale_small"
+    ],
+    "小型": [
+      "minecraft:scale_normal"
+    ],
+    "常规尺寸": [
+      "minecraft:scale_large"
+    ],
+    "绵羊": [
+      "minecraft:sheep_adult"
+    ],
+    "定义剪掉的羊毛数量": [
+      "minecraft:loot_wooly"
+    ],
+    "定义未剪毛杀死后掉落的羊毛数量": [
+      "minecraft:rideable_sheared"
+    ],
+    "可被骑乘的已剪毛的羊": [
+      "minecraft:rideable_wooly"
+    ],
+    "可被骑乘的未剪毛的羊": [
+      "minecraft:sheep_dyeable"
+    ],
+    "染色": [
+      "minecraft:sheep_sheared"
+    ],
+    "被剪掉羊毛": [
+      "minecraft:sheep_white"
+    ],
+    "白色羊": [
+      "minecraft:sheep_brown"
+    ],
+    "棕色羊": [
+      "minecraft:sheep_black"
+    ],
+    "黑色羊": [
+      "minecraft:sheep_gray"
+    ],
+    "灰色羊": [
+      "minecraft:sheep_light_gray"
+    ],
+    "淡灰色羊": [
+      "minecraft:sheep_pink"
+    ],
+    "粉红色羊": [
+      "minecraft:sheep_red"
+    ],
+    "潜影贝": [
+      "minecraft:shulker_undyed"
+    ],
+    "未染色": [
+      "minecraft:shulker_<颜色>",
+      "已染色（16种颜色）"
+    ],
+    "蠹虫": [
+      "minecraft:silverfish_calm"
+    ],
+    "骷髅": [
+      "minecraft:lightning_immune"
+    ],
+    "对闪电免疫（骷髅陷阱）": [
+      "minecraft:ranged_attack"
+    ],
+    "骷髅马": [
+      "minecraft:skeleton_horse_r5_upgrade"
+    ],
+    "（未使用）[需要更多信息]": [
+      "minecraft:skeleton_horse_baby"
+    ],
+    "幼年（未使用）": [
+      "minecraft:skeleton_horse_adult"
+    ],
+    "骷髅陷阱": [
+      "minecraft:lightning_immune"
+    ],
+    "史莱姆": [
+      "minecraft:slime_large"
+    ],
+    "大型史莱姆": [
+      "minecraft:slime_medium"
+    ],
+    "中型史莱姆": [
+      "minecraft:slime_small"
+    ],
+    "小型史莱姆": [
+      "minecraft:slime_calm"
+    ],
+    "雪傀儡": [
+      "minecraft:snowman_sheared"
+    ],
+    "蜘蛛": [
+      "minecraft:spider_jockey"
+    ],
+    "鱿鱼": [
+      "minecraft:squid_baby"
+    ],
+    "流浪者": [
+      "minecraft:revert_to_skeleton"
+    ],
+    "转换为骷髅（未使用）": [
+      "minecraft:ranged_attack"
+    ],
+    "炽足兽": [
+      "minecraft:strider_adult"
+    ],
+    "被猪灵骑乘": [
+      "minecraft:strider_unsaddled"
+    ],
+    "被幼年炽足兽骑乘": [
+      "minecraft:zombified_piglin_rider"
+    ],
+    "被僵尸猪灵骑乘": [
+      "minecraft:start_suffocating"
+    ],
+    "窒息探测组件": [
+      "minecraft:detect_suffocating"
+    ],
+    "热带鱼": [
+      "minecraft:tropicalfish_variant_a"
+    ],
+    "瘦体型": [
+      "minecraft:tropicalfish_variant_b"
+    ],
+    "胖体型": [
+      "minecraft:tropicalfish_variant_pattern_<数字>",
+      "鱼的类别（数字为1-6）",
+      "minecraft:tropicalfish_base_<颜色>",
+      "鱼的底色（16种颜色）",
+      "minecraft:tropicalfish_pattern_<颜色>",
+      "鱼的斑纹色（16种颜色）",
+      "minecraft:anenonme"
+    ],
+    "海葵鱼": [
+      "minecraft:black_tang"
+    ],
+    "黑刺尾鲷": [
+      "minecraft:black_tang"
+    ],
+    "拟刺尾鲷": [
+      "minecraft:butterfly_fish"
+    ],
+    "蝴蝶鱼": [
+      "minecraft:cichlid"
+    ],
+    "丽鱼": [
+      "minecraft:clownfish"
+    ],
+    "小丑鱼": [
+      "minecraft:cc_betta"
+    ],
+    "五彩搏鱼": [
+      "minecraft:dog_fish"
+    ],
+    "绣雀鲷": [
+      "minecraft:e_red_snapper"
+    ],
+    "川纹笛鲷": [
+      "minecraft:goat_fish"
+    ],
+    "拟羊鱼": [
+      "minecraft:moorish_idol"
+    ],
+    "镰鱼": [
+      "minecraft:ornate_butterfly"
+    ],
+    "华丽蝴蝶鱼": [
+      "minecraft:parrot_fish"
+    ],
+    "鹦嘴鱼": [
+      "minecraft:queen_angel_fish"
+    ],
+    "额斑刺蝶鱼": [
+      "minecraft:red_cichlid"
+    ],
+    "红丽鱼": [
+      "minecraft:red_lipped_benny"
+    ],
+    "红唇真蛇鳚": [
+      "minecraft:red_snapper"
+    ],
+    "红边笛鲷": [
+      "minecraft:threadfin"
+    ],
+    "马鲅": [
+      "minecraft:tomato_clown"
+    ],
+    "白条双锯鱼": [
+      "minecraft:triggerfish"
+    ],
+    "鳞鲀": [
+      "minecraft:yellow_tang"
+    ],
+    "黄刺尾鲷": [
+      "minecraft:yellowtail_parrot"
+    ],
+    "海龟": [
+      "minecraft:adult"
+    ],
+    "寻找产卵地点": [
+      "minecraft:wants_to_lay_egg"
+    ],
+    "变成女巫": [
+      "become_villager_v2"
+    ],
+    "职业的特殊行为": [
+      "minecraft:work_schedule_villager"
+    ],
+    "villager_skin_<数字>": [
+      "村民的皮肤（数字为0-5）[需要更多信息]",
+      "僵尸村民的皮肤（数字为0-5）[需要更多信息]"
+    ],
+    "卫道士": [
+      "minecraft:celebrate"
+    ],
+    "被命名为Johnny的卫道士": [
+      "minecraft:default_targeting"
+    ],
+    "追踪攻击目标": [
+      "minecraft:raid_configuration"
+    ],
+    "消失": [
+      "minecraft:scared"
+    ],
+    "女巫": [
+      "minecraft:celebrate"
+    ],
+    "狼": [
+      "minecraft:wolf_adult"
+    ],
+    "僵尸": [
+      "minecraft:zombie_adult"
+    ],
+    "开始转变为溺尸": [
+      "minecraft:convert_to_drowned"
+    ],
+    "转变为溺尸": [
+      "minecraft:convert_to_baby_drowned"
+    ],
+    "转变为幼年溺尸": [
+      "minecraft:zombie_jockey"
+    ],
+    "僵尸马": [
+      "minecraft:horse_adult"
+    ],
+    "僵尸猪灵": [
+      "minecraft:pig_zombie_adult"
+    ],
+    "僵尸村民": [
+      "become_zombie_villager_v2"
+    ],
+    "箭": [
+      "minecraft:hard_arrow"
+    ],
+    "由满弦的弓射出的箭": [
+      "minecraft:player_arrow"
+    ],
+    "由玩家射出的箭": [
+      "minecraft:pillager_arrow"
+    ],
+    "船": [
+      "minecraft:floating"
+    ],
+    "船浮在水面上": [
+      "minecraft:can_ride_default",
+      "minecraft:can_ride_default"
+    ],
+    "定义可操控船的生物": [
+      "minecraft:can_ride_bamboo",
+      "minecraft:can_ride_bamboo"
+    ],
+    "定义可操控竹筏的生物": [
+      "minecraft:above_bubble_column_down",
+      "minecraft:above_bubble_column_down"
+    ],
+    "处于向下的气泡柱上": [
+      "minecraft:above_bubble_column_up"
+    ],
+    "运输船": [
+      "minecraft:floating"
+    ],
+    "处于向下的气泡柱里": [
+      "minecraft:above_bubble_column_up"
+    ],
+    "命令方块矿车": [
+      "minecraft:command_block_active"
+    ],
+    "命令方块激活": [
+      "minecraft:command_block_inactive"
+    ],
+    "末影珍珠": [
+      "minecraft:no_spawn"
+    ],
+    "火球": [
+      "minecraft:exploding"
+    ],
+    "漏斗矿车": [
+      "minecraft:hopper_active"
+    ],
+    "漏斗激活": [
+      "minecraft:hopper_inactive"
+    ],
+    "TNT矿车": [
+      "minecraft:primed_tnt"
+    ],
+    "TNT激活": [
+      "minecraft:instant_explode_tnt"
+    ],
+    "TNT瞬间爆炸": [
+      "minecraft:inactive"
+    ],
+    "凋灵之首": [
+      "minecraft:exploding"
+    ],
+    "蓝色凋灵之首": [
+      "minecraft:exploding"
+    ],
+    "注释": [
+      "这里提供了6个子组件：minecraft:behavior.inspect_bookshelf、minecraft:behavior.harvest_farm_block、minecraft:behavior.explore_outskirts、minecraft:behavior.work、minecraft:behavior.mingle、minecraft:behavior.sleep。其中前三个分别被图书管理员、农民和渔夫使用，后三个被所有已就业的村民使用。"
+    ]
+  }
+}

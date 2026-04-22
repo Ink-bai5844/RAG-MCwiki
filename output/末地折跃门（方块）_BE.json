@@ -1,0 +1,5 @@
+{
+  "title": "末地折跃门（方块）/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E6%8A%98%E8%B7%83%E9%97%A8%EF%BC%88%E6%96%B9%E5%9D%97%EF%BC%89%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\n*\n*Age：末地折跃门方块的年龄，用于控制光柱的产生。当低于200游戏刻（10秒）时，代表此时折跃门刚刚生成，它会发出一束品红色光柱；当此值可以被2400游戏刻（120秒）整除时，折跃门会产生40游戏刻（2秒）传送冷却，并发出一束紫色光柱。\nExactTeleport：表示是否把实体准确传送到exit_portal指定的坐标而不是传送到这个坐标附近的位置。\nexit_portal：当进入末地折跃门方块要把实体传送到的位置。内部的三个整数分别代表了位置的XYZ坐标值。"
+}

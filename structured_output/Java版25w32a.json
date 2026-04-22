@@ -1,0 +1,166 @@
+{
+  "title": "Java版25w32a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8825w32a",
+  "structured_content": {
+    "默认分类": [
+      "25w32a"
+    ],
+    "发布时间": [
+      "2025年8月5日"
+    ],
+    "快照归属": [
+      "1.21.9"
+    ],
+    "协议版本": [
+      "DEC: 1073742085",
+      "HEX: 40000105"
+    ],
+    "数据版本": [
+      "4536"
+    ],
+    "资源包版本": [
+      "65.1"
+    ],
+    "数据包版本": [
+      "83.0",
+      "◄◄1.21.8",
+      "1.21.10►►",
+      "◄25w31a",
+      "25w33a►",
+      "25w32a是Java版1.21.9的第2个快照，发布于2025年8月5日，加入了多种铜质方块，并修复了一些漏洞。"
+    ],
+    "铜火把": [
+      "火把的变种。",
+      "由铜粒、煤炭和木棍合成。"
+    ],
+    "铜栏杆": [
+      "铁栏杆的铜质变种。",
+      "由6个铜锭合成。",
+      "能够氧化、被涂蜡、脱蜡或除锈。"
+    ],
+    "铜链": [
+      "铁链的铜质变种。",
+      "由2个铜粒和1个铜锭合成。",
+      "能够氧化、被涂蜡、除蜡或除锈。",
+      "与铁链一样，可用于合成悬挂式告示牌。"
+    ],
+    "铜灯笼": [
+      "灯笼的铜质变种。",
+      "由8个铜粒和1个铜火把合成。",
+      "能够氧化、被涂蜡、除蜡或除锈。",
+      "氧化程度仅会改变外观，不会影响亮度。"
+    ],
+    "粒子": [
+      "加入了copper_fire_flame。"
+    ],
+    "文本组件": [
+      "加入了object文本组件类型。",
+      "用于以字符形式显示纹理图集中的一个精灵图。",
+      "精灵图总会显示为8×8像素的矩形。",
+      "格式："
+    ],
+    "复合标签格式根标签": [
+      "type：object。",
+      "atlas：（默认为minecraft:blocks）纹理图集的命名空间ID。",
+      "sprite：图集中精灵图的命名空间ID。示例：item/porkchop。"
+    ],
+    "战利品表": [
+      "加入了harvest/sweet_berry_bush战利品表，用于生成与甜浆果丛交互收获甜浆果的战利品。"
+    ],
+    "标签": [
+      "加入了下列方块标签：",
+      "#chains：chain、​copper_chain、​waxed_copper_chain、​exposed_copper_chain、​waxed_exposed_copper_chain、​weathered_copper_chain、​waxed_weathered_copper_chain、​oxidized_copper_chain和​waxed_oxidized_copper_chain。",
+      "#lanterns：lantern、​soul_lantern、​copper_lantern、​waxed_copper_lantern、​exposed_copper_lantern、​waxed_exposed_copper_lantern、​weathered_copper_lantern、​waxed_weathered_copper_lantern、​oxidized_copper_lantern和​waxed_oxidized_copper_lantern。",
+      "#bars：iron_bars、​copper_bars、​waxed_copper_bars、​exposed_copper_bars、​waxed_exposed_copper_bars、​weathered_copper_bars、​waxed_weathered_copper_bars、​oxidized_copper_bars和​waxed_oxidized_copper_bars。",
+      "加入了下列物品标签：",
+      "#chains：chain、​copper_chain、​waxed_copper_chain、​exposed_copper_chain、​waxed_exposed_copper_chain、​weathered_copper_chain、​waxed_weathered_copper_chain、​oxidized_copper_chain和​waxed_oxidized_copper_chain。",
+      "#lanterns：lantern、​soul_lantern、​copper_lantern、​waxed_copper_lantern、​exposed_copper_lantern、​waxed_exposed_copper_lantern、​weathered_copper_lantern、​waxed_weathered_copper_lantern、​oxidized_copper_lantern和​waxed_oxidized_copper_lantern。",
+      "#bars：iron_bars、​copper_bars、​waxed_copper_bars、​exposed_copper_bars、​waxed_exposed_copper_bars、​weathered_copper_bars、​waxed_weathered_copper_bars、​oxidized_copper_bars和​waxed_oxidized_copper_bars。"
+    ],
+    "铜活板门": [
+      "配方由6个铜锭合成2个更改为4个铜锭合成1个。"
+    ],
+    "铜傀儡像": [
+      "现在被破坏时总会掉落。",
+      "现在被活塞推动时会被破坏并掉落对应物品。"
+    ],
+    "龙蛋": [
+      "现在不会传送至所在维度的建筑高度限制之外。"
+    ],
+    "铁链": [
+      "锁链（Chain）现在被重命名为铁链（Iron Chain）。"
+    ],
+    "展示架": [
+      "调整了槽位中物品的位置，由居中改为置于底部隔板上方。"
+    ],
+    "铜傀儡": [
+      "weather_state现在接受字符串ID而非整型ID。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为83.0。"
+    ],
+    "资源包": [
+      "将资源包版本号更改为65.1。"
+    ],
+    "修复": [
+      "修复了50个漏洞",
+      "1.21.8前正式版的漏洞",
+      "MC-163218 — “潜行”选项设为“切换”时，玩家能在游戏界面打开期间潜行。",
+      "MC-174759 — 龙蛋能传送到虚空之下的高度。",
+      "MC-257540 — 绵羊吃草的频率只有21w39a之前的一半。",
+      "MC-273943 — 从甜浆果丛中收获的甜浆果掉落物是硬编码的。",
+      "MC-276431 — 龙蛋传送到建筑高度上限之上而使自己被删除。",
+      "MC-279548 — TNT矿车在因摔落爆炸时不会记忆将其点燃的来源。",
+      "MC-295841 — 交互式碰撞检测路径已损坏。",
+      "MC-296054 — 非弹射物实体的高速正向移动可能无法触发起始位置周围方块的方块效果。",
+      "MC-296055 — 非弹射物实体的缓慢移动可能无法触发起始方块的方块效果。",
+      "MC-296057 — 非弹射物实体的侧向移动可能无法触发起始位置周围方块的方块效果。",
+      "MC-296372 — 自1.21.5起，展示实体位置与视线旋转的变化插值teleport_duration不可靠。",
+      "MC-299314 — 以特定方式破坏唱片机不会使正在播放的音乐停下。",
+      "MC-299627 — 高速弹射物实体插值非常不准确。",
+      "MC-299770 — 即使enderPearlsVanishOnDeath被设为false，由末影珍珠加载的区块仍会在玩家死亡后永远卸载。",
+      "1.21.8的漏洞",
+      "MC-299837 — 在同一游戏刻中执行两个及以上/rotate命令只会应用最后一个命令的旋转。",
+      "MC-299872 — 被冰冻的玩家接触火时，冰冻遮罩闪烁。",
+      "MC-299913 — “你似乎还没有Realm…”可聚焦文本部件现在拥有黑色背景。",
+      "MC-300092 — F3饼图中粒子子项缺少名称。",
+      "MC-300340 — 连续点击欢迎页面中的“继续”会重置按钮的消失动画进度。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-300051 — 所穿护腿的顶部不会渲染。",
+      "MC-300094 — 具有隐形状态效果的实体所持的物品不再随其手臂移动。",
+      "MC-300100 — biome调试选项的生物群系名称前缺少一个空格。",
+      "MC-300105 — 游戏暂停时，玩家能溺水。",
+      "MC-300108 — 村民和僵尸村民的服装不完整。",
+      "MC-300113 — pack.mcmeta的supported_formats字段不再接受长格式对象语法。",
+      "MC-300121 — 与3个及以上相连的展示架交互会导致游戏崩溃。",
+      "MC-300122 — 马铠的某些部分偶尔不可见。",
+      "MC-300131 — debug.entry.currently.inF3字符串中存在不当小写。",
+      "MC-300136 — 视野中模型相同实体所持物品的位置保持同步。",
+      "MC-300145 — “使用物品/放置方块”选项设为“切换”时，玩家能在物品栏打开期间使用物品。",
+      "MC-300146 — “使用物品/放置方块”选项设为“切换”时难以退出界面。",
+      "MC-300153 — 史莱姆内部的立方体偶尔不能从外部看见。",
+      "MC-300155 — 即使游戏已暂停，站在细雪中的玩家仍会冻伤。",
+      "MC-300164 — “疾跑间隔”选项的值不保存。",
+      "MC-300165 — 用盾牌防御能够禁用盾牌的攻击时，玩家会受伤。",
+      "MC-300166 — 启用调试选项中的looking_at_block或looking_at_fluid后，FPS会受到服务端游戏刻速率的影响。",
+      "MC-300168 — 展示架的所有变种都在创造模式物品栏的红石标签页中。",
+      "MC-300180 — 调试屏幕文本现在会在使用F1时保留到屏幕中。",
+      "MC-300187 — 在物品栏中与拥有特定组件的物品交互会导致崩溃。",
+      "MC-300193 — 在相同的维度中死亡和重生总会显示地形加载屏幕。",
+      "MC-300196 — 游戏界面隐藏时，打开的“Local Difficulty”调试信息闪烁。",
+      "MC-300214 — 现在幼年生物的阴影与其成年版大小相等。",
+      "MC-300235 — 调试屏幕中实体计数的首个数字总是为0。",
+      "MC-300248 — 字幕/隐藏式字幕会遮挡物品栏界面。",
+      "MC-300275 — 在熔岩顶部骑乘炽足兽时暂停会使玩家着火。",
+      "MC-300305 — 多名玩家使用钓鱼竿时会额外绘制一条黑线。",
+      "MC-300394 — 铜傀儡和铜傀儡像的氧化/涂蜡且氧化变种的脚底像素较于其他变种不合适。",
+      "MC-300421 — F3 + Q调试菜单中的F3 + F5描述中大写用法不一致。",
+      "MC-300440 — 暂停单人游戏时，鞘翅会消耗耐久度。",
+      "MC-300464 — 调试十字准星在第三人称视角中显示。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 25w32a — Minecraft.net，2025年8月5日。"
+    ]
+  }
+}

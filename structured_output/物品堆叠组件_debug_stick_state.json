@@ -1,0 +1,13 @@
+{
+  "title": "物品堆叠组件/debug stick state",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fdebug_stick_state",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "debug_stick_state 物品堆叠组件": [
+      "<方块的命名空间ID>：方块和此方块将要修改的方块属性的键值对。"
+    ]
+  }
+}

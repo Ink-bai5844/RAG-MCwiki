@@ -1,0 +1,347 @@
+{
+  "title": "基岩版1.20.0.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.0.20",
+  "structured_content": {
+    "默认分类": [
+      "1.20.0.20"
+    ],
+    "服务端版本": [
+      "1.20.0.20"
+    ],
+    "版本码": [
+      "Android：",
+      "952000020（armeabi-v7a，33）",
+      "962000020（x86，33）",
+      "972000020（arm64-v8a，33）",
+      "982000020（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年4月12日"
+    ],
+    "测试版归属": [
+      "1.20.0"
+    ],
+    "协议版本": [
+      "585",
+      "◄◄1.19.83",
+      "1.20.1►►",
+      "1.20.0.21►",
+      "beta 1.20.0.20（ChromeOS/Android）、Preview 1.20.0.20（Xbox/Windows/iOS/iPadOS）是基岩版1.20.0的首个测试版，发布于2023年4月12日，加入了瓶子草和嗅探兽蛋相关特性，将嗅探兽相关特性从实验性玩法中移出，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "方块": [
+      "现在林地府邸中的原木拥有正确的朝向。（MCPE-168387）",
+      "移除了lava_cauldron方块。（MCPE-39974）",
+      "现在玩家和生物行走、坠落、跳跃和降落在幽匿感测体上的音效由“玩家”音效滑块控制。"
+    ],
+    "瓶子草植株": [
+      "可用瓶子草荚果在耕地上种出。",
+      "共有5个生长阶段。",
+      "若完全成熟，破坏时掉落瓶子草；若未完全成熟，破坏时掉落瓶子草荚果。"
+    ],
+    "瓶子草": [
+      "一种新的大型花。",
+      "可用于合成青色染料。"
+    ],
+    "嗅探兽蛋": [
+      "两只嗅探兽繁殖后会产下嗅探兽蛋。",
+      "放置于苔藓块上时会在大约10分钟后孵化。放置于其余方块上时的孵化时长约为20分钟。"
+    ],
+    "瓶子草荚果": [
+      "一种新的种子，可以种植在耕地上。",
+      "可通过嗅探兽挖掘获得。",
+      "可用于喂食鸡和鹦鹉。"
+    ],
+    "常规": [
+      "现在使用不含有假日创造者组件的1.16.100及1.17及以上版本JSON格式的自定义项目不需要开启“假日创造者功能”实验性功能开关即可加载。",
+      "minecraft:friction在计算地面摩擦力时不再会被忽略。",
+      "现在当dispense_on字段为空时，拥有minecraft:entity_placer物品组件的物品会在空气方块上创建一个活动对象。",
+      "现在在1.19.80及以上版本的JSON格式中拥有minecraft:entity_placer物品组件的物品可以在刷怪笼上使用以改变其活动对象的生成类型。",
+      "移除了minecraft:repairable物品组件中的on_repaired参数。",
+      "修复了同一设备上的客户端无法找到本地托管的专用服务器的问题。",
+      "修复了玩家向前移动或看向侧面时披风会停止摆动的漏洞。（MCPE-153446）",
+      "甘蔗生成于水下时不再会生成空气。（MCPE-161096）",
+      "为minecraft:spawn_entity加入了spawn_item_event事件，生成物品时会调用该事件。",
+      "降低了启动和加载至开始屏幕的所需时间。"
+    ],
+    "闪烁标语": [
+      "加入了“Enter the Render Dragon!”，用以庆祝RenderDragon在全平台上可用。"
+    ],
+    "地毯": [
+      "IDcarpet现在被拆分为：white_carpet、​orange_carpet、​magenta_carpet、​light_blue_carpet、​yellow_carpet、​lime_carpet、​pink_carpet、​gray_carpet、​light_gray_carpet、​cyan_carpet、​purple_carpet、​blue_carpet、​brown_carpet、​green_carpet、​red_carpet和​black_carpet。",
+      "carpet及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "炼药锅": [
+      "移除了装有熔岩的炼药锅的IDlava_cauldron。"
+    ],
+    "珊瑚": [
+      "IDcoral现在被拆分为：tube_coral、​brain_coral、​bubble_coral、​fire_coral、​horn_coral、​dead_tube_coral、​dead_brain_coral、​dead_bubble_coral、​dead_fire_coral和​dead_horn_coral。",
+      "coral及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "枯萎的灌木": [
+      "现在可以放置在草方块、菌丝体、灰化土和苔藓块上。",
+      "现在会生成于沼泽。"
+    ],
+    "可疑的沙子和可疑的沙砾": [
+      "分配了合适挖掘工具，现在为锹。"
+    ],
+    "火把花": [
+      "不再属于实验性玩法。",
+      "现在可用于堆肥。",
+      "现在可用于合成谜之炖菜，给予玩家夜视效果。",
+      "现在可用于吸引及繁殖蜜蜂。",
+      "现在蜜蜂会采集它的花粉。",
+      "现在由玩家放置的火把花会随机确定位置，以与其碰撞箱位置同步。（MCPE-167176）",
+      "现在火把花种子可以用来堆肥。（MCPE-167200）",
+      "现在由种子长成的火把花的碰撞箱会与模型同步。（MCPE-167177）",
+      "现在蜜蜂会采集火把花的花粉，且火把花可用来吸引和繁殖蜜蜂。（MCPE-167220）",
+      "现在对耕地上的成熟火把花使用选取方块键后会给予玩家火把花而不是火把花种子。（MCPE-167217）",
+      "现在火把花可以用来合成谜之炖菜。（MCPE-167977）",
+      "现在火把花种子可以用来喂食鸡和鹦鹉。（MCPE-167975）",
+      "现在火把花种子可以用来驯服鹦鹉。",
+      "现在火把花种子可以用来吸引和繁殖鸡。"
+    ],
+    "火把花植株": [
+      "不再属于实验性玩法。",
+      "现在蜜蜂可为其授粉，使其生长一个阶段。"
+    ],
+    "火把花种子": [
+      "不再属于实验性玩法。",
+      "现在可用于吸引及喂食鸡和鹦鹉。"
+    ],
+    "盾牌": [
+      "现在可以通过与旗帜合成来添加图案。"
+    ],
+    "刷怪蛋": [
+      "嗅探兽刷怪蛋不再属于实验性玩法。",
+      "更改了嗅探兽刷怪蛋的颜色，使其与鲑鱼刷怪蛋有所区别。"
+    ],
+    "生物": [
+      "恶魂现在会在嘴部高度处发射火球，而不是在眼睛高度处。（MCPE-35202）",
+      "人形生物和盔甲架穿戴的靴子不再会产生深度冲突。",
+      "人形生物和盔甲架穿戴的护腿的“裤腿”和“腰带”部分不再会产生深度冲突。"
+    ],
+    "玩家": [
+      "略微加深了Steve默认皮肤的肤色。",
+      "现在玩家在死亡屏幕上返回主菜单后再次打开世界时，其判定箱会拥有正确的大小。（MCPE-167045）"
+    ],
+    "嗅探兽": [
+      "不再属于实验性玩法。"
+    ],
+    "死亡屏幕": [
+      "为新的死亡屏幕加入了新的相机视角效果。"
+    ],
+    "实验性玩法": [
+      "移除了“嗅探器”子选项。",
+      "仅开启“假日创造者功能”子选项的实验性世界不再会显示“实验”标签。"
+    ],
+    "世界加载屏幕": [
+      "为主要用户外观的加载过程加入了进度条，最多需要等待15秒。"
+    ],
+    "基岩版编辑器": [
+      "删除了已弃用的方块，并将方块按字母顺序排序。",
+      "修复了守卫者的Molang动画出现停顿的问题。",
+      "修复了编辑器中的玩家会在工具模式下死亡的问题。",
+      "修复了/execute和命令方块无法执行命令的问题。",
+      "修复了与表情和成就有关的漏洞。"
+    ],
+    "命令": [
+      "现在命令行中的自动补全不再会提示已经输入的方块状态。（MCPE-168055）",
+      "提升了加载命令和命令窗口时的整体性能。"
+    ],
+    "附加包": [
+      "修复了cape_flap_amount中玩家向前移动但看向旁边时玩家披风不会抖动的漏洞。（MCPE-153446）"
+    ],
+    "Molang": [
+      "修复了导致市场资源包无法加载的漏洞。",
+      "对每个Molang表达式所能拥有的嵌套子表达式数量进行了限制。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“下一个主要更新”、“即将推出的创作者功能”和“测试版 API”子选项后才可使用。"
+    ],
+    "竹质方块": [
+      "调整了可燃性以匹配主世界木质方块。（MCPE-163416）"
+    ],
+    "饰纹陶罐": [
+      "调整了在饰纹陶罐上放置方块的规则以匹配Java版。（MCPE-168041）",
+      "顶面不再会提供完整支持面。",
+      "脚手架、红石粉、红石中继器、红石比较器、拉杆、发光地衣、幽匿脉络、滴水石锥和门因此不再能放置在饰纹陶罐的顶面。",
+      "钟、紫晶簇、按钮、雪和珊瑚、铁轨现在只能放置在完整面上。",
+      "海泡菜现在能够放置在饰纹陶罐上。"
+    ],
+    "悬挂式告示牌": [
+      "将每行的最大字符数减少至12，并增大了字体大小。（MCPE-163337）",
+      "箭穿过悬挂式告示牌底部时不再会卡住并剧烈晃动。（MCPE-164249）",
+      "调整了放置规则以匹配Java版。（MCPE-164632）",
+      "现在可以放置在铁砧、紫颂花、悬挂状态下的砂轮、海龟蛋和阳光探测器的底面、刷怪笼的侧面和底面。",
+      "不再可以放置在土径、耕地的侧面。",
+      "现在将悬挂式告示牌放置在饰纹陶罐下方时，其锁链会呈现为V字形。（MCPE-168047）",
+      "提高了悬挂式告示牌音效的音量。（MCPE-163554）",
+      "现在悬挂式绯红木告示牌、悬挂式诡异木告示牌和悬挂式竹告示牌拥有与对应木质种类相匹配的独有音效。（MCPE-164246）",
+      "现在悬挂式告示牌的UI背景会始终与合成所需材料保持匹配。（MCPE-168817）"
+    ],
+    "可疑的方块": [
+      "下落到阳光探测器、告示牌、旗帜、生物头颅、潮涌核心或营火上时，可疑的沙子和可疑的沙砾不再会掉落为物品。（MCPE-167163）",
+      "下落到幽匿感测体或校频幽匿感测体上时，可疑的沙子和可疑的沙砾不再会掉落为物品。"
+    ],
+    "盔甲": [
+      "现在手持或穿戴带有盔甲纹饰的盔甲时，未添加纹饰的相同盔甲会在手上或世界中正确渲染。",
+      "现在当已添加盔甲纹饰的盔甲与未添加纹饰的相同盔甲交换位置时，两个盔甲均会在快捷栏和UI槽位中正确渲染。"
+    ],
+    "刷子": [
+      "现在可以通过铁砧来添加耐久、经验修补和消失诅咒魔咒。（MCPE-167264）",
+      "现在触控设备玩家手持刷子对准可疑的方块时会显示提示框。",
+      "现在用于刷扫可刷扫方块时会损耗耐久，用于破坏方块时不再会损耗耐久。（MCPE-167263）",
+      "刷扫方块（按住鼠标右键）时点击鼠标左键不再会打断刷子的使用。（MCPE-167226）"
+    ],
+    "药水及其喷溅、滞留变种": [
+      "更改了所有药水（包括水瓶）的颜色以匹配Java版。"
+    ],
+    "药箭": [
+      "更改了除治疗之箭、再生之箭和虚弱之箭以外的所有药箭的颜色。"
+    ],
+    "陶片": [
+      "向沙漠神殿的可疑的沙子战利品表中加入了采矿纹样陶片。（MCPE-168921）",
+      "树荫纹样陶片现在拥有正确的显示字符串。（MCPE-168836）"
+    ],
+    "骆驼": [
+      "现在骆驼坐下后会伸直头部，而不是看向上方或下方。（MCPE-163501）",
+      "骆驼看向上方时，其头部不再会卡进乘客的视角中。（MCPE-164719）",
+      "现在骆驼的冲刺条也会在携带版UI下显示。（MCPE-163475）",
+      "骆驼的取消骑乘提示现已正确本地化。（MCPE-166505）"
+    ],
+    "竹筏": [
+      "乘坐竹筏的生物现在会正确位于在竹筏的表面上。"
+    ],
+    "樱花树林": [
+      "粉红色花簇上方不再会生成隐形的高草丛。（MCPE-168829）",
+      "蒲公英不再生成于此。（MCPE-168075）"
+    ],
+    "游戏内容": [
+      "修复了在部分情况下活塞无法显示的问题。",
+      "现在高速坠入水中时玩家不再会受到摔落伤害。（MCPE-152485）",
+      "玩家从耕地上起跳后不再会陷入其中。",
+      "玩家站在变成完整方块的泥巴和耕地上时不再会陷入其中。（MCPE-164677）",
+      "修复了在可交互方块上潜行时无法正常放置方块的问题。（MCPE-168280）",
+      "修复了玩家飞行并按住潜行键时无法右键改变盔甲架姿势的问题。（MCPE-168548）",
+      "现在测重压力板在上方有多个物品时会立即更新其发出的信号强度。（MCPE-156773）"
+    ],
+    "药水效果": [
+      "更改了所有药水效果的粒子颜色。"
+    ],
+    "附加包和脚本引擎": [
+      "向方块JSON格式中加入了BlockTraits，可以为数据驱动的方块添加方块状态和setter函数。",
+      "可以解析PlacementDirection（即minecraft:placement_direction）BlockTrait（添加minecraft:cardinal_direction方块状态和onPlayerPlacesetter函数）",
+      "可以通过block_propertyMolang队列和set_block_property事件响应来访问应用placement_direction状态的方块的minecraft:cardinal_direction。"
+    ],
+    "脚本": [
+      "进一步将游戏事件拆分为before*和after*两个类别。",
+      "所有的before*事件从events移至world.beforeEvents属性中，并将before前缀移除。在before*事件的回调过程中，会改变世界状态的函数会被禁用，只读方法和属性可以正常使用，同时set方法的应用对象会被限制为事件对象本身。使用上述被禁用的方法和属性的行为都会导致报错。",
+      "将所有before*事件重命名为*BeforeEvent，对应的事件信号重命名为*BeforeEventSignal。",
+      "将所有after*事件重命名为*AfterEvent，对应的事件信号重命名为*AfterEventSignal。",
+      "将chat事件重命名为chatSend。",
+      "将events.beforeChat事件重命名为world.events.beforeChatSend。",
+      "将events.chat事件重命名为world.events.chatSend。",
+      "将BeforeChatEvent事件重命名为ChatSendBeforeEvent。",
+      "将BeforeChatEventSignal事件重命名为 ChatSendBeforeEventSignal。",
+      "将ChatEvent事件重命名为ChatSendAfterEvent。",
+      "将ChatEventSignal事件重命名为ChatSendAfterEventSignal。",
+      "修复了resolve()无法解析自定义方块属性的问题。",
+      "将scoreboard属性重命名为Entity.scoreboardIdentity。"
+    ],
+    "物品事件": [
+      "现在ItemStartUseOnEvent事件只会以搭建时第一个交互的方块为对象触发。",
+      "现在ItemUseOnEvent事件只会在物品对方块成功使用时触发。",
+      "将ItemUseOnEvent事件的blockLocation: Vec3属性改为block: Block。",
+      "将ItemStartUseOnEvent事件的blockLocation: Vec3属性改为block: Block。",
+      "将ItemStopUseOnEvent事件的blockLocation: Vec3属性改为block: Block。",
+      "将ProjectileHitEvent事件的faceLocation: Vec2属性改为faceLocation: Vec3，并以下西北方向为原点。",
+      "将ItemUseOnEvent事件的faceLocation: Vec2属性改为faceLocation: Vec3，并以下西北方向为原点。"
+    ],
+    "Entity": [
+      "加入了teleportOptions {dimension?: Dimension, rotation?: Vector2, keepVelocity?: boolean, facingLocation?: Vector3, checkForBlocks?: boolean}接口。",
+      "加入了Vector2 {x: number, y: number}接口。",
+      "加入了tryTeleport(location: Vector3, teleportOptions?: teleportOptions) : boolean函数。",
+      "用于尝试传送实体，在实体无法被传送时返回false。",
+      "将teleport函数更改为teleport(location: Vector3, teleportOptions?: teleportOptions) : void。",
+      "将setRotation函数更改为setRotation(rotation: Vector2) : void。",
+      "将getRotation函数更改为getRotation() : Vector2。",
+      "将addTag(tag: string): boolean函数的tag参数的字符串长度限制在256个字符内。",
+      "将kill函数的返回值类型改为布尔值。当函数返回true时，实体可以被杀死，否则不可以。",
+      "加入了EntityApplyDamageOptions接口，作为applyDamage的额外伤害来源选项输入值。",
+      "加入了EntityApplyDamageByProjectileOptions接口，作为applyDamage的额外弹射物弹伤害来源选项输入值。",
+      "将applyDamage的source参数更改为options，并将参数类型从EntityDamageSource更改为EntityApplyDamageOptions | EntityApplyDamageByProjectileOptions。"
+    ],
+    "SimulatedPlayer": [
+      "将getHeadRotation函数更改为getHeadRotation() : Vector2。",
+      "现在TitleDisplayOptions可以接受浮点数值。",
+      "加入了WorldSoundOptions和PlayerSoundOptions接口类型。",
+      "为playSound函数加入了location必选参数。",
+      "调用playMusic和queueMusic时，volume小于0.0时会报错。",
+      "调用playMusic和queueMusic时，fade小于0.0时会报错。",
+      "调用playSound时，pitch小于0.01时会报错。",
+      "调用playSound时，volume小于0.0时会报错。",
+      "移除了dye_powder物品组件。",
+      "现在实体对象可以在区块重新加载或维度更改后持续存在。无效的实体可以在转移到另一个维度或所在区块重新加载后被引用。",
+      "加入了lifetimeState只读属性。",
+      "用于返回实体的生命状态，有loaded和unloaded两种返回值。"
+    ],
+    "ItemDefinitionTriggeredEvent": [
+      "将item属性重命名为itemStack。"
+    ],
+    "ItemStartUseOnEvent": [
+      "将item属性重命名为itemStack。",
+      "将getBlockLocation函数替换为blockLocation: Vector3只读属性。",
+      "移除了getBuildBlockLocation函数。"
+    ],
+    "ItemStopUseOnEvent": [
+      "将item属性重命名为itemStack。",
+      "将getBlockLocation函数替换为blockLocation: Vector3只读属性。"
+    ],
+    "ItemUseEvent": [
+      "将item属性重命名为itemStack。"
+    ],
+    "ItemUseOnEvent": [
+      "将item属性重命名为itemStack。",
+      "将getBlockLocation函数替换为blockLocation: Vector3只读属性。",
+      "将faceLocationX和faceLocation函数替换为faceLocation: Vector2只读属性。"
+    ],
+    "BlockHitInformation": [
+      "将faceLocationX和faceLocation函数替换为faceLocation: Vector2只读属性。"
+    ],
+    "原版趋同": [
+      "将林地府邸入口处的台阶更改为圆石质。（MCPE-169038）",
+      "现在铁栏杆和玻璃板可以与活塞连接。（MCPE-64745）",
+      "现在枯萎的灌木可以放置在草方块和苔藓块上。（MCPE-125931）",
+      "更改了黑色染色陶瓦在地图上的颜色，以匹配Java版。（MCPE-166791）"
+    ],
+    "辅助功能": [
+      "现在屏幕朗读器可以朗读存储菜单中的“删除世界”的功能描述。",
+      "更改了存储菜单中世界列表的标题文字的对比度。"
+    ],
+    "图形": [
+      "修复了RTX中的月亮在水下发出的光照来源自月亮缩略图的对角的问题。（MCPE-118898）"
+    ],
+    "物品渲染": [
+      "已损坏和未损坏的鞘翅现在会在手上、世界中和物品展示框中渲染为正确的图标。（MCPE-19700）"
+    ],
+    "多人游戏": [
+      "iOS设备现在会请求授予访问本地网络的权限，用以寻找本地网络上的游戏。"
+    ],
+    "用户界面": [
+      "添加好友的加载动画现在拥有正确的大小。（MCPE-159261）",
+      "现在命令方块UI中会显示方块类型图标。（MCPE-159970）",
+      "遇到空间不足错误时不再会显示重新尝试云同步的提示。（MCPE-162455）",
+      "现在使用控制器时的屏幕UI会始终拥有控制焦点。",
+      "修复了新的死亡屏幕中会显示十字准星的漏洞。",
+      "修复了新的死亡屏幕中会显示文本格式化代码的漏洞。",
+      "修复了在VR模式下重生时玩家有时会卡死在新的死亡屏幕中的问题。",
+      "更改了全屏VR模式下新的死亡屏幕中的叠加层颜色。",
+      "世界缩略图的分辨率现在提高了一倍。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.0.20 — Minecraft Feedback，2023年4月12日。",
+      "Minecraft Preview 1.20.0.20 — Minecraft.net，2023年4月12日。",
+      "MCPE-44210 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

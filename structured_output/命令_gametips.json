@@ -1,0 +1,31 @@
+{
+  "title": "命令/gametips",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgametips",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于生存模式中的教学提示，请见“教学提示”。",
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "非专用服务端": [
+      "启用或禁用此设备上的游戏提示。"
+    ],
+    "语法": [
+      "gametips <status: Status>"
+    ],
+    "参数": [
+      "status: Status：enum",
+      "必须为以下其中之一："
+    ],
+    "基岩版": [
+      "1.20.80",
+      "1.20.80.20",
+      "加入了/gametips。"
+    ],
+    "示例": [
+      "禁用此设备上的游戏提示：/gametips disable或/gametips d"
+    ]
+  }
+}

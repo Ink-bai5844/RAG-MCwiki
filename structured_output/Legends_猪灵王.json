@@ -1,0 +1,156 @@
+{
+  "title": "Legends:猪灵王",
+  "source_url": "https://zh.minecraft.wiki/w/Legends%3A%E7%8C%AA%E7%81%B5%E7%8E%8B",
+  "structured_content": {
+    "默认分类": [
+      "本文章所述内容仅适用于Minecraft Legends中的战役模式。"
+    ],
+    "生命值": [
+      "15000"
+    ],
+    "尺寸": [
+      "高度：9.0格",
+      "宽度：7.1格"
+    ],
+    "final_boss": [
+      "据说猪灵王从熔岩中诞生，由下界本身吐出，会以那些胆敢反抗的人的骨头为食。"
+    ],
+    "在击败三个族群的首领之后，你需要直面猪灵王，与其决一死战。猪灵在失去所有首领之后也孤注一掷，发起疯狂的袭击。是时候召集你结交的所有盟友，发挥你学到的所有战术，面对你的终极考验了!": [
+      "——《我的世界：传奇指南》",
+      "猪灵王（The Great Hog）是Minecraft Legends中战役模式的最终Boss。"
+    ],
+    "生成": [
+      "当玩家击败野兽、暴食蛮猪和不败盾山后，猪灵王会在命运之井旁生成。"
+    ],
+    "投掷长矛": [
+      "猪灵王会向远处的目标投掷其后背上的长矛，其射程类似于红石发射器。"
+    ],
+    "火环攻击": [
+      "若友好生物过于接近猪灵王，则其会将长矛和法杖立在地上，在周围形成火圈，对触碰到的友好生物造成伤害。"
+    ],
+    "电荷攻击": [
+      "猪灵王有时会旋转，其法杖会在旋转过程中释放出紫色电荷，对附近的友好生物造成伤害。"
+    ],
+    "挥舞法杖": [
+      "猪灵王有时会将其法杖举到空中，进而旋转起来，对附近的生物造成伤害和击退。"
+    ],
+    "法杖冲击波": [
+      "猪灵王有时会将法杖砸在地上，对附近的生物造成击退。"
+    ],
+    "闪电攻击": [
+      "猪灵王有时会将法杖砸在地上，召唤闪电击中附近的友好生物。被闪电击中的友好生物会被眩晕。"
+    ],
+    "空闲时随机播放此声音": [
+      "Piglin_final_boss_14a_idle_lp"
+    ],
+    "行走": [
+      "Piglin_final_boss_02_fs_walk"
+    ],
+    "战斗口号": [
+      "Piglin_greathog_dx_battlecry_01"
+    ],
+    "准备旋转攻击": [
+      "Piglin_final_boss_12_attack_spin_windup"
+    ],
+    "Piglin_greathog_dx_attack_ranged_attack": [
+      "File:Piglin greathog dx attack melee a windup 01.wav"
+    ],
+    "Idle axe spark": [
+      "Piglin_final_boss_14b_idle_axe_spark"
+    ],
+    "旋转冲锋攻击": [
+      "Piglin_final_boss_13a_attack_spincharge1",
+      "Piglin_final_boss_13b_attack_spincharge2",
+      "Piglin_final_boss_13c_attack_spincharge3"
+    ],
+    "远程击退攻击": [
+      "Piglin_final_boss_11c_attack_ranged_impact_spore",
+      "Piglin_final_boss_11a_attack_ranged_impact_world",
+      "Ranged Attack 1 Projectile",
+      "Piglin_final_boss_10a_attack_ranged1_projectile",
+      "Ranged Attack 2 Projectile",
+      "Piglin_final_boss_10b_attack_ranged2_projectile",
+      "Ranged Attack 3 Projectile",
+      "Piglin_final_boss_10c_attack_ranged3_projectile",
+      "Projectile Phase 1",
+      "Piglin_final_boss_projectile_phase1",
+      "Projectile Phase 2",
+      "Piglin_final_boss_projectile_phase2",
+      "Projectile Phase 3",
+      "Piglin_final_boss_projectile_phase3"
+    ],
+    "Ranged Attack Windup Throw": [
+      "Piglin_final_boss_08a_attack_ranged_windup_throw"
+    ],
+    "Ranged Attack Windup Catch": [
+      "Piglin_final_boss_08b_attack_ranged_windup_catch"
+    ],
+    "Melee Attack A": [
+      "Piglin_final_boss_06b_attack_melee_a_01"
+    ],
+    "Melee Attack A Windup": [
+      "Piglin_final_boss_06a_attack_melee_a_windup"
+    ],
+    "Melee Attack B": [
+      "Piglin_final_boss_07b_attack_melee_b"
+    ],
+    "Melee Attack B Windup": [
+      "Piglin_final_boss_07a_attack_melee_b_windup"
+    ],
+    "Geyser Attack Intro": [
+      "Piglin_final_boss_05a_attack_geyser_intro"
+    ],
+    "Geyser Attack Summon": [
+      "Piglin_final_boss_05d_attack_geyser_summon_lp"
+    ],
+    "Geyser Attack Fire": [
+      "Piglin_final_boss_05c_attack_geyser_fire_lp"
+    ],
+    "Geyser Attack Impact": [
+      "Piglin_final_boss_05b_attack_geyser_impact"
+    ],
+    "Geyser Attack Outro": [
+      "Piglin_final_boss_05e_attack_geyser_outro"
+    ],
+    "Bash Attack": [
+      "Piglin_final_boss_04c_attack_bash_attack"
+    ],
+    "Bash Attack Windup": [
+      "Piglin_final_boss_04b_attack_bash_windup"
+    ],
+    "Bash Attack Windup Weapon Impact Large": [
+      "Piglin_final_boss_04aa_attack_bash_windup_wpn_impact_large"
+    ],
+    "Bash Attack Windup Weapon Impact Medium": [
+      "Piglin_final_boss_04a_attack_bash_windup_wpn_impact_medium"
+    ],
+    "Scuff": [
+      "Piglin_final_boss_03_fs_scuff"
+    ],
+    "Fly Impact": [
+      "Piglin_final_boss_01_fly_impact"
+    ],
+    "Fly Medium": [
+      "Piglin_final_boss_00b_fly_medium"
+    ],
+    "Fly Short": [
+      "Piglin_final_boss_00a_fly_short"
+    ],
+    "成就": [
+      "主条目：MCLG:成就"
+    ],
+    "Defender of the Overworld": [
+      "打败猪灵王。"
+    ],
+    "—": [
+      "60G",
+      "40G"
+    ],
+    "No Time for Swine": [
+      "在一个世界中打败1,000只猪灵。"
+    ],
+    "你知道吗": [
+      "由于未知原因，玩家打败猪灵王后日志不会显示有关猪灵王的相关信息。"
+    ]
+  }
+}

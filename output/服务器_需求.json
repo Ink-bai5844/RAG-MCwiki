@@ -1,0 +1,5 @@
+{
+  "title": "服务器/需求",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E5%99%A8%2F%E9%9C%80%E6%B1%82",
+  "text": "关于游戏需求，请见“Java版 § 硬件需求”。\n本条目所述内容仅适用于Java版。\n服务器安装与配置\n要获取建立Minecraft服务器的完整指导，请阅读安装与配置向导。\n服务器需求\n配置需求视服务器软件而改变，例如使用Bukkit以及/或Mod。\nJava运行时环境（JRE）为8或更高版本。JDK包含了JRE，因此也可以使用JDK。从1.17开始，需要Java 16。从1.18，需要Java 17。从1.20.5，需要Java 21。从26.1，需要 Java 25。\n至少1GB的服务器内存。服务器的内存越大越好。推荐计算机拥有至少3GB的物理内存。这样会将大量的内存预留给操作系统，也就有按需向Minecraft服务器分配更多内存的可能性。\nMinecraft服务器在1.1.0版本之后能够使用多个处理器内核，提升服务器性能。\n你可以使用CanIHostAMinecraftServer对托管的玩家数目进行粗略计划。\n以下是一些简单的建议，帮助你起步以及/或决定最佳的托管选项：\n运行LAN Party类型的服务器（自1.3.2版本）\n请注意，这些配置仅用于服务器，在操作系统中你需要分配更多系统资源！\n需求\n玩家\nCPU\n内存\n硬盘\n注释\n最低配置\n2-4\nIntel Core 2 Duo 或 AMD Athlon 64 x2\n2GB\n至少150MB用于储存世界\n确保至少拥有一个低ping的互联网连接\n（比如DSL或缆线连接）。\n建议配置\n2-6\nIntel Core 2 Duo 或 AMD Athlon 64 x2\n3GB\n至少200MB用于储存世界\n确保至少拥有一个低ping的互联网连接\n（比如DSL或缆线连接）。\n运行Dedicated类型的服务器\n请查阅Dedicated服务器需求获取更多信息。\n运行Server-Grade的服务器\n请查阅Server-Grade服务器需求获取更多信息。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "TNT/DV",
+  "source_url": "https://zh.minecraft.wiki/w/TNT%2FDV",
+  "text": "位\n描述\n0x1\nTNT是否被点燃。\n0x2\n该位储存TNT类型：\n0：TNT\n1：水下TNT\n0x4\n0x8\n（未使用）"
+}

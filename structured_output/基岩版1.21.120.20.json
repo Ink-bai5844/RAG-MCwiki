@@ -1,0 +1,194 @@
+{
+  "title": "基岩版1.21.120.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.120.20",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "1.21.120.20"
+    ],
+    "服务端版本": [
+      "1.21.120.20"
+    ],
+    "版本码": [
+      "Android：",
+      "952112020（armeabi-v7a，35）",
+      "962112020（x86，35）",
+      "972112020（arm64-v8a，35）",
+      "982112020（x86_64，35）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年9月3日"
+    ],
+    "测试版归属": [
+      "1.21.120"
+    ],
+    "协议版本": [
+      "850",
+      "◄◄1.21.114",
+      "1.21.121►►",
+      "1.21.120.21►",
+      "beta 1.21.120.20（ChromeOS/Android）、Preview 1.21.120.20（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.120的首个测试版，发布于2025年9月3日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "现在启动缺失市场模板的世界时会正确地重新下载模板并启动世界。",
+      "现在第一人称相机视角会在面向并攀爬如梯子和藤蔓等方块时略微向后偏移。"
+    ],
+    "闪烁标语": [
+      "加入了“Music by Hyper Potions!”闪烁标语。"
+    ],
+    "物品": [
+      "自格式版本1.21.120起，当自定义物品的menu_category的category设置为none（或未指定）时，该物品会在命令中可用。（MCPE-177866）",
+      "修复了不会将自定义方块渲染为“飞行物品”的问题。（MCPE-180489）",
+      "谜之炖菜现在存在于创造模式物品栏，并带有效果描述。（MCPE-51173）"
+    ],
+    "音乐唱片": [
+      "现在骑乘在鸡上的幼年僵尸、幼年僵尸村民和幼年尸壳被驯服的狼杀死后也会额外掉落一张音乐唱片Lava Chicken。"
+    ],
+    "谜之炖菜": [
+      "现在可以在创造模式物品栏中找到。",
+      "现在创造模式下的谜之炖菜会在其提示框中显示食用后给予的状态效果以及效果时长。"
+    ],
+    "游戏内容": [
+      "修复了非常旧的世界中的告示牌文本的加载问题。"
+    ],
+    "灵动视效": [
+      "为天气效果加入了类似于雪的TAA上采样功能。",
+      "将“调整亮度”设置重命名为“调整伽马值”。",
+      "为伽马值校准屏幕加入了“重置为默认值”按钮。",
+      "现在伽马值校准屏幕中的滑块会显示当前的伽马值，滑块的中间对应默认伽马值。"
+    ],
+    "鸣谢名单": [
+      "将Hyper Potions添加到鸣谢名单中。"
+    ],
+    "声音": [
+      "将block.copper_chest.open、​block.copper_chest.closed、​block.copper_chest.weathered.open、​block.copper_chest.weathered.closed、​block.copper_chest.oxidized.open、​block.copper_chest.oxidized.closed、​mob.copper_golem.step、​mob.copper_golem.spin、​mob.copper_golem.weathered.step、​mob.copper_golem.oxidized.step、​mob.copper_golem.weathered.spin和​mob.copper_golem.oxidized.spin的衰减距离由12格更改为1-12格。"
+    ],
+    "图形": [
+      "现在相机视角过于靠近或穿过实体时，实体会略微变得透明。",
+      "弃用了point_lights/global.json，以支持新的文件和模式local_lighting/local_lighting.json。创作者仍然可以使用point_lights/global.json，但推荐迁移到新模式。",
+      "扩展了根据方块的局部光照信息以包含light_type，其可以是static_light或point_light。",
+      "仅当light_type设置为point_light时方块才会考虑产生点光源。",
+      "static_light目前未被使用。",
+      "light_color现在是可选的。若未提供，方块会改用备用光照颜色。",
+      "local_lighting.json的样例：",
+      "\"format_version\":\"1.21.120\",\"minecraft:local_light_settings\":{\"minecraft:torch\":{\"light_color\":\"#EFE39D\",\"light_type\":\"point_light\"}",
+      "恢复了在计算不完整方块的环境光遮蔽方面上的Java版趋同性。（MCPE-226160）",
+      "修复了附魔光效动画在游戏暂停时仍会播放的问题。（MCPE-190569）",
+      "修复了玩家移动期间雪花会闪烁的问题。",
+      "提高了PC和主机上的伽马值校正质量，并更正了灵动视效的伽马值校准屏幕中的苦力怕纹理的亮度。"
+    ],
+    "API": [
+      "现在可以将version属性设置为beta以始终选择最新beta版本。manifest.json的示例：",
+      "\"dependencies\":[{\"module_name\":\"@minecraft/server\",\"version\":\"beta\"}",
+      "修复了Player.graphicsMode不会在玩家切换至灵动视效时返回正确的图形模式的问题。",
+      "LootTableManager的战利品生成方法现在会正确识别附有抢夺的工具。",
+      "将ScriptBiomeType类型由beta移动至2.3.0。",
+      "将Dimension.getBiome(location: Vector3)API由beta移动至2.3.0。",
+      "加入了Dimension.getGeneratedStructures(location: Vector3)，可用于定位指定位置上的结构（如掠夺者前哨站、废弃矿井等）。",
+      "加入了worldAfterEvents.playerUseNameTag，会在玩家对实体使用已命名的命名牌物品时触发。",
+      "加入了ControlScheme字符串枚举。",
+      "为beta加入了Player.setControlScheme(controlScheme?: string): void;方法。",
+      "为beta加入了Player.getControlScheme(): ControlScheme;方法。"
+    ],
+    "方块": [
+      "使用minecraft:material_instances组件中非不透明的render_method的方块被放置在水上方时不再会不正确地剔除水的顶面。",
+      "现在允许物品在其minecraft:block_placer组件中引用可放入花盆的方块，以在replace_block_item为true时可放入花盆。",
+      "蝌蚪现在会在青蛙卵下方的水中生成。（MCPE-225997）",
+      "修复了无法在冒险模式中继续破坏处于水下的有效方块的问题。",
+      "现在向展示架添加红石信号，或者移除指向或来自展示架的红石信号时会发出振动。",
+      "调整了铁砧和墙放在展示架和物品展示框中时的位置。（MCPE-225309）",
+      "现在玩家对未激活的展示架放置/移除/交换物品时会发出频率为3的振动。",
+      "现在玩家对激活的展示架放置/移除物品时会发出频率为3的振动。",
+      "现在玩家将物品与展示架上的物品进行交换时会发出频率为6的振动。"
+    ],
+    "组件": [
+      "all_slots_empty、​any_slot_empty和​has_equipment过滤器现在支持main_hand作为装备位置。"
+    ],
+    "基岩版编辑器": [
+      "在键盘设置中加入了在没有更改的情况下重置、恢复或关闭模态框时的确认对话框。",
+      "修复了实体被暂停时闪电束不会消失的漏洞。",
+      "修复了文本转语音旁白会不正确地读出快捷方式的漏洞。",
+      "移除了召唤工具列表中不可使用的实体。",
+      "修复了能够在选区的手绘画笔模式下使用↵ Enter键和⇧ Shift + ↵ Enter键来选择体积的漏洞。",
+      "在两个相邻结点的颜色之间插入的颜色时间轴上加入了渐变背景颜色。",
+      "在颜色时间轴API（renderGradientBackground）中加入了可选的布尔属性，允许关闭背景颜色的渲染。默认情况下为开。",
+      "为召唤工具加入了偏移和对齐属性，以便创作者能够更轻松地将实体安置在指定位置。"
+    ],
+    "物品组件": [
+      "带有新的物品组件minecraft:fire_resistant的物品在持续存在于服务端的情况下被扔入火中时不再会在视觉上消失于客户端，因为该属性现在会在客户端和服务端之间正确同步。"
+    ],
+    "Molang": [
+      "修复了query.graphics_mode_is_any在切换至灵动视效时不正确的问题。",
+      "加入了31个新的Molang表达式：",
+      "math.inverse_lerp(start, end, value)：返回start和​end给定值之间的归一化进度。",
+      "math.ease_in_quad(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并加速趋近end。",
+      "math.ease_out_quad(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并减速趋近end。",
+      "math.ease_in_out_quad(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间加速，最后再次变慢。",
+      "math.ease_in_cubic(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并强烈地加速趋近end。",
+      "math.ease_out_cubic(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并强烈地减速趋近end。",
+      "math.ease_in_out_cubic(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间强烈地加速，最后再次变慢。",
+      "math.ease_in_quart(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并迅速地加速趋近end。",
+      "math.ease_out_quart(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并迅速地减速趋近end。",
+      "math.ease_in_out_quart(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间迅速地加速，最后再次变慢。",
+      "math.ease_in_quint(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并急剧地加速趋近end。",
+      "math.ease_out_quint(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并急剧地减速趋近end。",
+      "math.ease_in_out_quint(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始，中间急剧地加速，最后再次变慢。",
+      "math.ease_in_sine(start, end, 0_to_1)\"：输出通过0_to_1从start到end，缓慢开始并平滑地加速趋近end。",
+      "math.ease_out_sine(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并平滑地减速趋近end。",
+      "math.ease_in_out_sine(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始和结束，中间附带较为平滑的变化。",
+      "math.ease_in_expo(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并非常迅速地加速趋近end。",
+      "math.ease_out_expo(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并渐进地减速趋近end。",
+      "math.ease_in_out_expo(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始和结束，中间附带非常迅速的变化。",
+      "math.ease_in_circ(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始并沿着圆曲线加速趋近end。",
+      "math.ease_out_circ(start, end, 0_to_1)：输出通过0_to_1从start到end，快速开始并沿着圆曲线减速趋近end。",
+      "math.ease_in_out_circ(start, end, 0_to_1)：输出通过0_to_1从start到end，缓慢开始和结束，中间附带循环加速和减速。",
+      "math.ease_in_bounce(start, end, 0_to_1)：输出通过0_to_1从start到end，弹跳波动地开始并降入end。",
+      "math.ease_out_bounce(start, end, 0_to_1)：输出通过0_to_1从start到end，弹跳波动地趋近end，波动会随时间减弱。",
+      "math.ease_in_out_bounce(start, end, 0_to_1)：输出通过0_to_1从start到end，弹跳波动地开始和减速，中间较为平滑。",
+      "math.ease_in_back(start, end, 0_to_1)：输出通过0_to_1从start到end，在加速抵达end前倒回地超出范围。",
+      "math.ease_out_back(start, end, 0_to_1)：输出通过0_to_1从start到end，在加速抵达end前经过其并超出范围。",
+      "math.ease_in_out_back(start, end, 0_to_1)：输出通过0_to_1从start到end，在开始和最后之时均超出范围，中间附带较为平滑的变化。",
+      "math.ease_in_elastic(start, end, 0_to_1)：输出通过0_to_1从start到end，在加速抵达end前弹性波动地开始。",
+      "math.ease_out_elastic(start, end, 0_to_1)：输出通过0_to_1从start到end，在下降前弹性波动地超过end。",
+      "math.ease_in_out_elastic(start, end, 0_to_1)：输出通过0_to_1从start到end，在开始和最后之时均弹性波动，中间附带稳定的变化。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“即将推出的创作者功能”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "生物群系": [
+      "加入了query.entity_biome_has_any_identifier、​query.entity_biome_has_any_tags和​query.entity_biome_has_all_tagsMolang查询函数，需要开启即将推出的创作者功能。",
+      "这些查询仅在资源包（客户端）有效，在行为包中不受支持。",
+      "entity_biome_has_any_identifier('<命名空间>:<生物群系名称>')：获取一个生物群系标识符列表，并检查其中是否有实体所处在的指定生物群系。",
+      "entity_biome_has_any_tags('<标签名称>')：获取一个生物群系标签列表，并检查实体所处在的生物群系是否匹配其中的任一生物群系标签。",
+      "entity_biome_has_all_tags('<标签名称>')：获取一个生物群系标签列表，并检查实体所处在的生物群系是否匹配其中的所有生物群系标签。"
+    ],
+    "命令": [
+      "修复了/damage命令对末地水晶施加伤害时会不正确地汇报执行失败的问题。（MCPE-191379）",
+      "修复了/locate biome命令的问题，以使该命令不再会指引玩家到错误区域。（MCPE-159992）"
+    ],
+    "生物": [
+      "现在玩家在副手持有物品的情况下或在装备有盔甲的情况下与铜傀儡交互时，铜傀儡会掉落其携带的物品。（MCPE-225249）",
+      "坐下姿势的铜傀儡像不再会有切断的像素。（MCPE-225999）"
+    ],
+    "音效": [
+      "现在铜箱子打开和关闭音效遵循自然衰减曲线。（MCPE-224011）",
+      "现在铜傀儡行走和旋转音效遵循自然衰减曲线。"
+    ],
+    "用户界面": [
+      "现在即使是滚动的消息框，点击文本框时也会将光标放在正确点位。（MCPE-186409）",
+      "现在聊天屏幕上的键盘按钮仅对触摸控制可见。（MCPE-105710）",
+      "修复了可能导致物品栏中没有纹饰的盔甲出现盔甲纹饰的漏洞。",
+      "更新了需要更多玩家睡觉才能跳到白天时显示的文本。（MCPE-183832）",
+      "修复了本地数据存在但无效时，Xbox云存储支持的世界会显示默认图块的问题。",
+      "修复了玩家无法在携带版UI将物品从创造模式物品栏移动到物品栏中的漏洞。（MCPE-226829）"
+    ],
+    "世界生成": [
+      "结构不再会在区块边界的地物（如树）上构建。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.120.20 — Minecraft Feedback，2025年9月3日。"
+    ]
+  }
+}

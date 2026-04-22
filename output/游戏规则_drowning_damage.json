@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/drowning damage",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fdrowning_damage",
+  "text": "drowning_damage（Java版）\n名称\n溺水伤害\n描述\n无\n分类（JE）\n玩家\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ndrowning_damage\ndrowningDamage（基岩版）\n名称\n无\n描述\n无\n分类（BE旧UI）\n无\n分类（BE新UI）\n无\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ndrowningDamage\ndrowning_damage[仅Java版]或drowningDamage[仅基岩版]是控制玩家是否受到溺水伤害的游戏规则。\n行为\n当drowning_damage[仅Java版]或drowningDamage[仅基岩版]为false时，玩家免疫溺水伤害（在Java版中为#is_drowning标签包含的伤害类型）。\n此游戏规则不影响玩家氧气值的变化。\n历史\nJava版\n1.15\n19w36a\n加入了游戏规则drowningDamage。\n1.21.11\n25w44a\n将游戏规则drowningDamage重命名为drowning_damage。\n携带版\n1.0.5\n1.0.5.0\n加入了游戏规则drowningDamage。\n导航"
+}

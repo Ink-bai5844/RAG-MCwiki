@@ -1,0 +1,5 @@
+{
+  "title": "Java版13w42b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8813w42b",
+  "text": "13w42b\n版本\nJava版\n类型\n快照\n发布时间\n2013年10月18日\n快照归属\n1.7.2\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n1\n资源包版本\n1\n◄◄1.6.4\n1.7.4►►\n◄13w42a\n13w43a►\n13w42b是Java版1.7.2的第13个快照，发布于2013年10月18日，加入了一个新的选项，并修复了13w42a里的漏洞和崩溃。\n新内容\n常规\n选项\n“强制使用Unicode字体”按钮被加入到语言选项中。\n允许改变Unicode字体是否被强制用于文本上。\n更改\n选项\nascii.png代码页437字体的前32个字符被替换以支持更多的语言而不需要更换字体。\n修复\n修复了5个漏洞\n上个开发版本的漏洞\nMC-35614 — 非ASCII编码的字符会显示错误。\nMC-35615 — 附魔物品不会显示其耐久条。\nMC-35642 — Wobble着色器损坏。\nMC-35653 — 查看地图会导致游戏崩溃：java.lang.NullPointerException: Ticking player。\nMC-35655 — 在创建的新世界中更改玩家音量时游戏会崩溃。\n你知道吗\n该版本的宣传截图中出现了Grum的Minecraft皮肤。\n参考\nMinecraft snapshot 13w42b (Updated!)（存档），来自Dinnerbone。Mojang.com，2013年10月17日。\n导航"
+}

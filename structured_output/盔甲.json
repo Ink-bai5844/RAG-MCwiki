@@ -1,0 +1,1800 @@
+{
+  "title": "盔甲",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9B%94%E7%94%B2",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是人形生物的盔甲。关于马装备的铠甲，请见“马铠”；关于狼装备的铠甲，请见“狼铠”；关于鹦鹉螺装备的铠甲，请见“鹦鹉螺铠”；关于盔甲的防御效果等相关机制，请见“盔甲机制”；关于其他用法，请见“盔甲（消歧义）”。"
+    ],
+    "靴子": [
+      "2个相同品质的损坏的靴子",
+      "Java版："
+    ],
+    "头盔": [
+      "2个相同品质的损坏的头盔",
+      "Java版："
+    ],
+    "胸甲": [
+      "2个相同品质的损坏的胸甲",
+      "Java版："
+    ],
+    "护腿": [
+      "2个相同品质的损坏的护腿",
+      "Java版："
+    ],
+    "海龟壳": [
+      "2个损坏的海龟壳"
+    ],
+    "[[|]]": [
+      "2个头盔的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。",
+      "2个胸甲的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。",
+      "2个护腿的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。",
+      "2个靴子的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。",
+      "2个海龟壳的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。",
+      "[[|]]0.1",
+      "[[|]]0.1",
+      "[[|]]0.1"
+    ],
+    "稀有度": [
+      "皮革帽子、皮革外套、皮革裤子、皮革靴子、铜头盔、铜胸甲、铜护腿、铜靴子、铁头盔、铁胸甲、铁护腿、铁靴子、钻石头盔、钻石胸甲、钻石护腿、钻石靴子、金头盔、金胸甲、金护腿、金靴子、下界合金头盔、下界合金胸甲、下界合金护腿、下界合金靴子、海龟壳：常见",
+      "锁链盔甲：少见"
+    ],
+    "创造标签页（JE）": [
+      "海龟壳：战斗用品、原材料",
+      "其他：战斗用品"
+    ],
+    "最大耐久度": [
+      "皮革帽子：55",
+      "皮革外套：80",
+      "皮革裤子：75",
+      "皮革靴子：65",
+      "锁链头盔、铜护腿、铁头盔：165",
+      "锁链胸甲、铁胸甲：240",
+      "锁链护腿、铁护腿：225",
+      "锁链靴子、铁靴子：195",
+      "铜头盔：121",
+      "铜胸甲：176",
+      "铜靴子：143",
+      "钻石头盔：363",
+      "钻石胸甲：528",
+      "钻石护腿：495",
+      "钻石靴子：429",
+      "金头盔：77",
+      "金胸甲：112",
+      "金护腿：105",
+      "金靴子：91",
+      "下界合金头盔：407",
+      "下界合金胸甲：592",
+      "下界合金护腿：555",
+      "下界合金靴子：481",
+      "海龟壳：275"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "可再生": [
+      "皮革帽子、皮革外套、皮革裤子、皮革靴子、锁链头盔、锁链胸甲、锁链护腿、锁链靴子、铜头盔、铜胸甲、铜护腿、铜靴子、铁头盔、铁胸甲、铁护腿、铁靴子、钻石头盔、钻石胸甲、钻石护腿、钻石靴子、金头盔、金胸甲、金护腿、金靴子、海龟壳：是",
+      "下界合金盔甲：否"
+    ],
+    "物品ID": [
+      "皮革帽子：leather_helmet",
+      "皮革外套：leather_chestplate",
+      "皮革裤子：leather_leggings",
+      "皮革靴子：leather_boots",
+      "锁链头盔：chainmail_helmet",
+      "锁链胸甲：chainmail_chestplate",
+      "锁链护腿：chainmail_leggings",
+      "锁链靴子：chainmail_boots",
+      "铜头盔：copper_helmet",
+      "铜胸甲：copper_chestplate",
+      "铜护腿：copper_leggings",
+      "铜靴子：copper_boots",
+      "铁头盔：iron_helmet",
+      "铁胸甲：iron_chestplate",
+      "铁护腿：iron_leggings",
+      "铁靴子：iron_boots",
+      "钻石头盔：diamond_helmet",
+      "钻石胸甲：diamond_chestplate",
+      "钻石护腿：diamond_leggings",
+      "钻石靴子：diamond_boots",
+      "金头盔：golden_helmet",
+      "金胸甲：golden_chestplate",
+      "金护腿：golden_leggings",
+      "金靴子：golden_boots",
+      "下界合金头盔：netherite_helmet",
+      "下界合金胸甲：netherite_chestplate",
+      "下界合金护腿：netherite_leggings",
+      "下界合金靴子：netherite_boots",
+      "海龟壳：turtle_helmet",
+      "盔甲（Armor）是可由生物穿戴的物品。盔甲在被装备后能给予穿戴者不同等级的保护，减少常见类型的伤害，并呈现在穿戴者的外观上。它能放置在玩家物品栏的指定盔甲栏。",
+      "盔甲可按部位分为头盔（Helmet）、胸甲（Chestplate）、护腿（Leggings）和靴子（Boots）4种，可按盔甲材料分为皮革盔甲（Leather Armor）、铜盔甲（Copper Armor）、锁链盔甲（Chainmail Armor）、铁盔甲（Iron Armor）、钻石盔甲（Diamond Armor）、金盔甲（Golden Armor）、下界合金盔甲（Netherite Armor）和海龟鳞甲盔甲（Turtle Scute Armor）8种。"
+    ],
+    "物品列表": [
+      "总共有以下29种盔甲："
+    ],
+    "皮革": [
+      "7（）",
+      "1（）",
+      "3（）",
+      "2（）",
+      "1（）",
+      "15",
+      "55",
+      "80",
+      "75",
+      "65",
+      "23.60%"
+    ],
+    "皮革帽子": [
+      "物品进行了5–19级附魔，不能提供宝藏型魔咒（由标签#on_traded_equipment控制）。",
+      "皮革盔甲会被随机2种染料（可能相同）染色。"
+    ],
+    "皮革靴子": [
+      "10%",
+      "1.0%",
+      "0.8%",
+      "0.6%",
+      "0.4%",
+      "8.3% (10⁄120)[仅BE]",
+      "9.1% (10⁄110)[仅JE]",
+      "0.8%[仅BE]",
+      "0.9%[仅JE]",
+      "0.7%",
+      "0.5%[仅BE]",
+      "0.6%[仅JE]",
+      "0.3%[仅BE]",
+      "0.4%[仅JE]",
+      "该概率不随附魔等级而改变。",
+      "从垃圾类别中钓到的钓鱼竿和皮革靴子会有10%–100%的耐久损耗，且未附魔。",
+      "只有当玩家在丛林群系（包括其所有变种）中钓鱼时，才会如此获得钓鱼战利品。"
+    ],
+    "铜": [
+      "10（）",
+      "2（）",
+      "4（）",
+      "3（）",
+      "1（）",
+      "8",
+      "121",
+      "176",
+      "165",
+      "143",
+      "32.23%"
+    ],
+    "锁链": [
+      "12（ × 6）",
+      "2（）",
+      "5（）",
+      "4（）",
+      "1（）",
+      "12",
+      "165",
+      "240",
+      "225",
+      "195"
+    ],
+    "铁": [
+      "15（ × 7.5）",
+      "2（）",
+      "6（）",
+      "5（）",
+      "2（）",
+      "9",
+      "165",
+      "240",
+      "225",
+      "195",
+      "1.10%"
+    ],
+    "钻石": [
+      "20（ × 10）",
+      "3（）",
+      "8（）",
+      "6（）",
+      "3（）",
+      "10",
+      "363",
+      "528",
+      "495",
+      "429",
+      "0.04%",
+      "生物盔甲的机制和玩家是一样的，但在Java版中，生物承受伤害时不会消耗盔甲耐久度。",
+      "头盔能防止生物在阳光下燃烧，同时减少耐久度[仅Java版]。南瓜和生物头颅也会防止生物在阳光下燃烧。",
+      "以下生物能穿着盔甲生成："
+    ],
+    "金": [
+      "11（ × 5.5）",
+      "2（）",
+      "5（）",
+      "3（）",
+      "1（）",
+      "25",
+      "77",
+      "112",
+      "105",
+      "91",
+      "33.29%"
+    ],
+    "下界合金": [
+      "20（ × 10）",
+      "3（）",
+      "8（）",
+      "6（）",
+      "3（）",
+      "15",
+      "盔甲可以获得以下魔咒：",
+      "407",
+      "592",
+      "555",
+      "481"
+    ],
+    "海龟鳞甲": [
+      "9",
+      "275"
+    ],
+    "获取": [
+      "盔甲材料。由左（最弱）到右（最强）：无盔甲、皮革、铜、金、锁链、铁和钻石以及下界合金；海龟壳未在图中展示"
+    ],
+    "合成": [
+      "制作一整套盔甲一般需要24个相应材料。注意：锁链盔甲和下界合金盔甲无法通过合成获得；海龟壳没有对应的胸甲、护腿和靴子。"
+    ],
+    "锻造": [
+      "下界合金盔甲可通过在锻造台中升级钻石盔甲来获得，耐久度、魔咒和自定义名称等物品数据会被保留。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加两个盔甲的剩余耐久度，再额外获得5%的耐久度，会损失所有非诅咒魔咒。",
+      "叠加两件盔甲的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "铁砧": [
+      "主条目：铁砧机制"
+    ],
+    "修复和命名 皮革帽子皮革外套皮革裤子皮革靴子金头盔金胸甲金护腿金靴子锁链头盔锁链胸甲锁链护腿锁链靴子铜头盔铜胸甲铜护腿铜靴子铁头盔铁胸甲铁护腿铁靴子钻石头盔钻石胸甲钻石护腿钻石靴子下界合金头盔下界合金胸甲下界合金护腿下界合金靴子海龟壳[[|]][[|]][[|]]": [
+      "每个材料可以恢复盔甲25%的耐久（向下取整）。",
+      "锁链盔甲的修复原料视为铁锭，而下界合金盔甲的修复原料视为下界合金锭。"
+    ],
+    "掉落物": [
+      "穿着盔甲生成的僵尸、骷髅及它们的变种在被玩家或驯服的狼杀死时有8.5%[仅JE]/25%[仅BE]（抢夺魔咒每级增加1%）的概率掉落其自然生成时携带的盔甲，盔甲的耐久度是随机的，且有可能携带随机魔咒。它们死亡时必定会掉落它们曾拾起并穿上的盔甲。",
+      "猪灵被玩家或驯服的狼杀死时有8.5%[仅JE]/25%[仅BE]（抢夺魔咒每级增加1%）的概率掉落其自然生成时携带的金盔甲，盔甲的耐久度是随机的，且有可能携带随机魔咒。猪灵在死亡时必定会掉落它们曾拾起并穿上的盔甲。",
+      "在基岩版中，在袭击中生成的掠夺者和卫道士死亡后会根据难度掉落任意一件铁盔甲，掉落概率在简单和普通难度为16.66%，困难难度为20.51%；带有魔咒的概率在简单难度为0%，普通难度为33.33%，困难难度为50%。这些盔甲具有30%到90%的随机耐久。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre1",
+      "更改了盔甲的保护行为。在此之前，盔甲的总保护公式为：(((总盔甲伤害减少量 − 1) × (最大盔甲耐久度减少量 − 总盔甲损害量)) ÷ (总盔甲损害量最大值 + 1))。",
+      "2011年10月3日",
+      "发表了首张玩家穿戴附魔的盔甲的图片。",
+      "Beta 1.9-pre3",
+      "铁盔甲现在会出现在要塞祭坛的箱子里。",
+      "Beta 1.9-pre4",
+      "盔甲现在可以具有魔咒。",
+      "1.1",
+      "12w01a",
+      "铁盔甲现在会出现在村庄里的铁匠铺箱子里。",
+      "1.2.1",
+      "12w06a",
+      "在稀有的情况下，僵尸会掉落铁头盔，僵尸猪人会掉落金头盔。",
+      "1.3.1",
+      "12w15a",
+      "⇧ Shift+右键现在能被用于穿上盔甲。",
+      "12w21a",
+      "锁链盔甲现在能通过交易来在生存模式合法地获得。",
+      "铁匠村民会出售各式盔甲了，价格（绿宝石）如下："
+    ],
+    "基岩版": [
+      "1.4.0",
+      "1.2.14.2",
+      "锁链头盔、胸甲、护腿和靴子现在会在埋藏的宝藏箱子中生成。",
+      "附魔皮革盔甲现在可以在沉船的箱子中找到。",
+      "1.2.20.1",
+      "皮革外套和金头盔现在可以在水下遗迹中找到。",
+      "1.5.0",
+      "1.5.0.4",
+      "加入了海龟壳。",
+      "1.10.0",
+      "1.10.0.3",
+      "铁盔甲现在能在平原村庄的工具匠小屋的箱子里找到。",
+      "皮革盔甲现在能在平原村庄的皮匠小屋的箱子里找到。",
+      "更改了皮革盔甲的纹理。",
+      "更改了锁链盔甲的纹理。",
+      "更改了铁盔甲的纹理。",
+      "更改了金盔甲的纹理。",
+      "更改了钻石头盔、钻石护腿和钻石靴子的纹理。",
+      "钻石盔甲的袖子下现在有了缺口，纹理从更改为。",
+      "1.11.0",
+      "1.11.0.1",
+      "铁盔甲现在可以在热带草原、针叶林、沙漠、积雪针叶林、积雪的冻原村庄的武器匠箱子中找到。",
+      "皮革盔甲现在可以在热带草原、针叶林、沙漠、积雪针叶林、积雪的冻原村庄的皮革匠箱子中找到。",
+      "铁头盔现在可以在村庄的盔甲匠箱子中找到。",
+      "1.11.0.4",
+      "生成在袭击中的掠夺者和卫道士现在会掉落铁盔甲。",
+      "皮革匠村民现在出售皮革裤子。",
+      "盔甲匠村民现在出售铁护腿和靴子，钻石头盔、护腿和靴子。",
+      "1.11.0.5",
+      "更改了金盔甲的物品纹理。",
+      "1.12.0",
+      "1.12.0.2",
+      "盔甲架上的皮革盔甲现在会被不正确地染色。",
+      "1.13.0",
+      "1.13.0.1",
+      "修复了上述漏洞。",
+      "1.16.0",
+      "1.16.0.51",
+      "加入了下界合金盔甲。",
+      "更改了钻石盔甲的物品纹理。",
+      "现在猪灵有概率装备金盔甲，因此可以从猪灵身上获得盔甲。",
+      "1.16.0.57",
+      "现在堡垒遗迹箱子中的金盔甲和下界合金盔甲会随机具有魔咒了。",
+      "移除了原有的下界合金盔甲的合成配方，现在下界合金盔甲能通过在锻造台中升级钻石盔甲来获得。",
+      "1.16.0.63",
+      "钻石盔甲取代了堡垒遗迹箱子中原有的下界合金盔甲。",
+      "1.16.20",
+      "1.16.20.50",
+      "现在装备时会发出独特的音效。",
+      "1.16.200",
+      "1.16.200.52",
+      "更改了下界合金护腿的纹理。",
+      "皮革靴子现在会防止生物陷入细雪中。",
+      "1.16.200.53",
+      "将每件下界合金盔甲提供的击退抗性更改为22.5%。",
+      "1.16.210",
+      "1.16.210.53",
+      "穿着任意皮革盔甲的部件可以完全免疫细雪的冰冻效果。",
+      "1.17.10",
+      "1.17.10.20",
+      "更改了下界合金靴子的物品纹理以匹配Java版。",
+      "1.18.30",
+      "1.18.30.20",
+      "每件下界合金盔甲提供的击退抗性由22.5%更改为10%。",
+      "1.19.80"
+    ],
+    "新手级盔甲匠": [
+      "40%",
+      "25%",
+      "绿宝石 × 5",
+      "40%",
+      "25%",
+      "绿宝石 × 9",
+      "40%",
+      "25%",
+      "绿宝石 × 7",
+      "40%",
+      "25%",
+      "绿宝石 × 4"
+    ],
+    "学徒级盔甲匠": [
+      "50%",
+      "33%",
+      "绿宝石 × 3",
+      "50%",
+      "33%"
+    ],
+    "老手级盔甲匠": [
+      "40%",
+      "33%",
+      "40%",
+      "33%",
+      "绿宝石 × 4"
+    ],
+    "专家级盔甲匠": [
+      "100%",
+      "50%",
+      "绿宝石 × 19–33[仅JE]/14[仅BE]",
+      "100%",
+      "50%",
+      "绿宝石 × 13–27[仅JE]/8[仅BE]"
+    ],
+    "大师级盔甲匠": [
+      "100%",
+      "50%",
+      "绿宝石 × 13–27[仅JE]/8[仅BE]",
+      "100%",
+      "50%",
+      "绿宝石 × 21–35[仅JE]/16[仅BE]"
+    ],
+    "新手级皮匠": [
+      "67%",
+      "50%",
+      "绿宝石 × 3",
+      "67%",
+      "50%",
+      "绿宝石 × 7"
+    ],
+    "学徒级皮匠": [
+      "67%",
+      "50%",
+      "绿宝石 × 5",
+      "67%",
+      "50%",
+      "绿宝石 × 4"
+    ],
+    "老手级皮匠": [
+      "100%",
+      "绿宝石 × 7"
+    ],
+    "大师级皮匠": [
+      "100%",
+      "50%",
+      "绿宝石 × 5"
+    ],
+    "礼物": [
+      "主条目：村庄英雄 § 给予物品",
+      "本段落所述内容仅适用于Java版。",
+      "盔甲匠会向带有村庄英雄效果的玩家投掷锁链盔甲。"
+    ],
+    "钓鱼": [
+      "钓鱼时有概率会获得一个皮革靴子，拥有0-90%的耐久度，且没有魔咒。"
+    ],
+    "权重": [
+      "10%",
+      "8.1%",
+      "6.1%",
+      "4.2%",
+      "10%",
+      "8.1%",
+      "6.1%",
+      "4.2%"
+    ],
+    "要塞走廊": [
+      "0.12",
+      "1",
+      "11.89%",
+      "8.4",
+      "0.12",
+      "1",
+      "11.54%",
+      "8.7",
+      "0.12",
+      "1",
+      "11.89%",
+      "8.4",
+      "0.12",
+      "1",
+      "11.54%",
+      "8.7",
+      "0.12",
+      "1",
+      "11.89%",
+      "8.4",
+      "0.12",
+      "1",
+      "11.54%",
+      "8.7",
+      "0.12",
+      "1",
+      "11.89%",
+      "8.4",
+      "0.12",
+      "1",
+      "11.54%",
+      "8.7"
+    ],
+    "村庄武器匠小屋": [
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "基岩版：",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4"
+    ],
+    "村庄盔甲匠小屋": [
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1"
+    ],
+    "沉船补给箱": [
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8",
+      "0.23",
+      "1",
+      "20.78%",
+      "4.8"
+    ],
+    "堡垒遗迹藏宝室": [
+      "0.13",
+      "1",
+      "12.8%",
+      "7.8",
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.15",
+      "1",
+      "14%",
+      "7.1",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0",
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.13",
+      "1",
+      "12.8%",
+      "7.8",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0",
+      "0.15",
+      "1",
+      "14%",
+      "7.1",
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.13",
+      "1",
+      "12.8%",
+      "7.8",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0",
+      "0.15",
+      "1",
+      "14%",
+      "7.1",
+      "0.13",
+      "1",
+      "12.8%",
+      "7.8",
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.15",
+      "1",
+      "14%",
+      "7.1",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0"
+    ],
+    "废弃传送门": [
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9"
+    ],
+    "堡垒遗迹桥": [
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "0.12",
+      "1",
+      "11.24%",
+      "8.9",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "具有随机等级的灵魂疾行。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "具有随机等级的灵魂疾行魔咒。"
+    ],
+    "末地城": [
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9"
+    ],
+    "堡垒遗迹塔尖": [
+      "0.10",
+      "1",
+      "9.75%",
+      "10.3",
+      "0.11",
+      "1",
+      "10.25%",
+      "9.8",
+      "0.10",
+      "1",
+      "9.75%",
+      "10.3",
+      "基岩版：",
+      "0.11",
+      "1",
+      "10.25%",
+      "9.8",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品进行了30 – 50级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "0.10",
+      "1",
+      "9.75%",
+      "10.3",
+      "0.10",
+      "1",
+      "9.75%",
+      "10.3",
+      "基岩版：",
+      "0.11",
+      "1",
+      "10.25%",
+      "9.8",
+      "0.11",
+      "1",
+      "10.25%",
+      "9.8"
+    ],
+    "大型海底废墟": [
+      "0.04",
+      "1",
+      "4.35%",
+      "23.0",
+      "0.04",
+      "1",
+      "4.35%",
+      "23.0",
+      "0.04",
+      "1",
+      "4.35%",
+      "23.0",
+      "0.04",
+      "1",
+      "4.35%",
+      "23.0"
+    ],
+    "小型海底废墟": [
+      "0.08",
+      "1",
+      "8.33%",
+      "12.0",
+      "0.08",
+      "1",
+      "8.33%",
+      "12.0",
+      "0.08",
+      "1",
+      "8.33%",
+      "12.0",
+      "0.08",
+      "1",
+      "8.33%",
+      "12.0"
+    ],
+    "村庄皮匠小屋": [
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "基岩版：",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1",
+      "0.38",
+      "1",
+      "31.81%",
+      "3.1"
+    ],
+    "村庄铁匠铺（未使用）": [
+      "0.29",
+      "1",
+      "25.64%",
+      "3.9",
+      "0.29",
+      "1",
+      "25.64%",
+      "3.9",
+      "0.29",
+      "1",
+      "25.64%",
+      "3.9",
+      "0.29",
+      "1",
+      "25.64%",
+      "3.9"
+    ],
+    "试炼密室不祥宝库 - 稀有": [
+      "0.10",
+      "1",
+      "10.34%",
+      "9.7",
+      "0.10",
+      "1",
+      "10%",
+      "10.0"
+    ],
+    "林地府邸": [
+      "0.09",
+      "1",
+      "9.06%",
+      "11.0",
+      "0.19",
+      "1",
+      "17.55%",
+      "5.7",
+      "0.18",
+      "1",
+      "17.25%",
+      "5.8",
+      "0.09",
+      "1",
+      "8.9%",
+      "11.2",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品进行了0 – 10级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "物品进行了5 – 15级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "物品进行了10 – 20级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。"
+    ],
+    "试炼密室宝库或奖品箱 - 稀有": [
+      "0.09",
+      "1",
+      "8.7%",
+      "11.5",
+      "0.04",
+      "1",
+      "4.35%",
+      "23.0",
+      "0.09",
+      "1",
+      "8.7%",
+      "11.5",
+      "0.04",
+      "1",
+      "4.35%",
+      "23.0"
+    ],
+    "埋藏的宝藏": [
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0",
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0"
+    ],
+    "远古城市": [
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1",
+      "0.27",
+      "1",
+      "23.73%",
+      "4.2",
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1",
+      "0.27",
+      "1",
+      "23.73%",
+      "4.2"
+    ],
+    "用途": [
+      "生物装备盔甲后可获得对伤害的额外防护能力。装备的盔甲是所有生物共有的实体数据的一部分，因此所有生物都可被命令装备盔甲。虽然部分生物不会显示它们装备的盔甲，但装备的盔甲仍然会运作。",
+      "要使盔甲保护玩家，玩家需先将盔甲装备到相应的盔甲槽当中。头盔、胸甲、护腿和靴子对应的盔甲槽分别是头部、上身、下身和足部，它们位于物品栏中玩家角色形象的旁边。玩家也可在手持盔甲时按下使用键来将其装备到身上，如果此时对应的盔甲槽中已经放入了一件盔甲，则两件盔甲会在物品栏中互换位置。在Java版中，在创造模式下按使用键将盔甲装备到空盔甲槽后会在物品栏中留下一件同样的装备。",
+      "由于海龟壳不能像其他盔甲组成完整的一套，因此不能按成套的装备讨论。如果将其单独与其他头盔相比较，可得知其提供的护甲值与金头盔、锁链头盔和铁头盔提供的护甲值相同，且耐久度介于铁头盔和钻石头盔之间。",
+      "下界合金盔甲的物品实体免疫火焰伤害。"
+    ],
+    "外观": [
+      "盔甲被装备时会显示在装备着它们的生物身上，一整套盔甲将会覆盖生物的大部分外观，但生物的头部和手臂仍然是可见的。如果盔甲有魔咒，那么适用于物品的附魔外观效果也会出现在生物穿戴的盔甲外观上。",
+      "盔甲可通过被玩家改造来改变它们的外观。",
+      "只有以下生物装备的盔甲是可见的："
+    ],
+    "猪灵蛮兵": [
+      "这些生物可以通过发射器来装备盔甲，然而其盔甲不会渲染："
+    ],
+    "在皮革外套显示两种染料的所有组合": [
+      "主条目：染料 § 盔甲",
+      "皮革盔甲可以被染色，且颜色可以混合。持有染色过的皮革盔甲时使用炼药锅可以清除其颜色。",
+      "正在加载互动小工具。如果加载失败，请您刷新本页面并检查JavaScript是否已启用。"
+    ],
+    "盔甲纹饰": [
+      "主条目：锻造 § 添加盔甲纹饰",
+      "盔甲上可以添加盔甲纹饰，但不提升盔甲的防护性能或给予其他功能。"
+    ],
+    "提供属性": [
+      "参见：盔甲机制和伤害 § 击退抗性"
+    ],
+    "游戏中的盔甲条": [
+      "盔甲在被装备时会提供属性：",
+      "所有盔甲在被装备时都会提供护甲值属性（armor）。",
+      "钻石盔甲和下界合金盔甲在被装备时会提供盔甲韧性属性（armor_toughness）。",
+      "每件钻石增加2盔甲韧性，整套钻石增加8盔甲韧性。",
+      "每件下界合金盔甲增加3盔甲韧性，整套下界合金盔甲增加12盔甲韧性。",
+      "下界合金盔甲在被装备时会提供击退抗性属性（knockback_resistance）。",
+      "每件下界合金盔甲增加10%击退抗性，整套下界合金盔甲增加40%击退抗性。",
+      "胸甲在同盔甲材料其他盔甲当中提供的护甲值总是最高，其次则是护腿。对于皮革、铁、钻石和下界合金盔甲，靴子和头盔提供的护甲值相同；而对于铜、金和锁链盔甲，头盔比靴子提供的护甲值高。"
+    ],
+    "—": [
+      "2（）",
+      "64",
+      "下表则是耐久度与耗费材料数的比值，以靴子为100%的比较基准。"
+    ],
+    "提供水下呼吸": [
+      "海龟壳会为没有浸没在水中的生物提供10秒的水下呼吸效果。"
+    ],
+    "躲避猪灵": [
+      "成年猪灵不会主动攻击装备了任意金盔甲的玩家。"
+    ],
+    "防止冰冻": [
+      "装备任意皮革盔甲可以防止生物受到细雪的冰冻影响。",
+      "装备皮革靴子能防止生物陷入细雪，也可让生物在细雪内上下自由移动。"
+    ],
+    "魔咒": [
+      "主条目：魔咒和盔甲机制 § 保护魔咒机制",
+      "盔甲可以获得魔咒，其中许多魔咒专用于盔甲。魔咒能额外提供的保护，包括一些护甲值不会保护的伤害，例如摔落伤害或火。透过魔咒减少的伤害不会降低盔甲的耐久度。盔甲的魔咒不会显示在盔甲条。",
+      "盔甲的附魔能力取决于它的材料。材料的附魔能力愈高，得到多个和高等级魔咒的概率愈高（详情参见附魔（物品修饰））。"
+    ],
+    "迅捷潜行（III）": [
+      "保护、弹射物保护、火焰保护和爆炸保护为一组不共存魔咒，冰霜行者和深海探索者为一组不共存魔咒。然而在Java版中，不祥试炼刷怪笼生成的生物穿戴的盔甲会同时具有保护、弹射物保护、和火焰保护。"
+    ],
+    "耐久度": [
+      "主条目：物品耐久 § 盔甲耐久度",
+      "在玩家承受任何可被护甲值防护的伤害时，玩家穿戴中的盔甲会消耗耐久度。",
+      "下表展示了每种盔甲部件的耐久度："
+    ],
+    "耐久度/耗费材料数": [
+      "68%",
+      "61%",
+      "66%",
+      "100%",
+      "这表示对于相同数量的皮革/铁锭/金锭/钻石，靴子能抵抗的伤害是护腿的1.5倍。因此，虽然胸甲和护腿每单位材料的护甲值较高，但每单位材料的耐久度却比较少。"
+    ],
+    "发射器": [
+      "发射器在使用盔甲物品时，会向朝向的1格内有空的适当盔甲槽的玩家、僵尸及其变种、骷髅及其变种、村民[仅Java版]、灾厄村民、女巫[仅基岩版]、猪灵、猪灵蛮兵或盔甲架装备盔甲，否则盔甲物品会从发射器中被抛出。"
+    ],
+    "减少下落的方块的伤害": [
+      "参见：下落的方块 § 造成伤害",
+      "下落的滴水石锥和下落的铁砧会对下落处的生物造成伤害。如果生物装备了头盔，那么生物受到的伤害会减少四分之一，但头盔会受到大量耐久度损耗。"
+    ],
+    "穿着下界合金盔甲的僵尸": [
+      "除了玩家外，非玩家生物也具有穿戴盔甲的能力。",
+      "某些生物在生成时会穿着随机盔甲部件，而某些生物也有捡起并穿上盔甲的能力。除由不祥试炼刷怪笼生成的生物外，生物穿着盔甲的概率（不论是否有魔咒）、盔甲的附魔等级，以及盔甲部件的数量都是基于难度而定的；如果生物穿着盔甲，则该盔甲的品质会由下方的概率表决定："
+    ],
+    "链甲": [
+      "9.73%"
+    ],
+    "成年猪灵（只会穿着金盔甲生成，然而可以捡起任意品质的盔甲）": [
+      "以下生物不会穿着盔甲自然生成，但在普通与困难难度下会捡起掉落的任何盔甲部件："
+    ],
+    "僵尸村民[仅基岩版]": [
+      "以下生物不会捡起盔甲，但可以通过发射器来装备盔甲："
+    ],
+    "唤魔者[仅基岩版]": [
+      "其他所有生物都可以使用命令来装备盔甲，虽然这些盔甲都不会显示出来。",
+      "由不祥试炼刷怪笼生成的怪物若能装备盔甲，则都会装备带有镶铆或涡流盔甲纹饰的盔甲，并附有保护IV、弹射物保护IV和火焰保护IV，虽然这些魔咒互斥[仅Java版]。"
+    ],
+    "女巫[仅基岩版]": [
+      "以下生物生成时不会穿着盔甲，但如果使用命令，它们的盔甲会是可见的："
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "盔甲：装备"
+    ],
+    "subtitles.item.armor.equip": [
+      "皮革盔甲：摩擦"
+    ],
+    "subtitles.item.armor.equip_leather": [
+      "锁链盔甲：碰擦"
+    ],
+    "subtitles.item.armor.equip_chain": [
+      "铜盔甲：哐咚"
+    ],
+    "subtitles.item.armor.equip_copper": [
+      "铁盔甲：铿锵"
+    ],
+    "subtitles.item.armor.equip_iron": [
+      "钻石盔甲：碰擦"
+    ],
+    "subtitles.item.armor.equip_diamond": [
+      "金盔甲：叮当"
+    ],
+    "subtitles.item.armor.equip_gold": [
+      "下界合金盔甲：铿锵"
+    ],
+    "subtitles.item.armor.equip_netherite": [
+      "海龟壳：咕咚"
+    ],
+    "subtitles.item.armor.equip_turtle": [
+      "物品：损坏"
+    ],
+    "subtitles.entity.item.break": [
+      "基岩版："
+    ],
+    "armor.equip_generic": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_leather": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_chain": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_copper": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_iron": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_diamond": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_gold": [
+      "1.0",
+      "16"
+    ],
+    "armor.equip_netherite": [
+      "1.0",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.9",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "leather_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:leather\",\"equip_sound\":\"minecraft:item.armor.equip_leather\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.leather_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_leather_armor\"},\"minecraft:max_damage\":55,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:leather_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}",
+      "染色的皮革盔甲有如下物品组件：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:dyed_color：物品的颜色。只使用后24位，每个颜色通道占用8位，按RGB依次存储。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "有纹饰的盔甲具有以下物品组件：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:trim：物品的盔甲纹饰信息。"
+    ],
+    "leather_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:leather\",\"equip_sound\":\"minecraft:item.armor.equip_leather\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.leather_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_leather_armor\"},\"minecraft:max_damage\":80,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:leather_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "leather_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:leather\",\"equip_sound\":\"minecraft:item.armor.equip_leather\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.leather_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_leather_armor\"},\"minecraft:max_damage\":75,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:leather_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "leather_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:leather\",\"equip_sound\":\"minecraft:item.armor.equip_leather\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.leather_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_leather_armor\"},\"minecraft:max_damage\":65,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:leather_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "chainmail_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:chainmail\",\"equip_sound\":\"minecraft:item.armor.equip_chain\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.chainmail_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_chain_armor\"},\"minecraft:max_damage\":165,\"minecraft:rarity\":\"uncommon\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:chainmail_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":12}}"
+    ],
+    "chainmail_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:chainmail\",\"equip_sound\":\"minecraft:item.armor.equip_chain\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.chainmail_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_chain_armor\"},\"minecraft:max_damage\":240,\"minecraft:rarity\":\"uncommon\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":5,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:chainmail_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":12}}"
+    ],
+    "chainmail_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:chainmail\",\"equip_sound\":\"minecraft:item.armor.equip_chain\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.chainmail_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_chain_armor\"},\"minecraft:max_damage\":225,\"minecraft:rarity\":\"uncommon\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":4,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:chainmail_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":12}}"
+    ],
+    "chainmail_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:chainmail\",\"equip_sound\":\"minecraft:item.armor.equip_chain\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.chainmail_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_chain_armor\"},\"minecraft:max_damage\":195,\"minecraft:rarity\":\"uncommon\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:chainmail_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":12}}"
+    ],
+    "copper_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:copper\",\"equip_sound\":\"minecraft:item.armor.equip_copper\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_copper_armor\"},\"minecraft:max_damage\":121,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":8}}"
+    ],
+    "copper_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:copper\",\"equip_sound\":\"minecraft:item.armor.equip_copper\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_copper_armor\"},\"minecraft:max_damage\":176,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":4,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":8}}"
+    ],
+    "copper_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:copper\",\"equip_sound\":\"minecraft:item.armor.equip_copper\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_copper_armor\"},\"minecraft:max_damage\":165,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":8}}"
+    ],
+    "copper_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:copper\",\"equip_sound\":\"minecraft:item.armor.equip_copper\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_copper_armor\"},\"minecraft:max_damage\":143,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":8}}"
+    ],
+    "iron_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:iron\",\"equip_sound\":\"minecraft:item.armor.equip_iron\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_iron_armor\"},\"minecraft:max_damage\":165,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":9}}"
+    ],
+    "iron_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:iron\",\"equip_sound\":\"minecraft:item.armor.equip_iron\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_iron_armor\"},\"minecraft:max_damage\":240,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":6,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":9}}"
+    ],
+    "iron_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:iron\",\"equip_sound\":\"minecraft:item.armor.equip_iron\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_iron_armor\"},\"minecraft:max_damage\":225,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":5,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":9}}"
+    ],
+    "iron_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:iron\",\"equip_sound\":\"minecraft:item.armor.equip_iron\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_iron_armor\"},\"minecraft:max_damage\":195,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":9}}"
+    ],
+    "diamond_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:diamond\",\"equip_sound\":\"minecraft:item.armor.equip_diamond\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_diamond_armor\"},\"minecraft:max_damage\":363,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":10}}"
+    ],
+    "diamond_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:diamond\",\"equip_sound\":\"minecraft:item.armor.equip_diamond\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_diamond_armor\"},\"minecraft:max_damage\":528,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":8,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":10}}"
+    ],
+    "diamond_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:diamond\",\"equip_sound\":\"minecraft:item.armor.equip_diamond\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_diamond_armor\"},\"minecraft:max_damage\":495,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":6,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":10}}"
+    ],
+    "diamond_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:diamond\",\"equip_sound\":\"minecraft:item.armor.equip_diamond\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_diamond_armor\"},\"minecraft:max_damage\":429,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":10}}"
+    ],
+    "golden_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:gold\",\"equip_sound\":\"minecraft:item.armor.equip_gold\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_gold_armor\"},\"minecraft:max_damage\":77,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":25}}"
+    ],
+    "golden_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:gold\",\"equip_sound\":\"minecraft:item.armor.equip_gold\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_gold_armor\"},\"minecraft:max_damage\":112,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":5,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":25}}"
+    ],
+    "golden_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:gold\",\"equip_sound\":\"minecraft:item.armor.equip_gold\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_gold_armor\"},\"minecraft:max_damage\":105,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":25}}"
+    ],
+    "golden_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:gold\",\"equip_sound\":\"minecraft:item.armor.equip_gold\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_gold_armor\"},\"minecraft:max_damage\":91,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":25}}"
+    ],
+    "turtle_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:turtle_scute\",\"equip_sound\":\"minecraft:item.armor.equip_turtle\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.turtle_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_turtle_helmet\"},\"minecraft:max_damage\":275,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:turtle_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":9}}"
+    ],
+    "netherite_helmet": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:netherite\",\"equip_sound\":\"minecraft:item.armor.equip_netherite\",\"slot\":\"head\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_helmet\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_netherite_armor\"},\"minecraft:max_damage\":407,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"},{\"type\":\"minecraft:knockback_resistance\",\"amount\":0.10000000149011612,\"operation\":\"add_value\",\"slot\":\"head\",\"id\":\"minecraft:armor.helmet\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_helmet\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "netherite_chestplate": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:netherite\",\"equip_sound\":\"minecraft:item.armor.equip_netherite\",\"slot\":\"chest\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_chestplate\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_netherite_armor\"},\"minecraft:max_damage\":592,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":8,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"},{\"type\":\"minecraft:knockback_resistance\",\"amount\":0.10000000149011612,\"operation\":\"add_value\",\"slot\":\"chest\",\"id\":\"minecraft:armor.chestplate\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_chestplate\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "netherite_leggings": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:netherite\",\"equip_sound\":\"minecraft:item.armor.equip_netherite\",\"slot\":\"legs\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_leggings\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_netherite_armor\"},\"minecraft:max_damage\":555,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":6,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"},{\"type\":\"minecraft:knockback_resistance\",\"amount\":0.10000000149011612,\"operation\":\"add_value\",\"slot\":\"legs\",\"id\":\"minecraft:armor.leggings\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_leggings\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "netherite_boots": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:equippable\":{\"asset_id\":\"minecraft:netherite\",\"equip_sound\":\"minecraft:item.armor.equip_netherite\",\"slot\":\"feet\"},\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_boots\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_netherite_armor\"},\"minecraft:max_damage\":481,\"minecraft:rarity\":\"common\",\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"},{\"type\":\"minecraft:knockback_resistance\",\"amount\":0.10000000149011612,\"operation\":\"add_value\",\"slot\":\"feet\",\"id\":\"minecraft:armor.boots\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_boots\",\"minecraft:repair_cost\":0,\"minecraft:enchantable\":{\"value\":15}}"
+    ],
+    "item.minecraft.netherite_boots": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版:",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。",
+      "leather_helmet,copper_helmet,chainmail_helmet,iron_helmet,diamond_helmet,golden_helmet,netherite_hel...等29个物品所共有的组件",
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:enchantable",
+      "*value：（值≥1）物品的附魔能力。",
+      "minecraft:equippable：物品被穿戴的行为。",
+      "allowed_entities：（默认为全部生物）可以穿戴此物品的生物。可以为以#开头的实体类型标签、一个实体类型ID、或以多个实体类型ID组成的字符串列表。",
+      "asset_id：（命名空间ID）物品被穿戴时的装备模型。此值不存在时，若装备在头部则根据物品模型渲染物品，否则什么也不会渲染。",
+      "camera_overlay：（命名空间ID）当此项存在且物品被玩家穿戴时，玩家第一人称视角将渲染指定的纹理遮罩。此遮罩可以使用多个设置此标签的物品互相叠加，每个物品指定的遮罩都会被渲染，且渲染顺序按照主手、副手、头盔、胸甲、护腿、靴子、身体、鞍的顺序依次叠加渲染。当遮罩纹理渲染时，遮罩纹理被视为独立纹理，即无法作为动态纹理或GUI纹理渲染，但可以指定纹理过滤方式。",
+      "can_be_sheared：（默认为false）满足未被骑乘等其他条件时，玩家是否可以对装备此物品的生物进行修剪来卸下此物品。",
+      "damage_on_hurt：（默认为true）生物在受到会影响损害盔甲的伤害时此物品是否会受损而减少耐久。",
+      "equip_on_interact：（默认为false）对生物使用此物品时，是否可以让被交互的生物在允许的空槽位上穿戴此物品。",
+      "equip_sound：（默认为item.armor.equip_generic，默认可装备鞍的生物的鞍除外）物品被穿戴时的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "dispensable：（默认为true）是否可以使用发射器使生物穿戴此物品。如果物品本身有特殊的发射器行为则此项无效。",
+      "shearing_sound：（默认为item.shears.snip）被玩家使用剪刀卸下此物品时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*slot：物品可被穿戴的装备槽位。",
+      "swappable：（默认为true）物品是否可以直接使用穿戴。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。",
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。",
+      "*material：此盔甲纹饰的材料，命名空间ID或内联定义均可。",
+      "*asset_name：一个字符串，实际盔甲纹饰纹理的后缀。",
+      "*description：（文本组件）盔甲纹饰材料的名称。",
+      "override_armor_assets：对于指定的装备模型，使用指定纹理覆盖而不使用asset_name。",
+      "<装备模型命名空间ID>：一个字符串，实际盔甲纹饰纹理的后缀。",
+      "*pattern：此盔甲纹饰的图案，命名空间ID或内联定义均可。",
+      "*asset_id：（命名空间ID）用于推断盔甲纹饰纹理的位置。",
+      "decal：（默认为false）是否使用贴花模式渲染盔甲纹饰（仅在非透明区域显示）。",
+      "*description：（文本组件）盔甲纹饰图案的名称。"
+    ],
+    "netherite_helmet,netherite_chestplate,netherite_leggings,netherite_boots所共有的组件": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Iron Man": [
+      "穿全套铁盔甲。",
+      "穿上全套满耐久的铁盔甲。",
+      "15G"
+    ],
+    "Tie Dye Outfit": [
+      "使用炼药锅给所有 4 件独特的皮革盔甲染色。"
+    ],
+    "–": [
+      "15G"
+    ],
+    "用黄金分散猪灵的注意力": [
+      "被猪灵攻击时朝它丢弃金质物品，让它捡起来。",
+      "30G"
+    ],
+    "穿全套下界盔甲": [
+      "穿上全套下界合金盔甲。",
+      "50G"
+    ],
+    "Smithing with style": [
+      "至少应用一次这些锻造模板：尖塔、猪鼻、肋骨、结界、幽静、猥傀、潮汐、向导",
+      "将下列锻造模板都至少使用一次：尖塔、猪鼻、肋骨、监守、幽静、恼鬼、潮汐、向导",
+      "30G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "来硬的": [
+      "在物品栏中获得任意类型的铁盔甲。"
+    ],
+    "钻石！": [
+      "在物品栏中获得任意类型的钻石盔甲。"
+    ],
+    "下界": [
+      "在身上未装备金盔甲时将这些拥有物品标签#piglin_loved的物品之一扔给猪灵："
+    ],
+    "粗金": [
+      "或手持金锭对猪灵按使用键。进度不会在玩家装备金盔甲而猪灵愤怒时触发。如有其他金质物品可以正常使用，进度和猪灵会将其忽略。"
+    ],
+    "深藏不露": [
+      "在物品栏中获得所有下界合金盔甲。"
+    ],
+    "甜蜜的梦": [
+      "穿着皮革靴子在细雪上行走。"
+    ],
+    "Smithing with Style": [
+      "将下列锻造模板都至少使用一次：尖塔、猪鼻、肋骨、监守、幽静、恼鬼、潮汐、向导"
+    ],
+    "Java版Classic": [
+      "2009年7月14日",
+      "Notch谈论了盔甲在生存模式应该是什么样的：“两种类型的剑、盔甲和头盔，低配版使用铁制作，而高配版应使用钢制作，钢是一种由铁和煤结合起来的物品。使用这三类东西的代价除了会占用物品栏之外就没有了，并且会像想象中的一样发挥作用（挡下一些伤害，或制造更大的伤害）。”",
+      "2009年8月13日",
+      "Notch测试了盔甲模型，但只有胸甲和头盔可用。当时它们只是做装饰用，没有任何的附加效果。",
+      "2009年8月13日",
+      "Notch测试了护腿的模型。",
+      "0.24_SURVIVAL_TEST",
+      "加入了板甲。",
+      "加入了锁链盔甲的模型和纹理。",
+      "以僵尸和骷髅测试了盔甲模型。"
+    ],
+    "Java版Indev": [
+      "0.31",
+      "20091223-0040",
+      "板甲和锁链盔甲模型现在不再使用。",
+      "20091231-2147",
+      "加入了布、皮革链、锁链、铁盔甲的物品纹理。",
+      "皮革盔甲的纹理是取自Notch的前一个游戏——Legend of the Chambered。",
+      "20100206-2034",
+      "加入了金、钻石盔甲的物品纹理。",
+      "移除了皮革链甲的物品纹理。",
+      "2010年2月9日",
+      "Notch展示了新的盔甲模型，其中包括头盔、胸甲、护腿和靴子。",
+      "20100212-1210",
+      "加入了由布、锁链、铁、金和钻石制成的盔甲物品。",
+      "加入了盔甲的合成配方。",
+      "此时的盔甲用于测试，既没有耐久，也不会保护玩家。",
+      "现在物品栏中的玩家模型会固定显示锁链头盔、钻石胸甲、金护腿和铁靴子。",
+      "20100218-0011",
+      "加入了布、锁链、铁、金与钻石盔甲的模型。",
+      "现在可以正确地装备盔甲了。",
+      "盔甲现在有了用途。所有头盔都会给予玩家3（）护甲值，所有胸甲都会给予玩家8（）护甲值，所有护腿都会给予玩家6（）护甲值，所有靴子都会给予玩家3（）护甲值。盔甲现在有了耐久度，较次品质的盔甲的耐久度越低。"
+    ],
+    "Java版Alpha": [
+      "v1.0.8",
+      "将布甲重命名为皮革盔甲。",
+      "合成皮革盔甲现在需要皮革而不是羊毛。"
+    ],
+    "皮革盔甲": [
+      "头盔：2-3、胸甲：4、护腿：2-3、靴子：2-3"
+    ],
+    "锁链盔甲": [
+      "头盔：5-6、胸甲：11-14、护腿：9-10、靴子：5-6"
+    ],
+    "铁盔甲": [
+      "头盔：4-5、胸甲：10-13、护腿：8-9、靴子：4-5"
+    ],
+    "钻石盔甲": [
+      "头盔：7、胸甲：16-18、护腿：11-13、靴子：7",
+      "1.4.2",
+      "12w32a",
+      "重新加入了生物盔甲。僵尸、骷髅和僵尸猪人有时会穿着任何盔甲的全套或部分，概率随着难度提升。",
+      "2012年8月17日",
+      "Jeb和Dinnerbone在Twitter展示了可染色皮革盔甲的图片。",
+      "12w34a",
+      "皮革盔甲能以合成皮革盔甲部件和染料来被染色。颜色能通过在装了水的炼药锅使用染色皮革盔甲来被移除。",
+      "默认皮革盔甲的纹理变深了一些。",
+      "12w34b",
+      "皮革外套现在有纽扣和较长的袖。",
+      "钻石胸甲的肩下现在有凹口。纹理从更改为。",
+      "12w36a",
+      "与默认盔甲颜色相比，染色皮革盔甲的颜色变得更深并有一些棕黄色。",
+      "凋灵骷髅现在可以携带随机盔甲自然生成。",
+      "12w37a",
+      "皮革盔甲现在有不会被染色的部分。这能让玩家分别到其他盔甲种类和相似的染色皮革盔甲。",
+      "删除了皮革帽子中间的突出部分。纹理从更改为。",
+      "皮革裤子现在有护膝。纹理从更改为。",
+      "1.4.6",
+      "12w50a",
+      "荆棘魔咒现在适用于胸甲。",
+      "1.5",
+      "13w04a",
+      "使用手上的盔甲能把它穿上。",
+      "发射器能把盔甲装备在玩家身上。",
+      "1.6.1",
+      "13w18a",
+      "金胸甲会出现在下界要塞的箱子里。",
+      "1.7.2",
+      "13w36a",
+      "钓鱼时皮革靴子现在可作为垃圾被钓上来。",
+      "1.8",
+      "14w02a",
+      "更改了交易内容：盔甲匠村民现在以5-7个绿宝石出售1个锁链靴子，以9-11个绿宝石出售1个锁链护腿，以11-15个绿宝石出售1个锁链胸甲，以5-7个绿宝石出售1个锁链头盔。",
+      "盔甲匠村民现在以16-19个绿宝石出售1个钻石胸甲，且不再出售其他钻石盔甲。",
+      "盔甲匠村民现在以10-14个绿宝石出售铁胸甲，以4-6个出售1个铁头盔，且不再出售其他铁盔甲。",
+      "皮匠村民现在以2-4个绿宝石的价格出售皮革裤子和以7-12个出售附魔了的皮革外套，且不再出售其他皮革盔甲。",
+      "14w05a",
+      "生物受伤时现在盔甲不再变红。",
+      "14w06a",
+      "巨人现在能穿盔甲了。",
+      "14w25a",
+      "由于火物品被移除，锁链盔甲不再能合成。",
+      "1.9",
+      "15w31a",
+      "附魔铁盔甲和附魔钻石盔甲现在会出现在末地船箱子里。",
+      "生物从下到上，而不是从上到下穿盔甲。这代表穿三个盔甲部件的生物会穿头盔以外的所有盔甲。",
+      "15w34b",
+      "盔甲耐久度现在会影响盔甲提供的护甲值。",
+      "15w36a",
+      "更改了盔甲和盔甲魔咒的算法。关于原本的数值，见盔甲机制/Java版1.9前。",
+      "15w36d",
+      "移除了盔甲耐久度影响护甲值。",
+      "盔甲现在有控制护甲值的属性。",
+      "15w43a",
+      "减少了金胸甲在下界要塞箱子的数量。",
+      "15w50a",
+      "为所有盔甲种类加入了equip声音。",
+      "16w02a",
+      "再次更改了盔甲和盔甲魔咒的算法。",
+      "16w05a",
+      "再次更改了盔甲的算法。",
+      "1.11",
+      "16w39a",
+      "现在钻石和锁链盔甲可以在林地府邸的箱子里找到。",
+      "1.11.1",
+      "16w50a",
+      "金、锁链和铁盔甲现在可以被烧炼成对应的矿物粒。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，这些物品的数字ID是298至317。",
+      "18w07a",
+      "加入了海龟壳。",
+      "18w09a",
+      "皮革外套和金头盔现在有概率在海底废墟的箱子中生成。",
+      "18w10a",
+      "皮革外套现在会在埋藏的宝藏的箱子中生成。",
+      "18w11a",
+      "附魔皮革帽子、胸甲、护腿和靴子现在会在沉船的箱子中生成。",
+      "18w20a",
+      "锁链盔甲的英文名称前缀由“Chain”重命名为“Chainmail”。",
+      "1.14",
+      "18w43a",
+      "更改了皮革盔甲的纹理。",
+      "更改了锁链盔甲的纹理。",
+      "更改了铁盔甲的纹理。",
+      "更改了金盔甲的纹理。",
+      "更改了钻石盔甲的纹理。",
+      "19w08a",
+      "更改了金盔甲的物品纹理。",
+      "19w13a",
+      "现在盔甲匠村民可能会向带有村庄英雄效果的玩家投掷任意种类的锁链盔甲。",
+      "1.16",
+      "20w06a",
+      "加入了下界合金盔甲。",
+      "暂时只能通过钻石盔甲与下界合金锭合成来获得。",
+      "20w07a",
+      "为猪灵所装备的头盔单独加入了纹理和模型。",
+      "被猪灵穿上的海龟壳会出现丢失的纹理。",
+      "20w09a",
+      "更改了钻石盔甲的物品纹理。",
+      "20w10a",
+      "更改了下界合金盔甲的纹理。",
+      "更改了猪灵所装备的下界合金头盔的纹理。",
+      "移除了原有的下界合金盔甲的合成配方，现在下界合金盔甲能通过在锻造台中升级钻石盔甲来获得。",
+      "20w16a",
+      "在堡垒遗迹与废弃传送门的箱子中生成的金盔甲与下界合金盔甲现在有了随机魔咒，且有时会是损坏的。",
+      "20w17a",
+      "钻石盔甲取代了堡垒遗迹箱子中原有的下界合金盔甲。",
+      "pre3",
+      "移除了猪灵专用的头盔纹理和模型。",
+      "1.16.3",
+      "rc1",
+      "现在生物掉落的盔甲耐久度不再可能会是负值。",
+      "1.16.4",
+      "pre1",
+      "更改了下界合金护腿的纹理。",
+      "1.17",
+      "20w46a",
+      "现在装备皮革靴子可以防止生物陷入细雪。",
+      "现在装备皮革盔甲可以减缓生物受细雪影响而进入冰冻状态的速度。",
+      "20w48a",
+      "现在穿着任意皮革盔甲可以使生物免除冰冻伤害。",
+      "1.19",
+      "22w17a",
+      "将皮革帽子后部的叠加层纹理下移了两个像素，以使该部分的条形纹理延伸至最下方。",
+      "1.19.4"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "23w04a",
+      "现在可以在锻造台中为盔甲加上纹饰。",
+      "现在在锻造台中将钻石盔甲升级为下界合金盔甲需要消耗一个下界合金升级锻造模板。",
+      "1.19.4",
+      "23w05a",
+      "现在手持的盔甲可以通过按使用键与对应盔甲槽中的物品交换位置。",
+      "1.19.4",
+      "1.20更新",
+      "23w05a",
+      "现在皮革盔甲也可以在锻造台中加上纹饰。",
+      "现在锻造原材料可以与盔甲材料相同。",
+      "23w06a",
+      "略微调整了部分调色板和部分带纹饰盔甲的物品纹理。",
+      "1.20",
+      "23w12a",
+      "23w04a起的所有变更均不再属于实验性内容。",
+      "23w13a",
+      "现在远古城市的箱子战利品中添加了附魔钻石盔甲。",
+      "1.20.3",
+      "1.21更新",
+      "23w45a",
+      "附魔铁头盔、附魔铁胸甲、附魔铁护腿、附魔铁靴子和附魔钻石胸甲现在可以在试炼密室的奖励箱中获得。",
+      "1.20.5",
+      "24w03a",
+      "现在头盔、护腿、靴子可以通过附魔获得荆棘。",
+      "24w12a",
+      "现在头盔、护腿、靴子不再能通过附魔获得荆棘。",
+      "1.21",
+      "24w18a",
+      "23w45a的变更不再属于实验性内容。",
+      "1.21.2",
+      "24w33a",
+      "锁链盔甲的稀有度由常见改为少见。",
+      "1.21.4",
+      "24w44a",
+      "现在可以用树脂团来给盔甲加上纹饰。",
+      "24w45a",
+      "现在不再可以用树脂团来给盔甲加上纹饰。",
+      "24w46a",
+      "现在可以用树脂砖来给盔甲加上纹饰。",
+      "1.21.9",
+      "25w31a",
+      "加入了铜盔甲。",
+      "现在有概率生成携带铜盔甲的敌对生物。",
+      "敌对生物现在能够捡起并使用铜盔甲。",
+      "25w36a",
+      "使用铜锭为铜盔甲附加盔甲纹饰时，纹饰颜色现在会更深。",
+      "26.1",
+      "snapshot-7",
+      "现在人形幼年生物拥有独特的盔甲模型。",
+      "人形幼年生物装备的盔甲不再会渲染盔甲纹饰。",
+      "snapshot-11",
+      "更改了幼年人形生物穿戴的锁链头盔的顶部纹理，增加了镂空部分。"
+    ],
+    "携带版Alpha": [
+      "0.6.0",
+      "加入了皮革盔甲。",
+      "加入了锁链盔甲。",
+      "加入了铁盔甲。",
+      "加入了金盔甲。",
+      "加入了钻石盔甲。",
+      "0.8.0",
+      "build 2",
+      "更改了皮革盔甲在物品栏的纹理，同步于Java版的纹理，但盔甲模型维持使用旧版本的。",
+      "0.9.0",
+      "build 1",
+      "铁盔甲会出现在村庄里的箱子和要塞的祭坛箱子。",
+      "0.11.0",
+      "build 11",
+      "盔甲现在只会抵抗生物伤害。",
+      "0.12.1",
+      "build 1",
+      "生物现在会穿盔甲。"
+    ],
+    "盔甲在生物受伤时不再变红。[需要在基岩版上验证历史]": [
+      "现在可以在下界要塞的箱子中找到金胸甲。",
+      "现在在生存模式中可以从穿着锁链盔甲的生物来获得它了。",
+      "皮革靴子被加入了钓鱼系统中的垃圾物品。",
+      "0.14.0",
+      "build 1",
+      "皮革盔甲现在能被染色，模型也更新了。",
+      "0.15.0",
+      "build 1",
+      "披风现在不再穿过盔甲。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "在末地城箱子中的铁盔甲与钻石盔甲现在有机会具有魔咒。",
+      "1.0.4",
+      "1.0.4.0",
+      "现在可以和铁匠村民交易出铁头盔、铁胸甲、附魔钻石胸甲和锁链盔甲了。",
+      "1.1.0",
+      "1.1.0.0",
+      "金、锁链和铁盔甲现在可以被烧炼成对应的矿物粒。"
+    ],
+    "实验性玩法": [
+      "更新 1.21 版",
+      "1.20.60.20",
+      "附魔铁头盔、附魔铁胸甲、附魔铁护腿、附魔铁靴子和附魔钻石胸甲现在可以在试炼密室的奖励箱中获得。",
+      "1.21.0",
+      "更新 1.21 版",
+      "1.21.0.20",
+      "附魔金胸甲和附魔钻石胸甲现在可以从不祥宝库稀有战利品中获得。",
+      "1.21.0",
+      "1.21.0.22",
+      "1.20.60.20和1.21.0.20中的变更不再属于实验性玩法。",
+      "1.21.0.23",
+      "现在宝库稀有战利品中附魔钻石胸甲的权重由2降低至1，附魔铁胸甲添加魔咒的附魔台等级由5-15级降低至0-10级，同时移除了附魔金胸甲，以近似匹配Java版。",
+      "提高了钻石胸甲在不祥宝库稀有战利品中的权重，以近似匹配Java版。",
+      "1.21.30",
+      "1.21.30.21",
+      "锁链盔甲的稀有度由常见改为少见。",
+      "1.21.30.22",
+      "锁链盔甲的英文名称前缀由“Chain”重命名为“Chainmail”，以匹配Java版。",
+      "1.21.50",
+      "1.21.50.25",
+      "现在可以用树脂团来给盔甲加上纹饰。",
+      "1.21.50.28",
+      "现在树脂团给盔甲加上纹饰的功能被树脂砖给取代。",
+      "1.21.100",
+      "2025 年第 3 次更新",
+      "1.21.100.23",
+      "加入了铜盔甲。",
+      "1.21.111",
+      "1.21.110.20",
+      "铜盔甲不再属于实验性玩法。",
+      "现在有概率生成携带铜盔甲的敌对生物。",
+      "敌对生物现在能够捡起并使用铜盔甲。",
+      "1.21.130",
+      "1.21.130.20",
+      "皮革外套现在会在埋藏的宝藏的箱子中生成。",
+      "锁链头盔、胸甲、护腿和靴子不再会在埋藏的宝藏箱子中生成。",
+      "26.10",
+      "26.10.23",
+      "现在人形幼年生物拥有独特的盔甲模型。",
+      "人形幼年生物装备的盔甲不再会渲染盔甲纹饰。"
+    ],
+    "下一个主要更新": [
+      "1.19.80.21",
+      "现在可以在锻造台中为盔甲加上纹饰。",
+      "现在在锻造台中将钻石盔甲升级为下界合金盔甲需要消耗一个下界合金升级锻造模板。",
+      "1.20.0",
+      "1.20.0.21",
+      "1.19.80.21起的所有变更均不再属于实验性玩法。",
+      "1.20.60"
+    ],
+    "基岩版（即将到来）": [
+      "26.20",
+      "26.20.20",
+      "更改了幼年人形生物穿戴的锁链头盔的顶部纹理，增加了镂空部分。",
+      "PlayStation 4版",
+      "1.90",
+      "更改了锁链盔甲的纹理。",
+      "更改了铁盔甲的纹理。",
+      "更改了金盔甲的纹理。",
+      "更改了钻石盔甲的纹理。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了皮革盔甲。",
+      "加入了锁链盔甲。",
+      "加入了铁盔甲。",
+      "加入了金盔甲。",
+      "加入了钻石盔甲。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了皮革盔甲。",
+      "加入了铁盔甲。",
+      "加入了金盔甲。",
+      "加入了钻石盔甲。",
+      "TU5",
+      "加入了锁链盔甲。",
+      "在物品栏界面为盔甲加入快速装备功能。",
+      "TU12",
+      "1.03",
+      "更改了皮革盔甲的图标纹理。",
+      "TU14",
+      "1.05",
+      "皮革盔甲现在能被染色。",
+      "物品修复现在能修复盔甲。",
+      "TU25",
+      "CU13",
+      "1.16",
+      "盔甲的快速装备现在会正常地运作。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "金盔甲、锁链盔甲和铁盔甲现在可以烧炼成金粒或铁粒。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了皮革盔甲。",
+      "加入了铁盔甲。",
+      "加入了金盔甲。",
+      "加入了钻石盔甲。",
+      "TU5",
+      "加入了锁链盔甲。",
+      "在物品栏界面为盔甲加入快速装备功能。",
+      "TU12",
+      "1.03",
+      "更改了皮革盔甲的图标纹理。",
+      "TU14",
+      "1.05",
+      "皮革盔甲现在能被染色。",
+      "物品修复现在能修复盔甲。",
+      "TU25",
+      "CU13",
+      "1.16",
+      "盔甲的快速装备现在会正常地运作。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "金盔甲、锁链盔甲和铁盔甲现在可以烧炼成金粒或铁粒。"
+    ],
+    "你知道吗": [
+      "将盔甲纹理文件调整成半透明后，在游戏中盔甲显示依然是不透明的。",
+      "在Java版中，猪灵和僵尸村民有特殊的盔甲纹理。",
+      "生物穿上盔甲的顺序是按照“头盔—胸甲—护腿—靴子”的顺序来生成的。比如一个生成了护腿的僵尸就一定穿上了头盔和胸甲。"
+    ],
+    "穿着全套染色皮革盔甲的玩家": [
+      "18w50a中的盔甲穿在了错误的地方"
+    ],
+    "皮革链甲": [
+      "23w12a与基岩版1.19.80.22前在皮革盔甲上的所有锻造效果",
+      "23w12a与基岩版1.19.80.22前在锁链盔甲上的所有锻造效果",
+      "23w12a与基岩版1.19.80.22前在铁盔甲上的所有锻造效果",
+      "23w12a与基岩版1.19.80.22前在金盔甲上的所有锻造效果",
+      "23w12a与基岩版1.19.80.22前在钻石盔甲上的所有锻造效果"
+    ],
+    "在下界合金盔甲上的所有锻造效果": [
+      "23w12a与基岩版1.19.80.22前在海龟壳上的所有锻造效果"
+    ],
+    "参考": [
+      "MC-270636 — 漏洞状态为“有意为之”。",
+      "MC-172110 — 漏洞状态为“已修复”。",
+      "MC-159335 — 漏洞状态为“已修复”。",
+      "MC-267943 — 漏洞状态为“已修复”。",
+      "MCPE-77430 — 漏洞状态为“已修复”。",
+      "MCPE-109408 — 漏洞状态为“已修复”。",
+      "This is going to be a slow week.（存档） — The Word of Notch，2010年2月9日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.12.1-pre1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.12.1-pre1",
+  "text": "1.12.1-pre1\n版本\nJava版\n类型\n预发布版\n发布时间\n2017年8月2日\n预发布版归属\n1.12.1\n下载\n客户端（.json）\n服务端\n协议版本\n337\n数据版本\n1240\n资源包版本\n3\n◄◄1.12\n1.12.2►►\n◄17w31a\n1.12.1-pre1是Java版1.12.1的唯一一个预发布版，发布于2017年8月2日，修复了一些漏洞。\n修复\n修复了2个漏洞\n1.12前正式版的漏洞\nMC-117087 — 方块实体数量很多时，Class.getSimpleName有性能上的问题。\n上个开发版本的漏洞\nMC-119840 — 出现任何聊天信息时，钻石都会被移到合成栏里。\n参考\nMinecraft Pre-release 1.12-pre1 — Minecraft.net，2017年8月2日。\n导航"
+}

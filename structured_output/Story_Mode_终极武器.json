@@ -1,0 +1,50 @@
+{
+  "title": "Story Mode:终极武器",
+  "source_url": "https://zh.minecraft.wiki/w/Story_Mode%3A%E7%BB%88%E6%9E%81%E6%AD%A6%E5%99%A8",
+  "structured_content": {
+    "方块与困难之地": [
+      "终极武器（Ultimate Weapon），又称超级武器，是一套附魔钻石工具，出现于Minecraft: Story Mode。它由Ivor的指令附魔书附魔。"
+    ],
+    "历史": [
+      "真相在Ivor的实验室曝光后，Jesse被允许选择他们要制作哪种钻石工具。他们会用指令附魔书附魔它。如果Jesse附魔了一把钻石锄，Reuben会嘲笑他们。",
+      "进入凋灵风暴后，Jesse用它攻击了命令方块三次，每次都越来越具有挑战性。然而，Jesse不小心掉落了武器，Reuben捡了回来。在对命令方块的使出最后一击后，命令方块和武器一起被摧毁。"
+    ],
+    "属性": [
+      "终极工具可以摧毁任何物品，包括命令方块。施加的附魔是专门用来摧毁命令方块的。"
+    ],
+    "终极斧": [
+      "obj_weaponUltimate_axeUltimate.d3dmesh",
+      "obj_weaponUltimateD.d3dtx",
+      "obj_weaponUltimateD_glow.d3dtx"
+    ],
+    "终极锄": [
+      "obj_weaponUltimate_hoeUltimate.d3dmesh",
+      "obj_weaponUltimateE.d3dtx",
+      "obj_weaponUltimateE_glow.d3dtx"
+    ],
+    "终极镐": [
+      "obj_weaponUltimate_pickaxeUltimate.d3dmesh",
+      "obj_weaponUltimateA.d3dtx",
+      "obj_weaponUltimateA_glow.d3dtx"
+    ],
+    "终极锹": [
+      "obj_weaponUltimate_shovelUltimate.d3dmesh",
+      "obj_weaponUltimateC.d3dtx",
+      "obj_weaponUltimateC_glow.d3dtx"
+    ],
+    "终极剑": [
+      "obj_weaponUltimate_swordUltimate.d3dmesh",
+      "obj_weaponUltimateB.d3dtx",
+      "obj_weaponUltimateB_glow.d3dtx"
+    ],
+    "你知道吗": [
+      "终极剑的剑柄比其他剑短，和Minecraft中剑一致。其他基于Minecraft剑的剑则被细微修改，剑柄稍微拉长。",
+      "在冒险通行证的概览图中，Jesse手持终极剑，尽管他们在通行证中使用的是普通的附魔钻石剑。",
+      "在Netflix版Minecraft: Story Mode中，终极镐和锄的外观与原作不同。相反，它们使用各自的原版纹理，但镐的形状与其终极版本一致。"
+    ],
+    "参考": [
+      "When the Command Block was destroyed, everything that it created was destroyed as well, including your Super Weapon (since it was enchanted with a crazy Command Block-enhanced enchanting book).，来自stirpicus。Tumblr，2016年8月23日。",
+      "It was a special enchantment specifically for destroying the command block.，来自stirpicus。Tumblr，2017年8月31日。"
+    ]
+  }
+}

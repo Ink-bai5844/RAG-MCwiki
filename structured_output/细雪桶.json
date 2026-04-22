@@ -1,0 +1,117 @@
+{
+  "title": "细雪桶",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BB%86%E9%9B%AA%E6%A1%B6",
+  "structured_content": {
+    "最大堆叠": [
+      "1"
+    ],
+    "powder_snow_bucket": [
+      "细雪桶（Powder Snow Bucket）是装有细雪的铁桶。",
+      "bucket / 11"
+    ],
+    "获取": [
+      "细雪桶可以通过手持铁桶对着装有细雪的炼药锅或细雪按下使用来获得。"
+    ],
+    "用途": [
+      "在Java版中，细雪桶是细雪的方块物品。",
+      "手持细雪桶对着方块按下使用会在旁边放置出一个细雪方块。细雪桶被使用后会变成空桶。",
+      "对着空的炼药锅使用细雪桶会将其填满。在Java版中，对着装有其他物质的炼药锅使用时会替换该物质；在基岩版中，这样做会导致炼药锅和细雪桶都被清空，炼药锅还会产生烟雾粒子。",
+      "发射器也能在条件合适时发射细雪桶，并在自身前方放置细雪方块。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "铁桶：装满"
+    ],
+    "subtitles.item.bucket.fill": [
+      "铁桶：倒空"
+    ],
+    "subtitles.item.bucket.empty": [
+      "基岩版："
+    ],
+    "bucket.fill_powder_snow": [
+      "1.0",
+      "16"
+    ],
+    "bucket.empty_powder_snow": [
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.powder_snow_bucket": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.powder_snow_bucket\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:powder_snow_bucket\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "Java版": [
+      "1.17",
+      "20w46a",
+      "加入了细雪桶。"
+    ],
+    "基岩版": [
+      "1.16.210"
+    ],
+    "Caves and Cliffs": [
+      "1.16.210.53",
+      "加入了细雪桶。",
+      "1.16.210",
+      "由于不存在“Caves and Cliffs”选项，细雪桶在此正式版中不可用。",
+      "1.17.0",
+      "1.17.0.50",
+      "细雪桶不再属于实验性玩法。",
+      "1.17.0.52",
+      "现在可通过对着装有细雪的炼药锅使用桶获得细雪桶。",
+      "1.17.0.54",
+      "现在发射器可以使用细雪桶来放置细雪。"
+    ]
+  }
+}

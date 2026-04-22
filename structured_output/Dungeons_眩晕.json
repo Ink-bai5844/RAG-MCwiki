@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:眩晕",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%9C%A9%E6%99%95",
+  "structured_content": {
+    "Stunning": [
+      "有概率让敌人昏迷。"
+    ],
+    "——游戏内描述": [
+      "眩晕（Stunning）是Minecraft Dungeons中的魔咒。给予玩家小概率短时间内眩晕敌人的机会。触发概率随着等级提升依次递增5%。"
+    ],
+    "I": [
+      "5% 概率触发",
+      "1 附魔点数"
+    ],
+    "II": [
+      "10% 概率触发",
+      "2 附魔点数"
+    ],
+    "III": [
+      "15% 概率触发",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了眩晕。"
+    ]
+  }
+}

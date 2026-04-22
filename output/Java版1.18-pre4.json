@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.18-pre4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-pre4",
+  "text": "1.18-pre4\n版本\nJava版\n类型\n预发布版\n发布时间\n2021年11月17日\n预发布版归属\n1.18\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741876\nHEX: 40000034\n数据版本\n2850\n资源包版本\n8\n数据包版本\n8\n◄◄1.17.1\n1.18.1►►\n◄1.18-pre3\n1.18-pre5►\n1.18-pre4是Java版1.18的第4个预发布版，发布于2021年11月17日，修复了3个崩溃漏洞。\n修复\n修复了4个漏洞\n1.18开发版本的漏洞\nMC-241172 — 保存旧世界区块时发生的数据修复器错误。\n上个开发版本的漏洞\nMC-241774 — 进入下界传送门或创建下界生物群系的单一生物群系世界时游戏崩溃：java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0。\nMC-241775 — 进入末地传送门或创建末地生物群系的单一生物群系世界时游戏崩溃：java.lang.NegativeArraySizeException: -5。\nMC-241778 — 加载并升级1.17.1超平坦世界时游戏崩溃或卡死：java.util.concurrent.CompletionException: z: Biome decoration。\n你知道吗\n此版本在上一个版本发布后的2小时左右发布。\n参考\nMinecraft 1.18 Pre-Release 4 — Minecraft.net，2021年11月17日。\n导航"
+}

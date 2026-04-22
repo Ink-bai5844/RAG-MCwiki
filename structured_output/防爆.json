@@ -1,0 +1,12 @@
+{
+  "title": "防爆",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%98%B2%E7%88%86",
+  "structured_content": {
+    "默认分类": [
+      "“允许破坏性生物行为”（mob_griefing[仅Java版]或mobGriefing[仅基岩版]） - 阻止生物（如苦力怕）破坏地形的游戏规则。",
+      "“允许TNT被点燃并爆炸”（tnt_explodes[仅Java版]或tntExplodes[仅基岩版]） - 控制TNT是否可以爆炸的游戏规则。",
+      "爆炸保护 - 一种减轻爆炸伤害的附魔。",
+      "爆炸抗性 - 方块对于爆炸的抗性。"
+    ]
+  }
+}

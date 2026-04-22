@@ -1,0 +1,43 @@
+{
+  "title": "Tutorial:获取崩溃报告/旧版",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E8%8E%B7%E5%8F%96%E5%B4%A9%E6%BA%83%E6%8A%A5%E5%91%8A%2F%E6%97%A7%E7%89%88",
+  "structured_content": {
+    "默认分类": [
+      "此教程所介绍的内容已从Java版中移除。",
+      "在新版本中，游戏崩溃后将自动生成崩溃报告。",
+      "在一些较为老旧的版本中，游戏崩溃后会自动关闭，并不会显示错误报告。以下是一些查找错误报告的方法。"
+    ],
+    "Windows": [
+      "方法1",
+      "找到包含minecraft.exe启动器的文件夹。",
+      "在不选择文件的情况下，按住⇧ Shift键并右键单击窗口背景的任意位置，选择“在此处打开命令窗口”。",
+      "复制以下代码：",
+      "\"%ProgramFiles%/Java/jre7/bin/java\" -Xms1G -Xmx1G -cp Minecraft.exe net.minecraft.LauncherFrame",
+      "在命令窗口中右键单击并粘贴，然后按↵ Enter键。",
+      "启动游戏并尝试复现崩溃。",
+      "方法2",
+      "打开记事本并复制以下代码到其中：",
+      "\"%ProgramFiles%/Java/jre7/bin/java\" -Xms1G -Xmx1G -cp Minecraft.exe net.minecraft.LauncherFrame > log.txt",
+      "点击“另存为”并保存，文件名可以是任意的，而文件后缀必须为.bat。",
+      "在输入文件名文本框的下方会有一个名为文件类型的下拉菜单，选择文件类型为“所有文件”，然后保存。",
+      "运行上述文件，并尝试在游戏中复现崩溃。游戏崩溃时，将创建一个名为log.txt的文件，这就是漏洞报告。"
+    ],
+    "macOS": [
+      "方法1",
+      "转到Macintosh HD/Applications/Utilities并打开Console.app。",
+      "启动游戏并尝试复现崩溃，此时Java日志将被输出到上述控制台，你可以全选其中的文本并复制它，这就是一份崩溃报告。",
+      "方法2",
+      "此方法类似于Windows的方法2，你可以使用单独的文件来启动Minecraft。",
+      "创建一个新的文本文件并打开它。",
+      "将其设为纯文本文件（在TextEdit中需要按下⇧ Shift+⌘ Command+T）。",
+      "复制并粘贴以下代码到文本文件中：",
+      "cd ~/Library/Application\\ Support/minecraft/bin; java -Xms512M -Xmx1024M -Xincgc -cp \"minecraft.jar:jinput.jar:lwjgl.jar:lwjgl_util.jar\" -Dorg.lwjgl.librarypath=\"$(pwd)/natives\" -Dnet.java.games.input.librarypath=\"$(pwd)/natives\" net.minecraft.client.Minecraft",
+      "使用你喜欢的任何名称保存文件，注意需要取消选中“隐藏扩展名”和“如果没有提供扩展名，请使用.txt:”这两个选项，并使用.command的文件后缀。",
+      "运行文件（这将打开一个控制台窗口），复现游戏崩溃时，日志将被输出到控制台中，这就是一份崩溃报告。"
+    ],
+    "Linux": [
+      "打开控制台（在Ubuntu/Linux Mint等发行版上需要按下Ctrl + Alt + T）。",
+      "运行java -Xms512m -Xmx1024m -jar minecraft.jar，此时控制台将开始输出日志文字。你可以在游戏崩溃后全选其中的文本并复制它，这就是一份崩溃报告。"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "游戏规则/immediate respawn",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fimmediate_respawn",
+  "structured_content": {
+    "doImmediateRespawn": [
+      "immediate_respawn[仅Java版]或doImmediateRespawn[仅基岩版]是控制玩家在死亡后是否会立即重生的游戏规则。"
+    ],
+    "行为": [
+      "immediate_respawn[仅Java版]或doImmediateRespawn[仅基岩版]为false时，玩家在死亡后会正常地看到死亡界面，并可以选择重生或退出至标题界面。",
+      "immediate_respawn[仅Java版]或doImmediateRespawn[仅基岩版]为true时，玩家在死亡后不会看到死亡界面，而是会立即重生。"
+    ],
+    "Java版": [
+      "1.15",
+      "19w36a",
+      "加入了游戏规则doImmediateRespawn。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则doImmediateRespawn重命名为immediate_respawn。"
+    ],
+    "?": [
+      "加入了游戏规则doImmediateRespawn。"
+    ]
+  }
+}

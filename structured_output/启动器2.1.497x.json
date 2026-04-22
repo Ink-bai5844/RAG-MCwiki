@@ -1,0 +1,38 @@
+{
+  "title": "启动器2.1.497x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.497x",
+  "structured_content": {
+    "默认分类": [
+      "2.1.497x"
+    ],
+    "发布时间": [
+      "2019年6月14日"
+    ],
+    "测试版归属": [
+      "2.1.523x",
+      "◄◄2.1.367x",
+      "2.1.538x►►",
+      "2.1.5000►",
+      "2.1.4976（Windows）、2.1.4975（macOS）或2.1.4974（Linux）是在2019年6月14日发布的启动器测试版本，重新设计了启动器的外观。"
+    ],
+    "布局": [
+      "启动器现在有一个带有标签的侧边栏，可以选择要游玩的游戏。",
+      "目前只能在此处启动Java版。",
+      "新闻标签现在位于此侧栏中。"
+    ],
+    "章节": [
+      "添加了“更新说明”选项卡，显示最新主要版本的更改日志。"
+    ],
+    "外观": [
+      "重新设计了启动器的风格。",
+      "启动器现在默认大小为984×600px而不是600×600px。"
+    ],
+    "标签": [
+      "将“启动选项”选项卡重命名为“配置”。",
+      "启动器版本控制信息现在位于“设置”菜单中，而不是在单击左下角显示的版本号时显示。"
+    ],
+    "参考": [
+      "A new beta version of the Minecraft Launcher is now rolling out, with a complete overhaul of the look and feel of the Launcher among many other things. If you want to try it, enable beta versions in the settings tab of your launcher!，来自@slicedlime。X（曾名Twitter），2019年6月14日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/serverpack",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fserverpack",
+  "text": "本条目所述内容仅适用于Java版。\n调试工具仅应作调试用途使用，而不应在正常游戏过程中开启。开启调试工具可能会崩溃或对存档产生不可逆的损害。\nserverpack\n需要的权限等级\n2\n限制条件\n仅IDE或启用调试工具MC_DEBUG_DEV_COMMANDS\n管理服务端指定资源包。\n此命令只会发出资源包加载或卸载数据包，资源包能否加载或卸载成功取决于数据包是否有效和游戏是否可下载文件等多种因素。\n用法\n参见：下载缓存目录\n/serverpack push子命令将要求客户端是否要使用指定的资源包。各参数的意义如下：\n<url>：资源包URL。\n<uuid>：资源包UUID。如果不存在，则使用UUIDv4算法使用资源包URL作为输入生成UUID。\n<hash>：资源包的SHA-1散列值。如果不存在，则为空。\n资源包选择提示默认为空，是否必选默认为false，不受此命令的控制。\n语法\nserverpack pop <uuid>\n卸载服务端指定资源包。\nserverpack push <url> [<uuid>] [<hash>]\n加载服务端指定资源包。\n参数\n<uuid>：uuid\n必须为带连字符的十六进制UUID。接受下列字符：-、A-F、a-f、0-9。\n<url>：string\n必须为字符串。且必须为单个词或者引号括起的字符串。单个词允许的字符包括：-、+、.、_、A-Z、a-z、0-9。引号可用'或\"，引号内的引号与\\前须加上转义字符\\。\n<hash>：string\n必须为字符串。且必须为单个词，允许的字符包括：-、+、.、_、A-Z、a-z、0-9。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整或参数未正确指定\n无法解析\n任意\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n执行成功\n[需要更多信息]\n0\n历史\nJava版\n1.20.3\npre1\n加入了/serverpack，仅在IDE中可用。\n1.21.9\npre1\n现在/serverpack命令在启用调试工具MC_DEBUG_DEV_COMMANDS时可用。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.19-pre4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-pre4",
+  "text": "1.19-pre4\n版本\nJava版\n类型\n预发布版\n发布时间\n2022年5月30日\n预发布版归属\n1.19\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741912\nHEX: 40000058\n数据版本\n3101\n资源包版本\n9\n数据包版本\n10\n◄◄1.18.2\n1.19.1►►\n◄1.19-pre3\n1.19-pre5►\n1.19-pre4是Java版1.19的第4个预发布版，发布于2022年5月30日，加入了一种新语言，并修复了一些漏洞。\n新内容\n常规\n语言\n加入了马来语（爪夷文）。\n修复\n修复了7个漏洞\n1.19前正式版的漏洞\nMC-220067 — 命令方块中写满某些Unicode字符导致区块损坏。\nMC-245504 — 触屏模式崩溃：java.lang.ClassCastException: class eec$a cannot be cast to class eec$c (eec$a and eec$c are in unnamed module of loader 'app')。\nMC-250918 — 在服务器中，玩家打开“上一个输出”中有大量字符的命令方块时会断开连接。\n1.19开发版本的漏洞\nMC-249831 — 含水层会在区块边界被截断。\nMC-251840 — 获取方块状态时游戏崩溃：cwj: Missing Palette entry for index 8。\nMC-251859 — 装备盔甲或鞘翅时，其耐久度每发生一次改变就会播放一次穿上装备的声音。\nMC-251989 — 1.19-pre1起，无法在多人游戏中发送聊天消息或使用命令。\n注释\n22w11a及后续版本均可用。\n参考\nMinecraft 1.19 Pre-Release 4 — Minecraft.net，2022年5月30日。\n导航"
+}

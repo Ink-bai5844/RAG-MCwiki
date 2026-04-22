@@ -1,0 +1,267 @@
+{
+  "title": "铜傀儡像",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%93%9C%E5%82%80%E5%84%A1%E5%83%8F",
+  "structured_content": {
+    "Java版": [
+      "1.21.9",
+      "25w31a",
+      "加入了铜傀儡像。",
+      "氧化的和涂蜡的氧化铜傀儡像的底部纹理和其他的铜傀儡像不统一。",
+      "25w32a",
+      "现在铜傀儡像被破坏时总是会掉落。",
+      "现在铜傀儡像被活塞推动时会被破坏并掉落。",
+      "铜傀儡像所有氧化变种的爆炸抗性由2.5改为6，以同步未氧化的变种。",
+      "更改了氧化的和涂蜡的氧化铜傀儡像的底部纹理，以与其他变种统一。",
+      "25w35a",
+      "铜傀儡转变为铜傀儡像时，现在只会保存其自定义名称。",
+      "铜傀儡像的自定义名称现在取决于数据组件custom_name而非entity_data。",
+      "25w36a",
+      "现在铜傀儡像被破坏后，方块状态copper_golem_pose和数据组件custom_name会保存到掉落物中。",
+      "现在铜傀儡像默认具有数据组件block_state。"
+    ],
+    "基岩版": [
+      "1.21.111",
+      "1.21.110.20",
+      "加入了铜傀儡像。",
+      "1.21.110.23",
+      "现在铜傀儡像被活塞推动时会被破坏并掉落，并且不再能被黏性活塞拉动。",
+      "现在铜傀儡像可以含水。",
+      "现在铜傀儡像可与蜜脾合成为对应的涂蜡变种。"
+    ],
+    "硬度": [
+      "3",
+      "3"
+    ],
+    "爆炸抗性": [
+      "6"
+    ],
+    "地图基色": [
+      "铜傀儡像、涂蜡的铜傀儡像：",
+      "#D87F33",
+      "斑驳的铜傀儡像、涂蜡的斑驳铜傀儡像：",
+      "#876B62",
+      "锈蚀的铜傀儡像、涂蜡的锈蚀铜傀儡像：",
+      "#3A8E8C",
+      "氧化的铜傀儡像、涂蜡的氧化铜傀儡像：",
+      "#167E86"
+    ],
+    "方块ID": [
+      "铜傀儡像：copper_golem_statue",
+      "斑驳的铜傀儡像：exposed_copper_golem_statue",
+      "锈蚀的铜傀儡像：weathered_copper_golem_statue",
+      "氧化的铜傀儡像：oxidized_copper_golem_statue",
+      "涂蜡的铜傀儡像：waxed_copper_golem_statue",
+      "涂蜡的斑驳铜傀儡像：waxed_exposed_copper_golem_statue",
+      "涂蜡的锈蚀铜傀儡像：waxed_weathered_copper_golem_statue",
+      "涂蜡的氧化铜傀儡像：waxed_oxidized_copper_golem_statue"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "铜傀儡像：copper_golem_statue",
+      "斑驳的铜傀儡像：exposed_copper_golem_statue",
+      "锈蚀的铜傀儡像：weathered_copper_golem_statue",
+      "氧化的铜傀儡像：oxidized_copper_golem_statue",
+      "涂蜡的铜傀儡像：waxed_copper_golem_statue",
+      "涂蜡的斑驳铜傀儡像：waxed_exposed_copper_golem_statue",
+      "涂蜡的锈蚀铜傀儡像：waxed_weathered_copper_golem_statue",
+      "涂蜡的氧化铜傀儡像：waxed_oxidized_copper_golem_statue",
+      "铜傀儡像（Copper Golem Statue）是一种由铜傀儡完全氧化后形成的可氧化金属方块。"
+    ],
+    "生成": [
+      "铜傀儡像不会生成在世界中。"
+    ],
+    "铜傀儡": [
+      "处于氧化阶段且未涂蜡的铜傀儡每刻有0.58%的概率完全氧化并转变为氧化的铜傀儡像。若所在位置不为空气，铜傀儡不会尝试转变。转变后，铜傀儡会以随机姿势保持静止，并掉落手持物品，也会保留转变前通过命名牌获得的名字。"
+    ],
+    "破坏": [
+      "挖掘铜傀儡像的合适工具是镐。"
+    ],
+    "涂蜡的氧化铜傀儡像": [
+      "minecraft:cardinal_direction"
+    ],
+    "徒手": [
+      "4.5"
+    ],
+    "木质": [
+      "2.25"
+    ],
+    "石质": [
+      "1.15"
+    ],
+    "铜质": [
+      "0.9"
+    ],
+    "铁质": [
+      "0.75"
+    ],
+    "钻石质": [
+      "0.6"
+    ],
+    "下界合金质": [
+      "0.5"
+    ],
+    "金质": [
+      "0.4"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "铜傀儡像被破坏后会掉落自身。"
+    ],
+    "姿势": [
+      "铜傀儡像一共有4种姿势：“站立”“坐下”“奔跑”和“大字”。玩家空手对着铜傀儡像按下使用键可改变其姿势。",
+      "红石比较器与铜傀儡像连接时会发出红石信号，上述姿势分别对应1-4的信号强度。"
+    ],
+    "氧化": [
+      "主条目：氧化",
+      "铜傀儡像受氧化机制影响，能够在不同变种之间转化。",
+      "对未涂蜡且未氧化的铜傀儡像使用斧会生成铜傀儡。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "subtitles.block.generic.break": [
+      "某物：摔落到方块上"
+    ],
+    "subtitles.block.generic.fall": [
+      "方块：损坏中"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "涂蜡": [
+      "对下列方块（或其氧化变种）之一使用任意品质的斧："
+    ],
+    "subtitles.item.axe.wax_off": [
+      "斧：刮削"
+    ],
+    "subtitles.item.axe.scrape": [
+      "基岩版："
+    ],
+    "place": [
+      "1.0",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "16"
+    ],
+    "hit": [
+      "1.0",
+      "16"
+    ],
+    "copper.wax.on": [
+      "1.0",
+      "0.8-1.2",
+      "16"
+    ],
+    "copper.wax.off": [
+      "1.0",
+      "0.8-1.2",
+      "16"
+    ],
+    "scrape": [
+      "1.0",
+      "0.8-1.2",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "copper_golem_statue": [
+      "基岩版："
+    ],
+    "方块实体": [
+      "参见：方块实体",
+      "每个铜傀儡像都有相对应的方块实体，储存了关于铜傀儡像的附加数据。",
+      "Java版：",
+      "参见：方块实体数据格式"
+    ],
+    "方块状态": [
+      "参见：方块状态",
+      "Java版："
+    ],
+    "方块不含水": [
+      "基岩版："
+    ],
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "铜傀儡像使用数据组件保存将要生成的铜傀儡的自定义名称。",
+      "components：方块实体的数据组件信息。",
+      "minecraft:custom_name：（文本组件）自定义名称。",
+      "基岩版：",
+      "参见：基岩版存档格式/方块实体格式"
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:block_state：物品放置方块时将要设置的方块状态。",
+      "<方块属性>：此项方块属性的值。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"block.minecraft.copper_golem_statue\"},\"minecraft:lore\":[],\"minecraft:block_state\":{\"copper_golem_pose\":\"standing\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:copper_golem_statue\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "在默认组件的基础上，铜傀儡像使用下列组件来保存附加数据：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:block_state 数据组件",
+      "copper_golem_pose：铜傀儡像的姿势，同时控制物品模型，不存在时默认为standing。",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "与蜂共舞": [
+      "对下列方块（或其氧化变种）之一使用蜜脾："
+    ]
+  }
+}

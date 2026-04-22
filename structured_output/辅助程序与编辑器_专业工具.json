@@ -1,0 +1,237 @@
+{
+  "title": "辅助程序与编辑器/专业工具",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2F%E4%B8%93%E4%B8%9A%E5%B7%A5%E5%85%B7",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "用于辅助制作mc方块模型、mod模型和opt实体模型的软件": [
+      "2020-9-9",
+      "4.5"
+    ],
+    "网站": [
+      "1.16.3",
+      "1.8.3",
+      "1.7.9",
+      "1.5.2（启动器1.0）",
+      "1.7.5",
+      "1.2.4",
+      "部分：3.3.5及后续版本",
+      "1.2.5",
+      "（分支支持 12w37a)",
+      "1.2.3",
+      "1.3.2",
+      "13w06a",
+      "1.3.2",
+      "1.3.2",
+      "1.2.3",
+      "1.3.2",
+      "1.2.4",
+      "1.7.8"
+    ],
+    "是": [
+      "MMF2"
+    ],
+    "Javascript": [
+      "JannisX11"
+    ],
+    "CommandblocksJS": [
+      "用Javascript编写命令方块逻辑的SDK。Github库。",
+      "2015-2-17",
+      "2.0"
+    ],
+    "论坛": [
+      "1.7.9",
+      "1.7.4",
+      "1.8",
+      "1.7.10",
+      "1.4.6",
+      "1.7.2",
+      "1.7.4",
+      "13w06a",
+      "1.3.2",
+      "是[1]",
+      "1.3.2",
+      "1.2.5",
+      "1.7.10",
+      "1.2.5",
+      "1.1",
+      "1.2.5"
+    ],
+    "C# 和 Javascript": [
+      "M4GNV5"
+    ],
+    "Binvox": [
+      "读取一个3D模型文件并将其转换为建筑方案或MCEdit使用的.schematic导入文件。注意这个软件永远都不会过时，因为它不依赖于任何Minecraft游戏数据。",
+      "2012-11-11",
+      "v1.17"
+    ],
+    "—": [
+      "部分：0.4版本"
+    ],
+    "Minecraft Book Editor": [
+      "为Minecraft创建书籍。你可以在其中书写内容，或使用快速导入选项将文档中的一段文字导入软件。",
+      "文本文档已按Minecraft书本格式进行格式化，必要时可创建多页。你可以保存书本并将其导入到玩家物品栏中。只需找到玩家数据文件，选择你想放置书本的物品栏格子，然后点击保存即可。",
+      "2014-06-04",
+      "1.0.1"
+    ],
+    "Daedalus Young's Unofficial Minecraft Map Reader": [
+      "在线工具，适用于任何操作系统，可读取map_[x].dat文件并将其输出为普通PNG图像。只需上传所需的dat文件即可。对制作服务器宣传图片很有用，仅读取地图。",
+      "2013-10-27",
+      "1.7.2"
+    ],
+    "MCI Fireworks": [
+      "向你的单人游戏物品栏中添加烟花火箭。",
+      "2014-01-07",
+      "v1.3"
+    ],
+    "Mcmeta Animation Editor": [
+      "一个创建并编辑Minecraft纹理动画的软件，用户界面方便易用。可以将动画保存为.gif图像。",
+      "2013-08-24",
+      "v0.91"
+    ],
+    "Java": [
+      "May0 (chocolatkey)"
+    ],
+    "Minecraft Font Editor": [
+      "创建在资源包内使用的Minecraft字体。加载Minecraft图像所显示的文字，使用MinecraftFontEditor进行编辑。你可以将编辑后的字体复制到你的资源包文件夹中。一旦在Minecraft中加载该资源包，就会显示你的新字体。",
+      "2014-07-18",
+      "1.0.0"
+    ],
+    "MClastlogin decoder/recovery": [
+      "这个软件可显示minecraft文件夹中“lastlogin”文件解码后的登录凭据。它不会以任何方式破解账号或分享证书。Yggdrasil身份验证已在启动器1.0.1的lastlogin文件中被弃用。",
+      "2013-01-09",
+      "1.0"
+    ],
+    "MCNostalgia": [
+      "可在不同的Minecraft版本间简单切换。",
+      "2011-11-20",
+      "v2.1.2"
+    ],
+    "Python": [
+      "Phant0mX"
+    ],
+    "mcStats": [
+      "mcStats可创建服务器统计数据，如所有用户的在线时间、登录次数等。",
+      "Windows系统未测试，但理论上可以工作。",
+      "2014-04-04",
+      "v0.4"
+    ],
+    "python": [
+      "85pando"
+    ],
+    "Minecraft Command Generator": [
+      "用于评估命令方块的工作效果。",
+      "2013-09-24",
+      "v0.2"
+    ],
+    "Minecraft Custom RAM Expansion": [
+      "增加Minecraft的内存使用量。这个软件永远不会过时，因为它不依赖于任何游戏数据。",
+      "2012-04-29",
+      "v3.2"
+    ],
+    "Minecraft Map Item Editor": [
+      "Minecraft Map Item Editor允许你将自己的图像导入到Minecraft地图物品中。它支持编辑和预览Minecraft地图物品，也可以将Minecraft地图物品导出为位图。",
+      "2012-02-01",
+      "1.1.1"
+    ],
+    "Minecraft Note Block Studio": [
+      "让你制作音符盒音乐，并可以通过.schematic文件导入到Minecraft中。你也可以导入MIDI歌曲并编辑Minecraft中已有的歌曲。",
+      "2021-12-09",
+      "3.9.3"
+    ],
+    "Minecraft Save Seed Reader": [
+      "从你的存档文件中读取种子，以便重新生成原始世界。现在可以在创造模式和生存模式之间转换世界。",
+      "2012-05-31",
+      "1.7.1"
+    ],
+    "Minecraft Server Properties Configurator": [
+      "一个方便处理Minecraft服务器原始server.properties文件的软件。它允许你轻松保存和加载不同世界的配置，甚至包含基本服务器和世界文件、种子读取功能。",
+      "2012-03-04",
+      "v1.2"
+    ],
+    "Minecraft Structure Planner": [
+      "该结构规划工具允许用户在游戏中方便地创建各种结构。结构通过一组简单的数字、下拉纹理或复选框选项来定义，并能显示地图高度结果、每层计划和完全交互式3D规划。同时支持参数化结构，该应用还允许创建自由形式的内容，如电脑辅助的像素艺术。不同的结构可以通过MCEdit的schematic格式正确导入到你的世界中。每层结构规划也可以打印到纸上或文件中，方便分发。",
+      "2011-6-29",
+      "0.99.7"
+    ],
+    "LankyBrit": [
+      "Minecraft Version Changer 1.6",
+      "以合法形式改变Minecraft版本，易用快捷，无需使用命令行。（与KodekPL's MVC无关）。",
+      "2013-02-07",
+      "v1.6"
+    ],
+    "RsMusicRs": [
+      "Minecraft Version Changer 1.1",
+      "降级/改变Minecraft或Minecraft服务器版本的最简单方法！你可以用它来创建备份。",
+      "2012-02-08",
+      "1.1"
+    ],
+    "MineCraft Version Switcher": [
+      "一个简单的版本转换器（需要你拥有旧版本）。备份当前版本并切换到要启动的Minecraft。",
+      "2011-10-13",
+      "v2.0 (Current build v2.1)"
+    ],
+    "MineOS": [
+      "注重运行Minecraft服务器的Linux OS独立发行版。",
+      "2012-05-30",
+      "0.4.11e"
+    ],
+    "MineOS+": [
+      "注重运行Minecraft服务器的Linux OS独立发行版。",
+      "2012-01-01",
+      "0.4.5"
+    ],
+    "mineRCON": [
+      "mineRCON是Minecraft版本的RCON协议的简单Java客户端，无需访问服务器控制台本身就能运行多人游戏服务器命令（如give、kick和list），即使在同一台电脑上也可使用。",
+      "2012",
+      "v0.1"
+    ],
+    "Mordritch's Javascript Redstone Simulator": [
+      "无需插件，直接在浏览器中运行。支持保存和加载.schematic文件，可模拟活塞、中继器、门和其他红石方块。支持多视图编辑，能同时查看上下部分。可通过网页分享链接保存schematics文件。",
+      "2012-09-24",
+      "2"
+    ],
+    "NBTedit": [
+      "允许你编辑所有NBT格式的文件，包括物品栏、实体和世界特性。Linux系统运行需要Mono（还需安装mono-winforms包）。",
+      "2010-05-16",
+      "0.9.8"
+    ],
+    "NBTExplorer": [
+      "NBTExplorer是一款低级NBT图形数据编辑器，灵感源自NBTedit，在其基础上构建并与之相似。不同之处在于，它完全支持Minecraft的.mcr区域文件，且具备便于查找多世界的目录树界面。",
+      "2013-02-06",
+      "2.3.0"
+    ],
+    "Perfect Sphere": [
+      "使用游戏内方块生成球体或椭圆体蓝图。",
+      "2010-10-19",
+      "1.0.0.0"
+    ],
+    "Redstone Circuit Designer": [
+      "一款吸引人的红石设计工具，可在浏览器中运行。",
+      "2012-08-06",
+      "2.0.0"
+    ],
+    "Redstone Display Maker": [
+      "可创建最多32帧的动画，并能作为红石显示导入到Minecraft中。",
+      "2011-06-17",
+      "v1.0"
+    ],
+    "SpL Editor": [
+      "单人游戏level.dat编辑器，注重易用性和多平台支持。",
+      "功能：自动匹配世界目录、按上次访问时间排序世界、切换不同维度、输入校正、快捷键支持。",
+      "2012-01-26",
+      "1.3.1"
+    ],
+    "Spritecraft": [
+      "Spritecraft是一款易用的独立Java软件，可加载任何图像并将其转换为Minecraft方块；支持指定方块、设置高度/宽度的方块数量、自定义纹理包（包括高清纹理包）。非常适合制作Minecraft像素艺术！现在支持导出schematic文件，便于导入到MCEdit或类似工具中。",
+      "2011-05-14",
+      "v1.1.2"
+    ],
+    "Modpacking Easier": [
+      "使用这款简单易用的工具，你可以快速创建Mod包。",
+      "08.05.2014",
+      "v1.1.0"
+    ]
+  }
+}

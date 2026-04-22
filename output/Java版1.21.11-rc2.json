@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.21.11-rc2",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.11-rc2",
+  "text": "此版本的未混淆版本目前在Minecraft启动器中不可用。\n虽然此版本的未混淆版本存在留档，但却无法从启动器下载到。\n1.21.11-rc2\n版本\nJava版\n类型\n发布候选\n发布时间\n2025年12月5日\n发布候选归属\n1.21.11\n下载\n常规版本\n客户端（.json）\n服务端\n未混淆版本\n客户端（.zip · .json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073742109\nHEX: 4000011D\n数据版本\n4669\n资源包版本\n75.0\n数据包版本\n94.1\n◄◄1.21.10\n26.1►►\n◄1.21.11-rc1\n1.21.11-rc3►\n1.21.11-rc2是Java版1.21.11的第2个发布候选版本，发布于2025年12月5日，修复了一个崩溃漏洞。\n此版本也额外发布了未经混淆的版本，称为1.21.11 Release Candidate 2 Unobfuscated（启动器内称1.21.11-rc2_unobfuscated），旨在过渡至后续小更新时移除混淆。\n修复\n修复了1个漏洞\n未公开漏洞\n修复了获取超过世界界限的方块和流体信息时游戏崩溃的漏洞。\n视频\n由slicedlime制作的视频：\n注释\n解压至.minecraft/versions目录\n参考\nMinecraft 1.21.11 Release Candidate 2 — Minecraft.net，2025年12月5日。\nRemoving obfuscation in Java Edition — Minecraft.net，2025年10月29日。\n导航"
+}

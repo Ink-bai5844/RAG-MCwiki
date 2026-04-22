@@ -1,0 +1,39 @@
+{
+  "title": "Java版Classic 0.0.2a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.2a",
+  "structured_content": {
+    "默认分类": [
+      "此条目记录了仅私下发布过的版本。",
+      "尽管它未公开发布过，但有证据证明这个版本的确存在。",
+      "0.0.2a"
+    ],
+    "开发时间": [
+      "2009年5月16日"
+    ],
+    "未知": [
+      "◄◄mc-161648",
+      "0.0.3a►►",
+      "0.0.2a是在2009年5月16日16:52（UTC）制作完成的一个Classic版本。加入了版本号，并修复了一些漏洞。"
+    ],
+    "平视显示器": [
+      "在左上角加入了版本号。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了更多鼠标外观的漏洞。"
+    ],
+    "你知道吗": [
+      "Notch认为这是一个“相对稳定”的版本，该版本的URL也通过IRC频道发送给了其他用户。"
+    ],
+    "参考": [
+      "TigIRC日志（存档） — Archive.org，May 16, 2009, UTC–4。",
+      "TigIRC日志: (12:49:34) fartron: put in a build count or something so i can tell if it loaded the new one",
+      "(12:49:56) notch: good idea. I'll add from the next version and up. =)",
+      "TigIRC日志: \"(13:05:07) notch: does it say \"0.0.2a\" in the top left corner of the applet?\" [...] \"(13:08:05) notch: dock: If you have the courage to run it again, i'd love to know if you get version 0.0.2 and what the mouse look is on in there..\" [...] \"(13:08:31) fartron: i have 0.0.2a now\" [...] \"(13:08:41) dock: yes this is 0.0.2a\"",
+      "TigIRC日志: \"(12:52:42) notch: I uploaded a new version with a (huge annoying) version label\"",
+      "TigIRC日志: \"(12:53:53) notch: did the mouselook get better?\" [...] \"(13:09:14) fartron: mouse look is good again\"",
+      "TigIRC日志: (13:11:24) notch: ok, I deem this \"relatively stable\" now, so if anyone else wants to help test:",
+      "(13:11:25) notch: http://www.mojang.com/notch/minecraft/"
+    ]
+  }
+}

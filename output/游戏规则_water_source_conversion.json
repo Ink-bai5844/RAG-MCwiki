@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/water source conversion",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fwater_source_conversion",
+  "text": "本条目所述内容仅适用于Java版。\nwater_source_conversion\n名称\n允许流动水转化为水源\n描述\n相邻两面方块为水源的流动水会转化为水源。\n分类（JE）\n世界更新\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nwater_source_conversion\nwater_source_conversion是控制水能否转化为水源的游戏规则。\n行为\n主条目：水 § 水源方块\n当water_source_conversion为true时，流动的水在水平方向上有至少2面与水源相邻，且下方为固体方块或水源时，会转化为水源。\n历史\nJava版\n1.19.3\n22w44a\n加入了游戏规则waterSourceConversion。\n1.21.11\n25w44a\n将游戏规则waterSourceConversion重命名为water_source_conversion。\n参见\n游戏规则/lava_source_conversion\n导航"
+}

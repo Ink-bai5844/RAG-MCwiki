@@ -1,0 +1,5 @@
+{
+  "title": "携带版0.15.0.a3",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.15.0.a3",
+  "text": "0.15.0.a3\n版本\n携带版\n版本码\nAndroid：781150003（armeabi-v7a，22）\n类型\n测试版\n发布时间\n2016年4月16日\n测试版归属\n0.15.0\n协议版本\n60\n◄◄0.14.3\n0.15.1►►\n◄0.15.0.a2\n0.15.0.a4►\nRealms alpha build 2是v0.15.0 alpha Realms部分的第2个测试版，发布于2016年4月16日，修复了1个漏洞和Realms的崩溃。\n更改\n版本号从\"0.15.0 Alpha Build 2\"变为\"Realms Alpha Build 2\"。\n修复\n修复了1个漏洞\n0.14.3前正式版的漏洞\nMCPE-11456 — 当压力板下的方块被摧毁时，压力板上方的方块没有更新。\n参考\nhttps://twitter.com/_tomcc/status/720910855563583488\n导航"
+}

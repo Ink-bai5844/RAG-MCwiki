@@ -1,0 +1,90 @@
+{
+  "title": "命令/recipe",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Frecipe",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "给予或剥夺（解锁或锁定）玩家的配方。"
+    ],
+    "Java版": [
+      "1.12",
+      "17w13a",
+      "加入了/recipe命令。"
+    ],
+    "recipe give <targets> *": [
+      "为玩家给予（解锁）所有配方。"
+    ],
+    "recipe take <targets> *": [
+      "剥夺（锁定）玩家的所有配方。"
+    ],
+    "recipe give <targets> <recipe>": [
+      "为玩家给予（解锁）指定配方。"
+    ],
+    "recipe take <targets> <recipe>": [
+      "剥夺（锁定）玩家的指定配方。"
+    ],
+    "基岩版": [
+      "recipe give <player: target> *",
+      "recipe give <player: target> \"*\"",
+      "为玩家给予（解锁）所有配方。",
+      "recipe take <player: target> *",
+      "recipe take <player: target> \"*\"",
+      "剥夺（锁定）玩家的所有配方。",
+      "recipe give <player: target> <recipe: string>",
+      "为玩家给予（解锁）指定配方。",
+      "recipe take <player: target> <recipe: string>",
+      "剥夺（锁定）玩家的指定配方。",
+      "1.20.10"
+    ],
+    "参数": [
+      "JE：<targets>：entity",
+      "BE：player: target：CommandSelector<Player>",
+      "指定要给予或剥夺配方的玩家。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。",
+      "JE：<recipe>：resource_location",
+      "BE：recipe: string：basic_string",
+      "指定要给予或剥夺的配方。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。在基岩版中，必须为一个配方的ID，命名空间不可省略（如果有）或添加（如果没有），参见此官方文档。"
+    ],
+    "无法解析": [
+      "<targets>或player: target无法选中至少一个玩家（指定的玩家必须在线上）"
+    ],
+    "执行失败": [
+      "player: target是非玩家类型的目标选择器",
+      "0",
+      "0"
+    ],
+    "N/A": [
+      "/recipe ... <recipe: string>"
+    ],
+    "执行成功": [
+      "1",
+      "从每个玩家处给予/剥夺的配方总数。"
+    ],
+    "/recipe ... <recipe>": [
+      "/recipe ... <recipe: string>"
+    ],
+    "示例": [
+      "随机剥夺一名玩家全部的配方：/recipe take @r *",
+      "给予所有玩家铁剑的合成配方：/recipe give @a minecraft:iron_sword"
+    ],
+    "配方解锁": [
+      "1.20.10.21",
+      "加入了/recipe命令。",
+      "1.20.30",
+      "1.20.20.20",
+      "更改了/recipe的语法顺序以匹配Java版。",
+      "1.20.30",
+      "1.20.20.21",
+      "/recipe不再属于实验性玩法。",
+      "1.20.20.22",
+      "将目标参数victim: target更改为player: target。"
+    ],
+    "知识之书": [
+      "/gamerule doLimitedCrafting – 玩家是否只能用已解锁的配方来合成物品。"
+    ]
+  }
+}

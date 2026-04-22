@@ -1,0 +1,127 @@
+{
+  "title": "命令/test",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftest",
+  "structured_content": {
+    "默认分类": [
+      "关于基岩版中功能相似的命令，请见“命令/gametest”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "仅IDE（在export中）": [
+      "管理和运行游戏测试。"
+    ],
+    "test (clearall [<radius>]|clearthat|clearthese)": [
+      "清除测试的结构和方块。"
+    ],
+    "test create <id> [<width>] [<height> <depth>]": [
+      "创建测试。"
+    ],
+    "test locate <tests>": [
+      "在已加载区块中寻找测试的位置。"
+    ],
+    "test pos [<var>]": [
+      "在半径250格内寻找并显示准星所指方向10格内第一个方块处对于测试的局部坐标。"
+    ],
+    "test (resetclosest|resetthat|reseetthese)": [
+      "重置测试结构。"
+    ],
+    "test runmultiple <tests> [<amount>]": [
+      "运行一个或多个测试。"
+    ],
+    "test runfailed [<onlyRequiredTests>] [<numberOfTimes>]": [
+      "运行已失败的测试。"
+    ],
+    "test stop": [
+      "停止所有测试。"
+    ],
+    "test verify <tests>": [
+      "验证测试。"
+    ],
+    "test (export <test>|exportclosest|exportthat|exportthese)": [
+      "导出测试结构。仅在IDE中可用。"
+    ],
+    "clearall": [
+      "对指定半径内的所有测试进行清除。"
+    ],
+    "resetclosest、​runclosest和​exportclosest": [
+      "分别对半径15格内最近的测试进行重置、运行和导出。"
+    ],
+    "clearthat、​resetthat、​runthat和​exportthat": [
+      "分别对准星所指处的测试进行清除、重置、运行和导出。"
+    ],
+    "clearthese、​resetthese、​runthese和​exportthese": [
+      "分别对半径250格内所有的测试进行清除、重置、运行和导出。",
+      "<radius>：integer",
+      "指定清除的半径。默认为250。",
+      "必须为32位整数。",
+      "<id>：resource_location",
+      "指定测试的ID。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "<width>：integer",
+      "指定测试结构的宽度。默认为5。",
+      "必须为32位整数。",
+      "<height>：integer",
+      "指定测试结构的高度。默认为<width>的值。",
+      "必须为32位整数。",
+      "<depth>：integer",
+      "指定测试结构的深度。默认为<width>的值。",
+      "必须为32位整数。",
+      "<tests>：resource_selector",
+      "指定测试的ID。",
+      "必须为命名空间ID，支持通配符（*和​?），将会在命令执行时根据此ID尝试获取注册在test_instance注册表的一个或多个注册项。",
+      "<var>：string",
+      "指定复制代码段中使用的变量名。默认为pos。",
+      "必须为字符串。且必须为单个词，允许的字符包括：-、+、.、_、A-Z、a-z、0-9。",
+      "<numberOfTimes>：integer",
+      "指定每个测试在不同批次内的重复次数。默认为1。",
+      "必须为32位整数。",
+      "<untilFailed>：bool",
+      "指定测试是否应该在一次迭代失败后立即停止。默认为false。",
+      "必须为 布尔值（true或false）。",
+      "<rotationSteps>：integer",
+      "指定测试的额外90度旋转步数。默认为0。",
+      "必须为32位整数。",
+      "<testsPerRow>：integer",
+      "指定在网格布局中每行放置的测试数量。默认为8。",
+      "必须为32位整数。",
+      "<amount>：integer",
+      "指定每个测试在同一批次内的重复次数。默认为1。",
+      "必须为32位整数。",
+      "<onlyRequiredTests>：bool",
+      "指定是否仅需必要测试。默认为false。",
+      "必须为 布尔值（true或false）。",
+      "<test>：resource",
+      "指定测试的ID。",
+      "必须是一个注册在minecraft:test_instance注册表的一个注册项的命名空间ID。"
+    ],
+    "Java版": [
+      "1.15",
+      "19w34a",
+      "加入了/test命令，仅在IDE中可用。",
+      "1.21.5",
+      "25w03a",
+      "现在/test命令在游戏内可用。",
+      "1.21.9",
+      "25w31a",
+      "将管理和运行测试的默认半径由200格更改为250格。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "/test create ...": [
+      "<width>、<height>或<depth>大于48"
+    ],
+    "/test runfailed ...": [
+      "<rotationSteps>超出[0, 3]"
+    ],
+    "执行成功": [
+      "1",
+      "1"
+    ],
+    "参考": [
+      "MC-300831"
+    ]
+  }
+}

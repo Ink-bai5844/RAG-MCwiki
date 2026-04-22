@@ -1,0 +1,65 @@
+{
+  "title": "原主机版TU42、CU32、1.35、Patch 12",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU42%E3%80%81CU32%E3%80%811.35%E3%80%81Patch_12",
+  "structured_content": {
+    "默认分类": [
+      "TU42"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.8.1093.0",
+      "1.8.1093.0",
+      "1.8.1095.0"
+    ],
+    "发布时间": [
+      "2016年9月9日",
+      "◄TU41",
+      "TU43►",
+      "CU32",
+      "2016年9月9日",
+      "◄CU30",
+      "CU33►",
+      "1.35",
+      "2016年9月9日",
+      "其他版本的1.35",
+      "PlayStation 4版",
+      "2016年9月9日",
+      "其他版本的1.35",
+      "PlayStation 3版",
+      "2016年9月9日",
+      "其他版本的1.35",
+      "PlayStation 3版",
+      "PlayStation 4版",
+      "◄1.34",
+      "1.36►",
+      "Patch 12",
+      "2016年9月15日",
+      "◄Patch 11",
+      "Patch 13►",
+      "TU42/CU32/1.35/Patch 12是原主机版的一次更新，发布于2016年9月9日至15日期间，修复了一些漏洞。"
+    ],
+    "PlayStation Vita版": [
+      "◄1.34",
+      "1.36►",
+      "1.35",
+      "◄1.34",
+      "1.36►",
+      "1.35"
+    ],
+    "小游戏": [
+      "移除小游戏中的投票踢人（vote-to-kick）功能，服务器主只能在大堂里踢人。",
+      "在公共Tumble比赛中，禁用小的、浮动的或形状奇怪的皮肤。"
+    ],
+    "修复": [
+      "修复了5个漏洞"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

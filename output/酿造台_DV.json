@@ -1,0 +1,5 @@
+{
+  "title": "酿造台/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%85%BF%E9%80%A0%E5%8F%B0%2FDV",
+  "text": "位\n描述\n0x1\n东方的药水槽是否有药水\n0x2\n西南方的药水槽是否有药水\n0x4\n西北方的药水槽是否有药水\n0x8\n（未使用）"
+}

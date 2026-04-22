@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.14.4-pre3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.14.4-pre3",
+  "text": "1.14.4-pre3\n版本\nJava版\n类型\n预发布版\n发布时间\n2019年7月8日\n预发布版归属\n1.14.4\n下载\n客户端（.json）\n服务端\n协议版本\n493\n数据版本\n1971\n资源包版本\n4\n数据包版本\n4\n◄◄1.14.3\n1.15►►\n◄1.14.4-pre2\n1.14.4-pre4►\n1.14.4-pre3是Java版1.14.4的第3个预发布版，发布于2019年7月8日，加入了新的闪烁标语，并尝试修复了一个关于区块加载延迟的重大漏洞。\n新内容\n常规\n闪烁标语\n加入了“Ping the human!”\n更改\n命令格式\n命令参数类型\n向内建参数类型加入了 brigadier:long。\n参考\nMinecraft 1.14.4 Pre-Release 3 — Minecraft.net，2019年7月8日。\n导航"
+}

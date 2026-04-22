@@ -1,0 +1,48 @@
+{
+  "title": "Java版Classic服务器1.8.3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.8.3",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "1.9"
+    ],
+    "客户端版本": [
+      "0.28、0.28_01"
+    ],
+    "发布时间": [
+      "2009年10月27日"
+    ],
+    "协议版本": [
+      "7",
+      "其他版本的1.9"
+    ],
+    "教育版": [
+      "New Nintendo 3DS版",
+      "◄◄1.8",
+      "1.10►►",
+      "◄1.8.2",
+      "1.9.1►",
+      "1.9（原1.8.3）是Classic服务器的一次更新，发布于2009年10月27日。",
+      "此版本的README文件将其标记为\"1.8.3\"，但版本1.9.1将其重新标记为\"1.9\"。"
+    ],
+    "多人游戏": [
+      "为生存模式下的多人游戏添加了支持。",
+      "由于正在开发，故未在网站公开列出。"
+    ],
+    "服务器": [
+      "为0.28的所有特性添加了服务器支持。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了有人使用非法名称登录服务器时导致玩家断开连接的漏洞。"
+    ],
+    "参考": [
+      "The skinny on the creative mode update（存档） — The Word of Notch，2009年10月27日。",
+      "c1.8.3.zipREADME:",
+      "Version 1.8.3: + Added support for new tile types. + Fixed exploit where someone logging in with an illegal name would cause players to disconnect.",
+      "c1.9.1.zipREADME:",
+      "Version 1.9: + Added support for new tile types. + Fixed exploit where someone logging in with an illegal name would cause players to disconnect."
+    ]
+  }
+}

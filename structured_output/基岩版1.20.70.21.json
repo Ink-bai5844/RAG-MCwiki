@@ -1,0 +1,165 @@
+{
+  "title": "基岩版1.20.70.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.70.21",
+  "structured_content": {
+    "默认分类": [
+      "1.20.70.21"
+    ],
+    "服务端版本": [
+      "1.20.70.21"
+    ],
+    "版本码": [
+      "Android：",
+      "952007021（armeabi-v7a，33）",
+      "962007021（x86，33）",
+      "972007021（arm64-v8a，33）",
+      "982007021（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2024年1月31日"
+    ],
+    "测试版归属": [
+      "1.20.70"
+    ],
+    "协议版本": [
+      "657",
+      "◄◄1.20.62",
+      "1.20.71►►",
+      "◄1.20.70.20",
+      "1.20.70.22►",
+      "beta 1.20.70.21（ChromeOS/Android）、Preview 1.20.70.21（Xbox/Windows/iOS/iPadOS）是基岩版1.20.70的第2个测试版，发布于2024年1月31日，在实验性玩法中加入了宝库，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "目标选择器": [
+      "加入了has_property过滤器。",
+      "用于根据实体是否具有指定属性来选择目标。"
+    ],
+    "木质台阶": [
+      "6种双层木质台阶的ID由double_oak_slab、​double_spruce_slab、​double_birch_slab、​double_jungle_slab、​double_acacia_slab和​double_dark_oak_slab分别更改为oak_double_slab、​spruce_double_slab、​birch_double_slab、​jungle_double_slab、​acacia_double_slab和​dark_oak_double_slab。"
+    ],
+    "基岩和边界": [
+      "现在被破坏后不再掉落自身。"
+    ],
+    "物品": [
+      "自定义盔甲附着物现在可以使用原版纹饰作为纹饰，经过修改的原版图案现在可以应用于自定义盔甲附着物和物品。",
+      "原版纹饰的纹理可通过attachable组件覆盖。",
+      "原版纹饰可通过attachable组件应用于使用自定义盔甲材料的盔甲。",
+      "经过修改（以适应使用新的盔甲材料的盔甲）的原版纹饰图案可通过attachable组件应用。",
+      "自定义盔甲上的盔甲纹饰图案要求附着物和物品的格式版本为1.20.60+。",
+      "在Realms中，在创造模式下尝试破坏一格内数量多于一个的海龟蛋时不再会破坏两个海龟蛋。（REALMS-10477）"
+    ],
+    "刷怪蛋": [
+      "将“生成<生物>”重命名为“<生物>刷怪蛋”，以匹配Java版。"
+    ],
+    "伤害类型": [
+      "将伤害类型suicide重命名为self_destruct。"
+    ],
+    "Realms故事": [
+      "加入了新的类型“Realm事件”。",
+      "Realm上发生有趣的事件时，这类故事会自动发送到动态中。"
+    ],
+    "组件": [
+      "damage_sensor组件的damage_modifier和​damage_multiplier字段现在会在受击后伤害免疫计算过程中被考虑，以使被调整为低于或等于实体在免疫时间受到的最高伤害的伤害会被正确忽略。（MCPE-167651）",
+      "要求世界版本为1.20.70或更高版本。"
+    ],
+    "基岩版编辑器": [
+      "修复了多个已连接玩家按下按钮时不会出现重新加载模态框的问题。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器was_last_hurt_by。",
+      "用于检测对象是否为攻击过该实体的最后一个玩家或生物。"
+    ],
+    "Molang": [
+      "surface_particle_color、​query.surface_particle_texture_coordinate和​query.surface_particle_texture_size现在版本化为1.20.70，以允许这三个查询将树叶方块视为方块下方的表面纹理。Molang版本低于1.20.70时会继续无法发现方块下方的树叶方块。",
+      "该更改对manifest.json中min_engine_version为1.20.70或更高版本的包中的Molang查询生效。"
+    ],
+    "性能与稳定性": [
+      "移除了ItemFrameDropItemPacket。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“犰狳和狼铠”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "宝库": [
+      "生成在试炼密室的入口和决斗室结构中。",
+      "一种锁着战利品的方块，需要使用试炼钥匙解锁才会喷出奖励。",
+      "方块内部有循环展示其战利品表的物品实体，但喷出的物品随机。",
+      "当前暂时使用试炼密室内奖励箱的战利品表，这将随开发被完全修改。",
+      "世界中的每名玩家都有一次解锁某一个宝库的机会。",
+      "附近4格内有任一玩家未解锁过该宝库时，其锁孔打开，并产生橙色粒子。",
+      "若附近4.5格内的玩家都解锁过该宝库，其锁孔闭合，无法使用试炼钥匙。",
+      "硬度为50，没有合适挖掘工具，无法被常规的爆炸破坏。"
+    ],
+    "试炼钥匙": [
+      "更改了纹理。",
+      "现在可用于解锁宝库。"
+    ],
+    "生物": [
+      "幼年生物现在被喂食时会同时发出粒子效果和音效。",
+      "现在即使玩家背对着幻翼也能够听到幻翼发出的所有音效。（MCPE-133125）",
+      "现在即使玩家背对着监守者也能够听到监守者发出的所有音效。（MCPE-159481）"
+    ],
+    "犰狳": [
+      "现在即使玩家背对着犰狳也能够听到犰狳发出的所有音效。",
+      "更改了蜷缩时的受伤音效。"
+    ],
+    "旋风人": [
+      "现在会主动攻击铁傀儡。",
+      "不再反击骷髅、流浪者、僵尸、尸壳、蜘蛛、洞穴蜘蛛和史莱姆，并且这些生物被其风弹伤害后也不再尝试反击。",
+      "不再反击溺尸、僵尸村民、凋灵骷髅和凋灵。",
+      "修复了旋风人快速移动时产生的粒子会从紧挨其下方的树叶方块中选取粒子颜色或纹理的问题。"
+    ],
+    "试炼密室": [
+      "将trial_chambers/reward/default结构中的箱子替换为宝库。"
+    ],
+    "粒子": [
+      "加入了vault_connection_particle粒子。"
+    ],
+    "实体组件": [
+      "加入了带有getTypeFamilies(): string[]和​hasTypeFamily(typeFamily: string): boolean函数的EntityTypeFamilyComponent。"
+    ],
+    "Item": [
+      "将ItemFoodComponent由beta移动至1.9.0。",
+      "加入了matches(itemName: string, states?: Record<string, boolean | number | string>): boolean函数。",
+      "移除了BlockVolumeUtils。将有用的函数移入BlockVolumeBase和​BlockVolume。",
+      "加入了BlockVolumeBase类。",
+      "方块功能域会从其扩展的基类。"
+    ],
+    "BlockVolume": [
+      "破坏性更改：将BlockVolume由接口转换为扩展BlockVolumeBase的类。"
+    ],
+    "@minecraft/server.Entity.playAnimation": [
+      "将Entity.playAnimation由测试版移动至稳定版。",
+      "将BlockPistonState枚举由beta移动至1.9.0。",
+      "将BlockPistonComponent类由beta移动至1.9.0。",
+      "将PistonActivateAfterEvent类由beta移动至1.9.0。",
+      "将PistonActivateAfterEventSignal类由beta移动至1.9.0。"
+    ],
+    "维度": [
+      "Dimension.getEntities现在仅会返回所查询维度内的实体。"
+    ],
+    "图形": [
+      "为iOS设备启用了延迟渲染预览功能。",
+      "在延迟渲染预览功能中加入了点光源阴影。这项新功能允许火把和灯笼等光源投射阴影。",
+      "取决于玩家当前的阴影质量设置，该功能可能默认被禁用。",
+      "在视频设置的延迟渲染图形部分中加入了新的标记和提示框，以显示当前是否打开或关闭点光源阴影。",
+      "修复了开启延迟渲染预览功能后悦灵的光照问题。"
+    ],
+    "命令": [
+      "/damage命令不再包含伤害类型suicide。其现在被替换为self_destruct。（MCPE-174865）"
+    ],
+    "市场": [
+      "修复了加载屏幕可能会卡在41%一段时间的问题。（MCPE-175550）"
+    ],
+    "Realms": [
+      "修复了故事时间戳会居中显示而非在右上角显示的问题。",
+      "修复了Realms故事分页导致的崩溃。",
+      "修复了使用游戏手柄从Realms故事的成员选项卡返回时可能发生的崩溃。",
+      "修复了PlayStation平台上更改时区后时间方块不会正确渲染的问题。",
+      "修复了屏幕阅读器会读出不可用的Realms页面的问题。",
+      "修复了关闭GUI缩放时会导致大部分Realms Plus PDP文本丢失的问题。",
+      "修复了用户退出“选择订阅”屏幕后，“选择预览版Realm”屏幕上会显示错误消息的问题。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.70.21 — Minecraft Feedback，2024年1月31日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic服务器1.9.1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.9.1",
+  "text": "此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\n1.9.1\n版本\nJava版\n客户端版本\n0.29 - 0.29_02\n发布时间\n2009年10月29日\n下载\n服务端\n其他版本的1.9.1\nJava版Classic服务器\nMinecraft Dungeons\n◄◄1.8.3\n1.10►►\n1.9.1是1.9的一个漏洞修复版本，发布于2009年10月29日。\n修复\n修复了2个漏洞\n仅当server.properties中的grow-tree设置为“true”时树木才会生长。\n给予或撤销玩家的管理员身份会立即生效，不需要玩家重新登录。\n参考\nWiki diff #1471602, 2009年12月7日 01:02\nc1.9.1.zipREADME:\nVersion 1.9.1: + Made tree growing a server option (grow-trees) + Opping or de-opping a user now updates their client without forcing them to log out/in\nCreative mode client update and Server update（存档） — The Word of Notch，2009年10月29日。\n导航"
+}

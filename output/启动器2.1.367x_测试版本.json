@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.367x/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.367x%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "text": "本页面列出了启动器2.1.367x的测试版本。\n2.1.249x-beta\n2.1.2494-beta（Windows）、2.1.2495-beta（macOS）或2.1.2496-beta（Linux）是一个启动器更新，发布于2019年2月21日，修复了一些漏洞。\n新内容\n新的下载系统，可以提高下载的可靠性和速度。\n修复\nMCL-10562 - 如果%APPDATA%\\.minecraft是NTFS连接，启动器就无法更新。\nMCL-10571 - 在英国下载Shuniji.ogg时会被损坏。\n2.1.351x-beta\n2.1.3512-beta（Windows）、2.1.3513-beta（macOS）或2.1.3514-beta （Linux）是一个启动器更新，发布于2019年4月9日。\n新增\n用户名和密码字段现在支持键盘导航。\n当“开始游戏”选项可见时，按↵ Enter就可开始游戏。\n登录状态和结果可以现在启用声音提示。\n2.1.3599-beta\n2.1.3599-beta（Windows）是一个启动器更新，发布于2019年4月12日，此版本中的更改未知。\n2.1.36xx-beta\n2.1.3610-beta（Windows)、2.1.3608-beta（macOS）或2.1.3609-beta（Linux）是一个启动器更新，发布于2019年4月12日，此版本中的更改未知。\n注释与参考\n导航"
+}

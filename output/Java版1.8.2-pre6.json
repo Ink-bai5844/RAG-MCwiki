@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.8.2-pre6",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.8.2-pre6",
+  "text": "1.8.2-pre6\n版本\nJava版\n类型\n预发布版\n发布时间\n2015年1月30日\n预发布版归属\n1.8.2\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n47\n资源包版本\n1\n◄◄1.8.1\n1.8.3►►\n◄1.8.2-pre5\n1.8.2-pre7►\n1.8.2-pre6是Java版1.8.2的第6个预发布版，发布于2015年1月30日。\n修复\n修复了5个漏洞\n1.8的漏洞\nMC-58184 — 可可豆（方块）纹理有问题。\n上个开发版本的漏洞\nMC-77018 — 白天光线不影响水和粒子效果。\nMC-77021 — 信标会显示额外的错误光束。\nMC-77028 — 在Realms界面点击“玩家”按钮时，游戏会崩溃至启动器页面。\nMC-77030 — 当使用音乐唱片时，游戏会崩溃。\n参考\nMinecraft 1.8.2-pre6 - Updated Christmas Gift Edition（存档），来自Searge。Mojang.com，2014年12月18日。\n导航"
+}

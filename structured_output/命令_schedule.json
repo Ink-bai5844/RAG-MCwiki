@@ -1,0 +1,120 @@
+{
+  "title": "命令/schedule",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fschedule",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "计划执行函数。"
+    ],
+    "用法": [
+      "在Java版中，在经过指定的时间后执行一个函数或一个函数标签中的所有函数。",
+      "在基岩版中，在指定的区域全部被加载时执行一个函数。",
+      "在Java版中，同一个函数或同一个函数标签不能有在同一个时间执行的两个计划。",
+      "在Java版中，默认使用replace模式，即在一个函数或函数标签已有未执行的计划时，直接覆盖此计划。例如，如果计划5秒后执行一个函数，在五秒内要修改执行时间，可以使用replace模式设置新计划覆盖原计划。若使用append模式则在原有的计划后追加，不覆盖相同函数的计划。",
+      "计划的函数以服务端为执行者执行，执行位置为世界出生点。"
+    ],
+    "Java版": [
+      "1.14",
+      "18w43a",
+      "加入了/schedule。",
+      "1.15",
+      "19w38a",
+      "加入了clear语法和可选的append/replace参数（默认为replace）。"
+    ],
+    "schedule function <function> <time> [append|replace]": [
+      "指定函数在<time>时间后运行。"
+    ],
+    "schedule clear <function>": [
+      "将之前指定的函数从计划中移除。"
+    ],
+    "基岩版": [
+      "schedule delay add <function: filepath> <time: int> [replace|append]",
+      "schedule delay add <function: filepath> <time: int>D [replace|append]",
+      "schedule delay add <function: filepath> <time: int>S [replace|append]",
+      "schedule delay add <function: filepath> <time: int>T [replace|append]",
+      "将指定函数延时运行。",
+      "schedule on_area_loaded add <from: x y z> <to: x y z> <function: filepath>",
+      "schedule on_area_loaded add circle <center: x y z> <radius: int> <function: filepath>",
+      "schedule on_area_loaded add tickingarea <name: string> <function: filepath>",
+      "当指定区域被加载后，执行所计划的函数。",
+      "schedule clear <function: filepath>",
+      "schedule on_area_loaded clear function <function: filepath>",
+      "schedule on_area_loaded clear tickingarea <name: string> [function: filepath]",
+      "schedule delay clear <function: filepath>",
+      "将之前指定的函数从计划中移除。",
+      "1.16.100",
+      "1.16.100.59",
+      "加入了/schedule。",
+      "1.21.40",
+      "1.21.40.20",
+      "加入了用于清除队列函数的语法。",
+      "1.21.50",
+      "1.21.50.20",
+      "加入了用于延时运行函数的语法。"
+    ],
+    "参数": [
+      "JE：<function>：function",
+      "BE：function: filepath：CommandFilePath",
+      "指定要计划运行的函数。",
+      "在Java版中，必须为命名空间ID，或以#开头的标签，将会在命令执行时尝试获取对应的函数或函数标签。在基岩版中，必须为文件路径，以在命令执行时定位到函数文件，如path/to/function/file会定位到[行为包]/functions/path/to/function/file.mcfunction。可以使用双引号\"包裹路径，路径名内不允许存在~、!、@等符号。",
+      "JE：<time>：time",
+      "BE：time: int：int",
+      "指定等待的时间。为0时执行失败。",
+      "在Java版中，必须为单精度浮点数，并附有单位。且必须不小于0游戏刻。单位可以是：",
+      "d：一个游戏日，合24000游戏刻，",
+      "s：一秒，合20游戏刻，",
+      "t（默认且可省略）：一个游戏刻，无单位时默认。",
+      "时间在单位转化成游戏刻后取最近的整数。例如：.5d等价于12000游戏刻。",
+      "在基岩版中，必须为一个 32位整数。",
+      "JE：<function>：string（对于/schedule clear ...）",
+      "指定要从计划中移除的函数。应为一个函数或函数标签的命名空间ID（都必须写明前缀minecraft:）。",
+      "必须为字符串。是一个贪婪字符串，即命令的剩余部分全部被视作该字符串参数，可以包含空格。",
+      "JE：append|replace",
+      "BE：replace|append",
+      "指定是否取代还在等待执行的函数或函数标签。",
+      "append —— 为此函数或函数标签添加新的计划。",
+      "replace —— （默认值）取代此函数或函数标签的现有计划。",
+      "BE：from: x y z：CommandPosition和to: x y z：CommandPosition",
+      "指定用于定义矩形加载区域的两个对角坐标。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "小于-30,000,000或大于30,000,000的x和z坐标会被视为-30,000,000或30,000,000。",
+      "BE：center: x y z：CommandPosition",
+      "指定用于定义圆形加载区域的圆心的坐标。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "小于-30,000,000或大于30,000,000的x和z坐标会被视为-30,000,000或30,000,000。",
+      "BE：radius: int：int",
+      "指定圆形常加载区域的半径作为从中心到圆周的区块数。",
+      "必须为32位整数。应为从0到2,147,483,647之间的整数。",
+      "BE：name: string：basic_string",
+      "指定常加载区域的名称。当此常加载区域被添加时执行函数。",
+      "必须为1个完整的单词（无空格）或1个被引号包围的字符串。"
+    ],
+    "执行失败": [
+      "0",
+      "0"
+    ],
+    "/schedule function ...": [
+      "<time>为0"
+    ],
+    "指定函数或函数标签目前没有计划": [
+      "/schedule on_area_loaded add <from: x y z> <to: x y z> ..."
+    ],
+    "/schedule on_area_loaded add circle ...": [
+      "指定区域大于2,147,483,647个区块",
+      "radius: int小于0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1"
+    ],
+    "示例": [
+      "在Java版中，在3秒后运行函数foo:bar：schedule function foo:bar 3s",
+      "在Java版中，在5天后运行标签foo:bar里的函数：schedule function #foo:bar 5d",
+      "在基岩版中，在名称为temp的常加载区域被添加时运行函数a：schedule on_area_loaded add tickingarea temp a"
+    ]
+  }
+}

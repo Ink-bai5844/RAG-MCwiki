@@ -1,0 +1,36 @@
+{
+  "title": "Project Malmö",
+  "source_url": "https://zh.minecraft.wiki/w/Project_Malm%C3%B6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "版本": [
+      "0.14.0"
+    ],
+    "无": [
+      "Project Malmö是Mojang首个且唯一支持的Mod。其功能包括允许用户查看和编辑Minecraft代码，且定位为基于Minecraft的人工智能研究平台。"
+    ],
+    "新内容": [
+      "Project Malmö包含查看和编辑Minecraft代码的功能，支持在Minecraft环境中进行人工智能实验。该Mod可实现生物合成、建造及其他各类操作，用于辅助人工智能相关研究。"
+    ],
+    "下载": [
+      "访问Project Malmö官方GitHub仓库，或前往版本发布页面选择所需版本。",
+      "执行下载操作。"
+    ],
+    "Windows系统": [
+      "在Project Malmö解压文件夹中打开命令提示符。",
+      "输入命令cd minecraft && launchClient。",
+      "启动智能体（相关操作详情可参考官方说明文档）。"
+    ],
+    "Mac与Linux系统": [
+      "在Project Malmö解压文件夹中打开终端。",
+      "输入命令cd minecraft && ./launchClient.sh。",
+      "启动智能体（相关操作详情可参考官方说明文档）。"
+    ],
+    "参考": [
+      "https://github.com/Microsoft/malmo",
+      "https://web.archive.org/web/20180218210705/https://mojang.com/2016/07/project-malmo-uses-minecraft-to-make-ai-smarter/"
+    ]
+  }
+}

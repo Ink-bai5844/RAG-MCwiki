@@ -1,0 +1,32 @@
+{
+  "title": "Java版Indev 0.31 20091223-1459",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20091223-1459",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2009年12月23日"
+    ],
+    "未知": [
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20091223-1457",
+      "0.31 20091231-1856►",
+      "0.31的一个版本发布于2009年12月23日14:59（UTC），修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了因“al_version”标签错误而不能正常下载该版本的问题。"
+    ],
+    "参考": [
+      "IRC记录, minecraft.20091222.log. (UTC−5)",
+      "minecraft.20091222的IRC记录(09:59:24) <�08Notch�> it's still loading the cached version ... (10:00:02) <�08Notch�> there, it should load the new version now"
+    ]
+  }
+}

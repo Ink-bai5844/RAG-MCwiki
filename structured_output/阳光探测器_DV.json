@@ -1,0 +1,13 @@
+{
+  "title": "阳光探测器/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%98%B3%E5%85%89%E6%8E%A2%E6%B5%8B%E5%99%A8%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1",
+      "0x2",
+      "0x4",
+      "0x8",
+      "一个值范围0-15的4位二进制数，储存该阳光探测器输出的信号强度级别。"
+    ]
+  }
+}

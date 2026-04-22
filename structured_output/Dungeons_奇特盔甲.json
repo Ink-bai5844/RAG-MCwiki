@@ -1,0 +1,31 @@
+{
+  "title": "Dungeons:奇特盔甲",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%A5%87%E7%89%B9%E7%9B%94%E7%94%B2",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Minecraft Dungeons中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "存档ID": [
+      "CowardsArmor_Unique1",
+      "没有人知道这种奇怪的盔甲来自何方，但你似乎对它有种亲切感。"
+    ],
+    "——物品描述": [
+      "奇特盔甲（Curious Armor）是Minecraft Dungeons中的盔甲。它是守卫之甲的变种。"
+    ],
+    "获取": [
+      "目前只能通过编辑物品栏获得。若将其强制放入物品栏中，则游戏将在穿戴此盔甲时崩溃。但其仍然可以在Minecraft Dungeons Arcade正常获取和使用。"
+    ],
+    "属性": [
+      "5%的概率在受伤时传送",
+      "-40%法器冷却",
+      "+10每捆箭矢数量"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入纹理文件，但并未使用。",
+      "1.3.2.0",
+      "移除了物品。"
+    ]
+  }
+}

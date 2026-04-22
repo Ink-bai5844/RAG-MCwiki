@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:毒帽菇",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%AF%92%E5%B8%BD%E8%8F%87",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：移动速度加成需验证\n毒帽菇\n类型\n法器\n稀有度\n远古狩猎符文\n存档ID\nDeathCapMushroom\n战斗前来一发，可以在战斗中进入狂暴状态。\n——物品描述\n毒帽菇（Death Cap Mushroom）是Minecraft Dungeons中的法器。\n获取\n地点：\n苦力怕森林\n高墩大厅\n迎风之巅\n诡异森林\n末地荒野\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n使用毒帽菇会给予玩家狂暴化（Mushroomized）效果，可以提升玩家100%攻击速度和20%移动速度。它的冷却时间为30秒，持续时间随自身等级改变。\n25%冷却缩减 = 22.5秒\n50%冷却缩减 = 15秒\n75%冷却缩减 = 7.5秒\n属性\nX 秒持续时间\n30 秒冷却\n数据\n等级\n持续时间（秒）\n10\n8.5\n14\n8.7\n25\n9.3\n27\n9.4\n30\n9.5\n37\n9.9\n38\n10.0\n62\n11.2\n65\n11.4\n66\n11.5\n69\n11.6\n94\n12.9\n124\n14.5\n145\n15.6\n254\n21.3\n255\n21.4\n持续时间大致遵循以下公式：持续时间（秒）= (0.052 * 等级) + 8\n音效\n描述\n文件\n拾取\nsfx_item_deathCapMushroomPickUp\n使用\nsfx_item_deathCapMushroomEat\n激活\nsfx_item_deathCapMushroomActive\n装备\nsfx_item_deathCapMushroomPlace\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了毒帽菇。\n你知道吗\n捡起毒帽菇时的音效似乎参考了超级马力欧中的音效。\n导航"
+}

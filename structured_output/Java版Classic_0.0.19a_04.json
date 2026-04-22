@@ -1,0 +1,36 @@
+{
+  "title": "Java版Classic 0.0.19a 04",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.19a_04",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.0.19a_04"
+    ],
+    "服务端版本": [
+      "1.6"
+    ],
+    "发布时间": [
+      "2009年6月20日"
+    ],
+    "al_version": [
+      "6.13",
+      "◄◄0.0.19a",
+      "0.0.20a►►",
+      "◄0.0.19a_03",
+      "0.0.19a_05►",
+      "0.0.19a_04是Java版的一次更新，发布于2009年6月20日。"
+    ],
+    "修复": [
+      "再次尝试修复了由于客户端在试图下载存档时，因为发送移动数据，而导致其不正确地限制了因疾跑速度过快而被踢出的玩家的漏洞。",
+      "此修复仍然无效。",
+      "Notch表示，这是由于他的时间校准代码的采样的漏洞而导致的。"
+    ],
+    "参考": [
+      "Archive.org上的IRC日志；#minecraft.20090619.log。 2009年6月19日（UTC−5）。",
+      "IRC日志: \"P7:49:51 <Notch> if you're running too fast, it SHOULD kick you. But the client really should throttle it better\" [...] \"P7:52:15 <Notch> the client sends movement data while downloading the level\" [...] \"P7:52:25 <Notch> that could DEFINITELY cause the too much lag thing\" [...] \"P7:53:28 <Notch> _04 is up now, fixing that\", \"P7:53:36 <Notch> if you still get kicked in _04, let me know\" (2009年6月20日 00:49至00:53 UTC)",
+      "IRC日志: \"P7:59:14 <Rroff> anyone else getting \"rubber band lag\" since the update?\" [...] \"P7:59:34 <Rroff> and getting kicked for \"Cheat Detected: Too much lag\"\" [...] \"P8:00:13 <Rroff> I get a feelig of taking 1 step forward, 2 steps back\" [...] \"P8:02:05 <Rroff> when jumping its very odd\", \"P8:02:10 <Rroff> I suddenly go fast then slow in spurts\" (2009年6月20日 00:59至01:02 UTC)",
+      "IRC日志: \"P8:02:59 <Notch> ok, that's the sampling time of my time adjustment code\" (2009年6月20日 02:59 UTC)"
+    ]
+  }
+}

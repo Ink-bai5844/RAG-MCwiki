@@ -1,0 +1,12 @@
+{
+  "title": "幽匿尖啸体/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B9%BD%E5%8C%BF%E5%B0%96%E5%95%B8%E4%BD%93%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "*listener：振动监听器的数据。",
+      "振动监听器，见Template:Nbt inherit/vibration listener/source",
+      "*warning_level：警告等级。如果幽匿尖啸体在上一次收到信号后没有被成功激活，此值为0；如果上一次被成功激活，则设置为激活幽匿尖啸体的玩家的警告等级。此项不存在时游戏默认为0。"
+    ]
+  }
+}

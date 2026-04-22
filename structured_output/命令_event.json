@@ -1,0 +1,41 @@
+{
+  "title": "命令/event",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fevent",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "触发实体事件。"
+    ],
+    "语法": [
+      "event entity <target: target> <eventName: string>"
+    ],
+    "参数": [
+      "<target: target>",
+      "必须为玩家名称或目标选择器。",
+      "指定实体事件的作用对象。",
+      "<eventName: string>",
+      "必须为单词（其间不能夹杂空格）或用引号标记的字符串。",
+      "指定命令触发的实体事件。应使用生成事件。"
+    ],
+    "基岩版": [
+      "1.16.100",
+      "1.16.100.57",
+      "加入了/event命令。"
+    ],
+    "无法解析": [
+      "target: target未能选中一个或多个实体（指定的玩家必须在线上）"
+    ],
+    "失败": [
+      "0"
+    ],
+    "示例": [
+      "所有炽足兽重新自然生成：/event entity @e[type=strider] minecraft:entity_spawned",
+      "所有的村民变成僵尸村民：/event entity @e[type=villager] become_zombie"
+    ]
+  }
+}

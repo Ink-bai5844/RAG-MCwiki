@@ -1,0 +1,196 @@
+{
+  "title": "Tutorial:用命令操控实体",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E7%94%A8%E5%91%BD%E4%BB%A4%E6%93%8D%E6%8E%A7%E5%AE%9E%E4%BD%93",
+  "structured_content": {
+    "默认分类": [
+      "此教程的最新适用版本暂时未知。",
+      "请帮助我们检查该内容是否仍在最新版本有效。",
+      "本教程介绍一些能够操控实体的命令。"
+    ],
+    "attribute": [
+      "主条目：命令/attribute",
+      "参见：属性",
+      "本段落所述内容仅适用于Java版。"
+    ],
+    "技巧": [
+      "可以使用/attribute <实体> block_break_speed base set 0通过将挖掘速度的基值设为0来阻止玩家破坏方块",
+      "善用/data get命令，可在命令方块中运行以把结果复制出来分析。",
+      "无法更改玩家NBT标签，但能获取并进行判断。",
+      "/spreadplayers保持实体被传送的区块加载10秒左右。详见下方实例。",
+      "由于数据的限制，<最大范围>至少为1.0。",
+      "关于实体被传送后的位置，有着这样的关系：",
+      "如果不使用under模式，实体会传送到最高表面，因此如果扩散区域存在两个可到达的平面，较低的一个不会有实体被传送。",
+      "NBT标签部分详见区块存储格式。",
+      "在定位用的实体的NBT标签中：",
+      "wither_skull（凋灵之首）需要把Motion设为0。",
+      "slime（史莱姆）需要把NoAI设为1。",
+      "armor_stand（盔甲架）通常把Invisible设为1，也可以把Marker设为1，后者完全不可视，一般配合探测命令使用。",
+      "falling_block（下落的方块）的BlockState可以使一般方块具有掉落性质，再配合Passengers可以实现单命令执行多命令。",
+      "被传送玩家的视角将会和目的玩家的相同。",
+      "确定视角旋转的角度可以使用调试屏幕提供的数值进行计算，也可用中心显示的坐标系快速计算：",
+      "蓝轴不可见，红轴指左边，绿轴指上边时为(0,0)。",
+      "水平顺时针，也就是向右转，y角度增加。增加的上限是180，越过会变成负的角度（179>>180>>-179）。",
+      "竖直向上，x角度减少，反之增加。",
+      "配合/execute命令，可以做出各种各样的效果。"
+    ],
+    "damage": [
+      "主条目：命令/damage",
+      "Java版："
+    ],
+    "/damage <实体> <伤害值> <类型> [by <直接来源>] [from <实际来源>]": [
+      "基岩版："
+    ],
+    "实例": [
+      "村民对铁傀儡造成伤害后，铁傀儡就会开始攻击村民。",
+      "damage @e[limit=1,sort=nearest,type=iron_golem] 1 minecraft:generic by @e[limit=1,sort=nearest,type=villager][仅Java版]",
+      "damage @e[c=1,type=iron_golem] 1 entity_attack entity @e[c=1,type=villager][仅基岩版]",
+      "修改实体的Motion使其向某方向移动。",
+      "让一只牛按照刚丢出去的雪球一样移动：/datamodifyentity@e[limit=1,sort=nearest,type=cow]Motionsetfromentity@e[limit=1,sort=nearest,type=snowball]Motion"
+    ],
+    "data": [
+      "主条目：命令/data",
+      "参见：区块存储格式和Tutorial:文本组件",
+      "本段落所述内容仅适用于Java版。"
+    ],
+    "effect": [
+      "主条目：命令/effect",
+      "参见：状态效果",
+      "Java版："
+    ],
+    "/effect clear <生物> [<效果>]（移除效果。如果未指定[<效果>]，则移除指定生物的所有效果）": [
+      "基岩版："
+    ],
+    "可以为不同玩家设置状态效果的时长来显示不同的数字": [
+      "可以使用/effect give <生物> resistance <时长> 4 [<隐藏粒子>]让生物不受到除饥饿、虚空和/kill以外的伤害，但仍有受伤抖动、伤害免疫和击退。",
+      "可以使用/attribute @s generic.knockback_resistance base set 1来禁用击退。[仅Java版]"
+    ],
+    "kill": [
+      "主条目：命令/kill"
+    ],
+    "spreadplayers": [
+      "主条目：命令/spreadplayers"
+    ],
+    "手动激活上图的压力板后看到TNT方块被放置": [
+      "Java版："
+    ],
+    "/spreadplayers <x> <z> <分散间距> <最大范围> under <最大高度> <同队玩家是否传送到一起> <传送目标>": [
+      "基岩版："
+    ],
+    "区块加载器": [
+      "使用命令保持区块加载的方法有两种：",
+      "/spreadplayers则保持实体被传送的区块加载10秒左右。这个特性可用于世界范围的反作弊监控系统或是大型红石电路的加载。",
+      "/forceload[仅Java版]或/tickingarea[仅基岩版]可以设定常加载区块。",
+      "本例采用第一种方法：",
+      "在需要加载的区块召唤一个盔甲架：/summon armor_stand ~ ~ ~ {CustomName:'\"keep\"'}[仅Java版]或/summon armor_stand ~ ~ ~ \"\" keep[仅基岩版]",
+      "高频执行命令：/spreadplayers <x> <z> 0 1 false @e[name=keep][仅Java版]或/spreadplayers <x> <z> 0 1 @e[name=keep][仅基岩版]",
+      "当你离开此区块，区块仍会保持加载。"
+    ],
+    "summon": [
+      "主条目：命令/summon",
+      "本段落所述内容仅适用于Java版。"
+    ],
+    "浮空文字": [
+      "执行/summonminecraft:armor_stand ~ ~2 ~ {CustomName: '\"测试文字\"', CustomNameVisible: 1b, Invisible: 1b, Invulnerable: 1b, NoBasePlate: 1b, NoGravity: 1b}或/summonminecraft:text_display ~ ~2 ~ {billboard:\"center\",text:'\"测试文字\"'}即可。"
+    ],
+    "用雪球发射火球": [
+      "使用高频接入以下命令，飞行的雪球撞击火球使火球获得速度，同时雪球自身因为撞击碎裂。仅供参考，可能会生成多个火球。",
+      "/execute as @e[type=snowball,nbt={HasBeenShot:1b}] at @s on origin facing entity @s eyes as @e[sort=nearest,limit=1] run summon fireball ^ ^ ^-2",
+      "自定义生物属性：村民交易",
+      "1. 首先介绍相关NBT："
+    ],
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "AssignProfessionWhenSpawned：（为false时不存在）表示村民是否在生成时就已经赋予职业。",
+      "*FoodLevel：（默认为0）当前村民的食物等级。只有当食物等级与村民物品栏内食物点数之和大于12时村民才会有意愿繁殖。"
+    ],
+    "*": [
+      "*Inventory：村民存储的物品栏，此标签最多容纳8组物品。当读取时，如果列表数量超过8，则超出范围的物品尝试与范围内的物品合并，如果无法合并则被删除。",
+      "：物品栏中的一个物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "Gossips：村民存储的言论信息。",
+      "：一条言论。",
+      "*Target：引发言论的玩家的UUID。",
+      "*Type：言论的类型。可以是major_negative、​minor_negative、​major_positive、​minor_positive和​trading。",
+      "*Value：（值>0）此言论的强度。",
+      "*LastGossipDecay: （默认为0）此村民最后一次衰减言论值的时间。两次衰减时间不会小于24000游戏刻（20分）。",
+      "*LastRestock: （默认为0）此村民最后一次前往工作站点补货的时间。两次补货时间不会小于2400游戏刻（120秒）。",
+      "Offers：交易数据。在玩家第一次打开交易菜单时产生。",
+      "Recipes：交易列表。",
+      "：单个交易选项。",
+      "*buy：第一个收购物品。如果物品基础数量为n，则收购数量为n+max(0,⌊ndm⌋)+s，其中d为demand，m为priceMultiplier，s为specialPrice。",
+      "*id：物品的命名空间ID，不允许为空气（air）。",
+      "components：（默认为空）检查收购物品的额外信息。",
+      "<物品堆叠组件>：检查指定的物品堆叠组件。当物品与指定的物品堆叠组件限制相同时检查才能成功。",
+      "见物品堆叠组件。",
+      "count：（值>0，默认为1）收购物品的基础数量。",
+      "buyB：（默认为空）第二个收购物品。",
+      "*id：物品的命名空间ID，不允许为空气（air）。",
+      "components：（默认为空）检查收购物品的额外信息。",
+      "<物品堆叠组件>：检查指定的物品堆叠组件。当物品与指定的物品堆叠组件限制相同时检查才能成功。",
+      "见物品堆叠组件。",
+      "count：（值>0，默认为1）收购物品的基础数量。",
+      "demand：（默认为0）此项交易的需求，影响第一个收购物品的数量。当生物补货时更新此字段。如果原值为d，则更新之后的值d′=d+2u−m，其中u是uses，m是maxUses。",
+      "maxUses：（默认为4）表示在交易选项失效前能进行的最大交易次数。",
+      "priceMultiplier：（默认为0）表示影响收购数量的乘数。",
+      "rewardExp：（默认为true）表示交易是否会提供经验球。",
+      "*sell：出售的物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "specialPrice：（默认为0）调节第一个收购物品的数量。对于村民，此项受到村庄英雄和言论机制的共同降价影响。",
+      "uses：（默认为0）已经交易的次数。如果此值大于maxUses，此交易失效。",
+      "xp：（默认为1）生物从此交易选项中能获得的经验值。",
+      "*RestocksToday：（默认为0）村民今天补货的次数。村民每天最多补货两次。",
+      "*VillagerData：关于村民职业的信息。",
+      "level：（默认为1）村民当前交易选项等级，该值影响村民交易选项和徽章的纹理渲染。如果该值大于5，村民将无法升级也无法解锁新的交易。",
+      "*profession：村民的职业，是一个命名空间ID。如果不存在或无效则设置为minecraft:none。",
+      "*type：村民的种类，是一个命名空间ID。如果不存在或无效则设置为minecraft:plains。",
+      "*Xp：（默认为0）此村民当前的经验值。",
+      "2. 接下来举一个使用例子以说明：",
+      "直接复制可用的命令：",
+      "summonvillager~~~{VillagerData:{profession:\"librarian\",type:\"minecraft:swamp\"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:\"grass_block\",count:1},buyB:{id:\"stone\",count:1},sell:{id:\"minecraft:light_blue_wool\",count:1},xp:0},{maxUses:1,buy:{id:\"minecraft:glass\",count:1},sell:{id:\"minecraft:diamond_sword\",count:1,components:{enchantments:{\"minecraft:sharpness\":255}}},xp:0}]}, Xp:1}",
+      "单独列出SNBT内容，并增加缩进以方便看清：",
+      "{VillagerData:{profession:\"librarian\",type:\"minecraft:swamp\"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:\"grass_block\",count:1},buyB:{id:\"stone\",count:1},sell:{id:\"minecraft:light_blue_wool\",count:1},xp:0},{maxUses:1,buy:{id:\"minecraft:glass\",count:1},sell:{id:\"minecraft:diamond_sword\",count:1,components:{enchantments:{\"minecraft:sharpness\":255}}},xp:0}]},Xp:1}",
+      "3. 此条命令召唤一个村民：",
+      "第一种交易可以进行2147483647次，收购1个草方块与64个石头，出售1个淡蓝色羊毛。",
+      "第二种交易可以进行1次，收购1个玻璃，出售1把钻石剑，具有锋利255魔咒。具体可用参数请见数据值。",
+      "此处强制将村民的职业设为图书管理员，并使它拥有1点经验值，以防止其失业。将xp设为0是让村民无法获得更多经验值，从而不会解锁新的交易选项。",
+      "根据实际需求，你可以决定是否放置工作站点方块（本例中是讲台），以让村民补货。"
+    ],
+    "防御拉满的猪灵": [
+      "1. 首先介绍会用到的NBT："
+    ],
+    "生物实体数据": [
+      "equipment：生物装备的物品。玩家主手槽位的物品不在此处保存。",
+      "<装备槽位>：指定装备槽位上拥有的物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "active_effects：该生物的状态效果的列表。如果当前生物没有状态效果则不存在此标签。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "2. 展示效果：",
+      "在命令方块中设置以下命令并激活，你可以看到一个穿着全套附魔钻石盔甲，身边漂浮生命恢复粒子的僵尸猪灵。",
+      "summonzombified_piglin~~1~{equipment:{head:{id:diamond_helmet,count:1b,components:{enchantments:{protection:3},unbreakable:{}}},chest:{id:diamond_chestplate,count:1b,components:{enchantments:{protection:3},unbreakable:{}}},legs:{id:diamond_leggings,count:1b,components:{enchantments:{protection:3},unbreakable:{}}},feet:{id:diamond_boots,count:1b,components:{enchantments:{protection:3},unbreakable:{}}}},active_effects:[{id:regeneration,amplifier:1b,duration:-1}]}",
+      "3. 详细解析：",
+      "使用equipment分别设置head、​chest、​legs和​feet四个盔甲槽位：enchantments（魔咒）“保护 III” + unbrakeable（无法破坏）",
+      "使用active_effects设置了实体的状态效果：id:regeneration（生命恢复ID），amplifier:1b（倍率为1，也就是等级2），duration:-1（无限时长）"
+    ],
+    "tp": [
+      "主条目：命令/tp"
+    ],
+    "画面抖动": [
+      "单纯地高频tp自己可以达到画面抖动的效果：/execute as @p at @s run tp ~ ~0.15 ~。",
+      "在基岩版中，也可以使用/camerashake实现相似的效果。"
+    ],
+    "自动运输": [
+      "可以使用一种特定的方块（如白色羊毛），当实体踩在这种方块上时，将它们朝目标方向移动。",
+      "高频接入下面的命令，能使实体以20m/s的速度向东移动：",
+      "/execute as @e at @s if block ~ ~-1 ~ minecraft:white_wool run tp ~1 ~ ~"
+    ],
+    "弹开附近的实体": [
+      "将下面的命令放入循环型命令方块，可以实现弹开附近的实体：",
+      "/execute as @e[distance=..2] run tp ~ ~20 ~[仅Java版]",
+      "/execute as @e[r=2] run tp ~ ~20 ~[仅基岩版]"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Java版Indev 0.31 20100113-2244",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100113-2244",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月13日"
+    ],
+    "al_version": [
+      "1.04",
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100113-2015",
+      "0.31 20100114►",
+      "0.31的一个版本发布于2010年1月13日22:44（UTC），更改了水的流动机制。"
+    ],
+    "水": [
+      "现在如果无法在它所在的平面上流动，则会消失。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z（UTC-5）",
+      "Adura的IRC记录: \"(17:44:00) <Notch> finite water is updated in indev\"...\"(17:44:04) <Notch> works way, WAY better now\"",
+      "Adura的IRC记录: \"(16:47:14) <Notch> I solved a lot of the other problems\"...\"(16:47:38) <Notch> water that can't flow sideways because it's not able to drain will vanish over time\""
+    ]
+  }
+}

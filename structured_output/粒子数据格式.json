@@ -1,0 +1,169 @@
+{
+  "title": "粒子数据格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%B2%92%E5%AD%90%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "本页面主要介绍粒子的数据格式。粒子的格式在/particle等命令中时应遵循SNBT格式，在生物群系和魔咒等数据包文件时应遵循JSON格式。"
+    ],
+    "数据格式": [
+      "所有粒子均具有下列格式："
+    ],
+    "粒子选项": [
+      "*type：粒子类型，参见Java版粒子 § 类型。",
+      "其他标签与粒子类型而定，见下文。",
+      "游戏中的粒子可以简要地分为两类：带粒子选项的粒子类型和简单粒子类型。",
+      "*block_state：粒子要使用的方块状态。",
+      "若类型为字符串，则直接指定一个方块的命名空间ID，其方块属性均使用默认值。",
+      "若类型为对象，则表示一个完整的方块状态：",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "示例：",
+      "/particle block{block_state: \"minecraft:diamond_block\"}会创建一个钻石块的粒子。",
+      "/particle block{block_state: {Name: \"minecraft:grass_block\", Properties: {snowy: \"true\"}}}会创建一个覆雪草方块的粒子。",
+      "*color：粒子颜色，使用RGB颜色指定。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "*scale：（0.01≤值≤4.0）粒子的尺寸缩放倍率和寿命倍率。粒子的寿命为8到40游戏刻的随机数乘上此缩放值，最小不会低于1。",
+      "示例：",
+      "/particle dust{color: [0.0, 0.0, 1.0], scale: 1.0}会创建一个大小为1.0的蓝色粒子。",
+      "*from_color：粒子渐变起始时的颜色，使用RGB颜色指定。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "*to_color：粒子渐变结束时的颜色，使用RGB颜色指定。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "*scale：（0.01≤值≤4.0）粒子的尺寸缩放倍率和寿命倍率。粒子的寿命为8到40游戏刻的随机数乘上此缩放值，最小不会低于1。",
+      "示例：",
+      "/particle dust_color_transition{from_color: [0.0, 0.0, 1.0], scale: 1.0, to_color: [1.0, 0.0, 0.0]}会创建一个大小为1.0的蓝色粒子，然后该粒子在消散过程中会逐渐转变为红色。",
+      "*color：粒子的颜色，使用ARGB颜色指定。",
+      "ARGB颜色，见Template:Nbt inherit/argb color/source",
+      "示例：",
+      "/particle entity_effect{color: [1, 1, 1, 1]}会创建一个白色的完全不透明的粒子。以下两个示例效果相同，但使用数字来表示颜色。",
+      "/particle entity_effect{color: -1}",
+      "/particle entity_effect{color: 4294967295L}",
+      "*item：一个物品堆叠。",
+      "物品模板，见Template:Nbt inherit/item template/source",
+      "示例：",
+      "/particle item{item: \"minecraft:apple\"}和/particle item{item: {id: \"minecraft:apple\"}}会创建一个苹果物品的粒子。",
+      "power：（默认为1）粒子的速度。在初始随机数计算完毕后粒子的初始速度将乘上此值。",
+      "*roll：以弧度制表示的粒子的显示角度。",
+      "示例：",
+      "/particle sculk_charge{roll: 3.14}会在当前视角下产生一个近似于向下“冒泡”的粒子。",
+      "*delay：粒子出现的延迟时间，以游戏刻为单位。",
+      "示例：",
+      "/particle shriek{delay: 100}会在100游戏刻后显示shriek粒子。",
+      "color：（默认为0xFFFFFF）粒子的颜色，使用RGB颜色指定。",
+      "RGB颜色，见Template:Nbt inherit/rgb color/source",
+      "power：（默认为1）粒子的速度。在初始随机数计算完毕后粒子的初始速度将乘上此值。",
+      "*destination：目标位置。仅能使用block类型的位置源。",
+      "type：位置源类型。取值只能为block或entity。",
+      "如果type是block，则以某个方块作为位置源：",
+      "*pos：方块坐标。",
+      "如果type是entity，则以某个实体作为位置源：",
+      "*source_entity：UUID，将获取此UUID的实体坐标。",
+      "y_offset：（默认为0.0）相对于实体脚部坐标的Y轴偏移。",
+      "*arrival_in_ticks：移动持续时间，也是粒子的寿命。以游戏刻为单位。",
+      "示例：",
+      "/particle vibration{destination:{type: \"block\", pos:[5, 64, 0]}, arrival_in_ticks: 200}将会创建一个从当前的执行坐标移动到5.5 64.5 0.5，耗时200游戏刻的vibration粒子。",
+      "*color：粒子的颜色，使用ARGB颜色指定。",
+      "ARGB颜色，见Template:Nbt inherit/argb color/source",
+      "*duration：粒子从原点飞到目标位置所需的时间，单位为刻。",
+      "*target：粒子所指向的位置。",
+      "：X坐标。",
+      "：Y坐标。",
+      "：Z坐标。",
+      "示例：",
+      "/particle trail{target:[5, 64, 0], color: 428499001,duration:5}将会创建一个从当前的执行坐标移动到5.5 64.5 0.5的粒子。"
+    ],
+    "带粒子选项的粒子类型": [
+      "带粒子选项的粒子类型需要在其数据格式中指定粒子选项，否则游戏解析失败。目前所有带粒子选项的粒子类型如下："
+    ],
+    "方块粒子选项": [
+      "方块粒子选项（Block Particle Option）需要指定粒子使用的方块状态，不同的方块状态可能具有不同的方块纹理及方块粒子纹理。"
+    ],
+    "颜色粒子选项": [
+      "颜色粒子选项（Color Particle Option）为粒子提供带一个透明通道的ARGB颜色。与普通的RGB颜色相比，ARGB颜色多出一个A值以表示透明通道（即Alpha通道）。"
+    ],
+    "粉末颜色过渡选项": [
+      "粉末颜色过渡选项（Dust Color Transition Options）也是一种可缩放粒子选项。该类粒子的特殊之处在于可以产生颜色渐变，渐变由起始颜色向结束颜色变化。"
+    ],
+    "粉末粒子选项": [
+      "粉末粒子选项（Dust Particle Options）是一种可缩放粒子选项（Scalable Particle Options）。简而言之，不仅需指定粒子颜色，还需指定粒子大小。且其大小还影响粒子的寿命。"
+    ],
+    "物品粒子选项": [
+      "物品粒子选项（Item Particle Option）需指定粒子要显示的物品堆叠，不同的物品堆叠可能具有不同的物品纹理和物品粒子纹理。"
+    ],
+    "Power Particle Option": [
+      "Power Particle Option指定了粒子的速度。"
+    ],
+    "幽匿块充能粒子选项": [
+      "幽匿块充能粒子选项（Sculk Charge Particle Options）指定了幽匿块充能粒子在摄像机视角下的显示方向。"
+    ],
+    "尖啸粒子选项": [
+      "尖啸粒子选项（Shriek Particle Option）指定了尖啸粒子产生的延迟时间。"
+    ],
+    "药水粒子选项": [
+      "药水粒子选项（Spell Particle Option）指定了粒子的颜色和速度。"
+    ],
+    "振动粒子选项": [
+      "振动粒子选项（Vibration Particle Option）指定了振动粒子的目标位置。"
+    ],
+    "目标颜色粒子选项": [
+      "目标颜色粒子选项（Target Color Particle Option）指定了粒子颜色和一个目标位置，粒子将移动到该目标位置，同时形成一条粒子轨迹。"
+    ],
+    "简单粒子类型": [
+      "简单粒子类型（Simple Particle Type）是不带粒子选项的粒子类型，其数据格式仅需指定粒子类型。所有非上表列出的粒子类型都是简单粒子类型。"
+    ],
+    "通用结构": [
+      "粒子选项使用了一些通用的结构，主要表示粒子的颜色。"
+    ],
+    "RGB颜色": [
+      "表示一个RGB颜色。如果采用列表格式，但取值超出了范围，则粒子的颜色为未定义行为。",
+      "若为整型，则以十进制数字表示RGB颜色，每个通道占用8位。除最高8位外，从高到低依次为红色通道、绿色通道、蓝色通道。",
+      "即：Red<<16 + Green<<8 + Blue，最高8位对RGB颜色没有任何作用。",
+      "若为列表，则以3个浮点数表示RGB颜色，依次代表红色通道、绿色通道、蓝色通道。游戏在保存为整数时始终认为最高8位为255。",
+      "：颜色的R通道分量。取值为[0, 1]的闭区间。",
+      "：颜色的G通道分量。取值为[0, 1]的闭区间。",
+      "：颜色的B通道分量。取值为[0, 1]的闭区间。",
+      "正在加载互动小工具。如果加载失败，请您刷新本页面并检查JavaScript是否已启用。"
+    ],
+    "ARGB颜色": [
+      "表示一个ARGB颜色。如果采用列表格式，但取值超出了范围，则粒子的颜色为未定义行为。",
+      "若为整型，则以十进制数字表示ARGB颜色，每个通道占用8位。从高到低依次为透明通道、红色通道、绿色通道、蓝色通道。",
+      "即：Alpha<<24 + Red<<16 + Green<<8 + Blue。",
+      "若为列表，则以4个浮点数表示ARGB颜色，依次代表红色通道、绿色通道、蓝色通道、透明通道。",
+      "：颜色的R通道分量。取值为[0, 1]的闭区间。",
+      "：颜色的G通道分量。取值为[0, 1]的闭区间。",
+      "：颜色的B通道分量。取值为[0, 1]的闭区间。",
+      "：颜色的A通道分量。取值为[0, 1]的闭区间。"
+    ],
+    "Java版": [
+      "1.20.5",
+      "pre1",
+      "现在，SNBT格式的粒子选项被/particle命令使用。",
+      "item粒子有所修改：重命名其value字段为item，且允许使用简化的字符串形式以直接指定物品ID。",
+      "block粒子有所修改：重命名其value字段为 block_state，且允许使用简化的字符串形式以直接指定方块ID。",
+      "entity_effect粒子有所修改：重命名其value字段为color，且允许使用一个4浮点数列表来表示。",
+      "dust_color_transition粒子有所修改：重命名其fromColor 字段为from_color，重命名其toColor字段为to_color。",
+      "1.21.2",
+      "24w40a",
+      "加入了block_crumble和trail粒子。",
+      "pre1",
+      "粒子选项中的颜色字段现在更加标准，RGB字段现在总能编码为一个浮点向量（[R,G,B]）或是一个整数（RGB）；ARGB字段现在总能编码为一个浮点向量（[R,G,B,A]）或是一个整数（ARGB）。",
+      "minecraft:trail.color（之前只支持整数）",
+      "minecraft:dust.color（之前只支持浮点向量）",
+      "minecraft:dust_color_transition.from_color（之前只支持浮点向量）",
+      "minecraft:dust_color_transition.to_color（之前只支持浮点向量）",
+      "1.21.4",
+      "24w44a",
+      "向trail粒子加入必选字段duration。",
+      "1.21.5",
+      "25w04a",
+      "现在tinted_leaves粒子从无粒子选项改为使用带颜色粒子选项。",
+      "1.21.9",
+      "25w36a",
+      "现在dragon_breath、instant_effect和effect可以选择带粒子选项。",
+      "现在flash粒子从无粒子选项改为使用带颜色粒子选项。",
+      "26.1",
+      "snapshot-3",
+      "物品粒子选项现在接受物品数量。"
+    ]
+  }
+}

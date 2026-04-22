@@ -1,0 +1,13 @@
+{
+  "title": "光源方块/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%85%89%E6%BA%90%E6%96%B9%E5%9D%97%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1",
+      "0x2",
+      "0x4",
+      "0x8",
+      "一个值范围0-15的4位二进制数，储存该光源方块的亮度级别。"
+    ]
+  }
+}

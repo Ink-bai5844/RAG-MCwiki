@@ -1,0 +1,274 @@
+{
+  "title": "基岩版26.10.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.10.20",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "26.10.20"
+    ],
+    "服务端版本": [
+      "1.26.10.20"
+    ],
+    "内部版本号": [
+      "Android：1.26.10.20",
+      "Windows：1.26.1020.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952601020（armeabi-v7a，35）",
+      "962601020（x86，35）",
+      "972601020（arm64-v8a，35）",
+      "982601020（x86_64，35）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2026年1月27日"
+    ],
+    "测试版归属": [
+      "26.10"
+    ],
+    "协议版本": [
+      "929",
+      "◄◄26.3",
+      "26.11►►",
+      "26.10.21►",
+      "beta 26.10.20（ChromeOS/Android）、Preview 26.10.20（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.10的首个测试版，发布于2026年1月27日，为一些幼年生物加入了新的纹理、模型和音效，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "牛、哞菇、猪、狼、猫、豹猫、鸡和绵羊的幼年变种的新纹理和模型不再属于实验性玩法。",
+      "更新了幼年鸡的纹理，此前其缺失翅膀下方的纹理。",
+      "兔子的新模型、新纹理和新动画不再属于实验性玩法。",
+      "修复了minecraft://?addExternalServer和其他类似的URI可能在包含URL可编码字符时不起作用的问题。（MCPE-232900）"
+    ],
+    "实验性玩法": [
+      "加入了“实验性 Voxel 形状特征”子选项。",
+      "用于在原版和自定义方块上启用体素形状功能。",
+      "体素形状目前仅被用于遮挡/剔除。",
+      "目前只有单位立方体原版方块会关联体素形状。启用该功能后，带有体素形状的自定义方块只会对单位立方体原版方块或其他带有体素形状的自定义方块进行剔除。",
+      "移除了“2026 年第 1 次更新”子选项。"
+    ],
+    "物品": [
+      "现在使用附魔盾牌与不祥旗帜进行合成后会正确地将魔咒转移到合成后的不祥旗帜盾牌上。（MCPE-174103）"
+    ],
+    "命名牌": [
+      "其合成配方不再属于实验性玩法。"
+    ],
+    "生物": [
+      "更新了幼年驴和幼年骡的骨骼层次结构，以匹配幼年马和成年马的层次结构。",
+      "重命名了幼年驴和幼年骡的骨骼，以匹配幼年马。",
+      "兔子的新模型和新纹理现在是版本切分的。",
+      "纹理现在以rabbit_为前缀。",
+      "幼年北极熊不再会对玩家产生敌意。（MCPE-173833）",
+      "现在船、马、驴和骡的移动如群骑纷争小更新之前一样灵敏。（MCPE-231719）",
+      "划船动画不再会在向后划船时出现故障。",
+      "僵尸马在水中时不再会着火。（MCPE-229542）",
+      "为新的驯服的幼年森林狼加入了缺失的纹理。",
+      "恶魂不再会在发射火球时显示旧版纹理。（MCPE-218741）",
+      "修复了熊猫和山羊的等位基因语法不正确的问题。"
+    ],
+    "北极熊": [
+      "成年北极熊不再会攻击靠近幼年北极熊的玩家。",
+      "幼年北极熊不再会在某些情况下攻击玩家。"
+    ],
+    "幼年生物": [
+      "更新了以下幼年生物的纹理和模型："
+    ],
+    "美西螈": [
+      "加入了幼年变种独有的动画。"
+    ],
+    "驴": [
+      "更新了后腿的UV。"
+    ],
+    "骡": [
+      "更新了后腿的UV。"
+    ],
+    "海龟": [
+      "增大了碰撞箱，高度由0.032格更改为0.2格，宽度由0.096格更改为0.6格。"
+    ],
+    "游戏内容": [
+      "自定义物品上的物品冷却现在会正确显示。"
+    ],
+    "声音": [
+      "为马和鸡的幼年变种加入了独特的音效。",
+      "猪、猫和狼的幼年变种的独特音效不再属于实验性玩法。"
+    ],
+    "AI意向": [
+      "迁移了minecraft:behavior.ocelotattack（_错误命名是遗漏的且无法安全地更改）。",
+      "现在无法在1.26.0及更高版本中加载包含无效数据的实体JSON。",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.10及更高版本中将无法加载包含无效数据的实体JSON。此外还为这些意向统一并更新了文档。",
+      "minecraft:behavior.drop_item_for",
+      "minecraft:behavior.fertilize_farm_block",
+      "minecraft:behavior.harvest_farm_block",
+      "minecraft:behavior.inspect_bookshelf",
+      "minecraft:behavior.lay_egg",
+      "minecraft:behavior.drop_item_for中的浮点数范围字段time_of_day_range现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "minecraft:behavior.lay_egg中的lay_seconds字段现在仅接受大于或等于0的数字。"
+    ],
+    "API": [
+      "现在用于Molang查询的生成JSON元数据在游戏中可用。",
+      "发布了@minecraft/server版本2.6.0。",
+      "加入了@minecraft/server版本2.7.0-beta。",
+      "将Block.getComponents和​Block.hasComponent开放至2.6.0。",
+      "将EntityHealBeforeEvent由beta开放至2.6.0版本。",
+      "将EntityHealAfterEvent由beta开放至2.6.0版本。",
+      "将EntityHealCause由beta开放至2.6.0版本。",
+      "将EntityHealSource由beta开放至2.6.0版本。",
+      "将EntityHealEventOptions由beta开放至2.6.0版本。",
+      "将EntityHealBeforeEventSignal由beta开放至2.6.0版本。",
+      "将EntityHealAfterEventSignal由beta开放至2.6.0版本。",
+      "将WorldBeforeEvents.entityHeal由beta开放至2.6.0版本。",
+      "将WorldAfterEvents.entityHeal由beta开放至2.6.0版本。",
+      "将EntityHurtBeforeEvent由beta开放至2.6.0版本。",
+      "将EntityHurtBeforeEventOptions由beta开放至2.6.0版本。",
+      "将EntityHurtBeforeEventSignal由beta开放至2.6.0版本。",
+      "将WorldBeforeEvents.entityHurt由beta开放至2.6.0版本。",
+      "将EntityHurtAfterEventOptions由beta开放至2.6.0版本。",
+      "将EntityHurtAfterEventSignal改用为EntityHurtAfterEventOptions的更改由beta开放至2.6.0版本。",
+      "将EntityItemPickupAfterEvent由beta开放至2.6.0版本。",
+      "将EntityItemPickupBeforeEvent由beta开放至2.6.0版本。",
+      "将EntityItemPickupEventOptions由beta开放至2.6.0版本。",
+      "将ItemFilter由beta开放至2.6.0版本。",
+      "将EntityItemPickupAfterEventSignal由beta开放至2.6.0版本。",
+      "将EntityItemPickupBeforeEventSignal由beta开放至2.6.0版本。",
+      "将WorldAfterEvents.entityItemPickup由beta开放至2.6.0版本。",
+      "将WorldBeforeEvents.entityItemPickup由beta开放至2.6.0版本。",
+      "将world.getSeed移动至稳定版。",
+      "将query.get_level_seed_based_fraction从“即将推出的创作者功能”选项中移出。",
+      "为一些API加入了最小值、最大值或两者兼具的范围。",
+      "修复了EntityHurtBeforeEvent.cancel设置为true时不允许部分击退来源（疾跑增加的击退、魔咒、重锤猛击、弹射物）的问题。",
+      "API元数据现在会列出适用于接口、类方法和属性的任何范围、最小值或最大值。",
+      "将ItemType、​EntityType、​BlockType和​BlockPermutation上的localizationKey属性由测试版移动至稳定版。"
+    ],
+    "@minecraft/server-net": [
+      "为HTTP请求加入了一些额外的错误类型：",
+      "HttpRequestBodyTooLargeError：请求体超出已配置的限制。",
+      "HttpRequestLimitExceededError：并发请求限制已达到。",
+      "HttpRequestNotAllowedError：请求选中一个不在允许名单中的URI。",
+      "HttpsOnlyError：要求HTTPS却提供了非HTTP URI。"
+    ],
+    "方块": [
+      "使用minecraft:placement_direction的minecraft:corner_and_cardinal_direction值的方块现在会在旁边有其他楼梯时形成内角。（MCPE-232019）",
+      "修复了使用JSON的format_version大于等于1.26.0的minecraft:geometry.full_block的物品展示框中的方块的旋转问题。（MCPE-234715）",
+      "为minecraft:geometry组件加入了culling_shape字段，属于体素形状功能。",
+      "此值是体素形状的标识符，可以引用自定义体素形状文件、minecraft:unit_cube或minecraft:empty。",
+      "若已启用体素形状实验性内容但未指定形状，则会在方块没有使用minecraft:geometry.full_block的情况下默认使用minecraft:empty。",
+      "方块现在可以通过onEntity处理程序来处理脚本中的下列事件：",
+      "自定义命名事件：",
+      "来自minecraft:behavior.go_home的on_home",
+      "来自minecraft:behavior.avoid_block的on_escape",
+      "来自minecraft:behavior.move_to_block的on_reach",
+      "来自minecraft:behavior.place_block的on_place",
+      "来自minecraft:behavior.take_block的on_take",
+      "与目前处理这些事件的原版方块不同，自定义方块可以在发出事件后最多一刻内接收这些事件，具体取决于事件发出时最晚的刻数。"
+    ],
+    "命令": [
+      "修复了/reload all命令不会重载开发文件夹之外的包的问题。（MCPE-234722）"
+    ],
+    "组件": [
+      "将minecraft:buoyant组件的simulate_waves新的movement_type字段。",
+      "movement_type接受以下三个值：",
+      "waves（默认值）：使实体根据其速度上下移动。",
+      "bobbing：使实体以恒定速度上下移动。",
+      "none：不作任何处理。",
+      "big_wave_probability和​big_wave_speed字段只能在movement_type设置为waves时使用。",
+      "为minecraft:buoyant组件加入了can_auto_step_from_liquid字段。",
+      "定义实体是否可以在被推离液体方块时从液体方块移动到邻近的固定方块上。"
+    ],
+    "专用服务器": [
+      "为专用服务器上的@minecraft/server-net脚本模块加入了HTTP配置能力。服务器管理员可以通过permissions.json文件配置HTTP限制和约束。所有可配置选项都是可选的。若未指定，则不会执行特定设置的限制。示例配置.\\config\\<模块ID>\\permissions.json：",
+      "{\"allowed_modules\":[...\"@minecraft/server-net\"],\"module_permissions\":{\"@minecraft/server-net\":{\"allowed_uris\":[\"https://example.com/\",],\"force_https\":true,\"max_body_bytes\":1048576,\"max_concurrent_requests\":1,\"session_headers\":{\"session-data\":\"abc123\"}}}}"
+    ],
+    "基岩版编辑器": [
+      "为IListPanePropertyItemAPI加入了变种和布局部分支持。",
+      "加入了IStringPropertyItemAPI，若multilineHeight已定义，则支持多行字符串。",
+      "加入了hasClearButtonAPI属性，用于修改清除按钮的可见性。",
+      "加入了一项在导出上保留之前在该世界游玩过的任何玩家的玩家数据的功能。",
+      "在创作者选项中加入了一个用于启用或禁用编辑器度量收集的选项。这些度量可以在VSCode的实时诊断视图中查看。",
+      "为基岩版专用服务器加入了一个选项，用于在运行编辑器服务器时启用或禁用度量收集。",
+      "更新了选择工具，现在快速操作（填充、删除）或修剪操作（修剪选区、移除空气、挖空）由于没有选区而无法执行时或者没有引发变化时会显示弹窗通知。",
+      "更新了拼图工具，以在编辑器关闭或工具更改时保存注册表。",
+      "将ListPaneSlotLayoutAPI类型更新为ListPaneSlotConfiguration，并将IListPanePropertyItemOptions属性layout重命名为slotConfig。",
+      "修复了玩家无法在线条工具中使用↵ Enter键选择任意体积的漏洞。",
+      "修复了“以剪贴板的内容新建”按钮在粘贴预览工具之外处于非激活状态的漏洞。",
+      "修复了教程亮度调节器相对于视口渲染不对齐的漏洞。",
+      "修复了洪水工具不会在超出方块更改限制时关闭模态对话框的漏洞。",
+      "修复了洪水工具键位绑定的漏洞。",
+      "修复了在十字准星和工具模式之间切换会导致世界几何体重新创建的问题。",
+      "通过阻止额外的延迟渲染调用，提升了灵动视效模式下的编辑器的性能。"
+    ],
+    "地物": [
+      "修复了地物加载问题，以允许子目录和任何文件名，现在仅在JSON中使用标识符。"
+    ],
+    "图形": [
+      "彩色方块光照功能不再仅限于为创作者提供的RenderDragon功能实验性内容。",
+      "要启用此功能，PBR资源包必须包含带有static_light项的local_lighting.json。没有通过提供的资源包指定static_light和​light_color的方块会被视为非彩色光源，并且使用标准统一的光源颜色。",
+      "流动的熔岩和其他方块上的静态彩色光照不再会在开启灵动视效的情况下显得过暗。",
+      "为灵动视效下的数据驱动实体加入了static_light着色。",
+      "为灵动视效下的更多实体和物品加入了static_light着色。",
+      "静态彩色光照不再会在开启灵动视效的情况下透过角落泄露。",
+      "将静态彩色方块光照的光衰减调整至较低强度。",
+      "修复了在PlayStation平台上的某些照明条件下，酿造台和切石机上会出现深度冲突的问题。",
+      "禁用环境光遮蔽的自定义方块不再偶尔会有黑色顶点问题。",
+      "改进了使用自定义几何结构的方块的环境光遮蔽。",
+      "现在在物品栏之间快速移动的物品也会渲染其背面。（MCPE-229843）",
+      "修复了望远镜的全屏效果会在开启灵动视效的情况下使场景变亮的问题。",
+      "修复了末地传送门会在开启灵动视效的情况下拥有不可见的嵌板的问题。",
+      "移除了ESSL_300着色器语言支持。"
+    ],
+    "移动": [
+      "修复了切换控制权限时玩家位置会不同步的问题。（MCPE-232109）"
+    ],
+    "音乐": [
+      "修复了离开多人游戏世界时，菜单中播放的唱片机音乐等音效会长时间播放的问题。"
+    ],
+    "用户界面": [
+      "修复了难以使用控制器来选择市场屏幕顶部按钮的漏洞。",
+      "修复了上下文发生变化时，屏幕旁白会逐字读出之前输入的聊天消息的问题。",
+      "加入了启用文本转语音时对死亡屏幕的按钮列举复述。",
+      "现在文本输入框支持行之间的箭头键导航和键盘快捷键（如Android平台上的Ctrl + V）。",
+      "现在Ore UI中的文本输入框支持Android平台上的鼠标插入符定位和选择。",
+      "改进了聊天自动滚动行为，以允许在高频聊天期间查看旧消息。",
+      "现在玩家可以在“终为白日”选项启用时使用聊天/命令窗口中的“时间”按钮来修改时间。（MCPE-226307）",
+      "加入了新的注册表项，以使测试版本和零售版本游戏不会共享彼此之前的窗口大小和位置。（MCPE-233168）",
+      "修复了睡觉和死亡屏幕没有淡入动画的问题。（MCPE-235024）"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“实验性 Voxel 形状特征”子选项后才可使用。"
+    ],
+    "修复": [
+      "2026年第1次更新",
+      "为新的幼年生物应用了版本控制。（MCPE-234734、MCPE-234744、MCPE-234784、MCPE-234785）",
+      "这修复了一些与影响幼年生物的资源包相关的问题。",
+      "更新了驯服的幼年狼的MERS。"
+    ],
+    "成就": [
+      "修复了无法获得与物品相关的部分成就的问题。"
+    ],
+    "输入": [
+      "修复了启用Windows设置中的“当按CTRL键时显示指针的位置”选项时，Windows平台上的鼠标高亮会出现在游戏中的问题。（MCPE-168787）",
+      "修复了Windows平台上无法识别系统的ClickLock鼠标设置的问题。（MCPE-231488）"
+    ],
+    "角色创建器": [
+      "启动客户端时，所选的外观不再会重置为第三方外观。"
+    ],
+    "Realms": [
+      "为进入拥有者已被封禁的Realm时的错误加入了消息和逻辑。"
+    ],
+    "存档": [
+      "现在退出登录后会确保世界保存到新的目录Users\\Shared中。"
+    ],
+    "音效": [
+      "幼年狼现在会正确播放幼年变种音效。"
+    ],
+    "性能与稳定性": [
+      "修复了重进世界时市场缓存会被清除，并且有可能在部分平台上导致性能下降的问题。"
+    ],
+    "Switch": [
+      "减少了进入世界时的音频延迟。（MCPE-177148）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 26.10.20 — Minecraft Feedback，2026年1月27日。"
+    ]
+  }
+}

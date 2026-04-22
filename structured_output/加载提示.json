@@ -1,0 +1,941 @@
+{
+  "title": "加载提示",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8A%A0%E8%BD%BD%E6%8F%90%E7%A4%BA",
+  "structured_content": {
+    "默认分类": [
+      "关于1.20.50前的加载提示，请见“加载提示/1.20.50前”。",
+      "本条目所述内容仅适用于基岩版、​原主机版和​教育版。",
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。"
+    ],
+    "一个创建和加载世界时的提示": [
+      "加载提示（Loading Tips）是基岩版和原主机版在创建和加载世界时显示的一段提示语。"
+    ],
+    "基岩版": [
+      "本章节使用了游戏内原文。",
+      "非标准译名使用洋红色字体标出。错误翻译使用橙色字体标出。",
+      "为保证文本一致性，请勿擅自更改。",
+      "1.2.0",
+      "1.2.0.2",
+      "为加载菜单添加了加载提示。",
+      "1.9.0",
+      "1.9.0.0",
+      "加入了一些社区建议的加载提示。",
+      "1.14.0",
+      "1.14.0.2",
+      "加入了一些仅出现于测试版中的加载提示。",
+      "1.16.0",
+      "1.16.0.57",
+      "加入了一些与嗡嗡蜂群和下界更新相关的加载提示。",
+      "1.16.100",
+      "1.16.100.54",
+      "移除了与mixer.com/minecraft有关的加载提示。",
+      "1.16.210",
+      "1.16.210.51",
+      "更改了一些过时的加载提示。",
+      "1.16.210.56",
+      "加入了与移动设备上的可下载音乐有关的加载提示。",
+      "1.18.10",
+      "1.18.10.20",
+      "加入了与访问反馈网站有关的加载提示。",
+      "再次更改了一些过时的加载提示。",
+      "1.19.0",
+      "1.19.0.20",
+      "加入了一些荒野更新相关的加载提示。",
+      "1.20.0",
+      "1.20.0.20",
+      "加入了一些足迹与故事相关的加载提示。",
+      "1.20.50",
+      "1.20.50.22",
+      "现在根据玩家的游戏进度将加载提示拆分为3种类别，并加入、更改与移除了部分加载提示。",
+      "1.20.60",
+      "1.20.60.21",
+      "更改了一些加载提示。",
+      "1.21.70",
+      "1.21.70.22",
+      "加入了一些仅在创造模式下显示的加载提示。"
+    ],
+    "游戏提示": [
+      "根据玩家的游戏进度分为3种类别。"
+    ],
+    "备注": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "Connect other controllers to your \"Playstation3\" console, and then press the start key on these controllers to join the game at any time.",
+      "将其他控制器连接至你的“PlayStation3”主机，然后按下这些控制器上的 START 键就能随时加入游戏。",
+      "仅PS3",
+      "2"
+    ],
+    "Most monsters only come out at night. During the day you're safe... probably.": [
+      "大多数的怪物都是昼伏夜出。白天你是安全的…大概吧。",
+      "2"
+    ],
+    "打破方块，拾取资源。使用网格合成表来制作有用的物品。尽情合成吧！": [
+      "网格合成表：合成方格",
+      "3"
+    ],
+    "虽然你可以无限次复活，但在死亡的时候你的物品会掉到地上。快回去把物品捡回来吧！": [
+      "4"
+    ],
+    "It's a good idea to build a place where you can safely spend the night.": [
+      "最好搭建一处可以安全度过夜晚的地方。",
+      "5"
+    ],
+    "Use the right tool for the job! Chopping wood with an axe is much faster than using your hands.": [
+      "使用合适的工具来劳作吧！用斧头伐木的速度要比用手快多了。",
+      "斧头：斧",
+      "6"
+    ],
+    "Even in Minecraft you'll get hungry, so try to find something to eat before that happens.": [
+      "即使是在 Minecraft 中，你也是会感到饥饿的，所以请努力在饿肚子之前找到食物。",
+      "7"
+    ],
+    "Digging straight down or straight up might not be a great idea.": [
+      "不建议垂直往下方或上方挖掘。",
+      "8"
+    ],
+    "Monsters spawn in the dark. Craft a torch to brighten up any space.": [
+      "黑暗中会生成怪物。合成火把来照亮四周吧。",
+      "9"
+    ],
+    "Beds are great! Craft one to quickly pass the night and set your respawn point.": [
+      "床是个好东西！制作一张床，然后睡上一觉，不仅可以快速度过夜晚，还可以设置重生点。",
+      "10"
+    ],
+    "Be careful when you swim. Stay under water for too long and you'll run out of air.": [
+      "游泳时要多加小心。在水下停留太久会耗尽氧气。",
+      "11",
+      "Survival mode has 4 different difficulty levels - Peaceful, Easy, Normal, and Hard. Or play Creative mode and get endless resources!",
+      "生存模式有 4 个不同的难度级别：和平、简单、一般和困难。也可以玩创造模式，有无限的资源可供使用！",
+      "一般：普通",
+      "12"
+    ],
+    "Minecraft 的世界中藏有数不清的惊喜。你可以发现各种不同的动物、植物，甚至还有§f§k§a§b§r §f§k§a§b§r": [
+      "最后一句使用了格式化代码，其中§k会使后面的字符变为随机字符。"
+    ],
+    "铁傀儡将为你而战！": [
+      "2"
+    ],
+    "Feed a bone to a wolf to tame it. You can then make it sit or follow you.": [
+      "给狼喂骨头可以将其驯服。然后，你可以命令它坐下或跟随你。",
+      "3"
+    ],
+    "Wearing a pumpkin on your head will keep Endermen from attacking you.": [
+      "把南瓜戴在头上就不会受到末影人的攻击。",
+      "4"
+    ],
+    "Harvest leather from cows, and use it to make armor and books.": [
+      "牛身上可以收获皮革，皮革可以用来制作盔甲与书。",
+      "5"
+    ],
+    "You can fill an empty bucket with water, lava, milk, powdered snow... and even some mobs.": [
+      "空桶里可以装水、熔岩、牛奶、粉雪…甚至还能装某些生物。",
+      "空桶：铁桶",
+      "牛奶：奶",
+      "粉雪：细雪",
+      "6"
+    ],
+    "Feeding an animal will keep it from despawning. Build a pen to keep your animals safe.": [
+      "喂养动物可以防止其消失。建造围栏来保护你的动物吧。",
+      "7"
+    ],
+    "乘坐铁轨上的矿车，更快到达目的地！": [
+      "8"
+    ],
+    "Building a portal will allow you to travel to another dimension called the Nether.": [
+      "制作传送门，通过传送门穿越到下界。",
+      "9"
+    ],
+    "用骷髅架制作的骨粉可以用作肥料，让作物瞬间生长！": [
+      "“骷髅架”指从骷髅处获得的骨头。",
+      "10"
+    ],
+    "Obsidian is created when water hits a lava source block.": [
+      "水与熔岩源方块用碰撞时将产生黑曜石。",
+      "“碰撞”应译作“接触”。",
+      "11"
+    ],
+    "If the source block for water or lava is removed, it will stop the flow completely.": [
+      "移除水或熔岩的源方块后，水或熔岩将彻底停止流动。",
+      "12"
+    ],
+    "Blocks that can be used as a light source will melt snow and ice.": [
+      "可用作光源的方块会使雪与冰融化。",
+      "13"
+    ],
+    "Take caution when building structures made of wool out in the open, as lightning from thunderstorms can set wool on fire.": [
+      "在户外用羊毛打造建筑时要格外小心，雷暴产生的闪电可以引燃羊毛。",
+      "14",
+      "A single bucket of lava can be used in a furnace to smelt 100 blocks.",
+      "一桶熔岩可供熔炉熔化 100 个方块。",
+      "熔化：熔炼",
+      "15"
+    ],
+    "The instrument played by a note block depends on the material beneath it.": [
+      "音符盒奏出的乐器取决于其下方放置的材料。",
+      "16"
+    ],
+    "Attacking a wolf will cause any wolves nearby to turn hostile and attack you.": [
+      "攻击狼会导致附近的所有狼变为敌对状态并向你发起攻击。",
+      "该提示于1.20.60.21被修改。",
+      "17"
+    ],
+    "Wolves and iron golems won't attack creepers.": [
+      "狼和铁傀儡不会攻击苦力怕。",
+      "18",
+      "Chickens lay an egg every 5 to 10 minutes.",
+      "鸡每隔 5 到 10 分钟就会下一个蛋。",
+      "19"
+    ],
+    "Obsidian can be mined with a diamond pickaxe.": [
+      "黑曜石可以用钻石镐开采。",
+      "该提示于1.20.60.21被修改。",
+      "20"
+    ],
+    "Creepers are the easiest obtainable source of gunpowder.": [
+      "苦力怕是最容易获取的火药来源。",
+      "21"
+    ],
+    "Tame wolves show their health with the position of their tail. Feed them meat to heal them.": [
+      "驯服狼时会在它们的尾部显示其生命值。喂它们吃肉可以对其进行治疗。",
+      "指尾巴翘起的高度，生命值越满抬得越高。",
+      "22"
+    ],
+    "不同的材料可以制成不同颜色的染料，将仙人掌放进熔炉中炙烤可获得绿色染料！": [
+      "23"
+    ],
+    "Pigs that are struck by lightning become zombified piglins.": [
+      "被闪电击中的猪会变成僵尸猪灵。",
+      "24"
+    ],
+    "末影人讨厌洗澡！": [
+      "25"
+    ],
+    "铁傀儡有时候会把鲜花送给小村民！": [
+      "26"
+    ],
+    "豹猫会让苦力怕知道谁才是老大！": [
+      "27"
+    ],
+    "Use seagrass to attract and breed sea turtles.": [
+      "用海草来吸引和喂养海龟。",
+      "“喂养”应译为“繁殖”。",
+      "28"
+    ],
+    "保护小海龟免受有敌意生物的伤害！": [
+      "29"
+    ],
+    "Baby turtles will drop scutes when they grow - these can be crafted into turtle shells.": [
+      "小海龟在生长时会掉落鳞甲 - 这些鳞甲可以用来合成海龟壳。",
+      "30"
+    ],
+    "为水下探险酿造一些水下呼吸药水！": [
+      "水下呼吸药水：水肺药水",
+      "31"
+    ],
+    "海豚可以将你领向沉船和水下废墟，喂它们鳕鱼并跟随它们的踪迹！": [
+      "32"
+    ],
+    "Use shears to carve a pumpkin.": [
+      "用剪刀来雕刻南瓜。",
+      "33",
+      "There are 3587 types of tropical fish!",
+      "有 3587 种热带鱼！",
+      "34"
+    ],
+    "Sea pickles can be smelted into lime green dye.": [
+      "海泡菜可被熔炼成浅黄绿色染料。",
+      "浅黄绿色染料：黄绿色染料",
+      "35"
+    ],
+    "喂干草捆给羊驼吃！": [
+      "36"
+    ],
+    "指南针永远会指向世界生成点，合成一个指南针来为你指路吧！": [
+      "世界生成点：世界出生点",
+      "37"
+    ],
+    "与村民交易可获得食物、工具，甚至获得探险者地图！": [
+      "探险者地图：探险家地图",
+      "38"
+    ],
+    "你知道你可以随手拿着地图吗？": [
+      "“随手”应译为“使用副手”。",
+      "39"
+    ],
+    "Leads can be used on boats.": [
+      "可以在船上使用引线。",
+      "应译作“拴绳可以系在船上”。",
+      "40"
+    ],
+    "Sneak to walk safely on magma blocks.": [
+      "潜行可以在岩浆块上安全地行走。",
+      "41"
+    ],
+    "You can gather cobwebs using shears.": [
+      "你可以用剪刀收集蜘蛛网。",
+      "42"
+    ],
+    "Tridents are dropped by the Drowned, and can be held or thrown.": [
+      "三叉戟由溺尸掉落，可以被握住或投掷。",
+      "43",
+      "You can smelt 20 items in a furnace by using a block of dried kelp as fuel.",
+      "您可以用一个干海带块作为燃料，在熔炉里冶炼 20 个物品。",
+      "44"
+    ],
+    "Taming a skeleton horse doesn't require a saddle.": [
+      "驯服骷髅马时无需马鞍。",
+      "马鞍：鞍",
+      "45"
+    ],
+    "幻翼是会在夜间出现的危险生物。您得确保自己有规律的睡眠！": [
+      "46"
+    ],
+    "Zombies turn into drowned if they sink underwater.": [
+      "僵尸沉入水下后会变成溺尸。",
+      "47"
+    ],
+    "应译作“在水中疾跑以游泳！”": [
+      "48"
+    ],
+    "对动物友善点！": [
+      "49"
+    ],
+    "别杀海豚，你这个怪物！": [
+      "50"
+    ],
+    "When digging straight up, place a torch at your feet to break any sand or gravel that could potentially fall down on you.": [
+      "当你直接向上挖的时候，在你的脚边放一个火把，打破任何可能掉到你身上的沙子或砂砾。",
+      "应译作“当你垂直向上挖掘时，在你的脚边放一个火把即可破坏任何可能会掉在你身上的沙子或沙砾”。",
+      "51"
+    ],
+    "修剪蜂箱或蜂巢以获得蜜脾，并使用瓶子获取蜂蜜": [
+      "缺少句号。",
+      "52"
+    ],
+    "Place a campfire under a beehive or nest to harvest honey.": [
+      "将营火放置在蜂窝或蜂巢下可收获蜂蜜。",
+      "蜂窝：蜂箱",
+      "53"
+    ],
+    "Emerald ores are the rarest ores in Minecraft! They can only be found in mountains and meadows.": [
+      "绿宝石矿石是 Minecraft 中最稀有的矿石！它们只会出现在山脉和草地中。",
+      "山脉：山地",
+      "草地：草甸",
+      "54"
+    ],
+    "Need diamonds? They get more common as you go deeper.": [
+      "需要钻石？越往深处走，这东西就变得越常见。",
+      "55"
+    ],
+    "Frogs eat small and blocky mobs.": [
+      "青蛙吃小型方块状的生物。",
+      "56"
+    ],
+    "The Allay loves to collect items! If you give it a certain item it will try to collect more of it.": [
+      "悦灵喜欢收集物品！如果给它一个特定的物品，它会试图收集更多的物品。",
+      "57"
+    ],
+    "Frogs pick a variant based on the temperature of the biome the tadpole grow up in.": [
+      "青蛙根据蝌蚪生长的生物群系的温度选择一种变体。",
+      "“变体”应译为“变种”。",
+      "58"
+    ],
+    "You can collect tadpoles in buckets.": [
+      "您可以在桶中收集蝌蚪。",
+      "桶：铁桶",
+      "59"
+    ],
+    "Ancient cities can be found under mountain ranges.": [
+      "古城可以在山脉之下找到。",
+      "古城：远古城市",
+      "60"
+    ],
+    "悦灵热爱音乐，因此会与音符盒互动！": [
+      "61"
+    ],
+    "在泥土方块上使用水瓶来获得泥浆！": [
+      "泥浆：泥巴",
+      "62"
+    ],
+    "When wandering in Deep Dark, silence is key.": [
+      "在漆黑中徘徊时，沉默是关键。",
+      "漆黑：深暗之域",
+      "“沉默”应译为“保持安静”。",
+      "63"
+    ],
+    "Some animals will follow you if you have wheat in your hand.": [
+      "拿着小麦，有些动物就会跟着你。",
+      "64"
+    ],
+    "Before you mine diamonds, redstone, or gold, make sure you're using an iron or diamond pickaxe or it won't work.": [
+      "一定要用铁镐或钻石镐开采钻石、红石、黄金，否则只会徒劳无功。",
+      "黄金：金",
+      "65"
+    ],
+    "Placing two chests side by side will make one large chest.": [
+      "两个宝箱并排放在一起，即可获得一个大宝箱。",
+      "宝箱：箱子",
+      "大宝箱：大型箱子",
+      "66"
+    ],
+    "Can't find any coal for your torches? Try putting some logs in a furnace.": [
+      "找不到火把要用的煤炭？试试把原木放进熔炉里。",
+      "67"
+    ],
+    "Infinite wonders, endless possibilities.": [
+      "无限的奇迹，无尽的可能。",
+      "68"
+    ],
+    "Plant some saplings and they'll grow into trees.": [
+      "种些树苗，待它们长成树木。",
+      "69"
+    ],
+    "Use a hoe to prepare areas of ground for planting.": [
+      "用锄头整地，为耕种做好准备。",
+      "锄头：锄"
+    ],
+    "Zombified piglins won't attack you - unless you make them angry.": [
+      "僵尸猪灵不会攻击你，除非你激怒了它们。",
+      "该提示于1.20.60.21被修改。",
+      "2"
+    ],
+    "将那些火球打回恶魂那里！": [
+      "3"
+    ],
+    "Cobblestone is resistant to Ghast fireballs, making it useful for guarding portals.": [
+      "圆石可以抵御恶魂发射的火球，可用于守卫传送门。",
+      "4",
+      "Our music is by C418, Lena Raine, and Kumi Tanioka.",
+      "我们的音乐是由 C418、Lena Raine 和 Kumi Tanioka 出品。",
+      "5"
+    ],
+    "最终会对此游戏进行更新！": [
+      "6"
+    ],
+    "Creepers were born from a coding bug.": [
+      "苦力怕诞生于编程失误。",
+      "7",
+      "The first version of Minecraft was created in just 6 days!",
+      "Minecraft 的第一个版本只花了 6 天时间就搭建好了！",
+      "8"
+    ],
+    "The Enderman language is actually English in reverse.": [
+      "末影人的语言实际上就是反着说的英语。",
+      "9"
+    ],
+    "The original name for Minecraft was Cave Game.": [
+      "Minecraft 的原名为 Cave Game。",
+      "10"
+    ],
+    "蜘蛛骑手非常罕见，是一种骷髅骑着蜘蛛的生物！": [
+      "蜘蛛骑手：蜘蛛骑士",
+      "11"
+    ],
+    "Traveling one block in the Nether is equal to traveling eight blocks in the Overworld.": [
+      "在下界中行进一个方块相当于在主世界中行进八个方块。",
+      "12"
+    ],
+    "Use phantom membranes to repair your elytra.": [
+      "使用幻翼膜来修理您的鞘翅。",
+      "13"
+    ],
+    "鞘翅可以用来滑翔，它们会出现在末地城的船中！": [
+      "14"
+    ],
+    "打开设置菜单中的实验性游戏内容，即可测试一些新功能！": [
+      "15"
+    ],
+    "Monsters that are killed by skeletons arrows have a chance of dropping music discs.": [
+      "被骷髅箭消灭的怪物有机会掉落音乐唱片。",
+      "“消灭”是指杀死。",
+      "16"
+    ],
+    "材质包会改变课程中方块、物品甚至菜单的外观。试试吧！": [
+      "基岩版仍在使用纹理包的旧译。",
+      "“课程”可能是教育版的翻译方式。",
+      "17"
+    ],
+    "使用焰火火箭会提高鞘翅在半空中的速度。只要…确保它们别爆炸就好，否则会让你疼得够呛！": [
+      "焰火火箭：烟花火箭",
+      "18"
+    ],
+    "真得有人会看这些吗？": [
+      "应译为“真的有人会看这些吗？”。",
+      "19"
+    ],
+    "Riptide enchantment will propel you through the air in the rain.": [
+      "激流强力将在雨中推动您穿过空气。",
+      "“强力”应译为“附魔”。",
+      "20"
+    ],
+    "信标是一种强力物品，只能用一颗产自凋灵的下界之星来合成！": [
+      "21"
+    ],
+    "Nether stars can't be destroyed by explosions.": [
+      "下界之星不会被爆炸摧毁。",
+      "22"
+    ],
+    "You can barter with Piglins.": [
+      "你可以与猪灵交换物品。",
+      "交换物品：以物易物",
+      "23"
+    ],
+    "Respawning in the Nether requires a charged respawn anchor.": [
+      "在下界重生需要充能的重生锚。",
+      "24"
+    ],
+    "You can charge a respawn anchor with glowstone.": [
+      "你可以使用荧石为重生锚充能。",
+      "25"
+    ],
+    "You can breed hoglins with crimson fungus, but be careful.": [
+      "你可以用绯红真菌来饲养疣猪兽，但千万要小心。",
+      "绯红真菌：绯红菌",
+      "饲养：繁殖",
+      "26"
+    ],
+    "Gold is most common in the Nether and in the badlands biome.": [
+      "黄金是下界和荒地生物群系里最常见的资源。",
+      "黄金：金",
+      "荒地：恶地",
+      "27"
+    ],
+    "Diorite, you either love it or hate it.": [
+      "闪长岩是一种会让您对它非爱即恨的东西。"
+    ],
+    "创造模式": [
+      "当玩家的默认游戏模式为创造模式（与玩家实际进入游戏后的游戏模式无关）时，以下的提示会代替常规加载提示出现在加载过程中。"
+    ],
+    "厌倦了受重力影响？那就跳跃两次开始飞行吧！": [
+      "2"
+    ],
+    "Summon mobs in an instant with spawn eggs.": [
+      "用生成蛋立刻生成生物。",
+      "生成蛋：刷怪蛋",
+      "3"
+    ],
+    "Collect goat horns and fill the world with music.": [
+      "收集山羊角，让世界充满音乐。",
+      "4"
+    ],
+    "Combine flint and steel with a TNT block for explosive results.": [
+      "将燧石与 TNT 方块相结合，产生爆炸效果。",
+      "“燧石”应译为“打火石”。",
+      "5"
+    ],
+    "试试用末影珍珠在地图上闪现移动。可别头晕了！": [
+      "“闪现移动”应译作“瞬间移动”。",
+      "6"
+    ],
+    "使用铁轨与矿车来打造完美的运输系统。造过山车也不在话下！": [
+      "7"
+    ],
+    "Seeking a little more danger? Survival mode has plenty.": [
+      "想多体验危险的感觉？那就玩生存模式吧，危机感绝对管够。",
+      "8"
+    ],
+    "Crossbows need ammo. Add some arrows to your inventory before going hunting.": [
+      "弩需要箭矢才能使用。在出发狩猎前先往物品栏里多放几支箭吧。",
+      "9"
+    ],
+    "You can't die, but villagers can. Use that information... wisely.": [
+      "你不能死，但村民可以。利用好这条信息吧…谨慎一点。",
+      "“不能”、“可以”应译作“不会”、“会”。",
+      "10"
+    ],
+    "村民们很擅长建造村庄。你觉得自己能胜过他们吗？": [
+      "11"
+    ],
+    "Wolves will attack skeletons to chew on their tasty bones.": [
+      "狼会攻击骷髅，啃食它们美味的骨头。",
+      "12",
+      "Tame wild horses by sitting on them until they're calm, then saddle up and ride off. (Note: Horses do not work like that outside of Minecraft.)",
+      "想要驯服野马，就得坐到它们身上撑到它们冷静下来为止，然后就可以装上马鞍把马骑走了。（注意：在现实生活中和在 Minecraft 世界可不一样。）",
+      "马鞍：鞍",
+      "13"
+    ],
+    "Eat as much as you want, you'll never get full! And you'll never starve.": [
+      "尽情享用食物吧，你怎么吃都不会饱的！而且也不会饿死。",
+      "14"
+    ],
+    "Move through solid objects using spectator mode.": [
+      "使用旁观模式可穿越固体对象。",
+      "15"
+    ],
+    "Who needs tools? Punch your way to success and remove blocks instantly in creative mode.": [
+      "有必要使用工具吗？在创造模式可立即移除方块，打通成功之路。",
+      "16"
+    ],
+    "喜欢你看到的内容吗？无论你看到的是什么，只要使用选择方块按钮即可开始建造。没错，生物也可以这么干！": [
+      "选择方块：选取方块",
+      "17"
+    ],
+    "Get there now with the /tp command.": [
+      "使用 /tp 命令立刻抵达该处。",
+      "18"
+    ],
+    "当你处于创造模式时，生物不会注意到你的存在，不过它们还是会注意到彼此…": [
+      "19"
+    ],
+    "A warden a day keeps the… well, everything away.": [
+      "一天一循声守卫…唔，万物远走高飞。",
+      "一天一个循声守卫…唔，什么都赶跑了。",
+      "循声守卫：监守者",
+      "该提示于1.21.80被修改。",
+      "20"
+    ],
+    "Why not build an underwater base? It's not like you can drown.": [
+      "为什么不建造一个水下基地呢？你又不会淹死。",
+      "21"
+    ],
+    "Whatever you can dream, you can build. There's no limit to your resources (in creative mode...).": [
+      "只有想不到，没有建不了。你的资源是无限的。（当然，是在创造模式里…）。",
+      "22"
+    ],
+    "Phantoms can't hurt you, but you can still shoo them off by using a bed. Just...not literally. You sleep in it.": [
+      "虽然幻翼伤不了你，不过你还是可以用床来赶走它们。只需要躺在床上就行了。",
+      "23"
+    ],
+    "Take a screenshot using the Game menu.": [
+      "使用游戏菜单截图。",
+      "2"
+    ],
+    "A Realm is always online, so you and your friends can play here whenever you want.": [
+      "有一个 Realm 始终在线，所以您和您的好友可以随时在这里游玩。",
+      "3"
+    ],
+    "Keep up to date with what's going on in your Realm by checking the Story Feed in Realms Stories.": [
+      "在 Realms 故事中查看故事动态，及时了解您的 Realm 中发生的事情。",
+      "4"
+    ],
+    "Share your great moments with the other players on this Realm by adding a story to the Story Feed.": [
+      "在故事动态中添加故事，与该 Realm 的其他玩家分享您的精彩时刻。",
+      "5"
+    ],
+    "Check the Timeline in Realms Stories to find out when others are playing.": [
+      "查看 Realms 故事中的时间线，了解其他玩家在何时进行游戏。",
+      "6"
+    ],
+    "Access Realms Stories from the game menu while playing on the Realm.": [
+      "在 Realm 上游玩时，从游戏菜单访问 Realms 故事。",
+      "7"
+    ],
+    "Get to know your Realm's community on the Members tab in Realms Stories.": [
+      "在 Realms 故事中的成员选项卡中了解您的 Realm 社区。",
+      "8"
+    ],
+    "Use Realms Stories to get social, keep up with your friends' progress, and organize playtime.": [
+      "使用 Realms 故事进行社交活动，了解好友进度，并安排游戏时间。"
+    ],
+    "测试版": [
+      "玩家使用基岩版测试版时，以下几种提示会代替常规提示出现在加载过程中。"
+    ],
+    "如果您玩的是测试版，那么只能和其他也在玩测试版的好友一起玩！": [
+      "2"
+    ],
+    "Remember, you can't play on Realms and most servers when you’re on the beta.": [
+      "请记住，如果您玩的是测试版，那么不能在大多数服务器上进行游戏。",
+      "3"
+    ],
+    "Whatever you buy in the beta is real and will still be there if you leave the beta.": [
+      "您在测试版中购买的一切均有效。即便退出测试版，购买的东西也不会消失。",
+      "4"
+    ],
+    "Don’t forget to create backups of your worlds before loading them in the beta.": [
+      "在测试版中加载世界之前，别忘了给它们创建备份。",
+      "5"
+    ],
+    "请在 bugs.mojang.com 上记录发现的所有漏洞": [
+      "6"
+    ],
+    "想和我们聊聊测试版吗？访问 discord.gg/Minecraft，加入 Minecraft Discord": [
+      "7"
+    ],
+    "关于新的功能，您有什么好的建议吗？请访问反馈网址 feedback.minecraft.net 上的测试版论坛，将您的建议告知我们": [
+      "8"
+    ],
+    "发现了漏洞？请访问 bugs.mojang.com 告知我们": [
+      "9"
+    ],
+    "If your friends can't join your world, it may be because they aren't also on the beta.": [
+      "如果您的好友无法加入您的世界，那可能是因为他们玩的不是测试版。",
+      "10"
+    ],
+    "Remember to back up your worlds often & before you open them in the beta.": [
+      "请记住，在测试版中打开您的世界之前，要经常进行备份。",
+      "11"
+    ],
+    "感谢参与测试版！": [
+      "12"
+    ],
+    "退出测试版时需要帮助？请访问 aka.ms/MinecraftXIP": [
+      "13",
+      "The beta program is currently only available on Windows 10, Xbox One, and Android.",
+      "测试版程序目前仅适用于 Windows 10、Xbox One 和安卓设备。",
+      "14"
+    ],
+    "Remember, beta builds are not the final product. You might find crashes, glitches, and other weird stuff.": [
+      "请记住，测试版并非最终产品。您可能会发现崩溃、故障和其他奇怪的问题。",
+      "15"
+    ],
+    "欢迎您的反馈！请访问 feedback.minecraft.net，告诉我们您的想法": [
+      "16"
+    ],
+    "您知道您可以在 discord.gg/Minecraft 上与我们的开发人员交谈吗？": [
+      "17"
+    ],
+    "预览版": [
+      "玩家使用Minecraft Preview时，以下几种提示会代替常规提示出现在加载过程中。"
+    ],
+    "感谢您使用 Minecraft 预览版！": [
+      "2"
+    ],
+    "如果您使用的是《我的世界》预览版，您只能和其他同样处于预览版中以及使用相同类型设备的好友一起使用！": [
+      "3"
+    ],
+    "无论您在 Minecraft 预览版中购买什么，都可在 Minecraft 中使用！": [
+      "4"
+    ],
+    "关于新的功能您有什么好的建议吗？请在反馈网址 feedback.minecraft.net 上告诉我们": [
+      "5"
+    ],
+    "附加包": [
+      "当玩家正在加载的世界启用了任意行为包时，以下的提示会在加载进度条超过约三分之一后代替常规加载提示出现在加载过程中。同时加载界面顶部的“正在加载…”会变成“改造后的世界”。"
+    ],
+    "You're playing in a world with Add-Ons! This will add new features to your Minecraft world.": [
+      "你正在一个带有附加内容的世界中游玩！这会为你的 Minecraft 世界带来全新的功能和体验。",
+      "2"
+    ],
+    "Don't stop with just one! You can load multiple Add-Ons onto a single world at once.": [
+      "不要只使用一个附加内容！你可以同时加载多个附加内容。",
+      "3",
+      "Advanced Tip: A Resource Pack can change the textures of different blocks and entities.",
+      "高级提示：资源包可以更改不同方块和实体的材质。",
+      "4",
+      "Advanced Tip: A Behavior Pack can change how different items, entities, or blocks work.",
+      "高级提示：行为包可以更改不同物品、实体或方块的作用。",
+      "5",
+      "Advanced Tip: An Add-On includes both a Behavior Pack and a Resource Pack. Make sure both packs are activated to ensure the Add-On works!",
+      "高级提示：附加内容包括行为包和资源包。确保两个包都已激活，以保证附加内容正常工作！",
+      "6"
+    ],
+    "Add-Ons add new blocks, items, or mobs to your worlds.": [
+      "附加内容增加了新的方块、物品或生物到你的世界中。",
+      "7"
+    ],
+    "Worlds and Add-ons are complex! While some work great together, you might get funky results with others.": [
+      "世界和附加内容都很复杂！虽然有些搭配效果很好，但有些搭配可能会产生奇怪的效果。",
+      "8"
+    ],
+    "More Add-Ons mean more fun, but the game might take longer to load.": [
+      "更多附加内容意味着更多乐趣，但游戏加载时间可能会更长。"
+    ],
+    "市场": [
+      "这些提示会在每次启动游戏后首次打开市场加载时显示。"
+    ],
+    "Check Marketplace daily for new content.": [
+      "每天检查市场以获取新内容。",
+      "2"
+    ],
+    "Find your previous purchases in your library.": [
+      "在库中查找之前的购买。",
+      "3"
+    ],
+    "Check out our minecoin bundles - some come with bonus coins.": [
+      "查看我们的 minecoin 同捆包，有些附带奖励硬币。",
+      "4"
+    ],
+    "Rating your purchase sends feedback to our content creators.": [
+      "对购买进行评分会向我们的内容创作者发送反馈。",
+      "5"
+    ],
+    "Add-Ons can be used on both new and existing worlds.": [
+      "附加内容可以在全新和现有的世界中使用。",
+      "6"
+    ],
+    "Try out all different types of content - worlds, skins, add-ons, textures.": [
+      "尝试所有不同类型的内容——世界、皮肤、附加内容、材质。"
+    ],
+    "You can hold down Shift to take a close up picture using the Camera.": [
+      "您可以在按住 Shift 的同时用摄像机拍摄近景图片。",
+      "2"
+    ],
+    "Unlike Signs, you can edit Slates, Posters, and Boards over and over again.": [
+      "与标志不一样，您可以反复地编辑石板、海报和黑板。",
+      "标志：告示牌",
+      "三种尺寸的黑板：",
+      "石板：小黑板",
+      "海报：告示板",
+      "黑板：大黑板",
+      "3"
+    ],
+    "Use Ctrl+B to turn on text-to-speech capabilities for in-game chat.": [
+      "使用 Ctrl+B 打开文本转语音功能，来进行游戏内聊天。",
+      "4"
+    ],
+    "You can export your Minecraft world to share it with others.": [
+      "您可以导出《我的世界》的世界与他人共享。",
+      "5"
+    ],
+    "To have your peers connect to your world, pause your game and share your IP address.": [
+      "要让同伴连接到您的世界，请暂停游戏并分享您的加入代码。",
+      "6"
+    ],
+    "Remember that to use slash commands, you need to enable cheats in your world.": [
+      "请记住，要使用斜杠命令，您需要在您的世界中启用作弊。",
+      "7"
+    ],
+    "Done with your creation? Have others tour your world in Adventure Mode to protect your work.": [
+      "已完成您的创作？让别人作为访客游览您的世界以便保护您的作品。",
+      "8"
+    ],
+    "要使用 Code Builder，请按下键盘上的 C 键或触摸屏幕顶部的 Agent 图标": [
+      "要在 Minecraft 中编辑代码，请按下键盘上的“C”键或触摸屏幕顶部的代理机器人图标。",
+      "Agent/代理机器人：智能体"
+    ],
+    "该提示被修改过。[需要更多信息]": [
+      "9",
+      "17",
+      "18",
+      "24"
+    ],
+    "Use the Library to find new game worlds to build in.": [
+      "用这个库来寻找可供创建的新的游戏世界。",
+      "10"
+    ],
+    "Looking for a specific biome? try the Library.": [
+      "正在寻找特定的生物群系？试试库吧。",
+      "11"
+    ],
+    "NPC stands for Non-Player Character.": [
+      "NPC 代表非玩家角色。",
+      "12"
+    ],
+    "In Survival Mode, players must find their own resources.": [
+      "在生存模式中，玩家必须自行找到资源。",
+      "13"
+    ],
+    "In Creative Mode, players can freely choose to build from any of the blocks in Minecraft.": [
+      "在创造模式中，玩家可以自由选择《我的世界》中的任何方块来进行建造。",
+      "14"
+    ],
+    "Your code building robot helper is called the Agent.": [
+      "您的代码创建机器人助手称为代理机器人。",
+      "代理机器人：智能体",
+      "15"
+    ],
+    "Redstone can be used in Minecraft to create circuits and simple machines.": [
+      "在《我的世界》中，红石可以用来创建电路和简单的机器。",
+      "16"
+    ],
+    "You can copy-and-paste from a text editor to a slate, poster, board, or into chat.": [
+      "您可以从文本编辑器复制粘贴内容到石板、海报或公告板。",
+      "您可以从文本编辑器复制粘贴内容到石板、海报、公告板或聊天中。",
+      "指三种尺寸的黑板。",
+      "石板：小黑板",
+      "海报：告示板",
+      "公告板：大黑板"
+    ],
+    "Show hints for commonly-used keyboard and mouse controls by pressing \"H\" on your keyboard.": [
+      "您可以在“控制”下的“设置”菜单中打开或关闭键盘和鼠标提示。",
+      "按下键盘上的“H”按钮即可显示常用键盘和鼠标控制器的提示。"
+    ],
+    "You can toggle Auto Jump on or off in the Settings menu under Controls.": [
+      "您可以在“控制”下的“设置”菜单中打开或关闭“自动跳跃”。",
+      "19"
+    ],
+    "While in Creative Mode, quickly press jump twice to fly.": [
+      "在创造模式下，快速按下两次“跳跃”以飞行。",
+      "20"
+    ],
+    "Choose a Default Game Mode when creating world to specify the type of gameplay you want.": [
+      "在创建世界时选择一个“默认课程模式”来指定您想要的探索方法。",
+      "21"
+    ],
+    "Use the command \"/setworldspawn\" to have new players begin playing where you are standing.": [
+      "使用 ''/setworldspawn'' 命令可以让新玩家在您所站的地方开始游戏。",
+      "22"
+    ],
+    "Choose a default player permission when creating your world to specify the permissions you want your classmates to have when they join.": [
+      "在创建您的世界时，选择一个默认的玩家权限，以指定您希望您的同学在加入时拥有的权限。",
+      "23"
+    ],
+    "Press \"I\" on your keyboard or touch the Immersive Reader icon to read or translate in-game text.": [
+      "按下键盘上的 I 或触摸沉浸式阅读器图标来阅读或翻译游戏内文本。",
+      "按下键盘上的“I”或触摸沉浸式阅读器图标来阅读或翻译游戏内文本。"
+    ],
+    "To add or change an NPC in your world, first make yourself a world builder with \"/wb\".": [
+      "要在您的世界中添加或更改一个非用户角色，首先使用“/wb”将自己设置为世界建造者。",
+      "非用户角色：NPC",
+      "25"
+    ],
+    "There's a brand new build challenge every month! Find them all in the Library under Monthly Build Challenges.": [
+      "每个月都有全新的建造挑战！在“每月建造挑战”下的库中查找所有内容。",
+      "26"
+    ],
+    "Find related lessons by clicking on tags in the Library.": [
+      "单击库中的标签查找相关课程。",
+      "27"
+    ],
+    "Game moving slowly? Try turning down the render distance in Settings.": [
+      "课程加载太慢？尝试在“设置”中关闭渲染距离。",
+      "28"
+    ],
+    "Want to use Code Builder? Make sure cheats are toggled on.": [
+      "想要使用代码编辑器？确保已启用无敌模式。",
+      "“启用无敌模式”指允许作弊。",
+      "29",
+      "Press F5 to change player perspective.",
+      "按下 F5 更改用户视角。",
+      "30"
+    ],
+    "使用“/spawnpoint”更改生成点。就像睡在床上一样！": [
+      "生成点：出生点"
+    ],
+    "原主机版": [
+      "此章节缺失以下信息：原主机版特有的加载提示；有些加载提示仅使用某一种语言直译，导致和原意不同，需要补足",
+      "请协助补充相关内容的描述，讨论页可能有更多细节。",
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "After removing the lava source block, it takes several minutes for the lava to completely disappear.": [
+      "移除熔岩源方块后，熔岩需要好几分钟的时间才能完全消失。",
+      "3"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "为加载菜单添加了加载提示。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "为加载菜单添加了加载提示。"
+    ],
+    "参考": [
+      "MCPE-98977 — 漏洞状态为“已修复”。",
+      "MCPE-102293 — 漏洞状态为“已修复”。",
+      "MCPE-176495 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

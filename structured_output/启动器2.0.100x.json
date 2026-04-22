@@ -1,0 +1,20 @@
+{
+  "title": "启动器2.0.100x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.0.100x",
+  "structured_content": {
+    "默认分类": [
+      "2.0.100x"
+    ],
+    "发布时间": [
+      "2017年10月25日",
+      "◄◄2.0.99x",
+      "2.0.1009►►",
+      "2.0.1003（Windows）、2.0.1004（macOS）或 2.0.1005（Linux）是一次启动器更新，发布于2017年10月25日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了一些启动Mod版本时的问题。",
+      "MCL-1905 - legacy.json丢失会导致java.io.FileNotFoundException崩溃。",
+      "MCL-8255 - Java 9无法识别CMSIncrementalMode虚拟机选项。"
+    ]
+  }
+}

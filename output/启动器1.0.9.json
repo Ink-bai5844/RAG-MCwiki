@@ -1,0 +1,5 @@
+{
+  "title": "启动器1.0.9",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.0.9",
+  "text": "1.0.9\n程序类型\nMinecraft启动器\n发布时间\n2013年7月10日\n其他版本的1.0.9\nJava版Alpha\n携带版\nNintendo Switch版\n◄◄1.0\n1.1►►\n◄1.0.8\n1.0.10►\n1.0.9是2013年7月10日发布的启动器版本。\n新增\n增加了对新漏洞汇报系统Hopper的支持。\n任何客户端报错都会自动上传错误报告。\n修复\nMCL-862 - 客户端令牌冲突会阻止玩家登录服务器。\n导航"
+}

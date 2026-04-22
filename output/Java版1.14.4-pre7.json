@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.14.4-pre7",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.14.4-pre7",
+  "text": "1.14.4-pre7\n版本\nJava版\n类型\n预发布版\n发布时间\n2019年7月18日\n预发布版归属\n1.14.4\n下载\n客户端（.json）\n服务端\n协议版本\n497\n数据版本\n1975\n资源包版本\n4\n数据包版本\n4\n◄◄1.14.3\n1.15►►\n◄1.14.4-pre6\n1.14.4-pre7是Java版1.14.4的第7个，也是最后一个预发布版，发布于2019年7月18日，优化了游戏性能，并修复了一些漏洞。\n更改\n常规\n性能\n优化了树叶渲染性能。\n修复\n修复了4个漏洞\n1.14的漏洞\nMC-150623 — The game crashed whilst rendering overlay: Unable to fit texture.（游戏在渲染遮盖层时崩溃：无法适应纹理。）\n1.14.3的漏洞\nMC-156389 — 在铁砧上按下⇧ Shift + ⌘ Command + Delete，使得18个字符被一次性删除时游戏会崩溃。\n1.14.4开发版本的漏洞\nMC-156407 — 无法获得的（速度）谜之炖菜可以从村民处获得。\nMC-156574 — 村民的价格需求会无限增高/降低。\n参考\nMinecraft 1.14.4 Pre-Release 7 — Minecraft.net，2019年7月18日。\n导航"
+}

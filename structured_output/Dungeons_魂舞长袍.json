@@ -1,0 +1,40 @@
+{
+  "title": "Dungeons:魂舞长袍",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%AD%82%E8%88%9E%E9%95%BF%E8%A2%8D",
+  "structured_content": {
+    "存档ID": [
+      "SoulRobe_Unique1",
+      "魂舞长袍在阳光下显得活力十足，好像里面的灵魂永远在舞动。"
+    ],
+    "——物品描述": [
+      "魂舞长袍（Souldancer Robe）是Minecraft Dungeons中的盔甲。它是灵魂长袍的独特变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "苦力怕森林（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "属性": [
+      "30% 概率抵消伤害",
+      "+50% 灵魂收集",
+      "+50% 法器伤害"
+    ],
+    "装备": [
+      "sfx_item_spiritRobeUnique1Place"
+    ],
+    "拾取": [
+      "sfx_item_spiritRobeUnique1PickUp"
+    ],
+    "掉落": [
+      "sfx_item_spiritRobeUnique1Land"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了魂舞长袍。"
+    ]
+  }
+}

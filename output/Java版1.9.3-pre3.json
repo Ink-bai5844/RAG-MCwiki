@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.9.3-pre3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.9.3-pre3",
+  "text": "1.9.3-pre3\n版本\nJava版\n类型\n预发布版\n发布时间\n2016年5月3日\n预发布版归属\n1.9.3\n下载\n客户端（.json）\n服务端\n协议版本\n110\n数据版本\n182\n资源包版本\n2\n◄◄1.9.2\n1.9.4►►\n◄1.9.3-pre2\n1.9.3-pre3是Java版1.9.3的第3个，也是最后一个预发布版，发布于2016年5月3日。\n更改\n常规\n服务器\n移除在1.9.3-pre2中加入的查询https://sessionserver.mojang.com/blockedservers黑名单行为。\n修复\n修复了3个漏洞\n1.9的漏洞\nMC-91732 — 拴着的成年马不会走过完整的方块。\n上个开发版本的漏洞\nMC-101545 — 新的预发布版本有问题。\n其他漏洞\n修复了有关流动的水或熔岩的潜在崩溃漏洞。\n参考\nMinecraft 1.9.3 Pre-Release 3（存档），来自Searge。Mojang.com，2016年5月2日。\n\"The Mojang EULA /blockedservers check was removed in this release.\" — /u/openfiber，2016年4月3日\n导航"
+}

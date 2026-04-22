@@ -1,0 +1,5 @@
+{
+  "title": "Java版15w39b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8815w39b",
+  "text": "15w39b\n版本\nJava版\n类型\n快照\n发布时间\n2015年9月21日\n快照归属\n1.9\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n74\n数据版本\n131\n资源包版本\n2\n◄◄1.8.9\n1.9.1►►\n◄15w39a\n15w39c►\n15w39b是Java版1.9的第27个快照，发布于2015年9月21日，修复了15w39a中铁桶的漏洞。\n修复\n修复了3个漏洞\n1.9开发版本的漏洞\nMC-86142 — 对成年生物点击使用刷怪蛋不会生成幼年生物。\nMC-88824 — Hopper: java.lang.NullPointerException: Ticking entity。\n上个开发版本的漏洞\nMC-89222 — 对方块使用铁桶会破坏方块。\n参考\nMinecraft 1.9 snapshot 15w39c（存档），来自Dinnerbone。Mojang.com，2015年9月21日。\n导航"
+}

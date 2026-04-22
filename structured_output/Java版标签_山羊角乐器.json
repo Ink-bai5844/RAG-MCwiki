@@ -1,0 +1,31 @@
+{
+  "title": "Java版标签/山羊角乐器",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E5%B1%B1%E7%BE%8A%E8%A7%92%E4%B9%90%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "山羊角乐器标签（Instrument Tags）是山羊角乐器的组合。"
+    ],
+    "使用": [
+      "山羊角乐器标签用于控制生成的山羊角的种类。"
+    ],
+    "goat_horns": [
+      "在创造模式物品栏中显示的所有不同乐器的山羊角。",
+      "#goat_horns（2项）"
+    ],
+    "regular_goat_horns": [
+      "普通山羊掉落的山羊角。",
+      "可从掠夺者前哨站战利品箱子中获取的山羊角。",
+      "#regular_goat_horns（4项）"
+    ],
+    "screaming_goat_horns": [
+      "尖叫山羊掉落的山羊角。",
+      "#screaming_goat_horns（4项）"
+    ],
+    "Java版": [
+      "1.19",
+      "22w18a",
+      "加入了#goat_horns、​#regular_goat_horns和​#screaming_goat_horns。"
+    ]
+  }
+}

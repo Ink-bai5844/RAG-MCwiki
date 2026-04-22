@@ -1,0 +1,304 @@
+{
+  "title": "基岩版26.0.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.0.23",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "26.0.23"
+    ],
+    "服务端版本": [
+      "1.26.0.23",
+      "1.26.0.24"
+    ],
+    "内部版本号": [
+      "Android：1.26.0.23",
+      "Windows：1.26.24.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952600023（armeabi-v7a，35）",
+      "962600023（x86，35）",
+      "972600023（arm64-v8a，35）",
+      "982600023（x86_64，35）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年12月3日"
+    ],
+    "测试版归属": [
+      "26.0"
+    ],
+    "下载": [
+      "服务端（1.26.0.23）"
+    ],
+    "WindowsLinux": [
+      "服务端（1.26.0.24）"
+    ],
+    "协议版本": [
+      "905",
+      "◄◄1.21.132",
+      "26.1►►",
+      "26.0.25►",
+      "beta 26.0.23（ChromeOS/Android）、Preview 26.0.23（Xbox/iOS/iPadOS/PlayStation）、Preview 26.0.24（Windows）是基岩版26.0的首个测试版，发布于2025年12月3日，加入了对命令宏的支持，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "/packstack": [
+      "用于在聊天栏中显示资源包和行为包数据，语法如下：",
+      "/packstack <stackType: stackType> [verbose: verbose] [exclude-vanilla: exclude-vanilla]",
+      "参数：",
+      "stackType: stackType：包的类型。client为资源包，server为行为包。",
+      "verbose: verbose：显示详细信息。",
+      "exclude-vanilla: exclude-vanilla：排除原版包。"
+    ],
+    "常规": [
+      "minecraft://connect?localLevelId=<存档ID>启用协议现在需要存档ID作为编码值。",
+      "“探索的时光”成就不再会在PC上到达少于17个生物群系后解锁。（MCPE-156784）",
+      "修复了Windows平台上即使单个显示器有足够空间，窗口也会在重新打开时重置为较小大小的问题。（MCPE-228875）"
+    ],
+    "控制": [
+      "加入了对命令宏的支持。",
+      "有10个键位映射用于执行命令。",
+      "每个键位映射均有文本输入框，用于指定按下该键位时执行的命令。",
+      "只能在游戏中执行命令。",
+      "所有可映射键位均为Alt + 所选键位的组合键。",
+      "仅开启“Enable Command Macros”选项后可用。"
+    ],
+    "设置": [
+      "在创建者设置中加入了“Enable Command Macros”选项。",
+      "用于启用命令宏功能。"
+    ],
+    "方块": [
+      "更新了minecraft:redstone_consumer，将propogates_power字段重命名为propagates_power。",
+      "minecraft:material_instances中的alpha_masked_tint选项不再需要“即将推出的创作者功能”选项。",
+      "将format_version大于等于1.26.0的minecraft:redstone_consumer从实验性玩法中开放。",
+      "为minecraft:liquid_detection中的detection_rules加入了use_liquid_clipping字段。（MCPE-191655）",
+      "true：表示方块使用collision_box来在视觉上碰撞水。",
+      "false：忽略液体碰撞，这会穿过整个方块渲染水。",
+      "format_version低于1.26.0时默认为true。",
+      "format_version为1.26.0及更高版本时默认为false。",
+      "修复了末地折跃门会将玩家传送至虚空区域的问题。（MCPE-228267）"
+    ],
+    "发光的黑曜石": [
+      "现在拥有显示名称。"
+    ],
+    "物品": [
+      "minecraft:damage物品组件现在支持0到32767之间的值。（MCPE-180073）",
+      "现在矛会在第一人称和第三人称时间下进行冲锋时沿着相同的朝向旋转。",
+      "修复了将物品放入箱子中的收纳袋时，物品有时无法保存的问题。（MCPE-187058）",
+      "现在猪灵刷怪蛋和猪灵蛮兵刷怪蛋会按首字母顺序正确排列。（MCPE-231580）",
+      "修复了删除物品展示框中的定位器地图时，地图标记会卡住的问题。（MCPE-185362）"
+    ],
+    "马铠": [
+      "现在金马铠会提供2点盔甲韧性。",
+      "现在下界合金马铠会提供3点盔甲韧性。",
+      "现在会在提示框中显示护甲值加成、盔甲韧性加成和击退抗性加成。"
+    ],
+    "鹦鹉螺铠": [
+      "现在钻石鹦鹉螺铠会提供2点盔甲韧性。",
+      "现在下界合金鹦鹉螺铠会提供3点盔甲韧性。",
+      "现在会在提示框中显示护甲值加成、盔甲韧性加成和击退抗性加成。"
+    ],
+    "狼铠": [
+      "现在会在提示框中显示护甲值加成、盔甲韧性加成和击退抗性加成。"
+    ],
+    "生物": [
+      "现在狼的模型和阴影是居中的。（MCPE-176018）",
+      "现在僵尸、僵尸村民、溺尸和尸壳的幼年变种会在被杀死时掉落物品。（MCPE-93172）",
+      "鱿鱼和发光鱿鱼的幼年变种不再会在被杀死时掉落物品。（MCPE-189551）",
+      "现在幼年北极熊会攻击狐狸。（MCPE-48072）",
+      "幼年北极熊不再会对玩家产生敌意。（MCPE-173833）",
+      "修复了北极熊会在发动攻击期间以两倍的频率重新计算抵达目标的路径的问题。",
+      "改进了鹦鹉螺和其他水下生物的逻辑。",
+      "它们现在会更少地卡在方块边缘。",
+      "现在被吸引时，它们会绕开障碍物，而不是沿着直线向玩家移动。",
+      "它们不再会在垂直移动时旋转。",
+      "它们不再会在垂直移动时过快地移动。",
+      "现在生物效果粒子可以略微在生物的边界箱之外出现。",
+      "调整了僵尸骑手生成时携带铜盔甲的概率以匹配Java版。（MCPE-229469）",
+      "调整了尸壳骑手生成时携带铜盔甲的概率以匹配Java版。",
+      "玩家和幼年溺尸骑乘（僵尸）鹦鹉螺时不再会在坐骑上飘浮。",
+      "可附着物品不再会在通过命令装备给僵尸鹦鹉螺时渲染。",
+      "现在骑乘僵尸马生成的僵尸具有带有盔甲概率的战利品表，以匹配普通僵尸。（MCPE-232098）",
+      "幼年马、驴和骡不再会随时间逐渐增大，以匹配Java版。（MCPE-121628）",
+      "修复了幼年僵尸马成长为成年僵尸马时其尺寸会缩小的漏洞。",
+      "现在幼年僵尸马无法成长为僵尸马，以匹配Java版。"
+    ],
+    "发光鱿鱼": [
+      "幼年发光鱿鱼死亡时不再会掉落荧光墨囊。"
+    ],
+    "马、驴、骡和骷髅马": [
+      "幼年变种的体型不再会随时间逐渐增大，以匹配Java版。"
+    ],
+    "溺尸": [
+      "不再会捡起矛。",
+      "现在幼年溺尸可以携带三叉戟生成。",
+      "调整了溺尸生成时携带物品的概率以近似匹配Java版：",
+      "携带三叉戟的概率由15%降低至6.25%。",
+      "携带钓鱼竿的概率由0.85%提高至3.515625%。",
+      "携带鹦鹉螺壳的概率由8%降低至7%。"
+    ],
+    "鹦鹉螺": [
+      "加入了独特的游泳音效。",
+      "幼年鹦鹉螺拥有不同于成年鹦鹉螺的音效。",
+      "加入了在陆地上时空闲时、受伤和死亡的音效。",
+      "幼年鹦鹉螺拥有不同于成年鹦鹉螺的音效。"
+    ],
+    "北极熊": [
+      "现在幼年北极熊会攻击狐狸。",
+      "成年北极熊不再会攻击靠近幼年北极熊的玩家。"
+    ],
+    "骷髅、流浪者、沼骸和焦骸": [
+      "不再会捡起矛。"
+    ],
+    "鱿鱼": [
+      "幼年鱿鱼死亡时不再会掉落墨囊。"
+    ],
+    "僵尸马": [
+      "幼年僵尸马不再会成长为成年个体。"
+    ],
+    "僵尸鹦鹉螺": [
+      "加入了独特的游泳音效。",
+      "加入了在陆地上时空闲时、受伤和死亡的音效。"
+    ],
+    "AI意向": [
+      "生成带有behavior.nearest_attackable_target的实体时不再会产生内容日志错误。（MCPE-231095）",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.0及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.defend_village_target",
+      "minecraft:behavior.nearest_attackable_target",
+      "minecraft:behavior.nearest_attackable_target中的浮点数范围字段attack_interval现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.guardian_attack的模式在解析时会更加严格，并且在1.26.0及更高版本中将无法加载包含无效数据的实体JSON。",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.0及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.timer_flag_1",
+      "minecraft:behavior.timer_flag_2",
+      "minecraft:behavior.timer_flag_3",
+      "minecraft:behavior.move_towards_dwelling_restriction",
+      "minecraft:behavior.move_towards_home_restriction",
+      "minecraft:behavior.timer_flag_1、​minecraft:behavior.timer_flag_2和​minecraft:behavior.timer_flag_3中的浮点数范围字段cooldown_range和​duration_range现在仅接受带有min和​max值的对象。其他格式将无法解析。"
+    ],
+    "API": [
+      "发布了@minecraft/server版本2.5.0。",
+      "修复了ItemStack上的getComponents在较旧的脚本版本中使用时可能会在数组中返回未定义的问题。",
+      "为2.5.0加入了缺失的BlockComponentTypes枚举值：",
+      "PrecipitationInteractions = 'minecraft:precipitation_interactions'",
+      "RedstoneProducer = 'minecraft:redstone_producer'",
+      "MapColor = 'minecraft:map_color'",
+      "Movable = 'minecraft:movable'",
+      "更改了EntityHurtAfterEvent，以使其在伤害量为零时发送。",
+      "将PlayerSwingStartAfterEvent由beta开放至2.5.0版本。",
+      "将PlayerSwingEventOptions由beta开放至2.5.0版本。",
+      "将HeldItemOption由beta开放至2.5.0版本。",
+      "将EntitySwingSource由beta开放至2.5.0版本。",
+      "将BlockComponentRedstoneUpdateEvent由beta开放至2.0.0版本。",
+      "将BlockCustomComponent.onRedstoneUpdate由beta开放至2.0.0版本。",
+      "加入了@minecraft/server版本2.6.0-beta。",
+      "为BlockType和​BlockPermutation加入了localizationKey属性。",
+      "为EntityType加入了localizationKey属性。",
+      "为ItemType加入了localizationKey属性。",
+      "为beta加入了EntityHurtBeforeEvent类。",
+      "为beta加入了EntityHurtBeforeEventSignal类。",
+      "为beta加入了EntityHurtAfterEventOptions接口。",
+      "为beta加入了EntityHurtBeforeEventOptions接口。",
+      "为beta加入了WorldBeforeEvents.entityHurt。",
+      "在beta中将EntityHurtAfterEventSignal更改为EntityHurtAfterEventOptions。",
+      "为beta加入了EntityHealCause枚举。",
+      "为beta加入了EntityHealSource类。",
+      "为beta加入了EntityHealAfterEvent类。",
+      "为beta加入了EntityHealBeforeEvent类。",
+      "为beta加入了EntityHealBeforeEventSignal类。",
+      "为beta加入了EntityHealAfterEventSignal类。",
+      "为beta加入了WorldAfterEvents.entityHeal属性。",
+      "为beta加入了WorldBeforeEvents.entityHeal属性。",
+      "为beta加入了EntityHealEventOptions接口。",
+      "为beta加入了EntityAttachPoint枚举。",
+      "为beta加入了CameraAttachOptions接口。",
+      "为beta加入了attachToEntity(attachCameraOptions?: CameraAttachOptions): void方法。这可用于将第三人称相机视角附着在实体上。",
+      "在beta中为BiomeType加入了getTags()。",
+      "在beta中为BiomeType加入了hasTags(tags: string[])。",
+      "在beta中为Dimension加入了containsBiomes(volume: BlockVolumeBase, biomeFilter: BiomeFilter)。",
+      "为beta加入了BiomeFilter接口。",
+      "为用于旋转方向和位置的相机样条API加入了缓动类型参数。"
+    ],
+    "生物群系": [
+      "biomes_client.json中没有命名空间的生物群系现在会在base_game_version低于1.21.40的世界中带命名空间地应用。"
+    ],
+    "组件": [
+      "修复了minecraft:behavior.fire_at_target中的max_head_rotation_xmax_head_rotation_y会反向应用的漏洞。"
+    ],
+    "基岩版编辑器": [
+      "在结构面板中加入了编辑标签菜单项目，因此现在可以编辑一个或多个所检查结构的标签。",
+      "加入了“编辑标签”模态弹窗，用于对所选结构添加新标签或移除现有标签。",
+      "为IModalTool加入了isActive属性，用于检查激活状态。",
+      "为IModalToolContainer加入了onSelectedToolChanged属性，用于监听全局模态框更改工具。",
+      "为脚本扩展加入了设置持久性的功能。",
+      "更新了地形工具的标高图标。",
+      "更新了所选模态框工具，以使其在退出工具模式时关闭选项，然后在返回后打开。",
+      "修复了在智能填充中启用“将智能填充限制为选区”会导致项目崩溃和大片选区区域消失的漏洞。",
+      "修复了光标绑定小部件会在隐藏时触发状态更改事件的漏洞。",
+      "修复了使用地形工具的标高模式来降低世界底部附近的地形时，游戏会卡死的漏洞。",
+      "更正了光标距离限制，以匹配球形视图距离设置。"
+    ],
+    "实体组件": [
+      "将minecraft:interact组件中swing字段的默认值更改为true。"
+    ],
+    "图形": [
+      "为灵动视效水效果配置文件引入了新参数biome_water_color_contribution。此新参数用于控制由*.client_biome.json提供的每个生物群系的水体颜色的贡献。",
+      "范围：[0.0, 1.0]",
+      "默认值：0.0",
+      "调整了为创作者提供的RenderDragon功能实验性内容中方块光源的颜色；local_lighting.json现在会按预期位于sRGB空间中。",
+      "修复了在选择光线追踪图形模式的情况下拍摄的截图不会精确渲染的漏洞。",
+      "修复了在开启灵动视效的情况下关闭“轮廓选择”选项时，高亮显示会不可见的漏洞。（MCPE-222491）",
+      "修复了游戏更新后图形模式选项会发生变化的问题。（MCPE-226682）",
+      "修复了在开启灵动视效的情况下，水的消光会在位于其后的区块丢失时覆盖迷雾绘制的问题。",
+      "修复了在开启灵动视效的情况下，部分皮肤中较深的颜色会显得褪色的问题。（MCPE-206669）",
+      "修复了“隐藏天空闪光”选项会导致末地入场环境音效循环播放的漏洞。",
+      "修复了音符盒上的音符效果不会在黑暗环境中显示正确颜色的问题。",
+      "修复了资源包将末地传送门在灵动视效中定义为点光源时，末地传送门上的光照会渲染不正确的问题。",
+      "现在当玩家靠近时，着火的生物和玩家身上的火焰效果会变透明。",
+      "修复了雪傀儡的南瓜头不会在“玩家和生物抖动”选项开启时变透明的问题。（MCPE-228082）",
+      "修复了变透明的物体会在灵动视效中的分辨率设置为50%时闪烁的问题。（MCPE-231582）"
+    ],
+    "JSON模式": [
+      "修复了会为experience_reward等部分组件生成包含多余的_array类字段（如on_bred_array和​on_death_array）的JSON格式的漏洞。"
+    ],
+    "Molang": [
+      "minecraft:client_entity和​minecraft:attachable中的pre_animation和​initialize字段现在会正确地支持跨多行的花括范围定界符{}。",
+      "此更改仅在使用1.26.0或更高的格式版本时生效。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "游戏内容": [
+      "现在卫道士会在被使用“Johnny”命名牌时正确地攻击所有非灾厄村民生物。"
+    ],
+    "输入": [
+      "修复了按下Alt键会导致游戏显示卡死的问题。（MCPE-230294）",
+      "现在使用物理键盘输入时会关闭屏幕键盘。（MCPE-228584）",
+      "修复了悬停时无法在文本框中键入的问题。（MCPE-229178）",
+      "修复了在Windows平台上关闭暂停菜单后，相机视角会略微移动的问题。（MCPE-227945）"
+    ],
+    "弹射物": [
+      "现在滞留药水和喷溅药水击中恶魂火球和其他可反弹弹射物时会将这类弹射物反弹。（MCPE-191655）"
+    ],
+    "Realms": [
+      "修复了通过邀请加入Realm后会出现“Realm 无法加载”错误的问题。",
+      "修复了Realms购买对账的输入图例问题。",
+      "修复了使用鼠标时旁白不总会读出“释放空间”对话框的问题。"
+    ],
+    "用户界面": [
+      "在服务器之间转移期间取消不再会导致玩家卡住。",
+      "现在玩家无需解锁设置即可在世界模板中更改世界名称。（MCPE-188434）",
+      "现在生物效果屏幕中的环境生物效果拥有蓝色边框。（MCPE-230838）",
+      "修复了各种交互不会使玩家挥动手臂的问题。（MCPE-52105）"
+    ],
+    "对牛或哞菇挤奶": [
+      "修复了Escape键无法在死亡屏幕上打开游戏菜单的漏洞。"
+    ],
+    "注释": [
+      "实际上为漏洞MCPE-173833的作用目标由玩家转移到狐狸。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 26.0.23 — Minecraft Feedback，2025年12月3日。",
+      "MCPE-232700 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "title": "基岩版1.20.80.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.80.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.80.22"
+    ],
+    "服务端版本": [
+      "1.20.80.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952008022（armeabi-v7a，34）",
+      "962008022（x86，34）",
+      "972008022（arm64-v8a，34）",
+      "982008022（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年3月14日"
+    ],
+    "测试版归属": [
+      "1.20.80"
+    ],
+    "协议版本": [
+      "668",
+      "◄◄1.20.73",
+      "1.20.81►►",
+      "◄1.20.80.21",
+      "1.20.80.23►",
+      "beta 1.20.80.22（ChromeOS/Android）、Preview 1.20.80.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.20.80的第3个测试版，发布于2024年3月14日，在实验性玩法中加入了重锤、旋风棒、沉重核心、2种新的锻造模板和旗帜图案、3种新的陶片，修改了实验性玩法中试炼密室的结构及旋风人和宝库的战利品表，并修复了一些漏洞。"
+    ],
+    "世界编辑屏幕": [
+      "加入了“硬核模式[原文如此]”选项。",
+      "默认为关，目前无法切换且无任何功能。"
+    ],
+    "犰狳鳞甲": [
+      "现在可用于在铁砧上修复狼铠。"
+    ],
+    "狼铠": [
+      "更新了音效。",
+      "现在会在损坏时产生粒子。",
+      "现在可以阻挡守卫者和远古守卫者激光攻击造成的部分伤害。",
+      "狼铠现在会在损坏时产生粒子。（MCPE-179264）",
+      "狼铠现在可以阻挡守卫者和远古守卫者激光攻击造成的部分伤害。",
+      "现在装备狼铠的狼能够触发受击后伤害免疫，以防止狼铠被熔岩、史莱姆和岩浆怪等持续伤害来源快速破坏。",
+      "同时手持盾牌和狼铠时，屏幕左半部分不再会渲染一条灰色体素。（MCPE-179255）",
+      "现在可以在铁砧上使用犰狳鳞甲修复狼铠。（MCPE-179254）"
+    ],
+    "盾牌": [
+      "现在可以格挡守卫者和远古守卫者激光攻击造成的部分伤害。"
+    ],
+    "生物": [
+      "加入了生成分类。",
+      "将在未来用于生物生成。",
+      "目前已在行为包的实体文件中启用，但尚未生效。",
+      "修复了should_update_bones_and_effects_offscreen和​should_update_effects_offscreen会被忽略的问题。"
+    ],
+    "犰狳": [
+      "调快了行走动画。",
+      "调快了犰狳的行走动画，以趋近于Java版犰狳行走动画的速度。（MCPE-178442）"
+    ],
+    "教学提示": [
+      "现在会在跳跃、飞行、潜行、放置并使用工作台以及在触控设备上打开物品栏时显示对应的教学提示。"
+    ],
+    "渲染距离": [
+      "将Xbox Series主机的最大渲染距离提高至36。"
+    ],
+    "API": [
+      "将EntityType和​EntityTypes由beta移动至1.11.0。",
+      "将playMusic、​Player.queueMusic和​Player.stopMusic由beta移动至1.11.0。",
+      "移除了beta中的BlockAreaSize，并以Vector3替换了其用法。",
+      "将getItemCooldown和​player.startItemCooldown中的itemCategory参数重命名为cooldownCategory。",
+      "将type更改为仅限EnchantmentType以遵循API规范。",
+      "在beta中加入了EnchantmentSlot和​slots。",
+      "用于确定物品的可附魔槽位。",
+      "在Beta API功能旗标下加入了minecraft:custom_components方块组件。",
+      "为beta加入了BlockComponentStepOnEvent。",
+      "为beta加入了BlockRegistry。",
+      "加入了WorldInitializeBeforeEvent。",
+      "加入了BlockCustomComponent。"
+    ],
+    "命令": [
+      "更新了/titleraw和/tellraw命令，以支持渲染输入键位字形。",
+      "提升了/give和/replaceitem命令的性能。现在若无目标，则不会产生服务器延迟。（MCPE-162190）",
+      "修复了会话之间会保留/hud命令带来的变化的问题。（MCPE-179153）"
+    ],
+    "基岩版编辑器": [
+      "加入了三个类：BlockPaletteItem接口类以及ProbabilityBlockPaletteItem和​SimpleBlockPaletteItem具体类。",
+      "用于实现方块调色板。",
+      "现在工具模式下的屏幕布局使用固定的抽屉式系统，而不是浮动窗口面板。",
+      "支持拖动以调整尺寸、展开/折叠和显示/隐藏。",
+      "bindPropertyPaneAPI的函数现在仅会将单个窗格与工具绑定。",
+      "工具激活时，已绑定的窗格会在工具栏旁的抽屉式菜单布局中显示。",
+      "在窗格与工具关联后更新窗格的状态可确保其正确显示。",
+      "将顶部的存档菜单更改为仅包含项目时显示。",
+      "为IMenuCreationParamsAPI加入了uniqueId属性。",
+      "用于在创建时替换MenuID。",
+      "为IPlayerUISession加入了menubar: IMenuContainer属性。IMenuContainer用于管理菜单相关的操作。",
+      "为IMenuContainer加入了getMenu方法。",
+      "用于返回现有的菜单项目。可使用新的枚举CoreMenuType来检索预定义的编辑器菜单。",
+      "将createMenu由IPlayerUISession移动至IMenuContainer。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“即将推出的创作者功能”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "方块": [
+      "修复了跨区块边界放置的床有时会被破坏或变得不可见的问题。（MCPE-31389）"
+    ],
+    "沉重核心": [
+      "一种碰撞箱不完整的方块。",
+      "可从试炼密室的宝库获得。",
+      "具有金属音效。",
+      "硬度为10，合适挖掘工具是镐，被破坏后会掉落自身。",
+      "不可被活塞推拉，被活塞推动时会被破坏。",
+      "可含水，不会被水流破坏。",
+      "用于合成重锤。"
+    ],
+    "宝库": [
+      "将其战利品表拆分为reward_common（普通）、reward_rare（稀有）和reward_unique（独有）。",
+      "每次解锁时从普通战利品表抽取1-3次，另有80%的概率从稀有战利品表抽取1次（20%概率从普通战利品表抽取1次），另有25%的概率从独有战利品表抽取1次（75%概率不抽取）。",
+      "从战利品表中移除了马铠和鞍。",
+      "向战利品表中添加了以下物品："
+    ],
+    "旋风棒": [
+      "由旋风人掉落。",
+      "可以合成为4个风弹，也可以与沉重核心合成重锤。"
+    ],
+    "重锤": [
+      "一种重型武器。",
+      "使用1个沉重核心和1个旋风棒合成。",
+      "可以加速破坏任意方块。",
+      "与剑和三叉戟一样，创造模式下主手持重锤的玩家不能破坏方块。",
+      "击中生物前，玩家的摔落高度越大，造成的伤害越高。",
+      "如果成功击中目标，则会抵消累积的摔落伤害，并会击退目标周围的其他实体。",
+      "具有250点耐久度，可以在铁砧上使用旋风棒修复。",
+      "可添加经验修补和消失诅咒魔咒。"
+    ],
+    "旗帜图案": [
+      "加入了涡流和旋风2种旗帜图案。",
+      "可从试炼密室的宝库获得。"
+    ],
+    "锻造模板": [
+      "加入了镶铆和涡流2种盔甲纹饰锻造模板。",
+      "可从试炼密室的宝库获得。",
+      "镶铆盔甲纹饰锻造模板可使用铜块复制。",
+      "涡流盔甲纹饰锻造模板可使用旋风棒复制。"
+    ],
+    "陶片": [
+      "加入了涡流、旋风和刮削3种纹样陶片。",
+      "试炼密室中会生成带有这些纹样的饰纹陶罐。"
+    ],
+    "旋风人": [
+      "现在只要眼部暴露在空气中就不会溺水，此前需要脚部暴露在空气中。",
+      "被玩家或驯服的狼杀死时不再掉落风弹，现在会掉落1-2个旋风棒，受抢夺魔咒影响。"
+    ],
+    "试炼密室": [
+      "加入了pedestal和​slanted决斗室，同时移除了chamber_3和​chamber_9。",
+      "现在其中的饰纹陶罐会随机附有涡流、旋风或刮削纹样陶片。",
+      "现在柱廊的试炼刷怪笼生成得更频繁。",
+      "将宝库、补给箱的底座方块由涂蜡的铜块和涂蜡的雕纹铜块更改为磨制安山岩和雕纹凝灰岩砖。"
+    ],
+    "图形": [
+      "优化了渲染区块的纹理滤波，以使多个LOD之间的过渡变得平滑。",
+      "为延迟渲染预览功能加入了新功能：天空反射。",
+      "此效果会根据粗糙度等表面属性在表面上显现天空的倒影。",
+      "不适用于洞穴、非露天区域和下界。"
+    ],
+    "Dimension": [
+      "加入了getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks?: boolean): ListBlockVolume函数。",
+      "若与过滤器相匹配，则获取功能域中的方块。",
+      "加入了containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks?: boolean): boolean函数。",
+      "若功能域中的方块与过滤器相匹配，则返回true，否则返回false。",
+      "将ItemCooldownComponent由beta移动至1.11.0。",
+      "为beta加入了BlockComponentStepOffEvent。",
+      "为BlockCustomComponent加入了onStepOff。",
+      "为beta加入了BlockComponentRandomTickEvent。",
+      "为BlockCustomComponent加入了onRandomTick。"
+    ],
+    "StructureManager": [
+      "加入了getIds(): string。",
+      "用于返回包括保存至内存和世界的所有结构在内的标识符列表。",
+      "修复了删除函数后不会一同删除之前保存至世界但尚未加载的结构的漏洞。",
+      "将createEmpty的默认保存模式更改为StructureSaveMode.Memory。"
+    ],
+    "角色创建器": [
+      "减少了游戏中遇到角色创建器皮肤时出现的卡帧。"
+    ],
+    "游戏内容": [
+      "修复了“搭桥”式放置方块时偶尔会双重放置方块的问题。（MCPE-123455）"
+    ],
+    "移动": [
+      "潜行的玩家移动至上方有1.5格高空间的床处时不再会爬行。"
+    ],
+    "Realms": [
+      "将单数形式的“Realm Stories members”更正为复数形式的“Realms Stories members”，以在不同屏幕之间保持一致（仅测试版本）。",
+      "修复了在已触发死亡屏幕的情况下从游戏内菜单跳转至Realms故事时游戏出现的卡死问题（仅测试版本）。",
+      "修复了旁白不会按预期读出中型Realm事件的帖子的问题。"
+    ],
+    "原版趋同": [
+      "盾牌现在可以格挡守卫者和远古守卫者激光攻击造成的部分伤害。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.80.22 — Minecraft Feedback，2024年3月14日。",
+      "Minecraft Preview 1.20.80.22 — Minecraft.net，2024年3月14日。",
+      "MCPE-179910 — 漏洞状态为“已修复”。",
+      "MCPE-179911",
+      "MCPE-179986 — 漏洞状态为“已修复”。",
+      "https://learn.microsoft.com/en-us/minecraft/creator/documents/deferredlighting?view=minecraft-bedrock-stable"
+    ]
+  }
+}

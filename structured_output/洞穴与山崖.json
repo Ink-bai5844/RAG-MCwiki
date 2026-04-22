@@ -1,0 +1,99 @@
+{
+  "title": "洞穴与山崖",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B4%9E%E7%A9%B4%E4%B8%8E%E5%B1%B1%E5%B4%96",
+  "structured_content": {
+    "默认分类": [
+      "关于游戏原声带，请见“Minecraft: Caves & Cliffs (Original Game Soundtrack)”。"
+    ],
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/洞穴与山崖以及基岩版指南/洞穴与山崖以查看洞穴与山崖的指南。",
+      "见Java版指南/洞穴与山崖以及基岩版指南/洞穴与山崖以查看洞穴与山崖的指南。"
+    ],
+    "洞穴与山崖第二部分主视觉图": [
+      "洞穴与山崖（Caves & Cliffs）是一次主要更新，以改造洞穴和山地为更新主题。此次更新首次宣布于Minecraft Live 2020，随后在开发过程中被宣布拆分为两个部分进行。第一部分的首个正式版于2021年6月8日在Java版1.17和基岩版1.17.0上同时发布，该部分的主要更新内容是加入新方块和新生物；第二部分的首个正式版于2021年11月30日在Java版1.18和基岩版1.18.0上发布，该部分的主要更新内容是扩大主世界的可建筑高度范围、加入新生物群系并重做世界生成。",
+      "在Java版上，此次更新的第一部分开发始于20w45a，其发布于2020年11月4日；第二部分开发始于1.18-exp1，其发布于2021年7月13日。",
+      "在基岩版上，此次更新的第一部分开发始于基岩版1.16.200.52，其发布于2020年10月28日；第二部分开发始于基岩版1.17.30.23，其发布于2021年8月25日。",
+      "另外，此次更新第一部分的特性在2021年11月2日发布于教育版1.17.30；第二部分的特性在2022年8月9日发布于教育版1.18.32。"
+    ],
+    "重要特性": [
+      "主条目：Java版1.17、​Java版1.18、​基岩版1.17.0、​基岩版1.18.0、​教育版1.17.30以及教育版1.18.32"
+    ],
+    "矿脉": [
+      "新的山地生物群系："
+    ],
+    "Java版": [
+      "1.17",
+      "1.17.1发布以调整部分游戏机制并修复一些漏洞。",
+      "1.18",
+      "1.18.1发布以调整迷雾机制并修复一些漏洞。",
+      "1.18.2发布以加入/placefeature命令、对标签和自定义世界生成进行大量改动并修复一些漏洞。"
+    ],
+    "基岩版": [
+      "1.17",
+      "1.17.1（NS专有）发布以修复无法连接服务器的漏洞。",
+      "1.17.2发布以修复矿物生成的漏洞。",
+      "1.17.10加入了蜡烛，同步了一些Java版的特性，通过实验性玩法加入了1.18.0的部分特性，并修复了一些漏洞。",
+      "1.17.11发布以修复漏洞。",
+      "1.17.30同步了一些Java版的特性，在实验性玩法中加入了更多1.18.0的特性，并修复了一些漏洞。",
+      "1.17.32发布以修复漏洞。",
+      "1.17.33（Fire专有）发布以修复无法启动游戏的问题。",
+      "1.17.34发布以修复关于兑换码的漏洞。",
+      "1.17.40在实验性玩法中加入了更多1.18.0的特性，并修复了一些漏洞。",
+      "1.17.41发布以修复漏洞。",
+      "1.18",
+      "1.18.1和1.18.2发布以修复漏洞。",
+      "1.18.10同步了一些Java版的特性，在实验性玩法中加入了1.19.0的部分特性，并修复了一些漏洞。",
+      "1.18.11（NS专有）发布以修复漏洞。",
+      "1.18.12发布以修复漏洞。",
+      "1.18.30同步了一些Java版的特性，更新了创建新世界UI，在实验性玩法中加入了更多特性，并修复了一些漏洞。",
+      "1.18.31发布以加入一个新的实验性玩法子选项，并修复一些漏洞。",
+      "1.18.32（Android、Fire和NS专有）发布以修复性能问题。",
+      "1.18.33（NS专有）发布以修复漏洞。"
+    ],
+    "你知道吗": [
+      "为了进行此次更新，Mojang的员工们探索了真正的洞穴，这有助于为更新提供灵感和想法。",
+      "Henrik Kniberg还回忆起了曾经探索世界各地的洞穴的经历。",
+      "在Minecraft Live 2020揭示噪声洞穴的片段中，矿石发出了光。但这是一项仅用于演示目的的开发者专属功能，也是后来加入的洞穴光源发光地衣的占位符。",
+      "考古学特性原计划于此更新加入，但在更新拆分后被推迟加入了。",
+      "原定于洞穴与山崖加入的内容直到勇气之袋小更新才最终全部实装。",
+      "洞穴与山崖第一部分的概念艺术灵感来自《探险活宝》系列的Minecraft特别篇：《钻石与柠檬》。",
+      "由于洞穴与山崖第一部分无论是相关快照的封面图还是官方预告片，山羊都占据非常大的戏份，因此被制作团队戏称为“山羊更新”。",
+      "教育版1.17.30也被称为“山羊更新（GOAT Update）”。",
+      "在洞穴与山崖第一部分官方预告片的0:24 — YouTube。处（山羊摔下山崖的片段），左边的夜空出现了摩羯座（Capricornus）星座，它代表着海山羊，同时“Capricornus”也是山羊角的拉丁名称。",
+      "预告片的0:31 — YouTube。处还混入了来自Minecraft Dungeons的死灵法师的笑声。"
+    ],
+    "没有徽标的洞穴与山崖第二部分主视觉图": [
+      "Minecraft Live 2020",
+      "来自Minecraft Live 2020的有关洞穴与山崖的截图："
+    ],
+    "开发者截图": [
+      "来自开发人员的关于洞穴与山崖的截图："
+    ],
+    "对比图": [
+      "来自minecraft.net中洞穴与山崖更新介绍的图片："
+    ],
+    "地形与生物群系会独立生成": [
+      "新增3D生物群系生成"
+    ],
+    "外部链接": [
+      "洞穴与山崖（第一部分）官方页面（存档）。",
+      "洞穴与山崖官方页面（存档）。"
+    ],
+    "参考": [
+      "Minecraft Live: The Recap — Minecraft.net，2020年10月3日。",
+      "A Caves & Cliffs announcement — Minecraft.net，2021年4月14日。",
+      "Caves & Cliffs: Part I out today on Java — Minecraft.net，2021年6月8日。",
+      "Minecraft - Caves & Cliffs: Part I - 1.17.0 (Bedrock) — Minecraft Feedback，2021年6月8日。",
+      "Caves & Cliffs: Part II out today on Java — Minecraft.net，2021年11月30日。",
+      "Minecraft - Caves & Cliffs: Part II - 1.18.0 (Bedrock) — Minecraft Feedback，2021年11月30日。",
+      "Yes, and yes. Was hoping to do a larger field trip to different countries with interesting caves, but covid got in the way so we had stay more local.，来自@henrikkniberg。X（曾名Twitter），2020年10月23日。",
+      "Mesh caves were inspired by this field trip.，来自@henrikkniberg。X（曾名Twitter），2020年10月22日。",
+      "I used to travel a lot in the past though (before becoming aware of climate change), and I like visiting caves, so I dug up memories from fascinating cave visits in Spain, South Africa, New Zealand, and British Virgin Isles and some other places.，来自@henrikkniberg。X（曾名Twitter），2020年10月23日。",
+      "A Caves & Cliffs Announcement，来自Minecraft。YouTube，2021年4月14日。",
+      "Definitely one of my biggest inspirations! My favorite show + favorite game - it shaped a lot how I approached concepts for Minecraft artstyle，来自@cookiecat_9。X（曾名Twitter），2020年10月4日。",
+      "New on Java Realms The Realms Travel Agency，来自Oskar Thysell。Minecraft.net，2021年6月18日。",
+      "Caves & Cliffs Update: Part I – Official Trailer，来自Minecraft。YouTube，2021年6月8日。",
+      "My last tweet was probably not a teaser, but this one almost definitely is，来自@Cojomax99。X（曾名Twitter）。"
+    ]
+  }
+}

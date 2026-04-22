@@ -1,0 +1,5 @@
+{
+  "title": "驴/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%A9%B4%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n马类共通标签，见Template:Nbt inherit/horse/source\n*\n*ChestedHorse：表示驴身上是否带箱子。\nItems：（当*\n*ChestedHorse为true时存在并有效）物品栏列表。驴共有15个槽位，超过槽位范围的物品无效。\n：一个物品。\n物品共通标签，见Template:Nbt inherit/item/source"
+}

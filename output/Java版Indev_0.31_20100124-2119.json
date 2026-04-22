@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 0.31 20100124-2119",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100124-2119",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n0.31\n版本\nJava版\n发布时间\n2010年1月24日\n下载\n不可用\nal_version\n1.044\n◄◄0.30\nMinecraft Indev►►\n◄0.31 20100122-2251\n0.31 20100124-2134►\n0.31的一个版本发布于2010年1月24日21:19（UTC），加入了一些新特性。\n新内容\n方块\n箱子\n用于存储方块和物品。\n在两个箱子中间放置箱子会形成三重箱子。\n非生物实体\n箭\n加入了新的音效。\n游戏内容\n常规\n一次可扔掉一整组物品，而非之前的一个。\n世界生成\nIndev房子\n一种新的结构，自然生成于世界中心。\n玩家生成于此，内有装着几乎每种方块和所有可用工具的箱子。\n更改\n方块\n熔岩\n再次可以点燃易燃物体。\n物品\n斧\n更改了纹理。\n常规\n堆叠方块最大限制变回99。\n非生物实体\n方块掉落物现在会旋转。[需要验证]\n参考\nChests, and generic tile entity support（存档） — The Word of Notch，2010年1月24日。\nThat was a lot of work, but it should behave better now（存档） — The Word of Notch，2010年2月14日。\n导航"
+}

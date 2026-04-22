@@ -1,0 +1,155 @@
+{
+  "title": "马铃薯皮方块",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%A9%AC%E9%93%83%E8%96%AF%E7%9A%AE%E6%96%B9%E5%9D%97",
+  "structured_content": {
+    "默认分类": [
+      "关于腐败变种，请见“腐败的马铃薯皮方块”。",
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。"
+    ],
+    "无": [
+      "方块：损坏中"
+    ],
+    "硬度": [
+      "2",
+      "2"
+    ],
+    "爆炸抗性": [
+      "2"
+    ],
+    "引燃几率": [
+      "0"
+    ],
+    "烧毁几率": [
+      "0"
+    ],
+    "地图基色": [
+      "马铃薯皮方块：",
+      "#B4B4B4",
+      "淡灰色马铃薯皮方块：",
+      "#999999",
+      "灰色马铃薯皮方块：",
+      "#4C4C4C",
+      "黑色马铃薯皮方块：",
+      "#191919",
+      "棕色马铃薯皮方块：",
+      "#664C33",
+      "红色马铃薯皮方块：",
+      "#993333",
+      "橙色马铃薯皮方块：",
+      "#D87F33",
+      "黄色马铃薯皮方块：",
+      "#E5E533",
+      "黄绿色马铃薯皮方块：",
+      "#7FCC19",
+      "绿色马铃薯皮方块：",
+      "#667F33",
+      "青色马铃薯皮方块：",
+      "#4C7F99",
+      "淡蓝色马铃薯皮方块：",
+      "#6699D8",
+      "蓝色马铃薯皮方块：",
+      "#334CB2",
+      "紫色马铃薯皮方块：",
+      "#7F3FB2",
+      "品红色马铃薯皮方块：",
+      "#B24CD8",
+      "粉红色马铃薯皮方块：",
+      "#F27FA5"
+    ],
+    "方块ID": [
+      "马铃薯皮方块：potato_peels_block",
+      "淡灰色马铃薯皮方块：light_gray_potato_peels_block",
+      "灰色马铃薯皮方块：gray_potato_peels_block",
+      "黑色马铃薯皮方块：black_potato_peels_block",
+      "棕色马铃薯皮方块：brown_potato_peels_block",
+      "红色马铃薯皮方块：red_potato_peels_block",
+      "橙色马铃薯皮方块：orange_potato_peels_block",
+      "黄色马铃薯皮方块：yellow_potato_peels_block",
+      "黄绿色马铃薯皮方块：lime_potato_peels_block",
+      "绿色马铃薯皮方块：green_potato_peels_block",
+      "青色马铃薯皮方块：cyan_potato_peels_block",
+      "淡蓝色马铃薯皮方块：light_blue_potato_peels_block",
+      "蓝色马铃薯皮方块：blue_potato_peels_block",
+      "紫色马铃薯皮方块：purple_potato_peels_block",
+      "品红色马铃薯皮方块：magenta_potato_peels_block",
+      "粉红色马铃薯皮方块：pink_potato_peels_block"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "马铃薯皮方块：potato_peels_block",
+      "淡灰色马铃薯皮方块：light_gray_potato_peels_block",
+      "灰色马铃薯皮方块：gray_potato_peels_block",
+      "黑色马铃薯皮方块：black_potato_peels_block",
+      "棕色马铃薯皮方块：brown_potato_peels_block",
+      "红色马铃薯皮方块：red_potato_peels_block",
+      "橙色马铃薯皮方块：orange_potato_peels_block",
+      "黄色马铃薯皮方块：yellow_potato_peels_block",
+      "黄绿色马铃薯皮方块：lime_potato_peels_block",
+      "绿色马铃薯皮方块：green_potato_peels_block",
+      "青色马铃薯皮方块：cyan_potato_peels_block",
+      "淡蓝色马铃薯皮方块：light_blue_potato_peels_block",
+      "蓝色马铃薯皮方块：blue_potato_peels_block",
+      "紫色马铃薯皮方块：purple_potato_peels_block",
+      "品红色马铃薯皮方块：magenta_potato_peels_block",
+      "粉红色马铃薯皮方块：pink_potato_peels_block",
+      "马铃薯皮方块（Block of Potato Peels）是用9个马铃薯皮合成的方块。"
+    ],
+    "自然生成": [
+      "黄绿色马铃薯皮方块会作为马铃薯村庄的一部分生成，同时也会在薯饼生物群系中自然生成，用于模仿仙人掌的外观。",
+      "黑色、灰色、淡灰色和绿色马铃薯皮方块会在废土生物群系的地表自然生成。"
+    ],
+    "毒马铃薯块": [
+      "对毒马铃薯块（不包括其压缩变种）使用马铃薯削皮刀可以分解出9个毒马铃薯，并在原地留下一个普通马铃薯皮方块。"
+    ],
+    "破坏": [
+      "没有工具可以加速对马铃薯皮方块的挖掘。"
+    ],
+    "徒手": [
+      "3"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "马铃薯皮方块被破坏后会掉落自身。"
+    ],
+    "削皮": [
+      "马铃薯皮方块可以通过放置后对其使用马铃薯削皮刀来分解为马铃薯皮。"
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "破坏方块": [
+      "nothingtoseeheremovealong:block.potone.break"
+    ],
+    "带有摔落伤害时摔落在方块上": [
+      "nothingtoseeheremovealong:block.potone.fall"
+    ],
+    "挖掘方块": [
+      "nothingtoseeheremovealong:block.potone.hit"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "放置方块": [
+      "nothingtoseeheremovealong:block.potone.place"
+    ],
+    "在方块上行走": [
+      "nothingtoseeheremovealong:block.potone.step"
+    ],
+    "subtitles.block.generic.footsteps": [
+      "MC-177082"
+    ],
+    "你知道吗": [
+      "由于对毒马铃薯方块削皮不会消耗原料中的9个毒马铃薯，因此每消耗一个马铃薯削皮刀就可以制造238个普通马铃薯皮方块。",
+      "如果对制造的普通马铃薯皮方块再次削皮分解为普通马铃薯皮，每个马铃薯削皮刀可削出1071个普通马铃薯皮，使用不消耗燃料的营火或煎炸台煎炸为薯饼食用一共可恢复2142饥饿值。"
+    ]
+  }
+}

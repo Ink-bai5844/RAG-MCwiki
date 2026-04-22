@@ -1,0 +1,22 @@
+{
+  "title": "核心",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%A0%B8%E5%BF%83",
+  "structured_content": {
+    "Minecraft": [
+      "潮涌核心 - 能够给予玩家潮涌能量效果并攻击怪物的方块。",
+      "沉重核心 - 用于合成重锤的方块。",
+      "下界反应核[仅基岩版] - 一种未使用的方块。"
+    ],
+    "Minecraft Dungeons": [
+      "潮涌核心 - DLC隐秘深渊中的消耗品。"
+    ],
+    "Minecraft Legends": [
+      "炮塔核心 - 用于建造炮塔的资源。",
+      "霜冻塔核心 - 用于建造霜冻塔的资源。",
+      "击昏塔核心 - 用于建造击昏塔的资源。"
+    ],
+    "Minecraft系列": [
+      "核心卡 - Minecraft: Builders & Biomes 的游戏组件之一。"
+    ]
+  }
+}

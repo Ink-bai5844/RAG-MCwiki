@@ -1,0 +1,23 @@
+{
+  "title": "命令/getitemdetail",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgetitemdetail",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少输出、缺少示例、缺少历史",
+      "此条目所介绍的内容已从基岩版和​教育版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "无": [
+      "返回指定槽位的物品的名称。"
+    ],
+    "语法": [
+      "getitemdetail <slotNum：整数>"
+    ],
+    "参数": [
+      "slotNum：整数",
+      "指定需要获得信息的物品所在的槽位。"
+    ]
+  }
+}

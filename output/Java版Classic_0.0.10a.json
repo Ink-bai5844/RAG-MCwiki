@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.10a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.10a",
+  "text": "此条目记录了仅私下发布过的版本。\n尽管它未公开发布过，但有证据证明这个版本的确存在。\n0.0.10a\n版本\nJava版\n开发时间\n2009年5月17日\n下载\n不可用\nal_version\n未知\n◄◄0.0.9a\n0.0.11a►►\n0.0.10a是2009年5月17日制作完成的Classic版本，修复了一些漏洞。\n新内容\n常规\n控制\n按F10 + Esc + Alt解除鼠标锁定并暂停游戏。\n更改\n常规\n其他\n增强了性能的稳定性。\n修复\n修复了1个漏洞\n修复了游戏在Opera浏览器中崩溃的漏洞。\n你知道吗\n该版本原本计划向公众发布，但由于Notch忘记替换成正常的启动和关闭函数，游戏无法进行，所以在仅仅四分钟后就被Classic 0.0.11a取代了。\n参考\nlwjgl IRC logs（存档） — Echelog，May 17, 2009 (UTC+2)。 \"[13:53:09] <Notch_> 0.0.10a should be up now\" [...] \"[13:53:34] <Notch_> I forgot to take out the normal start() and destroy()..\" [...] \"[13:56:55] <Notch_> ok, it's up. 0.0.11a\"\n导航"
+}

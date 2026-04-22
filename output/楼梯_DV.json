@@ -1,0 +1,5 @@
+{
+  "title": "楼梯/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%A5%BC%E6%A2%AF%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n一个值范围0-3的2位二进制数字，储存楼梯朝向：\n0：楼梯朝向东方\n1：楼梯朝向西方\n2：楼梯朝向南方\n3：楼梯朝向北方\n0x4\n楼梯是否上下颠倒。\n0x8\n（未使用）"
+}

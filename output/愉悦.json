@@ -1,0 +1,5 @@
+{
+  "title": "愉悦",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%84%89%E6%82%A6",
+  "text": "此条目描述的是一个愚人节玩笑版本15w14a中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n愉悦\n[[|]][[|]]\n颜色\n隐身：\n#F6F6F6\n反胃：\n#551D4A\n类型\n隐身：正面\n反胃：负面\n即时生效\n否\n免疫的生物\n末影龙\n凋灵\n状态效果ID\n隐身：invisibility\n反胃：nausea\n愉悦（Fun）是一种状态效果，该效果会替换状态效果隐身和反胃的数据值。\n效果\n主条目：隐身 § 效果和反胃 § 效果\n来源\n效果等级\n时长\n备注\n愉悦药水\nI\n3:00\n由隐身药水改名\n愉悦药水（延长版）\nI\n8:00\n由隐身药水（延长版）改名\n喷溅型 愉悦药水\nI\n3:00\n由喷溅型 隐身药水改名\n喷溅型 愉悦药水（延长版）\nI\n8:00\n由喷溅型 隐身药水（延长版）改名\n玩家吃下 河豚时会获得该效果\nI\n0:15\n数据值\nID\n名称\n命名空间ID\n数字ID\n本地化键名\nFun\ninvisibility\n14\neffect.invisibility.name\nFun\nnausea\n9\neffect.nausea.name\n导航"
+}

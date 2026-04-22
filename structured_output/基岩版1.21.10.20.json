@@ -1,0 +1,283 @@
+{
+  "title": "基岩版1.21.10.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.10.20",
+  "structured_content": {
+    "默认分类": [
+      "1.21.10.20"
+    ],
+    "服务端版本": [
+      "1.21.10.20"
+    ],
+    "版本码": [
+      "Android：",
+      "952101020（armeabi-v7a，34）",
+      "962101020（x86，34）",
+      "972101020（arm64-v8a，34）",
+      "982101020（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年5月22日"
+    ],
+    "测试版归属": [
+      "1.21.20"
+    ],
+    "协议版本": [
+      "691",
+      "◄◄1.21.3",
+      "1.21.21►►",
+      "1.21.10.21►",
+      "beta 1.21.10.20（ChromeOS/Android）、Preview 1.21.10.20（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的首个测试版，发布于2024年5月22日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "更新了地物规则模式的文档。",
+      "现在Chromebooks上的纸娃娃选项默认关闭。"
+    ],
+    "实验性玩法": [
+      "加入了“创作者相机：新的第三人称预设”子选项。",
+      "用于启用minecraft:follow_orbit相机预设，可通过/camera命令使用，并且可以拥有视角偏移量。"
+    ],
+    "方块": [
+      "修复了潜行时与命令方块、拼图方块和结构方块交互可能会导致UI被多次打开或关闭的漏洞。",
+      "在远距离处移动视角观察脚手架时，脚手架不再会闪烁。（MCPE-120910）",
+      "现在使用/summon命令放置的雪层（snow_layer）会下落。"
+    ],
+    "虫蚀方块": [
+      "IDmonster_egg现在被拆分为：infested_stone、​infested_cobblestone、​infested_stone_bricks、​infested_mossy_stone_bricks、​infested_cracked_stone_bricks和​infested_chiseled_stone_bricks。",
+      "monster_egg及其数据值仍然可用，但不会在命令提示中出现。",
+      "将虫蚀圆石的硬度更改为1。"
+    ],
+    "脚手架": [
+      "不再具有3D的网孔。"
+    ],
+    "台阶": [
+      "平滑石头双层台阶、砂岩双层台阶、石化橡木双层台阶、圆石双层台阶、红砖双层台阶、石砖双层台阶、石英双层台阶和下界砖双层台阶的IDdouble_stone_block_slab现在被拆分为：smooth_stone_double_slab、​sandstone_double_slab、​petrified_oak_double_slab、​cobblestone_double_slab、​brick_double_slab、​stone_brick_double_slab、​quartz_double_slab和​nether_brick_double_slab。",
+      "double_stone_block_slab及其数据值仍然可用，但不会在命令提示中出现。",
+      "红砂岩台阶、紫珀台阶、海晶石台阶、暗海晶石台阶、海晶石砖台阶、苔石台阶、平滑砂岩台阶和红色下界砖台阶的IDstone_block_slab2现在被拆分为：red_sandstone_slab、​purpur_slab、​prismarine_slab、​dark_prismarine_slab、​prismarine_brick_slab、​mossy_cobblestone_slab、​smooth_sandstone_slab和​red_nether_brick_slab。",
+      "stone_block_slab2及其数据值仍然可用，但不会在命令提示中出现。",
+      "末地石砖台阶、平滑红砂岩台阶、磨制安山岩台阶、安山岩台阶、闪长岩台阶、磨制闪长岩台阶、花岗岩台阶和磨制花岗岩台阶的IDstone_block_slab3现在被拆分为：end_stone_brick_slab、​smooth_red_sandstone_slab、​polished_andesite_slab、​andesite_slab、​diorite_slab、​polished_diorite_slab、​granite_slab和​polished_granite_slab。",
+      "stone_block_slab3及其数据值仍然可用，但不会在命令提示中出现。",
+      "将海晶石台阶、暗海晶石台阶、海晶石砖台阶、安山岩台阶、磨制安山岩台阶、闪长岩台阶、磨制闪长岩台阶、花岗岩台阶和磨制花岗岩台阶的硬度更改为1.5。",
+      "将末地石砖台阶的硬度更改为3。"
+    ],
+    "石砖": [
+      "IDstonebrick现在被拆分为：stone_bricks、​mossy_stone_bricks、​cracked_stone_bricks和​chiseled_stone_bricks。",
+      "stonebrick及其数据值仍然可用，但不会在命令提示中出现。",
+      "平滑石砖不再能通过命令获取，现有的平滑石砖现在会转换为石砖。"
+    ],
+    "试炼刷怪笼": [
+      "修改了激活指示灯和顶部的纹理。",
+      "修复了试炼刷怪笼的纹理存在一些不一致处的问题。（MCPE-181455）"
+    ],
+    "物品": [
+      "现在带有纹饰的自定义盔甲物品会在其图标纹理名称包含命名空间或与物品名称不匹配时正确显示。",
+      "引入了作为马等实体的额外盔甲槽slot.armor.body，被限于单个盔甲物品，但需要全套盔甲的效果（测试性更改）。",
+      "支持slot.armor.body的有：",
+      "旋风棒现在会在第三人称视角下正确渲染。（MCPE-179661）",
+      "重锤不再能像剑和其他锋利的物品一样快速破坏蜘蛛网和竹子。（MCPE-179754）",
+      "钓鱼竿浮漂不再能钩住带有弹射物反射组件的活动对象。（MCPE-180337）",
+      "重锤猛击不再会击退由使用重锤的玩家驯服的生物。（MCPE-180962）",
+      "使用带有风爆魔咒的重锤攻击实体时不再会抵消摔落伤害。（MCPE-181496）"
+    ],
+    "重锤": [
+      "现在不再是蜘蛛网和竹子的合适挖掘工具，也不再能加速挖掘其他方块。",
+      "现在不会击退被自己驯服的生物。"
+    ],
+    "生物": [
+      "沼骸在水下的近战攻击不再会对被攻击者施加缓慢效果。（MCPE-178884）",
+      "鹦鹉现在会正确模仿附近的沼骸的声音。"
+    ],
+    "女巫": [
+      "为了增加沼泽小屋农场的产量，现在女巫死亡时总会掉落4-8个红石粉。",
+      "抢夺魔咒会影响掉落数量。每级可使掉落数量上限增加1，使用抢夺III最多掉落11个。"
+    ],
+    "试炼密室": [
+      "现在更少地生成于深暗之域中。"
+    ],
+    "创建新的世界和新的编辑世界屏幕": [
+      "现在极限模式选项的开关样式为极限模式红心。",
+      "现在开启极限模式选项后，世界图标会显示红色边框和极限模式红心。",
+      "加入了打开和关闭极限模式选项的音效。"
+    ],
+    "教学提示": [
+      "为触控设备加入了游泳提示。",
+      "现在会指导使用方向键控制方案的触控设备玩家如何进行移动。",
+      "现在只会在玩家处于水中时显示游泳提示。",
+      "现在玩家在细雪中被冰冻时会优先显示破坏方块提示。",
+      "现在玩家周围存在敌对生物时只会指导玩家如何逃跑（显示移动、跳跃和转动视角提示），而不会显示其他提示。"
+    ],
+    "附加包和脚本引擎": [
+      "加入了生物群系JSON中snow_accumulation数组的最小值设置为高于最大值的值时出现的内容日志错误。",
+      "修复了执行非缓动的/camera set命令后相机视角偶尔会有可见的缓动运动的问题。（MCPE-181364）",
+      "修复了导致旁加载的.mcpack文件在上传至Realms时应用失败的问题。"
+    ],
+    "API": [
+      "修复了加载结构中的get和​StructureManager.place无法存储在结构目录的根目录中的漏洞。",
+      "MinecraftItemTypes不再包含旧的物品名称。",
+      "修复了从runCommand()和​Dimension.runCommandAsync()脚本API中执行的运行命令时会导致游戏崩溃的漏洞。"
+    ],
+    "Potions": [
+      "加入了Potions类。",
+      "包含用于检索药水相关类型的句柄的帮助器。",
+      "加入了PotionEffectType类。",
+      "与MinecraftPotionEffectTypes相关的药水效果类型句柄。",
+      "加入了PotionModifierType类。",
+      "与MinecraftPotionModifierTypes相关的药水修饰符类型句柄。",
+      "加入了PotionLiquidType类。",
+      "与MinecraftPotionLiquidTypes相关的药水类型句柄。",
+      "加入了ItemPotionComponent类。",
+      "可从有效药水的ItemStack中获取。",
+      "加入了用于createPotion的PotionOptions接口。",
+      "加入了用于创建有效药水物品的createPotion函数。"
+    ],
+    "Vanilla-Data": [
+      "加入了包含药水的液体ID的MinecraftPotionLiquidTypes枚举。",
+      "加入了包含药水的效果ID的MinecraftPotionEffectTypes枚举。",
+      "加入了包含药水的修饰符ID的MinecraftPotionModifierTypes枚举。"
+    ],
+    "BlockExplodeAfterEvent": [
+      "将BlockExplodeAfterEvent由beta开放至1.12.0。",
+      "将BlockExplodeAfterEventSignal由beta开放至1.12.0。",
+      "将blockExplode由beta开放至1.12.0。",
+      "将ItemTypes由beta开放至1.12.0。",
+      "将InputPermissionCategory由beta开放至1.12.0。",
+      "将PlayerInputPermissions and inputPermissions由beta开放至1.12.0。",
+      "将PlayerInputPermissionCategoryChangeAfterEvent和​afterEvents.playerInputPermissionCategoryChanged由beta开放至1.12.0。",
+      "为setCurrentValue加入了越界检查。",
+      "所提供的值会被钳制在该属性的区间内。"
+    ],
+    "GameRules": [
+      "将ShowDaysPlayed由beta开放至1.12.0。",
+      "将showDaysPlayed由beta开放至1.12.0。"
+    ],
+    "EnchantmentTypes": [
+      "将getAll(): EnchantmentType[]由beta开放至1.12.0。"
+    ],
+    "EntityRaycastOptions": [
+      "将ignoreBlockCollision由beta开放至1.12.0。",
+      "将includeLiquidBlocks由beta开放至1.12.0。",
+      "将includePassableBlocks由beta开放至1.12.0。",
+      "将hitBlockPermutation member of EntityHitBlockAfterEvent由beta开放至1.12.0。",
+      "将Entity上的addEffect方法的beta版本开放至3.0。",
+      "用于为新创建的效果添加返回类型（若未添加任何效果，则返回未定义）。"
+    ],
+    "基岩版编辑器": [
+      "加入了新的粘贴预览工具，支持剪粘板内容预览可视化，能够旋转和镜像处理剪粘板内容，并为键盘绑定加入了更多功能：",
+      "⇧ Shift + Ctrl + V：激活粘贴预览模式。",
+      "Ctrl + C：将选区复制到剪粘板中。",
+      "Ctrl + V：立即粘贴光标所在位置（不预览）。",
+      "Ctrl + D或Esc：取消选定预览模式。",
+      "鼠标左键单击、↵ Enter或Ctrl + F：将粘贴预览复制到世界中3D方块光标所在位置。",
+      "Ctrl + 鼠标单击：移除剪贴板项目形状中的方块（目前仅使用边界框）。",
+      "B：光标方块模式。",
+      "F：光标相邻（面）模式。",
+      "R：在轴心点所在位置绕Y轴顺时针旋转（0°、90°、180°、270°）。",
+      "⇧ Shift + R：在轴心点所在位置绕Y轴逆时针旋转（270°、180°、90°、0°）。",
+      "X：沿X轴进行镜像。",
+      "Z：沿Z轴进行镜像。",
+      "C：将光标控制模式切换为“鼠标与键盘”或“仅鼠标”。",
+      "D：将光标控制模式更改为“固定距离”。",
+      "鼠标滚轮：调整光标固定距离（仅启用固定距离时可用）。",
+      "修复了反复点击画笔工具设置中的“统一”复选框可能导致崩溃的漏洞。",
+      "为IMenu和​IMenuCreationParams加入了enabled属性。",
+      "为操作栏加入了自定义和分页支持。",
+      "可以通过加号按钮打开操作选择器来添加新项目，或通过已有项目右下角的箭头来修改它们。",
+      "更新了SimpleTool类的文档。",
+      "现在使用画笔放置的雪层会下落。"
+    ],
+    "实体": [
+      "装备到第二个槽位的盔甲的minecraft:equippable现在应用于slot.armor.body而非slot.armor.torso。",
+      "现在使用值为4的query.armor_texture_slot、​query.armor_color_slot和​query.armor_damage_slot才可检索与之相关的信息。",
+      "此更改仅影响格式版本大于等于1.21.10的实体。"
+    ],
+    "图形": [
+      "存档截图缩略图现在支持开启RTX和延迟渲染预览功能的世界。",
+      "现在使用minecraft:particle_appearance_lighting组件的粒子发射器会使用正确的光照等级，而不是世界的原始光照等级。",
+      "移除了延迟渲染预览功能中的大气散射中错误的10倍乘数。",
+      "这可能会导致现有包中的天空变暗。",
+      "创作者需要将瑞利散射强度、米氏太阳散射强度和米氏月亮散射分别乘10倍，以实现与之前相同的视觉效果。",
+      "更正了Android平台上的延迟渲染预览功能中的ACES色调映射器的问题。",
+      "ACES色调映射器现在会在Android平台上达到预期效果。",
+      "此更改不会影响其他平台。",
+      "现在当延迟渲染预览功能的format_version指定为1.21.0或更高版本时，体积雾密度设置会对天气进行支持。"
+    ],
+    "命令（即使目前没有合适的物品可供操作）": [
+      "minecraft:attachable",
+      "minecraft:interact",
+      "query.armor_texture_slot（值为4）",
+      "query.armor_color_slot（值为4）",
+      "query.armor_damage_slot（值为4）"
+    ],
+    "any_slot_empty实体过滤器（域为body）": [
+      "不支持slot.armor.body的有：",
+      "minecraft:wearable"
+    ],
+    "Molang": [
+      "开放了不再需要开启“即将推出的创作者功能”选项的state_time。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "BlockRecordPlayerComponent": [
+      "为@minecraft/server-ui测试版加入了UIManager类和uiManager对象。",
+      "将componentId重命名为minecraft:record_player以保持一致性。",
+      "加入了getRecord、​ejectRecord、​pauseRecord和​playRecord方法。",
+      "移除了clearRecord方法，现在应将未定义传递给setRecord以将其重置。",
+      "移除了beta中的readonly getLifetimeState: EntityLifetimeState属性。",
+      "移除了beta中的EntityLifetimeState枚举。",
+      "将setBlockPermutation(location: Vector3, permutation: BlockPermutation): void由beta移动至1.12.0。",
+      "将setBlockType(location: Vector3, blockType: BlockType | string): void由beta移动至1.12.0。",
+      "将getTags(): string[]由beta移动至1.12.0。",
+      "将hasTag(tag: string): boolean由beta移动至1.12.0。",
+      "移除了readonly fallDistance: number属性。"
+    ],
+    "EntityLeashableComponent": [
+      "加入了canBeStolen: boolean属性。",
+      "加入了hardDistance: number属性。",
+      "加入了leashHolder: Entity属性。",
+      "加入了leashHolderEntityId: string属性。",
+      "加入了maxDistance: number属性。",
+      "加入了isLeashed: boolean属性。",
+      "将leash(leashHolder: Entity): void函数重命名为leashTo(leashHolder: Entity): void。"
+    ],
+    "音乐": [
+      "音乐不再能被/stopsound命令停止播放。"
+    ],
+    "游戏内容": [
+      "连续放置台阶和楼梯时不再会随机开始在底部放置方块。（MCPE-54855）",
+      "修复了距离出生点数千格远时，区块内的环境会发生显著变化的漏洞。（REALMS-11625）",
+      "现在破坏树叶时产生的粒子的颜色与所破坏树叶的颜色相匹配。（MCPE-179726）",
+      "定位器地图现在仅会显示头部以及头部附着物。（MCPE-61891）",
+      "现在玩家在沉重核心上行走时发出的音效由音频设置中的正确滑块控制。"
+    ],
+    "市场": [
+      "修复了与下载内容卡住相关的大量漏洞，相关错误包括：“下载全部卡在0%”和损坏的内容更新。（MCPE-177684）"
+    ],
+    "石化橡木台阶": [
+      "double_stone_block_slab的橡木外观变种（aux值为2）现在被扁平化为新的方块minecraft:petrified_oak_double_slab。（MCPE-180964）"
+    ],
+    "弹射物": [
+      "现在可以通过/summon命令生成风弹弹射物。（MCPE-178937）"
+    ],
+    "Realms": [
+      "现在Realms购买屏幕上所有的物品均可以被选中，并且可以使用游戏手柄控制进行选择。",
+      "移除了Minecraft百科全书的Realms部分中多余的“the”。"
+    ],
+    "用户界面": [
+      "拥有生命恢复效果时，HUD中的红心不再会抖动得过快。（MCPE-180864）",
+      "按住⇧ Shift单击物品栏物品时不再会导致物品堆叠计数器短暂出现在物品堆叠上方。",
+      "与玩家交互范围外的方块交互时不再会短暂出现方块界面。",
+      "物品被快速移动时不再会在物品堆叠大小的数字前方渲染。（MCPE-180712）",
+      "一叠物品上的数字不再会与村民交易菜单中的悬停文本相重叠。（MCPE-181338）",
+      "物品被快速移动到铁砧时不再会在槽位中略微移动。（MCPE-180275）",
+      "在创造模式物品栏中切换选项卡时，物品在触控设备上不再会保持被选中。（MCPE-173506）",
+      "现在可以在移动设备上通过点击创造模式物品栏中的其他物品来移除副手槽和合成方格中的物品。（MCPE-168757）"
+    ],
+    "宝库": [
+      "现在试炼密室的宝库喷出的战利品取决于玩家的等级、位置和种子。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.20.21 — Minecraft Feedback，2024年6月27日。“However, after careful consideration we have decided that we will be skipping the 1.21.10 update.”",
+      "Minecraft Beta & Preview - 1.21.10.20 — Minecraft Feedback，2024年5月22日。"
+    ]
+  }
+}

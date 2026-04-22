@@ -1,0 +1,5 @@
+{
+  "title": "Java版14w30b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8814w30b",
+  "text": "14w30b\n版本\nJava版\n类型\n快照\n发布时间\n2014年7月23日\n快照归属\n1.8\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n30\n资源包版本\n1\n◄◄1.7.10\n1.8.1►►\n◄14w30a\n14w30c►\n14w30b是Java版1.8的第39个快照，发布于2014年7月23日，修复了快照14w30a中的一些漏洞和崩溃。\n更改\n生物\n苦力怕、骷髅和僵尸\n闪电苦力怕的爆炸产生的生物头颅不再多于一个。\n修复\n修复了12个漏洞\n1.8前正式版的漏洞\nMC-229 — 使用热键时，全屏和窗口模式的切换状态不一致。\nMC-36883 — 游戏偶尔会卡住（0-3 FPS）。\nMC-49292 — 不能使用命令把末地传送门方块放置在末地。\n1.8开发版本的漏洞\nMC-58869 — 未充能的铁门具有powered: true状态。\nMC-59035 — Damage标签在/testfor命令中不能工作。\nMC-59262 — 水以熔岩的速度流动。\nMC-59668 — /setblock命令的时钟不起作用。\nMC-62202 — 调试分析崩溃：Ticking Entity: java.lang.ArrayIndexOutOfBoundsException: -1。\nMC-62582 — 在空区块中的箱子、告示牌和末影箱不渲染。\nMC-62583 — 破坏16×16×16区块中的最后一个方块后，这个方块会变成幽灵方块。\nMC-62896 — 在重生后持续死亡。\n上个开发版本的漏洞\nMC-63025 — 不移动鼠标，则区块不会重载。\n参考\nMinecraft snapshot 14w30c（存档），来自Dinnerbone。Mojang.com，2014年7月23日。\n导航"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "携带版0.15.0.a2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.15.0.a2",
+  "structured_content": {
+    "默认分类": [
+      "0.15.0.a2"
+    ],
+    "版本码": [
+      "Android：781150002（armeabi-v7a，22）"
+    ],
+    "发布时间": [
+      "2016年4月13日"
+    ],
+    "测试版归属": [
+      "0.15.0"
+    ],
+    "协议版本": [
+      "60",
+      "◄◄0.14.3",
+      "0.15.1►►",
+      "0.15.0.a3►",
+      "Realms alpha build 1是v0.15.0 alpha Realms部分的首个测试版，发布于2016年4月13日，重新加入了Realms。"
+    ],
+    "Realms": [
+      "在0.15.0正式发布前供免费试用。"
+    ],
+    "主菜单": [
+      "Realms按钮。",
+      "取代原先的选项按钮。",
+      "新增\"抗锯齿选项\"。",
+      "选项按钮现改为一个图标。",
+      "移动到屏幕右下方语言按钮的旁边。"
+    ],
+    "参考": [
+      "Minecraft Realms is coming to MC:PE and Win 10! http://mojang.com/2016/04/were-working-on-minecraft-realms-for-pocket-and-win-10/ Alpha test starting now on Android!，来自@jeb_。X（曾名Twitter）。",
+      "http://mojang.com/2016/04/were-working-on-minecraft-realms-for-pocket-and-win-10/",
+      "We just released Realms MCPE Alpha on Android, it will be free for a while for anyone that helps us test it :) http://mojang.com/2016/04/were-working-on-minecraft-realms-for-pocket-and-win-10/，来自@tomcc_。X（曾名Twitter）。",
+      "People, the 0.15 Alpha is just for Realms, there are no 0.15 features like Pistons! They will come later :)，来自@tomcc_。X（曾名Twitter）。"
+    ]
+  }
+}

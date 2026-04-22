@@ -1,0 +1,1270 @@
+{
+  "title": "刷怪蛋",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%88%B7%E6%80%AA%E8%9B%8B",
+  "structured_content": {
+    "创造标签页（JE）": [
+      "末影龙刷怪蛋、凋灵刷怪蛋：无",
+      "其他：刷怪蛋"
+    ],
+    "创造分类（BE）": [
+      "末影龙刷怪蛋、凋灵刷怪蛋：无",
+      "其他：自然"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "见§ 数据值": [
+      "想象这样一个有趣的场景——Minecraft里的每种生物都是从蛋里生出来的。玩家把蛋方块搬来搬去；动物们从蛋里孵化出来。"
+    ],
+    "——Notch": [
+      "刷怪蛋（Spawn Egg）是一种用于直接生成生物的物品。"
+    ],
+    "获取": [
+      "参见：Tutorial:获取任意物品",
+      "刷怪蛋无法在未开启作弊的生存模式的世界中获取。使用创造模式或启用作弊时，除末影龙刷怪蛋和凋灵刷怪蛋以外的刷怪蛋可以通过创造模式物品栏获取，所有刷怪蛋均可以通过创造模式中对除美西螈外[仅基岩版]有着对应刷怪蛋的生物使用选取方块或命令等方式获取。"
+    ],
+    "用途": [
+      "对一个方块的任意一面使用刷怪蛋可以生成一个相应的生物。若刷怪蛋被用在方块的上表面，生物生成时脚会直接接触地面，并且会播放对应生物的环境音效。在生存模式下，使用刷怪蛋会将其消耗，但在创造模式下不会。在Java版中，刷怪蛋生成的生物具有随机朝向。在基岩版中，玩家使用刷怪蛋生成的生物总是朝向该玩家。",
+      "在和平难度下，使用除末影龙、疣猪兽、猪灵和潜影贝外的敌对生物刷怪蛋时，不会生成对应生物；在Java版中，在生存模式下使用不会消耗刷怪蛋，在基岩版中则会。在Java版中，这些刷怪蛋的提示框中会显示“已在和平难度下禁用”。",
+      "刷怪蛋在纹理上有三种大小，以表示生物的体积。水生生物对应的刷怪蛋纹理下部有水渍。"
+    ],
+    "发射器": [
+      "用发射器发射刷怪蛋会直接在发射器前生成生物。在和平难度下，尝试发射无法存在于和平难度的生物时会消耗刷怪蛋但不生成生物[仅Java版]或将刷怪蛋以物品实体形式掷出[仅基岩版]。在Java版中，发射器使用刷怪蛋生成的生物具有随机朝向。在基岩版中，发射器使用刷怪蛋生成的生物总是朝向南方。"
+    ],
+    "幼年生物": [
+      "对于存在幼年形态的生物，对着该种生物使用其刷怪蛋会生成该种生物的幼年形态。"
+    ],
+    "刷怪笼和试炼刷怪笼": [
+      "对着刷怪笼或试炼刷怪笼使用刷怪蛋，会改变它们所生成的生物类型，但不会写入刷怪蛋中生物的附加数据。",
+      "在Java版中，若游戏规则“启用刷怪笼方块”（spawner_blocks_work）为false，会提示玩家“刷怪笼方块未启用”，而不会改变它们所生成的生物类型。"
+    ],
+    "重命名": [
+      "主条目：彩蛋 § 生物名称",
+      "刷怪蛋可以用铁砧重命名，刷怪蛋的名字会附加到生成的生物的实体数据。它们的名字仅能在4格以内被指着时才能看见。在Java版中，当生物杀死玩家时它的名字也会出现在死亡消息中。",
+      "如果将兔子刷怪蛋重命名为“Toast”，那么使用后会生成一只特殊纹理的兔子。",
+      "如果将任意刷怪蛋重命名为“Dinnerbone”或“Grumm”会在使用后生成倒立的生物。",
+      "如果将绵羊刷怪蛋重命名为“jeb_”，那么生成的绵羊会一直变色（但不影响获取羊毛时的颜色）。",
+      "如果将卫道士刷怪蛋重命名为“Johnny”，则生成的卫道士会攻击除灾厄村民、恶魂、盔甲架、幼年村民[仅Java版]和智能体[仅教育版和​基岩版]外的一切生物。"
+    ],
+    "安全保护": [
+      "本段落所述内容仅适用于Java版。"
+    ],
+    "经修改数据使得可生成命令方块矿车的悦灵刷怪蛋的物品提示框警告信息": [
+      "在Java版中，下落的方块、命令方块矿车和刷怪笼矿车属于“仅管理员可设置数据”的实体。",
+      "entity_data组件中的实体类型属于以上实体的刷怪蛋会在权限等级大于等于2的玩家的物品提示框中显示警告信息。",
+      "无论刷怪蛋最终会生成哪种实体，非管理员玩家或发射器使用刷怪蛋生成的实体都不会加载entity_data组件中的自定义实体数据。"
+    ],
+    "鸡": [
+      "鸡的变种取决于生成时所处的生物群系，详见鸡 § 生成。"
+    ],
+    "牛": [
+      "牛的变种取决于生成时所处的生物群系，详见牛 § 生成。"
+    ],
+    "猪": [
+      "猪的变种取决于生成时所处的生物群系，详见猪 § 生成。"
+    ],
+    "绵羊": [
+      "只会生成拥有天然颜色的绵羊，在不同的生物群系，绵羊生成时羊毛颜色的概率不同，详见绵羊 § 生成。",
+      "使用命名为“jeb_”的刷怪蛋生成的绵羊的颜色会不断循环变化。"
+    ],
+    "–": [
+      "硫方怪[实验性玩法“2026 年第 2 次更新”新增：BE 26.20][新增：JE 26.2]"
+    ],
+    "驴": [
+      "生成的驴都是未驯服的。"
+    ],
+    "马": [
+      "生成的马都是未驯服的。"
+    ],
+    "骡": [
+      "生成的骡都是未驯服的。"
+    ],
+    "猫": [
+      "生成的猫都是未驯服的。",
+      "在Java版中，猫在非满月期间生成时会随机挑选除黑猫外的10种外观；满月期间随机挑选所有11种外观；在沼泽小屋生成的猫都是黑猫。",
+      "在基岩版中，猫在生成时会随机挑选所有11种外观。"
+    ],
+    "鹦鹉": [
+      "生成的鹦鹉都是未驯服的，其颜色也是随机的。"
+    ],
+    "狼": [
+      "生成的狼都是未驯服的，默认不攻击玩家。",
+      "狼的毛色取决于生成时所处的生物群系，详见狼 § 生成。"
+    ],
+    "蝙蝠": [
+      "蝙蝠将在保持一定距离时或对着非透明方块底部使用刷怪蛋时倒挂在方块上。"
+    ],
+    "狐狸": [
+      "狐狸嘴里可能会叼有物品，并与自然生成的狐狸叼有的物品相同。",
+      "狐狸的皮肤是由生物群系决定的，在积雪的生物群系会生成白色狐狸，在其他生物群系会生成红色狐狸。"
+    ],
+    "山羊": [
+      "有2%概率生成尖叫山羊。"
+    ],
+    "羊驼": [
+      "生成的羊驼都是未驯服的。"
+    ],
+    "豹猫": [
+      "在基岩版中，有1⁄7（约14.29%）的概率，豹猫会带着两只幼年豹猫生成。"
+    ],
+    "熊猫": [
+      "熊猫的变种是随机的。"
+    ],
+    "兔子": [
+      "兔子的毛色是随机的。类似于自然生成的机制，生物群系的种类会影响兔子的毛色，详见兔子 § 外观。",
+      "只有将刷怪蛋重命名为“Toast”才能生成黑白相间的兔子。在Java版中，使用刷怪蛋不会生成杀手兔。"
+    ],
+    "美西螈": [
+      "对方块使用刷怪蛋不会生成蓝色美西螈，但在Java版中，对美西螈使用刷怪蛋生成幼年变种时有可能生成蓝色美西螈。"
+    ],
+    "青蛙": [
+      "青蛙的肤色取决于生成时所处的生物群系，详见青蛙 § 肤色。"
+    ],
+    "鹦鹉螺": [
+      "生成的鹦鹉螺都是未驯服的。"
+    ],
+    "鲑鱼": [
+      "大小是随机的。"
+    ],
+    "热带鱼": [
+      "花纹、颜色和体型是随机的。"
+    ],
+    "哞菇": [
+      "对方块使用刷怪蛋不会生成棕色哞菇，但在Java版中，对哞菇使用刷怪蛋生成幼年变种时有可能生成棕色哞菇。"
+    ],
+    "铁傀儡": [
+      "生成的铁傀儡在非和平难度下被玩家攻击后会反击玩家。"
+    ],
+    "村民": [
+      "着装风格由生物群系决定。在Java版中生成的村民必定为无业；在基岩版中村民的职业是随机的。"
+    ],
+    "行商羊驼": [
+      "生成的行商羊驼都是未驯服的。"
+    ],
+    "流浪商人": [
+      "在基岩版中生成流浪商人时，行商羊驼也会一并生成。",
+      "在Java版中由刷怪蛋生成的流浪商人不会消失。"
+    ],
+    "溺尸": [
+      "可以生成手持三叉戟、钓鱼竿或鹦鹉螺壳的溺尸。在Java版中生成幼年溺尸时有5%的概率生成幼年溺尸骑着鸡的鸡骑士。"
+    ],
+    "尸壳": [
+      "在Java版中生成幼年尸壳时有5%的概率生成幼年尸壳骑着鸡的鸡骑士。",
+      "它们也有一定概率在生成时带有工具、武器或盔甲。"
+    ],
+    "骷髅": [
+      "生成的骷髅的弓有概率是已附魔的。"
+    ],
+    "骷髅马": [
+      "不会生成骷髅陷阱马。",
+      "在Java版中，生成的骷髅马都是未驯服的，且无法骑乘。"
+    ],
+    "僵尸": [
+      "有一定的概率在生成时带有工具、武器或盔甲。",
+      "在Java版中生成幼年僵尸时又有5%的概率生成为鸡骑士。"
+    ],
+    "僵尸马": [
+      "生成的僵尸马都是未驯服的。"
+    ],
+    "僵尸鹦鹉螺": [
+      "生成的僵尸鹦鹉螺都是未驯服的。",
+      "在暖水海洋会生成珊瑚僵尸鹦鹉螺。"
+    ],
+    "僵尸村民": [
+      "僵尸村民的职业是随机的。在Java版中有一定的概率在生成时带有工具、武器或盔甲。",
+      "在Java版中生成幼年僵尸村民时有5%的概率生成为鸡骑士。"
+    ],
+    "蜘蛛": [
+      "有1%的概率会生成蜘蛛骑士。"
+    ],
+    "洞穴蜘蛛": [
+      "在基岩版中有1%的概率会生成蜘蛛骑士。"
+    ],
+    "嘎枝": [
+      "由刷怪蛋生成的嘎枝不会随着昼夜更替或天气变化而消失，能够受伤、穿越传送门。"
+    ],
+    "苦力怕": [
+      "苦力怕永远不会以闪电形态生成。"
+    ],
+    "史莱姆": [
+      "史莱姆以随机大小生成。"
+    ],
+    "恼鬼": [
+      "由刷怪蛋生成的恼鬼不会在一段时间后开始受到饥饿伤害。"
+    ],
+    "卫道士": [
+      "如果刷怪蛋被重命名为Johnny，生成的卫道士会对所有生物敌对，除了其他灾厄村民、恶魂、盔甲架、幼年村民[仅Java版]和智能体[仅教育版和​基岩版]。"
+    ],
+    "岩浆怪": [
+      "岩浆怪以随机大小生成。"
+    ],
+    "猪灵": [
+      "猪灵手持的武器是随机的。"
+    ],
+    "炽足兽": [
+      "有概率生成幼年炽足兽或僵尸猪灵骑乘它，后者生成时会携带鞍，其背上的僵尸猪灵会手持诡异菌钓竿。"
+    ],
+    "僵尸猪灵": [
+      "僵尸猪灵默认不攻击玩家，在Java版中生成幼年僵尸猪灵时有5%的概率生成僵尸猪灵骑着鸡的鸡骑士。"
+    ],
+    "末影人": [
+      "末影人默认不攻击玩家，手上不持有方块。"
+    ],
+    "基岩版和教育版刷怪蛋": [
+      "这些刷怪蛋只存在于教育版与基岩版中："
+    ],
+    "智能体": [
+      "基岩版中无法使用此刷怪蛋生成智能体。",
+      "在教育版中，若世界中已存在使用者创建的智能体，则使用智能体刷怪蛋只会把原有的智能体传送至所选方块。"
+    ],
+    "Mask": [
+      "曾作为部分刷怪蛋的着色模板，不会生成任何生物。"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "allay_spawn_egg": [
+      "spawn_egg / 134",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.allay_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:allay\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:allay_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "armadillo_spawn_egg": [
+      "spawn_egg / 142",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.armadillo_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:armadillo\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:armadillo_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "axolotl_spawn_egg": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.axolotl_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:axolotl\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:axolotl_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "bat_spawn_egg": [
+      "spawn_egg / 19",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.bat_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:bat\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:bat_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "bee_spawn_egg": [
+      "spawn_egg / 122",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.bee_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:bee\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:bee_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "blaze_spawn_egg": [
+      "spawn_egg / 43",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.blaze_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:blaze\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:blaze_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "bogged_spawn_egg": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.bogged_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:bogged\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:bogged_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "breeze_spawn_egg": [
+      "spawn_egg / 140",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.breeze_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:breeze\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:breeze_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "camel_spawn_egg": [
+      "spawn_egg / 138",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.camel_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:camel\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:camel_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "camel_husk_spawn_egg": [
+      "spawn_egg / 152",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.camel_husk_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:camel_husk\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:camel_husk_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "cat_spawn_egg": [
+      "spawn_egg / 75",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.cat_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:cat\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:cat_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "cave_spider_spawn_egg": [
+      "spawn_egg / 40",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.cave_spider_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:cave_spider\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:cave_spider_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "chicken_spawn_egg": [
+      "spawn_egg / 10",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.chicken_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:chicken\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:chicken_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "cod_spawn_egg": [
+      "spawn_egg / 112",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.cod_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:cod\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:cod_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "cow_spawn_egg": [
+      "spawn_egg / 11",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.cow_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:cow\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:cow_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "creaking_spawn_egg": [
+      "spawn_egg / 146",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.creaking_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:creaking\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:creaking_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "creeper_spawn_egg": [
+      "spawn_egg / 33",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.creeper_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:creeper\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:creeper_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "dolphin_spawn_egg": [
+      "spawn_egg / 31",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.dolphin_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:dolphin\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:dolphin_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "donkey_spawn_egg": [
+      "spawn_egg / 24",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.donkey_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:donkey\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:donkey_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "drowned_spawn_egg": [
+      "spawn_egg / 110",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.drowned_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:drowned\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:drowned_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "elder_guardian_spawn_egg": [
+      "spawn_egg / 50",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.elder_guardian_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:elder_guardian\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:elder_guardian_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "ender_dragon_spawn_egg": [
+      "spawn_egg / 53",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.ender_dragon_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:ender_dragon\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:ender_dragon_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "enderman_spawn_egg": [
+      "spawn_egg / 38",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.enderman_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:enderman\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:enderman_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "endermite_spawn_egg": [
+      "spawn_egg / 55",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.endermite_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:endermite\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:endermite_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "evoker_spawn_egg": [
+      "spawn_egg / 104",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.evoker_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:evoker\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:evoker_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "fox_spawn_egg": [
+      "spawn_egg / 121",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.fox_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:fox\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:fox_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "frog_spawn_egg": [
+      "spawn_egg / 132",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.frog_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:frog\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:frog_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "ghast_spawn_egg": [
+      "spawn_egg / 41",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.ghast_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:ghast\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:ghast_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "glow_squid_spawn_egg": [
+      "spawn_egg / 129",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.glow_squid_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:glow_squid\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:glow_squid_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "goat_spawn_egg": [
+      "spawn_egg / 128",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.goat_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:goat\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:goat_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "guardian_spawn_egg": [
+      "spawn_egg / 49",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.guardian_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:guardian\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:guardian_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "happy_ghast_spawn_egg": [
+      "spawn_egg / 147",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.happy_ghast_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:happy_ghast\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:happy_ghast_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "hoglin_spawn_egg": [
+      "spawn_egg / 124",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.hoglin_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:hoglin\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:hoglin_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "horse_spawn_egg": [
+      "spawn_egg / 23",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.horse_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:horse\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:horse_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "husk_spawn_egg": [
+      "spawn_egg / 47",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.husk_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:husk\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:husk_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "iron_golem_spawn_egg": [
+      "spawn_egg / 20",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_golem_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:iron_golem\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:iron_golem_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "llama_spawn_egg": [
+      "spawn_egg / 29",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.llama_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:llama\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:llama_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "magma_cube_spawn_egg": [
+      "spawn_egg / 42",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.magma_cube_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:magma_cube\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:magma_cube_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "mooshroom_spawn_egg": [
+      "spawn_egg / 16",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.mooshroom_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:mooshroom\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:mooshroom_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "mule_spawn_egg": [
+      "spawn_egg / 25",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.mule_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:mule\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:mule_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "nautilus_spawn_egg": [
+      "spawn_egg / 149",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.nautilus_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:nautilus\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:nautilus_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "ocelot_spawn_egg": [
+      "spawn_egg / 22",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.ocelot_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:ocelot\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:ocelot_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "panda_spawn_egg": [
+      "spawn_egg / 13",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.panda_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:panda\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:panda_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "parched_spawn_egg": [
+      "spawn_egg / 151",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.parched_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:parched\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:parched_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "parrot_spawn_egg": [
+      "spawn_egg / 30",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.parrot_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:parrot\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:parrot_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "phantom_spawn_egg": [
+      "spawn_egg / 58",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.phantom_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:phantom\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:phantom_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "pig_spawn_egg": [
+      "spawn_egg / 12",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.pig_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:pig\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:pig_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "piglin_spawn_egg": [
+      "spawn_egg / 123",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.piglin_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:piglin\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:piglin_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "刷怪蛋依靠entity_data组件生成实体，实体类型由id决定，如果该组件不存在则不会生成任何实体。",
+      "例如使用/give <玩家名> creeper_spawn_egg[entity_data = {id:\"minecraft:iron_golem\"}]会得到一个苦力怕的刷怪蛋，但生成的实体却是铁傀儡。",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "piglin_brute_spawn_egg": [
+      "spawn_egg / 127",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.piglin_brute_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:piglin_brute\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:piglin_brute_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "pillager_spawn_egg": [
+      "spawn_egg / 114",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.pillager_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:pillager\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:pillager_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "polar_bear_spawn_egg": [
+      "spawn_egg / 28",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.polar_bear_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:polar_bear\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:polar_bear_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "pufferfish_spawn_egg": [
+      "spawn_egg / 108",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.pufferfish_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:pufferfish\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:pufferfish_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "rabbit_spawn_egg": [
+      "spawn_egg / 18",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.rabbit_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:rabbit\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:rabbit_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "ravager_spawn_egg": [
+      "spawn_egg / 59",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.ravager_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:ravager\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:ravager_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "salmon_spawn_egg": [
+      "spawn_egg / 109",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.salmon_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:salmon\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:salmon_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "sheep_spawn_egg": [
+      "spawn_egg / 13",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.sheep_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:sheep\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:sheep_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "shulker_spawn_egg": [
+      "spawn_egg / 54",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.shulker_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:shulker\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:shulker_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "silverfish_spawn_egg": [
+      "spawn_egg / 39",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.silverfish_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:silverfish\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:silverfish_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "skeleton_spawn_egg": [
+      "spawn_egg / 34",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.skeleton_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:skeleton\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:skeleton_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "skeleton_horse_spawn_egg": [
+      "spawn_egg / 26",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.skeleton_horse_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:skeleton_horse\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:skeleton_horse_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "slime_spawn_egg": [
+      "spawn_egg / 37",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.slime_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:slime\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:slime_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "sniffer_spawn_egg": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.sniffer_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:sniffer\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:sniffer_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "snow_golem_spawn_egg": [
+      "spawn_egg / 21",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.snow_golem_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:snow_golem\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:snow_golem_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "spider_spawn_egg": [
+      "spawn_egg / 35",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.spider_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:spider\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:spider_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "squid_spawn_egg": [
+      "spawn_egg / 17",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.squid_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:squid\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:squid_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "stray_spawn_egg": [
+      "spawn_egg / 46",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.stray_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:stray\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:stray_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "炽足兽刷怪蛋": [
+      "硫方怪刷怪蛋[实验性玩法“2026 年第 2 次更新”新增：BE 26.20][新增：JE 26.2]"
+    ],
+    "strider_spawn_egg": [
+      "spawn_egg / 125",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.strider_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:strider\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:strider_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "tadpole_spawn_egg": [
+      "spawn_egg / 133",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.tadpole_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:tadpole\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:tadpole_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "trader_llama_spawn_egg": [
+      "spawn_egg / 157",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.trader_llama_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:trader_llama\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:trader_llama_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "tropical_fish_spawn_egg": [
+      "spawn_egg / 111",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.tropical_fish_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:tropical_fish\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:tropical_fish_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "turtle_spawn_egg": [
+      "spawn_egg / 74",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.turtle_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:turtle\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:turtle_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "vex_spawn_egg": [
+      "spawn_egg / 105",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.vex_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:vex\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:vex_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "villager_spawn_egg": [
+      "spawn_egg / 15",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.villager_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:villager\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:villager_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "vindicator_spawn_egg": [
+      "spawn_egg / 57",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.vindicator_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:vindicator\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:vindicator_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "wandering_trader_spawn_egg": [
+      "spawn_egg / 118",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.wandering_trader_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:wandering_trader\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:wandering_trader_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "warden_spawn_egg": [
+      "spawn_egg / 131",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.warden_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:warden\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:warden_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "witch_spawn_egg": [
+      "spawn_egg / 45",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.witch_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:witch\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:witch_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "wither_spawn_egg": [
+      "spawn_egg / 52",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.wither_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:wither\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:wither_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "wither_skeleton_spawn_egg": [
+      "spawn_egg / 48",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.wither_skeleton_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:wither_skeleton\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:wither_skeleton_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "wolf_spawn_egg": [
+      "spawn_egg / 14",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.wolf_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:wolf\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:wolf_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "zoglin_spawn_egg": [
+      "spawn_egg / 126",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.zoglin_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:zoglin\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:zoglin_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "zombie_spawn_egg": [
+      "spawn_egg / 32",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.zombie_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:zombie\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:zombie_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "zombie_horse_spawn_egg": [
+      "spawn_egg / 27",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.zombie_horse_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:zombie_horse\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:zombie_horse_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "zombie_nautilus_spawn_egg": [
+      "spawn_egg / 150",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.zombie_nautilus_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:zombie_nautilus\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:zombie_nautilus_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "zombie_villager_spawn_egg": [
+      "spawn_egg / 44",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.zombie_villager_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:zombie_villager\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:zombie_villager_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "zombified_piglin_spawn_egg": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.zombified_piglin_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:zombified_piglin\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:zombified_piglin_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "item.minecraft.zombified_piglin_spawn_egg": [
+      "基岩版："
+    ],
+    "agent_spawn_egg": [
+      "spawn_egg / 56"
+    ],
+    "copper_golem_spawn_egg": [
+      "spawn_egg / 148",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_golem_spawn_egg\"},\"minecraft:lore\":[],\"minecraft:entity_data\":{\"id\":\"minecraft:copper_golem\"},\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:copper_golem_spawn_egg\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}"
+    ],
+    "npc_spawn_egg": [
+      "spawn_egg / 51"
+    ],
+    "sniffer_golem_spawn_egg": [
+      "spawn_egg / 139"
+    ],
+    "sulfur_cube_spawn_egg": [
+      "spawn_egg / 153"
+    ],
+    "zombie_pigman_spawn_egg": [
+      "spawn_egg / 36"
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "ender_dragon_spawn_egg,wither_spawn_egg,allay_spawn_egg,armadillo_spawn_egg,axolotl_spawn_egg,bat_sp...等87个物品所共有的组件",
+      "minecraft:entity_data：物品放出实体时应用到实体上的数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。",
+      "*id：（命名空间ID）实体类型。",
+      "若干与该实体对应的实体数据标签，见实体数据格式。"
+    ],
+    "Java版": [
+      "1.1",
+      "11w49a",
+      "在创造模式中加入了苦力怕、蜘蛛、骷髅、僵尸、史莱姆、恶魂、僵尸猪人、末影人、洞穴蜘蛛、蠹虫、烈焰人、岩浆怪、猪、绵羊、牛、鸡、鱿鱼、狼、哞菇和村民的刷怪蛋。不同的刷怪蛋使用不同着色区分。",
+      "12w01a",
+      "更改了所有刷怪蛋的纹理，现在不再使用不同着色区分。",
+      "1.2.1",
+      "12w03a",
+      "启动发射器将生成生物而不是将蛋以物品的形式发射出来。",
+      "现在刷怪蛋可以堆叠。",
+      "12w04a",
+      "加入了豹猫刷怪蛋。",
+      "在1.2之前，通过修改得到的“无法生成”的生物的刷怪蛋，例如雪傀儡、末影龙和巨人的刷怪蛋能正常生成对应的生物。现在只有可以从创造模式物品栏中得到的刷怪蛋能正常生成。",
+      "1.3.1",
+      "12w18a",
+      "现在通过刷怪蛋可以生成所有职业的村民，而不是只生成农民村民。",
+      "1.4.2",
+      "12w32a",
+      "僵尸村民可以从僵尸刷怪蛋中生成。",
+      "从刷怪蛋中生成的绵羊会随机带有一种天然颜色（白色，灰色，棕色，粉红色等等）而不全都是白色。",
+      "12w36a",
+      "凋灵骷髅现在有很大概率在下界使用骷髅刷怪蛋时生成。",
+      "在下界使用蜘蛛刷怪蛋时也可能生成出凋灵骑士。",
+      "12w38a",
+      "加入了女巫和蝙蝠刷怪蛋。",
+      "1.4.4"
+    ],
+    "pre": [
+      "幼年生物现在可以用刷怪蛋右击对应的生物来生成（对僵尸无效）。",
+      "1.5",
+      "2013年1月7日",
+      "Dinnerbone在Twitter上发布了第一张在死亡消息中出现的被重命名的生物的图片。",
+      "13w02a",
+      "从重命名的刷怪蛋中生成的生物的名字会出现在死亡消息中。",
+      "通过使用NBT标签修改其名称标签可以使生物显示其自定义的名称。",
+      "1.6.1",
+      "13w16a",
+      "加入了马刷怪蛋。",
+      "13w24a",
+      "刷怪蛋现在可以在水面上使用。",
+      "把刷怪蛋重命名为“Dinnerbone”或“Grumm”将会刷出上下颠倒的生物。",
+      "1.7.4",
+      "13w48b",
+      "从重命名为“jeb_”的刷怪蛋中生成的绵羊身上的羊毛会一直变色，但不影响获取羊毛时的颜色。",
+      "1.8",
+      "14w11a",
+      "加入了末影螨刷怪蛋。",
+      "14w25a",
+      "加入了守卫者刷怪蛋。",
+      "14w27a",
+      "加入了兔子刷怪蛋。",
+      "14w28b",
+      "刷怪蛋可用来改变刷怪笼生成的生物类型。",
+      "1.9",
+      "15w31a",
+      "加入了潜影贝刷怪蛋。",
+      "15w33a",
+      "刷怪蛋的类型不再取决于数据值，例如/give @p spawn_egg 1 50。现在刷怪蛋的类型取决于NBT标签：/give @p spawn_egg 1 {EntityTag:{id:\"Creeper\"}}",
+      "1.10",
+      "16w20a",
+      "加入了北极熊、凋灵骷髅、流浪者、尸壳、远古守卫者、猫、驴、骡、骷髅马和僵尸马刷怪蛋。",
+      "pre2",
+      "移除了除北极熊刷怪蛋以外所有在16w20a中加入的刷怪蛋。",
+      "1.11",
+      "16w32a",
+      "重新加入除猫刷怪蛋外的在1.10-pre2中移除的刷怪蛋。",
+      "加入了僵尸村民刷怪蛋。",
+      "16w32b",
+      "僵尸村民刷怪蛋会生成不同职业的僵尸村民。",
+      "16w39a",
+      "加入了唤魔者、羊驼、恼鬼和卫道士的刷怪蛋。",
+      "16w40a",
+      "从重命名为“Johnny”的刷怪蛋中生成的卫道士会攻击除灾厄村民和恶魂以外的所有生物。",
+      "1.12",
+      "17w13a",
+      "加入了鹦鹉刷怪蛋。",
+      "1.13",
+      "17w47a",
+      "spawn_egg的不同的EntityTag实体ID现在被拆分成各自独立的ID。",
+      "在扁平化前，物品的数字ID为383。",
+      "空刷怪蛋不再能获得。",
+      "没有在上表中列出的实体也能通过EntityTag标签用刷怪蛋生成了。",
+      "18w07a",
+      "加入了幻翼和海龟刷怪蛋。",
+      "18w08b",
+      "加入了不同种类生物鱼的刷怪蛋：鳕鱼、鲑鱼和河豚。",
+      "18w10a",
+      "加入新的热带鱼刷怪蛋。",
+      "18w11a",
+      "加入了溺尸的刷怪蛋。",
+      "18w15a",
+      "加入了海豚刷怪蛋。",
+      "18w19a",
+      "幻翼刷怪蛋更改得看起来更像生物的更新纹理了。",
+      "18w20a",
+      "刷怪蛋名称从“生成<生物>”更改为“<生物>刷怪蛋”。",
+      "1.14",
+      "18w43a",
+      "加入了熊猫、掠夺者和劫掠兽刷怪蛋。",
+      "18w44a",
+      "加入了猫刷怪蛋。",
+      "19w05a",
+      "加入了流浪商人与行商羊驼刷怪蛋。",
+      "19w07a",
+      "加入了狐狸刷怪蛋。",
+      "1.15",
+      "19w34a",
+      "加入了蜜蜂刷怪蛋。",
+      "19w41a",
+      "更改了蜜蜂刷怪蛋的纹理。",
+      "19w46a",
+      "溺尸、尸壳、僵尸和僵尸村民现在可以通过手持对应刷怪蛋对着成年形态使用来生成幼年形态。",
+      "pre1",
+      "僵尸猪人现在可以通过手持对应刷怪蛋对着成年形态使用来生成幼年形态。",
+      "1.16",
+      "20w06a",
+      "加入了疣猪兽刷怪蛋。",
+      "疣猪兽刷怪蛋使用的是僵尸猪人刷怪蛋的纹理。",
+      "20w07a",
+      "加入了猪灵刷怪蛋。",
+      "更改了疣猪兽刷怪蛋的纹理。",
+      "20w09a",
+      "将僵尸猪人刷怪蛋重命名为僵尸猪灵刷怪蛋。",
+      "20w13a",
+      "加入了炽足兽刷怪蛋。",
+      "20w14a",
+      "加入了僵尸疣猪兽刷怪蛋。",
+      "1.16.2",
+      "20w27a",
+      "加入了猪灵蛮兵刷怪蛋。",
+      "1.17",
+      "20w51a",
+      "加入了美西螈刷怪蛋。",
+      "21w03a",
+      "加入了发光鱿鱼刷怪蛋。",
+      "21w13a",
+      "加入了山羊刷怪蛋。",
+      "2021年12月8日",
+      "LadyAgnes在推文中展示了蝌蚪刷怪蛋。",
+      "1.19",
+      "exp1",
+      "加入了监守者刷怪蛋。",
+      "22w11a",
+      "加入了青蛙和蝌蚪刷怪蛋。",
+      "22w12a",
+      "正式加入了监守者刷怪蛋。",
+      "22w13a",
+      "加入了悦灵刷怪蛋。",
+      "1.19.3"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "22w42a",
+      "加入了骆驼刷怪蛋。",
+      "22w43a",
+      "更改了骆驼刷怪蛋的纹理。",
+      "1.19.3",
+      "22w44a",
+      "加入了末影龙、铁傀儡、雪傀儡和凋灵刷怪蛋，末影龙和凋灵刷怪蛋只能通过命令获取。",
+      "更改了北极熊刷怪蛋的纹理，使其与恶魂刷怪蛋有所区别。",
+      "1.19.4",
+      "1.20更新",
+      "23w07a",
+      "加入了嗅探兽刷怪蛋。",
+      "pre1",
+      "更改了嗅探兽刷怪蛋的颜色，使其与鲑鱼刷怪蛋有所区别。",
+      "1.20",
+      "23w12a",
+      "骆驼刷怪蛋和嗅探兽刷怪蛋不再属于实验性内容。",
+      "1.20.3",
+      "1.21更新",
+      "23w45a",
+      "加入了旋风人刷怪蛋。",
+      "1.20.5",
+      "23w51a",
+      "加入了犰狳刷怪蛋。",
+      "24w03a",
+      "更改了犰狳刷怪蛋的纹理。",
+      "1.20.5",
+      "1.21更新",
+      "24w07a",
+      "加入了沼骸刷怪蛋。",
+      "1.21",
+      "24w18a",
+      "旋风人刷怪蛋和沼骸刷怪蛋不再属于实验性内容。",
+      "1.21.2",
+      "24w36a",
+      "鱿鱼刷怪蛋现在只会生成成年鱿鱼。",
+      "1.21.2"
+    ],
+    "冬季小更新": [
+      "24w40a",
+      "加入了嘎枝刷怪蛋，所生成的嘎枝不会随着昼夜更替而消失，能够受伤、穿越传送门。",
+      "1.21.4",
+      "24w44a",
+      "嘎枝刷怪蛋不再属于实验性内容。",
+      "pre1",
+      "加入了刷怪蛋的安全保护提示。",
+      "1.21.5",
+      "25w08a",
+      "更改了所有刷怪蛋的纹理。",
+      "1.21.6",
+      "25w15a",
+      "加入了快乐恶魂刷怪蛋。",
+      "更改了烈焰人和旋风人刷怪蛋的纹理，以匹配对应生物的大小。",
+      "更改了哞菇刷怪蛋的纹理。",
+      "1.21.9",
+      "25w31a",
+      "加入了铜傀儡刷怪蛋。",
+      "现在刷怪蛋在和平难度下会出现提示框文本。",
+      "25w33a",
+      "现在和平难度下使用无法存在于和平难度下的生物的刷怪蛋时，不再生成对应生物，以匹配基岩版。",
+      "25w34a",
+      "现在和平难度下末影龙刷怪蛋的提示框中不再显示“已在和平难度下禁用”。",
+      "25w37a",
+      "加入了游戏规则spawnerBlocksEnabled，用于控制刷怪蛋能否改变刷怪笼所生成的生物类型。",
+      "1.21.11",
+      "25w41a",
+      "加入了鹦鹉螺和僵尸鹦鹉螺刷怪蛋。",
+      "25w44a",
+      "加入了骆驼尸壳和焦骸刷怪蛋。",
+      "更改了僵尸马刷怪蛋的纹理，以匹配僵尸马的新纹理。",
+      "25w45a",
+      "现在在暖水海洋使用僵尸鹦鹉螺刷怪蛋会生成珊瑚僵尸鹦鹉螺。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了硫方怪刷怪蛋。"
+    ],
+    "携带版Alpha": [
+      "0.7.0",
+      "加入了鸡、绵羊、牛，以及猪刷怪蛋。",
+      "0.8.0",
+      "build 1",
+      "默认的刷怪蛋纹理被更改为，而不是此前使用的完全空白的纹理。",
+      "0.9.0",
+      "build 1",
+      "加入了更多刷怪蛋，包括哞菇、苦力怕、末影人、蠹虫、骷髅、史莱姆、蜘蛛、僵尸、僵尸猪人和狼的刷怪蛋。",
+      "在物品栏里，刷怪蛋有了正确的名字。",
+      "build 2",
+      "加入了村民刷怪蛋。",
+      "刷怪蛋可用来改变刷怪笼生成的生物类型。",
+      "0.11.0",
+      "build 1",
+      "加入了鱿鱼和蝙蝠的刷怪蛋。",
+      "加入了恶魂、岩浆怪和洞穴蜘蛛的刷怪蛋，但它们暂时无法获得。",
+      "build 3",
+      "向创造模式物品栏中加入了洞穴蜘蛛刷怪蛋。",
+      "build 8",
+      "向创造模式物品栏中加入了岩浆怪和恶魂刷怪蛋。",
+      "0.12.1",
+      "build 1",
+      "加入了烈焰人和豹猫的刷怪蛋。",
+      "向创造模式物品栏中加入了恶魂刷怪蛋。",
+      "build 9",
+      "从重命名的刷怪蛋中生成的生物的名字会出现在死亡消息中。",
+      "0.13.0",
+      "build 1",
+      "加入了兔子刷怪蛋。",
+      "0.14.0",
+      "build 1",
+      "加入了女巫刷怪蛋。",
+      "0.15.0",
+      "build 1",
+      "加入了马、驴、骡、僵尸马、骷髅马、流浪者、尸壳以及凋灵骷髅的刷怪蛋到创造模式物品栏。",
+      "0.15.1",
+      "build 1",
+      "刷怪蛋的默认纹理从 改成了。",
+      "空刷怪蛋可以通过修改物品栏得到，被称为“生成”，但使用这种刷怪蛋会导致游戏崩溃。",
+      "0.16.0",
+      "build 1",
+      "加入了守卫者刷怪蛋。",
+      "加入了没有颜色的远古守卫者刷怪蛋，不在创造模式物品栏中出现。",
+      "加入了没有作用的NPC刷怪蛋。",
+      "build 2",
+      "从创造模式物品栏移除了NPC刷怪蛋。",
+      "build 4",
+      "彻底移除了NPC刷怪蛋。",
+      "build 5",
+      "加入远古守卫者刷怪蛋到创造模式物品栏。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了潜影贝、末影螨和北极熊的刷怪蛋。",
+      "1.1.0",
+      "1.1.0.0",
+      "加入了羊驼、卫道士、唤魔者和恼鬼的刷怪蛋。",
+      "1.1.0.9",
+      "更改了尸壳、潜影贝、蠹虫、流浪者和僵尸马刷怪蛋的纹理。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了僵尸村民、鹦鹉刷怪蛋。",
+      "1.2.13",
+      "1.2.13.8",
+      "加入溺尸的刷怪蛋。",
+      "1.4.0",
+      "1.2.14.2",
+      "加入了各种生物鱼刷怪蛋，纹理是以现实中的鱼卵为原型制作的。",
+      "1.2.20.1",
+      "更改了生物鱼刷怪蛋的纹理以匹配Java版。",
+      "加入了海豚刷怪蛋。",
+      "1.5.0",
+      "1.5.0.4",
+      "加入了海龟刷怪蛋。",
+      "1.6.0",
+      "1.6.0.1",
+      "加入了幻翼刷怪蛋。",
+      "1.8.0",
+      "1.8.0.8",
+      "加入了熊猫和猫刷怪蛋。",
+      "重新加入了NPC刷怪蛋。",
+      "加入了智能体刷怪蛋。",
+      "未知的刷怪蛋现在使用全黑的纹理。",
+      "1.9.0",
+      "1.9.0.0",
+      "加入了掠夺者刷怪蛋。",
+      "1.10.0",
+      "1.10.0.3",
+      "加入了流浪商人、劫掠兽、新的村民和新的僵尸村民刷怪蛋。",
+      "1.11.0",
+      "1.11.0.1",
+      "移除了旧的村民和旧的僵尸村民刷怪蛋。",
+      "重命名“illager beast”刷怪蛋为“ravager”刷怪蛋。",
+      "1.13.0",
+      "1.13.0.1",
+      "加入了狐狸刷怪蛋。",
+      "1.14.0",
+      "1.14.0.1",
+      "加入了蜜蜂刷怪蛋。",
+      "1.16.0",
+      "1.16.0.51",
+      "加入了疣猪兽和猪灵刷怪蛋。",
+      "将僵尸猪人刷怪蛋重命名为僵尸猪灵刷怪蛋。",
+      "1.16.0.57",
+      "加入了炽足兽和僵尸疣猪兽刷怪蛋。",
+      "1.16.0.59",
+      "更改了疣猪兽和猪灵刷怪蛋的纹理以匹配Java版。",
+      "1.16.20",
+      "1.16.20.50",
+      "加入了猪灵蛮兵刷怪蛋。",
+      "1.16.100",
+      "1.16.100.56",
+      "spawn_egg的不同的实体ID现在被拆分为各自独立的ID。",
+      "自定义刷怪蛋（例如生成铁傀儡和末影龙等生物）的能力被移除。",
+      "默认的刷怪蛋纹理被更改为，而不是使用完全黑色的纹理。",
+      "1.16.200"
+    ],
+    "实验性玩法": [
+      "更新 1.21 版",
+      "1.20.60.20",
+      "加入了旋风人刷怪蛋。",
+      "1.20.60",
+      "更新 1.21 版",
+      "1.20.70.24",
+      "加入了沼骸刷怪蛋。",
+      "1.20.80",
+      "1.20.80.20",
+      "犰狳刷怪蛋不再属于实验性玩法。",
+      "1.21.0",
+      "1.21.0.22",
+      "旋风人刷怪蛋和沼骸刷怪蛋不再属于实验性玩法。",
+      "1.21.30",
+      "1.21.30.22",
+      "海龟刷怪蛋的英文名称由“Sea Turtle Spawn Egg”更改为“Turtle Spawn Egg”，以匹配Java版。",
+      "1.21.50",
+      "1.21.50.20",
+      "加入了嘎枝刷怪蛋，所生成的嘎枝不会随着昼夜更替而消失，能够受伤、穿越传送门。",
+      "1.21.70",
+      "1.21.70.24",
+      "更改了除NPC刷怪蛋以外的所有刷怪蛋的纹理。",
+      "1.21.80",
+      "2025 第二次更新",
+      "1.21.80.25",
+      "加入了快乐恶魂刷怪蛋。",
+      "1.21.90",
+      "1.21.90.20",
+      "快乐恶魂刷怪蛋不再属于实验性玩法。",
+      "现在使用刷怪蛋生成无法在和平难度下存在的生物时，该生物会生成但被立即清除，而不是无法生成。",
+      "现在使用发射器发射无法在和平难度下存在的生物的刷怪蛋时，该刷怪蛋会被消耗，而不是被以物品形式掷出。",
+      "1.21.90.25",
+      "回退了1.21.90.20中与无法在和平难度下存在的生物的刷怪蛋相关的更改。",
+      "更改了哞菇刷怪蛋的纹理。",
+      "1.21.90.28",
+      "更改了烈焰人和旋风人刷怪蛋的纹理，以匹配对应生物的大小。",
+      "1.21.100",
+      "2025 年第 3 次更新",
+      "1.21.100.23",
+      "加入了铜傀儡刷怪蛋。",
+      "1.21.111",
+      "1.21.110.20",
+      "铜傀儡刷怪蛋不再属于实验性玩法。",
+      "1.21.130",
+      "1.21.130.20",
+      "加入了鹦鹉螺和僵尸鹦鹉螺刷怪蛋。",
+      "1.21.130.24",
+      "加入了骆驼尸壳和焦骸刷怪蛋。",
+      "1.21.130.26",
+      "更改了僵尸马刷怪蛋的纹理，以匹配僵尸马的新纹理。",
+      "现在在暖水海洋使用僵尸鹦鹉螺刷怪蛋会生成珊瑚僵尸鹦鹉螺。",
+      "26.0",
+      "26.0.27",
+      "现在对着有幼年变种的生物使用刷怪蛋会生成对应的幼年生物。",
+      "2026 年第 2 次更新",
+      "26.20.23",
+      "加入了硫方怪刷怪蛋。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了刷怪蛋。",
+      "1.7.10",
+      "加入了末影螨、北极熊和潜影贝刷怪蛋。",
+      "1.9.19",
+      "加入了羊驼、卫道士、唤魔者和恼鬼刷怪蛋。"
+    ],
+    "Caves and Cliffs": [
+      "1.16.200.52",
+      "加入了山羊刷怪蛋。",
+      "1.16.200",
+      "由于不存在“Caves and Cliffs”选项，山羊刷怪蛋在此正式版中不可用。",
+      "1.16.210",
+      "1.16.210.51",
+      "更改了山羊刷怪蛋的纹理。",
+      "1.16.210.59",
+      "加入了发光鱿鱼刷怪蛋。",
+      "1.16.210.60",
+      "由于崩溃而暂时移除发光鱿鱼刷怪蛋。",
+      "1.16.210",
+      "由于不存在“Caves and Cliffs”选项，山羊刷怪蛋在此正式版中仍不可用。",
+      "1.16.220",
+      "1.16.220.50",
+      "重新加入了发光鱿鱼刷怪蛋。",
+      "1.16.220",
+      "由于不存在“Caves and Cliffs”选项，山羊和发光鱿鱼刷怪蛋在此正式版中不可用。",
+      "1.17.0",
+      "1.16.230.52",
+      "加入了美西螈刷怪蛋。",
+      "1.17.0",
+      "1.17.0.52",
+      "山羊、发光鱿鱼和美西螈刷怪蛋不再属于实验性玩法。",
+      "1.18.10"
+    ],
+    "荒野更新": [
+      "1.18.10.24",
+      "加入了青蛙和蝌蚪刷怪蛋。",
+      "1.18.10",
+      "1.18.10.26",
+      "加入了萤火虫刷怪蛋，但只能在开发者版本里获得。",
+      "1.18.30",
+      "1.18.30.22",
+      "加入了悦灵刷怪蛋。",
+      "1.18.30.32",
+      "加入了监守者刷怪蛋。",
+      "1.19.0",
+      "1.19.0.20",
+      "青蛙、悦灵和监守者刷怪蛋不再属于实验性玩法。",
+      "1.19.10",
+      "1.19.10.20",
+      "加入了行商羊驼刷怪蛋。",
+      "移除了萤火虫刷怪蛋。",
+      "1.19.50"
+    ],
+    "下一个主要更新": [
+      "1.19.50.21",
+      "加入了骆驼刷怪蛋。",
+      "1.19.50.22",
+      "更改了骆驼刷怪蛋的纹理。",
+      "1.19.60",
+      "1.19.60.20",
+      "加入了末影龙、铁傀儡、雪傀儡和凋灵刷怪蛋。",
+      "更改了北极熊刷怪蛋的纹理，使其与恶魂刷怪蛋有所区别。",
+      "1.19.60.25",
+      "末影龙和凋灵刷怪蛋从创造模式物品栏中移除，但仍然可通过命令获得。",
+      "1.19.70"
+    ],
+    "嗅探器": [
+      "1.19.70.23",
+      "加入了嗅探兽刷怪蛋。",
+      "1.20.0",
+      "1.20.0.20",
+      "嗅探兽刷怪蛋不再属于实验性玩法。",
+      "更改了嗅探兽刷怪蛋的颜色，使其与鲑鱼刷怪蛋有所区别。",
+      "1.20.0.21",
+      "骆驼刷怪蛋不再属于实验性玩法。",
+      "1.20.60"
+    ],
+    "犰狳和狼铠": [
+      "1.20.60.23",
+      "加入了犰狳刷怪蛋。",
+      "1.20.70",
+      "1.20.70.20",
+      "更改了犰狳刷怪蛋的纹理。",
+      "1.20.70",
+      "1.20.70.21",
+      "刷怪蛋名称从“生成<生物>”更改为“<生物>刷怪蛋”，以匹配Java版。",
+      "1.20.70"
+    ],
+    "基岩版（即将到来）": [
+      "26.20"
+    ],
+    "教育版": [
+      "1.0",
+      "加入了刷怪蛋。",
+      "1.4",
+      "加入了鳕鱼、鲑鱼、河豚、热带鱼和海豚刷怪蛋。",
+      "1.7",
+      "加入了溺尸、海龟和幻翼刷怪蛋。",
+      "1.9",
+      "加入了猫和熊猫刷怪蛋。",
+      "1.12",
+      "加入了掠夺者、劫掠兽和流浪商人刷怪蛋。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU9",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了苦力怕、骷髅、蜘蛛、僵尸、史莱姆、恶魂、僵尸猪人、末影人、洞穴蜘蛛、蠹虫、烈焰人、岩浆怪、猪、绵羊、牛、鸡、鱿鱼、狼、哞菇和村民的刷怪蛋。",
+      "蛋能够被放进发射器里，启动发射器将生成生物而不是将蛋以物品的形式发射出来。",
+      "TU11",
+      "当玩家试图在和平难度下用刷怪蛋生成攻击型生物时会出现提示信息。",
+      "TU12",
+      "加入了豹猫刷怪蛋。",
+      "TU19",
+      "CU7",
+      "1.12",
+      "加入了马、女巫、蝙蝠、驴和骡的刷怪蛋。",
+      "TU31",
+      "CU19",
+      "1.22",
+      "Patch 3",
+      "加入了末影螨、守卫者和兔子刷怪蛋。",
+      "TU46",
+      "CU36",
+      "1.38",
+      "Patch 15",
+      "加入了潜影贝的刷怪蛋。",
+      "现在驴和骡的刷怪蛋的纹理与Java版和携带版一致。",
+      "TU54",
+      "CU44",
+      "1.52",
+      "Patch 24",
+      "1.0.4",
+      "加入了骷髅马、僵尸马、远古守卫者、流浪者、凋灵骷髅、尸壳、僵尸村民、鹦鹉、羊驼、卫道士、唤魔者和恼鬼的刷怪蛋。",
+      "TU69",
+      "1.76",
+      "Patch 38",
+      "加入了溺尸、鳕鱼、鲑鱼、河豚、热带鱼、河豚和海龟刷怪蛋。",
+      "1.83",
+      "加入了熊猫和猫刷怪蛋。",
+      "1.90",
+      "加入了掠夺者刷怪蛋。",
+      "1.91",
+      "加入了劫掠兽和流浪商人刷怪蛋。",
+      "TU9",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了苦力怕、骷髅、蜘蛛、僵尸、史莱姆、恶魂、僵尸猪人、末影人、洞穴蜘蛛、蠹虫、烈焰人、岩浆怪、猪、绵羊、牛、鸡、鱿鱼、狼、哞菇和村民的刷怪蛋。",
+      "蛋能够被放进发射器里，启动发射器将生成生物而不是将蛋以物品的形式发射出来。",
+      "TU11",
+      "当玩家试图在和平难度下用刷怪蛋生成攻击型生物时会出现提示信息。",
+      "TU12",
+      "加入了豹猫刷怪蛋。",
+      "TU19",
+      "CU7",
+      "1.12",
+      "加入了马、女巫、蝙蝠、驴和骡的刷怪蛋。",
+      "TU31",
+      "CU19",
+      "1.22",
+      "Patch 3",
+      "加入了末影螨、守卫者和兔子刷怪蛋。",
+      "TU46",
+      "CU36",
+      "1.38",
+      "Patch 15",
+      "加入了潜影贝的刷怪蛋。",
+      "现在驴和骡的刷怪蛋的纹理与Java版和携带版一致。",
+      "TU54",
+      "CU44",
+      "1.52",
+      "Patch 24",
+      "1.0.4",
+      "加入了骷髅马、僵尸马、远古守卫者、流浪者、凋灵骷髅、尸壳、僵尸村民、鹦鹉、羊驼、卫道士、唤魔者和恼鬼的刷怪蛋。",
+      "TU69",
+      "1.76",
+      "Patch 38",
+      "加入了溺尸、鳕鱼、鲑鱼、河豚、热带鱼、河豚和海龟刷怪蛋。",
+      "1.83",
+      "加入了熊猫和猫刷怪蛋。",
+      "1.90",
+      "加入了掠夺者刷怪蛋。",
+      "1.91",
+      "加入了劫掠兽和流浪商人刷怪蛋。"
+    ],
+    "你知道吗": [
+      "在不同的运行平台上，刷怪蛋的数据值有差异，但ID相同。",
+      "在基岩版1.21.70前，村庄与掠夺以及后续更新加入的生物（例如掠夺者、蜜蜂和劫掠兽）的刷怪蛋是通过对egg_mask.png这一纹理自动染色得到的。且曾在物品栏中移动这三种刷怪蛋的瞬间，染色会失效，从而展示原始的mask纹理。",
+      "基岩版行为包自定义实体亦可通过提供不含alpha数据的16进制颜色码来应用染色后的egg_mask.png。"
+    ],
+    "画廊": [
+      "12w01a之前的刷怪蛋"
+    ],
+    "参考": [
+      "https://twitter.com/notch/status/117870458904387585",
+      "MCPE-164239",
+      "MCPE-51000",
+      "MC-236805 — 漏洞状态为“有意为之”。",
+      "MCPE-141939 — 漏洞状态为“不予修复”。",
+      "关于基岩版纹理刷怪蛋染色贴图研究，来自邹陈云飞。百度贴吧，2019年7月17日。",
+      "MCPE-82723 — “新增和自定义的刷怪蛋使用错误的纹理” — 漏洞状态为“报告不完整”。"
+    ]
+  }
+}

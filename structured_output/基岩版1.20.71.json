@@ -1,0 +1,438 @@
+{
+  "title": "基岩版1.20.71",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.71",
+  "structured_content": {
+    "默认分类": [
+      "1.20.71"
+    ],
+    "服务端版本": [
+      "1.20.71.01"
+    ],
+    "内部版本号": [
+      "Android：1.20.71.01",
+      "PlayStation：2.84",
+      "Windows：1.20.7101.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952007301（armeabi-v7a，33）",
+      "962007301（x86，33）",
+      "972007301（arm64-v8a，33）",
+      "982007301（x86_64，33）",
+      "iOS/iPadOS：",
+      "864391569"
+    ],
+    "发布时间": [
+      "ChromeOS/Android, iOS/iPadOS, Nintendo Switch, PlayStation, Windows, Xbox - 2024年3月12日",
+      "Fire - 2024年3月13日"
+    ],
+    "协议版本": [
+      "662",
+      "◄◄1.20.50",
+      "1.20.80►►",
+      "◄1.20.70",
+      "1.20.72►",
+      "1.20.71是基岩版的一次次要更新，发布于2024年3月12日至13日。此次更新同步了一些Java版的特性，在实验性玩法中加入了更多1.21.0的特性，并修复了一些漏洞。此版本与1.20.70相兼容。",
+      "由于Windows上的Xbox应用程序漏洞，游戏在通过Xbox应用程序进行更新的过程中会丢失世界数据。因此，此版本与1.20.70在Windows平台上于2024年3月15日同时被撤回。"
+    ],
+    "目标选择器": [
+      "加入了has_property过滤器。",
+      "用于根据实体是否具有指定属性来选择目标。"
+    ],
+    "设置": [
+      "在可访问性设置中加入了“操作栏背景不透明度”滑块。",
+      "用于修改动作栏背景的不透明度，默认为60%。"
+    ],
+    "教学提示": [
+      "首次游玩世界时出现的弹窗。"
+    ],
+    "方块": [
+      "修复了minecraft:geometry.full_block面不会旋转以匹配变换组件的问题。",
+      "修复了minecraft:geometry.full_block方块不会剔除紧挨部分方块的面的问题。",
+      "现在将两个相同的台阶放置在一起时会变为双层台阶。（MCPE-179187）",
+      "现在玩家在生长阶段为1的甜浆果丛中行走时会减速。（MCPE-46152）",
+      "现在使用带有精准采集的工具破坏未长出发光浆果的洞穴藤蔓时不再会掉落发光浆果。（MCPE-151348）",
+      "插上蓝色蜡烛的蛋糕和插上黑色蜡烛的蛋糕现在会显示和掉落正确种类的蜡烛。（MCPE-162868）",
+      "首次放置通过创造模式物品栏获得的无图案旗帜时不再会恢复原状。（MCPE-178327）",
+      "大型花不再受时运魔咒影响。（MCPE-18880）",
+      "大型蕨现在有概率掉落小麦种子。（MCPE-126947）",
+      "调整了西瓜、红石矿石、荧石和下界疣受时运魔咒影响时的掉落物分布以匹配Java版。",
+      "修复了玩家无法在移动时放置多个物品（如烟花火箭、船）的漏洞。（MCPE-178063、MCPE-178077）",
+      "为修复此漏洞，回退了对连续放置台阶和楼梯时会不一致地放置的问题（MCPE-54855）的修复。",
+      "在Realms中，在创造模式下取出物品展示框中的物品时不再会破坏物品展示框。（REALMS-10464）",
+      "在Realms中，在创造模式下取出讲台中的书时不再会破坏讲台。（REALMS-10536）",
+      "现在实体摔落在以下方块上时会播放正确的音效。（MCPE-176939）",
+      "紫水晶块、紫水晶簇及其变种、远古残骸、铁砧、杜鹃花丛、杜鹃树叶、竹块、竹板、玄武岩、大型垂滴叶、骨块、方解石、蜡烛、洞穴藤蔓、锁链、樱花树叶、樱花木、雕纹书架、铜块及其变种、珊瑚块、绯红菌岩、深板岩、深板岩砖、滴水石块、青蛙卵、玻璃、草方块、沙砾、垂根、悬挂式告示牌、蜂蜜块、梯子、灯笼、磁石、红树根、苔藓块、覆地苔藓、泥巴、泥砖、沾泥的红树根、下界砖块、下界金矿石、下界苗、下界疣、下界疣块、下界合金块、下界岩、泥坯、粉红色花簇、滴水石锥、细雪、缠根泥土、沙子、脚手架、幽匿催发体、幽匿感测体、幽匿尖啸体、幽匿脉络、菌光体、黏液块、雪块、灵魂沙、灵魂土、孢子花、石头、可疑的沙砾、可疑的沙子、凝灰岩、海龟蛋、藤蔓、诡异菌岩、诡异疣块、木头和羊毛。"
+    ],
+    "大型蕨": [
+      "现在被破坏后有概率掉落小麦种子。"
+    ],
+    "末地传送门框架": [
+      "创造分类由“物品”更改为“自然”。"
+    ],
+    "草方块": [
+      "ID由grass更改为grass_block。",
+      "grass仍然可用，但不会在命令提示中显示。"
+    ],
+    "树叶": [
+      "IDleaves现在被拆分为：oak_leaves、​spruce_leaves、​birch_leaves和​jungle_leaves。",
+      "leaves及其数据值仍然可用，但不会在命令提示中显示。",
+      "IDleaves2现在被拆分为：acacia_leaves和​dark_oak_leaves。",
+      "leaves2及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "甜浆果丛": [
+      "现在生长阶段为1的甜浆果丛也会使实体减速。"
+    ],
+    "大型花": [
+      "大型花的掉落数量不再受时运魔咒影响。"
+    ],
+    "木头": [
+      "IDwood现在被拆分为：oak_wood、​spruce_wood、​birch_wood、​jungle_wood、​acacia_wood、​dark_oak_wood、​stripped_oak_wood、​stripped_spruce_wood、​stripped_birch_wood、​stripped_jungle_wood、​stripped_acacia_wood和​stripped_dark_oak_wood。",
+      "wood及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "木质台阶": [
+      "IDwooden_slab现在被拆分为：oak_slab、​spruce_slab、​birch_slab、​jungle_slab、​acacia_slab和​dark_oak_slab。",
+      "wooden_slab及其数据值仍然可用，但不会在命令提示中显示。",
+      "IDdouble_wooden_slab现在被拆分为：oak_double_slab、​spruce_double_slab、​birch_double_slab、​jungle_double_slab、​acacia_double_slab和​dark_oak_double_slab。",
+      "double_wooden_slab及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "基岩、边界、屏障、光源方块、命令方块、隐形基岩、允许和拒绝方块": [
+      "现在被破坏后不再掉落自身。"
+    ],
+    "物品": [
+      "自定义盔甲附着物现在可以使用原版纹饰作为纹饰，经过修改的原版图案现在可以应用于自定义盔甲附着物和物品。",
+      "原版纹饰的纹理可通过attachable组件覆盖。",
+      "原版纹饰可通过attachable组件应用于使用自定义盔甲材料的盔甲。",
+      "经过修改（以适应使用新的盔甲材料的盔甲）的原版纹饰图案可通过attachable组件应用。",
+      "自定义盔甲上的盔甲纹饰图案要求附着物和物品的格式版本为1.20.60+。",
+      "更新了盾牌上的地球图案以匹配Java版。（MCPE-169595）",
+      "在Realms中，在创造模式下尝试破坏一格内数量多于一个的海龟蛋时不再会破坏两个海龟蛋。（REALMS-10477）"
+    ],
+    "刷怪蛋": [
+      "将“生成<生物>”重命名为“<生物>刷怪蛋”，以匹配Java版。",
+      "更改了犰狳刷怪蛋的纹理。",
+      "加入了沼骸刷怪蛋。"
+    ],
+    "生物": [
+      "幼年生物现在被喂食时会同时发出粒子效果和音效。",
+      "现在即使玩家背对着幻翼也能够听到幻翼发出的所有音效。（MCPE-133125）",
+      "现在即使玩家背对着监守者也能够听到监守者发出的所有音效。（MCPE-159481）"
+    ],
+    "狼": [
+      "调整了一些行为，以使狼受到的伤害同步Java版。",
+      "驯服的狼的生命值由20（ × 10）增加至40（ × 20）。",
+      "狼受到来自非玩家和箭的伤害时，受到的伤害不会减半。",
+      "之前版本已存在的驯服的狼需要被喂养才能达到新的最大生命值。",
+      "喂养狼恢复的生命值现在增加了一倍，以适应此更改。",
+      "更改了狼身上的项圈和狼铠的纹理。",
+      "与Java版不同，项圈颜色没有阴影。"
+    ],
+    "游戏内容": [
+      "玩家向上运动现在会重置摔落距离，以允许激流附魔三叉戟中断摔落过程。（MCPE-126454）",
+      "玩家现在可以在水上“搭桥”式地放置方块。（MCPE-163165）",
+      "修复了天花板和地面之间存在落差大的空气时无法正确更新天空光照的问题。",
+      "修复了要塞有时不会生成传送门房间的漏洞。（MCPE-19426）",
+      "修复了即使离凋灵足够近，PlayStation玩家也不会在击败凋灵时解锁“开始了。”奖杯的问题。"
+    ],
+    "伤害类型": [
+      "将伤害类型suicide重命名为self_destruct。"
+    ],
+    "实验性玩法": [
+      "移除了“Molang 功能”子选项。"
+    ],
+    "触摸控制": [
+      "更新了“方向键并点击进行互动”触控设计的按钮。",
+      "现在使用与其他触控设计相同的样式。",
+      "移除了用于取消飞行的按钮，现在取消飞行需要双击潜行按钮。",
+      "玩家不再可以在死亡时进入自定义触摸控制界面。（MCPE-178037）"
+    ],
+    "世界加载屏幕": [
+      "更改了世界加载屏幕的显示流程。",
+      "现在进度条加载完毕后会显示玩家的游戏模式。",
+      "现在显示世界模式之前均会显示加载提示和进度条。",
+      "加载提示上方不再显示文本。"
+    ],
+    "性能与稳定性": [
+      "修复了将“单方块空岛”地图上传至Realms上时，客户端上会在远处生成超平坦世界的问题。",
+      "若满足下列条件之一，则客户端连接至专用服务器或Realms时，客户端上不再会错误生成LevelChunks：",
+      "修复了加载屏幕可能会卡在41%一段时间的问题。（MCPE-175550）",
+      "修复了在部分平台上更改语言时游戏可能会卡死的问题。",
+      "修复了显示“正在加载资源包”模态框时游戏可能会卡死的问题。"
+    ],
+    "地图是市场地图": [
+      "该更改会覆盖专用服务器的server.properties对client-side-chunk-generation-enabled的设置。",
+      "移除了ItemFrameDropItemPacket。"
+    ],
+    "命令": [
+      "/damage命令不再包含伤害类型suicide。其现在被替换为self_destruct。（MCPE-174865）",
+      "命令方块界面现在会在成功编译命令后移除最后一条错误消息。（MCPE-114029）"
+    ],
+    "附加包和脚本引擎": [
+      "现在使用带有\"render_method\" = \"alpha_test_single_sided\"的minecraft:material_instances组件的方块会在玩家手中正确显示。"
+    ],
+    "组件": [
+      "entity_sensor组件的range字段现在支持两个值，第一个值控制水平范围，第二个值控制垂直范围。",
+      "要求format_version为1.20.70或更高版本。",
+      "damage_sensor组件的damage_modifier和​damage_multiplier字段现在会在受击后伤害免疫计算过程中被考虑，以使被调整为低于或等于实体在免疫时间受到的最高伤害的伤害会被正确忽略。",
+      "要求世界版本为1.20.70或更高版本。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器was_last_hurt_by。",
+      "用于检测对象是否为攻击过该实体的最后一个玩家或生物。"
+    ],
+    "Molang": [
+      "开放了实验性玩法中的query.is_attached和​query.has_player_rider。",
+      "移除了query.get_ride和​query.get_riders实验性Molang查询。",
+      "弃用了Molang功能的实验性内容。",
+      "开放了实验性玩法中的query.scoreboard查询，以配合行为包使用（资源包会返回0）。",
+      "移除了一些实验性Molang查询。"
+    ],
+    "get_nearby_entities_except_self": [
+      "加入了可用于读取骑乘者身体和头部的旋转角度的Molang API。"
+    ],
+    "ride_head_y_rotation(clampRotation?) => float": [
+      "surface_particle_color、​query.surface_particle_texture_coordinate和​query.surface_particle_texture_size现在版本化为1.20.70，以允许这三个查询将树叶方块视为方块下方的表面纹理。Molang版本低于1.20.70时会继续无法发现方块下方的树叶方块。",
+      "该更改对manifest.json中min_engine_version为1.20.70或更高版本的包中的Molang查询生效。"
+    ],
+    "NBT解析": [
+      "NBT的解析现在会受到更多限制。",
+      "现在负长度数组、无效标签ID和负载中不足的字节均会被视为错误，阻止标签加载，此前这些条件有时会被忽略。"
+    ],
+    "生成规则": [
+      "minecraft:spawns_on_block_filter现在支持方块描述符。",
+      "minecraft:spawns_on_block_prevented_filter现在支持方块描述符。",
+      "minecraft:spawns_above_block_filter现在支持方块描述符。"
+    ],
+    "API": [
+      "加入了ScriptGameRules和​gameRules。",
+      "用于访问和修改游戏规则。",
+      "修复了PlayerInteractWithEntityAfterEvent和​PlayerInteractWithBlockAfterEvent的计时问题。",
+      "在beta中加入了Player.setGameMode和​Player.getGameMode。",
+      "用于更改玩家的GameMode。",
+      "在beta中加入了带有signals world.afterEvents.playerGameModeChange和​world.beforeEvents.playerGameModeChange信号的PlayerGameModeChangeAfterEvent和​PlayerGameModeChangeBeforeEvent事件。",
+      "为配合游戏规则更改，加入了GameRuleChangeAfterEvent、​GameRule和​world.afterEvents.gameRuleChange。",
+      "修复了getBlockFromRay在水中时会返回错误的正数碰撞值的问题。"
+    ],
+    "角色创建器": [
+      "加入了包含角色创建器动画逻辑的新模型。",
+      "更新了动画状态已更新时为触发更新绑定而做的逻辑，以防止每一帧更新的绑定会导致帧率大幅下降的问题。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“犰狳和狼铠”和“测试版 API”子选项后才可使用。"
+    ],
+    "磨制凝灰岩": [
+      "现在实体摔落在磨制凝灰岩上时会播放音效。（MCPE-176939）"
+    ],
+    "宝库": [
+      "生成在试炼密室的入口和决斗室结构中。",
+      "一种锁着战利品的方块，需要使用试炼钥匙解锁才会喷出奖励。",
+      "方块内部有循环展示其战利品表的物品实体，但喷出的物品随机。",
+      "当前暂时使用试炼密室内奖励箱的战利品表，这将随开发被完全修改。",
+      "世界中的每名玩家都有一次解锁某一个宝库的机会。",
+      "附近4格内有任一玩家未解锁过该宝库时，其锁孔打开，并产生橙色粒子。",
+      "若附近4.5格内的玩家都解锁过该宝库，其锁孔闭合，无法使用试炼钥匙。",
+      "硬度为50，没有合适挖掘工具，无法被常规的爆炸破坏。"
+    ],
+    "犰狳鳞甲和狼铠": [
+      "更改了纹理。"
+    ],
+    "试炼钥匙": [
+      "更改了纹理。",
+      "现在可用于解锁宝库。"
+    ],
+    "风弹": [
+      "旋风人被玩家或驯服的狼杀死时掉落4-6个。",
+      "可由玩家和发射器发射。",
+      "玩家发射的风弹比旋风人发射的多10%击退，但影响范围更小。",
+      "玩家被自己发射的风弹击中时会重置摔落伤害，且摔落伤害只会从碰撞点以下开始累积。",
+      "每次使用后有0.5秒的冷却时间。",
+      "更改了模型、纹理和动画。",
+      "旋风人发射的风弹的ID由wind_charge_projectile重命名为breeze_wind_charge_projectile。",
+      "加入了翻译字符串。（MCPE-176968）",
+      "现在击中旋风人时会对其造成伤害。"
+    ],
+    "犰狳": [
+      "更改了纹理。",
+      "缩小了检测威胁的垂直范围。",
+      "现在会生成于恶地、疏林恶地和风蚀恶地。",
+      "现在会在水中更好地漂浮，并产生更多的溅水粒子。",
+      "幼年犰狳现在会更快地追上自己的双亲。",
+      "改进了蜷缩行为，以加强犰狳的防御能力：",
+      "现在蜷缩时能够抵挡伤害。",
+      "受到的伤害会被调整为(修正前伤害 - 1) / 2。",
+      "现在被生物攻击时会蜷缩，而不是逃窜。",
+      "现在会记下最后攻击其的玩家，在20秒内将该玩家视为威胁。",
+      "现在即使玩家背对着犰狳也能够听到犰狳发出的所有音效。",
+      "更改了蜷缩时的受伤音效。",
+      "现在拥有新的展开动画。",
+      "现在蜷缩时会随机从壳中向外张望。",
+      "展开前所需未受到惊吓的时间由3秒增加至4秒，以适应新动画。"
+    ],
+    "沼骸": [
+      "骷髅的新变种。",
+      "拥有16（ × 8）生命值，不同于骷髅的20（ × 10）。",
+      "攻击行为与骷髅和流浪者相同。",
+      "发射剧毒之箭而非普通箭。",
+      "被玩家或驯服的狼杀死时，有概率掉落剧毒之箭。",
+      "自然生成于沼泽和红树林沼泽生物群系，也会生成于试炼密室的部分试炼刷怪笼。"
+    ],
+    "旋风人": [
+      "现在会主动攻击铁傀儡。",
+      "不再反击骷髅、流浪者、僵尸、尸壳、蜘蛛、洞穴蜘蛛和史莱姆，并且这些生物被其风弹伤害后也不再尝试反击。",
+      "不再反击溺尸、僵尸村民、凋灵骷髅和凋灵。",
+      "修复了旋风人快速移动时产生的粒子会从紧挨其下方的树叶方块中选取粒子颜色或纹理的问题。",
+      "现在仅在开启实验性玩法后才会出现在type目标选择器参数的提示中。",
+      "调整了攻击伤害。"
+    ],
+    "蜘蛛和洞穴蜘蛛": [
+      "现在会远离未蜷缩的犰狳。"
+    ],
+    "试炼密室": [
+      "将trial_chambers/reward/default结构中的箱子替换为宝库。",
+      "调整了生成位置以匹配Java版。"
+    ],
+    "粒子": [
+      "加入了vault_connection_particle粒子。"
+    ],
+    "实体组件": [
+      "加入了带有getTypeFamilies(): string[]和​hasTypeFamily(typeFamily: string): boolean函数的EntityTypeFamilyComponent。"
+    ],
+    "Item": [
+      "将ItemFoodComponent由beta移动至1.9.0。",
+      "加入了matches(itemName: string, states?: Record<string, boolean | number | string>): boolean函数。",
+      "移除了BlockVolumeUtils。将有用的函数移入BlockVolumeBase和​BlockVolume。",
+      "加入了BlockVolumeBase类。",
+      "方块功能域会从其扩展的基类。"
+    ],
+    "BlockVolume": [
+      "破坏性更改：将BlockVolume由接口转换为扩展BlockVolumeBase的类。"
+    ],
+    "@minecraft/server.Entity.playAnimation": [
+      "将Entity.playAnimation由测试版移动至稳定版。",
+      "将BlockPistonState枚举由beta移动至1.9.0。",
+      "将BlockPistonComponent类由beta移动至1.9.0。",
+      "将PistonActivateAfterEvent类由beta移动至1.9.0。",
+      "将PistonActivateAfterEventSignal类由beta移动至1.9.0。"
+    ],
+    "ItemComponents": [
+      "为ItemCooldownComponent加入了isCooldownCategory(cooldownCategory: string) : boolean。",
+      "为ItemCooldownComponent加入了getCooldownTimeRemaining(player: Player) : number。",
+      "为@minecraft/vanilla-data加入了MinecraftCooldownCategoryTypes。",
+      "加入了getHiddenHudElements(): HudElements[]。",
+      "加入了isForcedHidden(hudElement: HudElements): Boolean。",
+      "加入了resetHudElements(): void。",
+      "加入了setHudVisibility(visible: HudVisibility, hudElements?: HudElements[]): void。",
+      "加入了hideAllExcept(hudElements?: HudElements[])。",
+      "加入了BlockFilter接口。",
+      "用于按标签、类型和置换来列入或排除方块。"
+    ],
+    "BlockRaycastOptions": [
+      "加入了BlockFilter可选成员。",
+      "更新了getBlockFromRay(location: Vector3, direction: Vector3, options?: BlockRaycastOptions): BlockRaycastHit | undefined，现在会在无法在BlockRaycastOptions内解析BlockFilter列入或排除的类型时抛出。",
+      "将ItemDurabilityComponent由beta移动至1.9.0。"
+    ],
+    "调试实用程序": [
+      "现在开始发布调试实用程序类型信息。",
+      "加入了disableWatchdog方法。",
+      "用于在脚本中启用和禁用脚本监视器。",
+      "加入了playSound(soundId: string, location: Vector3, soundOptions?: WorldSoundOptions): void函数。",
+      "在指定位置为维度中所有玩家播放音效。",
+      "将getAllStates由测试版移动至稳定版。",
+      "clearJob(jobId: number)",
+      "现在会清除当前刻中的所有迭代次数和任何计划用于未来的刻。之前版本只会清除未来刻中的迭代次数。"
+    ],
+    "@minecraft/server.WeatherChangeAfterEvent": [
+      "将WeatherChangeAfterEvent由测试版移动至稳定版。",
+      "将setOnFire由beta移动至1.9.0。",
+      "将extinguishFire由beta移动至1.9.0。",
+      "将EntityOnFireComponent由beta移动至1.9.0。",
+      "将getEquipmentSlot由beta移动至1.9.0。",
+      "将BlockStateType由beta移动至1.9.0。",
+      "将BlockStates由beta移动至1.9.0。",
+      "将BlockSignComponent由beta移动至1.9.0。",
+      "将DyeColor由beta移动至1.9.0。",
+      "将SignSide由beta移动至1.9.0。",
+      "将ContainerSlot由beta移动至1.9.0。",
+      "将InvalidContainerSlotError由beta移动至1.9.0。",
+      "将getSlot由beta移动至1.9.0。",
+      "将EffectTypes由beta移动至1.9.0。",
+      "将RawText由beta移动至1.9.0。",
+      "将createExplosion由beta移动至1.9.0。",
+      "将ExplosionOptions由beta移动至1.9.0。",
+      "将DimensionType由beta移动至1.9.0。",
+      "将DimensionTypes由beta移动至1.9.0。",
+      "将setDynamicProperty由beta移动至1.9.0。",
+      "将getDynamicProperty由beta移动至1.9.0。",
+      "将getDynamicPropertyIds由beta移动至1.9.0。",
+      "将getDynamicPropertyTotalByteCoun由beta移动至1.9.0。",
+      "将clearDynamicProperties由beta移动至1.9.0。",
+      "加入了StructureManager。",
+      "该实例允许玩家在世界中创建、加载和放置结构。"
+    ],
+    "StructureManager": [
+      "加入了createEmpty(identifier: string, size: Vector3, saveMode?: StructureSaveMode): StructureTemplate函数。",
+      "用于创建新的空白结构。",
+      "加入了createFromWorld(identifier: string, dimension: Dimension, blockVolume: BlockVolume, options?: StructureCreateOptions): StructureTemplate函数。",
+      "用于以世界中的方块创建新的结构。",
+      "加入了delete(structure: string | StructureTemplate): boolean函数。",
+      "用于删除结构。",
+      "加入了get(identifier: string): StructureTemplate | undefined函数。",
+      "用于获取带有指定标识符的结构。",
+      "加入了place(structure: string | StructureTemplate, dimension: Dimension, location: Vector3, options?: StructurePlaceOptions)函数。",
+      "用于在世界中放置结构。"
+    ],
+    "StructureTemplate": [
+      "加入了id: string只读属性。",
+      "用于返回结构的名称。",
+      "将effectAdd由beta移动至1.9.0。",
+      "修复了物品动态属性有时可应用于堆叠数大于1的物品的漏洞。",
+      "移除了triggerEvent()函数。"
+    ],
+    "WorldBeforeEvents": [
+      "移除了itemDefinitionEvent属性。",
+      "将explosion由beta移动至1.9.0。"
+    ],
+    "WorldAfterEvents": [
+      "移除了itemDefinitionEvent属性。",
+      "将explosion由beta移动至1.9.0。"
+    ],
+    "维度": [
+      "Dimension.getEntities现在仅会返回所查询维度内的实体。"
+    ],
+    "原版趋同": [
+      "狼现在会受到与Java版相同的伤害。（MCPE-177613）"
+    ],
+    "Realms": [
+      "更新了Realms Plus登录页面，以使Realms订阅的运作方式更加清晰易懂。",
+      "在Realms上，除非玩家位于末地，否则末地中的区块不再会保持加载。（REALMS-11358、REALMS-11290）",
+      "修复了Realms订阅登录页面中的文本会略微缩短的问题。"
+    ],
+    "Android": [
+      "在运行Android 12或更低版本的设备上启动游戏之前，若已通过应用程序设置授予存储权限，则新安装游戏时会将存储设置切换至外部。（MCPE-177269）",
+      "现在在运行Android 12或更低版本的设备上通过游戏内设置将存储位置设置为外部时，部分文件和目录会在下次启动游戏时在外部存储中生成。（MCPE-176675）"
+    ],
+    "用户界面": [
+      "修复了聊天消息在被发送后会渲染在屏幕之下的问题。（MCPE-178905）",
+      "更新了举报好友的警告模态框和举报限制的警告模态框的设计。",
+      "修复了已清除的文本会重新出现在搜索栏中的漏洞。（MCPE-174590）",
+      "现在即使世界已应用资源包，新的死亡屏幕也会默认启用。",
+      "修复了Realm槽位屏幕上的主面板文本和Realm动态按钮的文本转语音旁白。"
+    ],
+    "你知道吗": [
+      "在移动设备的推送通知中，此次更新被宣称为Git版本库分支所使用的名称“R20U7”。"
+    ],
+    "参考": [
+      "Minecraft - 1.20.70/71 (Bedrock) — Minecraft Feedback，2024年3月12日。",
+      "MCPE-174716 — 漏洞状态为“已修复”。",
+      "Do not update Minecraft through the Xbox app on PC. If you do, your worlds may be lost. We recommend that you run the Gaming Services Repair Tool for PC before installing the Minecraft update. For more information, go here: aka.ms/mcldataloss，来自@MojangStatus。X（曾名Twitter），2024年3月15日。",
+      "We continue to investigate world loss issues & have blocked the update from Windows to prevent the possibility of lost worlds. If you didn’t receive the update, some online services may be unavailable, including cross-platform multiplayer.，来自@MojangStatus。X（曾名Twitter），2024年3月15日。",
+      "MCPE-178369 — 漏洞状态为“有意为之”。",
+      "MCPE-178882 — 漏洞状态为“已修复”。",
+      "MCPE-178351 — 漏洞状态为“已修复”。"
+    ],
+    "Saw some people receive this notification for the new #Minecraft update. It's just what they call their git repo branch. You can check that by going to the general section in settings in game. Just a fun fact!": [
+      "R20 - Release 1 20",
+      "U07 - The 7th update to 1.20，来自@SmokeyStack_。X（曾名Twitter），2024年3月13日。"
+    ]
+  }
+}

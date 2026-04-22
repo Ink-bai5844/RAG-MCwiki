@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.2.835x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.835x",
+  "text": "2.2.835x\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2021年12月14日\n测试版归属\n2.2.847x\n◄◄2.2.795x\n2.2.854x►►\n◄2.2.811x\n2.2.8351（Windows）、2.2.8352（Windows，Microsoft Store版）、2.2.8353（macOS）或2.2.8354（Linux）是一次启动器更新，发布于2021年12月14日。\n更改\n更新了Minecraft Dungeons的云上攀登季节挑战的有关内容。\n更正了启动器各处的Minecraft logo艺术图。\n修复\nMCL-19986 - 当启动器更换为Microsoft Store版时所有已下载的文件会丢失。\nMCL-20219 - 进入皮肤选项卡并访问minecraft.net/profile修改玩家名称时会显示并未购买游戏。\nMCL-20580 - 玩家不能卸载Minecraft Dungeons的游戏文件。\nMCL-20795 - 玩家不能安装基岩版，进度条上显示“错误”。\n导航"
+}

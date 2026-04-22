@@ -1,0 +1,244 @@
+{
+  "title": "狼铠",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8B%BC%E9%93%A0",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft中的狼铠。关于Minecraft Dungeons中的盔甲，请见“MCD:狼甲”。"
+    ],
+    "[[|]]": [
+      "叠加2个狼铠的剩余耐久度，再额外获得5%的耐久度。"
+    ],
+    "最大耐久度": [
+      "64"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "wolf_armor": [
+      "狼铠（Wolf Armor）是一种可以为狼装备的盔甲物品。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加2个狼铠的剩余耐久度，再额外获得5%的耐久度。"
+    ],
+    "铁砧": [
+      "主条目：铁砧机制"
+    ],
+    "修复和命名狼铠[[|]][[|]][[|]]": [
+      "每个犰狳鳞甲可以恢复狼铠25%的耐久（向下取整）。",
+      "叠加2个狼铠的剩余耐久度，再额外获得12%的耐久度。"
+    ],
+    "生物掉落物": [
+      "装备了狼铠的狼在死亡时会掉落一个狼铠。"
+    ],
+    "framless": [
+      "玩家可以对自己驯服的狼使用以下物品：",
+      "狼铠：为其装备狼铠",
+      "剪刀：卸下其装备的狼铠",
+      "犰狳鳞甲：为其装备的狼铠恢复8点耐久度"
+    ],
+    "提供护甲值": [
+      "主条目：盔甲机制",
+      "装备狼铠的狼会获得11（ × 5.5）护甲值。"
+    ],
+    "提供受伤害行为": [
+      "主条目：狼 § 受伤害行为",
+      "狼装备的狼铠通过消耗耐久度为狼抵消大多数非魔法伤害。"
+    ],
+    "染色": [
+      "主条目：染料 § 盔甲",
+      "狼铠可以被染成12,326,391种颜色。",
+      "手持染色的狼铠对着装有水的炼药锅使用可以洗掉颜色。",
+      "正在加载互动小工具。如果加载失败，请您刷新本页面并检查JavaScript是否已启用。"
+    ],
+    "附魔": [
+      "狼铠虽具有耐久度且可穿戴，但其不适用任何魔咒。不过，在Java版中通过命令及其他方法为狼铠添加的魔咒仍然可以正常生效。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "狼铠：装备"
+    ],
+    "subtitles.item.armor.equip_wolf": [
+      "狼铠：滑落"
+    ],
+    "subtitles.item.armor.unequip_wolf": [
+      "狼铠：受损"
+    ],
+    "subtitles.item.wolf_armor.damage": [
+      "狼铠：裂开"
+    ],
+    "subtitles.item.wolf_armor.crack": [
+      "狼铠：损坏"
+    ],
+    "subtitles.item.wolf_armor.break": [
+      "狼铠：被修复"
+    ],
+    "subtitles.item.wolf_armor.repair": [
+      "基岩版："
+    ],
+    "armor.equip_wolf": [
+      "1.0",
+      "1.1",
+      "16"
+    ],
+    "armor.unequip_wolf": [
+      "1.0",
+      "16"
+    ],
+    "armor.damage_wolf": [
+      "1.0",
+      "16"
+    ],
+    "armor.crack_wolf": [
+      "1.0",
+      "16"
+    ],
+    "armor.break_wolf": [
+      "0.8",
+      "0.8-1.2",
+      "16"
+    ],
+    "armor.repair_wolf": [
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.wolf_armor": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*slot：物品可被穿戴的装备槽位。",
+      "swappable：（默认为true）物品是否可以直接使用穿戴。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。",
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:equippable：物品被穿戴的行为。",
+      "allowed_entities：（默认为全部生物）可以穿戴此物品的生物。可以为以#开头的实体类型标签、一个实体类型ID、或以多个实体类型ID组成的字符串列表。",
+      "asset_id：（命名空间ID）物品被穿戴时的装备模型。此值不存在时，若装备在头部则根据物品模型渲染物品，否则什么也不会渲染。",
+      "camera_overlay：（命名空间ID）当此项存在且物品被玩家穿戴时，玩家第一人称视角将渲染指定的纹理遮罩。此遮罩可以使用多个设置此标签的物品互相叠加，每个物品指定的遮罩都会被渲染，且渲染顺序按照主手、副手、头盔、胸甲、护腿、靴子、身体、鞍的顺序依次叠加渲染。当遮罩纹理渲染时，遮罩纹理被视为独立纹理，即无法作为动态纹理或GUI纹理渲染，但可以指定纹理过滤方式。",
+      "can_be_sheared：（默认为false）满足未被骑乘等其他条件时，玩家是否可以对装备此物品的生物进行修剪来卸下此物品。",
+      "damage_on_hurt：（默认为true）生物在受到会影响损害盔甲的伤害时此物品是否会受损而减少耐久。",
+      "equip_on_interact：（默认为false）对生物使用此物品时，是否可以让被交互的生物在允许的空槽位上穿戴此物品。",
+      "equip_sound：（默认为item.armor.equip_generic，默认可装备鞍的生物的鞍除外）物品被穿戴时的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "dispensable：（默认为true）是否可以使用发射器使生物穿戴此物品。如果物品本身有特殊的发射器行为则此项无效。",
+      "shearing_sound：（默认为item.shears.snip）被玩家使用剪刀卸下此物品时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:repairs_wolf_armor\"},\"minecraft:lore\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:item.armor.equip_wolf\",\"shearing_sound\":\"minecraft:item.armor.unequip_wolf\",\"asset_id\":\"minecraft:armadillo_scute\",\"allowed_entities\":\"minecraft:wolf\",\"slot\":\"body\"},\"minecraft:max_damage\":64,\"minecraft:rarity\":\"common\",\"minecraft:item_name\":{\"translate\":\"item.minecraft.wolf_armor\"},\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:armor\",\"amount\":11,\"operation\":\"add_value\",\"slot\":\"body\",\"id\":\"minecraft:armor.body\"},{\"type\":\"minecraft:armor_toughness\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"body\",\"id\":\"minecraft:armor.body\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:wolf_armor\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:item.wolf_armor.break\"}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "永恒的伙伴": [
+      "对自己驯服的狼使用犰狳鳞甲以修复其装备的损坏的狼铠。"
+    ],
+    "历史": [
+      "2023年10月4日",
+      "Minecraft Live 2023生物投票的犰狳介绍视频中提及了狼铠。",
+      "2023年10月15日",
+      "犰狳在生物投票中胜出，因此与之相关的狼铠也会一同加入游戏。"
+    ],
+    "Java版": [
+      "1.20.5",
+      "23w51a",
+      "加入了狼铠。",
+      "24w03a",
+      "更改了狼铠的模型纹理和物品纹理。",
+      "24w05a",
+      "现在狼铠的物品提示框中包含护甲值信息。",
+      "现在狼的实体数据中会存储狼铠的物品数据。在此前，狼的实体数据中仅有一个布尔型数据记录狼是否有狼铠。",
+      "24w09a",
+      "现在狼铠可以染色。",
+      "现在狼铠具有64最大耐久度，会根据剩余耐久度呈现不同程度的开裂纹理，并且可以使用犰狳鳞甲修复。",
+      "现在狼铠以自身耐久度为狼抵消特定伤害。",
+      "将狼铠的物品纹理上移了2个像素，为耐久条腾出空间。",
+      "24w11a",
+      "更改了狼铠的开裂纹理。",
+      "1.21.2",
+      "pre1",
+      "狼身上的狼铠现在会渲染魔咒光效。"
+    ],
+    "基岩版": [
+      "1.20.60"
+    ],
+    "犰狳和狼铠": [
+      "1.20.60.23",
+      "加入了狼铠。",
+      "1.20.60.24",
+      "现在给狼装备和卸下狼铠的音效的音量由“友好生物”音效滑块控制。",
+      "1.20.70",
+      "1.20.70.20",
+      "更改了狼铠的模型纹理和物品纹理。",
+      "1.20.80",
+      "1.20.80.20",
+      "狼铠不再属于实验性玩法。",
+      "现在狼铠可以染色。",
+      "现在狼铠具有64最大耐久度，会根据剩余耐久度呈现不同程度的开裂纹理，并且可以使用犰狳鳞甲修复。",
+      "现在狼铠以自身耐久度为狼抵消特定伤害。",
+      "将狼铠的物品纹理上移了2个像素，为耐久条腾出空间。",
+      "1.20.80.22",
+      "将狼铠开裂音效由更改为。",
+      "将修复狼铠音效由更改为。",
+      "狼铠现在会在损坏时产生粒子。",
+      "狼铠现在可以阻挡守卫者和远古守卫者激光攻击造成的部分伤害。",
+      "26.0",
+      "26.0.23",
+      "现在狼铠会在提示框中显示护甲值加成、盔甲韧性加成和击退抗性加成。"
+    ],
+    "参考": [
+      "MC-267922 — “狼铠在装备时丢失自定义显示名称和其他NBT数据。” — 漏洞状态为“已修复”。",
+      "MCPE-179264 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

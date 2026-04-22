@@ -1,0 +1,5 @@
+{
+  "title": "Java版标签/世界预设",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E4%B8%96%E7%95%8C%E9%A2%84%E8%AE%BE",
+  "text": "本条目所述内容仅适用于Java版。\n世界预设标签（World Preset Tags）是世界预设的组合。\n使用\n世界预设标签不可被主动调用，它们被游戏用来控制创建世界屏幕上可供选择的世界预设。\n当前版本\nextended\n按住Alt键时，在“世界”按钮中展示的世界预设。\n#extended（2项）\n#normal\ndebug_all_block_states（调试模式）\nnormal\n默认情况下，在“世界”按钮中展示的世界预设。\n#normal（5项）\nnormal（默认）\nflat（超平坦）\nlarge_biomes（巨型生物群系）\namplified（放大化）\nsingle_biome_surface（单一生物群系）\n历史\nJava版\n1.19\n22w11a\n加入了世界预设标签：#extended和​#normal。\n导航"
+}

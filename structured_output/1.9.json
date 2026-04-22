@@ -1,0 +1,50 @@
+{
+  "title": "1.9",
+  "source_url": "https://zh.minecraft.wiki/w/1.9",
+  "structured_content": {
+    "Java版": [
+      "Java版1.9",
+      "Java版1.9-pre1",
+      "Java版1.9-pre2",
+      "Java版1.9-pre3",
+      "Java版1.9-pre4",
+      "Java版1.9.1",
+      "Java版1.9.1-pre1",
+      "Java版1.9.1-pre2",
+      "Java版1.9.1-pre3",
+      "Java版1.9.2",
+      "Java版1.9.3",
+      "Java版1.9.3-pre1",
+      "Java版1.9.3-pre2",
+      "Java版1.9.3-pre3",
+      "Java版1.9.4"
+    ],
+    "Beta": [
+      "Beta 1.9，追溯到了Java版1.0.0。"
+    ],
+    "Classic": [
+      "Java版Classic服务器1.9",
+      "Java版Classic服务器1.9.1"
+    ],
+    "基岩版": [
+      "基岩版1.9.0",
+      "基岩版1.9.0.0",
+      "基岩版1.9.0.2",
+      "基岩版1.9.0.3",
+      "基岩版1.9.0.5"
+    ],
+    "原主机版": [
+      "PlayStation 3版1.09"
+    ],
+    "教育版": [
+      "教育版1.9.0",
+      "New Nintendo 3DS版",
+      "New Nintendo 3DS版1.9.19"
+    ],
+    "Minecraft Dungeons": [
+      "1.9.1.0",
+      "1.9.3.0",
+      "1.9.4.0"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "末地水晶/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E6%B0%B4%E6%99%B6%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\nbeam_target：治愈激光定位到的位置。内部的三个整数分别代表了位置的XYZ坐标值。\n*ShowBottom：表示末地水晶是否显示基岩底座。使用末地水晶物品放置生成时此值为false，其他情况下都为true。"
+}

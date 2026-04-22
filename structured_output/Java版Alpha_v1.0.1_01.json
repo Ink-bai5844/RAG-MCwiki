@@ -1,0 +1,28 @@
+{
+  "title": "Java版Alpha v1.0.1 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.1_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "Alpha v1.0.1_01"
+    ],
+    "发布时间": [
+      "2010年7月3日"
+    ],
+    "客户端（.json）": [
+      "◄◄Infdev 20100625-1917",
+      "Alpha v1.0.4►►",
+      "◄Alpha v1.0.1",
+      "Alpha v1.0.2►",
+      "Alpha v1.0.1_01是Java版的一次更新，发布于2010年7月3日，修复了1个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了在Linux上有关鼠标的漏洞。"
+    ],
+    "参考": [
+      "Seecret Friday update the third! OooooOOOoo!（存档） — The Word of Notch，2010年7月3日。"
+    ]
+  }
+}

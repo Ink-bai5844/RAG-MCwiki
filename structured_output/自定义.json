@@ -1,0 +1,428 @@
+{
+  "title": "自定义",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%87%AA%E5%AE%9A%E4%B9%89",
+  "structured_content": {
+    "默认分类": [
+      "关于Java版1.13前的自定义，请见“自定义/Java版1.13前”；关于Java版快照20w14∞中名为“custom”的彩蛋维度，请见“20w14∞ § 世界生成”。",
+      "此条目所介绍的内容已从Java版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "使用自定义生成设置在主世界生成的诡异森林生物群系": [
+      "自定义（Custom）是一种世界类型，允许玩家更改主世界、下界和末地的生成设置并添加新维度，可以通过修改在世界选项界面中导出的JSON文件来实现。"
+    ],
+    "访问": [
+      "自定义世界生成需使用JSON文件进行，创建世界时可以导入这些文件。玩家也可以随时从已有世界中导出这些JSON文件。",
+      "在创建新的世界菜单中，进入“更多选项”界面，点击“导入世界”按钮，选择用于自定义世界生成的JSON文件。如果JSON文件中包含有非默认的生成设置，那么此时会弹出一个警告弹窗，警告该功能目前还处于实验性阶段；点击“是”以继续，然后设置界面中世界类型变成了不可更改的“自定义”，即导入设置成功。",
+      "在世界的“编辑世界”屏幕，可以选择导出设置，设置文件位于存档的worldgen_settings_export.json下。",
+      "访问自行添加的维度的唯一方法是通过命令，比如/execute in <维度名称> run tp @s ~ ~ ~，这会将玩家传送到指定的维度。"
+    ],
+    "JSON格式": [
+      "主条目：自定义世界生成",
+      "自定义世界的存储格式如下：",
+      "：根标签。",
+      "bonus_chest：决定该世界是否会生成奖励箱。等同于创建世界时的“奖励箱”选项。",
+      "generate_features：决定该世界是否会自然生成结构。等同于创建世界时的“生成结构”选项。",
+      "seed：该世界的种子。",
+      "legacy_custom_options：旧的自定义世界的预设码，只存在于旧的自定义世界中。",
+      "dimensions：此世界中维度的列表，玩家会以minecraft:overworld（主世界）作为游戏的起点。如果没有定义minecraft:overworld，所有自定义维度设置都会被重置并重新生成默认的主世界。如果没有定义minecraft:the_nether（下界）或minecraft:the_end（末地）维度，那么下界传送门和末地传送门仍然可以被正常创建，但无法传送任何实体。",
+      "<维度命名空间ID>：一个维度。世界正常运转必须要有维度minecraft:overworld、​minecraft:the_nether和​minecraft:the_end。",
+      "type：维度类型命名空间ID，可引用数据包内自定义的维度类型。默认可选值有minecraft:overworld、​minecraft:the_nether、​minecraft:the_end和​minecraft:overworld_caves。",
+      "generator：该维度的生成器设置。"
+    ],
+    "*": [
+      "*type：区块生成器命名空间ID。取值只能为debug（调试模式）、flat（超平坦）或noise（噪声生成器）。",
+      "当区块生成器类型为debug时，没有附加字段。",
+      "当区块生成器类型为flat时，附加字段如下：",
+      "*settings：超平坦设置。",
+      "超平坦生成设置，见Template:nbt inherit/flat generator settings/source",
+      "当区块生成器类型为noise时，附加字段如下：",
+      "*biome_source：设置世界生成使用的生物群系分布。",
+      "*type：生物群系源命名空间ID。取值只能为或multi_noise（多噪声型）、the_end（末地型）、fixed（单一型）或checkerboard（棋盘型）。",
+      "当生物群系源类型为multi_noise时，二选一，附加字段如下：",
+      "*preset：使用多噪声生物群系源列表生成生物群系，命名空间ID或内联定义均可。",
+      "*biomes：（不能为空）一个生物群系与其放置参数的列表。",
+      "*biome：此参数要放置的生物群系的ID。",
+      "*parameters：放置此生物群系的参数。",
+      "生物群系噪声值参数，见Template:Nbt inherit/parameter point/source",
+      "当生物群系源类型为the_end时，没有附加字段。",
+      "当生物群系源类型为checkboard时，附加字段如下：",
+      "*biomes：沿着对角线重复的生物群系列表。可以为生物群系的ID、生物群系ID的列表，或一个生物群系标签。",
+      "scale：（0≤值≤62，默认为2）在指数尺度上确定正方形的大小。",
+      "当生物群系源类型为fixed时，附加字段如下：",
+      "*biome：一个生物群系ID。",
+      "*settings：噪声设置，命名空间ID或内联定义均可。"
+    ],
+    "生物群系参数": [
+      "虽然只有下界生物群系的值可以通过预设值访问，但一些主世界生物群系也有默认值。"
+    ],
+    "这些是原版中生物群系源为multi_noise时每个生物群系使用的默认值。 主世界": [
+      "主条目：世界生成 § 主世界生物群系"
+    ],
+    "basalt_deltas": [
+      "-0.5",
+      "0",
+      "0.175",
+      "0"
+    ],
+    "crimson_forest": [
+      "0.4",
+      "0"
+    ],
+    "nether_wastes": [
+      "0"
+    ],
+    "soul_sand_valley": [
+      "0",
+      "-0.5",
+      "0"
+    ],
+    "warped_forest": [
+      "0",
+      "0.5",
+      "0.375",
+      "0"
+    ],
+    "维度类型": [
+      "这些是原版中被3种默认维度以及被洞穴世界类型使用的维度类型选项。",
+      "主条目：维度类型 § 内置维度类型"
+    ],
+    "默认设置": [
+      "以下是导出的默认Minecraft世界设置，此世界的种子为0。"
+    ],
+    "JSON内容": [
+      "{\"seed\":0,\"generate_features\":true,\"bonus_chest\":false,\"dimensions\":{\"minecraft:overworld\":{\"type\":\"minecraft:overworld\",\"generator\":{\"biome_source\":{\"preset\":\"minecraft:overworld\",\"type\":\"minecraft:multi_noise\"},\"settings\":\"minecraft:overworld\",\"type\":\"minecraft:noise\"}},\"minecraft:the_nether\":{\"type\":\"minecraft:the_nether\",\"generator\":{\"biome_source\":{\"preset\":\"minecraft:nether\",\"type\":\"minecraft:multi_noise\"},\"settings\":\"minecraft:nether\",\"type\":\"minecraft:noise\"}},\"minecraft:the_end\":{\"type\":\"minecraft:the_end\",\"generator\":{\"biome_source\":{\"type\":\"minecraft:the_end\"},\"settings\":\"minecraft:end\",\"type\":\"minecraft:noise\"}}}}",
+      "{\"seed\":0,\"bonus_chest\":false,\"generate_features\":false,\"dimensions\":{\"minecraft:overworld\":{\"type\":\"minecraft:overworld\",\"generator\":{\"type\":\"minecraft:debug\"}}}}",
+      "{\"bonus_chest\":false,\"dimensions\":{\"minecraft:overworld\":{\"type\":{\"logical_height\":256,\"infiniburn\":\"minecraft:infiniburn_overworld\",\"effects\":\"minecraft:overworld\",\"ambient_light\":0.0,\"respawn_anchor_works\":false,\"has_raids\":true,\"min_y\":0,\"height\":256,\"natural\":true,\"coordinate_scale\":1.0,\"piglin_safe\":false,\"bed_works\":true,\"has_skylight\":true,\"has_ceiling\":false,\"ultrawarm\":false},\"generator\":{\"biome_source\":{\"seed\":0,\"large_biomes\":false,\"type\":\"minecraft:vanilla_layered\"},\"seed\":0,\"settings\":{\"noise_caves_enabled\":false,\"deepslate_enabled\":false,\"ore_veins_enabled\":false,\"noodle_caves_enabled\":false,\"min_surface_level\":0,\"disable_mob_generation\":false,\"aquifers_enabled\":false,\"default_fluid\":{\"Properties\":{\"level\":\"0\"},\"Name\":\"minecraft:water\"},\"bedrock_roof_position\":-2147483648,\"bedrock_floor_position\":0,\"sea_level\":63,\"structures\":{\"stronghold\":{\"distance\":32,\"spread\":3,\"count\":128},\"structures\":{\"minecraft:pillager_outpost\":{\"spacing\":32,\"separation\":8,\"salt\":165745296},\"minecraft:village\":{\"spacing\":32,\"separation\":8,\"salt\":10387312},\"minecraft:fortress\":{\"spacing\":27,\"separation\":4,\"salt\":30084232},\"minecraft:desert_pyramid\":{\"spacing\":32,\"separation\":8,\"salt\":14357617},\"minecraft:bastion_remnant\":{\"spacing\":27,\"separation\":4,\"salt\":30084232},\"minecraft:stronghold\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:monument\":{\"spacing\":32,\"separation\":5,\"salt\":10387313},\"minecraft:swamp_hut\":{\"spacing\":32,\"separation\":8,\"salt\":14357620},\"minecraft:endcity\":{\"spacing\":20,\"separation\":11,\"salt\":10387313},\"minecraft:mineshaft\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:igloo\":{\"spacing\":32,\"separation\":8,\"salt\":14357618},\"minecraft:mansion\":{\"spacing\":80,\"separation\":20,\"salt\":10387319},\"minecraft:buried_treasure\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:ocean_ruin\":{\"spacing\":20,\"separation\":8,\"salt\":14357621},\"minecraft:jungle_pyramid\":{\"spacing\":32,\"separation\":8,\"salt\":14357619},\"minecraft:ruined_portal\":{\"spacing\":40,\"separation\":15,\"salt\":34222645},\"minecraft:shipwreck\":{\"spacing\":24,\"separation\":4,\"salt\":165745295},\"minecraft:nether_fossil\":{\"spacing\":2,\"separation\":1,\"salt\":14357921}}},\"noise\":{\"simplex_surface_noise\":true,\"random_density_offset\":true,\"size_vertical\":2,\"density_factor\":1.0,\"density_offset\":-0.46875,\"top_slide\":{\"target\":-10,\"size\":3,\"offset\":0},\"bottom_slide\":{\"target\":15,\"size\":3,\"offset\":0},\"size_horizontal\":1,\"min_y\":0,\"height\":256,\"sampling\":{\"xz_scale\":0.9999999814507745,\"y_scale\":0.9999999814507745,\"xz_factor\":80.0,\"y_factor\":160.0}},\"default_block\":{\"Name\":\"minecraft:stone\"}},\"type\":\"minecraft:noise\"}},\"minecraft:the_nether\":{\"type\":{\"logical_height\":128,\"infiniburn\":\"minecraft:infiniburn_nether\",\"effects\":\"minecraft:the_nether\",\"ambient_light\":0.1,\"respawn_anchor_works\":true,\"has_raids\":false,\"min_y\":0,\"height\":256,\"natural\":false,\"coordinate_scale\":8.0,\"piglin_safe\":true,\"bed_works\":false,\"fixed_time\":18000,\"has_skylight\":false,\"has_ceiling\":true,\"ultrawarm\":true},\"generator\":{\"biome_source\":{\"humidity_noise\":{\"firstOctave\":-7,\"amplitudes\":[1.0,1.0]},\"altitude_noise\":{\"firstOctave\":-7,\"amplitudes\":[1.0,1.0]},\"weirdness_noise\":{\"firstOctave\":-7,\"amplitudes\":[1.0,1.0]},\"seed\":0,\"biomes\":[{\"parameters\":{\"altitude\":0.0,\"weirdness\":0.0,\"offset\":0.0,\"temperature\":0.0,\"humidity\":0.0},\"biome\":\"minecraft:nether_wastes\"},{\"parameters\":{\"altitude\":0.0,\"weirdness\":0.0,\"offset\":0.0,\"temperature\":0.0,\"humidity\":-0.5},\"biome\":\"minecraft:soul_sand_valley\"},{\"parameters\":{\"altitude\":0.0,\"weirdness\":0.0,\"offset\":0.0,\"temperature\":0.4,\"humidity\":0.0},\"biome\":\"minecraft:crimson_forest\"},{\"parameters\":{\"altitude\":0.0,\"weirdness\":0.0,\"offset\":0.375,\"temperature\":0.0,\"humidity\":0.5},\"biome\":\"minecraft:warped_forest\"},{\"parameters\":{\"altitude\":0.0,\"weirdness\":0.0,\"offset\":0.175,\"temperature\":-0.5,\"humidity\":0.0},\"biome\":\"minecraft:basalt_deltas\"}],\"temperature_noise\":{\"firstOctave\":-7,\"amplitudes\":[1.0,1.0]},\"type\":\"minecraft:multi_noise\"},\"seed\":0,\"settings\":{\"noise_caves_enabled\":false,\"deepslate_enabled\":false,\"ore_veins_enabled\":false,\"noodle_caves_enabled\":false,\"min_surface_level\":0,\"disable_mob_generation\":false,\"aquifers_enabled\":false,\"bedrock_roof_position\":0,\"bedrock_floor_position\":0,\"sea_level\":32,\"structures\":{\"structures\":{\"minecraft:pillager_outpost\":{\"spacing\":32,\"separation\":8,\"salt\":165745296},\"minecraft:village\":{\"spacing\":32,\"separation\":8,\"salt\":10387312},\"minecraft:fortress\":{\"spacing\":27,\"separation\":4,\"salt\":30084232},\"minecraft:desert_pyramid\":{\"spacing\":32,\"separation\":8,\"salt\":14357617},\"minecraft:bastion_remnant\":{\"spacing\":27,\"separation\":4,\"salt\":30084232},\"minecraft:stronghold\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:monument\":{\"spacing\":32,\"separation\":5,\"salt\":10387313},\"minecraft:swamp_hut\":{\"spacing\":32,\"separation\":8,\"salt\":14357620},\"minecraft:endcity\":{\"spacing\":20,\"separation\":11,\"salt\":10387313},\"minecraft:mineshaft\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:igloo\":{\"spacing\":32,\"separation\":8,\"salt\":14357618},\"minecraft:mansion\":{\"spacing\":80,\"separation\":20,\"salt\":10387319},\"minecraft:buried_treasure\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:ocean_ruin\":{\"spacing\":20,\"separation\":8,\"salt\":14357621},\"minecraft:jungle_pyramid\":{\"spacing\":32,\"separation\":8,\"salt\":14357619},\"minecraft:ruined_portal\":{\"spacing\":25,\"separation\":10,\"salt\":34222645},\"minecraft:shipwreck\":{\"spacing\":24,\"separation\":4,\"salt\":165745295},\"minecraft:nether_fossil\":{\"spacing\":2,\"separation\":1,\"salt\":14357921}}},\"noise\":{\"density_factor\":0.0,\"density_offset\":0.019921875,\"simplex_surface_noise\":false,\"bottom_slide\":{\"target\":320,\"size\":4,\"offset\":-1},\"size_horizontal\":1,\"size_vertical\":2,\"height\":128,\"sampling\":{\"xz_scale\":1.0,\"y_scale\":3.0,\"xz_factor\":80.0,\"y_factor\":60.0},\"top_slide\":{\"target\":120,\"size\":3,\"offset\":0}},\"default_block\":{\"Name\":\"minecraft:netherrack\"},\"default_fluid\":{\"Properties\":{\"level\":\"0\"},\"Name\":\"minecraft:lava\"}},\"type\":\"minecraft:noise\"}},\"minecraft:the_end\":{\"type\":{\"logical_height\":256,\"infiniburn\":\"minecraft:infiniburn_end\",\"effects\":\"minecraft:the_end\",\"ambient_light\":0.0,\"respawn_anchor_works\":false,\"has_raids\":true,\"min_y\":0,\"height\":256,\"natural\":false,\"coordinate_scale\":1.0,\"piglin_safe\":false,\"bed_works\":false,\"fixed_time\":6000,\"has_skylight\":false,\"has_ceiling\":false,\"ultrawarm\":false},\"generator\":{\"biome_source\":{\"seed\":0,\"type\":\"minecraft:the_end\"},\"seed\":0,\"settings\":{\"noise_caves_enabled\":false,\"deepslate_enabled\":false,\"ore_veins_enabled\":false,\"noodle_caves_enabled\":false,\"min_surface_level\":0,\"disable_mob_generation\":true,\"aquifers_enabled\":false,\"bedrock_roof_position\":-2147483648,\"bedrock_floor_position\":-2147483648,\"sea_level\":0,\"structures\":{\"structures\":{\"minecraft:pillager_outpost\":{\"spacing\":32,\"separation\":8,\"salt\":165745296},\"minecraft:village\":{\"spacing\":32,\"separation\":8,\"salt\":10387312},\"minecraft:fortress\":{\"spacing\":27,\"separation\":4,\"salt\":30084232},\"minecraft:desert_pyramid\":{\"spacing\":32,\"separation\":8,\"salt\":14357617},\"minecraft:bastion_remnant\":{\"spacing\":27,\"separation\":4,\"salt\":30084232},\"minecraft:stronghold\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:monument\":{\"spacing\":32,\"separation\":5,\"salt\":10387313},\"minecraft:swamp_hut\":{\"spacing\":32,\"separation\":8,\"salt\":14357620},\"minecraft:endcity\":{\"spacing\":20,\"separation\":11,\"salt\":10387313},\"minecraft:mineshaft\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:igloo\":{\"spacing\":32,\"separation\":8,\"salt\":14357618},\"minecraft:mansion\":{\"spacing\":80,\"separation\":20,\"salt\":10387319},\"minecraft:buried_treasure\":{\"spacing\":1,\"separation\":0,\"salt\":0},\"minecraft:ocean_ruin\":{\"spacing\":20,\"separation\":8,\"salt\":14357621},\"minecraft:jungle_pyramid\":{\"spacing\":32,\"separation\":8,\"salt\":14357619},\"minecraft:ruined_portal\":{\"spacing\":40,\"separation\":15,\"salt\":34222645},\"minecraft:shipwreck\":{\"spacing\":24,\"separation\":4,\"salt\":165745295},\"minecraft:nether_fossil\":{\"spacing\":2,\"separation\":1,\"salt\":14357921}}},\"noise\":{\"island_noise_override\":true,\"density_factor\":0.0,\"density_offset\":0.0,\"simplex_surface_noise\":true,\"bottom_slide\":{\"target\":-30,\"size\":7,\"offset\":1},\"size_horizontal\":2,\"size_vertical\":1,\"height\":128,\"sampling\":{\"xz_scale\":2.0,\"y_scale\":1.0,\"xz_factor\":80.0,\"y_factor\":160.0},\"top_slide\":{\"target\":-3000,\"size\":64,\"offset\":-46}},\"default_block\":{\"Name\":\"minecraft:end_stone\"},\"default_fluid\":{\"Name\":\"minecraft:air\"}},\"type\":\"minecraft:noise\"}}},\"seed\":0,\"generate_features\":true}",
+      "实例1：自定义超平坦维度"
+    ],
+    "不存在其他维度": [
+      "一个不包含下界和末地的调试模式世界。当玩家或其他实体触碰到下界传送门方块或末地传送门方块时也不会离开当前维度。"
+    ],
+    "自定义超平坦维度": [
+      "该维度是一个由五层玄武岩、四层砂土和一层草方块由下至上依次覆盖而成的超平坦世界，整个世界只会生成村庄结构。"
+    ],
+    "dimension对象数据": [
+      "{\"type\":\"minecraft:overworld\",\"generator\":{\"type\":\"minecraft:flat\",\"settings\":{\"structure_overrides\":[\"minecraft:villages\"],\"layers\":[{\"height\":5,\"block\":\"minecraft:basalt\"},{\"height\":4,\"block\":\"minecraft:coarse_dirt\"},{\"height\":1,\"block\":\"minecraft:grass_block\"}],\"biome\":\"minecraft:plains\"}}}",
+      "默认值（1.18前）",
+      "{\"generator\":{\"settings\":{\"structures\":{\"structures\":{\"minecraft:village\":{\"spacing\":3,\"separation\":1,\"salt\":10387312}}},\"layers\":[{\"height\":5,\"block\":\"minecraft:basalt\"},{\"height\":4,\"block\":\"minecraft:coarse_dirt\"},{\"height\":1,\"block\":\"minecraft:grass_block\"}],\"biome\":\"minecraft:plains\"},\"type\":\"minecraft:flat\"},\"type\":{\"ultrawarm\":false,\"natural\":true,\"coordinate_scale\":1.0,\"ambient_light\":0.5,\"fixed_time\":1000,\"has_skylight\":true,\"has_ceiling\":false,\"logical_height\":256,\"infiniburn\":\"minecraft:infiniburn_overworld\",\"effects\":\"minecraft:overworld\",\"respawn_anchor_works\":false,\"has_raids\":true,\"min_y\":0,\"height\":256,\"piglin_safe\":false,\"bed_works\":true}}"
+    ],
+    "噪声生成器": [
+      "以下是由minecraft:noise生成器可用的6种预设使用的选项。"
+    ],
+    "属性": [
+      "minecraft:overworld",
+      "minecraft:amplified",
+      "minecraft:nether",
+      "minecraft:caves",
+      "minecraft:end",
+      "minecraft:floating_islands"
+    ],
+    "bedrock_roof_position": [
+      "-10",
+      "0",
+      "-10"
+    ],
+    "bedrock_floor_position": [
+      "0",
+      "-10"
+    ],
+    "sea_level": [
+      "63",
+      "32",
+      "0"
+    ],
+    "default_block": [
+      "minecraft:stone",
+      "minecraft:netherrack",
+      "minecraft:stone",
+      "minecraft:end_stone",
+      "minecraft:stone"
+    ],
+    "default_fluid": [
+      "minecraft:water",
+      "minecraft:lava",
+      "minecraft:water",
+      "minecraft:air",
+      "minecraft:water"
+    ],
+    "stronghold": [
+      "1",
+      "0"
+    ],
+    "distance": [
+      "32"
+    ],
+    "count": [
+      "1"
+    ],
+    "spread": [
+      "3"
+    ],
+    "target": [
+      "-10",
+      "120",
+      "-3000",
+      "-30",
+      "320",
+      "-30"
+    ],
+    "size": [
+      "3",
+      "64",
+      "0",
+      "4",
+      "7"
+    ],
+    "offset": [
+      "0",
+      "-46",
+      "0",
+      "-1",
+      "1"
+    ],
+    "xz_scale": [
+      "0.9999999814507745",
+      "1",
+      "2"
+    ],
+    "xz_factor": [
+      "80"
+    ],
+    "y_scale": [
+      "0.9999999814507745",
+      "3",
+      "1"
+    ],
+    "y_factor": [
+      "160",
+      "60",
+      "160"
+    ],
+    "size_vertical": [
+      "2",
+      "1"
+    ],
+    "size_horizontal": [
+      "1",
+      "2"
+    ],
+    "height": [
+      "256",
+      "128"
+    ],
+    "density_factor": [
+      "1",
+      "0"
+    ],
+    "density_offset": [
+      "-0.46875",
+      "0.019921875",
+      "0"
+    ],
+    "结构": [
+      "这些是所有有命名空间的结构的默认值。每个预设为所有这些结构使用相同值，除了minecraft:ruined_portal。"
+    ],
+    "village": [
+      "32",
+      "8",
+      "10387312"
+    ],
+    "desert_pyramid": [
+      "32",
+      "8",
+      "14357617"
+    ],
+    "igloo": [
+      "32",
+      "8",
+      "14357618"
+    ],
+    "jungle_pyramid": [
+      "32",
+      "8",
+      "14357619"
+    ],
+    "swamp_hut": [
+      "32",
+      "8",
+      "14357620"
+    ],
+    "pillager_outpost": [
+      "32",
+      "8",
+      "165745296"
+    ],
+    "monument": [
+      "32",
+      "5",
+      "10387313"
+    ],
+    "endcity": [
+      "20",
+      "11",
+      "10387313"
+    ],
+    "mansion": [
+      "80",
+      "20",
+      "10387319"
+    ],
+    "buried_treasure": [
+      "1",
+      "0"
+    ],
+    "mineshaft": [
+      "1",
+      "0"
+    ],
+    "nether and caves": [
+      "25",
+      "10",
+      "34222645"
+    ],
+    "所有其他预设": [
+      "40",
+      "15",
+      "34222645"
+    ],
+    "shipwreck": [
+      "24",
+      "4",
+      "165745295"
+    ],
+    "ocean_ruin": [
+      "20",
+      "8",
+      "14357621"
+    ],
+    "bastion_remnant": [
+      "27",
+      "4",
+      "30084232"
+    ],
+    "fortress": [
+      "27",
+      "4",
+      "30084232"
+    ],
+    "nether_fossil": [
+      "2",
+      "1",
+      "14357921"
+    ],
+    "badlands": [
+      "-0.25",
+      "-0.5",
+      "0.5",
+      "0.2",
+      "1"
+    ],
+    "badlands_plateau": [
+      "-0.25",
+      "-0.5",
+      "0.65",
+      "0.2",
+      "1"
+    ],
+    "bamboo_jungle": [
+      "0.5",
+      "0",
+      "0.2",
+      "1"
+    ],
+    "bamboo_jungle_hills": [
+      "0.5",
+      "0.25",
+      "0.2",
+      "1"
+    ],
+    "beach": [
+      "0",
+      "-0.1",
+      "0",
+      "0.9935"
+    ],
+    "birch_forest": [
+      "-0.1",
+      "0.2",
+      "0",
+      "1"
+    ],
+    "birch_forest_hills": [
+      "-0.1",
+      "0.2",
+      "0.25",
+      "0",
+      "1"
+    ],
+    "desert": [
+      "0.5",
+      "-0.5",
+      "0",
+      "1"
+    ],
+    "jungle": [
+      "0.5",
+      "0",
+      "1"
+    ],
+    "ocean": [
+      "0",
+      "-0.5",
+      "0",
+      "1"
+    ],
+    "plains": [
+      "0",
+      "1"
+    ],
+    "snowy_tundra": [
+      "-0.5",
+      "0",
+      "1"
+    ],
+    "warm_ocean": [
+      "0",
+      "-0.25",
+      "0",
+      "1",
+      "示例（1.18前）"
+    ],
+    "扩展的默认设置": [
+      "此文件包含与用于生成默认世界的相同的设置，但其中所有设置都被扩展为其默认值。注意末影龙战斗无法在不使用维度类型预设minecraft:the_end时创建，因为末影龙战斗的创建是硬编码的，不能通过JSON访问。但是，其他方面和默认世界还是一样的。"
+    ],
+    "使用相近设置创造的世界": [
+      "该维度是一个由五层玄武岩、四层砂土和一层草方块由下至上依次覆盖而成的超平坦世界。由于其spacing被设为3（默认：32），separation被设为1（默认：8），整个世界都满是村庄中的房屋。该维度的时间锁定为1000。"
+    ],
+    "Java版": [
+      "2018年5月15日",
+      "首次提及了Java版自定义世界的回归。",
+      "1.16",
+      "20w21a",
+      "重新加入了自定义世界。",
+      "自定义世界现在由JSON文件驱动。",
+      "现在可添加自定义维度，而原版已有的维度也可进行调整。",
+      "调整世界的菜单并未加入游戏，自定义世界只能通过导入JSON文件来生成。",
+      "1.19.4",
+      "23w05a",
+      "移除了“编辑世界”屏幕中的“导入设置”和“导出设置”按钮，这使得自定义世界无法通过JSON文件访问。"
+    ],
+    "画廊": [
+      "放大化自定义世界增大最大高度之后，自然生成在Y=801处的雪。",
+      "降低min_y的世界，基岩地板生成在Y=-2048的位置。",
+      "自定义世界中最低可放置的“暂时方块”，此时游戏无法进行。"
+    ],
+    "参考": [
+      "MC-243124"
+    ],
+    "\"Customized worlds will be returning. I can't speak for the extra options you mentioned though.\" – u/AlmightyZing": [
+      "But after 1.13，来自u/_Grum。Reddit，2018年5月15日。",
+      "\"Would you really not consider holding off 1.13 until customised worlds are finished? Seems pretty crazy to set a precedent for the chance of losing features for several updates."
+    ],
+    "We came so close to having access to customising structures in world gen this update too, a shame that hasn't made the cut\" – u/DaUltraMarine": [
+      "No, they will come back but completely different from before.，来自u/_Grum。Reddit，2018年5月15日。",
+      "\"No customization until after 1.13, or the other things?\" – u/Kobbett",
+      "No more screens with 50 vague sliders indeed.，来自u/_Grum。Reddit，2018年5月15日。"
+    ]
+  }
+}

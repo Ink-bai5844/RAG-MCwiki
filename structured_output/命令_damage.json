@@ -1,0 +1,81 @@
+{
+  "title": "命令/damage",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdamage",
+  "structured_content": {
+    "默认分类": [
+      "“Damage”重定向至此。关于游戏机制，请见“伤害”。"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "对指定实体造成指定类型的伤害。"
+    ],
+    "Java版": [
+      "1.19.4",
+      "23w06a",
+      "加入了/damage。"
+    ],
+    "基岩版": [
+      "damage <target: target> <amount: int> <cause: DamageCause> entity <damager: target>",
+      "damage <target: target> <amount: int> [cause: DamageCause]",
+      "1.18.10",
+      "1.18.10.26",
+      "加入了/damage。"
+    ],
+    "参数": [
+      "JE：<target>：entity",
+      "BE：target: target：CommandSelector<Actor>",
+      "指定要被伤害的目标实体。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。在Java版中，目标选择器必须为单一数量，否则此命令将无法解析。",
+      "JE：<amount>：float",
+      "BE：amount: int：int",
+      "指定要造成的伤害值。",
+      "在Java版中，必须为单精度浮点数。在基岩版中，必须为32位整数。",
+      "JE：<damageType>：resource",
+      "BE：cause: DamageCause：enum",
+      "指定伤害的成因，即要造成的伤害类型，默认为minecraft:generic[仅Java版]或none[仅基岩版]，其会影响的游戏内容如死亡消息。",
+      "在Java版中，必须是一个注册在minecraft:damage_type注册表的一个注册项的命名空间ID。",
+      "在基岩版中，必须为字符串，且必须为单个词。所有伤害类型参见官方附加包文档。",
+      "JE：<location>：vec3",
+      "指定伤害来源的位置。",
+      "必须为三维坐标，元素为双精度浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "JE：<entity>：entity",
+      "BE：damager: target：CommandSelector<Actor>",
+      "指定伤害的直接来源，这会影响伤害造成的击退方向。可用于指定弹射物或被激活的TNT为伤害的直接来源，同时指定其发射者为伤害的实际来源。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。在Java版中，目标选择器必须为单一数量，否则此命令将无法解析。",
+      "JE：<source>：entity",
+      "指定伤害的实际来源，视为由该生物造成此伤害并增加相关统计，导致生物反击或声望下降，且造成死亡时为击杀者。没有指定时，<entity>参数指定的实体视为实际来源。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。"
+    ],
+    "任意": [
+      "target: target找不到目标"
+    ],
+    "无法解析": [
+      "amount: int超出范围（0-2147483647）"
+    ],
+    "执行失败": [
+      "cause: DamageCause为无效的伤害类型"
+    ],
+    "/... entity ...": [
+      "damager: target选中多个目标",
+      "damager: target找不到目标"
+    ],
+    "damageType为无效的伤害类型": [
+      "<amount>超出范围（0.0-3.402835E38）"
+    ],
+    "失败": [
+      "0",
+      "0"
+    ],
+    "成功": [
+      "1"
+    ],
+    "示例": [
+      "让一个名称为dummy的村民对一只铁傀儡造成1（）的伤害：",
+      "/damage @e[type=iron_golem, limit=1] 1 generic by @e[type=villager, limit=1, name=\"dummy\"][仅Java版]",
+      "/damage @e[type=iron_golem, c=1] 1 entity_attack entity @e[type=villager, c=1, name=\"dummy\"][仅基岩版]"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Dungeons:粉红恶棍",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%B2%89%E7%BA%A2%E6%81%B6%E6%A3%8D",
+  "structured_content": {
+    "力量": [
+      "2"
+    ],
+    "速度": [
+      "3"
+    ],
+    "弹药上限": [
+      "5"
+    ],
+    "存档ID": [
+      "Trickbow_Unique2",
+      "低估粉红恶棍的后果可是致命的。"
+    ],
+    "——物品描述": [
+      "粉色恶棍（The Pink Scoundrel）是Minecraft Dungeons中的远程武器。它是捣蛋弓的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "玄武岩三角洲（天启难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "粉色恶棍具有低攻击力，低速度和中等弹药上限。可以进行蓄力射击。初始弹箭袋数量为66。"
+    ],
+    "箭矢命中": [
+      "sfx_item_trickBowUnique2ArrowImpactNormal"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了粉红恶棍。"
+    ]
+  }
+}

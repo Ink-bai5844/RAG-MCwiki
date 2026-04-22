@@ -1,0 +1,67 @@
+{
+  "title": "Dungeons:野性灵魂弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%87%8E%E6%80%A7%E7%81%B5%E9%AD%82%E5%BC%A9",
+  "structured_content": {
+    "力量": [
+      "5"
+    ],
+    "速度": [
+      "2"
+    ],
+    "弹药上限": [
+      "3"
+    ],
+    "存档ID": [
+      "SoulCrossbow_Unique1",
+      "如果你靠得足够近，你就能听到这把弩中灵魂的声音，通常是嘲笑你的声音。"
+    ],
+    "——物品描述": [
+      "野性灵魂弩（Feral Soul Crossbow）是Minecraft Dungeons中的远程武器。它是灵魂弩的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "要塞": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "野性灵魂弩的蓄力动画。",
+      "野性灵魂弩拥有较低攻击力，很低速度和低弹药上限。初始弹药数为46。"
+    ],
+    "触发灵魂共振": [
+      "+2 灵魂收集"
+    ],
+    "?": [
+      "85",
+      "104",
+      "1198",
+      "106",
+      "1284",
+      "107",
+      "1335",
+      "110",
+      "1498"
+    ],
+    "掉落": [
+      "sfx_item_spiritCrossbowUnique1Land"
+    ],
+    "装备": [
+      "sfx_item_spiritCrossbowUnique1Place"
+    ],
+    "拾取": [
+      "sfx_item_spiritCrossbowUnique1PickUp"
+    ],
+    "箭矢命中": [
+      "sfx_item_soulCrossbowUnique1ArrowImpactNormal"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了野性灵魂弩。",
+      "1.2.0.0",
+      "加入了野性灵魂弩射箭击中物体时的独特音效。"
+    ]
+  }
+}

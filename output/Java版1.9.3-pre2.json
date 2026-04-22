@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.9.3-pre2",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.9.3-pre2",
+  "text": "1.9.3-pre2\n版本\nJava版\n类型\n预发布版\n发布时间\n2016年4月27日\n预发布版归属\n1.9.3\n下载\n客户端（.json）\n服务端\n协议版本\n110\n数据版本\n181\n资源包版本\n2\n◄◄1.9.2\n1.9.4►►\n◄1.9.3-pre1\n1.9.3-pre3►\n1.9.3-pre2是Java版1.9.3的第2个预发布版，发布于2016年4月27日。\n新内容\n命令格式\n/stopsound\n用法：/stopsound <玩家> [来源] [声音]。\n更改\n常规\n服务器\n在该版本，当连接到一个服务器时，游戏会查询https://sessionserver.mojang.com/blockedservers，如果该服务器在黑名单中，将会提示服务器不可用。\n这种行为在Java版1.9.3-pre3中被移除。\n修复\n修复了5个漏洞\n1.9前正式版的漏洞\nMC-87907 — 玩家看末影人的头或脚不能将其激怒。\nMC-96526 — 一次性交易过多物品导致崩溃（原因：StackOverflowError）。\n上个开发版本的漏洞\nMC-101150 — Notch的皮肤出现黑色。\nMC-101155 — 打开世界或加入服务器时游戏崩溃。\nMC-101282 — 玩了1到2小时后，游戏崩溃。\n参考\nMinecraft 1.9.3 Pre-Release 2（存档），来自Searge。Mojang.com，2016年4月27日。\n导航"
+}

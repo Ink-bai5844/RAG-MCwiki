@@ -1,0 +1,23 @@
+{
+  "title": "游戏规则/doStartWithMap",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FdoStartWithMap",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "dostartwithmap": [
+      "doStartWithMap是控制是否给予玩家空地图的游戏规则。"
+    ],
+    "行为": [
+      "当doStartWithMap为true时，玩家会在首次加入世界时获得一张空地图。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了游戏规则doStartWithMap。",
+      "1.2.0.11",
+      "移除了游戏规则doStartWithMap。"
+    ]
+  }
+}

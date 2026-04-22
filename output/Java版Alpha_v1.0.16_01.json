@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.0.16 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.16_01",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nAlpha v1.0.16_01\n版本\nJava版\n服务端版本\n0.1.2-0.1.2_01\n发布时间\n2010年8月12日\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n14\n◄◄Alpha v1.0.14\nAlpha v1.0.17►►\n◄Alpha v1.0.16\nAlpha v1.0.16_02►\nAlpha v1.0.16_01是Alpha v1.0.16的一个漏洞修复版本，发布于2010年8月12日，加入了服务器的新的命令。\n新内容\n命令格式\n/tp\n用于把玩家1传送至玩家2的位置。\n/save-all\n强制保存完整游戏至硬盘。\n/save-off\n禁用所有的保存（除了/save-all）。\n/save-on\n重新启用保存。\n更改\n常规\n服务器列表\n能够在输入IP界面中按下↵ Enter。\n修复\n修复了1个漏洞\n修复了潜在隐形玩家的错误。\n导航"
+}

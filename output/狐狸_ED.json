@@ -1,0 +1,5 @@
+{
+  "title": "狐狸/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8B%90%E7%8B%B8%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n*\n*Crouching：表示狐狸是否在潜行。\n*\n*Sleeping：表示狐狸是否在睡觉。\n*\n*Sitting：表示狐狸是否坐着。\n*\n*Trusted：（默认为空列表[]）狐狸信任的玩家。此列表最多有两个元素，从列表第三项开始都不会生效。\n：信任玩家的UUID。\n*\n*Type：狐狸的种类。可设置为red（红色）或snow（白色）。"
+}

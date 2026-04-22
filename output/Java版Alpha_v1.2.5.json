@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.2.5",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.2.5",
+  "text": "此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\nAlpha v1.2.5\n版本\nJava版\n服务端版本\n0.2.7\n发布时间\n2010年12月1日\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n6\n◄◄Alpha v1.2.0\nBeta 1.0►►\n◄Alpha v1.2.4_01\nAlpha v1.2.6►\nAlpha v1.2.5是Java版的一次次要更新，发布于2010年12月1日。\n更改\n命令格式\n命令\n移除了/home。\n修复\n修复了5个漏洞\n修复了服务器上一个内存泄露的漏洞。\n现在可以正常地骑乘矿车和船。\n收割庄稼不再产生假种子。\n雪球被再次给出。\n修复了一个门的漏洞。\n注释\n参考\nBug update #4, and we're six people in the office now!（存档） — The Word of Notch，2010年12月1日。\n导航"
+}

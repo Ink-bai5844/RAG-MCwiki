@@ -1,0 +1,153 @@
+{
+  "title": "音乐唱片Creator",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9F%B3%E4%B9%90%E5%94%B1%E7%89%87Creator",
+  "structured_content": {
+    "默认分类": [
+      "关于此音乐唱片的八音盒版本，请见“音乐唱片Creator（八音盒）”。"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "music_disc_creator": [
+      "Creator是一张音乐唱片，可用于播放由Lena Raine创作的同名曲目。"
+    ],
+    "箱子战利品": [
+      "Java版与基岩版："
+    ],
+    "试炼密室不祥宝库 - 独有": [
+      "0.10",
+      "1",
+      "10%",
+      "10.0"
+    ],
+    "音乐": [
+      "主条目：音乐唱片 § 音乐"
+    ],
+    "发行时间": [
+      "2024年4月26日"
+    ],
+    "时长": [
+      "02:57"
+    ],
+    "网易云音乐": [
+      "Minecraft: Tricky Trials (Original Game Soundtrack)",
+      "No.10"
+    ],
+    "Creator (Music Box Version) ►": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "Creator是一首类似于发条发声的音乐。",
+      "在音乐的中后部分有发条上条，以及打击乐、重金属的声音。"
+    ],
+    "红石": [
+      "主条目：音乐唱片 § 红石",
+      "音乐唱片Creator放于唱片机中可使红石比较器输出强度为12的信号。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "无": [
+      "MC-91042",
+      "基岩版："
+    ],
+    "music_disc.creator": [
+      "基岩版："
+    ],
+    "record.creator": [
+      "0.5",
+      "1.0",
+      "64.0"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:jukebox_playable：（命名空间ID）唱片机曲目。此组件存在时物品可插进唱片机中播放。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:creator\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_creator\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"rare\",\"minecraft:item_model\":\"minecraft:music_disc_creator\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Sound of Music": [
+      "用唱片机的音乐声为草甸增添生机。",
+      "将任意一张音乐唱片放入位于草甸生物群系的唱片机中。",
+      "10G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "甜蜜的梦": [
+      "将任意一张音乐唱片放入位于草甸生物群系的唱片机中。"
+    ],
+    "Java版": [
+      "1.21",
+      "24w18a",
+      "加入了音乐唱片Creator。"
+    ],
+    "基岩版": [
+      "1.21.0",
+      "1.21.0.24",
+      "加入了音乐唱片Creator。"
+    ],
+    "你知道吗": [
+      "音乐唱片Creator必须通过不祥宝库战利品才能实现可再生。这是因为宝库可以被每个玩家打开无限次数，且不祥试炼钥匙是可再生资源。"
+    ],
+    "参考": [
+      "MC-274049 — 漏洞状态为“有意为之”。"
+    ]
+  }
+}

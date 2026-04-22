@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.17.10.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.17.10.23",
+  "text": "1.17.10.23\n版本\n基岩版\n版本码\nAndroid：\n951701023（armeabi-v7a，29）\n961701023（x86，29）\n971701023（arm64-v8a，29）\n981701023（x86_64，29）\n类型\n测试版\n发布时间\nXbox One, Windows 10, Android - 2021年6月16日\n测试版归属\n1.17.10\n协议版本\n448\n◄◄1.17.2\n1.17.11►►\n◄1.17.10.22\nbeta 1.17.10.23是基岩版1.17.10的第4个测试版，发布于2021年6月16日，加入了新的闪烁标语，并修复了一些漏洞。\n更改\n常规\n闪烁标语\n加入了下列同步自Java版1.17-pre1的闪烁标语：\n[this splash text has been delayed until part 2]\nContains simulated goats!\nHome-made!\nThere's <<a cat on ,my keyboard!~[原文如此]\nThe cutest predator you'll ever meet!\nNow you are thinking with pistons!\nGet to the coppah!\nBoard game version also available!\nHoney, I waxed the copper!\nPlant-based light sources!\nMade by \"real\" people!\n修复\n安山岩和闪长岩不再会在世界中过多地生成。（MCPE-130185）\n修复了在某些角度下用火焰弹点燃蜡烛时可能发生的崩溃。\n现在对草方块使用骨粉会长出正确数量的植物。（MCPE-128967）\n修复了使用命令在未加载区块放置结构后删除该结构时可能发生的崩溃。\n修复了玩家进入下界传送门后有时会传送至错误坐标位置的漏洞。（MCPE-115933）\n参考\nMinecraft Beta - 1.17.10.23 (Xbox One/Windows 10/Android) — Minecraft Feedback，2021年6月16日。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/position",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fposition",
+  "text": "本条目介绍的是命令。关于玩家在世界中位置的有序数组，请见“坐标”。\n此条目所介绍的内容已从教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\nposition\n需要的权限等级\n未知\n限制条件\n无\n切换玩家HUD上坐标的显示状态。\n语法\nposition\n结果\n永远执行成功。\n历史\n教育版\n1.0.1\n加入了/position。\n导航"
+}

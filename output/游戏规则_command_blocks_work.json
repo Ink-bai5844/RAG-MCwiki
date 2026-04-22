@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/command blocks work",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fcommand_blocks_work",
+  "text": "command_blocks_work（Java版）\n名称\n启用命令方块\n描述\n无\n分类（JE）\n杂项\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ncommand_blocks_work\ncommandBlocksEnabled（基岩版）\n名称\n旧UI：命令方块已开启\n新UI：命令方块\n描述\n使用命令对这些方块进行编程\n分类（BE旧UI）\n作弊\n分类（BE新UI）\n无敌模式\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ncommandBlocksEnabled\ncommand_blocks_work[仅Java版]或commandBlocksEnabled[仅基岩版]是控制命令方块有效性的游戏规则。\n行为\n当command_blocks_work[仅Java版]或commandBlocksEnabled[仅基岩版]为false时，命令方块不执行命令。\n历史\nJava版\n1.21.9\n25w35a\n加入了游戏规则enableCommandBlocks。\n25w37a\n将游戏规则enableCommandBlocks重命名为commandBlocksEnabled，以匹配基岩版。\n1.21.11\n25w44a\n将游戏规则commandBlocksEnabled重命名为command_blocks_work。\n基岩版\n1.7.0\n1.7.0.2\n加入了游戏规则commandBlocksEnabled。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.2.13.60",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.2.13.60",
+  "text": "1.2.13.60（1.2.16）\n版本\n基岩版\n内部版本号\nAndroid, Fire OS, Windows 10, Windows 10 Mobile, Gear VR, Fire TV, Xbox One - 1.2.13.60\niOS - 1.2.16\n版本码\nAndroid：\n841021360（armeabi-v7a，22）\n842021360（x86，22）\n871021360（armeabi-v7a，24）\n872021360（x86，24）\n发布时间\nAndroid, iOS, Fire OS, Windows 10, Windows 10 Mobile, Gear VR, Fire TV, Xbox One - 2018年4月20日\n协议版本\n223\n◄◄1.2.0\n1.4.0►►\n◄1.2.15\n1.2.13.60（Android/iOS/Fire OS/Windows 10/Windows 10 Mobile/Gear VR/Fire TV/Xbox One）、1.2.16（iOS）是基岩版的一次次要更新，发布于2018年4月20日，修复了一些漏洞。此版本和1.2.13相互兼容。\n修复\n修复了9个漏洞\n修复了一些游戏过程中可能发生的崩溃。\n现在玩家选择的皮肤又会在关闭或退出游戏后保存了。\n现在经典UI下的玩家通过触摸控制来选择物品时，该物品的名称和描述又会显示了。\n经典UI下的玩家在使用触摸控制时不再导致物品被复制或消失不见。\n现在经典UI下的玩家通过触摸控制来移动物品栏中的物品时，物品会正确堆叠。\n修复了在最新更新版本中打开超平坦世界后区块会消失的问题。\n现在日语文字可以正确输入到文本字段中。\n命令方块在关闭世界后不再会丢失其数据。\n现在命令方块的输出会正确更新。\n参考\nMinecraft - 1.2.13.60 / 1.2.16 iOS — Minecraft Feedback。\n导航"
+}

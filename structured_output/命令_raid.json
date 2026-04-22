@@ -1,0 +1,68 @@
+{
+  "title": "命令/raid",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fraid",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "调试工具仅应作调试用途使用，而不应在正常游戏过程中开启。开启调试工具可能会崩溃或对存档产生不可逆的损害。"
+    ],
+    "需要的权限等级": [
+      "3"
+    ],
+    "仅IDE或启用调试工具MC_DEBUG_DEV_COMMANDS": [
+      "管理执行者处的袭击。"
+    ],
+    "raid check": [
+      "检查袭击状态。若存在袭击，则输出事件信息。"
+    ],
+    "raid glow": [
+      "对袭击者施加1000秒的2级发光效果。"
+    ],
+    "raid setomen <level>": [
+      "设定袭击的袭击之兆等级。"
+    ],
+    "raid sound <type>": [
+      "播放袭击音效。"
+    ],
+    "raid spawnleader": [
+      "生成袭击队长。"
+    ],
+    "raid start <omenlvl>": [
+      "触发袭击，若存在袭击队长则不经过首轮冷却。"
+    ],
+    "raid stop": [
+      "停止袭击。"
+    ],
+    "参数": [
+      "<level>：integer和<omenlvl>：integer",
+      "指定袭击的袭击之兆等级。",
+      "必须为32位整数。且必须大于等于0。",
+      "<type>：component",
+      "必须为文本组件。仅当值为local时才会真正播放音效。"
+    ],
+    "Java版": [
+      "1.20.3",
+      "23w43a",
+      "加入了/raid，仅在IDE中可用。",
+      "1.21.9",
+      "pre1",
+      "现在/raid命令在启用调试工具MC_DEBUG_DEV_COMMANDS时可用。"
+    ],
+    "/raid setomen ...": [
+      "<level>大于5"
+    ],
+    "N/A": [
+      "1",
+      "-1",
+      "1",
+      "1",
+      "-1",
+      "1",
+      "0",
+      "1"
+    ],
+    "注释": [
+      "只有下界符合该条件。"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "title": "原主机版TU29、CU17、1.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU29%E3%80%81CU17%E3%80%811.20",
+  "structured_content": {
+    "默认分类": [
+      "TU29"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.6.0758.0",
+      "1.6.0758.0"
+    ],
+    "发布时间": [
+      "2015年9月11日",
+      "◄TU28",
+      "TU30►",
+      "CU17",
+      "2015年9月16日",
+      "◄CU16",
+      "CU18►",
+      "1.20",
+      "2015年9月23日",
+      "其他版本的1.20",
+      "2015年9月23日",
+      "其他版本的1.20",
+      "2015年9月23日",
+      "其他版本的1.20"
+    ],
+    "基岩版": [
+      "PlayStation 4版",
+      "PlayStation 3版",
+      "PlayStation 3版",
+      "PlayStation 4版",
+      "◄1.19",
+      "1.21►",
+      "TU29/CU17/1.20是原主机版的一次更新，发布于2015年9月11日至23日期间。"
+    ],
+    "PlayStation Vita版": [
+      "◄1.19",
+      "1.21►",
+      "1.20",
+      "◄1.19",
+      "1.21►",
+      "1.20"
+    ],
+    "新内容": [
+      "PS：添加Doctor Who Skin Pack Bundle试用包。",
+      "PS3：添加了奖杯，加入其他平台已有的内容。"
+    ],
+    "修复": [
+      "修复了3个漏洞",
+      "修复由存储泄露导致帧率变化的漏洞。",
+      "XB360：修复线下游戏模式的更改的漏洞。",
+      "修复了在在线玩家平抹上显示的告示牌上为空白的漏洞。"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

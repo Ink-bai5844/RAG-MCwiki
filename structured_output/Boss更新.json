@@ -1,0 +1,41 @@
+{
+  "title": "Boss更新",
+  "source_url": "https://zh.minecraft.wiki/w/Boss%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "Wiki上有本次更新的指南！": [
+      "见携带版指南/Boss更新以查看Boss更新的指南。",
+      "见携带版指南/Boss更新以查看Boss更新的指南。"
+    ],
+    "Boss更新的图片，由Mojang发布": [
+      "Boss更新（Boss Update）是携带版Alpha的一次主要更新，在除iOS外的其他平台发布于2016年10月21日。iOS版于几天之后的10月25日发布。此次更新的名称于2016年8月29日Mojang网站上的博客帖子中公布。",
+      "此次更新的开发始于Alpha 0.16.0 build 1，其发布于2016年8月29日。"
+    ],
+    "重要特性": [
+      "主条目：携带版Alpha 0.16.0"
+    ],
+    "新内容": [
+      "更改了许多设置。",
+      "行为包。",
+      "命令。",
+      "海底神殿。",
+      "4种新方块：",
+      "海晶灯、海晶石、湿海绵和信标。",
+      "6种新物品：",
+      "海晶砂粒、海晶碎片、下界之星、衰变药水/喷溅型衰变药水/衰变之箭。",
+      "3种新生物：",
+      "守卫者、远古守卫者和凋灵。"
+    ],
+    "更改": [
+      "添加各种物品、方块和生物的声音。"
+    ],
+    "跟进版本": [
+      "Alpha 0.16.1发布以修复一些漏洞与崩溃。",
+      "Alpha 0.16.2发布以修复一些漏洞与崩溃，并添加了卡通纹理包。"
+    ],
+    "参考": [
+      "Add-Ons ahoy! Boss Update coming October 18（存档） — Mojang.com。",
+      "https://twitter.com/_tomcc/status/791060264917622784",
+      "Sneak Peek: Boss Update coming to Pocket & Win 10（存档） — Mojang.com。"
+    ]
+  }
+}

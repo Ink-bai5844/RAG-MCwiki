@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/showDaysPlayed",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FshowDaysPlayed",
+  "text": "本条目所述内容仅适用于基岩版。\nshowDaysPlayed\n名称\n显示游玩的天数\n描述\n显示游戏内游玩的天数\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\nshowDaysPlayed\nshowDaysPlayed是控制屏幕左上角是否显示游玩天数的游戏规则。\n行为\n当showDaysPlayed为true时，屏幕左上角会显示游玩的天数（游戏日）。当时间为-2,147,483,648至-24,000时，游玩的天数将会显示为“数不胜数！”。\n历史\n基岩版\n1.21.0\n1.21.0.23\n加入了游戏规则showDaysPlayed。\n导航"
+}

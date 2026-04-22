@@ -1,0 +1,60 @@
+{
+  "title": "Java版14w02c",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8814w02c",
+  "structured_content": {
+    "默认分类": [
+      "14w02c"
+    ],
+    "发布时间": [
+      "2014年1月10日"
+    ],
+    "快照归属": [
+      "1.8"
+    ],
+    "协议版本": [
+      "5"
+    ],
+    "资源包版本": [
+      "1",
+      "◄◄1.7.10",
+      "1.8.1►►",
+      "◄14w02b",
+      "14w03a►",
+      "14w02c是Java版1.8的第3个快照，发布于2014年1月10日，发布以修复14w02a和14w02b里的漏洞和崩溃。"
+    ],
+    "修复": [
+      "修复了20个漏洞",
+      "1.8前正式版的漏洞",
+      "MC-2789 — 干草捆、TNT、虫蚀方块、活塞、仙人掌、床、火焰以及海绵在冒险模式中不能破坏。",
+      "MC-3583 — java.lang.NullPointerException: Exception ticking world (at ml.c(SourceFile:199)) (Corrupted Nether chunks)。",
+      "MC-5506 — 村民提供的附魔书交易价格可以高于64个绿宝石。",
+      "MC-9539 — /kill命令始终无法在多人服务器控制台上工作。",
+      "MC-9787 — 与村民交易时游戏崩溃。",
+      "MC-14617 — 单人游戏中，不同世界的难度设置是共用的。",
+      "MC-17624 — 楼梯破坏动画有错误。",
+      "MC-29588 — Hopper: java.lang.NullPointerException - Invalid Biome id。",
+      "MC-30135 — Hopper: java.lang.NullPointerException: Getting biome。",
+      "MC-33071 — 错误：Data tag parsing failed: Unbalanced quotation在解析含有分号的字符串时出现。",
+      "MC-37075 — Hopper: java.lang.NullPointerException: Exception generating new chunk。",
+      "MC-38637 — 通过物品展示框放置的地图，位于方块西面和东面的比位于方块南面和北面的要暗。",
+      "1.8开发版本的漏洞",
+      "MC-44371 — /kill @e不能清除箭矢。",
+      "MC-44390 — @a在所有命令中都不能工作。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-44370 — 物品实体掉落在耕地上时会破坏耕地。",
+      "MC-44400 — 命令/clear当“最大数量”大于0时，不遵守其对于此的定义。",
+      "MC-44409 — 在命令方块中使用命令/blockdata时不造成变化。",
+      "MC-44442 — 水和熔岩的流动不正确。",
+      "MC-44468 — 在记分板中使用@a会显示UUID而不是用户名。",
+      "MC-44680 — 丛林神庙在平原群系中生成。"
+    ],
+    "你知道吗": [
+      "此版本曾经在启动器中移除，但在2018年9月重新加入。",
+      "该版本的宣传截图中出现了Grum的Minecraft皮肤。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 14w02c（存档），来自Dinnerbone。Mojang.com，2014年1月9日。"
+    ]
+  }
+}

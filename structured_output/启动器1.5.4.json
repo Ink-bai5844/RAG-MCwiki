@@ -1,0 +1,28 @@
+{
+  "title": "启动器1.5.4",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.5.4",
+  "structured_content": {
+    "默认分类": [
+      "1.5.4"
+    ],
+    "发布时间": [
+      "2014年12月12日",
+      "其他版本的1.5.4"
+    ],
+    "Realms": [
+      "◄◄1.5",
+      "1.6.3►►",
+      "◄1.5.3",
+      "1.5.5►",
+      "1.5.4是2014年12月12日发布的一个启动器小更新。"
+    ],
+    "更改": [
+      "测试启动器。",
+      "更新了本地bootstrap。",
+      "使用本地的由启动器管理的Java运行，而不是系统的Java。"
+    ],
+    "参考": [
+      "https://www.reddit.com/r/Minecraft/comments/2p31cu/we_need_your_help_testing_a_new_launcher"
+    ]
+  }
+}

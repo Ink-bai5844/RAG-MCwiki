@@ -1,0 +1,31 @@
+{
+  "title": "Dungeons:疾行",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%96%BE%E8%A1%8C",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是MCD:灵魂疾行。"
+    ],
+    "Swiftfooted": [
+      "翻滚后3秒内提高移动速度。"
+    ],
+    "——魔咒描述": [
+      "疾行（Swiftfooted）是Minecraft Dungeons中的魔咒，会在翻滚后提高玩家的速度。效果随魔咒等级提升而提高。"
+    ],
+    "I": [
+      "+30% 移动速度",
+      "1 附魔点数"
+    ],
+    "II": [
+      "+40% 移动速度",
+      "2 附魔点数"
+    ],
+    "III": [
+      "+50% 移动速度",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了疾行。"
+    ]
+  }
+}

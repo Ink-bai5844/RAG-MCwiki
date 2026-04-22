@@ -1,0 +1,14 @@
+{
+  "title": "火球/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%81%AB%E7%90%83%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "弹射物共通标签，见Template:Nbt inherit/projectile/source",
+      "火球类弹射物共通标签，见Template:Nbt inherit/fireball/source",
+      "*ExplosionPower：火球的爆炸威力大小。此项不存在时游戏默认为1。",
+      "*Item：实体渲染时使用的物品。此项不存在时使用火焰弹物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source"
+    ]
+  }
+}

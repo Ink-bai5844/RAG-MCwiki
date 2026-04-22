@@ -1,0 +1,709 @@
+{
+  "title": "矛",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9F%9B",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft中的近战武器。关于英文名相同的Minecraft Dungeons物品，请见“MCD:长矛”。"
+    ],
+    "最大耐久度": [
+      "木矛：59[仅Java版]或60[仅基岩版]",
+      "石矛：131[仅Java版]或130[仅基岩版]",
+      "铜矛：190",
+      "铁矛：250",
+      "金矛：32[仅Java版]或30[仅基岩版]",
+      "钻石矛：1,561[仅Java版]或1,560[仅基岩版]",
+      "下界合金矛：2,031[仅Java版]或2,030[仅基岩版]"
+    ],
+    "烧炼时间": [
+      "木矛：200游戏刻（10秒，1个物品）",
+      "石矛、铜矛、铁矛、金矛、钻石矛、下界合金矛：无"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "可再生": [
+      "木矛、石矛、铜矛、铁矛、金矛、钻石矛：是",
+      "下界合金矛：否"
+    ],
+    "物品ID": [
+      "木矛：wooden_spear",
+      "石矛：stone_spear",
+      "铜矛：copper_spear",
+      "铁矛：iron_spear",
+      "金矛：golden_spear",
+      "钻石矛：diamond_spear",
+      "下界合金矛：netherite_spear",
+      "矛（Spear）是一种最终伤害与相对移动速度相关的近战武器。"
+    ],
+    "钻石矛": [
+      "1.075",
+      "7.5",
+      "0.5",
+      "3.0",
+      "6.5",
+      "10.0"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加两把矛的剩余耐久度，再额外获得5%的耐久度。会损失所有非诅咒魔咒。"
+    ],
+    "[[|]]": [
+      "[[|]]0.1"
+    ],
+    "下界合金矛": [
+      "1.2",
+      "7",
+      "0.4",
+      "2.5",
+      "5.5",
+      "8.75"
+    ],
+    "锻造": [
+      "下界合金矛可在锻造台中通过升级钻石矛而获得。"
+    ],
+    "铁砧": [
+      "主条目：铁砧机制"
+    ],
+    "修复和命名 木矛石矛铜矛铁矛金矛钻石矛下界合金矛[[|]][[|]][[|]]": [
+      "每个材料可以恢复矛25%的耐久（向下取整）。",
+      "叠加两把矛的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "箱子战利品": [
+      "Java版："
+    ],
+    "铜矛": [
+      "0.82",
+      "9",
+      "0.65",
+      "4",
+      "8.25",
+      "12.5"
+    ],
+    "村庄武器匠小屋": [
+      "0.36",
+      "1",
+      "30.61%",
+      "3.3",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4",
+      "0.36",
+      "1",
+      "30.61%",
+      "3.3",
+      "0.26",
+      "1",
+      "22.88%",
+      "4.4"
+    ],
+    "石矛": [
+      "0.82",
+      "10",
+      "0.7",
+      "4.5",
+      "9",
+      "13.75"
+    ],
+    "大型海底废墟": [
+      "0.30",
+      "1",
+      "26.27%",
+      "3.8",
+      "0.30",
+      "1",
+      "26.27%",
+      "3.8"
+    ],
+    "小型海底废墟": [
+      "0.33",
+      "1",
+      "28.5%",
+      "3.5",
+      "0.33",
+      "1",
+      "28.5%",
+      "3.5"
+    ],
+    "堡垒遗迹藏宝室": [
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.16",
+      "1",
+      "15.23%",
+      "6.6",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0",
+      "0.18",
+      "1",
+      "16.63%",
+      "6.0"
+    ],
+    "末地城": [
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9",
+      "0.13",
+      "1",
+      "12.71%",
+      "7.9"
+    ],
+    "铁矛": [
+      "0.95",
+      "8",
+      "0.6",
+      "2.5",
+      "6.75",
+      "11.25"
+    ],
+    "埋藏的宝藏": [
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0",
+      "基岩版：",
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品进行了20 – 39级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。"
+    ],
+    "生物": [
+      "主条目：掉落物 § 装备物品",
+      "僵尸、僵尸村民[仅Java版]和尸壳在生成时可能携带铁矛，作为僵尸马或骆驼尸壳的乘客生成时必然携带铁矛。猪灵、僵尸猪灵在生成时可能携带金矛。这些矛可能带有魔咒。这些生物被玩家或玩家驯服的狼击杀时，其手中的矛有8.5%[仅JE]/25%[仅BE]（抢夺魔咒每级增加1%）的概率掉落。"
+    ],
+    "用途": [
+      "玩家手持矛时不能挖掘方块。在基岩版中，即使在挖掘时切换到矛，挖掘成功后也不会损耗矛的耐久。",
+      "物品实体形式的下界合金矛会漂浮在熔岩上，且不会被火和熔岩摧毁。"
+    ],
+    "近战攻击": [
+      "矛有两种近战攻击方式，分别为“戳刺”和“冲锋”。",
+      "目标的碰撞箱对于矛的冲锋攻击[仅Java版]或任何攻击[仅基岩版]会扩大0.125格以便击中，在Java版中戳刺攻击会扩大0.25格。",
+      "矛的近战攻击有穿透效果。一旦触发攻击，在实体的碰撞箱扩大后能被矛攻击到的所有实体都会被攻击，即无视被攻击实体对攻击的“遮挡”。若攻击者与目标之间满足触发攻击的其他条件，但中间相隔可替代方块（如矮草丛、高草丛等），攻击会正常触发。一次攻击中，矛攻击到的每个实体都会独立地进行消耗度、耐久度消耗和统计信息[仅Java版]等的结算，即玩家一次性攻击过多实体会大量消耗饥饿值与矛的耐久度。若矛附有火焰附加魔咒，则魔咒对所有攻击到的实体正常生效；若矛附有击退魔咒，则魔咒只对矛直接攻击的实体生效。",
+      "即使满足触发暴击的条件，矛的近战攻击也不能触发暴击。在Java版中，即使满足触发击退攻击的条件，矛的近战攻击也不能触发击退攻击。",
+      "矛每成功进行一次近战攻击会减少1点耐久度。"
+    ],
+    "戳刺": [
+      "玩家通过按下攻击键可触发戳刺。矛进行戳刺攻击时有把矛向前戳出的动画，发出矛戳刺的音效。在Java版中，攻击冷却完成度回满前不可再次使用戳刺攻击；在基岩版中，矛进行一次戳刺攻击后进入物品冷却时间，冷却期间不能再次进行戳刺攻击，冷却时间与Java版中同品质矛的攻击冷却时间相同。",
+      "矛的工具材料品质越高，戳刺伤害越高，但冷却时间越长。",
+      "矛的戳刺拥有4.5格的攻击范围，大于玩家的一般攻击范围3格，但矛的戳刺攻击需要在攻击者距离目标至少2格时才能触发。",
+      "使用有突进魔咒的矛进行戳刺攻击时会给予攻击者一个水平方向的速度，将攻击者向前推进，这需要攻击者不在水中、不处于滑翔状态或骑乘状态。若攻击者是玩家，这会大量消耗玩家的饱和度和饥饿值。"
+    ],
+    "Java版": [
+      "1.21.11",
+      "25w41a",
+      "加入了矛。",
+      "25w42a",
+      "矛现在不再能穿透方块造成伤害。",
+      "25w43a",
+      "略微增大了矛的模型。",
+      "增加了玩家和生物进行冲锋攻击造成的伤害，现在会加上矛的攻击伤害。",
+      "现在进行冲锋攻击击中目标时会有视觉反馈。",
+      "现在增加攻击伤害的属性修饰符只应用于主手而非双手。",
+      "25w45a",
+      "调整了玩家第一人称左手持矛进行抬起冲锋时矛的位置，与右手保持对称。",
+      "25w46a",
+      "现在矛不再会产生“物品互动结束”类型的振动。",
+      "pre1",
+      "将矛的物品切换动画的速度倍率由1.9更改为1.95。",
+      "现在在矛初次击中后，如果持续冲锋目标，可以继续对其造成伤害。",
+      "pre3",
+      "现在在冲锋时，矛击中时的动画和音效只会在先前的击中动画结束时播放。",
+      "现在在冲锋时，在第一人称视角下，矛头会逐渐旋转到竖直的位置，以同步第三人称视角下的行为。",
+      "rc1",
+      "增加了矛在冲锋攻击时可以造成击退的持续时间。",
+      "冲锋攻击的动画现在更好地对应矛的不同阶段。",
+      "26.1",
+      "pre-2",
+      "修改了除木矛外矛冲锋攻击将受击者脱离骑乘的最小速度："
+    ],
+    "木矛": [
+      "0.7",
+      "14",
+      "0.75",
+      "5",
+      "10",
+      "15",
+      "Java版："
+    ],
+    "金矛": [
+      "0.7",
+      "10",
+      "0.7",
+      "3.5",
+      "8.5",
+      "13.75"
+    ],
+    "攻击伤害": [
+      "1（）",
+      "2（）",
+      "3（）",
+      "4（）",
+      "5（）",
+      "2（）",
+      "3（）",
+      "4（）",
+      "5（）",
+      "6（）"
+    ],
+    "攻击速度": [
+      "1.54",
+      "1.05",
+      "1.33",
+      "1.18",
+      "1.05",
+      "0.95",
+      "0.87"
+    ],
+    "每秒攻击伤害（DPS）": [
+      "1.54（ × 0.77）",
+      "1.05（ × 0.525）",
+      "2.66（ × 1.33）",
+      "2.36（ × 1.18）",
+      "3.15（ × 1.575）",
+      "3.8（ × 1.9）",
+      "4.35（ × 2.175）",
+      "3.08（ × 1.54）",
+      "2.11（ × 1.055）",
+      "4（）",
+      "3.53（ × 1.765）",
+      "4.21（ × 2.105）",
+      "4.76（ × 2.38）",
+      "5.22（ × 2.61）"
+    ],
+    "可使用次数": [
+      "59",
+      "32",
+      "131",
+      "190",
+      "250",
+      "1561",
+      "2031",
+      "61",
+      "31",
+      "131",
+      "191",
+      "251",
+      "1561",
+      "2031"
+    ],
+    "总攻击伤害": [
+      "59（ × 29.5）",
+      "32（ × 16）",
+      "262（ × 131）",
+      "380（ × 190）",
+      "750（ × 375）",
+      "6244（ × 3122）",
+      "10155（ × 5077.5）",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、冲锋、暴击、受击后伤害免疫和攻击冷却。矛不存在暴击伤害。",
+      "122（ × 61）",
+      "62（ × 31）",
+      "393（ × 196.5）",
+      "573（ × 286.5）",
+      "1004（ × 502）",
+      "7810（ × 3905）",
+      "12186（ × 6093）",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、冲锋、暴击和受击后伤害免疫。矛不存在暴击伤害。"
+    ],
+    "基岩版": [
+      "1.21.130",
+      "1.21.130.20",
+      "加入了矛。",
+      "1.21.130.24",
+      "现在矛会算上持有者的基础攻击伤害。",
+      "更改了下界合金矛的纹理以匹配Java版。",
+      "略微增加了使用矛攻击后的冷却时间，以匹配Java版并能够更容易地触发突进魔咒。",
+      "将矛的物品标签minecraft:spear重命名为minecraft:is_spear。",
+      "1.21.130.27",
+      "矛现在对盔甲架冲锋时会播放击中音效并触发攻击动画。",
+      "矛的魔咒效果现在仅在玩家与目标速度足以造成伤害时生效。",
+      "矛的最大攻击范围从4格增加至4.5格，以匹配Java版。",
+      "现在创造模式下矛的攻击范围增加至7.5格。",
+      "1.21.131",
+      "增加了矛在冲锋攻击时可以造成击退的持续时间。",
+      "冲锋攻击的动画现在更好地对应矛的不同阶段。"
+    ],
+    "冷却时间（秒）": [
+      "0.65",
+      "0.95",
+      "0.75",
+      "0.85",
+      "0.95",
+      "1.05",
+      "1.15"
+    ],
+    "冲锋": [
+      "玩家通过按下使用键抬起矛，可进入冲锋状态，此时矛会被放平，矛头朝向前方。冲锋状态下矛无法进行戳刺攻击。",
+      "进入冲锋状态需要一小段时间。抬起矛一段时间后，会进入“疲劳”状态，此时矛开始抖动，矛头由水平方向旋转至竖直方向；若持续抬起时间更长，会进入“脱离”状态，此时矛头会下垂；“脱离”状态结束后，矛会恢复到抬起前的状态，不再能触发冲锋攻击，除非再次进入冲锋状态。",
+      "在冲锋时，如果攻击者向前移动直到视线正对目标的碰撞箱，且攻击者与目标之间的距离大于2格并小于4.5格，则会独立地尝试对目标造成以下三种效果：",
+      "若攻击者与目标间的相对速度（相应速度矢量在攻击者视线上的分量，下同）大于4.6米/秒，则按下文算法对目标产生伤害。",
+      "若冲锋攻击未触发伤害效果，则不会激怒目标。",
+      "若攻击者速度大于5.1米/秒，且矛尚未进入“脱离”状态，则对目标产生击退。否则攻击不造成击退，不会触发击退魔咒的效果。",
+      "若攻击者速度大于下表中的“击落所需攻击者速度”，且矛尚未进入“疲劳”状态，而目标正在骑乘另一实体，则将目标从载具上击落。若目标被其他实体骑乘则不会解除其骑乘状态。",
+      "只要上述三种效果中的任何一个被触发，则视为产生一次“冲锋攻击”，此时手中矛的模型会向后突进一小段，并发出矛击中的音效。矛的冲锋攻击无冷却，冲锋时可以无间隔地进行攻击，但矛击中时的动画和音效只会在先前的击中动画结束时播放。在Java版中，攻击冷却时间内仍可以触发冲锋攻击，且伤害不受影响；在基岩版中，矛在冷却时仍可以触发冲锋攻击。",
+      "冲锋攻击的伤害随攻击者与被攻击实体的相对速度提升而增加，随相对速度方向与攻击者视角夹角方向减小而增加，但不受矛是否进入“疲劳”或“脱离”状态的影响。矛的工具材料品质越高，冲锋攻击的伤害越高，将乘客从载具上击落所需的速度越小，进入攻击状态的时间越短，但进入“疲劳”、“脱离”状态、结束攻击的时间也越短。在Java版中，冲锋攻击伤害不受虚弱和力量状态效果影响。"
+    ],
+    "玩家疾跑": [
+      "5.61",
+      "4（）",
+      "5（）",
+      "6（）",
+      "7（）"
+    ],
+    "玩家疾跑（迅捷 I）": [
+      "6.73",
+      "5（）",
+      "6（）",
+      "7（）",
+      "8（）",
+      "9（）"
+    ],
+    "玩家疾跑（迅捷 II）": [
+      "7.85",
+      "6（）",
+      "7（）",
+      "8（）",
+      "9（）",
+      "10（）"
+    ],
+    "鹦鹉螺游泳": [
+      "6.50",
+      "5（）",
+      "6（）",
+      "7（）",
+      "8（）"
+    ],
+    "僵尸鹦鹉螺游泳": [
+      "7.15",
+      "6（）",
+      "7（）",
+      "8（）",
+      "9（）"
+    ],
+    "骆驼疾跑": [
+      "8.20",
+      "6（）",
+      "7（）",
+      "8（）",
+      "9（）",
+      "10（）"
+    ],
+    "马（平均）": [
+      "9.71",
+      "7（）",
+      "8（）",
+      "9（）",
+      "10（）",
+      "11（ × 5.5）"
+    ],
+    "马（最大速度）": [
+      "14.57",
+      "11（ × 5.5）",
+      "12（ × 6）",
+      "14（ × 7）",
+      "16（ × 8）",
+      "18（ × 9）"
+    ],
+    "突进III魔咒": [
+      "钻石质：~18.3",
+      "下界合金质：~19.7"
+    ],
+    "-": [
+      "20（ × 10）",
+      "24（ × 12）"
+    ],
+    "创造模式疾跑下飞行": [
+      "21.78",
+      "16（ × 8）",
+      "18（ × 9）",
+      "21（ × 10.5）",
+      "23（ × 11.5）",
+      "26（ × 13）"
+    ],
+    "鹦鹉螺冲刺": [
+      "~30.49",
+      "22（ × 11）",
+      "26（ × 13）",
+      "29（ × 14.5）",
+      "33（ × 16.5）",
+      "37（ × 18.5）"
+    ],
+    "僵尸鹦鹉螺冲刺": [
+      "~33.52",
+      "24（ × 12）",
+      "28（ × 14）",
+      "32（ × 16）",
+      "37（ × 18.5）",
+      "41（ × 20.5）"
+    ],
+    "骆驼冲刺": [
+      "~45.0",
+      "32（ × 16）",
+      "37（ × 18.5）",
+      "43（ × 21.5）",
+      "49（ × 24.5）",
+      "55（ × 27.5）"
+    ],
+    "滑翔，且使用烟花火箭加速": [
+      "34",
+      "24（ × 12）",
+      "28（ × 14）",
+      "33（ × 16.5）",
+      "37（ × 18.5）",
+      "41（ × 20.5）",
+      "突进获得的速度受各种因素影响，这里为考虑视线角度和击中时机后的最佳实验值，以突进后对应材质矛刚好能完成抬起的时机为准。因为突进后抬起矛需要时间进行，实际上只有钻石矛、下界合金矛可能来得及在突进期间抬起。",
+      "骆驼和鹦鹉螺冲刺时的速度是改变的，此为蓄力满、疾跑至最大速度时冲刺、考虑视线角度和击中时机的最佳实验值。"
+    ],
+    "计算矛冲锋攻击伤害": [
+      "版本：",
+      "1",
+      "材料：",
+      "50.951",
+      "速度（m/s）：",
+      "5.612",
+      "锋利等级：",
+      "00",
+      "造成伤害：",
+      "6"
+    ],
+    "生物使用": [
+      "僵尸、僵尸村民、尸壳、僵尸猪灵、猪灵持有矛时，外观与玩家持有矛不同，其空闲时矛会放平，且左手略微抬起。它们仅会以冲锋攻击的方式使用矛。它们举起矛一段时间后会正常触发“疲劳”、“脱离”状态，也会正常结束攻击状态。当与目标的相对速度不足以造成伤害或冲锋状态结束时，它们会尝试拉开一段距离，然后再向目标冲锋。如果骑乘速度较快的载具如僵尸马、骆驼尸壳，其冲锋时会额外加速，造成更高的伤害。它们进行冲锋攻击时，游戏进行条件判定的所需速度会乘以0.2，所需距离会乘以0.5，这使得它们能更容易地对玩家造成较高伤害，更容易将玩家从载具上击落。",
+      "其他生物在手持矛时并不会冲锋，只会像使用剑、斧等武器一样使用矛的戳刺攻击。在Java版中，这反而导致这些不会冲锋的生物使用带有突进魔咒的矛时突进魔咒会生效。",
+      "在基岩版中，非玩家使用矛的冲锋攻击只有2.5格的攻击范围。"
+    ],
+    "魔咒": [
+      "矛能被附加以下魔咒："
+    ],
+    "I": [
+      "锋利、亡灵杀手、节肢杀手相互排斥。",
+      "只能通过使用相应的附魔书在铁砧上叠加而获得。"
+    ],
+    "燃料": [
+      "木矛能被用作熔炉、高炉或烟熏炉的燃料，每个木矛可以烧炼1个物品。"
+    ],
+    "subtitles.item.spear_wood.use": [
+      "矛：击中"
+    ],
+    "subtitles.item.spear_wood.hit": [
+      "矛：戳刺"
+    ],
+    "subtitles.item.spear_wood.attack": [
+      "基岩版："
+    ],
+    "item.wooden_spear.attack_miss": [
+      "1.0",
+      "16"
+    ],
+    "item.wooden_spear.attack_hit": [
+      "1.0",
+      "16"
+    ],
+    "item.wooden_spear.hit": [
+      "1.0",
+      "16"
+    ],
+    "item.wooden_spear.use": [
+      "1.0",
+      "16"
+    ],
+    "其他矛": [
+      "Java版："
+    ],
+    "subtitles.item.spear.use": [
+      "矛：击中"
+    ],
+    "item.spear.hit": [
+      "1.0",
+      "16"
+    ],
+    "subtitles.item.spear.hit": [
+      "矛：戳刺"
+    ],
+    "subtitles.item.spear.attack": [
+      "基岩版："
+    ],
+    "item.netherite_spear.attack_miss": [
+      "1.0",
+      "16"
+    ],
+    "item.netherite_spear.attack_hit": [
+      "1.0",
+      "16"
+    ],
+    "item.netherite_spear.use": [
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "wooden_spear": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear_wood.hit\",\"sound\":\"minecraft:item.spear_wood.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.wooden_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":13,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:wooden_tool_materials\"},\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":14,\"max_duration_ticks\":100},\"sound\":\"minecraft:item.spear_wood.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":200},\"hit_sound\":\"minecraft:item.spear_wood.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":300},\"forward_movement\":0.38,\"damage_multiplier\":0.7,\"delay_ticks\":15},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":15},\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.4615384340286255,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:wooden_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":59}"
+    ],
+    "stone_spear": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear.hit\",\"sound\":\"minecraft:item.spear.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.stone_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":15,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:stone_tool_materials\"},\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":10,\"max_duration_ticks\":90},\"sound\":\"minecraft:item.spear.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":180},\"hit_sound\":\"minecraft:item.spear.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":275},\"forward_movement\":0.38,\"damage_multiplier\":0.82,\"delay_ticks\":14},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":5},\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.666666626930237,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:stone_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":131}"
+    ],
+    "copper_spear": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear.hit\",\"sound\":\"minecraft:item.spear.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":17,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:copper_tool_materials\"},\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":9,\"max_duration_ticks\":80},\"sound\":\"minecraft:item.spear.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":165},\"hit_sound\":\"minecraft:item.spear.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":250},\"forward_movement\":0.38,\"damage_multiplier\":0.82,\"delay_ticks\":13},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":13},\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":1,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.8235294818878174,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":190}"
+    ],
+    "iron_spear": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear.hit\",\"sound\":\"minecraft:item.spear.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":19,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:iron_tool_materials\"},\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":8,\"max_duration_ticks\":50},\"sound\":\"minecraft:item.spear.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":135},\"hit_sound\":\"minecraft:item.spear.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":225},\"forward_movement\":0.38,\"damage_multiplier\":0.95,\"delay_ticks\":12},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":14},\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":2,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.9473683834075928,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":250}"
+    ],
+    "diamond_spear": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear.hit\",\"sound\":\"minecraft:item.spear.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":21,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:diamond_tool_materials\"},\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":7.5,\"max_duration_ticks\":60},\"sound\":\"minecraft:item.spear.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":130},\"hit_sound\":\"minecraft:item.spear.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":200},\"forward_movement\":0.38,\"damage_multiplier\":1.075,\"delay_ticks\":10},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":10},\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3.0476189851760864,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":1561}",
+      "基岩版：",
+      "参见：基岩版数据值"
+    ],
+    "golden_spear": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear.hit\",\"sound\":\"minecraft:item.spear.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":19,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:gold_tool_materials\"},\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":10,\"max_duration_ticks\":70},\"sound\":\"minecraft:item.spear.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":170},\"hit_sound\":\"minecraft:item.spear.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":275},\"forward_movement\":0.38,\"damage_multiplier\":0.7,\"delay_ticks\":14},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":22},\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2.9473683834075928,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":32}"
+    ],
+    "netherite_spear": [
+      "{\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:minimum_attack_charge\":1,\"minecraft:piercing_weapon\":{\"hit_sound\":\"minecraft:item.spear.hit\",\"sound\":\"minecraft:item.spear.attack\"},\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_spear\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":{\"duration\":23,\"type\":\"stab\"},\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":{\"speed_multiplier\":1,\"interact_vibrations\":false,\"can_sprint\":true},\"minecraft:repairable\":{\"items\":\"#minecraft:netherite_tool_materials\"},\"minecraft:repair_cost\":0,\"minecraft:kinetic_weapon\":{\"dismount_conditions\":{\"min_speed\":7,\"max_duration_ticks\":50},\"sound\":\"minecraft:item.spear.use\",\"knockback_conditions\":{\"min_speed\":5.1,\"max_duration_ticks\":110},\"hit_sound\":\"minecraft:item.spear.hit\",\"damage_conditions\":{\"min_relative_speed\":4.6,\"max_duration_ticks\":175},\"forward_movement\":0.38,\"damage_multiplier\":1.2,\"delay_ticks\":8},\"minecraft:attack_range\":{\"max_reach\":4.5,\"min_reach\":2,\"hitbox_margin\":0.125,\"min_creative_reach\":2,\"mob_factor\":0.5,\"max_creative_reach\":6.5},\"minecraft:enchantable\":{\"value\":15},\"minecraft:rarity\":\"common\",\"minecraft:max_stack_size\":1,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":4,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3.13043475151062,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_spear\",\"minecraft:damage_type\":\"minecraft:spear\",\"minecraft:max_damage\":2031}"
+    ],
+    "item.minecraft.netherite_spear": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。",
+      "*value：（值≥1）物品的附魔能力。",
+      "minecraft:kinetic_weapon：设置物品的冲锋攻击。",
+      "delay_ticks：（值≥0，默认为0）武器生效前的时间，单位为游戏刻。",
+      "forward_movement：（默认为0）动画期间脱离手的距离。",
+      "damage_multiplier：（默认为1）攻击轴相对速度的最终伤害倍率。此处及下文的“攻击轴速度”定义为：上个游戏刻的位移向量（对于玩家）或速度改变量（对于非生物实体，等于Motion）对攻击者视角向量的投影，是一个向量；“攻击轴相对速度”即攻击者攻击轴速度与被攻击者攻击轴速度之差，如果此差值小于0则游戏认为是0。",
+      "sound：使用此武器时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "hit_sound：此武器攻击到生物时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*dismount_conditions：将目标强制脱离骑乘的条件。",
+      "*max_duration_ticks：不再检查条件的时间，单位为刻，从delay_ticks开始计算。",
+      "min_speed：（默认为0）攻击者的最低攻击轴速度。对于非玩家实体，实际最小速度为规定值的20%。",
+      "min_relative_speed：（默认为0）最小攻击轴相对速度。对于非玩家实体，实际最小速度为规定值的20%。",
+      "*knockback_conditions：将目标击退的条件。",
+      "格式同dismount_conditions。",
+      "*damage_conditions：对目标造成伤害的条件。",
+      "格式同dismount_conditions。",
+      "contact_cooldown_ticks：（值>0，默认为10）攻击的冷却时间，在此时间内无法与任何实体交互。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。",
+      "minecraft:minimum_attack_charge：（0≤值≤1）玩家使用此物品进行近战攻击或穿刺攻击所需要攻击冷却完成度的最小值。若添加了该组件，并且值大于0，则会影响魔咒效果组件post_piercing_attack的触发间隔。",
+      "minecraft:piercing_weapon：设置物品的戳刺攻击，跳过玩家对方块的点击和持续破坏行为。该组件也是触发魔咒效果组件post_piercing_attack的条件之一。",
+      "sound：使用此武器时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "hit_sound：此武器攻击到生物时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "deals_knockback：（默认为true）攻击是否造成击退。",
+      "dismounts：（默认为false）攻击是否将目标强制脱离骑乘。",
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。",
+      "minecraft:weapon：设置物品的武器数据。此组件存在时物品使用次数统计信息会在用此物品攻击时增加。",
+      "disable_blocking_for_seconds：（值≥0，默认为0）攻击成功禁用目标盾牌的秒数。",
+      "item_damage_per_attack：（值≥0，默认为1）每次攻击对此物品造成的损伤值，即损耗的耐久度。"
+    ],
+    "netherite_spear单独拥有的组件": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "wooden_spear,stone_spear,copper_spear,iron_spear,golden_spear,diamond_spear,netherite_spear所共有的组件": [
+      "minecraft:attack_range：生物持有此物品时的攻击距离，会覆写玩家的实体交互距离属性。",
+      "min_reach：（0≤值≤64，默认为0）攻击者到目标的最小有效距离。以攻击者眼睛位置、沿视角方向到被攻击者攻击判定箱的最小距离计算。",
+      "max_reach：（0≤值≤64，默认为3）攻击者到目标的最大有效距离。以攻击者眼睛位置、沿视角方向到被攻击者攻击判定箱的最小距离计算。",
+      "min_creative_reach：（0≤值≤64，默认为0）创造模式玩家到目标的最小有效距离，计算方式同上。",
+      "max_creative_reach：（0≤值≤64，默认为5）创造模式玩家到目标的最大有效距离，计算方式同上。",
+      "hitbox_margin：（0≤值≤1，默认为0.3）决定攻击判定箱的大小。游戏将实体的碰撞箱向各个方向扩展此距离得到攻击判定箱。",
+      "mob_factor：（0≤值≤2，默认为1.0）对于非玩家生物，其使用的最小有效距离和最大有效距离的缩放乘数。",
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:damage_type：（命名空间ID）使用此物品攻击时造成的伤害类型。",
+      "minecraft:enchantable"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Overkill": [
+      "一击造成 9 颗心的伤害。",
+      "在一次伤害中造成18（ × 9）或更高伤害值。伤害可以施加给任何生物，即使该生物的生命值低于18（ × 9）。",
+      "30G"
+    ],
+    "用黄金分散猪灵的注意力": [
+      "被猪灵攻击时朝它丢弃金质物品，让它捡起来。",
+      "30G"
+    ],
+    "–": [
+      "10G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "下界": [
+      "在身上未装备金盔甲时将这些拥有物品标签#piglin_loved的物品之一扔给猪灵："
+    ],
+    "粗金": [
+      "或手持金锭对猪灵按使用键。进度不会在玩家装备金盔甲而猪灵愤怒时触发。如有其他金质物品可以正常使用，进度和猪灵会将其忽略。"
+    ],
+    "历史": [
+      "2025年9月27日",
+      "Minecraft LIVE – September 2025中展示了矛。"
+    ],
+    "你知道吗": [
+      "在不进行任何附魔的情况下，玩家使用单次伤害最高的下界合金矛从高空垂直下落时，通过冲锋方式能造成的伤害上限为94点。",
+      "处于创造模式的玩家可以被矛的冲锋攻击击退、击落载具，即使攻击来自处于生存模式的玩家。",
+      "冲锋攻击时，造成伤害至少需要4.6米/秒的相对速度，而造成击退至少需要5.1米/秒的攻击者速度。因此当目标移动时，攻击者速度不等于相对速度，矛便会有与平时不同的表现。",
+      "在Java版中，骷髅在玩家靠近时会缓慢后退以远离玩家，因此玩家疾跑时对骷髅的冲锋攻击经常只会将骷髅击退而不造成任何伤害。",
+      "玩家A朝向持矛冲锋但不移动的玩家B快速移动时，玩家A会被攻击受到伤害，但不会被击退。这可能导致玩家A与玩家B间的距离缩短到2格内，使得玩家B不再能用矛攻击玩家A。",
+      "矛的冲锋攻击伤害不仅受相对速度大小影响，还受攻击者视角方向影响。攻击者视线方向与相对速度夹角越小，攻击伤害越大。",
+      "攻击者骑马、骆驼等载具攻击地面上的目标时，攻击者需要低头才能攻击到目标，相对速度与视线夹角变大，攻击伤害变小。",
+      "攻击者横向移动时，相对速度方向与视线夹角接近直角，因此伤害降低甚至不能触发冲锋攻击。",
+      "矛进行冲锋攻击判定所需的“视线”与通常意义上的“视线”（即按下F3 + B组合键时从实体视平线处发出的蓝色箭头[仅Java版]）有时不重合。",
+      "玩家速泳时，判定箱高度降低，通常意义上的视线也降低，但矛进行冲锋攻击判定所需的视线不变。因此玩家需要瞄准目标的判定箱下方才能正常进行冲锋攻击。",
+      "在Java版中，套有鞍的坐下的骆驼被玩家骑乘时，玩家可以按下向前键使骆驼站起。然而，站起后玩家进行攻击判定所需的视线仍处于站起前的较低位置，使得相对速度方向与视线夹角减小，上文提及的攻击伤害变小的效应被减弱，矛更容易击中目标且可以造成更高伤害。"
+    ],
+    "参考": [
+      "MC-302827 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

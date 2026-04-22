@@ -1,0 +1,77 @@
+{
+  "title": "角斗场",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%A7%92%E6%96%97%E5%9C%BA",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：组成结构的细节",
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。"
+    ],
+    "colosseum": [
+      "角斗场（Colosseum）是与堡垒遗迹的藏宝室部分结构相似的结构，生成于马铃薯维度的地下。"
+    ],
+    "生成": [
+      "角斗场会在马铃薯维度中任何生物群系的地下生成，可能有部分结构会延伸进角斗场。",
+      "在角斗场中生成的超级马铃薯怪及其召唤的生物、瘟疫鲸台阶不会自然消失，毒鳍台阶刷怪笼生成的毒鳍台阶会自然消失。其中超级马铃薯怪和瘟疫鲸台阶只随角斗场的生成而生成，超级马铃薯怪召唤的生物只随超级马铃薯怪的召唤而生成，除非被杀死，或将游戏模式设置为和平模式。超级马铃薯怪不会因游戏模式设置为和平模式而消失，但会变成友好生物。"
+    ],
+    "角斗场池底迷宫示意图，入口在图中下面": [
+      "角斗场的结构与堡垒遗迹的藏宝室类似，底部为水池，池中有多个立足点，但该结构中所有的“水”在技术上都是含水的光源方块。",
+      "池底暗藏1格至1.5格高的迷宫暗道，玩家需要从水池角落的一个马铃薯木活板门进入迷宫，迷宫中心是藏在焦糊的烤马铃薯砖下的毒鳍台阶刷怪笼。",
+      "角斗场内含多个传送门底座，激活其中的传送门会将玩家传送到对应要塞的传送门房间中心。",
+      "角斗场中有残留的雕纹磨制黑石，证明此结构是由堡垒遗迹直接编辑过来的。"
+    ],
+    "结构目录": [
+      "角斗场的结构文件储存在client.jar/data/minecraft/structures/colosseum当中。"
+    ],
+    "centers": [
+      "center_0.nbt",
+      "center_1.nbt",
+      "center_2.nbt",
+      "center_3.nbt"
+    ],
+    "bottom": [
+      "corner_0.nbt",
+      "corner_1.nbt",
+      "wall_0.nbt",
+      "wall_1.nbt",
+      "wall_2.nbt",
+      "wall_3.nbt"
+    ],
+    "middle": [
+      "corner_0.nbt",
+      "corner_1.nbt"
+    ],
+    "top": [
+      "corner_0.nbt",
+      "corner_1.nbt"
+    ],
+    "fire_room.nbt": [
+      "house_0.nbt",
+      "house_1.nbt",
+      "large_bridge_0.nbt",
+      "large_bridge_1.nbt",
+      "large_bridge_2.nbt",
+      "large_bridge_3.nbt"
+    ],
+    "roofed_bridge.nbt": [
+      "small_bridge_0.nbt",
+      "small_bridge_1.nbt",
+      "small_bridge_2.nbt",
+      "small_bridge_3.nbt"
+    ],
+    "mid": [
+      "wall_0.nbt",
+      "wall_1.nbt",
+      "wall_2.nbt"
+    ],
+    "main_entrance.nbt": [
+      "wall_0.nbt",
+      "wall_1.nbt"
+    ],
+    "参见": [
+      "Tutorial:愚人节玩笑版本生存/24w14potato#挑战Boss"
+    ]
+  }
+}

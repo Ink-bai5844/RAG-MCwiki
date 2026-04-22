@@ -1,0 +1,5 @@
+{
+  "title": "Debug fourj item",
+  "source_url": "https://zh.minecraft.wiki/w/Debug_fourj_item",
+  "text": "提示：本条目的主题不是屏障。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n本条目所述内容仅适用于原主机版。\n该物品已被官方设置为不可获得。\n虽然其仍然可以通过使用第三方软件获得，但可能会导致不可预料的结果发生，例如漏洞和崩溃。\nitem.debug_fourj_item.name\n[[|]]\n最大堆叠\n64\n可再生\n否\n物品ID\ndebug_fourj_item\ndebug_fourj_item是原主机版独有的物品，只能通过修改游戏获得。\n获取\ndebug_fourj_item目前不能在原版游戏中正常获得，只能通过编辑物品栏获得。其不存在于创造模式物品栏中，亦无法使用命令获得。\n用途\ndebug_fourj_item的ID表明它用于调试和测试目的，这些测试功能大部分在发布的版本中被移除。其仅保留了用于生物时，可以使生物永不消失的功能。其在物品栏中使用屏障的纹理，既没有“这是什么？”的提示，也没有显示名称。\n数据值\nID\n名称\n命名空间ID\n本地化键名\n[无显示名称]\ndebug_fourj_item\nitem.debug_fourj_item.name\n历史\n原主机版\nXbox 360\nXbox One\nPS3\nPS4\nPS Vita\nWii U\nSwitch\nTU31\nCU21\n1.24\nPatch 3\n1.0.1\n加入了debug_fourj_item，其在游戏中显示名称“Achievements”。\nTU36\ndebug_fourj_item 不再在游戏中显示名称。\n你知道吗\n物品ID中的“fourj”一词代表4J Studios。\n画廊\n物品栏中的debug_fourj_item\n参考\nhttps://www.youtube.com/watch?v=IscH0rUw_20\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Combat Test 8c",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Combat_Test_8c",
+  "text": "此条目记述的内容是一个分支版本Combat Test的内容。\n此条目所述的内容并不适用于Minecraft的正式版本，且已被无限期搁置。\n请注意：Combat Test特性的本地化名称由本wiki自行确定，原版游戏内的相关内容显示为英文。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nCombat Test 8c\n版本\nJava版\n类型\n快照\n发布时间\n2020年8月26日\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\n803\n数据版本\n2707\n资源包版本\n6\n数据包版本\n6\n◄Combat Test 8b\nCombat Test 8c是未来的战斗改版的第9个公开的实验性版本，发布于2020年8月26日。此版本只发布在Reddit上，因此其并不出现在启动器版本列表或Minecraft.net的文章中。\n此版本由Java版1.16.2分叉而来，独立于Minecraft开发的主分支。\n更改\n游戏内容\n盾牌\n修复了盾牌的击退计算。\n现在跳跃时会禁用潜行举盾。\n带有旗帜的盾牌现在能够抵挡最多10（）近战攻击伤害而非普通盾牌的5（），且有着更佳的击退抗性，比普通的盾牌更强。\n这只是在不加入新物品的情况下测试不同类型盾牌的便捷方式，并不会真正应用于游戏中。\n你知道吗\n此版本有着与Combat Test 8和Combat Test 8b相同的协议版本，这意味着它们的客户端和服务器版本彼此兼容。拥有同样协议版本的开发版十分罕见。\n注释\n解压至.minecraft/versions目录\n参考\nHere we go again... Combat test snapshot 8b，来自u/jeb_。Reddit，2020年8月21日。\n导航"
+}

@@ -1,0 +1,202 @@
+{
+  "title": "Java版18w16a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8818w16a",
+  "structured_content": {
+    "默认分类": [
+      "18w16a"
+    ],
+    "发布时间": [
+      "2018年4月19日"
+    ],
+    "快照归属": [
+      "1.13"
+    ],
+    "协议版本": [
+      "372"
+    ],
+    "数据版本": [
+      "1483"
+    ],
+    "资源包版本": [
+      "4"
+    ],
+    "数据包版本": [
+      "4",
+      "◄◄1.12.2",
+      "1.13.1►►",
+      "◄18w15a",
+      "18w19a►",
+      "18w16a是Java版1.13的第32个快照，发布于2018年4月19日，加入了自选世界类型，并修复了一些漏洞。"
+    ],
+    "自选世界类型": [
+      "用于创建单一生物群系世界。",
+      "允许在生成主世界与末地地形间选择。"
+    ],
+    "水": [
+      "水流动并会转变成水源方块的过程改为立刻在该地放置水源方块。"
+    ],
+    "珊瑚扇": [
+      "现在生成在珊瑚礁中珊瑚块的侧边。"
+    ],
+    "蓝冰": [
+      "稍微降低蓝冰的滑度。"
+    ],
+    "珊瑚块": [
+      "现在需要精准采集魔咒的工具才能在被挖掘时掉落为珊瑚块，否则会掉落失活的珊瑚块。",
+      "不再在陆地上立即转换为失活的珊瑚块。"
+    ],
+    "珊瑚": [
+      "加入了珊瑚有关的方块与物品标签。"
+    ],
+    "潮涌核心": [
+      "放出的粒子效果改为entity_core纹理。"
+    ],
+    "海龟壳": [
+      "给予的水下呼吸不再显示粒子效果。"
+    ],
+    "溺尸": [
+      "现在可以生成在海底废墟里。"
+    ],
+    "生物群系": [
+      "更改海洋生物群系的温度计算——优化了在海域间温度的转化。",
+      "生物群系名称可翻译了。",
+      "一些生物群系的名称更新："
+    ],
+    "新名称": [
+      "minecraft:desert_hills"
+    ],
+    "Desert Hills": [
+      "minecraft:forest_hills"
+    ],
+    "Forest Hills": [
+      "minecraft:frozen_ocean"
+    ],
+    "Frozen Ocean": [
+      "minecraft:frozen_river"
+    ],
+    "Frozen River": [
+      "minecraft:hell"
+    ],
+    "Nether": [
+      "minecraft:jungle_edge"
+    ],
+    "Jungle Edge": [
+      "minecraft:jungle_hills"
+    ],
+    "Jungle Hills": [
+      "minecraft:mesa_rock"
+    ],
+    "Mesa Forest Plateau": [
+      "minecraft:mushroom_island"
+    ],
+    "Mushroom Island": [
+      "minecraft:mushroom_island_shore"
+    ],
+    "Mushroom Island Shore": [
+      "minecraft:mutated_birch_forest"
+    ],
+    "Mutated Birch Forest": [
+      "minecraft:mutated_birch_forest_hills"
+    ],
+    "Mutated Birch Forest Hills": [
+      "minecraft:mutated_desert"
+    ],
+    "Mutated Desert": [
+      "minecraft:mutated_extreme_hills"
+    ],
+    "Mutated Extreme Hills": [
+      "minecraft:mutated_extreme_hills_with_trees"
+    ],
+    "Mutated Extreme Hills+": [
+      "minecraft:mutated_jungle"
+    ],
+    "Mutated Jungle": [
+      "minecraft:mutated_jungle_edge"
+    ],
+    "Mutated Jungle Edge": [
+      "minecraft:mutated_mesa_clear_rock"
+    ],
+    "Mutated Mesa Plateau": [
+      "minecraft:mutated_mesa_rock"
+    ],
+    "Mutated Mesa Forest Plateau": [
+      "minecraft:mutated_redwood_taiga_hills"
+    ],
+    "Mutated Redwood Taiga Hills": [
+      "minecraft:mutated_roofed_forest"
+    ],
+    "Mutated Roofed Forest": [
+      "minecraft:mutated_savanna"
+    ],
+    "Mutated Savanna": [
+      "minecraft:mutated_savanna_rock"
+    ],
+    "Mutated Savanna Plateau": [
+      "minecraft:mutated_swampland"
+    ],
+    "Mutated Swampland": [
+      "minecraft:mutated_taiga"
+    ],
+    "Mutated Taiga": [
+      "minecraft:mutated_taiga_cold"
+    ],
+    "Mutated Cold Taiga": [
+      "minecraft:taiga_hills"
+    ],
+    "生成": [
+      "优化了生成位置寻找的代码。",
+      "新的valid_spawn方块标签用于控制玩家可生成的位置。"
+    ],
+    "刻": [
+      "“液体刻”与“方块刻”现在有所区别。"
+    ],
+    "修复": [
+      "修复了38个漏洞",
+      "1.13前正式版的漏洞",
+      "MC-7192 — 下界中“地形”表面层的生成会产生局部直线伪影或错误。",
+      "MC-18903 — 村民或女巫右臂没有纹理翻转（与僵尸、巨人、玩家、僵尸猪人、僵尸村民和灾厄村民类似）。",
+      "MC-64416 — 错误对应的方块名称/方块名称之间区别度不大。",
+      "MC-83064 — 飘浮效果开始时，累积的掉落伤害不会被重置。",
+      "MC-90591 — 相机视角下使用鞘翅时，视角会正常移动，而不是平滑移动。",
+      "MC-105194 — 僵尸村庄中大部分僵尸村民都是幼年僵尸村民。",
+      "1.13开发版本的漏洞",
+      "MC-125089 — 新世界生成器会生成浮空的废弃矿井。",
+      "MC-125101 — 生成平顶山（岩柱）群系时，其会在区块边界处被切断。",
+      "MC-125251 — 神龟药水II会使玩家无敌。",
+      "MC-125280 — 气泡柱看似可以被活塞推动。",
+      "MC-125297 — 强制性含水方块中的水不会流出来。",
+      "MC-125329 — 创造模式中，在水下飞行并按住疾跑键时，会使玩家进入游泳姿态。",
+      "MC-125356 — 海龟壳的药水效果例子非常具有侵入性。",
+      "MC-125460 — 选取方块键只在海带顶部有效果/不能选取2格高海草。",
+      "MC-125647 — 有氧时间未固定在300刻，导致第11格气泡会基于溢出空气时间而显示。",
+      "MC-125669 — 可以在液体中放置盔甲架。",
+      "MC-125671 — 骑马时可以触发游泳动画。",
+      "MC-125770 — 将水倒在岩浆块上时不产生气泡柱。",
+      "MC-125895 — 玩家处于气泡柱区域时，会在接触水下的方块底部时淹死。",
+      "MC-126104 — 发射器不能放置或使用鳕鱼、鲑鱼、河豚或热带鱼桶。",
+      "MC-126167 — 在创造模式物品栏中，河豚、鲑鱼、鳕鱼和热带鱼刷怪蛋的位置不正确。",
+      "MC-126304 — 水桶可以捕获已死亡，但尚未掉落物品时的鱼。",
+      "MC-126485 — 只有1格水位于岩浆块或灵魂沙上方时，不产生气泡柱和水流。",
+      "MC-126580 — 游戏内时间为第1天时，游戏崩溃。",
+      "MC-126923 — 水变成冰时，会删除与水占据相同空间的其他方块。",
+      "MC-126930 — 海绵不吸收流动水。",
+      "MC-126978 — 海绵可以吸收熔岩。",
+      "MC-127006 — 紧挨水面的珊瑚会使水面显示出奇怪的黑影。",
+      "MC-127045 — 可以利用含水方块复制鱼。",
+      "MC-127079 — 水上方的熔岩不会使水变成石头。",
+      "MC-127366 — 海龟壳给予的水下呼吸效果会在玩家脚部触水时就开始计时。",
+      "MC-128058 — 珊瑚扇不在珊瑚礁中生成。",
+      "MC-128102 — 生成的海带有时没有顶部。",
+      "MC-128205 — 溺尸会通过其战利品表和手持物品掉落三叉戟。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-128233 — 熔岩着色不正确。",
+      "MC-128248 — 水的底部没有被着色。",
+      "MC-128338 — 游戏无法处理在蓝冰上滑行的超高速度。",
+      "MC-128372 — 物品在蓝冰上被水流推动时，其速度不会更快。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 18w16a — Minecraft.net，2018年4月19日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.249x-beta",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.249x-beta",
+  "text": "2.1.249x-beta\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2019年2月21日\n测试版归属\n2.1.367x\n◄◄2.1.248x\n2.1.523x►►\n2.1.351x-beta►\n2.1.2494-beta（Windows）、2.1.2495-beta（macOS）或2.1.2496-beta（Linux）是一个启动器更新，发布于2019年2月21日，修复了一些漏洞。\n新内容\n新的下载系统，可以提高下载的可靠性和速度。\n修复\nMCL-10562 - 如果%APPDATA%\\.minecraft是NTFS连接，启动器就无法更新。\nMCL-10571 - 在英国下载Shuniji.ogg时会被损坏。\n导航"
+}

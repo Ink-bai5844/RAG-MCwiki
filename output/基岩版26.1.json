@@ -1,0 +1,5 @@
+{
+  "title": "基岩版26.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.1",
+  "text": "提示：本条目的主题不是基岩版26.10。\n26.1\n版本\n基岩版\n服务端版本\n1.26.1.1\n内部版本号\nAndroid：1.26.1.1\nPlayStation 4：3.31\nPlayStation 5：1.041.000\nWindows：1.26.101.0\n版本码\nAndroid：\n952600101（armeabi-v7a，35）\n962600101（x86，35）\n972600101（arm64-v8a，35）\n982600101（x86_64，35）\niOS/iPadOS：\n882556448\n发布时间\nChromeOS/Android, Fire, Nintendo Switch, PlayStation, Windows, Xbox - 2026年2月19日\niOS/iPadOS - 2026年2月23日\n下载\n服务端\nWindowsLinux\n协议版本\n924\n其他版本的26.1\nJava版\n◄◄1.21.130\n26.10►►\n◄26.0\n26.2►\n26.1是基岩版的一次热修复更新，在除iOS/iPadOS外的平台上发布于2026年2月19日，在iOS/iPadOS平台上发布于2026年2月23日，修复了一个漏洞。此版本与26.0相兼容。\n修复\n用户界面\n修复了某些设备上界面缩放与设定值不匹配的问题。（MCPE-234792）\n参考\nMinecraft: Bedrock Edition 26.1 Changelog — Minecraft Feedback，2026年2月19日。\n导航"
+}

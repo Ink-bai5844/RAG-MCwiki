@@ -1,0 +1,49 @@
+{
+  "title": "Java版Classic 0.0.23a 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.23a_01",
+  "structured_content": {
+    "默认分类": [
+      "关于2019年发布的重制版，请见“Java版Classic 0.0.23a_01（重制）”。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.0.23a_01"
+    ],
+    "服务端版本": [
+      "1.8.2"
+    ],
+    "发布时间": [
+      "2009年7月12日"
+    ],
+    "协议版本": [
+      "6"
+    ],
+    "al_version": [
+      "6.38",
+      "6.5",
+      "◄◄0.0.23a",
+      "0.24_SURVIVAL_TEST►►",
+      "0.0.23a_01是Java版的一次更新，发布于2009年7月12日。"
+    ],
+    "控制": [
+      "加入了一个键盘映射来控制渲染距离。",
+      "玩家再次可以通过按下F来切换渲染距离。"
+    ],
+    "重制版": [
+      "主条目：Java版Classic 0.0.23a_01（重制）",
+      "为庆祝Minecraft十周年，官方用JavaScript重制了该版本并上传至Minecraft网站，最高支持9人通过浏览器游玩。这个重制版可在classic.minecraft.net游玩。"
+    ],
+    "你知道吗": [
+      "Notch计划在此版本之后修改命名规则，将第二个0和“a”去掉，即“<主版本>.<发布数>[_<补丁数>]”的格式。例如，由于该版本是那时最新的版本，按照这个规则“0.0.23a_01”会被重命名为“0.23_01”。然而，这个版本从未被给予过这个名字。",
+      "这个规则也被应用于Beta版中。"
+    ],
+    "参考": [
+      "Archive.org上的IRC记录，#minecraft.20090711.log。2009年7月11日 （UTC−5）。",
+      "IRC记录: \"A9:34:54 <08Notch> ok, _01 will be up in a minute or two\" (14:34:54)",
+      "Changing the version system（存档） — The Word of Notch，2009年7月15日。",
+      "There are a lot of cool things like this on（存档） — The Word of Notch，2009年7月12日。",
+      "IRC记录: \"A9:32:05 <08Notch> moving it to an F-key, though [...] well, I could just make it mappable..\" (14:32:05 UTC)",
+      "IRC记录: \"A9:39:26 <CheeToS> yay, thank you for putting the f key back\" (14:39:26 UTC)",
+      "Embrace the Past with Minecraft Classic，来自Tom Stone。Minecraft.net，2019年5月17日。"
+    ]
+  }
+}

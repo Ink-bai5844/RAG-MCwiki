@@ -1,0 +1,5 @@
+{
+  "title": "Realms持久化数据存储格式",
+  "source_url": "https://zh.minecraft.wiki/w/Realms%E6%8C%81%E4%B9%85%E5%8C%96%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F",
+  "text": "本条目所述内容仅适用于Java版。\nRealms持久化数据存储文件是游戏保存Realms信息使用的存储文件。\n存储格式\nRealms持久化数据存储文件位于<客户端根目录>/realms_persistence.json，以JSON文件格式保存，并具有下列结构：\nJSON文件根对象\n*\n*hasUnreadNews：当前是否有未读新闻。\n*\n*newsLink：Realms新闻链接。\n存储行为\n当游戏进入Realms主页面时，Realms新闻数据就会尝试更新。如果有接收到更新，那么就会设置未读新闻并更新新闻链接。\n当未读新闻状态或新闻链接发生改变时，游戏会立刻保存此文件。\n历史\nJava版\n1.19.1\nrc1\n现在Realms持久化数据读取失败时会在日志中报错而不是静默处理。\n导航"
+}

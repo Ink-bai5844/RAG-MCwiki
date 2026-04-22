@@ -1,0 +1,639 @@
+{
+  "title": "音乐唱片",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9F%B3%E4%B9%90%E5%94%B1%E7%89%87",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft的音乐唱片。关于其他用法，请见“音乐（消歧义）”。"
+    ],
+    "稀有度": [
+      "13、cat、blocks、chirp、far、mall、mellohi、stal、strad、ward、11、wait、5、Relic、Creator（八音盒）、Precipice、Tears：少见",
+      "Lava Chicken：稀有[仅Java版]或少见[仅基岩版]",
+      "otherside、Pigstep、Creator：稀有"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "可再生": [
+      "13、cat、blocks、chirp、far、Lava Chicken、mall、mellohi、stal、strad、ward、11、wait、Creator、Precipice、Tears：是",
+      "otherside、5、Pigstep、Relic、Creator（八音盒）：否"
+    ],
+    "物品ID": [
+      "13：music_disc_13",
+      "cat：music_disc_cat",
+      "blocks：music_disc_blocks",
+      "chirp：music_disc_chirp",
+      "far：music_disc_far",
+      "Lava Chicken：music_disc_lava_chicken",
+      "mall：music_disc_mall",
+      "mellohi：music_disc_mellohi",
+      "stal：music_disc_stal",
+      "strad：music_disc_strad",
+      "ward：music_disc_ward",
+      "11：music_disc_11",
+      "wait：music_disc_wait",
+      "otherside：music_disc_otherside",
+      "5：music_disc_5",
+      "Pigstep：music_disc_pigstep",
+      "Relic：music_disc_relic",
+      "Creator：music_disc_creator",
+      "Creator（八音盒）：music_disc_creator_music_box",
+      "Precipice：music_disc_precipice",
+      "Tears：music_disc_tears",
+      "音乐唱片（Music Disc）是能够放入唱片机播放的物品。可播放由C418、Lena Raine、Samuel Åberg、Aaron Cherof、Amos Roddy和Hyper Potions制作的音乐。"
+    ],
+    "物品列表": [
+      "总共有以下21种音乐唱片（所有物品的名称都是“音乐唱片”，此处的名称是其曲目名称）：",
+      "13"
+    ],
+    "cat": [
+      "由软件合成器演奏的轻快的循环旋律，伴有合成打击乐。锯齿波合成器自始至终演奏着低音旋律和一些和声。",
+      "3:05",
+      "2"
+    ],
+    "blocks": [
+      "欢快的芯片音乐风格乐曲，伴有舒缓的华尔兹节奏。",
+      "5:45",
+      "3"
+    ],
+    "chirp": [
+      "复古的曲调。",
+      "3:05",
+      "4"
+    ],
+    "far": [
+      "平静、轻松的自然风格旋律。",
+      "2:54",
+      "5"
+    ],
+    "mall": [
+      "宁静的音乐，由卡林巴琴与其他乐器演奏。",
+      "3:17",
+      "6"
+    ],
+    "mellohi": [
+      "缓慢、略微抑郁的华尔兹舞曲，背景来自电子琴采样。",
+      "1:36",
+      "7"
+    ],
+    "stal": [
+      "由钢琴、萨克斯风和低音提琴演奏的缓和的爵士乐曲，并有竖笛间奏。",
+      "2:30",
+      "8"
+    ],
+    "strad": [
+      "热带风格的合成音乐，主旋律由钢鼓演奏，弦乐、木管乐和软件合成器的分层混合伴奏。",
+      "3:08",
+      "9"
+    ],
+    "ward": [
+      "11",
+      "乐曲开头是电子管风琴演奏的肖邦的《葬礼进行曲》片段，接着被黑胶静电声打断，其后转为欢快的电子乐，并配以忧郁的低音。",
+      "4:11",
+      "11",
+      "略微令人不安的音乐唱片，记录了疑似一个人跑过或破坏石头方块的声音，伴随沉重的呼吸声，随后停下并使用打火石点火，咳嗽，翻页，之后随背景噪音的接近以紧促的步伐继续奔跑起来。发出的方块声音听起来像泥土和石头。可以一直听到这个人的挣扎声和诡异的背景音。在临近结尾的突然停止之前可以听到奇怪的吠叫声或风吹声。最后发出类似于坏掉的音乐唱片发出的失真噪音，以安静的哔哔声、黑胶静电声和嘶嘶声结束。",
+      "1:11",
+      "10"
+    ],
+    "wait": [
+      "欢快的“Minecraft”混音版乐曲。它始于一些安静的合成拉丁打击乐和软件合成器旋律，然后扩展成一首芯片音乐风格的歌曲。",
+      "该音乐唱片是最后被C418加入到Minecraft中的，尽管它之前已经很长时间存在于游戏数据中（即where are we now）。",
+      "3:58（减至3:51）",
+      "12"
+    ],
+    "Pigstep": [
+      "13"
+    ],
+    "otherside": [
+      "5",
+      "一段高扬欢快的大调复古风格旋律，有清晰的鼓点和节奏，整体氛围轻松悠闲，而后歌曲转为小调，旋律略转向低沉，最后在时钟滴答作响的声音中戛然而止。",
+      "3:15",
+      "5",
+      "14"
+    ],
+    "Relic": [
+      "5",
+      "15"
+    ],
+    "Precipice": [
+      "由清脆的铃为主调，夹杂着播放器的电流声，随后音乐的主部分为打击乐。",
+      "4:59"
+    ],
+    "Creator（八音盒）": [
+      "上一曲的八音盒版本。",
+      "1:14"
+    ],
+    "Tears": [
+      "11"
+    ],
+    "箱子战利品": [
+      "Java版："
+    ],
+    "远古城市": [
+      "0.09",
+      "1",
+      "8.57%",
+      "11.7",
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1",
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1",
+      "0.09",
+      "1",
+      "8.57%",
+      "11.7",
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1",
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1"
+    ],
+    "刷怪房": [
+      "0.03",
+      "1",
+      "2.75%",
+      "36.4",
+      "0.21",
+      "1",
+      "19.42%",
+      "5.1",
+      "0.21",
+      "1",
+      "19.42%",
+      "5.1",
+      "基岩版：",
+      "0.03",
+      "1",
+      "2.75%",
+      "36.4",
+      "0.21",
+      "1",
+      "19.42%",
+      "5.1",
+      "0.21",
+      "1",
+      "19.42%",
+      "5.1"
+    ],
+    "要塞走廊": [
+      "0.02",
+      "1",
+      "2.46%",
+      "40.7",
+      "0.02",
+      "1",
+      "2.38%",
+      "42.0"
+    ],
+    "林地府邸": [
+      "0.28",
+      "1",
+      "25.51%",
+      "3.9",
+      "0.28",
+      "1",
+      "25.51%",
+      "3.9",
+      "0.28",
+      "1",
+      "25.08%",
+      "4.0",
+      "0.28",
+      "1",
+      "25.08%",
+      "4.0"
+    ],
+    "试炼密室宝库或奖品箱 - 独有": [
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0",
+      "0.17",
+      "1",
+      "16.67%",
+      "6.0"
+    ],
+    "堡垒遗迹塔尖": [
+      "0.06",
+      "1",
+      "5.62%",
+      "17.8",
+      "0.06",
+      "1",
+      "5.62%",
+      "17.8"
+    ],
+    "试炼密室柱廊陶罐": [
+      "0.01",
+      "1",
+      "1.42%",
+      "70.4",
+      "0.01",
+      "1",
+      "1.42%",
+      "70.4"
+    ],
+    "试炼密室不祥宝库 - 独有": [
+      "0.10",
+      "1",
+      "10%",
+      "10.0",
+      "音乐唱片（13）",
+      "0.10",
+      "1",
+      "10%",
+      "10.0",
+      "音乐唱片（13）"
+    ],
+    "考古战利品": [
+      "用刷子刷扫古迹废墟里的可疑的沙砾有概率掉落Relic音乐唱片。",
+      "Java版与基岩版："
+    ],
+    "古迹废墟（稀有战利品）": [
+      "0.08",
+      "1",
+      "8.33%",
+      "12.0"
+    ],
+    "苦力怕": [
+      "苦力怕被骷髅、流浪者、沼骸、凋灵骷髅[仅JE]或焦骸杀死后会额外随机掉落一张由C418作曲的音乐唱片（包括13、cat、blocks、chirp、far、mall、mellohi、stal、strad、ward、11以及wait）。"
+    ],
+    "恶魂": [
+      "恶魂被玩家反弹的火球杀死后会额外掉落一张Tears音乐唱片。"
+    ],
+    "僵尸": [
+      "骑乘在鸡上的幼年僵尸、幼年僵尸村民和幼年尸壳[仅基岩版]被玩家或驯服的狼杀死后会额外掉落一张Lava Chicken音乐唱片。"
+    ],
+    "音乐": [
+      "将音乐唱片放入唱片机即可播放音乐。下面表格展示了音乐唱片对应的音乐曲目。",
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。"
+    ],
+    "时长": [
+      "13",
+      "C418",
+      "以洞穴为主题，稍稍令人不安的环境音乐曲目。整曲完全沉浸于混响中，交杂着洞穴音效、共振般的金属敲击声、静谧的风声、低沉射击的弓声、重度混响的嘶嘶声，而后是重度混响的爆炸声与回响的水花声。",
+      "2:58"
+    ],
+    "Lena Raine": [
+      "该曲目节奏强烈、节拍类似嘻哈风格、旋律狂野，始于重复的大号曲调和回响贝斯风格的落点，同时也有一些使人联想到收音机的更柔和的部分。",
+      "2:28",
+      "类似于发条发声的音乐，在音乐的中后部分有发条上条，以及打击乐、重金属的声音。",
+      "2:57"
+    ],
+    "Samuel Åberg": [
+      "风格类似音乐唱片11，中间夹杂着一段轻缓的音乐。其环境可能位于远古城市，因为曲中有深板岩、凝灰岩、紫水晶和监守者的音效。",
+      "2:58"
+    ],
+    "Aaron Cherof": [
+      "低音质的欢快的8-bit曲调，夹杂着轻微的音乐唱片颗粒声和嘶嘶声。C混合利底亚调式，部分旋律基于Minecraft Legends的曲目A Time of Legends和The Well of Fate。",
+      "3:38"
+    ],
+    "Amos Roddy": [
+      "与Pigstep的风格相似，节奏强烈、节拍类似嘻哈风格、旋律狂野，时不时伴随着恶魂的叫声。",
+      "2:55"
+    ],
+    "Hyper Potions": [
+      "A Minecraft Movie中熔岩烤鸡片段主题曲Steve's Lava Chicken的混音版，始于一段8-bit旋律和电音，乐器与村民音源交替演奏主旋律。",
+      "2:14"
+    ],
+    "红石": [
+      "音乐唱片放于唱片机中时，除了可以播放音乐，还可使红石比较器输出信号。不同音乐唱片所对应的红石信号强度如下："
+    ],
+    "（无音乐唱片）": [
+      "0",
+      "13",
+      "1"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Sound of Music": [
+      "用唱片机的音乐声为草甸增添生机。",
+      "将任意一张音乐唱片放入位于草甸生物群系的唱片机中。",
+      "10G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "甜蜜的梦": [
+      "将任意一张音乐唱片放入位于草甸生物群系的唱片机中。"
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "music_disc_13,music_disc_cat,music_disc_blocks,music_disc_chirp,music_disc_far,music_disc_lava_chick...等21个物品所共有的组件",
+      "minecraft:jukebox_playable：（命名空间ID）唱片机曲目。此组件存在时物品可插进唱片机中播放。"
+    ],
+    "music_disc_far": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:far\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_far\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_far\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "music_disc_13",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:13\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_13\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_13\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_creator": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:creator\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_creator\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"rare\",\"minecraft:item_model\":\"minecraft:music_disc_creator\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_blocks": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:blocks\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_blocks\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_blocks\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_strad": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:strad\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_strad\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_strad\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_wait": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:wait\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_wait\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_wait\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_chirp": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:chirp\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_chirp\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_chirp\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_ward": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:ward\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_ward\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_ward\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_relic": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:relic\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_relic\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_relic\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_otherside": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:otherside\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_otherside\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"rare\",\"minecraft:item_model\":\"minecraft:music_disc_otherside\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_creator_music_box": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:creator_music_box\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_creator_music_box\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_creator_music_box\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "music_disc_11",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:11\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_11\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_11\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_mall": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:mall\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_mall\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_mall\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_pigstep": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:pigstep\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_pigstep\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"rare\",\"minecraft:item_model\":\"minecraft:music_disc_pigstep\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_stal": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:stal\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_stal\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_stal\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_lava_chicken": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:lava_chicken\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_lava_chicken\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"rare\",\"minecraft:item_model\":\"minecraft:music_disc_lava_chicken\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_cat": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:cat\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_cat\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_cat\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_tears": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:tears\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_tears\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_tears\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_mellohi": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:mellohi\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_mellohi\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_mellohi\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}"
+    ],
+    "music_disc_precipice": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:precipice\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_precipice\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_precipice\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "music_disc_5",
+      "{\"minecraft:tooltip_display\":[],\"minecraft:jukebox_playable\":\"minecraft:5\",\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":1,\"minecraft:item_name\":{\"translate\":\"item.minecraft.music_disc_5\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:music_disc_5\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版数据值"
+    ],
+    "历史": [
+      "2010年4月",
+      "C418在Youtube上上传了一段视频。里面包括许多最后变成音乐唱片的音乐曲目预览。"
+    ],
+    "Java版Alpha": [
+      "v1.0.14",
+      "加入了音乐唱片13和cat。",
+      "音乐唱片13的曲目此前是背景音乐。",
+      "音乐唱片被加入到地牢的战利品箱子中。"
+    ],
+    "Java版Beta": [
+      "1.2_02",
+      "提高了音乐唱片cat的生成概率。",
+      "2011年8月1日",
+      "C418公布了新的音乐唱片。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre2",
+      "加入了9张新音乐唱片，音乐唱片总数上升至11个，但苦力怕并不会掉落它们。它们和首批音乐唱片存在位置相同。",
+      "先前版本共有12个音乐唱片的音频未被使用，而现在只剩1个未被使用，即“where are we now”。这是由于该音乐唱片名字中含有空格而导致出现问题所致的。",
+      "1.1",
+      "11w50a",
+      "除11外的所有音乐唱片现在都会在苦力怕被骷髅杀死时掉落。同时它们掉落的概率相同。",
+      "1.4.4",
+      "1.4.3",
+      "音乐唱片where are we now被重命名为wait并被加入游戏。",
+      "音乐唱片11可以在生存模式中获得了，它和其他音乐唱片一样都可以由苦力怕掉落。",
+      "1.5",
+      "13w04a",
+      "唱片机现在可被红石比较器检测内含的音乐唱片。",
+      "1.6.1",
+      "13w24a",
+      "自定义音乐唱片可以通过资源包添加到游戏中。",
+      "在此之前，cat和13是唯二是以.ogg方式存储的，其他的音乐唱片皆为.mus格式，而游戏会在运行时对其进行解码。",
+      "1.9",
+      "15w44a",
+      "降低了地牢箱子中音乐唱片的平均数量。",
+      "1.11",
+      "16w39a",
+      "音乐唱片cat和13现在能够在林地府邸的箱子里获得。",
+      "1.13",
+      "17w47a",
+      "ID由record_<曲目>改为music_disc_<曲目>。",
+      "在扁平化之前，这些物品的数字ID为2256至2267。",
+      "1.14",
+      "18w43a",
+      "更改了音乐唱片11的纹理。",
+      "音乐唱片现在还会在苦力怕被流浪者杀死时掉落。",
+      "1.16",
+      "20w16a",
+      "加入了音乐唱片Pigstep。",
+      "1.18",
+      "21w42a",
+      "加入了音乐唱片otherside。",
+      "1.19",
+      "22w13a",
+      "音乐唱片cat、13和otherside现在能在远古城市的箱子中找到。",
+      "22w16a",
+      "加入了音乐唱片5。",
+      "1.20",
+      "23w17a",
+      "加入了音乐唱片Relic，可通过刷扫古迹废墟里的可疑的沙砾获得。",
+      "1.20.5"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "24w07a",
+      "音乐唱片现在还会在苦力怕被沼骸杀死时掉落。",
+      "1.21",
+      "24w18a",
+      "加入了3张音乐唱片Precipice、Creator和Creator（八音盒）。",
+      "24w07a中的变更不再属于实验性内容。",
+      "1.21.2",
+      "24w33a",
+      "除了Pigstep、otherside和Creator以外，其余音乐唱片的稀有度由稀有更改为少见。",
+      "1.21.6",
+      "25w20a",
+      "加入了音乐唱片Tears。",
+      "1.21.7",
+      "rc1",
+      "加入了音乐唱片Lava Chicken。",
+      "1.21.11",
+      "25w44a",
+      "音乐唱片现在还会在苦力怕被焦骸杀死时掉落。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了12张音乐唱片。",
+      "1.4.0",
+      "1.2.14.2",
+      "现在音乐唱片mellohi和wait可在埋藏的宝藏中找到。",
+      "1.10.0",
+      "1.10.0.3",
+      "音乐唱片现在还会在苦力怕被流浪者杀死时掉落。",
+      "更改了音乐唱片11的纹理。",
+      "1.16.0",
+      "1.16.0.57",
+      "加入了音乐唱片Pigstep。",
+      "1.16.100",
+      "1.16.100.56",
+      "ID由record_<曲目>改为music_disc_<曲目>。",
+      "1.18.0",
+      "1.18.0.22",
+      "加入了音乐唱片otherside。",
+      "1.18.10",
+      "1.18.10.20",
+      "调整了音乐唱片Pigstep和otherside放入唱片机时红石比较器时输出的信号强度，以匹配Java版。",
+      "1.19.0",
+      "1.19.0.26",
+      "音乐唱片cat、13和otherside现在能在远古城市的箱子中找到。",
+      "1.19.0.28",
+      "加入了音乐唱片5。",
+      "1.20.0",
+      "1.20.0.22",
+      "加入了音乐唱片Relic。",
+      "1.20.0.23",
+      "现在音乐唱片Relic能通过刷扫古迹废墟里的可疑的沙砾获得。",
+      "1.21.0",
+      "1.21.0.24",
+      "加入了音乐唱片Precipice、Creator和Creator（八音盒）。"
+    ],
+    "?": [
+      "音乐唱片Relic放入唱片机时红石比较器时输出的信号强度由15调整为14，以匹配Java版。",
+      "1.21.30",
+      "1.21.30.21",
+      "除了Pigstep、otherside和Creator以外，其余音乐唱片的稀有度由稀有更改为少见。",
+      "1.21.40",
+      "1.21.40.20",
+      "音乐唱片现在还会在苦力怕被沼骸杀死时掉落。",
+      "1.21.90",
+      "1.21.90.25",
+      "加入了音乐唱片Tears。",
+      "1.21.93",
+      "加入了音乐唱片Lava Chicken。",
+      "1.21.120",
+      "1.21.120.20",
+      "现在骑乘在鸡上的幼年僵尸、幼年僵尸村民和幼年尸壳被驯服的狼杀死后也会额外掉落一张音乐唱片Lava Chicken。",
+      "1.21.130",
+      "1.21.130.26",
+      "音乐唱片现在还会在苦力怕被焦骸杀死时掉落。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了音乐唱片13和cat。",
+      "TU5",
+      "加入了剩余的10张音乐唱片。",
+      "TU12",
+      "音乐唱片where are we now使用了与Java版相同的蓝色纹理，而非之前的绿色的音乐唱片cat的纹理。",
+      "TU22",
+      "CU10",
+      "1.15",
+      "音乐唱片where are we now被加入至生存模式中。",
+      "1.90",
+      "更改了音乐唱片11的纹理。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了音乐唱片13和cat。",
+      "TU5",
+      "加入了剩余的10张音乐唱片。",
+      "TU12",
+      "音乐唱片where are we now使用了与Java版相同的蓝色纹理，而非之前的绿色的音乐唱片cat的纹理。",
+      "TU22",
+      "CU10",
+      "1.15",
+      "音乐唱片where are we now被加入至生存模式中。",
+      "1.90",
+      "更改了音乐唱片11的纹理。"
+    ],
+    "你知道吗": [
+      "在基岩版中，音乐唱片的数据值范围是2256-2267，和添加其他方块或物品时不同，它们的数据值并非第一个可用的数据值。",
+      "愚人节玩笑版本25w14craftmine加入了Tone Deaf Rebellion - And Action!音乐唱片，该音乐唱片播放以下音乐：。"
+    ],
+    "参考": [
+      "同属黑胶音乐唱片的otherside不在此列，见MC-239432 — 漏洞状态为“有意为之”。",
+      "https://www.youtube.com/watch?v=Hgw_RD_1_5I",
+      "https://twitter.com/notch/status/119412635828629504"
+    ]
+  }
+}

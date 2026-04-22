@@ -1,0 +1,51 @@
+{
+  "title": "Schematic文件格式",
+  "source_url": "https://zh.minecraft.wiki/w/Schematic%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。",
+      "本条目所述内容仅适用于Java版。",
+      "Schematic文件格式为一种由玩家社区所创建的用于存储Minecraft世界信息，进而可以通过第三方应用程序（如McEdit、Minecraft Note Block Studio、红石模拟器、WorldEdit以及Schematica等）进行编辑。地形以NBT格式储存并大致基于Indev世界格式。方块和数据的目录以YZX的排序存储，也就是说X坐标的变化最频繁。这与Classic、Indev以及Anvil文件格式中的方块排序相似。这种格式不能将应该覆盖已有方块的空气方块和不应覆盖已有方块的空气方块区分开。"
+    ],
+    "NBT结构": [
+      "示意图中的坐标范围从(0,0,0)到(宽-1,高-1,长-1)。",
+      "Schematic: Schematic数据。",
+      "Width: 沿X轴方向的尺寸。",
+      "Height: 沿Y轴方向的尺寸。",
+      "Length: 沿Z轴方向的尺寸。",
+      "Materials: 如果为Classic版本的世界，此处则为\"Classic\"；如果为携带版的世界，此处则为\"Pocket\"；如果为Alpha及其之后版本的世界，此处则为\"Alpha\"。",
+      "Blocks: 在地形中所用到的方块ID，每个方块8位。依次按高（从底部到顶部）、长和宽排序——也就是说，坐标为(x,y,z)的方块的索引为(Y×长度 + Z)×宽度 + X。",
+      "AddBlocks: 可用于进一步定义地形的额外位（可选）。两个半字节被放入数组中的每个索引中。与普通区块不同，偶数索引使用高半字节并且奇数索引使用低半字节。",
+      "Add已弃用: 与AddBlocks相同，使用在旧版本的Schematica格式中。属于字节数组，其中每个字节包含用于定义地形的附加数据。编辑时不应该输入这个标签。",
+      "Data: 在地形中额外用到的方块数据。在每字节中只使用低四位。（与区块存储格式不同，Schematic格式的方块数据每个占用一个完整字节。）",
+      "Entities: 复合标签列表。",
+      "在Schematic中的每一个实体。",
+      "请参见实体数据格式。",
+      "TileEntities: 复合标签列表。",
+      "在Schematic中的每一个实体。",
+      "请参见方块实体数据格式。",
+      "Icon: 由Schematica用作地形图标的物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "SchematicaMapping: 此地形所保存版本的ID映射，由Schematica使用。仅提供在地形中使用的材料。",
+      "[名称]: 表示该名称代表被给定的ID（例如：[名称]数值为1，其表示minecraft:stone）。",
+      "ExtendedMetadata: Schematica为扩展而提供的任意附加数据。可选，并且只有在不为空的情况下才会提供。",
+      "WEOriginX: 仅WorldEdit。X的中心坐标。可选，但如果被提供，其余的部分也需要被提供。",
+      "WEOriginY: 仅WorldEdit。Y的中心坐标。可选，但如果被提供，其余的部分也需要被提供。",
+      "WEOriginZ: 仅WorldEdit。Z的中心坐标。可选，但如果被提供，其余的部分也需要被提供。",
+      "WEOffsetX: 仅WorldEdit。X的偏移坐标。可选，但如果被提供，其余的部分也需要被提供。",
+      "WEOffsetY: 仅WorldEdit。Y的偏移坐标。可选，但如果被提供，其余的部分也需要被提供。",
+      "WEOffsetZ: 仅WorldEdit。Z的偏移坐标。可选，但如果被提供，其余的部分也需要被提供。",
+      "itemStackVersion: 仅MCEdit2。如果使用数字ID（Java版1.7）则为17，并且如果使用文本ID（Java版1.8）则为18。",
+      "BlockIDs: 仅MCEdit2。将数字方块ID映射到文本方块ID。",
+      "[编号]: 该编号所表示的文本ID（例如：[编号]为1且值为minecraft:stone）。",
+      "ItemIDs: 仅MCEdit2。将数字物品ID映射到文本方块ID。 仅在itemStackVersion为17时生效。",
+      "[编号]: 该编号所表示的文本ID（例如：[编号]为1且值为minecraft:stone）。",
+      "TileTicks: 仅MCEdit-Unified。队列中方块更新的列表。",
+      "见区块存储格式 § 计划刻存储格式。",
+      "Biomes: 仅MCEdit-Unified。包含地形中所有生物群系的字节数组。"
+    ],
+    "WorldEdit": [
+      "MCEdit2"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.17.34",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.17.34",
+  "text": "1.17.34\n版本\n基岩版\n服务端版本\n1.17.34.02\n内部版本号\nAndroid：1.17.34.02\nPlayStation：2.31\nWindows 10：1.17.3402.0\n版本码\nAndroid（试玩版本）：\n951703402（armeabi-v7a，29）\n971703402（arm64-v8a，29）\nAndroid（主版本）：\n951703402（armeabi-v7a，29）\n961703402（x86，29）\n971703402（arm64-v8a，29）\n981703402（x86_64，29）\niOS/iPadOS：\n844477306\n发布时间\nAndroid, iOS/iPadOS - 2021年10月5日\nNintendo Switch, PlayStation, Windows 10, Xbox - 2021年10月6日\nFire - 2021年10月7日\n下载\n服务端\nWindowsLinux\n协议版本\n465\n◄◄1.17.0\n1.18.0►►\n◄1.17.33\n1.17.40►\n1.17.34是基岩版的一次热修复更新，发布于2021年10月5日到7日，修复了关于兑换码的漏洞。此版本与其他平台上的1.17.30到1.17.33版本相互兼容。\n修复\n修复了兑换兑换码后，市场内容不出现在已购内容中的问题。\n参考\nMinecraft - 1.17.34 (Bedrock) — Minecraft Feedback，2021年10月5日。\n导航"
+}

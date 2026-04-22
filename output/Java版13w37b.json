@@ -1,0 +1,5 @@
+{
+  "title": "Java版13w37b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8813w37b",
+  "text": "13w37b\n版本\nJava版\n类型\n快照\n发布时间\n2013年9月13日\n快照归属\n1.7.2\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n76\n资源包版本\n1\n◄◄1.6.4\n1.7.4►►\n◄13w37a\n13w38a►\n13w37b是Java版1.7.2的第4个快照，发布于2013年9月13日，以修复13w37a里的漏洞和崩溃。\n修复\n修复了3个漏洞\n1.6.4前正式版的漏洞\nMC-15547 — 结构无法正确保存到世界中。\n上个开发版本的漏洞\nMC-30796 — 相邻的下界传送门方块无法正确渲染。\nMC-30806 — /give命令执行成功后没有提示输出。\n你知道吗\n此版本曾经在启动器中移除，但在2018年9月重新加入。\n该版本的宣传截图中出现了Grum的Minecraft皮肤。\n参考\nMinecraft snapshot 13w37a (Updated!)（存档），来自Dinnerbone。Mojang.com，2013年9月12日。\n导航"
+}

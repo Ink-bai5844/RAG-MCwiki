@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.18.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.18.2",
+  "text": "2.18.2\n程序类型\nMinecraft启动器\n发布时间\nBeta版：2024年2月15日\n正式版：2024年2月19日\n◄◄2.17.13\n2.19.10►►\n◄2.17.9\n2.19.2►\n2.18.2是一次启动器更新，发布于2024年2月15日。\n修复\nMCL-24056 – 用于ConfirmDeleteAllQuickPlayDialog的英文启动器字符串显示“Entities”而不是“Entries”。\nMCL-23976 – 当进入游戏时，系统提示输入一个新用户名。\nRealms页面上的各种漏洞修复。\n各种UI改进和漏洞修复。\n导航"
+}

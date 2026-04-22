@@ -1,0 +1,29 @@
+{
+  "title": "启动器2.2.720x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.720x",
+  "structured_content": {
+    "默认分类": [
+      "2.2.720x"
+    ],
+    "发布时间": [
+      "2021年11月1日"
+    ],
+    "测试版归属": [
+      "2.2.726x",
+      "◄◄2.2.551x",
+      "2.2.74xx►►",
+      "2.2.7206（Windows）、2.2.7207（Windows，Microsoft Store版）、2.2.7205（macOS）或2.2.7204（Linux）是一次启动器更新，发布于2021年11月1日，此版本是在Microsoft Store发布的首个版本。"
+    ],
+    "新内容": [
+      "现在可通过启动器启动基岩版。",
+      "现在可通过启动器启动Minecraft Dungeons（Microsoft Store版）。",
+      "使用Windows 10或Windows 11设备且使用从Microsoft Store下载的启动器的Xbox Game Pass for PC订阅者现在可以通过Xbox Game Pass游玩Java版、基岩版和Minecraft Dungeons。"
+    ],
+    "更改": [
+      "更改了启动器中账户的工作方式。"
+    ],
+    "修复": [
+      "修复了一些UI漏洞。"
+    ]
+  }
+}

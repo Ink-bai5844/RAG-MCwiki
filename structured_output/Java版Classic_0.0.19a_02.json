@@ -1,0 +1,32 @@
+{
+  "title": "Java版Classic 0.0.19a 02",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.19a_02",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.19a_02"
+    ],
+    "发布时间": [
+      "2009年6月19日"
+    ],
+    "al_version": [
+      "6.11",
+      "◄◄0.0.19a",
+      "0.0.20a►►",
+      "◄0.0.19a_01",
+      "0.0.19a_03►",
+      "0.0.19a_02是Java版的一次更新，发布于2009年6月19日。"
+    ],
+    "玻璃": [
+      "更改了纹理。"
+    ],
+    "参考": [
+      "6月19日的IRC记录：IRC logs on Archive.org; #minecraft.20090619.log. 2009年6月19日 (UTC−5)。",
+      "6月22日的IRC记录：IRC logs on Archive.org; #minecraft.20090622.log. 2009年6月22日 (UTC−5)。",
+      "6月19日的IRC记录: \"P6:40:29 <Gamerkough> New minecraft update is borked.\", \"P6:40:32 <wingboy> glass is updated\" [...] \"P6:42:47 <MANIA> wait, another update for sure?\" [...] \"P6:43:44 <MANIA> glass has been updated again?\" [...] \"P6:44:06 <Evil-Ville> Looks less like ice now\" [...] \"P6:46:09 <Evil-Ville> The new glass is better because it allows you to see through it properly\" [...] \"P7:39:33 <Senku> This glass texture still seems like it has too many lines on it\" [...] \"P7:39:45 <Notch> I'm very happy with how the glass texture ended up\" (23:40至次日0:39 UTC)",
+      "6月22日的IRC记录: P1:17:31 <Haruhi2> the version that was semi-opaque looked more like ice than glass [...] then the version after that was fine [...] then he changed it a bit and now it doesn't really look like either"
+    ]
+  }
+}

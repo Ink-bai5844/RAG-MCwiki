@@ -1,0 +1,65 @@
+{
+  "title": "基岩版1.17.20.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.17.20.21",
+  "structured_content": {
+    "默认分类": [
+      "1.17.20.21"
+    ],
+    "版本码": [
+      "Android：",
+      "951702021（armeabi-v7a，29）",
+      "961702021（x86，29）",
+      "971702021（arm64-v8a，29）",
+      "981702021（x86_64，29）"
+    ],
+    "发布时间": [
+      "Xbox One, Windows 10, Android - 2021年6月30日"
+    ],
+    "测试版归属": [
+      "1.17.30"
+    ],
+    "协议版本": [
+      "455",
+      "◄◄1.17.11",
+      "1.17.32►►",
+      "◄1.17.20.20",
+      "1.17.20.22►",
+      "beta 1.17.20.21是基岩版1.17.30的第2个测试版，发布于2021年6月30日，为结构方块加入了角落模式，并修复了一些漏洞。"
+    ],
+    "结构方块": [
+      "加入了角落模式，以同步Java版。",
+      "在保存模式时自动设置各个角落区域。",
+      "修复了已驯服的狼在结构方块界面中显示为透明的问题。"
+    ],
+    "矿石生成": [
+      "提高了小型铁矿石团簇的生成高度范围，以使其可以在地表洞穴中生成。",
+      "该功能仅开启实验性玩法（洞穴及悬崖子选项）后可用。"
+    ],
+    "GameTest框架": [
+      "将辅助方法worldLocation(location : BlockLocation)重命名为worldBlockLocation(location : BlockLocation)。",
+      "将辅助方法relativeLocation(location : BlockLocation)重命名为relativeBlockLocation(location : BlockLocation)。",
+      "加入了辅助方法worldLocation(relativeLocation : Location) : Location。",
+      "接收一个拥有相对于GameTest结构方块的坐标位置，返回一个新的拥有相对于世界的坐标位置。",
+      "加入了辅助方法relativeLocation(worldLocation : Location) : Location。",
+      "接收一个位置，返回一个新的拥有相对于当前GameTest结构方块的坐标位置。",
+      "加入了辅助方法spawnWithoutBehaviorsAtLocation(entityIdentifier : string, location : Location) : Entity。",
+      "在指定位置生成一个无AI行为的实体。",
+      "加入了辅助方法rotateDirection(direction : Direction) : Direction。",
+      "根据GameTest结构给出的方向旋转至指定方向。",
+      "加入了辅助方法getTestDirection() : Direction。",
+      "根据GameTest结构的朝向的返回该GameTest的方向。"
+    ],
+    "命令": [
+      "修复了使用命令在未加载区块放置结构后删除该结构时可能发生的崩溃。"
+    ],
+    "图形": [
+      "修复了开启RTX后地图上会显示告示牌文本的问题。"
+    ],
+    "物品": [
+      "合成配方中的时钟和指南针不再会运作。（MCPE-36354）"
+    ],
+    "参考": [
+      "Minecraft Beta - 1.17.20.21 (Xbox One/Windows 10/Android) — Minecraft Feedback，2021年6月30日。"
+    ]
+  }
+}

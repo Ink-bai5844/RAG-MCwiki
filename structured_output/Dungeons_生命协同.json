@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:生命协同",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%94%9F%E5%91%BD%E5%8D%8F%E5%90%8C",
+  "structured_content": {
+    "HealthSynergy": [
+      "使用法器会顺带回复少许生命值。"
+    ],
+    "——魔咒描述": [
+      "生命协同（Health Synergy）是Minecraft Dungeons中的魔咒，效果为在任意法器被激活时回复玩家少量生命值。回复量随魔咒等级提升而增加。"
+    ],
+    "I": [
+      "3% 生命值回复",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "4% 生命值回复",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "5% 生命值回复",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了生命协同。",
+      "1.3.2.0",
+      "魔咒也可以在使用雷霆法杖和腐化信标时触发了。"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "title": "命令/locate",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Flocate",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "在聊天框中为命令执行者显示给定的结构、生物群系或兴趣点[仅Java版]的最近坐标和距离。在Java版中，点击返回的坐标后，会自动在聊天框输入/tp @s 坐标。"
+    ],
+    "Java版": [
+      "1.11",
+      "16w39a",
+      "加入了/locate命令。",
+      "1.13",
+      "18w06a",
+      "/locate现在接受之前在Temple分组下所有结构的不同名称Desert_Pyramid、Igloo、Jungle_Pyramid、Swamp_Hut。",
+      "18w08a",
+      "为/locate命令输出的坐标添加了可点击的传送链接（将传送命令输入至聊天窗口）。",
+      "1.14",
+      "18w47a",
+      "/locate现在接受Pillager_Outpost。",
+      "18w48a",
+      "/locate现在接受New_Village。",
+      "1.16",
+      "20w11a",
+      "/locate现在接受Nether_Fossil。",
+      "20w21a",
+      "现在结构ID全部使用小写字母。",
+      "1.18.2",
+      "22w03a",
+      "现在结构ID使用命名空间ID，而不是之前的硬编码值。",
+      "pre1",
+      "现在支持标签，用#前缀与一般的ID做区分。",
+      "参数类型由结构类型（Structure Type）改为配置的结构（Configured Structure）。",
+      "1.19",
+      "22w19a",
+      "将/locatebiome作为子命令/locate biome并入了/locate。",
+      "/locate原有的功能由/locate structure继承。",
+      "加入了/locate poi子命令。"
+    ],
+    "基岩版": [
+      "locate biome <biome: Biome>",
+      "locate structure <structure: Structure> [useNewChunksOnly: Boolean]",
+      "1.17.30",
+      "1.17.30.22",
+      "/locate现在可用于只查找在未生成区块中的结构。",
+      "1.19.10",
+      "1.19.10.23",
+      "加入了/locate biome和/locate structure子命令，分别用于定位生物群系和结构。",
+      "1.19.30",
+      "1.19.30.20",
+      "现在只有/locate structure可用于定位结构。",
+      "1.21.100",
+      "1.21.100.20",
+      "现在biome: Biome必须包含命名空间。"
+    ],
+    "参数": [
+      "JE：<biome>：resource_or_tag",
+      "BE：biome: Biome：enum",
+      "指定要定位的生物群系的命名空间ID或生物群系标签[仅Java版]。参见生物群系/ID及Java版标签/生物群系以查看所有可用的生物群系ID和生物群系标签。",
+      "JE：<poi>：resource_or_tag",
+      "指定要定位的兴趣点的命名空间ID或兴趣点标签。参见兴趣点 § 兴趣点类型及Java版标签/兴趣点类型以查看所有可用的兴趣点ID和兴趣点标签。",
+      "JE：<structure>：resource_or_tag_key（区分大小写）",
+      "BE：structure: Structure：enum",
+      "指定要定位的结构的命名空间ID或结构标签[仅Java版]。参见生成结构 § 可被定位的结构及Java版标签/结构以查看所有可用的结构ID和结构标签。",
+      "BE：useNewChunksOnly: Boolean：enum",
+      "仅定位在尚未生成的区块中的结构，默认为false。",
+      "必须为 布尔值（true或false）。"
+    ],
+    "执行失败": [
+      "biome: Biome不含命名空间"
+    ],
+    "/locate structure ...": [
+      "无法在201×201区块的正方形区域中找到请求的结构"
+    ],
+    "/locate biome ...": [
+      "无法在12801×12801方块的正方形区域中找到请求的生物群系"
+    ],
+    "失败": [
+      "0",
+      "0"
+    ],
+    "成功": [
+      "1",
+      "1"
+    ],
+    "示例": [
+      "获得最近的林地府邸的坐标：/locate structure mansion",
+      "获得最近的沙漠生物群系的坐标：/locate biome desert",
+      "获得最近的讲台的坐标：/locate poi librarian[仅Java版]"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了/locate命令。",
+      "0.17.0.2",
+      "移除了/locate命令。",
+      "1.0.0.0",
+      "重新加入了/locate命令，但仅接受Stronghold。",
+      "1.1.0",
+      "1.1.0.0",
+      "/locate现在可查找其他结构。"
+    ],
+    "注释": [
+      "由于MC-138887，有时该命令显示的结果并非是距离最近的。"
+    ]
+  }
+}

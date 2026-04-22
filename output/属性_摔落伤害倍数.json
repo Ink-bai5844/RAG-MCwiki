@@ -1,0 +1,5 @@
+{
+  "title": "属性/摔落伤害倍数",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%91%94%E8%90%BD%E4%BC%A4%E5%AE%B3%E5%80%8D%E6%95%B0",
+  "text": "本条目所述内容仅适用于Java版。\n摔落伤害倍数\n类型\n负面\n默认值\n1\n值域\n0 – 100\n属性ID\nfall_damage_multiplier\n摔落伤害倍数（Fall Damage Multiplier）是控制生物摔落伤害的属性。\n行为\n主条目：摔落\n当生物摔落触地时，游戏按照下列步骤计算摔落伤害：\n获取生物的下落高度f和安全摔落高度属性计算值h。\n获取生物脚下的方块，修正下落高度，获得方块摔落伤害系数r：\n如果为干草捆和蜂蜜块，则摔落伤害系数r为0.2。\n如果为床，则摔落伤害系数r为0.5。\n如果为方向向上的滴水石锥，则下落高度f←f+2，摔落伤害系数r为2。\n其他方块摔落伤害系数r为1。\n获取此属性计算值为a，则摔落伤害为d=⌈(f−h)ra⌉。\n对于部分生物，摔落伤害会被强制减少：\n山羊的摔落伤害固定减少10，即d←d−10。\n青蛙的摔落伤害固定减少5，即d←d−5。\n当此属性计算值为0时，生物摔落触地时不产生摔落伤害。\n适用的生物\n生物\n基值\n骆驼\n驴\n马\n羊驼\n骡\n骷髅马\n行商羊驼\n僵尸马\n0.5\n其他所有生物\n1\n已知修饰符\n摔落伤害倍数没有已知修饰符。\n历史\nJava版\n1.20.5\n24w06a\n加入了摔落伤害倍数属性，ID为generic.fall_damage_multiplier。\n1.21.2\n24w33a\n摔落伤害倍数属性的ID从generic.fall_damage_multiplier重命名为fall_damage_multiplier。\n导航"
+}

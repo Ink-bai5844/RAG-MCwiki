@@ -1,0 +1,100 @@
+{
+  "title": "服务端核心文件",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%A0%B8%E5%BF%83%E6%96%87%E4%BB%B6",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是server.jar文件自身。关于运行server.jar后产生的服务器文件，请见“服务端文件目录”。",
+      "本条目所述内容仅适用于Java版。",
+      "服务端核心文件是游戏服务端所需所有代码的集合，作为可以独立执行的可执行文件。"
+    ],
+    "文件结构": [
+      "服务端核心文件可以由官方提供的链接下载。与客户端核心文件不同，服务端核心文件不需要启动器就可以执行，因为运行库内置在了服务端核心文件内，在执行时会自动解压并自动添加类路径，所以服务端核心文件可以独立启动。",
+      "服务器核心文件是一个JAR文件，内部的文件按下列结构组织：",
+      "versions.json是版本信息文件，记录此文件的版本信息。",
+      "META-INF/libraries/是运行库目录，所有服务端需要的运行库都在此以Maven公约格式放置在此目录下。当服务端启动时，会从这个目录解压出所有运行库文件到文件系统内。",
+      "META-INF/versions/<版本>/server-<版本>.jar是真正的游戏源代码，所有服务端的行为都由此文件控制。与客户端核心文件不同，这里的文件仅包含了服务端所需部分，客户端的渲染等代码在此不存在。",
+      "META-INF/MANIFEST.MF是清单文件，定义了主类是net.minecraft.bundler.Main。",
+      "META-INF/classpath-joined是运行库解压后各个运行库应该所处的相对路径，游戏以此文件内容作为运行时的类路径以链接这些运行库。",
+      "META-INF/libraries.list是运行库列表文件。此文件每一行都代表了一个运行库，按照制表符\\t分割为三个信息：SHA-256散列值、运行库名称、运行库相对路径。",
+      "META-INF/main-class是内置主类名称，即未指定系统属性时游戏执行的主类。通常为net.minecraft.server.Main。",
+      "META-INF/versions.list是内置核心JAR文件信息，按照制表符\\t分割为三个信息：SHA-256散列值、版本名称、核心JAR相对路径。",
+      "内置核心JAR文件具有下列的结构：",
+      "assets/目录是原版资源包，仅包含了美式英语的语言文件（en_us.json）和deprecated.json。",
+      "assets/.mcassetsroot是游戏为识别原版资源包作为标记的文件，内部不包含数据。",
+      "data/目录是原版数据包。",
+      "data/.mcassetsroot是游戏为识别原版数据包作为标记的文件，内部不包含数据。",
+      "META-INF/目录是JAR文件规范中的元数据，控制内置核心JAR文件被执行时的行为。",
+      "META-INF/MANIFEST.MF是清单文件，包含了主类数据和内置核心JAR内各个文件的SHA-384散列值。",
+      "META-INF/MOJANGCS.RSA是用于验证JAR的文件，其中包含了Mojang所使用的签名公钥（RSA，2048位）。",
+      "META-INF/MOJANGCS.SF是JAR的签名，内部包含了内置核心JAR内所有文件使用Mojang的签名私钥以SHA384withRSA算法计算得到的散列值。",
+      "flightrecorder-config.jfc是Java Flight Recorder的配置文件，用于/jfr的分析。",
+      "versions.json是版本信息文件，用于记录此内置核心JAR文件的版本信息。",
+      "META-INF/LICENSE包含游戏的许可协议。内容如下：",
+      "Use of the contents of this archive is subject to the Minecraft End-User License Agreement (EULA) and the Microsoft Services Agreement. Minecraft EULA: https://aka.ms/MinecraftEULA Microsoft Services Agreement: https://www.microsoft.com/msa"
+    ],
+    "启动行为": [
+      "与客户端核心文件不同，服务端核心文件多了一层添加运行库的代码，所以启动时可以根据启动参数调整要执行的主类。",
+      "下列两个系统属性可以影响启动行为：",
+      "bundlerMainClass：要启动的主类，如果此系统属性不存在则使用META-INF/main-class内定义的主类。如果此项被设置为空，游戏将报错Empty main class specified, exiting。内置核心JAR文件下列可用的主类：",
+      "net.minecraft.data.Main：数据生成器程序入口点。",
+      "net.minecraft.gametest.Main：测试服务端程序入口点。",
+      "net.minecraft.server.Main：专用服务端程序入口点。",
+      "bundlerRepoDir：数据解压根目录D。游戏的运行库和内置核心JAR会按照指定的路径解压。如果此项不存在则为当前目录。",
+      "当运行服务端核心文件时，游戏先检查位于D/libraries/的运行库和位于D/versions/<版本>/的核心JAR的SHA-256散列值，对不存在或散列值不同的文件则会解压自带的对应文件并替换到对应位置。在解压过程中，游戏会根据列表文件（.list）中的SHA-256散列值校验解压文件的完整性。如果散列值与实际计算值不对应，游戏会在日志中报错Expected file <文件> to have hash <正确SHA-256散列值>, but got <计算值>。",
+      "解压后，游戏将把所有解压库加入类路径，并执行指定主类，并传入指定的命令行参数。",
+      "以启动无GUI服务端举例，启动命令应如下文所写："
+    ],
+    "java-jarserver.jar--nogui": [
+      "再以启动数据生成器为例："
+    ],
+    "启动参数": [
+      "内置核心JAR文件有多个主类，在这里只介绍服务端启动参数，即主类为net.minecraft.server.Main的参数。其他主类的参数请见对应条目。"
+    ],
+    "服务端管理选项": [
+      "--demo：设置服务端以演示模式启动。",
+      "--nogui：不启动服务端图形化控制台。任意选项中包含nogui都会被记为此选项，如-nogui和nogui都会被解析为此选项。",
+      "--help：输出帮助信息。",
+      "--initSettings：仅初始化eula.txt和server.properties，之后停止服务端。如果对应文件已存在则不执行任何操作。",
+      "--jfrProfile：在服务端启动的同时启动Java Flight Recorder。",
+      "--pidFile <文件>：服务端启动时将程序进程ID（Process ID）写入到指定文件。",
+      "--port <端口>：设置服务端绑定的端口，此项覆盖server.properties内的设置。如果此选项不存在则使用server.properties内的server-port。",
+      "--serverId <服务端ID>：设置服务端ID，此项与登录流程有关。不设置此项时为空字符串。",
+      "--universe <路径>：设置服务端根目录。如果不设置则为当前目录。"
+    ],
+    "存档管理选项": [
+      "--bonusChest：启用奖励箱地物。",
+      "--forceUpgrade：将存档内的所有区块数据强制更新到当前服务端版本。",
+      "--eraseCache：清除区块内的光照信息和高度图信息，以减少存档体积。此项必须和--forceUpgrade或--recreateRegionFiles同时使用，否则无效。",
+      "--recreateRegionFiles：重建所有区域文件，重建后的区域文件将强制使用server.properties中region-file-compression中的区域文件压缩算法。",
+      "--safeMode：禁用非原版数据包，仅使用原版数据包加载存档。",
+      "--world <存档名称>：设置存档的位置，此位置相对于服务端根路径。"
+    ],
+    "Java版": [
+      "1.16",
+      "20w20b",
+      "专用服务端主类从net.minecraft.server.MinecraftServer修改为net.minecraft.server.Main。",
+      "20w22a",
+      "加入了--safeMode启动参数。",
+      "1.18",
+      "21w37a",
+      "加入了--jfrProfile启动参数。",
+      "21w39a",
+      "修改了服务端核心文件的文件结构，不再将所有库整合到文件内，而是将各个库独立打包后添加类路径加载，以解决Java模块限制造成的错误。",
+      "1.20",
+      "23w06a",
+      "加入了--pidFile启动参数。",
+      "1.20.2",
+      "23w31a",
+      "移除了--singleplayer启动参数。",
+      "1.20.5",
+      "24w04a",
+      "加入了--recreateRegionFiles启动参数。",
+      "1.21.5",
+      "25w03a",
+      "加入了测试服务端主类。",
+      "1.21.9",
+      "25w37a",
+      "加入了调试工具相关的系统属性。"
+    ]
+  }
+}

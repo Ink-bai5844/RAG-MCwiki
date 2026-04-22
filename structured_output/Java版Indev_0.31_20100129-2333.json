@@ -1,0 +1,97 @@
+{
+  "title": "Java版Indev 0.31 20100129-2333",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100129-2333",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月29日"
+    ],
+    "未知": [
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100129-2209",
+      "0.31 20100130►",
+      "0.31的一个版本发布于2010年1月29日23:33（UTC），加入了一些新特性。"
+    ],
+    "工作台": [
+      "一种功能性方块，用于合成物品。",
+      "对其按下使用键可以打开一个3×3的合成网格。",
+      "可由4个木板合成。"
+    ],
+    "工具": [
+      "加入了金质工具，即斧、锄、镐、锹和剑的金质变种。",
+      "攻击伤害与木质工具相同，但挖掘速度快于钻石质工具。"
+    ],
+    "碗": [
+      "可由3个木板来合成。",
+      "用于制作蘑菇煲。"
+    ],
+    "蘑菇煲": [
+      "可由1个红色蘑菇、1个棕色蘑菇和1个碗来合成。",
+      "食用后恢复8（）。"
+    ],
+    "钻石块": [
+      "更改了合成配方，现在可由9个钻石来合成。"
+    ],
+    "金块": [
+      "更改了合成配方，现在可由9个金锭来合成。"
+    ],
+    "铁块": [
+      "更改了合成配方，现在可由9个铁锭来合成。"
+    ],
+    "箱子": [
+      "加入了合成配方，现在可由8个木板合成。"
+    ],
+    "斧": [
+      "现在可以把材料放在另一侧来合成。"
+    ],
+    "钻石": [
+      "加入了合成配方，现在可由1个钻石块来合成。"
+    ],
+    "金锭": [
+      "加入了合成配方，现在可由1个金块来合成。"
+    ],
+    "铁锭": [
+      "加入了合成配方，现在可由1个铁块来合成。"
+    ],
+    "黑史蒂夫": [
+      "现在掉落0-2个火药。"
+    ],
+    "史蒂夫": [
+      "现在掉落0-2个线。"
+    ],
+    "合成": [
+      "在物品栏中加入了2×2的合成网格。",
+      "移除了按B键获得的3×3的合成网格"
+    ],
+    "其他": [
+      "在线保存和加载世界的功能被暂时禁用。",
+      "现在游戏帧率暂时被限制在60帧。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z（UTC-5）",
+      "Adura的IRC记录: \"(18:32:57) <Notch> ok, it's been updated now :D\"",
+      "Adura的IRC记录: \"(18:31:48) <Griob> notch what will the next indev update contain?\"...\"(18:32:09) <Notch> you can make bowls, chests, workbenches and mushroom stew now\"",
+      "Phew, last indev update for today（存档） — The Word of Notch，2010年1月30日。[需要更好来源]",
+      "Adura的IRC记录: \"(18:12:01) <Notch> soon: workbenches\"",
+      "Adura的IRC记录: \"(19:21:36) <Snowman> Ooooh, gold weapons and tools\"",
+      "Adura的IRC记录: \"(17:35:32) <Notch> wahey, in the next update, you make make bowls. And in bowls, you can make mushroom stew.",
+      "Adura的IRC记录: \"(18:33:31) <P_R_Deltoid> 9 iron ignots for one block?\"...\"(18:33:47) <Notch> it's 9 now\"",
+      "Adura的IRC记录: \"(18:19:47) <vede> Notch, you should add a chest recipe.\"...\"(18:20:24) <vede> Perhaps 1:[W][W][W] 2:[W][ ][W] 3:[W][W][W]\"",
+      "Adura的IRC记录: \"(18:41:28) <LF> Oh, Notch have you fixed that you can only make axes using [OO-][OW-][-W-] and not [-OO][-WO][-W-]\"...\"18:41:43 <Notch> yes! All recipes can be mirrored\"",
+      "Adura的IRC记录: \"(18:34:03) <Notch> you can unmake the blocks now\"...\"18:34:36 <Notch> you get 9 back\"",
+      "Adura的IRC记录: \"(17:13:52) <Notch> btw, there's a 2x2 crafting area in the inventory now\"",
+      "Adura的IRC记录: \"(18:48:45) <Notch> B is gone!\"",
+      "Adura的IRC记录: \"(18:35:08) <Notch> it doesn't load old levels\"...\"18:35:52 <Notch> there's no online saving or loading in indev\"",
+      "Adura的IRC记录: \"(18:45:42) <vede> Any idea why my framerate is always down around 60 now, Notch?\"...\"(18:45:56) <Notch> no idea. Did you turn on vsynch?\"...\"(18:46:22) <vede> It was fine a few hours ago.\"...\"(18:46:34) <vede> But now it's always between 30 and 60.\"...\"(18:46:50) <HAL9000> and mine is around 60 constantly too\"...\"(18:46:57) <Notch> Ok, fixed in the next update ;D\""
+    ]
+  }
+}

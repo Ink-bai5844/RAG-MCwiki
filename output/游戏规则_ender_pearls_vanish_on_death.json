@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/ender pearls vanish on death",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fender_pearls_vanish_on_death",
+  "text": "本条目所述内容仅适用于Java版。\nender_pearls_vanish_on_death\n名称\n掷出的末影珍珠在死亡时消失\n描述\n玩家投掷的末影珍珠是否在玩家死亡时消失。\n分类（JE）\n玩家\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nender_pearls_vanish_on_death\nender_pearls_vanish_on_death是控制掷出的末影珍珠是否会在死亡时消失的游戏规则。\n行为\n当ender_pearls_vanish_on_death为true时，玩家投掷的末影珍珠会在玩家死亡时消失。\n历史\nJava版\n1.20.2\npre1\n加入了游戏规则enderPearlsVanishOnDeath。\n1.21.11\n25w44a\n将游戏规则enderPearlsVanishOnDeath重命名为ender_pearls_vanish_on_death。\n导航"
+}

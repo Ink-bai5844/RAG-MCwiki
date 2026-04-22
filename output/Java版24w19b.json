@@ -1,0 +1,5 @@
+{
+  "title": "Java版24w19b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8824w19b",
+  "text": "24w19b\n版本\nJava版\n类型\n快照\n发布时间\n2024年5月10日\n快照归属\n1.21\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073742019\nHEX: 400000C3\n数据版本\n3942\n资源包版本\n33\n数据包版本\n43\n◄◄1.20.6\n1.21.1►►\n◄24w19a\n24w20a►\n24w19b是Java版1.21的第3个快照，发布于2024年5月10日，修复了一个崩溃漏洞。\n修复\n修复了1个漏洞\n上个开发版本的漏洞\nMC-271843 — 村民死亡时崩溃。\n参考\nMinecraft Snapshot 24w19b — Minecraft.net，2024年5月10日。\n导航"
+}

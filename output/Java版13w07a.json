@@ -1,0 +1,5 @@
+{
+  "title": "Java版13w07a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8813w07a",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\n13w07a\n版本\nJava版\n类型\n快照\n发布时间\n2013年2月14日\n快照归属\n1.5\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n58\n◄◄1.4.7\n1.5.1►►\n◄13w06a\n13w09a►\n13w07a是Java版1.5的第10个快照，发布于2013年2月14日，修复了一些漏洞。\n更改\n游戏内容\nNBT标签\nFallingSand实体现在能够在NBT中编辑，结合TileEntityData的话你可以将其变成其他的方块实体。\n常规\n光照\n少量光照优化。\n修复\n修复了3个漏洞\n1.5前正式版的漏洞\nMC-2196 — 将地图放置在物品展示框中会出现深度冲突（Z-fighting）问题。\n1.5开发版本的漏洞\nMC-7302 — 某些生物的名称标签显示得过高或过低。\nMC-9212 — 队伍的颜色、前缀和后缀对目标选择器@a、​@p和​@r无效。\n参考\nMinecraft Snapshot 13w07a（存档），来自Dinnerbone。Mojang.com，2013年2月14日。\n导航"
+}

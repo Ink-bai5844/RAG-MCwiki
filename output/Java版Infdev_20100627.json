@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100627",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100627",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年6月27日\n下载\n客户端（.json）\nal_version\n1.136\n◄◄Infdev 20100625-1917\nAlpha v1.0.1►►\n◄Infdev 20100625-1917\nInfdev 20100629►\nMinecraft Infdev的一个版本发布于2010年6月27日，修复了一些漏洞。\n更改\n方块\n刷怪笼\n现在拥有一个独立的方块实体ID。\n因为它们之前与可能导致各种问题的告示牌共享了它们的ID。\n生物\n常规\n被动型生物的生成大幅减少。\n世界生成\n树木\n生成密度降低。\n修复\n修复了1个漏洞\n修复了矿车旋转漏洞。\n参考\nSorry I broke the signs, here’s the fix（存档） — The Word of Notch，2010年6月27日。\n导航"
+}

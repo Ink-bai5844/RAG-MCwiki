@@ -1,0 +1,35 @@
+{
+  "title": "Java版Classic 0.0.19a 05",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.19a_05",
+  "structured_content": {
+    "默认分类": [
+      "此版本的客户端目前已丢失。",
+      "虽然此版本的服务端有留档，但对应的客户端却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.19a_05"
+    ],
+    "服务端版本": [
+      "1.6"
+    ],
+    "发布时间": [
+      "2009年6月20日"
+    ],
+    "al_version": [
+      "6.14",
+      "◄◄0.0.19a",
+      "0.0.20a►►",
+      "◄0.0.19a_04",
+      "0.0.19a_06►",
+      "0.0.19a_05是Java版的一次更新，发布于2009年6月20日。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "尝试修复一个产生橡皮筋效果的问题。"
+    ],
+    "参考": [
+      "Archive.org上的IRC日志存档；#minecraft.20090619.log。2009年6月19日（UTC−5）。",
+      "IRC日志: \"P8:16:05 <Notch> Rroff: new client up now, try it\" [...] \"P8:19:57 <Rroff> 19a_05 is the new one?\", \"P8:20:00 <Notch> yes\" (2009年6月20日 01:16至01:20 UTC)",
+      "IRC日志: \"P8:14:19 <Rroff> higher framerate the rubber band feeling is less noticeable\" [...] \"P8:14:54 <Rroff> slight warpy motion\" (2009年6月20日 01:14 UTC)"
+    ]
+  }
+}

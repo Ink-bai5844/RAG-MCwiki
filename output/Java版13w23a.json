@@ -1,0 +1,5 @@
+{
+  "title": "Java版13w23a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8813w23a",
+  "text": "13w23a\n版本\nJava版\n类型\n快照\n发布时间\n2013年6月7日\n快照归属\n1.6.1\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n67\n◄◄1.5.2\n1.6.2►►\n◄13w22a\n13w23b►\n13w23a是Java版1.6.1的第11个快照，发布于2013年6月7日，加入了命令/spreadplayers和1条新的游戏规则，以及2条新的闪烁标语，并修复了一些漏洞。\n新内容\n命令格式\n/spreadplayers\n从一个点上散布一些玩家。\n可设定玩家间最小和最大距离。\n可用于将队伍散布到同一地方。\n/gamerule\n加入了玩家是否能在饥饿值足够时自然恢复生命值的游戏规则：naturalRegeneration。\n常规\n闪烁标语\n加入了2条新的闪烁标语：\n“HURNERJSGER”\n“What's up Doc?”\n更改\n物品\n闪烁的西瓜片\n配方从使用1个金粒变为至8个。\n金苹果\n配方从使用8个金粒变为使用8块金锭。\n游戏内容\n状态效果\n平衡了药水和饥饿机制。\n瞬间治疗效果减少33%（第1级只恢复4（））。\n生命恢复效果减少50%（第1级每2.5秒恢复1（），之后每等级间隔减半）。\n自然生命恢复现在会消耗饥饿值或饱和度，每恢复1（）增加3点消耗度。\n常规\n资源包\n继续资源包的开发。\n仍未完成。\n修复\n修复了4个漏洞\n1.6.1开发版本的漏洞\nMC-13880 — 为牛挤奶会导致手中的铁桶消失。\nMC-16074 — 使用/tp命令传送至“NaN”会导致游戏崩溃。\nMC-16290 — 刷怪笼会使游戏崩溃：UnsupportedOperationException: Cannot modify readonly attribute\n上个开发版本的漏洞\nMC-17051 — 驯服的狼会攻击驯服的马。\n你知道吗\n该版本的宣传截图中出现了Grum的Minecraft皮肤。\n参考\nMinecraft snapshot 13w23a（存档），来自Dinnerbone。Mojang.com，2013年6月7日。\n导航"
+}

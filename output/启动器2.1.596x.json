@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.596x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.596x",
+  "text": "2.1.596x\n程序类型\nMinecraft启动器\n发布时间\n2019年7月23日\n测试版本\n4个测试版\n（查看全部）\n◄◄2.1.5410\n2.1.961x►►\n2.1.5965 （Linux）、2.1.5963 （macOS）或2.1.5964 （Windows）是启动器的一次更新，发布于2019年7月23日，修复了一些漏洞。\n更改\n更新了翻译。\n修复\nMCL-10741 - 无法打开游戏目录。\nMCL-11188 - 在启动Forge版本时会弹出“此游戏已在运行”的警告。\nMCL-11294 - 启动器日志出现“Deserializing account”警告。\nMCL-11523 - 2.1.5819版本的启动器无法启动。\nMCL-11579 - 游戏无法启动。\nMCL-12204 - macOS版启动器无法更新。\n画廊\n加载进度条现在位于“开始游戏”按钮上方，不在位于屏幕底部的“设置”下，并且更大了\n参考\nhttps://piston-meta.mojang.com/mc/launcher_beta_changelog.md\n导航"
+}

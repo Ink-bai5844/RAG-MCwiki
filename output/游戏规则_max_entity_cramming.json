@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/max entity cramming",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fmax_entity_cramming",
+  "text": "本条目所述内容仅适用于Java版。\nmax_entity_cramming\n名称\n实体挤压上限\n描述\n无\n分类（JE）\n生物\n值类型\n整型\n默认值\n24\n值域（JE）\n0 – 2147483647\n游戏规则ID\nmax_entity_cramming\nmax_entity_cramming是控制生物受挤压需要推动的实体数量的游戏规则。\n行为\n当max_entity_cramming大于0时：\n如果生物正在推动的实体数量达到max_entity_cramming个，则其会开始受到来自挤压机制的伤害。\n带有渗浆效果的生物死亡时生成的史莱姆的数量不会使该位置的史莱姆数量达到max_entity_cramming个。\nmax_entity_cramming的值不能低于0。\n历史\nJava版\n1.11\n16w38a\n加入了游戏规则maxEntityCramming。\n1.21.11\n25w44a\n将游戏规则maxEntityCramming重命名为max_entity_cramming。\n现在max_entity_cramming的值最小只能为1。\n25w45a\n将max_entity_cramming的下限由1改为0。\n导航"
+}

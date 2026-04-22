@@ -1,0 +1,5 @@
+{
+  "title": "测试实例方块/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B5%8B%E8%AF%95%E5%AE%9E%E4%BE%8B%E6%96%B9%E5%9D%97%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\n*\n*data：测试实例方块储存的实例数据。\nerror_message：（文本组件）运行测试后产生的错误信息。此项只会在状态为finished时出现。\n*\n*ignore_entities：测试结构中的实体是否会被忽略。\n*\n*rotation：测试结构的旋转角度。只会是none（无）、clockwise_90（顺时针旋转90°）、clockwise_180（顺时针旋转180°）或counterclockwise_90（逆时针旋转90°）中的一个。如果设置值无效则为none（无）。\n*\n*size：测试结构在X、Y、Z轴上的大小。\n*\n*status：测试实例方块的状态。只会是cleared（无任务）、running（正在运行）或finished（已完成）中的一个。\ntest：（命名空间ID）一个测试实例。\nerrors：测试实例的错误标记。\n：一个错误标记。\n*\n*pos：错误标记的位置。\n*\n*text：（文本组件）错误标记的文本。"
+}

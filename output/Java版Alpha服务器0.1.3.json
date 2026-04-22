@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha服务器0.1.3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha%E6%9C%8D%E5%8A%A1%E5%99%A80.1.3",
+  "text": "此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\n0.1.3\n版本\nJava版\n发布时间\n2010年8月17日\n下载\n服务端（.exe）\n协议版本\n14\n其他版本的0.1.3\nJava版Alpha服务器\n携带版Alpha\n◄◄0.1.0\n0.2.0►►\n◄0.1.2_01\n0.1.4►\n0.1.3是一个Alpha服务器版本，对应客户端1.0.16_02，发布于2010年8月17日。\n新内容\n增加了对/msg命令的支持，用于向另一个玩家说悄悄话。\n增加了对/list命令的支持，用于向执行此命令的OP玩家显示目前在线的玩家列表。\n现在服务器会记录管理员所执行的命令，并给所有在线的OP玩家广播命令的执行。\n更改\nOP现在可以在出生点区域建造。\n修复\n修复了/save-off命令。\n参考\nMinecraft Server 0.1.3 (not the inventory yet!)（存档） — The Word of Notch，2010年8月17日。\n导航"
+}

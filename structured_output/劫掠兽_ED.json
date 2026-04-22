@@ -1,0 +1,17 @@
+{
+  "title": "劫掠兽/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8A%AB%E6%8E%A0%E5%85%BD%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "袭击者共通标签，见Template:Nbt inherit/raidable/source"
+    ],
+    "*": [
+      "*AttackTick：当前劫掠兽攻击冷却时间。",
+      "*RoarTick：当前劫掠兽咆哮冷却时间。",
+      "*StunTick：当前劫掠兽眩晕冷却时间。"
+    ]
+  }
+}

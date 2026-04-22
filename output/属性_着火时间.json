@@ -1,0 +1,5 @@
+{
+  "title": "属性/着火时间",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E7%9D%80%E7%81%AB%E6%97%B6%E9%97%B4",
+  "text": "本条目所述内容仅适用于Java版。\n着火时间\n类型\n负面\n默认值\n1\n值域\n0 – 1024\n属性ID\nburning_time\n着火时间（Burning Time）是影响设置生物剩余着火时间的效果的属性。\n行为\n主条目：着火\n任何为生物的剩余着火时间设置最低值的效果，应用的剩余着火时间与此属性计算值相乘，得到最终的剩余着火时间。\n假设生物本应被着火t游戏刻，此属性计算值为r，则生物的剩余着火时间将不会低于⌈tr⌉。\n此属性只影响设置剩余着火时间的效果，其计算值的变化不会影响已经着火的生物的剩余着火时间。\n此属性不影响火基于时间增加持续剩余着火时间的效果。\n当此属性计算值为0时，生物将无法因火以外的因素而着火。\n适用的生物\n生物\n基值\n所有生物\n1\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\nenchantment.fire_protection/head\nenchantment.fire_protection/chest\nenchantment.fire_protection/legs\nenchantment.fire_protection/feet\nenchantment.fire_protection/body\nadd_multiplied_base (Op1)\n等级×-0.15\n否\n火焰保护魔咒，应用于armor（盔甲）槽位集合\n历史\nJava版\n1.21\n24w18a\n加入了着火时间属性，ID为generic.burning_time。\n24w21a\n火焰保护魔咒修饰符的ID现在是enchantment.fire_protection/槽位，此前为B572ECD2-AC0C-4071-ABDE-9594AF072A37。\n1.21.2\n24w33a\n着火时间属性的ID从generic.burning_time重命名为burning_time。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/reloadconfig",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Freloadconfig",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\nreloadconfig\n需要的权限等级\n4\n限制条件\n启用作弊\n仅专用服务端\n重新加载与变量、权限等相关的配置文件。\n语法\nreloadconfig\n结果\n永远执行成功。\n历史\n基岩版\n?\n加入了命令/reloadconfig。\n导航"
+}

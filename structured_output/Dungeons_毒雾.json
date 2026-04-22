@@ -1,0 +1,31 @@
+{
+  "title": "Dungeons:毒雾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%AF%92%E9%9B%BE",
+  "structured_content": {
+    "PoisonedRanged": [
+      "有30%的概率召唤出持续3秒对敌人造成伤害的毒雾。"
+    ],
+    "——魔咒描述": [
+      "毒雾（Poison Cloud）是Minecraft Dungeons中的魔咒。会给予玩家召唤持续三秒的毒雾来对敌人造成伤害的机会。每秒平均伤害随着等级提升而提高。",
+      "毒雾魔咒的伤害可以被剧毒汇聚加成。"
+    ],
+    "I": [
+      "1x 每秒平均伤害",
+      "1 附魔点数"
+    ],
+    "II": [
+      "2x 每秒平均伤害",
+      "2 附魔点数"
+    ],
+    "III": [
+      "3x 每秒平均伤害",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了毒雾。",
+      "1.3.2.0",
+      "伤害提升50%。"
+    ]
+  }
+}

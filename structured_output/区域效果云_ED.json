@@ -1,0 +1,30 @@
+{
+  "title": "区域效果云/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8C%BA%E5%9F%9F%E6%95%88%E6%9E%9C%E4%BA%91%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source"
+    ],
+    "*": [
+      "*Age：区域效果云当前已存在的时间。",
+      "custom_particle：区域效果云的所使用的自定义粒子。指定带颜色粒子选项粒子时会忽略药水效果定义的颜色。",
+      "见粒子数据格式。",
+      "*Duration：（默认为-1）区域效果云的持续时间。如果Age大于WaitTime与此值之和，或此值小于等于0且不为-1，则无论半径为何，区域效果云都会立刻删除。此值为-1时区域效果云永不自然删除。",
+      "*DurationOnUse：对生物施加状态效果后，区域效果云持续时间的变化量。正常情况下为负值。",
+      "Owner：区域效果云创建者的UUID。",
+      "potion_contents：药水效果信息。可以为一个药水效果的命名空间ID，也可以指定详细的药水效果数据。",
+      "custom_color：区域效果云默认的粒子颜色。只使用后24位，每个颜色通道占用8位，按RGB依次存储。",
+      "custom_effects：区域效果云的自定义状态效果。",
+      "：一项状态效果。",
+      "状态效果，见Template:Nbt inherit/effect/source",
+      "custom_name：对区域效果云没有任何用处。代表生成此区域效果云的滞留药水的自定义名称后缀。",
+      "potion：药水效果的命名空间ID，影响区域效果云的药水效果和粒子颜色。",
+      "potion_duration_scale：药水效果时长缩放系数。不存在此项时默认为1.0。",
+      "*Radius：（不大于32且不小于0）区域效果云的半径。",
+      "*RadiusOnUse：每次对一个生物施加状态效果后区域效果云半径的变化量。正常情况下为负值。",
+      "*RadiusPerTick：区域效果云半径每游戏刻的变化量。正常情况下为负值。",
+      "*ReapplicationDelay：对同一个生物再次施加状态效果的冷却时间。",
+      "*WaitTime：区域效果云生效前的等待时间。如果Age不大于此值，则区域效果云产生黑色的粒子效果，且不会对在其中的生物施加状态效果。"
+    ]
+  }
+}

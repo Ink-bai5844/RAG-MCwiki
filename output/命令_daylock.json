@@ -1,0 +1,5 @@
+{
+  "title": "命令/daylock",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdaylock",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\ndaylock\n别名\n/alwaysday\n需要的权限等级\n1\n限制条件\n启用作弊\n锁定或解锁终为白日。\n语法\ndaylock [lock: Boolean]\n参数\nlock: Boolean：Enum\n指定是否锁定终为白日。必须为true或false，默认为true。\n若为false，将同时打开昼夜更替，反之亦然，并同时设置游戏时间为5000刻，游戏正午前1小时。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n1\n历史\n基岩版\n1.2.0\n1.2.0.2\n加入了/daylock。\n导航"
+}

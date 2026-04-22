@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.121x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.121x",
+  "text": "2.1.121x\n程序类型\nMinecraft启动器\n发布时间\n2018年6月28日\n◄◄2.1.11xx\n2.1.13xx►►\n2.1.1216（Windows）、 2.1.1217（macOS）或2.1.1218（Linux）是一个启动器更新，发布于2018年6月28日，修复了一些漏洞。\n添加\n配置文件现在可以按名称或上次更改日期排序。\n添加了“复制”按钮，可以将一个配置文件复制到另一个配置文件。\n修复\nMCL-7178 - 旧版本启动器无法登录。\nMCL-7282 - 启动器无法将会话ID传送给1.7.2之前的Minecraft客户端。\nMCL-8112 - 启动器尝试在/opt/minecraft-launcher路径中创建logs目录。\nMCL-8389 - 日志的输出未自动滚动。\nMCL-8649 - Linux版启动器在下载1.8及以下的版本时提示Missing key 'natives-linux' on libraries[*].downloads。\nMCL-8724 - Linux启动器在启动时未创建工作目录。\nMCL-9440 - 新启动器会将启动器的所在的目录而不是.minecraft目录作为工作目录启动Minecraft。\n导航"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "成就（消歧义）",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%88%90%E5%B0%B1%EF%BC%88%E6%B6%88%E6%AD%A7%E4%B9%89%EF%BC%89",
+  "structured_content": {
+    "Minecraft": [
+      "进度 - Java版中用来逐步引导新手玩家融入Minecraft，并给玩家提供挑战的系统。",
+      "命令/advancement - Java版中用于管理玩家进度的命令。",
+      "进度定义格式 - 进度在数据包中的定义格式。"
+    ],
+    "进度存储格式 - 存档保存所有玩家当前进度的文件的": [
+      "隐藏进度 - 只有完成之后才能在进度界面中看到的成就。",
+      "成就 - 基岩版中与进度类似的系统。",
+      "成就/Java版 - Java版中已被移除的成就系统，在17w13a中被进度取代。",
+      "命令/achievement - Java版中已被移除的用于管理玩家成就的命令。",
+      "成就/原主机版与New Nintendo 3DS版 - 原主机版与New Nintendo 3DS版中的成就。"
+    ],
+    "Minecraft Dungeons": [
+      "成就 - Minecraft Dungeons中的成就系统。"
+    ],
+    "Minecraft Legends": [
+      "成就 - Minecraft Legends中的成就系统。",
+      "Minecraft: Story Mode",
+      "成就 - Minecraft: Story Mode中的成就系统。"
+    ],
+    "中国版": [
+      "成就 - 中国版中的成就系统。"
+    ]
+  }
+}

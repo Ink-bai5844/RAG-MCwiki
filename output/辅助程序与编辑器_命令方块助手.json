@@ -1,0 +1,5 @@
+{
+  "title": "辅助程序与编辑器/命令方块助手",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2F%E5%91%BD%E4%BB%A4%E6%96%B9%E5%9D%97%E5%8A%A9%E6%89%8B",
+  "text": "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。\n名称\n描述\n日期\n版本\n平台\n链接\n兼容的版本\n是否提供源代码\n程序设计语言\n作者\nSmelt\n可以减轻工作量的智能地图制作工具\n2016-8-20\n0.9.4\n网站\n1.10.2\n是\nJavascript\nGnasp\nCommand Combiner\n2016-8-17\n-\n网站\n1.10.2\n否\nJavascript\nMrGarretto\nCommandStudio\nCommandStudio是一个编辑器，可以让你编写复杂的命令方块串，并轻松将它们导入Minecraft。它有许多方便的工具，能让你的工作更轻松。\n2016-12-20\n0.2.4\n网站\n1.11.2\n是\nJavascript\nMarcantouf\nCPM\nCPM是命令方块项目管理器的简称，是一个允许地图制作者在Minecraft 1.9+中创建和组织命令方块的工具\n2016-8-4\n1.7\n网站\n1.10.2\n否\nJavascript\nEnergyxxer\nMoonCraft\n把lua代码编译为命令方块的编译器\n2016-1-3\n2.0\n网站\n1.10.2\n是\nJavascript and Lua\nM4GNV5\nMinecraft-markup-language\n简单的python脚本，用于从命令文件提取并生成命令方块的工具\n2016-1-2\n-\n网站\n1.10.2\n是\nPython\nJesperTheEnd\nCBP\n一种大规模处理命令方块的工具。\n2015-11-21\n59\n网站\n1.10.2\n否\nJava\nWubbi\nRedstone Programming Language\nRPL旨在把文本文档中的代码转换为Minecraft世界里的一系列命令。因此RPL程序中的多数行会被转换为1个或几个（甚至数百个）命令方块。\n2014-9-8\n1.2\n网站\n1.8\n否\nPython\nTossha"
+}

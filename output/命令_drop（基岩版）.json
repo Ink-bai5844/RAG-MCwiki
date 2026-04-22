@@ -1,0 +1,5 @@
+{
+  "title": "命令/drop（基岩版）",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdrop%EF%BC%88%E5%9F%BA%E5%B2%A9%E7%89%88%EF%BC%89",
+  "text": "关于18w45a前与之同名的命令，请见“命令/loot”。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例、缺少历史\n此条目所介绍的内容已从基岩版和​教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\ndrop\n是否可见\n隐藏\n需要的权限等级\n0\n限制条件\n无\n让智能体在指定的方向上丢出指定槽位编号上指定数量的物品。\n语法\ndrop <slotNum: int> <quantity: int> <direction: string>\n参数\nslotNum: int\n指定要放置的方块的槽位号，槽位号是1到27之间的整数。\nquantity: int\n指定掉落物的数量。必须为1到64之间的整数。\ndirection: string\n指定智能体丢出物品的方向。\n必须为以下之一：\nforward\nback\nleft\nright\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n指定的槽位为空\n执行失败\n指定的槽位中的物品未被丢出\n不符合以上所有条件\n执行成功\n导航"
+}

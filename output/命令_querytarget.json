@@ -1,0 +1,5 @@
+{
+  "title": "命令/querytarget",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fquerytarget",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例、缺少历史\n本条目所述内容仅适用于教育版和​基岩版。\nquerytarget\n是否可见\n隐藏\n需要的权限等级\n2[仅基岩版]\n0[仅教育版]\n限制条件\n不在命令方块上执行\n启用作弊\n返回指定实体的详细信息。\n用法\n信息将以JSON返回，格式见下：\nJSON根数组\n：一项实体信息。\ndimension：实体所处维度。0为主世界，1为下界，2为末地。\nid：实体的唯一ID。\nposition：实体所处位置的坐标。\nx：X轴坐标。\ny：Y轴坐标。\nz：Z轴坐标。\nuuid：玩家的UUID或非玩家实体的唯一ID。\nyRot：实体的Y轴旋转角度。\n返回信息示例\n目标数据：[{\"dimension\":0,\"id\":-21474836477,\"position\":{\"x\":95.57814788818359,\"y\":43.69106674194336,\"z\":-46.34045791625977},\"uniqueId\":\"45f4943f-cb75-37cb-87a8-873d8abfff8f\",\"yRot\":41.42701721191406},{\"dimension\":0,\"id\":-21474836478,\"position\":{\"x\":95.57814788818359,\"y\":21.94908905029297,\"z\":-46.34045791625977},\"uniqueId\":\"-21474836478\",\"yRot\":0.0}]\n语法\nquerytarget <victim: target>\n参数\nvictim: target：CommandSelector<Actor>\n必须为玩家名或目标选择器。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n导航"
+}

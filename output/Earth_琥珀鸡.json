@@ -1,0 +1,5 @@
+{
+  "title": "Earth:琥珀鸡",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E7%90%A5%E7%8F%80%E9%B8%A1",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n琥珀鸡\n最大生命值\n4（）\n类型\n被动型\n尺寸\n高度：0.7格\n宽度：0.4格\n实体ID\n?\n一只拥有一身亮丽羽毛的鸡可能比金子更加有价值。\n——Minecraft Earth内描述\n琥珀鸡（Amber Chicken）是鸡的琥珀色变种，属于被动型生物。它们有着罕见级的稀有度。\n获取\n琥珀鸡作为罕见级别的生物在鸡可点击物中以2.1%的概率获得。\n行为\n主条目：鸡 § 行为\n与普通的鸡相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n琥珀鸡死亡时会掉落：\n0-2 羽毛\n1 生鸡肉\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.chicken.say\n受伤\nmob.chicken.hurt\n死亡\nmob.chicken.hurt\n行走\nmob.chicken.step\n下蛋\nmob.chicken.plop\n数据值\nID\n名称\n命名空间ID\n本地化键名\n琥珀鸡\namber_chicken\nentity.amber_chicken.name\n历史\nMinecraft Earth\n0.17.0\n加入了琥珀鸡。\n导航"
+}

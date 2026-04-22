@@ -1,0 +1,248 @@
+{
+  "title": "Minecraft Earth",
+  "source_url": "https://zh.minecraft.wiki/w/Minecraft_Earth",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是MINECON Earth或地球。",
+      "此页面描述的是已经正式终止支持的游戏。",
+      "受COVID-19疫情影响，玩家户外活动受到限制，此游戏已停止运营。"
+    ],
+    "最新版本": [
+      "Android:0.33.0",
+      "iOS/iPadOS:0.33.0"
+    ],
+    "发布日期": [
+      "内测版：2019年7月16日（仅iOS平台）",
+      "早期测试：2019年10月17日",
+      "全球测试：2019年12月11日"
+    ],
+    "年龄分级": [
+      "PEGI：7",
+      "DEJUS: L",
+      "ESRB：10"
+    ],
+    "程序大小": [
+      "339.2 MB"
+    ],
+    "网站": [
+      "商店页面："
+    ],
+    "Android": [
+      "首批在支持AR的iOS设备中开启Minecraft Earth内测的五个城市（伦敦、西雅图、东京、斯德哥尔摩和墨西哥城）中同时也启动了Android版Minecraft Earth的内测。"
+    ],
+    "iOS": [
+      "Minecraft Earth在下列城市中在支持AR的iOS设备上启动了内测："
+    ],
+    "——minecraft.net评论于Minecraft Earth": [
+      "Minecraft Earth是一款免费增强现实（AR）手游，由Mojang Studios开发，由Xbox Game Studios在iOS和Android发行。在本游戏中，玩家需要在现实世界中穿梭并收集各类材料，建造各种结构。Minecraft Earth于2019年7月16日起开始内测，然后在接下来的数个月中逐步扩大开放区域，并于同年12月11日实现全球开放（部分区域除外）。由于COVID-19疫情影响，玩家的户外活动遭受严重限制，受此影响，Minecraft Earth于2021年1月5日发布最终更新0.33.0，后于同年6月30日正式停止运营。"
+    ],
+    "设计": [
+      "Minecraft Earth不是现有游戏的移植，而是Minecraft基岩版和Java版的改编。该游戏建立在基岩引擎上。该版本的Minecraft具有许多独特的与Minecraft本体类似的游玩方式和交互行为。",
+      "游玩Minecraft Earth需要一个Xbox Live账户。",
+      "该游戏使用Azure的全新Azure Spatial Anchors和Open Maps技术来优化游戏体验。这有助于根据一定的玩家建筑位置来确定特定物体的位置。",
+      "官方宣称计划在以后的更新中将末地和下界添加到Minecraft Earth。但由于游戏不再发布后续更新，这些计划最终未能实现。"
+    ],
+    "Minecraft Earth的部分游戏界面": [
+      "在Minecraft Earth中，玩家们可以共同建造建筑结构并“将它们以与真实尺寸1：1的大小放置在现实世界中”。",
+      "在地图里，玩家可以看见自己的角色，角色的皮肤可以在市场那里更换。地图上散布着许多可点击物。如果可点击物在玩家的收集范围内，玩家可以点击该物品并把它捡起来。可点击物有很多种，其中包括石头、草、箱子和生物。",
+      "冒险也会出现在地图上。冒险是Minecraft Earth的生存模式。玩家和生物战斗并拾取奖励。"
+    ],
+    "微型交易": [
+      "游戏具有完整的微型交易系统。游戏中的货币为红宝石，以防止与Minecoin混淆。",
+      "红宝石可用于："
+    ],
+    "购买额外的合成以及熔炼槽位": [
+      "Minecoin可作为Minecraft Earth中的第二货币来购买皮肤和服饰。",
+      "Minecraft Earth的最终更新0.33.0移除了所有微型交易。"
+    ],
+    "开发": [
+      "在Microsoft Build 2015大会期间，微软HoloLens团队公开了AR版Minecraft。2019年5月8日，微软发布了一条宣传片，此宣传片展示了Minecraft Earth中的一些AR Mod。在Minecraft十周年庆上，官方正式发布了Minecraft Earth。"
+    ],
+    "城市": [
+      "2019年7月16日"
+    ],
+    "美国华盛顿州西雅图": [
+      "2019年7月17日"
+    ],
+    "日本东京": [
+      "2019年7月18日"
+    ],
+    "概述": [
+      "2019年8月22日",
+      "Google Play商店开启了游戏的预定，同时Minecraft Earth网站开放内测注册。",
+      "2019年8月30日",
+      "内测版本在iOS内测的城市中发布。"
+    ],
+    "抢先体验": [
+      "Minecraft Earth的抢先体验版本目前可在以下国家体验（按日期和版本号排序）："
+    ],
+    "国家": [
+      "2019年10月17日",
+      "0.5.0"
+    ],
+    "冰岛、新西兰": [
+      "2019年10月29日",
+      "0.6.0"
+    ],
+    "澳大利亚、墨西哥、瑞典": [
+      "2019年10月31日"
+    ],
+    "加拿大、菲律宾、韩国": [
+      "2019年11月5日"
+    ],
+    "英国": [
+      "2019年11月12日",
+      "0.7.0"
+    ],
+    "美国": [
+      "2019年11月19日",
+      "0.7.1"
+    ],
+    "日本、奥地利、比利时、丹麦、芬兰、法国、德国、爱尔兰、意大利、卢森堡、荷兰、挪威、葡萄牙、西班牙、瑞士": [
+      "2019年11月21日"
+    ],
+    "全球测试": [
+      "2019年12月11日，Minecraft Earth 0.8.0开放供除朝鲜、古巴、伊朗、缅甸、苏丹、伊拉克、阿联酋和中国大陆外的地区游玩。"
+    ],
+    "停止运营": [
+      "2021年1月5日，受COVID-19疫情影响，Minecraft Earth的最终版本0.33.0发布，同时官方宣布其服务器将于2021年6月30日关闭。此后iOS App Store和Google Play商店均已下架该游戏，玩家也无法再次进入游戏。曾在游戏中进行过充值消费的玩家会免费获得一份基岩版。"
+    ],
+    "系统要求": [
+      "来源于FAQ页面："
+    ],
+    "操作系统": [
+      "Android 8.0 “Oreo”或更高",
+      "iOS 12.0 或更高、iPadOS 12.0 或更高"
+    ],
+    "可用设备": [
+      "支持ARCore的设备，除了这些。",
+      "iPhone（6S 或更高、SE 第一代或更高）",
+      "iPod touch（第7代）",
+      "iPad（第5代或更高）",
+      "iPad Air（第3代或更高）",
+      "iPad Mini（第5代或更高）"
+    ],
+    "Release": [
+      "2019年7月16日",
+      "0.1.0",
+      "2019年7月31日",
+      "0.2.0",
+      "2019年8月27日",
+      "0.3.0",
+      "2019年9月20日",
+      "0.3.1",
+      "0.4.0",
+      "2019年10月2日",
+      "0.4.1",
+      "0.4.2",
+      "2019年10月7日",
+      "0.5.0",
+      "2019年10月17日",
+      "0.6.0",
+      "2019年10月29日",
+      "0.6.1",
+      "2019年11月1日",
+      "0.7.0",
+      "2019年11月11日",
+      "0.7.1",
+      "2019年11月18日",
+      "0.8.0",
+      "2019年12月11日",
+      "0.9.0",
+      "2019年12月18日",
+      "0.10.0",
+      "2020年1月15日",
+      "0.11.0",
+      "2020年1月28日",
+      "0.12.0",
+      "2020年2月11日",
+      "0.13.0",
+      "2020年2月27日",
+      "0.14.0",
+      "2020年3月12日",
+      "0.15.0",
+      "2020年3月25日",
+      "0.15.1",
+      "2020年3月28日",
+      "0.16.0",
+      "2020年4月14日",
+      "0.17.0",
+      "2020年4月28日",
+      "0.17.1",
+      "2020年5月6日",
+      "0.17.2",
+      "2020年5月11日",
+      "0.18.0",
+      "2020年5月20日",
+      "0.19.0",
+      "2020年6月2日",
+      "0.20.0",
+      "2020年6月17日",
+      "0.21.0",
+      "2020年7月16日",
+      "0.22.0",
+      "2020年7月31日",
+      "0.23.0",
+      "2020年8月12日",
+      "0.24.0",
+      "2020年8月25日",
+      "0.25.0",
+      "2020年9月17日",
+      "0.26.0",
+      "2020年9月24日",
+      "0.27.0",
+      "2020年10月6日",
+      "0.28.0",
+      "2020年10月20日",
+      "0.29.0",
+      "2020年11月3日",
+      "0.30.0",
+      "2020年11月17日",
+      "0.31.0",
+      "2020年12月1日",
+      "0.32.0",
+      "2020年12月14日",
+      "0.33.0",
+      "2021年1月5日"
+    ],
+    "游戏音乐": [
+      "主条目：Minecraft Earth:Original Game Soundtrack"
+    ],
+    "参考": [
+      "Minecraft Earth coming to an end — Minecraft.net，2021年1月5日。",
+      "LONDON and SEATTLE, you're up! As the first two cities to go live in the Minecraft Earth closed beta, all eyes are on you and your life-sized minetacular (specblockular?) creations!，来自@minecraftearth。X（曾名Twitter），2019年7月16日。",
+      "Minecraft Earth is here! Starting today, we will begin to roll out early access from country to country, starting with: 🇳🇿 New Zealand 🇮🇸 Iceland Not a citizen of either land? Stay tuned as we announce the next countries soon!，来自@minecraftearth。X（曾名Twitter），2019年10月17日。",
+      "We've saved up all our wool to roll out the red carpet. Over the next 24 hours, Minecraft Earth early access will become available in countries all across the world! Navigate over to your app store of choice to start crafting in real life.，来自@minecraftearth。X（曾名Twitter），2019年12月11日。"
+    ],
+    "Google Play Store": [
+      "https://theverge.com/2019/5/17/18627341/minecraft-earth-ios-android-free-ar-game-features-pokemon-go",
+      "https://earth.minecraft.net/sign-up[失效链接]",
+      "https://www.windowscentral.com/how-minecraft-earth-gameplay-works",
+      "https://web.archive.org/web/20191219130214/https://playminecraftearth.com/minecraft-earth-q-and-a-nether-end-breeding-adventures-crafting/",
+      "Earth FAQ — Minecraft.net，2019年5月10日。",
+      "HoloLens games are too good for HoloLens — The Verge，2015年6月17日。",
+      "Seattle and London are already live, and now it's time to welcome STOCKHOLM to the block party! Södermalm or Kungsholmen, which part of the city will prove to be the most creative?，来自@minecraftearth。X（曾名Twitter），2019年7月17日。",
+      "TOKYO! Home of the historical and the hyper-modern, cat cafés and muddy pigs. Wait, what? Yes! Tokyo is the fourth city to join the Minecraft Earth closed beta.，来自@Minecraftearth。X（曾名Twitter），2019年7月17日。",
+      "The Minecraft Earth closed beta is now live in MEXICO CITY! Five cities are up and running – we can't wait to see what you create!，来自@Minecraftearth。X（曾名Twitter），2019年7月18日。",
+      "Minecraft Earth closed beta now on Android — Minecraft.net，2019年8月30日。",
+      "Minecraft Earth Early Access — Minecraft.net，2019年10月17日。",
+      "Early access is in full swing and rolling out around the world! We're working around the block to bring everyone into Minecraft Earth. Here are today's countries:"
+    ],
+    "🇸🇪 Sweden": [
+      "More info on our early access plans 👇 ...，来自@MinecraftEarth。X（曾名Twitter），2019年10月29日。",
+      "Queued up and ready to go! Today, three additional countries join the Minecraft Earth early access. Say hi to:"
+    ],
+    "🇨🇦 Canada": [
+      "🇵🇭 Philippines，来自@minecraftearth。X（曾名Twitter），2019年10月31日。",
+      "Tea, crumpets – and now also Minecraft Earth! Early access has arrived in the 🇬🇧 United Kingdom. Jolly good! Read more at: ↣ https://redsto.ne/minecraftearth ↢，来自@minecraftearth。X（曾名Twitter），2019年11月5日。",
+      "Hey 🇺🇸 United States, we found your Minecraft Earth invite, it was behind the couch this whole time! Welcome to early access! More information at: ↣ http://redsto.ne/minecraftearth ↢，来自@minecraftearth。X（曾名Twitter），2019年11月12日。",
+      "More countries need to join the early access? Well, alright then! Now LIVE in:"
+    ],
+    "🇨🇭Switzerland": [
+      "Learn more: ↣ http://redsto.ne/minecraftearth ↢，来自@minecraftearth。X（曾名Twitter），2019年11月19日。"
+    ],
+    "Time to get to tappin', players of 🇮🇳India! Minecraft Earth early access has arrived and is going live across the country. Enjoy!": [
+      "↣ http://redsto.ne/minecraftearth ↢，来自@minecraftearth。X（曾名Twitter），2019年11月21日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.12-pre7",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.12-pre7",
+  "text": "1.12-pre7\n版本\nJava版\n类型\n预发布版\n发布时间\n2017年5月31日\n预发布版归属\n1.12\n下载\n客户端（.json）\n服务端\n协议版本\n334\n数据版本\n1138\n资源包版本\n3\n◄◄1.11.2\n1.12.1►►\n◄1.12-pre6\n1.12-pre7是Java版1.12的第7个，也是最后一个预发布版，发布于2017年5月31日，更新了进度，加入了新的闪烁标语，并修复了一些漏洞。\n新内容\n常规\n进度\n为所有的“挑战”进度加入经验奖励。\n闪烁标语\n\"The true meaning of covfefe\"\n源于唐纳德·特朗普的一条神秘推特。\n\"An illusion! What are you hiding?\"\n\"Something's not quite right...\"\n引用自魔兽世界，当使用过幻觉的玩家接近苏拉玛城守卫时，它们便会说出这样的话。\n闪烁标语中的“幻觉”一词可能是作为幻术师的一个参考。\n修复\n修复了9个漏洞\n1.12前正式版的漏洞\nMC-59535 — 玩家连接丢失或断开连接的消息在服务器日志中记录的是TextComponent对象而不是Text property对象。\n1.12开发版本的漏洞\nMC-117764 — 使用包含了无效配方的知识之书时，没有错误被记录。\n上个开发版本的漏洞\nMC-118002 — 运动时暂停游戏导致视角晃动。\nMC-118021 — 语言设置为英语（美国）时，鹦鹉刷怪蛋出现在兔子刷怪蛋后面。\nMC-118036 — 从服务器断开连接时会向日志中记录TranslatableComponent{key='multiplayer.disconnect.banned', ...}。\nMC-118038 — 合成没有配方文件的物品时会显示空的弹出信息。\nMC-118057 — 菜单上的CPU占用率很高。\nMC-118067 — 玩家在旁观模式中按T键可以打开配方书的搜索栏。\nMC-118068 — 配方书中固定使用T键作为进入搜索栏的热键，而不是按键设置中的设置的按键。\n参考\nMinecraft 1.12 Pre-Release 7 — Minecraft.net，2017年5月31日。\n导航"
+}

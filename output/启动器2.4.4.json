@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.4.4",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.4.4",
+  "text": "2.4.4\n程序类型\nMinecraft启动器\n发布时间\nmacOS, Linux, Windows：2023年3月20日\nWindows （Microsoft Store）：2023年3月29日\n◄◄2.4.1\n2.4.22►►\n2.4.4是一次启动器更新，在Windows（新版启动器）平台上发布于2023年3月29日，在其他平台上发布于2023年3月20日。\n更改\n改进了启动器一些地方上的图像缓存过程。\n改进了启动器的功能性及交互。\n提高了更新及安装过程的稳定度。\n修复\n修复了与启动器的功能性及交互有关的漏洞。\n修复了与在macOS上分发文件有关的漏洞。\nMCL-23103 - 游戏更新日志中的“Release”一词与其他地方不一致。\nMCL-23126 - Minecraft Legends的GameIntroduction英文字符串中有语法错误。\nMCL-23127 - Minecraft Legends的GameIntroduction英文字符串中有错别字。\nMCL-23141 - 更改皮肤时，皮肤库不刷新角色预览。\nMCL-23174 - Java版标签页中的系统配置部分里有两个“更多信息”链接。\n导航"
+}

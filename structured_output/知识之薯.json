@@ -1,0 +1,69 @@
+{
+  "title": "知识之薯",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9F%A5%E8%AF%86%E4%B9%8B%E8%96%AF",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是知识之书。",
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。"
+    ],
+    "最大堆叠": [
+      "16"
+    ],
+    "potato_of_knowledge": [
+      "知识之薯（Potato of Knowledge）是一种可存储经验的物品。"
+    ],
+    "获取": [
+      "在创造模式物品栏中可以获取经验容量为10、50、100的知识之薯。"
+    ],
+    "大脑": [
+      "大脑被破坏后会掉落自身和一个与其吸收经验值等同经验的知识之薯。",
+      "如果大脑已吸收的经验值达到1000，储存的经验值会清空，且立即掉落一个包含1000经验的知识之薯。"
+    ],
+    "用途": [
+      "知识之薯具有光效。"
+    ],
+    "储存经验": [
+      "一个储存了100点经验的知识之薯",
+      "知识之薯可以存储经验，储存的经验数量会以“Amount: <XP>”（容量：<经验数>）的格式显示在其提示框中。",
+      "长按使用键可以食用知识之薯，食用的动作与其他食物略有不同，时长为20游戏刻（1秒）。食用后，玩家会获得指定数量的经验，但不会回复饥饿值与饱和度。"
+    ],
+    "物品数据": [
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "modifiers：提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "*name：当前属性修饰符的名称。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "*uuid：当前属性修饰符的UUID。",
+      "show_in_tooltip：（默认为false）是否显示属性修饰符的提示框。",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "levels：魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "show_in_tooltip：（默认为false）是否显示魔咒的提示框。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:enchantment_glint_override：是否显示光效。",
+      "minecraft:xp：（默认为10）知识之薯储存的经验值。"
+    ],
+    "JSON": [
+      "{\"minecraft:enchantments\":{\"levels\":{}},\"minecraft:attribute_modifiers\":{\"modifiers\":[]},\"minecraft:lore\":[],\"minecraft:max_stack_size\":64,\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\",\"minecraft:enchantment_glint_override\":true,\"minecraft:xp\":10}",
+      "在默认组件的基础上，知识之薯使用下列组件来保存附加数据：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:xp：（默认为10）知识之薯储存的经验值。"
+    ]
+  }
+}

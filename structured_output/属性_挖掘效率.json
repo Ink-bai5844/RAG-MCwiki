@@ -1,0 +1,39 @@
+{
+  "title": "属性/挖掘效率",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%8C%96%E6%8E%98%E6%95%88%E7%8E%87",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "0 – 1024"
+    ],
+    "mining_efficiency": [
+      "挖掘效率（Mining Efficiency）是控制玩家挖掘速度的属性。"
+    ],
+    "行为": [
+      "主条目：挖掘 § 挖掘速度",
+      "增加每游戏刻挖掘的进度，即提升挖掘的速度。"
+    ],
+    "玩家": [
+      "0"
+    ],
+    "enchantment.efficiency/mainhand": [
+      "add_value (Op0)",
+      "等级×等级+1"
+    ],
+    "Java版": [
+      "1.21",
+      "24w18a",
+      "加入了挖掘效率属性，ID为player.mining_efficiency。",
+      "24w21a",
+      "效率魔咒修饰符的ID现在是enchantment.efficiency/mainhand，此前为3CEB37C0-DB62-46B5-BD02-785457B01D96。",
+      "1.21.2",
+      "24w33a",
+      "挖掘效率属性的ID从player.mining_efficiency重命名为mining_efficiency。"
+    ]
+  }
+}

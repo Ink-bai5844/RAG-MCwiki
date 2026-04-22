@@ -1,0 +1,12 @@
+{
+  "title": "女巫/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%A5%B3%E5%B7%AB%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "袭击者共通标签，见Template:Nbt inherit/raidable/source"
+    ]
+  }
+}

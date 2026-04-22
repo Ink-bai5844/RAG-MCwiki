@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.0.77x-stage",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.0.77x-stage",
+  "text": "2.0.77x-stage\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2017年2月8日\n测试版归属\n2.0.79x\n◄◄2.0.764\n2.0.80x►►\n2.0.774-stage（Windows）或2.0.775-stage（macOS）是一次启动器更新，发布于2017年2月8日，修复了一些漏洞。\n修复\nMCL-41 - Windows启动器在关闭时不会记住窗口的位置。\nMCL-1324 - 启动器在使用现有账户登录时会强制调整大小。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.18.20.29",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.20.29",
+  "text": "1.18.20.29\n版本\n基岩版\n版本码\nAndroid：\n951802029（armeabi-v7a，30）\n961802029（x86，30）\n971802029（arm64-v8a，30）\n981802029（x86_64，30）\n类型\n测试版\n发布时间\nXbox, Windows, Android, iOS/iPadOS - 2022年2月24日\n测试版归属\n1.18.30\n协议版本\n491\n◄◄1.18.12\n1.18.31►►\n◄1.18.20.27\n1.18.30.20►\nbeta 1.18.20.29（Xbox/Windows/Android）、Preview 1.18.20.30（iOS/iPadOS/Xbox/Windows）是基岩版1.18.30的第5个测试版，发布于2022年2月24日，修复了一些漏洞。\n修复\n游戏内容\n修复了画不能被放置在许多方块上的漏洞。（MCPE-152115）\n生物现在又可以穿过被不完整方块阻挡的门。\n修复了一些游戏过程中可能发生的崩溃。\n技术性\n现在当format_version低于1.18.20且使用minecraft:behavior.knockback_roar组件的自定义生物包含非引擎预期的额外字段时，其会像之前那样被解析。\n参考\nMinecraft Beta & Preview - 1.18.20.29/30 — Minecraft Feedback，2022年2月24日。\n导航"
+}

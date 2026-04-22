@@ -1,0 +1,5 @@
+{
+  "title": "藤蔓（地物）",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%97%A4%E8%94%93%EF%BC%88%E5%9C%B0%E7%89%A9%EF%BC%89",
+  "text": "藤蔓\n自然生成于\n繁茂洞穴\n丛林\n竹林\n稀疏丛林\n包含\n藤蔓\n可生成于已加载区块\n否\n藤蔓（wàn）（Vines）是一种由藤蔓组成的地物。\n生成\n藤蔓自然生成于丛林、稀疏丛林、竹林和繁茂洞穴生物群系。\n数据值\nID\nJava版：\n已配置地物\n命名空间ID\n[无显示名称]\nvines\n[无显示名称]\nclassic_vines_cave_feature\n基岩版：\n地物\n命名空间ID\n[无显示名称]\nvine_single_face_feature\n[无显示名称]\nvines_feature\n[无显示名称]\nfixup_vines_position_feature\n[无显示名称]\nvines_single_face_scatter_feature\n历史\nJava版Beta\n1.8\n加入了藤蔓。\nJava版\n1.14\n19w12b\n藤蔓不再随机生成于丛林。\n1.17\n21w07a\n现在藤蔓又可以随机生成在丛林。\n21w10a\n现在藤蔓会生成在繁茂洞穴。\n携带版Alpha\n0.9.0\nbuild 1\n加入了藤蔓。\n基岩版\n1.17.0\n1.16.230.52\n现在藤蔓会生成在繁茂洞穴。\n参考\nMC-147589 — 漏洞状态为“已修复”。\n导航"
+}

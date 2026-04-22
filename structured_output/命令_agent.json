@@ -1,0 +1,128 @@
+{
+  "title": "命令/agent",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fagent",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于生物，请见“智能体”。",
+      "本条目所述内容仅适用于教育版和​基岩版。"
+    ],
+    "需要的权限等级": [
+      "0[仅教育版]",
+      "1[仅基岩版]"
+    ],
+    "无": [
+      "用于控制智能体。仅允许被玩家所连接的WebSocket、开发者控制台、脚本或NPC执行，命令方块和玩家无法执行该命令。",
+      "若执行命令时不存在智能体，均会在执行者处生成后再执行，/agent create除外。"
+    ],
+    "语法": [
+      "agent attack <direction: AgentDirection>",
+      "使智能体向指定方向攻击。",
+      "agent collect <item: Item>",
+      "使智能体收集自身周围一格内的一种物品。"
+    ],
+    "agent collect all": [
+      "使智能体收集自身周围一格内的所有物品。"
+    ],
+    "agent create": [
+      "在执行者处生成智能体。",
+      "agent destroy <direction: AgentDirection>",
+      "使智能体摧毁指定方向的方块或物品。",
+      "agent detect <direction: AgentDirection>",
+      "使智能体检测指定方向是否存在可碰撞方块。",
+      "agent detectredstone <direction: AgentDirection>",
+      "使智能体检测指定方向的红石信号。",
+      "agent drop <slotNum: int> <quantity: int> <direction: AgentDirection>",
+      "使智能体按指定数量丢弃指定槽位编号的物品到指定方向。数量小于0时全部丢弃。",
+      "agent dropall <direction: AgentDirection>",
+      "使智能体将所有槽位的物品丢弃到指定方向一格内的地面。",
+      "agent getitemcount <slotNum: int>",
+      "使智能体返回指定槽位的物品数量（即该槽位耗尽前的可用数量）。",
+      "agent getitemdetail <slotNum: int>",
+      "使智能体返回指定槽位的物品名称。",
+      "agent getitemspace <slotNum: int>",
+      "使智能体返回指定槽位的剩余空间（即该槽位填满前可容纳的物品数量）。"
+    ],
+    "agent getposition": [
+      "使智能体获取自身在世界中的坐标位置。",
+      "agent inspect <direction: AgentDirection>",
+      "使智能体返回指定方向的方块名称。",
+      "agent inspectdata <direction: AgentDirection>",
+      "使智能体返回指定方向方块的数据值。",
+      "agent interact <direction: AgentDirection>",
+      "使智能体与指定方向的方块交互。",
+      "agent move <direction: AgentDirection>",
+      "使智能体向指定方向移动。",
+      "agent place <slotNum: int> <direction: AgentDirection>",
+      "使智能体在指定方向放置方块。",
+      "agent setitem <slotNum: int> <item: Item> <count: int> <aux: int>",
+      "设置智能体指定槽位的物品。数量小于一个时，则设置一个；大于一组时，则设置一组。",
+      "agent till <direction: AgentDirection>",
+      "使智能体在指定方向耕种草方块。",
+      "agent tp <destination: x y z> facing <lookAtPosition: x y z>",
+      "agent tp [destination: x y z] [y-rot: float]",
+      "将智能体传送到指定坐标位置，并使其旋转角度与指定的一致。",
+      "agent transfer <slotNum: int> <quantity: int> <dstSlotNum: int>",
+      "将指定数量的物品从智能体库存的一个槽位转移到另一个槽位。",
+      "agent turn <direction: AgentTurnDirection>",
+      "使智能体按指定方向旋转90度。"
+    ],
+    "参数": [
+      "direction: AgentDirection：enum",
+      "指定方向，必须为以下其中之一："
+    ],
+    "right — 右": [
+      "slotNum: int：int",
+      "指定要改变的智能体物品栏槽位。有效值为1和27之间（含）的整数。",
+      "必须为32位整数。",
+      "item: Item：CommandItem",
+      "指定要给予或收集到物品栏槽位内的物品。",
+      "必须为物品ID或存在其物品形式的方块ID。",
+      "quantity: int：int和count: int：int",
+      "指定被丢出、给予或移动的物品数量。",
+      "必须为32位整数。",
+      "aux: int：int",
+      "指定参与命令的物品的数据值。",
+      "必须为32位整数。",
+      "destination: x y z：CommandPositionFloat",
+      "指定要被传送到的坐标。",
+      "必须为三维坐标，元素为单精度浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "y-rot: float：float",
+      "指定传送后智能体的水平旋转角度。",
+      "必须为单精度浮点数。",
+      "lookAtPosition: x y z：CommandPositionFloat",
+      "指定传送后智能体朝向的位置。",
+      "必须为三维坐标，元素为单精度浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "dstSlotNum: int：int",
+      "指定目标物品栏槽位。有效值为1和27之间（含）的整数。",
+      "必须为32位整数。"
+    ],
+    "up — 上": [
+      "direction: AgentTurnDirection：enum",
+      "指定旋转方向，必须为以下其中之一："
+    ],
+    "无法解析": [
+      "slotNum: int或dstSlotNum: int小于0"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "/agent transfer ...": [
+      "slotNum: int或dstSlotNum: int等于0",
+      "quantity: int小于等于0或大于64"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "创建智能体：/agent create",
+      "将自己的智能体传送至(0, -60, 0)：/agent tp 0 -60 0"
+    ],
+    "携带版": [
+      "1.0.0"
+    ],
+    "?": [
+      "加入了/agent。",
+      "加入了/agent。"
+    ]
+  }
+}

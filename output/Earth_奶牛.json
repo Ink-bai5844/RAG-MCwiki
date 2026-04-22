@@ -1,0 +1,5 @@
+{
+  "title": "Earth:奶牛",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E5%A5%B6%E7%89%9B",
+  "text": "“奶牛”重定向至此。关于Minecraft中的普通牛，请见“牛”。关于其他种类的牛，请见“牛（消歧义）”。\n奶牛\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：1.4格\n宽度：0.9格\n实体ID\n?\n奶牛（Dairy Cow）是一种有黑白相间皮肤的牛变种，有着罕见级别的稀有度。\n获取\n奶牛可作为罕见级别的生物在牛可点击物中获得。\n行为\n主条目：牛 § 行为\n奶牛有着与普通牛相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖，受到攻击后的几秒内会四处逃窜。\n掉落物\n奶牛死亡时掉落：\n0-2 皮革\n1-3 生牛肉（若被火烧死则掉落牛排）\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.cow.say\n死亡\nmob.cow.hurt\n受伤\nmob.cow.hurt\n被挤奶\nmob.cow.milk\n行走\nmob.cow.step\n数据值\nID\n名称\n命名空间ID\n奶牛\n?\n历史\nMinecraft Earth\n0.33.0\n加入了奶牛。\n画廊\n奶牛的艺术作品\n导航"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Dungeons:启动器2.1.15376",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%90%AF%E5%8A%A8%E5%99%A82.1.15376",
+  "structured_content": {
+    "默认分类": [
+      "2.1.15376"
+    ],
+    "发布时间": [
+      "2020年6月9日",
+      "◄◄2.1.152xx",
+      "2.1.15570►►",
+      "2.1.15376 (Windows) 是Minecraft Dungeons启动器的一次更新。"
+    ],
+    "更改": [
+      "如果安装了Minecraft Dungeons，则隐藏需要购买提示。"
+    ],
+    "修复": [
+      "修复了Xbox Live登录过程中可能发生崩溃的问题。",
+      "修复了在关闭游戏进程时启动器进程可能不会退出的问题。"
+    ]
+  }
+}

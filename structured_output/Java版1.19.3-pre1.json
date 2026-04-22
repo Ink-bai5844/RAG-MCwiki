@@ -1,0 +1,122 @@
+{
+  "title": "Java版1.19.3-pre1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-pre1",
+  "structured_content": {
+    "默认分类": [
+      "1.19.3-pre1"
+    ],
+    "发布时间": [
+      "2022年11月22日"
+    ],
+    "预发布版归属": [
+      "1.19.3"
+    ],
+    "协议版本": [
+      "DEC: 1073741933",
+      "HEX: 4000006D"
+    ],
+    "数据版本": [
+      "3211"
+    ],
+    "资源包版本": [
+      "12"
+    ],
+    "数据包版本": [
+      "10",
+      "◄◄1.19.2",
+      "1.19.4►►",
+      "◄22w46a",
+      "1.19.3-pre2►",
+      "1.19.3-pre1是Java版1.19.3的首个预发布版，发布于2022年11月22日，加入了一些子谓词，放置在音符盒上的玩家头颅播放自定义音效的实验性功能和/fillbiome命令的新语法，并修复了一些漏洞。"
+    ],
+    "/fillbiome": [
+      "加入了按条件替换生物群系的功能。",
+      "使用此功能时的语法：/fillbiome [<from>] [<to>] [<biome>] replace [<filter>]",
+      "filter：需要被替换的生物群系ID或生物群系标签。"
+    ],
+    "谓词": [
+      "为以下具有不同变种的生物类型添加了以下子谓词："
+    ],
+    "axolotl": [
+      "variant，可用值有lucy、wild、gold、cyan和blue。"
+    ],
+    "boat": [
+      "对所有种类的船和运输船均生效。",
+      "variant，可用值有oak、spruce、birch、jungle、acacia、dark_oak、mangrove和bamboo。"
+    ],
+    "fox": [
+      "variant，可用值有red和snow。"
+    ],
+    "mooshroom": [
+      "variant，可用值有red和brown。"
+    ],
+    "painting": [
+      "variant，可用值见painting_variant注册表项。"
+    ],
+    "rabbit": [
+      "variant，可用值有brown、white、black、white_splotched、gold、salt和evil。"
+    ],
+    "horse": [
+      "variant，可用值有white、creamy、chestnut、brown、black、gray和dark_brown。",
+      "花纹是单独的值，不会被此值匹配上。"
+    ],
+    "llama": [
+      "variant，可用值有creamy、white、brown和gray。"
+    ],
+    "villager": [
+      "variant，可用值见villager_type注册表项。",
+      "也适用于僵尸村民。",
+      "职业和等级是单独的值，不会被此值匹配上。"
+    ],
+    "parrot": [
+      "variant，可用值有red_blue、blue、green、yellow_blue和gray。"
+    ],
+    "tropical_fish": [
+      "variant，可用值有kob、sunstreak、snooper、dasher、brinely、spotty、flopper、stripey、glitter、blockfish、betty和clayfish。"
+    ],
+    "闪烁标语": [
+      "加入了以下闪烁标语："
+    ],
+    "恼鬼": [
+      "略微更改了纹理。"
+    ],
+    "玩家的头": [
+      "加入了note_block_sound这一NBT标签，用于决定上方放置了玩家的头的音符盒被敲击时要播放的音效，必须是一个有效声音事件的命名空间ID。"
+    ],
+    "修复": [
+      "修复了23个漏洞",
+      "1.19前正式版的漏洞",
+      "MC-156663 — 村民在水中不能正常寻路。",
+      "MC-177596 — 武器匠工作时显示的字幕是“砂轮：使用”而不是“武器匠：工作”。",
+      "MC-177676 — 盔甲匠工作时显示的字幕是“高炉：噼啪作响”而不是“盔甲匠：工作”。",
+      "MC-245697 — 某些生物不能离开两格深的水。",
+      "1.19.2的漏洞",
+      "MC-255133 — 深暗之域中会生成额外的铜矿石。",
+      "1.19.3开发版本的漏洞",
+      "MC-256481 — 向雕纹书架中放书时，minecraft.used:minecraft.<书的种类>统计值不增加。",
+      "MC-256679 — 美西螈通常会在躲避危险时犹豫，并偶尔会向有危险的方向寻路。",
+      "MC-256883 — 与之前版本相比，游戏菜单中的元素位置会略低一些。",
+      "MC-257341 — 恼鬼不使用半透明纹理。",
+      "MC-257349 — 恼鬼不再能正常地坐在船和矿车中。",
+      "MC-257368 — “对局域网开放”菜单中，输入的端口号小于1024时，“端口无效”错误不显示。",
+      "MC-257373 — 端口号输入框中的光标不闪烁。",
+      "MC-257374 — 端口号英文“Port number”中的“number”一词没有大写。",
+      "MC-257386 — 启用Programmer Art后，创造模式物品栏纹理错误。",
+      "MC-257506 — 雕纹书架的顶部和底部纹理会由于放置方式的不同而旋转。",
+      "MC-257525 — 22w42a及以上版本中，悦灵的运动AI有问题，导致它们有时会在半空中旋转。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-257617 — 点击“遥测”屏幕中的“打开我的数据”或“数据收集”按钮后无法使用鼠标滚轮滚动。",
+      "MC-257618 — telemetry.event.world_loaded.description字符串中的“pair”一词使用了不正确的动词形式。",
+      "MC-257619 — 幼年猪灵和僵尸猪灵的头撞到方块时会受到伤害。",
+      "MC-257625 — 敲击放置了猪灵的头的音符盒，播放的是猪灵愤怒时的音效，而不是其空闲时的。",
+      "MC-257648 — /fillbiome命令可能导致新生物群系颜色与旧的交错出现。",
+      "MC-257658 — 从雕纹书架中取书时，幽匿感测体不激活。",
+      "MC-257663 — 因为点击社交屏幕上的“隐藏消息”按钮时，其状态会变化两次，所以现在不再能切换其状态。"
+    ],
+    "参考": [
+      "Minecraft 1.19.3 Pre-Release 1 — Minecraft.net，2022年11月22日。",
+      "引用自MC-257104。"
+    ]
+  }
+}

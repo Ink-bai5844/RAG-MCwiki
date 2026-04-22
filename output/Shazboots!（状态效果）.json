@@ -1,0 +1,5 @@
+{
+  "title": "Shazboots!（状态效果）",
+  "source_url": "https://zh.minecraft.wiki/w/Shazboots%21%EF%BC%88%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C%EF%BC%89",
+  "text": "此条目描述的是一个愚人节玩笑版本25w14craftmine中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\nShazboots!\n颜色\n#00AACC\n类型\n正面\n即时生效\n否\n免疫的生物\n末影龙\n凋灵\n状态效果ID\nshazboots\nShazboots!是一种可以更改玩家移动行为的状态效果。\n效果\n此效果会增加100安全摔落高度。\n此效果会导致玩家在任何方块上滑动，且其移动速度将等效于迅捷15时的速度。另外，当玩家按住跳跃时，外观类似于马的跳跃条的蓝色条将会出现；当玩家飞行时，其速度将会大幅下降。\n来源\n效果等级\n时长\nShazboots!\nI\n0:01\n数据值\nID\n名称\n命名空间ID\n本地化键名\nShazboots!\nshazboots\neffect.minecraft.shazboots\n导航"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "潮涌核心/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%BD%AE%E6%B6%8C%E6%A0%B8%E5%BF%83%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "Target：潮涌核心目前正在攻击的生物的UUID。"
+    ]
+  }
+}

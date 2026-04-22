@@ -1,0 +1,101 @@
+{
+  "title": "Tutorial:架设基岩版服务器",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E6%9E%B6%E8%AE%BE%E5%9F%BA%E5%B2%A9%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "本教程介绍的是架设基岩版专用服务器。关于Java版服务器的架设，请见“Tutorial:架设Java版服务器”。",
+      "在这个教程中，我们会通过每步详解的方式向你阐述架设基岩版专用服务器（即Bedrock Dedicated Server/BDS）。首先，请准备好以下内容："
+    ],
+    "下载基岩版专用服务器": [
+      "一台Ubuntu或Windows设备亦或者云服务器。"
+    ],
+    "Windows及Windows Server": [
+      "Windows的开机方法这里不再赘述，至于Windows Server，通常你的云服务器托管商会告诉你密码或让你自己设置，然后通过远程桌面连接即可。你需要将本地电脑上的基岩版专用服务器上传至你的云服务器硬盘，不过这里有个更快的方法——直接在Windows Server上下载它，然后右键你所下载的zip文件，选择全部解压缩，输入一个你能记住的路径，例如C:\\Users\\Administrator\\Desktop\\BDS，随后打开这个文件夹，双击运行bedrock_server.exe。大致内容应该像这样（文件大小、最后修改日期的差异因版本而异）",
+      "当你运行之后，你应该可以发现多了几个文件夹。"
+    ],
+    "Ubuntu": [
+      "Ubuntu上的方法比较简单，你需要拥有shell操控权，此处推荐SSH连接，请自行搜索连接方法。",
+      "不建议安装面板来上传BDS或者SSH上传，因为你大可直接在服务器下载，而且服务器的下载速度通常远远大于你上传的速度，首先前往BDS下载页面（任何语言皆可），然后阅读协议，如果你同意协议，那么请右键Download或下载类字眼，获得最新基岩版专用服务器的下载链接，随后在SSH终端中输入以下命令。",
+      "注意：如果在执行过程中遇到了类似于Permission Denied之类的错误，请尝试以下命令："
+    ],
+    "cd~ mkdirServer cdServer sudoapt-getinstallwget-y wget%你复制的连接%": [
+      "当下载完成后，你需要检查一下你下载的是哪个版本，通常位于bedrock-server-%你所下载的版本%.zip，随后你需要执行另外的命令："
+    ],
+    "sudoapt-getinstallunzip-y unzipbedrock-server-%你所下载的版本%.zip": [
+      "随后你可以使用ls命令查看目录下的文件，有可能这些文件被再次纳入了一个文件夹，你可以使用cd命令进入此文件夹，然后执行以下任一命令启动它："
+    ],
+    "LD_LIBRARY_PATH=../bedrock_server 或 ./bedrock_server": [
+      "接着按下组合键Ctrl + A，松开后再按D键，使服务端后台运行。",
+      "这样你的BDS就可以在后台运行而不需要你一直保持着终端开启。",
+      "如果你想重新连接会话，输入以下命令："
+    ],
+    "使BDS在后台运行": [
+      "当你退出SSH终端亦或者结束掉bash终端时，你运行的程序也会随之终止，为此，你需要安装screen："
+    ],
+    "sudoapt-getinstallscreen-y": [
+      "然后使用screen进入screen终端（你可能需要再按一次↵ Enter），创建一个名为mc的会话："
+    ],
+    "screen-Smc": [
+      "随后再次执行上文提到的命令："
+    ],
+    "sudochmoda+x./*": [
+      "随后再尝试，若依旧不行，请检查你所执行的目录，是否为你自己的用户目录，亦或者重新下载一个BDS并解压。"
+    ],
+    "Windows": [
+      "Windows中只有两种问题可能出现："
+    ],
+    "缺少环境": [
+      "解决办法：前往Microsoft文档下载Microsoft Visual C++ 可再发行程序包。"
+    ],
+    "程序不全": [
+      "解决办法：前往BDS下载页面重新下载一份BDS并解压。"
+    ],
+    "配置一个个性化的服务器": [
+      "主条目：Server.properties",
+      "在Windows中，建议使用VSCode等软件修改此文件，部分Windows版本下的记事本在保存文件时会导致文件的编码格式不正确而无法正常读取。",
+      "在Linux中，使用vim修改即可，若未安装，请使用以下命令："
+    ],
+    "sudoapt-getinstallvim-y": [
+      "随后在BDS根目录中输入以下命令并按下i："
+    ],
+    "vimserver.properties": [
+      "这里的个性化，显然是遵守EULA的，一般以下几项需要修改：",
+      "level-name=Bedrock level level-seed= player-idle-timeout=30 default-player-permission-level=member server-name=Dedicated Server gamemode=survival difficulty=easy allow-cheats=false max-players=10 online-mode=true white-list=false server-port=19132 server-portv6=19133",
+      "修改完毕后，Windows可直接点击文件-保存，或Ctrl + s。而Linux需要按下Esc并键入:wq，随后回车（↵ Enter）。若你的权限不足以打开\"编辑模式\"（即按下i后切换的模式），你需要使用sudo作为超级用户（管理员）修改文件。"
+    ],
+    "上传你创作的世界到服务器": [
+      "此操作可能会利用到SSH上传，但是SSH上传有些不稳定，建议你使用FTP，FTP的使用方法请自行搜索。",
+      "启动Minecraft，将你要上传的世界的世界名称改为一个易记且唯一的名称，随后保存，然后打开com.mojang/minecraftWorlds文件夹（要定位com.mojang文件夹，参见这里）。检查minecraftWorlds文件夹下的每个子文件夹中的levelname.txt文件。如果哪个子文件夹下的levelname.txt文件中的内容与你刚才输入的世界名称一致，那么请将此文件所在的子文件夹压缩为一个zip文件。",
+      "将zip文件上传到你的服务器（此步骤推荐使用FTP或面板）BDS目录下的/world/%level-name%/下，如果此文件夹中已经有文件了并且你确定不再需要，那么可以删除，或在该目录下使用以下命令："
+    ],
+    "rm-rf./*": [
+      "随后再次运行BDS，并在客户端中进入服务器世界，你就可以看到一个和你本地世界一模一样的世界了，你可以邀请你的朋友们来一起游玩，完全不用担心破坏者——你可以仅将你自己和你所信任的人设置为服务器管理员（即OP），一个设置方法是在后台输入op ID（请注意，在基岩版服务器后台输入的命令前不可加\"/\"，否则会提示Unknown command: /.），你和其他管理员将可以使用/kick踢出破坏者，不过请注意，你所给予服务器管理员的玩家也可以将你移出服务器，给出管理员的时候请务必谨慎！",
+      "注意：如果想要在服务器中加入带有附加包或资源包的存档，请先在本地游戏中应用以上内容，然后退出并保存，再按照上述过程操作。"
+    ],
+    "注释": [
+      "中国大陆的Minecraft官网经常会出现一些奇怪的错误，你可以前往英文Minecraft官网下载基岩版专用服务器（无论哪种语言的网站总会有两个框，左边的是Windows，右边的是Ubuntu，选择对应框下的Download或下载类字眼，届时你可能需要阅读Minecraft End User License Agreement和Privacy Policy，如果你不能确认你的电脑是哪种平台，请与你的软件分销商联系），它是免费下载的。",
+      "如果你使用的是Windows设备，请阅读Microsoft的官方文档。",
+      "如果你使用的是Android设备，请点击此处下载微软远程桌面（Google Play）。",
+      "如果你使用的是iOS设备，请点击此处下载微软远程桌面（App Store）。",
+      "如果你使用的是macOS设备，请点击此处下载微软远程桌面（Mac App Store）。",
+      "其他操作系统请自行搜索。",
+      "Windows 10的命令行自带ssh命令。",
+      "若你没有打开文件后缀名查看，此处的.exe你将无法看见。",
+      "Bedrock level是在游戏内显示的存档名称，你可以随意修改，甚至可以使用格式化代码（§），当然也可以避开这种特性，因为此项的值修改了仅仅会影响minecraftWorlds文件夹下的存档文件夹名而非存档名，如果你要修改游戏内的存档名，你应该修改对应世界文件夹下的levelname.txt。",
+      "设置世界的种子，默认值是无，也就是随机生成，你可以自行填写。",
+      "设置玩家挂机多久之后会被服务器踢出，一般30是个很好的值。",
+      "设置新加入的玩家的默认权限，一般为member（成员）。",
+      "设置服务器选择界面中显示的名称，并非游戏内显示的。并且一般而言服务器名称是由客户端决定，server-name的值作为描述，在客户端内还会显示版本。",
+      "设置默认游戏模式。",
+      "设置难度。",
+      "设置是否允许作弊。",
+      "设置最大玩家数。",
+      "设置是否进行正版验证，若为true，未购买Minecraft的玩家将无法进入此服务器。",
+      "设置白名单。具体操作可参考/allowlist。",
+      "设置IPv4监听端口，也就是你在客户端上需要填写的端口（若使用IPv4连接），请在云服务器托管商处放行此端口（UDP协议）。",
+      "设置IPv6监听端口，也就是你在客户端上需要填写的端口（若使用IPv6连接），请在云服务器托管商处放行此端口（UDP协议）。",
+      "即刚才你在server.properties中设置的值。",
+      "请注意，在Ubuntu使用rm命令需万分注意，操作不当可能导致系统故障。"
+    ]
+  }
+}

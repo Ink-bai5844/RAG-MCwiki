@@ -1,0 +1,5 @@
+{
+  "title": "光灵箭/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%85%89%E7%81%B5%E7%AE%AD%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n弹射物共通标签，见Template:Nbt inherit/projectile/source\n箭类弹射物共通标签，见Template:Nbt inherit/arrow/source\n*Duration：发光效果的持续时间，以刻为单位。此值不存在时默认为200游戏刻（10秒）。"
+}

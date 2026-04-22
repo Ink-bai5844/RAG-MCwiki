@@ -1,0 +1,35 @@
+{
+  "title": "Java版Alpha服务器0.1.0",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha%E6%9C%8D%E5%8A%A1%E5%99%A80.1.0",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "0.1.0"
+    ],
+    "发布时间": [
+      "2010年8月4日"
+    ],
+    "协议版本": [
+      "13",
+      "其他版本的0.1.0"
+    ],
+    "携带版Alpha": [
+      "New Nintendo 3DS版"
+    ],
+    "Minecraft Earth": [
+      "0.2.0►►",
+      "0.1.1►",
+      "0.1.0是Java版Alpha服务器的一次更新，发布于2010年8月4日。"
+    ],
+    "多人游戏": [
+      "为Alpha版本的多人游戏提供支持。"
+    ],
+    "/give": [
+      "用于给予特定玩家的单个物品，并且只能使用数字ID。"
+    ],
+    "参考": [
+      "Minecraft Alpha Server 0.1.0（存档） — The Word of Notch，2010年8月4日。"
+    ]
+  }
+}

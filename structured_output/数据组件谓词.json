@@ -1,0 +1,251 @@
+{
+  "title": "数据组件谓词",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%B0%E6%8D%AE%E7%BB%84%E4%BB%B6%E8%B0%93%E8%AF%8D",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "数据组件谓词（Data Component Predicate），也称组件谓词（Component Predicate），是用于测试数据组件是否满足某种条件的谓词。"
+    ],
+    "使用": [
+      "游戏为数据组件谓词定义了多种格式，但不论是哪种格式，都需要指定数据组件谓词类型和谓词内容。本文以进度及谓词相关数据包文件中的格式展示语法。"
+    ],
+    "进度": [
+      "在进度谓词系统中，数据组件谓词可以用来测试物品、方块实体和实体的数据组件。其格式为多个<数据组件谓词ID>: <检测内容>键值对的集合。"
+    ],
+    "predicates": [
+      "<数据组件谓词ID>：<检测内容>"
+    ],
+    "命令": [
+      "数据组件谓词可以在minecraft:item_predicate参数类型中测试物品，此参数类型的测试项可以是<数据组件谓词ID>~<检测内容>。详见参数类型 § item_predicate。"
+    ],
+    "物品模型": [
+      "数据组件谓词可以在物品模型映射中使用，为物品提供模型选择。此时谓词类型和谓词内容单独存在。"
+    ],
+    "model": [
+      "predicate：<数据组件谓词ID>",
+      "value：<检测内容>"
+    ],
+    "数据格式": [
+      "数据组件谓词可以分为测试组件自身的存在性和测试组件的值是否满足某种条件两类谓词。",
+      "对于测试组件存在性的谓词，其标签名可以是所有数据组件的ID。由于目前数据组件谓词类型的ID和数据组件的ID重合，对于同名的谓词，游戏会优先将其推断为数据组件谓词类型的ID以测试具体的值，再尝试以数据组件的ID测试组件的存在性，而如果组件谓词本身无法接受这种格式则无法以这种格式测试组件的存在性。",
+      "<数据组件ID>：空标签，测试此组件是否存在。",
+      "例如：{\"predicates\": {\"minecraft:instrument\": {}}}可以测试物品是否具有instrument组件，不需要关注此组件及其值是否能序列化，也不需要关注此组件的具体值。而{\"predicates\": {\"minecraft:potion_contents\": {}}}不允许，因为potion_contents是已有的数据组件谓词ID，因此无法测试存在性；而且此谓词也不接受这种格式。",
+      "游戏共定义了下列测试数据组件具体值的数据组件谓词："
+    ],
+    "attribute_modifiers": [
+      "检查attribute_modifiers组件中的属性修饰符。",
+      "minecraft:attribute_modifiers",
+      "modifiers：属性修饰符的集合谓词。",
+      "contains：检查是否有属性修饰符符合特定谓词。要求每个谓词都有至少一个属性修饰符符合，一个属性修饰符不必符合所有谓词。",
+      "：一个谓词。"
+    ],
+    "bundle_contents": [
+      "检查bundle_contents组件中的物品堆叠。",
+      "minecraft:bundle_contents",
+      "items：物品堆叠的集合谓词。",
+      "contains：检查是否有物品堆叠符合特定谓词。要求每个谓词都有至少一个物品堆叠符合，一个物品堆叠不必符合所有谓词。",
+      "：一个谓词。"
+    ],
+    "container": [
+      "检查container组件中的物品堆叠。",
+      "minecraft:container",
+      "items：物品堆叠的集合谓词。",
+      "contains：检查是否有物品堆叠符合特定谓词。要求每个谓词都有至少一个物品堆叠符合，一个物品堆叠不必符合所有谓词。",
+      "：一个谓词。"
+    ],
+    "custom_data": [
+      "检查custom_data组件的自定义数据。",
+      "可以为一个JSON对象或NBT复合标签，也可以为字符串。如果是字符串，则将此字符串视为SNBT，游戏将在解析时自动将字符串转换为对应的NBT数据。",
+      "minecraft:custom_data：测试格式参见NBT格式 § 测试NBT标签和NBT格式 § 转换。"
+    ],
+    "damage": [
+      "检查damage和max_damage组件，即物品的剩余耐久度或损坏值。损坏值来自damage组件，剩余耐久度来自max_damage组件减去damage组件。max_damage组件不存在时被视为0。",
+      "minecraft:damage",
+      "damage：检查物品的损坏值。可匹配单个整型值，也可匹配两个整型值所形成的闭区间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "durability：检查物品的剩余耐久度。可匹配单个整型值，也可匹配两个整型值所形成的闭区间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source"
+    ],
+    "enchantments": [
+      "检查enchantments组件的魔咒。",
+      "minecraft:enchantments：条件的数组。其中的每一个条件都必须满足。",
+      "：一个条件。",
+      "enchantments：要检查的魔咒。可以为单个魔咒ID、一个魔咒ID的列表或一个魔咒标签。若指定了多个魔咒，只需有其中一个魔咒存在即测试成功。",
+      "levels：检查魔咒的同时检查对应魔咒的等级。可匹配单个整型值，也可匹配两个整型值所形成的闭区间。若指定了多个魔咒，存在其中一个魔咒的等级符合即可成功。如果enchantments字段不存在，则该物品存在任一魔咒的等级符合即可成功。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source"
+    ],
+    "firework_explosion": [
+      "检查firework_explosion组件的烟火之星爆裂效果。",
+      "minecraft:firework_explosion",
+      "contains：检查是否有烟火之星爆裂符合特定谓词。要求每个谓词都有至少一个烟火之星爆裂符合，一个烟火之星爆裂不必符合所有谓词。",
+      "：一个谓词。"
+    ],
+    "fireworks": [
+      "检查fireworks组件的烟花火箭数据。",
+      "minecraft:fireworks",
+      "explosions：烟火之星爆裂效果的集合谓词。",
+      "contains：检查是否有烟火之星爆裂符合特定谓词。要求每个谓词都有至少一个烟火之星爆裂符合，一个烟火之星爆裂不必符合所有谓词。",
+      "：一个谓词。"
+    ],
+    "jukebox_playable": [
+      "检查jukebox_playable组件的音乐唱片音乐信息。",
+      "minecraft:jukebox_playable",
+      "song：要测试的唱片机曲目。可以为一个唱片机曲目ID、一个唱片机曲目的列表或一个唱片机曲目标签。若指定的唱片机曲目包含物品的唱片机曲目，则测试成功。"
+    ],
+    "potion_contents": [
+      "检查potion_contents组件的药水效果。仅检查potion字段，其余数据不会被检测。",
+      "minecraft:potion_contents：要测试的药水效果。可以为一个药水效果ID、一个药水效果的列表或一个药水效果标签。若指定的药水效果包含potion_contents组件的potion字段的药水效果，则测试成功。"
+    ],
+    "stored_enchantments": [
+      "检查stored_enchantments组件的魔咒。",
+      "minecraft:stored_enchantments：条件的数组。其中的每一个条件都必须满足。",
+      "：一个条件。",
+      "enchantments：要检查的魔咒。可以为单个魔咒ID、一个魔咒ID的列表或一个魔咒标签。若指定了多个魔咒，只需有其中一个魔咒存在即可测试成功。",
+      "levels：检查魔咒的同时检查对应魔咒的等级。可匹配单个整型值，也可匹配两个整型值所形成的闭区间。若指定了多个魔咒，存在其中一个魔咒的等级符合即可成功。如果enchantments字段不存在，则该物品存在任一魔咒的等级符合即可成功。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source"
+    ],
+    "trim": [
+      "检查trim组件的盔甲纹饰数据。此检查只检测命名空间ID，内联数据永远测试失败。",
+      "minecraft:trim",
+      "material：要检查的盔甲纹饰材料。可以为单个盔甲纹饰材料ID、一个盔甲纹饰材料ID的列表或一个盔甲纹饰材料标签。若指定的盔甲纹饰材料包含所检测物品的盔甲纹饰材料，则测试成功。",
+      "pattern：要检查的盔甲纹饰图案。可以为单个盔甲纹饰图案ID、一个盔甲纹饰图案ID的列表或一个盔甲纹饰图案标签。若指定的盔甲纹饰图案包含所检测物品的盔甲纹饰图案，则测试成功。"
+    ],
+    "villager/variant": [
+      "检查villager/variant组件的村民类型。",
+      "minecraft:villager/variant：要检查的村民类型。可以为单个村民类型ID、一个村民类型ID的列表或一个村民类型标签。若指定的村民类型包含所检测对象的村民类型，则测试成功。"
+    ],
+    "writable_book_content": [
+      "检查writable_book_content组件的书与笔书页信息。若开启过滤，则以未过滤的文本原始信息为准。",
+      "minecraft:writable_book_content",
+      "pages：书页的集合谓词。",
+      "contains：检查是否有书页符合特定谓词。要求每个谓词都有至少一个书页符合，一个书页不必符合所有谓词。",
+      "：一个谓词。完整匹配一页书的内容，以未过滤的书页原始信息为准。",
+      "size：检查书页的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的书页的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。完整匹配一页书的内容，以未过滤的书页原始信息为准。"
+    ],
+    "written_book_content": [
+      "检查written_book_content组件的成书数据。",
+      "minecraft:written_book_content",
+      "pages：书页的集合谓词。检测书页信息，若开启过滤，则以未过滤的文本原始信息为准。",
+      "contains：检查是否有书页符合特定谓词。要求每个谓词都有至少一个书页符合，一个书页不必符合所有谓词。",
+      "：一个谓词。文本组件，完整匹配一页书的内容，以未过滤的书页原始信息为准。",
+      "size：检查书页的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的书页的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。文本组件，完整匹配一页书的内容，以未过滤的书页原始信息为准。",
+      "author：完整匹配书的作者。",
+      "title：完整匹配书的标题，以未过滤的文本原始信息为准。",
+      "generation：检测书是否为副本。可以为0（原稿），1（原稿的副本），2（副本的副本），3（破烂不堪）。可匹配单个整型值，也可匹配两个整型值所形成的闭区间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "resolved：检测这本成书是否已经被解析，即检测组件中resolved的值是否为true。"
+    ],
+    "属性修饰符集合内容谓词": [
+      "size：检查属性修饰符的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的属性修饰符的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。",
+      "amount：匹配修饰值，或者检测修饰值是否在范围之间。",
+      "浮点数界限范围，见Template:Nbt inherit/minmax bounds doubles/source",
+      "attribute：匹配的属性。可以为以#开头的属性标签、一个属性ID的字符串、或以多个属性ID组成的字符串列表。",
+      "id：匹配属性修饰符的命名空间ID。",
+      "operation：匹配属性修饰符操作方法。取值必须从add_value、​add_multiplied_base和​add_multiplied_total中任选其一。",
+      "slot：匹配属性修饰符生效的装备槽位组。"
+    ],
+    "物品堆叠谓词": [
+      "size：检查物品堆叠的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的物品堆叠的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。",
+      "components：检查物品的物品堆叠组件。当物品的组件内容与检测内容完全相同时测试成功。",
+      "<物品堆叠组件ID>：一项组件及检测内容。",
+      "count：检查物品堆叠的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "items：匹配的物品。可以为以#开头的物品标签、一个物品ID的字符串、或以多个物品ID组成的字符串列表。",
+      "predicates：检查物品的某个物品堆叠组件是否满足某种条件。",
+      "<数据组件谓词类型ID>：一个组件的检查。具体格式详见数据组件谓词。",
+      "size：检查物品堆叠的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的物品堆叠的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。",
+      "components：检查物品的物品堆叠组件。当物品的组件内容与检测内容完全相同时测试成功。",
+      "<物品堆叠组件ID>：一项组件及检测内容。",
+      "count：检查物品堆叠的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "items：匹配的物品。可以为以#开头的物品标签、一个物品ID的字符串、或以多个物品ID组成的字符串列表。",
+      "predicates：检查物品的某个物品堆叠组件是否满足某种条件。",
+      "<数据组件谓词类型ID>：一个组件的检查。具体格式详见数据组件谓词。"
+    ],
+    "烟火谓词": [
+      "size：检查烟火之星爆裂的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的烟火之星爆裂的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。",
+      "has_trail：检测烟火是否有拖曳痕迹（使用钻石合成时）。",
+      "has_twinkle：检测烟火是否出现闪烁效果（使用荧石粉合成时）。",
+      "shape：检测烟火的爆裂形状是否为指定形状。可以为small_ball、​large_ball、​star、​creeper和​burst。",
+      "size：检查烟火之星爆裂的数量。匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "count：统计并检查符合特定谓词的烟火之星爆裂的数量。",
+      "：一个谓词及要求匹配的数量。",
+      "count：匹配一个精确值，或者检测数值是否在范围之间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "test：一个谓词。",
+      "flight_duration：检测烟花火箭的飞行的时间，单位为“火药”（即表现为和在工作台上合成烟花火箭时所用的火药数相等）。可匹配单个整型值，也可匹配两个整型值所形成的闭区间。",
+      "整数界限范围，见Template:Nbt inherit/minmax bounds ints/source",
+      "has_trail：检测烟火是否有拖曳痕迹（使用钻石合成时）。",
+      "has_twinkle：检测烟火是否出现闪烁效果（使用荧石粉合成时）。",
+      "shape：检测烟火的爆裂形状是否为指定形状。可以为small_ball、​large_ball、​star、​creeper和​burst。"
+    ],
+    "Java版": [
+      "1.20.5",
+      "24w11a",
+      "加入了物品子谓词。",
+      "24w12a",
+      "现在物品子谓词可以在命令的minecraft:item_predicate参数类型中使用。",
+      "custom_data现在也可以使用JSON或SNBT定义，而非只能使用包裹在字符串内的SNBT。",
+      "pre1",
+      "加入了8个物品子谓词类型：container、​bundle_contents、​firework_explosion、​fireworks、​writable_book_content、​written_book_content、​attribute_modifiers和​trim。",
+      "1.21",
+      "24w18a",
+      "在enchantments和stored_enchantments中，用enchantments取代了enchantment字段，现在可以指定多个魔咒。",
+      "24w21a",
+      "加入了物品子谓词类型jukebox_playable。",
+      "在attribute_modifiers中，用id取代了name和​uuid字段。",
+      "1.21.5",
+      "25w04a",
+      "重命名物品子谓词为数据组件谓词。",
+      "现在数据组件谓词也可以用于物品模型映射中。",
+      "25w10a",
+      "现在数据组件谓词也可用于进度实体谓词和进度方块谓词中。",
+      "1.21.11",
+      "25w41a",
+      "现在数据组件谓词支持测试组件的存在性。",
+      "26.1",
+      "snapshot-1",
+      "加入了villager/variant谓词类型。"
+    ],
+    "参考": [
+      "https://www.minecraft.net/article/minecraft-java-edition-1-21-11"
+    ]
+  }
+}

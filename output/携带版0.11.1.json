@@ -1,0 +1,5 @@
+{
+  "title": "携带版0.11.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.11.1",
+  "text": "0.11.1\n版本\n携带版\n版本码\nAndroid：\n720110101（armeabi-v7a，22）\n720110102（armeabi-v7a，22）\n740110101（armeabi-v7a，22）\n740110102（armeabi-v7a，11）\n780110101（x86，22）\n780110102（x86，22）\niOS/iPadOS：\n812578790\n发布时间\n2015年6月4日\n协议版本\n27\n◄◄0.11.0\n0.12.1►►\n0.11.2►\nv0.11.1 alpha是携带版的一次次要更新，发布于2015年6月4日，修复了一些关于世界崩溃和皮肤包不可用的漏洞。\n修复\n修复了5个漏洞\n0.11.0前正式版的漏洞\nMCPE-7879 — 保存并减小文件大小后会使得物品缺失。\nMCPE-7929 — 苦力怕即将爆炸时在LAN上没有警告\n0.11.0测试版本的漏洞\nMCPE-8349 — 本地多人游戏中的其他玩家无法乘船航行。\nMCPE-8656 — 每次玩家加载游戏之后，生命值都会恢复满。\nMCPE-8773 — 在多人游戏中，房主以外的其他玩家会在可生成的最高点生成。\n参考\n0.11.1 is out and it should fix the world crash + unavailable Skin Packs, thanks to Apple for letting us jump the queue :P，来自@_tomcc。X（曾名Twitter），2015年6月4日。\n导航"
+}

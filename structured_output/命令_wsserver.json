@@ -1,0 +1,46 @@
+{
+  "title": "命令/wsserver",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fwsserver",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版和​基岩版。"
+    ],
+    "需要的权限等级": [
+      "2[仅基岩版]",
+      "0[仅教育版]",
+      "0"
+    ],
+    "启用作弊": [
+      "用于连接WebSocket服务器，WebSocket服务器使用命令信息与客户端交互，主要用于教育版中。"
+    ],
+    "语法": [
+      "wsserver <serverUri: text>",
+      "connect <serverUri: text>",
+      "dedicatedwsserver <serverUri: message>",
+      "连接到指定的WebSocket服务器。"
+    ],
+    "参数": [
+      "serverUri: text：CommandRawText和serverUri: message：CommandRawText",
+      "指向WebSocket服务器的URI。如果URI不等同于当前连接的服务器，则会先断开当前连接。域名解析在客户端完成。",
+      "此参数为贪婪字符串参数，即命令的剩余部分全部视作该字符串参数，可以包含空格。"
+    ],
+    "基岩版": [
+      "1.21.60",
+      "1.21.60.25",
+      "现在/wsserver默认禁用，需要更改选项来启用。"
+    ],
+    "示例": [
+      "连接到本地服务器的8000端口：/wsserver 127.0.0.1:8000"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/wsserver。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了/connect，作为/wsserver的别名。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "红石粉/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BA%A2%E7%9F%B3%E7%B2%89%2FDV",
+  "text": "在基岩版中，红石粉使用下列数据值：\n位\n描述\n0x1\n0x2\n0x4\n0x8\n一个值范围0到15的4位二进制值，储存该红石粉的信号强度级别。"
+}

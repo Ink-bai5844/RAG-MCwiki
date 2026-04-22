@@ -1,0 +1,56 @@
+{
+  "title": "Java版Classic服务器1.4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.4",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "1.4"
+    ],
+    "客户端版本": [
+      "0.0.18a、0.0.18a_01"
+    ],
+    "发布时间": [
+      "2009年6月13日"
+    ],
+    "重新上传": [
+      "该版本于14:22（UTC）被重新上传，以修复一个玩家可以在世界外点击的漏洞。"
+    ],
+    "协议版本": [
+      "4",
+      "其他版本的1.4"
+    ],
+    "教育版": [
+      "New Nintendo 3DS版",
+      "◄◄1.3",
+      "1.5►►",
+      "1.4.1►",
+      "1.4是Classic服务器的一次更新，发布于2009年6月13日13:30（UTC）。"
+    ],
+    "服务器": [
+      "添加了服务器对/teleport的支持。"
+    ],
+    "多人游戏": [
+      "现在服务器会检查所有传来的字符串长度是否在一合理范围内，并自动踢出发送过长字符串的客户端。"
+    ],
+    "日志": [
+      "服务器输出现在会记录在文件server.log里。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了一个通过发送假的文字消息来使所有连接到该服务器的客户端崩溃的严重漏洞。",
+      "客户端会尝试渲染奇怪的Unicode字符，但是当客户端尝试在一个256大小的数组里查找第10000个数据时会因为下标越界而崩溃。"
+    ],
+    "参考": [
+      "6月13日的IRC记录： IRC logs on Archive.org; #minecraft.20090613.log. 2009年6月13日 (UTC−5)。",
+      "6月14日的IRC记录： IRC logs on Archive.org; #minecraft.20090614.log. 2009年6月14日 (UTC−5)。",
+      "6月13日的IRC记录: \"A8:30:10 <Notch> there's a new minecraft-server.zip up\" (13:30:10 UTC)",
+      "New server update, 1.4（存档） — The Word of Notch，2009年6月13日。",
+      "6月14日的IRC记录: \"A5:57:41 <Notch> there is a teleport command in the new server. =)\", \"A5:57:48 <Notch> /teleport <name>\" (10:57 UTC)",
+      "6月13日的IRC记录: \"P6:38:36 <smn> Notch, is there any way to log server output?\", \"P6:38:47 <Notch> it should do so already since the latest server update!\", \"P6:38:49 <Notch> server.log\" (23:38 UTC)",
+      "6月13日的IRC记录: \"A9:22:34 <Notch> robink93: new server.zip up\" (14:22:34 UTC)",
+      "If you get the \"clicked outside the map\" error,（存档） — The Word of Notch，2009年6月13日。",
+      "6月13日的IRC记录: \"A9:15:36 <robink93> Cheat detected: clicked outside map.\" [...] \"A9:15:51 <Notch> and it wasn't, robink93?\", \"A9:15:54 <robink93> yes it was\", \"A9:16:02 <robink93> jump, place block under, repeat\", \"A9:16:09 <Notch> ok, I can make it not kick on that, I guess. :D\" (14:15 to 14:16 UTC)"
+    ]
+  }
+}

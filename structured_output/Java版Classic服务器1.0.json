@@ -1,0 +1,33 @@
+{
+  "title": "Java版Classic服务器1.0",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.0",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前已丢失。",
+      "虽然此版本的服务端可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "1.0"
+    ],
+    "客户端版本": [
+      "0.0.16a"
+    ],
+    "发布时间": [
+      "2009年6月8日"
+    ],
+    "不可用": [
+      "其他版本的1.0"
+    ],
+    "教育版": [
+      "1.1►►",
+      "1.0是Classic服务器的一次更新，发布于2009年6月8日。"
+    ],
+    "多人游戏": [
+      "添加了对多人游戏的支持。"
+    ],
+    "参考": [
+      "c1.6.zip (README.TXT):",
+      "Version 1.0: Initial release",
+      "And there’s another server update（存档） — The Word of Notch，2009年6月8日。"
+    ]
+  }
+}

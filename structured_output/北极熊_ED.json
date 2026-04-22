@@ -1,0 +1,14 @@
+{
+  "title": "北极熊/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8C%97%E6%9E%81%E7%86%8A%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "中立的生物共通标签，见Template:Nbt inherit/angerable/source"
+    ]
+  }
+}

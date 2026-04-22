@@ -1,0 +1,12 @@
+{
+  "title": "放置方块/BS",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%94%BE%E7%BD%AE%E6%96%B9%E5%9D%97%2FBS",
+  "structured_content": {
+    "west": [
+      "放置方块的朝向。"
+    ],
+    "false": [
+      "放置方块是否被激活，此属性不与客户端同步。"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Java版1.8.4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.8.4",
+  "structured_content": {
+    "默认分类": [
+      "1.8.4"
+    ],
+    "发布时间": [
+      "2015年4月17日"
+    ],
+    "协议版本": [
+      "47"
+    ],
+    "资源包版本": [
+      "1",
+      "其他版本的1.8.4"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.8",
+      "1.9►►",
+      "◄1.8.3",
+      "1.8.5►",
+      "1.8.4是Java版的一次次要更新，发布于2015年4月17日。修复了各种漏洞和重要的安全缺陷，以及一些次要的问题的一次更新。此版本兼容1.8到1.8.3的服务端。"
+    ],
+    "豹猫和狼": [
+      "不再跟随旁观模式下的玩家。"
+    ],
+    "下界传送门": [
+      "越过下界传送门把玩家传送到传送门外。"
+    ],
+    "玩家头颅": [
+      "玩家头颅的皮肤不再可以被任意服务器加载。",
+      "现在只能从Mojang官方服务器中加载。",
+      "玩家头颅皮肤现在需要使用.png格式文件。"
+    ],
+    "修复": [
+      "修复了14个漏洞",
+      "1.8前正式版的漏洞",
+      "MC-10979 — 单人极限模式中，有重复出现的屏幕以及怪异的链接。",
+      "1.8的漏洞",
+      "MC-46771 — 宠物会跟随旁观模式玩家。",
+      "MC-61758 — 藤蔓在拐角处的分布不正确。",
+      "MC-61895 — 在刷怪笼中放入默认刷怪蛋导致游戏崩溃。",
+      "MC-68642 — 特定键盘布局的特定字符不能被输入（AltGr键表现得像Ctrl键）。",
+      "1.8.1的漏洞",
+      "MC-73504 — 穿过下界传送门后，玩家会在传送门旁边两格处。",
+      "MC-78020 — 服务器中，玩家进入服务器时显示的消息中，改过名的用户显示的是老用户名。",
+      "MC-79152 — 关于头颅的安全漏洞。",
+      "1.8.3的漏洞",
+      "MC-78491 — 自定义玩家头颅可以暴露玩家的IP地址。",
+      "MC-79468 — 3D物品的模型有问题。",
+      "MC-79612 — NBT记录不正确，允许分配很大的空列表。"
+    ],
+    "未公开漏洞": [
+      "MC-77371 — Mac OS X原生全屏时，奇怪的键盘。",
+      "MC-78495 — 物品复制。",
+      "MC-79079 — 恶意客户端可以使服务端卡住。"
+    ],
+    "参考": [
+      "Minecraft 1.8.4 Security Release（存档），来自Dinnerbone。Mojang.com，2015年4月17日。",
+      "https://www.reddit.com/r/Minecraft/comments/32tb8e/hey_rminecraft_i_wanted_to_bring_light_to_an/cqeo2oe",
+      "https://www.reddit.com/r/Minecraft/comments/32tb8e/hey_rminecraft_i_wanted_to_bring_light_to_an/",
+      "http://blog.ammaraskar.com/minecraft-vulnerability-advisory/",
+      "https://twitter.com/Dinnerbone/status/589042068615475201",
+      "https://twitter.com/Dinnerbone/status/589023532371279872",
+      "MC-73504（评论#224785）",
+      "https://www.reddit.com/r/Minecraft/comments/32xdcl/the_end_of_custom_player_heads/"
+    ]
+  }
+}

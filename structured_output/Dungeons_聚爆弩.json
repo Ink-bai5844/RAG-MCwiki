@@ -1,0 +1,65 @@
+{
+  "title": "Dungeons:聚爆弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%81%9A%E7%88%86%E5%BC%A9",
+  "structured_content": {
+    "力量": [
+      "12"
+    ],
+    "速度": [
+      "1"
+    ],
+    "弹药上限": [
+      "1"
+    ],
+    "存档ID": [
+      "ExplodingCrossbow_Unique1",
+      "聚爆弩已经进行了魔法般的细调，以最大程度地发挥爆炸的威力。"
+    ],
+    "——物品描述": [
+      "聚爆弩（Imploding Crossbow）是Minecraft Dungeons中的远程武器。它是爆炸弩的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "树梢缠结（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "聚爆弩拥有很高攻击力，极低速度和弹药上限。初始弹药量为20。"
+    ],
+    "伤害值": [
+      "104",
+      "2397",
+      "111",
+      "3073"
+    ],
+    "击中物体": [
+      "sfx_item_explodingCrossbowUnique1ArrowImpactNormal"
+    ],
+    "击中物体（新）": [
+      "sfx_item_explodingCrossbowArrowUnique1ImpactNormal_Updated"
+    ],
+    "掉落": [
+      "sfx_item_explodingCrossbowUnique1Land"
+    ],
+    "拾取": [
+      "sfx_item_explodingCrossbowUnique1PickUp"
+    ],
+    "装备": [
+      "sfx_item_explodingCrossbowUnique1Place"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了聚爆弩。",
+      "1.13.1.0",
+      "优化了与其他远程魔咒的联动表现。",
+      "不再与导火索魔咒兼容。"
+    ],
+    "画廊": [
+      "一把战力为104的聚爆弩"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "村民/DV2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9D%91%E6%B0%91%2FDV2",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n类型\n命名空间ID（仅JE）\n数字ID（仅BE）\n盔甲匠\narmorer\n8\n屠夫\nbutcher\n11\n制图师\ncartographer\n6\n牧师\ncleric\n7\n农民\nfarmer\n1\n渔夫\nfisherman\n2\n制箭师\nfletcher\n4\n傻子\nnitwit\n14\n皮匠\nleatherworker\n12\n图书管理员\nlibrarian\n5\n石匠\nmason\n13\n失业\nnone\n0\n牧羊人\nshepherd\n3\n工具匠\ntoolsmith\n10\n武器匠\nweaponsmith\n9"
+}

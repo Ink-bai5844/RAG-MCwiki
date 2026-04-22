@@ -1,0 +1,20 @@
+{
+  "title": "游戏规则/player movement check",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fplayer_movement_check",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "player_movement_check": [
+      "player_movement_check是控制玩家超速弹回有效性的游戏规则。"
+    ],
+    "行为": [
+      "当player_movement_check为true时，玩家会在超速时被弹回。"
+    ],
+    "Java版": [
+      "1.21.11",
+      "25w44a",
+      "加入了游戏规则player_movement_check以取代disablePlayerMovementCheck。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.14.2.51",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.14.2.51",
+  "text": "1.14.2.51\n版本\n基岩版\n版本码\nAndroid：\n941140251（armeabi-v7a，28）\n942140251（x86，28）\n类型\n测试版\n发布时间\nXbox One, Windows 10, Android - 2020年1月8日\n测试版归属\n1.14.20\n协议版本\n389\n◄◄1.14.1\n1.14.21►►\n◄1.14.2.50\n1.14.25.1►\nbeta 1.14.2.51是基岩版1.14.20的第2个测试版，发布于2020年1月8日，修复了一些漏洞。\n修复\n崩溃\n修复了一些游戏过程中可能发生的崩溃。\n修复了分屏玩家加入Nintendo Switch上的世界时可能发生的崩溃。\n将指南针和定位地图放入合成槽中不再会导致崩溃。（MCPE-57882）\n修复了与其他生物一同进入下界传送门时可能发生的崩溃。（MCPE-58568）\n修复了在PlayStation 4或Xbox One上加载“Extreme Speed Runner”市场世界时会可能发生的崩溃。\n常规\n修复了在市场界面中调整与之前不同的窗口分辨率时可能导致文本重叠的问题。\n地图制作和附加包\n实体附带粒子效果的local space又会继承locator的bone rotation了。\n参考\nMinecraft Beta - 1.14.2.51 (Xbox One/Windows 10/Android) — Minecraft Feedback，2020年1月8日。\n导航"
+}

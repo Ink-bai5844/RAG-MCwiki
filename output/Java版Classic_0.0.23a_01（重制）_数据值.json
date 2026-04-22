@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.23a 01（重制）/数据值",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.23a_01%EF%BC%88%E9%87%8D%E5%88%B6%EF%BC%89%2F%E6%95%B0%E6%8D%AE%E5%80%BC",
+  "text": "这些数据值用于Classic 0.0.23a_01的重制版的世界中放置的方块。用浅蓝色标注的ID无法在玩家的物品栏里合理获得，只能通过物品栏编辑器获取。\nID\n图标\nDec\nHex\n方块\n0\n空气\n1\n草方块\n2\n石头\n3\n泥土\n4\n木板\n5\n玫瑰\n6\n蒲公英\n7\n水\n8\n树苗\n9\n圆石\n10\nA\n基岩\n11\nB\n沙子\n12\nC\n沙砾\n13\nD\n木头\n14\nE\n树叶\n15\nF\n红色蘑菇\n图标\nDec\nHex\n方块\n16\n10\n棕色蘑菇\n17\n11\n熔岩\n18\n12\n金矿石\n19\n13\n铁矿石\n20\n14\n煤矿石\n21\n15\n金块\n22\n16\n海绵\n23\n17\n玻璃\n24\n18\n红色布料\n25\n19\n橙色布料\n26\n1A\n黄色布料\n27\n1B\n浅黄色布料\n28\n1C\n绿色布料\n29\n1D\n春绿色布料\n30\n1E\n青色布料\n31\n1F\n卡布里蓝色布料\n图标\nDec\nHex\n方块\n32\n20\n群青色布料\n33\n21\n紫罗兰色布料\n34\n22\n紫色布料\n35\n23\n品红色布料\n36\n24\n玫红色布料\n37\n25\n深灰色布料\n38\n26\n浅灰色布料\n39\n27\n白色布料"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "犰狳/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8A%B0%E7%8B%B3%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source",
+      "*scute_time：犰狳掉落犰狳鳞甲的倒计时，每游戏刻减少1。当此值小于1时犰狳掉落犰狳鳞甲，并重置此值到6000游戏刻（5分）-12000游戏刻（10分）之间。"
+    ],
+    "*": [
+      "*state：犰狳当前的状态。可以为idle（未蜷缩）、rolling（正在蜷缩）和scared（蜷缩）。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 0.31 20100129-2129",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100129-2129",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n0.31\n版本\nJava版\n发布时间\n2010年1月29日\n下载\n不可用\nal_version\n未知\n◄◄0.30\nMinecraft Indev►►\n◄0.31 20100129-1452\n0.31 20100129-2134►\n0.31的一个版本发布于2010年1月29日21:29（UTC），尝试修复了一个漏洞但最终失败。\n更改\n常规\n控制\n尝试修复了在Linux全屏模式下使用鼠标和键盘的对焦错误，但未成功。\n参考\nIRC记录, Adura.7z（UTC-5）\nAdura的IRC记录: \"(16:29:28) <Notch> vede: could you try indev now?\"\nAdura的IRC记录: \"(16:19:15) <vede> Notch, I don't mean to pester you, but there's some serious issues with mouse focus and keyboard focus on Linux. Going from fullscreen to non-fullscreen causes Minecraft to grab my mouse, but not my keyboard, and it's not in menu mode. So the only way to stop it is to manually kill the java process or alt+F4 out of Firefox. And then there's still the thing where mouse focus is permanently lost after unfocusing and refocusing on Minecraft.\"...\"16:21:08 <Notch> vede: Yeah, I know.. I will try to fix that now\"\n导航"
+}

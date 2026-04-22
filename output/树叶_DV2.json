@@ -1,0 +1,5 @@
+{
+  "title": "树叶/DV2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%A0%91%E5%8F%B6%2FDV2",
+  "text": "位\n描述\n0x1\n一个值范围0-1的1位二进制数，储存树叶类型：\n0：金合欢树叶\n1：深色橡树树叶\n0x2\n（未使用）\n0x4\n树叶是否检查枯萎\n0x8\n树叶是否无枯萎"
+}

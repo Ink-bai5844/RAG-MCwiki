@@ -1,0 +1,5 @@
+{
+  "title": "携带版0.12.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.12.2",
+  "text": "0.12.2\n版本\n携带版\n版本码\nAndroid：\n720120200（armeabi-v7a，22）\n740120200（armeabi-v7a，22）\n760120200（armeabi-v7a，22）\n780120200（x86，22）\niOS/iPadOS：\n813664574\n发布时间\nAndroid, Fire OS, Windows Phone, Windows 10 - 2015年10月11日\niOS - 2015年10月14日[来源请求]\n协议版本\n34\n◄◄0.12.1\n0.13.0►►\n0.12.3►\nv0.12.2 alpha是携带版的一次次要更新，在Android、Fire OS、Windows Phone和Windows 10上发布于2015年10月11日，而在iOS上发布于2015年10月14日。\n修复\n修复了12个漏洞\n0.12.0前正式版的漏洞\nMCPE-8634 — 投掷后的雪球变黑。\n0.12.0正式版的漏洞\nMCPE-10045 — 在一定角度下观察实体会使其变黑。\nMCPE-10107 — 在红沙上疾跑会出现沙子的粒子。\n0.12.1开发版本的漏洞\nMCPE-9695 — 驯服狼后重启游戏后不会显示坐/站/喂食/按钮。\nMCPE-10081 — 放置雪层会替代碰撞箱不完整的方块。\nMCPE-10287 — 在生存模式下制作铁傀儡和雪傀儡不会消耗南瓜。\nMCPE-10444 — 铁傀儡不会反击攻击它的玩家。\n0.12.1正式版的漏洞\nMCPE-10536 — 按下开始游戏按钮后崩溃。\nMCPE-10589 — 熔炉的GUI闪烁。\nMCPE-10802 — 打开游戏后不加载Mojang的徽标。\nMCPE-10958 — 已附魔的弓放进熔炉会丢失附有的魔咒。\n其他漏洞\n破坏高草丛总是会显示向日葵的粒子。\n参考\nhttps://bugs.mojang.com/browse/MCPE/fixforversion/15382[失效链接]\n导航"
+}

@@ -1,0 +1,335 @@
+{
+  "title": "Java版25w03a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8825w03a",
+  "structured_content": {
+    "默认分类": [
+      "25w03a"
+    ],
+    "发布时间": [
+      "2025年1月15日"
+    ],
+    "快照归属": [
+      "1.21.5"
+    ],
+    "协议版本": [
+      "DEC: 1073742054",
+      "HEX: 400000E6"
+    ],
+    "数据版本": [
+      "4304"
+    ],
+    "资源包版本": [
+      "48"
+    ],
+    "数据包版本": [
+      "63",
+      "◄◄1.21.4",
+      "1.21.6►►",
+      "◄25w02a",
+      "25w04a►",
+      "25w03a是Java版1.21.5的第2个快照，发布于2025年1月15日，加入了通过数据包和Mod运行游戏测试系统的支持，加入了物品模型匹配物品堆叠组件内容的功能，实现了鞍的装备化，并修复了一些漏洞。"
+    ],
+    "测试方块": [
+      "用于实现基于方块的测试的技术性方块。",
+      "物品稀有度为“史诗”。",
+      "有4种模式：",
+      "启动模式（mode为start）：在测试启动时产生一次红石脉冲。",
+      "日志输出模式（mode为log）：接收到红石信号时，将消息输出到日志文件。",
+      "失败模式（mode为fail）：接收到红石信号时，使测试失败。",
+      "接受模式（mode为accept）：接收到红石信号时，成功完成这条路径的测试。",
+      "运行基于方块的测试需要结构中至少存在一个启动模式和一个接受模式的方块。"
+    ],
+    "测试实例方块": [
+      "用于运行、控制世界中的测试的技术性方块。",
+      "物品稀有度为“史诗”。",
+      "此方块表示世界中的测试实例。",
+      "可以用于与所对应的测试交互，以保存测试结构、重置测试或运行测试。",
+      "测试启动后，每个测试位置都会发出一条信标光柱以表示测试状态。"
+    ],
+    "绿色 = 成功": [
+      "如果测试失败，错误会显示在一本讲台的书和一个遮罩上。",
+      "使用/test运行或创建了一个测试也将放置一个测试实例方块来控制此测试。"
+    ],
+    "结构": [
+      "加入了空结构empty.nbt。"
+    ],
+    "槽位": [
+      "加入了saddle生物通用槽位。",
+      "可装备于此槽位的物品由equippable物品堆叠组件控制。",
+      "只有自然支持此槽位的生物能在装备对应物品时被骑乘并在实体模型上渲染鞍。",
+      "移除了horse.saddle鞍槽位。"
+    ],
+    "/test": [
+      "用于创建和运行测试的命令。",
+      "注意：游戏测试的设计为运行于标准超平坦世界。每次测试运行时，其周围的区域都会被石头代替，且测试会被屏障盒包裹。",
+      "语法如下：",
+      "test clear*：清除与所选的测试关联的结构和方块。"
+    ],
+    "test clearthese": [
+      "test create：在当前位置创建一个指定测试的测试设置，为指定大小的测试结构做准备。"
+    ],
+    "test create <test> [<width>] [<height> <depth>]": [
+      "test locate：在已加载区块中寻找测试的位置。"
+    ],
+    "test locate <selector>": [
+      "test reset*：为所选的测试重置测试结构，移除周围的所有屏障并重新放置结构。"
+    ],
+    "test resetthat": [
+      "test pos：显示测试中指向方块的局部坐标。如果指定了变量名，则在由单击此命令返回消息中的坐标获得的代码片段中使用该变量名。"
+    ],
+    "test pos [<variable>]": [
+      "test run*：运行一个或多个测试。先加载每个测试的给定结构，再运行相关测试。如果一次运行多个测试，则它们会被放置于网格中并行运行，但有一定限制。如果超出限制，则测试按轮依次运行。"
+    ],
+    "test runthese [<numberOfTimes>] [<untilFailed>]": [
+      "test stop：停止所有测试。由测试触发的游戏事件可能仍会继续。",
+      "test verify <tests>：通过运行同一测试的多个实例来验证一个或多个测试。",
+      "参数：",
+      "radius：需要清除的测试的范围。",
+      "test：测试的命名空间ID。",
+      "selector：支持通配符（*和​?）的测试ID选择器。未提供命名空间时，默认使用minecraft:。",
+      "示例：",
+      "*:* - 匹配所有ID。",
+      "* - 匹配minecraft命名空间下的全部ID。",
+      "custom:folder/*_test_? - 匹配custom命名空间下folder文件夹中为<任意前缀>_test_<单字符后缀>的ID。",
+      "width：（默认为5）测试结构的宽度。",
+      "height：（默认使用width的值）测试结构的高度。",
+      "depth：（默认使用width的值）测试结构的深度。",
+      "variable：复制代码段中使用的变量名。",
+      "numberOfTimes：（默认为1）重复每个测试的次数。",
+      "untilFailed：（布尔值，默认为false）测试是否应该在一次迭代失败后立即停止。",
+      "rotationSteps：（默认为0）测试的额外90度旋转步数。",
+      "testsPerRow：（默认为8）网格布局中每行放置的测试数量。"
+    ],
+    "数据包": [
+      "在数据包中加入了test_environment和test_instance文件夹。",
+      "数据包现在可以用于配置测试实例与测试环境定义。",
+      "将数据包版本号更改为63。"
+    ],
+    "注册表": [
+      "加入了TEST_ENVIRONMENT_DEFINITION_TYPE、​TEST_INSTANCE_TYPE和​TEST_FUNCTION固有注册表。",
+      "加入了TEST_ENVIRONMENT和​TEST_INSTANCE可写注册表。"
+    ],
+    "物品堆叠组件": [
+      "加入了一系列用于配置实体的变种、外观或其他方面的组件。",
+      "当刷怪蛋、生物桶、画和物品展示框等物品具有这些组件时，组件将对其生成的实体生效。",
+      "对实体使用选取键获取刷怪蛋时，获取的刷怪蛋不会储存这些组件。",
+      "新组件如下：",
+      "axolotl/variant：可以为lucy、wild、gold、cyan或blue之一。",
+      "fox/variant：可以为red或snow之一。",
+      "horse/variant：可以为white、creamy、chestnut、brown、black、gray或dark_brown之一。",
+      "llama/variant：可以为creamy、white、brown或gray之一。",
+      "mooshroom/variant：可以为red或brown之一。",
+      "parrot/variant：可以为red_blue、blue、green、yellow_blue或gray之一。",
+      "rabbit/variant：可以为brown、white、black、white_splotched、gold、salt或evil之一。",
+      "villager/variant：可以为desert、jungle、plains、savanna、snow、swamp或taiga之一。",
+      "salmon/size：可以为small、medium或large之一。",
+      "tropical_fish/pattern：可以为kob、sunstreak、snooper、dasher、brinely、spotty、flopper、stripey、glitter、blockfish、betty或clayfish之一。",
+      "tropical_fish/base_color：16种染料颜色之一。",
+      "tropical_fish/pattern_color：16种染料颜色之一。",
+      "cat/collar：16种染料颜色之一。",
+      "wolf/collar：16种染料颜色之一。",
+      "sheep/color：16种染料颜色之一。",
+      "shulker/color：16种染料颜色之一。",
+      "cat/variant：需为取自cat_variant注册表的命名空间ID。",
+      "frog/variant：需为取自frog_variant注册表的命名空间ID。",
+      "painting/variant：需为取自painting_variant注册表的命名空间ID。",
+      "pig/variant：需为取自pig_variant注册表的命名空间ID。",
+      "wolf/variant：需为取自wolf_variant注册表的命名空间ID。",
+      "创造模式物品栏中的生物桶和画现在使用新变种而非minecraft:entity_data组件。",
+      "热带鱼桶和画物品的自定义提示框文本现在基于新组件而非minecraft:bucket_entity_data和​minecraft:entity_data。",
+      "将weapon组件的damage_per_attack字段更名为item_damage_per_attack。",
+      "equippable组件现有以下更改：",
+      "slot字段现可设置为saddle，表示鞍槽位。",
+      "现在，拥有该组件的物品可以被穿戴在任何满足allowed_entities的生物的body槽位中。",
+      "加入了可选字段equip_on_interact，默认为false，控制玩家是否可给生物穿戴该物品。",
+      "如为true，对该组件允许的生物使用该物品时，如相应槽位没有其他物品，即可为生物穿戴该物品。"
+    ],
+    "实体谓词": [
+      "在实体谓词中加入了新字段components。",
+      "存在时，谓词会匹配实体组件的内容（类似于匹配物品堆叠的物品谓词的字段components）。",
+      "格式：组件类型键与组件匹配值的映射。"
+    ],
+    "装备模型": [
+      "加入了预设模型层pig_saddle、​strider_saddle、​camel_saddle、​horse_saddle、​donkey_saddle、​mule_saddle、​skeleton_horse_saddle和​zombie_horse_saddle。"
+    ],
+    "物品模型": [
+      "加入了枚举属性component，用于返回物品的组件值（如有）。",
+      "附加字段如下：",
+      "component：物品堆叠组件类型的命名空间ID。",
+      "可能的值取决于物品堆叠组件类型。例如类型设置为minecraft:wolf/collar时，枚举值列表会接受染料颜色（如lime）。"
+    ],
+    "服务端核心文件": [
+      "在server.jar中加入了net.minecraft.gametest.Main入口点，用于自动启动运行全部可用测试项目的服务端。",
+      "选项如下：",
+      "--help：显示用法信息。",
+      "--packs <路径>：设置世界中启用的数据包路径（可以为包含pack.mcmeta文件的文件夹或.zip格式的压缩包）。",
+      "--report <路径>：将类似于JUnit的XML报告导出到给定路径。",
+      "--tests <选择>：指定根据选择表达式（与命名空间测试实例ID匹配的通配符表达式）运行的测试内容。如果此项省略或指定空ID，则运行所有测试项。",
+      "--universe <路径>：（默认为gametestserver）设置服务端世界存放路径。会替换已有的文件夹。",
+      "--verify <布尔值>：（默认为false）启用测试验证。启用时，对每个90度旋转步骤运行以test或testNamespace指定的测试100次。",
+      "用法示例：java -DbundlerMainClass=\"net.minecraft.gametest.Main\" -jar server.jar --packs mytestpacks"
+    ],
+    "测试实例定义格式": [
+      "游戏测试实例是定义运行测试的小型资产，可以在数据包注册表test_instance中定义。",
+      "测试类型分为2种：内置函数测试和基于方块的测试。",
+      "内置函数测试依赖内置函数来运行测试并指示成功或失败。",
+      "基于方块的测试使用测试结构中的测试方块来运行测试并指示成功或失败。",
+      "游戏内置一个永远成功的测试实例minecraft:always_pass。",
+      "格式如下："
+    ],
+    "父标签": [
+      "*batch：作为测试一部分的测试环境的命名空间ID。",
+      "*structure：用于测试的结构的命名空间ID。",
+      "*type：测试的类型。需为block_based或function之一。",
+      "*max_ticks：（值>0）允许测试通过而不超时的最大刻数。",
+      "setup_ticks：（默认为0，值≥0）放置测试结构后、测试启动前需要等待的刻数。",
+      "max_attempts：（默认为1，值>0）尝试运行此测试的次数。",
+      "required_successes：（默认为1，值≥0）此测试必须成功的次数。",
+      "required：（默认为true）对要通过的完整测试套件而言，这个测试是否必须通过。",
+      "manual_only：（默认为false）此测试是否不包含于自动测试运行组中。",
+      "sky_access：（默认为false）此测试是否需要天空。为false时，测试结构被屏障完全包裹；为true时，屏障盒顶部敞开。",
+      "rotation：（默认为none）对测试结构应用的旋转角度。可以为none、clockwise_90、180或counterclockwise_90之一。",
+      "type为function时，附加以下字段：",
+      "*function：要运行的测试函数的命名空间ID。目前内置的测试函数只有minecraft:always_pass。",
+      "*type：测试环境的类型。需为all_of、function、game_rules、raining或time_of_day之一。",
+      "type为all_of时，附加以下字段：",
+      "*definitions：子定义设置列表，其中的定义均会应用。",
+      "type为function时，附加以下字段：",
+      "setup：用于安装的mcfunction文件的命名空间ID。",
+      "teardown：用于卸载的mcfunction文件的命名空间ID。",
+      "type为game_rules时，附加以下字段：",
+      "*bool_rules：布尔型游戏规则的设置列表。",
+      "：一个游戏规则与一个设置值。",
+      "*rule：要设置的规则的精确ID。测试环境完成后，此规则会被重置为默认值。",
+      "*value：规则的设置值。",
+      "*int_rules：整型游戏规则的设置列表。",
+      "：一个游戏规则与一个设置值。",
+      "*rule：要设置的规则的精确ID。测试环境完成后，此规则会被重置为默认值。",
+      "*value：规则的设置值。",
+      "type为raining时，附加以下字段：",
+      "*weather：要设置的天气。需为clear、​rain和​thunder之一。",
+      "type为time_of_day时，附加以下字段：",
+      "*time：（值≥0）要设置的当日时间，单位为刻。"
+    ],
+    "测试环境定义格式": [
+      "游戏测试环境是对测试进行分组并为其提供正确的运行前提条件的一种方法，可以在数据包注册表test_environment中定义。",
+      "游戏内置一个空测试环境minecraft:default。",
+      "格式如下："
+    ],
+    "游戏测试框架": [
+      "现在可以通过修改游戏代码的方式在TEST_FUNCTION注册表中添加测试函数，以使用比基于方块的测试方式更通用的游戏测试框架。"
+    ],
+    "标签": [
+      "加入了实体标签#can_equip_saddle：horse、​skeleton_horse、​zombie_horse、​donkey、​mule、​pig、​strider和​camel。",
+      "可以装备鞍的实体。该标签仅用于鞍的物品默认组件，不控制其实际功能。",
+      "在#replaceable_by_mushrooms方块标签中加入了leaf_litter。"
+    ],
+    "枯叶堆": [
+      "现在能对堆肥桶使用以堆肥，有30%的概率增加一层堆肥层。"
+    ],
+    "蘑菇方块": [
+      "现在可以在生成时替换枯叶堆。"
+    ],
+    "粉红色花簇": [
+      "回退了上个版本中的更改。现在对其使用骨粉时又会增加花的数量。"
+    ],
+    "野花簇": [
+      "现在对其使用骨粉时会先增加花的数量，待花的数量达到4后再掉落野花簇。"
+    ],
+    "方块更新": [
+      "上个快照一些未正常产生余留更新的破坏行为现在会正常更新了。"
+    ],
+    "可骑乘生物": [
+      "现在装备于其身上的鞍在掉落时能保留诸如自定义名称之类的物品属性。"
+    ],
+    "非玩家生物数据": [
+      "ArmorItems、​HandItems和​body_armor_item字段现已合并为equipment字段。",
+      "格式为每个盔甲槽位与物品堆叠的映射。",
+      "有效的盔甲槽位包括：head、​chest、​legs、​feet、​mainhand、​offhand、​body和​saddle。",
+      "此字段不存在时，实体将无盔甲。"
+    ],
+    "实体数据": [
+      "FallDistance现在改为fall_distance。"
+    ],
+    "返回传送门": [
+      "尝试放置返回传送门方块时，现在会使被替换的方块掉落。"
+    ],
+    "地物数据格式": [
+      "place_on_ground树木装饰器放置方块时，不再允许方块替换#replaceable_by_trees方块标签内的方块。",
+      "现在place_on_ground树木装饰器尝试放置方块的位置比之前低1格，导致森林和疏林恶地生物群系不再自然生成枯叶堆。"
+    ],
+    "摔落": [
+      "存储时和部分计算中的摔落高度现在使用双精度浮点数而非单精度浮点数。"
+    ],
+    "文本组件": [
+      "对悬停事件的show_text行为进行下列更改：",
+      "text字段已重命名为value。"
+    ],
+    "实体子谓词": [
+      "移除了变种实体子谓词axolotl、​fox、​mooshroom、​rabbit、​horse、​llama、​villager、​parrot、​salmon、​tropical_fish、​painting、​cat、​frog、​wolf和​pig。",
+      "其效果已被components谓词与变种实体组件的组合取代。",
+      "字段color已从实体子谓词sheep中移除。"
+    ],
+    "资源包": [
+      "将资源包版本号更改为48。",
+      "更改了pig_saddle纹理的尺寸。",
+      "与鞍相关的纹理现在被移动或拆分到了textures/entity/equipment/<实体>_saddle/saddle.png，以便装备模型调用。",
+      "这些纹理路径中的horse_skeleton和​horse_zombie现在已分别改为skeleton_horse和​zombie_horse。"
+    ],
+    "修复": [
+      "修复了42个漏洞",
+      "1.21.4前正式版的漏洞",
+      "MC-13738 — 对马、驴或骡使用隐形药水后，鞍也被隐形。",
+      "MC-80243 — 鞍不对装备其的实体应用属性修饰符。",
+      "MC-189525 — 自1.9之前的版本升级的世界中的穿装备的实体双持盔甲。",
+      "MC-190000 — 装备于马的鞍不能被其他鞍直接替换。",
+      "MC-227097 — 末地传送门删除了传送门中的方块。",
+      "MC-256469 — 隐形的骆驼不显示其鞍。",
+      "MC-257133 — 在小空间中放置带有NBT的大型画时失去同步。",
+      "MC-266912 — 将鞍装备到刚生成的马、驴、骡或骆驼时，装备鞍的音效不会播放。",
+      "MC-269637 — 马能穿戴多个鞍，但不能装备多个马铠。",
+      "MC-270192 — 某些实体的鞍在其死亡动画中一直可见。",
+      "MC-270197 — 猪和炽足兽身上的鞍在其死亡动画中一直可见。",
+      "MC-272100 — 马的纹理（horse_[brown/chestnut/creamy/white].png）中存在未使用的调色像素。",
+      "MC-272790 — 末地返回传送门中的潜影盒和其他方块未在传送门改变状态时作为物品掉落。",
+      "MC-274258 — 所有马的纹理都包含一个未使用的箱包纹理。",
+      "MC-279340 — 幼年北极熊太小了。",
+      "1.21.4的漏洞",
+      "MC-278673 — /teleport的相对于实体原始角度的X轴旋转角度限制于±90。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-279206 — 枯叶堆不能用于堆肥。",
+      "MC-279208 — 玩家不再能在按住横向移动键时开始疾跑。",
+      "MC-279211 — 潜影盒被以某些方法破坏时，能在被保留的同时掉落其中内容物，以复制物品。",
+      "MC-279213 — 蘑菇方块不能替换枯叶堆。",
+      "MC-279221 — 枯叶堆在世界生成时会替换掉树叶。",
+      "MC-279224 — 在草甸使用骨粉不会生成野花簇。",
+      "MC-279226 — 任意数量的经验球都以最小值渲染。",
+      "MC-279233 — 被破坏的潜影盒掉落其中内容物。",
+      "MC-279234 — minecraft:entity.generic.extinguish_fire音效未在实体身上的火被熄灭时播放。",
+      "MC-279238 — 死于由被烈焰人火球点燃的TNT矿车不算作被烈焰人击杀。",
+      "MC-279239 — 被激活的TNT的动量不稳定。",
+      "MC-279245 — 大多数敌对生物在合适条件下都不生成。",
+      "MC-279248 — 熔岩的碰撞箱过高。",
+      "MC-279273 — /setblock或/fill不会在只改变方块实体数据时更新客户端渲染。",
+      "MC-279281 — 从2格方块上跳下来会产生摔落伤害。",
+      "MC-279282 — 生成主人UUID不为玩家的鹦鹉会导致崩溃。",
+      "MC-279301 — 从22.00001格高而非23格高摔落的玩家死亡。",
+      "MC-279313 — 某些情况下，物品实体的动量不稳定。",
+      "MC-279314 — 弹射物在空中飞行时会轻微抽搐。",
+      "MC-279316 — 浮漂的动量不稳定。",
+      "MC-279318 — 物品在熔岩中燃烧时偶尔不播放燃烧音效。",
+      "MC-279326 — 亮起的侦测器不再在被活塞移动时发出方块更新。",
+      "MC-279339 — 斜坡铁轨的更新顺序异常。",
+      "MC-279345 — 粉红色花簇和野花簇不再能用骨粉催生。",
+      "MC-279357 — 玩家能在潜行时从边缘摔下。",
+      "MC-279459 — /setblock和其他填充方块的命令不能正常更新方块实体。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 25w03a — Minecraft.net，2025年1月15日。",
+      "尽管更新日志中称需要environment，但实际上应为batch，见MC-279538",
+      "尽管更新日志中声称为weather，但实际上只接受raining，见MC-279518",
+      "MC-279481 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

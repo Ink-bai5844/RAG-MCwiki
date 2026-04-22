@@ -1,0 +1,5 @@
+{
+  "title": "幻术师/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B9%BB%E6%9C%AF%E5%B8%88%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n袭击者共通标签，见Template:Nbt inherit/raidable/source\n*\n*SpellTicks：下一个法术可以释放的倒计时。当法术释放时设为某个正值，每游戏刻减少1直到0。"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "物品堆叠组件/damage resistant",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fdamage_resistant",
+  "text": "此模板已被弃用，因历史使用而保留。\n请使用编码格式/DataComponent代替。\nminecraft:damage_resistant 物品堆叠组件\n*\n*types：伤害类型标签，物品受到指定伤害类型标签的伤害时不会被摧毁。"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:箭捆",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%AE%AD%E6%8D%86",
+  "text": "箭捆\n类型\n消耗品\n箭捆（Arrow Bundle）是Minecraft Dungeons中的消耗品。\n获取\n打开箱子和击杀生物有概率获得箭捆。\n补给箱里必定会获得箭捆。\n惊喜礼物和回收魔咒有概率掉落箭捆。\n使用\n箭捆可以补充玩家的箭袋。补充的数量取决于武器的弹药上限和箭捆的来源。\n来源于补给箱里的数量为初始值，来源于敌人、普通箱子的数量为初始值的一半，来源于惊喜礼物和回收魔咒的数量为初始值的四分之一，来源于复制之典的箭捆数量为初始值的一半，无论箭捆来源。\n音效\n描述\n文件\n掉落\nsfx_item_arrowsDrop\n使用\nsfx_item_arrowsPickUp_soundWave\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了箭捆。\n画廊\n游戏中的箭捆掉落物\n导航"
+}

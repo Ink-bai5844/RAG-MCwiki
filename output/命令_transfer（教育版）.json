@@ -1,0 +1,5 @@
+{
+  "title": "命令/transfer（教育版）",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftransfer%EF%BC%88%E6%95%99%E8%82%B2%E7%89%88%EF%BC%89",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例、缺少历史\n此条目所介绍的内容已从教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\ntransfer\n是否可见\n隐藏\n需要的权限等级\n0\n限制条件\n无\n将智能体的指定数量的物品转移到另一个槽位里。\n语法\ntransfer <srcSlotNum：整型> <quantity：整型> <dstSlotNum：整型>\n参数\nsrcSlotNum：整型\n需要进行转移的槽位，数字为1-27。\nquantity：整型\n被转换物品的数量。\nsrcSlotNum：整型\n转换的目标槽位，数字为1-27。\n结果\n命令\n触发条件\n教育版\n任意\n命令不完整或参数未正确指定\n无法解析\n目标槽位存在其他物品或原槽位无物品\n执行失败\n不符合以上所有条件\n执行成功\n历史\n教育版\n?\n加入了/transfer。\n?\n此命令被用于转移服务器的/transfer命令取代。\n导航"
+}

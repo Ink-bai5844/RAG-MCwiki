@@ -1,0 +1,14 @@
+{
+  "title": "测试方块/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B5%8B%E8%AF%95%E6%96%B9%E5%9D%97%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source"
+    ],
+    "*": [
+      "*message：测试方块中储存的消息。",
+      "*mode：测试方块实体的模式，控制方块的功能，与其使用的纹理无关。如果设置值无效则为fail。",
+      "*powered：测试方块是否已被充能。"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "原主机版TU52、CU42、1.47、1.48、Patch 21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU52%E3%80%81CU42%E3%80%811.47%E3%80%811.48%E3%80%81Patch_21",
+  "structured_content": {
+    "默认分类": [
+      "TU52"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.8.1419.0",
+      "1.8.1419.0",
+      "1.8.1419.0"
+    ],
+    "发布时间": [
+      "2017年4月25日",
+      "◄TU51",
+      "TU53►",
+      "CU42",
+      "2017年4月25日",
+      "◄CU41",
+      "CU43►",
+      "1.47",
+      "2017年4月25日",
+      "其他版本的1.47",
+      "2017年4月25日",
+      "◄1.46",
+      "1.50►",
+      "1.47",
+      "2017年4月25日",
+      "其他版本的1.47",
+      "PlayStation 3版",
+      "◄1.45",
+      "1.49►",
+      "Patch 21",
+      "2017年4月25日",
+      "◄Patch 20",
+      "Patch 23►",
+      "TU52/CU42/1.47/1.48/Patch 21是原主机版的一次更新，发布于2017年4月25日。"
+    ],
+    "PlayStation Vita版": [
+      "◄1.45",
+      "1.49►",
+      "1.48"
+    ],
+    "混搭包": [
+      "加入Glide Beasts Track组合包（Dragon, Kraken 和 Yeti Glide 道路）。"
+    ],
+    "小游戏": [
+      "玩家在到达终点前需要通过所有关口。",
+      "在退回到主菜单之前，玩家可以在Glide单人模式玩更长时间。",
+      "减少Glide的重生延迟。",
+      "在冲过终点显示有颜色的粒子。",
+      "在Glide里面的Showdown现在显示“Hurry Up”。"
+    ],
+    "音乐": [
+      "加入新的Glide Tracks音乐。"
+    ],
+    "修复": [
+      "修复了7个漏洞"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

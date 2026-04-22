@@ -1,0 +1,33 @@
+{
+  "title": "启动器1.2.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.2.1",
+  "structured_content": {
+    "默认分类": [
+      "1.2.1"
+    ],
+    "发布时间": [
+      "2013年8月2日",
+      "2013年8月6日",
+      "2013年8月7日",
+      "其他版本的1.2.1"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.2",
+      "1.3.1►►",
+      "1.2.2►",
+      "1.2.1是一个在2013年8月2日、6日、7日多次发布的启动器版本。"
+    ],
+    "新增": [
+      "新增运行Alpha、Beta和快照时的警告。",
+      "新增Alpha版本。",
+      "5个Pre-Classic和Classic版本的Minecraft被添加进了启动器。"
+    ],
+    "修复": [
+      "MCL-464 - 意外的异常刷新版本列表/Play按钮为灰色。",
+      "MCL-1262 - 启动器无法记住上次使用的配置文件。",
+      "MCL-1395 - 1.0和1.1版本的游戏不可用。",
+      "MCL-1403 - 1.5版本的游戏不能启动，显示java.lang.ClassNotFoundException: net.minecraft.client.Minecraft。",
+      "MCL-1421 - 选择Alpha 1.2.0版本时会启动Alpha 1.2.0_02。"
+    ]
+  }
+}

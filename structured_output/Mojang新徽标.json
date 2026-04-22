@@ -1,0 +1,33 @@
+{
+  "title": "Mojang新徽标",
+  "source_url": "https://zh.minecraft.wiki/w/Mojang%E6%96%B0%E5%BE%BD%E6%A0%87",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本23w13a_or_b中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "m_banner_pattern": [
+      "Mojang新徽标（New Thing）是一幅旗帜图案，游戏内物品名称为旗帜图案。"
+    ],
+    "合成": [
+      "本段落所述内容仅在启用special_recipe规则后可用。"
+    ],
+    "织布机配方": [
+      "此段落还需添加更多图像。",
+      "请在添加后将此信息移除。",
+      "具体要求：物品栏图标",
+      "Mojang新徽标旗帜图案可以用于织布机中来将图案添加到旗帜上。其必须与一个旗帜和染料结合，使用后不会消耗自身。"
+    ],
+    "[[|]][[|]][[|]]": [
+      "SlotSprite New Thing.png：Minecraft中New Thing的精灵图[[|]]Invicon White New Thing Banner.png：Minecraft中White New Thing Banner的精灵图，链接到旗帜，描述：White New Thing BannerInvicon Light Gray New Thing Banner.png：Minecraft中Light Gray New Thing Banner的精灵图，链接到旗帜，描述：Light Gray New Thing BannerInvicon Gray New Thing Banner.png：Minecraft中Gray New Thing Banner的精灵图，链接到旗帜，描述：Gray New Thing BannerInvicon Black New Thing Banner.png：Minecraft中Black New Thing Banner的精灵图，链接到旗帜，描述：Black New Thing BannerInvicon Brown New Thing Banner.png：Minecraft中Brown New Thing Banner的精灵图，链接到旗帜，描述：Brown New Thing BannerInvicon Red New Thing Banner.png：Minecraft中Red New Thing Banner的精灵图，链接到旗帜，描述：Red New Thing BannerInvicon Orange New Thing Banner.png：Minecraft中Orange New Thing Banner的精灵图，链接到旗帜，描述：Orange New Thing BannerInvicon Yellow New Thing Banner.png：Minecraft中Yellow New Thing Banner的精灵图，链接到旗帜，描述：Yellow New Thing BannerInvicon Lime New Thing Banner.png：Minecraft中Lime New Thing Banner的精灵图，链接到旗帜，描述：Lime New Thing BannerInvicon Green New Thing Banner.png：Minecraft中Green New Thing Banner的精灵图，链接到旗帜，描述：Green New Thing BannerInvicon Cyan New Thing Banner.png：Minecraft中Cyan New Thing Banner的精灵图，链接到旗帜，描述：Cyan New Thing BannerInvicon Light Blue New Thing Banner.png：Minecraft中Light Blue New Thing Banner的精灵图，链接到旗帜，描述：Light Blue New Thing BannerInvicon Blue New Thing Banner.png：Minecraft中Blue New Thing Banner的精灵图，链接到旗帜，描述：Blue New Thing BannerInvicon Purple New Thing Banner.png：Minecraft中Purple New Thing Banner的精灵图，链接到旗帜，描述：Purple New Thing BannerInvicon Magenta New Thing Banner.png：Minecraft中Magenta New Thing Banner的精灵图，链接到旗帜，描述：Magenta New Thing BannerInvicon Pink New Thing Banner.png：Minecraft中Pink New Thing Banner的精灵图，链接到旗帜，描述：Pink New Thing Banner"
+    ],
+    "你知道吗": [
+      "Mojang新徽标图案像是新版Mojang徽标中的字母“A”，或者是游戏Among Us中的角色。",
+      "其合成材料为纸和谜之炖菜（Suspicious Stew），参考自Among Us的SUS迷因。"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "title": "基岩版声音事件",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E5%A3%B0%E9%9F%B3%E4%BA%8B%E4%BB%B6",
+  "structured_content": {
+    "默认分类": [
+      "关于Java版中的声音事件，请见“Java版声音事件”。",
+      "本条目所述内容仅适用于基岩版。",
+      "声音事件（Sound Event）是游戏播放声音使用的基础数据对象。"
+    ],
+    "绑定声音": [
+      "当一个或多个游戏内事件触发了一个声音事件时，声音系统会根据sounds.json的内容来决定播放哪个音效。sounds.json是一个由资源包的声音系统使用的文件，存储在resource_packs/vanilla/sounds中。"
+    ],
+    "sound_definitions.json": [
+      "sound_definitions.json定义了声音事件与本地文件的关系。",
+      ": 根对象。",
+      "format_version：当前值为1.14.0，表示自村庄与掠夺以来使用的标准格式。",
+      "sound_definitions：对声音事件的定义。",
+      "：单个声音事件，通常会分为一类（例如mob.endermen.stare或step.stone）。默认的声音事件会在下方列出。",
+      "category：控制声音音量滑条的分类。master、music、record、weather、hostile、neutral、player、block、bucket、bottle、ambient、voice、sound。默认值为sound。",
+      "min_distance：声音开始衰减的距离。默认值为0。",
+      "max_distance：声音完全听不见的距离。默认值为16。",
+      "sounds：声音事件所使用的具体音效。",
+      "name：该音效在资源包中的路径（不包含拓展名）。若详细定义了每个音效的具体参数，则会使用下方的组件。",
+      "name：该音效在资源包中的路径（不包含拓展名）。",
+      "stream：当该声音为流式播放时为true。默认值为false。",
+      "is3D：是否以立体声播放。",
+      "volume：声音的音量。默认值为1.0。可以是一个区间以表示范围。",
+      "pitch：声音的音高。默认值为1.0。可以是一个区间以表示范围。",
+      "weight：声音的权重，即触发当前声音事件后该音效会被播放的概率，例如值为2时相当于将该音效重复定义了1次。权重默认为1。",
+      "load_on_low_memory：是否预载。预载的音效可以在低内存设备上播放。",
+      "subtitle：该声音事件隐藏式字幕的本地化键名。"
+    ],
+    "music_definitions.json": [
+      "music_definitions.json定义了生物群系或特定游戏场景内与声音事件的关系。",
+      ": 根对象。",
+      "：生物群系或特定游戏场景名。",
+      "event_name：声音事件的命名空间ID。",
+      "max_delay：声音事件触发后经过多长时间才会播放（最大值），单位为秒。默认值为0。",
+      "min_delay：声音事件触发后经过多长时间才会播放（最小值），单位为秒。默认值为0。"
+    ],
+    "sounds.json": [
+      "sounds.json定义了游戏事件与声音事件的关系。",
+      ": 根对象。",
+      "：声音事件的集合名。值可以是individual_event_sounds、block_sounds、entity_sounds、interactive_sounds。",
+      "：二级集合名，用于表示某一类方块的共同音效集合，例如stone和wood。",
+      "volume：声音的音量。默认值为1.0。可以是一个区间以表示范围。",
+      "pitch：声音的音高。默认值为1.0。可以是一个区间以表示范围。",
+      "events：具体的声音事件命名空间ID的集合。",
+      "：系统音效类型，例如item.use.on。默认值和声音事件命名空间ID保持一致。",
+      "sound：单个声音事件命名空间ID，例如use.stone。作为简写，该参数有时候会直接以命名空间ID为值。",
+      "volume：声音的音量。默认值为1.0。可以是一个区间以表示范围。此值与二级集合的同一参数为乘积关系，以表示该声音最终的音量。",
+      "pitch：声音的音高。默认值为1.0。可以是一个区间以表示范围。此值与二级集合的同一参数为乘积关系，以表示该声音最终的音高。"
+    ],
+    "播放声音": [
+      "一个声音事件是和游戏事件联系在一起的。多个声音事件可能对应不同的游戏事件或属于不同的声音分类，但它们共用同一个声音文件。小部分的有效声音文件并没有出现于sounds.json，而其他则没有相对应的游戏事件。任何缺少游戏事件的声音事件都仅能通过/playsound命令播放。"
+    ],
+    "携带版": [
+      "1.0.4",
+      "1.0.4.1",
+      "加入了sounds.json、sound_definitons.json和music_definitons.json。"
+    ],
+    "参见": [
+      "Sounds.json/基岩版数据值 —— 原版的声音事件定义文件。"
+    ]
+  }
+}

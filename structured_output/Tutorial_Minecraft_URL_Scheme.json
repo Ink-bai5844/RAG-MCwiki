@@ -1,0 +1,50 @@
+{
+  "title": "Tutorial:Minecraft URL Scheme",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3AMinecraft_URL_Scheme",
+  "structured_content": {
+    "默认分类": [
+      "此教程仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "本教程所述内容仅适用于基岩版和​教育版。",
+      "通过URL Scheme，可以从网络浏览器启动安装在设备上的基岩版或教育版，并执行一些简单的操作。"
+    ],
+    "格式": [
+      "与普通的URL类似，Minecraft URL Scheme也有路径和参数键值对，而这些都是可选的。",
+      "如果想要启动Minecraft Preview或Beta版，则需要将minecraft://替换为minecraft-preview://。教育版则需要替换为minecraftedu://。"
+    ],
+    "基岩版": [
+      "最基础的链接会启动Minecraft而不进行任何操作：",
+      "minecraft://",
+      "启动虚拟现实，只适用于1.21.80.21之前：",
+      "minecraft://Mode/?OpenXR=true"
+    ],
+    "快速加入Realms或添加第三方服务器": [
+      "路径则指明了一些伴随Minecraft启动的操作，例如加入一个新的Realms/同意Realms邀请：",
+      "https://open.minecraft.net/pocket/realms/invite/{id}",
+      "minecraft://acceptRealmInvite?inviteID={id} （加入一个邀请码为{id}的Realms）",
+      "参数用于传递信息，正如上面的例子。",
+      "有时，参数也可以直接表示进行操作，如添加外部服务器：",
+      "minecraft://?addExternalServer=Lifeboat|sg.lbsg.net:19132 （添加名称为Lifeboat的服务器，地址为sg.lbsg.net:19132）"
+    ],
+    "直接启动市场": [
+      "minecraft://?showStoreHomeScreen=1",
+      "minecraft://?showStoreOffer=1"
+    ],
+    "启动基岩版编辑器": [
+      "minecraft://creator/?Editor=true",
+      "1.21.120.21之前：minecraft://?Editor=true"
+    ],
+    "教育版": [
+      "此段落暂无内容。",
+      "你可以帮助我们加入信息。"
+    ],
+    "缺点": [
+      "在某些Android浏览器上，你无法将它们直接输入到地址栏中打开，它们必须是网站上的链接或书签。你也无法单击GitHub中的链接。"
+    ],
+    "参考": [
+      "https://github.com/lukeeey/mcpe-docs/blob/master/docs/UrlScheme.md",
+      "Minecraft: Bedrock Edition in Virtual Reality — help.minecraft.net。",
+      "https://vanilladocument.readthedocs.io/zh_CN/latest/BedrockEdition/URLScheme/"
+    ]
+  }
+}

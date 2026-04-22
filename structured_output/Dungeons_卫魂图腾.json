@@ -1,0 +1,26 @@
+{
+  "title": "Dungeons:卫魂图腾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%8D%AB%E9%AD%82%E5%9B%BE%E8%85%BE",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Minecraft Dungeons中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "TotemOfSoulProtection": [
+      "在图腾周围创造一片区域，当你或你的盟友在区域内死亡时，将玩家复活。"
+    ],
+    "——游戏内描述": [
+      "卫魂图腾（Totem of Soul Protection）是Minecraft Dungeons中的法器，可以在玩家生命值耗尽时自动复活玩家并回复一定的生命值。"
+    ],
+    "属性": [
+      "1秒冷却时间",
+      "+1灵魂收集"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入所有资源文件，但未实装至游戏中。",
+      "1.3.2.0",
+      "删除除音效外的所有资源文件。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.7.10-pre4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.7.10-pre4",
+  "text": "1.7.10-pre4\n版本\nJava版\n类型\n预发布版\n发布时间\n2014年6月18日\n预发布版归属\n1.7.10\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n5\n资源包版本\n1\n◄◄1.7.9\n1.8►►\n◄1.7.10-pre3\n1.7.10-pre4是Java版1.7.10的第4个，也是最后一个预发布版，发布于2014年6月18日，以提供更多Realms的功能。\n新内容\n常规\nRealms\n允许将存档上传至Realms。\n加入了允许Realms的拥有者启用命令方块的选项。\n修复\n修复了2个漏洞\n上个开发版本的漏洞\nMC-56572 — Realms上的玩家菜单会被压缩至底部。\n其他漏洞\n修复一些关于未来版本兼容性的问题。\n参考\nMinecraft snapshot 14w25b & 1.7.10 pre-release（存档），来自Dinnerbone。Mojang.com，2014年6月18日。\n导航"
+}

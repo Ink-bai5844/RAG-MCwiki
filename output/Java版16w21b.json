@@ -1,0 +1,5 @@
+{
+  "title": "Java版16w21b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8816w21b",
+  "text": "16w21b\n版本\nJava版\n类型\n快照\n发布时间\n2016年5月26日\n快照归属\n1.10\n下载\n客户端（.json）\n服务端\n协议版本\n203\n数据版本\n504\n资源包版本\n2\n◄◄1.9.4\n1.10.1►►\n◄16w21a\n1.10-pre1►\n16w21b是Java版1.10的第3个，也是最后一个快照，发布于2016年5月26日，加入了新的闪烁标语，并修复了一些16w21a中的崩溃与漏洞。\n新内容\n常规\n闪烁标语\n“Rule #1: it's never my fault”\n“Replaced molten cheese with blood?”\n“Absolutely fixed relatively broken coordinates”\n“Boats FTW”\n更改\n命令格式\n/tp\n相对坐标现在基于命令执行者，而非受传送实体。\n/execute 可以用作使用原算法的替代。\n可以将玩家传送到Y坐标-4096至4096的位置（取代原先-512至512）。\n修复\n修复了5个漏洞\n上个开发版本的漏洞\nMC-102509 — 破坏方块和fallingdust粒子的颜色不正确。\nMC-102511 — 熔岩的纹理显示不正确。\nMC-102524 — 背包中物品的光照错误。\nMC-102543 — 与结构方块相关的所有东西都是黑色的。\nMC-102572 — 放置告示牌的界面是黑的。\n你知道吗\n此版本曾经在启动器中移除，但在2018年9月重新加入。\n参考\nMinecraft snapshot 16w21b（存档），来自Searge。Mojang.com，2016年5月25日。\n导航"
+}

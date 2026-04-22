@@ -1,0 +1,34 @@
+{
+  "title": "PlayStation 4版1.95",
+  "source_url": "https://zh.minecraft.wiki/w/PlayStation_4%E7%89%881.95",
+  "structured_content": {
+    "默认分类": [
+      "1.95"
+    ],
+    "版本": [
+      "PlayStation 4版"
+    ],
+    "发布时间": [
+      "2019年9月9日",
+      "◄1.94",
+      "1.95是PlayStation 4版的一个更新，发布于2019年9月9日。修复了一些漏洞。"
+    ],
+    "木头": [
+      "现在可以合成木板（MCCE-10011）。"
+    ],
+    "红石粉": [
+      "现在可以放在玻璃上（MCCE-10012）。"
+    ],
+    "修复": [
+      "修复了5个漏洞",
+      "修复了把按钮放置在门的顶部时发生的崩溃。",
+      "修复浏览烟花合成界面时发生的崩溃。",
+      "修复了石匠出售雕纹石砖的价格错误（MCCE-9978）。",
+      "修复了当铁轨下面的方块被破坏时，铁轨不会掉落的漏洞（MCCE-9653）。",
+      "修复了石匠村民购买带釉陶瓦而不是出售的漏洞。"
+    ],
+    "参考": [
+      "A bug fix patch for Minecraft: PlayStation 4 Edition is rolling out now across all regions Fix list is here，来自@4JStudios。X（曾名Twitter），2019年9月9日。"
+    ]
+  }
+}

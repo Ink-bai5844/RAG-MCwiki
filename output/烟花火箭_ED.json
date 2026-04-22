@@ -1,0 +1,5 @@
+{
+  "title": "烟花火箭/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%83%9F%E8%8A%B1%E7%81%AB%E7%AE%AD%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n弹射物共通标签，见Template:Nbt inherit/projectile/source\n*FireworksItem：发射此烟花火箭的物品，决定烟火样式和伤害。此项不存在时游戏默认使用烟花火箭物品。\n物品共通标签，见Template:Nbt inherit/itemnoslot/source\n*\n*Life：这个烟花火箭已经飞行的时间。当此值大于LifeTime时，烟花火箭爆裂。\n*\n*LifeTime：这个烟花火箭从开始飞行到爆裂的时间。其值会在烟花火箭发射时随机决定，计算公式为：10(f+1)+rand(6)+rand(7)，其中，f表示flight_duration的值，rand(x)返回[0,x−1]的随机整数。\n*ShotAtAngle：（默认为false）表示此烟花火箭是否由弩或发射器射出。如果此值为true，则烟花火箭在水平方向上会逐渐加速。"
+}

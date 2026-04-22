@@ -1,0 +1,5 @@
+{
+  "title": "告示牌/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%8A%E7%A4%BA%E7%89%8C%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\nback_text：告示牌背面的文字信息。\n*color：文字的颜色。此项不存在或无效时游戏默认为black（黑色）。\nfiltered_messages：被过滤的告示牌的文字，共含有四个元素，代表了被过滤文字的第一到第四行。当文本没有被过滤时此项不存在。\n：（文本组件）告示牌内的一行文字。\n*has_glowing_text：表示文字是否发光。\n*\n*messages：告示牌的文字，共含有四个元素，代表了文字的第一到第四行。\n：（文本组件）告示牌内的一行文字。\nfront_text：告示牌正面的文字信息。\n*color：文字的颜色。此项不存在或无效时游戏默认为black（黑色）。\nfiltered_messages：被过滤的告示牌的文字，共含有四个元素，代表了被过滤文字的第一到第四行。当文本没有被过滤时此项不存在。\n：（文本组件）告示牌内的一行文字。\n*has_glowing_text：表示文字是否发光。\n*\n*messages：告示牌的文字，共含有四个元素，代表了文字的第一到第四行。\n：（文本组件）告示牌内的一行文字。\n*\n*is_waxed：表示告示牌是否被涂蜡。涂蜡后告示牌的文字不能被修改，但允许告示牌文本中的命令执行。"
+}

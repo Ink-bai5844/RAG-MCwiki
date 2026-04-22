@@ -1,0 +1,32 @@
+{
+  "title": "游戏规则/fire spread radius around player",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Ffire_spread_radius_around_player",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "fire_spread_radius_around_player": [
+      "fire_spread_radius_around_player是控制火的更新行为的游戏规则。"
+    ],
+    "默认值": [
+      "128"
+    ],
+    "值域（JE）": [
+      "-1 – 2147483647"
+    ],
+    "行为": [
+      "若fire_spread_radius_around_player不为-1，在与任何玩家的欧几里得距离超过fire_spread_radius_around_player的值的格数的范围之外：",
+      "火不会被游戏更新状态。",
+      "火不会破坏方块。",
+      "火不会传播。",
+      "火不会熄灭。",
+      "熔岩不会产生火。",
+      "fire_spread_radius_around_player的值不能低于-1。"
+    ],
+    "Java版": [
+      "1.21.11",
+      "25w44a",
+      "加入了游戏规则fire_spread_radius_around_player，以取代allowFireTicksAwayFromPlayer和doFireTick。"
+    ]
+  }
+}

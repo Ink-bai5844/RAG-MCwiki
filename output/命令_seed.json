@@ -1,0 +1,5 @@
+{
+  "title": "命令/seed",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fseed",
+  "text": "本条目介绍的是命令。关于其他类型的种子，请见“种子”。\n本条目所述内容仅适用于Java版。\nseed\n需要的权限等级\n0（仅集成服务端）\n2（非集成服务端）\n限制条件\n无\n显示世界种子。\n语法\nseed\n结果\n永远执行成功。\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n成功时\n1\n长整型世界种子强制转换后的32位整数\n历史\nJava版\n1.3.1\n12w21a\n加入了/seed。\n1.13\n18w19a\n/seed的输出现在可以复制到剪贴板里。\n导航"
+}

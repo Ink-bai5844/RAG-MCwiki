@@ -1,0 +1,34 @@
+{
+  "title": "照片",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%85%A7%E7%89%87",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于教育版。"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "photo_item": [
+      "照片（Photo）是一种记录摄像机拍摄内容的物品。"
+    ],
+    "获取": [
+      "当拍摄的照片保存到相片簿时，可将照片导出成物品。"
+    ],
+    "用途": [
+      "类似于地图，手持照片或将其放置在物品展示框中时会在上面显示图像。照片可以通过在铁砧中重命名来添加标题，也可以在相片簿中添加标题。通过书与笔或相片簿中的“添加照片”按钮可以添加照片到其中。"
+    ],
+    "教育版": [
+      "1.17.30",
+      "1.17.30.2",
+      "加入了照片。"
+    ],
+    "正式版": [
+      "更改了照片的纹理。"
+    ],
+    "参考": [
+      "Feature Walkthrough Minecraft: Education Edition GOAT Beta (version 1.17.30)（存档） — Minecraft: Education Edition Support，2021年9月24日。",
+      "The GOAT Update Celebrates a Minecraft Milestone! — Minecraft: Education Edition，2021年11月2日。",
+      "GOAT Release Playthrough，来自Minecraft: Education Edition。YouTube，2021年12月2日。"
+    ]
+  }
+}

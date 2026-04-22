@@ -1,0 +1,27 @@
+{
+  "title": "PlayStation 3版1.51",
+  "source_url": "https://zh.minecraft.wiki/w/PlayStation_3%E7%89%881.51",
+  "structured_content": {
+    "默认分类": [
+      "“PlayStation版1.51”重定向至此。关于PlayStation Vita版的更新，请见“PlayStation Vita版1.51”。",
+      "1.51"
+    ],
+    "版本": [
+      "PlayStation 3版"
+    ],
+    "发布时间": [
+      "2017年6月7日",
+      "其他版本的1.51"
+    ],
+    "PlayStation Vita版": [
+      "◄1.50",
+      "1.52►",
+      "1.51是PlayStation 3版的一次更新，发布于2017年6月7日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "MCCE-4743 - 工作台和熔炉使游戏崩溃。（SD模式）",
+      "MCCE-4736 - 十字光标未对齐。（SD模式）"
+    ]
+  }
+}

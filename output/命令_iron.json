@@ -1,0 +1,5 @@
+{
+  "title": "命令/iron",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Firon",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\niron\n需要的权限等级\n0\n限制条件\n仅专用服务端\n在执行者处掉落4个铁锭，每6000游戏刻（5分）只能执行一次。\n语法\niron\n结果\n命令\n触发条件\nJava版\n任意\n在冷却期间执行\n执行失败\n不符合以上所有条件\n执行成功\n历史\nJava版Alpha\nv1.0.15\n加入了/iron。\nv1.2.0\n移除了/iron。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/inspectdata",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Finspectdata",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例、缺少历史\n此条目所介绍的内容已从基岩版和​教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\ninspectdata\n是否可见\n隐藏\n需要的权限等级\n未知\n限制条件\n无\n返回指定方向上方块的数据值。\n语法\ninspectdata <方向：字符串>\n参数\n方向：字符串\n指定智能体需要确认方块的数据值的方向。\n必须为一下之一：\nforward——前方。\nback——后方。\nleft——左侧。\nright——右侧。\nup——上方。\ndown——下方。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.0.5 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.5_01",
+  "text": "Alpha v1.0.5_01\n版本\nJava版\n发布时间\n2010年7月14日\n下载\n客户端（.json）\n协议版本\n10\n◄◄Alpha v1.0.4\nAlpha v1.0.6►►\n◄Alpha v1.0.5\nAlpha v1.0.5_01是Java版的一次更新，发布于2010年7月14日，主要针对Alpha v1.0.5加入的雪球和雪进行了更改。\n更改\n方块\n水\n现在会结冰了。\n物品\n雪球\n现在使用锹破坏雪块时才会掉落。\n最多可堆叠的数目从64个调整为8个。\n更改了扔雪球时的音效。\n修复\n修复了2个漏洞\n使用镐挖掘方块的最后一刻会掉落物品。\n在雪层上方的雪块不再使得其顶部消失。\n参考\nMinecraft Alpha 1.0.5_01（存档） — The Word of Notch，2010年7月14日。\n导航"
+}

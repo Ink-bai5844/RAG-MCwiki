@@ -1,0 +1,5 @@
+{
+  "title": "硫黄池",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A1%AB%E9%BB%84%E6%B1%A0",
+  "text": "关于会在地表生成的硫黄水潭，请见“硫黄涌泉”。\n本页面包含会在混沌立方中出现的内容。\n这些特性在Java版26.2的开发版本中加入。\n这些特性在基岩版26.20的开发版本中加入，需要开启实验性玩法“2026 年第 2 次更新”。\n该条目的编辑正在进行中。讨论\n请帮助我们扩充或改进它。\n硫黄池\n自然生成于\n硫黄洞穴\n包含\n空气\n硫黄\n烈性硫黄\n水\n可生成于已加载区块\n否\n硫黄池（Sulfur Pool）是一种生成在硫黄洞穴的湖泊类地物。\n生成\n硫黄池自然生成于硫黄洞穴生物群系中。\n硫黄池的外形类似于熔岩湖，但其内部的液体由水组成，湖泊的边缘由硫黄而不是石头组成。硫黄池底部可能会生成烈性硫黄。由于硫黄池的水层深度较浅，烈性硫黄上会生成气泡粒子，超出水面的部分会生成黄色烟雾粒子，以提供反胃效果。\n数据值\nID\nJava版：\n已配置的地物\n命名空间ID\n[无显示名称]\nsulfur_pool\n基岩版：\n地物\n命名空间ID\n[无显示名称]\nsulfur_pool_with_potent_sulfur\n[无显示名称]\nsulfur_pool_with_potent_sulfur_snap_to_surface_feature\n[无显示名称]\npotent_sulfur_block_feature\n[无显示名称]\npotent_sulfur_block_search_feature\n历史\n2026年3月21日\nMinecraft LIVE – March 2026中展示了硫黄池。\nJava版（即将到来）\n26.2\nsnapshot-1\n加入了硫黄池。\n基岩版（即将到来）\n26.20\n实验性玩法\n2026 年第 2 次更新\n26.20.23\n加入了硫黄池。\n导航"
+}

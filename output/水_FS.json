@@ -1,0 +1,5 @@
+{
+  "title": "水/FS",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B0%B4%2FFS",
+  "text": "水\nID名称：water\n名称\n默认值\n接受值\n描述\nfalling\nfalse\ntrue\n永远是false，无效果\n流动的水\nID名称：flowing_water\n名称\n默认值\n接受值\n描述\nfalling\nfalse\ntrue\n是否为向下流动的水。\nlevel\n1\n2\n3\n4\n5\n6\n7\n8\n水的高度。8为最高，1为最低。向下流动的水永远为8。"
+}

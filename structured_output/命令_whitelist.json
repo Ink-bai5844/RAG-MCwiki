@@ -1,0 +1,73 @@
+{
+  "title": "命令/whitelist",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fwhitelist",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少示例"
+    ],
+    "需要的权限等级": [
+      "3",
+      "4"
+    ],
+    "仅专用服务端": [
+      "此命令用于管理服务器中白名单。",
+      "在Java版中，服务器的管理员永远能够登录开启白名单验证的服务器，无论他们的名字是不是在白名单上。",
+      "在基岩版中，若开启白名单验证，则玩家必须在白名单中才能进入服务器，而与其管理员权限无关。",
+      "白名单储存在whitelist.json[仅Java版]或allowlist.json[仅基岩版]文件。"
+    ],
+    "whitelist add <targets>（Java版）": [
+      "allowlist add <name: string>（基岩版）",
+      "将玩家档案添加到白名单。指定的玩家不需要在线上。"
+    ],
+    "allowlist list（基岩版）": [
+      "列出白名单中的玩家档案。"
+    ],
+    "whitelist off（Java版）": [
+      "在此服务器上禁用白名单验证。"
+    ],
+    "whitelist on（Java版）": [
+      "在此服务器上启用白名单验证。"
+    ],
+    "allowlist reload（基岩版）": [
+      "从硬盘中重新读取whitelist.json或allowlist.json[仅基岩版]中的白名单列表（当其在Minecraft外被修改时使用）。"
+    ],
+    "whitelist remove <targets>（Java版）": [
+      "allowlist remove <name: string>（基岩版）",
+      "将玩家档案从白名单中移除。指定的玩家不需要在线上。"
+    ],
+    "参数": [
+      "JE: <targets>：game_profile",
+      "指定要从白名单中添加或删除的玩家档案。",
+      "指定一个或多个游戏（玩家）档案，必须是玩家名或玩家类型的目标选择器。若服务器开启在线模式，在命令执行时玩家名将要求真实存在。",
+      "BE: name: string：basic_string",
+      "指定要从白名单中添加或删除的玩家名。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。"
+    ],
+    "基岩版": [
+      "1.16.0"
+    ],
+    "N/A": [
+      "0",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "Java版Beta": [
+      "1.3",
+      "加入了/whitelist。"
+    ],
+    "正式版": [
+      "加入了/whitelist。",
+      "1.17.0",
+      "1.16.230.50",
+      "重命名为/allowlist。",
+      "重命名为/whitelist。",
+      "1.18.10",
+      "1.18.10.26",
+      "再次重命名为/allowlist，并且/whitelist仍然可用。"
+    ]
+  }
+}

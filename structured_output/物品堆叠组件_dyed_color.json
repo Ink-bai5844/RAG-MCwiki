@@ -1,0 +1,14 @@
+{
+  "title": "物品堆叠组件/dyed color",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fdyed_color",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。",
+      "dyed_color 物品堆叠组件：物品的颜色。只使用后24位，每个颜色通道占用8位，按RGB依次存储。",
+      "：R（红）颜色分量。",
+      "：G（绿）颜色分量。",
+      "：B（蓝）颜色分量。"
+    ]
+  }
+}

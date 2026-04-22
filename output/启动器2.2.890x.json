@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.2.890x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.890x",
+  "text": "2.2.890x\n程序类型\nMinecraft启动器\n发布时间\n2022年1月18日\n◄◄2.2.854x\n2.2.1032x►►\n2.2.8908（Windows）、2.2.8907（Windows，Microsoft Store版）、2.2.8909（macOS）或2.2.8906（Linux）是一次启动器更新，发布于2022年1月18日。\n更改\n更改了“配置”选项卡中复选框的行为。\n更改了Mojang账户已迁入微软账户时退出登录的流程。\n修复\nMCL-14369 - 启动游戏时出现错误提示，同时部分版本出现缺失。\nMCL-16049 - 启动启动器时出现灰屏。\nMCL-17664 - 设为某些语言的启动器无法启动。\nMCL-18431 - 皮肤预览不显示透明像素。\nMCL-19830 - MacOS版本的启动器在启动时出现崩溃。\nMCL-19984 - 有有效的Xbox Game Pass订阅时，Java版会出现演示模式。\nMCL-20247 - 不能更改游戏版本。\nMCL-20282 - 卸载基岩版的警告信息复用了Minecraft Dungeons的。\n导航"
+}

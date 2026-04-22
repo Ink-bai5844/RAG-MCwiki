@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/spectators generate chunks",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fspectators_generate_chunks",
+  "text": "本条目所述内容仅适用于Java版。\nspectators_generate_chunks\n名称\n允许旁观者生成地形\n描述\n无\n分类（JE）\n玩家\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nspectators_generate_chunks\nspectators_generate_chunks是控制是否允许旁观模式下的玩家生成区块的游戏规则。\n行为\n当spectators_generate_chunks为false时，旁观模式下的玩家不会生成区块。\n历史\nJava版\n1.9\n15w37a\n加入了游戏规则spectatorsGenerateChunks。\n1.21.11\n25w44a\n将游戏规则spectatorsGenerateChunks重命名为spectators_generate_chunks。\n导航"
+}

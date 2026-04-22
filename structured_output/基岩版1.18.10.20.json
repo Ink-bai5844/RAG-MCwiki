@@ -1,0 +1,235 @@
+{
+  "title": "基岩版1.18.10.20",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.10.20",
+  "structured_content": {
+    "默认分类": [
+      "1.18.10.20"
+    ],
+    "版本码": [
+      "Android：",
+      "951801020（armeabi-v7a，29）",
+      "961801020（x86，29）",
+      "971801020（arm64-v8a，29）",
+      "981801020（x86_64，29）"
+    ],
+    "发布时间": [
+      "Xbox One, Windows 10, Android - 2021年11月18日"
+    ],
+    "测试版归属": [
+      "1.18.10"
+    ],
+    "协议版本": [
+      "476",
+      "◄◄1.18.2",
+      "1.18.11►►",
+      "1.18.10.21►",
+      "beta 1.18.10.20是基岩版1.18.10的首个测试版，发布于2021年11月18日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "方块": [
+      "现在靠近方块边缘的水会正确流动。",
+      "火不再能在避雷针上点燃。",
+      "现在蜡烛会以正确的宽度与下方的墙连接。（MCPE-141156）",
+      "改进了方块实体（如沙子和沙砾）下落时的动画。（MCPE-142010）",
+      "结构方块中的大型垂滴叶、紫晶芽和紫水晶簇不再会被破坏。",
+      "紫水晶簇现在会在其支撑方块被破坏时正确地被破坏。（MCPE-126076）",
+      "铜块及其变种现在会在下界中氧化。（MCPE-134954）",
+      "大型垂滴叶现在只能放置在黏土、砂土、泥土、耕地、草方块、苔藓块、缠根泥土、菌丝体和灰化土上。（MCPE-123392）",
+      "滴水石锥现在只能放置在方块的完整一面上。",
+      "发光地衣现在会正确被放置。",
+      "游戏规则FireDamage设置为false时，岩浆块不再会对玩家造成伤害。（MCPE-99718）",
+      "玩家现在可以在脚手架中使用表情。（MCPE-147624）",
+      "玩家重生或起床后不再会出现移动问题。"
+    ],
+    "大型垂滴叶": [
+      "现在只能放置在黏土、砂土、泥土、耕地、草方块、苔藓块、菌丝体、灰化土和缠根泥土上。"
+    ],
+    "洞穴藤蔓": [
+      "略微更改了纹理，去除了一个灰色像素点。"
+    ],
+    "红石比较器": [
+      "更改了激活状态的基部纹理。"
+    ],
+    "营火": [
+      "更改了两种营火的物品形式纹理，将火焰部分整体调低了1格像素。"
+    ],
+    "门": [
+      "更改了金合欢木门、白桦木门、深色橡木门、铁门、丛林木门、橡木门和云杉木门的物品形式纹理。",
+      "橡木门的新纹理暂时不会在游戏中显示。"
+    ],
+    "物品展示框": [
+      "更改了两种物品展示框的物品形式纹理，以匹配其方块形式的边框木板纹理。"
+    ],
+    "磁石指针": [
+      "更改了纹理以匹配Java版。"
+    ],
+    "音乐唱片": [
+      "调整了播放音乐唱片Pigstep和otherside并连接红石比较器时输出的红石信号强度，以匹配Java版。"
+    ],
+    "告示牌": [
+      "更改了各种告示牌的物品形式纹理，以匹配其方块形式的柄部纹理。"
+    ],
+    "生物": [
+      "minecraft:rideable中的controlling_seat字段现在会按预期在船和马上运行。",
+      "骑乘着其他生物并走向目标的生物不再会在其路径上来回摇动。",
+      "匹配工具条件现适用于生物（实验性）。",
+      "现在村民、兔子和狐狸在冰封山峰或尖峭山峰中会以其对应的雪地变种生成。（MCPE-119561）",
+      "山羊现在会正确生成于尖峭山峰和冰冻山峰。（MCPE-146886）"
+    ],
+    "凋灵": [
+      "更改了凋灵之首的纹理，以匹配纹理更新后的凋灵头部纹理。"
+    ],
+    "世界生成": [
+      "修复了Realms中恶地和冻洋生物群系的生成与常规世界不一致的问题。",
+      "现在升级旧世界后，旧区块中的Y=0至4之间的基岩层会正确被深板岩代替。（MCPE-147373）",
+      "深层铜矿石现在会生成在溶洞中。（MCPE-144800）"
+    ],
+    "深板岩": [
+      "现在会在主世界的Y=1到Y=7之间过渡生成，而非之前的Y=-7到Y=-1。"
+    ],
+    "闪烁标语": [
+      "将“[this splash text has been delayed until part 2]”闪烁标语改为“[this splash text is now available]”。",
+      "加入了“Don't feed chocolate to parrots!”闪烁标语。"
+    ],
+    "技术性": [
+      "修复了自定义食物的行为不会复制在访客的客户端上的问题。",
+      "修复了动画控制器引用其自身作为一种“动画”时可能发生的崩溃。",
+      "/spreadplayers命令被指定高范围参数时游戏不再会自动退出。（MCPE-137793）",
+      "修复了执行/tag命令时游戏性能下降的漏洞。（MCPE-139609）",
+      "修复了左侧无有效实体或物品时，箭头运算符会返回0，但不是整个表达式返回0的问题。",
+      "修复了生物碰撞箱的宽度和高度设置为负数时可能发生的崩溃。",
+      "修复了常加载区域有时会跳过一刻的问题。（MCPE-119312）",
+      "现在分屏游戏的第2个玩家可查看内容日志历史面板，而不会导致游戏崩溃。",
+      "修复了实体文档中的许多条目都缺少“Description”的问题。",
+      "修复了实体文档中的一些错别字和不一致处。",
+      "通过添加网络保存或加载标签以修复BlockPartVisibilityComponent在多人游戏中的问题。（MCPE-141908）"
+    ],
+    "数据驱动方块": [
+      "更新了BlockExplosionResistance文档。",
+      "更新了BlockFrictionComponent文档。",
+      "更新了BlockMaterialInstances文档。",
+      "更新了BlockBreathabilityComponent文档。",
+      "更新了CraftingTableComponent文档。",
+      "更新了BlockLightFilterComponent文档。",
+      "将BlockLightDescription的JSON名称由minecraft:block_light_absorption更改为Minecraft:block_light_filter，字段名称由block_light_absorption更改为block_light_filter。"
+    ],
+    "数据驱动实体": [
+      "为behavior.move_to_liquid和​behavior.move_to_block加入了AI目标文档。",
+      "为缺少参数的behavior.tempt、​behavior.rise_to_liquid_level和​behavior.random_fly加入了AI目标文档。",
+      "为缺少参数的movement.sway加入了组件文档。"
+    ],
+    "数据驱动物品": [
+      "更新了BlockCollisionComponentDescription文档。",
+      "将BlockCollisionComponentDescription的JSON名称由entity_collision更改为block_collision。",
+      "更新了FuelItemComponent文档。",
+      "将DamageableItemComponent重命名为DurabilityItemComponent。",
+      "更新了BlockRaycastComponent文档。",
+      "更新了FoodItemComponent文档。",
+      "将SaturationModifier使用的数据类型由字符串更改为浮点数。"
+    ],
+    "地物生成": [
+      "优化了紫晶洞地物的生成，并降低了生成紫晶洞地物的计算成本。"
+    ],
+    "GameTest框架（实验性）": [
+      "将mojang-minecraft:Worldobject重命名为mojang-minecraft:world。",
+      "World仍然存在，但其现在是类型而不是world的实例。",
+      "移除了mojang-minecraft:Commands，并为dimension、​entity和​player加入了runCommand方法。",
+      "mojang-minecraft:ItemStack"
+    ],
+    "物品使用事件": [
+      "加入了事件World.event.beforeItemUse。",
+      "物品被使用前触发，可取消。",
+      "加入了事件World.event.itemUse。",
+      "物品被使用且未取消之前的事件时触发。",
+      "加入了事件World.event.beforeItemUseOn。",
+      "物品作用为方块前触发，可取消。",
+      "加入了事件World.event.itemUseOn。",
+      "物品作用为方块且未取消之前的事件时触发。",
+      "需要与自定义物品配合运行的定义事件：",
+      "加入了事件World.event.beforeItemDefinitionEvent。",
+      "处理物品定义事件前触发，可取消。"
+    ],
+    "加入了事件World.event.itemDefinitionEvent": [
+      "处理物品定义事件且未取消之前的事件时触发。",
+      "加入了方法triggerEvent(eventName : String)",
+      "若事件有指定eventName，则会触发ItemStack上的事件，类似于物品JSON文件中的定义。",
+      "mojang-minecraft:Entity"
+    ],
+    "加入了runCommand方法": [
+      "以实体的形式执行命令。",
+      "加入了dimension属性。",
+      "获取实体所在的维度。",
+      "加入了函数addTag(tag: string): bool。",
+      "为实体添加标签。若标签不存在，则返回true。",
+      "加入了函数hasTag(tag: string): bool函数。",
+      "若实体带有标签，则返回true。",
+      "加入了函数removeTag(tag: string): bool。",
+      "移除实体所带有的标签。若标签已移除，则返回true。",
+      "加入了函数getTags(): string[]",
+      "返回实体带有的所有标签。",
+      "为Entity加入了target属性。",
+      "target表示该Entity当前锁定的Entity目标，用于使AI锁定目标。",
+      "加入了函数getEntitiesFromViewVector(options: EntityRaycastOptions): Entity[]。",
+      "获取所有自实体视线矢量与射线相交的实体。",
+      "加入了函数getBlockFromViewVector(options: BlockRaycastOptions): Block。",
+      "获取首个自实体视线矢量与射线相交的方块。",
+      "mojang-minecraft:Dimension",
+      "加入了runCommand方法。",
+      "在一个维度中执行命令。",
+      "加入了函数getEntitiesFromRay(pos: Location, direction: Location, options: EntityRaycastOptions): Entity[]。",
+      "获取所有自延伸方向开始与射线相交的实体。",
+      "加入了函数getBlockFromRay(pos: Location, direction: Location, options: BlockRaycastOptions) : Block。",
+      "获取首个自延伸方向位置开始与射线相交的方块。",
+      "mojang-gametest:Test",
+      "加入了getDimensionto。",
+      "获取执行GameTest的维度。",
+      "mojang-gametest:ScriptSimulatedPlayer",
+      "加入了函数giveItem(itemStack: ItemStack, selectSlot: boolean)。",
+      "加入了函数setItem(itemStack: ItemStack, selectSlot: boolean, slot: number)。"
+    ],
+    "GameTestExtensions": [
+      "移除了函数giveItem。"
+    ],
+    "游戏内容": [
+      "修复了HUD上的物品冷却在视觉上并不会半透明的问题。（MCPE-55206）",
+      "海洋和沼泽生物群系中的废弃传送门不再包含水，并且其现在会在无水源时生成。",
+      "游戏规则选项“爆炸破坏”被关闭时，使用/summon命令生成的TNT不再会爆炸。（MCPE-49044）",
+      "将冰霜行者的影响范围锁定为8格，以避免导致服务器无响应。",
+      "农民村民现在最多能够捡起数量不超过8组的物品。（MCPE-123412）",
+      "现在手持玩家标记相对偏移的地图时会根据屏幕的长宽之比，从而使标记接近于屏幕边缘并保持总是可见。",
+      "修复了敌对生物刷怪笼在其所在区块被重新加载时，其有时会停止生成生物的问题。（MCPE-142285）",
+      "现在又可以解锁“强大的胃”成就了。（MCPE-146036）",
+      "修复了结构方块在加载结构时会无限生成相同实体的问题。（MCPE-137617）",
+      "玩家不再会被自己所穿戴的荆棘附魔盔甲反伤。（MCPE-142735）",
+      "现在吃下食物时又会获得相应效果了。"
+    ],
+    "图形": [
+      "修复了在使用鞘翅滑翔时睡觉的视角问题。（MCPE-117339）",
+      "修复了从其他维度返回主世界后光源会被移除的光照漏洞。（MCPE-145828）",
+      "更新了一些方块和物品的纹理以修复纹理同步问题。（MCPE-127539）"
+    ],
+    "市场": [
+      "修复了购买Minecoin后，直到重启游戏为止才会刷新其数量的问题。"
+    ],
+    "用户界面": [
+      "修复了在暂停界面向上滚动时无法打开成就界面的问题。",
+      "现在使用自定义分辨率对焦时，暂停界面上的“邀请加入游戏”和成就按钮拥有白色边框。",
+      "修复了市场侧边栏上内容板块的滚动高度，以使不同分辨率的设备都会显示滚动条。",
+      "修复了添加玩家为好友时其用户名旁会多出“-”的问题。（MCPE-105464）"
+    ],
+    "原版趋同": [
+      "调整了音乐唱片otherside输出的红石信号强度以匹配Java版。（MCPE-145751）",
+      "调整了音乐唱片Pigstep输出的红石信号强度以匹配Java版。（MCPE-74030）",
+      "现在拉弓时的摇晃动画仅在拉满弓箭时播放。"
+    ],
+    "命令": [
+      "/effect命令不再拥有多余的empty参数。（MCPE-62903）"
+    ],
+    "性能与稳定性": [
+      "加入了新的内容日志消息以协助获取BDS崩溃报告。（BDS-12751）"
+    ],
+    "参考": [
+      "Minecraft Beta - 1.18.10.20 (Xbox One/Windows 10/Android) — Minecraft Feedback，2021年11月18日。",
+      "MCPE-148502 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

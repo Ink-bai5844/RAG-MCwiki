@@ -1,0 +1,32 @@
+{
+  "title": "命令/gettopsolidblock",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgettopsolidblock",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少示例、缺少历史",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "获取指定位置下方的顶部非空气方块的位置。"
+    ],
+    "语法": [
+      "gettopsolidblock <position: x y z>"
+    ],
+    "参数": [
+      "position: x y z：CommandPosition",
+      "指定要获取的位置。",
+      "必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "执行失败": [
+      "0"
+    ]
+  }
+}

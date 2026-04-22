@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.1585x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.1585x",
+  "text": "2.1.1585x\n程序类型\nMinecraft启动器\n发布时间\n2020年7月1日\n测试版本\n2个测试版\n（查看全部）\n◄◄2.1.1516x\n2.1.1610x►►\n2.1.15850（Windows与Dungeons）、2.1.15851（macOS）或2.1.15852（Linux）是启动器的一次更新，发布于2020年7月1日。\n更改\n移除了GConf包对Linux系统的依赖。\n启用动态内容缓存。\n提升Minecraft Dungeons的下载进程控制水平。\n现在可以更好地应对与存储空间相关的错误。\n当卸载游戏时，考虑创建新的Minecraft Dungeons存档文件夹。\n在安装游戏期间加入了预留的空间。\n在Windows上，根据需要的“客户端区域”确定启动器窗口的尺寸。\n为Minecraft Dungeons增加了DLC栏。\n从按钮中移除外部链接图标。\n在Dungeons News高亮对话框中添加“阅读更多”按钮。\nMake entitlement fetching a bit more resilient to failures.\n改变了Minecraft Dungeons新闻卡的样式。\n修复\n修复了在Mac OS更新启动器后无法启动的问题。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "属性/实体交互距离",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E5%AE%9E%E4%BD%93%E4%BA%A4%E4%BA%92%E8%B7%9D%E7%A6%BB",
+  "text": "本条目所述内容仅适用于Java版。\n实体交互距离\n类型\n正面\n默认值\n3\n值域\n0 – 64\n属性ID\nentity_interaction_range\n实体交互距离（Entity Interaction Range）是控制玩家与实体可以交互的最远距离的属性。\n行为\n此属性的计算值代表了玩家可以与实体交互的最远距离。此距离并非玩家到实体的最近距离，而是玩家的眼部位置到指定实体碰撞箱的最短距离。\n适用的生物\n生物\n基值\n玩家\n3\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\ncreative_mode_entity_range\nadd_value (Op0)\n2\n否\n玩家处于创造模式\n历史\nJava版\n1.20.5\n23w51a\n加入了实体交互距离属性，ID为generic.entity_interaction_range。\n24w03a\n实体交互距离属性ID被重命名为player.entity_interaction_range。\n1.21\n24w21a\n创造模式额外实体交互距离修饰符的ID现在是creative_mode_entity_range，此前为98491EF6-97B1-4584-AE82-71A8CC85CF73。\n1.21.2\n24w33a\n实体交互距离属性的ID从player.entity_interaction_range重命名为entity_interaction_range。\n导航"
+}

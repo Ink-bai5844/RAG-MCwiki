@@ -1,0 +1,32 @@
+{
+  "title": "基岩版1.21.73",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.73",
+  "structured_content": {
+    "默认分类": [
+      "1.21.73"
+    ],
+    "服务端版本": [
+      "1.21.73.01"
+    ],
+    "内部版本号": [
+      "1.21.7301.0"
+    ],
+    "发布时间": [
+      "Windows - 2025年4月11日"
+    ],
+    "协议版本": [
+      "786",
+      "◄◄1.21.70",
+      "1.21.90►►",
+      "◄1.21.72",
+      "1.21.80►",
+      "1.21.73是基岩版的一次热修复更新，仅发布到Windows平台，发布于2025年4月11日，修复了一个漏洞。此版本与1.21.70至1.21.72相互兼容。"
+    ],
+    "修复": [
+      "修复了启动游戏时发生的崩溃。（MCPE-212385）"
+    ],
+    "参考": [
+      "Minecraft - 1.21.72 (Bedrock) — Minecraft Feedback，2025年4月8日。“Update 11 April 2025: A small additional hotfix (1.21.73) is rolling out for Windows and servers, addressing some minor backend fixes.”"
+    ]
+  }
+}

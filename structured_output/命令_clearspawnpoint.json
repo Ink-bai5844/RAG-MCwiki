@@ -1,0 +1,41 @@
+{
+  "title": "命令/clearspawnpoint",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fclearspawnpoint",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "清除玩家的重生点。"
+    ],
+    "语法": [
+      "clearspawnpoint [player: target]"
+    ],
+    "参数": [
+      "player: target：CommandSelector<Player>",
+      "指定被删除出生点的玩家。如果没有指定，默认为命令执行者。",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。"
+    ],
+    "基岩版": [
+      "1.16.100",
+      "1.16.100.57",
+      "加入了/clearspawnpoint命令。"
+    ],
+    "无法解析": [
+      "player: target不能解析为一个或多个在线玩家"
+    ],
+    "执行失败": [
+      "player: target未指定且该命令执行者不是一个玩家",
+      "player: target的出生点已被删除"
+    ],
+    "失败时": [
+      "0"
+    ],
+    "示例": [
+      "删除半径5格内的所有玩家的出生点：/clearspawnpoint @a[r=5]"
+    ]
+  }
+}

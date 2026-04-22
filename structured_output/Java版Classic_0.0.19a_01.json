@@ -1,0 +1,43 @@
+{
+  "title": "Java版Classic 0.0.19a 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.19a_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.19a_01"
+    ],
+    "发布时间": [
+      "2009年6月19日"
+    ],
+    "al_version": [
+      "6.1",
+      "◄◄0.0.19a",
+      "0.0.20a►►",
+      "0.0.19a_02►",
+      "0.0.19a_01是Java版的一次更新，发布于2009年6月19日。"
+    ],
+    "玻璃": [
+      "更改了纹理。",
+      "不再是半透明的。",
+      "这意味着当被选中时、在地下时和透过水观察时玻璃不会消失。"
+    ],
+    "海绵": [
+      "不再会自动消失。"
+    ],
+    "修复": [
+      "修复了2个漏洞"
+    ],
+    "参考": [
+      "6月19日的IRC记录：IRC logs on Archive.org; #minecraft.20090619.log. 2009年6月19日 (UTC−5).",
+      "6月22日的IRC记录：IRC logs on Archive.org; #minecraft.20090622.log. 2009年6月22日 (UTC−5).",
+      "6月19日的IRC记录: \"P6:28:41 <Snowman> Notch, dont forget to change the version number :D\" (23:28:41 UTC)",
+      "6月19日的IRC记录: \"P6:36:49 <Fishlips> loving the new glass\" (23:36 UTC)",
+      "6月19日的IRC记录: \"P5:59:14 <Notch> I might just revert the glass to the horrible non-transparent texture from the screenshot\" [...] \"P5:59:49 <Evil-Ville> I actually liked the old glass more Notch\" [...] \"P6:19:32 <Notch> I'm switching glass to a non-semi-trasparent texture\" [...] \"P6:25:51 <Redshift> yeah windows definitely need to be less opaque, personally i think they should have no texture, and just a slight hint of opacity\" (22:59至23:25 UTC) | \"the screenshot\" refers to Glass (looks pretty bad..) and sponge!（存档） — The Word of Notch，2009年6月16日。 | The opaque glass texture refers to the 0.0.19a texture.",
+      "6月22日的IRC记录: P1:17:31 <Haruhi2> the version that was semi-opaque looked more like ice than glass [...] then the version after that was fine [...] then he changed it a bit and now it doesn't really look like either",
+      "6月19日的IRC记录: P6:18:11 <Notch> should I take out the random vanish? [...] consider it done",
+      "6月19日的IRC记录: P6:00:40 <liq3> OH I see. Make sure thehre's a level of water above both sponges and it'll flood the remaining one. [...] Notch: You going to be able to hotfix it? [...] P6:02:10 <Notch> maybe.."
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Camps & Clubs",
+  "source_url": "https://zh.minecraft.wiki/w/Camps_%26_Clubs",
+  "structured_content": {
+    "Camps & Clubs更新的横幅": [
+      "Camps & Clubs是教育版的一次次要更新，其首个开发版1.14.60于2021年4月27日发布。此次更新对度假营、家庭学校、课后项目、非盈利组织及其他群体开放购买。",
+      "此次更新的首个正式版1.14.70于2021年5月26日发布。"
+    ],
+    "生物": [
+      "为NPC加入了10种新皮肤。",
+      "5种建筑工人主题的NPC皮肤",
+      "5种教师主题的NPC皮肤"
+    ],
+    "常规": [
+      "为暂停菜单加入了当前访问的图书馆课程的相关Flipgrid话题、Forms问卷或Web工具的链接。",
+      "加入了启用世界hosts的选项，启用后可向其他用户分享链接以使之直接加入世界。",
+      "现在可以为Flipgrid话题加入资源链接。",
+      "为设置菜单加入了“Classroom”标签，可在其中修改世界常规设置。",
+      "现在可从学习管理系统中启动游戏或直接打开特定世界。"
+    ],
+    "参考": [
+      "Purchasing Options for Minecraft: Education Edition - Camps and Clubs Beta (version 1.14.60) — Minecraft Education Edition Support。",
+      "Feature Walkthrough Minecraft: Education Edition Camps & Clubs Beta (version 1.14.60) — Minecraft Education Edition Support。",
+      "Camps and Clubs Beta Feedback — Minecraft Education Edition Support。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "凋灵/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%87%8B%E7%81%B5%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n*\n*Invul：在凋灵初次生成后无敌状态的剩余时间。不大于0时代表凋灵不处于无敌状态。"
+}

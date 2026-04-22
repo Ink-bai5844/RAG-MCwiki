@@ -1,0 +1,5 @@
+{
+  "title": "Earth:斑点羊",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E6%96%91%E7%82%B9%E7%BE%8A",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n斑点羊\n最大生命值\n8（）\n类型\n被动型\n尺寸\n高度：1.3格\n宽度：0.9格\n实体ID\n?\n可从这只苍白的羊身上获得油亮的棕色羊毛。\n——Minecraft Earth内描述\n斑点羊（Flecked Sheep）是绵羊的变种，属于被动型生物。它们有着罕见级的稀有度。\n获取\n斑点羊作为罕见级别的生物在羊可点击物中有4.8%的概率获得。\n行为\n主条目：绵羊 § 行为\n与普通的绵羊相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n斑点羊在死亡时掉落：\n1 生羊肉\n1 棕色羊毛\n对其使用剪刀会掉落：\n1-3 棕色羊毛\n音效\n描述\n文件\n空闲时随机播放此音效\nmob.sheep.say\n死亡\nmob.sheep.say\n受伤\nmob.sheep.say\n行走\nmob.sheep.step\n对斑点羊使用剪刀\nmob.sheep.shear\n数据值\nID\n名称\n命名空间ID\n本地化键名\n斑点羊\nflecked_sheep\nentity.flecked_sheep.name\n历史\nMinecraft Earth\n0.17.0\n加入了斑点羊。\n导航"
+}

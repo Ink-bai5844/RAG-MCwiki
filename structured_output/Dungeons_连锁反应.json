@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:连锁反应",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94",
+  "structured_content": {
+    "ChainReaction": [
+      "击中目标后有机会发射5只朝各方向的箭。"
+    ],
+    "——魔咒描述": [
+      "连锁反应（Chain Reaction）是Minecraft Dungeons中的强力魔咒。触发概率随等级提升依次递增10%。"
+    ],
+    "I": [
+      "10%概率触发",
+      "2 附魔点数"
+    ],
+    "II": [
+      "20%概率触发",
+      "3 附魔点数"
+    ],
+    "III": [
+      "30%概率触发",
+      "4 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了连锁反应。"
+    ]
+  }
+}

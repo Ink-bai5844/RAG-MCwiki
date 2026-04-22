@@ -1,0 +1,14 @@
+{
+  "title": "Mcmeta",
+  "source_url": "https://zh.minecraft.wiki/w/Mcmeta",
+  "structured_content": {
+    "默认分类": [
+      "mcmeta是一种在资源包和数据包内以JSON存储的文件格式。",
+      "其可用于：",
+      "指定纹理的元数据，包括："
+    ],
+    "村民纹理": [
+      "pack.mcmeta — 指定资源包和数据包的元数据。"
+    ]
+  }
+}

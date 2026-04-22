@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.6.0.30",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.6.0.30",
+  "text": "1.6.0.30\n版本\n基岩版\n版本码\nAndroid：\n841060030（armeabi-v7a，22）\n842060030（x86，22）\n871060030（armeabi-v7a，24）\n872060030（x86，24）\n类型\n测试版\n发布时间\nXbox One、Windows 10、Android - 2018年8月8日\n测试版归属\n1.6.0\n协议版本\n282\n◄◄1.5.3\n1.6.1►►\n◄1.6.0.8\nbeta 1.6.0.30是1.6.0的第5个测试版，发布于2018年8月8日，修复了一些漏洞。\n修复\n修复了4个漏洞\nMCPE-34385 — 1.6的测试版本中某些Android设备上生物和玩家缺失了部分肢体。\nMCPE-34694 — 使用控制器快速移动物品栏中的一组物品时不再会遗漏物品。\n其他漏洞\n修复了游玩时发生的一些崩溃。\n修复了加入游戏并下载希腊神话纹理包时发生的崩溃。\n参考\nMinecraft Beta - 1.6.0.30 (Xbox One/Windows 10/Android) — Minecraft Feedback。\n导航"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Java版Alpha v1.0.8 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.8_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "Alpha v1.0.8_01"
+    ],
+    "发布时间": [
+      "2010年7月20日"
+    ],
+    "协议版本": [
+      "10",
+      "◄◄Alpha v1.0.6",
+      "Alpha v1.0.11►►",
+      "◄Alpha v1.0.8",
+      "Alpha v1.0.9►",
+      "Alpha v1.0.8_01是Java版的一次更新，发布于2010年7月20日，修复了一个导致游戏崩溃的漏洞。"
+    ],
+    "其他": [
+      "移除了一些调试代码，从而使游戏不易崩溃。"
+    ],
+    "参考": [
+      "Minecraft Alpha 1.0.8（存档） — The Word of Notch，2010年7月20日。"
+    ]
+  }
+}

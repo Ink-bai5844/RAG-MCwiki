@@ -1,0 +1,259 @@
+{
+  "title": "命令/data",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdata",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "获取、合并、修改或移除方块、实体或命令存储的NBT数据。"
+    ],
+    "用法": [
+      "当前只能对方块实体、实体、命令存储执行/data命令，并且无法修改（包括设置和删除）玩家的NBT数据。若需修改玩家物品栏数据，可使用/item命令。"
+    ],
+    "获取NBT数据": [
+      "若在聊天栏执行/data get，则会将获取到的NBT进行字符串化，变为SNBT显示在聊天栏："
+    ],
+    "金色。一些数值还可能尾随类型后缀，此时以": [
+      "红色渲染。"
+    ],
+    "字符串内容被渲染为": [
+      "亮绿色。"
+    ],
+    "其余一些表示语法结构的符号被渲染为": [
+      "白色。",
+      "获取到的数据可以通过/execute store ...存储，进而可将列表、数组和字符串的长度存入记分板。更多信息参见§ 输出。"
+    ],
+    "设置NBT数据": [
+      "/data modify ... set ...用于设置NBT数据。",
+      "对于不存在的标签值，将自动添加为新的NBT数据。例如对{foo: 1}，执行/data modify ... newbar set value 1b将得到{foo: 1, newbar:1b}"
+    ],
+    "修改NBT数据": [
+      "/data merge和/data modify ... merge ...只能对复合标签操作。",
+      "同名标签值将被覆盖。例如对{foo: 1, pol: 1.2f}合并{foo: [1, 2, 3], bar: true}，将得到{foo: [1, 2, 3], bar: true, pol:1.2f}。",
+      "/data modify ... prepend ...、/data modify ... insert ...和/data modify ... append ...，在没有接string时，只能对列表和数组操作。",
+      "prepend表示插入到头部，这导致所有元素后移并使得总元素数加1。",
+      "insert表示插入到一个元素的位置前。位置通过索引确定。",
+      "append表示插入到尾部，这导致总元素数加1。"
+    ],
+    "[": [
+      "1,",
+      "2,",
+      "3,"
+    ],
+    "正索引值": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "负索引值": [
+      "-4",
+      "-3",
+      "-2",
+      "-1",
+      "在内部，索引值将转换为正索引值参与运算。正负索引值关系满足正索引值=负索引值+元素总数+1。",
+      "/data modify ... set string ...、/data modify ... prepend string ...、/data modify ... insert string ...和/data modify ... append string ...将从数据源获取字符串并对其进行切片，然后将切片结果存储到目标中。",
+      "对命令存储minecraft:test{S: \"abc\", L:[]}执行/data modify storage test L append string storage test S 0 1将得到{S: \"abc\", L:[\"a\"]}（取出字符串的第一个字符）。"
+    ],
+    "移除NBT数据": [
+      "/data remove用于移除指定NBT数据。",
+      "可以一次性移除列表内的全部元素但保留列表本身（变为空列表）。"
+    ],
+    "语法": [
+      "/data有四个子命令（get、merge、modify、remove）。"
+    ],
+    "... get (block <targetPos>|entity <target>|storage <target>) <path> [<scale>]": [
+      "获取（方块实体、实体或命令存储的）NBT数据。若未指定<path>（NBT路径），则返回目标的整个NBT。若指定<scale>，则将目标NBT的数值结果乘以<scale>后再返回。"
+    ],
+    "... merge (block <targetPos>|entity <target>|storage <target>) <nbt>": [
+      "将指定的<nbt>数据合并到指定（方块实体、实体或命令存储的）NBT数据。"
+    ],
+    "... modify (block <targetPos>|entity <target>|storage <target>) <targetPath> ...": [
+      "修改指定（方块实体、实体或命令存储的）NBT。"
+    ],
+    "... append ...": [
+      "在指定列表或数组的末尾增加元素。"
+    ],
+    "... insert <index> ...": [
+      "在指定列表或数组的指定元素位置前插入元素。"
+    ],
+    "... merge ...": [
+      "将一个复合标签与指定的复合标签合并。若存在同名标签，则后者覆盖前者。"
+    ],
+    "... prepend ...": [
+      "在指定列表或数组开头插入元素。"
+    ],
+    "... set ...": [
+      "将指定NBT标签覆盖为新的值。若指定NBT标签不存在，将同时创建该NBT标签。"
+    ],
+    "... from (block <sourcePos>|entity <source>|storage <source>) [<sourcePath>]": [
+      "使用特定方块实体、实体或命令存储的NBT标签作为数据来源。"
+    ],
+    "... string (block <sourcePos>|entity <source>|storage <source>) <sourcePath> <start> [<end>]": [
+      "使用特定方块实体、实体或命令存储中的字符串或数字类型（将会先转换为字符串）标签的子字符串作为数据来源（即进行切片）。对于正值，若省略<start>则从字符串第0个字符开始，若省略<end>则到最后一个字符为止，负值亦然。"
+    ],
+    "... value <value>": [
+      "使用<value>作为数据来源。"
+    ],
+    "... remove (block <targetPos>|entity <target>|storage <target>) <path>": [
+      "删除指定NBT。",
+      "精简版："
+    ],
+    "以多种方式展示语法": [
+      "简化的语法树："
+    ],
+    "... remove <target> <path>": [
+      "上述可代入参数有："
+    ],
+    "<source> = (block <sourcePos> | entity <source> | storage <source>)": [
+      "详细的语法树："
+    ],
+    "... storage <target> <path>": [
+      "压缩的语法树："
+    ],
+    "/data (get (block <targetPos>|entity <target>|storage <target>) [<path>] [<scale>]|merge (block <targetPos>|entity <target>|storage <target>) <nbt>|modify (block <targetPos>|entity <target>|storage <target>) <targetPath> (append|insert <index>|merge|prepend|set) (from (block <sourcePos>|entity <source>|storage <source>) [<sourcePath>]|string (block <sourcePos>|entity <source>|storage <source>) [<sourcePath>] [<start>] [<end>]|value <value>)|remove (block <targetPos>|entity <target>|storage <target>) <path>)": [
+      "展开版："
+    ],
+    "参数": [
+      "<targetPos>：block_pos",
+      "指定一个方块实体的坐标，以将此方块实体作为NBT操作的目标。",
+      "表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。",
+      "<target>：entity（仅entity <target>模式）",
+      "指定一个实体作为NBT操作的目标。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "<target>：resource_location（仅storage <target>模式）",
+      "指定一个命令存储作为NBT操作的目标。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "<path>：nbt_path",
+      "指定要获取或移除的NBT标签的路径。",
+      "必须为NBT路径。",
+      "<scale>：double",
+      "指定缩放倍率，用以将获取到的数值乘上该倍率后再输出。",
+      "必须为双精度浮点数。",
+      "<nbt>：nbt_compound_tag",
+      "指定要合并到操作目标中的NBT复合标签。",
+      "必须为SNBT格式的复合标签。",
+      "<targetPath>：nbt_path",
+      "指定操作目标中具体要操作的NBT标签的路径。对于/data (modify|remove) ...，允许路径选取多个NBT标签；对于/data get ...，路径应选取单个NBT标签。",
+      "必须为NBT路径。",
+      "<index>：integer",
+      "指定一个列表或数组索引，以表示列表或数组中的某个具体位置。非负时，从左端开始，向右递增，依次为0、1、2……；为负数时，从最右端开始，向左端递减，依次为-1、-2、-3……。",
+      "必须为32位整数。",
+      "<sourcePos>：block_pos",
+      "指定一个方块实体的坐标，以将此方块实体作为NBT数据来源。",
+      "表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。",
+      "<source>：entity（仅entity <source>模式）",
+      "指定一个实体作为NBT数据来源。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "<source>：resource_location（仅storage <source>模式）",
+      "指定一个命令存储作为NBT数据来源。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "<sourcePath>：nbt_path",
+      "指定数据来源中具体要获取的NBT标签的路径。",
+      "必须为NBT路径。",
+      "<start>：integer",
+      "要从源字符串中提取的首个字符的索引值（从0开始），负数表示从末尾开始计数。",
+      "必须为32位整数。"
+    ],
+    "<end>": [
+      "要从源字符串中排除的首个字符的索引值（从0开始），负数表示从末尾开始计数。",
+      "必须为32位整数。",
+      "<value>：nbt_tag",
+      "指定一个NBT标签作为来源数据。",
+      "必须为SNBT格式的任意类型NBT标签。"
+    ],
+    "Java版": [
+      "1.13",
+      "17w45b",
+      "加入了/data。",
+      "18w03a",
+      "带有路径的/data get现在适用于非数字的值。",
+      "1.14",
+      "18w43a",
+      "加入了/data modify。",
+      "1.15",
+      "19w38a",
+      "加入了命令存储。",
+      "加入了storage <命名空间ID>作为来源或目标。",
+      "1.19.4",
+      "23w03a",
+      "加入了string数据源。",
+      "1.20",
+      "pre1",
+      "string下的<start>和<end>现在接受负值，表示从字符串末尾开始计数。",
+      "pre2",
+      "现在无效的<start>或<end>会导致命令失败而不是抛出未处理的异常。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "获得的是数字类型的标签": [
+      "1"
+    ],
+    "获得的是列表或数组标签": [
+      "1"
+    ],
+    "获得的是字符串标签": [
+      "1"
+    ],
+    "获得的是复合标签": [
+      "1"
+    ],
+    "示例": [
+      "获取执行者的饱和度："
+    ],
+    "datagetentity@sfoodSaturationLevel": [
+      "使10格内最近的物品实体无法被玩家捡起：",
+      "datamodifyentity@n[type=item,distance=..10]PickupDelaysetvalue-1",
+      "获取随机物品实体的Y轴位置：",
+      "datagetentity@e[type=item,limit=1,sort=random]Pos[1]",
+      "获取最近玩家快捷栏第一格物品的命名空间ID：",
+      "datagetentity@pInventory[{Slot:0b}].id",
+      "将距离坐标(0, 64, 0)最近的海豚的护甲属性设置为20：",
+      "datamodifyentity@n[x=0,y=64,z=0,type=dolphin]attributes[{id:\"minecraft:armor\"}].basesetvalue20",
+      "将位于(1, 64, 1)处容器内的第一个物品设置为钻石块（保留原有的其他NBT）：",
+      "datamodifyblock1641Items[0].idsetvalue\"minecraft:diamond_block\"",
+      "将最近的僵尸副手物品的掉落概率调整为80%，主手物品的掉落概率调整为0%：",
+      "datamergeentity@n[type=zombie]{drop_chances:{offhand:0.8f,mainhand:0.0f}}",
+      "将距离最近的矿车中的方块模型改为切石机（效果如右图所示，以此法更改实体数据的矿车没有切石机的功能，但仍然可以正常搭载生物）：",
+      "datamergeentity@n[type=minecart]{CustomDisplayTile:1b,DisplayState:{Name:\"stonecutter\",Properties:{facing:\"west\"}},DisplayOffset:-4}",
+      "向命名空间ID为test:test的命令存储合并一段NBT数据：",
+      "datamergestoragetest:test{input:{arg1:233},output:{fun_res1:0}}",
+      "将位于(0, 64, 0)的箱子的NBT中的Items列表中的第一个元素添加至位于(2, 64, 0)的箱子的NBT中的Items列表的尾部，作为该列表的理论上的最后一个元素（事实上，该列表会因为箱子内槽位物品的改变而重新排列，排列顺序以每个元素中的Slot标签的值为准）：",
+      "datamodifyblock2640Itemsappendfromblock0640Items[0]",
+      "为位于(0, 64, 0)的箱子中的第一个物品添加/修改damage标签，值为700。存在两种示例达到相同效果：",
+      "datamodifyblock0640Items[0].componentsmergevalue{damage:700}",
+      "datamodifyblock0640Items[0].components.damagesetvalue700",
+      "将位于(2, 64, 0)的箱子中的第一个物品（设其位于第一个槽位）的复合标签添加至第一个槽位已有物品的位于(0, 64, 0)的箱子中的Items列表的理论尾部（实际上，前者会覆盖后者，即：将后者箱子的第一个槽位的物品替换为前者箱子的第一个槽位的物品）：",
+      "datamodifyblock0640Itemsappendfromblock2640Items[0]",
+      "使用set+string修饰方法将位于(0, 64, 0)箱子中的第一个物品的id替换为(2, 64, 0)中的第一个物品的该标签：",
+      "datamodifyblock0640Items[0].idsetstringblock2640Items[0].id0",
+      "从buffer取第一个字符到cur_char，然后清除buffer中的第一个字符。",
+      "datamodifystoragewiki:stringcur_charsetstringstoragewiki:stringbuffer01datamodifystoragewiki:stringbuffersetstringstoragewiki:stringbuffer1",
+      "从args.input取所有元素，添加到args.output头部。",
+      "datamodifystoragewiki:testargs.outputprependfromstoragewiki:testargs.input[]"
+    ],
+    "double n = (double)value;": [
+      "int output = n < (int)n ? (int)n - 1 :(int)n;",
+      "参见MC-259032。"
+    ],
+    "double n = (double)value * scale;": [
+      "int output = n < (int)n ? (int)n - 1 :(int)n;",
+      "参见MC-259032。",
+      "MC-260602 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

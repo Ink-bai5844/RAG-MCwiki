@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.121",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.121",
+  "text": "1.21.121\n版本\n基岩版\n服务端版本\n1.21.121.1\n内部版本号\nAndroid：1.21.121.1\nPlayStation 4：3.24\nPlayStation 5：1.034.000\nWindows：1.21.12101.0\n版本码\nAndroid：\n952112101（armeabi-v7a，35）\n962112101（x86，35）\n972112101（arm64-v8a，35）\n982112101（x86_64，35）\niOS/iPadOS：\n879406403\n发布时间\nChromeOS/Android, iOS/iPadOS - 2025年11月4日\nFire, PlayStation, Nintendo Switch, Windows, Xbox - 2025年11月5日\n下载\n服务端\nWindowsLinux\n协议版本\n859\n◄◄1.21.111\n1.21.130►►\n◄1.21.120\n1.21.122►\n1.21.121是基岩版的一次热修复更新，在ChromeOS/Android和iOS/iPadOS平台上发布于2025年11月4日，在除ChromeOS/Android和iOS/iPadOS外的平台上发布于2025年11月5日，修复了一些漏洞。此版本与1.21.120相兼容。\n修复\n输入\n修复了在Windows平台上打开任务管理器的情况下回到游戏会导致光标卡在屏幕中央的漏洞。（MCPE-229549）\n修复了在Windows平台上的另一个窗口获得焦点时，游戏小部件会与光标产生交互的漏洞。（MCPE-229548）\n修复了在Windows平台上关闭GUI并单击任意鼠标按键后，相机视角会突然移到随机方向的漏洞。（MCPE-229848）\n恢复了Windows平台上对来自输入法的输入的支持。（MCPE-229246）\n性能与稳定性\n修复了使用数据驱动渲染器时发生的崩溃。\n修复了在PlayStation 5平台上叠加多个大型附加包时因内存使用过多而发生的崩溃。\n用户界面\n修复了资源包设置在被更改时不会在游戏内生效的漏洞。（MCPE-229024）\n参考\nMinecraft - 1.21.121 (Bedrock) — Minecraft Feedback，2025年11月4日。\n导航"
+}

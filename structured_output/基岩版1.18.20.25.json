@@ -1,0 +1,156 @@
+{
+  "title": "基岩版1.18.20.25",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.20.25",
+  "structured_content": {
+    "默认分类": [
+      "1.18.20.25"
+    ],
+    "版本码": [
+      "Android：",
+      "951802025（armeabi-v7a，30）",
+      "961802025（x86，30）",
+      "971802025（arm64-v8a，30）",
+      "981802025（x86_64，30）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, Android, iOS/iPadOS - 2022年2月9日"
+    ],
+    "测试版归属": [
+      "1.18.30"
+    ],
+    "协议版本": [
+      "491",
+      "◄◄1.18.12",
+      "1.18.31►►",
+      "◄1.18.20.23",
+      "1.18.20.27►",
+      "beta 1.18.20.25（Xbox/Windows/Android）、Preview 1.18.20.26（iOS/iPadOS/Xbox/Windows）是基岩版1.18.30的第3个测试版，发布于2022年2月9日，在实验性玩法中调整了一些特性，并修复了一些漏洞。"
+    ],
+    "/placefeature": [
+      "用于在指定位置上放置一个已配置地物。",
+      "由于此命令尚未完全实现，下个测试版有可能会移除此命令。"
+    ],
+    "船": [
+      "更改了云杉木船的物品纹理。",
+      "新纹理暂时不会在游戏中显示。"
+    ],
+    "生物": [
+      "修复了拥有抗火效果的生物无法免疫火焰伤害的问题。",
+      "如乘船等情况下的生物不再能应用JumpToBlockGoal。（MCPE-150750）"
+    ],
+    "海龟": [
+      "现在会跟随垂直方向上手持海草的玩家。"
+    ],
+    "游戏内容": [
+      "现在放置紫水晶簇时会将其附着方块上的流动的水移除。（MCPE-148394）",
+      "回退了对生物在珊瑚扇上的寻路问题的修复。",
+      "调整了玩家饥饿值的消耗速度以匹配Java版。（MCPE-56031）",
+      "现在玩家疾跑或游泳时会以正确的速度消耗饥饿值。",
+      "显著降低了玩家跳跃时消耗的饥饿值。",
+      "现在可以在行为包中调整饥饿值的消耗速度。"
+    ],
+    "饥饿": [
+      "调整了玩家饥饿值的消耗速度以匹配Java版。"
+    ],
+    "游泳": [
+      "0",
+      "0.01"
+    ],
+    "疾跑": [
+      "0",
+      "0.1"
+    ],
+    "挖掘方块": [
+      "0.025",
+      "0.005"
+    ],
+    "跳跃": [
+      "0.4",
+      "0.05"
+    ],
+    "每次跳跃": [
+      "现在可以在行为包中调整饥饿值的消耗速度。"
+    ],
+    "攻击实体": [
+      "0.3",
+      "0.1"
+    ],
+    "疾跑时跳跃": [
+      "1.6",
+      "0.2"
+    ],
+    "RenderDragon": [
+      "再次禁用（仅Android平台）。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“荒野更新”、“香草实验”、“即将推出的创作者功能”和“应用测试框架”子选项后才可使用。"
+    ],
+    "青蛙卵": [
+      "从下方观察时不再会隐形。"
+    ],
+    "蛙明灯": [
+      "不再会随机旋转。",
+      "更改了纹理。"
+    ],
+    "山羊角": [
+      "现在山羊掉落山羊角时会发出音效。",
+      "现在玩家在第一人称视角下使用山羊角会显示吹奏动画。"
+    ],
+    "青蛙": [
+      "现在会跟随垂直方向上手持黏液球的玩家。"
+    ],
+    "技术性": [
+      "现在覆盖迷雾设置时会默认使用原版的生物群系特定迷雾设置。",
+      "在客户端完成加入前触发的标题命令现在会正确显示，而不是被忽略。",
+      "修复了光线追踪资源包会在退出已开启RTX的存档时过早被卸载的问题。"
+    ],
+    "BlockInventoryComponent": [
+      "修复了访问大型箱子中的物品时会出现崩溃或不一致的问题。",
+      "加入了nameTag属性。",
+      "加入了id属性。",
+      "为内置维度ID加入了包含常量的MinecraftDimensionTypes。",
+      "加入了spawnItem，用于在维度中生成ItemStack。",
+      "向实体公开了下列组件：",
+      "minecraft:can_climb",
+      "minecraft:can_fly",
+      "minecraft:can_power_jump",
+      "minecraft:fire_immune",
+      "minecraft:floats_in_liquid",
+      "minecraft:is_dyable",
+      "minecraft:is_baby",
+      "minecraft:is_charged",
+      "minecraft:is_chested",
+      "minecraft:is_hidden_when_invisible",
+      "minecraft:is_ignited",
+      "minecraft:is_illager_captain",
+      "minecraft:is_saddled",
+      "minecraft:is_shaking",
+      "minecraft:is_sheared",
+      "minecraft:is_stackable",
+      "minecraft:is_stunned",
+      "minecraft:is_tamed",
+      "minecraft:wants_jockey"
+    ],
+    "功能域": [
+      "功能域定义现在存储于行为包中，并会从行为包中被读取，而不是作为存档目录的一部分。"
+    ],
+    "用户界面": [
+      "现在玩家死亡时会重置其潜行状态，以防止玩家重生后一直保持潜行状态。",
+      "新的创建新世界UI中的资源包选项卡现已可用。"
+    ],
+    "原版趋同": [
+      "渔夫村民现在会根据其生物群系服饰而出售不同种类的船。",
+      "牧师村民现在会出售荧石而不是荧石粉。",
+      "武器匠出售附魔铁剑所需的级别更改为新手级别。",
+      "盔甲匠收购钻石所需的级别更改为老手级别。"
+    ],
+    "命令": [
+      "现在使用/playanimation命令时，纸娃娃和物品栏中的玩家会正确更新。（MCPE-137353）"
+    ],
+    "参考": [
+      "Minecraft Beta - 1.18.20.25 (Xbox / Windows / Android) — Minecraft Feedback，2022年2月9日。",
+      "@MCPE4theBeacon Not quite ready for full implementation. You might see it go away in the next beta, but the team is still working hard on it!，来自@MattGartzke。X（曾名Twitter）。",
+      "MCPE-152262 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

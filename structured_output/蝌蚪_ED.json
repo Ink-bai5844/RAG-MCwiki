@@ -1,0 +1,16 @@
+{
+  "title": "蝌蚪/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9D%8C%E8%9A%AA%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ],
+    "*": [
+      "*Age：该蝌蚪的年龄，每游戏刻增加1。当大于等于24000游戏刻（20分）时，蝌蚪会长大成青蛙。",
+      "*AgeLocked：表示蝌蚪的年龄是否不会随时间自然增长。",
+      "*FromBucket：表示此蝌蚪是否曾被从桶中放出。如果为true，蝌蚪不会自然删除。"
+    ]
+  }
+}

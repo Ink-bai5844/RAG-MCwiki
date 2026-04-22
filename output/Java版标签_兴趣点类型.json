@@ -1,0 +1,5 @@
+{
+  "title": "Java版标签/兴趣点类型",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E5%85%B4%E8%B6%A3%E7%82%B9%E7%B1%BB%E5%9E%8B",
+  "text": "本条目所述内容仅适用于Java版。\n兴趣点标签（POI Tags）是兴趣点类型的组合。\n使用\n兴趣点标签在游戏内部用于快速定位，与兴趣点类似。其也可以被命令/locate poi定位。\n当前版本\nacquirable_job_site\n村民可获取职业的点。\n#acquirable_job_site（13项）\narmorer\nbutcher\ncartographer\ncleric\nfarmer\nfisherman\nfletcher\nleatherworker\nlibrarian\nmason\nshepherd\ntoolsmith\nweaponsmith\nbee_home\n蜜蜂的栖息地。\n#bee_home（2项）\nbeehive\nbee_nest\nvillage\n村庄需具备的兴趣点。\n#village（3项）\n#acquirable_job_site\nhome\nmeeting\n历史\nJava版\n1.19\n22w19a\n加入了兴趣点标签：#acquirable_job_site、​#bee_home和​#village。\n导航"
+}

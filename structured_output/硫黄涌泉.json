@@ -1,0 +1,118 @@
+{
+  "title": "硫黄涌泉",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A1%AB%E9%BB%84%E6%B6%8C%E6%B3%89",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是会在地表生成的硫黄水潭。关于生成在地下的硫黄湖泊，请见“硫黄池”；关于仅由单格水或熔岩方块构成的地物，请见“涌泉”。",
+      "本页面包含会在混沌立方中出现的内容。",
+      "这些特性在Java版26.2的开发版本中加入。",
+      "这些特性在基岩版26.20的开发版本中加入，需要开启实验性玩法“2026 年第 2 次更新”。"
+    ],
+    "该条目的编辑正在进行中。讨论": [
+      "请帮助我们扩充或改进它。"
+    ],
+    "否": [
+      "硫黄涌泉（Sulfur Spring）是一种生成在硫黄洞穴的地物，其会延伸到地表，在地表形成小型的硫黄水潭。"
+    ],
+    "生成": [
+      "硫黄涌泉自然生成于硫黄洞穴生物群系中。",
+      "类似于杜鹃树，硫黄涌泉不局限于在洞穴内生成，其会生成一个长长的“管道”连接到地表，并在地表上形成小型的湖泊。硫黄涌泉由硫黄组成，地表的湖泊中会生成烈性硫黄。"
+    ],
+    "种类": [
+      "硫黄涌泉在地表上的部分有4个不同尺寸的变种，分别为小型、中型、大型和特大型。"
+    ],
+    "图像": [
+      "sulfur_spring_small_1_feature",
+      "spring/sulfur_spring_small_1",
+      "32 硫黄",
+      "1 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_small_2_feature",
+      "spring/sulfur_spring_small_2",
+      "34 硫黄",
+      "2 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_small_3_feature",
+      "spring/sulfur_spring_small_3",
+      "34 硫黄",
+      "1 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_small_4_feature",
+      "spring/sulfur_spring_small_4",
+      "33 硫黄",
+      "2 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_medium_1_feature",
+      "spring/sulfur_spring_medium_1",
+      "56 硫黄",
+      "3 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_medium_2_feature",
+      "spring/sulfur_spring_medium_2",
+      "55 硫黄",
+      "4 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_medium_3_feature",
+      "spring/sulfur_spring_medium_3",
+      "62 硫黄",
+      "4 水",
+      "1 烈性硫黄",
+      "1 岩浆块",
+      "sulfur_spring_large_1_feature",
+      "spring/sulfur_spring_large_1",
+      "86 硫黄",
+      "7 水",
+      "2 烈性硫黄",
+      "2 岩浆块",
+      "sulfur_spring_large_2_feature",
+      "spring/sulfur_spring_large_2",
+      "97 硫黄",
+      "8 水",
+      "2 烈性硫黄",
+      "2 岩浆块",
+      "sulfur_spring_extra_large_1_feature",
+      "spring/sulfur_spring_extra_large_1",
+      "100 硫黄",
+      "10 水",
+      "3 烈性硫黄",
+      "3 岩浆块"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "[无显示名称]": [
+      "sulfur_spring_extra_large_1_feature",
+      "sulfur_spring_large_1_feature",
+      "sulfur_spring_large_2_feature",
+      "sulfur_spring_medium_1_feature",
+      "sulfur_spring_medium_2_feature",
+      "sulfur_spring_medium_3_feature",
+      "sulfur_spring_small_1_feature",
+      "sulfur_spring_small_2_feature",
+      "sulfur_spring_small_3_feature",
+      "sulfur_spring_small_4_feature"
+    ],
+    "rooted_sulfur_spring": [
+      "基岩版："
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "snapshot-1",
+      "加入了硫黄涌泉。"
+    ],
+    "基岩版（即将到来）": [
+      "26.20"
+    ],
+    "实验性玩法": [
+      "2026 年第 2 次更新",
+      "26.20.23",
+      "加入了硫黄涌泉。"
+    ]
+  }
+}

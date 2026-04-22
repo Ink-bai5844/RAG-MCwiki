@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 20100207-1101",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_20100207-1101",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Indev\n版本\nJava版\n发布时间\n2010年2月7日\n下载\n客户端（.json）\nal_version\n1.086\n◄◄0.31\nMinecraft Infdev►►\n◄Indev 20100207-1057\nIndev 20100207-1647►\nMinecraft Indev的一个版本发布于2010年2月7日。\n更改\n方块\n玻璃\n现在会阻止光线和雨通过。\n耕地\n现在非完整方块放在其上时也会变成泥土。\n水\n现在会破坏非固体方块了，尽管这样不会掉落任何物品。\n常规\n其他\n将音效系统修改为使用OpenAL。\n参考\nAnd software sound is now gone（存档） — The Word of Notch，2010年2月7日。\n导航"
+}

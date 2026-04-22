@@ -1,0 +1,79 @@
+{
+  "title": "命令/tag",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftag",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是适用于单个实体的记分板标签。关于Java版中与注册表有关的标签文件，请见“Java版标签”。"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "管理单个实体的记分板标签。在Java版中，一个实体拥有的标签数不能超过1024个。"
+    ],
+    "Java版": [
+      "1.13",
+      "17w45a",
+      "加入了/tag。"
+    ],
+    "tag <targets> add <name>": [
+      "为目标添加一个标签。"
+    ],
+    "tag <targets> remove <name>": [
+      "移除目标的一个标签。"
+    ],
+    "tag <targets> list": [
+      "列出目标所拥有的所有标签。"
+    ],
+    "基岩版": [
+      "tag <entity: target> add <name: string>",
+      "为目标添加一个标签。",
+      "tag <entity: target> remove <name: string>",
+      "移除目标的一个标签。",
+      "tag <entity: target> list",
+      "列出目标所拥有的所有标签。",
+      "1.9.0",
+      "1.9.0.2",
+      "加入了/tag。"
+    ],
+    "参数": [
+      "JE：<targets>：entity",
+      "BE：entity: target：WildcardCommandSelector<Actor>",
+      "指定要操作的实体目标。",
+      "在Java版中，必须为玩家名、目标选择器或UUID。",
+      "在基岩版中，必须为一个目标选择器、一个玩家名，或者用一个*来代表所有正被记分板跟踪的实体。",
+      "JE：<name>：string",
+      "BE：name: string：basic_string",
+      "指定要被添加或被移除的标签名称。",
+      "必须为字符串。在Java版中，必须为单个词，允许的字符包括：-、+、.、_、A-Z、a-z、0-9。在基岩版中，必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。"
+    ],
+    "无法解析": [
+      "<targets>或者entity: target未能选中至少一个实体（指定名称的玩家必须在线上）"
+    ],
+    "执行失败": [
+      "0",
+      "0"
+    ],
+    "/tag ... add ...": [
+      "指定的所有实体都满足以下条件中的至少一个："
+    ],
+    "已拥有指定标签": [
+      "指定实体已拥有1024个标签[仅Java版]"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "示例": [
+      "给执行者添加std标签：/tag @s add std",
+      "给所有手持火焰弹的玩家添加std标签：",
+      "Java版：/tag @a[nbt={SelectedItem:{id:\"minecraft:fire_charge\"}}] add std",
+      "基岩版：/tag @a[hasitem={item=fire_charge,location=slot.weapon.mainhand}] add std",
+      "移除所有带有std标签的玩家的std标签：/tag @a[tag=std] remove std",
+      "列出所有处于旁观模式的玩家拥有的标签：/tag @a[gamemode=spectator] list[仅Java版]或/tag @a[m=spectator] list[仅基岩版]"
+    ]
+  }
+}

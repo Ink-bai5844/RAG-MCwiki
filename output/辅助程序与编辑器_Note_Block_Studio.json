@@ -1,0 +1,5 @@
+{
+  "title": "辅助程序与编辑器/Note Block Studio",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2FNote_Block_Studio",
+  "text": "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。\nNote Block Studio\n作者\nDavid Andrei（原）\nHielkeMinecraft（续）\nShinkoNet\nBentroen\nOctoFlare\n平台\n编写于\nGameMaker Studio\n最新版本\n3.3.4（原）\n3.11.0（续）\n发布日期\n2011-10-18\n（3.3.4版本：2018-01-31）\n（3.11.0版本：2024-12-14）\n大小\n安装器：18.7 MB\n软件：18.3 MB\n版权\nMIT\n源代码\n无（原） GitHub（续）\n兼容\nJava版1.12 - Java版1.13.2（原）\nJava版1.14及更高（续）\n链接\n网站社区\nNote Block Studio（以前称为Minecraft Note Block Studio、Minecraft Song Planner）是一款Minecraft音乐编辑器。通过它，你可以制作复杂的音符盒音乐，且无需任何红石知识。若无需将制作的音乐导入Minecraft，还能在软件内放置超过音符盒2个八度音域的音符。此外，软件提供自定义乐器和指定对应声音的选项。\n该软件允许导入MIDI（Musical Instrument Digital Interface 乐器数字接口）文件和使用MIDI设备；导出MCEdit Schematic文件和NBT文件，这使得用MIDI语言编写任何歌曲成为可能，且能轻松导入音符盒。\n软件还支持将歌曲导出为MP3、WAV等音频文件，以及可供游戏内欣赏的数据包。\n该软件可在此处下载。"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/disableRaids",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FdisableRaids",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\ndisableRaids\n名称\n禁用袭击\n描述\n无\n分类（JE）\n生物\n值类型\n布尔值\n默认值\nfalse\n值域（JE）\n?\n游戏规则ID\ndisableRaids\ndisableRaids是控制是否禁用袭击的游戏规则。\n行为\n当disableRaids为true时：\n袭击之兆在持续时间结束后不会触发袭击。不祥之兆仍会转化为袭击之兆。\n世界上正在进行的袭击会立刻停止。\n历史\nJava版\n1.14.3\npre3\n加入了游戏规则disableRaids。\n1.21.11\n25w44a\n移除了游戏规则disableRaids，并以raids取代。\n参考\nMC-270655 — “游戏规则disableRaids未阻止不祥之兆转化为袭击之兆” — 漏洞状态为“有意为之”。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.0.25",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.0.25",
+  "text": "1.21.0.25\n版本\n基岩版\n服务端版本\n1.21.0.25\n版本码\nAndroid：\n952100025（armeabi-v7a，34）\n962100025（x86，34）\n972100025（arm64-v8a，34）\n982100025（x86_64，34）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年5月8日\n测试版归属\n1.21.0\n下载\n服务端\nWindowsLinux\n协议版本\n685\n◄◄1.20.81\n1.21.1►►\n◄1.21.0.24\n1.21.0.26►\nbeta 1.21.0.25（ChromeOS/Android）、Preview 1.21.0.25（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.0的第6个测试版，发布于2024年5月8日，修复了一些漏洞。\n更改\n方块\n石化橡木台阶\nID由与普通橡木台阶相同的oak_slab更改为petrified_oak_slab。\n这意味着石化橡木台阶再次能通过命令放置或获取。\n常规\n服务器列表\n在新的服务器列表UI中加入了今日消息（MOTD），会在精选服务器的详情中显示。\n修复\n性能与稳定性\n修复了部分纹理包无法加载到世界中的问题。（MCPE-180918）\n试炼刷怪笼\n现在被进入不祥状态的试炼刷怪笼移除的生物会掉落之前从地上捡起的物品。\n现在配置为幼年僵尸的试炼刷怪笼会正确生成幼年僵尸。\n石化橡木台阶\nstone_block_slab的橡木外观变种（aux值为2）现在被扁平化为新的方块minecraft:petrified_oak_slab。（MCPE-180964）\n该修复不会将之前测试版本中已被转换的台阶还原为石化橡木台阶。\n物品\n修复了在部分市场世界中放置画时可能导致纹理丢失的问题。现在放置画时不会选择版本高于当前会话版本的画作。\n参考\nMinecraft Beta & Preview - 1.21.0.25 — Minecraft Feedback，2024年5月8日。\n导航"
+}

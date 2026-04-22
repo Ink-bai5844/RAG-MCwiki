@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:偏转",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%81%8F%E8%BD%AC",
+  "structured_content": {
+    "Deflecting": [
+      "有概率让飞过来的弹射物偏转。"
+    ],
+    "——魔咒描述": [
+      "偏转（Deflect）是Minecraft Dungeons中的魔咒。有机会免疫弹射物的伤害并使其反弹，反弹后的弹射物会造成原始数值的伤害。触发概率随魔咒等级提升而提高。"
+    ],
+    "I": [
+      "25% 概率触发",
+      "1 附魔点数"
+    ],
+    "II": [
+      "35% 概率触发",
+      "2 附魔点数"
+    ],
+    "III": [
+      "45% 概率触发",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了偏转。",
+      "1.5.0.0",
+      "触发概率由20%/40%/60%调整为25%/35%/45%"
+    ]
+  }
+}

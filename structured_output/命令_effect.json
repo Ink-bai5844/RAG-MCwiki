@@ -1,0 +1,106 @@
+{
+  "title": "命令/effect",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Feffect",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "管理玩家及其他实体上的状态效果。"
+    ],
+    "Java版": [
+      "1.5",
+      "13w09b",
+      "加入了/effect命令。",
+      "1.6.1"
+    ],
+    "effect clear <targets> [<effect>]": [
+      "移除一种或所有效果。"
+    ],
+    "effect give <targets> <effect> <seconds> <amplifier> [<hideParticles>]": [
+      "给予一种效果。"
+    ],
+    "基岩版": [
+      "effect <player: target> <effect: Effect> [seconds: int]",
+      "effect <player: target> <effect: Effect> <seconds: int> [amplifier: int]",
+      "effect <player: target> <effect: Effect> <seconds: int> <amplifier: int> [hideParticles: Boolean]",
+      "effect <player: target> <effect: Effect> infinite [amplifier: int] [hideParticles: Boolean]",
+      "给予一种效果。",
+      "effect <player: target> clear [effect: Effect]",
+      "移除一种或所有效果。",
+      "1.21.40",
+      "1.21.40.20",
+      "加入了为状态效果设置无限持续时间的语法：/effect <player: target> <effect: Effect> infinite [amplifier: int]、",
+      "/effect <player: target> <effect: Effect> infinite <amplifier: int> [hideParticles: Boolean]。",
+      "加入了移除特定状态效果的语法：/effect <player: target> clear [effect: Effect]。"
+    ],
+    "参数": [
+      "JE：<targets>：entity",
+      "BE：player: target：CommandSelector<Actor>",
+      "指定目标。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。",
+      "JE：<effect>：resource",
+      "BE：effect: Effect",
+      "指定给予或者需要移除的效果。",
+      "在Java版中，必须是一个注册在minecraft:mob_effect注册表的一个注册项的命名空间ID。",
+      "在基岩版中，必须是一个状态效果ID，且必须是字母ID。",
+      "JE：<seconds>：integer",
+      "BE：seconds: int：int",
+      "以秒为单位指定效果时长（可指定infinite表示无限时长）。瞬间伤害（minecraft:instant_damage）、瞬间治疗（minecraft:instant_health）和饱和（minecraft:saturation）是仅有的三个例外，其单位是游戏刻。必须在1至1,000,000[仅Java版]或0至2,147,483,647（仅在2,040,109,465或以下时才会生效。如果更大，虽然会提示成功，但不会产生效果）[仅基岩版]之间。若未指定，默认为30秒（对上述三个例外为1游戏刻）。在基岩版中，若指定为0秒，且目标已拥有指定效果，则会将原有的效果变更为0秒，即移除指定效果。",
+      "JE：<amplifier>：integer",
+      "BE：amplifier: int：int",
+      "指定效果的放大倍率。必须为32位整数。且必须在0和255之间（含）。若未指定，默认为0。注意，状态效果的第1级（如生命恢复I）对应为0倍率，因此第2级状态效果（如生命恢复II）应指定倍率为1。部分效果没有强弱之分，如夜视。",
+      "JE：<hideParticles>：bool",
+      "BE：hideParticles: Boolean：bool",
+      "指定是否隐藏状态效果的粒子，以及游戏界面上的状态效果指示图标[仅Java版]。必须为true或false。若未指定，默认为false。"
+    ],
+    "无法解析": [
+      "<targets>或player: target未能选中实体（若为玩家名则必须在线上）"
+    ],
+    "/effect give ...": [
+      "指定实体均满足以下任意条件：",
+      "该实体免疫此效果。",
+      "该实体拥有hideParticles属性相同的相同效果，且赋予的效果无更高等级或更长时长。"
+    ],
+    "失败时": [
+      "0",
+      "0"
+    ],
+    "成功时": [
+      "1"
+    ],
+    "示例": [
+      "给予自己60秒的迅捷II效果：/effect give @s speed 60 1[仅Java版]或/effect @s speed 60 1[仅基岩版]",
+      "给予自己60秒的迅捷III效果：/effect give @s speed 60 2[仅Java版]或/effect @s speed 60 2[仅基岩版]",
+      "给予所有玩家无限时长的夜视I效果并隐藏粒子效果：/effect give @a night_vision infinite 0 true[仅Java版]或/effect @a night_vision infinite 0 true[仅基岩版]",
+      "从所有玩家身上清除任何效果：/effect clear @a[仅Java版]或/effect @a clear[仅基岩版]",
+      "从所有玩家身上清除任何急迫效果：/effect clear @a haste[仅Java版]或/effect @a clear haste[仅基岩版]",
+      "清除所有僵尸身上的所有效果：/effect clear @e[type=zombie][仅Java版]或/effect @e[type=zombie] clear[仅基岩版]"
+    ],
+    "pre": [
+      "加入了clear参数。",
+      "1.8",
+      "14w06a",
+      "加入了<hideParticles>参数。",
+      "1.13",
+      "17w45a",
+      "更改了语法。",
+      "1.19.4",
+      "23w05a",
+      "现在<seconds>参数可以被指定为infinite，给予无限时长的效果。",
+      "1.20.5",
+      "24w05b",
+      "参数<amplifier>的上限由255改为127。",
+      "24w06a",
+      "回退了24w05b的更改。"
+    ],
+    "携带版": [
+      "1.0.5",
+      "1.0.5.0",
+      "加入了/effect命令。",
+      "1.0.5.3",
+      "/effect命令中的amplifier不再接受负数值。"
+    ]
+  }
+}

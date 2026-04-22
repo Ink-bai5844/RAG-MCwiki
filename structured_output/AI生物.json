@@ -1,0 +1,25 @@
+{
+  "title": "AI生物",
+  "source_url": "https://zh.minecraft.wiki/w/AI%E7%94%9F%E7%89%A9",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "本条目所述内容仅适用于Java版。",
+      "AI生物（Java类名：Mob）是生物的一大类。顾名思义，AI生物持有生物AI，从而可以进行自主行动。",
+      "玩家、盔甲架和玩家模型以外的所有生物都是AI生物。"
+    ],
+    "行为": [
+      "主条目：生物AI和寻路"
+    ],
+    "实体数据": [
+      "主条目：实体数据格式",
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ],
+    "历史": [
+      "参见：生物 § 历史"
+    ]
+  }
+}

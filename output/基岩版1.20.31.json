@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.20.31",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.31",
+  "text": "1.20.31\n版本\n基岩版\n服务端版本\n1.20.31.01\n内部版本号\nAndroid：1.20.31.01\nPlayStation：2.73\nWindows：1.20.3101.0\n版本码\nAndroid：\n952003101（armeabi-v7a，33）\n962003101（x86，33）\n972003101（arm64-v8a，33）\n982003101（x86_64，33）\niOS/iPadOS：\n860110125\n发布时间\nChromeOS/Android, Fire, Nintendo Switch, PlayStation, Windows, Xbox - 2023年9月26日\niOS/iPadOS - 2023年9月27日\n下载\n服务端\nWindowsLinux\n协议版本\n618\n◄◄1.20.0\n1.20.50►►\n◄1.20.30\n1.20.32►\n1.20.31是基岩版的一次热修复更新，发布于2023年9月26日至27日，修复了一些漏洞。此版本与1.20.30相兼容。\n修复\n修复了在多人分屏游戏中进行游戏时可能发生的崩溃。\n修复了打开Realms Plus页面时可能发生的崩溃。\n修复了在PlayStation平台上打开控制中心或屏幕上出现控制器通知时可能发生的崩溃。\n优化了村民聚集在同一处时的服务端性能。\n修复了长时间打开游戏后无法访问市场的问题。\n修复了@minecraft/server-ui依赖项无法加载较高版本的@minecraft/server模块的一些问题。\n参考\nMinecraft - 1.20.31 (Bedrock) — Minecraft Feedback，2023年9月26日。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "压力板/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%8B%E5%8A%9B%E6%9D%BF%2FDV",
+  "text": "位\n描述\n（石质或木质压力板）\n描述\n（测重压力板）\n0x1\n压力板是否开启\n一个值范围0-15的4位二进制数，存储测重压力板当前的红石信号强度\n0x2\n0x4\n0x8\n（未使用）"
+}

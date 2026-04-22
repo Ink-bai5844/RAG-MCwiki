@@ -1,0 +1,47 @@
+{
+  "title": "画变种定义格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%BB%E5%8F%98%E7%A7%8D%E5%AE%9A%E4%B9%89%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "画变种定义文件是画变种在数据包中的数据驱动定义文件。"
+    ],
+    "定义格式": [
+      "画变种在游戏内使用PAINTING_VARIANT注册表，数据包路径为painting_variant，即所有画变种定义文件都需要在data/<命名空间>/painting_variant目录中定义，画变种标签则需要在data/<命名空间>/tags/painting_variant目录中定义。",
+      "画变种定义文件使用JSON格式，并具有下列结构："
+    ],
+    "JSON文件根对象": [
+      "*width：（1≤值≤16）画的宽度，以方块为单位。",
+      "*height：（1≤值≤16）画的高度，以方块为单位。",
+      "*asset_id：（命名空间ID）画使用的纹理，游戏在渲染时将此值解析为assets/<命名空间>/textures/painting/<路径>.png。",
+      "title：（文本组件）画的标题。",
+      "author：（文本组件）画的作者。"
+    ],
+    "定义行为": [
+      "画变种定义数据仅在服务端启动时被加载一次，使用/reload命令不可以使画变种定义被重新加载，而必须重启服务端。",
+      "PAINTING_VARIANT注册表中必须至少有一个元素，否则游戏会在同步时报错并阻止世界加载。",
+      "画在游戏中有大小、纹理不一的不同变种。根据定义数据，相应变种的画宽为width格、高为height格。"
+    ],
+    "提示框": [
+      "画物品会根据其painting/variant组件指定的画变种在提示框中显示画尺寸。如果指定了画的作者或标题则也会一并显示。"
+    ],
+    "Java版": [
+      "1.13",
+      "18w02a",
+      "画现在使用MOTIVE注册表存储画变种信息。",
+      "1.19",
+      "22w16a",
+      "将MOTIVE注册表重命名为PAINTING_VARIANT。",
+      "1.21",
+      "24w18a",
+      "现在PAINTING_VARIANT为可写注册表。",
+      "加入了画变种定义格式。",
+      "1.21.2",
+      "24w33a",
+      "加入了author和title字段，表示画作者和名称信息。先前这些信息固定为翻译键painting.<命名空间>.<路径>.author和painting.<命名空间>.<路径>.title，且强制显示不可取消。",
+      "1.21.5",
+      "25w03a",
+      "画物品的提示框文本现在来自painting/variant组件而不是entity_data组件。"
+    ]
+  }
+}

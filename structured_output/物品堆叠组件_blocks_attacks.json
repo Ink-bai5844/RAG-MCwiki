@@ -1,0 +1,30 @@
+{
+  "title": "物品堆叠组件/blocks attacks",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fblocks_attacks",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。",
+      "minecraft:blocks_attacks",
+      "block_delay_seconds：（值≥0，默认为0）成功阻挡攻击前需要按住右键的秒数。",
+      "block_sound：成功阻挡攻击时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "bypassed_by：（伤害类型标签）设置指定标签的伤害类型可以无视此物品的阻挡而造成实际伤害。",
+      "damage_reductions：控制可阻挡多少伤害。未指定时，可阻挡一切伤害。",
+      "：控制可挡下的伤害量和伤害类型。阻挡成功时，伤害减少clamp(base + factor * 所受攻击伤害, 0, 所受攻击伤害)。"
+    ],
+    "*": [
+      "*base：固定阻挡的伤害。",
+      "*factor：应被阻挡的伤害比例。",
+      "horizontal_blocking_angle：（值>0，角度制，默认为90）在水平方向上，以当前玩家视角的水平分量向量为基准，如果受伤害方向与基准方向夹角小于此角度则伤害可被阻挡，否则不能阻挡。任何无来源伤害均被视为需要180度才能阻挡。",
+      "type：可阻挡的伤害类型。允许单个ID、列表或标签。未指定则表示对所有伤害有效。",
+      "disable_cooldown_scale：（值≥0，默认为1）被可禁用阻挡的攻击击中时，物品冷却时长的乘数。为0时，此物品不能被攻击禁用。",
+      "disabled_sound：此物品被攻击禁用时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "item_damage：控制攻击对物品造成的耐久损耗。未指定时，每次攻击损耗物品1点耐久。物品耐久最终损耗floor(threshold, base + factor * 所受攻击伤害)。最终值可以为负数以使物品修复。",
+      "*base：损耗物品固定耐久度。",
+      "*factor：所受攻击伤害的乘数。",
+      "*threshold：（值≥0）攻击对此物品造成的最低耐久度损耗。"
+    ]
+  }
+}

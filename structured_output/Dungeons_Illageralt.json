@@ -1,0 +1,73 @@
+{
+  "title": "Dungeons:Illageralt",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3AIllageralt",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft自创的文字系统。关于Minecraft中的附魔符号文字，请见“附魔台 § 符文”。",
+      "关于该字体在Minecraft中的使用，请见“字体 § Illageralt”。"
+    ],
+    "illageralt字体对照表": [
+      "Illageralt是Mojang自创的一套类似于标准银河字母的文字系统，同样也是简单的字母表替代密码，但与标准银河字母所使用的符号不同。其使用的语言是英语。"
+    ],
+    "出现": [
+      "Illageralt最初以符文的形态出现在Minecraft Dungeons中的地图场景内。",
+      "远古狩猎加入游戏后，玩家需要收集9种不同符文字母的物品献祭并击败所对应的远古生物。",
+      "后来被引进到Minecraft Java版1.18并以“Illageralt”命名，与灾厄村民关联。"
+    ],
+    "简介": [
+      "Illageralt为字母书写系统，其字母被称为“illageralt”，故元、辅音皆有其对应字符。共有40个字母，26个对应拉丁字母，10个对应阿拉伯数字，4个对应标点符号（感叹号、问号、句号与逗号）。"
+    ],
+    "物品符文": [
+      "主条目：MCD:远古狩猎",
+      "一件物品至少有一种符文，最多有三种符文。大部分普通或稀有品质的物品只有一种符文，而独特品质的物品大部分都有两种以上的符文。这些符文均取自Illageralt字母表。",
+      "目前游戏内有9种物品符文："
+    ],
+    "术语": [
+      "再生图腾 —— 再生图腾的特效包含了一句由Illageralt字符拼写的“Let the vines heal”。",
+      "施法图腾 —— 施法图腾的特效包含了一些由Illageralt字符拼写的词语：“Soul”，“Cast” 和 “Ritual”。"
+    ],
+    "编码方案": [
+      "此段落暂无内容。",
+      "你可以帮助我们加入信息。"
+    ],
+    "成就": [
+      "“Break the Spell”的图标上有\"50\"字样，即达成成就所需击杀的附魔生物数量。",
+      "“Scrappy Scout”“Apprentice Adventurer”“Expert Explorer”三个成就的图标是经验条中间分别写有\"10\"\"25\"\"50\"字样，即达成成就所需的等级。",
+      "“Rampart Rampage”的图标上有写有\"Wind\"字样的石柱。"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了符文。",
+      "玩家需要收集“Bovine Path”符文解锁蘑菇岛。",
+      "1.8.0.0",
+      "加入远古狩猎，需要玩家利用符文召唤远古生物。",
+      "2021年9月9日",
+      "官方在Twitter上发布了一个视频，内容仅有以符文拼写出的一条短语\"高塔（Tower）\"，暗示高塔更新的到来。",
+      "2021年9月15日",
+      "符文被引进Minecraft Java版21w37a， 符文的正式名称被确认为“Illageralt”。",
+      "2021年9月16日",
+      "官方在Twitter上发布了一个视频，使用Illageralt拼写出“新的冒险（New Adventures）”的短语。",
+      "2021年9月23日"
+    ],
+    "官方在Twitter上发布了一个视频，使用Illageralt拼写出“你能达到顶层吗？（Can you reach the top?）”的短语": [
+      "2021年10月2日",
+      "官方在Twitter上发布了一个视频，使用Illageralt拼写出“多云的赛季（Cloudy Season）”的短语。",
+      "2021年10月16日",
+      "官方在Twitter上发布了一个视频，使用Illageralt拼写出“赛季在转换（The seasons are changing）”的短语。"
+    ],
+    "你知道吗": [
+      "官方有时会在Twitter上发布包含Illageralt拼写的推文让玩家猜测游戏更新的内容。"
+    ],
+    "再生图腾的特效包含了一句由Illageralt字符拼写的“Let the vines heal”": [
+      "施法图腾的特效包含了一些由Illageralt字符拼写的词语：“Soul”，“Cast” 和 “Ritual”。"
+    ],
+    "参考": [
+      "https://www.gameinformer.com/2020/04/09/mojang-takes-its-biggest-brand-in-a-bold-new-direction-with-minecraft-dungeons",
+      "Coming soon...，来自@dungeonsgame。X（曾名Twitter），2021年9月9日。",
+      "Coming soon...，来自@dungeonsgame。X（曾名Twitter），2021年9月16日。",
+      "Heroes, are you ready?，来自@dungeonsgame。X（曾名Twitter），2021年9月23日。",
+      "Change is coming...，来自@dungeonsgame。X（曾名Twitter），2021年10月2日。",
+      "The wait is over!，来自@dungeonsgame。X（曾名Twitter），2021年10月16日。"
+    ]
+  }
+}

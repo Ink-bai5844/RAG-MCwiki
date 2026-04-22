@@ -1,0 +1,5 @@
+{
+  "title": "多叶黏土层",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%A4%9A%E5%8F%B6%E9%BB%8F%E5%9C%9F%E5%B1%82",
+  "text": "多叶黏土层\n自然生成于\n繁茂洞穴\n包含\n黏土\n水\n大型垂滴叶\n小型垂滴叶\n可生成于已加载区块\n否\n命名空间ID\n见§ 数据值\n多叶黏土层（Leaf Clay）是繁茂洞穴中长有大型垂滴叶和小型垂滴叶的，含有黏土的地物。\n生成\n多叶黏土层自然生成于繁茂洞穴。多叶黏土层的地面由黏土和水构成，形成类似梯田的分层水洼，其中生长着高度为1到5格的大型垂滴叶和小型垂滴叶。\n数据值\nID\nJava版：\n已配置的地物\n命名空间ID\n[无显示名称]\ndripleaf\n[无显示名称]\nclay_with_dripleaves\n[无显示名称]\nclay_pool_with_dripleaves\n基岩版：\n地物\n命名空间ID\n[无显示名称]\nbig_dripleaf_north_feature\n[无显示名称]\nbig_dripleaf_south_feature\n[无显示名称]\nbig_dripleaf_west_feature\n[无显示名称]\nbig_dripleaf_east_feature\n[无显示名称]\ndripleaf_feature\n[无显示名称]\nclay_with_dripleaves_feature\n[无显示名称]\nclay_pool_with_dripleaves_feature\n历史\nJava版\n1.17\n21w10a\n加入了多叶黏土层，但只能通过在自选世界界面中选择“繁茂洞穴”生物群系，或是选用自定义世界类型等方式生成。\n1.18\nexp1\n由于繁茂洞穴可以自然生成，现在多叶黏土层可以自然生成了。\n基岩版\n1.16.220\n实验性玩法\nCaves and Cliffs\n1.16.220.52\n加入了多叶黏土层。\n1.18.0\n1.18.0.20\n多叶黏土层不再属于实验性玩法。\n画廊\n繁茂洞穴中的多叶黏土层\n导航"
+}

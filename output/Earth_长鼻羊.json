@@ -1,0 +1,5 @@
+{
+  "title": "Earth:长鼻羊",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E9%95%BF%E9%BC%BB%E7%BE%8A",
+  "text": "长鼻羊\n最大生命值\n8（）\n类型\n被动型\n尺寸\n高度：1.3格\n宽度：0.9格\n实体ID\n?\n长鼻羊（Long-nosed Sheep）是一种有着黑色面孔的绵羊变种，有着罕见级别的稀有度。\n获取\n长鼻羊可作为罕见级别的生物在羊可点击物中获得。\n行为\n主条目：绵羊 § 行为\n长鼻羊有着与普通绵羊相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n对长鼻羊使用剪刀时掉落：\n1-6 棕色羊毛\n长鼻羊死亡时掉落：\n1 棕色羊毛\n1 生羊肉（若被烧死则掉落熟羊肉）\n音效\n描述\n文件\n空闲时随机播放此音效\nmob.sheep.say\n死亡\nmob.sheep.say\n受伤\nmob.sheep.say\n行走\nmob.sheep.step\n对长鼻羊使用剪刀\nmob.sheep.shear\n数据值\nID\n名称\n命名空间ID\n长鼻羊\n?\n历史\nMinecraft Earth\n0.33.0\n加入了长鼻羊。\n你知道吗\n长鼻羊的外观与现实中的黑鼻羊相似。\n导航"
+}

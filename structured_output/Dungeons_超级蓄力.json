@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:超级蓄力",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%B6%85%E7%BA%A7%E8%93%84%E5%8A%9B",
+  "structured_content": {
+    "Supercharge": [
+      "蓄力射击会造成更高的伤害和更远的击退。"
+    ],
+    "——魔咒描述": [
+      "超级蓄力（Supercharge）是Minecraft Dungeons中的魔咒。会使蓄力射击造成的伤害更高，同时对目标造成更远的击退。伤害提升随着魔咒等级提升而增加。"
+    ],
+    "I": [
+      "20% 伤害提升",
+      "1 附魔点数"
+    ],
+    "II": [
+      "30% 伤害提升",
+      "2 附魔点数"
+    ],
+    "III": [
+      "40% 伤害提升",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了超级蓄力。"
+    ]
+  }
+}

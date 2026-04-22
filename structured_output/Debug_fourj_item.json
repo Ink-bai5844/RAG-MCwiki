@@ -1,0 +1,49 @@
+{
+  "title": "Debug fourj item",
+  "source_url": "https://zh.minecraft.wiki/w/Debug_fourj_item",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是屏障。",
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "本条目所述内容仅适用于原主机版。",
+      "该物品已被官方设置为不可获得。",
+      "虽然其仍然可以通过使用第三方软件获得，但可能会导致不可预料的结果发生，例如漏洞和崩溃。"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "debug_fourj_item": [
+      "debug_fourj_item是原主机版独有的物品，只能通过修改游戏获得。"
+    ],
+    "获取": [
+      "debug_fourj_item目前不能在原版游戏中正常获得，只能通过编辑物品栏获得。其不存在于创造模式物品栏中，亦无法使用命令获得。"
+    ],
+    "用途": [
+      "debug_fourj_item的ID表明它用于调试和测试目的，这些测试功能大部分在发布的版本中被移除。其仅保留了用于生物时，可以使生物永不消失的功能。其在物品栏中使用屏障的纹理，既没有“这是什么？”的提示，也没有显示名称。"
+    ],
+    "原主机版": [
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU31",
+      "CU21",
+      "1.24",
+      "Patch 3",
+      "1.0.1",
+      "加入了debug_fourj_item，其在游戏中显示名称“Achievements”。",
+      "TU36",
+      "debug_fourj_item 不再在游戏中显示名称。"
+    ],
+    "你知道吗": [
+      "物品ID中的“fourj”一词代表4J Studios。"
+    ],
+    "参考": [
+      "https://www.youtube.com/watch?v=IscH0rUw_20"
+    ]
+  }
+}

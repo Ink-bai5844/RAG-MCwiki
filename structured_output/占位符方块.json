@@ -1,0 +1,13 @@
+{
+  "title": "占位符方块",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8D%A0%E4%BD%8D%E7%AC%A6%E6%96%B9%E5%9D%97",
+  "structured_content": {
+    "info_update": [
+      "info_update2",
+      "reserved6"
+    ],
+    "未知方块": [
+      "虽然无效模型本身不是方块，但它也是一种占位符，用于替换异常的模型。"
+    ]
+  }
+}

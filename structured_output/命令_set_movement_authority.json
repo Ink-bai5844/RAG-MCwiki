@@ -1,0 +1,27 @@
+{
+  "title": "命令/set movement authority",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fset_movement_authority",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "非专用服务端": [
+      "控制客户端或服务端检查玩家的移动。"
+    ],
+    "基岩版": [
+      "1.21.50",
+      "1.21.50.20",
+      "加入了/set_movement_authority命令。"
+    ],
+    "正式版": [
+      "/set_movement_authority命令在正式版中不可用。",
+      "1.21.60",
+      "1.21.60.27",
+      "移除了/set_movement_authority命令。"
+    ]
+  }
+}

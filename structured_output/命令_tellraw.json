@@ -1,0 +1,54 @@
+{
+  "title": "命令/tellraw",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftellraw",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "无": [
+      "向一个或多个玩家发送一条以文本组件表示的消息。"
+    ],
+    "Java版": [
+      "1.7.2",
+      "13w37a",
+      "加入了/tellraw。"
+    ],
+    "基岩版": [
+      "tellraw <target: target> <raw json message: json>",
+      "1.9.0",
+      "1.9.0.0",
+      "加入了/tellraw。"
+    ],
+    "参数": [
+      "JE：<targets>：entity",
+      "BE：target: target：CommandSelector<Player>",
+      "指定该消息的接收玩家。",
+      "必须为玩家名、目标选择器或UUID[仅Java版]。且要求目标选择器为玩家类型，若不是则此命令将无法解析[仅JE]/在命令执行时将会执行失败[仅BE]。",
+      "JE：<message>：component",
+      "BE：raw json message: json：Json::Value",
+      "指定要发送的文本组件消息。（例：{\"text\":\"Hi there!\",\"bold\":\"true\"}[仅Java版]；{\"rawtext\":[{\"text\":\"Hello world\"}]}[仅基岩版]）",
+      "在Java版中，必须为文本组件。在基岩版中，必须为JSON 对象。"
+    ],
+    "无法解析": [
+      "raw json message: json不是一个文本组件"
+    ],
+    "执行失败": [
+      "target: target是非玩家类型的目标选择器",
+      "<targets>或target: target未能选中一个或多个在线玩家"
+    ],
+    "失败时": [
+      "0",
+      "0"
+    ],
+    "成功时": [
+      "1",
+      "1"
+    ],
+    "示例": [
+      "向所有玩家发送蓝色消息“Hello everyone!”：",
+      "JE：tellraw @a {\"text\":\"Hello everyone!\", \"color\":\"blue\"}",
+      "BE：tellraw @a {\"rawtext\":[{\"text\":\"§9Hello everyone!\"}]}"
+    ]
+  }
+}

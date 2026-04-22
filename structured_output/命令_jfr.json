@@ -1,0 +1,49 @@
+{
+  "title": "命令/jfr",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fjfr",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "4"
+    ],
+    "无": [
+      "使用Java Flight Recorder分析数据和某些自定义事件。"
+    ],
+    "用法": [
+      "分析包含以下几种自定义事件：",
+      "minecraft.ServerTickTime：采样事件，反映服务器平均TPS。",
+      "minecraft.ChunkGeneration：生成单个区块阶段所需的时间。",
+      "minecraft.PacketReceived或minecraft.PacketSent：网络流量。",
+      "minecraft.NetworkSummaryEvent：网络数据包的数量等信息。",
+      "minecraft.WorldLoadFinishedEvent：初始化世界加载耗费的时间。",
+      "minecraft.ChunkRegionRead和minecraft.ChunkRegionWrite：区块文件的写入和读取。",
+      "minecraft.StructureGeneration：结构生成。",
+      "minecraft.ClientFps：客户端FPS。",
+      "分析的结果摘要会以JSON格式写入日志以及debug文件夹中。",
+      "此外，以.jfr格式保存的记录文件会保存于debug文件夹中，可使用如JMC及其他支持此格式的工具做进一步分析。"
+    ],
+    "jfr start": [
+      "开始JFR分析。"
+    ],
+    "jfr stop": [
+      "结束JFR分析。"
+    ],
+    "Java版": [
+      "1.18",
+      "21w37a",
+      "加入了/jfr。",
+      "1.20.5",
+      "24w06a",
+      "加入了JFR事件ChunkRegionRead和ChunkRegionWrite。",
+      "1.21.11",
+      "25w41a",
+      "加入了JFR事件ClientFps。"
+    ],
+    "N/A": [
+      "0",
+      "1"
+    ]
+  }
+}

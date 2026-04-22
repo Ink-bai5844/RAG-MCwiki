@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.60.28",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.60.28",
+  "text": "1.21.60.28\n版本\n基岩版\n服务端版本\n1.21.60.28\n版本码\nAndroid：\n952106028（armeabi-v7a，34）\n962106028（x86，34）\n972106028（arm64-v8a，34）\n982106028（x86_64，34）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2025年1月22日\n测试版归属\n1.21.60\n下载\n服务端\nWindowsLinux\n协议版本\n776\n◄◄1.21.51\n1.21.61►►\n◄1.21.60.27\nbeta 1.21.60.28（ChromeOS/Android）、Preview 1.21.60.28（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.60的第6个测试版，发布于2025年1月22日，修复了一些漏洞。\n修复\n游戏内容\n玩家睡觉时不再会在床上悬浮。\n用户界面\n修复了睡觉屏幕上会显示错误文本的漏洞。（MCPE-189823）\n参考\nMinecraft Beta & Preview - 1.21.60.28 — Minecraft Feedback，2025年1月22日。\n导航"
+}

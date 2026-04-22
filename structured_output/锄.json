@@ -1,0 +1,900 @@
+{
+  "title": "锄",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%94%84",
+  "structured_content": {
+    "默认分类": [
+      "此页面还需添加更多图像。",
+      "请在添加后将此信息移除。",
+      "具体要求：附魔铜锄的渲染图"
+    ],
+    "最大耐久度": [
+      "木锄：59",
+      "石锄：131",
+      "铜锄：190",
+      "铁锄：250",
+      "金锄：32",
+      "钻石锄：1,561",
+      "下界合金锄：2,031"
+    ],
+    "烧炼时间": [
+      "木锄：200游戏刻（10秒，1个物品）",
+      "石锄、铜锄、铁锄、金锄、钻石锄、下界合金锄：无"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "可再生": [
+      "木锄、石锄、铜锄、铁锄、金锄、钻石锄：是",
+      "下界合金锄：否"
+    ],
+    "物品ID": [
+      "木锄：wooden_hoe",
+      "石锄：stone_hoe",
+      "铜锄：copper_hoe",
+      "铁锄：iron_hoe",
+      "金锄：golden_hoe",
+      "钻石锄：diamond_hoe",
+      "下界合金锄：netherite_hoe",
+      "锄在2010年2月被加入Minecraft，同时被加入的还有耕地方块、种子、小麦、面包，并且修复了生物偶尔会倒着走的漏洞（请不要在Minecraft中走太空步）。"
+    ],
+    "——Duncan Geere": [
+      "锄（Hoe）是一种用于产生耕地的工具，也可以用于快速破坏部分方块。"
+    ],
+    "[[|]]": [
+      "2把锄的耐久度加在一起，再加额外的5%耐久度，会损失所有非诅咒魔咒。",
+      "[[|]]0.1"
+    ],
+    "[[|]][[|]][[|]]": [
+      "叠加两把锄的剩余耐久度，再额外获得5%的耐久度，会损失所有非诅咒魔咒。"
+    ],
+    "铁砧": [
+      "主条目：铁砧机制"
+    ],
+    "修复和命名 木锄石锄铜锄铁锄金锄钻石锄下界合金锄[[|]][[|]][[|]]": [
+      "每个材料可以恢复锄25%的耐久（向下取整）。",
+      "叠加两把锄的剩余耐久度，再额外获得12%的耐久度，按照铁砧机制保留魔咒。"
+    ],
+    "箱子战利品": [
+      "Java版："
+    ],
+    "远古城市": [
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1",
+      "0.18",
+      "1",
+      "16.46%",
+      "6.1"
+    ],
+    "废弃传送门": [
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9",
+      "0.23",
+      "1",
+      "20.47%",
+      "4.9"
+    ],
+    "林地府邸": [
+      "0.28",
+      "1",
+      "25.51%",
+      "3.9",
+      "基岩版：",
+      "0.28",
+      "1",
+      "25.08%",
+      "4.0"
+    ],
+    "村庄大型房屋（未使用）": [
+      "0.15",
+      "1",
+      "14.25%",
+      "7.0",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。",
+      "物品会具有其总耐久的80%到100%之间的耐久度。",
+      "物品进行了30 – 50级附魔，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒。",
+      "所有魔咒出现的概率相同，可以施加的宝藏型魔咒有经验修补、冰霜行者、绑定诅咒和消失诅咒，魔咒出现概率与魔咒的等级无关。"
+    ],
+    "考古战利品": [
+      "用刷子刷扫古迹废墟和海底废墟里的可疑的方块有概率掉落木锄。",
+      "Java版："
+    ],
+    "古迹废墟（普通战利品）": [
+      "0.04",
+      "1",
+      "4.44%",
+      "22.5",
+      "0.04",
+      "1",
+      "4.44%",
+      "22.5"
+    ],
+    "寒带海底废墟": [
+      "0.13",
+      "1",
+      "13.33%",
+      "7.5",
+      "0.13",
+      "1",
+      "13.33%",
+      "7.5"
+    ],
+    "热带海底废墟": [
+      "0.13",
+      "1",
+      "13.33%",
+      "7.5",
+      "基岩版：",
+      "0.13",
+      "1",
+      "13.33%",
+      "7.5"
+    ],
+    "Java版": [
+      "不同品质的锄有不同的攻击速度。",
+      "1.2.1",
+      "12w07a",
+      "当泥土和草方块上方有方块时，锄不再能使之转化为耕地。",
+      "1.3.1",
+      "12w18a",
+      "木锄现在能够用作熔炉的燃料。",
+      "12w21a",
+      "铁匠村民现在会以7个绿宝石的价格出售1个钻石锄或以4-5个绿宝石出售1个铁锄。",
+      "1.4.2",
+      "12w38a",
+      "锄耕泥土时现在有声音。",
+      "1.8",
+      "14w02a",
+      "村民不再交易铁锄或钻石锄，使钻石锄不可再生。",
+      "14w32a",
+      "锄能用来使砂土变成泥土。",
+      "1.9",
+      "15w34c",
+      "石、铁和钻石锄现在比空手稍微造成较多伤害。",
+      "15w34d",
+      "所有锄用作武器时减少1耐久度。",
+      "15w35a",
+      "所有锄现在造成相同伤害，但较好的锄的攻击速度较高。",
+      "15w50a",
+      "为锄加入了音效：item.hoe.till。",
+      "1.11",
+      "16w39a",
+      "钻石锄现在会自然生成在林地府邸的箱子里。",
+      "1.11.1",
+      "16w50a",
+      "铁锄和金锄现在可以烧炼成铁粒和金粒。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，这些物品的数字ID分别是290、291、292、293和294。",
+      "1.14",
+      "18w43a",
+      "更改了所有锄的纹理。",
+      "19w13a",
+      "现在工具匠村民可能会向带有村庄英雄效果的玩家投掷石锄。",
+      "1.16",
+      "20w06a",
+      "加入了下界合金锄。",
+      "20w09a",
+      "锄现在可以用来更快地挖掘下界疣块和诡异疣块。",
+      "下界合金锄现在可以通过与猪灵进行以物易物来获得，使其变得可再生。",
+      "更改了木、金和钻石锄的纹理。",
+      "20w10a",
+      "现在可以附上效率、时运和精准采集魔咒。",
+      "现在不同品质的锄挖掘合适的方块时，其效率也各不相同。",
+      "现在可以比其他工具更快地挖掘干草捆。",
+      "降低了通过以物易物获得下界合金锄的概率。",
+      "更改了下界合金锄的纹理。",
+      "移除了原有的下界合金锄的合成配方。",
+      "下界合金锄现在需要通过在锻造台上升级钻石锄获得。",
+      "20w11a",
+      "现在可以比其他工具更快地挖掘标靶、干海带块和菌光体。",
+      "20w12a",
+      "现在可以比其他工具更快地挖掘干海绵和湿海绵。",
+      "20w15a",
+      "现在可以加速破坏树叶。",
+      "现在可以用黑石合成石锄。",
+      "20w16a",
+      "附魔的金锄现在会生成在堡垒遗迹的箱子里。",
+      "20w20a",
+      "与猪灵以物易物时不再获得下界合金锄，使其再次变得不可再生。",
+      "20w22a",
+      "现在使用锄挖掘方块会消耗耐久度。",
+      "1.17",
+      "20w49a",
+      "锄现在可以用来更快地破坏幽匿感测体。",
+      "21w08a",
+      "现在可以用深板岩圆石合成石锄。",
+      "21w20a",
+      "现在锄可以将缠根泥土变为普通泥土，并且会掉落一个垂根。",
+      "1.19",
+      "22w13a",
+      "附魔且带有少量随机耐久损耗的钻石锄现在会生成在远古城市的战利品箱子里。",
+      "1.19.4"
+    ],
+    "基岩版": [
+      "锄没有攻击冷却。",
+      "1.2.0",
+      "1.2.0.2",
+      "锄头现在可以将砂土变成泥土。",
+      "1.10.0",
+      "1.10.0.3",
+      "村庄进行了重大修改，木锄不再能在村庄中找到。",
+      "更改了所有锄的纹理。",
+      "1.11.0",
+      "1.11.0.4",
+      "石锄和钻石锄现在可以通过工具匠村民购买。",
+      "1.16.0",
+      "1.16.0.51",
+      "加入了下界合金锄。",
+      "更改了木、金和钻石锄的纹理。",
+      "1.16.0.57",
+      "现在每种锄都有不同的速度，对挖掘有效。",
+      "锄现在可以更快地破坏干草捆、干海带块、标靶、海绵、菌光体、树叶、下界疣块和诡异疣块。",
+      "锄现在可以附魔效率、时运和精准采集。",
+      "锄现在可以通过以物易物获得。",
+      "下界合金锄现在不再可以被合成了。",
+      "下界合金锄现在可以在锻造台中使用钻石锄和一块下界合金锭合并获得了。",
+      "石锄现在可以用黑石合成了。",
+      "附魔的金锄和下界合金锄现在会生成在堡垒遗迹的箱子里。",
+      "附魔的金锄现在会生成在废弃传送门的箱子里。",
+      "1.16.100",
+      "1.16.100.54",
+      "下界合金锄不再能通过与猪灵以物易物获得，使其成为不可再生资源。",
+      "1.16.220",
+      "1.16.220.52",
+      "现在锄可以将缠根泥土变为普通泥土，并且会掉落一个垂根。",
+      "1.17.0",
+      "1.17.0.50",
+      "现在可以用深板岩圆石合成石锄。",
+      "1.17.10",
+      "1.17.10.20",
+      "更改了下界合金锄的纹理以匹配Java版。",
+      "1.18.0",
+      "1.18.0.22",
+      "锄现在可以用来更快地破坏幽匿感测体。",
+      "1.19.0",
+      "1.19.0.26",
+      "附魔且带有少量随机耐久损耗的钻石锄现在会生成在远古城市的战利品箱子里。",
+      "1.19.80"
+    ],
+    "新手级工具匠": [
+      "40%",
+      "25%"
+    ],
+    "老手级工具匠": [
+      "40%",
+      "25%",
+      "绿宝石 × 4"
+    ],
+    "礼物": [
+      "主条目：村庄英雄 § 给予物品",
+      "本段落所述内容仅适用于Java版。",
+      "工具匠可能会向带有村庄英雄效果的玩家投掷石锄。"
+    ],
+    "用途": [
+      "物品实体形式的下界合金锄会漂浮在熔岩上，且不会被火和熔岩摧毁。"
+    ],
+    "转化方块": [
+      "对着泥土、草方块或土径使用锄可将其变为耕地。",
+      "对着砂土使用锄可将其变为泥土。",
+      "对着缠根泥土使用锄可将其变为泥土，并且会掉落一个垂根。"
+    ],
+    "挖掘工具": [
+      "主条目：挖掘 § 挖掘速度",
+      "锄是一种挖掘工具，每次成功挖掘了任何硬度不为0的方块会消耗1耐久度。",
+      "以下方块的合适挖掘工具包含锄："
+    ],
+    "幽匿催发体": [
+      "3",
+      "4.5",
+      "2.25",
+      "1.15",
+      "0.9",
+      "0.75",
+      "0.6",
+      "0.5",
+      "0.4"
+    ],
+    "—": [
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。"
+    ],
+    "幽匿尖啸体": [
+      "3",
+      "4.5",
+      "2.25",
+      "1.15",
+      "0.9",
+      "0.75",
+      "0.6",
+      "0.5",
+      "0.4"
+    ],
+    "校频幽匿感测体": [
+      "1.5",
+      "2.25",
+      "1.15",
+      "0.6",
+      "0.45",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2"
+    ],
+    "幽匿感测体": [
+      "1.5",
+      "2.25",
+      "1.15",
+      "0.6",
+      "0.45",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2"
+    ],
+    "下界疣块": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15"
+    ],
+    "菌光体": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15"
+    ],
+    "诡异疣块": [
+      "1",
+      "1.5",
+      "0.75",
+      "0.4",
+      "0.3",
+      "0.25",
+      "0.2",
+      "0.15"
+    ],
+    "海绵": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "湿海绵": [
+      "0.6",
+      "0.9",
+      "0.45",
+      "0.25",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "干海带块": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "干草捆": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "标靶": [
+      "0.5",
+      "0.75",
+      "0.4",
+      "0.2",
+      "0.15",
+      "0.1"
+    ],
+    "橡树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "云杉树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "白桦树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "丛林树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "金合欢树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "深色橡树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "红树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "樱花树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "杜鹃树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "盛开的杜鹃树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "苍白橡树树叶": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05",
+      "0.2",
+      "0.05"
+    ],
+    "幽匿块": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "幽匿脉络": [
+      "0.2",
+      "0.3",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "苔藓块": [
+      "0.1",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "覆地苔藓": [
+      "0.1",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "苍白苔藓块": [
+      "0.1",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "苍白覆地苔藓": [
+      "0.1",
+      "0.15",
+      "0.1",
+      "0.05"
+    ],
+    "近战攻击": [
+      "锄每成功进行一次近战攻击会减少2点耐久度。"
+    ],
+    "攻击伤害": [
+      "1（）",
+      "3（）",
+      "4（）",
+      "5（）",
+      "6（）",
+      "7（）"
+    ],
+    "攻击速度": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "复原时间": [
+      "1.0秒",
+      "（20游戏刻）",
+      "1.0秒",
+      "（20游戏刻）",
+      "0.5秒",
+      "（10游戏刻）",
+      "0.5秒",
+      "（10游戏刻）",
+      "0.35秒",
+      "（7游戏刻）",
+      "0.25秒",
+      "（5游戏刻）",
+      "0.25秒",
+      "（5游戏刻）"
+    ],
+    "单个目标": [
+      "1（）",
+      "2（）"
+    ],
+    "多个目标": [
+      "1（）",
+      "2（）",
+      "3（）",
+      "4（）"
+    ],
+    "可使用次数": [
+      "30",
+      "16",
+      "66",
+      "95",
+      "125",
+      "781",
+      "1016",
+      "30",
+      "17",
+      "66",
+      "96",
+      "126",
+      "781",
+      "1016"
+    ],
+    "总攻击伤害": [
+      "30（ × 15）",
+      "16（ × 8）",
+      "66（ × 33）",
+      "95（ × 47.5）",
+      "125（ × 62.5）",
+      "781（ × 390.5）",
+      "1016（ × 508）",
+      "攻击速度超过2后，攻击间隔已经低于受击后伤害免疫的持续时间，需要攻击其他不受受击后伤害免疫影响的实体才能达到最大DPS。",
+      "总攻击伤害为可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、暴击、受击后伤害免疫和攻击冷却。",
+      "90（ × 45）",
+      "51（ × 25.5）",
+      "264（ × 132）",
+      "384（ × 192）",
+      "630（ × 315）",
+      "4686（ × 2343）",
+      "7112（ × 3556）",
+      "计算伤害总输出的公式是可使用次数 × 每次攻击伤害。该计算不考虑魔咒攻击力、暴击和受击后伤害免疫。"
+    ],
+    "魔咒": [
+      "锄能被附加以下魔咒："
+    ],
+    "I": [
+      "精准采集与时运相互排斥。",
+      "只能通过使用相应的附魔书在铁砧上叠加而获得。"
+    ],
+    "燃料": [
+      "主条目：烧炼/燃料时间表",
+      "木锄能被用作熔炉、高炉或烟熏炉的燃料，每个木锄可以烧炼1个物品。",
+      "在Java版中，物品的物品堆叠组件不会影响燃料效率。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "锄：犁地"
+    ],
+    "subtitles.item.hoe.till": [
+      "物品：损坏"
+    ],
+    "subtitles.entity.item.break": [
+      "基岩版："
+    ],
+    "break": [
+      "1.0",
+      "0.9",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "wooden_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.wooden_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:wooden_tool_materials\"},\"minecraft:enchantable\":{\"value\":15},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_wooden_tool\"},{\"speed\":2,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":59,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:wooden_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "stone_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.stone_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:stone_tool_materials\"},\"minecraft:enchantable\":{\"value\":5},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_stone_tool\"},{\"speed\":4,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":131,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:stone_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "copper_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.copper_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:copper_tool_materials\"},\"minecraft:enchantable\":{\"value\":13},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_copper_tool\"},{\"speed\":5,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":190,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-2,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:copper_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "iron_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.iron_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:iron_tool_materials\"},\"minecraft:enchantable\":{\"value\":14},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_iron_tool\"},{\"speed\":6,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":250,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-1,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:iron_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "diamond_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.diamond_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:diamond_tool_materials\"},\"minecraft:enchantable\":{\"value\":10},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_diamond_tool\"},{\"speed\":8,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":1561,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:diamond_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "golden_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.golden_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:repairable\":{\"items\":\"#minecraft:gold_tool_materials\"},\"minecraft:enchantable\":{\"value\":22},\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_gold_tool\"},{\"speed\":12,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:max_damage\":32,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":-3,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:golden_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "netherite_hoe": [
+      "{\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:weapon\":{\"item_damage_per_attack\":2},\"minecraft:item_name\":{\"translate\":\"item.minecraft.netherite_hoe\"},\"minecraft:lore\":[],\"minecraft:swing_animation\":[],\"minecraft:tooltip_display\":[],\"minecraft:use_effects\":[],\"minecraft:tool\":{\"rules\":[{\"correct_for_drops\":false,\"blocks\":\"#minecraft:incorrect_for_netherite_tool\"},{\"speed\":9,\"blocks\":\"#minecraft:mineable/hoe\",\"correct_for_drops\":true}]},\"minecraft:repairable\":{\"items\":\"#minecraft:netherite_tool_materials\"},\"minecraft:enchantable\":{\"value\":15},\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_fire\"},\"minecraft:max_damage\":2031,\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[{\"type\":\"minecraft:attack_damage\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_damage\"},{\"type\":\"minecraft:attack_speed\",\"amount\":0,\"operation\":\"add_value\",\"slot\":\"mainhand\",\"id\":\"minecraft:base_attack_speed\"}],\"minecraft:damage\":0,\"minecraft:item_model\":\"minecraft:netherite_hoe\",\"minecraft:repair_cost\":0,\"minecraft:rarity\":\"common\"}"
+    ],
+    "item.minecraft.netherite_hoe": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。",
+      "*value：（值≥1）物品的附魔能力。",
+      "minecraft:max_damage：（值>0）物品的最大耐久度。",
+      "minecraft:repairable：物品被铁砧进行原材料修复的有效物品。不论此值为何，物品永远可以被合并物品修复。",
+      "*items：可用于修复的物品。可以为一个#开头的物品标签、一个物品ID、或一个物品ID的列表。",
+      "minecraft:tool：物品的挖掘工具属性。",
+      "can_destroy_blocks_in_creative：（默认为true）创造模式玩家能否使用此物品破坏方块。",
+      "damage_per_block：（值≥0，默认为1）破坏硬度非0的方块时物品损失的耐久度。",
+      "default_mining_speed：（值≥0，默认为1）挖掘方块时的速度。",
+      "*rules：物品与对应可以挖掘的方块的映射列表。",
+      "：一项物品与方块列表的挖掘配置数据。",
+      "*blocks：此配置指定的有效方块。可以为一个#开头的方块标签、一个方块ID、或一个方块ID的列表。",
+      "correct_for_drops：此物品是否是所有上方指定方块的合适挖掘工具。",
+      "speed：覆盖所有上方指定方块的使用此物品挖掘时的挖掘速度。",
+      "minecraft:weapon：设置物品的武器数据。此组件存在时物品使用次数统计信息会在用此物品攻击时增加。",
+      "disable_blocking_for_seconds：（值≥0，默认为0）攻击成功禁用目标盾牌的秒数。",
+      "item_damage_per_attack：（值≥0，默认为1）每次攻击对此物品造成的损伤值，即损耗的耐久度。"
+    ],
+    "netherite_hoe单独拥有的组件": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "wooden_hoe,stone_hoe,copper_hoe,iron_hoe,golden_hoe,diamond_hoe,netherite_hoe所共有的组件": [
+      "minecraft:damage：（值≥0）物品的损坏值。",
+      "minecraft:enchantable"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Time to Farm!": [
+      "制作一个锄头。",
+      "从工作台的输出栏获取任意品质的锄。",
+      "10G"
+    ],
+    "MOAR Tools": [
+      "每种类型的工具各制作一个。",
+      "合成任意品质的镐、锹、斧、锄各一把。",
+      "15G"
+    ],
+    "用黄金分散猪灵的注意力": [
+      "被猪灵攻击时朝它丢弃金质物品，让它捡起来。",
+      "30G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "下界": [
+      "在身上未装备金盔甲时将这些拥有物品标签#piglin_loved的物品之一扔给猪灵："
+    ],
+    "粗金": [
+      "或手持金锭对猪灵按使用键。进度不会在玩家装备金盔甲而猪灵愤怒时触发。如有其他金质物品可以正常使用，进度和猪灵会将其忽略。"
+    ],
+    "开荒垦地": [
+      "在物品栏中获得下界合金锄。"
+    ],
+    "Java版Indev": [
+      "20100206-2034",
+      "加入了锄。"
+    ],
+    "Java版Beta": [
+      "1.6",
+      "Test Build 3",
+      "由于草丛的加入，在草方块上使用锄不再能用于收集种子。"
+    ],
+    "实验性内容": [
+      "1.20更新",
+      "23w04a",
+      "现在钻石锄还需要下界合金升级锻造模板才能升级为下界合金锄。",
+      "1.20",
+      "23w12a",
+      "23w04a中的变更不再属于实验性内容。",
+      "现在木锄能通过刷扫古迹废墟和海底废墟里的可疑的方块获得。",
+      "23w16a",
+      "木锄不再能通过刷扫古迹废墟里的可疑的沙子获得。",
+      "1.21.9",
+      "25w31a",
+      "加入了铜锄。"
+    ],
+    "携带版Alpha": [
+      "0.4.0",
+      "加入了锄，能通过耕草方块来获取小麦种子。",
+      "此时只有铁锄可以在创造模式物品栏中获取。",
+      "0.8.0",
+      "build 3",
+      "能通过用锄耕草方块来获取甜菜种子、胡萝卜和马铃薯。",
+      "build 4",
+      "不再能通过用锄耕草方块来获取胡萝卜和马铃薯。",
+      "0.11.0",
+      "build 11",
+      "在创造模式物品栏加入木、石、金和钻石锄。",
+      "build 12",
+      "从创造模式物品栏中移除了木、石、金和钻石锄。",
+      "build 13",
+      "所有锄再次出现在创造模式。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "铁锄和金锄现在可以烧炼成铁粒和金粒。"
+    ],
+    "实验性玩法": [
+      "2025 年第 3 次更新",
+      "1.21.100.23",
+      "加入了铜锄。",
+      "1.21.111",
+      "1.21.110.20",
+      "铜锄不再属于实验性玩法。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了锄。"
+    ],
+    "下一个主要更新": [
+      "1.19.80.21",
+      "现在钻石锄还需要下界合金升级锻造模板才能升级为下界合金锄。",
+      "1.19.80.22",
+      "现在木锄能通过刷扫古迹废墟和海底废墟里的可疑的方块获得。",
+      "1.20.0",
+      "1.20.0.21",
+      "1.19.80.21和1.19.80.22中的变更不再属于实验性玩法。",
+      "1.20.0.22",
+      "木锄不再能通过刷扫古迹废墟里的可疑的沙子获得。",
+      "1.21.100"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了锄。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "铁锄和金锄现在可以烧炼成铁粒和金粒。",
+      "1.90",
+      "更改了所有锄的纹理。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了锄。",
+      "TU53",
+      "CU43",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "铁锄和金锄现在可以烧炼成铁粒和金粒。",
+      "1.90",
+      "更改了所有锄的纹理。"
+    ],
+    "你知道吗": [
+      "耕耘上方有泥土方块的泥土方块也会被变为耕地，即使其无法使用。如果在水平相邻的方块上使用锄，则第一个方块会变成泥土，而所选的方块并不会被耕耘。"
+    ],
+    "附魔": [
+      "File:Enchanted Copper Hoe.gif"
+    ],
+    "参考": [
+      "MC-137102 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

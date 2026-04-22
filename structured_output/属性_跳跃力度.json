@@ -1,0 +1,48 @@
+{
+  "title": "属性/跳跃力度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E8%B7%B3%E8%B7%83%E5%8A%9B%E5%BA%A6",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0.42"
+    ],
+    "值域": [
+      "0 – 32"
+    ],
+    "jump_strength": [
+      "跳跃力度（Jump Strength）是控制生物弹跳力的属性。"
+    ],
+    "行为": [
+      "跳跃力度为3的僵尸",
+      "主条目：跳跃 § 起跳速度",
+      "此属性的计算值是生物的基本跳跃力度。"
+    ],
+    "僵尸马": [
+      "0.4 – 1"
+    ],
+    "行商羊驼": [
+      "0.5"
+    ],
+    "其他所有生物": [
+      "0.42"
+    ],
+    "已知修饰符": [
+      "跳跃力度没有已知修饰符。"
+    ],
+    "Java版": [
+      "1.6.1",
+      "13w16a",
+      "加入了跳跃力度属性，ID为Jump Strength。",
+      "13w21a",
+      "跳跃力度属性的ID重命名为horse.jumpStrength。",
+      "1.20.5",
+      "24w06a",
+      "修改horse.jump_strength为generic.jump_strength，并将应用对象扩展到了所有生物。",
+      "1.21.2",
+      "24w33a",
+      "跳跃力度属性的ID从generic.jump_strength重命名为jump_strength。"
+    ]
+  }
+}

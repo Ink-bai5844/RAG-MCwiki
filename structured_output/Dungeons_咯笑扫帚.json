@@ -1,0 +1,59 @@
+{
+  "title": "Dungeons:咯笑扫帚",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%92%AF%E7%AC%91%E6%89%AB%E5%B8%9A",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含骇人深秋活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。"
+    ],
+    "力量": [
+      "7"
+    ],
+    "速度": [
+      "1"
+    ],
+    "攻击范围": [
+      "6"
+    ],
+    "存档ID": [
+      "Glaive_Spooky2",
+      "用这把会怪笑的扫帚将敌人扫地出门。"
+    ],
+    "——物品描述": [
+      "咯笑扫帚（Cackling Broom）是Minecraft Dungeons中的近战武器。它是长柄刀的活动物品变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "高塔": [
+      "活动："
+    ],
+    "使用": [
+      "咯笑扫帚有着高攻击力，低速度和中等攻击距离。攻击方式与长柄刀无异。"
+    ],
+    "掉落": [
+      "P7_sfx_item_glaiveSpooky2Drop"
+    ],
+    "击中": [
+      "P7_sfx_item_glaiveSpooky2Impact"
+    ],
+    "击中（Stronk）": [
+      "P7_sfx_item_glaiveSpooky2ImpactStronk"
+    ],
+    "拾取": [
+      "P7_sfx_item_glaiveSpooky2PickUp"
+    ],
+    "装备": [
+      "P7_sfx_item_glaiveSpooky2Place-001.ogg"
+    ],
+    "攻击": [
+      "P7_sfx_item_glaiveSpooky2Swing"
+    ],
+    "Minecraft Dungeons": [
+      "1.11.1.0",
+      "加入了咯笑扫帚。",
+      "1.17.0.0",
+      "现在咯笑扫帚可以从高塔中获取。"
+    ]
+  }
+}

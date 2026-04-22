@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.72",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.72",
+  "text": "1.21.72\n版本\n基岩版\n服务端版本\n1.21.72.01\n1.21.72.02\n内部版本号\nAndroid：1.21.72.01\nPlayStation 4：3.10\nPlayStation 5：1.017.000\nWindows：\n1.21.7201.0（x64和x86）\n1.21.7202.0（arm）\n版本码\nAndroid：\n952107201（armeabi-v7a，34）\n962107201（x86，34）\n972107201（arm64-v8a，34）\n982107201（x86_64，34）\niOS/iPadOS：\n873795097\n发布时间\nChromeOS/Android, Fire, PlayStation, Windows, Xbox - 2025年4月8日\niOS/iPadOS, Nintendo Switch - 2025年4月9日\n下载\n服务端（1.21.72.01）\nWindowsLinux\n服务端（1.21.72.02）\nWindowsLinux\n协议版本\n786\n◄◄1.21.70\n1.21.90►►\n◄1.21.71\n1.21.73►\n1.21.72是基岩版的一次热修复更新，在除iOS/iPadOS和Nintendo Switch外的平台上发布于2025年4月8日，在iOS/iPadOS和Nintendo Switch平台上发布于2025年4月9日，修复了一些漏洞。此版本与1.21.70和1.21.71相互兼容。\n修复\n修复了一些游戏过程中可能发生的崩溃。\n在部分方块所在位置放置海泡菜时不再会替换掉该方块。\n修复了书与笔在被重命名后其内容会变为空白的问题。（MCPE-194195）\n修复了悦灵死于火、溺水、窒息等类型的伤害的问题。（MCPE-185080）\n修复了长时间停留在服务器期间，玩家位置会在某些情况下出现严重回溯现象的问题。\n参考\nMinecraft - 1.21.72 (Bedrock) — Minecraft Feedback，2025年4月8日。\n导航"
+}

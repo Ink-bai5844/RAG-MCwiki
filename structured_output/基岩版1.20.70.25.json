@@ -1,0 +1,38 @@
+{
+  "title": "基岩版1.20.70.25",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.70.25",
+  "structured_content": {
+    "默认分类": [
+      "1.20.70.25"
+    ],
+    "服务端版本": [
+      "1.20.70.25"
+    ],
+    "版本码": [
+      "Android：",
+      "952007225（armeabi-v7a，33）",
+      "962007225（x86，33）",
+      "972007225（arm64-v8a，33）",
+      "982007225（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年2月22日"
+    ],
+    "测试版归属": [
+      "1.20.70"
+    ],
+    "协议版本": [
+      "662",
+      "◄◄1.20.62",
+      "1.20.71►►",
+      "◄1.20.70.24",
+      "beta 1.20.70.25（ChromeOS/Android）、Preview 1.20.70.25（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.20.70的第5个测试版，发布于2024年2月22日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了minecraft:destroy_time旧组件不会更新至当前版本的问题。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.70.25 — Minecraft Feedback，2024年2月22日。"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Dungeons:寒颤弓",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%AF%92%E9%A2%A4%E5%BC%93",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含凛冽战栗活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。",
+      "此条目包含冰霜节活动的内容。",
+      "该活动已结束，相关物品已无法从此活动中获取。"
+    ],
+    "力量": [
+      "4"
+    ],
+    "速度": [
+      "3"
+    ],
+    "弹药上限": [
+      "5"
+    ],
+    "存档ID": [
+      "SoulBow_Winter1",
+      "寒颤弓可以刺穿最古老的冰，把寒颤打入敌人心底。"
+    ],
+    "——物品描述": [
+      "寒颤弓（Shivering Bow）是Minecraft Dungeons中的远程武器，它是光灵弓的特殊活动变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "高塔": [
+      "活动："
+    ],
+    "使用": [
+      "寒颤弓拥有低力量，低速度和较低弹药上限。初始弹药数为66。"
+    ],
+    "偷取移动速度": [
+      "+1灵魂收集"
+    ],
+    "掉落": [
+      "P3_sfx_item_soulBowWinter1Drop"
+    ],
+    "拾取": [
+      "P3_sfx_item_soulBowWinter1PickUp"
+    ],
+    "装备": [
+      "P3_sfx_item_soulBowWinter1Place"
+    ],
+    "装填": [
+      "P3_sfx_item_soulBowWinter1Load"
+    ],
+    "射击": [
+      "P3_sfx_item_soulBowWinter1ShootNormal"
+    ],
+    "击中物体": [
+      "P3_sfx_item_soulBowWinter1ArrowImpactNormal"
+    ],
+    "射击破风声": [
+      "P3_sfx_item_soulBowWinter1ArrowWhooshNormal"
+    ],
+    "蓄力射击": [
+      "P3_sfx_item_soulBowWinter1ShootCharged"
+    ],
+    "蓄力击中物体": [
+      "P3_sfx_item_soulBowWinter1ArrowImpactCharged"
+    ],
+    "蓄力破风声": [
+      "P3_sfx_item_soulBowWinter1ArrowWhooshCharged"
+    ],
+    "蓄力": [
+      "P3_sfx_item_soulBowWinter1Charge"
+    ],
+    "快速蓄力": [
+      "P3_sfx_item_soulBowWinter1ChargeFast"
+    ],
+    "蓄力中": [
+      "P3_sfx_item_soulBowWinter1Charging"
+    ],
+    "Minecraft Dungeons": [
+      "1.7.3.0",
+      "加入了寒颤弓。",
+      "1.17.0.0",
+      "现在寒颤弓可以从高塔中获取。"
+    ]
+  }
+}

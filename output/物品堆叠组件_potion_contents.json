@@ -1,0 +1,5 @@
+{
+  "title": "物品堆叠组件/potion contents",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fpotion_contents",
+  "text": "此模板已被弃用，因历史使用而保留。\n请使用编码格式/DataComponent代替。\npotion_contents 物品堆叠组件\ncustom_color：物品渲染中，药水部分使用的颜色。只使用后24位，每个颜色通道占用8位，按RGB依次存储。\ncustom_effects：当前物品所含有的自定义状态效果。\n：一项状态效果。\n状态效果，见Template:Nbt inherit/effect/source\ncustom_name：设置药水的名称，游戏将以item.minecraft.<药水物品类型>.effect.<此值>翻译键作为物品的名称。此值优先于item_name组件但低于custom_name组件。\npotion：药水效果，影响物品的名称，在custom_effects不存在时决定状态效果。"
+}

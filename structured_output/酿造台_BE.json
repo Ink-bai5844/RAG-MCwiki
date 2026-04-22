@@ -1,0 +1,19 @@
+{
+  "title": "酿造台/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%85%BF%E9%80%A0%E5%8F%B0%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "CustomName：（文本组件）当前酿造台的名称，会取代默认名称出现在酿造台的界面中。",
+      "lock：如果存在，酿造台只能用符合该物品谓词的物品打开。",
+      "物品堆叠谓词，见Template:Nbt inherit/item predicate/source"
+    ],
+    "*": [
+      "*BrewTime：酿造药水的剩余时间。当此值不为0时每游戏刻减1，直至为0时酿造完成。",
+      "*Fuel：酿造台的剩余能量。每开始一次酿造减1。当此值小于0时才可以消耗燃料（烈焰粉），并将此值重置为20。",
+      "*Items：当前酿造台内物品的列表，超出槽位范围的物品无效。槽位0代表左边的药水槽；槽位1代表中间的药水槽；槽位2代表右边的药水槽；槽位3代表酿造物品槽；槽位4代表燃料槽。",
+      "：一个物品。",
+      "物品共通标签，见Template:Nbt inherit/item/source"
+    ]
+  }
+}

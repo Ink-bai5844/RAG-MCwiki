@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:狂暴",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%8B%82%E6%9A%B4",
+  "structured_content": {
+    "Frenzied": [
+      "低于一半生命值时提升近战和远程攻击速度。"
+    ],
+    "——魔咒描述": [
+      "狂暴（Frenzied）是Minecraft Dungeons中的魔咒，效果为在玩家生命值低于一半时增加玩家近战和远程的攻击速度。提升效果随魔咒等级提升而增加。"
+    ],
+    "I": [
+      "+10% 攻击速度",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "+20% 攻击速度",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "+30% 攻击速度",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了狂暴。"
+    ]
+  }
+}

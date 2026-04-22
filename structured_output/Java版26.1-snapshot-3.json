@@ -1,0 +1,216 @@
+{
+  "title": "Java版26.1-snapshot-3",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8826.1-snapshot-3",
+  "structured_content": {
+    "默认分类": [
+      "26.1-snapshot-3"
+    ],
+    "发布时间": [
+      "2026年1月13日"
+    ],
+    "快照归属": [
+      "26.1"
+    ],
+    "协议版本": [
+      "DEC: 1073742113",
+      "HEX: 40000121"
+    ],
+    "数据版本": [
+      "4767"
+    ],
+    "资源包版本": [
+      "78.0"
+    ],
+    "数据包版本": [
+      "97.0",
+      "◄◄1.21.11",
+      "26.1.1►►",
+      "◄26.1-snapshot-2",
+      "26.1-snapshot-4►",
+      "26.1-snapshot-3是Java版26.1的第3个快照，发布于2026年1月13日，修改了命令/time，并修复了一些漏洞。"
+    ],
+    "选项": [
+      "加入了“世界选项”选项，在先前“难度”选项的位置。",
+      "包括“难度”选项和游戏规则屏幕。",
+      "因此，现在可以通过暂停菜单进入游戏规则屏幕，而不仅仅是在创建新的世界时。",
+      "游戏规则屏幕仅对管理员可用。"
+    ],
+    "用户界面": [
+      "在游戏规则屏幕的顶栏加入了一个搜索框。"
+    ],
+    "世界时钟": [
+      "世界时钟包含一个内部时间，每游戏刻都会增加。它们可以定义在数据包的world_clock注册表下（data/<namespace>/world_clock/<id>）。",
+      "世界时钟可以暂停或恢复，其时间也可以用/time查询。",
+      "格式：空对象。"
+    ],
+    "时间线定义格式": [
+      "加入了clock字段：世界时钟ID，指定此时间线用哪个世界时钟。",
+      "必选，但为了与之前的行为匹配，可以使用minecraft:overworld。",
+      "新增了一个可选的time_markers字段，用以指定带命名空间的时间标记ID与数值或对象的映射。",
+      "格式：",
+      "非负整数，此时间标记的游戏刻。",
+      "或对象格式：",
+      "ticks：在0至period_ticks的整数，此时间标记的游戏刻。",
+      "show_in_commands：此时间标记是否显示在命令提示中，默认为false。"
+    ],
+    "时间标记": [
+      "时间标记为特定世界时钟的特定时间节点赋予特定名称。时间标记取代了之前用在/time set中的预设名称，如day和night。",
+      "时间标记会在特定的世界时钟中存在，这意味着不同的时间标记可以被不同的时间线定义，但只有一个具有特定ID、代表特定世界时钟的时间标记。这也意味着两个世界时钟可以有相同的时间标记。"
+    ],
+    "时间标记的内置用途": [
+      "部分时间标记被用于控制游戏行为，它们不会在/time命令中提示：",
+      "minecraft:wake_up_from_sleep：玩家从睡眠中醒来的时间。",
+      "minecraft:roll_village_siege：开始评估僵尸围城发生的时间。"
+    ],
+    "标签": [
+      "加入了方块标签：",
+      "#cannot_support_kelp：magma_block",
+      "无法支撑海带的方块。",
+      "#cannot_support_seagrass：magma_block",
+      "无法支撑海草和高海草的方块。",
+      "#enables_bubble_column_drag_down：magma_block",
+      "能生成涡流气泡柱的方块。",
+      "#enables_bubble_column_push_up：soul_sand",
+      "能生成涌流气泡柱的方块。",
+      "#grows_crops：farmland",
+      "上方种植的小麦植株、胡萝卜、马铃薯、甜菜根、火把花植株、瓶子草植株、南瓜茎、西瓜茎能够生长的方块。",
+      "#support_override_cactus_flower：cactus和​farmland",
+      "能支撑仙人掌花、无视上表面完整性的方块。",
+      "#supports_crops：farmland",
+      "能支撑所有生长阶段的小麦植株、胡萝卜、马铃薯、甜菜根、火把花植株及瓶子草植株的方块。",
+      "#supports_stem_crops：#supports_crops",
+      "#supports_melon_stem：#supports_stem_crops",
+      "能支撑西瓜茎的方块。",
+      "#supports_pumpkin_stem：#supports_stem_crops",
+      "能支撑南瓜茎的方块。",
+      "#supports_vegetation：#dirt和​farmland",
+      "能支撑灌木丛、萤火虫灌木丛、甜浆果丛、矮草丛、高草丛、蕨、大型蕨、花（凋灵玫瑰除外）、粉红色花簇、野花簇、树苗的方块。",
+      "#supports_azalea：#supports_vegetation和​clay",
+      "能支撑杜鹃花丛和盛开的杜鹃花丛的方块。",
+      "#supports_cactus：#sand",
+      "能支撑仙人掌的方块。",
+      "#supports_chorus_flower：end_stone",
+      "能支撑紫颂花的方块。",
+      "#supports_chorus_plant：end_stone",
+      "能支撑紫颂植株的方块。",
+      "#supports_cocoa：#jungle_logs",
+      "能支撑可可果的方块。",
+      "#supports_warped_fungus：#supports_vegetation、​#nylium、​mycelium和​soul_soil",
+      "能支撑诡异菌的方块。",
+      "#supports_crimson_fungus：#supports_warped_fungus",
+      "能支撑绯红菌的方块。",
+      "#supports_warped_roots：#supports_vegetation、​#nylium和​soul_soil",
+      "能支撑诡异菌索的方块。",
+      "#supports_crimson_roots：#supports_warped_roots",
+      "能支撑绯红菌索的方块。",
+      "#supports_frogspawn：默认为空",
+      "能支撑青蛙卵的方块。",
+      "#supports_mangrove_propagule：#supports_vegetation和​clay",
+      "能支撑红树胎生苗的方块。",
+      "#supports_hanging_mangrove_propagule：mangrove_leaves",
+      "能支撑悬挂的红树胎生苗的方块。",
+      "#supports_lily_pad：ice和​frosted_ice",
+      "能支撑睡莲的方块。",
+      "#supports_nether_sprouts：#supports_vegetation、​#nylium和​soul_soil",
+      "能支撑下界苗的方块。",
+      "#supports_nether_wart：soul_sand",
+      "能支撑下界疣的方块。",
+      "#supports_sugar_cane：#dirt和​sand",
+      "能支撑甘蔗的方块。",
+      "#supports_sugar_cane_adjacently：frosted_ice",
+      "能与甘蔗下方方块毗邻的方块。",
+      "#supports_wither_rose：#supports_vegetation、​netherrack、​soul_sand和​soul_soil",
+      "能支撑凋灵玫瑰的方块。",
+      "加入了流体标签：",
+      "#bubble_column_can_occupy：water",
+      "能被气泡柱占据的流体。",
+      "#supports_frogspawn：water",
+      "能支撑青蛙卵的流体。",
+      "#supports_lily_pad：water",
+      "能支撑睡莲的流体。",
+      "#supports_sugar_cane_adjacently：water",
+      "甘蔗下方方块需要毗邻的流体。",
+      "更改了以下标签的名称以保持一致性：",
+      "同时其中的值#dirt和​farmland被替换为#supports_vegetation。"
+    ],
+    "铜箱子": [
+      "圣诞节期间不再使用圣诞节礼物纹理。"
+    ],
+    "/swing": [
+      "现在所有的参数均可省略。",
+      "目标选择器不存在时，默认为@s。",
+      "挥动的手臂不存在时，默认为mainhand。"
+    ],
+    "/time": [
+      "/time现在基于世界时钟。",
+      "世界时钟可选择性地指定为命令的输入，如/time of <clock> ...。",
+      "如果未指定世界时钟（像之前一样的time ...），则使用本维度默认的世界时钟。",
+      "set和add子命令的返回值（/execute store ...）现在是世界时钟经过的总刻数，而不是当前时间。",
+      "语法：",
+      "time [of <clock>] set <time>：设置世界时钟经过的总刻数。",
+      "time [of <clock>] set <timemarker>：将当前的世界时钟快进到下一时间标记。",
+      "对于世界时钟minecraft:overworld，可用的时间标记是day、​noon、​night和​midnight。",
+      "time [of <clock>] add <time>：将当前的世界时钟加上刻数，可以为正数或负数。",
+      "time [of <clock>] pause：暂停当前世界时钟。",
+      "time [of <clock>] resume：继续暂停的世界时钟。",
+      "time [of <clock>] query <timeline>：显示并返回当前时间线在本周期内经过的刻数。",
+      "time [of <clock>] query <timeline> repetitions：显示并返回当前时间线经过的周期数。",
+      "time [of <clock>] query time：显示并返回当前世界时钟经过的总刻数。",
+      "time query gametime：与之前一样，世界中经过的总刻数，不受/time更改的影响。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为97.0。"
+    ],
+    "资源包": [
+      "将资源包版本号更改为78.0。",
+      "绊线的纹理现在由alpha cutout渲染，而不再是透明的。"
+    ],
+    "调试屏幕": [
+      "从local_difficulty项拆分出了day_count项，显示玩家在世界内度过的游戏日。"
+    ],
+    "测试环境定义格式": [
+      "将time_of_day替换为clock_time。",
+      "新增必选字段clock：一个世界时钟的ID，此世界时钟将被设置为对应时间。"
+    ],
+    "谓词": [
+      "time_check：",
+      "新增字段clock：一个世界时钟的ID，指定对哪个世界时钟进行检查。"
+    ],
+    "配方": [
+      "result字段现在在所有配方类型中更加一致。",
+      "它现在可以使用简写格式，如\"minecraft:foo\"相当于{\"id\":\"minecraft:foo\", \"count\": 1}。",
+      "对于配方类型smelting、​blasting、​smoking和​campfire_cooking，现在也可以接受count字段。"
+    ],
+    "维度类型": [
+      "增加了下列字段：",
+      "default_clock：可选的世界时钟ID。",
+      "指定用于/time的默认世界时钟。",
+      "如果不存在，那么/time将需要明确的世界时钟参数。",
+      "同时指定了要应用时间标记minecraft:wake_up_from_sleep和minecraft:roll_village_siege的世界时钟。",
+      "如果不存在，则这些时间标记将在本维度内永远不会生效。"
+    ],
+    "修复": [
+      "修复了10个漏洞",
+      "1.21.11前正式版的漏洞",
+      "MC-297536 — 调试屏幕上的十字准星存在深度冲突。",
+      "MC-299992 — 手动将某些组件设置为默认值时，给予物品或对物品进行测试会出现异常行为。",
+      "MC-305292 — 铜箱子使用圣诞节礼物纹理。",
+      "26.1开发版本的漏洞",
+      "MC-305105 — 使用/swing挥动生物的副手时，主手的矛会播放动画。",
+      "MC-305156 — UI刷新前，对话框元素不会显示。",
+      "MC-305251 — 旋风人对所有生物敌对。",
+      "MC-305261 — enchant_with_levels和enchant_randomly物品修饰器类型会使游戏崩溃。",
+      "MC-305459 — 使用刷怪蛋生成村民时，其变种由世界原点(0,0,0)处的生物群系决定。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-305540 — 流浪商人以3个绿宝石出售南瓜而不是海带。",
+      "MC-305577 — 猪灵不再逃离数量更多的疣猪兽。"
+    ],
+    "视频": [
+      "由slicedlime制作的视频："
+    ],
+    "参考": [
+      "Minecraft 26.1 Snapshot 3 — Minecraft.net，2026年1月13日。"
+    ]
+  }
+}

@@ -1,0 +1,2216 @@
+{
+  "title": "基岩版数据值/物品ID/开发者版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC%2F%E7%89%A9%E5%93%81ID%2F%E5%BC%80%E5%8F%91%E8%80%85%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "物品": [
+      "257",
+      "101",
+      "minecraft:apple",
+      "307",
+      "133",
+      "minecraft:gold_ingot",
+      "357",
+      "165",
+      "minecraft:flint",
+      "407",
+      "197",
+      "minecraft:yellow_dye",
+      "457",
+      "1C9",
+      "minecraft:blaze_spawn_egg",
+      "507",
+      "1FB",
+      "minecraft:ender_dragon_spawn_egg",
+      "557",
+      "22D",
+      "minecraft:cooked_mutton",
+      "607",
+      "25F",
+      "minecraft:sparkler",
+      "657",
+      "291",
+      "minecraft:cherry_chest_boat"
+    ],
+    "苹果": [
+      "258",
+      "102",
+      "minecraft:golden_apple"
+    ],
+    "金苹果": [
+      "259",
+      "103",
+      "minecraft:enchanted_golden_apple"
+    ],
+    "附魔金苹果": [
+      "260",
+      "104",
+      "minecraft:mushroom_stew"
+    ],
+    "蘑菇煲": [
+      "261",
+      "105",
+      "minecraft:bread"
+    ],
+    "面包": [
+      "262",
+      "106",
+      "minecraft:porkchop"
+    ],
+    "生猪排": [
+      "263",
+      "107",
+      "minecraft:cooked_porkchop"
+    ],
+    "熟猪排": [
+      "264",
+      "108",
+      "minecraft:cod"
+    ],
+    "生鳕鱼": [
+      "265",
+      "109",
+      "minecraft:salmon"
+    ],
+    "生鲑鱼": [
+      "266",
+      "10A",
+      "minecraft:tropical_fish"
+    ],
+    "热带鱼": [
+      "267",
+      "10B",
+      "minecraft:pufferfish"
+    ],
+    "河豚": [
+      "268",
+      "10C",
+      "minecraft:cooked_cod"
+    ],
+    "熟鳕鱼": [
+      "269",
+      "10D",
+      "minecraft:cooked_salmon"
+    ],
+    "熟鲑鱼": [
+      "270",
+      "10E",
+      "minecraft:dried_kelp"
+    ],
+    "干海带": [
+      "271",
+      "10F",
+      "minecraft:cookie"
+    ],
+    "曲奇": [
+      "272",
+      "110",
+      "minecraft:melon_slice"
+    ],
+    "西瓜": [
+      "273",
+      "111",
+      "minecraft:beef"
+    ],
+    "生牛肉": [
+      "274",
+      "112",
+      "minecraft:cooked_beef"
+    ],
+    "牛排": [
+      "275",
+      "113",
+      "minecraft:chicken"
+    ],
+    "生鸡肉": [
+      "276",
+      "114",
+      "minecraft:cooked_chicken"
+    ],
+    "熟鸡肉": [
+      "277",
+      "115",
+      "minecraft:rotten_flesh"
+    ],
+    "腐肉": [
+      "278",
+      "116",
+      "minecraft:spider_eye"
+    ],
+    "蜘蛛眼": [
+      "279",
+      "117",
+      "minecraft:carrot"
+    ],
+    "胡萝卜": [
+      "280",
+      "118",
+      "minecraft:potato"
+    ],
+    "马铃薯": [
+      "281",
+      "119",
+      "minecraft:baked_potato"
+    ],
+    "烤马铃薯": [
+      "282",
+      "11A",
+      "minecraft:poisonous_potato"
+    ],
+    "毒马铃薯": [
+      "283",
+      "11B",
+      "minecraft:golden_carrot"
+    ],
+    "金胡萝卜": [
+      "284",
+      "11C",
+      "minecraft:pumpkin_pie"
+    ],
+    "南瓜派": [
+      "285",
+      "11D",
+      "minecraft:beetroot"
+    ],
+    "甜菜根": [
+      "286",
+      "11E",
+      "minecraft:beetroot_soup"
+    ],
+    "甜菜汤": [
+      "287",
+      "11F",
+      "minecraft:sweet_berries"
+    ],
+    "甜浆果": [
+      "288",
+      "120",
+      "minecraft:rabbit"
+    ],
+    "生兔肉": [
+      "289",
+      "121",
+      "minecraft:cooked_rabbit"
+    ],
+    "熟兔肉": [
+      "290",
+      "122",
+      "minecraft:rabbit_stew"
+    ],
+    "兔肉煲": [
+      "291",
+      "123",
+      "minecraft:wheat_seeds"
+    ],
+    "种子": [
+      "292",
+      "124",
+      "minecraft:pumpkin_seeds"
+    ],
+    "南瓜种子": [
+      "293",
+      "125",
+      "minecraft:melon_seeds"
+    ],
+    "西瓜种子": [
+      "294",
+      "126",
+      "minecraft:nether_wart"
+    ],
+    "下界疣": [
+      "295",
+      "127",
+      "minecraft:beetroot_seeds"
+    ],
+    "甜菜种子": [
+      "296",
+      "128",
+      "minecraft:torchflower_seeds"
+    ],
+    "火把花种子": [
+      "297",
+      "129",
+      "minecraft:iron_shovel"
+    ],
+    "铁锹": [
+      "298",
+      "12A",
+      "minecraft:iron_pickaxe"
+    ],
+    "铁镐": [
+      "299",
+      "12B",
+      "minecraft:iron_axe"
+    ],
+    "铁斧": [
+      "300",
+      "12C",
+      "minecraft:flint_and_steel"
+    ],
+    "打火石": [
+      "301",
+      "12D",
+      "minecraft:bow"
+    ],
+    "弓": [
+      "302",
+      "12E",
+      "minecraft:arrow"
+    ],
+    "箭": [
+      "303",
+      "12F",
+      "minecraft:coal"
+    ],
+    "煤炭": [
+      "304",
+      "130",
+      "minecraft:charcoal"
+    ],
+    "木炭": [
+      "305",
+      "131",
+      "minecraft:diamond"
+    ],
+    "钻石": [
+      "306",
+      "132",
+      "minecraft:iron_ingot"
+    ],
+    "金锭": [
+      "308",
+      "134",
+      "minecraft:iron_sword"
+    ],
+    "铁剑": [
+      "309",
+      "135",
+      "minecraft:wooden_sword"
+    ],
+    "木剑": [
+      "310",
+      "136",
+      "minecraft:wooden_shovel"
+    ],
+    "木锹": [
+      "311",
+      "137",
+      "minecraft:wooden_pickaxe"
+    ],
+    "木镐": [
+      "312",
+      "138",
+      "minecraft:wooden_axe"
+    ],
+    "木斧": [
+      "313",
+      "139",
+      "minecraft:stone_sword"
+    ],
+    "石剑": [
+      "314",
+      "13A",
+      "minecraft:stone_shovel"
+    ],
+    "石锹": [
+      "315",
+      "13B",
+      "minecraft:stone_pickaxe"
+    ],
+    "石镐": [
+      "316",
+      "13C",
+      "minecraft:stone_axe"
+    ],
+    "石斧": [
+      "317",
+      "13D",
+      "minecraft:diamond_sword"
+    ],
+    "钻石剑": [
+      "318",
+      "13E",
+      "minecraft:diamond_shovel"
+    ],
+    "钻石锹": [
+      "319",
+      "13F",
+      "minecraft:diamond_pickaxe"
+    ],
+    "钻石镐": [
+      "320",
+      "140",
+      "minecraft:diamond_axe"
+    ],
+    "钻石斧": [
+      "321",
+      "141",
+      "minecraft:stick"
+    ],
+    "木棍": [
+      "322",
+      "142",
+      "minecraft:bowl"
+    ],
+    "碗": [
+      "323",
+      "143",
+      "minecraft:golden_sword"
+    ],
+    "金剑": [
+      "324",
+      "144",
+      "minecraft:golden_shovel"
+    ],
+    "金锹": [
+      "325",
+      "145",
+      "minecraft:golden_pickaxe"
+    ],
+    "金镐": [
+      "326",
+      "146",
+      "minecraft:golden_axe"
+    ],
+    "金斧": [
+      "327",
+      "147",
+      "minecraft:string"
+    ],
+    "线": [
+      "328",
+      "148",
+      "minecraft:feather"
+    ],
+    "羽毛": [
+      "329",
+      "149",
+      "minecraft:gunpowder"
+    ],
+    "火药": [
+      "330",
+      "14A",
+      "minecraft:wooden_hoe"
+    ],
+    "木锄": [
+      "331",
+      "14B",
+      "minecraft:stone_hoe"
+    ],
+    "石锄": [
+      "332",
+      "14C",
+      "minecraft:iron_hoe"
+    ],
+    "铁锄": [
+      "333",
+      "14D",
+      "minecraft:diamond_hoe"
+    ],
+    "钻石锄": [
+      "334",
+      "14E",
+      "minecraft:golden_hoe"
+    ],
+    "金锄": [
+      "335",
+      "14F",
+      "minecraft:wheat"
+    ],
+    "小麦": [
+      "336",
+      "150",
+      "minecraft:leather_helmet"
+    ],
+    "皮革帽子": [
+      "337",
+      "151",
+      "minecraft:leather_chestplate"
+    ],
+    "皮革外套": [
+      "338",
+      "152",
+      "minecraft:leather_leggings"
+    ],
+    "皮革裤子": [
+      "339",
+      "153",
+      "minecraft:leather_boots"
+    ],
+    "皮革靴子": [
+      "340",
+      "154",
+      "minecraft:chainmail_helmet"
+    ],
+    "锁链头盔": [
+      "341",
+      "155",
+      "minecraft:chainmail_chestplate"
+    ],
+    "锁链胸甲": [
+      "342",
+      "156",
+      "minecraft:chainmail_leggings"
+    ],
+    "锁链护腿": [
+      "343",
+      "157",
+      "minecraft:chainmail_boots"
+    ],
+    "锁链靴子": [
+      "344",
+      "158",
+      "minecraft:iron_helmet"
+    ],
+    "铁头盔": [
+      "345",
+      "159",
+      "minecraft:iron_chestplate"
+    ],
+    "铁胸甲": [
+      "346",
+      "15A",
+      "minecraft:iron_leggings"
+    ],
+    "铁护腿": [
+      "347",
+      "15B",
+      "minecraft:iron_boots"
+    ],
+    "铁靴子": [
+      "348",
+      "15C",
+      "minecraft:diamond_helmet"
+    ],
+    "钻石头盔": [
+      "349",
+      "15D",
+      "minecraft:diamond_chestplate"
+    ],
+    "钻石胸甲": [
+      "350",
+      "15E",
+      "minecraft:diamond_leggings"
+    ],
+    "钻石护腿": [
+      "351",
+      "15F",
+      "minecraft:diamond_boots"
+    ],
+    "钻石靴子": [
+      "352",
+      "160",
+      "minecraft:golden_helmet"
+    ],
+    "金头盔": [
+      "353",
+      "161",
+      "minecraft:golden_chestplate"
+    ],
+    "金胸甲": [
+      "354",
+      "162",
+      "minecraft:golden_leggings"
+    ],
+    "金护腿": [
+      "355",
+      "163",
+      "minecraft:golden_boots"
+    ],
+    "金靴子": [
+      "356",
+      "164",
+      "minecraft:shield"
+    ],
+    "燧石": [
+      "358",
+      "166",
+      "minecraft:painting"
+    ],
+    "画": [
+      "359",
+      "167",
+      "minecraft:oak_sign"
+    ],
+    "橡木告示牌": [
+      "360",
+      "168",
+      "minecraft:wooden_door"
+    ],
+    "橡木门": [
+      "361",
+      "169",
+      "minecraft:bucket"
+    ],
+    "铁桶": [
+      "362",
+      "16A",
+      "minecraft:milk_bucket"
+    ],
+    "奶桶": [
+      "363",
+      "16B",
+      "minecraft:water_bucket"
+    ],
+    "水桶": [
+      "364",
+      "16C",
+      "minecraft:lava_bucket"
+    ],
+    "熔岩桶": [
+      "365",
+      "16D",
+      "minecraft:cod_bucket"
+    ],
+    "鳕鱼桶": [
+      "366",
+      "16E",
+      "minecraft:salmon_bucket"
+    ],
+    "鲑鱼桶": [
+      "367",
+      "16F",
+      "minecraft:tropical_fish_bucket"
+    ],
+    "热带鱼桶": [
+      "368",
+      "170",
+      "minecraft:pufferfish_bucket"
+    ],
+    "河豚桶": [
+      "369",
+      "171",
+      "minecraft:powder_snow_bucket"
+    ],
+    "细雪桶": [
+      "370",
+      "172",
+      "minecraft:axolotl_bucket"
+    ],
+    "美西螈桶": [
+      "371",
+      "173",
+      "minecraft:minecart"
+    ],
+    "矿车": [
+      "372",
+      "174",
+      "minecraft:saddle"
+    ],
+    "鞍": [
+      "373",
+      "175",
+      "minecraft:iron_door"
+    ],
+    "铁门": [
+      "374",
+      "176",
+      "minecraft:redstone"
+    ],
+    "红石粉": [
+      "375",
+      "177",
+      "minecraft:snowball"
+    ],
+    "雪球": [
+      "376",
+      "178",
+      "minecraft:oak_boat"
+    ],
+    "橡木船": [
+      "377",
+      "179",
+      "minecraft:birch_boat"
+    ],
+    "白桦木船": [
+      "378",
+      "17A",
+      "minecraft:jungle_boat"
+    ],
+    "丛林木船": [
+      "379",
+      "17B",
+      "minecraft:spruce_boat"
+    ],
+    "云杉木船": [
+      "380",
+      "17C",
+      "minecraft:acacia_boat"
+    ],
+    "金合欢木船": [
+      "381",
+      "17D",
+      "minecraft:dark_oak_boat"
+    ],
+    "深色橡木船": [
+      "382",
+      "17E",
+      "minecraft:leather"
+    ],
+    "皮革": [
+      "383",
+      "17F",
+      "minecraft:kelp"
+    ],
+    "海带": [
+      "384",
+      "180",
+      "minecraft:brick"
+    ],
+    "红砖": [
+      "385",
+      "181",
+      "minecraft:clay_ball"
+    ],
+    "黏土": [
+      "386",
+      "182",
+      "minecraft:sugar_cane"
+    ],
+    "甘蔗": [
+      "387",
+      "183",
+      "minecraft:paper"
+    ],
+    "纸": [
+      "388",
+      "184",
+      "minecraft:book"
+    ],
+    "书": [
+      "389",
+      "185",
+      "minecraft:slime_ball"
+    ],
+    "黏液球": [
+      "390",
+      "186",
+      "minecraft:chest_minecart"
+    ],
+    "运输矿车": [
+      "391",
+      "187",
+      "minecraft:egg"
+    ],
+    "鸡蛋": [
+      "392",
+      "188",
+      "minecraft:compass"
+    ],
+    "指南针": [
+      "393",
+      "189",
+      "minecraft:fishing_rod"
+    ],
+    "钓鱼竿": [
+      "394",
+      "18A",
+      "minecraft:clock"
+    ],
+    "时钟": [
+      "395",
+      "18B",
+      "minecraft:glowstone_dust"
+    ],
+    "荧石粉": [
+      "396",
+      "18C",
+      "minecraft:black_dye"
+    ],
+    "黑色染料": [
+      "397",
+      "18D",
+      "minecraft:red_dye"
+    ],
+    "红色染料": [
+      "398",
+      "18E",
+      "minecraft:green_dye"
+    ],
+    "绿色染料": [
+      "399",
+      "18F",
+      "minecraft:brown_dye"
+    ],
+    "棕色染料": [
+      "400",
+      "190",
+      "minecraft:blue_dye"
+    ],
+    "蓝色染料": [
+      "401",
+      "191",
+      "minecraft:purple_dye"
+    ],
+    "紫色染料": [
+      "402",
+      "192",
+      "minecraft:cyan_dye"
+    ],
+    "青色染料": [
+      "403",
+      "193",
+      "minecraft:light_gray_dye"
+    ],
+    "淡灰色染料": [
+      "404",
+      "194",
+      "minecraft:gray_dye"
+    ],
+    "灰色染料": [
+      "405",
+      "195",
+      "minecraft:pink_dye"
+    ],
+    "粉红色染料": [
+      "406",
+      "196",
+      "minecraft:lime_dye"
+    ],
+    "黄色染料": [
+      "408",
+      "198",
+      "minecraft:light_blue_dye"
+    ],
+    "淡蓝色染料": [
+      "409",
+      "199",
+      "minecraft:magenta_dye"
+    ],
+    "品红色染料": [
+      "410",
+      "19A",
+      "minecraft:orange_dye"
+    ],
+    "橙色染料": [
+      "411",
+      "19B",
+      "minecraft:white_dye"
+    ],
+    "白色染料": [
+      "412",
+      "19C",
+      "minecraft:bone_meal"
+    ],
+    "骨粉": [
+      "413",
+      "19D",
+      "minecraft:cocoa_beans"
+    ],
+    "可可豆": [
+      "414",
+      "19E",
+      "minecraft:ink_sac"
+    ],
+    "墨囊": [
+      "415",
+      "19F",
+      "minecraft:lapis_lazuli"
+    ],
+    "青金石": [
+      "416",
+      "1A0",
+      "minecraft:bone"
+    ],
+    "骨头": [
+      "417",
+      "1A1",
+      "minecraft:sugar"
+    ],
+    "糖": [
+      "418",
+      "1A2",
+      "minecraft:cake"
+    ],
+    "蛋糕": [
+      "419",
+      "1A3",
+      "minecraft:bed"
+    ],
+    "床": [
+      "420",
+      "1A4",
+      "minecraft:repeater"
+    ],
+    "红石中继器": [
+      "421",
+      "1A5",
+      "minecraft:filled_map"
+    ],
+    "地图": [
+      "422",
+      "1A6",
+      "minecraft:shears"
+    ],
+    "剪刀": [
+      "423",
+      "1A7",
+      "minecraft:ender_pearl"
+    ],
+    "末影珍珠": [
+      "424",
+      "1A8",
+      "minecraft:blaze_rod"
+    ],
+    "烈焰棒": [
+      "425",
+      "1A9",
+      "minecraft:ghast_tear"
+    ],
+    "恶魂之泪": [
+      "426",
+      "1AA",
+      "minecraft:gold_nugget"
+    ],
+    "金粒": [
+      "427",
+      "1AB",
+      "minecraft:potion"
+    ],
+    "药水": [
+      "428",
+      "1AC",
+      "minecraft:glass_bottle"
+    ],
+    "玻璃瓶": [
+      "429",
+      "1AD",
+      "minecraft:fermented_spider_eye"
+    ],
+    "发酵蛛眼": [
+      "430",
+      "1AE",
+      "minecraft:blaze_powder"
+    ],
+    "烈焰粉": [
+      "431",
+      "1AF",
+      "minecraft:magma_cream"
+    ],
+    "岩浆膏": [
+      "432",
+      "1B0",
+      "minecraft:brewing_stand"
+    ],
+    "酿造台": [
+      "433",
+      "1B1",
+      "minecraft:cauldron"
+    ],
+    "炼药锅": [
+      "434",
+      "1B2",
+      "minecraft:ender_eye"
+    ],
+    "末影之眼": [
+      "435",
+      "1B3",
+      "minecraft:glistering_melon_slice"
+    ],
+    "闪烁的西瓜片": [
+      "436",
+      "1B4",
+      "minecraft:chicken_spawn_egg"
+    ],
+    "生成鸡": [
+      "437",
+      "1B5",
+      "minecraft:cow_spawn_egg"
+    ],
+    "生成牛": [
+      "438",
+      "1B6",
+      "minecraft:pig_spawn_egg"
+    ],
+    "生成猪": [
+      "439",
+      "1B7",
+      "minecraft:sheep_spawn_egg"
+    ],
+    "生成绵羊": [
+      "440",
+      "1B8",
+      "minecraft:wolf_spawn_egg"
+    ],
+    "生成狼": [
+      "441",
+      "1B9",
+      "minecraft:mooshroom_spawn_egg"
+    ],
+    "生成哞菇": [
+      "442",
+      "1BA",
+      "minecraft:creeper_spawn_egg"
+    ],
+    "生成苦力怕": [
+      "443",
+      "1BB",
+      "minecraft:enderman_spawn_egg"
+    ],
+    "生成末影人": [
+      "444",
+      "1BC",
+      "minecraft:silverfish_spawn_egg"
+    ],
+    "生成蠹虫": [
+      "445",
+      "1BD",
+      "minecraft:skeleton_spawn_egg"
+    ],
+    "生成骷髅": [
+      "446",
+      "1BE",
+      "minecraft:slime_spawn_egg"
+    ],
+    "生成史莱姆": [
+      "447",
+      "1BF",
+      "minecraft:spider_spawn_egg"
+    ],
+    "生成蜘蛛": [
+      "448",
+      "1C0",
+      "minecraft:zombie_spawn_egg"
+    ],
+    "生成僵尸": [
+      "449",
+      "1C1",
+      "minecraft:zombie_pigman_spawn_egg"
+    ],
+    "生成僵尸猪灵": [
+      "450",
+      "1C2",
+      "minecraft:villager_spawn_egg"
+    ],
+    "生成村民": [
+      "451",
+      "1C3",
+      "minecraft:squid_spawn_egg"
+    ],
+    "生成鱿鱼": [
+      "452",
+      "1C4",
+      "minecraft:ocelot_spawn_egg"
+    ],
+    "生成豹猫": [
+      "453",
+      "1C5",
+      "minecraft:witch_spawn_egg"
+    ],
+    "生成女巫": [
+      "454",
+      "1C6",
+      "minecraft:bat_spawn_egg"
+    ],
+    "生成蝙蝠": [
+      "455",
+      "1C7",
+      "minecraft:ghast_spawn_egg"
+    ],
+    "生成恶魂": [
+      "456",
+      "1C8",
+      "minecraft:magma_cube_spawn_egg"
+    ],
+    "生成烈焰人": [
+      "458",
+      "1CA",
+      "minecraft:cave_spider_spawn_egg"
+    ],
+    "生成洞穴蜘蛛": [
+      "459",
+      "1CB",
+      "minecraft:horse_spawn_egg"
+    ],
+    "生成马": [
+      "460",
+      "1CC",
+      "minecraft:rabbit_spawn_egg"
+    ],
+    "生成兔子": [
+      "461",
+      "1CD",
+      "minecraft:endermite_spawn_egg"
+    ],
+    "生成末影螨": [
+      "462",
+      "1CE",
+      "minecraft:guardian_spawn_egg"
+    ],
+    "生成守卫者": [
+      "463",
+      "1CF",
+      "minecraft:stray_spawn_egg"
+    ],
+    "生成流浪者": [
+      "464",
+      "1D0",
+      "minecraft:husk_spawn_egg"
+    ],
+    "生成尸壳": [
+      "465",
+      "1D1",
+      "minecraft:wither_skeleton_spawn_egg"
+    ],
+    "生成凋灵骷髅": [
+      "466",
+      "1D2",
+      "minecraft:donkey_spawn_egg"
+    ],
+    "生成驴": [
+      "467",
+      "1D3",
+      "minecraft:mule_spawn_egg"
+    ],
+    "生成骡": [
+      "468",
+      "1D4",
+      "minecraft:skeleton_horse_spawn_egg"
+    ],
+    "生成骷髅马": [
+      "469",
+      "1D5",
+      "minecraft:zombie_horse_spawn_egg"
+    ],
+    "生成僵尸马": [
+      "470",
+      "1D6",
+      "minecraft:shulker_spawn_egg"
+    ],
+    "生成潜影贝": [
+      "471",
+      "1D7",
+      "minecraft:npc_spawn_egg"
+    ],
+    "生成NPC": [
+      "472",
+      "1D8",
+      "minecraft:elder_guardian_spawn_egg"
+    ],
+    "生成远古守卫者": [
+      "473",
+      "1D9",
+      "minecraft:polar_bear_spawn_egg"
+    ],
+    "生成北极熊": [
+      "474",
+      "1DA",
+      "minecraft:llama_spawn_egg"
+    ],
+    "生成羊驼": [
+      "475",
+      "1DB",
+      "minecraft:vindicator_spawn_egg"
+    ],
+    "生成卫道士": [
+      "476",
+      "1DC",
+      "minecraft:evoker_spawn_egg"
+    ],
+    "生成唤魔者": [
+      "477",
+      "1DD",
+      "minecraft:vex_spawn_egg"
+    ],
+    "生成恼鬼": [
+      "478",
+      "1DE",
+      "minecraft:zombie_villager_spawn_egg"
+    ],
+    "生成僵尸村民": [
+      "479",
+      "1DF",
+      "minecraft:parrot_spawn_egg"
+    ],
+    "生成鹦鹉": [
+      "480",
+      "1E0",
+      "minecraft:tropical_fish_spawn_egg"
+    ],
+    "生成热带鱼": [
+      "481",
+      "1E1",
+      "minecraft:cod_spawn_egg"
+    ],
+    "生成鳕鱼": [
+      "482",
+      "1E2",
+      "minecraft:pufferfish_spawn_egg"
+    ],
+    "生成河豚": [
+      "483",
+      "1E3",
+      "minecraft:salmon_spawn_egg"
+    ],
+    "生成鲑鱼": [
+      "484",
+      "1E4",
+      "minecraft:drowned_spawn_egg"
+    ],
+    "生成溺尸": [
+      "485",
+      "1E5",
+      "minecraft:dolphin_spawn_egg"
+    ],
+    "生成海豚": [
+      "486",
+      "1E6",
+      "minecraft:turtle_spawn_egg"
+    ],
+    "生成海龟": [
+      "487",
+      "1E7",
+      "minecraft:phantom_spawn_egg"
+    ],
+    "生成幻翼": [
+      "488",
+      "1E8",
+      "minecraft:agent_spawn_egg"
+    ],
+    "生成智能体": [
+      "489",
+      "1E9",
+      "minecraft:cat_spawn_egg"
+    ],
+    "生成猫": [
+      "490",
+      "1EA",
+      "minecraft:panda_spawn_egg"
+    ],
+    "生成熊猫": [
+      "491",
+      "1EB",
+      "minecraft:fox_spawn_egg"
+    ],
+    "生成狐狸": [
+      "492",
+      "1EC",
+      "minecraft:pillager_spawn_egg"
+    ],
+    "生成掠夺者": [
+      "493",
+      "1ED",
+      "minecraft:wandering_trader_spawn_egg"
+    ],
+    "生成流浪商人": [
+      "494",
+      "1EE",
+      "minecraft:ravager_spawn_egg"
+    ],
+    "生成劫掠兽": [
+      "495",
+      "1EF",
+      "minecraft:bee_spawn_egg"
+    ],
+    "生成蜜蜂": [
+      "496",
+      "1F0",
+      "minecraft:strider_spawn_egg"
+    ],
+    "生成炽足兽": [
+      "497",
+      "1F1",
+      "minecraft:hoglin_spawn_egg"
+    ],
+    "生成疣猪兽": [
+      "498",
+      "1F2",
+      "minecraft:piglin_spawn_egg"
+    ],
+    "生成猪灵": [
+      "499",
+      "1F3",
+      "minecraft:zoglin_spawn_egg"
+    ],
+    "生成僵尸疣猪兽": [
+      "500",
+      "1F4",
+      "minecraft:piglin_brute_spawn_egg"
+    ],
+    "生成猪灵蛮兵": [
+      "501",
+      "1F5",
+      "minecraft:sniffer_spawn_egg"
+    ],
+    "生成嗅探兽": [
+      "502",
+      "1F6",
+      "minecraft:axolotl_spawn_egg"
+    ],
+    "生成美西螈": [
+      "503",
+      "1F7",
+      "minecraft:goat_spawn_egg"
+    ],
+    "生成山羊": [
+      "504",
+      "1F8",
+      "minecraft:glow_squid_spawn_egg"
+    ],
+    "生成发光鱿鱼": [
+      "505",
+      "1F9",
+      "minecraft:iron_golem_spawn_egg"
+    ],
+    "生成铁傀儡": [
+      "506",
+      "1FA",
+      "minecraft:snow_golem_spawn_egg"
+    ],
+    "生成末影龙": [
+      "508",
+      "1FC",
+      "minecraft:wither_spawn_egg"
+    ],
+    "生成凋灵": [
+      "509",
+      "1FD",
+      "minecraft:glow_ink_sac"
+    ],
+    "荧光墨囊": [
+      "510",
+      "1FE",
+      "minecraft:copper_ingot"
+    ],
+    "铜锭": [
+      "511",
+      "1FF",
+      "minecraft:raw_iron"
+    ],
+    "粗铁": [
+      "512",
+      "200",
+      "minecraft:raw_gold"
+    ],
+    "粗金": [
+      "513",
+      "201",
+      "minecraft:raw_copper"
+    ],
+    "粗铜": [
+      "514",
+      "202",
+      "minecraft:experience_bottle"
+    ],
+    "附魔之瓶": [
+      "515",
+      "203",
+      "minecraft:fire_charge"
+    ],
+    "火焰弹": [
+      "516",
+      "204",
+      "minecraft:writable_book"
+    ],
+    "书与笔": [
+      "517",
+      "205",
+      "minecraft:written_book"
+    ],
+    "成书": [
+      "518",
+      "206",
+      "minecraft:emerald"
+    ],
+    "绿宝石": [
+      "519",
+      "207",
+      "minecraft:frame"
+    ],
+    "物品展示框": [
+      "520",
+      "208",
+      "minecraft:flower_pot"
+    ],
+    "花盆": [
+      "521",
+      "209",
+      "minecraft:empty_map"
+    ],
+    "空地图": [
+      "522",
+      "20A",
+      "minecraft:skull"
+    ],
+    "生物头颅": [
+      "523",
+      "20B",
+      "minecraft:carrot_on_a_stick"
+    ],
+    "胡萝卜钓竿": [
+      "524",
+      "20C",
+      "minecraft:nether_star"
+    ],
+    "下界之星": [
+      "525",
+      "20D",
+      "minecraft:firework_rocket"
+    ],
+    "烟花火箭": [
+      "526",
+      "20E",
+      "minecraft:firework_star"
+    ],
+    "烟火之星": [
+      "527",
+      "20F",
+      "minecraft:enchanted_book"
+    ],
+    "附魔书": [
+      "528",
+      "210",
+      "minecraft:comparator"
+    ],
+    "红石比较器": [
+      "529",
+      "211",
+      "minecraft:netherbrick"
+    ],
+    "下界砖": [
+      "530",
+      "212",
+      "minecraft:quartz"
+    ],
+    "下界石英": [
+      "531",
+      "213",
+      "minecraft:tnt_minecart"
+    ],
+    "TNT矿车": [
+      "532",
+      "214",
+      "minecraft:hopper_minecart"
+    ],
+    "漏斗矿车": [
+      "533",
+      "215",
+      "minecraft:hopper"
+    ],
+    "漏斗": [
+      "534",
+      "216",
+      "minecraft:rabbit_foot"
+    ],
+    "兔子脚": [
+      "535",
+      "217",
+      "minecraft:rabbit_hide"
+    ],
+    "兔子皮": [
+      "536",
+      "218",
+      "minecraft:leather_horse_armor"
+    ],
+    "皮革马铠": [
+      "537",
+      "219",
+      "minecraft:iron_horse_armor"
+    ],
+    "铁马铠": [
+      "538",
+      "21A",
+      "minecraft:golden_horse_armor"
+    ],
+    "金马铠": [
+      "539",
+      "21B",
+      "minecraft:diamond_horse_armor"
+    ],
+    "钻石马铠": [
+      "540",
+      "21C",
+      "minecraft:music_disc_13",
+      "音乐唱片 （13）",
+      "541",
+      "21D",
+      "minecraft:music_disc_cat"
+    ],
+    "音乐唱片 （cat）": [
+      "542",
+      "21E",
+      "minecraft:music_disc_blocks"
+    ],
+    "音乐唱片 （blocks）": [
+      "543",
+      "21F",
+      "minecraft:music_disc_chirp"
+    ],
+    "音乐唱片 （chirp）": [
+      "544",
+      "220",
+      "minecraft:music_disc_far"
+    ],
+    "音乐唱片 （far）": [
+      "545",
+      "221",
+      "minecraft:music_disc_mall"
+    ],
+    "音乐唱片 （mall）": [
+      "546",
+      "222",
+      "minecraft:music_disc_mellohi"
+    ],
+    "音乐唱片 （mellohi）": [
+      "547",
+      "223",
+      "minecraft:music_disc_stal"
+    ],
+    "音乐唱片 （stal）": [
+      "548",
+      "224",
+      "minecraft:music_disc_strad"
+    ],
+    "音乐唱片 （strad）": [
+      "549",
+      "225",
+      "minecraft:music_disc_ward"
+    ],
+    "音乐唱片 （ward）": [
+      "550",
+      "226",
+      "minecraft:music_disc_11",
+      "音乐唱片 （11）",
+      "551",
+      "227",
+      "minecraft:music_disc_wait"
+    ],
+    "音乐唱片 （wait）": [
+      "552",
+      "228",
+      "minecraft:trident"
+    ],
+    "三叉戟": [
+      "553",
+      "229",
+      "minecraft:lead"
+    ],
+    "拴绳": [
+      "554",
+      "22A",
+      "minecraft:name_tag"
+    ],
+    "命名牌": [
+      "555",
+      "22B",
+      "minecraft:prismarine_crystals"
+    ],
+    "海晶砂粒": [
+      "556",
+      "22C",
+      "minecraft:mutton"
+    ],
+    "熟羊肉": [
+      "558",
+      "22E",
+      "minecraft:armor_stand"
+    ],
+    "盔甲架": [
+      "559",
+      "22F",
+      "minecraft:spruce_door"
+    ],
+    "云杉木门": [
+      "560",
+      "230",
+      "minecraft:birch_door"
+    ],
+    "白桦木门": [
+      "561",
+      "231",
+      "minecraft:jungle_door"
+    ],
+    "丛林木门": [
+      "562",
+      "232",
+      "minecraft:acacia_door"
+    ],
+    "金合欢木门": [
+      "563",
+      "233",
+      "minecraft:dark_oak_door"
+    ],
+    "深色橡木门": [
+      "564",
+      "234",
+      "minecraft:chorus_fruit"
+    ],
+    "紫颂果": [
+      "565",
+      "235",
+      "minecraft:popped_chorus_fruit"
+    ],
+    "爆裂紫颂果": [
+      "566",
+      "236",
+      "minecraft:dragon_breath"
+    ],
+    "龙息": [
+      "567",
+      "237",
+      "minecraft:splash_potion"
+    ],
+    "喷溅药水": [
+      "568",
+      "238",
+      "minecraft:lingering_potion"
+    ],
+    "滞留药水": [
+      "569",
+      "239",
+      "minecraft:command_block_minecart"
+    ],
+    "命令方块矿车": [
+      "570",
+      "23A",
+      "minecraft:elytra"
+    ],
+    "鞘翅": [
+      "571",
+      "23B",
+      "minecraft:prismarine_shard"
+    ],
+    "海晶碎片": [
+      "572",
+      "23C",
+      "minecraft:shulker_shell"
+    ],
+    "潜影壳": [
+      "573",
+      "23D",
+      "minecraft:banner"
+    ],
+    "旗帜": [
+      "574",
+      "23E",
+      "minecraft:totem_of_undying"
+    ],
+    "不死图腾": [
+      "575",
+      "23F",
+      "minecraft:iron_nugget"
+    ],
+    "铁粒": [
+      "576",
+      "240",
+      "minecraft:nautilus_shell"
+    ],
+    "鹦鹉螺壳": [
+      "577",
+      "241",
+      "minecraft:heart_of_the_sea"
+    ],
+    "海洋之心": [
+      "578",
+      "242",
+      "minecraft:scute"
+    ],
+    "鳞甲": [
+      "579",
+      "243",
+      "minecraft:turtle_helmet"
+    ],
+    "海龟壳": [
+      "580",
+      "244",
+      "minecraft:phantom_membrane"
+    ],
+    "幻翼膜": [
+      "581",
+      "245",
+      "minecraft:crossbow"
+    ],
+    "弩": [
+      "582",
+      "246",
+      "minecraft:spruce_sign"
+    ],
+    "云杉木告示牌": [
+      "583",
+      "247",
+      "minecraft:birch_sign"
+    ],
+    "白桦木告示牌": [
+      "584",
+      "248",
+      "minecraft:jungle_sign"
+    ],
+    "丛林木告示牌": [
+      "585",
+      "249",
+      "minecraft:acacia_sign"
+    ],
+    "金合欢木告示牌": [
+      "586",
+      "24A",
+      "minecraft:dark_oak_sign"
+    ],
+    "深色橡木告示牌": [
+      "587",
+      "24B",
+      "minecraft:flower_banner_pattern"
+    ],
+    "旗帜图案（花朵盾徽）": [
+      "588",
+      "24C",
+      "minecraft:creeper_banner_pattern"
+    ],
+    "旗帜图案（苦力怕盾徽）": [
+      "589",
+      "24D",
+      "minecraft:skull_banner_pattern"
+    ],
+    "旗帜图案（头颅盾徽）": [
+      "590",
+      "24E",
+      "minecraft:mojang_banner_pattern"
+    ],
+    "旗帜图案（Mojang徽标）": [
+      "591",
+      "24F",
+      "minecraft:field_masoned_banner_pattern"
+    ],
+    "旗帜图案（砖纹）": [
+      "592",
+      "250",
+      "minecraft:bordure_indented_banner_pattern"
+    ],
+    "旗帜图案（波纹边）": [
+      "593",
+      "251",
+      "minecraft:piglin_banner_pattern"
+    ],
+    "旗帜图案（猪鼻）": [
+      "594",
+      "252",
+      "minecraft:globe_banner_pattern"
+    ],
+    "旗帜图案（地球）": [
+      "595",
+      "253",
+      "minecraft:campfire"
+    ],
+    "营火": [
+      "596",
+      "254",
+      "minecraft:suspicious_stew"
+    ],
+    "谜之炖菜": [
+      "597",
+      "255",
+      "minecraft:debug_stick"
+    ],
+    "调试棒": [
+      "598",
+      "256",
+      "minecraft:honeycomb"
+    ],
+    "蜜脾": [
+      "599",
+      "257",
+      "minecraft:honey_bottle"
+    ],
+    "蜂蜜瓶": [
+      "600",
+      "258",
+      "minecraft:camera"
+    ],
+    "摄像机": [
+      "601",
+      "259",
+      "minecraft:compound"
+    ],
+    "化合物": [
+      "602",
+      "25A",
+      "minecraft:ice_bomb"
+    ],
+    "冰弹": [
+      "603",
+      "25B",
+      "minecraft:bleach"
+    ],
+    "漂白剂": [
+      "604",
+      "25C",
+      "minecraft:rapid_fertilizer"
+    ],
+    "超级肥料": [
+      "605",
+      "25D",
+      "minecraft:balloon"
+    ],
+    "气球": [
+      "606",
+      "25E",
+      "minecraft:medicine"
+    ],
+    "烟花棒": [
+      "608",
+      "260",
+      "minecraft:glow_stick"
+    ],
+    "荧光棒": [
+      "609",
+      "261",
+      "minecraft:lodestone_compass"
+    ],
+    "磁石指针": [
+      "610",
+      "262",
+      "minecraft:netherite_ingot"
+    ],
+    "下界合金锭": [
+      "611",
+      "263",
+      "minecraft:netherite_sword"
+    ],
+    "下界合金剑": [
+      "612",
+      "264",
+      "minecraft:netherite_shovel"
+    ],
+    "下界合金锹": [
+      "613",
+      "265",
+      "minecraft:netherite_pickaxe"
+    ],
+    "下界合金镐": [
+      "614",
+      "266",
+      "minecraft:netherite_axe"
+    ],
+    "下界合金斧": [
+      "615",
+      "267",
+      "minecraft:netherite_hoe"
+    ],
+    "下界合金锄": [
+      "616",
+      "268",
+      "minecraft:netherite_helmet"
+    ],
+    "下界合金头盔": [
+      "617",
+      "269",
+      "minecraft:netherite_chestplate"
+    ],
+    "下界合金胸甲": [
+      "618",
+      "26A",
+      "minecraft:netherite_leggings"
+    ],
+    "下界合金护腿": [
+      "619",
+      "26B",
+      "minecraft:netherite_boots"
+    ],
+    "下界合金靴子": [
+      "620",
+      "26C",
+      "minecraft:netherite_scrap"
+    ],
+    "下界合金碎片": [
+      "621",
+      "26D",
+      "minecraft:crimson_sign"
+    ],
+    "绯红木告示牌": [
+      "622",
+      "26E",
+      "minecraft:warped_sign"
+    ],
+    "诡异木告示牌": [
+      "623",
+      "26F",
+      "minecraft:crimson_door"
+    ],
+    "绯红木门": [
+      "624",
+      "270",
+      "minecraft:warped_door"
+    ],
+    "诡异木门": [
+      "625",
+      "271",
+      "minecraft:warped_fungus_on_a_stick"
+    ],
+    "诡异菌钓竿": [
+      "626",
+      "272",
+      "minecraft:chain"
+    ],
+    "锁链": [
+      "627",
+      "273",
+      "minecraft:music_disc_pigstep"
+    ],
+    "音乐唱片 （Pigstep）": [
+      "628",
+      "274",
+      "minecraft:nether_sprouts"
+    ],
+    "下界苗": [
+      "629",
+      "275",
+      "minecraft:soul_campfire"
+    ],
+    "灵魂营火": [
+      "630",
+      "276",
+      "minecraft:glow_frame"
+    ],
+    "荧光物品展示框": [
+      "631",
+      "277",
+      "minecraft:amethyst_shard"
+    ],
+    "紫水晶碎片": [
+      "632",
+      "278",
+      "minecraft:spyglass"
+    ],
+    "望远镜": [
+      "633",
+      "279",
+      "minecraft:music_disc_otherside"
+    ],
+    "音乐唱片 （otherside）": [
+      "634",
+      "27A",
+      "minecraft:goat_horn"
+    ],
+    "山羊角": [
+      "635",
+      "27B",
+      "minecraft:frog_spawn_egg"
+    ],
+    "生成青蛙": [
+      "636",
+      "27C",
+      "minecraft:tadpole_spawn_egg"
+    ],
+    "生成蝌蚪": [
+      "637",
+      "27D",
+      "minecraft:tadpole_bucket"
+    ],
+    "蝌蚪桶": [
+      "638",
+      "27E",
+      "minecraft:allay_spawn_egg"
+    ],
+    "生成悦灵": [
+      "639",
+      "27F",
+      "minecraft:warden_spawn_egg"
+    ],
+    "生成监守者": [
+      "640",
+      "280",
+      "minecraft:mangrove_door"
+    ],
+    "红树木门": [
+      "641",
+      "281",
+      "minecraft:mangrove_sign"
+    ],
+    "红树木告示牌": [
+      "642",
+      "282",
+      "minecraft:mangrove_boat"
+    ],
+    "红树木船": [
+      "643",
+      "283",
+      "minecraft:music_disc_5",
+      "音乐唱片 （5）",
+      "644",
+      "284",
+      "minecraft:disc_fragment_5",
+      "唱片残片（5）",
+      "645",
+      "285",
+      "minecraft:oak_chest_boat"
+    ],
+    "橡木运输船": [
+      "646",
+      "286",
+      "minecraft:birch_chest_boat"
+    ],
+    "白桦木运输船": [
+      "647",
+      "287",
+      "minecraft:jungle_chest_boat"
+    ],
+    "丛林木运输船": [
+      "648",
+      "288",
+      "minecraft:spruce_chest_boat"
+    ],
+    "云杉木运输船": [
+      "649",
+      "289",
+      "minecraft:acacia_chest_boat"
+    ],
+    "金合欢木运输船": [
+      "650",
+      "28A",
+      "minecraft:dark_oak_chest_boat"
+    ],
+    "深色橡木运输船": [
+      "651",
+      "28B",
+      "minecraft:mangrove_chest_boat"
+    ],
+    "红树木运输船": [
+      "652",
+      "28C",
+      "minecraft:chest_boat"
+    ],
+    "运输船": [
+      "653",
+      "28D",
+      "minecraft:recovery_compass"
+    ],
+    "追溯指针": [
+      "654",
+      "28E",
+      "minecraft:echo_shard"
+    ],
+    "回响碎片": [
+      "655",
+      "28F",
+      "minecraft:trader_llama_spawn_egg"
+    ],
+    "生成行商羊驼": [
+      "656",
+      "290",
+      "minecraft:cherry_boat"
+    ],
+    "樱花木运输船": [
+      "658",
+      "292",
+      "minecraft:cherry_sign"
+    ],
+    "樱花木告示牌": [
+      "659",
+      "293",
+      "minecraft:bamboo_sign"
+    ],
+    "竹告示牌": [
+      "660",
+      "294",
+      "minecraft:bamboo_raft"
+    ],
+    "竹筏": [
+      "661",
+      "295",
+      "minecraft:bamboo_chest_raft"
+    ],
+    "运输竹筏": [
+      "662",
+      "296",
+      "minecraft:camel_spawn_egg"
+    ],
+    "生成骆驼": [
+      "663",
+      "297",
+      "minecraft:angler_pottery_shard"
+    ],
+    "垂钓纹样陶片": [
+      "664",
+      "298",
+      "minecraft:archer_pottery_shard"
+    ],
+    "弓箭纹样陶片": [
+      "665",
+      "299",
+      "minecraft:arms_up_pottery_shard"
+    ],
+    "举臂纹样陶片": [
+      "666",
+      "29A",
+      "minecraft:blade_pottery_shard"
+    ],
+    "利刃纹样陶片": [
+      "667",
+      "29B",
+      "minecraft:brew_pottery_shard"
+    ],
+    "佳酿纹样陶片": [
+      "668",
+      "29C",
+      "minecraft:burn_pottery_shard"
+    ],
+    "烈焰纹样陶片": [
+      "669",
+      "29D",
+      "minecraft:danger_pottery_shard"
+    ],
+    "危机纹样陶片": [
+      "670",
+      "29E",
+      "minecraft:explorer_pottery_shard"
+    ],
+    "探险纹样陶片": [
+      "671",
+      "29F",
+      "minecraft:friend_pottery_shard"
+    ],
+    "挚友纹样陶片": [
+      "672",
+      "2A0",
+      "minecraft:heart_pottery_shard"
+    ],
+    "爱心纹样陶片": [
+      "673",
+      "2A1",
+      "minecraft:heartbreak_pottery_shard"
+    ],
+    "心碎纹样陶片": [
+      "674",
+      "2A2",
+      "minecraft:howl_pottery_shard"
+    ],
+    "狼嚎纹样陶片": [
+      "675",
+      "2A3",
+      "minecraft:miner_pottery_shard"
+    ],
+    "采矿纹样陶片": [
+      "676",
+      "2A4",
+      "minecraft:mourner_pottery_shard"
+    ],
+    "悲恸纹样陶片": [
+      "677",
+      "2A5",
+      "minecraft:plenty_pottery_shard"
+    ],
+    "富饶纹样陶片": [
+      "678",
+      "2A6",
+      "minecraft:Prize_pottery_shard"
+    ],
+    "珍宝纹样陶片": [
+      "679",
+      "2A7",
+      "minecraft:sheaf_pottery_shard"
+    ],
+    "麦捆纹样陶片": [
+      "680",
+      "2A8",
+      "minecraft:shelter_pottery_shard"
+    ],
+    "树荫纹样陶片": [
+      "681",
+      "2A9",
+      "minecraft:skull_pottery_shard"
+    ],
+    "头颅纹样陶片": [
+      "682",
+      "2AA",
+      "minecraft:snort_pottery_shard"
+    ],
+    "嗅探纹样陶片": [
+      "683",
+      "2AB",
+      "minecraft:brush"
+    ],
+    "刷子": [
+      "684",
+      "2AC",
+      "minecraft:netherite_upgrade_smithing_template"
+    ],
+    "下界合金升级": [
+      "685",
+      "2AD",
+      "minecraft:sentry_armor_trim_smithing_template"
+    ],
+    "哨兵盔甲纹饰": [
+      "686",
+      "2AE",
+      "minecraft:dune_armor_trim_smithing_template"
+    ],
+    "沙丘盔甲纹饰": [
+      "687",
+      "2AF",
+      "minecraft:coast_armor_trim_smithing_template"
+    ],
+    "海岸盔甲纹饰": [
+      "688",
+      "2B0",
+      "minecraft:wild_armor_trim_smithing_template"
+    ],
+    "荒野盔甲纹饰": [
+      "689",
+      "2B1",
+      "minecraft:ward_armor_trim_smithing_template"
+    ],
+    "监守盔甲纹饰": [
+      "690",
+      "2B2",
+      "minecraft:eye_armor_trim_smithing_template"
+    ],
+    "眼眸盔甲纹饰": [
+      "691",
+      "2B3",
+      "minecraft:vex_armor_trim_smithing_template"
+    ],
+    "恼鬼盔甲纹饰": [
+      "692",
+      "2B4",
+      "minecraft:tide_armor_trim_smithing_template"
+    ],
+    "潮汐盔甲纹饰": [
+      "693",
+      "2B5",
+      "minecraft:snout_armor_trim_smithing_template"
+    ],
+    "猪鼻盔甲纹饰": [
+      "694",
+      "2B6",
+      "minecraft:rib_armor_trim_smithing_template"
+    ],
+    "肋骨盔甲纹饰": [
+      "695",
+      "2B7",
+      "minecraft:spire_armor_trim_smithing_template"
+    ],
+    "尖塔盔甲纹饰": [
+      "696",
+      "2B8",
+      "minecraft:silence_armor_trim_smithing_template"
+    ],
+    "幽静盔甲纹饰": [
+      "697",
+      "2B9",
+      "minecraft:wayfinder_armor_trim_smithing_template"
+    ],
+    "向导盔甲纹饰": [
+      "698",
+      "2BA",
+      "minecraft:raiser_armor_trim_smithing_template"
+    ],
+    "牧民盔甲纹饰": [
+      "699",
+      "2BB",
+      "minecraft:shaper_armor_trim_smithing_template"
+    ],
+    "塑造盔甲纹饰": [
+      "700",
+      "2BC",
+      "minecraft:host_armor_trim_smithing_template"
+    ],
+    "雇主盔甲纹饰": [
+      "709",
+      "2C5",
+      "minecraft:end_crystal"
+    ],
+    "末地水晶": [
+      "710",
+      "2C6",
+      "minecraft:glow_berries"
+    ]
+  }
+}

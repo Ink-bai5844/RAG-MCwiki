@@ -1,0 +1,5 @@
+{
+  "title": "Earth:斑点猪",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E6%96%91%E7%82%B9%E7%8C%AA",
+  "text": "本条目介绍的是Minecraft Earth中带有斑点的猪变种。关于其他类似于猪的生物，请见“猪（消歧义）”。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n斑点猪\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：0.9格\n宽度：0.9格\n实体ID\n?\n这头小猪是甜的。它喜欢和它的小猪朋友住在一起，在草丛平原上寻找甜食。\n——Minecraft Earth内描述\n斑点猪（Spotted Pig）是猪的变种，属于被动型生物。它们有着罕见级的稀有度。\n行为\n主条目：猪 § 行为\n与普通的猪相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n音效\n描述\n文件\n空闲时随机播放此音效\nmob.pig.say\n死亡\nmob.pig.death\n受伤\nmob.pig.say\n行走\nmob.pig.step\n历史\nMinecraft Earth\n0.16.0\n加入了斑点猪。\n导航"
+}

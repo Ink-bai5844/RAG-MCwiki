@@ -1,0 +1,93 @@
+{
+  "title": "命令/attribute",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fattribute",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "用于更改或读取属性。"
+    ],
+    "attribute <target> <attribute> get [<scale>]": [
+      "返回指定属性的总值。"
+    ],
+    "attribute <target> <attribute> base get [<scale>]": [
+      "返回指定属性的基值。"
+    ],
+    "attribute <target> <attribute> base reset": [
+      "重置指定属性的基值为默认值。"
+    ],
+    "attribute <target> <attribute> base set <value>": [
+      "用给定值覆盖指定属性的基值。"
+    ],
+    "attribute <target> <attribute> modifier add <id> <value> (add_value|add_multiplied_total|add_multiplied_base)": [
+      "如果已不存在具有相同命名空间ID的修饰符，则添加具有指定属性的属性修饰符。"
+    ],
+    "attribute <target> <attribute> modifier remove <id>": [
+      "删除具有指定命名空间ID的属性修饰符。"
+    ],
+    "attribute <target> <attribute> modifier value get <id> [<scale>]": [
+      "返回具有指定命名空间ID的修饰符的值。"
+    ],
+    "参数": [
+      "<target>：entity",
+      "应用属性的实体。注意只有生物才有属性。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "<attribute>：resource",
+      "指定属性的命名空间ID。",
+      "必须是一个注册在minecraft:attribute注册表的一个注册项的命名空间ID。",
+      "<scale>：double",
+      "用于/execute store result命令，将获取的值与该值相乘的数字后再储存（小数会被截断取整）。",
+      "必须为双精度浮点数。",
+      "<id>：resource_location",
+      "指定修饰符的命名空间ID。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "只要多个属性修饰符的ID互不相同，该参数并不影响最终命令的结果。",
+      "<value>：double",
+      "指定要使用的值。",
+      "必须为双精度浮点数。"
+    ],
+    "Java版": [
+      "1.16",
+      "20w17a",
+      "加入了/attribute。",
+      "1.18.2",
+      "1.18.2-pre3",
+      "属性参数的参数类型从resource_location改为resource。",
+      "1.20.5",
+      "24w09a",
+      "更改了operation参数的可能值：add->add_value，multiply_base->add_multiplied_base，multiply->add_multiplied_total。",
+      "1.21",
+      "24w21a",
+      "移除了修饰符的uuid和name参数，现在均以命名空间IDid取代。",
+      "1.21.4",
+      "24w44a",
+      "加入了用于重置实体的属性默认值的子命令。"
+    ],
+    "执行失败": [
+      "指定实体不存在该属性（例如玩家没有minecraft:horse.jump_strength属性）",
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "示例": [
+      "将自己的基础护甲值设定为5：",
+      "/attribute @s minecraft:armor base set 5",
+      "将所有玩家的最大生命值设置为1（经典极限生存）：",
+      "/execute as @a run attribute @s minecraft:max_health base set 1",
+      "为最近一个玩家的重力属性添加命名空间ID为test:antigravity的“反重力”属性修饰符。",
+      "/attribute @p minecraft:gravity modifier add test:antigravity -0.16 add_value",
+      "移除最近一个玩家的“反重力”属性修饰符test:antigravity。",
+      "/attribute @p minecraft:gravity modifier remove test:antigravity",
+      "将最近一个玩家的重力属性基值重置为默认值。",
+      "/attribute @p minecraft:gravity base reset"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/testfor",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftestfor",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\n此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\ntestfor\n需要的权限等级\n1\n限制条件\n启用作弊\n检测并统计符合指定条件的实体（玩家、生物、物品等）。\n语法\ntestfor <victim: target>\n参数\nvictim: target：CommandSelector<Actor>\n指定计数的目标。\n必须为玩家名或目标选择器。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\nvictim: target未能选中一个或多个实体（指定的玩家必须在线上）\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n指定实体的数量\n示例\n检测Alice是否在线上：/testfor Alice\n统计圆心为(0,64,0)、半径为3米的区域内的生存玩家数量：/testfor @a[x=0,y=64,z=0,r=3,m=0]\n统计圆心为(0,64,0)、半径为20米的区域内的僵尸数量：/testfor @e[x=0,y=64,z=0,r=20,type=zombie]\n检测掉落物：/testfor @e[type=item]\n历史\nJava版\n1.5\n13w03a\n加入了/testfor。\n1.8\n14w02a\n加入了dataTag变量。\n/testfor不再为命令方块独用。\n1.13\n17w45a\n移除了/testfor，并加入/execute if entity取代其功能。\n携带版\n1.0.5\n1.0.5.0\n加入了/testfor。\n导航"
+}

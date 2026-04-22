@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.20.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.20.24",
+  "text": "1.21.20.24\n版本\n基岩版\n服务端版本\n1.21.20.24\n版本码\nAndroid：\n952102024（armeabi-v7a，34）\n962102024（x86，34）\n972102024（arm64-v8a，34）\n982102024（x86_64，34）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年7月25日\n测试版归属\n1.21.20\n下载\n服务端\nWindowsLinux\n协议版本\n712\n◄◄1.21.3\n1.21.21►►\n◄1.21.20.23\nbeta 1.21.20.24（ChromeOS/Android）、Preview 1.21.20.24（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的第9个测试版，发布于2024年7月25日，修复了一些漏洞。\n更改\n技术性\n附加包和脚本引擎\n修复了粒子外观布告板组件的默认UV不正确的问题。（MCPE-183989）\n实验性\n本段落的内容需要开启实验性玩法中的“为创建者提供的渲染龙功能”子选项后才可使用。\n技术性\n图形\n延迟渲染预览功能不再支持低于iPhone 8、iPad（第8代）或iPad Mini（第5代）的iOS设备。\n修复\n游戏内容\n靠近屏幕边缘时大型箱子不再会消失。（MCPE-183848）\n修复了旧版世界中的双层植物会被破坏的问题。（MCPE-183072）\n现在玩家重进世界时会面朝与离开时相同的方向。（MCPE-183730）\n参考\nMinecraft Beta & Preview - 1.21.20.24 — Minecraft Feedback，2024年7月25日。\n导航"
+}

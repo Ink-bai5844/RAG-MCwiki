@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:奖励射击",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%A5%96%E5%8A%B1%E5%B0%84%E5%87%BB",
+  "structured_content": {
+    "BonusShot": [
+      "射击后还会射出第二箭，但第二箭的伤害会降低。"
+    ],
+    "——魔咒描述": [
+      "奖励射击（Bonus Shot）是Minecraft Dungeons中的魔咒，作用为射箭后还会射出第二箭，但伤害会降低。第二箭的伤害随着等级提升而增加。"
+    ],
+    "I": [
+      "10% 每次射击伤害",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "17% 每次射击伤害",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "24% 每次射击伤害",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了奖励射击。"
+    ]
+  }
+}

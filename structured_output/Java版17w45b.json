@@ -1,0 +1,118 @@
+{
+  "title": "Java版17w45b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8817w45b",
+  "structured_content": {
+    "默认分类": [
+      "17w45b"
+    ],
+    "发布时间": [
+      "2017年11月10日"
+    ],
+    "快照归属": [
+      "1.13"
+    ],
+    "协议版本": [
+      "344"
+    ],
+    "数据版本": [
+      "1448"
+    ],
+    "资源包版本": [
+      "3",
+      "◄◄1.12.2",
+      "1.13.1►►",
+      "◄17w45a",
+      "17w46a►",
+      "17w45b是Java版1.13的第4个快照，发布于2017年11月10日，加入了新的命令/data，并修复了一些漏洞。"
+    ],
+    "/data": [
+      "一条允许玩家获取、合并和移除实体和方块的NBT数据命令。",
+      "/data get block <目标位置> [<标签路径>] [<增幅倍率>]。",
+      "将会返回<目标位置>方块的NBT数据。标签路径 能用于输出某个特定的NBT数据，但此功能仍然被限定于数字形式的数据。可选的增幅倍率 可以用于增幅输出值。",
+      "/data get entity <目标实体> [<标签路径>] [<增幅倍率>]。",
+      "将会从目标实体返回NBT数据。标签路径 能用于输出某个特定的NBT数据，但此功能仍然被限定于数字形式的数据。可选的增幅倍率 可以用于增幅输出值。"
+    ],
+    "/data merge block <目标位置> <nbt>": [
+      "将会合并目标位置 与玩家所设定的nbt数据。"
+    ],
+    "/data merge entity <目标实体> <nbt>": [
+      "将会合并目标位置 与玩家所设定的nbt数据。合并玩家的NBT数据是不允许的。",
+      "/data remove block <目标位置> <标签路径>。",
+      "将会移除目标位置在标签路径 的NBT数据。"
+    ],
+    "/data remove entity <目标实体> <标签路径>": [
+      "将会移除目标实体在标签路径 的NBT数据。 删除玩家NBT数据是不允许的。",
+      "标签路径看起来像这样: foo.bar[0].\"A [crazy name]\".baz",
+      "foo.bar是指定foo的子标签bar。",
+      "bar[0]表示指定bar列表的第0号元素。",
+      "\"引入字符串\" 当字符串需要被返回时可能可以使用。",
+      "旧命令转换示例：",
+      "/entitydata <目标实体> {nbt}，现在是/data get entity <目标实体>。",
+      "/blockdata <目标位置> <nbt>，现在是/data merge block <目标位置> <nbt>。",
+      "新功能使用示例：",
+      "/data get entity @e[type=pig,limit=1] Saddle 2",
+      "/data remove block 17 45 34 Items"
+    ],
+    "/entitydata": [
+      "被移除以应对新加入的/data。"
+    ],
+    "/execute store (result|success) score <目标选择器> <记分项名称> run <命令>": [
+      "返回值会被存储在<目标名称> 的 <目标判据>里。",
+      "目标判据必须存在，但相对于/stats不需要为<目标名称>设定起始值。"
+    ],
+    "/execute store (result|success) block <目标位置> <标签路径> (byte|double|float|int|long|short)": [
+      "将返回值存储在目标位置方块标签路径的NBT标签上，并存储为byte、double、float、int、long、或short类型。"
+    ],
+    "/execute store (result|success) entity <目标实体> <标签路径> (byte|double|float|int|long|short)": [
+      "将返回值存储在目标实体标签路径的NBT标签上，并存储为byte、double、float、int、long、或short类型。",
+      "标签路径看起来像这样：foo.bar[0].\"A [crazy name]\".baz",
+      "foo.bar是指定foo的子标签bar。",
+      "bar[0]表示指定bar列表的第0号元素。",
+      "\"引入字符串\" 当字符串需要被返回时可能可以使用。",
+      "例子："
+    ],
+    "/execute store success score @a foo run say hi": [
+      "/execute as @e[type=pig] at @s store success entity @s Saddle byte 1 if entity @p[distance=..5]"
+    ],
+    "/execute if <...>": [
+      "现在可以用于返回自己的结果，不再要求串联命令连锁。"
+    ],
+    "修复": [
+      "修复了28个漏洞",
+      "1.13前正式版的漏洞",
+      "MC-80400 — 在命令中，大小被限制了的实体选择器（例如带c=1的@e或带type=!entity的@r）会优先选择到玩家。",
+      "MC-87799 — /execute命令检测功能在非全高方块（如雪层、草径、灵魂沙或耕地）间表现不一致。",
+      "MC-98244 — 可以通过entitydata无限次使用或更改相同的UUID。",
+      "MC-106681 — 第一个玩家失败时，/scoreboard teams leave命令不能工作。",
+      "MC-111704 — /setblock和/fill命令中的“旧方块处理方式”可以输入任意值。",
+      "MC-114721 — /title命令会把无效的第二个参数视作“标题”。",
+      "MC-117933 — /clone命令会把无效的可选参数视为默认参数。",
+      "MC-122085 — 生成服务器图标会泄露已编码的数据缓冲区。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-121623 — 不能在选择器中的type=内使用命名空间。",
+      "MC-121627 — @s无法构造有效的命令。",
+      "MC-121635 — /fill命令失败的错误消息有误。",
+      "MC-121637 — 传送单一实体时返回的消息有误。",
+      "MC-121642 — 有条件的/execute命令链后执行的可选命令会奇怪地成功或失败。",
+      "MC-121647 — 加入多人游戏服务器时，出现JRE严重错误。",
+      "MC-121655 — 传送单一实体时返回的消息有误。",
+      "MC-121656 — 禁用作弊时，一些仅创造模式可用的命令对生存模式下的玩家也有效。",
+      "MC-121660 — 无法在@a、@p或@e[type=player]选择器中用距离参数选定玩家。",
+      "MC-121663 — 新世界会从其他世界中复制游戏规则。",
+      "MC-121674 — /execute命令在函数中不起作用。",
+      "MC-121683 — /scoreboard players命令中，-=不是一个有效的操作符。",
+      "MC-121686 — /execute unless总是对实体执行失败。",
+      "MC-121695 — /tellraw命令只支持1个目标。",
+      "MC-121711 — @a或@s选择器不包含死亡的玩家。",
+      "MC-121726 — 只有玩家才能被传送到相对坐标上。",
+      "MC-121727 — 当一条命令失败时，对多实体有效的/execute命令的执行会被取消。",
+      "MC-121728 — /execute命令对所有实体倒序执行命令。",
+      "MC-121749 — /entitydata命令对修改过的NBT数据不起作用。",
+      "MC-121765 — 移除n点记分板点数时，实际上是增加相应点数。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 17w45b — Minecraft.net，2017年11月10日。"
+    ]
+  }
+}

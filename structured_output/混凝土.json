@@ -1,0 +1,400 @@
+{
+  "title": "混凝土",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B7%B7%E5%87%9D%E5%9C%9F",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是遇水固化后的方块。关于其受重力影响的粉末形式，请见“混凝土粉末”。"
+    ],
+    "硬度": [
+      "1.8",
+      "1.8"
+    ],
+    "爆炸抗性": [
+      "1.8"
+    ],
+    "地图基色": [
+      "白色混凝土："
+    ],
+    "#FFFFFF": [
+      "淡灰色混凝土：",
+      "#999999",
+      "灰色混凝土：",
+      "#4C4C4C",
+      "黑色混凝土：",
+      "#191919",
+      "棕色混凝土：",
+      "#664C33",
+      "红色混凝土：",
+      "#993333",
+      "橙色混凝土：",
+      "#D87F33",
+      "黄色混凝土：",
+      "#E5E533",
+      "黄绿色混凝土：",
+      "#7FCC19",
+      "绿色混凝土：",
+      "#667F33",
+      "青色混凝土：",
+      "#4C7F99",
+      "淡蓝色混凝土：",
+      "#6699D8",
+      "蓝色混凝土：",
+      "#334CB2",
+      "紫色混凝土：",
+      "#7F3FB2[仅Java版]"
+    ],
+    "或": [
+      "#995ACD[仅基岩版]",
+      "品红色混凝土：",
+      "#B24CD8",
+      "粉红色混凝土：",
+      "#F27FA5"
+    ],
+    "方块ID": [
+      "白色混凝土：white_concrete",
+      "淡灰色混凝土：light_gray_concrete",
+      "灰色混凝土：gray_concrete",
+      "黑色混凝土：black_concrete",
+      "棕色混凝土：brown_concrete",
+      "红色混凝土：red_concrete",
+      "橙色混凝土：orange_concrete",
+      "黄色混凝土：yellow_concrete",
+      "黄绿色混凝土：lime_concrete",
+      "绿色混凝土：green_concrete",
+      "青色混凝土：cyan_concrete",
+      "淡蓝色混凝土：light_blue_concrete",
+      "蓝色混凝土：blue_concrete",
+      "紫色混凝土：purple_concrete",
+      "品红色混凝土：magenta_concrete",
+      "粉红色混凝土：pink_concrete"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "白色混凝土：white_concrete",
+      "淡灰色混凝土：light_gray_concrete",
+      "灰色混凝土：gray_concrete",
+      "黑色混凝土：black_concrete",
+      "棕色混凝土：brown_concrete",
+      "红色混凝土：red_concrete",
+      "橙色混凝土：orange_concrete",
+      "黄色混凝土：yellow_concrete",
+      "黄绿色混凝土：lime_concrete",
+      "绿色混凝土：green_concrete",
+      "青色混凝土：cyan_concrete",
+      "淡蓝色混凝土：light_blue_concrete",
+      "蓝色混凝土：blue_concrete",
+      "紫色混凝土：purple_concrete",
+      "品红色混凝土：magenta_concrete",
+      "粉红色混凝土：pink_concrete",
+      "如果你打算使用颜色比较明亮的纯色方块，那就用混凝土吧，它有着比染色陶瓦更鲜艳的颜色，而且，很方便——至少不会像羊毛那样随随便便被烧个一干二净。"
+    ],
+    "——Ash Davis": [
+      "混凝土（Concrete）是有16种颜色的固体方块。"
+    ],
+    "自然生成": [
+      "红色混凝土和白色混凝土会自然生成在试炼密室中。",
+      "正在加载互动小工具。如果加载失败，请您刷新本页面并检查JavaScript是否已启用。"
+    ],
+    "白色混凝土,淡灰色混凝土,灰色混凝土,黑色混凝土,棕色混凝土,红色混凝土,橙色混凝土,黄色混凝土,黄绿色混凝土,绿色混凝土,青色混凝土,淡蓝色混凝土,蓝色混凝土,紫色混凝土,品红色混凝土,粉红色混凝土": [
+      "minecraft:white_concrete,minecraft:light_gray_concrete,minecraft:gray_concrete,minecraft:black_concrete,minecraft:brown_concrete,minecraft:red_concrete,minecraft:orange_concrete,minecraft:yellow_concrete,minecraft:lime_concrete,minecraft:green_concrete,minecraft:cyan_concrete,minecraft:light_blue_concrete,minecraft:blue_concrete,minecraft:purple_concrete,minecraft:magenta_concrete,minecraft:pink_concrete"
+    ],
+    "混凝土粉末": [
+      "主条目：混凝土粉末 § 制造混凝土",
+      "混凝土粉末与水接触就会固化成混凝土方块，即便其仍在下落。降雨、炼药锅、喷溅型水瓶和粒子不会影响混凝土粉末。"
+    ],
+    "获取": [
+      "混凝土只能通过破坏混凝土获得。"
+    ],
+    "破坏": [
+      "挖掘混凝土的合适工具是镐。混凝土需要木镐或品质更好的镐来挖掘，否则挖掘时间将延长且不会掉落。"
+    ],
+    "白色混凝土": [
+      "1"
+    ],
+    "淡灰色混凝土": [
+      "9"
+    ],
+    "灰色混凝土": [
+      "8"
+    ],
+    "棕色混凝土": [
+      "13"
+    ],
+    "红色混凝土": [
+      "15"
+    ],
+    "橙色混凝土": [
+      "2"
+    ],
+    "黄色混凝土": [
+      "5"
+    ],
+    "黄绿色混凝土": [
+      "6"
+    ],
+    "绿色混凝土": [
+      "14"
+    ],
+    "青色混凝土": [
+      "10"
+    ],
+    "淡蓝色混凝土": [
+      "4"
+    ],
+    "蓝色混凝土": [
+      "12"
+    ],
+    "紫色混凝土": [
+      "11"
+    ],
+    "品红色混凝土": [
+      "3"
+    ],
+    "粉红色混凝土": [
+      "7"
+    ],
+    "徒手": [
+      "9"
+    ],
+    "木质": [
+      "1.35"
+    ],
+    "石质": [
+      "0.7"
+    ],
+    "铜质": [
+      "0.55"
+    ],
+    "铁质": [
+      "0.45"
+    ],
+    "钻石质": [
+      "0.35"
+    ],
+    "下界合金质": [
+      "0.3"
+    ],
+    "金质": [
+      "0.25"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "混凝土被破坏后会掉落自身。"
+    ],
+    "用途": [
+      "混凝土明亮而纯净的色彩适合用于装饰与建筑用途。混凝土的颜色比染色的陶瓦更为浓厚，同时混凝土又不像羊毛一样易燃。",
+      "在稳固性方面，混凝土的硬度比石头稍高，但其爆炸抗性比石头低得多。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "描述": [
+      "0"
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "subtitles.block.generic.break": [
+      "某物：摔落到方块上"
+    ],
+    "subtitles.block.generic.fall": [
+      "方块：损坏中"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "subtitles.block.generic.footsteps": [
+      "基岩版："
+    ],
+    "item.use.on": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "hit": [
+      "0.37",
+      "0.5",
+      "16"
+    ],
+    "place": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "fall": [
+      "0.4",
+      "1.0",
+      "16"
+    ],
+    "step": [
+      "0.3",
+      "1.0",
+      "16"
+    ],
+    "jump": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "land": [
+      "0.22",
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "white_concrete": [
+      "concrete / 0"
+    ],
+    "orange_concrete": [
+      "concrete / 1"
+    ],
+    "magenta_concrete": [
+      "concrete / 2"
+    ],
+    "light_blue_concrete": [
+      "concrete / 3"
+    ],
+    "yellow_concrete": [
+      "concrete / 4"
+    ],
+    "lime_concrete": [
+      "concrete / 5"
+    ],
+    "pink_concrete": [
+      "concrete / 6"
+    ],
+    "gray_concrete": [
+      "concrete / 7"
+    ],
+    "light_gray_concrete": [
+      "concrete / 8"
+    ],
+    "cyan_concrete": [
+      "concrete / 9"
+    ],
+    "purple_concrete": [
+      "concrete / 10"
+    ],
+    "blue_concrete": [
+      "concrete / 11"
+    ],
+    "brown_concrete": [
+      "concrete / 12"
+    ],
+    "green_concrete": [
+      "concrete / 13"
+    ],
+    "red_concrete": [
+      "concrete / 14"
+    ],
+    "black_concrete": [
+      "concrete / 15"
+    ],
+    "block.minecraft.black_concrete": [
+      "基岩版："
+    ],
+    "方块数据": [
+      "参见：基岩版数据值",
+      "在基岩版中，混凝土使用以下数据值："
+    ],
+    "方块状态": [
+      "参见：方块状态",
+      "Java版："
+    ],
+    "此方块没有方块属性": [
+      "基岩版："
+    ],
+    "历史": [
+      "2017年1月27日",
+      "Jens Bergensten发表推文，在新的调色板下以羊毛作为对比展示了一种新的明亮色彩的方块。",
+      "2017年1月27日",
+      "Jeb表示这是一种新的方块，否认了硬化黏土更换纹理的流言。",
+      "2017年2月2日",
+      "Jeb在推特上分享了一段视频，展示了混凝土粉末与水接触后会变成一个不会下落的方块。这种“沾湿”后的方块形态即是现在的混凝土，不过当时他们并没有敲定这种设计。",
+      "Jeb后来补充说，混凝土会有16种不同的颜色。"
+    ],
+    "Java版": [
+      "1.12",
+      "17w06a",
+      "加入了混凝土。",
+      "1.13",
+      "17w47a",
+      "混凝土现在有了各自的ID。",
+      "在扁平化前，混凝土的数字ID是251。",
+      "1.20",
+      "23w12a",
+      "现在青色和红色混凝土会自然生成于古迹废墟中。",
+      "23w16a",
+      "青色和红色混凝土不再生成于古迹废墟中。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "加入了混凝土。"
+    ],
+    "基岩版": [
+      "1.19.80"
+    ],
+    "下一个主要更新": [
+      "1.19.80.22",
+      "现在青色和红色混凝土会自然生成于古迹废墟中。",
+      "1.20.0",
+      "1.20.0.21",
+      "1.19.80.22中的变更不再属于实验性玩法。",
+      "1.20.0.22",
+      "青色和红色混凝土不再生成于古迹废墟中。",
+      "1.20.10",
+      "1.20.10.20",
+      "拆分了混凝土的IDconcrete，现在不同颜色的混凝土拥有了各自的ID，同时弃用了方块状态color。",
+      "New Nintendo 3DS版",
+      "1.9.19",
+      "加入了混凝土。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU53",
+      "CU53",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "加入了混凝土。",
+      "TU53",
+      "CU53",
+      "1.49",
+      "1.50",
+      "1.49",
+      "Patch 23",
+      "1.0.3",
+      "加入了混凝土。"
+    ],
+    "参考": [
+      "Ten Rare Recipes — Minecraft.net，2017年7月15日。",
+      "https://twitter.com/jeb_/status/827078378444488705"
+    ]
+  }
+}

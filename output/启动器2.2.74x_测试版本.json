@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.2.74x/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.74x%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "text": "本页面列出了启动器2.2.74x的测试版本。\n2.2.5xx\n2.2.546（Windows）、2.2.550（macOS）或2.2.548（Linux）是一次启动器更新，发布于2020年11月17日。\n2.2.6xx\n2.2.627（Windows）、2.2.629（macOS）或2.2.633（Linux）是一次启动器更新，发布于2020年11月23日。\n修复\nMCL-15025 - “Automatically send crash reports to Mojang Studios”字符串没有被翻译。\nMCL-15523 - 在特定情况下，弹出提示会被错误地切断。\nMCL-15555 - 在启动或下载不受支持的版本时没有出现错误提示。\nMCL-15646 - 在将过滤选项设为仅显示装有Mod的版本时，对应的版本无法显示。\n注释与参考\n导航"
+}

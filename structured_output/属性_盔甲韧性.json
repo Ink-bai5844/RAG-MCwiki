@@ -1,0 +1,88 @@
+{
+  "title": "属性/盔甲韧性",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E7%9B%94%E7%94%B2%E9%9F%A7%E6%80%A7",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "0 – 20"
+    ],
+    "armor_toughness": [
+      "盔甲韧性（Armor Toughness）是与护甲值共同作用，减少生物受到伤害的属性。"
+    ],
+    "行为": [
+      "主条目：盔甲机制",
+      "每1（）护甲值使伤害减少4%、至多被伤害降低至下限0.8%。最终提供的伤害减免不能超过80%。",
+      "单次伤害中的每0.5（ × 0.25）伤害值使护甲值提供的伤害减少比例减少1%，直到下限。每1盔甲韧性使减少1%减少比例需要的伤害增加0.0625（ × 0.03125），在20盔甲韧性时降低1%伤害减少比例需要1.75（ × 0.875）伤害。"
+    ],
+    "所有生物": [
+      "0"
+    ],
+    "armor.helmet": [
+      "add_value（Op0）"
+    ],
+    "钻石头盔": [
+      "2"
+    ],
+    "下界合金头盔": [
+      "3"
+    ],
+    "armor.chestplate": [
+      "add_value（Op0）"
+    ],
+    "钻石胸甲": [
+      "2"
+    ],
+    "下界合金胸甲": [
+      "3"
+    ],
+    "armor.leggings": [
+      "add_value（Op0）"
+    ],
+    "钻石护腿": [
+      "2"
+    ],
+    "下界合金护腿": [
+      "3"
+    ],
+    "armor.boots": [
+      "add_value（Op0）"
+    ],
+    "钻石靴子": [
+      "2"
+    ],
+    "下界合金靴子": [
+      "3"
+    ],
+    "armor.body": [
+      "add_value（Op0）"
+    ],
+    "钻石鹦鹉螺铠": [
+      "2"
+    ],
+    "下界合金鹦鹉螺铠": [
+      "3"
+    ],
+    "Java版": [
+      "1.6.1",
+      "13w16a",
+      "加入了盔甲韧性属性，ID为generic.armorToughness。",
+      "1.16",
+      "20w14a",
+      "盔甲韧性的ID重命名为generic.armor_toughness。",
+      "1.20.5",
+      "24w05a",
+      "移除了马匹盔甲修饰Horse armor bonus。现在马铠提升盔甲韧性使用Armor Modifier修饰符。",
+      "1.21",
+      "24w21a",
+      "将Armor Modifier修饰符提高盔甲韧性的行为拆分至armor.helmet、​armor.chestplate、​armor.leggings、​armor.boots和​armor.body。",
+      "1.21.2",
+      "24w33a",
+      "盔甲韧性属性ID从generic.armor_toughness重命名为armor_toughness。"
+    ]
+  }
+}

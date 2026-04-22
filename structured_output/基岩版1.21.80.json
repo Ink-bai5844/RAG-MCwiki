@@ -1,0 +1,646 @@
+{
+  "title": "基岩版1.21.80",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.80",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含了尚未确定正式中文译名的游戏内名称。",
+      "译名未定内容的名称已在文中标记为浅色字加点状下划线。",
+      "游戏内名称并非最终决定译名，请以Crowdin核准状态为准。在中文译名决定前，请勿擅自更改。",
+      "1.21.80"
+    ],
+    "服务端版本": [
+      "1.21.80.3"
+    ],
+    "内部版本号": [
+      "Android：1.21.80.3",
+      "PlayStation 4：3.11",
+      "PlayStation 5：1.019.000",
+      "Windows：1.21.8003.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952108003（armeabi-v7a，34）",
+      "962108003（x86，34）",
+      "972108003（arm64-v8a，34）",
+      "982108003（x86_64，34）",
+      "iOS/iPadOS：",
+      "874197805"
+    ],
+    "发布时间": [
+      "2025年5月6日"
+    ],
+    "测试版本": [
+      "6个测试版",
+      "7个预览版"
+    ],
+    "协议版本": [
+      "800",
+      "◄◄1.21.70",
+      "1.21.90►►",
+      "◄1.21.73",
+      "1.21.81►",
+      "1.21.80是基岩版的一次次要更新，发布于2025年5月6日。此次更新加入了超平坦世界预设功能，在实验性玩法中加入了追逐天空的部分特性，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "超平坦世界": [
+      "加入了超平坦世界预设功能。",
+      "在创建新的世界屏幕的“高级”设置中开启“平坦的世界[原文如此]”选项后，该选项下方会显示可选择的预设。",
+      "目前可用的预设有："
+    ],
+    "常规": [
+      "将客户端生物群系组件minecraft:water_appearance的surface_color更新为可选的。加入了该组件为空时触发的内容日志错误。",
+      "将未使用的实验性JSON字段从行为包生物群系文件中的minecraft:nether_surface中移除。",
+      "为附魔武器加入了魔法暴击粒子，以匹配Java版。（MCPE-18704）"
+    ],
+    "实验性玩法": [
+      "加入了“定位栏”子选项。",
+      "用于启用定位栏功能。",
+      "加入了“2025 第二次更新”子选项。",
+      "用于启用将于2025年第二个小更新加入的特性。",
+      "加入了“灵动视效”子选项。",
+      "用于启用灵动视效功能。",
+      "加入了“自定义组件 V2”子选项。",
+      "用于启用V2版本的自定义组件。"
+    ],
+    "游戏规则": [
+      "加入了locatorBar游戏规则。",
+      "用于控制是否显示定位栏。",
+      "仅开启实验性玩法“定位栏”后生效。",
+      "默认值为true。"
+    ],
+    "设置": [
+      "在存储设置中加入了“清除下载存储”按钮。",
+      "用于清除下载的缓存内容。",
+      "在PlayStation、Xbox和Nintendo Switch平台上的通用设置中加入了“不雅词汇过滤器”选项。",
+      "“屏幕动画”选项现在会控制全景图的转动和闪烁标语的浮动。",
+      "由于虚拟现实不再受支持，移除了VR设置以及与VR相关的选项。"
+    ],
+    "粒子": [
+      "加入了magic_critical_hit粒子。"
+    ],
+    "Realms": [
+      "加入了Realms服务器托管区域的偏好选择功能：",
+      "在Realms设置屏幕中加入了新的“高级”选项卡。",
+      "Realm拥有者可以在高级选项卡中选择想要的数据中心区域来托管他们的Realm。",
+      "选项包括区域列表，或允许Realms服务自动为Realm拥有者或在指定会话中首个加入Realms的玩家选择最佳区域。",
+      "注意：选择仅供参考；受限于服务器容量，Realms托管区域可能与所选区域不同。",
+      "此情况下会选择最接近偏好的区域。",
+      "加入了一条在加入Realm期间显示的消息，用于指示Realm被分配到该会话的哪个服务器区域。",
+      "修复了在尝试将世界上传至未激活的Realm槽位上的情况下多次进行点击时发生的崩溃。"
+    ],
+    "方块": [
+      "现在使用minecraft:block_placer组件的方块再次可以被添加到创造模式物品栏和配方书中。",
+      "自1.21.80起，现在使用minecraft:geometry组件或minecraft:material_instances组件时必须同时包含这两个组件。",
+      "现在新的render_method类型对minecraft:material_instances可用。此类型用于支持方块相对于竹竿等其他会消失的方块，拥有像树叶一样在远处不透明的相同行为。",
+      "\"render_method\": \"blend_to_opaque\"",
+      "\"render_method\": \"alpha_test_to_opaque\"",
+      "\"render_method\": \"alpha_test_single_sided_to_opaque\"",
+      "minecraft:map_color组件中的tint_method字段不再需要开启“即将推出的创作者功能”选项。",
+      "minecraft:destruction_particles组件中的tint_method字段不再需要开启“即将推出的创作者功能”选项。",
+      "minecraft:material_instances组件中的tint_method字段不再需要开启“即将推出的创作者功能”选项。",
+      "现在使用minecraft:destruction_particles组件的方块会正确地被发送给连接到房主的玩家。",
+      "现在始终会将缺失的粒子破坏组件添加到拥有材质实例组件的方块，使用down材质作为引用。",
+      "minecraft:destruction_particles中的texture字段现在是可选的；若未提供或为空，则其会从材质实例组件中填充。",
+      "现在启用自定义组件V2实验性内容时，minecraft:custom_components组件会在1.21.80及更高的格式版本中被弃用。",
+      "现在启用自定义组件V2实验性内容时，自定义组件会与其他组件内联扁平化，并允许1.21.80及更高的格式版本中的参数。示例：",
+      "\"components\":{\"example_namespace:example_component\":{\"someParam\":3,\"anotherParam\":\"test\"}}",
+      "为剔除规则模式加入了新字段condition。其会提供对将要触发面或部分被剔除的方块的更多控制。",
+      "支持的值有default、​same_culling_layer、​same_block和​same_block_permutation。",
+      "若相邻方块为完整方块且不透明，则default通过条件。",
+      "所有条件均为default的扩展，这意味在检查扩展的same_*条件前，完整且不透明的方块始终会通过条件。",
+      "若在几何组件中定义，相邻方块与被遮挡的方块共享相同的culling_layer，则same_culling_layer通过条件。",
+      "若所比较的剔除层中有一个为minecraft:culling_layer.undefined，则条件永远不会通过。",
+      "若相邻方块拥有相同的标识符，则same_block通过条件。",
+      "若相邻方块拥有相同的标识符且排列方式完全相同，则same_block_permutation通过条件。",
+      "此功能仅在开启“即将推出的创作者功能”选项后可用。",
+      "为方块的几何组件加入了新字段culling_layer。其允许在剔除规则文件中使用same_culling_layer条件时将不同方块分组在一起。",
+      "使用minecraft命名空间时，允许的值只有：minecraft:culling_layer.undefined或minecraft:culling_layer.leaves。",
+      "此功能仅在开启“即将推出的创作者功能”选项后可用。",
+      "树苗的age_bit方块状态不再会在尝试生长失败后退化，以防止侦测器错误激活。（MCPE-190286）",
+      "修复了非1×1×1大小方块的环境光遮蔽问题。",
+      "此类较小的非1×1×1大小方块被破坏时，AO计算会正确应用于被破坏方块所在方向的面。此前可以看到错误的面变亮或变暗。",
+      "受影响的方块有：墙、栅栏门、按钮、蛋糕、压力板、栅栏、铁砧、砂轮、漏斗、钟、灯笼、蛋类方块、酿造台。",
+      "花现在具有与Java版相同的随机偏移范围和值。",
+      "竹子、垂根和红树胎生苗、下界苗现在具有与Java版相同的随机偏移范围和值。",
+      "珊瑚和珊瑚扇现在具有与Java版相同的随机偏移范围和值。",
+      "如向日葵等两格高的植物现在具有与Java版相同的随机偏移范围和值。",
+      "滴水石锥、高草丛和枯草丛现在具有与Java版相同的随机偏移范围和值。",
+      "现在在蓝冰和熔岩已经再次位于适当的位置后，玄武岩会在最后放置灵魂土时生成。（MCPE-194008）"
+    ],
+    "切制红砂岩台阶": [
+      "现在可以在切石机中用切制红砂岩制成。"
+    ],
+    "切制砂岩台阶": [
+      "现在可以在切石机中用切制砂岩制成。"
+    ],
+    "红树根": [
+      "现在能够用作燃料。"
+    ],
+    "物品": [
+      "收纳袋的打开图标现在通过IconItemComponent指定。",
+      "这解决了打开的自定义收纳袋会显示无效纹理的问题。",
+      "收纳袋图标路径现已拆分为item_texture.json中的唯一键名。",
+      "现在启用自定义组件V2实验性内容时，minecraft:custom_components组件会在1.21.80及更高的格式版本中被弃用。",
+      "现在启用自定义组件V2实验性内容时，自定义组件会与其他组件内联扁平化，并允许1.21.80及更高的格式版本中的参数。示例：",
+      "\"components\":{\"example_namespace:example_component\":{\"someParam\":3,\"anotherParam\":\"test\"}}",
+      "修复了对准刷怪笼时无法使用大多数可使用物品的漏洞。（MCPE-58999）",
+      "红树根现在可以用作熔炉燃料。（MCPE-155605）",
+      "修复了在箱子被漏斗更新的情况下向其槽位添加物品时会移除物品的问题。（MCPE-166390）",
+      "切制砂岩台阶现在可以在切石机中用切制砂岩制成。（MCPE-42734）",
+      "切制红砂岩台阶现在可以在切石机中用切制红砂岩制成。（MCPE-42734）",
+      "不死图腾现在会给予45秒的生命恢复，如同Java版。（MCPE-90716）",
+      "现在对达到最大储蜜量的蜂巢和蜂箱使用剪刀时会消耗剪刀的耐久度。（MCPE-63995）",
+      "盾牌现在会因爆炸而产生耐久度损耗。（MCPE-121484）"
+    ],
+    "不死图腾": [
+      "现在会给予45秒的生命恢复II效果，此前仅有40秒，以匹配Java版。"
+    ],
+    "生物": [
+      "来自行为包的自定义生物刷怪蛋现在再次会显示在刷怪蛋组中。（MCPE-190620）",
+      "修复了已被命名的史莱姆和岩浆怪会在分裂时丢失名称的漏洞。（MCPE-14975）",
+      "嘎枝不再会在重载世界时消失。（MCPE-190845）",
+      "鹦鹉现在会模仿幻翼、僵尸疣猪兽、守卫者、劫掠兽、掠夺者和烈焰人。（MCPE-164404）",
+      "凋灵骷髅和僵尸猪灵现在可以行走于熔岩中。（MCPE-46806）",
+      "现在在红树林沼泽中使用家畜的刷怪蛋时会生成与Java版相同变种的鸡、牛和猪。（MCPE-190750）",
+      "生物不再会在非常接近不移动的玩家时难以造成多次击中。（MCPE-189535）",
+      "骆驼不再会生成于对于它们来说过于狭小的空间中。（MCPE-190700）",
+      "农民村民收集种下的农作物时不再会偶尔卡住。（MCPE-166344）",
+      "修复了唤魔者行走时其腿部不会移动的问题。（MCPE-191193）",
+      "修复了悦灵死于火、溺水、窒息等类型的伤害的问题。（MCPE-185080）",
+      "现在抢夺每增加一级，兔子掉落生兔肉的最大数量就会增加1个。（MCPE-47125）"
+    ],
+    "悦灵": [
+      "现在每秒恢复2（）生命值，而不是每秒恢复1.83（ × 0.915），以匹配Java版。"
+    ],
+    "猪、牛和鸡": [
+      "生成于红树林沼泽时现在是热带变种，而不是寒带变种。"
+    ],
+    "兔子": [
+      "现在掉落生兔肉或熟兔肉的数量上限受抢夺魔咒影响，魔咒每增加1级，掉落数量上限就会增加1。",
+      "未受抢夺魔咒影响时的掉落数量仍然为0-1，而非与Java版相同的1。"
+    ],
+    "绵羊": [
+      "更改了在红树林沼泽中生成时的毛色概率，以匹配Java版。"
+    ],
+    "史莱姆和岩浆怪": [
+      "现在会在分裂后保留其名称。"
+    ],
+    "游戏内容": [
+      "加入了minecraft:replace_biomes组件，允许自定义生物群系替换掉原版生物群系的一部分。",
+      "将此组件添加到行为包中的生物群系文件中即可使用此组件。",
+      "玩家不再会穿过放置在X或Z坐标为2的幂（如256、512、1024等）附近的方块。（MCPE-173843）",
+      "修复了Realms上的传送门传送期间的服务端与客户端同步问题。（MCPE-188731）",
+      "为client_biomeJSON文件中的minecraft:biome_music组件加入了music_definition字段，以控制生物群系中播放的音乐。若biome_music组件或music_definition属性未启用，则默认由维度决定。若要令生物群系没有音乐，则可以使用空字符。",
+      "修复了玩家睡觉时会短暂躺在床下或床边的问题。",
+      "现在与深层红石矿石交互后，深层红石矿石再次会发光。（MCPE-191381）",
+      "与深层红石矿石交互后，深层红石矿石不再会无限地保持点亮状态。（MCPE-136864）",
+      "现在从滑翔或潜行时的死亡重生时，玩家会拥有正确的碰撞行为。（MCPE-189554）",
+      "修复了玩家在水中疾跑会比游泳速度更快的漏洞。",
+      "更改了鞘翅的行为，现在使用其滑翔时，即使将烟花火箭放置在方块上，烟花火箭也只能用于加快滑翔速度。",
+      "修复了在如甘蔗等另一方块中为鞘翅使用烟花火箭时会出现来回弹动现象的问题。（MCPE-191595）",
+      "现在古迹废墟会在相同世界种子的Java版和基岩版的原始桦木森林中生成在相同位置上。"
+    ],
+    "魔咒": [
+      "现在使用带有锋利、亡灵杀手或节肢杀手的附魔武器攻击生物时会产生粒子效果，以匹配Java版。"
+    ],
+    "钓鱼": [
+      "睡莲现在属于“垃圾”战利品（不包括丛林生物群系），而不是“宝藏”战利品。"
+    ],
+    "/place": [
+      "jigsaw和​structure子命令不再属于实验性玩法。"
+    ],
+    "闪烁标语": [
+      "将闪烁标语“Almost C++17!”改为“Almost C++20!”。"
+    ],
+    "触摸控制": [
+      "拆分了取消骑乘按钮，并且不再可以在骑乘时用于跳跃："
+    ],
+    "虚拟现实": [
+      "不再受支持。"
+    ],
+    "API": [
+      "修复了阻止在许多方块上正确设置部分状态的与BlockPermutation::withState中的过时脚本相关的问题。",
+      "受影响的方块包括方向或放置状态已被更改的方块。",
+      "这些方块被更改后创建的脚本可能需要进行更新以避免非预期行为。",
+      "将下列Player的方法由beta移动至1.18.0：",
+      "将2.0的beta版本中的EntityMarkVariantComponent更改为只读的。",
+      "@minecraft/server的2.0.0-beta版本",
+      "将EntityPushThroughComponent更改为只读的。",
+      "将ScreenDisplay上的resetHudElements方法重命名为resetHudElementsVisibility。",
+      "ItemStack的getComponent和​getComponents方法现在会为向ItemComponentRegistry注册的自定义组件返回ItemCustomComponentInstance。",
+      "ItemStack的hasComponent方法现在会为向ItemComponentRegistry注册的自定义组件返回true。",
+      "将2.0的beta版本中的EntitySkinIdComponent更改为只读的。",
+      "为Entity、​Block和​ItemStack加入了localizationKey属性，此属性会返回用于查找这些对象的本地化名称的键。",
+      "加入了CustomCommandOrigin，用于自定义命令脚本回调。",
+      "加入了CustomCommandSource枚举。",
+      "将CustomCommandPermissionLevel重命名为CommandPermissionLevel。",
+      "将CustomCommandParamType.Position重命名为CustomCommandParamType.Location。",
+      "BlockCustomComponent现在会取用自定义组件V2实验性内容中的可选的CustomComponentParameters对象，作为2.0.0-beta中事件回调的第二个参数。",
+      "将CustomComponentParameters加入至2.0.0-beta。",
+      "在2.0.0-beta中为CustomComponentparameters加入了params属性。",
+      "ItemCustomComponent现在会取用自定义组件V2实验性内容中的可选的CustomComponentParameters对象，作为2.0.0-beta中事件回调的第二个参数。",
+      "将2.0.0-beta版本中的EntityFrictionModifierComponent更改为只读的。"
+    ],
+    "clearPropertyOverridesForEntity": [
+      "将Difficulty枚举由beta移动至1.19.0版本。"
+    ],
+    "World": [
+      "将getDifficulty(): Difficulty由beta移动至1.19.0版本。",
+      "将setDifficulty(difficulty: Difficulty): void由beta移动至1.19.0版本。",
+      "将一些Player的方法由beta移动至1.19.0版本。",
+      "将BoundingBox重命名为BlockBoundingBox，并将其由beta开放至1.19.0版本。",
+      "将BoundingBoxUtils重命名为BlockBoundingBoxUtils。",
+      "将dimension.placeFeature和​dimension.placeFeatureRule由beta移动至1.19.0版本。",
+      "@minecraft/server的1.19.0版本",
+      "将StructureManager.placeJigsaw和​StructureManager.placeJigsawStructure方法由beta移动至1.19.0。",
+      "将JigsawPlaceOptions接口由beta移动至1.19.0。",
+      "将JigsawStructurePlaceOptions接口由beta移动至1.19.0。",
+      "将PlaceJigsawError错误类由beta移动至1.19.0。",
+      "@minecraft/server的2.0.0-beta版本",
+      "协程（承诺）现在会在早期执行中刷新，以允许异步导入以与如自定义组件和自定义命令等早期执行API交互。",
+      "加入了对自定义命令枚举的支持。",
+      "为CustomCommandParamType加入了Enum类型。",
+      "Dimension的spawnEntity方法不再支持在identifier参数内使用生成事件。",
+      "SpawnEntityOptions接口现在有一个可选的字符串成员spawnEvent?: string，用于指定实体生成时发送给该实体的生成事件。",
+      "identifier参数内任何现有的生成事件需要更新为使用spawnEvent选项。",
+      "例如：spawnEntity(\"minecraft:horse<minecraft:ageable_grow_up>\", {x:0, y:0, z:0})应该变为spawnEntity(\"minecraft:horse\", {x:0, y:0, z:0}, {spawnEvent: 'minecraft:ageable_grow_up'})。",
+      "移除了EntityGroundOffsetComponent。",
+      "Block的getComponent方法现在会为2.0.0中使用BlockComponentRegistry注册的自定义组件返回BlockCustomComponentInstance。",
+      "@minecraft/server-ui的2.0.0-beta版本"
+    ],
+    "ModalFormResponse": [
+      "将formValues属性的类型由(boolean | number | string)[]更改为(boolean | number | string | undefined)[]。",
+      "新签名：formValues?: (boolean | number | string | undefined)[]。",
+      "旧签名：formValues?: (boolean | number | string)[]。",
+      "formValues数组现在包含由请求提供的所有元素的项。这意味着标签、标头和分隔符会被视为未定义值。"
+    ],
+    "Molang": [
+      "query.graphics_mode_is_any不再需要开启即将推出的创作者功能实验性内容。",
+      "加入了query.leashed_entity_countMolang查询，允许查询有多少实体将指定实体作为其拴绳牵引者。",
+      "加入了query.has_any_leashed_entity_of_type，用于获取实体标识的列表，并检查活动对象是否已拴住任何所列出的实体。客户端和服务端上均可用。",
+      "用法：query.has_any_leashed_entity_of_type( 'minecraft:sheep', 'minecraft:creeper' )"
+    ],
+    "生物群系": [
+      "将原版生物群系JSON文件由内部文件夹移动至相应的原版行为包。",
+      "移除了对未使用的minecraft:consolidated_features和​minecraft:legacy_world_generation_rulesJSON组件的遗留支持。"
+    ],
+    "方块组件": [
+      "为minecraft:material_instances组件中的isotropic字段移除了对即将推出的创作者功能实验性内容的要求。",
+      "修复了minecraft:material_instances中的各同向性纹理会被挤压和拉伸的问题。"
+    ],
+    "组件": [
+      "minecraft:rideable组件现在拥有三个新的附加字段：",
+      "dismount_mode用于定义骑乘者取消骑乘实体时的位置：",
+      "default：骑乘者位于实体周围的有效地面位置，若未找到，则位于实体碰撞箱的中心。",
+      "on_top_center：骑乘者位于实体碰撞箱上方的中心。",
+      "on_rider_enter_event：定义实体开始骑乘所有者实体时在该实体上执行的事件。",
+      "on_rider_exit_event：定义实体停止骑乘所有者实体时在该实体上执行的事件。",
+      "内容日志错误现在会记录minecraft:icon物品组件中的缺失纹理引用。",
+      "minecraft:rideable组件的座位定义现在拥有两个附加字段：",
+      "third_person_camera_radius可用于在第三人称或第三人称正面相机视角下设置相机半径。值需要位于[1.0, 64.0]区间内。值0.0会被忽略。",
+      "camera_relax_distance_smoothing可在相机被障碍物推近后移回其半径时为相机移动增加弹性。较高的值意味着较强的弹力。值需要位于[1.0, 32.0]区间内。值0.0会被忽略。",
+      "minecraft:leashable组件现在支持多个预设：",
+      "可在新的presets字段中定义预设列表。",
+      "每个预设决定了实体被拴在另一个实体上时的行为。",
+      "实体被拴住时会选择一个预设，并保持活跃状态，直到被拴在其他物体上。",
+      "满足filter条件的首个预设会被应用。",
+      "若没有匹配的预设，则使用默认配置。",
+      "现在下列字段是每个预设的一部分：",
+      "filter：定义拴住时从所有预设中选择此预设的条件。",
+      "soft_distance：定义弹动效果开始的距离。",
+      "hard_distance：定义拴绳变紧的距离。",
+      "max_distance：定义拴绳断裂的距离。",
+      "can_be_stolen：确认玩家是否可以使用拴绳拴走已被拴住的实体。",
+      "为组件中的方块资源引用加入了验证。",
+      "内容日志错误会记录下列组件缺失的方块引用：",
+      "物品组件minecraft:digger",
+      "物品组件minecraft:entity_placer",
+      "物品组件minecraft:block_placer",
+      "生成规则组件minecraft:spawns_on_block_filter",
+      "生成规则组件minecraft:spawns_on_block_prevented_filter",
+      "生成规则组件minecraft:spawns_above_block_filter",
+      "将can_be_stolen从presets中移出，以使其变回minecraft:leashable组件的直接子字段。",
+      "内容日志错误现在会记录minecraft:entity_placer和​minecraft:projectile物品组件中缺失的实体引用。",
+      "修复了会对有效的物品纹理引用显示不正确的JSON错误大小的漏洞。",
+      "为minecraft:interact组件引入了drop_item_y_offset参数。",
+      "定义丢弃物品时的自定义Y轴偏移。",
+      "需要指定drop_item_slot。",
+      "在格式版本为1.21.80及更高版本的情况下，minecraft:leashable组件的on_unleash触发器会在拴住行为中断时触发。",
+      "旧行为仍可选择通过将on_unleash_interact_only设置为true来启用。"
+    ],
+    "文档": [
+      "现在已生成的文档包含biome和client_biomeJSON文件。"
+    ],
+    "基岩版编辑器": [
+      "完全翻修了选择工具，现在会利用客户端小部件。",
+      "选区框选现在支持点击并拖动以进行选择。",
+      "选区框选仍然支持使用Ctrl键的对角模式。",
+      "框选和手绘选区现在支持撤销和重做。",
+      "小部件颜色现在与主题管理器相集成。",
+      "更新了键盘快捷键：",
+      "选区体积的键盘控制现在支持键盘重复。",
+      "框选：⇧ Shift + 单击以创建多个体积。",
+      "手绘：⇧ Shift + Ctrl以移除选区中的画笔体素。",
+      "手绘：⇧ Shift以将画笔体素添加到选区中。",
+      "↵ Enter以选择一个体积。",
+      "⇧ Shift + ↵ Enter以选择一个附加体积。",
+      "Ctrl + S以进入选区模式。（在选择模式下）再次点击Ctrl + S会在框选和手绘模式之间循环。",
+      "为Trim Actions加入了新的切换组。",
+      "加入了2个新的修剪操作Trim（缩小选区边界体积以仅包含指定的非空气方块）和Remove Air（移除选区中所有空气方块（和指定方块），以创建仅包含指定方块的选区）。",
+      "为选择模式加入了“魔法选择”。",
+      "此模式允许用户快速选择所选方块处和上方的非空气方块。这在与结构一同运作时极其有用。",
+      "当前的实现为雏形，并且仅有从点击处向上8格搜索半径。",
+      "点击时按住⇧ Shift会将选择添加到任何已有选区。",
+      "为3D方块光标加入了指示器，以显示鼠标指向的面。",
+      "加入了一个新的教程流程，可在帮助菜单中激活。",
+      "为编辑器加入了RelativeVolumeListBlockVolume体积类型，用于替换CompoundBlockVolume。",
+      "加入了新的客户端小部件边界框以及体积轮廓组件。",
+      "为光标控制加入了键盘重复。",
+      "为智能填充工具加入了可视化功能。",
+      "为挤压工具加入了可视化功能。",
+      "为线条工具加入了可视化功能。",
+      "在初始游玩设置的新部分中加入了“生成位置”、“当日时间”和“天气”字段。",
+      "加入了反馈UI以显示进程和结果。",
+      "为工作台扩展加入了“自定义映射”子窗格，此子窗格加入了为自定义方块属性添加映射的能力。",
+      "为激活的工作台加入了全局键位绑定。",
+      "加入了用于重载操作的工具模式快捷键，其在默认情况下是未绑定的。",
+      "为玩家上下文加入了新的editorConstants对象。这会（在TypeScript和本机代码中）提供对编辑器中常用的许多常量和方法的访问。",
+      "为导出加入了一些游戏规则：限制合成、显示死亡消息、显示物品标签、命令方块输出、命令方块反馈、最大命令链长度、火焰伤害、冰冻伤害、摔落伤害、溺水伤害、失眠、显示边框效果、函数命令限制。",
+      "加入了Realms槽位下拉菜单中存在空的槽位时的缺失字符串。",
+      "为修剪和移除选区中的空气加入了未绑定的键位绑定。",
+      "在视口上加入了一个动画，并且现在会在记录错误时打开日志面板。",
+      "提升了智能填充与挤压的性能。",
+      "将画笔形状设置模态框工具的本地内容以及该工具的特定配置。",
+      "移除了BrushShapeManagerAPI中的registerBrushShape，现在仅有核心画笔受核心工具支持。",
+      "更新了选择工具的删除图标。",
+      "更新了小部件系统中颜色设置器和获取器的命名，以使用相同的术语（边框的轮廓、填充的外层、专用边框的高亮）。",
+      "更新了结构面板，以使其能够从已有选区中创建新结构。",
+      "更新了结构面板，以使其允许编辑原点字段。",
+      "更新了在结构面板中编辑结构的字段的操作，以允许在字段被编辑时保存。",
+      "更新了画笔体积的最大尺寸，以使其不会超过选择操作的最大体素数量。",
+      "更新了工具轨道中提供的核心模态框工具。",
+      "移除了弃用的属性窗格API。",
+      "移除了编辑器脚本API中的CompoundBlockVolume的用途。",
+      "修复了主题不能由UI设置更改为红石的漏洞。",
+      "修复了键盘设置按钮在某些分辨率下未对齐的漏洞。",
+      "修复了重复器工具中会出现超出100×100×100的可视化效果的漏洞。",
+      "修复了在选区体积变得可见的情况下退出编辑器时发生的崩溃。",
+      "修复了由匹配项跳转至无匹配项时的画笔可视化重置问题（旧匹配状态的图像缺陷附着在可视化效果上）。",
+      "通过清除发布过程中创建的本地世界副本，修复了发布到Realms的漏洞。",
+      "修复了传递具有非邻接体素的体积时只会将边界矩形的内容复制到剪贴板的漏洞。",
+      "现在应该仅会复制指定体素。",
+      "现在允许创建去除空气和结构空位的结构。",
+      "修复了在维度边界附近或外部手绘选择会导致选区变得不可使用的问题。",
+      "修复了选区体积能够转换以往的世界边界或调整以往世界边界的大小的问题。这也修复了配合手绘选区（和魔法选择）在世界边界附近使用大型画笔形状时的问题。",
+      "修复了金字塔画笔形状的拉伸轴选项不正确的漏洞。",
+      "修复了在结构面板中删除结构时会永久删除文件和文件夹的相关问题。",
+      "修复了在粘贴预览中（实际没有激活剪贴板）将结构移动至剪贴板时不会更新剪贴板客户端小部件的漏洞。",
+      "修复了体积非常大的手绘选区的一些漏洞。",
+      "修复了在编辑器打开期间将下界作为起始维度而进入时会触发大量脚本小部件错误的漏洞。",
+      "修复了鼠标会在切换至十字准星模式时被释放的漏洞。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器has_equipment_tag，运作与has_equipment相似，但是取用物品标签而非物品名称。"
+    ],
+    "Android上的AGDK更新": [
+      "Minecraft现在在最新的Android Game Development Kit（AGDK）上运行，而不再是NativeActivity。"
+    ],
+    "意向": [
+      "更新了minecraft:behavior.float_wander，包含下列新字段：",
+      "navigate_around_surface：启用新算法来查找要寻路到的随机位置。新算法旨在查找固体（即非空气和非液体）方块附近的随机位置，若失败，则返回到查找当前维度的表层附近的随机位置。",
+      "additional_collision_buffer：确保目标位置的膨胀区域中没有任何方块。",
+      "allow_navigating_through_liquids：允许生物在液体内拥有目标位置。",
+      "surface_xz_dist：查找邻近表面的水平方向距离。仅在navigate_around_surface为true时有效。",
+      "surface_y_dist：查找邻近表面的垂直方向距离。仅在navigate_around_surface为true时有效。",
+      "更新了minecraft:behavior.follow_mob，包含下列新字段：",
+      "use_home_position_restriction：若为true，则生物在选择要跟随的目标时会遵循minecraft:home组件的restriction_radius字段。若为false，则生物会选择目标位置，而不考虑原点位置。",
+      "preferred_actor_type：偏好跟随的活动对象类型。若未指定，则会在范围内选择一个活动对象。",
+      "filters：若不为空，则提供过滤附近可跟随生物的标准。若为空，则使用默认标准，这会排除玩家、鱿鱼变种、鱼变种、蝌蚪、海豚以及与意向拥有者相同类型的生物。",
+      "为minecraft:behavior.tempt意向加入了一些字段。",
+      "stop_distance字段用于指定被吸引的生物停止向玩家移动的自定义距离。",
+      "on_start字段用于指定意向开始时触发的事件。",
+      "on_end字段用于指定意向结束时触发的事件。",
+      "加入了minecraft:behavior.float_tempt意向，允许被吸引的生物沿直线向玩家移动。",
+      "此字段是minecraft:behavior.tempt意向的变种，共享相同的字段。",
+      "要求生物处于悬浮状态（如使用minecraft:navigation.float组件）。"
+    ],
+    "图形": [
+      "加入了多个定位器与拴绳配合使用的支持，用于渲染两个实体之间的多个绳索。"
+    ],
+    "multi_lead_n": [
+      "n的取值范围为{1, 2, 3, 4}，用于定义实体被拴在不同实体上时的定位器。",
+      "当且仅当其拥有对应的multi_lead_hold_n且两个实体上的数字n相等时使用。"
+    ],
+    "multi_lead_hold_n": [
+      "n的取值范围为{1, 2, 3, 4}，用于定义实体拴住不同实体时的定位器。",
+      "当且仅当其拥有对应的multi_lead_n且两个实体上的数字n相等时使用。"
+    ],
+    "lead": [
+      "若其在几何中未定义，则设置为原点。"
+    ],
+    "lead_hold": [
+      "若其在几何中未定义，则设置为原点。",
+      "修复了蜡烛、雕纹书架和干海带块在光线追踪模式下不会使用PBR纹理的问题。（MCPE-132021）"
+    ],
+    "市场": [
+      "现在读取Xbox上的加密文件时会因有时丢失最后一个字节而导致部分文件无效并无法加载。"
+    ],
+    "网络协议": [
+      "加入了ActorFlags::DOES_SERVER_AUTH_ONLY_DISMOUNT。"
+    ],
+    "性能与稳定性": [
+      "现在使用缓存视图以使好友抽屉式菜单按钮和游玩屏幕性能更佳。",
+      "修复了将多个值写入覆盖层颜色时数据驱动渲染器中的缓冲区溢出导致的崩溃。",
+      "修复了区块渲染中的空指针取消引用崩溃。",
+      "修复了在空的槽位上创建Realm时偶尔会导致错误的漏洞。",
+      "修复了部分树叶纹理加载失败时可能会发生的崩溃。",
+      "修复了生成区块时导致崩溃的问题。",
+      "修复了市场附加包内容有时无法在世界中加载的漏洞。"
+    ],
+    "结构": [
+      "修复了放置结构的一部分时门的镜像问题。",
+      "为数据驱动拼图结构公开了一些新字段：start_height、​dimensional_padding、​pool_aliases和​max_distance_from_center。",
+      "将height_map_projection变为可选的，并将锚点更改为start_jigsaw_name。",
+      "现在林地府邸的伐木室内的箱子中总会生成带有效率I的铁斧。（MCPE-109048）"
+    ],
+    "用户界面": [
+      "修复了开启作弊后设置为创造模式的世界会被创建的漏洞。",
+      "修复了取消来自另一个服务器的服务器转移请求后，Minecraft会无法加载主菜单的漏洞。（MCPE-189096）",
+      "创造模式物品栏中的（普通、喷溅型、滞留型）迟缓药水IV不再会与其他迟缓药水分离。（MCPE-101923）",
+      "触摸控制：更新了取消骑乘和（骑乘时的）跳跃按钮的图标，以使其更加明显并与其他触摸控制方案保持一致。（MCPE-184403）",
+      "在禁用屏幕动画的情况下暂停或最小化游戏时不再会重置创建新的世界屏幕中的世界种子。（MCPE-188975）",
+      "触摸控制：旁观模式玩家现在也可以自定义触摸控制。（MCPE-184704）",
+      "触摸控制：修复了在极限模式中的自定义死亡动画期间自定义触摸控制时可能导致一些问题的漏洞。（MCPE-186584）",
+      "加入了用以处理编辑世界屏幕、资源包选项卡中的磁盘空间不足错误的模态框。",
+      "修复了“下载所有缺失的包”按钮在特定条件下不起作用的问题。",
+      "修复了在雷暴期间睡觉时睡觉屏幕会显示错误消息的漏洞。（MCPE-190178）",
+      "现在进入新玩家流程时会停止主菜单背景图的旋转。",
+      "存储菜单中不再会缺失世界列表。",
+      "收纳袋的提示框不再会有时渲染为具有不同数量的物品。",
+      "加入了由于空间不足而导致下载失败时出现的“管理存储”按钮，包含有关需要清除的内容的说明。",
+      "现在检测到空间不足时会在启动时自动清除下载缓存。",
+      "修复了Esc键盘快捷键在某些情况下无法在死亡屏幕上使用的问题。",
+      "在分屏游戏中使用游戏手柄右摇杆来选择收纳袋槽位时不再会跳过槽位。",
+      "现在移动光标并按住鼠标左键以将物品堆叠均匀分配到各个槽位中时，物品堆叠会正确地跨槽位拆分。",
+      "更新了好友抽屉式菜单的状态，以显示好友是否与玩家处于同一个世界中进行游戏。",
+      "现在在携带版UI下与物品栏选项卡交互时，收纳袋UI会正确消失。",
+      "修复了离开睡觉屏幕后游戏会在短时间内无响应的漏洞。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“2025 第二次更新”、“定位栏”、“灵动视效”、“即将推出的创作者功能”、“测试版 API”、“自定义组件 V2”、“创建者照相机的实验性功能”和“数据驱动 Jigsaw 结构”子选项后才可使用。"
+    ],
+    "失水恶魂": [
+      "在下界中作为下界化石的一部分自然生成。",
+      "可使用1个骨块和8个恶魂之泪合成。",
+      "含水时会经历3个状态（不包括初始的“干燥”状态），持续20分钟后会生成一只小恶魂。",
+      "被放置时默认处于“干燥”状态。",
+      "不再含水时，失水恶魂会在与其含水时长相等的时间后转换为“干燥”状态。"
+    ],
+    "挽具": [
+      "一种能够装备在快乐恶魂上的物品，允许玩家骑乘快乐恶魂。",
+      "可使用3个皮革、2个玻璃和1个羊毛合成。",
+      "可通过与染料合成以重新染色。",
+      "对快乐恶魂使用剪刀可卸下其装备的挽具。"
+    ],
+    "刷怪蛋": [
+      "加入了快乐恶魂刷怪蛋。"
+    ],
+    "快乐恶魂": [
+      "一种生命值为20（ × 10）的飞行可骑乘生物。",
+      "幼年形态的快乐恶魂被称为小恶魂，有着不同的行为：",
+      "由持续含水20分钟的失水恶魂生成。",
+      "也可使用/summon happy_ghast ~ ~ ~ ~ ~ minecraft:spawn_baby命令生成。",
+      "生成后会尝试跟随以下生物：",
+      "半径16格内的玩家",
+      "半径16格内的非水生成年友好生物",
+      "若附近没有合适的可跟随生物，小恶魂会在其原点位置（生成位置或最后与之交互的位置）32格内游荡。",
+      "会在400分钟后成长。",
+      "可被喂食雪球以加速成长，也会被雪球吸引。",
+      "可装备挽具，最多允许4名玩家骑乘。",
+      "被骑乘时护目镜会下降并遮住眼睛，表示能够被控制。",
+      "未被骑乘时护目镜会升起，并且快乐恶魂会开始在原点位置附近游荡。",
+      "第一个骑乘快乐恶魂的玩家会坐在最前方，能够控制它。",
+      "后来骑乘的玩家会坐在两侧的槽位上，以第一个骑乘的玩家开始顺时针排序。",
+      "玩家按下潜行会脱离快乐恶魂。",
+      "玩家位于其上方时会停止移动。",
+      "会被雪球和挽具吸引。",
+      "已装备挽具时不会被挽具吸引。",
+      "无法繁殖和乘船。",
+      "会缓慢地自然恢复生命值，降雨、降雪或飞行高度与云的高度相同时会加快恢复速度。",
+      "游荡时会保持位于原点位置（生成位置或最后与之交互的位置）64格内。",
+      "已装备挽具时会更靠近原点位置，保持位于32格内。",
+      "单独游荡时会尝试靠近方块。"
+    ],
+    "恶魂": [
+      "更新了纹理。",
+      "略微缩小了碰撞箱宽度，以与快乐恶魂保持一致。"
+    ],
+    "定位栏": [
+      "新的HUD元素，用于显示世界中的其他玩家的方向。",
+      "世界中存在多个玩家时，定位栏会取代经验条，显示在每个玩家的屏幕上。",
+      "玩家的经验等级仍会显示在定位栏上方。",
+      "相机视角在120度内朝向其他玩家时，定位栏会显示彩色指示器。",
+      "其他玩家位于相机视口（屏幕）上方或下方30度时会显示向上箭头或向下箭头。",
+      "下列情况下的玩家不会出现在其他玩家的定位栏上："
+    ],
+    "处于旁观模式": [
+      "若其他玩家亦处于旁观模式，则仍然会显示。"
+    ],
+    "灵动视效": [
+      "将视频设置中的“图像模式”切换为“灵动视效”（Vibrant Visuals）即可启用此功能。",
+      "视频设置中会提供“性能优先”和“视觉优先”两种预设，分别偏向于性能体验和视觉效果体验。",
+      "也可以选择展开“灵动视效选项”（Vibrant Visuals Options），调整特定功能和视觉设置。",
+      "不支持分屏模式，若有玩家在本地加入游戏，“图像模式”会变回“花式”或“简约”。",
+      "可与来自市场的附加包、皮肤、角色物件一同使用，但不兼容世界和纹理包。",
+      "配置要求：",
+      "Android：Adreno 640（骁龙855/855+/860）、Mali-G68（天玑900/920）、Mali-G77（天玑1000）或Xclipse 530 GPU（三星Exynos 1480）或更高版本",
+      "iOS：A12或M1或更高版本",
+      "PC：任意支持DX12的图形运算设备"
+    ],
+    "/controlscheme": [
+      "用于修改相机预设的控制方案，语法如下：",
+      "/controlscheme <players: target> clear",
+      "清除控制方案。",
+      "/controlscheme <players: target> set <control scheme: controlscheme>",
+      "设置控制方案。",
+      "参数：",
+      "players: target：指定要被修改相机预设控制方案的玩家。",
+      "control scheme: controlscheme：指定控制方案。目前可用的控制方案有camera_relative、​camera_relative_strafe、​locked_player_relative_strafe、​player_relative和​player_relative_strafe。"
+    ],
+    "@mincraft/server-admin": [
+      "加入了AsyncPlayerJoinBeforeEvent。",
+      "加入了beforeEvents.asyncPlayerJoin、​AsyncPlayerJoinBeforeEvent和​AsyncPlayerJoinBeforeEventSignal，以允许创作者延迟玩家加入世界。",
+      "AsyncPlayerJoinBeforeEventSignal.subscribe与其他事件不同，因为其接受的回调会返回一个承诺。承诺解决时，玩家会加入世界；若承诺被拒绝，则玩家会断开连接而不加入世界。承诺待处理时，玩家会处于加载屏幕。",
+      "@minecraft/server-ui的2.0.0-beta版本"
+    ],
+    "ModalFormData": [
+      "更改了dropdown函数。",
+      "移除了defaultValueIndex?: number参数。",
+      "加入了dropdownOptions?: ModalFormDataDropdownOptions参数。",
+      "更改了slider函数。",
+      "移除了valueStep: number,参数。",
+      "移除了defaultValue?: number参数。",
+      "加入了sliderOptions?: ModalFormDataSliderOptions参数。",
+      "更改了textField函数。",
+      "移除了defaultValue?: minecraftserver.RawMessage | string参数。",
+      "加入了textFieldOptions?: ModalFormDataTextFieldOptions参数。",
+      "更改了toggle函数。",
+      "移除了defaultValue?: boolean参数。",
+      "加入了toggleOptions?: ModalFormDataToggleOptions参数。",
+      "加入了ModalFormDataDropdownOptions接口：",
+      "exportinterfaceModalFormDataDropdownOptions{defaultValueIndex?:number;tooltip?:minecraftserver.RawMessage|string;}",
+      "加入了ModalFormDataSliderOptions接口：",
+      "exportinterfaceModalFormDataSliderOptions{defaultValue?:number;tooltip?:minecraftserver.RawMessage|string;valueStep?:number;}",
+      "加入了ModalFormDataTextFieldOptions接口：",
+      "exportinterfaceModalFormDataTextFieldOptions{defaultValue?:string;tooltip?:minecraftserver.RawMessage|string;}",
+      "加入了ModalFormDataToggleOptions接口：",
+      "exportinterfaceModalFormDataToggleOptions{defaultValue?:boolean;tooltip?:minecraftserver.RawMessage|string;}",
+      "加入了新的ContainerAPI：",
+      "contains(ItemStack)：尝试在容器内查找物品的实例。",
+      "firstEmptySlot()：查找容器内首个空槽位的索引。",
+      "firstItem()：查找容器内首个物品的索引。",
+      "find(ItemStack)：查找容器内物品的首个实例的索引。",
+      "reverseFind(ItemStack)：查找容器内物品的最后一个实例的索引。"
+    ],
+    "自定义命令": [
+      "加入了在脚本中编写自定义命令的支持。",
+      "监听ModuleStartupEvent时会提供新的CustomCommandRegistry。",
+      "加入了一些额外类型："
+    ],
+    "漏洞": [
+      "修复了启用数据驱动拼图结构时拼图部分的旋转问题。"
+    ],
+    "相机视角": [
+      "更改了开启“创建者照相机的实验性功能”选项后在移动的目标之间缓动的方式。"
+    ],
+    "辅助功能": [
+      "修复了使用Android系统的Fire Tablet设备上的文本转语音不会正确运作的问题。"
+    ],
+    "音频修复": [
+      "修复了Windows平台上加载至40-41%后所有声音会停止运作的问题。（MCPE-175138）",
+      "按下保存并退出按钮后不再会播放音乐和音效。（MCPE-190632）",
+      "修复了狼的生成音效不会使用适当的音效变种的问题。（MCPE-190576）",
+      "修复了在游戏暂停的情况下从设置菜单进入鸣谢名单时不会播放鸣谢名单的音乐的问题。（MCPE-190625）"
+    ],
+    "方块环境音效": [
+      "现在沙子、枯萎的灌木和陶瓦会播放环境音效。（MCPE-194677）"
+    ],
+    "收纳袋": [
+      "现在使用触摸控制点击收纳袋时，空的打开的收纳袋图标会正确渲染。"
+    ],
+    "角色创建器": [
+      "修复了使用自定义皮肤时玩家模型会以错误大小显示的问题。（MCPE-189739）"
+    ],
+    "配方": [
+      "修复了dolimitedcrafting游戏规则开启时玩家仍然可以合成未知配方的漏洞。（MCPE-186699）"
+    ],
+    "视频": [
+      "官方为创作者提供的更新内容讲解："
+    ],
+    "参考": [
+      "Minecraft - 1.21.80 (Bedrock) — Minecraft Feedback，2025年5月6日。",
+      "Minecraft Bedrock Edition 1.21.80 — Minecraft.net，2025年5月6日。",
+      "MCPE-212378 — 漏洞状态为“已修复”。",
+      "Minecraft Bedrock 1.21.80 Update Notes for Creators — Microsoft Learn，2025年5月6日。"
+    ]
+  }
+}

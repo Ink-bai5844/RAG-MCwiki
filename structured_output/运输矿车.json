@@ -1,0 +1,224 @@
+{
+  "title": "运输矿车",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BF%90%E8%BE%93%E7%9F%BF%E8%BD%A6",
+  "structured_content": {
+    "最大堆叠": [
+      "1"
+    ],
+    "chest_minecart": [
+      "运输矿车（Minecart with Chest）是一种里面装着箱子的矿车。"
+    ],
+    "尺寸": [
+      "高度：0.7格",
+      "宽度：0.98格"
+    ],
+    "获取": [
+      "运输矿车实体可以被回收来获取其物品。"
+    ],
+    "废弃矿井内的运输矿车战利品": [
+      "运输矿车自然生成在废弃矿井里。"
+    ],
+    "用途": [
+      "对着铁轨按下使用就可以放置运输矿车。",
+      "可以通过对运输矿车按下使用来查看矿车存储的内容。与矿车互动时，既不会发出声音，也不会显示打开/关闭箱子的动画。",
+      "运输矿车通过动力铁轨获得的加速取决于它们所装载内容的数量。例如，从1个动力铁轨加速一个空的运输矿车可以让它运行64格，但是满的运输矿车只会运行16格。（与空的普通矿车运行8格和装载着的普通矿车运行80格相反）",
+      "运输矿车的另外一个物理性质是可以堆叠。在同样的区域里，只能存放3个箱子的地方最多可以放上4个运输矿车。",
+      "红石比较器可以检测探测铁轨上的运输矿车存储物品的数量。"
+    ],
+    "猪灵": [
+      "在非和平难度下，成年猪灵会与附近打开或破坏运输矿车的玩家敌对。"
+    ],
+    "圣诞节": [
+      "参见：彩蛋 § 圣诞节",
+      "本段落所述内容仅适用于Java版。",
+      "每年12月24日至26日，运输矿车的纹理会变为圣诞节礼物包裹纹理。由于游戏会读取电脑数据，玩家可以通过更改游戏文件和时间来看到圣诞节纹理。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "无": [
+      "MC-42132",
+      "MC-181831",
+      "基岩版："
+    ],
+    "minecart.base": [
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "entity.minecraft.chest_minecart": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.chest_minecart\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:chest_minecart\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "实体数据": [
+      "Java版：",
+      "主条目：实体数据格式",
+      "运输矿车有与之相联系的包含许多该实体属性的存档数据。",
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "矿车共通标签，见Template:Nbt inherit/minecart/source",
+      "容器运输实体共通标签，见Template:Nbt inherit/container entity/source",
+      "基岩版：",
+      "参见：基岩版存档格式/实体格式和基岩版存档格式/实体格式/组件"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Chestful of Cobblestone": [
+      "开采 1728 块圆石并将它们放在箱子中。",
+      "打开一个内含1728个（即27组）圆石的容器。",
+      "20G"
+    ],
+    "Freight Station": [
+      "使用漏斗将一件物品从箱子矿车移动到箱子里。",
+      "使用漏斗吸取运输矿车内的物品，并输出到木桶、箱子、潜影盒或陷阱箱内。",
+      "15G"
+    ],
+    "Java版Alpha": [
+      "v1.0.14",
+      "加入了运输矿车。"
+    ],
+    "Java版Beta": [
+      "1.0",
+      "为运输矿车加入了名称，可通过新物品提示可以看见。",
+      "1.8",
+      "pre1",
+      "更改了运输矿车的模型。"
+    ],
+    "正式版": [
+      "修复了运输矿车的模型。"
+    ],
+    "Java版": [
+      "1.5",
+      "13w02a",
+      "运输矿车现在可以在废弃矿井中自然生成。",
+      "1.9",
+      "15w43a",
+      "加入了战利品表；运输矿车现在能够使用战利品表，并且生成在废弃矿井内的运输矿车也使用战利品表。",
+      "1.9.1",
+      "pre2",
+      "运输矿车在物品栏显示的英文名称从“Chest minecart”变成“Minecart with Chest”。",
+      "1.11",
+      "16w32a",
+      "实体ID由MinecartChest变为chest_minecart。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，此物品的数字ID是342。",
+      "1.14",
+      "18w43a",
+      "更改了运输矿车的纹理。",
+      "1.16.2",
+      "pre1",
+      "现在成年猪灵会与打开或破坏运输矿车的玩家敌对。",
+      "1.19",
+      "22w13a",
+      "现在运输矿车的合成配方是无序的。",
+      "现在运输矿车被破坏时会掉落其自身，而不再会分解成矿车和箱子。",
+      "1.21.5",
+      "25w07a",
+      "移除了运输矿车实体数据中的CustomDisplayTile字段，此前此项为false时运输矿车不会展示自定义方块。"
+    ],
+    "携带版Alpha": [
+      "0.14.0",
+      "build 1",
+      "加入了运输矿车。",
+      "build 3",
+      "现在在创造模式中破坏运输矿车时也会掉落物品。"
+    ],
+    "携带版": [
+      "1.1.0",
+      "1.1.0.0",
+      "实体ID由minecartchest变为chest_minecart。"
+    ],
+    "基岩版": [
+      "1.10.0",
+      "1.10.0.3",
+      "更改了运输矿车的纹理。",
+      "1.19.0",
+      "1.19.0.28",
+      "现在运输矿车的合成配方是无序的。",
+      "1.19.0.30",
+      "现在运输矿车被破坏时会掉落其自身，而不再会分解成矿车和箱子。",
+      "New Nintendo 3DS版",
+      "0.1.0",
+      "加入了运输矿车。",
+      "运输矿车在被破坏时会冒烟。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了运输矿车。",
+      "1.90",
+      "更改了运输矿车的纹理。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了运输矿车。",
+      "1.90",
+      "更改了运输矿车的纹理。"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "title": "基岩版1.19.60.26",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.19.60.26",
+  "structured_content": {
+    "默认分类": [
+      "1.19.60.26"
+    ],
+    "服务端版本": [
+      "1.19.60.26"
+    ],
+    "版本码": [
+      "Android：",
+      "951906026（armeabi-v7a，31）",
+      "961906026（x86，31）",
+      "971906026（arm64-v8a，31）",
+      "981906026（x86_64，31）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, Android, iOS/iPadOS - 2023年1月11日"
+    ],
+    "测试版归属": [
+      "1.19.60"
+    ],
+    "协议版本": [
+      "567",
+      "◄◄1.19.51",
+      "1.19.62►►",
+      "◄1.19.60.25",
+      "1.19.60.27►",
+      "beta 1.19.60.26（Android）、Preview 1.19.60.26（Xbox/Windows/iOS/iPadOS）是基岩版1.19.60的第6个测试版，发布于2023年1月11日，修复了一些漏洞。"
+    ],
+    "拉杆": [
+      "现在使用与石质（此前为木质）按钮激活和取消激活音效相同的开关音效。"
+    ],
+    "用户界面": [
+      "现在在创建世界之前进入另一界面后，资源包会应用到该世界中。",
+      "修复了下载部分资源包后会收到错误提示的问题。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“下一个主要更新”、“即将推出的创作者功能”和“测试版 API”子选项后才可使用。"
+    ],
+    "悬挂式告示牌": [
+      "现在玩家在不潜行的情况下对齐放置悬挂式告示牌时，悬挂式告示牌的两条锁链会呈现为垂线，反之为V字形。"
+    ],
+    "/script": [
+      "现在无需加载脚本即可使用。"
+    ],
+    "RawMessage": [
+      "将with属性的签名由(string[] | RawMessage)[]?更改为(string[] | RawMessage)?。"
+    ],
+    "EntityHealthComponent": [
+      "修复了可以修改死亡实体的生命值的漏洞。（MCPE-130687）"
+    ],
+    "Scoreboard": [
+      "加入了setScore(ScoreboardObjective, ScoreboardIdentity, Number)函数。",
+      "加入了getScore(ScoreboardObjective, ScoreboardIdentity)函数。"
+    ],
+    "ScoreboardObjective": [
+      "加入了setScore(ScoreboardIdentity, Number)函数。",
+      "加入了getScore(ScoreboardIdentity)函数。",
+      "加入了removeParticipant(ScoreboardIdentity)函数。"
+    ],
+    "ScoreboardIdentity": [
+      "加入了setScore(ScoreboardObjective, Number)函数。",
+      "加入了getScore(ScoreboardObjective)函数。",
+      "加入了removeFromObjective(ScoreboardObjective)函数。"
+    ],
+    "命令": [
+      "回退了对动画控制器命令延迟做出的实验性更改。",
+      "修复了玩家睡觉时被传送会导致无法起床的漏洞。（MCPE-162346）"
+    ],
+    "常规": [
+      "开放了1.19.60及以上版本的实验性JSON格式中的BlockPlacementFilterComponent。"
+    ],
+    "游戏内容": [
+      "修复了无法解锁“始作俑者”成就的问题。"
+    ],
+    "图形": [
+      "弹出键盘时Android平台上的UI不再会闪烁。（MCPE-142356）",
+      "高亮显示选择不再会将树苗之类的透明对象高亮显示为完整的卡片状物体。",
+      "垂直同步设置现在会在选项中正确配置（非ARM设备）。（MCPE-110006）",
+      "现在在创建世界之前进入另一界面后，资源包会应用到该世界中。",
+      "修复了下载部分资源包后用户会收到错误提示的问题。",
+      "修复了熔炉、高炉和烟熏炉UI中的文本会略微左偏的问题。（MCPE-151597）"
+    ],
+    "性能与稳定性": [
+      "修复了使用鞘翅滑翔进入末地传送门时可能发生的崩溃。",
+      "战利品表中具有无效条件、函数或随机池抽出项的实体被杀死时，游戏不再会崩溃。（MCPE-164623）"
+    ],
+    "原版趋同": [
+      "拉杆现在会发出与石质按钮相同的音效。（MCPE-163335）"
+    ],
+    "触摸控制": [
+      "修复了非触控模式下的物品堆叠拆分问题。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.19.60.26 — Minecraft Feedback，2023年1月11日。"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "高炉/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%AB%98%E7%82%89%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "CustomName：（文本组件）当前高炉的名称，会取代默认名称出现在高炉的界面中。",
+      "lock：如果存在，高炉只能用符合该物品谓词的物品打开。",
+      "物品堆叠谓词，见Template:Nbt inherit/item predicate/source"
+    ],
+    "*": [
+      "*cooking_time_spent：烧炼物已被烧炼的时间。当该值等于cooking_total_time时，本次烧炼完成，此值重置为0。若lit_time_remaining为0，此值每游戏刻减少2。若此值大于cooking_total_time，则无法完成烧炼。",
+      "*cooking_total_time：烧炼物完成烧炼所需时间。",
+      "*Items：当前高炉内物品的列表，超出槽位范围的物品无效。槽位0存放烧炼物数据；槽位1存放燃料数据；槽位2存放烧炼成品数据。",
+      "：物品数据。",
+      "物品共通标签，见Template:Nbt inherit/item/source",
+      "*lit_time_remaining：当前使用的燃料剩余的燃烧时间。",
+      "*lit_total_time：高炉应燃烧的总时长。",
+      "RecipesUsed：高炉从最后一次玩家取出成品到现在已烧炼的配方数，用于计算经验值。",
+      "<配方的命名空间ID>：此配方烧炼完成的次数。"
+    ]
+  }
+}

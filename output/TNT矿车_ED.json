@@ -1,0 +1,5 @@
+{
+  "title": "TNT矿车/ED",
+  "source_url": "https://zh.minecraft.wiki/w/TNT%E7%9F%BF%E8%BD%A6%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n矿车共通标签，见Template:Nbt inherit/minecart/source\nexplosion_power：（默认为4）TNT矿车的基础爆炸威力b。\nexplosion_speed_factor：（默认为1）TNT矿车的附加爆炸威力s。设基础威力增加量为a，那么最终的爆炸威力为[b,b+1.5sa)区间内的随机浮点数。\n*fuse：（点燃时默认为80，单位为刻，即4秒）距离爆炸的倒计时，未点燃时为-1。设置此值为负数等于未点燃，设置为正数则被认为点燃，为0时爆炸。如果此值不存在则游戏默认为-1。"
+}

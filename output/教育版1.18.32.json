@@ -1,0 +1,5 @@
+{
+  "title": "教育版1.18.32",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.18.32",
+  "text": "1.18.32\n版本\n教育版\n正式名称\nMobile, Multiplayer & More\n内部版本号\nChromeOS, Android：1.18.32.0\n发布时间\n2022年8月9日\n测试版本\n3个测试版\n（查看全部）\n协议版本\n503\n其他版本的1.18.32\n基岩版\n◄◄1.17.30\n1.19.52►►\n◄1.17.32\n1.18.42►\n1.18.32是Mobile, Multiplayer & More的首个正式版，也是教育版的一次主要更新，发布于2022年8月9日。此次更新加入了来自洞穴与山崖第二部分的特性和对Android、iPhone和iPod Touch设备的支持。\n新内容\n生物\n农民NPC\n商务兽人NPC\n商务NPC\n街头设施NPC\nNPC\n加入了25种新皮肤。\n常规\n特性\n主条目：基岩版1.18.0\n加入了来自洞穴与山崖第二部分的特性。\n加入了对Android、iPhone和iPod Touch设备的支持。\nRenderDragon\n现在使用新的渲染引擎RenderDragon。\n更改\n技术性\nWebSocket\n将Websocket服务器和代码构建器发送的JSON格式更新为分层型JSON格式，以代替平面型格式。\n移除了用途不大的属性，并将方块和物品ID移动至较新的基于名称的格式，以代替数值型格式。\n将Websocket中基于智能体的命令移动至新的action:agent格式，现在所有命令都排列在其中，并包含关联响应的唯一ID。\n现在Websocket和代码构建器API相关的重大更改都会使protocolVersion的值增加。\n参考\nWhat's New in the Mobile, Multiplayer, & More update (version 1.18.32)（存档） — Minecraft: Education Edition Support。\n导航"
+}

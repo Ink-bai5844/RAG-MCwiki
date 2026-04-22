@@ -1,0 +1,29 @@
+{
+  "title": "Java版Alpha v1.0.6 03",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.6_03",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "Alpha v1.0.6_03"
+    ],
+    "发布时间": [
+      "2010年7月17日"
+    ],
+    "协议版本": [
+      "10",
+      "◄◄Alpha v1.0.6",
+      "Alpha v1.0.11►►",
+      "◄Alpha v1.0.6_02",
+      "Alpha v1.0.7►",
+      "Alpha v1.0.6_03是Java版的一次更新，发布于2010年7月17日，修复了一个导致游戏崩溃的漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "加载包含了损坏的level.dat文件的世界不会再导致游戏崩溃。"
+    ],
+    "参考": [
+      "1.0.6_03, level save fix work（存档） — The Word of Notch，2010年7月17日。"
+    ]
+  }
+}

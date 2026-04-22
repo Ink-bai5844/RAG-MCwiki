@@ -1,0 +1,5 @@
+{
+  "title": "启动器3.1.13",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A83.1.13",
+  "text": "3.1.13\n程序类型\nMinecraft启动器\n发布时间\nBeta版：2024年9月13日\n正式版：2024年9月17日\n◄◄3.0.13\n3.2.13►►\n3.1.13是一次启动器更新，发布于2024年9月17日。\n更改\nMinecraft Pixel Remixes芯片音乐视频现在可以通过启动器中Java版和基岩版的版本展示页面上的按钮播放。\n修复\nMCL-20282 — Minecraft for Windows的卸载警告是从Minecraft Dungeons复用的。\nMCL-24498 — 赠送按钮会在切换页面后错位。\nMCL-24661 — Windows 10/11上的启动器被称为“Launcher Bedrock Edition”。\n导航"
+}

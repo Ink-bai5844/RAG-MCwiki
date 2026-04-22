@@ -1,0 +1,31 @@
+{
+  "title": "Dungeons:反弹",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%8F%8D%E5%BC%B9",
+  "structured_content": {
+    "Ricochet": [
+      "射到生物上的箭有小概率造成反弹。"
+    ],
+    "——魔咒描述": [
+      "反弹（Ricochet）是Minecraft Dungeons中的魔咒。有概率使射出的弹射物在可碰撞物体之间来回反弹。触发概率随着魔咒等级提升而提高。"
+    ],
+    "I": [
+      "20% 概率触发",
+      "1 附魔点数"
+    ],
+    "II": [
+      "40% 概率触发",
+      "2 附魔点数"
+    ],
+    "III": [
+      "60% 概率触发",
+      "3 附魔点数"
+    ],
+    "变种": [
+      "可信反弹（Reliable Ricochet）是触发概率为100%的变种魔咒，目前只有气泡爆裂弓和黏液弓自带此魔咒，不可通过正常附魔获得，其内部ID为ReliableRicochet。"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了反弹。"
+    ]
+  }
+}

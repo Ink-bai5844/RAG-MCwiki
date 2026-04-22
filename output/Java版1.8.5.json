@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.8.5",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.8.5",
+  "text": "1.8.5\n版本\nJava版\n发布时间\n2015年5月22日\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n47\n资源包版本\n1\n◄◄1.8\n1.9►►\n◄1.8.4\n1.8.6►\n1.8.5是Java版的一次次要更新，发布于2015年5月22日，加入了1条新的闪烁标语。此版本解决了安全和记分板的各种问题。此版本兼容1.8到1.8.4的服务端。\n新内容\n常规\n闪烁标语\n加入了“GNU Terry Pratchett”。\n更改\n常规\n闪烁标语\n移除对Notch和ez的“Happy birthday（生日快乐）”祝福标语。\n移除了“Notch <3 ez!”。\n更改标语“Cooler than Spock!（比斯波克还要酷！）”为“Not as cool as Spock!（还没斯波克酷！）”。\n修复\n修复了6个漏洞\n1.8的漏洞\nMC-50550 — 堆叠起来的船会悬空。\n1.8.4的漏洞\nMC-79632 — 记分板上出现幽灵自定义玩家/记分板上非玩家实体的UUID在重新登录后会被截断。\nMC-80390 — /stats block命令不适用于聊天栏中的实体选择器。\n未公开漏洞\nMC-80478 — 对移动通信包更好的服务端验证。\nMC-80479 — 不验证无效的信标效果。\nMC-80480 — 特定属性值没有绑定。\n参考\nMinecraft 1.8.5 Security Release（存档），来自Searge。Mojang.com，2015年5月22日。\nhttps://twitter.com/SeargeDP/status/601446274798223362\nhttps://twitter.com/CrushedPixel/status/601131990902054914\n导航"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "基岩版1.20.81",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.81",
+  "structured_content": {
+    "默认分类": [
+      "1.20.81"
+    ],
+    "服务端版本": [
+      "1.20.81.01"
+    ],
+    "内部版本号": [
+      "Android：1.20.81.01",
+      "PlayStation：2.88",
+      "Windows：1.20.8101.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952008101（armeabi-v7a，34）",
+      "962008101（x86，34）",
+      "972008101（arm64-v8a，34）",
+      "982008101（x86_64，34）",
+      "iOS/iPadOS：",
+      "865496512"
+    ],
+    "发布时间": [
+      "Fire - 2024年4月26日",
+      "ChromeOS/Android, iOS/iPadOS, PlayStation, Windows, Xbox - 2024年4月29日",
+      "Nintendo Switch - 2024年5月3日"
+    ],
+    "协议版本": [
+      "671",
+      "◄◄1.20.80",
+      "1.21.0►►",
+      "1.20.81是基岩版的一次热修复更新，在Fire平台上发布于2024年4月26日，在除Fire和Nintendo Switch外的平台上发布于2024年4月29日，在Nintendo Switch平台上发布于2024年5月3日，修复了一些漏洞。此版本与1.20.80相兼容。"
+    ],
+    "修复": [
+      "修复了一些游戏过程中可能发生的崩溃。",
+      "相机视角在传送后不再会延迟一帧。"
+    ],
+    "参考": [
+      "Minecraft - App on Amazon Appstore（存档）。“Version: 1.20.81.01”",
+      "Minecraft - 1.20.81 (Bedrock) — Minecraft Feedback，2024年4月29日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.10.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.10.24",
+  "text": "1.21.10.24\n版本\n基岩版\n服务端版本\n1.21.10.24\n版本码\nAndroid：\n952101024（armeabi-v7a，34）\n962101024（x86，34）\n972101024（arm64-v8a，34）\n982101024（x86_64，34）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年6月19日\n测试版归属\n1.21.20\n下载\n服务端\nWindowsLinux\n协议版本\n705\n◄◄1.21.3\n1.21.21►►\n◄1.21.10.23\n1.21.20.21►\nbeta 1.21.10.24（ChromeOS/Android）、Preview 1.21.10.24（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的第5个测试版，发布于2024年6月19日，修复了一些漏洞。\n更改\n技术性\n物品\n修复了部分物品组件不再对远程联机玩家起作用的问题。\n修复\n游戏内容\n磨制安山岩台阶现在再次可以通过在切石机中使用安山岩来制成。\nRealms\n修复了新安装Minecraft的玩家需要重启游戏才能看到Realms故事的漏洞。\n结构\n生物现在再次会生成在已升级的区块的结构中。（MCPE-182541）\n风弹\n现在使用带有激流魔咒的三叉戟时会正确取消风弹带来的摔落伤害减免。\n参考\nMinecraft Beta & Preview - 1.21.10.24 — Minecraft Feedback，2024年6月19日。\n导航"
+}

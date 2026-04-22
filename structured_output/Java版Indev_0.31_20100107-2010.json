@@ -1,0 +1,34 @@
+{
+  "title": "Java版Indev 0.31 20100107-2010",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100107-2010",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月7日"
+    ],
+    "未知": [
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100107-1947",
+      "0.31 20100109-1939►",
+      "0.31的一个版本发布于2010年1月7日20:10（UTC），修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了一个导致地面出现线条的图形漏洞。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z (UTC−5)",
+      "Adura的IRC记录: \"(15:11:20) <Notch> vede: Try the indev client now. Is the line gone?\"",
+      "Adura的IRC记录: \"(15:07:23) <vede> Notch, I hate to say it, but I think the moire looked better than that line that's always on the ground. :/\"...\"(15:10:44) <Notch> vede: The line is going away in a few minutes when the indev version has been updated\"...\"(15:13:33) <vede> Ah, yes, the line is gone, Notch.\""
+    ]
+  }
+}

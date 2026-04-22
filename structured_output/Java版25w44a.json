@@ -1,0 +1,358 @@
+{
+  "title": "Java版25w44a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8825w44a",
+  "structured_content": {
+    "默认分类": [
+      "25w44a"
+    ],
+    "发布时间": [
+      "2025年10月28日"
+    ],
+    "快照归属": [
+      "1.21.11"
+    ],
+    "协议版本": [
+      "DEC: 1073742100",
+      "HEX: 40000114"
+    ],
+    "数据版本": [
+      "4659"
+    ],
+    "资源包版本": [
+      "72.0"
+    ],
+    "数据包版本": [
+      "92.0",
+      "◄◄1.21.10",
+      "26.1►►",
+      "◄25w43a",
+      "25w45a►",
+      "25w44a是Java版1.21.11的第4个快照，发布于2025年10月28日，加入了新生物焦骸和骆驼尸壳，并修复了一些漏洞。"
+    ],
+    "刷怪蛋": [
+      "加入了焦骸刷怪蛋和骆驼尸壳刷怪蛋。",
+      "更改了僵尸马刷怪蛋的纹理，以匹配僵尸马的新纹理。"
+    ],
+    "焦骸": [
+      "新的骷髅变种。",
+      "在沙漠生物群系中亮度为0的地方代替部分骷髅生成。",
+      "不会在阳光下燃烧。",
+      "会射出虚弱之箭。",
+      "和沼骸类似，射箭的频率比普通骷髅慢。",
+      "和尸壳类似，不会生成在洞穴中。"
+    ],
+    "骆驼尸壳": [
+      "新的亡灵生物。",
+      "在沙漠生物群系中亮度为0的地方生成。",
+      "不会在阳光下燃烧。",
+      "生成时，会有两个乘客：一个手持矛的尸壳和一个焦骸。",
+      "和尸壳类似，不会生成在洞穴中。",
+      "只有在乘客对玩家敌对时才会对玩家敌对。",
+      "会和其他敌对生物一样自然消失，但被玩家骑乘时不会。",
+      "可以用兔子脚吸引和喂食。",
+      "无法繁殖。",
+      "成年骆驼尸壳可装备鞍，装备后可以骑乘。",
+      "骑乘时，行为和普通骆驼一致。"
+    ],
+    "选项": [
+      "在视频设置中加入了各向异性过滤选项。",
+      "提升了从远处或从特定角度观察方块时的视觉效果。",
+      "默认值取决于设备配置，如果硬件不支持则不会显示这个选项。",
+      "可以为“关”“2x”“4x”或“8x”。",
+      "会显著影响使用的显卡内存，特别是使用高Mipmap级别时。",
+      "视频设置中的“界面”栏被重命名为“偏好设置”。"
+    ],
+    "用户界面": [
+      "向创建新的世界的“自定义单一生物群系”界面和语言选择界面添加了搜索框。"
+    ],
+    "统计信息": [
+      "加入了统计信息minecraft:nautilus_one_cm（骑鹦鹉螺移动距离）。"
+    ],
+    "环境属性": [
+      "新增ARGB颜色修饰符：",
+      "重命名minecraft:visual/water_fog_radius为minecraft:visual/water_fog_end_distance。",
+      "移除了minecraft:visual/extra_fog。",
+      "重命名minecraft:visual/cloud_opacity为minecraft:visual/cloud_color。"
+    ],
+    "override": [
+      "参数类型：ARGB颜色。",
+      "add：按通道的加法混合。",
+      "参数类型：RGB颜色。",
+      "subtract：按通道的减法混合。",
+      "参数类型：RGB颜色。",
+      "multiply：按通道的乘法混合。",
+      "参数类型：RGB颜色或ARGB颜色。",
+      "若指定，则A通道像其他颜色通道一样独立相乘。",
+      "alpha_blend：在图像编辑软件中可能出现的传统alpha混合。",
+      "参数类型：ARGB颜色。",
+      "A通道为1时，表现为不混合的覆盖。",
+      "加入了下列环境属性：",
+      "minecraft:visual/water_fog_start_distance：水下迷雾开始产生影响的距离，以方块为单位。如果为负数，雾将以拥有密度开始，就像它从摄像机后面开始产生影响一样。",
+      "值类型：浮点数",
+      "默认值：-8.0",
+      "修饰符：浮点修饰符",
+      "可插值：是"
+    ],
+    "在摄像机的位置获取": [
+      "minecraft:visual/fog_start_distance：摄像机未在某些物质中时，迷雾开始产生影响的距离，以方块为单位。如果为负数，雾将以拥有密度开始，就像它从摄像机后面开始产生影响一样。注意：最终值会因为天气改变。",
+      "值类型：浮点数",
+      "默认值：0.0",
+      "修饰符：浮点修饰符",
+      "可插值：是",
+      "minecraft:visual/fog_end_distance：摄像机未在某些物质中时，雾达到最大密度时与相机的距离，以方块为单位。",
+      "值类型：非负浮点数",
+      "默认值：1024.0",
+      "修饰符：浮点修饰符",
+      "可插值：是",
+      "minecraft:visual/sky_fog_end_distance：摄像机未在某些物质中时，影响天空的雾达到最大密度时与相机的距离，以方块为单位。",
+      "值类型：非负浮点数",
+      "默认值：512.0",
+      "修饰符：浮点修饰符",
+      "可插值：是",
+      "minecraft:visual/cloud_fog_end_distance：摄像机未在某些物质中时，影响云的雾达到最大密度时与相机的距离，以方块为单位。",
+      "值类型：非负浮点数",
+      "默认值：2048.0",
+      "修饰符：浮点修饰符",
+      "可插值：是",
+      "minecraft:visual/cloud_color：云的颜色。如果完全透明，云将完全禁用，且快乐恶魂在云层高度时也不会恢复生命。",
+      "值类型：ARGB颜色",
+      "默认值：#00000000",
+      "修饰符：ARGB颜色修饰符",
+      "可插值：是"
+    ],
+    "槽位源": [
+      "加入了槽位源，允许数据包指定任何槽位位置。",
+      "格式如下：",
+      "type：槽位源类型",
+      "剩余字段与槽位源相关。",
+      "minecraft:empty",
+      "不选择任何槽位。",
+      "minecraft:group",
+      "将多个槽位源合并到一个，生成的可选择结果包含所有提供的槽位源。",
+      "如果槽位源的槽位重复，则重复此槽位。",
+      "例如：[a, b] + [c, a] -> [a, b, c, a]",
+      "格式：",
+      "terms：槽位源的列表。",
+      "可以作为槽位源的内联格式。",
+      "minecraft:slot_range",
+      "从实体或方块实体的槽位范围里选择槽位。",
+      "镜像/item参数from的行为。",
+      "格式：",
+      "source：作为来源的实体或方块实体，从战利品上下文获取。",
+      "取值可以为block_entity、this、attacking_entity、last_damage_player、direct_attacker、target_entity或interacting_entity。",
+      "slots：槽位范围，格式为<槽位类型>或<槽位类型>.<槽位编号>，例如armor.chest和container.*。",
+      "minecraft:contents",
+      "从一个或多个物品栏组件中选择所有非空槽位。",
+      "如果这些组件没有任何物品，则可选择结果为空。",
+      "物品栏组件的物品位置来源于另一个槽位源。",
+      "如果物品来源于多个组件，则可选择结果将合并，类似于minecraft:group。",
+      "例如：Bundle [a, b] + Shulker Box [c, d] -> [a, b, c, d]",
+      "格式：",
+      "component：物品栏组件。",
+      "取值可以为minecraft:bundle_contents、minecraft:charged_projectiles或minecraft:container。",
+      "slot_source：槽位源，包含目标物品的槽位。",
+      "minecraft:filtered",
+      "对目标槽位进行过滤，排除所有测试失败的槽位。",
+      "格式：",
+      "item_filter：测试每个槽位的物品谓词。",
+      "slot_source：要进行过滤的槽位源。",
+      "minecraft:limit_slots",
+      "限制槽位的数量，生成的可选择结果最多包含这些数量个槽位。",
+      "任何在限制数量之外的槽位都将被排除，按提供顺序排列。",
+      "例如：[a, b, c, d] -> [a, b, c]，如果限制数量为3。",
+      "对目标槽位进行过滤，排除所有测试失败的槽位。",
+      "格式：",
+      "limit：可选择结果的最大槽位数量。",
+      "slot_source：要进行过滤的槽位源。",
+      "以下为示例槽位源，从实体的快捷栏和盔甲栏选择每个包含超过16个物品堆叠的槽位：",
+      "{\"type\":\"minecraft:filtered\",\"item_filter\":{\"count\":{\"min\":16}},\"slot_source\":[{\"type\":\"minecraft:slot_range\",\"source\":\"this\",\"slots\":\"hotbar.*\"},{\"type\":\"minecraft:slot_range\",\"source\":\"this\",\"slots\":\"armor.*\"}]}"
+    ],
+    "战利品表": [
+      "加入了战利品抽取项minecraft:slots。",
+      "将从所选槽位中的物品提供给战利品表。",
+      "格式：",
+      "slot_source：描述物品所在位置的槽位源。",
+      "所有单一抽取项字段。",
+      "移除了战利品抽取项dynamic的接受值contents。",
+      "它提供潜影盒内容物的行为由于slots抽取项的加入而变得多余，现在可以使用槽位源slot_range进行复制。"
+    ],
+    "标签": [
+      "加入了物品标签#camel_husk_food，控制骆驼尸壳可以食用的物品。",
+      "加入了实体类型标签#can_float_while_ridden，控制生物被骑乘时是否可在水上漂浮游泳而非下沉。",
+      "实体类型标签：",
+      "向#skeletons中加入了焦骸。",
+      "向#zombies中加入了僵尸鹦鹉螺、僵尸马和骆驼尸壳。",
+      "向#can_equip_saddle中加入了鹦鹉螺、僵尸鹦鹉螺、僵尸马和骆驼尸壳。"
+    ],
+    "性能": [
+      "在OSX上增加了对KQueue的支持，以提高网络连接性能。"
+    ],
+    "鹦鹉": [
+      "现在可以模仿僵尸鹦鹉螺、僵尸马、焦骸和骆驼尸壳的声音。"
+    ],
+    "鹦鹉螺和僵尸鹦鹉螺": [
+      "现在会在被任何生物激怒时攻击该生物，而不仅仅是玩家。"
+    ],
+    "马、骡、驴和骆驼": [
+      "现在被玩家在水里骑乘时不再会下沉。"
+    ],
+    "蝙蝠": [
+      "现在在每年的10月20日至11月3日期间，不再会更频繁地生成，也不再会在亮度等级大于3、小于等于6的地方生成。"
+    ],
+    "尸壳": [
+      "现在骑乘在骆驼尸壳上的尸壳被杀死时会掉落0-1个兔子脚。"
+    ],
+    "箭类弹射物": [
+      "回退了25w41a的更改。"
+    ],
+    "魔咒": [
+      "现在突进总是额外消耗1点耐久度。",
+      "减少了突进消耗的饥饿值和饱和度。",
+      "现在I级消耗1（），II级消耗2（），III级消耗3（）。"
+    ],
+    "进度": [
+      "“怪物猎人”“抖包袱”“瞄准目标”和“它蔓延了”现在也可以通过击杀焦骸或骆驼尸壳来获取。",
+      "“资深怪物猎人”现在还需要击杀焦骸和骆驼尸壳。"
+    ],
+    "迷雾": [
+      "下界迷雾不再随渲染距离变化，现在始终在10至96格方块之间渲染。"
+    ],
+    "其他更改": [
+      "区块的渲染现在可以有淡入效果，而不是突然出现。淡入时间可以通过视频设置调整。"
+    ],
+    "/worldborder": [
+      "设置距离的参数time现在也可以设置为秒或游戏日，只需要添加s或d后缀。",
+      "设置警告时间的参数time现在单位默认为游戏刻，但也可以设置为秒或游戏日，只需要添加s或d后缀。"
+    ],
+    "数据包": [
+      "将数据包版本号更改为92.0。"
+    ],
+    "资源包": [
+      "将资源包版本号更改为72.0。"
+    ],
+    "服务端管理协议": [
+      "将服务端管理协议版本号更改为2.0.0。",
+      "在typed_game_rule和untyped_game_rule模式中，value字段现在接收字符串而不是整型或布尔值。",
+      "同样，它现在使用资源路径作为键名。"
+    ],
+    "游戏规则": [
+      "游戏规则现在已经移到注册表。这意味着所有驼峰式命名的游戏规则ID均已重命名为资源路径的下划线式的ID。",
+      "下列游戏规则被进一步重命名：",
+      "announceAdvancements -> minecraft:show_advancement_messages",
+      "commandBlocksEnabled -> minecraft:command_blocks_work",
+      "command_modification_block_limit -> minecraft:max_block_modifications",
+      "disableElytraMovementCheck -> minecraft:elytra_movement_check",
+      "在使用资源路径时此游戏规则的值的意义与之前相反。",
+      "disablePlayerMovementCheck -> minecraft:player_movement_check",
+      "在使用资源路径时此游戏规则的值的意义与之前相反。",
+      "disableRaids -> minecraft:raids",
+      "在使用资源路径时此游戏规则的值的意义与之前相反。",
+      "doDaylightCycle -> minecraft:advance_time",
+      "doEntityDrops -> minecraft:entity_drops",
+      "doImmediateRespawn -> minecraft:immediate_respawn",
+      "doInsomnia -> minecraft:spawn_phantoms",
+      "doLimitedCrafting -> minecraft:limited_crafting",
+      "doMobLoot -> minecraft:mob_drops",
+      "doMobSpawning -> minecraft:spawn_mobs",
+      "doPatrolSpawning -> minecraft:spawn_patrols",
+      "doTileDrops -> minecraft:block_drops",
+      "doTraderSpawning -> minecraft:spawn_wandering_traders",
+      "doVinesSpread -> minecraft:spread_vines",
+      "doWardenSpawning -> minecraft:spawn_wardens",
+      "doWeatherCycle -> minecraft:advance_weather",
+      "maxCommandChainLength -> minecraft:max_command_sequence_length",
+      "maxCommandForkCount -> minecraft:max_command_forks",
+      "naturalRegeneration -> minecraft:natural_health_regeneration",
+      "snowAccumulationHeight -> minecraft:max_snow_accumulation_height",
+      "spawnRadius -> minecraft:respawn_radius",
+      "spawnerBlocksEnabled -> minecraft:spawner_blocks_work",
+      "部分游戏规则之前没有值域限制，现在它们的值域如下：",
+      "minecraft:max_block_modifications：最小值：1",
+      "minecraft:max_command_forks：最小值：1",
+      "minecraft:max_command_sequence_length：最小值：0",
+      "minecraft:max_entity_cramming：最小值：1",
+      "minecraft:max_snow_accumulation_height：最小值：0；最大值：8",
+      "minecraft:players_nether_portal_creative_delay：最小值：0",
+      "minecraft:players_nether_portal_default_delay：最小值：0",
+      "minecraft:players_sleeping_percentage：最小值：0",
+      "minecraft:random_tick_speed：最小值：0",
+      "minecraft:respawn_radius：最小值：0",
+      "加入了游戏规则fire_spread_radius_around_player。",
+      "控制玩家周围可以传播火的方块的最大距离。",
+      "替代了游戏规则doFireTick和allowFireTicksAwayFromPlayer，且它们已经被移除。",
+      "设置为0时将禁用火的传播。",
+      "设置为-1时火的传播无视周围是否有玩家。",
+      "值域：最小值：-1。"
+    ],
+    "测试环境定义格式": [
+      "测试环境定义game_rules的bool_rule和int_rule字段已被rules取代。",
+      "新字段是一个<游戏规则资源路径> - <游戏规则值>的映射，值是布尔值还是整型取决于游戏规则值类型。"
+    ],
+    "生物群系定义格式": [
+      "生物群系环境效果的下列字段现在接受字符串#RRGGBB和浮点数数组[red, green, blue]格式的颜色："
+    ],
+    "声音事件": [
+      "移除了item.underwater_saddle.equip。"
+    ],
+    "着色器和后处理管线": [
+      "block.vsh/fsh复制terrain.vsh/fsh并临时处理方块，例如实体持有的方块。",
+      "加入了uniformChunkSection，被terrain.vsh使用，替代了DynamicTransforms。",
+      "Globalsuniform现在拥有了摄像机坐标。",
+      "引入了新的着色器来处理依赖于GPU的精灵动画。",
+      "加入了animate_sprite*核心着色器，使用新的uniformSpriteAnimationInfo。"
+    ],
+    "精灵图动画": [
+      "纹理图集中的精灵图现在由GPU处理动画，此前由CPU每刻处理。",
+      "对于常规的基于帧的动画，使用animate_sprite.vsh和animate_sprite_blit.fsh进行渲染。",
+      "对于带插值的动画，使用animate_sprite.vsh和animate_sprite_interpolate.fsh进行渲染。",
+      "Uniform缓冲对象SpriteAnimationInfo现在包含更大的纹理图集中的精灵图应该被渲染何处的信息。"
+    ],
+    "LWJGL": [
+      "回退了上个版本的更改。"
+    ],
+    "修复": [
+      "修复了33个漏洞",
+      "1.21.10前正式版的漏洞",
+      "MC-2791 — 物品栏中的玩家的模型不是直立时，其渲染方向错误。",
+      "MC-73186 — 物品模型和复杂的方块模型上面存在缝隙。",
+      "MC-149630 — 一些粒子的周围会有很细的竖直线条出现并消失。",
+      "MC-237158 — 岩浆块可以在含水层下方洞穴的天花板上生成。",
+      "MC-298942 — 骑在快乐恶魂上面时，物品栏中玩家的模型的身体会移动，而非头部会移动。",
+      "MC-300642 — 纹理图集较大时，低分辨率的方块之间会渲染出缝隙。",
+      "MC-301311 — 选中Java Realms信息框时，“立即转移”按钮不再高亮。",
+      "MC-301517 — 鼠标光标放在单人游戏、多人游戏、资源包或数据包菜单的箭头上时不会变为手形。",
+      "MC-301527 — 用鼠标滚动进度菜单时，鼠标光标不会变为垂直调整大小的形状。",
+      "MC-301988 — 在某些语言中，遥测数据屏幕中的按钮未正确对齐。",
+      "MC-302111 — 使用Tab ↹键不能按顺序选中资源包或数据包菜单中的元素。",
+      "MC-302325 — 在调试选项屏幕中使用调试组合键切换调试渲染器时，对应的选项没有更新。",
+      "MC-302338 — 在辅助功能设置菜单中按Ctrl + B时，“复述功能”按钮不会更新。",
+      "MC-302362 — 在主菜单中点击“单人游戏”或“多人游戏”后立即点击一个世界或服务器，会在没有点击游玩按钮的情况下进入此世界或服务器。",
+      "MC-302482 — 存在滚动条时，资源包和数据包的名称会溢出选择框。",
+      "1.21.11开发版本的漏洞",
+      "MC-302678 — 箭和三叉戟在玩家和生物上会卡住。",
+      "MC-303072 — 带有值大于等于1的PierceLevel标签的三叉戟击中生物或玩家时，游戏崩溃。",
+      "MC-303168 — 给鹦鹉螺装备鞍会使用subtitles.entity.horse.saddle字幕。",
+      "MC-303255 — mobGriefing设为false时，鹦鹉螺不能造成伤害。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-303429 — 猪灵和疣猪兽在下界颤抖。",
+      "MC-303432 — 无法识别中文输入。",
+      "MC-303434 — 无法识别日文输入。",
+      "MC-303439 — 在第三人称视角下，从特定角度观察手持物品会出现奇怪的错误。",
+      "MC-303455 — 在Wayland上打开GUI或菜单时，光标不再居中。",
+      "MC-303460 — 在Wayland上，光标不会显示成系统设置的那样。",
+      "MC-303461 — 在Wayland上，游戏显示Wayland应用的默认图标而不是Minecraft的图标。",
+      "MC-303478 — 无法在使用了Nvidia显卡的Linux系统上启动25w43a。",
+      "MC-303485 — 游戏不再能保存自定义维度的区块。",
+      "MC-303504 — 以锐角角度观察时，下界苗的纹理仍会变大。",
+      "MC-303506 — 在Wayland上，Ctrl组合键还会额外输入普通字母。",
+      "MC-303520 — 以锐角角度观察时，甜浆果丛的纹理仍会变大。",
+      "MC-303541 — 在Wayland上，游戏无法启动。",
+      "MC-303651 — 旋转的物品实体有时会产生视觉错误。"
+    ],
+    "参考": [
+      "Minecraft Snapshot 25w44a — Minecraft.net，2025年10月28日。",
+      "MC-302678 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

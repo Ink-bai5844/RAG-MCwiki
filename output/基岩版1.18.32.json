@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.18.32",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.32",
+  "text": "1.18.32\n版本\n基岩版\n服务端版本\n1.18.32.02\n内部版本号\nAndroid：1.18.32.02\n版本码\nAndroid（试玩版本）：\n951803202（armeabi-v7a，31）\n971803202（arm64-v8a，31）\nAndroid（主版本）：\n951803202（armeabi-v7a，31）\n961803202（x86，31）\n971803202（arm64-v8a，31）\n981803202（x86_64，31）\n发布时间\nAndroid - 2022年5月5日\nFire, Nintendo Switch - 2022年5月6日\n下载\n服务端\nWindowsLinux\n协议版本\n503\n其他版本的1.18.32\n教育版\n◄◄1.18.0\n1.19.0►►\n◄1.18.31\n1.18.33►\n1.18.32是基岩版的一次热修复更新，仅发布到Android、Fire和Nintendo Switch平台，发布于2022年5月5日至6日，修复了两个性能问题。此版本与其他平台上的1.18.30和1.18.31相互兼容。\n修复\n提升了部分Android设备上的游戏性能。（MCPE-142934）\n修复了Nintendo Switch上的区块加载和卡顿问题。（MCPE-154110）\n参考\nMinecraft - 1.18.32 (Android & Switch) — Minecraft Feedback，2022年5月5日。\n导航"
+}

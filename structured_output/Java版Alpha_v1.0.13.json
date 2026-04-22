@@ -1,0 +1,49 @@
+{
+  "title": "Java版Alpha v1.0.13",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.13",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "Alpha v1.0.13"
+    ],
+    "发布时间": [
+      "2010年7月28日"
+    ],
+    "协议版本": [
+      "12",
+      "◄◄Alpha v1.0.11",
+      "Alpha v1.0.14►►",
+      "◄Alpha v1.0.12",
+      "Alpha v1.0.13_01►",
+      "Alpha v1.0.13是Java版的一次更新，发布于2010年7月28日，加入了一些闪烁标语，并修复了一些漏洞。"
+    ],
+    "闪烁标语": [
+      "重新加入了splash.txt文件，使得闪烁标语再次可以正常显示了。",
+      "添加了新的闪烁标语："
+    ],
+    "Very fun!": [
+      "12345 is a bad password!"
+    ],
+    "Lives in a pineapple under the sea!": [
+      "MAP11 has two names!"
+    ],
+    "Jag känner en bot!": [
+      "This text is hard to read if you play the game at the default resolution, but at 1080p it's fine!"
+    ],
+    "史莱姆": [
+      "更改了纹理。"
+    ],
+    "世界保存": [
+      "客户端现在会检查是否有两个游戏进程尝试存储相同进度，若是则退出。",
+      "此功能更多在多人生存模式中运作。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了一个与光照有关并导致崩溃的漏洞。"
+    ],
+    "参考": [
+      "Minecraft Alpha 1.0.13（存档） — The Word of Notch，2010年7月28日。"
+    ]
+  }
+}

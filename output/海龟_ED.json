@@ -1,0 +1,5 @@
+{
+  "title": "海龟/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B5%B7%E9%BE%9F%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n*\n*has_egg：表示这只海龟是否将会产卵。"
+}

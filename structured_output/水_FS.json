@@ -1,0 +1,26 @@
+{
+  "title": "水/FS",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B0%B4%2FFS",
+  "structured_content": {
+    "水": [
+      "ID名称：water"
+    ],
+    "true": [
+      "是否为向下流动的水。"
+    ],
+    "流动的水": [
+      "ID名称：flowing_water"
+    ],
+    "level": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "水的高度。8为最高，1为最低。向下流动的水永远为8。"
+    ]
+  }
+}

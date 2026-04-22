@@ -1,0 +1,63 @@
+{
+  "title": "Dungeons:冰霜长镰",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%86%B0%E9%9C%9C%E9%95%BF%E9%95%B0",
+  "structured_content": {
+    "力量": [
+      "7"
+    ],
+    "速度": [
+      "2"
+    ],
+    "攻击范围": [
+      "9"
+    ],
+    "存档ID": [
+      "SoulScythe_Unique2",
+      "一把牢不可破的镰刀，摸起来很坚硬，刃上的冰似乎从未融化。"
+    ],
+    "——物品描述": [
+      "冰霜长镰（Frost Scythe）是Minecraft Dungeons中的近战武器，它是灵魂长镰的独特变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "深渊神殿（冒险难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "冰霜长镰有着中等力量，较低速度和较高攻击范围，攻击方式与灵魂长镰无异。"
+    ],
+    "减缓生物速度": [
+      "+1 灵魂收集"
+    ],
+    "攻击力": [
+      "67",
+      "242",
+      "83",
+      "462",
+      "104",
+      "1105",
+      "105",
+      "1123",
+      "110",
+      "1877"
+    ],
+    "sfx_item_scytheUniquePlace_soundWave": [
+      "攻击（Layer 1）",
+      "sfx_item_scytheUniqueSwingLayer1_soundWave",
+      "攻击（Layer 2）",
+      "sfx_item_scytheUniqueSwingLayer2_soundWave"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了冰霜长镰。",
+      "1.3.2.0",
+      "将灵魂收集量由+2改为+1。",
+      "1.8.0.0",
+      "提升了攻击范围和溅射伤害。"
+    ]
+  }
+}

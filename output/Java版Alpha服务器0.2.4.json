@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha服务器0.2.4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha%E6%9C%8D%E5%8A%A1%E5%99%A80.2.4",
+  "text": "此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\n0.2.4\n版本\nJava版\n发布时间\n2010年11月10日\n下载\n服务端（.exe）\n协议版本\n4\n◄◄0.2.3\n0.2.5►►\n0.2.4是一个Alpha服务器版本，发布于2010年11月10日。\n添加\n新的服务器配置选项：no-animals。\n修复\nhellworld=true不再覆盖旧的被保存的区块。\n船现在对其他玩家可见。\n玩家现在可以坐在矿车和船里。\n矿车现在移动得更流畅了。\n钓鱼现在可以工作了。\n铁桶现在可以拾起流体了。\n绵羊和牛看着更像绵羊和牛了。\n现在可以驾驶服务器端的船了。\n修复了楼梯难以破坏的问题。\n增加了“花费太长时间登录（took too long to log in）”的提示出现前的超时时长。\n参考\nMinecraft Alpha v1.2.2, Minecraft Server 0.2.4（存档） — The Word of Notch。\n导航"
+}

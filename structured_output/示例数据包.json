@@ -1,0 +1,141 @@
+{
+  "title": "示例数据包",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE%E5%8C%85",
+  "structured_content": {
+    "默认分类": [
+      "示例数据包是由Slicedlime创建的用于展示游戏更新的数据包，目前共有两个数据包：",
+      "第16版（23w31a）数据包演示数据包"
+    ],
+    "数据驱动魔咒数据包": [
+      "第16版数据包演示数据包",
+      "此数据包共含有8个函数，用于展示在23w31a里添加的新内容。",
+      "此数据包共含有14个魔咒，用于展示在24w18a里添加的魔咒数据驱动支持。"
+    ],
+    "# 运行储存于 $(command) 的命令$$(command)": [
+      "注：$(command)是函数的一部分，所以存储的命令不带前导正斜杠/。"
+    ],
+    "concat.mcfunction": [
+      "# 连接 $(string1) 和 $(string2)，将结果储存至存储 $(id) 的 $(path) $datamodifystorage$(id)$(path)setvalue\"$(string1)$(string2)\""
+    ],
+    "fails.mcfunction": [
+      "# 无返回值的函数会返回失败setblock~~-1~stone",
+      "注：此函数可以正常执行；实际表现为无返回值，不改变已有的数据。",
+      "fails2.mcfunction",
+      "# 返回值为 0 的函数会返回失败return0"
+    ],
+    "succeeds.mcfunction": [
+      "# 返回值不为 0 的函数会返回成功return1"
+    ],
+    "get_player_health.mcfunction": [
+      "# 如果目标是玩家，返回生命值executeifentity@s[type=player]run returnrun datagetentity@sHealth# 为非玩家返回 0return0"
+    ],
+    "line_continuation.mcfunction": [
+      "scoreboardplayersoperation@aresult\\+=@e[type=marker,limit=1,tag=source]value",
+      "用于展示使用反斜杠\\承接命令的功能。"
+    ],
+    "修正附魔等级范围": [
+      "I级：25 – 50",
+      "I级：15 – 65",
+      "II级：24 – 74",
+      "III级：33 – 83",
+      "I级：10 – 40",
+      "II级：20 – 50",
+      "III级：30 – 60",
+      "IV级：40 – 70",
+      "V级：50 – 80",
+      "I级：12 – 50",
+      "I级：10 – 40",
+      "II级：20 – 50",
+      "III级：30 – 60",
+      "I级：10 – 25",
+      "II级：20 – 35",
+      "I级：25 – 50",
+      "I级：25 – 50",
+      "I级：15 – 65",
+      "II级：24 – 74",
+      "III级：33 – 83",
+      "I – III 级：20 – 50",
+      "I级：10 – 40",
+      "II级：20 – 50",
+      "III级：30 – 60",
+      "I级：5 – 55",
+      "I级：10 – 40",
+      "I级：15 – 65"
+    ],
+    "挑选权重": [
+      "1",
+      "2",
+      "2",
+      "5",
+      "2",
+      "2",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "5",
+      "2",
+      "2"
+    ],
+    "魔咒ID": [
+      "example:annoyance",
+      "Curse of Annoyance是一种使持有者在击中方块时有概率收到“猫的事实（Cat Facts）”的诅咒型魔咒。",
+      "持有者主手持有附有此魔咒的物品时，每次击中方块都有20%的概率从11条消息中选择一条发送给持有者。所有消息如下：",
+      "Cat Facts: Thanks for signing up for Cat Facts! You now will receive fun daily facts about CATS! >o<",
+      "Cat Facts: Cats use their tails for balance and have nearly 30 individual bones in them! <To cancel Daily Cat Facts, reply ‘cancel’>",
+      "Cat Facts: In ancient Egypt, killing a cat was a crime punishable by death. Thank you for choosing Cat Facts!",
+      "Cat Facts: Did you know that the first cat show was held in 1871 at the Crystal Palace in London? Mee-wow!",
+      "Cat Facts: Did you know there are about 100 distinct breeds of domestic cat? Plenty of furry love!",
+      "Cat Facts: Cats bury their feces to cover their trails from predators. <To cancel Cat Facts, reply catfactscancel>",
+      "Cat Facts: A cat has two vocal chords, and can make over 100 sounds.",
+      "Cat Facts: <Command not recognized> To unsubscribe, please reply ‘catfactscancel’",
+      "Cat Facts: A cat will spend nearly 30% of her life grooming herself. <To cancel Cat Facts, reply catfactscancel>",
+      "Cat Facts: Recent studies have shown that cats can see blue and green. There is disagreement as to whether they can see red.",
+      "Cat Facts: A domestic cat can sprint at about 31 miles per hour. <To cancel Cat Facts, reply catfactscancel>",
+      "example:boom_boom",
+      "Boom Boom是一种使射出的箭在击中方块时产生半径为2的爆炸的魔咒。",
+      "魔咒等级不影响实际效果。",
+      "example:claw",
+      "Claw是一种增加方块交互距离的魔咒。",
+      "每级魔咒增加2点方块交互距离。",
+      "example:cowbow",
+      "Cowbow是一种使弩的装填音效变为牛的音效的魔咒。",
+      "附有该魔咒时，弩的装填时音效变为牛的空闲音效；装填完毕的音效变为牛的受伤音效。",
+      "example:diminishing",
+      "Diminishing是一种使穿戴者变小的魔咒。",
+      "每级魔咒增加20%的缩小比例。",
+      "example:fire_walker",
+      "Fire Walker是一种在熔岩上行走可以产生黑曜石的魔咒。",
+      "在地上行走（不处于掉落、跳跃或飞行状态）时，以当前方块位置为圆心，等级+2为半径的区域内的所有暴露在空气下，且与玩家站着的方块高度相同的熔岩源方块都会变为黑曜石，其中有10%的概率变为哭泣的黑曜石。等级达到14时覆盖范围达到最大，更高的等级将不会提升其覆盖范围。如果将要替换的熔岩源方块中有生物、船或玩家等实体，则该方块不会变成黑曜石。",
+      "此魔咒能消除细雪造成的伤害。",
+      "example:fishy",
+      "Fishy是一种手持时有概率生成蠹虫的魔咒。",
+      "手持附有该魔咒的物品时，每刻以0.1%的概率尝试在使用者的位置生成1只蠹虫。",
+      "example:fragility_curse",
+      "Curse of Fragility是一种有概率额外消耗物品耐久度的诅咒型魔咒，可以缩短物品的使用寿命。",
+      "每次击中方块、进行攻击或受到攻击时有3%的概率触发效果。触发效果后，若为击中方块和受到攻击则损失64点耐久度；若为进行攻击则损失256点耐久度。",
+      "example:galaxy_brain",
+      "Galaxy Brain是一种在击杀生物后额外获得100点经验的魔咒。",
+      "魔咒等级不影响实际效果。",
+      "example:multi_multi_shot",
+      "Multi-Multishot是一种能够一次射出大量箭的魔咒。",
+      "其效果与多重射击类似，但每级魔咒会额外装填20只箭。",
+      "example:pollen_allergy_curse",
+      "Curse of Pollen Allergy是一种在森林类生物群系时有概率伤害自己的诅咒型魔咒。",
+      "穿戴附有该魔咒的物品时，若穿戴者位于森林类生物群系，每刻以0.5%的概率尝试对穿戴者造成1（）点荆棘伤害。",
+      "魔咒等级不影响实际效果。",
+      "example:roulette",
+      "Roulette是一种以小概率损毁工具为代价，使工具不消耗耐久的魔咒。",
+      "使用附有该魔咒的工具不消耗耐久；每次使用有1%的概率额外消耗2000点耐久，这会使得除下界合金质工具（会剩余31点耐久）外的所有满耐久物品直接损毁。",
+      "example:sparkles",
+      "Sparkles!是一种使穿戴者持续生成粒子的魔咒。",
+      "生成的粒子为ominous_spawning。",
+      "example:thor",
+      "Thor是一种使持有者在雷暴天气对伤害免疫的魔咒。"
+    ],
+    "外部链接": [
+      "https://github.com/slicedlime/examples/tree/master/datapacks"
+    ]
+  }
+}

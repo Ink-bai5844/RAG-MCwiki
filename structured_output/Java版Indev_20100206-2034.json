@@ -1,0 +1,116 @@
+{
+  "title": "Java版Indev 20100206-2034",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_20100206-2034",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。"
+    ],
+    "发布时间": [
+      "2010年2月6日"
+    ],
+    "al_version": [
+      "1.083",
+      "◄◄0.31"
+    ],
+    "Minecraft Infdev►►": [
+      "◄0.31 20100206-1437",
+      "Indev 20100206-2103►",
+      "Minecraft Indev的第一个版本发布于2010年2月6日20:34（UTC）。加入了耕地、锄、种子、小麦作物和面包。"
+    ],
+    "耕地": [
+      "通过在泥土、草方块上使用锄来生成。",
+      "会被水、无限水源和无限熔岩源润湿。",
+      "用于生产。"
+    ],
+    "小麦作物": [
+      "有8个生长阶段。",
+      "在第8个阶段可以收获小麦。"
+    ],
+    "面包": [
+      "新的可食用物品。",
+      "可用6个小麦合成。",
+      "食用后恢复5（）。"
+    ],
+    "锄": [
+      "用于生成耕地。",
+      "可由木棍和木板、圆石、铁锭、金锭或钻石来合成对应等级的锄。"
+    ],
+    "种子": [
+      "用于放置小麦作物。"
+    ],
+    "小麦": [
+      "可通过破坏成熟的小麦获得。",
+      "用于合成面包。"
+    ],
+    "生产": [
+      "一种有目的、系统性地获取可再生资源的活动。"
+    ],
+    "常规": [
+      "更改了放置方块时的手臂摆动动画。",
+      "每次右击时游戏都会尝试放置方块。",
+      "如果方块在玩家可触及范围内，即使方块无法被放置，玩家的手臂仍然会摆动。",
+      "在挖掘过程中切换工具不再导致方块被瞬间破坏。"
+    ],
+    "闪烁标语": [
+      "加入了一些新的闪烁标语。"
+    ],
+    "“That's not a moon!”": [
+      "“l33t!”"
+    ],
+    "“Not on steam!”": [
+      "“9.95 euro!”"
+    ],
+    "“Enhanced!”": [
+      "“90% bug free!”"
+    ],
+    "“Pretty!”": [
+      "“12 herbs and spices!”"
+    ],
+    "现在只能放置在正确的方块之上了。[需要验证]": [
+      "当破坏掉其下方的方块时会被一同移除。"
+    ],
+    "蘑菇煲": [
+      "现在恢复10（）生命值。[需要验证]"
+    ],
+    "羽毛": [
+      "更改了纹理。"
+    ],
+    "金质工具": [
+      "略微更改了纹理。"
+    ],
+    "苹果": [
+      "现在使用金头盔的纹理。"
+    ],
+    "平视显示器": [
+      "游戏版本不再为0.31，而是被更恰当地重命名为“Minecraft Indev”。"
+    ],
+    "调试屏幕": [
+      "添加了“C”，“F”，“O”，“B”，“I”和“T”六种新参数。",
+      "“C”：屏幕上渲染的区块数/总区块数。",
+      "“F”：玩家视野之外的区块数。",
+      "“O”：被遮挡剔除的区块数。",
+      "“B”：位于不可见区块中的实体数。",
+      "“I”：被单独剔除的实体数。",
+      "“T”：“地形和光照数据”。"
+    ],
+    "items.png": [
+      "添加了金盔甲的纹理。",
+      "添加了钻石盔甲的纹理。",
+      "移除了皮革链甲的纹理。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了生物倒着走路的漏洞。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z（UTC-5）",
+      "Adura的IRC记录: \"(15:36:01) <Notch> ok, indev's been updated\"",
+      "Farming in minecraft（存档） — The Word of Notch，2010年2月6日。",
+      "Do we know what the upper-left values mean?（存档），来自Meren, quoting Notch。Minecraft Forum，2010年2月15日。“That's a bunch of internal debugging. C = rendered/total chunks. F = chunks that were outside the view fustum, O = chunks that culled by occlusion testing. E = rendered/total entities. B = entities culled by implication of the chunks (an entity inside a hidden chunk cannot be seen), I = individually culled entities. P = Partices. T = a bunch of terrain and lighting data, this varies a lot per release.”"
+    ]
+  }
+}

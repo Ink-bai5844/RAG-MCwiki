@@ -1,0 +1,213 @@
+{
+  "title": "下界之星",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%8B%E7%95%8C%E4%B9%8B%E6%98%9F",
+  "structured_content": {
+    "最大堆叠": [
+      "64"
+    ],
+    "nether_star": [
+      "实际上，你用下界之星只能做一件事，不过那件事相当之棒——加上一些玻璃和黑曜石，你可以合成一个信标，它会向天空发射一大束激光，并为站在附近的任何玩家提供强而有力的增益。"
+    ],
+    "——Duncan Geere": [
+      "下界之星（Nether Star）是一种由凋灵掉落的稀有物品，能够用于合成信标。"
+    ],
+    "生物掉落物": [
+      "Java版："
+    ],
+    "凋灵": [
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "1",
+      "1 (100.00%)",
+      "1.00",
+      "基岩版：",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "100.00%",
+      "1.00",
+      "1",
+      "1",
+      "1 (100.00%)",
+      "1.00"
+    ],
+    "平均": [
+      "1 (1.00)",
+      "1 (1.00)"
+    ],
+    "掉落总数": [
+      "1",
+      "1"
+    ],
+    "用途": [
+      "下界之星具有光效。",
+      "下界之星不会被爆炸破坏，但它仍能被仙人掌、火和熔岩摧毁。",
+      "在Java版中，由凋灵掉落的下界之星会在12000游戏刻（10分）而非6000游戏刻（5分）后被清除；而在基岩版中，掉落物形式的下界之星永远不会被清除。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "奖杯（PS）": [
+      "开始了。"
+    ],
+    "杀死凋灵": [
+      "凋灵死亡时处于以其为中心的100.9×100.9×103.5区域里。",
+      "40G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "惊悚恐怖骷髅头": [
+      "凋灵被通过搭建结构召唤时，处在距其位置切比雪夫距离50格的区域里。"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.nether_star": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*types：物品免疫的伤害。可以为一个伤害类型ID、一个伤害类型标签ID，或一个伤害类型标签。",
+      "minecraft:enchantment_glint_override：是否显示光效。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:damage_resistant：物品免疫的伤害类型。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:damage_resistant\":{\"types\":\"#minecraft:is_explosion\"},\"minecraft:enchantment_glint_override\":true,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:max_stack_size\":64,\"minecraft:item_name\":{\"translate\":\"item.minecraft.nether_star\"},\"minecraft:enchantments\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"rare\",\"minecraft:item_model\":\"minecraft:nether_star\",\"minecraft:repair_cost\":0,\"minecraft:lore\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "Java版": [
+      "1.4.2",
+      "12w34a",
+      "加入下界之星的纹理。",
+      "12w36a",
+      "加入下界之星，作为凋灵的掉落物。",
+      "12w37a",
+      "下界之星的纹理不再具有黑色轮廓。",
+      "1.4.6",
+      "12w49a",
+      "掉落的下界之星不再会被爆炸所摧毁。",
+      "1.13",
+      "17w47a",
+      "在扁平化之前，该物品的数字ID为399。",
+      "1.14",
+      "18w43a",
+      "更改了下界之星的纹理。",
+      "1.16",
+      "20w10a",
+      "由于灵魂沙可以通过与猪灵以物易物来获得，下界之星成为可再生资源。",
+      "1.21.2",
+      "24w33a",
+      "下界之星的稀有度由少见改为稀有。"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 4",
+      "加入了下界之星。"
+    ],
+    "基岩版": [
+      "1.10.0",
+      "1.10.0.3",
+      "更改了下界之星的纹理。",
+      "1.16.100",
+      "1.16.100.56",
+      "下界之星的ID从netherstar更改为nether_star。",
+      "1.21.30",
+      "1.21.30.21",
+      "下界之星的稀有度由少见改为稀有。",
+      "New Nintendo 3DS版",
+      "1.3.12",
+      "加入了下界之星。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU19",
+      "CU7",
+      "1.12",
+      "Patch 1",
+      "加入了下界之星。",
+      "1.90",
+      "更改了下界之星的纹理。",
+      "TU19",
+      "CU7",
+      "1.12",
+      "Patch 1",
+      "加入了下界之星。",
+      "1.90",
+      "更改了下界之星的纹理。"
+    ],
+    "参考": [
+      "Taking Inventory: Nether Star — Minecraft.net，2023年5月11日。"
+    ]
+  }
+}

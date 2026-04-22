@@ -1,0 +1,44 @@
+{
+  "title": "Dungeons:英雄之甲",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%8B%B1%E9%9B%84%E4%B9%8B%E7%94%B2",
+  "structured_content": {
+    "存档ID": [
+      "ChampionsArmor_Unique1",
+      "英雄之甲是村民们的珍贵礼物，只有能力最高的英雄们才能得到。"
+    ],
+    "——游戏内描述": [
+      "英雄之甲（Hero's Armor）是Minecraft Dungeons中的一件盔甲。它是冠军之甲的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "孤寂要塞（天启难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "可将治疗药水用于附近队友": [
+      "35% 伤害减免"
+    ],
+    "吸引生物仇恨": [
+      "-40% 药水冷却时间"
+    ],
+    "装备": [
+      "sfx_item_championsArmorUnique1Place_soundWave"
+    ],
+    "掉落": [
+      "sfx_item_championsArmorUnique1Land_soundWave"
+    ],
+    "拾取": [
+      "sfx_item_championsArmorUnique1PickUp_soundWave"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了英雄之甲。"
+    ],
+    "英雄之甲的精灵图": [
+      "一件战力为107的英雄之甲"
+    ]
+  }
+}

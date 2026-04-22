@@ -1,0 +1,31 @@
+{
+  "title": "更长的线",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9B%B4%E9%95%BF%E7%9A%84%E7%BA%BF",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本23w13a_or_b中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "string2",
+      "更长的线（Longer String）是由线合成的物品。"
+    ],
+    "合成": [
+      "本段落所述内容仅在启用special_recipe规则后可用。"
+    ],
+    "用途": [
+      "更长的线没有实际用途。"
+    ],
+    "Longer String": [
+      "string2",
+      "item.minecraft.string2"
+    ],
+    "你知道吗": [
+      "更长的线的规则表述“Enable string concatenation”（启用线的串接配方）双关了字符串串接。"
+    ]
+  }
+}

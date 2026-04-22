@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/tnt explosion drop decay",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Ftnt_explosion_drop_decay",
+  "text": "tnt_explosion_drop_decay（Java版）\n名称\n在TNT爆炸中，一些方块不会掉落战利品\n描述\n在TNT引起的爆炸中，部分被破坏方块的掉落物会被炸毁。\n分类（JE）\n掉落\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\ntnt_explosion_drop_decay\ntntExplosionDropDecay（基岩版）\n名称\n无\n描述\n无\n分类（BE旧UI）\n无\n分类（BE新UI）\n无\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\ntntExplosionDropDecay\ntnt_explosion_drop_decay[仅Java版]或tntExplosionDropDecay[仅基岩版]是控制部分爆炸中一些方块是否不会掉落战利品的游戏规则。\n行为\n当tnt_explosion_drop_decay[仅Java版]或tntExplosionDropDecay[仅基岩版]为false时，在TNT和TNT矿车引起的爆炸中，所有被破坏方块的掉落物都不会被炸毁。\n当tnt_explosion_drop_decay[仅Java版]或tntExplosionDropDecay[仅基岩版]为true时，在上述爆炸中，部分被破坏方块的掉落物会被炸毁。\n历史\nJava版\n1.19.3\n22w44a\n加入了游戏规则tntExplosionDropDecay。\n1.21.11\n25w44a\n将游戏规则tntExplosionDropDecay重命名为tnt_explosion_drop_decay。\n基岩版\n1.21.0\n1.21.0.20\n加入了游戏规则tntExplosionDropDecay。\n参见\n游戏规则/block_explosion_drop_decay\n游戏规则/mob_explosion_drop_decay\n导航"
+}

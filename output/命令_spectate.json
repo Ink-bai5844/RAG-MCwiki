@@ -1,0 +1,5 @@
+{
+  "title": "命令/spectate",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fspectate",
+  "text": "本条目介绍的是命令。关于允许玩家以飞行的方式无障碍穿过方块和实体并观察世界的游戏模式，请见“旁观模式”。\n本条目所述内容仅适用于Java版。\nspectate\n需要的权限等级\n2\n限制条件\n无\n使用此命令可以使得处于旁观模式的玩家进入另一个实体的视角。\n语法\nspectate <target> [<player>]\n让一个玩家旁观另一个实体。\nspectate\n停止旁观实体。\n参数\n<target>：entity\n玩家要旁观的实体。\n必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。\n<player>：entity\n要旁观的玩家。若未指定，则使用命令执行者。\n必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量和玩家类型，否则此命令将无法解析。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整或参数未正确指定\n无法解析\n<target>未能选出单个实体（指定的玩家必须在线上）\n执行失败\n<player>未能选出单个在线玩家\n未指定<player>，且命令的执行者不是玩家\n<player>与<target>为同一个实体\n指定的<player>不处于旁观模式\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n执行成功\n1\n示例\n令自己旁观Steve：/spectate Steve\n令Steve旁观最近的猪：/spectate @n[type=pig] Steve\n令自己停止旁观实体：/spectate\n历史\nJava版\n1.15\n19w41a\n加入了/spectate命令。\n1.19.4\n23w03a\n现在/spectate可以跨维度使用。\n参考\nMC-224960 — 漏洞状态为“已修复”。\n导航"
+}

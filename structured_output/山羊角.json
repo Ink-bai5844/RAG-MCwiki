@@ -1,0 +1,293 @@
+{
+  "title": "山羊角",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%B1%E7%BE%8A%E8%A7%92",
+  "structured_content": {
+    "默认分类": [
+      "“号角”重定向至此。关于已经移除的号角，请见“铜制号角”。"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "goat_horn": [
+      "一旦获得山羊角，你便会发觉这是个相当特别的发现。当你手持山羊角按下使用键时，便会将它举起至嘴边吹起——并发出嘹亮的鸣响，其声音可传播至256格外。这是协调伏击行动的绝佳方式，亦能向服务器伙伴预警灾厄村民的袭击。"
+    ],
+    "——Duncan Geere": [
+      "山羊角（Goat Horn）是在成年山羊撞击特定固体方块时掉落的物品。"
+    ],
+    "山羊": [
+      "带有角的成年山羊撞击到石头、浮冰、铁矿石、煤矿石、铜矿石、绿宝石矿石或原木时会掉落1个山羊角。每只山羊可掉落数量取决于其头上角的数量，最多会掉落2个山羊角。",
+      "普通山羊仅掉落“沉思”“歌颂”“寻觅”和“感受”，尖叫山羊仅掉落“仰慕”“呼唤”“憧憬”和“想象”。同一只山羊掉落的两个山羊角总是属于同一种类。"
+    ],
+    "箱子战利品": [
+      "Java版与基岩版："
+    ],
+    "掠夺者前哨站": [
+      "0.50",
+      "1",
+      "50%",
+      "2.0",
+      "山羊角可以吹奏的声音仅限普通山羊的声音种类。"
+    ],
+    "正在吹奏山羊角的玩家": [
+      "山羊角共有8个变种，每种山羊角都可以吹奏出独特的音效。",
+      "玩家手持山羊角时，按住使用会显示吹奏动画并发出其对应的吹奏音效，并引发140游戏刻（7秒）[仅Java版]或160游戏刻（8秒）[仅基岩版]的山羊角物品冷却时间，期间受影响玩家不可使用山羊角。",
+      "山羊角的吹奏音效可以在半径256格内听见。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "描述": [
+      "0"
+    ],
+    "本地化键名": [
+      "山羊角：吹奏"
+    ],
+    "山羊角沉思音效": [
+      "item.goat_horn.sound.0",
+      "horn.call.0",
+      "1.0",
+      "256"
+    ],
+    "subtitles.item.goat_horn.play": [
+      "山羊角：吹奏",
+      "山羊角：吹奏",
+      "山羊角：吹奏",
+      "山羊角：吹奏",
+      "山羊角：吹奏",
+      "山羊角：吹奏",
+      "山羊角：吹奏",
+      "基岩版："
+    ],
+    "山羊角歌颂音效": [
+      "item.goat_horn.sound.1",
+      "horn.call.1",
+      "1.0",
+      "256"
+    ],
+    "山羊角寻觅音效": [
+      "item.goat_horn.sound.2",
+      "horn.call.2",
+      "1.0",
+      "256"
+    ],
+    "山羊角感受音效": [
+      "item.goat_horn.sound.3",
+      "horn.call.3",
+      "1.0",
+      "256"
+    ],
+    "山羊角仰慕音效": [
+      "item.goat_horn.sound.4",
+      "horn.call.4",
+      "1.0",
+      "256"
+    ],
+    "山羊角呼唤音效": [
+      "item.goat_horn.sound.5",
+      "horn.call.5",
+      "1.0",
+      "256"
+    ],
+    "山羊角憧憬音效": [
+      "item.goat_horn.sound.6",
+      "horn.call.6",
+      "1.0",
+      "256"
+    ],
+    "山羊角想象音效": [
+      "item.goat_horn.sound.7",
+      "horn.call.7",
+      "1.0",
+      "256"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.goat_horn": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*description：（文本组件）乐器的名称。",
+      "*sound_event：吹奏时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*range：（值>0）吹奏声音能传播的最远距离。",
+      "*use_duration：（值>0）吹奏时间，影响物品冷却速度。",
+      "*description：（文本组件）乐器的名称。",
+      "*sound_event：吹奏时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*range：（值>0）吹奏声音能传播的最远距离。",
+      "*use_duration：（值>0）吹奏时间，影响物品冷却速度。",
+      "原版中可用的山羊角的种类包括："
+    ],
+    "该物品的其他组件": [
+      "minecraft:instrument：玩家吹奏山羊角时使用的山羊角乐器。命名空间ID或内联定义均可。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.goat_horn\"},\"minecraft:lore\":[],\"minecraft:instrument\":\"minecraft:ponder_goat_horn\",\"minecraft:rarity\":\"uncommon\",\"minecraft:item_model\":\"minecraft:goat_horn\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "在默认组件的基础上，山羊角使用下列组件来保存附加数据：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:instrument：玩家吹奏山羊角时使用的山羊角乐器。命名空间ID或内联定义均可。"
+    ],
+    "dream_goat_horn": [
+      "基岩版：",
+      "参见：基岩版数据值",
+      "在基岩版中，山羊角使用以下数据值："
+    ],
+    "山羊角（沉思）": [
+      "1"
+    ],
+    "山羊角（歌颂）": [
+      "2"
+    ],
+    "山羊角（寻觅）": [
+      "3"
+    ],
+    "山羊角（感受）": [
+      "4"
+    ],
+    "山羊角（仰慕）": [
+      "5"
+    ],
+    "山羊角（呼唤）": [
+      "6"
+    ],
+    "山羊角（憧憬）": [
+      "7"
+    ],
+    "数据驱动": [
+      "主条目：山羊角乐器定义格式",
+      "在Java版中，山羊角吹奏时所使用的乐器可在数据包中定义。"
+    ],
+    "Java版": [
+      "1.19",
+      "22w17a",
+      "加入了山羊角。",
+      "pre2",
+      "现在山羊也会在撞击铜矿石后掉落山羊角。",
+      "1.21.2",
+      "24w33a",
+      "山羊角的稀有度由常见改为少见。",
+      "山羊角乐器现可由数据包定义。"
+    ],
+    "基岩版": [
+      "1.16.200"
+    ],
+    "Caves and Cliffs": [
+      "1.16.200.52",
+      "加入了山羊角。",
+      "此时吹奏山羊角只能发出袭击中的号角声。",
+      "此时山羊撞击到固体方块时会掉落山羊角，且可以无限掉落。",
+      "1.16.200",
+      "由于不存在“Caves and Cliffs”选项，山羊角在该正式版中不可用。",
+      "1.16.210",
+      "1.16.210.51",
+      "现在每只山羊可掉落的山羊角数量取决于其头上角的数量，故每只山羊最多会掉落2个山羊角。",
+      "1.16.210",
+      "由于不存在“Caves and Cliffs”选项，山羊角在该正式版中仍不可用。",
+      "1.17.10"
+    ],
+    "洞穴及悬崖": [
+      "1.17.20.20",
+      "幼年山羊不再会掉落山羊角。",
+      "1.18.0",
+      "1.18.0.20",
+      "山羊角不再属于实验性玩法。",
+      "1.18.0"
+    ],
+    "正式版": [
+      "现在山羊角在正式版中可通过开启实验性玩法来启用。",
+      "1.17.30"
+    ],
+    "香草实验": [
+      "1.18.0.22",
+      "现在山羊角属于实验性玩法中的“香草实验”部分。",
+      "1.18.30",
+      "1.18.20.23",
+      "现在每次使用山羊角会有一段冷却时间。",
+      "1.18.20.25",
+      "现在山羊掉落山羊角时会发出音效。",
+      "现在玩家在第一人称视角下使用山羊角会显示吹奏动画。",
+      "1.18.30.26",
+      "现在山羊角可用于合成铜制号角。",
+      "为山羊角加入了更多的吹奏音效。",
+      "现在每个山羊角仅具有一种吹奏音效。",
+      "现在山羊仅在撞击石头、浮冰、铁矿石、铜矿石、绿宝石矿石和原木时才会掉落且总是会掉落山羊角。",
+      "1.19.0",
+      "1.19.0.24",
+      "山羊角不再可用于合成铜制号角。",
+      "更改了“Sing”“Seek”“Admire”“Call”“Yearn”和“Resist”变种使用的音效以匹配Java版。",
+      "移除了“Fly”和“Dream”变种。",
+      "1.19.0",
+      "1.19.0.28",
+      "山羊角不再属于实验性玩法。",
+      "1.19.10",
+      "1.19.10.22",
+      "更改了“Feel”音效以匹配Java版。",
+      "将“Resist”音效重命名为“Dream”以匹配Java版。",
+      "1.20.40",
+      "1.20.40.22",
+      "山羊角吹奏音效的衰减距离由16格增加至256格。",
+      "1.21.30",
+      "1.21.30.21",
+      "山羊角的稀有度由常见改为少见。",
+      "26.0",
+      "26.0.23",
+      "现在数据值溢出的山羊角在吹奏时会播放“想象”，而不是游戏中的其他音效。"
+    ],
+    "Java版中手持山羊角的僵尸": [
+      "在Java版中，玩家和一些人形生物右手持有的山羊角物品模型是镜像翻转的，使得山羊角的吹口端靠近生物头部。",
+      "山羊角“寻觅”音效与袭击中的“不祥号角”音效之一相同。",
+      "山羊角的音效是用长木管（类似于迪吉里杜管）录制的。",
+      "Brandon Pearce提到，山羊角的设计意图更偏向社交功能（远距离传声）。"
+    ],
+    "参考": [
+      "Taking Inventory: Goat Horn — Minecraft.net，2023年2月16日。",
+      "MCPE-153254 — 漏洞状态为“已修复”。",
+      "HOW MINECRAFT SOUNDS ARE MADE，来自Minecraft。YouTube。"
+    ],
+    "There aren't future plans outside of it just being diverse instruments. They're more of a social feature than a gameplay feature.": [
+      "One thing it can do with the normal goat horn is that you can hear the sound from very far away, so it can be used to locate your friends on a server，来自@kingbdogz。X（曾名Twitter），2022年3月16日。"
+    ]
+  }
+}

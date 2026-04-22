@@ -1,0 +1,24 @@
+{
+  "title": "启动器2.1.5411-beta",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.5411-beta",
+  "structured_content": {
+    "默认分类": [
+      "2.1.5411-beta"
+    ],
+    "发布时间": [
+      "2019年6月26日"
+    ],
+    "测试版归属": [
+      "2.1.5410",
+      "◄◄2.1.538x",
+      "2.1.596x►►",
+      "2.1.5411-beta是在2019年6月26日仅发布于Linux的启动器测试版本，发布于2019年6月26日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "MCL-11167 - 使用某些Linux发行版时启动出现段错误。"
+    ],
+    "参考": [
+      "https://piston-meta.mojang.com/mc/launcher_beta_changelog.md"
+    ]
+  }
+}

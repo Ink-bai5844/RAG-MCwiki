@@ -1,0 +1,80 @@
+{
+  "title": "Dungeons:生长之杖",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%94%9F%E9%95%BF%E4%B9%8B%E6%9D%96",
+  "structured_content": {
+    "力量": [
+      "6"
+    ],
+    "速度": [
+      "3"
+    ],
+    "攻击范围": [
+      "5"
+    ],
+    "存档ID": [
+      "Battlestaff_Unique1",
+      "一把会变化攻击方式和提升攻击力的手杖，强大且无法预测。"
+    ],
+    "——游戏内描述": [
+      "生长之杖（Growing Staff）是Minecraft Dungeons的近战武器。它是战斗之杖的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "下界荒地（天启难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "生长之杖拥有较高攻击力，低攻击速度和中等范围。攻击方式与战斗之杖无异。"
+    ],
+    "伤害值": [
+      "110",
+      "1655-5093",
+      "112",
+      "1796-5525",
+      "113",
+      "1877-5775"
+    ],
+    "文件": [
+      "攻击（1）",
+      "P1_sfx_item_battleStaffUnique1Attack01",
+      "攻击（2）",
+      "P1_sfx_item_battleStaffUnique1Attack02",
+      "攻击（3）",
+      "P1_sfx_item_battleStaffUnique1Attack03",
+      "攻击（4）",
+      "P1_sfx_item_battleStaffUnique1Attack04",
+      "攻击（5）",
+      "P1_sfx_item_battleStaffUnique1Attack05",
+      "攻击（6）",
+      "P1_sfx_item_battleStaffUnique1Attack06",
+      "攻击（7）",
+      "P1_sfx_item_battleStaffUnique1Attack07",
+      "攻击（8）",
+      "P1_sfx_item_battleStaffUnique1Attack08",
+      "攻击（9）",
+      "P1_sfx_item_battleStaffUnique1Attack09",
+      "攻击（10）",
+      "P1_sfx_item_battleStaffUnique1Attack10"
+    ],
+    "掉落": [
+      "P1_sfx_item_battleStaffUnique1Drop"
+    ],
+    "击中物体": [
+      "P1_sfx_item_battleStaffUnique1Impacts"
+    ],
+    "拾取": [
+      "P1_sfx_item_battleStaffUnique1PickUp"
+    ],
+    "装备": [
+      "P1_sfx_item_battleStaffUnique1Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.3.2.0",
+      "加入了生长之杖。"
+    ]
+  }
+}

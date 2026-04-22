@@ -1,0 +1,140 @@
+{
+  "title": "命令/summon",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsummon",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "召唤一个实体。"
+    ],
+    "Java版": [
+      "1.7.2",
+      "13w36a",
+      "加入了/summon。",
+      "1.8",
+      "14w30a",
+      "现在可以使用/summon来生成闪电。",
+      "1.16",
+      "20w06a",
+      "/summon现在不允许<x>或<z>超出[-30000000, 30000000)或<y>超出[-20000000, 20000000)。",
+      "20w11a",
+      "现在可以使用/summon来生成火球。",
+      "现在不再可以使生成位置的<x>或<z>超出[-30000000, 30000000)或<y>超出[-20000000, 20000000)。",
+      "1.16.2",
+      "20w30a",
+      "现在使用/summon尝试生成UUID与其他实体重复的实体时，会出现错误提示“UUID重复，无法召唤实体”。",
+      "1.19.3",
+      "22w42a",
+      "<entity>现在使用参数类型resource。在此之前使用的参数类型为entity_summon。",
+      "1.21.9",
+      "25w31a",
+      "现在在和平难度下尝试召唤无法在和平难度生成的敌对生物会执行失败。"
+    ],
+    "基岩版": [
+      "summon <entityType: EntityType> [spawnPos: x y z] [yRot: float] [xRot: float] [spawnEvent: string] [nameTag: string]",
+      "summon <entityType: EntityType> <nameTag: string> [spawnPos: x y z]",
+      "summon <entityType: EntityType> [spawnPos: x y z] facing <lookAtEntity: target> [spawnEvent: string] [nameTag: string]",
+      "summon <entityType: EntityType> [spawnPos: x y z] facing <position: x y z> [spawnEvent: string] [nameTag: string]",
+      "1.19.40",
+      "1.19.40.21",
+      "加入了旋转参数。",
+      "1.19.40.23",
+      "暂时移除了旋转参数。",
+      "1.19.70",
+      "1.19.70.23",
+      "重新加入了旋转参数。",
+      "1.19.80",
+      "1.19.80.20",
+      "加入了facing语法。"
+    ],
+    "参数": [
+      "JE：<entity>：resource",
+      "BE：entityType: EntityType",
+      "指定要被召唤的实体类型。",
+      "在Java版中，必须是一个注册在minecraft:entity_type注册表的一个注册项的命名空间ID。在基岩版中，必须是一个实体类型的ID。",
+      "在Java版中，玩家（minecraft:player）和浮漂（minecraft:fishing_bobber）实体无法被召唤。尝试召唤这两种实体会使命令执行失败。",
+      "在基岩版中，只有特定实体类型允许被召唤。允许召唤的实体类型可见于命令的自动补全建议列表。指定列表外的实体类型会使命令无法解析。",
+      "JE：<pos>：vec3",
+      "BE：spawnPos: x y z：CommandPositionFloat",
+      "指定该实体的召唤位置。如果未指定，默认为命令执行位置。",
+      "必须为三维坐标，元素为双精度[仅Java版]或单精度[仅基岩版]浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "JE：<nbt>：nbt_compound_tag",
+      "指定该实体的NBT。",
+      "必须为SNBT格式的复合标签。",
+      "BE：yRot: value：RelativeFloat和xRot: value：RelativeFloat",
+      "指定该实体生成时的旋转角度。",
+      "必须为两个单精度浮点数组成的朝向，分别表示绕Y轴旋转和绕X轴旋转，以度为单位。",
+      "绕Y轴旋转时，-180.0表示北，-90.0表示东，0.0表示南，90.0表示西。",
+      "绕X轴旋转时，竖直上方为-90.0，至竖直下方90.0。",
+      "加上波浪号前缀将相对于执行朝向进行旋转。",
+      "BE：lookAtEntity: target：CommandSelector<Actor>",
+      "指定该实体生成时的要朝向的实体。",
+      "必须为玩家名或目标选择器。",
+      "BE：lookAtPosition: x y z：CommandPositionFloat",
+      "指定该实体生成时的要朝向的坐标。",
+      "必须为三维坐标，元素为单精度浮点数。允许相对坐标（~ ~ ~）或局部坐标（^ ^ ^）。",
+      "BE：spawnEvent: string：basic_string",
+      "指定该实体的召唤时附带的实体事件，应为一个行为包内适用于实体的生成事件的名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "BE：nameTag: string：basic_string",
+      "指定该实体的名称，生成时为该实体命名。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。"
+    ],
+    "无法解析": [
+      "entityType: EntityType不是允许生成的实体类型。"
+    ],
+    "N/A": [
+      "<entity>是minecraft:player或minecraft:fishing_bobber实体。",
+      "指定的<x>或<z>超出[-30000000, 30000000)或<y>超出[-20000000, 20000000)"
+    ],
+    "执行失败": [
+      "0",
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1"
+    ],
+    "示例": [
+      "在当前位置往西面10格处生成一个闪电：",
+      "/summon lightning_bolt ~-10 ~ ~",
+      "在坐标(0,0,0)生成一个猪：",
+      "/summon pig 0 0 0",
+      "Java版：",
+      "在当前位置生成一个名为“充能苦力怕”的闪电苦力怕：",
+      "/summon creeper ~ ~ ~ {powered:1b,CustomName:\"充能苦力怕\"}",
+      "在当前位置生成一个蜘蛛骑士：",
+      "/summon spider ~ ~ ~ {Passengers:[{id:\"minecraft:skeleton\",equipment:{mainhand:{id:\"minecraft:bow\",count:1}}}]}",
+      "在当前位置生成一个数量为64的掉落物钻石：",
+      "/summon item ~ ~ ~ {Item:{id:\"minecraft:diamond\",count:64}}",
+      "在当前位置生成一个被禁用AI、朝向西面的骷髅：",
+      "/summon skeleton ~ ~ ~ {NoAI:1b,Rotation:[90F,0F]}",
+      "在当前位置生成一个向上飞的猪：",
+      "/summon pig ~ ~ ~ {Motion:[0d,5d,0d]}",
+      "在当前位置生成一只蓝色美西螈：",
+      "/summon axolotl ~ ~ ~ {Variant:4}",
+      "基岩版：",
+      "在当前位置生成一个名为“充能苦力怕”的闪电苦力怕：",
+      "/summon creeper ~ ~ ~ ~ ~ minecraft:become_charged \"充能苦力怕\"",
+      "在当前位置生成一个掠夺者袭击队长：",
+      "/summon pillager ~ ~ ~ ~ ~ minecraft:spawn_as_illager_captain",
+      "在当前位置生成一个灾厄巡逻队的掠夺者袭击队长：",
+      "/summon pillager ~ ~ ~ ~ ~ minecraft:promote_to_patrol_captain",
+      "在当前位置生成一个名为“海豚”的海豚：",
+      "/summon dolphin \"§6海豚\" ~ ~ ~",
+      "在当前位置往东面5格处生成一个朝向当前坐标的僵尸：",
+      "/summon zombie ~5 ~ ~ facing ~ ~ ~"
+    ],
+    "历史": [
+      "此段落仍需完善。",
+      "你可以帮助我们加入更多信息。"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/summon。"
+    ]
+  }
+}

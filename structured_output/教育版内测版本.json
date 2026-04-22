@@ -1,0 +1,50 @@
+{
+  "title": "教育版内测版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%88%E5%86%85%E6%B5%8B%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "此页面在英语Wiki中被建议拆分为Education Edition v0.14.2、​Education Edition v0.16.0和​Education Edition early access。讨论",
+      "请勿在中文Wiki的讨论达成共识前进行拆分。"
+    ],
+    "开始版本": [
+      "0.14.2"
+    ],
+    "最新版本": [
+      "0.16.0"
+    ],
+    "网站": [
+      "https://education.minecraft.net/",
+      "教育版内测版本（Education Edition early access）是教育版的开发版本。其中，0.14.2发布于2016年6月28日，0.16.0发布于2016年10月2日。"
+    ],
+    "课堂模式": [
+      "支持简单、安全的登录方式。",
+      "学生与教师的个人登录功能，可识别游戏内每位玩家身份，并在游玩教育版时保障数据的私密性与安全性。",
+      "支持单点登录（SSO）功能，无需额外设置密码或创建账户。"
+    ],
+    "黑板": [
+      "加入了黑板。"
+    ],
+    "相片簿": [
+      "加入了相片簿。"
+    ],
+    "摄像机": [
+      "加入了摄像机。"
+    ],
+    "NPC": [
+      "加入了NPC。"
+    ],
+    "反馈": [
+      "我对Minecraft：教育版的易设置程度印象深刻。在拿到下载链接后的45分钟内，我就完成了安装，让学生们登录并一起在同一个世界里游玩。不需要进行服务器设置或网络配置。"
+    ],
+    "——Steve Isaacs，游戏设计与开发教师，William Annin中学": [
+      "Minecraft：教育版的新功能中，我最喜欢的是摄像机和相片簿。我向学生们展示了如何给他们的作品拍照，并配上说明保存到相片簿里——他们简直太喜欢这个功能了！而且，其实是他们自己发现可以把摄像机放好，给自己和同学拍自拍……那天的课上我们玩得非常开心！"
+    ],
+    "——Lisa Douthit，媒体技术专家，特纳统一学区": [
+      "过去几年，我们的老师们一直在使用MinecraftEdu版本，他们很兴奋能尝试新的Minecraft：教育版。Minecraft教育团队在Beta计划期间给予了极大的支持和帮助。Minecraft：教育版中的教程以及新功能和特性都非常棒。我们的一些学生也很享受参与测试版计划，并与Minecraft教育团队分享自己的想法。这对他们来说是一次有影响力的、贴近现实世界的学习机会。"
+    ],
+    "参考": [
+      "https://www.mojang.com/2016/06/minecraft-education-edition-early-access-is-now-available/",
+      "https://education.minecraft.net/blog/announcing-early-access/"
+    ]
+  }
+}

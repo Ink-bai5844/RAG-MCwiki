@@ -1,0 +1,5 @@
+{
+  "title": "Java版21w05b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8821w05b",
+  "text": "21w05b\n版本\nJava版\n类型\n快照\n发布时间\n2021年2月4日\n快照归属\n1.17\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741837\nHEX: 4000000D\n数据版本\n2692\n资源包版本\n7\n数据包版本\n7\n◄◄1.16.5\n1.17.1►►\n◄21w05a\n21w06a►\n21w05b是Java版1.17的第8个快照，发布于2021年2月4日，更改了铜块及其变种的英文名称，并修复了一些漏洞。\n更改\n铜块及其变种\n铜块的英文名称从“Copper Block”更改为“Block of Copper”。\n删除了铜块的氧化变种以及涂蜡氧化变种英文名称中的“block”单词。\n这些方块的ID同样也作了更改。\n涂蜡的铜块的英文名称从“Waxed Copper”改为“Waxed Block of Copper”。\n它的ID从waxed_copper改为waxed_copper_block。\n修复\n修复了4个漏洞\n1.17开发版本的漏洞\nMC-203813 — 各种铜方块（在英语中的）命名不一致。\nMC-205054 — 铜块（Copper Block）和石英块（Block of Quartz）的英文名命名格式不统一。\n上个开发版本的漏洞\nMC-213788 — 游戏会随机卡死。\nMC-213802 — 不能正确升级21w05a前世界中的各种铜块。\n参考\nMinecraft Snapshot 21w05b — Minecraft.net，2021年2月4日。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/debugpath",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdebugpath",
+  "text": "本条目所述内容仅适用于Java版。\n调试工具仅应作调试用途使用，而不应在正常游戏过程中开启。开启调试工具可能会崩溃或对存档产生不可逆的损害。\ndebugpath\n需要的权限等级\n2\n限制条件\n仅IDE或启用调试工具MC_DEBUG_DEV_COMMANDS\n测试指定位置是否可被寻路。\n游戏会尝试利用生物寻路算法计算一条使命令执行者通往指定位置的路径。这并不会让生物按照该路径的规划过程行进，它只会检验是否能够构建出这样的路径。\n语法\ndebugpath <to>\n参数\n<to>：block_pos\n指定要寻路的终点。\n表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整或参数未正确指定\n无法解析\n指定位置未被加载或在世界之外\n执行失败\n执行者不是AI生物\n指定的位置无法被寻路\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n执行成功\n1\n历史\nJava版\n1.20.3\n23w43a\n加入了/debugpath，仅在IDE中可用。\n1.21.9\npre1\n现在/debugpath命令在启用调试工具MC_DEBUG_DEV_COMMANDS时可用。\n导航"
+}

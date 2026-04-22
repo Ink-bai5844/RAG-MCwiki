@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.16a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.16a",
+  "text": "此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n0.0.16a\n版本\nJava版\n服务端版本\n1.0\n发布时间\n2009年6月7日\n下载\n不可用\n协议版本\n未知\nal_version\n未知\n◄◄0.0.15a\n0.0.17a►►\n◄0.0.15a_03\n0.0.16a_01►\n0.0.16a是Java版的一次更新，发布于2009年6月7日，加入了新的命令，并修复了一些漏洞。\n新内容\n命令格式\n/ban\n用于将玩家档案列入封禁列表。\n/banip\n用于封禁一个IP地址。\n/broadcast\n用于向整个服务器广播消息。\n/kick\n用于将玩家踢出服务器。\n更改\n游戏内容\n多人游戏\n降低了带宽占用。\n修复\n修复了2个漏洞\n修复了一些小的漏洞。[需要更多信息]\n修复了玩家在登录时，如果更改了游戏，则会出现不同步现象的漏洞。\n参考\nIRC日志, #minecraft.20090607.log (2009年6月7日, UTC−6)\nBy popular demand, another MP test today（存档） — The Word of Notch，2009年6月7日。\nIRC日志: \"[11:08] <Barlon> yay 0.0.16a!\" (17:08 UTC)\nIRC日志: \"[11:26] * Notch changes topic to 'http://www.minecraft.net/ | http://www.minecraft.net/mptest.jsp | 64 player limit. Huge map. | I might have to restart the server a few times..'\" (17:26 UTC)\n导航"
+}

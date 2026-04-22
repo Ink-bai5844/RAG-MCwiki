@@ -1,0 +1,142 @@
+{
+  "title": "命令/team",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fteam",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是管理队伍的命令。关于队伍的具体特性，请见“队伍”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "管理队伍。"
+    ],
+    "team list [<team>]": [
+      "列出所有队伍，同时列出显示名称与包含的实体。可选的<team>参数可指定 只列出一个队伍。"
+    ],
+    "team add <team> [<displayName>]": [
+      "以给予的名称和显示名称创建队伍。<displayName>在未指定时默认为<team>的值。"
+    ],
+    "team remove <team>": [
+      "移除指定队伍。"
+    ],
+    "team empty <team>": [
+      "将队伍内的所有实体移出。"
+    ],
+    "team join <team> [<members>]": [
+      "使指定实体加入指定队伍，若未指定实体，则将命令的执行者加入该队伍。"
+    ],
+    "team leave <members>": [
+      "使指定实体离开其所在队伍。"
+    ],
+    "team modify <team> <选项> <值>": [
+      "修改指定的队伍的选项，详见下。"
+    ],
+    "参数": [
+      "<team>：team（list、remove、empty、join和modify模式下）",
+      "指定队伍的名称。",
+      "必须为不被引号包围的字符串，允许的字符包括：-、+、.、_、A-Z、a-z、0-9。将会在命令执行时尝试获取此名称的队伍。",
+      "<team>：string（add模式下）",
+      "指定新队伍的名称。",
+      "必须为字符串。且必须为单个词，允许的字符包括：-、+、.、_、A-Z、a-z、0-9。",
+      "<displayName>：component",
+      "指定队伍被显示时的名称。",
+      "必须为文本组件。",
+      "<members>：score_holder",
+      "指定需要加入或离开的实体。",
+      "必须是目标选择器、玩家名（可以为不在线上的玩家）、UUID或用于表示所有正在被追踪实体的*。"
+    ],
+    "<选项>": [
+      "指定要更改的选项。",
+      "必须为以下内容之一：",
+      "displayName：设置队伍被显示时的名称。",
+      "color：决定队伍与玩家在聊天栏、头顶、Tab菜单、侧边栏的颜色，以及实体带有发光效果时的描边颜色。",
+      "friendlyFire：启用/禁用同队伍玩家互伤。对队伍中的非玩家实体无效。",
+      "seeFriendlyInvisibles：决定玩家观察同队伍的隐身玩家时，显示为半透明还是完全不可见。",
+      "nametagVisibility：决定头上的名称标签是否可见。",
+      "deathMessageVisibility：控制玩家死亡消息的可见性。",
+      "collisionRule：控制队伍中实体的碰撞方式。",
+      "prefix：修改玩家名称前缀。",
+      "suffix：修改玩家名称后缀。"
+    ],
+    "<值>": [
+      "指定<选项>要更改为的值。",
+      "下为每个选项可用的值：",
+      "选项为displayName时：",
+      "<displayName>：component - 指定队伍被显示时的名称。必须为文本组件。",
+      "选项为color时：",
+      "<value>：color - 必须为队伍颜色名（reset或16个聊天颜色中的一个）。",
+      "默认为reset。若为reset，名称将以默认颜色与格式显示。",
+      "选项为friendlyFire时：",
+      "<allowed>：boolean - 必须为 布尔值（true或false）。",
+      "true - （默认）启用同队伍玩家互伤。",
+      "false - 禁用同队伍玩家互伤。",
+      "选项为seeFriendlyInvisibles时：",
+      "<allowed>：boolean - 必须为 布尔值（true或false）。",
+      "true - （默认）玩家观察同队伍的隐身玩家时显示为半透明。",
+      "false - 玩家无法看到同队伍的隐身玩家。",
+      "选项为nametagVisibility时：",
+      "never - 玩家头上的名称对所有玩家隐藏。",
+      "hideForOtherTeams - 玩家头上的名称只对同队伍玩家显示。",
+      "hideForOwnTeam - 玩家头上的名称只对非同队玩家显示。",
+      "always - （默认）玩家头上的名称对所有玩家显示。",
+      "选项为deathMessageVisibility时：",
+      "never - 对所有玩家隐藏死亡消息。",
+      "hideForOtherTeams - 对非同队玩家隐藏死亡消息。",
+      "hideForOwnTeam - 对同队伍玩家隐藏死亡消息。",
+      "always - （默认）死亡消息对所有玩家可见。",
+      "选项为collisionRule时：",
+      "always - （默认）正常碰撞。",
+      "never - 该队伍中的实体不可碰撞。",
+      "pushOtherTeams - 该队伍中的实体只能与同队伍中的实体碰撞，与字面意义相反。",
+      "pushOwnTeam - 该队伍中的实体只能与非同队的实体碰撞，与字面意义相反。",
+      "选项为prefix时：",
+      "<prefix>：component - 指定将显示的前缀。必须为文本组件。",
+      "选项为suffix时：",
+      "<suffix>：component - 指定将显示的后缀。必须为文本组件。"
+    ],
+    "Java版": [
+      "1.13",
+      "17w45a",
+      "加入了/team。",
+      "18w20a",
+      "加入了/team option <team> prefix <prefix>。",
+      "加入了/team option <team> suffix <suffix>。",
+      "pre8",
+      "/team option现在为/team modify。",
+      "加入了/team modify <teamName> displayName。",
+      "队伍名称现在是文本组件，而不是原始字符串。",
+      "1.18",
+      "21w37a",
+      "移除了队伍名称16个字符、<member>参数40个字符的最大长度限制。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1"
+    ],
+    "示例": [
+      "创建新的队伍，ID为my_team：/team add my_team",
+      "将所有玩家添加至my_team队伍中：/team join my_team @a",
+      "列出my_team队伍中的所有成员：/team list my_team",
+      "关闭my_team队伍的同队伍玩家互伤：/team modify my_team friendlyFire false",
+      "将随机玩家移出其所在的队伍：/team leave @r",
+      "清空my_team队伍中的所有成员：/team empty my_team",
+      "删除队伍my_team：/team remove my_team"
+    ],
+    "参考": [
+      "MC-87984"
+    ]
+  }
+}

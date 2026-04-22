@@ -1,0 +1,5 @@
+{
+  "title": "Java版17w43b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8817w43b",
+  "text": "17w43b\n版本\nJava版\n类型\n快照\n发布时间\n2017年10月26日\n快照归属\n1.13\n下载\n客户端（.json）\n服务端\n协议版本\n342\n数据版本\n1445\n资源包版本\n3\n◄◄1.12.2\n1.13.1►►\n◄17w43a\n17w45a►\n17w43b是Java版1.13的第2个快照，发布于2017年10月26日，修复了一些漏洞。\n修复\n修复了7个漏洞\n1.13前正式版的漏洞\nMC-114553 — 全屏时按Alt + Tab ↹会导致崩溃。\n上个开发版本的漏洞\nMC-121276 — 从数据包和声音中加载文件会忽略子文件夹（例如17w43a中根本没有声音）。\nMC-121286 — 不显示字幕。\nMC-121290 — 在语言菜单中更改语言没有任何效果。\nMC-121300 — 默认资源包会覆盖自定义资源包。\nMC-121335 — 崩溃：Invalid escape sequence at line 4 column 37 path $.pack.description。\nMC-121337 — 资源包不按数字排序。\n参考\nMinecraft Snapshot 17w43b — Minecraft.net，2017年10月26日。\n导航"
+}

@@ -1,0 +1,283 @@
+{
+  "title": "Java版1.13/扁平化",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.13%2F%E6%89%81%E5%B9%B3%E5%8C%96",
+  "structured_content": {
+    "默认分类": [
+      "“扁平化”重定向至此。关于基岩版的扁平化，请见“基岩版扁平化”。",
+      "本条目所述内容仅适用于Java版。",
+      "Java版1.13版本修改了许多方块和物品的数据值，亦添加并移除了一些方块状态。这个过程也被称作“扁平化（The Flattening）”。",
+      "此页面当前的内容为1.12.2和1.13版本之间标识符的比较。"
+    ],
+    "方块和物品ID": [
+      "以任何方式更改了ID的方块和物品也会改变其统计信息。"
+    ],
+    "改动": [
+      "Java版1.12.2",
+      "Java版1.13",
+      "Java版1.12.2",
+      "Java版1.13"
+    ],
+    "方块": [
+      "移除了花盆的方块实体。",
+      "移除了音符盒的方块实体。",
+      "移动的活塞的BlockId数据和BlockData数据合并成了blockState数据。",
+      "移除了旗帜的Base数据。",
+      "移除了生物头颅的Rot数据。",
+      "旗帜和盾牌的Color数据和Patterns数据拥有了与习惯相反的颜色序列。",
+      "移除了音符盒的Record数据。",
+      "这个标签拥有像{Name:\"<方块ID>\",Properties:{state:\"value\"}}这样的复合格式。"
+    ],
+    "拆分": [
+      "原木（2）",
+      "log2",
+      "树叶（2）",
+      "leaves2"
+    ],
+    "丛林木": [
+      "原木 (2)"
+    ],
+    "树叶": [
+      "distance=1-7"
+    ],
+    "音符盒": [
+      "note=0-24"
+    ],
+    "红砂岩双层台阶": [
+      "double_stone_slab2"
+    ],
+    "红砂岩台阶": [
+      "stone_slab2"
+    ],
+    "龙首": [
+      "rotation=0-15"
+    ],
+    "音乐唱片": [
+      "record_13",
+      "music_disc_13",
+      "record_11",
+      "music_disc_11"
+    ],
+    "music_disc_wait": [
+      "这个方块没有物品形式。"
+    ],
+    "实体ID": [
+      "以任何方式更改了ID的实体也会改变其统计信息。"
+    ],
+    "实体": [
+      "Java版1.12.2",
+      "Java版1.13"
+    ],
+    "生物群系": [
+      "Java版1.12.2",
+      "Java版1.13"
+    ],
+    "恶地高原变种": [
+      "这其实是西瓜茎，它曾与南瓜茎共用相同的翻译。",
+      "这些翻译字符串其实是丢失的，具体见MC-122579；现在它们使用与站立的旗帜一样的翻译字符串（而不是它们自己的），具体见MC-124142"
+    ],
+    "粒子ID": [
+      "粒子ID现在也拥有了像其他ID (在前面minecraft:）一样的命名空间。"
+    ],
+    "entity.zombie_pigman.hurt": [
+      "record.11",
+      "music_disc.11",
+      "record.13",
+      "music_disc.13"
+    ],
+    "方块状态": [
+      "Java版1.12.2",
+      "Java版1.13"
+    ],
+    "persistent=true|false": [
+      "树叶 (2)"
+    ],
+    "画": [
+      "画现在也拥有了像其他ID (在前面minecraft:)一样的命名空间。",
+      "Java版1.12.2",
+      "Java版1.13"
+    ],
+    "alban": [
+      "Aztec2",
+      "aztec2"
+    ],
+    "名称": [
+      "Java版1.12.2",
+      "Java版1.13"
+    ],
+    "统计信息": [
+      "现在改变为带命名空间的了。",
+      "\"通用\"标签的格式是minecraft.custom:minecraft.something而不是stat.something，其中\"something\"必须为小写且用下划线分隔开。",
+      "开采方块的格式是minecraft.mined:namespace.(方块id)而不是stat.mineBlock.(方块id)。",
+      "损坏物品的格式是minecraft.broken:namespace.(物品id)而不是stat.breakItem.(物品id)。",
+      "丢弃物品的格式是minecraft.dropped:namespace.(物品id)而不是stat.drop.(物品id)。",
+      "使用物品的格式是 minecraft.used:namespace.(物品id)而不是stat.useItem.(物品id)。",
+      "击杀生物的格式是minecraft.killed:namespace.(实体id)而不是stat.killEntity.(实体id)。",
+      "对所有实体都可用了，而不是仅仅能用刷怪蛋生成的实体。",
+      "被实体击杀的格式是minecraft.killed_by:namespace.(实体id)而不是stat.entityKilledBy.(实体id)。",
+      "对所有实体都可用了，而不是仅仅能用刷怪蛋生成的实体。",
+      "合并了方块和物品标签。"
+    ],
+    "物品格式": [
+      "移除了物品的数据根目录下的Damage数据。",
+      "Damage数据被添加进了tag标签，只为工具的耐久度所使用。",
+      "map整数数据被添加进了tag标签，只为地图所使用。",
+      "盾牌的Base数据拥有了与习惯相反的颜色序列。",
+      "魔咒的ench数据被重命名为Enchantments数据。",
+      "魔咒ID中的Enchantments数据和StoredEnchantments数据现在使用字符串ID。"
+    ],
+    "实体数据格式": [
+      "狼的CollarColor数据拥有了与习惯相反的颜色序列。",
+      "末影人的carried数据和carriedData数据合并成了carriedBlockState数据。",
+      "箭和光灵箭的inTile数据和inData数据合并成了inBlockState数据。",
+      "矿车的DisplayTile数据和DisplayData数据合并成了DisplayState数据。",
+      "下落的方块的Block数据和Data数据合并成了BlockState。",
+      "区域效果云的ParticleParams1数据和ParticleParams2数据被移除了，并且和Particle合并了（与命令中的格式一样）。"
+    ],
+    "命令": [
+      "/clear的[<data>]部分已被移除。",
+      "/clone的[<data>]部分已和ID合并而且不再允许元数据。",
+      "/execute detect已被修改为/execute (if|unless) block，其中的[<data>]部分已和ID合并而且不再允许元数据。",
+      "/fill的[<data>]和[<replaceData>]部分已和ID合并而且不再允许元数据。",
+      "/give的[<data>]部分已被移除。",
+      "/replaceitem的[<data>]部分已被移除。",
+      "/setblock的[<data>]部分已和ID合并而且不再允许元数据。",
+      "/particle的[<params>]部分已与name合并，而且格式化为block_id[states]和item_id。",
+      "另见§ NBT数据章节来了解其他数据值的变化和1.13里的物品章节。",
+      "另见1.13里的物品章节。"
+    ],
+    "进度": [
+      "移除了icon的data数据。",
+      "移除了item条件中的data数据。",
+      "配方进度重命名成新的ID。"
+    ],
+    "战利品表": [
+      "移除了set_data函数。"
+    ],
+    "模型": [
+      "重命名成新的ID。"
+    ],
+    "方块状态文件": [
+      "重命名成新的ID。",
+      "无方块状态的方块现在使用空的字符串\"\"而不是\"normal\"。",
+      "物品展示框现在拥有\"map=false\"而不是\"normal\"和\"map=true\"而不是\"map\"。",
+      "模型引用时不再从models/block/文件夹中引用，而是从models/中。"
+    ],
+    "纹理": [
+      "重命名成新的ID。",
+      "将blocks文件夹重命名成block。",
+      "将items文件夹重命名成item。"
+    ],
+    "配方": [
+      "重命名成新的ID。"
+    ],
+    "语言文件": [
+      "方块本地化键名的格式是block.namespace.block_id而不是tile.something.name（其中\"something\"可以是任意的名字，比如荧石的\"lightgem\"；例如\"tile.lightgem.name\": \"Glowstone\"已经被\"block.minecraft.glowstone\": \"Glowstone\"所替代）",
+      "物品本地化键名的格式是item.namespace.item_id而不是item.something.name（其中\"something\"可以是任意的名字，比如荧石粉的\"yellowDust\"；例如\"item.yellowDust.name\": \"Glowstone Dust\"已经被\"item.minecraft.glowstone_dust\": \"Glowstone Dust\"所替代）",
+      "实体本地化键名的格式是entity.namespace.entity_id而不是entity.something.name（其中\"something\"可以是任意的名字，比如矿车的\"MinecartRideable\"；例如\"entity.MinecartRideable.name\": \"Minecart\"已经被\"entity.minecraft.minecart\": \"Minecart\"所替代）",
+      "魔咒本地化键名的格式是enchantment.namespace.enchantment_id而不是enchantment.something（其中\"something\"可以是任意的名字，比如水下速掘的\"waterWorker\"；例如\"enchant.waterWorker\": \"Aqua Affinity\"已经被\"enchantment.minecraft.aqua_affinity\": \"Aqua Affinity\"所替代）",
+      "状态效果本地化键名的格式是effect.namespace.effect_id而不是effect.something（其中\"something\"可以是任意的名字，比如挖掘疲劳的\"digSlowDown\"；例如\"effect.digSlowDown\": \"Mining Fatigue\"已经被\"effect.minecraft.mining_fatigue\": \"Mining Fatigue\"所替代）",
+      "通用统计本地化键名的格式是stat.namespace.statistic_id而不是stat.statisticId（其中\"statisticId\"可以是任意的统计名称，比如游玩时间的\"playOneMinte\"；例如\"stat.playOneMinute\": \"Time Played\"已经被\"stat.minecraft.play_one_minute\": \"Time Played\"所替代）",
+      "统计信息本地化键名的格式是stat_type.namespace.statistic_type而不是stat.statisticType（其中\"statisticType\"可以是任意的统计种类，比如击杀生物的\"entityKills\"；例如\"stat.entityKills\": \"You killed %s %s\"已经被\"stat_type.minecraft.killed\": \"You killed %s %s\"所替代）"
+    ],
+    "Java版": [
+      "1.13",
+      "17w45a",
+      "命令格式不再使用元数据和损害值Damage，这让使用伤害值来区分的物品不能被命令所获得。",
+      "17w47a",
+      "物品和方块ID被合并、删除、拆分或重命名。",
+      "方块状态的变化得到了实际应用。",
+      "移除物品的损坏值Damage数据，且把损坏值Damage数据添加进了tag标签中，仅由工具和盔甲使用。还为地图添加了map数据。",
+      "陷阱箱拥有了它们自己的方块实体IDtrapped_chest。",
+      "元数据被完全移除。",
+      "粒子ID现在自带命名空间并且被重命名。",
+      "统计现在自带命名空间，而实体统计被移除。",
+      "翻译字符串现在与方块、物品和统计的ID一致了。",
+      "17w47b",
+      "陷阱箱现在又使用方块实体IDchest。",
+      "17w48a",
+      "实体统计被重新加入，而且应用在所有实体上。",
+      "18w02a",
+      "画现在自带命名空间并且被重命名。",
+      "墙上的旗帜现在使用与其站立形式变种一样的本地化键名。",
+      "实体的本地化键名现在是entity.<namespace>.<id>而不是entity.<something>.name。",
+      "18w07b",
+      "将turtle_shell_piece重命名为scute。",
+      "18w10b",
+      "以每种颜色为一种方块拆分了dead_coral。",
+      "18w10c",
+      "将water和flowing_water合并了。",
+      "将lava和flowing_lava合并了。",
+      "18w14b",
+      "将$color_dead_coral重命名为dead_$variant_coral_block。",
+      "将$color_coral重命名为$variant_coral_block。",
+      "将$color_coral_plant重命名为$variant_coral。",
+      "将$color_coral_fan重命名为$variant_coral_fan。",
+      "18w19a",
+      "将(tall_)sea_grass重命名为(tall_)seagrass。",
+      "将实体puffer_fish重命名为pufferfish。",
+      "将小丑鱼重命名为热带鱼。",
+      "18w20a",
+      "将kelp_top重命名为kelp。",
+      "将kelp重命名为kelp_plant。",
+      "将prismarine_bricks_slab重命名为prismarine_brick_slab。",
+      "将prismarine_bricks_stairs重命名为prismarine_brick_stairs。",
+      "将cod_mob_spawn_egg重命名为cod_spawn_egg。",
+      "将salmon_mob_spawn_egg重命名为salmon_spawn_egg。",
+      "将cod_mob重命名为cod。",
+      "将salmon_mob重命名为salmon。",
+      "将重质测重压力板(Weighted Pressure Plate (Heavy))重命名为重质测重压力板(Heavy Weighted Pressure Plate)。",
+      "将轻质测重压力板(Weighted Pressure Plate (Light))重命名为轻质测重压力板(Light Weighted Pressure Plate)。",
+      "将金马铠（Gold Horse Armor）重命名为金马铠（Golden Horse Armor）。",
+      "将锁链盔甲（Chain Helmet）重命名为锁链盔甲（Chainmail Helmet）。",
+      "将牛奶重命名为牛奶桶。",
+      "将小麦种子（Seeds）重命名为小麦种子（Wheat Seeds）。",
+      "将生成<生物>重命名为<生物>刷怪蛋。",
+      "重命名了一些方块的纹理。",
+      "重命名了一些结构的文件。",
+      "18w20b",
+      "将melon_block重命名为melon。",
+      "将melon重命名为melon_slice。",
+      "将speckled_melon重命名为glistering_melon_slice。",
+      "将实体末地水晶（Ender Crystal）重命名为末地水晶（End Crystal）。",
+      "将实体TNT方块（Block of TNT）重命名为被激活的TNT（Primed TNT）。",
+      "18w21a",
+      "NBT标签ench重命名为Enchantments，而且每个组合不再使用数字ID。",
+      "18w22a",
+      "在树叶的方块状态中，check_decay和decayable两个布尔型变量变为distance（范围1-7）和一个persistent布尔型变量。",
+      "18w22b",
+      "树皮现在拥有了axis=x|y|z的方块状态。",
+      "pre3",
+      "textures/blocks/变为了textures/block/。",
+      "textures/items/变为了textures/item/。",
+      "方块状态文件现在使用\"\"而不是\"normal\"去指定无方块状态。",
+      "方块状态文件现在从models/开始引用而不是从models/block/中。",
+      "pre5",
+      "将xp_orb重命名为experience_orb。",
+      "将xp_bottle重命名为experience_bottle。",
+      "将eye_of_ender_signal重命名为eye_of_ender。",
+      "将ender_crystal重命名为end_crystal。",
+      "将实体fireworks_rocket重命名为firework_rocket。",
+      "将commandblock_minecart重命名为command_block_minecart。",
+      "将villager_golem重命名为iron_golem。",
+      "将evocation_fangs重命名为evoker_fangs。",
+      "将evocation_illager重命名为evoker。",
+      "将vindication_illager重命名为vindicator。",
+      "将illusion_illager重命名为illusioner。",
+      "将evocation_illager_spawn_egg重命名为evoker_spawn_egg。",
+      "将vindication_illager_spawn_egg重命名为vindicator_spawn_egg。",
+      "将mob_spawner重命名为spawner。",
+      "将portal重命名为nether_portal。",
+      "将clownfish重命名为tropical_fish。",
+      "将clownfish_bucket重命名为tropical_fish_bucket。",
+      "将chorus_fruit_popped重命名为popped_chorus_fruit。",
+      "将$type_bark重命名为$type_wood。",
+      "声音事件的变化得到了实际应用。",
+      "生物群系ID得到了实际应用。",
+      "魔咒的本地化键名现在是enchantment.<namespace>.<id>而不是enchantment.<something>。",
+      "状态效果的本地化键名现在是effect.<namespace>.<id>而不是effect.<something>。"
+    ],
+    "参考": [
+      "MC-105922中的 https://bugs.mojang.com/secure/attachment/151784/the_flattening.txt[失效链接]"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "羊毛/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BE%8A%E6%AF%9B%2FDV",
+  "text": "数据值\n预览\n颜色代码\nDec\nHex\n旧\n新\n0\n0x0\n白色羊毛\n#DDDDDD\n#E9ECEC\n1\n0x1\n橙色羊毛\n#DB7D3E\n#F07613\n2\n0x2\n品红色羊毛\n#B350BC\n#BD44B3\n3\n0x3\n淡蓝色羊毛\n#6B8AC9\n#3AAFD9\n4\n0x4\n黄色羊毛\n#B1A627\n#F8C627\n5\n0x5\n黄绿色羊毛\n#41AE38\n#70B919\n6\n0x6\n粉红色羊毛\n#D08499\n#ED8DAC\n7\n0x7\n灰色羊毛\n#404040\n#3E4447\n8\n0x8\n淡灰色羊毛\n#9AA1A1\n#8E8E86\n9\n0x9\n青色羊毛\n#2E6E89\n#158991\n10\n0xA\n紫色羊毛\n#7E3DB5\n#792AAC\n11\n0xB\n蓝色羊毛\n#2E388D\n#35399D\n12\n0xC\n棕色羊毛\n#4F321F\n#724728\n13\n0xD\n绿色羊毛\n#35461B\n#546D1B\n14\n0xE\n红色羊毛\n#963430\n#A12722\n15\n0xF\n黑色羊毛\n#191616\n#141519\n羊毛每个像素的颜色几乎都是不同的，这里是默认纹理包内平均的RGB颜色数值。"
+}

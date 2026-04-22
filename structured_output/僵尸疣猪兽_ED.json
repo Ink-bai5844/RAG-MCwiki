@@ -1,0 +1,12 @@
+{
+  "title": "僵尸疣猪兽/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%83%B5%E5%B0%B8%E7%96%A3%E7%8C%AA%E5%85%BD%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "IsBaby：（此值为true时存在）表示此僵尸疣猪兽是否为幼年个体。"
+    ]
+  }
+}

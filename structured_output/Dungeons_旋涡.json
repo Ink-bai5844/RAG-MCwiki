@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:旋涡",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%97%8B%E6%B6%A1",
+  "structured_content": {
+    "Swirling": [
+      "连击的最后一式会变成旋风攻击，对附近敌人造成伤害。"
+    ],
+    "——魔咒描述": [
+      "旋涡（Swirling）是Minecraft Dungeons中的魔咒。会将攻击的最后一式额外套上旋风攻击，造成额外的伤害。造成伤害随着等级提升而增加。"
+    ],
+    "I": [
+      "1x 造成伤害",
+      "2 附魔点数"
+    ],
+    "II": [
+      "1.5x 造成伤害",
+      "3 附魔点数"
+    ],
+    "III": [
+      "2x 造成伤害",
+      "4 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了旋涡。",
+      "1.6.0.0",
+      "将基础伤害从45调整为40。"
+    ]
+  }
+}

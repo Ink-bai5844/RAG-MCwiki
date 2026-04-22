@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.11.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.11.1",
+  "text": "1.11.1\n版本\n基岩版\n服务端版本\n1.11.1.2\n内部版本号\nWindows：1.11.102.0\n版本码\nAndroid（试玩版本）：\n871110102（armeabi-v7a，26）\nAndroid（主版本）：\n871110102（armeabi-v7a，26）\n872110102（x86，26）\niOS/iPadOS：\n831117997\n发布时间\nAndroid, iOS, Fire OS, Windows 10, Windows 10 mobile, Gear VR, Fire TV, Xbox One - 2019年4月26日\nNintendo Switch - 2019年5月2日\n下载\n服务端\nWindowsLinux\n协议版本\n354\n其他版本的1.11.1\nJava版\nMinecraft Dungeons\n◄◄1.11.0\n1.12.0►►\n1.11.2►\n1.11.1是基岩版的一次热修复更新，在其余平台发布于2019年4月26日，在Nintendo Switch上发布于2019年5月2日，修复了一些漏洞。该版本兼容1.11.0的多人游戏。\n修复\n修复了5个漏洞\n修复了在游戏过程中的一个崩溃。\n修复了在登录Xbox Live时的一个崩溃。\n修复了怪物会在周围亮度大于7时在刷怪笼旁生成的漏洞。（MCPE-42427）\n现在村民在模板世界中总是以旧的形态生成，包括商城内的地图。\n修复了在使用脚本引擎时的内存溢出。\n参考\nMinecraft - 1.11.1 (Bedrock) — Minecraft Feedback，2019年4月26日。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "属性/弹性",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E5%BC%B9%E6%80%A7",
+  "text": "本页面包含会在下一次更新中出现的内容。\n这些特性在Java版26.2的开发版本中加入。\n弹性\n类型\n正面\n默认值\n0\n值域\n0 – 1\n属性ID\nbounciness\n弹性（Bounciness）是控制生物碰撞后水平速度保留量的属性。\n行为\n非潜行状态下的生物如果和方块或可碰撞的实体发生了碰撞，则X方向和Z方向上的碰撞后速度分量等于对应的碰撞前速度分量与此属性计算值的乘积。\n潜行状态下的生物在碰撞后永远丢失所有速度，不论此属性的计算值为何。\n适用的生物\n生物\n基值\n所有生物\n0.0\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\nbouncy_add_bounciness\nadd_value (Op0)\n0.9\n否\n硫方怪吸收方块后，且原型为弹性\nfast_flat_add_bounciness\nadd_value (Op0)\n0.2\n否\n硫方怪吸收方块后，且原型为快速平移\nfast_sliding_add_bounciness\nadd_value (Op0)\n0.1\n否\n硫方怪吸收方块后，且原型为快速滑行\nhigh_resistance_add_bounciness\nadd_value (Op0)\n0.2\n否\n硫方怪吸收方块后，且原型为高抗性\nlight_add_bounciness\nadd_value (Op0)\n1.0\n否\n硫方怪吸收方块后，且原型为轻盈\nregular_add_bounciness\nadd_value (Op0)\n0.5\n否\n硫方怪吸收方块后，且原型为普通\nslow_flat_add_bounciness\nadd_value (Op0)\n0.2\n否\n硫方怪吸收方块后，且原型为缓慢平移\nslow_sliding_add_bounciness\nadd_value (Op0)\n0.1\n否\n硫方怪吸收方块后，且原型为缓慢滑行\nsticky_add_bounciness\nadd_value (Op0)\n0.0\n否\n硫方怪吸收方块后，且原型为黏性\n历史\nJava版（即将到来）\n26.2\nsnapshot-1\n加入了弹性。\n导航"
+}

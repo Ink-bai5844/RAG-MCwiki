@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:聊天盘",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%81%8A%E5%A4%A9%E7%9B%98",
+  "text": "聊天盘\n聊天盘是Minecraft Dungeons中与好友交流的工具，可使用八个表情符号向好友发送消息。\n默认情况下，键鼠操控为T键打开。Xbox手柄为，PS4手柄为，Joy-Con为。\n使用符号消息\n使用键鼠操控的情况下，可以使用快捷发送以及两种不同的发送方式。发送方式需要在设置-无障碍-快捷聊天盘类型中进行切换更改。\n按下并选择：按下T键打开聊天盘，按下对应按键发送消息。再次按下T或esc键以放弃发送。\n长按并释放：按住T键不放，将鼠标朝消息的对应方向拖动，待选中消息高亮时即可松开T键并发送消息。将鼠标拖回原处并松开T键以放弃发送。\n快捷发送：直接按下相应键位即可发送消息（需要在设置-游戏-快捷聊天中设为启用，与前两者不冲突，但可能会和其他按键冲突）。\n使用手柄的情况下，按住对应手柄的按键，使用摇杆按照对应方向选择消息，待选中消息高亮时即可松开按键并发送消息。使用摇杆拖回原处并松开对应键以放弃发送。\n符号消息列表\n名称\n表情符号\n快捷键\n需要箭矢\nY\n等等\nU\n需要治疗\nZ\n不\nQ\n补给在这\nW\n来这\nR\n谢谢\nK\n好的\nN\n动作\nV\n音效\n描述\n文件\n需要箭矢\nsfx_ui_chatwheel_arrows\n等等\nsfx_ui_chatwheel_wait\n需要治疗\nsfx_ui_chatwheel_needhealth\n不\nsfx_ui_chatwheel_no\n补给在这\nsfx_ui_chatwheel_supplies\n来这\nsfx_ui_chatwheel_come\n谢谢\nsfx_ui_chatwheel_thanks\n好的\nsfx_ui_chatwheel_yes\n遇到危险（未使用）\nsfx_ui_chatwheel_danger\n导航"
+}

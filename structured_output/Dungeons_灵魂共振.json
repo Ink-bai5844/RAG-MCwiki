@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:灵魂共振",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%81%B5%E9%AD%82%E5%85%B1%E6%8C%AF",
+  "structured_content": {
+    "EnigmaResonatorRanged": [
+      "根据拥有的灵魂数量，有一定概率造成三倍伤害。"
+    ],
+    "——游戏内描述": [
+      "灵魂共振（Enigma Resonator）是Minecraft Dungeons中的魔咒，效果为根据现有灵魂数量，有概率造成三倍伤害。触发概率随着等级提升而提高。"
+    ],
+    "I": [
+      "0-15% 概率触发",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "0-20% 概率触发",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "0-25% 概率触发",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了灵魂共振。"
+    ]
+  }
+}

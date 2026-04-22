@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.581x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.581x",
+  "text": "2.1.5815/2.1.5816/2.1.5819\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2019年7月6日\n测试版归属\n2.1.596x\n◄◄2.1.5410\n2.1.961x►►\n◄2.1.55xx\n2.1.590x►\n2.1.5815（Windows）、2.1.5816（macOS）或2.1.5819（Linux）是于2019年7月16日发布的启动器开发版，它修复了一些漏洞。\n更改\n现在记录了更多关于启动器如何启动游戏的信息。\n修复\n修复在macOS中导致日志文件缺失更多信息的漏洞。\n修复启动器未能正确使用系统语言的错误。\n修复一个造成启动器日志窗口打开时耗尽性能的漏洞。\n修复--workDir参数在某些系统不起作用的漏洞。\nMCL-8702 - 启动器出现黑屏及ERROR:gl_surface_egl.cc(711)] eglCreateWindowSurface failed with error EGL_BAD_ALLOC报错。\nMCL-10036 - 启动器在副显示器上关闭后不会显示在主显示器上。\n参考\nhttps://piston-meta.mojang.com/mc/launcher_beta_changelog.md\n导航"
+}

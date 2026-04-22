@@ -1,0 +1,41 @@
+{
+  "title": "属性/最大伤害吸收值",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%9C%80%E5%A4%A7%E4%BC%A4%E5%AE%B3%E5%90%B8%E6%94%B6%E5%80%BC",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "默认值": [
+      "0"
+    ],
+    "值域": [
+      "0 – 2048"
+    ],
+    "max_absorption": [
+      "最大伤害吸收值（Max Absorption）是控制生物伤害吸收值的属性。"
+    ],
+    "行为": [
+      "主条目：伤害吸收值",
+      "生物通过伤害吸收获得伤害吸收值时，其伤害吸收值一定不会高于其最大伤害吸收值。",
+      "此属性计算值发生变化时，如果生物的伤害吸收值高于最大伤害吸收值，那么该生物的伤害吸收值设置为最大伤害吸收值。"
+    ],
+    "所有生物": [
+      "0"
+    ],
+    "effect.absorption": [
+      "add_value (Op0)",
+      "等级×4"
+    ],
+    "Java版": [
+      "1.20.2",
+      "23w31a",
+      "加入了最大伤害吸收值属性，ID为generic.max_absorption。",
+      "1.21",
+      "24w21a",
+      "伤害吸收状态效果修饰符的ID现在是effect.absorption，此前为EAE29CF0-701E-4ED6-883A-96F798F3DAB5。",
+      "1.21.2",
+      "24w33a",
+      "最大伤害吸收值属性的ID从generic.max_absorption重命名为max_absorption。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:狂风之弓",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%8B%82%E9%A3%8E%E4%B9%8B%E5%BC%93",
+  "text": "此条目包含嚎风山巅的内容。\n狂风之弓\n类型\n远程武器\n稀有度\n力量\n4\n速度\n3\n弹药上限\n6\n远古狩猎符文\n存档ID\nWindBow\n一把令人着迷的弓，捕捉狂风的能量来发射强大的风之箭矢。\n——物品描述\n狂风之弓（Wind Bow）是Minecraft Dungeons的DLC嚎风山巅中的远程武器。它的独特变种有爆裂风弓和空谷回声。\n获取\n地点：\n巍峨壁垒（冒险难度以上）\n烈风圣地\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n狂风之须\n使用\n狂风之弓拥有低攻击力，低速度和较低弹药上限。初始弹药量为73。\n完全蓄力后会将箭矢替换为“狂风之箭”，击中后可以将敌人拉向玩家，并产生风的特效。\n属性\n蓄力后吸引敌人\n数据值\n伤害持续时间：0.42秒\n蓄力时间：0.35秒\n蓄满伤害系数：2.75\n音效\n描述\n文件\n蓄力击中物体\nDLC_sfx_WindBow_ChrgImpact\n蓄力击中物体（V2）\nDLC_sfx_WindBow_ChrgImpact_V2\n蓄力射击\nDLC_sfx_WindBow_ChrgSht\n蓄力射击（V2）\nDLC_sfx_WindBow_ChrgSht_V2\n掉落\nDLC_sfx_WindBow_Drop\n击中物体\nDLC_sfx_WindBow_Impact\n拾取\nDLC_sfx_WindBow_PickUp\n装备\nDLC_sfx_WindBow_Place\n装备（V2）\nDLC_sfx_WindBow_Place_V2\n射击\nDLC_sfx_WindBow_Shot\n历史\nMinecraft Dungeons\n1.7.2.0\n加入了狂风之弓。\n1.16.2.0\n提升充能伤害倍率10%。\n导航"
+}

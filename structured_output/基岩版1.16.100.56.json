@@ -1,0 +1,133 @@
+{
+  "title": "基岩版1.16.100.56",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.16.100.56",
+  "structured_content": {
+    "默认分类": [
+      "1.16.100.56"
+    ],
+    "版本码": [
+      "Android：",
+      "951610056（armeabi-v7a，29）",
+      "961610056（x86，29）",
+      "971610056（arm64-v8a，29）",
+      "981610056（x86_64，29）"
+    ],
+    "发布时间": [
+      "Xbox One, Windows 10, Android - 2020年9月17日"
+    ],
+    "测试版归属": [
+      "1.16.100"
+    ],
+    "协议版本": [
+      "415",
+      "◄◄1.16.61",
+      "1.16.101►►",
+      "◄1.16.100.55",
+      "1.16.100.57►",
+      "beta 1.16.100.56是基岩版1.16.100的第7个测试版，发布于2020年9月17日，做出了一些技术性更改，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "修复了文本转语音无法读取界面上的信息的问题。",
+      "修复了地图不在/clear命令的物品列表中的问题。",
+      "修复了关闭登录提示窗口后登录按钮无响应的问题。"
+    ],
+    "附加包和脚本引擎": [
+      "加入了minecraft:placement_filter从而允许玩家设置方块可以放置的条件。",
+      "为方块描述符加入了序列化。",
+      "为方块描述符加入了静态的anyMatch函数来比较两个方块描述符：Block*、BlockLegacy和BlockDescriptor。",
+      "方块描述符的BlockLegacy项目变量被更改为Block*以在设置方块状态时延迟方块解析时设置方块状态，并获得设置完毕的方块。"
+    ],
+    "移除了所有现有方块*JSON解析": [
+      "加入了验证解析和方块序列化描述符的单元测试。",
+      "加入了验证方块描述符之间的比较的单元测试。",
+      "加入了验证从方块描述符获得已经设定方块状态的方块的单元测试。"
+    ],
+    "实验性玩法": [
+      "加入了“Experimental Add-On Features”选项。"
+    ],
+    "DataDrivenBlockEvents": [
+      "为解析和进行下列事件回应提供了支持：",
+      "加入了set_block_at_pos事件回应。"
+    ],
+    "设置方块": [
+      "为on_interact trigger组件加入了支持：",
+      "为on_player_placing触发器加入了支持。",
+      "为cardinal_block_face_placed_on和cardinal_player_facing的方块放置情况加入了MoLang查询支持。"
+    ],
+    "DataDrivenBlockModels": [
+      "加入了数据驱动型方块的曲面细分通道的第一个流程。",
+      "加入了minecraft:geometry组件以允许方块模型渲染。",
+      "加入了minecraft:unit_cube组件以允许使用默认单位多维数据集渲染。单位多维数据集允许一些额外的效果出现，如环境遮挡和面部移除",
+      "加入了minecraft:material_instances组件以允许映射面和material_instances实例映射到实际材质中。"
+    ],
+    "DataDrivenBlockModels - SmoothLighting": [
+      "修复了新的数据驱动型方块的平滑光照和环境遮挡问题。"
+    ],
+    "ExecuteCommand": [
+      "为execute_command关键字加入了物品json事件支持。"
+    ],
+    "物品": [
+      "加入了数据驱动型的展示物品在游戏中是如何修复的RepairableItemComponent组件。"
+    ],
+    "物品名称": [
+      "重命名并拆分了一些物品ID以同步Java版的物品ID。",
+      "加入了BlockRaycastComponent，可以控制用于外形和光线投射的边界框。",
+      "加入了BlockCollisionComponent，可以控制用于实体碰撞的边界框。",
+      "加入了BlockPropertyComponent，可以替代blockProperties（方块属性）：Unwalkable、Infiniburn、PreventsJumping、Immovable、BreakOnPush、OnlyPistonPush和BreaksWhenHitByArrow。",
+      "加入了BlockQueuedTickingComponent，可以在设置的时间范围内触发方块事件。",
+      "加入了BlockRandomTickingComponent，可以随机触发方块事件。"
+    ],
+    "加入了一个旋转组件，允许方块旋转，但是只允许轴对齐的旋转": [
+      "加入了CraftingTableComponent的基本功能：",
+      "允许自定义工作台。",
+      "目前只允许3×3的合成格。"
+    ],
+    "音乐唱片": [
+      "现在可以自定义音乐唱片物品来在唱片机里播放声音，组成的变量是：",
+      "sound_event是一个字符串，值必须与游戏代码中的声音事件相对应。这些字符串必须是这几个中的一个：\"13\"、\"cat\"、\"blocks\"、\"chirp\"、\"far\"、\"mall\", \"mellohi\"、\"stal\"、\"strad\"、\"ward\"、\"11\"、\"wait\"和\"pigstep\"。",
+      "duration是一个浮点数，值用于确定唱片机生成粒子的时间长度，应该与声音事件的长度精确对应。",
+      "comparator_signal是一个整数，值用于红石比较器检测唱片机时输出的信号强度。"
+    ],
+    "RunCommand": [
+      "在当前的add和remove关键字旁边加入了对run_command关键字的实体json事件的支持。",
+      "更新了以下组件来解析和使用BlockDescriptor而不是Block*：BlockBreakSensorComponent、BlockListEventMap、BreathableComponent、BreedableComponent、BuoyancyComponent、EntityPlacerItemComponent、PreferredPathComponent和SeedItemComponentLegacy。",
+      "更新了以下功能来解析和使用BlockDescriptor而不是Block*：NoSurfaceOreFeature、OreFeature和SingleBlockFeature。",
+      "更新了以下目标定义来解析和使用BlockDescriptor而不是Block*：GoalDefinition、RaidGardenGoal和VanillaGoalDefinition。",
+      "更新了以下表层代码来解析和使用BlockDescriptor而不是Block*：MesaSurfaceAttributes、SurfaceMaterialAdjustmentAttributes和SurfaceMaterialAttributes。",
+      "更新了以下测试来显示把代码更新为使用BlockDescriptor：BuoyancyComponentServerTests、FeatureHelperTests、NoSurfaceOreFeatureTests、OreFeatureTests和SingleBlockFeatureTests。",
+      "更新了以下树来解析和使用BlockDescriptor而不是Block*：AcaciaTreeCanopy、AcaciaTreeTrunk、FallenTreeTrunk、FancyTreeCanopy、FancyTreeTrunk、MegaPineTreeCanopy、MegaTreeCanopy、MegaTreeTrunk、PineTreeCanopy、RoofedTreeCanopy、SimpleTreeCanopy、SimpleTreeTrunk、SpruceTreeCanopy和TreeHelper。"
+    ],
+    "架构": [
+      "将allowed_blocks拆分为use_on和dispense_on。",
+      "use_on 指定实体放置物品允许在什么方块上使用，省略则允许所有方块。",
+      "dispense_on指定实体放置物品允许在什么方块上发射，省略则允许所有方块。"
+    ],
+    "性能与稳定性": [
+      "修复了一些游戏过程中可能发生的崩溃。",
+      "修复了Xbox One上启动游戏时的崩溃。"
+    ],
+    "成就界面": [
+      "游玩时间现在会正确地显示在成就界面上。（MCPE-25938）",
+      "启用复述功能时，现在可以按手柄左键把光标移动到摘要上。",
+      "更新了成就列表和成就奖励的输入图标。",
+      "现在打开成就详情界面时显示“界面”二字。",
+      "修改了计算玩家成就点数的方式。",
+      "当数据被提取后即使超时也会显示成就。",
+      "修复了使用非主流鼠标按钮时不播放点击声音的漏洞。",
+      "修复了即使界面不能滚动也会显示滚动条的漏洞。",
+      "为手柄光标移动添加了加速功能。",
+      "修复了从“全部”选项卡切换时光标消失的漏洞。",
+      "支持使用鼠标“后退按钮”来从成就界面返回。",
+      "支持使用“退出按钮”来从成就界面返回。",
+      "修复了当选项卡被选中时输入图标仍然显示“open”的问题。"
+    ],
+    "游戏内容": [
+      "现在石质工具的合成配方默认显示为圆石。（MCPE-71843）",
+      "更改了灾厄号角音效的线性衰减，比之前略微减弱。（MCPE-85593）",
+      "现在放置和破坏物品展示框的音效能够正确播放。（MCPE-98901）"
+    ],
+    "参考": [
+      "Minecraft-Beta - 1.16.100.56 (Xbox One/Windows 10/Android) — Minecraft Feedback，2020年9月17日。"
+    ]
+  }
+}

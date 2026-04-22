@@ -1,0 +1,18 @@
+{
+  "title": "山羊/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%B1%E7%BE%8A%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "可成长生物共通标签，见Template:Nbt inherit/breedable/source",
+      "动物共通标签，见Template:Nbt inherit/animal/source"
+    ],
+    "*": [
+      "*HasLeftHorn：（默认为true）表示此山羊是否有左侧的角。",
+      "*HasRightHorn：（默认为true）表示此山羊是否有右侧的角。",
+      "*IsScreamingGoat：表示此山羊是否为尖叫山羊。"
+    ]
+  }
+}

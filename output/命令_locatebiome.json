@@ -1,0 +1,5 @@
+{
+  "title": "命令/locatebiome",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Flocatebiome",
+  "text": "此条目所介绍的内容已从Java版中移除。\n此命令在Java版1.19中已被locate biome命令替代。\nlocatebiome\n需要的权限等级\n2\n限制条件\n无\n在聊天框中为命令执行者显示指定生物群系的最近坐标和距离。\n语法\nJava版\nlocatebiome <生物群系ID>\n参数\n生物群系ID\n指定要定位的生物群系或生物群系标签。参见生物群系/ID以查看所有可用的生物群系ID。\n结果\n命令\n触发条件\nJava版\n任意\n参数未正确指定\n无法解析\n当前维度中不生成所请求的生物群系（或属于标签定义的任意一个生物群系）\n执行失败\n无法在12801×12801方块的正方形区域中找到请求的生物群系（或属于标签定义的任意一个生物群系）\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n执行成功\n1\n生物群系位置和执行者位置间的水平距离\n示例\n定位沙漠生物群系的坐标：/locatebiome desert。\n历史\nJava版\n1.16\n20w06a\n加入了/locatebiome。\npre1\n错误信息中，关于无效生物群系、找不到的有效生物群系的ID现在会用引号引起来了。\n将无效生物群系的错误信息由“没有名为<biome ID>的生物群系”改为了“没有名为‘<biome ID>’的生物群系”。\n1.18.2\npre1\n现在支持标签，用#前缀与一般的ID做区分。\n1.19\n22w12a\n现在会返回目标位置的X、Y、Z三个坐标。\n改进了对3D生物群系的定位，因此现在洞穴类生物群系能够正确定位。\n22w19a\n移除了/locatebiome。\n导航"
+}

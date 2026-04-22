@@ -1,0 +1,5 @@
+{
+  "title": "骨块/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%AA%A8%E5%9D%97%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n（未使用）\n0x4\n0x8\n一个值范围0-2的2位二进制数，储存骨块朝向：\n0：骨块竖直朝向（与Y轴平行）\n1：骨块南北朝向（与Z轴平行）\n2：骨块东西朝向（与X轴平行）"
+}

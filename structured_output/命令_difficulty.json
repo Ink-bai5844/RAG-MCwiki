@@ -1,0 +1,54 @@
+{
+  "title": "命令/difficulty",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fdifficulty",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于在Minecraft中直接影响游戏的难易程度的一个选项，请见“难度”。"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "设定世界难度等级。"
+    ],
+    "Java版": [
+      "1.4.2",
+      "12w32a",
+      "加入了/difficulty命令。"
+    ],
+    "基岩版": [
+      "difficulty <difficulty: Difficulty>",
+      "difficulty <difficulty: int>"
+    ],
+    "参数": [
+      "JE：peaceful|easy|normal|hard",
+      "BE：difficulty: Difficulty：enum，或difficulty: int：int",
+      "新的游戏难度。必须为以下之一：",
+      "peaceful（在基岩版中可简写为p或0）为和平难度",
+      "easy（在基岩版中可简写为e或1）为简单难度",
+      "normal（在基岩版中可简写为n或2）为普通难度",
+      "hard（在基岩版中可简写为h或3）为困难难度",
+      "在Java版中，若未指定参数，则查询当前游戏难度。"
+    ],
+    "执行失败": [
+      "0",
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "0",
+      "1",
+      "当前难度的ID。（和平 = 0，简单 = 1，普通 = 2，困难 = 3）",
+      "1"
+    ],
+    "示例": [
+      "难度更改为困难：difficulty hard、difficulty h[仅基岩版]或difficulty 3[仅基岩版]"
+    ],
+    "携带版": [
+      "1.0.5",
+      "1.0.5.0",
+      "加入了/difficulty命令。"
+    ]
+  }
+}

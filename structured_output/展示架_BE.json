@@ -1,0 +1,15 @@
+{
+  "title": "展示架/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%95%E7%A4%BA%E6%9E%B6%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "*align_items_to_bottom：（默认为false）展示架中的物品是否在底部隔板上。若为true，物品高度取决于物品模型渲染变换on_shelf中自底部隔板向上的偏移高度；若为false，则物品高度居中。"
+    ],
+    "*": [
+      "*Items：展示架内物品的列表，超出槽位范围的物品无效。展示架共有3个槽位，按从左到右的顺序进行编号。",
+      "：一个物品。",
+      "物品共通标签，见Template:Nbt inherit/item/source"
+    ]
+  }
+}

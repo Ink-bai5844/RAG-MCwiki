@@ -1,0 +1,56 @@
+{
+  "title": "材料/properties row",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9D%90%E6%96%99%2Fproperties_row",
+  "structured_content": {
+    "[ 编辑 | 历史 | 刷新 ]文档页面": [
+      "此模板使用了Module:Materials row，此脚本使用Lua编写。",
+      "更多详情，请参阅Wikipedia:Lua和Extension:Scribunto。",
+      "该模板用于创建材料属性表，以展示各个材料的特征。"
+    ],
+    "Properties": [
+      "The table contains the following properties. They are set to 1 for true, and 0 for false."
+    ],
+    "The block allows the player to swim.": [
+      "0"
+    ],
+    "This block allows block dependent blocks to be placed on it, and is considered when spawning various structures.": [
+      "1"
+    ],
+    "This block reduces the level of light passing through it (often blocking it entirely).": [
+      "1"
+    ],
+    "This block prevents movement through it, and usually suffocates entities inside of it.": [
+      "1"
+    ],
+    "This block requires a tool to give a drop.": [
+      "0"
+    ],
+    "This block can become lit from lava.": [
+      "0"
+    ],
+    "This block will be replaced from using another block on it.": [
+      "0"
+    ],
+    "Does not seem to be used anywhere in Minecraft, and is not displayed in the table.": [
+      "0",
+      "Subclasses can also be set using |subclass= for to change the defaults based on coded subclasses. Values include:"
+    ],
+    "liquid": [
+      "defaults |liquid= and |replace= to 1",
+      "defaults |blockmove= and |solid= to 0",
+      "defaults |replace= to 1",
+      "defaults |solid=, |blocklight= and |blockmove= to 0"
+    ],
+    "nonsolid": [
+      "defaults |adventureExempt= to 1",
+      "defaults |solid=, |blocklight= and |blockmove= to 0"
+    ],
+    "portal": [
+      "defaults |solid=, |blocklight= and |blockmove= to 0"
+    ],
+    "cobweb": [
+      "defaults |blockmove= to 1",
+      "The parameter |piston= can be set to determine the interaction when a piston pushes the block. Options are as follows:"
+    ]
+  }
+}

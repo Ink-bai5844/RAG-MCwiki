@@ -1,0 +1,23 @@
+{
+  "title": "Tutorial:Ubuntu启动脚本",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3AUbuntu%E5%90%AF%E5%8A%A8%E8%84%9A%E6%9C%AC",
+  "structured_content": {
+    "警告": [
+      "因为这是Wiki的一个条目，可以在任何时间内被任何人编辑，因此建议你不要完全使用这个脚本，而是将其当作编写脚本的指导手册看待。",
+      "这是一个简单的Ubuntu服务器启动脚本（也可以在大多数Linux系统上使用）。它没有控制台，不必担心，这并不是一个问题，因为游戏内已经有一个控制台了。该脚本不会更新Minecraft，但在晚些时候会加入这个功能。"
+    ],
+    "先决条件": [
+      "设置一个用户和组，以便不会作为管理员运行。"
+    ],
+    "sudo nano /etc/init/minecraft-server": [
+      "并粘贴下列内容。安装时不要忘记改变“chdir”后面的目录。",
+      "# description \"start and stop the minecraft-server\" start on runlevel [2345] stop on runlevel [^2345] console log chdir YOUR_INSTALLATION_DIRECTORY setuid minecraft setgid minecraft respawn respawn limit 20 5 exec /usr/bin/java -Xms1536M -Xmx2048M -jar minecraft_server.jar nogui",
+      "每行命令解释（注意，该脚本不能使用。）：",
+      "# description \"start and stop the minecraft-server\" <-- 为脚本添加提示 start on runlevel [2345] <-- 告诉 Ubuntu 何时启动服务器。Runlevels 2、3、4、和 5 都是“正常操作”。 stop on runlevel [^2345] <-- 告诉 Ubuntu 何时停止服务器、^ 意思是从不。 console log <-- 登录 chdir YOUR_INSTALLATION_DIRECTORY <-- 将活动目录更改到安装目录 setuid minecraft <-- 设置 UserID 为 “minecraft”（Minecraft 用户） setgid minecraft <-- 设置 GroupID 为 “minecraft”（Minecraft 组） respawn <-- 允许软件遇到严重错误时重启 respawn limit 20 5 <-- 允许软件在5秒内重启20次 exec /usr/bin/java -Xms1536M -Xmx2048M -jar minecraft_server.jar nogui <-- 详见下面... 'exec' > 运行命令 '/usr/bin/java' > 运行 Java。 '-Xms1536M' > 设置最低内存分配限制。 '-Xmx2048M' > 设置内存最高分配限制。 '-jar minecraft-server.jar' > 告诉 Java 运行 minecraft_server.jar 'nogui' > 告诉 minecraft-server.jar 不带 GUI 运行。",
+      "现在安装开始/停止到默认 Runlevels。"
+    ],
+    "遇到问题？": [
+      "使用下列命令检查服务器日志："
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "兔子/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%85%94%E5%AD%90%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n可成长生物共通标签，见Template:Nbt inherit/breedable/source\n动物共通标签，见Template:Nbt inherit/animal/source\n*\n*MoreCarrotTicks：兔子吃胡萝卜植株的冷却时间。当兔子吃下一个胡萝卜植株时，此值被设置为40。此值每游戏刻减少0-2，直到此值降为0，此时兔子才可以继续吃胡萝卜植株。\n*\n*RabbitType：决定兔子的皮肤，同时也影响兔子的行为。可以为0（棕色）、1（白色）、2（黑色）、3（黑白斑点）、4（金黄色）、5（棕白色）和99（杀手兔）。如果设置为其他值，则自动设置为0（棕色）。"
+}

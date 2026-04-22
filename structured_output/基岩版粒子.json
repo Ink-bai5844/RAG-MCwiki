@@ -1,0 +1,303 @@
+{
+  "title": "基岩版粒子",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E7%B2%92%E5%AD%90",
+  "structured_content": {
+    "默认分类": [
+      "关于产生粒子效果的命令，请见“命令/particle”；关于Java版的有关机制，请见“Java版粒子”。",
+      "本条目所述内容仅适用于基岩版。",
+      "此条目需要更新。",
+      "理由：缺失部分基岩版粒子图片、部分基岩版粒子效果描述不准确或错误。"
+    ],
+    "水下粒子效果，包括气泡柱": [
+      "粒子（Particle），也称粒子效果（Particle Effect），是Minecraft中一种特殊的图形效果，在特定事件发生（比如爆炸、降雨、用熔炉进行烧炼）时出现。"
+    ],
+    "定义": [
+      "所有原版的粒子效果都由原版资源包的particles中的JSON文件定义，一个JSON文件定义了一个粒子效果，主要包括一个粒子发射器及其要发射的单个粒子。有的粒子效果在调用需要向其传递特定的上下文或变量。受限于/particle命令无法向其传参（ScriptAPI中则可以完全正常地传参调用），因此某些粒子效果在游戏中无法通过/particle命令正常生成。"
+    ],
+    "行为": [
+      "单个粒子总会以2D的图像显示，并且大多数粒子会以正前方朝向玩家。它们在一段时间后消失，在这段时间内，它们可能静止不动，也可能发生移动，它们可能在多个纹理间循环，也可能随时间发生尺寸缩放、颜色改变、或透明度改变。",
+      "每种粒子类型都有其寿命（Lifetime），从粒子生成开始计时，到达寿命后粒子被移除。有的粒子类型的寿命是在某个范围内的随机数，有的粒子类型的寿命则是固定值。在未到达寿命前，有的粒子也会在特定的条件下消失，如熔岩粒子落入熔岩中会立即消失。",
+      "粒子生成时往往会带有初速度，取决于粒子类型。运动速度可能会受到阻力而逐渐减小，不同粒子类型的阻力大小不同，有的粒子类型不受阻力。一些粒子类型还具有重力，使得Y轴方向的速度随时间不断改变。有的粒子类型具有负的重力，使得粒子向上加速。一些粒子类型具有类似实体的运动碰撞检测，其运动会被方块碰撞箱阻碍。"
+    ],
+    "类型": [
+      "下面列出的是原版资源包中所定义的粒子效果，也是在/particle命令和制作附加包等场景下使用的粒子ID。"
+    ],
+    "basic_bubble_particle": [
+      "实体在水下产生的飞溅粒子，弹射物在水下产生的轨迹粒子。该粒子只能在水中生成和存在。"
+    ],
+    "basic_bubble_particle_manual": [
+      "漂浮在水面上的实体产生的粒子，水下TNT被点燃时的气泡粒子。该粒子只能在水中生成和存在。"
+    ],
+    "bubble_column_bubble": [
+      "气泡柱顶部的实体产生的气泡粒子。该粒子只能在水中生成和存在。"
+    ],
+    "bubble_column_down_particle": [
+      "水下岩浆块的涡流气泡柱。该粒子只能在水中生成和存在。"
+    ],
+    "bubble_column_up_particle": [
+      "水下灵魂沙的涌流气泡柱。该粒子只能在水中生成和存在。"
+    ],
+    "cauldron_bubble_particle": [
+      "炼药锅气泡粒子（该粒子未被使用）。该粒子只能在水中生成和存在。"
+    ],
+    "cauldron_splash_particle": [
+      "炼药锅的杂质粒子（该粒子未被使用）[需要更多信息]。该粒子只能在水中生成和存在。"
+    ],
+    "dolphin_move_particle": [
+      "海豚游泳轨迹粒子。该粒子只能在水中生成和存在。"
+    ],
+    "eye_of_ender_bubble_particle": [
+      "末影之眼在水下运动时的气泡粒子。该粒子只能在水中生成和存在。"
+    ],
+    "fish_hook_particle": [
+      "鱼钩的气泡粒子。该粒子只能在水中生成和存在。"
+    ],
+    "fish_pos_particle": [
+      "钓鱼时鱼的位置产生的气泡粒子。该粒子只能在水中生成和存在。"
+    ],
+    "glow_particle": [
+      "发光鱿鱼的发光粒子。该粒子只能在水中生成和存在。"
+    ],
+    "guardian_attack_particle": [
+      "守卫者激光气泡粒子。该粒子只能在水中生成和存在。"
+    ],
+    "guardian_water_move_particle": [
+      "守卫者水下移动轨迹粒子。该粒子只能在水中生成和存在。"
+    ],
+    "激活音符盒或工作的唱片机产生的音符粒子": [
+      "noxious_gas_particle[实验性玩法“2026 年第 2 次更新”新增：BE 26.20]"
+    ],
+    "rain_splash_particle": [
+      "实验台制作冰弹[仅教育版]时的飞溅粒子；stalactite_water_drip_particle粒子、water_drip_particle粒子、雨水落地后的飞溅粒子。该粒子只能在空气中生成和存在。"
+    ],
+    "sparkler_emitter": [
+      "使用烟花棒[仅教育版]时的粒子。"
+    ],
+    "sponge_absorb_water_particle": [
+      "海绵吸水时的粒子（该粒子未被使用）[需要更多信息]。该粒子只能在水中生成和存在。"
+    ],
+    "squid_flee_particle": [
+      "鱿鱼和发光鱿鱼逃亡时的粒子（该粒子未被使用）[需要更多信息]。该粒子只能在水中生成和存在。"
+    ],
+    "squid_ink_bubble": [
+      "鱿鱼和发光鱿鱼受击时的粒子。该粒子只能在水中生成和存在。"
+    ],
+    "squid_move_particle": [
+      "鱿鱼和发光鱿鱼移动时的粒子（该粒子未被使用）[需要更多信息]。该粒子只能在水中生成和存在。"
+    ],
+    "劫掠兽被击晕时的粒子": [
+      "sulfur_bubble_particle[实验性玩法“2026 年第 2 次更新”新增：BE 26.20]"
+    ],
+    "烈性硫黄在上方的水源方块生成的向上移动的白色气泡": [
+      "sulfur_cube_goo[实验性玩法“2026 年第 2 次更新”新增：BE 26.20]"
+    ],
+    "underwater_torch_particle": [
+      "水下火把[仅教育版]的粒子。该粒子只能在水中生成和存在。"
+    ],
+    "water_splash_particle": [
+      "气泡柱顶部的水花飞溅粒子；用实验台制作冰弹[仅教育版]时的粒子；狼离开水后甩水粒子。该粒子只能在空气中生成和存在。"
+    ],
+    "water_splash_particle_manual": [
+      "水中的实体或鱼钩产生的水花飞溅粒子。该粒子只能在空气中生成和存在。"
+    ],
+    "携带版Alpha": [
+      "0.1.0",
+      "加入了blockcrack、flame、smoke、bubble和watersplash粒子。",
+      "0.3.2",
+      "flame粒子现在会在熔炉上产生。",
+      "0.4.0",
+      "加入了crit和snowballpoof粒子。",
+      "0.5.0",
+      "加入了reddust粒子。",
+      "0.9.0",
+      "build 1",
+      "加入了dripWater、dripLava[需要在基岩版上验证历史]、townaura、heart和portal粒子。",
+      "0.10.0",
+      "build 1",
+      "加入了对应不稳定的沙子和沙砾的fallingdust粒子。",
+      "0.11.0",
+      "build 1",
+      "加入了ink、spell、mobspellinstantaneous、mobspell和waterwake粒子。",
+      "0.12.1",
+      "build 1",
+      "crit粒子现在会在造成暴击时产生。",
+      "portal粒子现在会在下界传送门附近产生。",
+      "加入了villagerangry、largeexplode、hugeexplode粒子、blockdust、slime、enchantingtable、rainsplash和snowshovel粒子。",
+      "build 8",
+      "largeexplode和hugeexplosion粒子现在有了更高的清晰度。",
+      "build 9",
+      "粒子现在能够从水下看见。",
+      "粒子不再会在方块内部变暗。",
+      "0.13.0",
+      "build 1",
+      "粒子不再作为实体处理。",
+      "reddust粒子现在由红石产生。",
+      "加入了villagerhappy和note粒子。",
+      "0.16.0",
+      "build 1"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了endRod[需要在基岩版上验证历史]和dragonbreath粒子。",
+      "1.0.4",
+      "1.0.4.0",
+      "villagerhappy粒子现在会在交易时产生。",
+      "1.0.5",
+      "1.0.5.0",
+      "加入了/particle命令，可用于生成粒子。",
+      "1.0.5.3",
+      "移除了/particle命令。",
+      "1.1.0",
+      "1.1.0.0",
+      "加入了spit和totem粒子。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了fireworksSpark粒子。",
+      "1.5.0",
+      "1.5.0.0",
+      "加入了dolphin粒子。",
+      "1.5.0.1",
+      "加入了nautilus粒子。",
+      "1.5.0.7",
+      "加入了bubble_column_up、bubble_pop和current_down粒子。",
+      "1.6.0",
+      "1.6.0.1",
+      "加入了barrier粒子。",
+      "1.8.0",
+      "1.8.0.8",
+      "重新加入了/particle命令，会暂时生成一个粒子发射器，而不是一个粒子区域。",
+      "粒子现在使用JSON格式进行定义，以支持/particle命令生成粒子。使用JSON格式的粒子包括：basic_flame_particle、basic_render_parameters、basic_smoke_particle、block_destruct、heart_particle、mobflame_emitter、test_beziercurve、test_bounce、test_catmullromcurve、test_colorcurve、test_combocurve、test_highrestitution、test_linearcurve、test_mule、test_smoke_puff、test_sphere、test_spiral、test_watertest。",
+      "加入了sneeze粒子。",
+      "1.9.0",
+      "1.9.0.0",
+      "加入了test_flipbook、test_vertexrandom、balloon_gas_particle、mobspell_emitter、basic_crit_particle、portal_directional、bubble_column_down_particle、portal_east_west、portal_north_south、bubble_column_up_particle、crit_emitter、splash_spell_emitter、end_chest、totem_particle、evocation_fang_particle、water_splash_particle、evoker_spell、water_wake_particle、magnesium_salts_emitter、wither_boss_invulnerable和mob_portal粒子。",
+      "1.9.0.3",
+      "移除了portal_east_west和portal_north_south粒子。",
+      "1.10.0",
+      "1.10.0.3",
+      "加入了basic_bubble_particle、bubble_column_bubble、cauldron_bubble_particle、cauldron_explosion_emitter、cauldron_splash_particle、death_explosion_emitter、dolphin_move_particle、elephant_tooth_paste_vapor_particle、egg_destroy_emitter、explosion_particle、eye_of_ender_bubble_particle、eyeofender_death_explode_particle、fish_hook_particle、fish_pos_particle、guardian_attack_particle、guardian_water_move_particle、ice_evaporation_emitter、ink_emitter、misc_fire_vapor_particle、mob_block_spawn_emitter、silverfish_grief_emitter、sponge_absorb_water_particle、squid_flee_particle、squid_ink_bubble、squid_move_particle、underwater_torch_particle、water_evaporation_actor_emitter和water_evaporation_bucket_emitter粒子。",
+      "重新加入了portal_east_west和portal_north_south粒子。",
+      "粒子现在由原版资源包数据驱动。",
+      "将带有test_前缀的粒子的前缀重命名为example_。",
+      "移除了test_mule和test_sphere粒子。",
+      "1.11.0",
+      "1.11.0.1",
+      "加入了campfire_smoke_particle、campfire_tall_smoke_particle、knockback_roar_particle和stunned_emitter粒子。",
+      "1.12.0",
+      "1.12.0.2",
+      "加入了camera_shoot_explosion、colored_flame_particle、conduit_absorb_particle、conduit_attack_emitter、critical_hit_emitter、dragon_death_explosion_emitter、underwater_torch_particle、dragon_destroy_block、dragon_dying_explosion、enchanting_table_particle、falling_border_dust_particle、falling_dust_concrete_powder_particle、falling_dust_dragon_egg_particle、falling_dust_gravel_particle、falling_dust_red_sand_particle、falling_dust_sand_particlefalling_dust_scaffolding_particle、falling_dust_top_snow_particle、huge_explosion_lab_misc_emitter、huge_explosion_emitter、lab_table_heatblock_dust_particle、lab_table_misc_mystical_particle、large_explosion、lava_particle、llama_spit_smoke、mycelium_dust_particle、obsidian_glow_dust_particle、phantom_trail_particle、redstone_ore_dust_particle、redstone_repeater_dust_particle、redstone_torch_dust_particle、redstone_wire_dust_particle、rising_border_dust_particle和water_drip_particle粒子。",
+      "移除了所有带有example_前缀的粒子。",
+      "1.12.0.6",
+      "加入了basic_bubble_particle_manual和water_splash_particle_manual粒子。",
+      "1.13.0",
+      "1.13.0.1",
+      "加入了breaking_item_icon、breaking_item_terrain、minecraft:dragon_breath_fire、dragon_breath_lingering、dragon_breath_trail和sparkler_emitter粒子。",
+      "1.13.0.16",
+      "加入了conduit_particle、explosion_manual、falling_dust、mobflame_single、totem_manual和water_evaporation_manual粒子。",
+      "1.14.0",
+      "1.14.0.1",
+      "加入了block_slide、honey_drip_particle、nectar_drip_particle粒子。",
+      "1.16.0",
+      "1.16.0.51",
+      "加入了blue_flame_particle粒子。",
+      "1.16.0.57",
+      "加入了obsidian_tear_particle、obsidian_tear_particle、portal_reverse_particle和soul_particle粒子。",
+      "1.16.210",
+      "1.16.210.53",
+      "加入了snowflake_particle粒子。",
+      "1.16.210.56",
+      "加入了vibration_signal和sculk_sensor_redstone_signal粒子。",
+      "1.16.210.59",
+      "加入了glow_particle粒子。",
+      "1.16.210.60",
+      "移除了glow_particle粒子。",
+      "1.16.220",
+      "1.16.220.50",
+      "加入了stalactite_lava_drip_particle和stalactite_water_drip_particle粒子。",
+      "重新加入了glow_particle粒子。",
+      "1.16.220.52",
+      "加入了electric_spark_particle、spore_blossom_ambient_particle、spore_blossom_shower_particle和wax_particle粒子。",
+      "1.17.0",
+      "1.17.0.52",
+      "加入了crop_growth_area_emitter粒子。",
+      "1.17.10",
+      "1.17.10.22",
+      "加入了candle_flame_particle粒子。",
+      "1.18.0",
+      "1.18.0.22",
+      "加入了sculk_soul_particle和shriek_particle粒子。",
+      "1.18.30",
+      "1.18.30.22",
+      "加入了sculk_charge_particle和sculk_charge_pop_particle粒子。",
+      "1.18.30.32",
+      "加入了warden_dig粒子。",
+      "1.19.0",
+      "1.19.0.26",
+      "加入了sonic_explosion粒子。",
+      "1.19.80",
+      "1.19.80.20",
+      "加入了cherry_leaves_particle粒子。",
+      "1.20.50",
+      "1.20.50.20",
+      "加入了dust_plume粒子。",
+      "1.20.50.21",
+      "加入了white_smoke_particle粒子。",
+      "1.21.0"
+    ],
+    "实验性玩法": [
+      "更新 1.21 版",
+      "1.21.0.20",
+      "加入了small_soul_fire_flame、​trial_spawner_detection和​trial_spawner_detection_ominous粒子，属于实验性玩法。",
+      "1.21.0.21",
+      "加入了ominous_spawning_particle、​smash_ground_particle和​smash_ground_particle_center粒子，属于实验性玩法。",
+      "1.21.0",
+      "1.21.0.22",
+      "small_soul_fire_flame、​trial_spawner_detection、​trial_spawner_detection_ominous、​ominous_spawning_particle、​smash_ground_particle和​smash_ground_particle_center粒子不再属于实验性玩法。",
+      "1.21.50",
+      "1.21.50.20",
+      "加入了creaking_heart_trail、​creaking_teardown_body和​creaking_teardown_head粒子。",
+      "1.21.50.24",
+      "加入了mobspell_lingering粒子。",
+      "1.21.50.25",
+      "将creaking_teardown_body和​creaking_teardown_head粒子重命名为creaking_crumble_body和​creaking_crumble_head。",
+      "1.21.50.26",
+      "加入了eyeblossom_close、​eyeblossom_open和​pale_oak_leaves_particle粒子。",
+      "1.21.60",
+      "2025 第一次更新",
+      "1.21.60.25",
+      "加入了azalea_leaves_particle和​biome_tinted_leaves_particle粒子，属于实验性玩法。",
+      "1.21.70",
+      "2025 第一次更新",
+      "1.21.70.20",
+      "加入了firefly_particle粒子，属于实验性玩法。",
+      "1.21.70",
+      "1.21.70.23",
+      "azalea_leaves_particle、​biome_tinted_leaves_particle和​firefly_particle粒子不再属于实验性玩法。",
+      "1.21.80",
+      "1.21.80.20",
+      "加入了magic_critical_hit粒子。",
+      "1.21.111",
+      "1.21.110.23",
+      "加入了green_flame_particle粒子。",
+      "1.21.120",
+      "1.21.120.21",
+      "更改了green_flame_particle粒子的纹理。",
+      "2026 年第 2 次更新",
+      "26.20.23",
+      "加入了noxious_gas_particle、​sulfur_bubble_particle和​sulfur_cube_goo粒子。"
+    ],
+    "基岩版（即将到来）": [
+      "26.20"
+    ],
+    "你知道吗": [
+      "着火的实体在火焰动画处迸出圆形的粒子。"
+    ],
+    "参考": [
+      "MCPE-134079 — 漏洞状态为“报告不完整”。",
+      "MCPE-127604 — 漏洞状态为“有意为之”。"
+    ]
+  }
+}

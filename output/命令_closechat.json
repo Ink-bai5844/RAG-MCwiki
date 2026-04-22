@@ -1,0 +1,5 @@
+{
+  "title": "命令/closechat",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fclosechat",
+  "text": "本条目所述内容仅适用于教育版和​基岩版。\nclosechat\n需要的权限等级\n0\n限制条件\n仅WebSocket服务器\n关闭聊天框界面。\n语法\nclosechat\n结果\n命令\n触发条件\n基岩版\n任意\n聊天框未打开\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n1\n历史\n此章节缺失以下信息：历史\n基岩版\n?\n加入了/closechat。\n导航"
+}

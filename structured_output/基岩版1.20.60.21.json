@@ -1,0 +1,183 @@
+{
+  "title": "基岩版1.20.60.21",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.60.21",
+  "structured_content": {
+    "默认分类": [
+      "1.20.60.21"
+    ],
+    "服务端版本": [
+      "1.20.60.21"
+    ],
+    "版本码": [
+      "Android：",
+      "952006021（armeabi-v7a，33）",
+      "962006021（x86，33）",
+      "972006021（arm64-v8a，33）",
+      "982006021（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS - 2023年11月29日",
+      "ChromeOS/Android - 2023年11月30日"
+    ],
+    "测试版归属": [
+      "1.20.60"
+    ],
+    "协议版本": [
+      "640",
+      "◄◄1.20.51",
+      "1.20.62►►",
+      "◄1.20.60.20",
+      "1.20.60.22►",
+      "beta 1.20.60.21（ChromeOS/Android）、Preview 1.20.60.21（Xbox/Windows/iOS/iPadOS）是基岩版1.20.60的第2个测试版，发布于2023年11月29日至30日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "方块": [
+      "使用带有精准采集魔咒的工具挖掘霜冰后不再会在世界中产生水。",
+      "挖掘海龟蛋、青蛙卵、珊瑚和珊瑚扇时不再会产生双倍数量的粒子效果。",
+      "带有精准采集魔咒的附魔书不再能对蜂箱和蜂巢产生精准采集魔咒的效果。",
+      "现在通过破坏床下方的方块来破坏床时会清除出生点。",
+      "现在挖掘冰、浮冰、霜冰和雪层时会产生振动。",
+      "现在营火被玩家破坏时会正确掉落2个木炭，而不是4个。（MCPE-159894）"
+    ],
+    "蜂巢和蜂箱": [
+      "带有精准采集魔咒的附魔书不再能对其产生精准采集魔咒的效果。"
+    ],
+    "营火": [
+      "将普通营火被破坏后掉落的木炭数量由4个减少至2个。"
+    ],
+    "青金石矿石": [
+      "现在使用不带有时运魔咒的镐挖掘后会最多掉落9个青金石（此前为8个），带有时运III的镐则最多会掉落36个（此前为32个）。"
+    ],
+    "下界金矿石": [
+      "现在使用不带有时运魔咒的镐挖掘后会最多掉落6个金粒（此前为5个），带有时运III的镐则最多会掉落24个（此前为20个）。"
+    ],
+    "铁砧": [
+      "现在在携带版UI下的铁砧UI中的耗费文本拥有了深灰色的背景，以匹配经典UI。"
+    ],
+    "音乐唱片": [
+      "现在在快捷栏中拥有蓝色的名称文本颜色。"
+    ],
+    "常规": [
+      "将resource_packs\\vanilla\\particles中的water_spash_manual.json重命名为water_splash_manual.json。（MCPE-176784）"
+    ],
+    "用户界面": [
+      "更新了好友抽屉式菜单。",
+      "现在会显示在线或离线好友的列表。",
+      "将添加好友按钮更改为搜索玩家。",
+      "现在会显示空白状态以表示没有好友。",
+      "优化了相关的文本转语音功能。",
+      "修复了资源包上的“技术详细信息”按钮无法跳转至技术详细信息界面的问题。",
+      "修复了低分辨率下的信标UI按钮会超出窗口的问题。（MCPE-173649）",
+      "调整了物品栏中的物品的耐久度条，以使其与快捷栏中的物品的耐久度条相匹配。（MCPE-128532）",
+      "调整了携带版UI下的铁砧UI中的耗费文本，以匹配经典UI。（MCPE-101740）",
+      "音乐唱片现在拥有与附魔物品相同的名称文本颜色。（MCPE-109471）"
+    ],
+    "附加包和脚本引擎": [
+      "为3D方块光标加入了Project Through Liquid属性。",
+      "加入了CursorPropertiesChangeAfterEvent，用以在光标属性被更改时通知编辑器。",
+      "流浪商人现在会在其交易菜单中正确显示自定义实体刷怪蛋。（MCPE-170184）"
+    ],
+    "AI意向": [
+      "对于使用引擎版本为1.20.60或更高版本的内容，behavior.breed现在会在停止时中断寻路。"
+    ],
+    "API": [
+      "将DataDrivenEntityTriggerAfterEvent由beta开放至1.8.0。",
+      "将DataDrivenEntityTriggerAfterEventSignal由beta开放至1.8.0。",
+      "将DataDrivenEntityTriggerAfterEventSignalOptions由beta开放至1.8.0。",
+      "将DefinitionModifier由beta开放至1.8.0。",
+      "将WorldAfterEvents.dataDrivenEntityTrigger由beta开放至1.8.0。",
+      "将EffectAddBeforeEvent由beta移动至1.8.0。",
+      "将EffectAddAfterEvent由beta移动至1.8.0。",
+      "将getTags由beta移动至1.8.0。",
+      "将hasTag由beta移动至1.8.0。",
+      "RGBA接口现在继承自RGB。",
+      "修复了世界在脚本监视器错误期间无法正确关闭和断开客户端连接的问题。",
+      "更新了SimulatedPlayer以使其可以持续进行构建。",
+      "更新了SimulatedPlayer以使其可以在不同方向上移动和观察。"
+    ],
+    "生物群系": [
+      "生物群系JSON文件不再支持从其他生物群系JSON文件继承字段。",
+      "受此更改影响的内容可通过复制所需JSON文本来更新文件。"
+    ],
+    "组件": [
+      "entity_sensor组件现在支持多个“子检测器”：",
+      "event、​require_all、​minimum_count、​maximum_count、​range和​event_filter现在是每个子检测器可单独配置的字段。",
+      "子检测器拥有新的字段cooldown，用以定义每个子检测器检测实体的频率。",
+      "上述更改均要求format_version为1.20.60或更高版本。"
+    ],
+    "基岩版编辑器": [
+      "修复了CompoundBlockVolumeIterator会在部分CompoundBlockVolume配置中移除额外方块位置的添加的问题。",
+      "更新了使用状态菜单的世界选项菜单中的暂停活动对象。",
+      "为工具轨道加入了工具分组的支持。",
+      "为ExtensionOptionalParametersAPI加入了toolGroupId属性。",
+      "用于管理扩展中创建的工具。",
+      "为ExtensionAPI加入了name、​description、​notes和​defaultToolGroupId属性。",
+      "为ExtensionContext加入了extensionInfo: Extension属性，并移除了extensionName属性。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器is_panicking。",
+      "用于检查实体是否在执行behavior.panic。",
+      "加入了新的实体过滤器is_sprinting。",
+      "用于检查实体是否在疾跑。"
+    ],
+    "Molang": [
+      "改进了所计算的Molang表达式导致错误时出现的内容日志错误的上下文。"
+    ],
+    "性能与稳定性": [
+      "StartGamePacket方块属性中的方块现在均需要block_id。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "雕纹铜块": [
+      "现在可由对应的切制铜块在切石机中切成。（MCPE-176595）"
+    ],
+    "铜格栅": [
+      "现在可以含水。（MCPE-176379）",
+      "被涂蜡时不再会转变为涂蜡的铜块。（MCPE-176373）"
+    ],
+    "图形": [
+      "修复了延迟渲染预览功能中的纹理深度冲突问题。",
+      "加入了体积雾和光轴渲染，开启延迟渲染预览功能后可用。",
+      "模拟光线在空气中传播时发生的散射，进而产生更加真实的迷雾，以及更好的场景深度感。",
+      "对接了迷雾和功能域在资源包中现有的数据驱动功能，以便于创作者在各种条件下自定义迷雾的观感。",
+      "修复了在开启“改进的输入响应”选项的情况下，从水中离开后会出现不正确的方块光照的问题。（MCPE-175727）"
+    ],
+    "ChatSendAfter和​ChatSendBeforeEvent": [
+      "将message和​sender更改为只读属性。",
+      "移除了setTargets、​getTargets和​sendToTargets，并将它们替换为可选的玩家列表属性targets。"
+    ],
+    "ItemDurabilityComponent类": [
+      "将unbreaking重命名为unbreakingEnchantmentLevel。",
+      "将getDamageRange重命名为getDamageChanceRange。"
+    ],
+    "EntityTypes": [
+      "将getAll返回类型由EntityTypeIterator更改为EntityType[]。"
+    ],
+    "EntityEquippableComponent": [
+      "修复了before事件处理程序中无法调用getEquipment和​getEquipmentSlot函数的问题。",
+      "修复了ItemStack被清除词缀文本后无法堆叠的漏洞。"
+    ],
+    "自定义触摸控制": [
+      "修复了使用非触摸控制的控制方式退出自定义触摸控制界面时，快捷栏会消失不见的问题。"
+    ],
+    "游戏内容": [
+      "连续放置方块时，台阶和楼梯不再会随机在下半部分开始放置。（MCPE-54855）",
+      "现在除游戏基版本低于1.20.60的世界外，被骑乘的马、驴、骡及其骑乘者可以受到摔落伤害。（MCPE-107031）"
+    ],
+    "原版趋同": [
+      "现在使用不带有时运魔咒的镐挖掘下界金矿石后会最多掉落6个金粒（此前为5个），带有时运III的镐则最多会掉落24个（此前为20个）。",
+      "现在使用不带有时运魔咒的镐挖掘青金石矿石后会最多掉落9个青金石（此前为8个），带有时运III的镐则最多会掉落36个（此前为32个）。"
+    ],
+    "输入": [
+      "修复了在移动设备上只使用键盘时无法操控物品栏的问题。",
+      "修复了在触控模式下使用键盘时无法拆分物品堆叠的问题。"
+    ],
+    "加载屏幕": [
+      "加载屏幕现在会根据玩家的游戏进度显示3种类别的提示。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.60.21 — Minecraft Feedback，2023年11月29日。",
+      "https://learn.microsoft.com/en-us/minecraft/creator/documents/deferredlighting?view=minecraft-bedrock-stable"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "title": "毒马铃薯块",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%AF%92%E9%A9%AC%E9%93%83%E8%96%AF%E5%9D%97",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。"
+    ],
+    "硬度": [
+      "毒马铃薯块：0.2",
+      "压缩毒马铃薯块：1.8",
+      "二重压缩毒马铃薯块：16.2",
+      "三重压缩毒马铃薯块：145.8",
+      "四重压缩毒马铃薯块：1312.2",
+      "0.2",
+      "1.8",
+      "16.2",
+      "145.8",
+      "1312.2"
+    ],
+    "爆炸抗性": [
+      "毒马铃薯块：0.2",
+      "压缩毒马铃薯块：1.8",
+      "二重压缩毒马铃薯块：16.2",
+      "三重压缩毒马铃薯块：145.8",
+      "四重压缩毒马铃薯块：1312.2"
+    ],
+    "地图基色": [
+      "毒马铃薯块：",
+      "#7FB238",
+      "压缩毒马铃薯块：",
+      "#D87F33",
+      "二重压缩毒马铃薯块：",
+      "#9F5224",
+      "三重压缩毒马铃薯块：",
+      "#251610",
+      "四重压缩毒马铃薯块：",
+      "#191919"
+    ],
+    "方块ID": [
+      "毒马铃薯块：poisonous_potato_block",
+      "压缩毒马铃薯块：compressed_poisonous_potato_block",
+      "二重压缩毒马铃薯块：double_compressed_poisonous_potato_block",
+      "三重压缩毒马铃薯块：triple_compressed_poisonous_potato_block",
+      "四重压缩毒马铃薯块：quadruple_compressed_poisonous_potato_block"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "物品ID": [
+      "毒马铃薯块：poisonous_potato_block",
+      "压缩毒马铃薯块：compressed_poisonous_potato_block",
+      "二重压缩毒马铃薯块：double_compressed_poisonous_potato_block",
+      "三重压缩毒马铃薯块：triple_compressed_poisonous_potato_block",
+      "四重压缩毒马铃薯块：quadruple_compressed_poisonous_potato_block",
+      "毒马铃薯块（Poisonous Potato Block）是用9个毒马铃薯合成的方块，用于储存毒马铃薯。",
+      "压缩毒马铃薯块（Compressed Poisonous Potato Block）、二重压缩毒马铃薯块（Double Compressed Poisonous Potato Block）、三重压缩毒马铃薯块（Triple Compressed Poisonous Potato Block）、四重压缩毒马铃薯块（Quadruple Compressed Poisonous Potato Block）是毒马铃薯块的压缩变种，分别是由9个前一变种合成的方块。"
+    ],
+    "生成": [
+      "毒马铃薯块会作为马铃薯晶洞的一部分生成。"
+    ],
+    "[[|]]": [
+      "[[|]]99999"
+    ],
+    "破坏": [
+      "挖掘毒马铃薯块的合适工具是镐。"
+    ],
+    "徒手": [
+      "0.3",
+      "2.7",
+      "24.3",
+      "218.7",
+      "1968.3"
+    ],
+    "木质": [
+      "0.15",
+      "1.35",
+      "12.15",
+      "109.35",
+      "984.15"
+    ],
+    "石质": [
+      "0.1",
+      "0.7",
+      "6.1",
+      "54.7",
+      "492.1"
+    ],
+    "铁质": [
+      "0.05",
+      "0.45",
+      "4.05",
+      "36.45",
+      "328.05"
+    ],
+    "钻石质": [
+      "0.05",
+      "0.35",
+      "3.05",
+      "27.35",
+      "246.05"
+    ],
+    "下界合金质": [
+      "0.05",
+      "0.3",
+      "2.7",
+      "24.3",
+      "218.7"
+    ],
+    "金质": [
+      "0.05",
+      "0.25",
+      "2.05",
+      "18.25",
+      "164.05"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "毒马铃薯块被破坏后会掉落自身。"
+    ],
+    "削皮": [
+      "对毒马铃薯块（不包括其压缩变种）使用马铃薯削皮刀可以分解出9个毒马铃薯，并在原地留下一个普通马铃薯皮方块。"
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "破坏方块": [
+      "nothingtoseeheremovealong:block.potone.break"
+    ],
+    "无": [
+      "方块：损坏中"
+    ],
+    "带有摔落伤害时摔落在方块上": [
+      "nothingtoseeheremovealong:block.potone.fall"
+    ],
+    "挖掘方块": [
+      "nothingtoseeheremovealong:block.potone.hit"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "放置方块": [
+      "nothingtoseeheremovealong:block.potone.place"
+    ],
+    "在方块上行走": [
+      "nothingtoseeheremovealong:block.potone.step"
+    ],
+    "subtitles.block.generic.footsteps": [
+      "MC-177082"
+    ],
+    "你知道吗": [
+      "合成1个四重压缩毒马铃薯块需要59049个毒马铃薯。"
+    ]
+  }
+}

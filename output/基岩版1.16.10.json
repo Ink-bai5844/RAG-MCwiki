@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.16.10",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.16.10",
+  "text": "提示：本条目的主题不是基岩版1.16.1或基岩版1.16.100。\n1.16.10\n版本\n基岩版\n服务端版本\n1.16.10.02\n内部版本号\nAndroid: 1.16.10.02\nWindows 10: 1.16.1002.0\n版本码\nAndroid（试玩版本）：\n941161002（armeabi-v7a，28）\n943161002（arm64-v8a，28）\nAndroid（主版本）：\n941161002（armeabi-v7a，28）\n942161002（x86，28）\n943161002（arm64-v8a，28）\n944161002（x86_64，28）\niOS/iPadOS：\n836750955\n发布时间\nAndroid、iOS、Gear VR、Windows 10、Windows 10 Mobile：2020年7月21日\n下载\n服务端\nWindows\n协议版本\n407\n◄◄1.16.0\n1.17.0►►\n◄1.16.1.04\n1.16.20►\n1.16.10是基岩版的一次次要更新，发布于2020年7月21日。此次更新为不推荐使用的设备增加了一个警告，并修复了一个移动设备上的漏洞。\n新内容\n常规\n不受支持设备的提示信息\n为较旧的设备加入了一条提示信息，以提醒用户其设备将不再受支持。其中包括RAM低于768MB的Android设备、iOS系统版本为10或更低的设备、GearVR、Windows 10 Mobile以及显卡版本为Direct X 10.1或更低的Windows 10设备。\n修复\n修复了手机设备上交易界面的交易槽损坏的问题。\n参考\nMinecraft - 1.16.10 (Bedrock) — Minecraft Feedback，2020年7月21日。\nImportant News Regarding Minecraft Mobile — Minecraft.net，2020年7月8日。[失效链接]\n导航"
+}

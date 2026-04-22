@@ -1,0 +1,5 @@
+{
+  "title": "命令/globalpause",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fglobalpause",
+  "text": "此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\n本条目所述内容仅适用于教育版。\nglobalpause\n是否可见\n隐藏\n需要的权限等级\n3\n限制条件\n不在命令方块上执行\n启用作弊\n为全体玩家设置是否全局暂停游戏。\n语法\nglobalpause [isPaused: Boolean]\n参数\nisPaused: Boolean：enum\n指定游戏是否全局暂停。\n若未指定，则查询游戏的全局暂停状态。\n必须为 布尔值（true或false）。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n历史\n教育版\n?\n加入了/globalpause命令。\n导航"
+}

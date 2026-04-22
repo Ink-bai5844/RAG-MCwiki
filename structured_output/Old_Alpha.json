@@ -1,0 +1,16 @@
+{
+  "title": "Old Alpha",
+  "source_url": "https://zh.minecraft.wiki/w/Old_Alpha",
+  "structured_content": {
+    "默认分类": [
+      "Java版pre-Classic，Minecraft的第一个内部测试阶段。",
+      "Java版Classic，原本被命名为\"Minecraft Alpha\"。",
+      "Java版Indev，当时Minecraft处于“in development（开发中，缩写为Indev）”阶段。",
+      "Java版Infdev，无限世界生成开发阶段。",
+      "Java版Alpha，在Java版Beta前的Minecraft开发阶段。"
+    ],
+    "参考": [
+      "MCL-9589 — 漏洞状态为“不予修复”。"
+    ]
+  }
+}

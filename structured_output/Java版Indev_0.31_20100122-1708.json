@@ -1,0 +1,33 @@
+{
+  "title": "Java版Indev 0.31 20100122-1708",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100122-1708",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月22日"
+    ],
+    "al_version": [
+      "1.042",
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100114",
+      "0.31 20100122-2251►",
+      "0.31的一个版本发布于2010年1月22日17:08（UTC），更改了浮岛世界类型的生成。"
+    ],
+    "浮岛世界类型": [
+      "现在会罕见地生成水。"
+    ],
+    "参考": [
+      "IRC logs, Adura.7z (UTC−5)",
+      "Adura的IRC记录: \"(12:09:08) <Notch> I think the level generator can create water on floating maps now ;D\""
+    ]
+  }
+}

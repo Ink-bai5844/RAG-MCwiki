@@ -1,0 +1,5 @@
+{
+  "title": "教育版1.14.40",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.14.40",
+  "text": "1.14.40\n版本\n教育版\n内部版本号\nChromeOS: 1.14.40.0\n类型\n测试版\n发布时间\n2020年10月14日\n测试版归属\n1.14.50\n协议版本\n391\n◄◄1.14.32\n1.14.70►►\n1.14.40是教育版1.14.50的一个开发版本，加入了新的Learn to Code特性。\n新内容\n常规\n代码界面\n新的Python代码界面（IDE）使用笔记本样式，并可以在教学指导和写代码的尝试机会中切换。\n更改\n常规\n代码构建器\n重新构建菜单，为编码提供更多空间，菜单选项更容易理解。\n“Home”和“Reset Editor”按钮已添加到“Code Builder”菜单中。\n图书馆更新\nMac和iPad用户现在可以通过谷歌教室或电子邮件分享或分配图书馆课程。\n允许URL列表\n所有身份验证目前都使用*.minecrafteduservices.com完成。\n修复\n修复了部分已知漏洞。\n参考\nFeature Walkthrough Minecraft: Education Edition Learn to Code Beta (Version 1.14.40)（存档） — educommunity.minecraft.net。\n导航"
+}

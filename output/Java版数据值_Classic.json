@@ -1,0 +1,5 @@
+{
+  "title": "Java版数据值/Classic",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC%2FClassic",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\nClassic和Indev中的方块和物品列表\n以下这些数据值适用于在Minecraft Classic的世界中放下的方块。由于Minecraft Classic之后的版本大量增加了方块的数量，并且移除或重新使用了方块ID，Minecraft Classic拥有自己的列表。带有亮蓝色ID的物品无法以正常方式在游戏中在玩家的物品栏中得到。\n方块ID\n图标\nDec\nHex\n方块\n0\n空气\n1\n石头\n2\n草方块\n3\n泥土\n4\n圆石\n5\n木板\n6\n树苗\n7\n基岩\n8\n流动的水\n9\n静止的水\n10\nA\n流动的熔岩\n11\nB\n静止的熔岩\n12\nC\n沙子\n13\nD\n沙砾\n14\nE\n金矿石\n15\nF\n铁矿石\n图标\nDec\nHex\n方块\n16\n10\n煤矿石\n17\n11\n木头\n18\n12\n树叶\n19\n13\n海绵\n20\n14\n玻璃\n21\n15\n红色布料\n22\n16\n橙色布料\n23\n17\n黄色布料\n24\n18\n浅黄色布料\n25\n19\n绿色布料\n26\n1A\n春绿色布料\n27\n1B\n青色布料\n28\n1C\n卡布里蓝色布料\n29\n1D\n紫色布料\n30\n1E\n群青色布料\n31\n1F\n紫罗兰色布料\n图标\nDec\nHex\n方块\n32\n20\n品红色布料\n33\n21\n玫红色布料\n34\n22\n深灰色布料\n35\n23\n浅灰色布料\n36\n24\n白色布料\n37\n25\n蒲公英\n38\n26\n玫瑰\n39\n27\n棕色蘑菇\n40\n28\n红色蘑菇\n41\n29\n金块\n42\n2A\n铁块\n43\n2B\n双石台阶\n44\n2C\n台阶\n45\n2D\n红砖\n46\n2E\nTNT\n47\n2F\n书架\n图标\nDec\nHex\n方块\n48\n30\n苔石\n49\n31\n黑曜石\n导航"
+}

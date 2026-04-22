@@ -1,0 +1,42 @@
+{
+  "title": "原主机版TU50、CU40、1.43、Patch 19",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU50%E3%80%81CU40%E3%80%811.43%E3%80%81Patch_19",
+  "structured_content": {
+    "默认分类": [
+      "TU50"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.8.1323.0",
+      "1.8.1323.0"
+    ],
+    "发布时间": [
+      "2017年3月14日",
+      "◄TU49",
+      "TU51►",
+      "CU40",
+      "2017年3月8日",
+      "◄CU39",
+      "CU41►",
+      "1.43",
+      "2017年3月3日",
+      "◄1.42",
+      "1.44►",
+      "Patch 19",
+      "2017年3月8日",
+      "◄Patch 18",
+      "Patch 20►",
+      "TU50/CU40/1.43/Patch 19是原主机版的一次更新，发布于2017年3月3日至14日期间，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了4个漏洞"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

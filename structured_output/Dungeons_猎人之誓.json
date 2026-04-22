@@ -1,0 +1,60 @@
+{
+  "title": "Dungeons:猎人之誓",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E7%8C%8E%E4%BA%BA%E4%B9%8B%E8%AA%93",
+  "structured_content": {
+    "力量": [
+      "4"
+    ],
+    "速度": [
+      "3"
+    ],
+    "弹药上限": [
+      "7"
+    ],
+    "存档ID": [
+      "HuntingBow_Unique1",
+      "这把附魔的弓加深了猎人与他们信赖的动物伙伴之间的友谊。"
+    ],
+    "——物品描述": [
+      "猎人之誓（Hunter's Promise）是Minecraft Dungeons中的远程武器。它是猎手弓的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "下界要塞": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "猎人之誓拥有低力量，速度和弹药上限。长按射击键不放可以进行蓄力射击。初始弹药数为80。"
+    ],
+    "伤害值": [
+      "110",
+      "1253-3132"
+    ],
+    "装备": [
+      "sfx_item_huntingBowUnique1Place"
+    ],
+    "拾取": [
+      "sfx_item_huntingBowUnique1PickUp"
+    ],
+    "掉落": [
+      "sfx_item_huntingBowUnique1Land"
+    ],
+    "击中物体": [
+      "sfx_item_huntingBowUnique1ArrowImpactNormal"
+    ],
+    "击中物体（新）": [
+      "sfx_item_huntingBowArrowUnique1ImpactNormal_Updated"
+    ],
+    "箭矢破风声": [
+      "sfx_item_huntingBowUnique1ArrowWhoosh"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了猎人之誓。"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Earth:华丽羽毛",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E5%8D%8E%E4%B8%BD%E7%BE%BD%E6%AF%9B",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "?": [
+      "华丽羽毛（Fancy Feather）是华丽鸡在死亡时掉落的一种物品。"
+    ],
+    "掉落": [
+      "华丽鸡被杀死时会掉落0-2个华丽羽毛。"
+    ],
+    "Minecraft Earth": [
+      "0.25.0",
+      "加入了华丽羽毛。"
+    ]
+  }
+}

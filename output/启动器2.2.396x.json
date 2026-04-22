@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.2.396x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.396x",
+  "text": "2.2.396x\n程序类型\nMinecraft启动器\n发布时间\n2021年8月2日\n◄◄2.2.355x\n2.2.551x►►\n2.2.3965（Windows）、2.2.3964（macOS）或2.2.3963（Linux）是一次启动器更新，发布于2021年8月2日。\n修复\nMCL-16943 - 无法保存/复制皮肤。\nMCL-17454 - 不能把皮肤添加到皮肤库中。\nMCL-17557 - 按住⊞ Windows键的同时点击启动器顶部按钮时会出现问题。\nMCL-18214 - 启动器不能工作，日志中显示Sorry, something went terribly wrong and you probably encountered a bug。\nMCL-18501 - 在完成账户迁移后加载界面下方的迁移提示仍然会显示。\nMCL-19193 - 无法更换皮肤。\n导航"
+}

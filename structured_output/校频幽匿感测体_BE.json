@@ -1,0 +1,14 @@
+{
+  "title": "校频幽匿感测体/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%A0%A1%E9%A2%91%E5%B9%BD%E5%8C%BF%E6%84%9F%E6%B5%8B%E4%BD%93%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source"
+    ],
+    "*": [
+      "*last_vibration_frequency：上次触发校频幽匿感测体的游戏事件的振动频率，用于记录模拟信号输出。",
+      "*listener：振动监听器的数据。",
+      "振动监听器，见Template:Nbt inherit/vibration listener/source"
+    ]
+  }
+}

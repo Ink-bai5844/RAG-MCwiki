@@ -1,0 +1,39 @@
+{
+  "title": "Dungeons:幽灵亲和者",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%B9%BD%E7%81%B5%E4%BA%B2%E5%92%8C%E8%80%85",
+  "structured_content": {
+    "存档ID": [
+      "GhostArmor_Unique1",
+      "诡异的火焰会随穿戴者身形而贴身变化。"
+    ],
+    "——物品描述": [
+      "幽灵亲和者（Ghost Kindler）是Minecraft Dungeons中的盔甲，品质为独特。它是幽灵盔甲的变种。"
+    ],
+    "获取": [
+      "远古生物："
+    ],
+    "？？？？？": [
+      "其他："
+    ],
+    "翻滚时短暂获得幽灵形态": [
+      "30% 概率抵消伤害"
+    ],
+    "生命值": [
+      "113",
+      "6991"
+    ],
+    "掉落": [
+      "D2P2_sfx_item_ghostArmorUnique1Drop"
+    ],
+    "拾取": [
+      "D2P2_sfx_item_ghostArmorUnique1Pickup"
+    ],
+    "装备": [
+      "D2P2_sfx_item_ghostArmorUnique1Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.4.3.0",
+      "加入了幽灵亲和者。"
+    ]
+  }
+}

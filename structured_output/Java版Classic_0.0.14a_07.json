@@ -1,0 +1,33 @@
+{
+  "title": "Java版Classic 0.0.14a 07",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.14a_07",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.14a_07"
+    ],
+    "发布时间": [
+      "2009年5月28日"
+    ],
+    "al_version": [
+      "5.34",
+      "5.35",
+      "◄◄0.0.14a",
+      "0.0.15a►►",
+      "◄0.0.14a_06",
+      "0.0.14a_08►",
+      "0.0.14a_07是Java版的一次更新，发布于2009年5月28日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了一个有关鼠标移动的漏洞。"
+    ],
+    "参考": [
+      "IRC logs, #minecraft.20090528.log (May 28, 2009, UTC+2)",
+      "IRC logs: \"(20:31:18) <@notch> mezo: _07 is up now.. does it work NOW?\", \"(20:31:52) <mezo> IT IS FIXED\" [...] \"(20:32:25) <mezo> it's not coming loose at all either\" (18:31 to 18:32 UTC)",
+      "https://www.deviantart.com/thewafer/art/Minecraft-Water-Lava-Spiral-128137542"
+    ]
+  }
+}

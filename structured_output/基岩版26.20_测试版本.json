@@ -1,0 +1,814 @@
+{
+  "title": "基岩版26.20/测试版本",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.20%2F%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了基岩版26.20的测试版本。",
+      "26.20.20",
+      "beta 26.20.20（ChromeOS/Android）、Preview 26.20.20（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的首个测试版，发布于2026年3月10日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "方块": [
+      "修复了带有物品锁定组件的物品能够放入花盆的问题。（MCPE-184636）",
+      "对于大于等于1.26.20的format_version，现在没有在基础的components对象中定义permutations时，minecraft:redstone_producer组件也无法在permutations数组中定义。（MCPE-234647）",
+      "移除了未定义minecraft:redstone_producer组件中的strongly_powered_face可选属性时的警告消息。（MCPE-234635）",
+      "带有物品图标的自定义方块现在会在/setblock命令中正确显示图标。（MCPE-235787）",
+      "为带有minecraft:multi_block特征的方块修复了minecraft:placement_filter的问题。",
+      "现在没有为minecraft:destruction_particles中的texture字段指定值时，会使用来自minecraft:material_instances的down或*而非泥土纹理。（MCPE-234708）",
+      "修复了带有minecraft:tick组件的自定义方块在通过结构放置时会进行超出预期的滴答的问题。（MCPE-236362）",
+      "修复了minecraft:block_placer组件的replace_block_item属性的问题。方块现在会正确使用覆写的方块物品。（MCPE-236314）",
+      "修复了花盆中版本为1.26.20+的使用flower_pottable的自定义方块的Y偏移量，以匹配原版方块。（MCPE-234585）",
+      "重新启用了1.26.10测试版本期间测试的方块模式解析更新。",
+      "自定义方块JSON API现在有以下更改，可能会影响格式版本为1.26.20及以上的方块JSON的加载。",
+      "现在当minecraft:block_placer组件定义为设置为true的replace_block_item时，选取方块操作会给予花盆中的物品。（MCPE-234586）",
+      "修复了使用转换组件按比例缩放的大型几何结构的验证问题。（MCPE-236317）",
+      "使用骨粉生成高海草时，高海草不再会被破坏。（MCPE-112509）",
+      "骨粉不再能在其他植物上方生成高海草的上半部分。（MCPE-224063）",
+      "自定义方块被干海带块等小部分方块遮挡时不再会有较暗的着色。（MCPE-236304）",
+      "现在使用不带有geometry的flower_pottable且未使用minecraft:material_instances组件的方块会生成内容日志错误。（MCPE-234599）",
+      "为minecraft:precipitation_interactions组件中的precipitation_behavior加入了snow_log_no_collision行为。",
+      "此行为允许创作者指定雪是否应该覆盖自定义方块。",
+      "修复了minecraft:multi_block特征无法使用现代方块定义加载器正确加载的问题。",
+      "现在缺失menu_category的方块再次会被正确接受，而不是给出错误：Menu Category should not have an empty value。",
+      "修复了在树叶上放置的树叶会立即枯萎的问题。（MCPE-237327）",
+      "对着苔藓块使用骨粉时，与苔藓块相连的磨制闪长岩、磨制安山岩和磨制花岗岩不再会被替换为苔藓块。（MCPE-129262、MCPE-189928）",
+      "修复了minecraft:item_visual和​minecraft:embedded_visual方块组件相关的纹理变种的内容日志警告问题。",
+      "为minecraft:item_visual组件加入了尝试使用变种纹理的内容日志警告。纹理变种不受此组件支持。",
+      "现在当Y坐标超过16的限制时，minecraft:selection_box组件再次会正确给出错误。",
+      "修复了方块置换中的原tag:项会在升级到格式版本1.26.20时被静默丢弃的问题，这可能导致依赖于置换特定标签的脚本失败。",
+      "replace_block_item设置为true的物品不再会将花盆中种植的方块取出。（MCPE-237222）",
+      "修复了minecraft:replaceable与多部分方块的所有部分配合使用时的问题。同时此组件也不再能在permutations数组中定义，仅允许在基础的components对象中定义。",
+      "修复了使用minecraft:random_offset的多部分方块的选择轮廓问题。同时多部分方块的minecraft:random_offset也不再能在permutations数组中定义，仅允许在基础的components对象中定义。（MCPE-237071）",
+      "修复了minecraft:placement_filter不会对具有minecraft:multi_block特征的方块生效的问题。（MCPE-237498）",
+      "没有minecraft:selection_box组件的多部分方块现在默认为每个部分使用完整方块的轮廓形状。（MCPE-237089）",
+      "现在潜行时只能将方块放置在花盆上方。（MCPE-237222）",
+      "修复了手持盔甲与唱片机或堆肥桶交互时会创建幽灵物品的问题。（MCPE-227535）"
+    ],
+    "音符盒": [
+      "现在放置在切制铜台阶、切制铜楼梯及其氧化和涂蜡变种上的音符盒会发出小号的音色，而非竖琴/钢琴。",
+      "小号音色会随着氧化程度的不同而改变。"
+    ],
+    "高草丛": [
+      "现在对草方块使用骨粉时有概率生成高草丛。"
+    ],
+    "物品": [
+      "item_lock模式设置为lock_in_inventory或lock_in_slot不再可以放置在展示架中。（MCPE-230341）",
+      "修复了选取方块会覆盖快捷栏中带有item_lock的物品的问题。（MCPE-152556）",
+      "被金蒲公英阻止生长的幼年生物被喂食其他物品时不再会显示绿色粒子。",
+      "现在火把的配方可以通过获得木棍、煤炭、木炭或任意类型的镐来解锁。",
+      "新的1.26.10附着物现在使用新的渲染控制器controller.render.armor.v2，而不是更新后的controller.render.armor。修复了部分创作者内容的自定义盔甲不会正确渲染的问题。",
+      "修复了熔炉配方分类问题，因此使用带有replace_block_item的minecraft:block_placer的物品现在会被正确地视为方块配方。（MCPE-236444）",
+      "现在金蒲公英成长粒子会在生物上方产生，而不是在生物内部产生。",
+      "加入了用于硫方怪物理测定和吸收的标签。",
+      "minecraft:sulfur_cube_archetype_bouncy",
+      "minecraft:sulfur_cube_archetype_regular",
+      "minecraft:sulfur_cube_archetype_slow_flat",
+      "minecraft:sulfur_cube_archetype_fast_flat",
+      "minecraft:sulfur_cube_archetype_light",
+      "minecraft:sulfur_cube_archetype_fast_sliding",
+      "minecraft:sulfur_cube_archetype_slow_sliding",
+      "minecraft:sulfur_cube_archetype_sticky",
+      "minecraft:sulfur_cube_archetype_high_resistance"
+    ],
+    "锁链头盔": [
+      "更改了幼年人形生物穿戴的锁链头盔的顶部纹理，增加了镂空部分。"
+    ],
+    "生物": [
+      "修复了自定义生物的summon_cap会被忽略的问题。",
+      "现在幼年鱿鱼的边界箱会正确限制该生物。",
+      "现在幼年海龟拥有游泳动画。",
+      "现在幼年发光鱿鱼的边界箱会正确限制该生物。",
+      "幼年炽足兽不再会在地面上飘浮。（MCPE-236393）",
+      "现在村民走向工作站点方块时会以正确的速度移动。（MCPE-236656）",
+      "修复了幼年僵尸猪灵的鼻子纹理朝向前方的问题。",
+      "修复了兔子头部纹理下方会有一条线的问题。",
+      "去除了幼年温带猪纹理中的多余像素。",
+      "修正了幼年疣猪兽的鬃毛纹理，以使其分布于两侧。",
+      "更新了幼年棕色的熊猫的纹理，以使其与成年个体更加一致。",
+      "去除了幼年熊猫的头部后面的黑色条纹。",
+      "修正了幼年山羊和幼年嗅探兽的底部纹理，以使其与成年个体保持一致。",
+      "修复了幼年海豚的头部后面会有不一致的像素的问题。",
+      "更新了幼年生物穿戴的锁链头盔的顶部，以匹配成年个体。",
+      "现在生物会在接触到黏液块和床后正确弹跳，而不是在碰到前就在半空中弹跳。",
+      "现在生物在黏液块和床上弹跳时会发出频率为2的振动。",
+      "更新了幼年白色狐狸睡觉时的纹理：眼睛现在是深蓝色的，以匹配成年狐狸睡觉时的纹理。（MCPE-236972）",
+      "幼年僵尸骑乘幼年生物时不再会飘浮。",
+      "现在兔子被拴住时会禁用空闲动画。",
+      "现在幼年狼坐下时其后腿会正确地旋转。",
+      "修复了slime（史莱姆）族生物的弹跳动画会突然中断的问题。",
+      "调整了幼年骆驼的碰撞箱，以匹配其几何模型。（MCPE-236077）",
+      "现在人形幼年生物胸甲模型会在生物身上居中。",
+      "修复了应用具有较旧引擎版本的包时，活动对象纹理无法正确加载的问题。",
+      "大师级的图书管理员不再会出售命名牌，而是会出售红色蜡烛或黄色蜡烛。（MCPE-237281）",
+      "现在劫掠兽会在碰到树叶方块和农作物时将它们摧毁，并且不再会摧毁花或植物，以匹配Java版中的行为。（MCPE-169375）",
+      "修复了玩家摩擦力不会为较旧内容重置的问题。"
+    ],
+    "山羊和嗅探兽": [
+      "增加了幼年个体身体内部的纹理细节。"
+    ],
+    "疣猪兽": [
+      "更改了幼年个体的纹理，现在其背部的鬃毛纹理分布于两侧而非单侧。"
+    ],
+    "熊猫和海豚": [
+      "更改了幼年个体头部的后部纹理。",
+      "更改了幼年棕色的熊猫的纹理。"
+    ],
+    "猪": [
+      "猪的音效变种现在有独特的喂食音效。"
+    ],
+    "兔子": [
+      "修正了成年黑色兔子、成年白色兔子和成年黑白斑点兔子的下颌纹理。"
+    ],
+    "海龟": [
+      "现在幼年海龟拥有游泳动画。"
+    ],
+    "僵尸猪灵": [
+      "更改了幼年僵尸猪灵的鼻子的纹理。"
+    ],
+    "世界生成": [
+      "现在可以在结构模板池中使用minecraft:feature_pool_element放置地物。",
+      "features现在可以连接具有任意名称的拼图方块，而不只是minecraft:bottom。",
+      "现在能够生成单一生物群系为溶洞的世界。",
+      "26.20.23",
+      "Preview 26.20.23（Windows/Xbox/iOS/iPadOS/PlayStation）、beta 26.20.24（ChromeOS/Android）是基岩版26.20的第4个测试版，发布于2026年3月31日，在实验性玩法中加入了混沌立方小更新的部分特性，并修复了一些漏洞。"
+    ],
+    "末地闪光": [
+      "为“花式”图形模式加入了末地闪光。"
+    ],
+    "游戏内容": [
+      "修复了击退效果以使其行为更接近于Java版。（MCPE-190868）",
+      "修复了在使用全键盘玩法的情况下，玩家相机视角会在与方块交互时旋转的问题。（MCPE-235656）",
+      "修复了Windows平台上鼠标的相机灵敏度会高于预期的问题。（MCPE-235748）",
+      "现在显示小型表情屏幕时会保持瞄准功能。",
+      "修复了同一轨道上的矿车相互碰撞时不会正确传递动量的问题。",
+      "现在烧炼损坏的装备后会输出金属颗粒。（MCPE-237404）"
+    ],
+    "灵动视效": [
+      "为所有展示架加入了对灵动视效的支持。",
+      "为鹦鹉螺铠加入了对灵动视效的支持。",
+      "为下列事物加入了对灵动视效的支持。"
+    ],
+    "AI意向": [
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.hide",
+      "minecraft:behavior.mingle",
+      "minecraft:behavior.move_to_poi",
+      "minecraft:behavior.move_to_village",
+      "minecraft:behavior.sleep",
+      "minecraft:behavior.stroll_towards_village",
+      "现在minecraft:behavior.equip_item的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "现在minecraft:behavior.move_outdoors的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "现在minecraft:behavior.move_indoors的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.admire_item",
+      "minecraft:behavior.barter",
+      "minecraft:behavior.eat_carried_item",
+      "minecraft:behavior.admire_item中的浮点数字段sound_interval现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.jump_around_target的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。浮点数字段valid_distance_to_target和​landing_distance_from_target现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.jump_to_block的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。浮点数字段cooldown_range现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.move_around_target的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。浮点数字段destination_position_range现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.find_cover",
+      "minecraft:behavior.find_mount",
+      "minecraft:behavior.find_underwater_treasure",
+      "minecraft:behavior.flee_sun",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.float",
+      "minecraft:behavior.follow_owner",
+      "minecraft:behavior.follow_parent",
+      "minecraft:behavior.hold_ground",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.hover",
+      "minecraft:behavior.lay_down",
+      "minecraft:behavior.mount_pathing",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.move_through_village",
+      "minecraft:behavior.move_to_random_block",
+      "minecraft:behavior.move_towards_target",
+      "为minecraft:behavior.pickup_items加入了on_pickup_item_start和​on_pickup_item_end。",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.pet_sleep_with_owner",
+      "minecraft:behavior.pickup_items",
+      "minecraft:behavior.player_ride_tamed",
+      "现在下列意向的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "minecraft:behavior.random_hover",
+      "minecraft:behavior.random_sitting",
+      "minecraft:behavior.random_stroll",
+      "minecraft:behavior.random_hover中的hover_height字段现在仅接受带有min和​max值的对象。其他格式将无法解析。",
+      "现在minecraft:behavior.go_home的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "现在minecraft:behavior.go_and_give_items_to_owner的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。",
+      "现在minecraft:behavior.go_and_give_items_to_noteblock的模式在解析时会更加严格，并且在1.26.20及更高版本中将无法加载包含无效数据的实体JSON。"
+    ],
+    "API": [
+      "发布了@minecraft/server版本2.7.0。",
+      "加入了@minecraft/server版本2.8.0-beta。",
+      "将AimAssistCategory由beta开放至2.6.0版本。",
+      "将AimAssistCategorySettings由beta开放至2.6.0版本。",
+      "将AimAssistPreset由beta开放至2.6.0版本。",
+      "将AimAssistPresetSettings由beta开放至2.6.0版本。",
+      "将AimAssistRegistry由beta开放至2.6.0版本。",
+      "将PlayerAimAssist由beta开放至2.6.0版本。",
+      "将PlayerAimAssistSettings由beta开放至2.6.0版本。",
+      "将AimAssistTargetMode由beta开放至2.6.0版本。",
+      "将World.getAimAssist由beta开放至2.6.0版本。",
+      "将Player.getAimAssist由beta开放至2.6.0版本。",
+      "为snap_to_surface_feature的模式加入了新字段embed_in_surface，允许指定对齐的地物是否应该对齐定位的表面。默认为false。",
+      "调整了GameTest，以使其在测试已完成时不再运行来自succeedWhen和​failIf等方法的回调。",
+      "将（@minecraft/debug-utilities中的）DebugShape的color属性由RGB更改为RGBA。",
+      "为（@minecraft/debug-utilities中的）DebugText加入了depthTest属性。",
+      "为（@minecraft/debug-utilities中的）DebugText加入了backgroundColorOverride属性。",
+      "为（@minecraft/debug-utilities中的）DebugText加入了useRotation属性。",
+      "为beta中的@minecraft/server-admin模块加入了kickPlayer()。",
+      "为@minecraft/server加入了支持3D世界文本对象和渲染的新技术。",
+      "加入了新的测试性的PrimitiveShapesManager类，用于向世界添加或移除文本基元。",
+      "加入了新的测试性的PrimitiveShape基类，用于表示世界中的3D形状对象",
+      "加入了新的测试性的TextPrimitive类，用于在世界中渲染3D文本形状对象。",
+      "为beta加入了新的测试性的primitiveShapesManager属性。",
+      "为DebugText加入了本地化支持。",
+      "将DebugText构造器更改为允许使用RawMessage或字符串作为文本参数。",
+      "将DebugText.text更改为只读属性。",
+      "加入了DebugText.setText方法，允许使用RawMessage或字符串。",
+      "加入了DebugText.rawText只读属性，用于在通过setText使用RawMessage时获取文本。",
+      "更改了beta中@minecraft/server-net的错误类型。",
+      "将HttpRequestBodyTooLargeError重命名为RequestBodyTooLargeError。",
+      "将HttpRequestNotAllowedError重命名为UriNotAllowedError。",
+      "将HttpsOnlyError重命名为TLSOnlyError。",
+      "将MalformedHttpRequestError重命名为MalformedUriError。",
+      "将@minecraft/server-net配置模块权限参数force_https重命名为force_tls。",
+      "为beta加入了ContainerAccessSource接口。",
+      "为beta加入了ContainerAccessSourceFilter接口。",
+      "为beta加入了EntityContainerClosedAfterEvent类。",
+      "为beta加入了EntityContainerClosedAfterEventSignal类。",
+      "为beta加入了EntityContainerOpenedAfterEvent类。",
+      "为beta加入了EntityContainerOpenedAfterEventSignal类。",
+      "为beta加入了EntityContainerAccessEventOptions接口。",
+      "为beta加入了BlockContainerClosedAfterEvent类。",
+      "为beta加入了BlockContainerClosedAfterEventSignal类。",
+      "为beta加入了BlockContainerOpenedAfterEvent类。",
+      "为beta加入了BlockContainerOpenedAfterEventSignal类。",
+      "为beta加入了BlockContainerAccessEventOptions接口。",
+      "为beta加入了StructureManager.getPackStructureIds。",
+      "为beta加入了EntityEnderInventoryComponent，用于访问玩家的末影箱的容器内容物。",
+      "为DebugShape加入了maximumRenderDistance属性。",
+      "为PrimitiveShape加入了maximumRenderDistance属性。",
+      "DebugShape和​PrimitiveShape默认使用的渲染距离现在是玩家客户端的渲染距离，而不是无限的。若需要与旧版行为相匹配，则可以将maximumRenderDistance设置为一个非常大的数字（由于平台差异，无限在脚本中是无效的）。",
+      "为@minecraft/common的1.3.0版本中的InvalidArgumentErrorType枚举加入了InvalidType和​UnsupportedValue。",
+      "在beta中为@minecraft/server-admin加入了opPlayer和​deopPlayer函数。",
+      "在beta中为@minecraft/server中的World类加入了allowCheats布尔属性。",
+      "在beta中为@minecraft/server-net加入了WebSocket客户端。",
+      "加入了WebSocket类，用于创建和连接WebSocket客户端。这会在@minecraft/server-net中创建为全局的websocket对象。",
+      "加入了WebSocketClient类，用于与WebSocket交互和通过事件从服务端接收数据。",
+      "在@minecraft/server-net中将BiomeTypes.getAll移动至2.7.0。",
+      "在@minecraft/server-net中将BiomeTypes.get移动至2.7.0。",
+      "在@minecraft/server-net中将BiomeType.hasTags移动至2.7.0。",
+      "在@minecraft/server-net中将BiomeType.getTags移动至2.7.0。",
+      "为beta版本的@minecraft/server加入了Observable.toJSON，以使可观测对象能够使用JSON.stringify轻松进行字符串化。",
+      "为Error内容日志行加入了包名称。",
+      "为ClientSystemInfo加入了locale属性，可提供玩家所选择的语言（en_US、​fr_FR和​ja_JP）。",
+      "在beta中为@minecraft/server-admin的DedicatedServerUtils加入了三个函数。",
+      "加入了reloadScriptingConfig()，用于从磁盘重载脚本配置文件。",
+      "加入了reloadPermissions()，用于从磁盘重载服务器权限文件。",
+      "加入了reloadCDNConfig()，用于从磁盘重载CDN配置文件。",
+      "为@minecraft/debug-utilities模块中的DebugText加入了backfaceVisible属性。",
+      "为@minecraft/debug-utilities模块中的TextPrimitive加入了backfaceVisible属性。",
+      "为@minecraft/debug-utilities模块中的DebugText加入了textBackfaceVisible属性。",
+      "为@minecraft/debug-utilities模块中的TextPrimitive加入了TextPrimitive属性。",
+      "为PrimitiveShapesManager加入了新属性maxShapes。",
+      "将PrimitiveShape对象的最大数量更改为1000。",
+      "将TextPrimitive上setText的text参数的最大值更改为128。",
+      "将PrimitiveShape对象的最小和最大缩放值分别更改为-1000和1000。",
+      "为Player加入了测试性只读属性partyInfo，若玩家不处于队伍中，则会返回PartyInfo对象（{ partyId: string, isLeader: boolean }）或undefined。",
+      "在“创建者”部分加入了用于配置文本过滤调试延迟的设置。",
+      "为beta加入了BlockComponentBlockStateChangeEvent。自定义方块组件可以订阅它。",
+      "为BlockComponentRedstoneUpdateEvent加入了测试性布尔属性firstUpdate。",
+      "将Entity.addItem函数由beta移动至2.7.0版本。",
+      "将InvalidEntityComponentError类由beta移动至2.7.0版本。",
+      "在@minecraft/server中加入了Dimension.spawnXp方法，用于在指定位置生成经验球。",
+      "修复了ShapePrimitive或DebugShape上的attachedTo不会在卸载并重载附着实体时更新的漏洞。",
+      "修复了minecraft@debug-utilities中的DebugText可能会不可见的漏洞。",
+      "为minecraft@debug-utilities中的DebugText加入了maximumRenderDistance。",
+      "为beta加入了脚本实体属性nameplateDepthTested。",
+      "为beta加入了脚本实体属性nameplateRenderDistance。",
+      "为beta加入了EntityHealCause.TotemOfUndying。",
+      "为实体治疗事前/后事件加入对minecraft:totem_of_undying（不死图腾）的支持。",
+      "为beta加入了Player.chatNamePrefix。",
+      "聊天消息中玩家名称前方的可选字符串。",
+      "为beta加入了Player.chatNameSuffix。",
+      "聊天消息中玩家名称后方的可选字符串。",
+      "为beta加入了Player.chatDisplayName。",
+      "返回组成的聊天名称（chatNamePrefix+名称+chatNameSuffix）的可选属性。",
+      "为beta加入了Player.chatMessagePrefix。",
+      "玩家聊天消息前方的可选字符串，便于使用颜色/格式化代码。",
+      "修复了在脚本中销毁HTTP客户端时，处理中的HTTP请求可能导致游戏卡死的漏洞。",
+      "将TextPrimitive上setText的text参数的最大长度更改为128行，每行128个字符。",
+      "修复了导致Websocket无法完成与服务器的连接的问题。",
+      "修复了调试绘制和图元形状在与模拟玩家一同使用时可能进入错误状态的漏洞。"
+    ],
+    "常规": [
+      "调整了命名空间限制，但之前允许的所有内容应仍然有效。",
+      "这会影响用于方块、状态和菜单分类组的标识符。",
+      "将粒子、交易和相机JSON资源更新至Cereal slice 1.26.10并重新序列化，以与新的模式保持一致。",
+      "摔落伤害视觉效果现在会在实体落地时触发。",
+      "修复了大多数情况下未登录状态的多人游戏会无限加载的问题。（MCPE-173418）",
+      "现在摔落伤害音效效果会在实体落地时触发。",
+      "修复了自定义组件无法使用现代方块定义加载器进行解析。（MCPE-237057）",
+      "摔落伤害视觉和音频效果不再会延迟到落地。（MCPE-237211）"
+    ],
+    "方块特征": [
+      "placement_direction特征的验证更改：旋转偏移不再具有0.5的公差。",
+      "输入值会被转换为最接近90度的值。",
+      "此必须介于0至360之间（含）。",
+      "blocks_to_corner_with现在要求minecraft:corner_and_cardinal_direction是placement_direction特征的enabled_states之一。"
+    ],
+    "分类": [
+      "menu_category的验证更改：现在不允许空的group值。",
+      "group字段现在可以以非空值存在，也可以根本不存在。",
+      "现在使用menu_category时，category是必需字段。这会严格执行。"
+    ],
+    "组件": [
+      "minecraft:flower_pottable的验证更改：其现在被限制在根组件对象之外。",
+      "minecraft:geometry的验证更改：现在会严格执行对culling_shape标识符的限制。",
+      "使用minecraft命名空间时，目前可用的剔除形状标识符仅有：minecraft:empty或minecraft:unit_cube。",
+      "没有使用命名空间或使用自定义命名空间时，名称必须以字母数字字符开头和结尾。",
+      "minecraft:light_dampening和​minecraft:light_emission的验证更改：现在会将值严格限制在0至15之间（含）。",
+      "对标签的定义方式作出了破坏性更改。",
+      "对于26.10版本，标签不能自由地成为组件数组中的顶级实体存在。",
+      "标签必须存在于minecraft:tags组件中，接受以下格式的标签数组：",
+      "minecraft:tags\": [\"minecraft:crop\", \"custom:custom_tag\"]",
+      "值的格式必须为<命名空间>:<标签名>。",
+      "标签不再需要以tag:为前缀。",
+      "修复了较高难度设置下的生物弹射物的精准度为负数的问题。",
+      "修复了minecraft:interact中的drop_item_slot和​equip_item_slot配合使用时不会装备指定物品的漏洞。",
+      "minecraft:damage_sensor组件的deals_damage字段现在支持一个额外字段："
+    ],
+    "命令": [
+      "修复了使用/inputpermission命令禁用跳跃后，玩家仍然能自动跳跃的问题。（MCPE-235573）",
+      "/loot命令执行失败时不再会阻止/execute命令的剩余部分继续执行。（MCPE-185887）"
+    ],
+    "no_but_entity_effects_apply": [
+      "伤害不会施加到实体上。",
+      "会施加击退和魔咒效果。",
+      "攻击者的武器正常使用。",
+      "该实体不会闪烁为红色。",
+      "带有minecraft:display_name的自定义方块的描述现在会返回正确值。（MCPE-236308）"
+    ],
+    "基岩版编辑器": [
+      "修复了在地形整平工具中调整画笔高度会导致画笔更难使用的漏洞。",
+      "将粘贴预览默认的X轴和Z轴镜像的按键绑定更改为使用⇧ Shift + Ctrl修饰键。",
+      "将标尺工具的轴锁定的按键绑定更改为使用⇧ Shift + Ctrl修饰键。",
+      "为核心面板加入了未绑定的按键绑定。",
+      "修复了无法在框选和手绘模式下撤销/重做清单表中的取消和替换方块操作的问题。",
+      "修复了Vector3时间轴的漏洞，以避免编辑弹窗中的时间值超出相邻结点的时间范围。",
+      "为ICollectionTreePropertyItemAPI项加入了可选的拖放支持。",
+      "为IRootPropertyPaneOptions加入了location，用于在视口而非抽屉内显示根窗格。",
+      "为ICollectionTreePropertyItem加入了视图控制窗格API支持。",
+      "灵动视效窗格中的局部光照和阴影配置不再会有无功能的加号按钮，并且会被禁用。",
+      "现在快速触发多个错误时，弹窗通知会被分组。",
+      "现在仅键盘光标模式处于激活状态时，鼠标左键粘贴会在粘贴预览中被禁用。",
+      "为编辑器工具轨道加入了基元工具。",
+      "现在在已选择仅按键模式的情况下通过下拉菜单、T键或工具激活进入仅按键光标模式时，粘贴预览会出现在不可预测的位置的问题。粘贴预览现在会显示在玩家看向的方块上，若视角内没有方块则会显示在相机视角前方32格处。",
+      "实现了结构详细信息设置的自动保存，并移除了结构详细信息窗格中的保存按钮和保存菜单。",
+      "灵动视效生成资源包按钮现在会将所有已编辑的配置导出资源包，同时提供文件夹链接。",
+      "更新了选择工具中的2点选择复选框的过时提示框。",
+      "更新了选择工具处理不完整的3点选择体积的方式。",
+      "现在在工具之间切换时会清除不完整的3点选择体积。",
+      "取消选择（Ctrl + D) 现在会清除不完整的3点选择体积，并且不再会记录错误。",
+      "填充 (Ctrl + F) 现在会正确忽略不完整的3点选择体积，并且不再会记录错误。",
+      "修复了布局实例编辑器的“取消选择”和“删除实例”的标签值问题。",
+      "修复了布局实例编辑器的模式选择器的提示框问题。",
+      "修复了在3点选择模式中单击以创建体积时无法完成该操作，进而导致无法对体积执行进一步操作的问题。",
+      "修复了点击菜单项目时无法打开测试世界面板的无法。",
+      "为粘贴预览加入了忽略空气方块选项，允许从粘贴操作中排除剪贴板中的空气方块。",
+      "现在会确保在地形工具中切换整平模式时应用正确的偏移。",
+      "修复了整平功能会对地面采样过远的问题。",
+      "修复了通过工具模式的聊天快捷方式来运行/reload命令发生的错误。",
+      "修复了拼图集合名称允许大小写不同的重复项，进而导致文件冲突和在不区分大小写的文件系统中潜在的数据丢失的问题。"
+    ],
+    "实体组件": [
+      "minecraft:friction_modifier组件的行为现在与其描述相匹配。",
+      "其值越大，实体受到的摩擦力越大。",
+      "0.0表示没有摩擦力。",
+      "1.0表示普通摩擦力。",
+      "2.0表示双倍摩擦力。",
+      "此组件现在仅会影响地面摩擦力，不再会部分影响空气或液体阻力。",
+      "原错误的行为可以通过添加minecraft:uses_legacy_friction组件来重新启用。",
+      "此组件会自动为所有实体添加低于1.26.20的格式版本，以确保它们的行为保持不变。",
+      "加入了了minecraft:spawn_on_death组件，用于在实体死亡时生成实体。",
+      "entity_to_spawn：（可选）要生成的实体，未设置时默认为拥有此组件的实体。",
+      "spawn_method：（可选）生成方式，可设置为born、​spawned或summoned，未设置时默认为spawned。",
+      "spawn_amount：（可选）实体要生成的数量，未设置时默认为1。",
+      "inherit_parent_name：（可选）若为true，则实体会继承父实体的名称，未设置时默认为true。",
+      "additional_spawn_range：（可选）额外生成实体的随机范围，未设置时默认为0, 0。",
+      "修复了完全移除实体中的运动控制器后不会重置控制器给出的输入速度的漏洞。",
+      "这会使实体在指定方向保持滑动，直到摩擦力使速度减慢，即使实体碰到墙壁也是如此。",
+      "修复了minecraft:behavior.delayed_attackAI行为有时无法在杀死目标后退出的漏洞。",
+      "加入了minecraft:bounciness组件，用于控制实体与表面相碰撞时的反弹方式。",
+      "包含单个字段value，用于定义反弹强度：",
+      "0表示不会反弹。",
+      "1表示产生具有完全能量保存的完美弹性碰撞。",
+      "若此组件不存在，则弹性默认为0。",
+      "仅当实体的format_version设置为beta时可用。",
+      "加入了minecraft:apply_knockback_rules组件，用于控制实体将击退施加给目标的方式。",
+      "horizontal_power用于定义目标被向后击中的程度。",
+      "若未定义则默认为1.0。",
+      "vertical_power用于定义目标被向上击中的程度。",
+      "若未定义则默认为0.4。",
+      "vertical_velocity_cap用于定义计算玩目标的击退规则后目标的最大垂直向上速度。",
+      "若未定义则默认为0.4。",
+      "check_if_target_is_immersed_in_water用于定义实体是否应该在目标完全没入水中时才应用击退规则。",
+      "若未定义则默认为false。",
+      "不定义此组件会产生默认的击退行为。",
+      "加入了minecraft:air_drag_modifier组件。",
+      "其值越大，空气阻力对实体的影响越大。",
+      "0.0表示没有空气阻力。",
+      "1.0表示普通空气阻力。",
+      "2.0表示双倍空气阻力。",
+      "仅当实体的format_version设置为beta时可用。",
+      "minecraft:knockback_resistance组件现在接受低至-2的负数值，会使击退增加而不是减少。",
+      "为beta版本的minecraft:apply_knockback_rules中的预设元素专门加入了以下字段：",
+      "scale_previous_velocity：缩放目标被击中时的先前速度。",
+      "horizontal_hit_angle_scale：根据攻击者的瞄准方向缩放目标被击中时的水平角度响应。",
+      "vertical_hit_angle_scale：根据攻击者的瞄准方向缩放目标被击中时的垂直角度响应。",
+      "vertical_position_angle_scale：根据攻击者的相对脚部位置缩放目标被击中时的垂直角度响应。",
+      "scale_with_damage：启用根据伤害的平方反比来缩放击退幅度的特性。"
+    ],
+    "此组件现在会在玩家和其他客户端预测实体上正确运作": [
+      "加入了minecraft:uses_uniform_air_drag组件。",
+      "存在时，空气阻力会均匀地施加在垂直轴和水平轴上，而不是偏向水平移动。",
+      "加入了minecraft:on_equipment_changed组件，允许在指定装备槽装备有或未装备有物品时执行实体事件。",
+      "包含一个带有项列表的slots字段，每个项都有：",
+      "slot：要监控的装备槽。",
+      "on_equip：非空气物品放入槽位时触发的事件。",
+      "on_unequip：清空槽位时触发的事件。",
+      "装备发生变化时会使用第一个匹配的槽位项。",
+      "不适用于minecraft:inventory的槽位，需使用minecraft:equippable代替。"
+    ],
+    "实体过滤器": [
+      "加入了has_equipment_block_tag实体过滤器。",
+      "加入了has_same_equipment_in_slot_as实体过滤器。",
+      "移除了has_equipment_block_tag实体过滤器。",
+      "用于物品行为的物品上的方块标签不应被查看，该过滤器因此被移除。"
+    ],
+    "地物": [
+      "为minecraft:structure_template_feature地物加入了布尔字段rotate_around_center。",
+      "设置为true时，结构放置在世界中时会围绕其中心旋转。",
+      "若忽略则默认为false。",
+      "将minecraft:behavior.follow_target_captain重构为minecraft:behavior.follow_target_leader。为此行为加入了以下字段：",
+      "always_look_for_leader：（默认为false）若为true，没有找到当前的领头或当前的领头无效时，生物总会搜寻要跟随的有效领头。",
+      "leader_filters：（必需）确定生物是否为合适的领头时使用的过滤器。",
+      "search_cooldown：（默认为20）在目标未找到、丢失或无效后启动新的搜寻前必须经过的刻数。"
+    ],
+    "脚本": [
+      "Block、​BlockPermutation和​BlockType上由localizationKey返回的值现在会正确遵循自定义方块的minecraft:display_name键名。（MCPE-235802）",
+      "为beta加入了CustomTexture类型。",
+      "WaypointTextureSelector中的textureBoundsList现在拥有传入具有指定路径、高度和宽度的CustomTexture的选项。",
+      "加入了允许创作者检查方块的含雪行为的脚本方法。"
+    ],
+    "性能与稳定性": [
+      "修复了加载包含不完整的探险家地图的存档时发生的崩溃。（MCPE-226793）",
+      "通过在游戏启动过程中提前触发身份验证，提高了大部分平台上的登录速度。",
+      "修复了PlayStation平台上加载Token FAQ页面时可能发生的崩溃。",
+      "修复了记录Molang内容时可能发生的崩溃。",
+      "修复了在显示“正在同步用户数据”UI的情况下中止标题时可能发生的崩溃。",
+      "修复了索引超出边界区域数据时的Realm区域绑定崩溃。",
+      "修复了提示已连接额外的Joy-Con控制器时可能发生的崩溃。",
+      "现在选择特定世界时会保存Xbox数据。"
+    ],
+    "用户界面": [
+      "修复了输入行为包屏幕的自定义设置会禁用该包的漏洞。",
+      "修复了导航到侧边栏页面后不会出现PS4/5商店徽标的问题。",
+      "26.20.21",
+      "beta 26.20.21（ChromeOS/Android）、Preview 26.20.21（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的第2个测试版，发布于2026年3月17日，修复了一些漏洞。",
+      "修复了在游戏中禁用屏幕动画后会导致HUD无法加载，有时还会导致卡死的问题。（MCPE-236881）",
+      "修复了iOS平台上使用物理键盘时，插入符会移动两次以及退格键会删除过多文本的问题。",
+      "改进了采用缺口、圆角或安全区域的设备上的Ore UI菜单屏幕中可滚动屏幕内容的显示方式。内容现在可以平滑滚动到安全区域下方，而不是被切断。",
+      "26.20.22",
+      "beta 26.20.22（ChromeOS/Android）、Preview 26.20.22（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的第3个测试版，发布于2026年3月25日，加入了Realms中心和与隐藏式字幕相关的选项，调整了部分幼年生物的碰撞箱，并修复了一些漏洞。",
+      "为隐藏式字幕加入了多个设置，允许玩家控制字幕的显示时长、显示位置以及切换是否应该隐藏部分声音（如玩家自身音效、环境噪音等）。（MCPE-236782）",
+      "修复了更改分辨率时UI比例不正确的问题。",
+      "现在玩家无法访问市场时会隐藏获取更多包按钮。",
+      "修复了iOS平台上使用物理键盘时，带有文本输入的屏幕会出现空白区域的问题。",
+      "修复了iOS平台上使用物理键盘时与文本输入相关的一些问题。",
+      "更新了测试版反馈弹窗上的文本。（MCPE-236391）",
+      "为部分幼年生物加入了缺失的隐藏式字幕。（MCPE-237205）",
+      "加入了缺失的两个仅会短暂显示的字符串。",
+      "修复了在HUD的快捷栏中选择物品时，表情符号不会在小型文本提示框中渲染的问题。",
+      "修复了延迟破坏方块设置对新的设置屏幕的触控选项卡的“摇杆并点击进行互动”和“方向键并点击进行互动”不可见的问题。（MCPE-236872）",
+      "26.20.27",
+      "beta 26.20.27（ChromeOS/Android）、Preview 26.20.27（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的第6个测试版，发布于2026年4月14日，修复了一个漏洞。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“熔炉配方书”和“测试版 API”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“村民贸易再平衡”、“2026 年第 2 次更新”、“测试版 API”、“实验性 Voxel 形状特征”和“实验性自定义投射物特征”子选项后才可使用。",
+      "本段落的内容需要开启实验性玩法中的“2026 年第 2 次更新”、“测试版 API”、“实验性 Voxel 形状特征”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "DDUI": [
+      "为下列菜单项目加入了对本地化的支持。",
+      "更改了DropdownItem接口。",
+      "将description的类型由string更改为UIRawMessage | string。",
+      "新签名：description?: UIRawMessage | string。",
+      "旧签名：description?: string。",
+      "将label的类型由string更改为UIRawMessage | string。",
+      "新签名：label: UIRawMessage | string。",
+      "旧签名：label: string。",
+      "修复了Android等部分平台上的文本输入区域会被虚拟键盘覆盖的问题。",
+      "修复了打开DDUI屏幕时玩家会卡死或服务器会崩溃的问题。",
+      "修复了按钮会在处于被选中状态时错位的问题。",
+      "修复了连续显示表单（CustomForm或MessageBox）会导致第二个表单不显示的问题。",
+      "现在关闭按钮更具权威性，以使表单更快关闭。",
+      "为beta版本的@minecraft/server-ui加入了DataDrivenScreenClosedReason。",
+      "将MessageBoxResult.wasShown替换为MessageBoxResult.closeReason，这是一个DataDrivenScreenClosedReason。",
+      "将CustomForm.show(): Promise<boolean>的返回类型更改为Promise<DataDrivenScreenClosedReason>。",
+      "为beta版本的@minecraft/server-ui加入了FormCloseError、​PlayerLeftError和​ServerShutdownError，以与CustomForm和​MessageBox一同使用。",
+      "为MessageBox.body、​CustomForm.label和​CustomForm.header加入了使用\\n实现多行文本的支持。"
+    ],
+    "图形": [
+      "为水配置JSON格式加入了新版本。",
+      "新的格式版本为1.26.20。",
+      "minecraft:water_settings和​minecraft:water_settings/description字段现在是必需的。",
+      "移除了点光源在远离相机视角一定距离后出现的视觉淡出效果。",
+      "修复了在开启灵动视效的情况下截图时不会隐藏雕刻南瓜和望远镜的覆盖层的问题。（MCPE-219934）",
+      "修复了开启灵动视效时可以在带有旗帜图案的盾牌的正面看到盾牌原本的MERS纹理的漏洞。（MCPE-235081）",
+      "修复了在世界中切换至光线追踪图形模式时，自发光值、金属度和粗糙度不会正确加载的漏洞。",
+      "更新了幼年蜜蜂的MERS纹理以匹配成年蜜蜂的MERS纹理。（MCPE-236685）",
+      "修复了灵动视效模式下的静态彩色光照不会在完全空白的区块中传播的问题。",
+      "修复了为创作者提供的RenderDragon功能实验性资源包会覆盖堆栈上的其他资源包的问题。",
+      "修复了点光源会在其中心过渡曝光的问题。",
+      "若有需要，可以使用自发光纹理来重现此行为。",
+      "修复了哞菇背上的蘑菇光照不正确的问题。（MCPE-225482）",
+      "修复了由资源包提供的根据生物群系的定向光轨道偏移无法在灵动视效中应用的问题。这种偏移现在可以通过光照配置文件中的orbital_offset_degrees字段来提供。",
+      "更新了幼年懒惰的熊猫的MERS纹理。（MCPE-236812）",
+      "加入了大气散射配置的新版本。",
+      "新的格式版本为1.26.20。",
+      "minecraft:atmosphere_settings和​minecraft:atmosphere_settings/description现在是必需的。",
+      "更改了大气图形覆盖的访问方式，以通过getBiomeAtmospherics访问。",
+      "修复了玩家启用纹理流式加载后弓和弩会消失的漏洞。（MCPE-235735）",
+      "在部分Xbox One X和Xbox Series S设备上，灵动视效中的像素化阴影不再会出现图形缺陷。",
+      "修复了在开启灵动视效的情况下，史莱姆弹跳动画期间的方块光照会有不正确的变化的问题。",
+      "修复了玩家相机视角位于附近时，蜘蛛网不会变得半透明的问题。（MCPE-235972）",
+      "为天气加入了static_light着色。"
+    ],
+    "修复": [
+      "修复了游戏过程中可能发生的一些严重崩溃。"
+    ],
+    "成就": [
+      "修复了成就屏幕上的游玩时间统计数据会在加载时短暂显示为“-1小时”的问题。（MCPE-230285）"
+    ],
+    "Realms": [
+      "修复了保存世界模态框在使用后仍会保持激活状态的问题。",
+      "修复了创建新的世界屏幕中的“在 Realms 上创建”按钮的问题。",
+      "移除了游戏内的Realms设置中的订阅选项卡。",
+      "加入了Realms中心，以整合世界管理、成员活动和设置等内容。",
+      "部分UI仍然是JSON UI。",
+      "引入了Realms管理员角色。",
+      "Realms拥有者可以借此授予成员更多权限。",
+      "将Realm编辑世界屏幕中的包管理迁移到Ore UI。",
+      "加入了通过组队加入Realms的支持。",
+      "修复了玩家加入不是其中一员的Realm时可能会卡死的问题。",
+      "修复了在Realms计划选取器屏幕完成加载前返回时的崩溃问题。",
+      "26.20.26",
+      "beta 26.20.26（ChromeOS/Android）、Preview 26.20.26（Windows/Xbox/iOS/iPadOS/PlayStation）是基岩版26.20的第5个测试版，发布于2026年4月8日，修复了一些漏洞。",
+      "为新的Realms中心加入了Realms管理日志。",
+      "修复了有大量成员的Realms的Realms故事中发生的崩溃。",
+      "修复了Realms故事中的成员选项卡不会正确加载的问题。",
+      "修复了尝试在启用“2026 年第 2 次更新”实验性选项的情况下创建或进入Realm时可能发生的错误。",
+      "26.20.28",
+      "beta 26.20.28（ChromeOS/Android）、Preview 26.20.28（iOS/iPadOS）是基岩版26.20的第7个测试版，发布于2026年4月17日，修复了一些漏洞。"
+    ],
+    "狐狸": [
+      "更改了幼年白色狐狸睡觉时的纹理，以匹配成年个体。",
+      "幼年个体的碰撞箱高度由0.35格更改为0.42格，宽度由0.3格更改为0.36格，以匹配Java版。"
+    ],
+    "网络协议": [
+      "修改了PlayerEnchantOptionsPacket的二进制格式。",
+      "数据包UpdateClientOptionsPacket：加入了布尔值Filter Profanity Change。"
+    ],
+    "配方书": [
+      "现在玩家获得相应的材料时会解锁熔炉配方。"
+    ],
+    "输入": [
+      "修复了由掌机式更改为底座式Joy-Con后会阻止输入的问题。"
+    ],
+    "音效": [
+      "现在下列幼年生物的生成音效会以正确的音调播放："
+    ],
+    "设置": [
+      "在可访问性设置中加入了一些与隐藏式字幕相关的选项。",
+      "在创建者设置中加入了“启用调试文本筛选延迟覆盖”选项。",
+      "用于启用调试文本过滤延迟覆盖功能。",
+      "在创建者设置中加入了“文本筛选延迟”滑块。",
+      "用于修改文本过滤延迟，默认为0秒。",
+      "仅开启“启用调试文本筛选延迟覆盖”选项后可用。"
+    ],
+    "“Hide your sounds”": [
+      "用于隐藏玩家自身音效的字幕。"
+    ],
+    "“Hide weather and ambient sounds”": [
+      "用于隐藏天气和环境产生的音效的字幕。"
+    ],
+    "“Location of closed captions”": [
+      "用于切换隐藏式字幕的显示位置，默认为右上角。"
+    ],
+    "“Closed caption duration”": [
+      "用于修改隐藏式字幕的显示时间，默认为15秒。"
+    ],
+    "骆驼": [
+      "幼年个体的碰撞箱高度由1.425格更改为1.3995格，宽度由1.02格更改为0.9495格。"
+    ],
+    "疣猪兽和僵尸疣猪兽": [
+      "幼年个体的碰撞箱高度由0.425格更改为0.85格，宽度由0.425格更改为0.75格。"
+    ],
+    "猪灵、僵尸猪灵、村民、僵尸村民、僵尸、尸壳和溺尸": [
+      "幼年个体的碰撞箱高度由0.95格更改为0.98格，宽度由0.3格更改为0.49格。"
+    ],
+    "鱿鱼和发光鱿鱼": [
+      "幼年个体的碰撞箱高度和宽度由0.4格更改为0.5格。"
+    ],
+    "组队系统": [
+      "加入了聊天功能，玩家现在可以通过社交抽屉式菜单与队伍成员进行聊天。",
+      "组队文本聊天与游戏内的世界聊天是分开的，前者能在不同世界之间保留。",
+      "现在队员可以跟随队长一同加入Realms和受支持的精选服务器。",
+      "仅当队员是Realm的成员时，该队员才能够跟随队长一同加入该Realm。"
+    ],
+    "音频": [
+      "修复了在没有定义变种的情况下覆盖实体声音事件的包可能会错误地清除基础sounds.json中的变种键名，进而导致加载期间出现内容日志警告的问题。",
+      "修复了在水中放置可含水方块时不会播放放置音效的问题。（MCPE-236601）"
+    ],
+    "为创作者提供的RenderDragon功能": [
+      "将彩色方块光源的存储迁移到GPU。",
+      "可能会有新的图形缺陷，光线会透过方块或在方块周围泄露。",
+      "彩色方块光照现在会影响体积雾。"
+    ],
+    "辅助功能": [
+      "“伤害倾斜”滑块现在会影响玩家手臂的抖动。（MCPE-229437）"
+    ],
+    "账户": [
+      "修复了玩家档案统计数据的巨大值会不正确显示的问题。（MCPE-185186）",
+      "将平台订阅检查添加为多人游戏限额检查的一部分，若检查失败则返回新的平台订阅特定检查拒绝原因。"
+    ],
+    "市场": [
+      "修复了Nintendo Switch和Nintendo Switch 2平台上Marketplace Pass和Realms Plus会被错误宣传为免费试用的问题。"
+    ],
+    "实验性玩法": [
+      "加入了“2026 年第 2 次更新”子选项。",
+      "用于启用将于混沌立方小更新加入的特性。",
+      "加入了“实验性自定义投射物特征”子选项。",
+      "用于在附加包中启用对自定义弹射物的改进，无需使用运行时标识符。"
+    ],
+    "苔藓块和苍白苔藓块": [
+      "对这些方块使用骨粉时不再会蔓延至磨制花岗岩、磨制闪长岩和磨制安山岩。"
+    ],
+    "劫掠兽": [
+      "现在只能摧毁甜菜根、树叶、胡萝卜、西瓜茎、瓶子草植株、马铃薯、南瓜茎、火把花植株和小麦植株，以近似匹配Java版。",
+      "回退了26.20.23中对劫掠兽能够摧毁的方块作出的更改。"
+    ],
+    "生物群系": [
+      "为生物群系JSON API加入了minecraft:subsurface_builder字段。",
+      "子地表生成器允许指定minecraft:surface_builder来应用于位于主世界的地形表面下方的生物群系。但需要注意的是，预先存在的子表面生成器的处理尚未得到更新，以适应为子地形高度范围指定它们的能力，这可能会在使用它们时导致非预期结果。",
+      "加入了minecraft:noise_gradient子表面生成器类型，会根据噪声分布放置连续的方块带。此地表生成器的处理是在考虑子地形高度范围的情况下实现的。",
+      "此地表生成器有以下参数：",
+      "non_replaceable_blocks：不允许地表生成器替换的方块列表。将此列表留空或不进行指定会允许替换所有方块类型（非空气和非液体）。",
+      "gradient_blocks：将根据柏林噪声分布进行采样的方块名称列表。指定minecraft:air方块是允许的，会使原始方块不被替换，这意味着可以使用此地表生成器类型来调整生物群系中方块放置的密度/强度。"
+    ],
+    "朱砂": [
+      "自然生成于硫黄洞穴生物群系。",
+      "可用于合成对应的台阶、楼梯和墙。"
+    ],
+    "硫黄": [
+      "自然生成于硫黄洞穴生物群系。",
+      "可用于合成对应的台阶、楼梯和墙。"
+    ],
+    "磨制朱砂": [
+      "可使用4个朱砂合成。",
+      "可用于合成对应的台阶、楼梯和墙。"
+    ],
+    "磨制硫黄": [
+      "可使用4个硫黄合成。",
+      "可用于合成对应的台阶、楼梯和墙。"
+    ],
+    "朱砂砖": [
+      "可使用4个磨制朱砂合成。",
+      "可用于合成对应的台阶、楼梯和墙。"
+    ],
+    "硫黄砖": [
+      "可使用4个磨制硫黄合成。",
+      "可用于合成对应的台阶、楼梯和墙。"
+    ],
+    "雕纹朱砂": [
+      "可在切石机中用朱砂或磨制朱砂制成。"
+    ],
+    "雕纹硫黄": [
+      "可在切石机中用硫黄或磨制硫黄制成。"
+    ],
+    "烈性硫黄": [
+      "自然生成于硫黄洞穴生物群系。",
+      "可使用9个硫黄合成。",
+      "会在上方4格的水源方块内生成向上移动的气泡，气泡到达水面时会生成黄色烟雾粒子。",
+      "接触该水面的生物会获得反胃效果。"
+    ],
+    "硫方怪桶": [
+      "通过对中型硫方怪使用铁桶获得。",
+      "对方块使用时会将硫方怪释放出来。"
+    ],
+    "刷怪蛋": [
+      "加入了硫方怪刷怪蛋。"
+    ],
+    "硫方怪": [
+      "形似史莱姆的生物，有小型和中型两种大小。",
+      "自然生成于硫黄洞穴生物群系。",
+      "小型硫方怪的生命值为4（），中型硫方怪的生命值为9（）。",
+      "小型硫方怪会在20分钟后成长为中型硫方怪。",
+      "可被喂食黏液球以加速成长，也会被黏液球吸引。",
+      "亦可被喂食金蒲公英以停止或恢复成长。",
+      "中型硫方怪死亡后会分裂为两个小型硫方怪。",
+      "中型硫方怪会被特定方块吸引，并且能够吸收方块。",
+      "中型硫方怪会跟随手持特定方块的玩家。",
+      "玩家可以对它使用该方块，以将方块给予它。",
+      "中型硫方怪会靠近并捡起物品实体形式的特定方块。",
+      "捡起或被给予特定方块时，硫方怪会停止移动，并在身体内部展示该方块。",
+      "内含方块的硫方怪免疫大多数伤害，被击打或产生碰撞时会弹开。",
+      "内含不同方块的硫方怪会有不同的特性。",
+      "玩家可以使用剪刀来移除硫方怪内含的方块。",
+      "中型硫方怪被玩家杀死时会掉落1-2点经验。",
+      "两种硫方怪都免疫渗浆效果。",
+      "现在被玩家击中时产生的击退会受到击中角度、位置和伤害的影响：",
+      "左侧被击中时，它会向右移动，反之亦然。",
+      "顶部被击中时，它会沿着地面移动。",
+      "底部被击中时，它会向上移动得更高。",
+      "受到的伤害较大时，它会被击退得更远。",
+      "攻击者的位置较高时，它会向下移动。",
+      "攻击者的位置较低时，它会向上移动。"
+    ],
+    "硫黄洞穴": [
+      "新的洞穴类生物群系。",
+      "分布着大量硫黄和朱砂，地面会有一些水坑。",
+      "水坑底部会生成烈性硫黄，产生黄色烟雾。",
+      "硫方怪会生成于此。"
+    ],
+    "粒子": [
+      "加入了noxious_gas_particle、​sulfur_bubble_particle和​sulfur_cube_goo粒子。"
+    ],
+    "Observable类": [
+      "加入了getFilteredText方法。可从Observable获取过滤后的数据（仅适用于字符串）。",
+      "getFilteredText(this: Observable<T & string>, player: Player): Promise<string | TextFilteringError>;",
+      "加入了TextFilteringError枚举，用于表示文本过滤期间可能出现的错误。这被用于Observable.getFilteredText，以提供关于过滤过程的更多上下文。"
+    ],
+    "附加包": [
+      "为minecraft:projectile组件加入了isolated_physics属性，用于更轻松地控制轨迹。",
+      "fire_at_target意向现在会应用相对于实体朝向的弹射物偏移。",
+      "自定义弹射物现在：",
+      "可以被反弹。",
+      "会在发射和反射时更新其拥有者。",
+      "不再会在发射时与其拥有者相碰撞。",
+      "会在发射时应用其偏移量。",
+      "会在使用stick_in_ground时保持在击中点。"
+    ],
+    "体素形状": [
+      "为70种原版方块加入了非单位立方体体素形状，需要启用体素形状实验性功能。这类形状改进了面剔除，以便正确移除相邻方块之间的隐藏面。",
+      "台阶形状（62种方块）",
+      "其他形状（8种方块）：校频幽匿感测体、 末地传送门框架、激活的红石比较器、激活的红石中继器、雪、未激活的红石比较器、未激活的红石中继器",
+      "修复了原版台阶的面剔除问题，现在直接位于台阶上方或下方的方块的顶面会根据台阶的形状正确剔除。",
+      "为19种原版方块加入了非单位立方体体素形状，需要启用体素形状实验性功能。这类形状改进了面剔除，以便正确移除相邻方块之间的隐藏面。",
+      "蛋糕形状（1种方块）：各片蛋糕对应7种被食用计数器的形状。",
+      "插有蜡烛的蛋糕形状（17种方块）",
+      "堆肥桶形状（1种方块）：各个堆肥阶段对应8个堆肥等级的形状。"
+    ],
+    "方块组件": [
+      "将方块格式为1.26.20或更高版本的minecraft:chest_obstruction组件从实验性玩法中移出。"
+    ],
+    "实体": [
+      "非豹猫和非猫生物现在可以使用minecraft:behavior.ocelotattack。 （MCPE-237713）",
+      "minecraft:apply_knockback_rules现在接受一组预设。",
+      "presets是一个元素数组，带有的参数与之前minecraft:apply_knockback_rules拥有的相同。",
+      "预设元素现在拥有以下新字段：",
+      "filter是一个使用默认语法的活动对象过滤器。",
+      "为minecraft:spawn_on_death加入了filters参数。",
+      "为实体行为定义加入了新的描述字段entity_version，可启用根据实体的版本控制和升级处理。",
+      "entity_version字段是一个包含升级数组的JSON对象，其中的每个项需指定整数的upgrade_to版本和name字符串，此字符串需引用在实体定义的新的顶级部分upgrade中定义的升级处理器。",
+      "升级版本必须从1开始且是连续的（如1、​2和​3），间隔或重复项会因内容日志错误而被拒绝。",
+      "版本0版本是为没有版本集的（“无版本的”）实体保留的，这是所有现有实体的默认值。",
+      "实体在其版本低于当前定义版本的情况下加载时，实体已保存版本与当前版本的所有升级处理程序会按顺序执行。",
+      "新生成的实体会直接设置为最新版本，而不运行任何升级处理程序。",
+      "升级处理程序会重用现有的事件系统，但会在单独的upgrades部分中定义，以与常规的events作出区分。",
+      "实体的版本会持续存在，并且会自动加载/保存。",
+      "此功能需要启用“即将推出的创作者功能”实验性选项。"
+    ],
+    "DimensionRegistry类": [
+      "在beta中加入了registerCustomDimension方法，以允许注册新的自定义维度。"
+    ],
+    "启动事件": [
+      "加入了在启动前事件期间注册自定义维度的能力。"
+    ],
+    "注释与参考": [
+      "Minecraft Beta & Preview - 26.20.20 — Minecraft Feedback，2026年3月10日。",
+      "Minecraft Beta & Preview - 26.20.21 — Minecraft Feedback，2026年3月17日。",
+      "Minecraft Beta & Preview - 26.20.22 — Minecraft Feedback，2026年3月25日。",
+      "Minecraft Beta & Preview - 26.20.23/24 — Minecraft Feedback，2026年3月31日。",
+      "Minecraft: Bedrock Edition 26.20.23 Preview Changelog — Minecraft.net，2026年3月31日。",
+      "Minecraft Beta & Preview - 26.20.26 — Minecraft Feedback，2026年4月8日。",
+      "Minecraft Beta & Preview - 26.20.27/28 — Minecraft Feedback，2026年4月14日。",
+      "Minecraft Beta & Preview - 26.20.27/28 — Minecraft Feedback，2026年4月17日。"
+    ]
+  }
+}

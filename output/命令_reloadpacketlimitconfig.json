@@ -1,0 +1,5 @@
+{
+  "title": "命令/reloadpacketlimitconfig",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Freloadpacketlimitconfig",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\nreloadpacketlimitconfig\n需要的权限等级\n4\n限制条件\n启用作弊\n仅专用服务端\n重新加载packetlimitconfig.json配置文件。\n语法\nreloadpacketlimitconfig\n结果\n永远执行成功。\n历史\n基岩版\n1.21.100\n1.21.100.20\n加入了命令/reloadpacketlimitconfig。\n导航"
+}

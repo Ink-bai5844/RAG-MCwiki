@@ -1,0 +1,5 @@
+{
+  "title": "携带版0.13.2",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%880.13.2",
+  "text": "0.13.2\n版本\n携带版\n版本码\nAndroid：\n720130200（armeabi-v7a，22）\n720130201（armeabi-v7a，22）\n720130202（armeabi-v7a，22）\n740130200（armeabi-v7a，22）\n740130201（armeabi-v7a，22）\n740130202（armeabi-v7a，22）\n760130200（armeabi-v7a，22）\n760130201（armeabi-v7a，22）\n760130202（armeabi-v7a，22）\n780130200（x86，22）\n780130201（x86，22）\n780130202（x86，22）\niOS/iPadOS：\n816208701\n发布时间\nAndroid - 2016年2月3日\niOS, FireOS, Windows Phone, Windows 10 - 2016年2月4日[来源请求]\n协议版本\n39\n◄◄0.13.0\n0.14.0►►\n◄0.13.1\nv0.13.2 alpha是携带版的一次次要更新，在Android上发布于2016年2月3日，在iOS、FireOS、Windows Phone和Windows 10上发布于2月4日[来源请求]，加入了一个皮肤包，并修复了一些漏洞。\n新内容\n常规\n皮肤包\n加入了西游记皮肤包。\n修复\n修复了5个漏洞\n僵尸和骷髅身上的盔甲渲染错误。\n僵尸猪人的帽子层纹理渲染错误。\n恶魂在攻击时不会张嘴。\n狼的项圈不会显示正确的颜色。\n玩家手臂的摆动出现错误。\n在下界时出现延迟。\n导航"
+}

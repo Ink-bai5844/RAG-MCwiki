@@ -1,0 +1,79 @@
+{
+  "title": "Tutorial:在Google Drive上运行游戏",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E5%9C%A8Google_Drive%E4%B8%8A%E8%BF%90%E8%A1%8C%E6%B8%B8%E6%88%8F",
+  "structured_content": {
+    "默认分类": [
+      "本教程所述内容仅适用于Java版。",
+      "此教程已确认至少适用于Java版1.14.1。",
+      "请帮助我们检查该内容是否仍在最新版本有效。",
+      "本教程将教你如何在Google Drive上运行Minecraft（请注意，这并不是真正从云端运行游戏，只是将它复制到一个不同的位置，并保持与云文件同步）。如果你想在切换计算机时保存游戏数据（如世界、资源包或Mod等）并自动备份游戏，这是非常有用的。"
+    ],
+    "你需要什么": [
+      "一个Google账户（最好拥有15GB的存储空间）"
+    ],
+    "下载Google Drive": [
+      "我们需要在你的电脑安装Google Drive。",
+      "首先，到这里下载Google Drive。",
+      "点击蓝色的“Download（下载）”按钮。",
+      "点击“Agree and Download（同意并下载）”。",
+      "运行.exe文件。",
+      "登录到我们刚刚安装的Google Drive，选择你想用来存储Minecraft文件的账户。",
+      "一个新的文件夹将被创建在“Favorites”下，将所有镜像文件放置在drive.google.com。"
+    ],
+    "创建文件夹": [
+      "找到你新的Google Drive文件夹并打开它。",
+      "右键 > 新建 > 文件夹。",
+      "将其命名为“Minecraft Portable”（或任何你想要的）并点击右键。",
+      "创建“bin”和“data”文件夹在“Minecraft Portable”文件夹的里面。",
+      "这两个文件夹的名称必须完全相同，因为我们将在下面的代码中使用它们。",
+      "现在你的Google Drive上有三个新文件夹了，它们分别是“bin”和“data”，位于“Minecraft Portable”目录下。"
+    ],
+    "客户端": [
+      "现在复制启动器到Google Drive上。",
+      "找到你的Minecraft客户端（minecraft.exe）并复制它（它应该在你的下载Minecraft时的文件夹）。如果没有，请在这里下载。",
+      "你需要的是.exe文件，而不是快捷方式。如果你不确定它是否为快捷方式，查看它的图标，快捷方式的图标左下角有一个箭头。",
+      "如果你找不到“minecraft.exe”，那就再下载一次，并将其复制过来。",
+      "将“minecraft.exe”粘贴到你在Google Drive上创建的“bin”文件夹中。"
+    ],
+    "数据文件": [
+      "我们新的Minecraft仍然没有数据，下面是找到数据的方法：",
+      "按下⊞ Windows + R。",
+      "输入“%APPDATA%\\Roaming”。",
+      "按下↵ Enter。",
+      "找到你的“.minecraft”文件夹并复制它。",
+      "回到“Minecraft Portable”文件夹，然后双击“data”文件夹。",
+      "复制你的“.minecraft”文件夹，粘贴到“data”文件夹（如果你不想复制所有数据，就创建一个名为“.minecraft”的文件夹）。",
+      "如果你的存档过大或网络较差，那就可能花费很多时间。",
+      "如果它完成了，不要太激动。现在Google Drive将开始同步所有的文件。除了复制粘贴文件所需的时间外，还需要再等约5个小时。让它在我们睡觉的时候做吧。",
+      "现在，你所有的地图、资源包和Mod都在Google Drive中了。"
+    ],
+    "设置": [
+      "现在所有的数据文件都在那里了，我们需要告诉Windows如何处理Google Drive中的文件。为此，我们要创建一个批处理文件。",
+      "按下⊞ Windows + R。"
+    ],
+    "输入“Notepad”": [
+      "按下↵ Enter。",
+      "将以下代码复制并粘贴到记事本或类似的文本编辑器中（提示：如果你的.exe位于bin文件夹中，那么把盘用bin替换）。"
+    ],
+    "\"%CD%\\bin\\MinecraftLauncher.exe\" --workDir \"%CD%\\data\\.minecraft\"": [
+      "如果你使用minecraft.jar的话，输入："
+    ],
+    "现在点击文件 > 另存为...": [
+      "找到你的Minecraft portable文件夹（不是bin或data）并双击它。",
+      "将此文件命名为“Launcher.bat”。",
+      "注意：确保你输入的代码包括“\"”，否则编辑器会自动补全到Launcher.bat.txt，也就无法执行了。"
+    ],
+    "完成": [
+      "双击新建的“Launcher.bat”就可以打开启动器。Minecraft可能需要更长的时间才能启动，这是正常的，因为只是批处理文件在工作而已。",
+      "有几点需要注意：",
+      "如果你想下载资源包、地图或Mod，请将下载的文件放入在你在Google Drive上“.minecraft”文件夹相应的子文件夹中。",
+      "如果要在另一台电脑上使用云端的Minecraft文件，请下载Google Drive，登录并双击Launcher.bat里面的Minecraft Portable。",
+      "Minecraft便携版可以和普通的Minecraft一样运行。普通的Minecraft的存档将不会同步。",
+      "在Google Drive中运行的Minecraft无法设置所分配的内存。如果你的Minecraft无法工作，你应该首先注意这个问题。"
+    ],
+    "参考": [
+      "Tutorial:在U盘中使用旧版启动器运行游戏",
+      "www.pcsteps.com/1346-create-portable-minecraft-usb-stick/"
+    ]
+  }
+}

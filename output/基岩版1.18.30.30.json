@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.18.30.30",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.18.30.30",
+  "text": "1.18.30.30\n版本\n基岩版\n版本码\nAndroid：\n951803030（armeabi-v7a，31）\n961803030（x86，31）\n971803030（arm64-v8a，31）\n981803030（x86_64，31）\n类型\n测试版\n发布时间\nXbox, Windows, Android, iOS/iPadOS - 2022年3月25日\n测试版归属\n1.18.30\n协议版本\n503\n◄◄1.18.12\n1.18.31►►\n◄1.18.30.28\n1.18.30.32►\nbeta 1.18.30.30（Xbox/Windows/Android）、Preview 1.18.30.31（iOS/iPadOS/Xbox/Windows）是基岩版1.18.30的第10个测试版，发布于2022年3月25日，修复了一个会导致区块损坏的严重漏洞。\n修复\n修复了上个版本中区块Y=0以下部分会被损坏的漏洞。\n已被损坏的区块将被重新生成。\n参考\nMinecraft Beta & Preview - 1.18.30.30/31 — Minecraft Feedback，2022年3月25日。\n导航"
+}

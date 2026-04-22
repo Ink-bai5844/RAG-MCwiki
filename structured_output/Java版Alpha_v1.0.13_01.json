@@ -1,0 +1,36 @@
+{
+  "title": "Java版Alpha v1.0.13 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.13_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "Alpha v1.0.13_01"
+    ],
+    "发布时间": [
+      "2010年7月29日"
+    ],
+    "客户端（.json）": [
+      "重新上传（1K IN 24h）"
+    ],
+    "协议版本": [
+      "12",
+      "◄◄Alpha v1.0.11",
+      "Alpha v1.0.14►►",
+      "◄Alpha v1.0.13",
+      "Alpha v1.0.13_01是Java版的一次更新，发布于2010年7月29日，修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了发生在区块附近导致崩溃的漏洞。"
+    ],
+    "重新上传": [
+      "该版本的客户端于14:44（UTC）被重新上传，以加入新的临时Logo“1K IN 24h”，旨在庆祝在过去24个小时中Minecraft被购买了1000次。"
+    ],
+    "参考": [
+      "1.0.13_01 fixes a few crash bugs（存档） — The Word of Notch，2010年7月29日。",
+      "https://imgur.com/HVRgh",
+      "Chronicles of Minecraft: Preview，来自ChazDragoon。YouTube，2010年7月29日。"
+    ]
+  }
+}

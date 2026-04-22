@@ -1,0 +1,48 @@
+{
+  "title": "命令/transform",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftransform",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本23w13a_or_b中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "控制实体进行变身。"
+    ],
+    "transform clear": [
+      "恢复原形。"
+    ],
+    "transform into <entity> [<nbt>]": [
+      "变身为指定实体。"
+    ],
+    "transform into player <player>": [
+      "切换至指定玩家的皮肤。"
+    ],
+    "transform scale <scale>": [
+      "更改尺寸。"
+    ],
+    "参数": [
+      "<entity>：resource",
+      "指定要变身的实体类型。",
+      "必须是一个注册在minecraft:entity_type注册表的一个注册项的命名空间ID。",
+      "<nbt>：nbt_compound_tag",
+      "指定该实体的NBT。",
+      "必须为SNBT格式的复合标签。",
+      "<player>：game_profile",
+      "指定要切换的玩家。",
+      "指定一个或多个游戏（玩家）档案，必须是玩家名或玩家类型的目标选择器。若服务器开启在线模式，在命令执行时玩家名将要求真实存在。",
+      "<scale>：float",
+      "指定尺寸。",
+      "必须为单精度浮点数。且必须在0.1和16之间（含）。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ]
+  }
+}

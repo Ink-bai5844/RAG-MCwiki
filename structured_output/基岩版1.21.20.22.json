@@ -1,0 +1,197 @@
+{
+  "title": "基岩版1.21.20.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.20.22",
+  "structured_content": {
+    "默认分类": [
+      "1.21.20.22"
+    ],
+    "服务端版本": [
+      "1.21.20.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952102022（armeabi-v7a，34）",
+      "962102022（x86，34）",
+      "972102022（arm64-v8a，34）",
+      "982102022（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年7月10日"
+    ],
+    "测试版归属": [
+      "1.21.20"
+    ],
+    "协议版本": [
+      "712",
+      "◄◄1.21.3",
+      "1.21.21►►",
+      "◄1.21.20.21",
+      "1.21.20.23►",
+      "beta 1.21.20.22（ChromeOS/Android）、Preview 1.21.20.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的第7个测试版，发布于2024年7月10日，更改了Realms邀请链接的运作方式，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "现在因缺失内容而加载失败的实体会保留在存档内。",
+      "这些实体会在所缺失的内容可用（即移除并重新应用附加包）时重新出现。",
+      "修复了玩家创建或开启一个世界前不会正确导入市场内容的问题。",
+      "旧世界不再会在世界边缘处出现无法渲染的区块。"
+    ],
+    "实验性玩法": [
+      "加入了“创作者镜头：焦点目标镜头”子选项。",
+      "目前不包含任何功能。"
+    ],
+    "方块": [
+      "资源包中的blocks.json文件现在是版本控制的。",
+      "使用1.20.50或更高版本的format_version覆写stone会假定terrain_texture.json中的纹理数据是扁平化的，而非使用一个数组。",
+      "使用1.21.10或更高版本的format_version覆写prismarine会假定terrain_texture.json中的纹理数据是扁平化的，而非使用一个数组。",
+      "使用1.21.20或更高版本的format_version覆写anvil、​quartz_block、​red_sandstone、​sand和​sandstone会假定terrain_texture.json中的纹理数据是扁平化的，而非使用一个数组。",
+      "infested_stone（虫蚀石头）及其衍生方块现在拥有已定义的方块音效。（MCPE-182290）",
+      "活板门和栅栏门被红石激活时不再会推动玩家或生物。",
+      "加入了原版方块标签one_way_collidable，用于模拟不会推动碰撞箱内的生物的门、活板门和栅栏门的单向碰撞。",
+      "缠根泥土现在拥有独特的音效，以同步Java版。（MCPE-121664）",
+      "现在铜门的“打开”音效的音高有所不同。",
+      "损坏的铁砧现在可以生成于古迹废墟，如同Java版。",
+      "调整了平滑石英块的硬度以匹配Java版。（MCPE-101893）"
+    ],
+    "铁砧、开裂的铁砧和损坏的铁砧": [
+      "IDanvil现在被拆分为：anvil、​chipped_anvil、​damaged_anvil和​deprecated_anvil。",
+      "anvil的数据值仍然可用。",
+      "deprecated_anvil（原anvil:12）在一般情况下并不可用。"
+    ],
+    "泥土和砂土": [
+      "IDdirt现在被拆分为：dirt和​coarse_dirt。",
+      "dirt的数据值仍然可用。"
+    ],
+    "石英块、雕纹石英块、石英柱和平滑石英块": [
+      "IDquartz_block现在被拆分为：quartz_block、​chiseled_quartz_block、​quartz_pillar和​smooth_quartz。",
+      "quartz_block的数据值仍然可用。",
+      "石英柱的英文名称由“Pillar Quartz Block”更改为“Quartz Pillar”。",
+      "将平滑石英块的硬度由0.8更改为2，爆炸抗性由0.8更改为6，以匹配Java版。"
+    ],
+    "红砂岩、雕纹红砂岩、切制红砂岩和平滑红砂岩": [
+      "IDred_sandstone现在被拆分为：red_sandstone、​chiseled_red_sandstone、​cut_red_sandstone和​smooth_red_sandstone。",
+      "red_sandstone的数据值仍然可用。",
+      "将平滑红砂岩的硬度由0.8更改为2，爆炸抗性由0.8更改为6，以匹配Java版。"
+    ],
+    "缠根泥土": [
+      "现在使用独有音效，而不是使用沙砾的音效。"
+    ],
+    "沙子和红沙": [
+      "IDsand现在被拆分为：sand和​red_sand。",
+      "sand及其数据值仍然可用。"
+    ],
+    "命名空间ID": [
+      "现在结构ID会显示默认命名空间minecraft。"
+    ],
+    "Realms": [
+      "更改了邀请链接的运作方式。",
+      "玩家现在可以为Realm创建最多5个邀请链接。",
+      "现在可以随意启用或禁用邀请链接，或者为邀请链接设置未来的到期时间。",
+      "现在可以完全删除邀请链接。",
+      "新创建的邀请链接的长度限制由11字符增加至15字符。",
+      "已有的预览版Realms会保留其现有的邀请链接，但所有新的预览版Realms会以默认向前移动的0个邀请链接开始。",
+      "修复了Realms按钮会在不该出现时停留，应该出现时不显示的问题。",
+      "修复了将加入最近认领的预览版Realm的流程取消时，玩家会困在无限循环中的漏洞。",
+      "修复了新安装Minecraft的玩家需要重启游戏才能看到Realms故事的漏洞。"
+    ],
+    "教学提示": [
+      "加入了一个游戏提示，用于通知使用触摸控制的玩家现在处于潜行状态，以避免新玩家卡在潜行状态。",
+      "优化了小提示中断。"
+    ],
+    "API": [
+      "修复了在空气方块物品上调用Item Stack上的getTags方法时发生的崩溃。"
+    ],
+    "Dimension": [
+      "将getTopmostBlock方法由beta开放至1.13.0。",
+      "将VectorXZ接口由beta开放至1.13.0。"
+    ],
+    "命令": [
+      "/locate structure命令现在使用命名空间化的结构名称。未提供命名空间的结构名称会假定命名空间为minecraft。（MCPE-151807）"
+    ],
+    "基岩版编辑器": [
+      "更新了编辑器选取器内显示的方块+实体集。",
+      "加入了用于关联脚本调试器的ActionBarItem快捷方式“关联调试器”。",
+      "为实体删除或创建实现了单个实体事务负载。",
+      "实现了单个实体删除或创建的撤销或重做。",
+      "加入了isFloat以支持addNumber编辑器属性窗格API中的浮点值。",
+      "为日志面板消息加入了复制到剪贴板按钮。",
+      "在延迟渲染光照属性编辑器的下拉菜单中加入了本地化字段名称。",
+      "为延迟渲染光照属性编辑器加入了全局照明。",
+      "修复了在编辑器中启用延迟渲染光照会导致视觉缺陷的漏洞。",
+      "移除了API中的回落显示文本，取而代之的是单个本地化属性。",
+      "为IDropdownItemAPI加入了label属性，并移除了displayAltText和​displayStringId属性。",
+      "为IMenuCreationParamsAPI加入了label属性，并移除了name和​displayStringId属性。",
+      "为IPropertyItemOptions和​IPropertyItemAPI加入了title属性，并移除了titleAltText和​titleStringId属性。",
+      "为ModalToolCreationParametersAPI加入了title和​tooltip属性，并移除了titleAltText、​titleStringId、​tooltipAltText和​tooltipStringId属性。"
+    ],
+    "实体组件": [
+      "加入了behavior.teleport_to_owner意向，允许实体传送至其主人处。",
+      "此意向可用于behavior.follow_owner可能过慢或优先级过低的紧急情况。",
+      "filters字段允许使用实体过滤器来定义条件。",
+      "cooldown字段允许定义实体试图传送的频率。",
+      "将minecraft:behavior.move_away_from_target重命名为minecraft:behavior.move_around_target，以更好地描述此意向的用途，因为它既可以用于远离目标，也可以用于向目标附近的随机位置移动。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器owner_distance。",
+      "用于检查实体与其主人之间的距离。"
+    ],
+    "游戏内容": [
+      "通过加入Trigger Type，修改了ItemUseInventoryTransaction数据包。",
+      "这个新值会告知该数据包是从玩家直接输入发送的，还是从按住按钮的模拟刻发送的。",
+      "修复了在物品栏和快捷栏之间快速移动火把时，火把物品图标会暂时错位的问题。（MCPE-180913）",
+      "取消骑乘时坐骑和载具不再会拥有略微的运动速度。"
+    ],
+    "物品": [
+      "现在槽位设置为slot.weapon.offhand的minecraft:wearable与设置为false的minecraft:allow_off_hand配合使用时会产生内容日志错误。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”、“创作者相机：新的第三人称预设”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "Camera": [
+      "在beta中为setCamera函数的一些选项加入了CameraFixedBoomOptions。"
+    ],
+    "CameraFixedBoomOptions": [
+      "加入到beta中的新接口。",
+      "允许自定义minecraft:follow_orbit相机视角（仅当开启第三人称相机预设选项时）。",
+      "引入了viewOffset?: Vector2。",
+      "允许更改相机视角相对于玩家的偏移量，以创建过肩效果。"
+    ],
+    "图形": [
+      "扩展了纹理集的功能，以支持延迟渲染预览功能中的物品。",
+      "为延迟渲染预览功能中的水加入了生物光学照明模型。",
+      "自定义和数据驱动水的能力将会在未来更新中可用。",
+      "在延迟渲染预览功能中加入了屏幕空间反射 。",
+      "这类反射在延迟渲染图形设置菜单中包含为反射质量滑块。",
+      "移动设备上的屏幕空间反射仅在极致设置下运行时可用。",
+      "修复了iOS平台上的延迟渲染预览功能中会出现未定义的图形行为（如没有点光源和模糊光照）的漏洞。",
+      "修复了导致延迟渲染预览中的蜡烛、玻璃、冰、蜂蜜块、黏液块、信标、炼药锅和传送门的纹理显得过亮的伽马值校正漏洞。",
+      "修复了迷雾JSON验证不允许max_density_height和​zero_density_height值的范围为(-64,320)的问题。"
+    ],
+    "辅助功能": [
+      "修复了屏幕旁白不会在Android和iOS平台上描述如何接受游戏邀请的问题。",
+      "UI文本转语音现在会读出如何通过悬停、点击或导航来操控屏幕。"
+    ],
+    "分屏模式": [
+      "修复了分屏模式中生物被卸下某物时不会播放动画的问题。"
+    ],
+    "地图": [
+      "修复了具有无限追踪功能的地图（如试炼探险家地图）的地图边缘处的结构图标和其他地图图标会变得不可见的问题。（MCPE-182681）"
+    ],
+    "生物": [
+      "沼骸在乘坐船、竹筏或矿车时不再会悬浮。（MCPE-178876）"
+    ],
+    "不祥宝库": [
+      "现在稀有战利品被抽取到的概率为80%，而不是20%。（MCPE-180654）"
+    ],
+    "Realms故事": [
+      "整理了在分屏模式中作为第2个玩家进行游戏时的暂停屏幕上的Realms故事按钮界面。"
+    ],
+    "用户界面": [
+      "移除了双人Realms订阅中的一则不必要的警告。",
+      "修复了在新的游玩屏幕上点击“加入Realm”会进入空白区域的问题。",
+      "现在在新的睡眠时间屏幕按下键盘的退出键时会取消睡觉。（MCPE-183434）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.20.22 — Minecraft Feedback，2024年7月10日。"
+    ]
+  }
+}

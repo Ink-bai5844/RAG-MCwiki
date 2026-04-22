@@ -1,0 +1,281 @@
+{
+  "title": "生物群系/ID",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB%2FID",
+  "structured_content": {
+    "默认分类": [
+      "参见：生物群系/1.13前的ID",
+      "每种生物群系都拥有自己的生物群系ID，如下表所示。基岩版的冻洋（旧版）及所有在1.18.0中移除的生物群系均未从代码层面上移除，但不会自然生成。",
+      "Java版："
+    ],
+    "bamboo_jungle": [
+      "48"
+    ],
+    "basalt_deltas": [
+      "181"
+    ],
+    "beach": [
+      "16"
+    ],
+    "birch_forest": [
+      "27"
+    ],
+    "cherry_grove": [
+      "192"
+    ],
+    "cold_ocean": [
+      "44"
+    ],
+    "crimson_forest": [
+      "179"
+    ],
+    "deep_cold_ocean": [
+      "45"
+    ],
+    "deep_dark": [
+      "190"
+    ],
+    "deep_frozen_ocean": [
+      "47"
+    ],
+    "deep_lukewarm_ocean": [
+      "43"
+    ],
+    "deep_ocean": [
+      "24"
+    ],
+    "desert": [
+      "2"
+    ],
+    "dripstone_caves": [
+      "188"
+    ],
+    "flower_forest": [
+      "132"
+    ],
+    "forest": [
+      "4"
+    ],
+    "frozen_ocean": [
+      "46"
+    ],
+    "frozen_peaks": [
+      "183"
+    ],
+    "frozen_river": [
+      "11"
+    ],
+    "grove": [
+      "185"
+    ],
+    "jagged_peaks": [
+      "182"
+    ],
+    "jungle": [
+      "21"
+    ],
+    "lukewarm_ocean": [
+      "42"
+    ],
+    "lush_caves": [
+      "187"
+    ],
+    "mangrove_swamp": [
+      "191"
+    ],
+    "meadow": [
+      "186"
+    ],
+    "ocean": [
+      "0"
+    ],
+    "pale_garden": [
+      "193",
+      "硫黄洞穴[实验性玩法“2026 年第 2 次更新”新增]"
+    ],
+    "plains": [
+      "1"
+    ],
+    "river": [
+      "7"
+    ],
+    "savanna": [
+      "35"
+    ],
+    "savanna_plateau": [
+      "36"
+    ],
+    "snowy_slopes": [
+      "184"
+    ],
+    "stony_peaks": [
+      "189"
+    ],
+    "sunflower_plains": [
+      "硫黄洞穴[新增：JE 26.2]",
+      "129"
+    ],
+    "sulfur_caves": [
+      "194"
+    ],
+    "taiga": [
+      "5"
+    ],
+    "the_end": [
+      "9"
+    ],
+    "warm_ocean": [
+      "40"
+    ],
+    "warped_forest": [
+      "180"
+    ],
+    "wooded_badlands": [
+      "基岩版：",
+      "为了便于表示，在下面列出了各生物群系名称，但这些名称实际上并不显示在游戏中。"
+    ],
+    "extreme_hills": [
+      "3"
+    ],
+    "swampland": [
+      "6"
+    ],
+    "hell": [
+      "8"
+    ],
+    "legacy_frozen_ocean": [
+      "10"
+    ],
+    "ice_plains": [
+      "12"
+    ],
+    "ice_mountains": [
+      "13"
+    ],
+    "mushroom_island": [
+      "14"
+    ],
+    "mushroom_island_shore": [
+      "15"
+    ],
+    "desert_hills": [
+      "17"
+    ],
+    "forest_hills": [
+      "18"
+    ],
+    "taiga_hills": [
+      "19"
+    ],
+    "extreme_hills_edge": [
+      "20"
+    ],
+    "jungle_hills": [
+      "22"
+    ],
+    "jungle_edge": [
+      "23"
+    ],
+    "stone_beach": [
+      "25"
+    ],
+    "cold_beach": [
+      "26"
+    ],
+    "birch_forest_hills": [
+      "28"
+    ],
+    "roofed_forest": [
+      "29"
+    ],
+    "cold_taiga": [
+      "30"
+    ],
+    "cold_taiga_hills": [
+      "31"
+    ],
+    "mega_taiga": [
+      "32"
+    ],
+    "mega_taiga_hills": [
+      "33"
+    ],
+    "extreme_hills_plus_trees": [
+      "34"
+    ],
+    "mesa": [
+      "37"
+    ],
+    "mesa_plateau_stone": [
+      "38"
+    ],
+    "mesa_plateau": [
+      "39"
+    ],
+    "deep_warm_ocean": [
+      "41"
+    ],
+    "bamboo_jungle_hills": [
+      "49"
+    ],
+    "desert_mutated": [
+      "130"
+    ],
+    "extreme_hills_mutated": [
+      "131"
+    ],
+    "taiga_mutated": [
+      "133"
+    ],
+    "swampland_mutated": [
+      "134"
+    ],
+    "ice_plains_spikes": [
+      "140"
+    ],
+    "jungle_mutated": [
+      "149"
+    ],
+    "jungle_edge_mutated": [
+      "151"
+    ],
+    "birch_forest_mutated": [
+      "155"
+    ],
+    "birch_forest_hills_mutated": [
+      "156"
+    ],
+    "roofed_forest_mutated": [
+      "157"
+    ],
+    "cold_taiga_mutated": [
+      "158"
+    ],
+    "redwood_taiga_mutated": [
+      "160"
+    ],
+    "redwood_taiga_hills_mutated": [
+      "161"
+    ],
+    "extreme_hills_plus_trees_mutated": [
+      "162"
+    ],
+    "savanna_mutated": [
+      "163"
+    ],
+    "savanna_plateau_mutated": [
+      "164"
+    ],
+    "mesa_bryce": [
+      "165"
+    ],
+    "mesa_plateau_stone_mutated": [
+      "166"
+    ],
+    "mesa_plateau_mutated": [
+      "167"
+    ],
+    "soulsand_valley": [
+      "178"
+    ]
+  }
+}

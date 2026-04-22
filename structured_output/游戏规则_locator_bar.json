@@ -1,0 +1,34 @@
+{
+  "title": "游戏规则/locator bar",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Flocator_bar",
+  "structured_content": {
+    "描述": [
+      "启用后，屏幕上会显示指示玩家方位的定位栏。"
+    ],
+    "定位栏": [
+      "25w15a",
+      "加入了游戏规则useLocatorBar。",
+      "1.21.6",
+      "25w17a",
+      "将游戏规则useLocatorBar重命名为locatorBar，以匹配基岩版。",
+      "游戏规则locatorBar不再属于实验性内容。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则locatorBar重命名为locator_bar。"
+    ],
+    "locatorBar": [
+      "locator_bar[仅Java版]或locatorBar[仅基岩版]是控制是否显示定位栏的游戏规则。"
+    ],
+    "Java版": [
+      "当locator_bar为true时，游戏可以创建和更新玩家与路径点源的连接，以允许路径点被创建、更新以及被玩家接收。这进而表现为玩家数量不少于2时，定位栏会显示。",
+      "反之，游戏会断开所有玩家与路径点源的连接，移除路径点，但不会移除路径点源。",
+      "1.21.6"
+    ],
+    "基岩版": [
+      "当locatorBar为true时，若游戏中的玩家不少于2人，则会向所有玩家显示定位栏。",
+      "1.21.80",
+      "1.21.80.25",
+      "加入了游戏规则locatorBar。"
+    ]
+  }
+}

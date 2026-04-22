@@ -1,0 +1,33 @@
+{
+  "title": "Java版Alpha v1.0.10",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.10",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "Alpha v1.0.10"
+    ],
+    "发布时间": [
+      "2010年7月22日"
+    ],
+    "协议版本": [
+      "10",
+      "◄◄Alpha v1.0.6",
+      "Alpha v1.0.11►►",
+      "◄Alpha v1.0.9",
+      "Alpha v1.0.10是Java版的一次更新，发布于2010年7月22日，加入了早期对生存模式的多人游戏的支持。"
+    ],
+    "多人游戏": [
+      "被重新加入游戏。",
+      "目前只有Mojang的服务器。",
+      "仅能通过私人邀请访问。"
+    ],
+    "主菜单": [
+      "单人游戏文本从\"Single player\"改为\"Singleplayer\"。",
+      "多人游戏文本从\"Multi player\"改为\"Multiplayer\"。"
+    ],
+    "参考": [
+      "First over-the-internet test of Survival Mode Multiplayer（存档） — The Word of Notch，2010年7月22日。"
+    ]
+  }
+}

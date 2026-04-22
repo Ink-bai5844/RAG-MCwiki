@@ -1,0 +1,115 @@
+{
+  "title": "Java版Classic 0.26 SURVIVAL TEST",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.26_SURVIVAL_TEST",
+  "structured_content": {
+    "默认分类": [
+      "关于该版本的开发历程，请见“Java版Classic 0.26 SURVIVAL TEST/开发者版本”。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.26 SURVIVAL TEST"
+    ],
+    "发布时间": [
+      "2009年10月24日"
+    ],
+    "协议版本": [
+      "6"
+    ],
+    "未知": [
+      "◄◄0.25 SURVIVAL TEST",
+      "0.27 SURVIVAL TEST►►",
+      "◄0.25_05 SURVIVAL TEST",
+      "0.26 SURVIVAL TEST是Java版Classic的一次更新，发布于2009年10月24日，加入了蜘蛛和一些新的方块。"
+    ],
+    "石台阶": [
+      "一种装饰性方块。",
+      "不会自然生成在世界中。"
+    ],
+    "铁块": [
+      "一种装饰性方块。",
+      "不会自然生成在世界中。"
+    ],
+    "苔石": [
+      "一种装饰性方块。",
+      "不会自然生成在世界中。"
+    ],
+    "TNT": [
+      "世界生成时给予玩家10个。"
+    ],
+    "红砖块": [
+      "一种装饰性方块。",
+      "不会自然生成在世界中。",
+      "无法通过常规手段获得。"
+    ],
+    "书架": [
+      "一种装饰性方块。",
+      "不会自然生成在世界中。",
+      "无法通过常规手段获得。",
+      "被破坏时不掉落任何物品。"
+    ],
+    "蜘蛛": [
+      "一种敌对生物，通过近战攻击玩家。",
+      "会自然生成在世界中。",
+      "死后掉落0~2个棕色蘑菇。",
+      "死亡时给予玩家10点分数。[需要验证]"
+    ],
+    "降雨": [
+      "按F5触发。"
+    ],
+    "常规": [
+      "玩家现在可以更快的造成伤害。"
+    ],
+    "选项": [
+      "帧率限制。"
+    ],
+    "terrain.png": [
+      "加入了蜘蛛网的纹理。"
+    ],
+    "石头": [
+      "现在被破坏后掉落圆石。"
+    ],
+    "煤矿石": [
+      "被破坏后会掉落1–3个石台阶。"
+    ],
+    "金矿石": [
+      "更改了纹理。"
+    ],
+    "金块": [
+      "更改了纹理。",
+      "可以通过挖掘金矿石获得。"
+    ],
+    "铁矿石": [
+      "被破坏后掉落1-3个铁块。"
+    ],
+    "苦力怕": [
+      "更改了纹理。",
+      "现在在死亡时出现爆炸粒子。",
+      "现在只能破坏泥质方块。"
+    ],
+    "碰撞箱": [
+      "缩小了所有植物的碰撞箱。"
+    ],
+    "菜单屏幕": [
+      "取消了背景的渐变色。",
+      "这意味着死亡界面不再是红色，菜单屏幕不再是灰色。"
+    ],
+    "光照": [
+      "水面上的方块不再在其表面产生阴影。"
+    ],
+    "控制": [
+      "按B键不再会放置告示牌。"
+    ],
+    "你知道吗": [
+      "很多人都误以为该版本中的蜘蛛为棕色。然而，Omniarchive社区于2020年4月8日细致科学地分析了现有证据，几乎可以确认此版本公开发布时的蜘蛛为黑色。"
+    ],
+    "参考": [
+      "Survival mode updated, free testing for everyone!（存档） — The Word of Notch，2009年10月24日。",
+      "Minecraft half size tile test，来自Nizzotch Archive。YouTube。",
+      "Minecraft rain test，来自Nizzotch Archive。YouTube。",
+      "New enemy type. The idea is that these will produce web tiles.（存档） — The Word of Notch，2009年10月23日。",
+      "I think I’m flooding you guys with youtube vids, hehe. Anyway, here’s me killing some spiders with the damage turned down.（存档） — The Word of Notch，2009年10月24日。",
+      "en:Special:diff/1546659 – 2020年4月9日 13:54 UTC",
+      "https://www.youtube.com/watch?v=fwYeQu2N22g"
+    ]
+  }
+}

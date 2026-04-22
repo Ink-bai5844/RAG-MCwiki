@@ -1,0 +1,5 @@
+{
+  "title": "命令/remove",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fremove",
+  "text": "本条目所述内容仅适用于教育版。\nremove\n是否可见\n隐藏\n需要的权限等级\n0\n限制条件\n无\n移除实体。\n语法\nremove [target: target]\n参数\ntarget: target：CommandSelector<Actor>\n指定要移除的目标。\n必须为玩家名或目标选择器。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n移除的实体数量\n示例\n移除自己的智能体：/remove @c\n移除所有的智能体：/remove @v\n移除所有的实体：/remove @e\n历史\n教育版\n1.7\n加入了/remove命令。\n参见\n/kill – 杀死生物，清除非生物实体\n导航"
+}

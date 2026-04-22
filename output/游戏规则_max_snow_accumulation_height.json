@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/max snow accumulation height",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fmax_snow_accumulation_height",
+  "text": "本条目所述内容仅适用于Java版。\nmax_snow_accumulation_height\n名称\n积雪厚度\n描述\n降雪时，地面上的雪最多堆积到此处指定的层数。\n分类（JE）\n世界更新\n值类型\n整型\n默认值\n1\n值域（JE）\n0 – 8\n游戏规则ID\nmax_snow_accumulation_height\nmax_snow_accumulation_height是控制积雪最大高度的游戏规则。\n行为\n降雪时，积雪的层数至多达到max_snow_accumulation_height层，最大可达到一整格雪。\nmax_snow_accumulation_height的值不能低于0，不能高于8。\n历史\nJava版\n1.19.3\n22w44a\n加入了游戏规则snowAccumulationHeight。\n1.21.11\n25w44a\n将游戏规则snowAccumulationHeight重命名为max_snow_accumulation_height。\n现在max_snow_accumulation_height的值只能在0 – 8之间（含）。\n导航"
+}

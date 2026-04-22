@@ -1,0 +1,31 @@
+{
+  "title": "Earth:粉红雏菊",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E7%B2%89%E7%BA%A2%E9%9B%8F%E8%8F%8A",
+  "structured_content": {
+    "硬度": [
+      "0"
+    ],
+    "爆炸抗性": [
+      "0"
+    ],
+    "引燃几率": [
+      "60"
+    ],
+    "烧毁几率": [
+      "100"
+    ],
+    "dandelion": [
+      "粉红雏菊（Pink Daisy）是仅在Minecraft Earth中出现的一种粉色小型花。"
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "获取": [
+      "对哞金香使用剪刀会掉落1朵粉红雏菊。"
+    ],
+    "Minecraft Earth": [
+      "0.29.0",
+      "加入了粉红雏菊。"
+    ]
+  }
+}

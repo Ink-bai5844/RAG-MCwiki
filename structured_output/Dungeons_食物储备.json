@@ -1,0 +1,30 @@
+{
+  "title": "Dungeons:食物储备",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%A3%9F%E7%89%A9%E5%82%A8%E5%A4%87",
+  "structured_content": {
+    "FoodReserves": [
+      "使用治疗药水会获得随机食物。"
+    ],
+    "——魔咒描述": [
+      "食物储备（Food Reserves）是Minecraft Dungeons中的魔咒，效果为使用治疗药水后会获得随机食物。效果随着魔咒等级提高而提高。"
+    ],
+    "I": [
+      "1个食物",
+      "1 魔咒点数"
+    ],
+    "II": [
+      "2个食物",
+      "2 魔咒点数"
+    ],
+    "III": [
+      "3个食物",
+      "3 魔咒点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了食物储备。",
+      "1.3.2.0",
+      "修复魔咒生成的消耗品不会在在线多人游戏下让所有玩家看到的漏洞。"
+    ]
+  }
+}

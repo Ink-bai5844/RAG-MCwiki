@@ -1,0 +1,16 @@
+{
+  "title": "运输船/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BF%90%E8%BE%93%E8%88%B9%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "容器运输实体共通标签，见Template:Nbt inherit/container entity/source",
+      "leash：二选一，代表运输船目前是否被拴绳拴住与被拴住时的信息。如果没有被拴住则不存在此标签。",
+      "当运输船被拴绳拴在一个栅栏上时，此标签为整型数组，内部的三个整数分别代表了位置的XYZ坐标值。",
+      "当运输船被另一个实体用拴绳拴住时，此标签为复合标签，附加的标签如下："
+    ],
+    "*": [
+      "*UUID：拴绳连接到的实体的UUID。"
+    ]
+  }
+}

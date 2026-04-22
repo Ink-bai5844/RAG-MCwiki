@@ -1,0 +1,377 @@
+{
+  "title": "生物群系/1.13前的ID",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB%2F1.13%E5%89%8D%E7%9A%84ID",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Minecraft中移除。",
+      "这些特性曾存在于游戏中，但已被移除。",
+      "每种生物群系都有自己的生物群系编号（Biome ID），如下表所示。主生物群系的编号为0到127，变种生物群系的编号则为128 + 原生物群系编号。冻洋和峭壁边缘不会自然生成。"
+    ],
+    "颜色": [
+      "0",
+      "minecraft:ocean"
+    ],
+    "海洋": [
+      "000070",
+      "1",
+      "minecraft:plains"
+    ],
+    "平原": [
+      "8DB360",
+      "2",
+      "minecraft:desert"
+    ],
+    "沙漠": [
+      "FA9418",
+      "3",
+      "minecraft:extreme_hills"
+    ],
+    "峭壁": [
+      "606060",
+      "4",
+      "minecraft:forest"
+    ],
+    "森林": [
+      "056621",
+      "5",
+      "minecraft:taiga"
+    ],
+    "针叶林": [
+      "0B6659",
+      "6",
+      "minecraft:swampland"
+    ],
+    "沼泽地": [
+      "07F9B2",
+      "7",
+      "minecraft:river"
+    ],
+    "河流": [
+      "0000FF",
+      "8",
+      "minecraft:hell"
+    ],
+    "下界": [
+      "FF0000",
+      "9",
+      "minecraft:sky"
+    ],
+    "末地": [
+      "8080FF",
+      "10"
+    ],
+    "A": [
+      "minecraft:frozen_ocean"
+    ],
+    "冻洋": [
+      "9090A0",
+      "11"
+    ],
+    "B": [
+      "minecraft:frozen_river"
+    ],
+    "冻河": [
+      "A0A0FF",
+      "12"
+    ],
+    "C": [
+      "minecraft:ice_flats"
+    ],
+    "FFFFFF": [
+      "13"
+    ],
+    "D": [
+      "minecraft:ice_mountains"
+    ],
+    "冰山": [
+      "A0A0A0",
+      "14"
+    ],
+    "E": [
+      "minecraft:mushroom_island"
+    ],
+    "蘑菇岛": [
+      "FF00FF",
+      "15"
+    ],
+    "F": [
+      "minecraft:mushroom_island_shore"
+    ],
+    "蘑菇岛岸": [
+      "A000FF",
+      "16",
+      "10",
+      "minecraft:beaches"
+    ],
+    "沙滩": [
+      "FADE55",
+      "17",
+      "11",
+      "minecraft:desert_hills"
+    ],
+    "沙漠丘陵": [
+      "D25F12",
+      "18",
+      "12",
+      "minecraft:forest_hills"
+    ],
+    "森林山丘": [
+      "22551C",
+      "19",
+      "13",
+      "minecraft:taiga_hills"
+    ],
+    "针叶林山丘": [
+      "163933",
+      "20",
+      "14",
+      "minecraft:smaller_extreme_hills"
+    ],
+    "山地边缘": [
+      "72789A",
+      "21",
+      "15",
+      "minecraft:jungle"
+    ],
+    "丛林": [
+      "537B09",
+      "22",
+      "16",
+      "minecraft:jungle_hills"
+    ],
+    "丛林山丘": [
+      "2C4205",
+      "23",
+      "17",
+      "minecraft:jungle_edge"
+    ],
+    "丛林边缘": [
+      "628B17",
+      "24",
+      "18",
+      "minecraft:deep_ocean"
+    ],
+    "深海": [
+      "000030",
+      "25",
+      "19",
+      "minecraft:stone_beach"
+    ],
+    "石滩": [
+      "A2A284",
+      "26",
+      "1A",
+      "minecraft:cold_beach"
+    ],
+    "冻沙滩": [
+      "FAF0C0",
+      "27",
+      "1B",
+      "minecraft:birch_forest"
+    ],
+    "桦木森林": [
+      "307444",
+      "28",
+      "1C",
+      "minecraft:birch_forest_hills"
+    ],
+    "桦木森林丘陵": [
+      "1F5F32",
+      "29",
+      "1D",
+      "minecraft:roofed_forest"
+    ],
+    "黑森林": [
+      "40511A",
+      "30",
+      "1E",
+      "minecraft:taiga_cold"
+    ],
+    "冷针叶林": [
+      "31554A",
+      "31",
+      "1F",
+      "minecraft:taiga_cold_hills"
+    ],
+    "冷针叶林山丘": [
+      "243F36",
+      "32",
+      "20",
+      "minecraft:redwood_taiga"
+    ],
+    "巨型针叶林": [
+      "596651",
+      "33",
+      "21",
+      "minecraft:redwood_taiga_hills",
+      "6B5F4C",
+      "161",
+      "A1",
+      "minecraft:mutated_redwood_taiga_hills"
+    ],
+    "巨型针叶林丘陵": [
+      "545F3E",
+      "34",
+      "22",
+      "minecraft:extreme_hills_with_trees"
+    ],
+    "峭壁+": [
+      "507050",
+      "35",
+      "23",
+      "minecraft:savanna"
+    ],
+    "热带草原": [
+      "BDB25F",
+      "36",
+      "24",
+      "minecraft:savanna_rock"
+    ],
+    "热带高原": [
+      "A79D64",
+      "37",
+      "25",
+      "minecraft:mesa"
+    ],
+    "平顶山": [
+      "D94515",
+      "38",
+      "26",
+      "minecraft:mesa_rock"
+    ],
+    "平顶山高原F": [
+      "B09765",
+      "39",
+      "27",
+      "minecraft:mesa_clear_rock"
+    ],
+    "平顶山高原": [
+      "CA8C65",
+      "127",
+      "7F",
+      "minecraft:void"
+    ],
+    "虚空": [
+      "129",
+      "81",
+      "minecraft:mutated_plains"
+    ],
+    "向日葵平原": [
+      "B5DB88",
+      "130",
+      "82",
+      "minecraft:mutated_desert"
+    ],
+    "沙漠M": [
+      "FFBC40",
+      "131",
+      "83",
+      "minecraft:mutated_extreme_hills"
+    ],
+    "峭壁M": [
+      "888888",
+      "132",
+      "84",
+      "minecraft:mutated_forest"
+    ],
+    "繁花森林": [
+      "6A7425",
+      "133",
+      "85",
+      "minecraft:mutated_taiga"
+    ],
+    "针叶林M": [
+      "596651",
+      "134",
+      "86",
+      "minecraft:mutated_swampland"
+    ],
+    "沼泽地M": [
+      "2FFFDA",
+      "140",
+      "8C",
+      "minecraft:mutated_ice_flats"
+    ],
+    "冰刺之地": [
+      "B4DCDC",
+      "149",
+      "95",
+      "minecraft:mutated_jungle"
+    ],
+    "丛林M": [
+      "7BA331",
+      "151",
+      "97",
+      "minecraft:mutated_jungle_edge"
+    ],
+    "丛林边缘M": [
+      "8AB33F",
+      "155",
+      "9B",
+      "minecraft:mutated_birch_forest"
+    ],
+    "白桦森林M": [
+      "589C6C",
+      "156",
+      "9C",
+      "minecraft:mutated_birch_forest_hills"
+    ],
+    "白桦森林丘陵M": [
+      "47875A",
+      "157",
+      "9D",
+      "minecraft:mutated_roofed_forest"
+    ],
+    "黑森林M": [
+      "687942",
+      "158",
+      "9E",
+      "minecraft:mutated_taiga_cold"
+    ],
+    "冷针叶林M": [
+      "597D72",
+      "160",
+      "A0",
+      "minecraft:mutated_redwood_taiga"
+    ],
+    "巨型云杉针叶林M": [
+      "6D7766",
+      "162",
+      "A2",
+      "minecraft:mutated_extreme_hills_with_trees"
+    ],
+    "峭壁+ M": [
+      "789878",
+      "163",
+      "A3",
+      "minecraft:mutated_savanna"
+    ],
+    "热带草原M": [
+      "E5DA87",
+      "164",
+      "A4",
+      "minecraft:mutated_savanna_rock"
+    ],
+    "热带高原M": [
+      "CFC58C",
+      "165",
+      "A5",
+      "minecraft:mutated_mesa"
+    ],
+    "平顶山（岩柱）": [
+      "FF6D3D",
+      "166",
+      "A6",
+      "minecraft:mutated_mesa_rock"
+    ],
+    "平顶山高原F M": [
+      "D8BF8D",
+      "167",
+      "A7",
+      "minecraft:mutated_mesa_clear_rock"
+    ],
+    "平顶山高原M": [
+      "F2B48D"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/transferserver",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftransferserver",
+  "text": "关于当前可用的具有相同功能的命令，请见“命令/transfer”。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例\n此条目所介绍的内容已从基岩版和​教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\ntransferserver\n需要的权限等级\n0\n限制条件\n无\n将玩家转送至另一服务器。\n语法\ntransferserver <服务器：字符串> <端口：整数>\n参数\n服务器：字符串\n指定转送目标服务器的地址。IPv6形式的IP地址必须使用双引号括住，例如\"2001:DB8:2de::e13\"。\n端口：整数\n指定目标服务器的端口号。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n无网络连接\n执行失败\n服务器地址无效\n服务器版本不符\n服务器离线\n不符合以上所有条件\n执行成功\n历史\n携带版\n1.0.3\n1.0.3.0\n加入了/transferserver。\n基岩版\n1.2.0\n1.2.0.2\n移除了/transferserver。\n导航"
+}

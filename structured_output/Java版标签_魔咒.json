@@ -1,0 +1,154 @@
+{
+  "title": "Java版标签/魔咒",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E9%AD%94%E5%92%92",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "魔咒标签（Enchantment Tags）是魔咒的组合。"
+    ],
+    "使用": [
+      "魔咒标签用于控制魔咒的出现条件和一些基本功能。"
+    ],
+    "curse": [
+      "在提示框中以红色文本显示且不可被祛魔的魔咒。",
+      "#curse（2项）"
+    ],
+    "double_trade_price": [
+      "需要花费双倍绿宝石交易的魔咒。",
+      "#double_trade_price（1项）"
+    ],
+    "exclusive_set/armor": [
+      "不能在盔甲上共存的魔咒。",
+      "#exclusive_set/armor（4项）"
+    ],
+    "exclusive_set/boots": [
+      "不能在靴子上共存的魔咒。",
+      "#exclusive_set/boots（2项）"
+    ],
+    "exclusive_set/bow": [
+      "不能在弓上共存的魔咒。",
+      "#exclusive_set/bow（2项）"
+    ],
+    "exclusive_set/crossbow": [
+      "不能在弩上共存的魔咒。",
+      "#exclusive_set/crossbow（2项）"
+    ],
+    "exclusive_set/damage": [
+      "不能共存的伤害增幅类魔咒。",
+      "#exclusive_set/damage（6项）"
+    ],
+    "exclusive_set/mining": [
+      "不能共存的挖掘类魔咒。",
+      "#exclusive_set/mining（2项）"
+    ],
+    "exclusive_set/riptide": [
+      "不能与激流共存的魔咒。",
+      "#exclusive_set/riptide（2项）"
+    ],
+    "in_enchanting_table": [
+      "会出现在附魔台里的魔咒。",
+      "#in_enchanting_table（1项）"
+    ],
+    "non_treasure": [
+      "非宝藏类魔咒。",
+      "#non_treasure（36项）"
+    ],
+    "on_mob_spawn_equipment": [
+      "会出现在随机生成生物所穿装备上的魔咒。",
+      "#on_mob_spawn_equipment（1项）"
+    ],
+    "on_random_loot": [
+      "会出现在战利品箱子内的战利品上的魔咒。",
+      "#on_random_loot（5项）"
+    ],
+    "on_traded_equipment": [
+      "会出现在交易中的附魔装备上的魔咒。",
+      "#on_traded_equipment（1项）"
+    ],
+    "prevents_bee_spawns_when_mining": [
+      "使工具破坏蜂巢和蜂箱后不会释放激怒状态的蜜蜂的魔咒。",
+      "#prevents_bee_spawns_when_mining（1项）"
+    ],
+    "prevents_decorated_pot_shattering": [
+      "使工具不会打破饰纹陶罐的魔咒。",
+      "#prevents_decorated_pot_shattering（1项）"
+    ],
+    "prevents_ice_melting": [
+      "使工具不会将冰打破成水的魔咒。",
+      "#prevents_ice_melting（1项）"
+    ],
+    "prevents_infested_spawns": [
+      "允许工具破坏虫蚀方块而不生成其中生物的魔咒。",
+      "#prevents_infested_spawns（1项）"
+    ],
+    "smelts_loot": [
+      "使掉落的战利品经过烧炼的魔咒。",
+      "#smelts_loot（1项）"
+    ],
+    "tooltip_order": [
+      "影响在物品提示框中所显示魔咒的顺序。",
+      "#tooltip_order（43项）"
+    ],
+    "tradeable": [
+      "会出现在交易中的附魔书上的魔咒。",
+      "#tradeable（5项）"
+    ],
+    "treasure": [
+      "宝藏类魔咒。",
+      "#treasure（7项）"
+    ],
+    "村民交易的平衡性调整": [
+      "本段落包含在Java版的实验性内容中出现的内容。",
+      "这些特性在当前版本中需要开启“村民交易的平衡性调整”选项才可使用。",
+      "24w18a",
+      "加入了#trades/desert_common、​#trades/desert_special、​#trades/jungle_common、​#trades/jungle_special、​#trades/plains_common、​#trades/plains_special、​#trades/savanna_common、​#trades/savanna_special、​#trades/snow_common、​#trades/snow_special、​#trades/swamp_common、​#trades/swamp_special、​#trades/taiga_common和​#trades/taiga_special。",
+      "1.21",
+      "24w18a",
+      "将“1.21更新”实验性内容中的所有标签变更移入游戏中。",
+      "加入了#curse、​#double_trade_price、​#in_enchanting_table、​#non_treasure、​#on_mob_spawn_equipment、​#on_random_loot、​#on_traded_equipment、​#prevents_bee_spawns_when_mining、​#prevents_decorated_pot_shattering、​#prevents_ice_melting、​#prevents_infested_spawns、​#smelts_loot、​#tradeable、​#treasure、​#exclusive_set/armors、​#exclusive_set/boots、​#exclusive_set/bow、​#exclusive_set/crossbow、​#exclusive_set/damage、​#exclusive_set/mining和​#exclusive_set/riptide。",
+      "26.1",
+      "snapshot-1",
+      "移除了#trade/desert_special、​#trade/jungle_special、​#trade/plains_special、​#trade/savanna_special、​#trade/snow_special、​#trade/swamp_special和​#trade/taiga_special。"
+    ],
+    "trades/desert_common": [
+      "沙漠图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/desert_common（3项）"
+    ],
+    "trades/jungle_common": [
+      "丛林图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/jungle_common（3项）"
+    ],
+    "trades/plains_common": [
+      "平原图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/plains_common（3项）"
+    ],
+    "trades/savanna_common": [
+      "热带草原图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/savanna_common（3项）"
+    ],
+    "trades/snow_common": [
+      "雪原图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/snow_common（3项）"
+    ],
+    "trades/swamp_common": [
+      "沼泽图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/swamp_common（3项）"
+    ],
+    "trades/taiga_common": [
+      "针叶林图书管理员售卖的附魔书能附加的普通魔咒。",
+      "#trades/taiga_common（3项）"
+    ],
+    "Java版": [
+      "1.20.5",
+      "pre1",
+      "加入了#tooltip_order。",
+      "1.20.5"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "pre1",
+      "在#tooltip_order的channeling后加入了wind_burst，在power后加入了density和​breach。",
+      "1.21"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": ".minecraft/path",
+  "source_url": "https://zh.minecraft.wiki/w/.minecraft%2Fpath",
+  "text": "下面的表格显示.minecraft文件夹所在的默认目录。\n操作系统\n位置\nWindows\n%APPDATA%\\.minecraft\nmacOS\n~/Library/Application Support/minecraft\nLinux\n~/.minecraft"
+}

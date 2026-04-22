@@ -1,0 +1,97 @@
+{
+  "title": "Dungeons:哀霜幽灵",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%93%80%E9%9C%9C%E5%B9%BD%E7%81%B5",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含悚伏寒冬的内容。"
+    ],
+    "行为": [
+      "当玩家到达孤寂要塞的尽头时，他们会碰到一个逐渐升起的寒冰平台，其上方有一个冰冠，其碎片在冰冠内。如果尝试将其取走，哀霜幽灵将升起并抓住冰冠。然后它将尝试阻挡玩家摧毁碎片。一旦被击败，其冠内的支配之球将消失，幽灵最终也将消失。"
+    ],
+    "Boss": [
+      "哀霜幽灵（Wretched Wraith）是Minecraft Dungeons的DLC悚伏寒冬中的Boss。在孤寂要塞关底作为最终Boss存在。在Minecraft Dungeons Arcade中，它作为冰霜峡湾关底的最终Boss存在。"
+    ],
+    "剧透警告！ 本段落包含Minecraft Dungeons的详细内容，阅读后可能会降低你在体验有关部分时的乐趣。后果自负！": [
+      "哀霜幽灵曾经是一个普通的幽灵，居住于悚伏寒冬所在岛屿上的孤寂要塞的大房间内。支配之球破碎后，其中一块碎片降落在了岛上，并被王座厅里的幽灵发现。由于碎片腐化效果的影响，这个幽灵变得更寒冷，更强大。哀霜幽灵获得了将整个岛屿用雪覆盖起来的能力，而寒冬则导致生活在这片曾经繁荣的岛屿上的当地村民相继死去。",
+      "到达孤寂要塞的王座厅后，玩家会遇到一个冰冠，冰冠上有碎片。试图拿走它会导致哀霜幽灵升起来抓住王冠，并试图阻止玩家。一旦它被击败，冰冠内的碎片就会破碎，哀霜幽灵将它捡起来并摇晃它。当意识到碎片不见时，哀霜幽灵发出了一声尖叫，伴随着光束照在它上面，结束了哀霜幽灵这个亡灵生物的性命。然后冰冠掉到地上，并无法将它捡起来。玩家随后离开了堡垒，这片土地也从哀霜幽灵的残酷统治中恢复了过来。"
+    ],
+    "外观": [
+      "哀霜幽灵是一种亡灵生物，一个Boss版的幽灵，它头部的周围有紫色的小斑点、发光的眼睛、嘴巴、硕大的冰手和一个冰冠。冰冠上有一块支配之球的碎片。"
+    ],
+    "攻击技能": [
+      "哀霜幽灵有四种不同的攻击方式。",
+      "注: 攻击模式的命名仅为猜想；官方还没有建立正式的攻击名称"
+    ],
+    "传送攻击": [
+      "哀霜幽灵会随机进行传送，传送前会挥动双手并造成范围伤害。范围内所有的生物都会被击退，但只有玩家和召唤物会受到伤害。"
+    ],
+    "幽灵光球": [
+      "哀霜幽灵挥动它的其中一只胳膊且仅仅朝向玩家的前方发射一个快速移动的光球。"
+    ],
+    "支配光波": [
+      "使用此技能时，哀霜幽灵会使用碎片护盾以锁定生命值，并跟随玩家方向发射许多形似支配之球的光球，这些光球覆盖着竞技场的中部及两侧。"
+    ],
+    "召唤生物": [
+      "哀霜幽灵会随机召唤霜冻僵尸、流浪者、幽灵和寒冰苦力怕，每次召唤的生物和数量不等。"
+    ],
+    "基础攻击（F）": [
+      "DLC Mob WickedWraith Attack Basic 03 F"
+    ],
+    "基础攻击（V）": [
+      "DLC Mob WickedWraith2 Attack Basic V"
+    ],
+    "开场（F）": [
+      "DLC Mob WickedWraith2 Intro F"
+    ],
+    "开场（V）": [
+      "DLC Mob WickedWraith2 Intro V"
+    ],
+    "光球攻击（F）": [
+      "DLC Mob WickedWraith2 Projectile Attack F"
+    ],
+    "光球攻击（V）": [
+      "DLC Mob WickedWraith2 Projectile Attack V"
+    ],
+    "支配光波（F）": [
+      "DLC Mob WickedWraith2 Projectile Circle F"
+    ],
+    "支配光波（V）": [
+      "DLC Mob WickedWraith2 Projectile Circle V"
+    ],
+    "眩晕移动": [
+      "DLC Mob WickedWraith2 Stun Move"
+    ],
+    "冰上行走": [
+      "DLC Mob WickedWraith2 Walk Ice"
+    ],
+    "死亡（F）": [
+      "DLC Mob WickedWraith2 Death F"
+    ],
+    "死亡（V）": [
+      "DLC Mob WickedWraith2 Death V"
+    ],
+    "受伤（F）": [
+      "DLC Mob WickedWraith2 Hurt F"
+    ],
+    "受伤（V）": [
+      "DLC Mob WickedWraith2 Hurt V"
+    ],
+    "空闲（F）": [
+      "DLC Mob WickedWraith2 Idle F"
+    ],
+    "空闲（V）": [
+      "DLC Mob WickedWraith2 Idle V"
+    ],
+    "召唤（F）": [
+      "DLC Mob WickedWraith2 Summon F"
+    ],
+    "召唤（V）": [
+      "DLC Mob WickedWraith2 Summon V"
+    ],
+    "你知道吗": [
+      "哀霜幽灵的皇冠上是支配之球的一部分碎片。",
+      "Boss战的BGM和攻击腐化锅釜怪的背景音乐相同。",
+      "哀霜幽灵的幽灵光球可以被偏转魔咒反弹，击中哀霜幽灵后可对它造成伤害。"
+    ]
+  }
+}

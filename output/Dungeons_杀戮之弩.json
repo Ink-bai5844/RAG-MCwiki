@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:杀戮之弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%9D%80%E6%88%AE%E4%B9%8B%E5%BC%A9",
+  "text": "杀戮之弩\n类型\n远程武器\n稀有度\n力量\n14\n速度\n1\n弹药上限\n1\n自带魔咒\n反弹\n远古狩猎符文\n存档ID\nHeavyCrossbow_Unique2\n杀戮之弩是许多传奇猎人的珍贵传家宝。\n——物品描述\n杀戮之弩（Slayer Crossbow）是Minecraft Dungeons中的远程武器。它是重弩的变种。\n获取\n仙人掌峡谷\n黑曜之巅\n孤寂要塞\n绯红森林（天启难度以上）\n居民：\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n致命巫师\n使用\n杀戮之弩拥有极高力量，极低速度和弹药上限。长按不放可以进行连续射击。初始弹药数为20。\n属性\n强力射击\n命中多个目标\n数据\n等级\n伤害值\n94\n1767\n111\n3557\n音效\n描述\n文件\n击中物体\nsfx_item_heavyCrossbowUnique2ArrowImpactNormal\n击中物体（新）\nsfx_item_heavyCrossbowArrowUnique2ImpactNormal_Updated\n拾取\nsfx_item_heavyCrossBowUnique2Pickup\n装备\nsfx_item_heavyCrossBowUnique2Place\n射击\nsfx_item_heavyCrossBowUnique2Shoot\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了杀戮之弩。\n导航"
+}

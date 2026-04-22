@@ -1,0 +1,14 @@
+{
+  "title": "数据值",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%B0%E6%8D%AE%E5%80%BC",
+  "structured_content": {
+    "默认分类": [
+      "命名空间ID - 方块、实体等所存储的字符串。",
+      "Java版数据值 - Java版从Java版1.13开始使用的数据值。",
+      "Java版数据值/Classic - Java版Classic开发阶段的数据值。",
+      "Java版数据值/Indev - Java版Indev开发阶段的数据值。",
+      "Java版数据值/扁平化前 - Java版1.12.2及以前使用的数据值。",
+      "基岩版数据值 - 基岩版使用的数据值。"
+    ]
+  }
+}

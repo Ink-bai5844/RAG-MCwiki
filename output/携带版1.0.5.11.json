@@ -1,0 +1,5 @@
+{
+  "title": "携带版1.0.5.11",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%881.0.5.11",
+  "text": "1.0.5.11\n版本\n携带版\n版本码\nAndroid：\n841000511（armeabi-v7a，22）\n842000511（x86，22）\n871000511（armeabi-v7a，24）\n872000511（x86，24）\n类型\n测试版\n发布时间\n2017年3月17日\n测试版归属\n1.0.5\n协议版本\n105\n◄◄1.0.4\n1.0.6►►\n◄1.0.5.3\nalpha 1.0.5 build 3（也称为Alpha 1.0.5.11或Alpha 1.0.5.13 re-release）是1.0.5的第3个测试版，发布于2017年3月17日，修复了一些漏洞。\n更改\n命令格式\n/spreadplayers\n现在使用/spreadplayers命令不再让实体生成在熔岩里了。\n修复\n修复了4个漏洞\nMCPE-18181 - 紫颂植株的音效不正确。\nMCPE-19719 - 使用铁砧来放大地图时，不对所有玩家产生效果。\n使用/replaceitem命令时，试图将任何无关物品放入马铠槽时使得游戏崩溃。\n使用/replaceitem命令时出现错误。\n你知道吗\n此测试版在无意中允许测试用户进入他们所拥有的Realms中，进入之后，Realms会升级到1.0.5，这使得直到其他用户升级到1.0.5正式版前除了该Realms的所有者和其他测试版用户都无法进入该Realms。\n参考\nMCPE Android Beta - 1.0.5 Build 3 — Minecraft Feedback。\n导航"
+}

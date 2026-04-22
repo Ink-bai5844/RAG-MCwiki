@@ -1,0 +1,21 @@
+{
+  "title": "命令/reloadconfig",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Freloadconfig",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "4"
+    ],
+    "仅专用服务端": [
+      "重新加载与变量、权限等相关的配置文件。"
+    ],
+    "结果": [
+      "永远执行成功。"
+    ],
+    "?": [
+      "加入了命令/reloadconfig。"
+    ]
+  }
+}

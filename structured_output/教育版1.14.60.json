@@ -1,0 +1,46 @@
+{
+  "title": "教育版1.14.60",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.14.60",
+  "structured_content": {
+    "默认分类": [
+      "1.14.60"
+    ],
+    "发布时间": [
+      "2021年4月27日"
+    ],
+    "测试版归属": [
+      "1.14.70"
+    ],
+    "协议版本": [
+      "392",
+      "◄◄1.14.50",
+      "1.17.30►►",
+      "1.14.60是教育版1.14.70（Camps & Clubs）的首个开发版，发布于2021年4月27日。此版本对度假营、家庭学校、课后项目、非盈利组织及其他群体开放购买。"
+    ],
+    "生物": [
+      "5种建筑工人主题的NPC皮肤",
+      "5种教师主题的NPC皮肤"
+    ],
+    "NPC": [
+      "加入了10种新皮肤。"
+    ],
+    "暂停菜单": [
+      "为暂停菜单加入了当前访问的图书馆课程的相关Flipgrid话题、Forms问卷或Web工具的链接。",
+      "加入了启用世界hosts的选项，启用后可向其他用户分享链接以使之直接加入世界。"
+    ],
+    "世界设置": [
+      "现在可以为Flipgrid话题加入资源链接。"
+    ],
+    "设置": [
+      "为设置菜单加入了“Classroom”标签，可在其中修改世界常规设置。"
+    ],
+    "启动": [
+      "现在可从学习管理系统中启动游戏或直接打开特定世界。"
+    ],
+    "参考": [
+      "Purchasing Options for Minecraft: Education Edition - Camps and Clubs Beta (version 1.14.60) — Minecraft Education Edition Support。",
+      "Feature Walkthrough Minecraft: Education Edition Camps & Clubs Beta (version 1.14.60) — Minecraft Education Edition Support。",
+      "Camps and Clubs Beta Feedback — Minecraft Education Edition Support。"
+    ]
+  }
+}

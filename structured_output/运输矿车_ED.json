@@ -1,0 +1,11 @@
+{
+  "title": "运输矿车/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BF%90%E8%BE%93%E7%9F%BF%E8%BD%A6%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "矿车共通标签，见Template:Nbt inherit/minecart/source",
+      "容器运输实体共通标签，见Template:Nbt inherit/container entity/source"
+    ]
+  }
+}

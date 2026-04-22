@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.2.21xx",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.2.21xx",
+  "text": "2.2.21xx\n程序类型\nMinecraft启动器\n发布时间\n2021年3月1日\n测试版本\n3个测试版\n（查看全部）\n◄◄2.2.186x\n2.2.231x►►\n2.2.2161（Windows）、2.2.2162（macOS）或2.2.2159（Linux）是一次启动器更新，发布于2021年3月1日。\n更改\n对启动器进行了一次大修，其中包含Chromium的新版本。\n为Linux版本启动器增加了自动更新功能（类似于之前macOS和Windows中的功能）。\n由于Chromium的更新，此版本停止支持Mac OS 10.9。\n修复\nMCL-15849 - 启动器登录界面使用的Chrome版本过低。\nMCL-17045 - 游戏启动后直接崩溃（由OptiFine导致）。\nMCL-17053 - Minecraft Dungeons “下界之焰”DLC新闻页的大小不正确。\nMCL-17098 - Minecraft Dungeons标签页“开始游戏”按钮的动画会导致此按钮的功能损坏。\n导航"
+}

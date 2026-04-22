@@ -1,0 +1,165 @@
+{
+  "title": "Brickcraft",
+  "source_url": "https://zh.minecraft.wiki/w/Brickcraft",
+  "structured_content": {
+    "程序大小": [
+      "≈ 85.0 MiB（开发版）"
+    ],
+    "由Omniarchive存档的下载": [
+      "Brickcraft（代号为“Project Rex Kwon Do”）是由Mojang AB和乐高集团于2011年9月5日开始开发的一款游戏，直到2012年7月19日被取消。"
+    ],
+    "游戏内容": [
+      "游戏的开发目标是创建一个乐高积木世界，其中包含基于不同乐高套装的生物群落。游戏内容有点类似于Minecraft，但玩家将使用各种形状和大小的乐高积木建造，而不是方块。",
+      "该游戏以程序生成的乐高世界为特色。地形下方是一个无限的灰色底板。玩家可以使用键盘在世界各地移动，放置或打破积木。玩家的物品栏由以下5种类型的积木组成：",
+      "3005砖1×1",
+      "3004砖1×2",
+      "3003砖2×2",
+      "3001砖2×4",
+      "3040斜面砖45度2×1",
+      "玩家生成时携带每种类型的积木10,000块。打破现有积木会增加该类型积木的可用数量。在世界中放置积木会消耗积木。积木可以放置和旋转。使用滚轮可在不同的颜色之间切换，其中总共有39种颜色，每种都对应于实际的乐高积木颜色。",
+      "玩家可以在世界各地移动、疾跑和跳跃。坐标显示在左下角，建筑高度限制为底板上方80块积木。",
+      "游戏在客户端（Rex-Kwon-Do.exe可执行文件）和服务器（Rex-Kwon-Do Server.exe可执行文件）之间分配。客户端没有内部服务器，因此即使是单人游戏也需要服务器。该服务端还允许多人游戏。",
+      "游戏使用UDP协议（以RakNet为上层）进行传输。服务器侦听所有IPv4地址，端口37373。客户端连接到服务器，其IPv4地址或名称解析为connection.cfg文件中列出的IPv4地址，端口37373。",
+      "世界文件world.db是一个SQLite3数据库。",
+      "游戏支持从LXFML文件（由Lego Digital Designer使用）导入结构。该发行版包括两个LXFML文件：test.lxfml，一棵树和test_brick_import.lxfml，分别由每类积木组成的几个彩色小柱子。",
+      "游戏使用的着色器无效，使其只能在Nvidia显卡上运行。在AMD和Intel显卡上运行需要一个补丁。"
+    ],
+    "控制": [
+      "游戏使用鼠标和键盘进行。",
+      "W：向前移动",
+      "S：向后移动",
+      "A：向左移动",
+      "D：向右移动",
+      "⇧ Shift：疾跑",
+      "Space：跳跃",
+      "Tab ↹：切换放置模式和破坏模式",
+      "E：切换到上一个积木颜色",
+      "Q：切换到下一个积木颜色",
+      "I：从选定的LXFML文件导入结构",
+      "R：导入上次导入的结构。如果在会话期间没有导入任何结构，则服务端将崩溃。",
+      "Z：删除上次导入的结构",
+      "Esc：退出游戏",
+      "鼠标：移动相机",
+      "向上滚动滚轮：选择下一个积木类型",
+      "向下滚动滚轮：选择上一个积木类型"
+    ],
+    "鼠标左键": [
+      "在放置模式下：将当前选定的积木放置在目标空间中。按住并拖动鼠标可调整放置位置。",
+      "在破坏模式下：打破目标积木"
+    ],
+    "鼠标右键": [
+      "在放置模式下：选择备用积木旋转角度",
+      "在破坏模式下：切换到放置模式"
+    ],
+    "命令": [
+      "服务器接受对其标准输入的命令。这些命令可以使用Lua API定义。",
+      "默认情况下，服务器定义了一些命令。"
+    ],
+    "listcommands": [
+      "I list commands :)",
+      "我列出所有命令:)"
+    ],
+    "msgmessage": [
+      "I relay what you said to everyone :)",
+      "我把你说的转告给所有人:)"
+    ],
+    "reloadscripts": [
+      "I reload all lua scripts :)",
+      "我重载Lua脚本:)"
+    ],
+    "spawnentity": [
+      "I spawn a simple box in the game :)",
+      "我在游戏中生成一个简易盒子:)"
+    ],
+    "importlxfmldata": [
+      "I import a base64-encoded LXFML file onto the server",
+      "我将一个base64编码的LXFML文件导入服务器",
+      "从base64编码的LXFML“data”导入结构"
+    ],
+    "aliascommandalias": [
+      "I create an alias for a command :)",
+      "我为命令创建别名:)"
+    ],
+    "unaliasalias": [
+      "I remove an alias for a command :)",
+      "我为命令移除别名:)"
+    ],
+    "不执行任何操作": [
+      "还有一些命令被注释了，但如果它们没有被注释，则它们将正常工作。"
+    ],
+    "listplayers": [
+      "I list connected players :)",
+      "我列出所有连接的玩家:)"
+    ],
+    "addjectpack": [
+      "I give players jetpacks! :)",
+      "我给予玩家喷气背包:)"
+    ],
+    "Lua API": [
+      "服务器支持使用Lua编程语言的有限修改的API。此API可用于定义可调用的命令和影响玩家实体行为的玩家物品。"
+    ],
+    "gui": [
+      "test.swf：未使用的Adobe Flash程序，可能用于HUD",
+      "lua：用于Mod API的Lua脚本"
+    ],
+    "Main.lua": [
+      "shaders：GLSL着色器"
+    ],
+    "screen.vert": [
+      "textures: Textures",
+      "LegoColors.bmp：用于积木的1x1纹理图集。BMP3格式。",
+      "peg.png：积木楔子纹理。PNG格式。",
+      "unispace.ttf：用于HUD的TrueType字体"
+    ],
+    "bin": [
+      "win32",
+      "connection.cfg：定义客户端连接到的服务器地址的ASCII文本文件"
+    ],
+    "FreeImage.dll": [
+      "glew32.dll",
+      "libfreetype-6.dll"
+    ],
+    "luabind.release.pdb": [
+      "msvcp100.dll",
+      "msvcr100.dll"
+    ],
+    "Rew-Kwon-Do.instr.pdb[原文如此]": [
+      "Rex-Kwon-Do.exe：客户端可执行文件"
+    ],
+    "Rex-Kwon-Do.pdb": [
+      "Rex-Kwon-Do Server.exe：服务端可执行文件"
+    ],
+    "SDL.dll": [
+      "sqlite3.dll",
+      "test.lxfml：包含一棵树的LXFML文件",
+      "test_brick_import.lxfml：包含分别由每类积木组成的几个小的彩色柱子的LXFML文件",
+      "zlib1.dll"
+    ],
+    "Window.swf": [
+      "world.db：世界文件。运行后生成，而不是原文件的一部分。",
+      "zlib1.dll"
+    ],
+    "zlibwapi.dll": [
+      "win64",
+      "glew32.dll",
+      "libfreetype-6.dll"
+    ],
+    "历史": [
+      "Notch和Kappische设想了Minecraft和乐高积木的混合体，并联系了乐高集团与他们合作开发一款游戏，代号为“Project Rex Kwon Do”，参考电影《大人物拿破仑》。Mojang聘请了两名新程序员来开发游戏，Notch创建了一个原型。",
+      "在游戏达到重要的发展阶段之前，Mojang取消了合作，专注于开发自己的游戏：Minecraft，Scrolls，和0x10c。Notch当时声称该游戏是一款第一人称射击游戏。",
+      "直到2020年12月，乐高集团为庆祝第一款乐高电子游戏发布25周年而创建的Bits N' Bricks播客的一集中揭示了Brickcraft的存在，该游戏的真实性质才为公众所知。当时的乐高集团员工Daniel Mathiasen将取消归咎于乐高集团为保护该产品的家庭友好形象而设置的一系列法律障碍，Daniel Kaplan声称Mojang的员工感觉更像是该项目的顾问，而不是设计师。",
+      "尽管被取消，乐高集团仍与Mojang合作生产乐高Minecraft套装，并短暂考虑收购Mojang，但根据乐高游戏亚太区高级总监Ronny Scherer的说法，他们决定不这样做，因为Minecraft“仍在兴起”，他们“无法保证它最终会成为它所成为的文化现象”。",
+      "2025年6月24日，2012年6月28日的Brickcraft开发版本被重新发现并上传到Omniarchive网站。"
+    ],
+    "参考": [
+      "Secret project Rex Kwon Do begins today! It will involve caffeine and giggling.，来自@notch。X（曾名Twitter），2011年9月5日。",
+      "https://www.lego.com/cdn/cs/set/assets/bltf87fd15a8f67c6fd/bits_n_bricks_s01e01_minecraft_feature_and_transcript.pdf",
+      "https://www.mecabricks.com/docs/colour_chart.pdf",
+      "Brickcraft（存档），来自DEJVOSS。Omniarchive，2025年6月26日。",
+      "Remember Project Rex Kwon Do? We cancelled it to focus on Minecraft, Scrolls and eventually 0x10c that we own 100% ourselves instead.，来自@notch。X（曾名Twitter），2012年7月19日。",
+      "Canceled Mojang project was a first-person shooter（存档），来自Jessica Conditt。joystiq，2012年7月26日。",
+      "A Lego Minecraft game called 'Brickcraft' was prototyped and greenlit – here's why it never happened，来自Rich Stanton。PCGamer，2020年12月9日。",
+      "https://www.lego.com/en-us/legogames-25"
+    ]
+  }
+}

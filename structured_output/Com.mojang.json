@@ -1,0 +1,197 @@
+{
+  "title": "Com.mojang",
+  "source_url": "https://zh.minecraft.wiki/w/Com.mojang",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是基岩版和教育版的数据文件夹。关于Java版的数据文件夹，请见“.minecraft”。",
+      "提示：本条目的主题不是Mojang.com。",
+      "本条目所述内容仅适用于基岩版和​教育版。",
+      "com.mojang是Minecraft的内部文件夹。里面包含了世界存档、JSON数据和其他游戏运行所需的文件。"
+    ],
+    "基岩版": [
+      "下面的表格展示了com.mojang文件夹的默认位置。",
+      "1.18.0",
+      "1.18.0.21",
+      "Android平台由于升级到了Google API 30，com.mojang文件夹的存储位置被更改了。"
+    ],
+    "Windows，正式版": [
+      "独立内容：%APPDATA%\\Minecraft Bedrock\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock\\Users\\Shared\\games\\com.mojang",
+      "%LOCALAPPDATA%\\Packages\\Microsoft.MinecraftEducationEdition_8wekyb3d8bbwe\\LocalState\\games\\com.mojang"
+    ],
+    "Windows，Minecraft Preview": [
+      "独立内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\Shared\\games\\com.mojang",
+      "Minecraft给用户分配的用户ID，区分不同的微软账户与离线账户。"
+    ],
+    "Android和Fire OS": [
+      "应用程序：/data/user/<Android用户ID>/com.mojang.minecraftpe/games/com.mojang",
+      "外部：/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftpe/files/games/com.mojang",
+      "Android系统给用户分配的用户ID，一般情况下设备拥有者的用户ID为0。"
+    ],
+    "我的iPhone/Minecraft/games/com.mojang": [
+      "在Xbox One上，文件存储在本地[需要更多信息]。如果登录了Xbox Live，它们也会存储于线上。",
+      "在iOS上，于“文件（Files）”应用程序中查找com.mojang即可访问此文件夹。"
+    ],
+    "教育版": [
+      "下面的表格展示了com.mojang文件夹的默认位置。"
+    ],
+    "Windows，预览版": [
+      "%LOCALAPPDATA%\\Packages\\Microsoft.MinecraftEducationPreview_8wekyb3d8bbwe\\LocalState\\games\\com.mojang"
+    ],
+    "Android，正式版": [
+      "应用程序：/data/user/<Android用户ID>/com.mojang.minecraftedu/games/com.mojang",
+      "外部：/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftedu/files/games/com.mojang"
+    ],
+    "Android，预览版": [
+      "应用程序：/data/user/<Android用户ID>/com.mojang.minecraftedu_preview/games/com.mojang",
+      "外部：/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftedu_preview/files/games/com.mojang",
+      "Android系统给用户分配的用户ID，一般情况下设备拥有者的用户ID为0。"
+    ],
+    "com.mojang": [
+      "behavior_packs：见行为包"
+    ],
+    "minecraftpe": [
+      "editor：基岩版编辑器中储存的文件。"
+    ],
+    "editoroptions.txt[需要更多信息]": [
+      "pack_settings：附加包的设置项。"
+    ],
+    "<内部世界ID或世界名称>": [
+      "behavior_packs：见行为包",
+      "resource_packs：见资源包",
+      "behavior_packs：见行为包",
+      "resource_packs：见资源包"
+    ],
+    "level.dat": [
+      "游戏不再新建或更新level.dat_old文件，但已存在的文件仍在发挥作用。",
+      "build 4",
+      "在db文件夹中加入了LOG和LOG.old。",
+      "build 8",
+      "移除了_LevelCache文件夹。",
+      "0.11.0",
+      "build 1",
+      "加入了minecraftpe/snooper文件夹，包括名为bundle#.txt的一个至多个文件，以及meta.txt。",
+      "现在新创建的世界文件夹名为<内部世界ID>而非<世界名称>。",
+      "加入了<内部世界ID>/levelname.txt。",
+      "现在在编辑世界菜单中更改设置时，会创建level.dat_old并覆盖level.dat，尽管后者在进入世界时会重新创建。",
+      "0.13.0",
+      "build 1",
+      "snooper文件夹从.../games/com.mojang/minecraftpe/snooper移动至.../games/com.mojang/snooper。旧的snooper文件夹仍然存在但不再更新。",
+      "0.14.2",
+      "游戏不再新建或更新snooper文件夹。",
+      "0.15.0",
+      "build 1",
+      "加入了minecraftpe/r.txt，内容为“Vanilla”。",
+      "游戏不再新建LOG和LOG.old文件。",
+      "build 2",
+      "加入了minecraftpe/r2.txt，内容为“Minecraft”。",
+      "游戏不再新建r.txt文件。",
+      "玩家退出世界时，游戏会生成level.dat_old。"
+    ],
+    "world_resource_packs.json": [
+      "resource_packs：见资源包",
+      "Screenshots[原文如此]：见截图"
+    ],
+    "skins.json": [
+      "ud<ID>（可能多于1个）",
+      "ud<ID>.dat（可能多于1个）"
+    ],
+    "附加包": [
+      "主条目：附加包 § 结构层次",
+      "每个世界和世界模板，以及com.mojang文件夹本身，都带有一个behavior_packs和resource_packs文件夹。"
+    ],
+    "携带版Alpha": [
+      "0.1.0",
+      "加入了com.mojang文件夹，层次结构如下："
+    ],
+    "<世界名称>": [
+      "chunks.dat：储存区块数据。",
+      "level.dat：储存世界的信息。",
+      "player.dat：储存玩家数据。",
+      "0.2.0",
+      "加入了<世界名称>/entities.dat，用于储存实体数据。",
+      "player.dat的功能由level.dat取代。旧的player.dat仍然存在但不再更新。",
+      "0.5.0",
+      "在<世界名称>文件夹中加入了level.dat_old作为level.dat的备份。",
+      "0.7.0",
+      "加入了minecraftpe文件夹，内含clientId.txt和options.txt两个文件。",
+      "加入了<世界名称>/players文件夹。",
+      "0.7.3",
+      "加入了minecraftWorlds/_LevelCache文件夹。",
+      "0.9.0",
+      "build 1",
+      "世界格式更改为LevelDB格式，现在com.mojang的层次结构如下（划线标记指的是旧格式世界转为新格式过程中生成的临时文件）："
+    ],
+    "######.log": [
+      "CURRENT：内容为“MANIFEST-######”。",
+      "LOCK：一个空文件。"
+    ],
+    "entities.dat": [
+      "importedchunks.dat：标记哪些区块已被转为新格式。"
+    ],
+    "正式版": [
+      "加入了minecraftpe/resource_packs.txt，内容为“Minecraft”。",
+      "游戏不再新建r2.txt文件。",
+      "0.16.0",
+      "build 1",
+      "现在resource_packs.txt默认为空。",
+      "现在会在每个<内部世界ID>文件夹中新建resource_packs.txt。",
+      "build 4",
+      "加入了minecraftpe/global_resource_packs.txt，默认为空。",
+      "build 5",
+      "在com.mojang文件夹中加入了behavior_packs和resource_packs两个文件夹，均默认为空。",
+      "加入了Perf_Log.csv。",
+      "global_resource_packs.txt文件被global_resource_packs.json取代。",
+      "在<内部世界ID>文件夹中加入了behavior_packs和resource_packs两个文件夹，均默认为空。",
+      "在<内部世界ID>文件夹中加入了world_behavior_packs.json和world_resource_packs.json两个文件。",
+      "游戏不再新建resource_packs.txt。",
+      "现在com.mojang的层次结构如下：",
+      "正式版上的新位置现在位于：",
+      "独立内容：%APPDATA%\\Minecraft Bedrock\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock\\Users\\Shared\\games\\com.mojang",
+      "而旧位置位于%localappdata%\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang。"
+    ],
+    "新位置现在位于/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftpe/files/games/com.mojang，而旧位置位于/storage/emulated/<Android用户ID>/games/com.mojang": [
+      "1.20.0",
+      "1.20.0.22",
+      "游戏不再新建logs、minecraftpe和xal文件夹。",
+      "游戏不再新建.nomedia和ud<id>.dat。",
+      "1.20.10",
+      "1.20.10.20",
+      "现在游戏会新建logs文件夹。",
+      "1.20.70",
+      "1.20.70.20",
+      "现在游戏会新建minecraftpe文件夹。",
+      "现在游戏会新建.nomedia和ud<id>.dat。"
+    ],
+    "?": [
+      "游戏现在会新建minecraftpe/splitscreen_appearance.json。",
+      "游戏不再新建minecraftpe/custom.png，取而代之的是custom_skins文件夹。",
+      "游戏会在每次启动时将minecraftpe/custom.png复制到custom_skins/<UUID>.png。",
+      "游戏不再新建minecraftpe/invalid_known_packs.json和minecraftpe/valid_known_packs.json。",
+      "1.21.120",
+      "1.21.120.21",
+      "由于Windows平台现在在最新的GDK（游戏开发工具包）上运行，com.mojang文件夹的存储位置被更改了。",
+      "Minecraft Preview上的新位置现在位于：",
+      "独立内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\<用户ID>\\games\\com.mojang",
+      "共享内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\Shared\\games\\com.mojang<",
+      "而旧位置位于%localappdata%\\Packages\\Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe\\LocalState\\games\\com.mojang。"
+    ],
+    "注释": [
+      "未登录时为-4294967295。",
+      "区域ID是一个6位数字，包含玩家的区域后缀将是.log而非.ldb。",
+      "在实际的世界文件夹中，该文件没有.dat后缀。",
+      "区域ID是一个6位数字。",
+      "仅在超平坦世界类型从基岩版1.18.0以下更新到其以上时出现，用于标记世界中存在的村庄。",
+      "Android系统给用户分配的用户ID，一般情况下设备拥有者的用户ID为0。",
+      "Minecraft给用户分配的用户ID，区分不同的微软账户与离线账户。"
+    ],
+    "参考": [
+      "Transfer Your World to Another Device in Minecraft: Bedrock Edition — help.minecraft.net。",
+      "I Can’t Find my Minecraft World on Android — help.minecraft.net。",
+      "How to Locate Minecraft World Files on Mobile — help.minecraft.net。",
+      "MCPE-176675 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

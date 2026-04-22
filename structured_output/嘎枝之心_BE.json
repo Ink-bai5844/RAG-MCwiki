@@ -1,0 +1,10 @@
+{
+  "title": "嘎枝之心/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%98%8E%E6%9E%9D%E4%B9%8B%E5%BF%83%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "creaking：绑定的嘎枝的UUID。"
+    ]
+  }
+}

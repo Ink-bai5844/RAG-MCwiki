@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.19.81",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.19.81",
+  "text": "1.19.81\n版本\n基岩版\n服务端版本\n1.19.81.01\n内部版本号\nAndroid：1.19.81.01\nPlayStation：2.64\nWindows：1.19.8101.0\n版本码\nAndroid：\n951908101（armeabi-v7a，33）\n961908101（x86，33）\n971908101（arm64-v8a，33）\n981908101（x86_64，33）\niOS/iPadOS：\n856700532\n发布时间\nChromeOS/Android, Fire, iOS/iPadOS, PlayStation, Windows, Xbox - 2023年4月27日\nNintendo Switch - 2023年4月28日\n下载\n服务端\nWindowsLinux\n协议版本\n582\n◄◄1.19.0\n1.20.0►►\n◄1.19.80\n1.19.83►\n1.19.81是基岩版的一次热修复更新，发布于2023年4月27日至28日，修复了一些漏洞。此版本与1.19.80相兼容。\n修复\n修复了在Realms上使用/tell和其他命令时可能发生的崩溃。\n修复了精选服务器上的购买按钮会无限加载的问题。\n修复了精选服务器列表不会显示“显示更多”按钮的问题。\n参考\nMinecraft - 1.19.81 (Bedrock) — Minecraft Feedback，2023年4月27日。\n导航"
+}

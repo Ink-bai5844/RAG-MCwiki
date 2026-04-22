@@ -1,0 +1,20 @@
+{
+  "title": "猪灵/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8C%AA%E7%81%B5%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "CannotHunt：（此值为true时存在）表示猪灵是否不会攻击疣猪兽。"
+    ],
+    "*": [
+      "*Inventory：猪灵存储的物品栏，此标签最多容纳8组物品。当读取时，如果列表数量超过8，则超出范围的物品尝试与范围内的物品合并，如果无法合并则被删除。",
+      "：物品栏中的一个物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "IsBaby：（此值为true时存在）表示此猪灵是否为幼年个体。",
+      "IsImmuneToZombification：（此值为true时存在）表示猪灵在主世界是否不会变成僵尸猪灵。当此项为true时，TimeInOverworld会被重置为0且不会增加。",
+      "*TimeInOverworld：猪灵在对猪灵不安全的维度（默认为下界以外的维度）停留的总时间。如果此值大于300游戏刻（15秒），猪灵会转化成僵尸猪灵。当回到对猪灵安全的维度时此值重置为0。"
+    ]
+  }
+}

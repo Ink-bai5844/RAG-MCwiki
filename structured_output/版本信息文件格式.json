@@ -1,0 +1,59 @@
+{
+  "title": "版本信息文件格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "“version.json”重定向至此。关于启动器使用的<游戏版本>.json文件，请见“客户端清单文件格式”。",
+      "本条目所述内容仅适用于Java版。",
+      "版本信息文件是位于客户端核心文件和服务端核心文件内部的用于标记版本和提供版本信息的文件。"
+    ],
+    "文件格式": [
+      "版本信息文件位于客户端核心文件和服务端核心文件内versions.json路径下，是一个JSON文件，并具有下列结构："
+    ],
+    "JSON文件根对象": [
+      "*build_time：此核心文件的构建时间，格式为DateTimeFormatter.ISO_ZONED_DATE_TIME。",
+      "*id：此核心文件版本的唯一标识符。有时可能为构建时提交的散列值，与名称之间用斜杠分隔。",
+      "java_component：此核心文件使用的Java。",
+      "java_version：此核心文件使用的Java版本。",
+      "*name：此核心文件版本的可读名称，通常与id相同。",
+      "*pack_version：此核心文件的资源包版本和数据包版本。",
+      "*data_major：数据包主要版本。",
+      "*data_minor：数据包次要版本。",
+      "*resource_major：资源包主要版本。",
+      "*resource_minor：资源包次要版本。",
+      "*protocol_version：此核心文件的协议版本。",
+      "*series_id：标识此核心文件来自哪个分支。不同分支的此核心文件之间的数据永远不能相互兼容。",
+      "*stable：用于判断此核心文件是否为正式版。",
+      "*world_version：此核心文件的数据版本。",
+      "use_editor：未知作用。",
+      "游戏在开发历史上具有多个分支：",
+      "main：游戏的主要开发分支。各种开发版本和正式版都属于此分支。",
+      "ccpreview：洞穴与山崖（第二部分）开发预览快照。Java版1.18的所有实验性快照属于此分支。",
+      "deep_dark_preview：深暗之域开发预览快照。Java版1.19的所有实验性快照属于此分支。",
+      "april<四位年份>：愚人节玩笑快照。"
+    ],
+    "Java版": [
+      "1.14",
+      "18w47b",
+      "加入了版本信息文件。",
+      "1.17",
+      "20w45a",
+      "pack_version从整型变为复合标签。",
+      "数据包和资源包版本现在分开更新，而不是使用同一个版本号。",
+      "21w19a",
+      "加入了java_component和java_version。",
+      "1.18",
+      "21w37a",
+      "加入了series_id。",
+      "1.19.3",
+      "22w42a",
+      "移除了release_target。",
+      "1.20.2",
+      "23w31a",
+      "加入了use_editor。",
+      "1.21.9",
+      "25w31a",
+      "修改了数据包版本号和资源包版本号的格式，此前pack_version下仅有data和resource两个字段直接表示版本号。"
+    ]
+  }
+}

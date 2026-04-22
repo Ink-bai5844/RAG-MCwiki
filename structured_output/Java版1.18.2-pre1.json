@@ -1,0 +1,103 @@
+{
+  "title": "Java版1.18.2-pre1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.2-pre1",
+  "structured_content": {
+    "默认分类": [
+      "1.18.2-pre1"
+    ],
+    "发布时间": [
+      "2022年2月18日"
+    ],
+    "预发布版归属": [
+      "1.18.2"
+    ],
+    "协议版本": [
+      "DEC: 1073741894",
+      "HEX: 40000046"
+    ],
+    "数据版本": [
+      "2971"
+    ],
+    "资源包版本": [
+      "8"
+    ],
+    "数据包版本": [
+      "9",
+      "◄◄1.18.1",
+      "1.19►►",
+      "◄22w07a",
+      "1.18.2-pre2►",
+      "1.18.2-pre1是Java版1.18.2的首个预发布版，发布于2022年2月18日，改进了与结构有关的标签和命令，更新了数据包，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "由于对32位运行环境的操作系统即将结束支持，在主菜单上向使用该环境启动游戏的用户加入了警告信息。"
+    ],
+    "标签": [
+      "加入了以下结构地物标签：",
+      "#dolphin_located：#ocean_ruin和​#shipwreck。",
+      "#eye_of_ender_located：stronghold。",
+      "#mineshaft：mineshaft和​mineshaft_mesa。",
+      "#ocean_ruin：ocean_ruin_cold和​ocean_ruin_warm。",
+      "#on_ocean_explorer_maps：monument。",
+      "#on_treasure_maps：buried_treasure。",
+      "#on_woodland_explorer_maps：mansion。",
+      "#ruined_portal：ruined_portal、​ruined_portal_desert、​ruined_portal_jungle、​ruined_portal_mountain、​ruined_portal_nether、​ruined_portal_ocean和​ruined_portal_swamp。",
+      "#shipwreck：shipwreck和​shipwreck_beached。",
+      "#village：village、​village_desert、​village_plains、​village_savanna、​village_snowy和​village_taiga。"
+    ],
+    "海豚": [
+      "会更准确地选择离其最近的结构，而无论结构的类型如何。"
+    ],
+    "堡垒遗迹": [
+      "稍微提高了结构边界箱的准确度，现在会更贴近结构本身的形状。"
+    ],
+    "/locate": [
+      "现在支持标签，用#前缀与一般的ID做区分。",
+      "参数类型由结构类型（Structure Type）改为配置的结构（Configured Structure）。",
+      "例如现在可以执行像/locate village_desert或/locate shipwreck_beached这样的命令。",
+      "定位指定结构类别的旧用法现在改由定位指定标签来完成。",
+      "例如/locate village现在变成了/locate #village。"
+    ],
+    "/locatebiome": [
+      "现在支持标签，用#前缀与一般的ID做区分。",
+      "例如现在可以执行像/locatebiome #minecraft:has_structure/igloo这样的命令。"
+    ],
+    "数据包": [
+      "将数据包版本由8提高到9。",
+      "现在可在实验性数据包中添加自定义结构，即游戏现在可生成并存储由数据驱动的配置的结构。",
+      "现在可在实验性数据包中添加新结构集。",
+      "location_predicates中feature字段现在引用的是一个配置地物。",
+      "exploration_map战利品表函数中destination字段现在是一个配置地物标签ID。",
+      "exploration_map战利品表函数现在不再自动设置地图的显示名称。",
+      "现在可通过数据包对一些洞穴生成机制进行配置。",
+      "向密度函数中加入了一个新注册表（Registry）（洞穴由它们组合在一起生成）。",
+      "向噪声设置中加入了noise_router字段，同时移除了许多布尔字段。",
+      "详情请参阅worldgen report中的worldgen/noise_settings文件夹。",
+      "Noise Router会将数据驱动型洞穴生成机制与其余的代码部分连接起来。"
+    ],
+    "修复": [
+      "修复了14个漏洞",
+      "1.18前正式版的漏洞",
+      "MC-3524 — 与结构相关的生物不会在超平坦世界中生成。",
+      "MC-146854 — 玩家在角落移动时会更倾向于沿X轴移动。",
+      "MC-156309 — 沿X轴运动的TNT实体与方块发生碰撞时，其运动状态没有被正确计算。",
+      "MC-165974 — 玩家从方块夹角处跳起时会朝东或西方向移动。",
+      "MC-179315 — 默认情况下，废弃传送门不会在超平坦世界中生成。",
+      "MC-187549 — 1.15.2及以上版本中，与墙相撞时，Z轴上的水平速度分量不会被重置。",
+      "MC-187911 — 结构ID中，end_city_treasure中有下划线，而endcity则没有。",
+      "MC-195692 — 末地城在结构以及配置的结构中所使用的ID不一致。",
+      "MC-197128 — 如自定义生物群系使用了多个同种配置的结构地物，只有其中的一个会被生成。",
+      "MC-210612 — 在特定自定义世界中，/locate定位到的要塞位置上实际没有生成要塞。",
+      "1.18的漏洞",
+      "MC-241288 — 对自定义结构的支持被移除。",
+      "MC-244137 — server.properties中默认不含level-seed选项。",
+      "1.18.1的漏洞",
+      "MC-245850 — 在多人游戏警告界面使用Tab ↹键时，选中的位置会不按顺序选中。",
+      "1.18.2开发版本的漏洞",
+      "MC-248532 — 双持烟花时，鞘翅烟花粒子会在错误的手上生成。"
+    ],
+    "参考": [
+      "Minecraft 1.18.2 Pre-Release 1 — Minecraft.net，2022年2月18日。"
+    ]
+  }
+}

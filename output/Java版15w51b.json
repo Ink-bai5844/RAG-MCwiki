@@ -1,0 +1,5 @@
+{
+  "title": "Java版15w51b",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8815w51b",
+  "text": "15w51b\n版本\nJava版\n类型\n快照\n发布时间\n2015年12月17日\n快照归属\n1.9\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n94\n数据版本\n155\n资源包版本\n2\n◄◄1.8.9\n1.9.1►►\n◄15w51a\n16w02a►\n15w51b是Java版1.9的第48个快照，发布于2015年12月17日，修复了关于生物AI与寻路的一个漏洞与一项崩溃。\n更改\n生物\n蠹虫\n若游戏规则doMobGriefing设定为false，则不进入方块。\n修复\n修复了4个漏洞\n1.9前正式版的漏洞\nMC-54535 — 重建一个自定义世界时，自定义设置会发生变化。\nMC-80586 — mobGriefing规则设置为false时，蠹虫可以进入方块。\nMC-83964 — 同时具有失明和夜视效果时不再会显示出完全失明的效果。\n上个开发版本的漏洞\nMC-94419 — 服务器崩溃：NullPointer: Ticking entity。\n参考\nMinecraft 1.9 snapshot 15w51b（存档），来自Searge。Mojang.com，2015年12月17日。\n导航"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "属性/横扫伤害比率",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%A8%AA%E6%89%AB%E4%BC%A4%E5%AE%B3%E6%AF%94%E7%8E%87",
+  "text": "本条目所述内容仅适用于Java版。\n横扫伤害比率\n类型\n正面\n默认值\n0\n值域\n0 – 1\n属性ID\nsweeping_damage_ratio\n横扫伤害比率（Sweeping Damage Ratio）是控制玩家横扫伤害的属性。\n行为\n主条目：横扫攻击\n横扫攻击默认产生1（）攻击伤害。此属性可以使近战攻击伤害以一定比例追加于横扫攻击伤害中，从而提升横扫攻击伤害。\n横扫攻击伤害的最终值为1+rd，其中r为横扫伤害比率，d为原近战攻击伤害。\n适用的生物\n生物\n基值\n玩家\n0\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\nenchantment.sweeping_edge/mainhand\nadd_value (Op0)\n等级⁄等级+1\n否\n横扫之刃魔咒，应用于mainhand（主手）槽位，仅限玩家\n历史\nJava版\n1.21\n24w18a\n加入了横扫伤害比率属性，ID为player.sweeping_damage_ratio。\n24w21a\n横扫之刃魔咒修饰符的ID现在是enchantment.sweeping_edge/mainhand，此前为5D3D087B-DEBE-4037-B53E-D84F3FF51F17。\n1.21.2\n24w33a\n横扫伤害比率属性的ID从player.sweeping_damage_ratio重命名为sweeping_damage_ratio。\n导航"
+}

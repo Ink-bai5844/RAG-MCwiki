@@ -1,0 +1,370 @@
+{
+  "title": "蜂箱",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9C%82%E7%AE%B1",
+  "structured_content": {
+    "默认分类": [
+      "此页面还需添加更多图像。",
+      "请在添加后将此信息移除。",
+      "具体要求：缺少其他朝向的蜂箱渲染图，以及渲染图章节。",
+      "关于自然生成的蜜蜂巢穴，请见“蜂巢（方块）”。"
+    ],
+    "硬度": [
+      "0.6",
+      "0.6"
+    ],
+    "爆炸抗性": [
+      "0.6"
+    ],
+    "引燃几率": [
+      "5"
+    ],
+    "烧毁几率": [
+      "20"
+    ],
+    "活塞推动行为": [
+      "Java版：不可推动，不可拉动",
+      "基岩版：可推动，可拉动"
+    ],
+    "地图基色": [
+      "#8F7748"
+    ],
+    "beehive": [
+      "蜂箱（Beehive）是可通过合成获取的可作为蜜蜂巢穴的方块，功能上与蜂巢类似。",
+      "基岩版："
+    ],
+    "最大堆叠": [
+      "64"
+    ],
+    "生成": [
+      "蜂箱不会生成在世界中。"
+    ],
+    "破坏": [
+      "挖掘蜂箱的合适工具是斧。"
+    ],
+    "徒手": [
+      "0.9"
+    ],
+    "木质": [
+      "0.45"
+    ],
+    "石质": [
+      "0.25"
+    ],
+    "铜质": [
+      "0.2"
+    ],
+    "铁质": [
+      "0.15"
+    ],
+    "钻石质": [
+      "0.15"
+    ],
+    "下界合金质": [
+      "0.1"
+    ],
+    "金质": [
+      "0.1"
+    ],
+    "效率": [
+      "000"
+    ],
+    "急迫": [
+      "001",
+      "1JE0BE",
+      "忽略其他影响因素而计算出的挖掘时间，单位：秒。更多信息详见挖掘 § 挖掘速度。",
+      "没有被具有精准采集的工具挖掘破坏时，蜂箱被破坏后会掉落自身，蜂箱中的蜜蜂会以激怒状态被释放出来，同时还会激怒附近的所有蜜蜂。",
+      "被具有精准采集的工具挖掘破坏时，蜂箱被破坏后会掉落自身，并装着其中的蜜蜂。",
+      "在创造模式下破坏装有蜜蜂的蜂箱时，该蜂箱会掉落并装着其中的蜜蜂，并保留其honey_level数据。"
+    ],
+    "用途": [
+      "蜂箱有一项方块状态honey_level，可以取0—5中的一个值。新放置的蜂箱的honey_level为0。",
+      "honey_level为5的蜂箱会使用充满了蜂蜜的纹理，表明蜂箱可以收获。若该方块的下表面未被遮挡，还会产生滴落的蜂蜜粒子。"
+    ],
+    "容纳蜜蜂": [
+      "蜂箱最多同时容纳3只蜜蜂。蜜蜂可以从蜂箱的任何一面进去，但只能从正面出来。",
+      "蜜蜂在工作完成后，会不带花蜜离巢，并使蜂箱的honey_level增加1，至多增加至5。",
+      "与蜂箱相邻的任何一个方块是火时，其中所有的蜜蜂都会逃离。"
+    ],
+    "收获": [
+      "对honey_level为5的蜂箱使用剪刀会使其掉落3个蜜脾，使用玻璃瓶则会使玻璃瓶变为蜂蜜瓶，随后其honey_level会变为0。",
+      "若玩家从蜂箱收获时，蜂箱的正下方6格内没有点燃的营火或灵魂营火，或二者之间被其他方块阻挡，则其中所有的蜜蜂都会被释放出来并与该玩家敌对。用发射器进行收集不会将蜜蜂释放出来。玩家在创造模式或和平难度下收获时，蜜蜂仍然会被释放出来，但不会攻击玩家。"
+    ],
+    "红石信号": [
+      "当红石比较器连接至蜂箱时，会输出与其方块状态honey_level相同数值强度的红石信号。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "方块：被破坏"
+    ],
+    "subtitles.block.generic.break": [
+      "某物：摔落到方块上"
+    ],
+    "subtitles.block.generic.fall": [
+      "方块：损坏中"
+    ],
+    "subtitles.block.generic.hit": [
+      "方块：被放置"
+    ],
+    "subtitles.block.generic.footsteps": [
+      "蜂蜜：滴落"
+    ],
+    "block.beehive.drip": [
+      "0.3",
+      "0.7-0.9",
+      "9"
+    ],
+    "subtitles.block.beehive.drip": [
+      "蜜蜂：入巢"
+    ],
+    "block.beehive.enter": [
+      "0.75",
+      "0.7-0.8",
+      "14"
+    ],
+    "subtitles.block.beehive.enter": [
+      "蜜蜂：离巢"
+    ],
+    "block.beehive.exit": [
+      "0.75",
+      "0.9-1.1",
+      "14"
+    ],
+    "subtitles.block.beehive.exit": [
+      "剪刀：刮削"
+    ],
+    "block.beehive.shear": [
+      "0.8",
+      "0.8-1.0",
+      "16"
+    ],
+    "subtitles.block.beehive.shear": [
+      "蜜蜂：工作"
+    ],
+    "block.beehive.work": [
+      "0.6",
+      "1.0",
+      "12"
+    ],
+    "subtitles.block.beehive.work": [
+      "基岩版："
+    ],
+    "item.use.on": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "break": [
+      "1.0",
+      "0.8-1",
+      "16"
+    ],
+    "hit": [
+      "0.23",
+      "0.5",
+      "16"
+    ],
+    "place": [
+      "1.0",
+      "0.8",
+      "16"
+    ],
+    "fall": [
+      "0.4",
+      "1.0",
+      "16"
+    ],
+    "step": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "jump": [
+      "0.12",
+      "1.0",
+      "16"
+    ],
+    "land": [
+      "0.18",
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "方块实体": [
+      "参见：方块实体",
+      "蜂箱有与之关联的方块实体，用于存储附加信息。",
+      "Java版：",
+      "参见：方块实体数据格式"
+    ],
+    "方块状态": [
+      "Java版："
+    ],
+    "方块朝向北方": [
+      "3"
+    ],
+    "方块朝向南方": [
+      "1"
+    ],
+    "方块朝向西方": [
+      "2"
+    ],
+    "honey_level": [
+      "0",
+      "0"
+    ],
+    "蜂巢或蜂箱内是空的": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "蜂巢或蜂箱的储蜜量": [
+      "5",
+      "5"
+    ],
+    "蜂巢或蜂箱已满，可以收集蜂蜜或蜜脾": [
+      "基岩版："
+    ],
+    "direction": [
+      "0"
+    ],
+    "*": [
+      "*bees：巢内目前存在的蜜蜂信息。",
+      "：一只蜜蜂的数据。",
+      "entity_data：蜜蜂的部分实体数据。如果保存的实体数据不是带有#beehive_inhabitors的实体（默认为蜜蜂），则尝试放出此实体时实体不会被生成，其数据会被删除。",
+      "*id：实体类型。",
+      "见实体数据格式。下列标签不会被保存，也不会被加载：Air、drop_chances、equipment、Brain、CanPickUpLoot、DeathTime、fall_distance、FallFlying、Fire、HurtByTimestamp、HurtTime、LeftHanded、Motion、NoGravity、OnGround、PortalCooldown、Pos、Rotation、sleeping_pos、CannotEnterHiveTicks、TicksSincePollination、CropsGrownSincePollination、hive_pos、Passengers、leash、UUID。",
+      "*min_ticks_in_hive：蜜蜂会在巢内滞留的最短时间。",
+      "*ticks_in_hive：蜜蜂在巢内已滞留的时间。",
+      "flower_pos：储存花的位置，以便其他蜜蜂能够找到。内部的三个整数分别代表了位置的XYZ坐标值。",
+      "基岩版：",
+      "参见：基岩版存档格式/方块实体格式",
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "*min_ticks_in_hive：蜜蜂会在巢内滞留的最短时间。",
+      "*ticks_in_hive：蜜蜂在巢内已滞留的时间。",
+      "minecraft:block_state：物品放置方块时将要设置的方块状态。",
+      "<方块属性>：此项方块属性的值。",
+      "*min_ticks_in_hive：蜜蜂会在巢内滞留的最短时间。",
+      "*ticks_in_hive：蜜蜂在巢内已滞留的时间。",
+      "minecraft:block_state 数据组件",
+      "honey_level：honey_level等级，不存在时默认为0。",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "该物品的其他组件": [
+      "minecraft:bees：蜂巢（方块）和蜂箱的蜜蜂数据。",
+      "：一只蜜蜂的数据。",
+      "entity_data：蜜蜂的部分实体数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。",
+      "见实体数据格式。下列标签不会被保存，也不会被加载：Air、drop_chances、equipment、Brain、CanPickUpLoot、DeathTime、fall_distance、FallFlying、Fire、HurtByTimestamp、HurtTime、LeftHanded、Motion、NoGravity、OnGround、PortalCooldown、Pos、Rotation、sleeping_pos、CannotEnterHiveTicks、TicksSincePollination、CropsGrownSincePollination、hive_pos、Passengers、leash、UUID。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":64,\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:bees\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_name\":{\"translate\":\"block.minecraft.beehive\"},\"minecraft:enchantments\":[],\"minecraft:block_state\":{\"honey_level\":\"0\"},\"minecraft:lore\":[],\"minecraft:item_model\":\"minecraft:beehive\",\"minecraft:repair_cost\":0,\"minecraft:attribute_modifiers\":[]}",
+      "在默认组件的基础上，蜂箱使用下列组件来保存附加数据：",
+      "components：物品附加的数据组件信息。",
+      "minecraft:bees：蜂巢（方块）和蜂箱的蜜蜂数据。",
+      "：一只蜜蜂的数据。",
+      "entity_data：蜜蜂的部分实体数据。如果采用字符串格式进行定义，则游戏会将字符串的内容视为SNBT加载，游戏只保存为复合标签格式。",
+      "见实体数据格式。下列标签不会被保存，也不会被加载：Air、drop_chances、equipment、Brain、CanPickUpLoot、DeathTime、fall_distance、FallFlying、Fire、HurtByTimestamp、HurtTime、LeftHanded、Motion、NoGravity、OnGround、PortalCooldown、Pos、Rotation、sleeping_pos、CannotEnterHiveTicks、TicksSincePollination、CropsGrownSincePollination、hive_pos、Passengers、leash、UUID。"
+    ],
+    "成就": [
+      "主条目：成就"
+    ],
+    "Bee our guest": [
+      "使用营火从蜂箱中收集蜂蜜，使用瓶子，并避免激怒蜜蜂。",
+      "在满蜜的蜂巢或蜂箱下方放置营火或灵魂营火，并使用瓶子获得蜂蜜瓶。",
+      "15G"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "农牧业": [
+      "在蜂巢或蜂箱下面放置一个营火或灵魂营火，然后对着蜂巢或蜂箱使用玻璃瓶来收集蜂蜜。"
+    ],
+    "Java版": [
+      "1.15",
+      "19w34a",
+      "加入了蜂箱。",
+      "19w35a",
+      "现在蜂箱是可燃的。",
+      "19w36a",
+      "更改了装满蜂蜜的蜂箱的顶部纹理。",
+      "19w37a",
+      "回退了19w36a中的更改。",
+      "19w41a",
+      "将蜂箱的英文名称由“Bee hive”重命名为“Beehive”。",
+      "1.21.2",
+      "24w35a",
+      "蜂箱现在会显示蜜蜂数和方块状态honey_level的值。",
+      "蜂箱现在会在物品中储存的方块状态honey_level为5时显示满蜜纹理。",
+      "1.21.5",
+      "25w04a",
+      "现在蜂箱物品默认具有block_state组件。"
+    ],
+    "基岩版": [
+      "1.14.0",
+      "1.14.0.1",
+      "加入了蜂箱。",
+      "1.20.30",
+      "1.20.20.21",
+      "蜂箱的爆炸抗性由5.4改为0.6。",
+      "1.20.60",
+      "1.20.60.21",
+      "带有精准采集魔咒的附魔书不再能对蜂箱产生精准采集魔咒的效果。",
+      "1.21.40",
+      "1.21.40.20",
+      "现在蜂箱不再能作为燃料使用。"
+    ],
+    "参考": [
+      "MC-160457 — 漏洞状态为“有意为之”。",
+      "MC-160456 — 漏洞状态为“已修复”。",
+      "MCPE-128393 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

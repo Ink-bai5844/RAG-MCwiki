@@ -1,0 +1,33 @@
+{
+  "title": "Java版Indev 0.31 20100104-2258",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100104-2258",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年1月4日"
+    ],
+    "未知": [
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100104-2154",
+      "0.31 20100106-1655►",
+      "0.31的一个版本发布于2010年1月4日22:58（UTC），修复了一个漏洞。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了音效不工作的漏洞。"
+    ],
+    "参考": [
+      "IRC记录, Adura.7z (UTC−5)",
+      "New sound engine implemented（存档） — The Word of Notch，2010年1月5日。",
+      "Adura的IRC记录: \"(16:54:56) <Snowman> What's added?\"...\"(16:55:24) <Notch> sound. but i need to fix it, it seems. :D\"...\"(18:00:53) <Notch> THERE we go\"...\"(18:00:57) <Notch> it should work in /indev/ now\""
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "开发资源",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%BC%80%E5%8F%91%E8%B5%84%E6%BA%90",
+  "structured_content": {
+    "默认分类": [
+      "Minecraft Java版是用Java编写的，基岩版则是用C++编写的。尽管其源代码经过混淆，但社区已经了解Minecraft的大多数代码是如何运作的。随着官方混淆映射表的发布，Java版的绝大多数代码已经可读。从26.1-snapshot-1开始，Java版代码不再被混淆。Notch给出了关于Minecraft所使用的NBT格式笔记。对此，社区已经得到了使用NBT格式文件的信息。"
+    ],
+    "NBT格式": [
+      "NBT格式几乎用于所有Minecraft中的文件。它是一个由标签组成的经过GZip压缩或zlib压缩[仅基岩版]的树状结构，每个标签具有类型、名称和基于类型的负载。"
+    ],
+    "存档格式": [
+      "每个Minecraft的版本都有自己的存档格式。以下的信息是介绍不同的存档格式，可让软件开发者用来创建地图编辑器、服务器、地图生成器及其他程序。 方块、物品和数据值是各存档共通的。",
+      "Classic世界格式被旧的Classic版Minecraft所使用：生存模式、创造模式以及多人游戏。",
+      "Indev世界格式用于Indev版。",
+      "Alpha世界格式用于Alpha版（旧称Minecraft Infdev）。",
+      "Java版存档格式用于MinecraftJava版。",
+      "玩家数据格式用于存储玩家的状态。",
+      "区域文件格式用于存储各个区块内的数据。",
+      "区块存储格式用于包含在区域中的单独的16×384×16区块。",
+      "地图存储格式用于存储可合成的地图物品的颜色。",
+      "Villages.dat格式用于存储地图中村庄的状态。"
+    ],
+    "结构存储格式用于存储结构方块保存的结构.": [
+      "基岩版存档格式用于Minecraft基岩版。"
+    ],
+    "其他格式": [
+      "服务器列表存储格式用于存储保存的多人服务器列表。",
+      "Schematic档案是一种基于NBT的格式，用于第三方应用程序储存地图的某段区域以便之后使用。"
+    ],
+    "程序库": [
+      "这些是由社区创建的库，用于各类文件与Minecraft进行交互。"
+    ],
+    "Java/C++": [
+      "允许加载、操纵和保存所有Minecraft格式的库。"
+    ],
+    "C#": [
+      "可以用来载入和编辑关卡的C#类。",
+      "编写服务器软件和改变世界等的C#库。",
+      "c10t"
+    ],
+    "C++": [
+      "一个开源的制图工具。",
+      "读写NBT结构的C++库。"
+    ],
+    "C": [
+      "读写NBT结构的C语言库。"
+    ],
+    "Perl": [
+      "可以用来编辑Minecraft档案的Perl库。"
+    ],
+    "Python": [
+      "可以用来编辑NBT结构的Python库。",
+      "可以用来编辑Minecraft关卡的Python库。MCEdit是在这个库上构建的。",
+      "J2Blocks",
+      "可以用来读写nbt数据的现代python库。"
+    ],
+    "Java": [
+      "可以用于生成简单Minecraft世界的Java库。"
+    ],
+    "Mod编写工具": [
+      "Minecraft编辑者包即Minecraft Coder Pack，简称MCP，用于编写所有单机或多人Mod的基本程序。",
+      "MCAnimator - 一个全新的建模工具：用于创建可以具有纹理和动画的自定义模型。拥有许多工具可以帮助你完成创建过程。你可以导出到所有最新的Minecraft版本。它拥有一个完美的动画控制库。",
+      "Techne - 模型架构器：用于建立能用于游戏的自创模型，并且能使用基本模型的程序。",
+      "FMCModeler 用于建立能用于游戏的自创模型, 亦可从Java程序代码建构出模型（有一些限制）。以Glash写成。此程序似乎已经放弃开发, 但依然可以用于CustomRenderer。"
+    ],
+    "服务器协议": [
+      "Classic服务器协议用于Minecraft Classic Creative Multiplayer服务器。",
+      "若需要当前的多人协议相关信息，请参照英文Wiki。"
+    ],
+    "备注": [
+      "http://www.delorie.com/djgpp/"
+    ],
+    "Windows": [
+      "http://www.cygwin.com/",
+      "Visual Studio, 一个用于C++、C#和Visual Basic的IDE和编译程序。",
+      "https://www.oracle.com/java/technologies/javase-downloads.html"
+    ],
+    "对Windows用户很有帮助（提供POSIX)": [
+      "http://www.mingw.org/"
+    ],
+    "在Windows下有更好的兼容性": [
+      "https://visualstudio.microsoft.com/"
+    ],
+    "跨平台": [
+      "若你需要执行Java程序代码，这是必须的。"
+    ]
+  }
+}

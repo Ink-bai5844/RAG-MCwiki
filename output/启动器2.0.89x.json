@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.0.89x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.0.89x",
+  "text": "2.0.89x\n程序类型\nMinecraft启动器\n发布时间\n2017年5月30日\n◄◄2.0.84x\n2.0.93x►►\n2.0.895（Windows）或2.0.897（macOS）是一次启动器更新，发布于2017年5月30日，修复了一些漏洞。\n修复\nMCL-5583 - Windows上的启动器在启动游戏时显示“Minecraft launcher has stopped working”。\nMCL-7321 - 点击“开始游戏”时游戏无法加载。\nMCL-7333 - 点击“Play Download 1.11.2 - Latest release”后2.0.847版本的启动器一直停留在“Preparing”。\n导航"
+}

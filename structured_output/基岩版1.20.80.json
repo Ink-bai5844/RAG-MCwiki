@@ -1,0 +1,547 @@
+{
+  "title": "基岩版1.20.80",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.80",
+  "structured_content": {
+    "默认分类": [
+      "1.20.80"
+    ],
+    "服务端版本": [
+      "1.20.80.05"
+    ],
+    "内部版本号": [
+      "Android：1.20.80.05",
+      "PlayStation：2.87",
+      "Windows：1.20.8005.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952008005（armeabi-v7a，34）",
+      "962008005（x86，34）",
+      "972008005（arm64-v8a，34）",
+      "982008005（x86_64，34）",
+      "iOS/iPadOS：",
+      "864908079"
+    ],
+    "发布时间": [
+      "2024年4月23日"
+    ],
+    "测试版本": [
+      "5个测试版",
+      "5个预览版"
+    ],
+    "协议版本": [
+      "671",
+      "◄◄1.20.50",
+      "1.21.0►►",
+      "◄1.20.73",
+      "1.20.81►"
+    ],
+    "Wiki上有本次更新的指南！": [
+      "见基岩版指南/犰甲狼兵以查看犰甲狼兵的指南。",
+      "见基岩版指南/犰甲狼兵以查看犰甲狼兵的指南。",
+      "1.20.80是犰甲狼兵的首个正式版，也是基岩版的一次小更新，发布于2024年4月23日。此次更新加入了犰狳、犰狳鳞甲、狼铠和狼的新变种，更新了添加好友屏幕，同步了一些Java版的特性，在实验性玩法中加入了更多1.21.0的特性，并修复了一些漏洞。"
+    ],
+    "物品": [
+      "在Beta API功能旗标下加入了minecraft:custom_components物品组件。",
+      "盾牌现在可以格挡守卫者和远古守卫者激光攻击造成的部分伤害。",
+      "现在将两个相同的台阶放置在一起时会变为双层台阶。（MCPE-179187）"
+    ],
+    "犰狳鳞甲": [
+      "由犰狳自然掉落或使用刷子刷扫成年犰狳掉落，可用于合成和修复狼铠。"
+    ],
+    "刷怪蛋": [
+      "加入了犰狳刷怪蛋。"
+    ],
+    "狼铠": [
+      "对已驯服的成年狼使用狼铠可为其穿戴，使用剪刀可卸下狼铠。",
+      "仅可由狼的主人为其装备和卸下。",
+      "可以像皮革盔甲一样染色。",
+      "可为狼提供11（ × 5.5）点护甲值，也能以自身耐久度为狼抵挡特定伤害。",
+      "具有64点耐久度，且会根据剩余耐久度呈现不同程度的开裂纹理。",
+      "狼的主人可以对狼使用犰狳鳞甲修复其装备的狼铠。"
+    ],
+    "生物": [
+      "加入了生成分类。",
+      "将在未来用于生物生成。",
+      "目前已在行为包的实体文件中启用，但尚未生效。",
+      "现在狼坐下时其尾巴会位于正确位置。（MCPE-31121）",
+      "狼现在会正确地跳跃攻击目标。（MCPE-19740）",
+      "修复了驯服的生物传送至它的主人旁后，该生物的垂直位置在其他玩家视角中不会正确显示的问题。（MCPE-139168）",
+      "马和船在骑乘和取消骑乘时不再会错误移动至先前位置。",
+      "兔子现在拥有比之前版本的更高概率生成于雪林。",
+      "狐狸现在拥有比之前版本的更低概率生成于雪林。"
+    ],
+    "犰狳": [
+      "Minecraft Live 2023生物投票的获胜生物，属于友好生物。",
+      "自然生成于热带草原及其变种、恶地及其变种生物群系。",
+      "有12（ × 6）生命值。",
+      "可以使用蜘蛛眼来繁殖或加速成长。",
+      "被玩家或驯服的狼杀死后会掉落1–3 经验值。",
+      "幼年犰狳死亡时不会掉落任何物品和经验。",
+      "每隔5-10分钟掉落一个犰狳鳞甲。",
+      "使用刷子刷扫成年犰狳则会立即掉落一个犰狳鳞甲，同时消耗刷子16点耐久度。",
+      "在满足以下条件时，犰狳会蜷缩成方块状：",
+      "4秒内受到下列惊吓之一"
+    ],
+    "受到来自生物的伤害": [
+      "15×5×15格内有亡灵生物、正在疾跑的玩家、骑乘在实体上的玩家或是20秒内攻击过它的玩家"
+    ],
+    "未被拴绳拴着": [
+      "犰狳蜷缩时不会移动、进食或被食物吸引，并且此时受到的伤害会被调整为(修正前伤害 - 1) / 2。",
+      "犰狳蜷缩时会隐藏自己的头和脚，期间会探出头窥视以检查蜷缩条件是否满足。",
+      "如果满足，犰狳左右张望后再次缩进壳内；如果不满足，犰狳立即起身。"
+    ],
+    "狼": [
+      "加入了狼的多个变种，生成的变种取决于其自然生成时所处的生物群系，或是繁殖生成时其双亲所属的变种。",
+      "苍狼，即使用先前纹理的狼，在针叶林中以4只为一群生成。",
+      "森林狼，在森林中以4只为一群生成。",
+      "灰狼，在积雪针叶林中以4只为一群生成。",
+      "黑狼，在原始松木针叶林中以2-4只为一群生成。",
+      "栗色狼，在原始云杉针叶林中以2-4只为一群生成。",
+      "赭红狼，在稀疏丛林中以2-4只为一群生成。",
+      "斑点狼，在热带高原中以4-8只为一群生成。",
+      "条纹狼，在疏林恶地中以4-8只为一群生成。",
+      "雪狼，在雪林中罕见地生成一只。",
+      "在除以上的其他生物群系使用刷怪蛋及命令生成的狼均为苍狼。",
+      "更改了狼身上的项圈的纹理以匹配Java版。",
+      "降低了生成于雪林的概率。",
+      "现在可以在砂土上生成。",
+      "现在会生成于稀疏丛林、热带高原和疏林恶地生物群系中。",
+      "现在会像蜘蛛一样跳跃攻击。"
+    ],
+    "常规": [
+      "修复了should_update_bones_and_effects_offscreen和​should_update_effects_offscreen会被忽略的问题。",
+      "修复了使用connect?localLevelId=或connect?localWorld=执行协议启动时，主用户登录在启动世界前不会得到解决的问题。（MCL-24096）",
+      "修复了无法加载行为包中的自定义地物的漏洞。",
+      "修复了加载本地化字符串的过程中发生的崩溃。",
+      "移除了FilterTextPacket。",
+      "修复了玩家离开世界后长时间不使用设备时，iOS设备不会自动锁屏或进入休眠模式的问题。（MCPE-179214）"
+    ],
+    "设置": [
+      "在通用设置中加入了“教程”选项。",
+      "用于启用教学提示。",
+      "在通用设置中加入了“重启教程”按钮。",
+      "用于重启教学提示。",
+      "仅开启“教程”选项时可用。",
+      "在创建者设置中加入了“加载时附加调试器”选项。",
+      "用于启用加载时关联调试器面板。",
+      "在通用设置中加入了“帮助中心”按钮。",
+      "用于打开反馈页面。",
+      "移除了“新的“你死了”屏幕（实验性）”选项。"
+    ],
+    "Realms": [
+      "加入了Realms故事功能。",
+      "新的Realm社交中心，包括下列功能："
+    ],
+    "“故事源”": [
+      "用于与Realm成员分享最精彩的游戏时刻。"
+    ],
+    "“时间线”": [
+      "用于查看其他Realm成员何时在Realm上进行游戏。"
+    ],
+    "“成员”选项卡": [
+      "用于显示所有Realm成员及其权限等级的列表。"
+    ],
+    "Realms事件": [
+      "玩家在Realms中采取某些行动时自动发送的故事。",
+      "目前共有19种独特的Realms事件。"
+    ],
+    "游戏指南": [
+      "加入了“Realms 故事”部分。"
+    ],
+    "方块": [
+      "现在在带有minecraft:crafting_table组件的自定义方块的crafting_tags字段中使用自定义标签的方块支持自定义可解锁配方。（MCPE-175555）",
+      "同时修复了配方解锁时不会显示部分配方的漏洞。",
+      "在Beta API实验性内容中加入了minecraft:entity_fall_on方块组件。",
+      "在Beta API实验性内容中加入了minecraft:tick方块组件。",
+      "修复了“搭桥”式放置方块时偶尔会双重放置方块的问题。（MCPE-123455）",
+      "现在使用时运III附魔工具挖掘甜浆果丛时最多会掉落6个甜浆果。（MCPE-172622）",
+      "现在完全成熟的可可果总会掉落3个可可豆。",
+      "修复了跨区块边界放置的床有时会被破坏或变得不可见的问题。（MCPE-31389）"
+    ],
+    "客户端请求占位符方块": [
+      "更改了物品纹理。"
+    ],
+    "可可果": [
+      "现在第三阶段的可可果被破坏后总会掉落3个可可豆，而不是掉落2-3个。"
+    ],
+    "珊瑚扇": [
+      "IDcoral_fan现在被拆分为：tube_coral_fan、​brain_coral_fan、​bubble_coral_fan、​fire_coral_fan和​horn_coral_fan。",
+      "coral_fan及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "失活的珊瑚扇": [
+      "IDcoral_fan_dead现在被拆分为：dead_tube_coral_fan、​dead_brain_coral_fan、​dead_bubble_coral_fan、​dead_fire_coral_fan和​dead_horn_coral_fan。",
+      "coral_fan_dead及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "花": [
+      "IDred_flower现在被拆分为：poppy、​blue_orchid、​allium、​azure_bluet、​red_tulip、​orange_tulip、​white_tulip、​pink_tulip、​oxeye_daisy、​cornflower和​lily_of_the_valley。",
+      "red_flower及其数据值仍然可用，但不会在命令提示中出现。",
+      "数据更新方块、reserved6和未知方块",
+      "更改了纹理。"
+    ],
+    "树苗": [
+      "IDsapling现在被拆分为：oak_sapling、​spruce_sapling、​birch_sapling、​jungle_sapling、​acacia_sapling和​dark_oak_sapling。",
+      "sapling及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "甜浆果丛": [
+      "现在使用带有时运魔咒的工具挖掘时会增加甜浆果的掉落上限。"
+    ],
+    "狐狸": [
+      "降低了生成于雪林的概率。"
+    ],
+    "兔子": [
+      "提高了生成于雪林的概率。"
+    ],
+    "蜘蛛和洞穴蜘蛛": [
+      "现在会远离未蜷缩的犰狳。"
+    ],
+    "游戏内容": [
+      "在水下游泳时按住跳跃键的情况下，玩家不再会出现看似在水面上游泳实则溺水的情况。（MCPE-170969）",
+      "现在在水面或水面附近水平地（而非向上）游泳时按住跳跃键的情况下，玩家会保持位于在水面上游泳时可以呼吸的高度。（MCPE-170969）",
+      "潜行的玩家移动至上方有1.5格高空间的床处时不再会爬行。（MCPE-178370）",
+      "古迹废墟现在会在32位设备上正确生成。（MCPE-178549）",
+      "修复了访客玩家不能给自定义盔甲添加纹饰的漏洞。（MCPE-170317）",
+      "现在铁桶放置液体后再次可以立即收集液体。（MCPE-176634）"
+    ],
+    "物品耐久": [
+      "更改了耐久度条的颜色以匹配Java版。",
+      "现在耐久度条的颜色会从绿逐渐过渡为黄色，再过渡为红色，而非直接从绿逐渐过渡为红色，并且比以前更加明亮。",
+      "现在耐久度条的背景是纯黑的，而非透明的。"
+    ],
+    "/hud": [
+      "加入了新的可用HUD元素：item_text和​status_effects。",
+      "healthHUD元素现在包含伤害吸收生命值。",
+      "不再属于实验性玩法。"
+    ],
+    "实验性玩法": [
+      "移除了“犰狳和狼铠”子选项。"
+    ],
+    "主菜单": [
+      "移除了登录账户后显示的反馈按钮。"
+    ],
+    "渲染距离": [
+      "将Xbox Series主机的最大渲染距离提高至36。"
+    ],
+    "教学提示": [
+      "现在会在跳跃、飞行、潜行、放置并使用工作台以及在触控设备上打开物品栏时显示对应的教学提示。"
+    ],
+    "用户界面": [
+      "更新了添加好友屏幕。",
+      "加入了好友推荐与建议列表。",
+      "优化了搜索方式，现在输入文本时会给出部分结果。",
+      "加入了二维码和分享链接功能。",
+      "用于分享玩家的个人资料信息。",
+      "加入了“复制玩家代号”按钮。",
+      "用于将玩家名称复制到剪切板。",
+      "进入方式：点击好友选项卡中的“添加好友”按钮。",
+      "现在默认使用新的死亡屏幕，且不再可以切换回旧版死亡屏幕。",
+      "新的死亡屏幕不再是实验性的。",
+      "将反馈按钮由主菜单移动至通用选项卡下的设置屏幕，被称为“帮助中心”。",
+      "延长了显示标准加载提示的时间间隔。",
+      "增加了“向前移动”按钮的交互范围，以使玩家无需停止移动即可滑动至附近的按钮。（MCPE-178399）",
+      "现在在触控设备上切换物品时，物品的图标会以正确方向移动。",
+      "现在触控设备上的所选物品会在所有屏幕中显示蓝色背景。",
+      "现在自定义饰纹陶罐和染色旗帜会在合成器的输出槽中正确渲染。",
+      "触摸屏版本的信标、制图台和锻造台界面中不再会缺失移动物品动画。",
+      "减少了游戏中遇到角色创建器皮肤时出现的卡帧。",
+      "修复了无解锁条件的配方不会显示在配方书中的漏洞。",
+      "现在触控设备上的转移物品动画会渲染在静止的物品上方。",
+      "修复了实际上正在进行登录时，“登录中…”文本可能不会显示在主菜单上的问题。"
+    ],
+    "API": [
+      "由于目前尚未实现支持，移除了EntityHealableComponent.filters。",
+      "动态导入（如import(\"/my-module.js\")）现在再次具有功能。",
+      "BlockTypes现在会为扁平化或已重构的方块名称返回有效值。",
+      "为beta加入了BlockComponentStepOnEvent。",
+      "为beta加入了BlockRegistry。",
+      "加入了WorldInitializeBeforeEvent。",
+      "加入了BlockCustomComponent。"
+    ],
+    "EntityMountTamingComponent": [
+      "将EntityMountTamingComponent重命名为EntityTameMountComponent。",
+      "将setTamed重命名为tame。",
+      "将BlockComponentTypes由beta开放至1.10.0。",
+      "将EntityComponentTypes由beta开放至1.10.0。",
+      "将ItemComponentTypes由beta开放至1.10.0。",
+      "修复了在已移除Entity中的组件的情况下，部分组件的isValid方法不会正确返回false的问题。",
+      "在beta中加入了PaletteColor枚举以配合ItemColorComponent/ItemColor2Component使用。",
+      "在beta中加入了ItemColor2Component。",
+      "用于读取minecraft:color2。",
+      "现在设置带有大于32KB的密钥的动态属性时会导致异常。",
+      "将EntityType和​EntityTypes由beta移动至1.11.0。",
+      "将playMusic、​Player.queueMusic和​Player.stopMusic由beta开放至1.11.0。",
+      "移除了beta中的BlockAreaSize，并以Vector3替换了其用法。",
+      "将getItemCooldown和​player.startItemCooldown中的itemCategory参数重命名为cooldownCategory。",
+      "将type更改为仅限EnchantmentType以遵循API规范。",
+      "在beta中加入了EnchantmentSlot和​slots。",
+      "用于确定物品的可附魔槽位。",
+      "在Beta API功能旗标下加入了minecraft:custom_components方块组件。"
+    ],
+    "相机视角": [
+      "加入了extend_player_rendering相机视角组件。",
+      "允许玩家（以及通过骑乘和拴绳相连接的生物）即使已超出实体最大渲染距离也可以被渲染。",
+      "为minecraft:free相机视角加入了extend_player_rendering组件。",
+      "该组件用于增强和优化当前功能，因此默认设置为true。",
+      "将该组件设置为false会移除已添加的渲染功能。",
+      "现在若服务端上已存在该信息，即使相机视角位于远离玩家的地方，服务端也会将相机视角附近的方块和活动对象发送给客户端。"
+    ],
+    "命令": [
+      "更新了/titleraw和/tellraw命令，以支持渲染输入键位字形。",
+      "提升了/give和/replaceitem命令的性能。现在若无目标，则不会产生服务器延迟。（MCPE-162190）"
+    ],
+    "组件": [
+      "interact组件的equip_item_slot和​drop_item_slot字段现在支持盔甲和物品栏槽位：",
+      "盔甲槽位可指定为slot.armor.head、​slot.armor.chest、​slot.armor.legs和​slot.armor.feet。",
+      "物品栏槽位可指定为正数，现在表示为字符串。",
+      "该更改要求世界版本为1.20.80或更高版本。",
+      "为interact组件加入了repair_entity_item字段。",
+      "允许修复实体物品栏或盔甲槽中的物品。",
+      "执行behavior.follow_owner的实体传送至其主人所在位置时不再会出现互相卡住的情况。",
+      "加入了minecraft:body_rotation_blocked组件。",
+      "用于阻止生物在视觉上转身以与自身朝向相匹配。",
+      "behavior.timer_flag_1、​behavior.timer_flag_2和​behavior.timer_flag_3现在会在开始和停止时正确随机化，而不是只在生成时随机化。"
+    ],
+    "实体过滤器": [
+      "加入了新的实体过滤器is_sitting。",
+      "用于检查实体是否处于坐下状态。",
+      "加入了新的实体过滤器has_damaged_equipment。",
+      "用于检查实体的指定槽位中是否存在特定的已损坏装备。"
+    ],
+    "Molang": [
+      "加入了新的查询query.armor_slot_damage。",
+      "返回指定槽位中的盔甲物品的损坏值。"
+    ],
+    "配方": [
+      "为有序配方加入了assume_symmetry布尔属性。",
+      "允许对称的有序配方使用不同的输出方式。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“即将推出的创作者功能”和“测试版 API”子选项后才可使用。"
+    ],
+    "沉重核心": [
+      "一种碰撞箱不完整的方块。",
+      "可从试炼密室的宝库获得。",
+      "具有金属音效。",
+      "硬度为10，合适挖掘工具是镐，被破坏后会掉落自身。",
+      "不可被活塞推拉，被活塞推动时会被破坏。",
+      "可含水，不会被水流破坏。",
+      "用于合成重锤。"
+    ],
+    "宝库": [
+      "更正了挖掘音效的音高以匹配Java版。",
+      "更改了纹理。",
+      "将其战利品表拆分为reward_common（普通）、reward_rare（稀有）和reward_unique（独有）。",
+      "每次解锁时从普通战利品表抽取1-3次，另有80%的概率从稀有战利品表抽取1次（20%概率从普通战利品表抽取1次），另有25%的概率从独有战利品表抽取1次（75%概率不抽取）。",
+      "从战利品表中移除了马铠和鞍。",
+      "向战利品表中添加了以下物品："
+    ],
+    "旋风棒": [
+      "由旋风人掉落。",
+      "可以合成为4个风弹，也可以与沉重核心合成重锤。"
+    ],
+    "探险家地图": [
+      "加入了试炼密室地图。",
+      "可与老手级制图师村民交易获得。",
+      "用于指向最近的试炼密室。"
+    ],
+    "重锤": [
+      "一种重型武器。",
+      "使用1个沉重核心和1个旋风棒合成。",
+      "可以加速破坏任意方块。",
+      "与剑和三叉戟一样，创造模式下主手持重锤的玩家不能破坏方块。",
+      "击中生物前，玩家的摔落高度越大，造成的伤害越高。",
+      "如果成功击中目标，则会抵消累积的摔落伤害，并会击退目标周围的其他实体。",
+      "具有250点耐久度，可以在铁砧上使用旋风棒修复。",
+      "可添加经验修补和消失诅咒魔咒。"
+    ],
+    "旗帜图案": [
+      "加入了涡流和旋风2种旗帜图案。",
+      "可从试炼密室的宝库获得。"
+    ],
+    "锻造模板": [
+      "加入了镶铆和涡流2种盔甲纹饰锻造模板。",
+      "可从试炼密室的宝库获得。",
+      "镶铆盔甲纹饰锻造模板可使用铜块复制。",
+      "涡流盔甲纹饰锻造模板可使用旋风棒复制。"
+    ],
+    "陶片": [
+      "加入了涡流、旋风和刮削3种纹样陶片。",
+      "试炼密室中会生成带有这些纹样的饰纹陶罐。"
+    ],
+    "沼骸": [
+      "更新了模型和纹理。",
+      "现在可对其使用剪刀剪下2个蘑菇（红色和棕色蘑菇均有可能）。"
+    ],
+    "旋风人": [
+      "现在只要眼部暴露在空气中就不会溺水，此前需要脚部暴露在空气中。",
+      "被玩家或驯服的狼杀死时不再掉落风弹，现在会掉落1-2个旋风棒，受抢夺魔咒影响。"
+    ],
+    "风弹": [
+      "将造成的伤害减少至1（）。",
+      "发射的风弹现在会居中生成。",
+      "调整了击退效果和爆炸威力以匹配Java版。（MCPE-178892）",
+      "玩家发射的风弹现在会造成与旋风人发射的风弹相同的伤害。（MCPE-178903）",
+      "不再会在被投掷时短暂地遮挡玩家视野。（MCPE-178890、MCPE-178896）",
+      "现在被投掷时会对潜行的玩家造成额外的击退效果。（MCPE-178897）",
+      "现在被垂直投掷时会以十字准星为中心进行水平居中。（MCPE-178886）"
+    ],
+    "试炼密室": [
+      "现在会以与Java版相同的位置和配置进行生成。",
+      "生成时不再会穿过维度的边缘。（MCPE-176919）",
+      "将chamber_9和​chamber_3分别重制为slanted和​pedestal。",
+      "现在饰纹陶罐会随机附有涡流、旋风或刮削纹样陶片。",
+      "现在试炼刷怪笼会在走廊更频繁地生成。",
+      "更改了宝库周围方块的布局。",
+      "加入了pedestal和​slanted决斗室，同时移除了chamber_3和​chamber_9。",
+      "现在其中的饰纹陶罐会随机附有涡流、旋风或刮削纹样陶片。",
+      "现在柱廊的试炼刷怪笼生成得更频繁。",
+      "将宝库、补给箱的底座方块由涂蜡的铜块和涂蜡的雕纹铜块更改为磨制安山岩和雕纹凝灰岩砖。"
+    ],
+    "Dimension": [
+      "加入了getBlocks(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks?: boolean): ListBlockVolume函数。",
+      "若与过滤器相匹配，则获取功能域中的方块。",
+      "加入了containsBlock(volume: BlockVolumeBase, filter: BlockFilter, allowUnloadedChunks?: boolean): boolean函数。",
+      "若功能域中的方块与过滤器相匹配，则返回true，否则返回false。",
+      "将ItemCooldownComponent由beta移动至1.11.0。",
+      "为beta加入了BlockComponentStepOffEvent。",
+      "为BlockCustomComponent加入了onStepOff。",
+      "为beta加入了BlockComponentRandomTickEvent。",
+      "为BlockCustomComponent加入了onRandomTick。"
+    ],
+    "StructureManager": [
+      "加入了getIds(): string。",
+      "用于返回包括保存至内存和世界的所有结构在内的标识符列表。",
+      "修复了删除函数后不会一同删除之前保存至世界但尚未加载的结构的漏洞。",
+      "将createEmpty的默认保存模式更改为StructureSaveMode.Memory。"
+    ],
+    "EntityQueryOptions": [
+      "加入了propertyOptions?: EntityQueryPropertyOptions[];字段。"
+    ],
+    "EntityQueryPropertyOptions": [
+      "加入了exclude字段。",
+      "排除propertyId。",
+      "加入了propertyId字段。",
+      "属性ID。",
+      "加入了value字段。",
+      "目标值或对比。"
+    ],
+    "EqualsComparison": [
+      "加入了equals。"
+    ],
+    "GreaterThanComparison": [
+      "加入了greaterThan。"
+    ],
+    "GreaterThanOrEqualsComparison": [
+      "加入了greaterThanOrEquals。"
+    ],
+    "LessThanComparison": [
+      "加入了lessThan。"
+    ],
+    "LessThanOrEqualsComparison": [
+      "加入了lessThanOrEquals。"
+    ],
+    "NotEqualsComparison": [
+      "加入了notEquals。"
+    ],
+    "RangeComparison": [
+      "加入了lowerBound和​upperBound。",
+      "将worldInitialize由beta移动至1.10.0。",
+      "将EntityProjectileComponent由beta移动至1.10.0。",
+      "移除了旧的Vector。",
+      "可使用@minecraft/math中的Vector3Utils作为替代。"
+    ],
+    "ModalFormData": [
+      "加入了submitButton方法。",
+      "用于设置表单的提交按钮的文本。",
+      "加入了saveToWorld(): void函数。",
+      "将结构保持为更广阔的世界存储的一部分。",
+      "加入了saveAs(identifier: string, saveMode?: StructureSaveMode): Structure函数。",
+      "使用新的标识符保存结构的副本。"
+    ],
+    "StructureAPI": [
+      "加入了setBlockPermutation(location: Vector3, blockPermutation?: BlockPermutation, waterlogged?: boolean): void函数。",
+      "设置结构内指定位置的方块排列。"
+    ],
+    "EntityHitBlockAfterEvent": [
+      "为beta加入了hitBlockPermutation属性。",
+      "现在创作者设置菜单中有了一个可用于在世界加载（或使用/reload）时自动连接调试器的选项。",
+      "该选项会使加载时设置（和捕获）断点更加容易，避免输入调试器斜杠命令带来的麻烦。",
+      "加入了扩展BaseBlockVolume的ListBlockVolume类。",
+      "存储多个方块位置的功能域。"
+    ],
+    "Structure": [
+      "将StructureTemplate类重命名为Structure。",
+      "加入了size: Vector3只读属性。",
+      "以方块为单位，返回结构的大小。",
+      "加入了getBlockPermutation(location: Vector3): BlockPermutation | undefined;函数。",
+      "返回结构内指定位置的方块排列。",
+      "加入了isValid(): boolean函数。",
+      "若结构已被删除，则返回false。",
+      "加入了getIsWaterlogged(location: Vector3): boolean;。",
+      "返回指定位置上的方块是否含水。",
+      "为spawnEntity(…)函数加入了带有initialPersistence布尔字段的可选项SpawnEntityOptions。",
+      "用于支持编辑器菜单中的持久性实体。",
+      "StructureManager.place现在会以与/structure命令相同的方式放置旋转的结构。（MCPE-179447）",
+      "将getItemStack(amount?: number, withData?: boolean): ItemStack | undefined由beta移动至1.10.0。",
+      "将getItemStack(amount?: number): ItemStack | undefined由beta移动至1.10.0。"
+    ],
+    "EntityAgeableComponent": [
+      "在beta中加入了transformToItem属性。"
+    ],
+    "EntityDefinitionFeedItem": [
+      "在beta中将item属性更新为返回带有命名空间的名称。",
+      "将EntityTypeFamilyComponent由beta移动至1.10.0。",
+      "为beta加入了BlockComponentTickEvent。",
+      "加入了onTick。",
+      "为beta加入了BlockComponentEntityFallOnEvent。",
+      "加入了onEntityFallOn。",
+      "为beta加入了BlockComponentPlayerPlaceBeforeEvent。",
+      "加入了beforeOnPlayerPlace。",
+      "为beta加入了BlockComponentPlayerInteractEvent。",
+      "加入了onPlayerInteract。",
+      "为beta加入了BlockComponentPlayerDestroyEvent。",
+      "加入了onPlayerDestroy。",
+      "为beta加入了BlockComponentOnPlaceEvent。",
+      "加入了onPlace。",
+      "为beta加入了ItemComponentRegistry。",
+      "为beta加入了ItemCustomComponent。",
+      "为beta加入了ItemComponentUseEvent。",
+      "将structureManager由beta移动至1.10.0。"
+    ],
+    "结构管理器": [
+      "将createEmpty由beta移动至1.10.0。",
+      "将delete由beta移动至1.10.0。",
+      "将get由beta移动至1.10.0。",
+      "将place由beta移动至1.10.0。",
+      "将id由beta移动至1.10.0。",
+      "将getBlockPermutation由beta移动至1.10.0。",
+      "将getIsWaterlogged由beta移动至1.10.0。",
+      "将isValid由beta移动至1.10.0。",
+      "将StructureSaveMode由beta移动至1.10.0。",
+      "将StructureRotation由beta移动至1.10.0。",
+      "将StructureAnimationMode由beta移动至1.10.0。",
+      "将StructureMirrorAxis由beta移动至1.10.0。",
+      "移除了StructureReadOptions。",
+      "将StructureCreateOptions由beta移动至1.10.0。",
+      "将StructurePlaceOptions由beta移动至1.10.0。",
+      "将InvalidStructureError由beta移动至1.10.0。"
+    ],
+    "实体组件": [
+      "为EntityRideableComponent加入了passengerMaxWidth属性。",
+      "为Seat加入了seatRotation属性。"
+    ],
+    "图形": [
+      "将丢失方块纹理更新为带有棕色问号的泥土。",
+      "将Xbox Series主机的最大渲染距离提高至36。",
+      "现在开启“隐藏手”选项后，拴绳物品会正确渲染。"
+    ],
+    "参考": [
+      "Minecraft - 1.20.80 - Armored Paws (Bedrock) — Minecraft Feedback，2024年4月23日。",
+      "Minecraft Bedrock 1.20.80 — Minecraft.net，2024年4月23日。",
+      "MCPE-162814 — 漏洞状态为“已修复”。",
+      "MCPE-179910 — 漏洞状态为“已修复”。",
+      "MCPE-179911",
+      "MCPE-179986 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

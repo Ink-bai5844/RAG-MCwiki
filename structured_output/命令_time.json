@@ -1,0 +1,157 @@
+{
+  "title": "命令/time",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftime",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于主世界中昼夜交替过程，请见“昼夜更替”。"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "控制或查询世界[仅基岩版]/世界时钟[仅Java版]的时间。"
+    ],
+    "用法": [
+      "此段落需要更新。",
+      "段落中某些信息已经不符合当前版本情况。",
+      "在游戏正常运行时，内部的计时系统会自动累加游戏刻数，除非游戏的常规运行逻辑被暂停（例如，在Java版中，打开游戏菜单等界面或使用/tick命令冻结游戏刻，或在维度区块未完成加载时）。",
+      "游戏时间（GameTime）：世界存档累计正常运行的游戏刻数。",
+      "昼夜更替时间（DayTime）：当游戏规则“游戏内时间流逝”（advance_time[仅Java版]或doDaylightCycle[仅基岩版]）为true时，世界存档累计正常运行的游戏刻数。",
+      "命令中的参数：",
+      "gametime等价于GameTime，不超过整型上限。",
+      "daytime等于DayTime % 24000，不超过整型上限。",
+      "day等于DayTime / 24000，不超过整型上限。",
+      "在Java版中，/time set ...命令直接将游戏的昼夜更替时间设置为指定的数字。但在基岩版中，如果使用time: TimeSpec参数，只会增加昼夜更替时间使其符合time: TimeSpec对应的当日时间。",
+      "例如：",
+      "在Java版中，执行/time set day或/time set 1000命令，都会直接将内部的昼夜更替时间设置为1000，相对应的day被计算为0。",
+      "在基岩版中，执行/time set 1000命令也会将昼夜更替时间设为1000。但对于/time set day命令，例如如果当前昼夜更替时间为25001（1游戏日+1001游戏刻），执行后不会变为25000或1000，因为使用time: TimeSpec参数只能使昼夜更替时间增加，所以实际上会变为49000（2游戏日+1000游戏刻），因而游戏天数变为2。如果当前昼夜更替时间为25000（1游戏日+1000游戏刻），执行/time set day后，其保持25000不变。"
+    ],
+    "Java版": [
+      "1.3.1",
+      "12w16a",
+      "/time现在可在单人游戏里使用。",
+      "/time set现在接受day（值为0）和night（值为12500）。",
+      "1.7",
+      "13w36a",
+      "/time set day的值现在是1000，并且/time set night的值现在是13000。",
+      "1.8",
+      "14w29a",
+      "加入了/time query，接受的参数是daytime和gametime。",
+      "1.9",
+      "15w49b",
+      "/time query现在接受day的值。",
+      "1.13",
+      "18w01a",
+      "向/time set加入了选项noon和midnight。",
+      "26.1",
+      "snapshot-3",
+      "加入了/time pause和/time resume，分别用于暂停和取消暂停世界时钟。",
+      "/time现在基于世界时钟，并且可以指定世界时钟，而不再影响所有维度。",
+      "/time set和/time add的返回值现在是世界时钟经过的总刻数，而不再是当前时间。",
+      "pre-1",
+      "加入了time [of <clock>] rate <rate>子命令。"
+    ],
+    "time add <time>": [
+      "增加世界时钟的昼夜更替时间，并立即强制将时间同步到所有客户端。"
+    ],
+    "time pause": [
+      "暂停世界时钟。"
+    ],
+    "time query gametime": [
+      "查询整个世界经过的总刻数。"
+    ],
+    "time query time": [
+      "查询世界时钟经过的总刻数。"
+    ],
+    "time query <timeline> repetition": [
+      "查询使用此世界时钟的时间线所经过的周期数。"
+    ],
+    "time query <timeline>": [
+      "查询使用此世界时钟的时间线在本周期所经过的刻数。"
+    ],
+    "time [of <clock>] rate <rate>": [
+      "设定世界时钟的流逝速率。"
+    ],
+    "time resume": [
+      "取消暂停世界时钟。"
+    ],
+    "time set <timemarker>": [
+      "设置世界时钟的昼夜更替时间，并立即强制将时间同步到所有客户端。"
+    ],
+    "基岩版": [
+      "time add <amount: int>",
+      "增加昼夜更替时间。",
+      "1.17.30",
+      "1.17.30.20",
+      "现在/time set <amount: int>会直接设置昼夜更替时间，而不再通过增加来达到指定的当日时间。"
+    ],
+    "time query <daytime|gametime|day>": [
+      "查询当前的时间，可以查询当日时间、游戏时间或游戏天数。",
+      "time set <amount: int>",
+      "time set <time: TimeSpec>",
+      "设置昼夜更替时间。"
+    ],
+    "参数": [
+      "JE：<time>：time",
+      "BE：amount: int：int",
+      "指定要增加或设置的时间。",
+      "在Java版中，必须为单精度浮点数，并附有单位。且必须不小于0游戏刻。单位可以是：",
+      "d：一个游戏日，合24000游戏刻，",
+      "s：一秒，合20游戏刻，",
+      "t（默认且可省略）：一个游戏刻，无单位时默认。",
+      "时间在单位转化成游戏刻后取最近的整数。例如：.5d等价于12000游戏刻。",
+      "在基岩版中，必须为一个 32位整数。"
+    ],
+    "daytime|gametime|day": [
+      "指定要查询的数据。必须为daytime、gametime或day。",
+      "daytime - 当日时间。",
+      "gametime - 游戏时间。",
+      "day - 游戏天数。",
+      "JE：day|night|noon|midnight",
+      "BE：time: TimeSpec：enum",
+      "指定要设置的时间节点。",
+      "必须为day、night、noon、midnight、sunrise或sunset[仅基岩版]。",
+      "day = 1,000",
+      "night = 13,000",
+      "noon = 6,000",
+      "midnight = 18,000",
+      "sunrise = 23,000[仅基岩版]",
+      "sunset = 12,000[仅基岩版]",
+      "JE：<clock>：resource",
+      "指定要操作的世界时钟。若未指定，则操作执行维度的默认世界时钟。",
+      "必须是一个注册在minecraft:world_clock注册表的一个注册项的命名空间ID。",
+      "JE：<timemarker>：resource_location",
+      "指定要设置的时间标记。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "JE：<timeline>：resource",
+      "指定要查询的时间线。",
+      "必须是一个注册在minecraft:timeline注册表的一个注册项的命名空间ID。",
+      "JE：<rate>：float",
+      "指定要设置的速率。作为参照，世界时钟的流逝速率默认为1。",
+      "必须为单精度浮点数。且必须在0.00001和1000之间（含）。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "示例": [
+      "设置昼夜更替时间为1000：time set 1000或time set day或time set 50s[仅Java版]",
+      "将昼夜更替时间增加一天：time add 24000或time add 1d[仅Java版]或time add 1200s[仅Java版]"
+    ],
+    "Java版Beta": [
+      "1.3",
+      "加入了/time，现在可以使用add和set语法。"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/time。"
+    ]
+  }
+}

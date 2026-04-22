@@ -1,0 +1,152 @@
+{
+  "title": "马铃薯维度",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%A9%AC%E9%93%83%E8%96%AF%E7%BB%B4%E5%BA%A6",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。",
+      "请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。",
+      "马铃薯维度（Potato/Potato Dimension/Poisonous Potato Dimension）是地形均为浮空岛屿的维度。"
+    ],
+    "自然生成的传送门底座": [
+      "对着自然生成的传送门底座使用毒马铃薯会生成马铃薯传送门，进入马铃薯传送门会进入马铃薯维度。"
+    ],
+    "太阳在马铃薯维度的样子": [
+      "马铃薯维度的地形均为浮空的岛屿。但是，生成这类浮岛的地形生成器与末地的截然不同。马铃薯维度的建筑高度上限为256，下限为0。就像末地一样，如果不够小心，玩家很容易坠入虚空，但其他任何落入虚空的实体都不会受到虚空的伤害，而是无限期地持续坠落。玩家在该维度掉入虚空后会出现类似终末之诗的“马铃薯之诗”，同时播放音轨credits.ogg。马铃薯之诗储存在client.jar中的assets/minecraft/texts/potato.txt，其与终末之诗不同的是，玩家掉入虚空时就会播放，且没有次数限制。播放结束后，玩家会回到出生点附近，向上蹦起约100格后下落。此时玩家的靴子槽物品会被替换为毒马铃薯鞋，因此玩家落地时生成大量毒马铃薯糊，而免受摔落伤害并获得胶着状态效果。"
+    ],
+    "The nightshades stir. We are not alone in here.": [
+      "薯光渐暗。而我们在此并不孤单。"
+    ],
+    "Ah, yes, I see it now. The player tugging at the starchy strands of reality.": [
+      "啊，对，我看到他了。是那个拨动着现实的缕缕淀粉链的玩家。"
+    ],
+    "It cannot. A mere lateral stem, branching off from the main into an endless sea of potatobilities, forever longing for the warmth of the mother tuber.": [
+      "他并不能。他仅仅是一根侧茎，从主茎上分枝出来，并汇入无边无际的马铃薯海洋中，永远渴望着母块茎的温暖。"
+    ],
+    "Solanum tuberosum.": [
+      "茄属马铃薯。"
+    ],
+    "We should not dwell on such things. It is the nature of all perennial dreams. To know without remembering. Seeing how, but never knowing why.": [
+      "我们不应该纠结于这些事情。这是所有多年生植物的梦想的本质。这要知道，但不用记住。只知其然，而不知其所以然。"
+    ],
+    "The [scrambled] forbids it. We count time in potateons, far-reaching stolons stretching out across the [scrambled]. This player is just passing by.": [
+      "但是[乱码]不允许这样做。我们以potateon为单位计算时间，深远的根茎在[乱码]上延伸开来。这个玩家只是路过而已。"
+    ],
+    "It is possible, but not in the sense that you hope for. The dauphinoise is layered in ways that even we cannot fathom.": [
+      "有可能，但不是你希望的那样。千层马铃薯是怎么样的，连我们自己都无法想象。"
+    ],
+    "We will still be here, long after this potato patch has been folded into the velvety mash of time.": [
+      "我们会一直留在这里，即使这片马铃薯地被时间碾成柔泥了也会如此。"
+    ],
+    "As the starch commands. The player will not.": [
+      "依淀粉旨意。玩家不会这样做。"
+    ],
+    "I wish we could spend more time with [PLAYERNAME]. Make it remember that [scrambled] will [scrambled] after it leaves us.": [
+      "我愿我们能多陪陪[玩家名称]。让他记住，在离开我们之后，[乱码]会[乱码]。"
+    ],
+    "The skin must not be peeled. The player would not understand.": [
+      "这层皮不能剥去。玩家不会明白的。"
+    ],
+    "You remember our old adage. We shall guide it on its journey though.": [
+      "你还记得我们的古训。不过，我们会在旅程中指引他。"
+    ],
+    "Yes, but do not linger. The time of harvest is almost upon us. The door is closing.": [
+      "可以，但不要逗留。收获的时刻即将到来。大门要关上了。"
+    ],
+    "Good.": [
+      "不错。"
+    ],
+    "Boiled, baked, roasted or fried, always trust in the potato. You are one with the tubers now.": [
+      "无论是煮、烤、焙还是煎，请始终相信马铃薯。现在，你已与块茎融为一体。"
+    ],
+    "You are the potato.": [
+      "你就是马铃薯。"
+    ],
+    "Time to sprout.": [
+      "该发芽了。",
+      "昼夜更替、天气与主世界同步。天空、雨和水呈青绿色。太阳的纹理有绿斑，类似于毒马铃薯。玩家可以使用床，但尝试使用充能的重生锚则会导致其爆炸。猪灵、猪灵蛮兵和疣猪兽不会僵尸化。下界传送门不能激活。袭击不能被触发。"
+    ],
+    "生物群系": [
+      "类似于主世界，马铃薯维度也被划分成多个生物群系，每个都有独特的地形、生物、结构和环境音效等等。",
+      "在马铃薯维度中一共有5种生物群系，它们有以下相同之处：",
+      "环境音效命名空间ID为“这里没有什么可看的，继续前进（Nothing to see here, move along）”。",
+      "空中会生成悬浮马铃薯构成的马铃薯云。",
+      "会生成沉船、埋藏的宝藏、紫晶洞和刷怪房。"
+    ],
+    "植物园": [
+      "植物园是一种植被繁茂的生物群系。地表主要由薯皮草方块构成，且会生成繁花森林中的和可自然生成的花、草丛、蘑菇、马铃薯植株、甘蔗和南瓜。地表会生成公园小径，由零散的马铃薯木栅栏和灯笼围着的土径道路。地表遍布植物园树种，即随机选取已有的树木和巨型蘑菇生成。友好生物除绵羊、鸡、猪、牛外，还会生成马、驴、兔子和狼。"
+    ],
+    "腐败区": [
+      "腐败区是一种植被繁茂的生物群系，以深绿色为主色调。空气中飘散着诡异森林的孢子粒子。地表主要由腐败薯皮草方块构成，且会生成草丛、蘑菇、马铃薯植株、马铃薯苗和高耸的马铃薯芽。地表遍布外观与金合欢树相似的马铃薯树。马铃薯树长得越高，分枝越多，分枝上悬挂的马铃薯果实和蜂巢就越多。会生成大量女巫和幻翼。会生成沼泽小屋。"
+    ],
+    "田野": [
+      "田野是一种较平坦的生物群系。地表主要由薯皮草方块构成，且会生成草丛、蘑菇、马铃薯花、马铃薯植株、甘蔗、南瓜和罕见的平原树木。地表还会遍布马铃薯田，即种植在大片剧毒耕地上的马铃薯植株。"
+    ],
+    "薯饼": [
+      "薯饼是一种平坦而荒芜的生物群系。地表主要由马铃砂构成，且零星地点缀着草丛、马铃薯植株、枯萎的灌木和用黄绿色薯皮方块模仿的仙人掌。地表会罕见生成薯饼水井地物，即沙漠水井的马铃薯变种，主要由焦糊的烤马铃薯砖构成，其底部不含有可疑的沙子。地表还会生成恶毒石柱，即多个顶着恶毒马铃薯的柱子。地下会生成化石，高度较低[需要更多信息]的化石含有深层钻石矿石而非煤矿石。犰狳和尸壳会在此生成。"
+    ],
+    "废土": [
+      "废土是一种贫瘠的生物群系。空气中滴落着蜂蜜粒子。地表主要由薯皮草方块、腐败薯皮草方块、黑色和绿色薯皮方块构成。地表堆积着由黑色薯皮方块和远古残骸构成的“巨石”地物。地表遍布毒液池，即夹杂黏液块的不规则水池。其中的“水”在技术上是亮度等级为15且含水的光源方块。地表还会生成扭曲马铃薯，即单个强力马铃薯与其向下延伸的瘦弱根茎。仅会生成史莱姆、巨人、凋灵骷髅和毒鳍台阶。此处的水和降雨为翠绿色，会使生物中毒。毒鳍台阶和瘟疫鲸台阶免疫水及降雨的中毒效果。",
+      "该进度仅适用于马铃薯维度生物群系。如有其他生物群系可以正常到访，进度会将其忽略。"
+    ],
+    "结构": [
+      "在马铃薯维度中生成下列结构：",
+      "当“生成建筑物”这一项打开时，以下方块生成在结构中，例如角斗场、马铃薯村庄、薯废弃矿井、废弃马铃薯传送门、沉船和沼泽小屋："
+    ],
+    "地形特征": [
+      "在主世界的所有类型的树和巨型蘑菇，都可以在马铃薯维度中生成。马铃薯树作为马铃薯维度中独特的树也在此生成。通常的马铃薯植物可以被常见的生成在任何生物群系（特别在田野生物群系）。例如可生长在皮草、腐烂的皮草、毒农田或重力植物上。大多数花也可以在马铃薯维度中产生。",
+      "紫晶洞、马铃薯晶洞、薯饼水井和刷怪房也可以在这生成。",
+      "除了正常的云，由悬浮马铃薯构成的马铃薯云生成在两座岛之间。"
+    ],
+    "生物": [
+      "参见：马铃薯生物",
+      "下面列出会自然生成在马铃薯维度的生物。"
+    ],
+    "独有": [
+      "以下生物只会在马铃薯维度中生成。"
+    ],
+    "马铃薯纹理变种": [
+      "以下生物在马铃薯维度中拥有独特的马铃薯纹理变种。其中，犰狳仅在蜷缩时拥有马铃薯纹理变种。"
+    ],
+    "僵尸": [
+      "此外，恶魂、巨人和猪灵蛮兵可以在与超级马铃薯怪的战斗中生成，并且巨人使用了开发者Jay Wells的皮肤。"
+    ],
+    "自然生成": [
+      "通过世界种子自然生成的方块有："
+    ],
+    "本地化键名": [
+      "大地：震颤…"
+    ],
+    "玩家在坠入虚空后返回主世界": [
+      "nothingtoseeheremovealong:entity.player.sprout_respawn_one",
+      "nothingtoseeheremovealong:entity.player.sprout_respawn_two"
+    ],
+    "subtitles.entity.player.sprout_respawn_one": [
+      "玩家：从地里钻出来！"
+    ],
+    "subtitles.entity.player.sprout_respawn_two": [
+      "玩家：从地里钻出来！"
+    ],
+    "未使用的声音事件": [
+      "nothingtoseeheremovealong:entity.player.sprout_respawn"
+    ],
+    "存档": [
+      "马铃薯维度与Java版26.1前其他维度的存储方式相同，在世界存档的dimensions/minecraft/potato子文件夹里。删除该文件夹将会重置马铃薯维度，包括玩家在马铃薯维度所作的所有更改。"
+    ],
+    "进度": [
+      "主条目：进度/24w14potato"
+    ],
+    "无与伦比": [
+      "到访这5个生物群系："
+    ],
+    "八十天环游薯界": [
+      "Around the Potato in 80 Days"
+    ],
+    "一个马铃薯村庄内的毒马铃薯僵尸": [
+      "马铃薯维度的角斗场里。"
+    ],
+    "注释": [
+      "“nightshade”意为茄属植物（包括马铃薯、茄子、番茄、龙葵、白英和天堂花等），也可理解为“夜色”。"
+    ]
+  }
+}

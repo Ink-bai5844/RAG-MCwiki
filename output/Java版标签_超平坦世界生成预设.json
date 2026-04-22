@@ -1,0 +1,5 @@
+{
+  "title": "Java版标签/超平坦世界生成预设",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E8%B6%85%E5%B9%B3%E5%9D%A6%E4%B8%96%E7%95%8C%E7%94%9F%E6%88%90%E9%A2%84%E8%AE%BE",
+  "text": "本条目所述内容仅适用于Java版。\n超平坦世界生成预设标签（Flat Level Generator Tags）是超平坦预设的组合。\n使用\n超平坦世界生成预设标签不可被主动调用，它们被游戏用来控制超平坦预设屏幕上可供选择的预设。\n当前版本\nvisible\n配置可见的超平坦模式生成器。\n标签内容：\n#visible（9项）\nclassic_flat（经典平坦）\ntunnelers_dream（挖掘工的梦想）\nwater_world（水世界）\noverworld（主世界）\nsnowy_kingdom（雪之王国）\nbottomless_pit（无底深渊）\ndesert（沙漠）\nredstone_ready（红石俱备）\nthe_void（虚空）\n历史\nJava版\n1.19\n22w11a\n加入了超平坦生成器预设标签：#visible。\n导航"
+}

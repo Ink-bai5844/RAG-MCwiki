@@ -1,0 +1,135 @@
+{
+  "title": "命令/ride",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fride",
+  "structured_content": {
+    "默认分类": [
+      "“Ride”重定向至此。关于实体被连接到另一个实体上的现象，请见“骑乘”。"
+    ],
+    "需要的权限等级": [
+      "Java版：2",
+      "基岩版：1"
+    ],
+    "启用作弊[仅基岩版]": [
+      "用于使实体骑乘或停止骑乘其他实体。在基岩版中，可使坐骑逐出其乘客，亦可召唤坐骑或乘客。"
+    ],
+    "用法": [
+      "主条目：骑乘",
+      "该命令不能为玩家、标记[仅Java版]、拴绳结、闪电束和浮漂添加乘客。",
+      "在基岩版中，某些实体不允许其他实体对其进行骑乘，主要是靠数据驱动。可通过行为包文件中的minecraft:rideable组件来控制（参见骑乘和官方文档）。"
+    ],
+    "Java版": [
+      "1.19.4",
+      "23w03a",
+      "加入了/ride。",
+      "1.21.2",
+      "24w40a",
+      "现在/ride不再能使实体骑乘拴绳结、闪电束和浮漂。"
+    ],
+    "ride <target> mount <vehicle>": [
+      "让指定的乘客骑乘指定的坐骑。"
+    ],
+    "ride <target> dismount": [
+      "让指定的乘客停止骑乘。"
+    ],
+    "基岩版": [
+      "ride <riders: target> start_riding <ride: target> [teleportRules: TeleportRules] [howToFill: FillType]",
+      "让指定的乘客骑乘指定的坐骑。",
+      "ride <riders: target> stop_riding",
+      "让指定的乘客停止骑乘。",
+      "ride <rides: target> evict_riders",
+      "让指定的坐骑逐出它的乘客。",
+      "ride <rides: target> summon_rider <entityType: EntityType> [spawnEvent: string] [nameTag: string]",
+      "对于每个指定的坐骑，如果可被骑乘且没有满载，则在其所在的位置召唤一个实体，然后让它们骑乘到坐骑上。",
+      "ride <riders: target> summon_ride <entityType: EntityType> [rideRules: RideRules] [spawnEvent: string] [nameTag: string]",
+      "在每个指定的乘客的位置召唤一个实体，然后让乘客骑乘所召唤的实体。",
+      "1.16.100",
+      "1.16.100.52",
+      "加入了/ride。"
+    ],
+    "参数": [
+      "JE：<target>：entity",
+      "指定乘客。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "JE：<vehicle>：entity",
+      "指定坐骑。",
+      "必须为玩家名、目标选择器或UUID。且目标选择器必须为单一数量，否则此命令将无法解析。",
+      "BE：riders: target：CommandSelector<Actor>",
+      "指定乘客。",
+      "如果处于start_riding模式并且teleportRules: TeleportRules是teleport_ride时，应仅有一个实体。",
+      "必须为玩家名或目标选择器。",
+      "BE：ride: target：CommandSelector<Actor>",
+      "指定坐骑。",
+      "应仅有一个实体。",
+      "必须为玩家名或目标选择器。",
+      "BE：rides: target：CommandSelector<Actor>",
+      "指定坐骑。",
+      "必须为玩家名或目标选择器。",
+      "BE：teleportRules: TeleportRules：enum",
+      "指定将被传送的实体。",
+      "必须是teleport_ride（传送坐骑至乘客）或teleport_rider（传送乘客至坐骑）。",
+      "如果未指定，默认为teleport_rider。",
+      "BE：howToFill: FillType：enum",
+      "必须是if_group_fits或until_full。",
+      "if_group_fits只会在指定的所有<riders: target>都能一起骑上指定的坐骑时才会使它们骑乘。",
+      "until_full让指定的<riders: target>逐个尝试骑乘至指定的坐骑上，直到该坐骑满载。",
+      "如果未指定，默认为until_full。",
+      "BE：entityType: EntityType：enum",
+      "指定召唤的实体。",
+      "必须是一个实体类型的ID。",
+      "只有特定实体类型允许被召唤。允许召唤的实体类型可见于命令的自动补全建议列表。指定列表外的实体类型会是命令无法解析。",
+      "BE：spawnEvent: string：basic_string",
+      "指定实体生成时执行的事件。应为一个生成事件（行为包中的实体事件）的名称。",
+      "BE：nameTag: string：basic_string",
+      "指定实体生成时的名字。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "BE：rideRules: RideRules：enum",
+      "必须是no_ride_change， reassign_rides或 skip_riders。",
+      "skip_riders仅为没有在骑乘的<riders: target>召唤实体。",
+      "no_ride_change仅为没有骑乘且没有被骑乘的<riders: target>召唤实体。",
+      "reassign_rides使正在骑乘的<riders: target>停止骑乘，然后为所有<riders: target>召唤实体。",
+      "如果未指定，默认为reassign_rides。"
+    ],
+    "任意": [
+      "riders: target、rides: target或ride: target没有选中至少一个实体（指定名称的玩家必须在线上）"
+    ],
+    "执行失败": [
+      "0",
+      "0"
+    ],
+    "/... start_riding ...": [
+      "ride: target所选择的实体数量大于1",
+      "ride: target所选择的实体在命令执行前已经满载",
+      "teleportRules: TeleportRules是teleport_ride，并且<riders: target>选中的实体数量大于1",
+      "howToFill: FillType未指定或是until_full，且所有的riders: target都不可骑乘ride: target",
+      "howToFill: FillType是if_group_fits，且<riders: target>选中的实体过多而无法一起骑乘到坐骑上",
+      "howToFill: FillType是if_group_fits，并且ride: target对至少一个<riders: target>不可骑乘"
+    ],
+    "/... stop_riding": [
+      "riders: target所选实体没有一个骑乘于其他实体"
+    ],
+    "/... evict_riders": [
+      "<rides: target>所选实体没有一个被其他实体骑乘"
+    ],
+    "/... summon_rider ...": [
+      "所有<rides: target>已经满载或对于召唤的实体来说不可骑乘"
+    ],
+    "/... summon_ride ...": [
+      "所有<riders: target>都不可骑乘所召唤的实体骑乘"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "在Java版中，将自己骑乘到猪上:",
+      "/ride @s mount @e[limit=1,type=minecraft:pig]",
+      "在Java版中，使自己骑到最近的箭上："
+    ],
+    "/ride @s mount @n[type=arrow]": [
+      "在基岩版中，在每个具有“A”标签的玩家处生成一支箭："
+    ],
+    "/ride @a[tag=A] summon_ride arrow": [
+      "在基岩版中，在每个具有“A”标签的玩家处生成一只闪电苦力怕：",
+      "/ride @a[tag=A] summon_ride creeper reassign_rides minecraft:become_charged"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Indev 0.31 20100206-1437",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100206-1437",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n0.31\n版本\nJava版\n发布时间\n2010年2月6日\n下载\n不可用\nal_version\n1.082\n◄◄0.30\nMinecraft Indev►►\n◄0.31 20100205-2241\n20100206-2034►\n0.31的一个版本，也是最后一个版本，发布于2010年2月6日14:37（UTC），修复了一个漏洞。\n修复\n修复了1个漏洞\n修复了一个文本渲染导致帧率下降的漏洞。\n参考\nIRC记录, Adura.7z（UTC-5）\nAdura的IRC记录: \"(09:21:48) <LG_Legacy> Hey Notch, how come when text is displaying on the screen usually taking up the whole screen, our FPS drops?\"...\"(09:25:43) <Notch> LG_Legacy: That's interesting..\"...\"(09:37:39) <Notch> there we go. Text should be a LOT faster now\"...\"(09:38:01) <Notch> ok, is. ;)\"\n导航"
+}

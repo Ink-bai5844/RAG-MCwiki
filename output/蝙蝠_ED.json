@@ -1,0 +1,5 @@
+{
+  "title": "蝙蝠/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%9D%99%E8%9D%A0%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n*\n*BatFlags：表示蝙蝠是否正在倒挂在方块下面。"
+}

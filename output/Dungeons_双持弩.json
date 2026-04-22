@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:双持弩",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%8F%8C%E6%8C%81%E5%BC%A9",
+  "text": "双持弩\n类型\n远程武器\n稀有度\n力量\n4\n速度\n4\n弹药上限\n3\n远古狩猎符文\n存档ID\nDualCrossbows\n双持弩是需要应对快节奏战斗的战士能够迅速反应的完美需求。\n——物品描述\n双持弩（Dual Crossbows）是Minecraft Dungeons中的远程武器。它的变种是幼体弩和祛魔弩。\n获取\n地点：\n迎风之巅\n地下神殿（冒险难度以上）\n深渊神殿（天启难度以上）\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n猪灵商人\n远古生物：\n？？？？？\n使用\n双持弩拥有低攻击力，低速度和低弹药上限。初始弹药数为46。\n属性\n射出两只箭\n数据\n等级\n伤害值\n113\n1364 x2\n音效\n描述\n文件\n掉落\nP1_sfx_item_dualCrossbowsDrop\n拾取\nP1_sfx_item_dualCrossbowsPickup\n装备\nP1_sfx_item_dualCrossbowsPlace\n击中物体\nP1_sfx_item_dualCrossbowsArrowImpactNormal\n射击\nP1_sfx_item_dualCrossbowsShoot\n历史\nMinecraft Dungeons\n1.3.2.0\n加入了双持弩。\n导航"
+}

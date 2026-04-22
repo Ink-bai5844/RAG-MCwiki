@@ -1,0 +1,58 @@
+{
+  "title": "Dungeons:迅捷刺刃",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%BF%85%E6%8D%B7%E5%88%BA%E5%88%83",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含虚空回响的内容。"
+    ],
+    "力量": [
+      "6"
+    ],
+    "速度": [
+      "4"
+    ],
+    "攻击范围": [
+      "2"
+    ],
+    "存档ID": [
+      "Backstabber_Unique1",
+      "对于那些认识到隐蔽自身并乘机偷袭才是制胜之道的人来说，这是绝佳的选择。"
+    ],
+    "——物品描述": [
+      "迅捷刺刃（Swift Striker）是Minecraft Dungeons的DLC虚空回响中的近战武器。它是背刺利刃的独特变种。"
+    ],
+    "获取": [
+      "地点:"
+    ],
+    "末地荒野": [
+      "居民:"
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "迅捷刺刃拥有中等力量、低速度和低攻击范围。攻击方式与背刺利刃无异。"
+    ],
+    "文件": [
+      "连击1",
+      "D6_sfx_backstabber_unique1Combo1",
+      "连击2",
+      "D6_sfx_backstabber_unique1Combo2",
+      "连击3",
+      "D6_sfx_backstabber_unique1Combo3"
+    ],
+    "掉落": [
+      "D6_sfx_backstabberUnique1Drop"
+    ],
+    "拾取": [
+      "D6_sfx_backstabbeUnique1rPickUp"
+    ],
+    "装备": [
+      "D6_sfx_backstabberUnique1Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.10.2.0",
+      "加入了迅捷刺刃。"
+    ]
+  }
+}

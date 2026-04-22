@@ -1,0 +1,5 @@
+{
+  "title": "命令/blockdata",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fblockdata",
+  "text": "此条目所介绍的内容已从Java版中移除。\n此命令在Java版1.13中已被data命令替代。\nblockdata\n需要的权限等级\n2\n限制条件\n无\n更改方块的NBT标签。\n语法\nblockdata <x> <y> <z> <NBT标签>\n参数\nx y z\n指定要修改的方块实体的坐标。可使用相对坐标来指定与命令执行处的相对距离。\nNBT标签\n指定要对方块实体添加或覆盖的NBT标签元素。必须是一个复合NBT标签（例如{CustomName:Fred}）。\n结果\n命令\n触发条件\nJava版\n任意\n命令不完整或参数未正确指定\n无法解析\n指定方块不是方块实体\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n/execute store success ...\n/execute store result ...\n任意\nJava版\n执行失败\n0\n执行成功\n1\n示例\n将（0, 64, 0）处信标的主增益效果更改为急迫：blockdata 0 64 0 {Primary:3}\n历史\nJava版\n1.8\n14w02a\n加入了/blockdata命令。\n1.13\n17w45a\n现在<NBT标签>参数是可选的，以直接查询方块实体的NBT数据。\n17w47a\n移除了/blockdata命令。\n参见\n方块实体数据格式 — 定义方块实体的NBT标签\n/entitydata — 更改实体的NBT标签\n/item[仅Java版]或/replaceitem[仅基岩版] — 替换方块物品栏中的物品\n/setblock – 将方块替换为其他方块\n/stats — 设置方块的命令统计值\n导航"
+}

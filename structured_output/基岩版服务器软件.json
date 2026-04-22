@@ -1,0 +1,282 @@
+{
+  "title": "基岩版服务器软件",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BD%AF%E4%BB%B6",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是非官方基岩版服务器软件。关于其他用法，请见“服务器（消歧义）”。",
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。",
+      "本条目所述内容仅适用于基岩版。",
+      "相比Java版服务器软件，非官方基岩版服务器软件通常缺少一些游戏中的原版特性。这些特性内置于基岩版客户端，并被游戏内的原版服务器使用。除了官方的基岩版专用服务器外，这些服务器软件都没有使用Mojang的源代码。它们的性能也因此能在应对大量玩家数据等情况下优于官方软件，并且能提供一些额外功能。除非另有说明，大多数基岩版服务器软件都是开源的，用户可以在许可证允许范围之内免费使用它们，甚至用作商业目的。",
+      "包括精选服务器在内，大部分基岩版服务器都使用非官方软件。由于官方服务端第三方原生模组加载器的出现以及对完全原版特性的支持，基岩版官方服务器软件生态逐渐向好。"
+    ],
+    "官方服务器软件": [
+      "在2018年9月11日，Mojang发布了基岩版服务器软件的早期alpha版本。"
+    ],
+    "Mojang Studios": [
+      "最新（26.13）"
+    ],
+    "C++": [
+      "官方热切希望听取玩家对此版本的反馈意见，因此请通过feedback.minecraft.net告知。并且请务必在官方的漏洞跟踪器中汇报发现的任何漏洞。目前仅支持64位设备。原版不支持加载插件，但支持所有基岩版特性以及附加包。",
+      "Glacie实际上是一个翻译器，试图通过翻译不同版本之间的数据包差异，来允许不同版本的玩家进入服务器。拥有Levilamina加载器、Endstone加载器、客户端版本。不同版本的支持范围不尽相同。",
+      "通过GUI控制BDS，可进行自动备份、保存、重启等操作。",
+      "控制BDS的简易GUI面板，拥有自动热备份和玩家管理工具。"
+    ],
+    "第三方原生模组加载器": [
+      "这些加载器直接连接到BDS，并以本地代码（即C++）或通过JavaScript等脚本语言提供更多API。"
+    ],
+    "LiteLDev": [
+      "1.21.132"
+    ],
+    "C++/JavaScript/Node.js/Lua": [
+      "曾被称为LiteLoaderBDS。",
+      "轻量级、模块化和多功能的基岩版模组加载器，它拥有全面的API，一系列的实用接口，一个强大的事件系统，以及对基本接口的全面支持。支持Windows版客户端和服务端。在Linux上使用需要Wine。"
+    ],
+    "EndstoneMC": [
+      "1.21.130"
+    ],
+    "C++/Python": [
+      "一个支持使用Python、C++编写插件的基岩版插件加载器。是目前唯一一个原生支持这两个平台的BDS 插件加载器，无需Wine。"
+    ],
+    "SerenityJS": [
+      "1.21.110"
+    ],
+    "无": [
+      "提供完整的 API 和工具集，让开发者能够专注于创造独特的游戏体验，无需处理底层网络和协议细节。",
+      "可靠，快速，功能丰富的新一代基岩版服务器软件。",
+      "仅支持64位设备。需要使用自定义PHP扩展。",
+      "轻量和现代的并发服务器软件，旨在独立使用或作为库使用。",
+      "通过ChakraCore支持Node.js。拓展BDS功能，例如Hook功能和数据包以改变行为。已于2024年11月14日归档，不再更新。",
+      "停止更新。主要开发者启动“ElementZeroR”项目，不久后放弃。",
+      "停止更新。开发人员不再维护该软件。",
+      "Steadfast2"
+    ],
+    "PNX Team": [
+      "1.21.60"
+    ],
+    "Java": [
+      "近乎完美的协议转换器。",
+      "现处于活跃开发的状态，版本更新迅速。",
+      "目前有许多漏洞等待修复，但基本可以进行游戏。",
+      "注意：目前用作开发者测试，如需使用，需要自行编辑。",
+      "停止更新，开发者转移至Geyser。"
+    ],
+    "Nukkit": [
+      "支持更多方块和物品、更多api、性能更好的Nukkit分支版本。",
+      "带有活跃的插件生态系统的Nukkit项目生产级的维护和延续。",
+      "Angelic47、MagicDroidX、Pub4Game、Snake1999、Creeperface01",
+      "1.2.10"
+    ],
+    "AllayMC": [
+      "1.21.80-1.21.124"
+    ],
+    "Dylan K. Taylor、SOFe、Intyre（原开发者）、Shoghi Cervantes（原开发者）": [
+      "1.21.0"
+    ],
+    "Dragonfly": [
+      "Sandertv、T 14Raptor、TwistedAsylumMC",
+      "1.21.90"
+    ],
+    "Go": [
+      "Go语言编写的Minecraft软件工具箱，可用于客户端、服务器及服务端代理。"
+    ],
+    "LucGamesYT": [
+      "1.21.20"
+    ],
+    "Cloudburst Team/Open Collaboration": [
+      "1.21.50",
+      "1.21.50",
+      "1.14.0"
+    ],
+    "Cloudburst (Nukkit)": [
+      "仍在早期开发阶段，具有许多功能增强、性能改进和开发人员优化的Bedrock-first[原文如此]服务器软件。"
+    ],
+    "历史项目": [
+      "这些是不再积极维护或停止更新的历史项目。它们中的一些分支仍在上述的项目中被积极维护。"
+    ],
+    "Karikera": [
+      "1.21.3"
+    ],
+    "星光开发组": [
+      "1.21.3"
+    ],
+    "BDSpyrunner": [
+      "twoone3",
+      "1.19.50"
+    ],
+    "Altay": [
+      "Enes5519、EmreTr1",
+      "1.16.100"
+    ],
+    "PocketMine-MP": [
+      "Lifeboat服务器将软件更换为pocketmine，steadfast因而停止更新。"
+    ],
+    "TobyPayneYT": [
+      "1.16.200/1.16.201"
+    ],
+    "Neutrex": [
+      "Bavfalcon9",
+      "1.18.30"
+    ],
+    "MFDGaming": [
+      "1.18.30"
+    ],
+    "NovaPlay Team": [
+      "1.16.200"
+    ],
+    "PowerNukkit Team": [
+      "1.18.0"
+    ],
+    "NiclasOlofsson": [
+      "1.18.0"
+    ],
+    "C#": [
+      "自动进行（热）备份并按一定时间间隔执行PapyrusCS地图渲染工具。"
+    ],
+    "BlueLightJapan": [
+      "1.2.10"
+    ],
+    "HerryYT、kaliiks": [
+      "1.2.0-1.12.0"
+    ],
+    "xZeroMCPE": [
+      "1.0.9"
+    ],
+    "Cathesda": [
+      "1.10"
+    ],
+    "ClearSkyTeam、XenialDan": [
+      "1.1.5"
+    ],
+    "iTXTech": [
+      "1.0.5"
+    ],
+    "GenisysPro团队": [
+      "1.1.0"
+    ],
+    "Codehz": [
+      "1.6.0"
+    ],
+    "移植自PocketMine-MP": [
+      "不活跃/停止更新，部分贡献者转而参与Cloudburst Nukkit。"
+    ],
+    "HerryYT": [
+      "1.16.0"
+    ],
+    "VoxelWind": [
+      "fromgate、Pub4Game、tee7even、Nukkit.Ru团队、Tux（前开发者）",
+      "1.1.5"
+    ],
+    "CodeHz": [
+      "1.16.0"
+    ],
+    "MCMrARM": [
+      "1.12.0"
+    ],
+    "geNAZt": [
+      "1.16.200",
+      "1.8.0"
+    ],
+    "Hydreon": [
+      "1.2.0-1.18.0"
+    ],
+    "协议适配器": [
+      "协议适配器让玩家可无缝连接到与客户端版本不同的服务器，无需担心版本不匹配导致的无法加入问题。"
+    ],
+    "GlacieTeam": [
+      "1.21.50-1.21.124"
+    ],
+    "服务端代理": [
+      "与数据包传输不同，代理允许玩家在服务器无缝传送。"
+    ],
+    "Paroxity": [
+      "1.18.0"
+    ],
+    "Bedrock Protocol": [
+      "在软件后端使用Gophertunnel。",
+      "用于基岩版的全新代理服务器。",
+      "Xbox与GoMint交互。",
+      "此代理并非设计用于在服务器后端转移玩家。"
+    ],
+    "Synapse Protocol": [
+      "SynapseAPI插件在各个服务器上都必须安装。"
+    ],
+    "Yesdog、PaperMC、SpigotMC、Yesdog OSS Team": [
+      "1.8.0-1.16.0"
+    ],
+    "Bedrock Protocol, ProtocolSupport Encapsulation Protocol": [
+      "原生Waterfall/BungeeCord的分支。"
+    ],
+    "Alemiz、TobiasGrether": [
+      "1.8.0-1.21.50"
+    ],
+    "kalliks、VixikHD": [
+      "1.8.0"
+    ],
+    "协议转换器": [
+      "协议转换器允许基岩版客户端连接Java版服务器。"
+    ],
+    "GeyserMC团队/Open Collaboration": [
+      "1.21.50-1.21.82",
+      "1.21.8"
+    ],
+    "ProtocolSupport": [
+      "1.8.0–1.12.0",
+      "1.13.2"
+    ],
+    "Dragonet Foundation": [
+      "1.14.60",
+      "1.15.2"
+    ],
+    "服务器管理软件": [
+      "服务器管理软件能够帮助管理员维护服务器并提供备份等功能。"
+    ],
+    "Blocks Party": [
+      "Yoyo666",
+      "1.21.80"
+    ],
+    "未知": [
+      "这是一款多服务器控制的启动器。",
+      "PocketMine-MP/个别可以安装“任何”软件。",
+      "每月$5至$60"
+    ],
+    "Sandertv": [
+      "1.18.0-1.21.80"
+    ],
+    "vellum": [
+      "clarkx86、DeepBlue",
+      "1.16.0"
+    ],
+    "FoxyNoTail": [
+      "1.14.60"
+    ],
+    "MrRooster": [
+      "1.21.80"
+    ],
+    "LEET": [
+      "基岩版1.2.0"
+    ],
+    "根据信贷规划而变化": [
+      "Playu2.com"
+    ],
+    "RoxServers": [
+      "携带版1.1.0"
+    ],
+    "PocketMine-MP、Nukkit、miNET": [
+      "每月€1.99至€19.98"
+    ],
+    "Server maker for MCPE": [
+      "基岩版1.2.2"
+    ],
+    "Server.pro": [
+      "基岩版1.2.0"
+    ],
+    "CubedHost": [
+      "基岩版1.2.0"
+    ],
+    "参考": [
+      "There is now a dedicated server available for Bedrock: https://minecraft.net/en-us/download/server/bedrock More details soon!，来自@jeb_。X（曾名Twitter），2018年9月11日。",
+      "PocketMine-MP的chunkutils2、ext-encoding与ext-morton是通过C++编写的PHP扩展。",
+      "PocketMine-MP的pthreads、leveldb与ext-libdeflate是通过C语言编写的PHP扩展。"
+    ]
+  }
+}

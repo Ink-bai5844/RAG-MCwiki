@@ -1,0 +1,11 @@
+{
+  "title": "刷怪笼矿车/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%88%B7%E6%80%AA%E7%AC%BC%E7%9F%BF%E8%BD%A6%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "矿车共通标签，见Template:Nbt inherit/minecart/source",
+      "刷怪笼共通标签，见Template:Nbt inherit/spawner/source"
+    ]
+  }
+}

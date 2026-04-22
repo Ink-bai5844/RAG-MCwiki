@@ -1,0 +1,25 @@
+{
+  "title": "游戏规则/floataterSizeLimit",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FfloataterSizeLimit",
+  "structured_content": {
+    "默认分类": [
+      "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。",
+      "此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。"
+    ],
+    "floataterSizeLimit": [
+      "floataterSizeLimit是控制悬浮马铃薯推进器可推动方块范围的游戏规则。"
+    ],
+    "描述": [
+      "悬浮马铃薯推进器结构的大小上限为N×N×N个方块。"
+    ],
+    "默认值": [
+      "32"
+    ],
+    "值域（JE）": [
+      "-2147483648 – 2147483647"
+    ],
+    "行为": [
+      "当悬浮马铃薯推进器接收到红石信号，且方块未超出N×N×N的范围时，会清除结构内包括自身的所有方块，并推动与其相连的、位于范围内的方块一起向放置方向移动。其中N为floataterSizeLimit的值。若N小于等于1则悬浮马铃薯推进器不能推动任何方块，包括自身。"
+    ]
+  }
+}

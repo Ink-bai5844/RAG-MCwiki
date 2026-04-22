@@ -1,0 +1,44 @@
+{
+  "title": "Dungeons:附魔草",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E9%99%84%E9%AD%94%E8%8D%89",
+  "structured_content": {
+    "远古狩猎符文": [
+      "跟强大并随叫随到的英雄一样，用他召唤出来的附魔羊也会立刻投入战斗。"
+    ],
+    "——物品描述": [
+      "附魔草（Enchanted Grass）是Minecraft Dungeons中的物品。可以召唤随机属性的羊帮助你战斗。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "使用": [
+      "使用后会召唤一只附魔羊帮助你战斗，羊的属性为剧毒，火焰，速度其中之一。",
+      "D2P2_sfx_item_rainbowGrassUse"
+    ],
+    "X 召唤物伤害": [
+      "30 秒冷却"
+    ],
+    "召唤伤害": [
+      "109",
+      "1798",
+      "115",
+      "2338"
+    ],
+    "掉落": [
+      "D2P2_sfx_item_rainbowGrassLand"
+    ],
+    "拾取": [
+      "D2P2_sfx_item_rainbowGrassPickUp"
+    ],
+    "装备": [
+      "D2P2_sfx_item_rainbowGrassPlace"
+    ],
+    "召唤": [
+      "D2P2_sfx_item_rainbowGrassSheepSpawn"
+    ],
+    "Minecraft Dungeons": [
+      "1.4.3.0",
+      "加入了附魔草。"
+    ]
+  }
+}

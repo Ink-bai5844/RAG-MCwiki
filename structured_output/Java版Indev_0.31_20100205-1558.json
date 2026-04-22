@@ -1,0 +1,49 @@
+{
+  "title": "Java版Indev 0.31 20100205-1558",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Indev_0.31_20100205-1558",
+  "structured_content": {
+    "默认分类": [
+      "此条目的标题并非官方正式名称。",
+      "一旦官方名称揭晓，相关名称可能会随时改变。",
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.31"
+    ],
+    "发布时间": [
+      "2010年2月5日"
+    ],
+    "al_version": [
+      "1.08",
+      "◄◄0.30"
+    ],
+    "Minecraft Indev►►": [
+      "◄0.31 20100204-2153",
+      "0.31 20100205-2241►",
+      "0.31的一个版本发布于2010年2月5日15:58（UTC），加入了巨人和难度。"
+    ],
+    "巨人": [
+      "使用僵尸的模型，但大小是僵尸的数倍。",
+      "会向玩家移动并攻击玩家。",
+      "只能在玩家在其正下方时攻击到玩家。"
+    ],
+    "难度": [
+      "新的选项。",
+      "和平、简单、普通和困难。"
+    ],
+    "物品栏": [
+      "物品栏中的玩家可以正常显示了。",
+      "右键单击物品现在将拿起物品数的一半。",
+      "现在只要合成台中还有剩余材料，就可以连续合成多次同一物品，而不需要每次将其放入到物品栏中。",
+      "方块阴影被再次修改。"
+    ],
+    "其他": [
+      "改进了性能。"
+    ],
+    "参考": [
+      "You can now change the difficulty from the options screen（存档） — The Word of Notch，2010年2月5日。",
+      "Right clicking now picks up half of the amount of blocks that you clicked on. Ex: right click on 64 wood blocks, pick up 32 of them.（存档），来自Cheeze。Minecraft Forum，2010年2月5日。",
+      "And when crafting,you can just clic multiple times the \"result\" box and the item will stack.（存档），来自Perle。Minecraft Forum，2010年2月6日。"
+    ]
+  }
+}

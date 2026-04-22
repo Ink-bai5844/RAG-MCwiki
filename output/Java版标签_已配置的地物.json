@@ -1,0 +1,5 @@
+{
+  "title": "Java版标签/已配置的地物",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E5%B7%B2%E9%85%8D%E7%BD%AE%E7%9A%84%E5%9C%B0%E7%89%A9",
+  "text": "已配置的地物标签（Configured Feature Tags）是已配置的地物的组合。\n使用\n已配置的地物标签可以在生物群系中引用，代表生物群系可生成这一类地物。\n游戏也内置了一些有特殊用途的标签。\n当前版本\ncan_spawn_from_bone_meal\n这些地物若定义在生物群系中，则在这些生物群系的草方块上使用骨粉时有概率生成这些地物，而不是矮草丛或高草丛。\n#can_spawn_from_bone_meal（8项）\nflower_default\nflower_flower_forest\nflower_swamp\nflower_plain\nflower_meadow\nflower_cherry\nwildflower\nflower_pale_garden\n历史\nJava版\n26.1\npre-1\n加入了已配置的地物标签。\n导航"
+}

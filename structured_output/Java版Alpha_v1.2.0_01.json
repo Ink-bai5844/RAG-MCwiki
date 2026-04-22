@@ -1,0 +1,40 @@
+{
+  "title": "Java版Alpha v1.2.0 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.2.0_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "Alpha v1.2.0_01"
+    ],
+    "服务端版本": [
+      "0.2.2_01"
+    ],
+    "发布时间": [
+      "2010年10月30日"
+    ],
+    "协议版本": [
+      "3",
+      "◄◄Alpha v1.2.0",
+      "Beta 1.0►►",
+      "Alpha v1.2.0_02►",
+      "Alpha v1.2.0_01是Java版的一次次要更新，发布于2010年10月30日，修复了一些漏洞。"
+    ],
+    "盔甲": [
+      "不再能抵挡攻击伤害。"
+    ],
+    "下界": [
+      "不再生成灵魂沙。",
+      "现在会生成沙砾。"
+    ],
+    "修复": [
+      "修复了2个漏洞",
+      "修复了关于物品栏的崩溃问题。",
+      "玩家创建新世界时不再会偶尔崩溃。"
+    ],
+    "参考": [
+      "IRC记录, #minecraft.20101030.log，2010年10月30日，UTC–4",
+      "IRC记录: \"<Notch> I've updated the client with a fix for the inventory crash as well\", \"<Notch> at least for ONE of them\" (21:54 UTC)"
+    ]
+  }
+}

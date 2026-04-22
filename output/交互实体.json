@@ -1,0 +1,5 @@
+{
+  "title": "交互实体",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%BA%A4%E4%BA%92%E5%AE%9E%E4%BD%93",
+  "text": "本条目所述内容仅适用于Java版。\n交互实体\n尺寸\n高度：height格\n宽度：width格\n实体ID\ninteraction\n交互实体（Interaction）是提供可交互的判定箱且记录交互行为的实体。\n生成\n交互实体不会生成在世界中，但可以使用/summon等命令生成。\n行为\n交互实体自身没有移动行为，不会受到伤害，不会发出声音，不会阻碍方块放置，也不会将玩家或其他实体推开自己所在的位置。\n交互实体有可以自定义尺寸的判定箱，可以被玩家攻击或使用，可以在实体数据中设置玩家在与其交互时是否有动画效果，并且会在实体数据中记录最后一次进行这些操作的玩家以及操作发生的时间。\n数据值\nID\n名称\n命名空间ID\n本地化键名\n交互实体\ninteraction\nentity.minecraft.interaction\n实体数据\n主条目：实体数据格式\n交互实体有与之相联系的包含许多该实体属性的存档数据。\n实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\nattack：交互实体最后一次受到的攻击数据。\n*\n*player：攻击交互实体的玩家。\n*\n*timestamp：被攻击的时间。\ninteraction：交互实体最后一次受到的交互数据。\n*\n*player：与交互实体交互的玩家。\n*\n*timestamp：交互的时间。\nheight：（默认为1）交互实体的高度。\nwidth：（默认为1）交互实体的宽度。\nresponse：（默认为false）表示玩家与交互实体交互时是否会挥动手臂。\n历史\nJava版\n1.19.4\n23w07a\n加入了交互实体。\n导航"
+}

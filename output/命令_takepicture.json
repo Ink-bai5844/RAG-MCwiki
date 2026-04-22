@@ -1,0 +1,5 @@
+{
+  "title": "命令/takepicture",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftakepicture",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少结果、缺少示例\n此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\n本条目所述内容仅适用于教育版。\ntakepicture\n需要的权限等级\n1\n限制条件\n启用作弊\n用于给玩家拍照，或从玩家的视角拍照。\n语法\ntakepicture <targetCamera: target> <targetPlayer: target>\ntakepicture <cameraSpawnLocation: x y z> <targetPlayer: target>\ntakepicture <targetPlayer: target>\n参数\ntargetPlayer: target：CommandSelector<Player>\n指定一名被拍照的玩家。\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\ntargetCamera: target：CommandSelector<Player>\n指定一名用于拍摄照片的相机视角的玩家。\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\ncameraSpawnLocation: x y z：CommandPosition\n指定用于拍摄照片的相机视角的坐标。\n必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n1\n历史\n基岩版\n?\n加入了/takepicture命令。\n?\n移除了/takepicture命令。\n教育版\n1.12.5\n加入了/takepicture命令。\n导航"
+}

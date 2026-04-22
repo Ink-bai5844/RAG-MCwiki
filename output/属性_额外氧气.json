@@ -1,0 +1,5 @@
+{
+  "title": "属性/额外氧气",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E9%A2%9D%E5%A4%96%E6%B0%A7%E6%B0%94",
+  "text": "本条目所述内容仅适用于Java版。\n额外氧气\n类型\n正面\n默认值\n0\n值域\n0 – 1024\n属性ID\noxygen_bonus\n额外氧气（Oxygen Bonus）是控制生物氧气值消耗的属性。\n行为\n主条目：呼吸\n生物不能呼吸时，游戏会每游戏刻尝试降低氧气值，当氧气值为-20时生物将受到溺水伤害或脱水伤害，并将氧气值重置为0。\n当此属性计算值e为0时，游戏尝试降低氧气值一定成功；而此属性计算值e不为0时，游戏尝试降低氧气值只有1⁄e+1的概率成功。\n假设默认情况下（此属性计算值为0）时生物在浸入水中n游戏刻后受到伤害，那么在此属性计算值为e时平均n(e+1)游戏刻后才会受到伤害。\n适用的生物\n生物\n基值\n所有生物\n0\n已知修饰符\n修饰符ID\n操作\n值\n数据持久化\n来源\nenchantment.respiration/head\nadd_value (Op0)\n等级\n否\n水下呼吸魔咒，应用于head（头盔）槽位\n历史\nJava版\n1.21\n24w18a\n加入了额外氧气属性，ID为generic.oxygen_bonus。\n24w21a\n水下呼吸魔咒修饰符的ID现在是enchantment.respiration/head，此前为07A65791-F64D-4E79-86C7-F83932F007EC。\n1.21.2\n24w33a\n额外氧气属性的ID从generic.oxygen_bonus重命名为oxygen_bonus。\n导航"
+}

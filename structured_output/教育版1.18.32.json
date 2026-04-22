@@ -1,0 +1,49 @@
+{
+  "title": "教育版1.18.32",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.18.32",
+  "structured_content": {
+    "默认分类": [
+      "1.18.32"
+    ],
+    "内部版本号": [
+      "ChromeOS, Android：1.18.32.0"
+    ],
+    "发布时间": [
+      "2022年8月9日"
+    ],
+    "测试版本": [
+      "3个测试版"
+    ],
+    "协议版本": [
+      "503",
+      "其他版本的1.18.32"
+    ],
+    "基岩版": [
+      "◄◄1.17.30",
+      "1.19.52►►",
+      "◄1.17.32",
+      "1.18.42►",
+      "1.18.32是Mobile, Multiplayer & More的首个正式版，也是教育版的一次主要更新，发布于2022年8月9日。此次更新加入了来自洞穴与山崖第二部分的特性和对Android、iPhone和iPod Touch设备的支持。"
+    ],
+    "NPC": [
+      "加入了25种新皮肤。"
+    ],
+    "特性": [
+      "主条目：基岩版1.18.0",
+      "加入了来自洞穴与山崖第二部分的特性。",
+      "加入了对Android、iPhone和iPod Touch设备的支持。"
+    ],
+    "RenderDragon": [
+      "现在使用新的渲染引擎RenderDragon。"
+    ],
+    "WebSocket": [
+      "将Websocket服务器和代码构建器发送的JSON格式更新为分层型JSON格式，以代替平面型格式。",
+      "移除了用途不大的属性，并将方块和物品ID移动至较新的基于名称的格式，以代替数值型格式。",
+      "将Websocket中基于智能体的命令移动至新的action:agent格式，现在所有命令都排列在其中，并包含关联响应的唯一ID。",
+      "现在Websocket和代码构建器API相关的重大更改都会使protocolVersion的值增加。"
+    ],
+    "参考": [
+      "What's New in the Mobile, Multiplayer, & More update (version 1.18.32)（存档） — Minecraft: Education Edition Support。"
+    ]
+  }
+}

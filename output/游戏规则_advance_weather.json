@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/advance weather",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fadvance_weather",
+  "text": "advance_weather（Java版）\n名称\n天气更替\n描述\n无\n分类（JE）\n世界更新\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nadvance_weather\ndoWeatherCycle（基岩版）\n名称\n天气更替\n描述\n有可能下雨、下雪和出现雷暴\n分类（BE旧UI）\n作弊\n分类（BE新UI）\n无敌模式\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ndoWeatherCycle\nadvance_weather[仅Java版]或doWeatherCycle[仅基岩版]是控制是否启用天气更替的游戏规则。\n行为\n当advance_weather[仅Java版]或doWeatherCycle[仅基岩版]为false时，世界的天气不会更替。\n历史\nJava版\n1.11\n16w38a\n加入了游戏规则doWeatherCycle。\n1.21.11\n25w44a\n将游戏规则doWeatherCycle重命名为advance_weather。\n携带版\n1.1.0\n1.1.0.0\n加入了游戏规则doWeatherCycle。\n导航"
+}

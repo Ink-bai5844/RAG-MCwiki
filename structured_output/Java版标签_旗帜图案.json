@@ -1,0 +1,76 @@
+{
+  "title": "Java版标签/旗帜图案",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E6%97%97%E5%B8%9C%E5%9B%BE%E6%A1%88",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "旗帜图案标签（Banner Pattern Tags）是旗帜图案的组合。"
+    ],
+    "使用": [
+      "旗帜图案标签用于控制织布机可绘制的图案。",
+      "对于旗帜图案物品而言，这些标签也是它们provides_banner_patterns组件的默认值。"
+    ],
+    "no_item_required": [
+      "不需要特定的图案物品就可以在织布机上制作出的图案。",
+      "#no_item_required（32项）"
+    ],
+    "pattern_item/bordure_indented": [
+      "波纹边旗帜图案可制作出的图案。",
+      "#pattern_item/bordure_indented（1项）"
+    ],
+    "pattern_item/creeper": [
+      "苦力怕盾徽旗帜图案可制作出的图案。",
+      "#pattern_item/creeper（1项）"
+    ],
+    "pattern_item/field_masoned": [
+      "砖纹旗帜图案可制作出的图案。",
+      "#pattern_item/field_masoned（1项）"
+    ],
+    "pattern_item/flow": [
+      "涡流旗帜图案可制作出的图案。",
+      "#pattern_item/flow（1项）"
+    ],
+    "pattern_item/flower": [
+      "花朵盾徽旗帜图案可制作出的图案。",
+      "#pattern_item/flower（1项）"
+    ],
+    "pattern_item/globe": [
+      "地球旗帜图案可制作出的图案。",
+      "#pattern_item/globe（1项）"
+    ],
+    "pattern_item/guster": [
+      "旋风旗帜图案可制作出的图案。",
+      "#pattern_item/guster（1项）"
+    ],
+    "pattern_item/mojang": [
+      "Mojang徽标旗帜图案可制作出的图案。",
+      "#pattern_item/mojang（1项）"
+    ],
+    "pattern_item/piglin": [
+      "猪鼻旗帜图案可制作出的图案。",
+      "#pattern_item/piglin（1项）"
+    ],
+    "pattern_item/skull": [
+      "头颅盾徽旗帜图案可制作出的图案。",
+      "#pattern_item/skull（1项）"
+    ],
+    "Java版": [
+      "1.19",
+      "22w18a",
+      "加入了#no_item_required、​#pattern_item/creeper、​#pattern_item/flower、​#pattern_item/globe、​#pattern_item/mojang、​#pattern_item/piglin和​#pattern_item。",
+      "1.20.5"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "24w11a",
+      "加入了#pattern_item/flow和​#pattern_item/guster。",
+      "1.21",
+      "24w18a",
+      "将“1.21更新”实验性内容中的所有标签变更移入游戏中。",
+      "1.21.2",
+      "24w33a",
+      "加入了#pattern_item/bordure_indented和​#pattern_item/field_masoned。",
+      "将bricks和​curly_border从#no_item_required中移除。"
+    ]
+  }
+}

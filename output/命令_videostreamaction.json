@@ -1,0 +1,5 @@
+{
+  "title": "命令/videostreamaction",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fvideostreamaction",
+  "text": "此条目所介绍的内容已从教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\n此条目仍需完善。\n你可以帮助我们加入更多信息。\nvideostreamaction\n需要的权限等级\n1\n限制条件\n无\n执行与视频流相关的操作。\n语法\nvideostreamaction [none|close]\n参数\n此段落暂无内容。\n你可以帮助我们加入信息。\n结果\n命令\n触发条件\n教育版\n任意\n参数不正确\n无法解析\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n教育版\n执行失败\n0\n执行成功\n1\n历史\n教育版\n1.12.0\n加入了/videostreamaction。\n?\n移除了/videostreamaction。\n导航"
+}

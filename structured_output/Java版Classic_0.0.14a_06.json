@@ -1,0 +1,32 @@
+{
+  "title": "Java版Classic 0.0.14a 06",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.14a_06",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前已丢失。",
+      "虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "0.0.14a_06"
+    ],
+    "发布时间": [
+      "2009年5月28日"
+    ],
+    "未知": [
+      "◄◄0.0.14a",
+      "0.0.15a►►",
+      "◄0.0.14a_05",
+      "0.0.14a_07►",
+      "0.0.14a_06是Java版的一次更新，发布于2009年5月28日。"
+    ],
+    "修复": [
+      "尝试修复了鼠标移动，但此次修复没有成功。",
+      "只有当鼠标快速移动时才会发生。"
+    ],
+    "参考": [
+      "IRC日志, #minecraft.20090528.log (May 28, 2009, UTC+2)",
+      "IRC日志: (20:23:30) <@notch> mezo: Reload the page, you should get _06",
+      "IRC日志: \"(20:23:30) <@notch> does the mouse work better now?\" [...] \"(20:24:54) <mezo> nah still bugged\", \"(20:25:11) <@notch> I don't know if I can fix it, then\" (18:23 to 18:25 UTC)",
+      "IRC日志: \"(20:28:33) <Adamwest> Just tried out _06, ti's only when you turn fast\" (18:28 UTC)"
+    ]
+  }
+}

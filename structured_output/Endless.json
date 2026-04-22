@@ -1,0 +1,62 @@
+{
+  "title": "Endless",
+  "source_url": "https://zh.minecraft.wiki/w/Endless",
+  "structured_content": {
+    "发行时间": [
+      "2024年4月26日"
+    ],
+    "时长": [
+      "06:42"
+    ],
+    "网易云音乐": [
+      "Minecraft: Tricky Trials (Original Game Soundtrack)",
+      "No.9"
+    ],
+    "Creator ►": [
+      "Endless是一首由Lena Raine创作的音乐。"
+    ],
+    "溶洞": [
+      "硫黄洞穴[实验性玩法“2026 年第 2 次更新”新增]",
+      "13.33%"
+    ],
+    "雪林": [
+      "8.33%"
+    ],
+    "裸岩山峰": [
+      "7.69%"
+    ],
+    "描述": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。",
+      "Endless是一首慢节奏的歌曲，开始时的旋律类似于Infinite Amethyst，由钢琴演奏，并在整首曲子中重复出现。接近结尾时，音调加入了混响效果，营造了一种氛围。有一个音调反复出现几次，并且逐渐变慢。"
+    ],
+    "Java版": [
+      "1.21",
+      "24w18a",
+      "加入了\"endless.ogg\"。",
+      "现在\"endless.ogg\"会在主菜单播放。",
+      "1.21.6",
+      "25w20a",
+      "现在\"endless.ogg\"不再会在主菜单播放。"
+    ],
+    "music.overworld.stony_peaks": [
+      "基岩版:"
+    ],
+    "音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "基岩版": [
+      "1.21.0",
+      "1.21.0.24",
+      "加入了\"endless.ogg\"。",
+      "现在\"endless.ogg\"会在主菜单播放。",
+      "1.21.90",
+      "1.21.90.25",
+      "现在\"endless.ogg\"不再会在主菜单播放。"
+    ]
+  }
+}

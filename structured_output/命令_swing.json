@@ -1,0 +1,48 @@
+{
+  "title": "命令/swing",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fswing",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "控制实体的手臂挥动。"
+    ],
+    "swing <targets> [mainhand|offhand]": [
+      "挥动实体的指定手臂。"
+    ],
+    "swing [<targets>]": [
+      "挥动实体的主手。"
+    ],
+    "参数": [
+      "<targets>：entity",
+      "指定挥臂的实体，默认为命令的执行者。",
+      "只有生物才具有挥臂这一行为，且客户端只会在特定的生物上渲染挥臂动作。",
+      "必须为玩家名、目标选择器或UUID。"
+    ],
+    "mainhand|offhand": [
+      "指定挥动的手臂，默认为mainhand。",
+      "mainhand为主手，offhand为副手。"
+    ],
+    "Java版": [
+      "26.1",
+      "snapshot-1",
+      "加入了/swing命令。",
+      "snapshot-3",
+      "现在两个参数都是可选的，默认为@s和mainhand。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "令周围6格范围内的所有非玩家实体挥动主手：/swing @e[type=!player,distance=..6] mainhand",
+      "令周围6格范围内的所有非玩家实体挥动副手：/swing @e[type=!player,distance=..6] offhand"
+    ]
+  }
+}

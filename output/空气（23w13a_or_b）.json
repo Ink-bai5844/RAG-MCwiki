@@ -1,0 +1,5 @@
+{
+  "title": "空气（23w13a or b）",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%A9%BA%E6%B0%94%EF%BC%8823w13a_or_b%EF%BC%89",
+  "text": "关于原版中用来表示其所在的空间未被占用的方块和物品，请见“空气”。\n此条目描述的是一个愚人节玩笑版本23w13a_or_b中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n空气\n[[|]]\n创造标签页（JE）\n功能方块\n最大堆叠\n64\n可再生\n是\n物品ID\nair_block\n空气（Air）是一种物品。它们可以用于喂食牛和月球牛以使其膨胀，也可以用于恢复氧气值。\n获取\n合成\n本段落所述内容仅在启用air_blocks规则后可用。\n材料\n合成配方\n玻璃瓶\n[[|]][[|]][[|]][[|]]\n[[|]]\n用途\n食物\n手持空气按住使用键即可食用。食用后发出吸气的声音，并恢复200点氧气值。\n喂食\n对着牛和月球牛使用空气会使其膨胀，多次使用会把它们变成气球牛并带着骑乘它们的玩家返回主世界或到达月球维度。\n合成材料\n名称\n材料\n合成配方\n压缩空气\n空气\n[[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]][[|]]\n[[|]]\n音效\n字幕\n分类\n描述\n命名空间ID\n本地化键名\n进食\n玩家\n食用空气\nentity.generic.eat\nsubtitles.entity.generic.eat\n打嗝\n玩家\n吃完一种食物\nentity.entity.player.burp\nsubtitles.entity.player.burp\n猫：嘶嘶声\n玩家\n吃完空气\nentity.cat.hiss\nsubtitles.entity.cat.hiss\n数据值\nID\n名称\n命名空间ID\n本地化键名\nAir\nair_block\nitem.minecraft.air_block\n导航"
+}

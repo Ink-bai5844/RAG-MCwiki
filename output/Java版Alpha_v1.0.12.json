@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.0.12",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.12",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nAlpha v1.0.12\n版本\nJava版\n发布时间\n2010年7月26日\n下载\n客户端（.json）\n协议版本\n11\n◄◄Alpha v1.0.11\nAlpha v1.0.14►►\n◄Alpha v1.0.11\nAlpha v1.0.13►\nAlpha v1.0.12是Java版的一次更新，发布于2010年7月26日，加入了史莱姆的音效，并修复了一些漏洞。\n新内容\n生物\n史莱姆\n为其加入了音效。\n常规\n闪烁标语\n加入新的特殊标语“missingno”。\n更改\n生物\n史莱姆\n大型史莱姆不再在和平难度中生成了。\n常规\n暂停菜单\n移除了退出游戏按钮文本“Save and quit to title..”中末尾的两个点。\n多人游戏\n为服务端加入了渲染距离选项。\n添加了最大玩家数量选项。\n聊天界面的文字会自动换行了。\n闪烁标语\n移除了splash.txt文件。\n因此，在游戏中闪烁标语总会显示为“missingno”（特殊标语除外）。\n修复\n修复了5个漏洞\n修复了大型史莱姆会在和平模式中生成的问题。\n修复了史莱姆定位目标以及攻击的问题。\n修复了文字颜色损坏的问题。\n修复了多人游戏中内存泄露的问题。\n修复了一个关于光照的问题。\n画廊\n主菜单和“missingno”闪烁标语\n在网页中游玩Notch的测试服务器\n参考\nMinecraft Alpha 1.0.12（存档） — The Word of Notch，2010年7月26日。\n导航"
+}

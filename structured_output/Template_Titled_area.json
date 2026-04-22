@@ -1,0 +1,35 @@
+{
+  "title": "Template:Titled area",
+  "source_url": "https://zh.minecraft.wiki/w/Template%3ATitled_area",
+  "structured_content": {
+    "[ 查看 | 编辑 | 历史 | 刷新 ]文档页面": [
+      "本模板使用了模板样式Template:Titled area/styles.css，此样式表由CSS编写。",
+      "更多详情，请参阅Help:模板样式和Extension:TemplateStyles。",
+      "此模板用于生成一个含有Minecraft风格的标题的区域。"
+    ],
+    "状态": [
+      "1",
+      "1",
+      "1content"
+    ],
+    "可选": [
+      "此模板用于生成一个含有Minecraft风格的标题的区域。"
+    ],
+    "示例": [
+      "输入： {{Titled area|header=标题|这里是标题下方显示的内容。}}",
+      "结果："
+    ],
+    "标题": [
+      "这里是标题下方显示的内容。",
+      "结果：",
+      "输入： {{Titled area|header=标题|image=Poisonous Potato.png|link=毒马铃薯|imagearea=Potato|这里是标题下方显示的内容。}}",
+      "结果："
+    ],
+    "Potato": [
+      "这里是标题下方显示的内容。"
+    ],
+    "{{Blank area}}": [
+      "[ 查看 | 编辑 | 历史 | 刷新 ]上述文档引用自Template:Titled area/doc。"
+    ]
+  }
+}

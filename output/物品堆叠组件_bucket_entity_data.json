@@ -1,0 +1,5 @@
+{
+  "title": "物品堆叠组件/bucket entity data",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fbucket_entity_data",
+  "text": "此模板已被弃用，因历史使用而保留。\n请使用编码格式/DataComponent代替。\nbucket_entity_data 物品堆叠组件\n*Glowing：表示桶中生物是否有发光的轮廓线。\n*Health：桶中生物的生命值。\n*Invulnerable：表示桶中生物是否能抵抗绝大多数伤害。\n*NoAI：表示桶中生物的AI是否被禁用。\n*NoGravity：表示桶中生物是否不受重力影响。\n*Silent：表示桶中生物是否不会发出任何声音。\n如果桶中生物是鱼类，则不存在额外标签。\n如果桶中生物是蝌蚪，则有下列1个额外标签：\n*Age：桶中蝌蚪的年龄。大于等于24000时，蝌蚪会长大成青蛙。\n如果桶中生物是美西螈，则有下列2个额外标签：\n*Age：桶中美西螈的年龄。生物为幼体时为负值；生物为成体时为正值或0，如果为正值则表示距离生物能再次繁衍的时间。\n*HuntingCooldown：桶中美西螈生物记忆has_hunting_cooldown的过期倒计时。"
+}

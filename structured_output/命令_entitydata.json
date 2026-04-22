@@ -1,0 +1,43 @@
+{
+  "title": "命令/entitydata",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fentitydata",
+  "structured_content": {
+    "默认分类": [
+      "提示：本条目的主题不是实体数据格式。",
+      "此条目所介绍的内容已从Java版中移除。",
+      "此命令在Java版1.13中已被data命令替代。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "修改实体的NBT标签。"
+    ],
+    "实体": [
+      "指定要修改数据的实体。必须是目标选择器或UUID，且不能为玩家。"
+    ],
+    "NBT标签": [
+      "对于目标实体，指定要添加、覆盖的NBT标签元素（NBT标签不能被移除，字符串不能被设定为空值）。必须是复合型NBT标签（例如{CustomName:\"ming\"}）。"
+    ],
+    "Java版": [
+      "1.8",
+      "14w32b",
+      "加入了/entitydata。",
+      "1.13",
+      "17w45a",
+      "现在<NBT标签>参数是可选的，以直接查询包括玩家在内的实体的NBT数据。",
+      "17w45b",
+      "移除了/entitydata。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "阻止所有现有僵尸捡起战利品：/entitydata @e[type=zombie] {CanPickUpLoot:0b}",
+      "给身边的物品（实体）添加无法破坏的物品标签：/entitydata @e[type=item,r=5] {Item:{tag:{Unbreakable:1b}}}"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Dungeons:凛冬之触",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%87%9B%E5%86%AC%E4%B9%8B%E8%A7%A6",
+  "structured_content": {
+    "默认分类": [
+      "此条目包含悚伏寒冬的内容。"
+    ],
+    "力量": [
+      "4"
+    ],
+    "速度": [
+      "3"
+    ],
+    "弹药上限": [
+      "7"
+    ],
+    "存档ID": [
+      "SlowBow_Unique1",
+      "由这把传奇之弓发射的箭据传内含冬风特有的属性。"
+    ],
+    "——物品描述": [
+      "凛冬之触（Winter's Touch）是Minecraft Dungeons的DLC悚伏寒冬中的武器。它是冰雪之弓的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "失落居所": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "凛冬之触具有低力量，速度和中等弹药上限。可以进行蓄力射击。初始弹药量为80。"
+    ],
+    "属性": [
+      "蓄力后发射3支箭"
+    ],
+    "掉落": [
+      "DLC_sfx_item_slowBowUnique1Drop"
+    ],
+    "拾取": [
+      "DLC_sfx_item_slowBowUnique1PickUp"
+    ],
+    "装备": [
+      "DLC_sfx_item_slowBowUnique1Place"
+    ],
+    "Minecraft Dungeons": [
+      "1.4.3.0",
+      "加入了凛冬之触。"
+    ],
+    "你知道吗": [
+      "搭配多重射击魔咒可以达到一次发射几十只箭的效果。",
+      "凛冬之触可以与特殊箭矢法器搭配，一次发射3个或更多的特殊箭。"
+    ]
+  }
+}

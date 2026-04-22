@@ -1,0 +1,78 @@
+{
+  "title": "命令/script",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fscript",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "启用作弊": [
+      "调试GameTest框架选项。"
+    ],
+    "script debugger close": [
+      "关闭调试器。",
+      "script debugger connect [host: string] [port: int]",
+      "将调试器的指定端口连接至指定主机。",
+      "script debugger listen <port: int>",
+      "监听调试器的指定端口。"
+    ],
+    "script diagnostics stopcapture": [
+      "开始或停止捕获诊断。"
+    ],
+    "script profiler stop": [
+      "启用或禁用跟踪脚本性能的分析器。"
+    ],
+    "参数": [
+      "host: string：string",
+      "指定主机的名称。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "port: int：int",
+      "指定调试器的端口，可用端口范围为1024-65535。",
+      "必须为32位整数。"
+    ],
+    "基岩版": [
+      "1.17.30"
+    ],
+    "执行失败": [
+      "/script ... [host: string] ..."
+    ],
+    "指定名称的主机不存在或不可用": [
+      "/script ... [port: int]",
+      "/script ... <port: int>"
+    ],
+    "示例": [
+      "将调试器的8000端口连接至本地回环：/script debugger connect 127.0.0.1 8000",
+      "监听调试器的8000端口：/script debugger listen 8000"
+    ],
+    "启用游戏测试框架": [
+      "1.17.30.23",
+      "加入了/script。",
+      "1.19.0"
+    ],
+    "应用测试框架": [
+      "1.19.0.30",
+      "加入了profiler子命令。",
+      "1.19.30",
+      "1.19.30.22",
+      "加入了exportstats子命令。",
+      "1.19.40",
+      "1.19.40.21",
+      "/script现在需要加载脚本才可使用。",
+      "1.19.60"
+    ],
+    "测试版 API": [
+      "1.19.60.26",
+      "/script现在无需加载脚本即可使用。",
+      "1.19.70",
+      "1.19.70.21",
+      "/script不再属于实验性玩法。",
+      "1.21.60",
+      "1.21.60.23",
+      "移除了exportstats子命令。",
+      "1.21.60.24",
+      "加入了diagnostics子命令。"
+    ]
+  }
+}

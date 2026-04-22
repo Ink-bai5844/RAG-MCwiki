@@ -1,0 +1,13 @@
+{
+  "title": "铜傀儡/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%93%9C%E5%82%80%E5%84%A1%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source",
+      "*next_weather_age：（默认为-1L）铜傀儡进入下一氧化阶段或转变为铜傀儡像的期限，单位为刻。涂蜡后，此值变为-2L，使铜傀儡不再继续氧化或转化。此值为-1L、进入下一氧化阶段或除蜡后，此值重置为504000 – 552000间的随机数+所在存档的昼夜更替时间。",
+      "*weather_state：（默认为unaffected）铜傀儡的氧化阶段。可选值为unaffected、​exposed、​weathered和​oxidized。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "辅助程序与编辑器/header/doc",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2Fheader%2Fdoc",
+  "text": "[ 刷新 ]\n这是文档页面，它应该被放置到辅助程序与编辑器/header。查看Template:Documentation以获取更多信息。\n这个模板用于在辅助程序与编辑器的子页面中显示一致的表格格式。表格各行应由辅助程序与编辑器/entry模板生成。由于此模板并非被使用页面的子页面，所以:程序和编辑器的前缀是必要的。\n用法\n该模板只有1个参数：|1=，包含了使用{{:辅助程序与编辑器/entry}}的表格内容。\n示例\n{{:辅助程序与编辑器/header| {{:辅助程序与编辑器/entry | name = Example 1 | author = Author | image = Example.png | platform = {{OS|win|linux|mac}} | programming language = C++ | version = Latest Version | date = Version date (no use yet) | source available = Yes/No, license types | minecraft version = {{v|1.1}} | forum = http://www.minecraftforum.net/viewtopic.php?f=25&t=26659 | website = http://google.com | notes = Description goes here. }} }}\n生成：\n名称\n描述\n日期\n版本\n平台\n链接\n兼容的版本\n是否提供源代码\n程序设计语言\n作者\nExample 1\nDescription goes here.\nVersion date (no use yet)\nLatest Version\n论坛\n网站\n?\nYes/No, license types\nC++\nAuthor"
+}

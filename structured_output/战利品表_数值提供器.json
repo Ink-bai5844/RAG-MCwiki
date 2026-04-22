@@ -1,0 +1,42 @@
+{
+  "title": "战利品表/数值提供器",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%88%98%E5%88%A9%E5%93%81%E8%A1%A8%2F%E6%95%B0%E5%80%BC%E6%8F%90%E4%BE%9B%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "type：（可能不存在，默认为uniform）数值提供器的类型。",
+      "当type取值为binomial，数值提供器返回服从二项分布的随机数。",
+      "n：进行独立重复的伯努利试验的次数。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "p：每次试验的成功概率。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "当type取值为constant时，数值提供器返回常数。",
+      "value：一个任意的确切数值。",
+      "当type取值为enchantment_level时，数值提供器根据战利品上下文提供的魔咒等级计算得出数值。",
+      "amount：使用魔咒等级计算数值。",
+      "等级依赖函数，见Template:Nbt inherit/level based value/source",
+      "当type取值为score，数值提供器返回指定记分项的分数。",
+      "target：记分项数据源。如果直接指定目标，则需要战利品上下文提供的实体进行检测，值必须为this（自身）、attacker（执行攻击的实体）、direct_attacker（执行攻击的直接实体）和attacking_player（执行击杀的玩家）之一。如果不是直接指定目标，则标签内要附加下面的参数：",
+      "type：数据源类型。需为context（当前上下文中的某项数据源）或fixed（固定来源）。",
+      "如果 type取值为context，附加参数如下：",
+      "target：记分项数据源，需要战利品上下文提供的实体进行检测。必须为this、​attacker、​direct_attacker和​attacking_player之一。",
+      "如果 type取值为fixed，附加参数如下：",
+      "name：一个UUID或玩家名。",
+      "score：需要查询的记分项。",
+      "scale：（可选，默认为1.0）记分项的值将乘以该倍率后返回。",
+      "如果type取值为storage，提供器将返回某命令存储中某数据标签所提供的数值。附加标签：",
+      "storage：（命名空间ID）表示一个命令存储。",
+      "path：NBT路径，表示一个NBT标签。",
+      "当type取值为summands时，数值提供器返回若干数值提供器的和。",
+      "summands：要作和的数值提供器。",
+      "：一个数值提供器。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "当type取值为uniform时，数值提供器返回两个值（含）之间均匀分布的随机数。",
+      "min：最小值。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "max：最大值。",
+      "数值提供器，见Template:Nbt inherit/number provider/source",
+      "当type取值为environment_attribute时，数值提供器返回环境属性的值。如果环境属性可以随位置变化，则需要战利品上下文提供的origin作为来源位置进行检测。",
+      "attribute：（命名空间ID）要获取的环境属性。只能指定数据类型为浮点数或天体角度的环境属性，其他环境属性游戏会报错无法转化为浮点数。"
+    ]
+  }
+}

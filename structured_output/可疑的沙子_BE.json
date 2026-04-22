@@ -1,0 +1,14 @@
+{
+  "title": "可疑的沙子/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8F%AF%E7%96%91%E7%9A%84%E6%B2%99%E5%AD%90%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "hit_direction：（不能导出和保存，仅可以加载或使用/data修改，0≤值≤5）清刷的方向，决定物品渲染的位置。从0到5分别对应下上北南西东，如果超过值域则会报错。",
+      "item：（当LootTable不存在时存在并有效）可疑的方块内含有的物品。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "LootTable：决定可疑的方块第一次被清刷时，生成战利品所用的战利品表的命名空间ID。此项将在战利品生成之后被删除。",
+      "LootTableSeed：（当LootTable存在时有效）生成战利品使用的种子，0或不输入将使用随机序列。此项将在战利品生成之后被删除。"
+    ]
+  }
+}

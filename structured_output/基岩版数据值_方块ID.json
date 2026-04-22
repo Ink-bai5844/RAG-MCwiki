@@ -1,0 +1,5391 @@
+{
+  "title": "基岩版数据值/方块ID",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC%2F%E6%96%B9%E5%9D%97ID",
+  "structured_content": {
+    "默认分类": [
+      "在基岩版1.16.100后，方块的数字ID用于存档升级时方块的转化和在游戏运行时使用。",
+      "通过附加包自定义的方块会占据-1125及之后的数字ID。"
+    ],
+    "方块": [
+      "1",
+      "52",
+      "34",
+      "103",
+      "67",
+      "154",
+      "9A",
+      "205",
+      "-1",
+      "-51",
+      "-101",
+      "FFFFFFFFFFFFFF9B",
+      "element_90",
+      "-151",
+      "FFFFFFFFFFFFFF69",
+      "-201",
+      "FFFFFFFFFFFFFF37",
+      "-251",
+      "FFFFFFFFFFFFFF05",
+      "-301",
+      "FFFFFFFFFFFFFED3",
+      "-351",
+      "FFFFFFFFFFFFFEA1",
+      "-401",
+      "FFFFFFFFFFFFFE6F",
+      "-451",
+      "FFFFFFFFFFFFFE3D",
+      "-501",
+      "FFFFFFFFFFFFFE0B",
+      "-551",
+      "FFFFFFFFFFFFFDD9",
+      "-601",
+      "FFFFFFFFFFFFFDA7",
+      "-651",
+      "FFFFFFFFFFFFFD75",
+      "-701",
+      "FFFFFFFFFFFFFD43",
+      "-751",
+      "FFFFFFFFFFFFFD11",
+      "-801",
+      "-851",
+      "-901",
+      "FFFFFFFFFFFFFC7B",
+      "-951",
+      "FFFFFFFFFFFFFC49",
+      "-1001",
+      "FFFFFFFFFFFFFC17",
+      "-1051",
+      "FFFFFFFFFFFFFBE5",
+      "-1101",
+      "FFFFFFFFFFFFFBB3"
+    ],
+    "石头": [
+      "2"
+    ],
+    "草方块": [
+      "3"
+    ],
+    "泥土": [
+      "4"
+    ],
+    "圆石": [
+      "5"
+    ],
+    "橡木木板": [
+      "6"
+    ],
+    "橡树树苗 S": [
+      "7"
+    ],
+    "基岩": [
+      "8"
+    ],
+    "水 S": [
+      "9"
+    ],
+    "静态水 S": [
+      "10"
+    ],
+    "熔岩 S": [
+      "11"
+    ],
+    "静态熔岩 S": [
+      "12"
+    ],
+    "沙子": [
+      "13"
+    ],
+    "沙砾": [
+      "14"
+    ],
+    "金矿石": [
+      "15"
+    ],
+    "铁矿石": [
+      "16",
+      "10"
+    ],
+    "煤矿石": [
+      "17",
+      "11"
+    ],
+    "橡木原木 S": [
+      "18",
+      "12"
+    ],
+    "橡树树叶 S": [
+      "19",
+      "13"
+    ],
+    "海绵": [
+      "20",
+      "14"
+    ],
+    "玻璃": [
+      "21",
+      "15"
+    ],
+    "青金石矿石": [
+      "22",
+      "16"
+    ],
+    "青金石块": [
+      "23",
+      "17"
+    ],
+    "发射器 SE": [
+      "24",
+      "18"
+    ],
+    "砂岩": [
+      "25",
+      "19"
+    ],
+    "音符盒 E": [
+      "26",
+      "1A"
+    ],
+    "床 IS": [
+      "27",
+      "1B"
+    ],
+    "动力铁轨 S": [
+      "28",
+      "1C"
+    ],
+    "探测铁轨 S": [
+      "29",
+      "1D"
+    ],
+    "黏性活塞 S": [
+      "30",
+      "1E"
+    ],
+    "蜘蛛网": [
+      "31",
+      "1F"
+    ],
+    "矮草丛": [
+      "32",
+      "20"
+    ],
+    "枯萎的灌木": [
+      "33",
+      "21"
+    ],
+    "活塞 S": [
+      "34",
+      "22"
+    ],
+    "活塞臂S": [
+      "35",
+      "23"
+    ],
+    "白色羊毛": [
+      "36",
+      "24",
+      "element_0"
+    ],
+    "未知元素（???）": [
+      "37",
+      "25"
+    ],
+    "蒲公英": [
+      "38",
+      "26"
+    ],
+    "虞美人": [
+      "39",
+      "27"
+    ],
+    "棕色蘑菇": [
+      "40",
+      "28"
+    ],
+    "红色蘑菇": [
+      "41",
+      "29"
+    ],
+    "金块": [
+      "42",
+      "2A"
+    ],
+    "铁块": [
+      "43",
+      "2B"
+    ],
+    "平滑石头双层台阶 S": [
+      "44",
+      "2C"
+    ],
+    "平滑石头台阶 S": [
+      "45",
+      "2D"
+    ],
+    "红砖块": [
+      "46",
+      "2E"
+    ],
+    "TNT S": [
+      "47",
+      "2F"
+    ],
+    "书架": [
+      "48",
+      "30"
+    ],
+    "苔石": [
+      "49",
+      "31"
+    ],
+    "黑曜石": [
+      "50",
+      "32"
+    ],
+    "火把 S": [
+      "51",
+      "33"
+    ],
+    "刷怪笼 E": [
+      "53",
+      "35"
+    ],
+    "橡木楼梯 S": [
+      "54",
+      "36"
+    ],
+    "箱子 SE": [
+      "55",
+      "37"
+    ],
+    "红石线 IS": [
+      "56",
+      "38"
+    ],
+    "钻石矿石": [
+      "57",
+      "39"
+    ],
+    "钻石块": [
+      "58",
+      "3A"
+    ],
+    "工作台": [
+      "59",
+      "3B"
+    ],
+    "小麦S": [
+      "60",
+      "3C"
+    ],
+    "耕地 S": [
+      "61",
+      "3D"
+    ],
+    "熔炉 SE": [
+      "62",
+      "3E"
+    ],
+    "燃烧中的熔炉SE": [
+      "63",
+      "3F"
+    ],
+    "橡木告示牌ISE": [
+      "64",
+      "40"
+    ],
+    "橡木门 IS": [
+      "65",
+      "41"
+    ],
+    "梯子 S": [
+      "66",
+      "42"
+    ],
+    "铁轨 S": [
+      "67",
+      "43"
+    ],
+    "圆石楼梯 S": [
+      "68",
+      "44"
+    ],
+    "墙上的橡木告示牌 ISE": [
+      "69",
+      "45"
+    ],
+    "拉杆 S": [
+      "70",
+      "46"
+    ],
+    "石头压力板 S": [
+      "71",
+      "47"
+    ],
+    "铁门 IS": [
+      "72",
+      "48"
+    ],
+    "木质压力板 S": [
+      "73",
+      "49"
+    ],
+    "红石矿石": [
+      "74",
+      "4A",
+      "75",
+      "4B"
+    ],
+    "熄灭的红石火把 S": [
+      "76",
+      "4C"
+    ],
+    "红石火把 S": [
+      "77",
+      "4D"
+    ],
+    "石头按钮 S": [
+      "78",
+      "4E"
+    ],
+    "雪 S": [
+      "79",
+      "4F"
+    ],
+    "冰": [
+      "80",
+      "50"
+    ],
+    "雪块": [
+      "81",
+      "51"
+    ],
+    "仙人掌 S": [
+      "82",
+      "52"
+    ],
+    "黏土": [
+      "83",
+      "53"
+    ],
+    "甘蔗 IS": [
+      "84",
+      "54"
+    ],
+    "唱片机 SE": [
+      "85",
+      "55"
+    ],
+    "橡木栅栏 S": [
+      "86",
+      "56"
+    ],
+    "南瓜 S": [
+      "87",
+      "57"
+    ],
+    "下界岩": [
+      "88",
+      "58"
+    ],
+    "灵魂沙": [
+      "89",
+      "59"
+    ],
+    "荧石": [
+      "90",
+      "5A"
+    ],
+    "下界传送门S": [
+      "91",
+      "5B"
+    ],
+    "南瓜灯 S": [
+      "92",
+      "5C"
+    ],
+    "蛋糕 IS": [
+      "93",
+      "5D"
+    ],
+    "未激活的中继器IS": [
+      "94",
+      "5E"
+    ],
+    "激活的中继器IS": [
+      "95",
+      "5F"
+    ],
+    "隐形基岩": [
+      "96",
+      "60"
+    ],
+    "橡木活板门 S": [
+      "97",
+      "61"
+    ],
+    "虫蚀石头 S": [
+      "98",
+      "62"
+    ],
+    "石砖": [
+      "99",
+      "63"
+    ],
+    "棕色蘑菇方块 S": [
+      "100",
+      "64"
+    ],
+    "红色蘑菇方块 S": [
+      "101",
+      "65"
+    ],
+    "铁栏杆 S": [
+      "102",
+      "66"
+    ],
+    "西瓜": [
+      "104",
+      "68"
+    ],
+    "南瓜茎 S": [
+      "105",
+      "69"
+    ],
+    "西瓜茎 S": [
+      "106",
+      "6A"
+    ],
+    "藤蔓 S": [
+      "107",
+      "6B"
+    ],
+    "橡木栅栏门 S": [
+      "108",
+      "6C"
+    ],
+    "红砖楼梯 S": [
+      "109",
+      "6D"
+    ],
+    "石砖楼梯 S": [
+      "110",
+      "6E"
+    ],
+    "菌丝体": [
+      "111",
+      "6F"
+    ],
+    "睡莲": [
+      "112",
+      "70"
+    ],
+    "下界砖": [
+      "113",
+      "71"
+    ],
+    "下界砖栅栏 S": [
+      "114",
+      "72"
+    ],
+    "下界砖楼梯 S": [
+      "115",
+      "73"
+    ],
+    "下界疣 IS": [
+      "116",
+      "74"
+    ],
+    "附魔台 E": [
+      "117",
+      "75"
+    ],
+    "酿造台 ISE": [
+      "118",
+      "76"
+    ],
+    "炼药锅 ISE": [
+      "119",
+      "77"
+    ],
+    "末地传送门": [
+      "120",
+      "78"
+    ],
+    "末地传送门框架 S": [
+      "121",
+      "79"
+    ],
+    "末地石": [
+      "122",
+      "7A"
+    ],
+    "龙蛋": [
+      "123",
+      "7B"
+    ],
+    "红石灯": [
+      "124",
+      "7C"
+    ],
+    "点亮的红石灯": [
+      "125",
+      "7D"
+    ],
+    "投掷器 SE": [
+      "126",
+      "7E"
+    ],
+    "激活铁轨 S": [
+      "127",
+      "7F"
+    ],
+    "可可果 IS": [
+      "128",
+      "80"
+    ],
+    "砂岩楼梯 S": [
+      "129",
+      "81"
+    ],
+    "绿宝石矿石": [
+      "130",
+      "82"
+    ],
+    "末影箱 SE": [
+      "131",
+      "83"
+    ],
+    "绊线钩 S": [
+      "132",
+      "84"
+    ],
+    "绊线 IS": [
+      "133",
+      "85"
+    ],
+    "绿宝石块": [
+      "134",
+      "86"
+    ],
+    "云杉木楼梯 S": [
+      "135",
+      "87"
+    ],
+    "白桦木楼梯 S": [
+      "136",
+      "88"
+    ],
+    "丛林木楼梯 S": [
+      "137",
+      "89"
+    ],
+    "脉冲型命令方块 SE": [
+      "138",
+      "8A"
+    ],
+    "信标 E": [
+      "139",
+      "8B"
+    ],
+    "圆石墙 S": [
+      "140",
+      "8C"
+    ],
+    "花盆 ISE": [
+      "141",
+      "8D"
+    ],
+    "胡萝卜 IS": [
+      "142",
+      "8E"
+    ],
+    "马铃薯 IS": [
+      "143",
+      "8F"
+    ],
+    "橡木按钮 S": [
+      "144",
+      "90"
+    ],
+    "骷髅头颅 SE": [
+      "145",
+      "91"
+    ],
+    "铁砧 S": [
+      "146",
+      "92"
+    ],
+    "陷阱箱 SE": [
+      "147",
+      "93"
+    ],
+    "轻质测重压力板 S": [
+      "148",
+      "94"
+    ],
+    "重质测重压力板 S": [
+      "149",
+      "95"
+    ],
+    "未激活的比较器IS": [
+      "150",
+      "96"
+    ],
+    "激活的比较器IS": [
+      "151",
+      "97"
+    ],
+    "阳光探测器 SE": [
+      "152",
+      "98"
+    ],
+    "红石块": [
+      "153",
+      "99"
+    ],
+    "漏斗 ISE": [
+      "155",
+      "9B"
+    ],
+    "石英块 S": [
+      "156",
+      "9C"
+    ],
+    "石英楼梯 S": [
+      "157",
+      "9D"
+    ],
+    "橡木双层台阶 S": [
+      "158",
+      "9E"
+    ],
+    "橡木台阶 S": [
+      "159",
+      "9F"
+    ],
+    "白色陶瓦": [
+      "160",
+      "A0"
+    ],
+    "白色染色玻璃板 S": [
+      "161",
+      "A1"
+    ],
+    "金合欢树叶 S": [
+      "162",
+      "A2"
+    ],
+    "金合欢原木 S": [
+      "163",
+      "A3"
+    ],
+    "金合欢木楼梯 S": [
+      "164",
+      "A4"
+    ],
+    "深色橡木楼梯 S": [
+      "165",
+      "A5"
+    ],
+    "黏液块": [
+      "166",
+      "A6"
+    ],
+    "荧光棒 B": [
+      "167",
+      "A7"
+    ],
+    "铁活板门 S": [
+      "168",
+      "A8"
+    ],
+    "海晶石": [
+      "169",
+      "A9"
+    ],
+    "海晶灯": [
+      "170"
+    ],
+    "干草捆 S": [
+      "171"
+    ],
+    "白色地毯": [
+      "172"
+    ],
+    "陶瓦": [
+      "173"
+    ],
+    "煤炭块": [
+      "174"
+    ],
+    "浮冰": [
+      "175"
+    ],
+    "向日葵 S": [
+      "176",
+      "B0"
+    ],
+    "站立的旗帜 ISE": [
+      "177",
+      "B1"
+    ],
+    "墙上的旗帜 ISE": [
+      "178",
+      "B2"
+    ],
+    "反向阳光探测器 S": [
+      "179",
+      "B3"
+    ],
+    "红砂岩": [
+      "180",
+      "B4"
+    ],
+    "红砂岩楼梯 S": [
+      "181",
+      "B5"
+    ],
+    "红砂岩双层台阶 S": [
+      "182",
+      "B6"
+    ],
+    "红砂岩台阶 S": [
+      "183",
+      "B7"
+    ],
+    "云杉木栅栏门 S": [
+      "184",
+      "B8"
+    ],
+    "白桦木栅栏门 S": [
+      "185",
+      "B9"
+    ],
+    "丛林木栅栏门 S": [
+      "186"
+    ],
+    "深色橡木栅栏门 S": [
+      "187"
+    ],
+    "金合欢木栅栏门 S": [
+      "188"
+    ],
+    "循环型命令方块 SE": [
+      "189"
+    ],
+    "连锁型命令方块 SE": [
+      "190"
+    ],
+    "强化玻璃板 S": [
+      "191"
+    ],
+    "白色强化玻璃板 SB": [
+      "192",
+      "C0"
+    ],
+    "加热块": [
+      "193",
+      "C1"
+    ],
+    "云杉木门 IS": [
+      "194",
+      "C2"
+    ],
+    "白桦木门 IS": [
+      "195",
+      "C3"
+    ],
+    "丛林木门 IS": [
+      "196",
+      "C4"
+    ],
+    "金合欢木门 IS": [
+      "197",
+      "C5"
+    ],
+    "深色橡木门 IS": [
+      "198",
+      "C6"
+    ],
+    "土径": [
+      "199",
+      "C7"
+    ],
+    "物品展示框 ISE": [
+      "200",
+      "C8"
+    ],
+    "紫颂花 S": [
+      "201",
+      "C9"
+    ],
+    "紫珀块 S": [
+      "202"
+    ],
+    "红色火把 S": [
+      "203"
+    ],
+    "紫珀楼梯 S": [
+      "204"
+    ],
+    "未染色的潜影盒SE": [
+      "206"
+    ],
+    "末地石砖": [
+      "207"
+    ],
+    "霜冰 S": [
+      "208",
+      "D0"
+    ],
+    "末地烛 S": [
+      "209",
+      "D1"
+    ],
+    "末地折跃门 E": [
+      "210",
+      "D2"
+    ],
+    "允许方块": [
+      "211",
+      "D3"
+    ],
+    "拒绝方块": [
+      "212",
+      "D4"
+    ],
+    "边界": [
+      "213",
+      "D5"
+    ],
+    "岩浆块": [
+      "214",
+      "D6"
+    ],
+    "下界疣块": [
+      "215",
+      "D7"
+    ],
+    "红色下界砖块": [
+      "216",
+      "D8"
+    ],
+    "骨块 S": [
+      "217",
+      "D9"
+    ],
+    "结构空位": [
+      "218"
+    ],
+    "白色潜影盒 SE": [
+      "219"
+    ],
+    "紫色带釉陶瓦 S": [
+      "220"
+    ],
+    "白色带釉陶瓦 S": [
+      "221"
+    ],
+    "橙色带釉陶瓦 S": [
+      "222"
+    ],
+    "品红色带釉陶瓦 S": [
+      "223"
+    ],
+    "淡蓝色带釉陶瓦 S": [
+      "224",
+      "E0"
+    ],
+    "黄色带釉陶瓦 S": [
+      "225",
+      "E1"
+    ],
+    "黄绿色带釉陶瓦 S": [
+      "226",
+      "E2"
+    ],
+    "粉红色带釉陶瓦 S": [
+      "227",
+      "E3"
+    ],
+    "灰色带釉陶瓦 S": [
+      "228",
+      "E4"
+    ],
+    "淡灰色带釉陶瓦 S": [
+      "229",
+      "E5"
+    ],
+    "青色带釉陶瓦 S": [
+      "230",
+      "E6"
+    ],
+    "黑板ISE": [
+      "231",
+      "E7"
+    ],
+    "蓝色带釉陶瓦 S": [
+      "232",
+      "E8"
+    ],
+    "棕色带釉陶瓦 S": [
+      "233",
+      "E9"
+    ],
+    "绿色带釉陶瓦 S": [
+      "234"
+    ],
+    "红色带釉陶瓦 S": [
+      "235"
+    ],
+    "黑色带釉陶瓦 S": [
+      "236"
+    ],
+    "白色混凝土": [
+      "237"
+    ],
+    "白色混凝土粉末": [
+      "238"
+    ],
+    "化合物创建器": [
+      "239"
+    ],
+    "水下火把 S": [
+      "240",
+      "F0"
+    ],
+    "紫颂植株": [
+      "241",
+      "F1"
+    ],
+    "白色染色玻璃 S": [
+      "242",
+      "F2"
+    ],
+    "摄像机": [
+      "243",
+      "F3"
+    ],
+    "灰化土": [
+      "244",
+      "F4"
+    ],
+    "甜菜根 IS": [
+      "245",
+      "F5"
+    ],
+    "切石机（旧版）": [
+      "246",
+      "F6"
+    ],
+    "发光的黑曜石": [
+      "247",
+      "F7"
+    ],
+    "下界反应核 B": [
+      "248",
+      "F8"
+    ],
+    "数据更新方块（update!）": [
+      "249",
+      "F9",
+      "info_update2",
+      "数据更新方块2（ate!upd）",
+      "250"
+    ],
+    "移动的方块/移动的活塞E": [
+      "251"
+    ],
+    "侦测器 S": [
+      "252"
+    ],
+    "结构方块 SE": [
+      "253"
+    ],
+    "强化玻璃": [
+      "254"
+    ],
+    "白色强化玻璃": [
+      "255"
+    ],
+    "FF": [
+      "reserved6"
+    ],
+    "（未使用）": [
+      "-2",
+      "-206",
+      "FFFFFFFFFFFFFF32",
+      "-249",
+      "FFFFFFFFFFFFFF07",
+      "-250",
+      "FFFFFFFFFFFFFF06",
+      "-310",
+      "-311",
+      "FFFFFFFFFFFFFEC9",
+      "-456",
+      "FFFFFFFFFFFFFE38",
+      "-457",
+      "FFFFFFFFFFFFFE37",
+      "-458",
+      "FFFFFFFFFFFFFE36",
+      "-463",
+      "FFFFFFFFFFFFFE31",
+      "-464",
+      "FFFFFFFFFFFFFE30",
+      "-465",
+      "FFFFFFFFFFFFFE2F",
+      "-477",
+      "FFFFFFFFFFFFFE23",
+      "-704",
+      "FFFFFFFFFFFFFD40",
+      "-705",
+      "FFFFFFFFFFFFFD3F",
+      "-706",
+      "FFFFFFFFFFFFFD3E",
+      "-707",
+      "FFFFFFFFFFFFFD3D",
+      "-708",
+      "FFFFFFFFFFFFFD3C",
+      "-709",
+      "FFFFFFFFFFFFFD3B",
+      "-872",
+      "FFFFFFFFFFFFFC98"
+    ],
+    "海晶石楼梯 S": [
+      "-3"
+    ],
+    "暗海晶石楼梯 S": [
+      "-4"
+    ],
+    "海晶石砖楼梯 S": [
+      "-5"
+    ],
+    "去皮云杉原木 S": [
+      "-6"
+    ],
+    "去皮白桦原木 S": [
+      "-7",
+      "FFFFFFFFFFFFFFF9"
+    ],
+    "去皮丛林原木 S": [
+      "-8",
+      "FFFFFFFFFFFFFFF8"
+    ],
+    "去皮金合欢原木 S": [
+      "-9",
+      "FFFFFFFFFFFFFFF7"
+    ],
+    "去皮深色橡木原木 S": [
+      "-10",
+      "FFFFFFFFFFFFFFF6"
+    ],
+    "去皮橡木原木 S": [
+      "-11",
+      "FFFFFFFFFFFFFFF5"
+    ],
+    "蓝冰": [
+      "-12",
+      "FFFFFFFFFFFFFFF4",
+      "element_1"
+    ],
+    "氢": [
+      "-13",
+      "FFFFFFFFFFFFFFF3",
+      "element_2"
+    ],
+    "氦": [
+      "-14",
+      "FFFFFFFFFFFFFFF2",
+      "element_3"
+    ],
+    "锂": [
+      "-15",
+      "FFFFFFFFFFFFFFF1",
+      "element_4"
+    ],
+    "铍": [
+      "-16",
+      "FFFFFFFFFFFFFFF0",
+      "element_5"
+    ],
+    "硼": [
+      "-17"
+    ],
+    "FFFFFFFFFFFFFFEF": [
+      "element_6"
+    ],
+    "碳": [
+      "-18"
+    ],
+    "FFFFFFFFFFFFFFEE": [
+      "element_7"
+    ],
+    "氮": [
+      "-19"
+    ],
+    "FFFFFFFFFFFFFFED": [
+      "element_8"
+    ],
+    "氧": [
+      "-20"
+    ],
+    "FFFFFFFFFFFFFFEC": [
+      "element_9"
+    ],
+    "氟": [
+      "-21"
+    ],
+    "FFFFFFFFFFFFFFEB": [
+      "element_10"
+    ],
+    "氖": [
+      "-22"
+    ],
+    "FFFFFFFFFFFFFFEA": [
+      "element_11"
+    ],
+    "钠": [
+      "-23",
+      "FFFFFFFFFFFFFFE9",
+      "element_12"
+    ],
+    "镁": [
+      "-24",
+      "FFFFFFFFFFFFFFE8",
+      "element_13"
+    ],
+    "铝": [
+      "-25",
+      "FFFFFFFFFFFFFFE7",
+      "element_14"
+    ],
+    "硅": [
+      "-26",
+      "FFFFFFFFFFFFFFE6",
+      "element_15"
+    ],
+    "磷": [
+      "-27",
+      "FFFFFFFFFFFFFFE5",
+      "element_16"
+    ],
+    "硫": [
+      "-28",
+      "FFFFFFFFFFFFFFE4",
+      "element_17"
+    ],
+    "氯": [
+      "-29",
+      "FFFFFFFFFFFFFFE3",
+      "element_18"
+    ],
+    "氩": [
+      "-30",
+      "FFFFFFFFFFFFFFE2",
+      "element_19"
+    ],
+    "钾": [
+      "-31",
+      "FFFFFFFFFFFFFFE1",
+      "element_20"
+    ],
+    "钙": [
+      "-32",
+      "FFFFFFFFFFFFFFE0",
+      "element_21"
+    ],
+    "钪": [
+      "-33"
+    ],
+    "FFFFFFFFFFFFFFDF": [
+      "element_22"
+    ],
+    "钛": [
+      "-34"
+    ],
+    "FFFFFFFFFFFFFFDE": [
+      "element_23"
+    ],
+    "钒": [
+      "-35"
+    ],
+    "FFFFFFFFFFFFFFDD": [
+      "element_24"
+    ],
+    "铬": [
+      "-36"
+    ],
+    "FFFFFFFFFFFFFFDC": [
+      "element_25"
+    ],
+    "锰": [
+      "-37"
+    ],
+    "FFFFFFFFFFFFFFDB": [
+      "element_26"
+    ],
+    "铁": [
+      "-38"
+    ],
+    "FFFFFFFFFFFFFFDA": [
+      "element_27"
+    ],
+    "钴": [
+      "-39",
+      "FFFFFFFFFFFFFFD9",
+      "element_28"
+    ],
+    "镍": [
+      "-40",
+      "FFFFFFFFFFFFFFD8",
+      "element_29"
+    ],
+    "铜": [
+      "-41",
+      "FFFFFFFFFFFFFFD7",
+      "element_30"
+    ],
+    "锌": [
+      "-42",
+      "FFFFFFFFFFFFFFD6",
+      "element_31"
+    ],
+    "镓": [
+      "-43",
+      "FFFFFFFFFFFFFFD5",
+      "element_32"
+    ],
+    "锗": [
+      "-44",
+      "FFFFFFFFFFFFFFD4",
+      "element_33"
+    ],
+    "砷": [
+      "-45",
+      "FFFFFFFFFFFFFFD3",
+      "element_34"
+    ],
+    "硒": [
+      "-46",
+      "FFFFFFFFFFFFFFD2",
+      "element_35"
+    ],
+    "溴": [
+      "-47",
+      "FFFFFFFFFFFFFFD1",
+      "element_36"
+    ],
+    "氪": [
+      "-48",
+      "FFFFFFFFFFFFFFD0",
+      "element_37"
+    ],
+    "铷": [
+      "-49"
+    ],
+    "FFFFFFFFFFFFFFCF": [
+      "element_38"
+    ],
+    "锶": [
+      "-50"
+    ],
+    "FFFFFFFFFFFFFFCE": [
+      "element_39"
+    ],
+    "FFFFFFFFFFFFFFCD": [
+      "element_40"
+    ],
+    "锆": [
+      "-52"
+    ],
+    "FFFFFFFFFFFFFFCC": [
+      "element_41"
+    ],
+    "铌": [
+      "-53"
+    ],
+    "FFFFFFFFFFFFFFCB": [
+      "element_42"
+    ],
+    "钼": [
+      "-54"
+    ],
+    "FFFFFFFFFFFFFFCA": [
+      "element_43"
+    ],
+    "锝": [
+      "-55",
+      "FFFFFFFFFFFFFFC9",
+      "element_44"
+    ],
+    "钌": [
+      "-56",
+      "FFFFFFFFFFFFFFC8",
+      "element_45"
+    ],
+    "铑": [
+      "-57",
+      "FFFFFFFFFFFFFFC7",
+      "element_46"
+    ],
+    "钯": [
+      "-58",
+      "FFFFFFFFFFFFFFC6",
+      "element_47"
+    ],
+    "银": [
+      "-59",
+      "FFFFFFFFFFFFFFC5",
+      "element_48"
+    ],
+    "镉": [
+      "-60",
+      "FFFFFFFFFFFFFFC4",
+      "element_49"
+    ],
+    "铟": [
+      "-61",
+      "FFFFFFFFFFFFFFC3",
+      "element_50"
+    ],
+    "锡": [
+      "-62",
+      "FFFFFFFFFFFFFFC2",
+      "element_51"
+    ],
+    "锑": [
+      "-63",
+      "FFFFFFFFFFFFFFC1",
+      "element_52"
+    ],
+    "碲": [
+      "-64",
+      "FFFFFFFFFFFFFFC0",
+      "element_53"
+    ],
+    "碘": [
+      "-65"
+    ],
+    "FFFFFFFFFFFFFFBF": [
+      "element_54"
+    ],
+    "氙": [
+      "-66"
+    ],
+    "FFFFFFFFFFFFFFBE": [
+      "element_55"
+    ],
+    "铯": [
+      "-67"
+    ],
+    "FFFFFFFFFFFFFFBD": [
+      "element_56"
+    ],
+    "钡": [
+      "-68"
+    ],
+    "FFFFFFFFFFFFFFBC": [
+      "element_57"
+    ],
+    "镧": [
+      "-69"
+    ],
+    "FFFFFFFFFFFFFFBB": [
+      "element_58"
+    ],
+    "铈": [
+      "-70"
+    ],
+    "FFFFFFFFFFFFFFBA": [
+      "element_59"
+    ],
+    "镨": [
+      "-71",
+      "FFFFFFFFFFFFFFB9",
+      "element_60"
+    ],
+    "钕": [
+      "-72",
+      "FFFFFFFFFFFFFFB8",
+      "element_61"
+    ],
+    "钷": [
+      "-73",
+      "FFFFFFFFFFFFFFB7",
+      "element_62"
+    ],
+    "钐": [
+      "-74",
+      "FFFFFFFFFFFFFFB6",
+      "element_63"
+    ],
+    "铕": [
+      "-75",
+      "FFFFFFFFFFFFFFB5",
+      "element_64"
+    ],
+    "钆": [
+      "-76",
+      "FFFFFFFFFFFFFFB4",
+      "element_65"
+    ],
+    "铽": [
+      "-77",
+      "FFFFFFFFFFFFFFB3",
+      "element_66"
+    ],
+    "镝": [
+      "-78",
+      "FFFFFFFFFFFFFFB2",
+      "element_67"
+    ],
+    "钬": [
+      "-79",
+      "FFFFFFFFFFFFFFB1",
+      "element_68"
+    ],
+    "铒": [
+      "-80",
+      "FFFFFFFFFFFFFFB0",
+      "element_69"
+    ],
+    "铥": [
+      "-81"
+    ],
+    "FFFFFFFFFFFFFFAF": [
+      "element_70"
+    ],
+    "镱": [
+      "-82"
+    ],
+    "FFFFFFFFFFFFFFAE": [
+      "element_71"
+    ],
+    "镥": [
+      "-83"
+    ],
+    "FFFFFFFFFFFFFFAD": [
+      "element_72"
+    ],
+    "铪": [
+      "-84"
+    ],
+    "FFFFFFFFFFFFFFAC": [
+      "element_73"
+    ],
+    "钽": [
+      "-85"
+    ],
+    "FFFFFFFFFFFFFFAB": [
+      "element_74"
+    ],
+    "钨": [
+      "-86"
+    ],
+    "FFFFFFFFFFFFFFAA": [
+      "element_75"
+    ],
+    "铼": [
+      "-87",
+      "FFFFFFFFFFFFFFA9",
+      "element_76"
+    ],
+    "锇": [
+      "-88",
+      "FFFFFFFFFFFFFFA8",
+      "element_77"
+    ],
+    "铱": [
+      "-89",
+      "FFFFFFFFFFFFFFA7",
+      "element_78"
+    ],
+    "铂": [
+      "-90",
+      "FFFFFFFFFFFFFFA6",
+      "element_79"
+    ],
+    "金": [
+      "-91",
+      "FFFFFFFFFFFFFFA5",
+      "element_80"
+    ],
+    "汞": [
+      "-92",
+      "FFFFFFFFFFFFFFA4",
+      "element_81"
+    ],
+    "铊": [
+      "-93",
+      "FFFFFFFFFFFFFFA3",
+      "element_82"
+    ],
+    "铅": [
+      "-94",
+      "FFFFFFFFFFFFFFA2",
+      "element_83"
+    ],
+    "铋": [
+      "-95",
+      "FFFFFFFFFFFFFFA1",
+      "element_84"
+    ],
+    "钋": [
+      "-96",
+      "FFFFFFFFFFFFFFA0",
+      "element_85"
+    ],
+    "砹": [
+      "-97",
+      "FFFFFFFFFFFFFF9F",
+      "element_86"
+    ],
+    "氡": [
+      "-98",
+      "FFFFFFFFFFFFFF9E",
+      "element_87"
+    ],
+    "钫": [
+      "-99",
+      "FFFFFFFFFFFFFF9D",
+      "element_88"
+    ],
+    "镭": [
+      "-100",
+      "FFFFFFFFFFFFFF9C",
+      "element_89"
+    ],
+    "钍": [
+      "-102",
+      "FFFFFFFFFFFFFF9A",
+      "element_91"
+    ],
+    "镤": [
+      "-103",
+      "FFFFFFFFFFFFFF99",
+      "element_92"
+    ],
+    "铀": [
+      "-104",
+      "FFFFFFFFFFFFFF98",
+      "element_93"
+    ],
+    "镎": [
+      "-105",
+      "FFFFFFFFFFFFFF97",
+      "element_94"
+    ],
+    "钚": [
+      "-106",
+      "FFFFFFFFFFFFFF96",
+      "element_95"
+    ],
+    "镅": [
+      "-107",
+      "FFFFFFFFFFFFFF95",
+      "element_96"
+    ],
+    "锔": [
+      "-108",
+      "FFFFFFFFFFFFFF94",
+      "element_97"
+    ],
+    "锫": [
+      "-109",
+      "FFFFFFFFFFFFFF93",
+      "element_98"
+    ],
+    "锎": [
+      "-110",
+      "FFFFFFFFFFFFFF92",
+      "element_99"
+    ],
+    "锿": [
+      "-111",
+      "FFFFFFFFFFFFFF91",
+      "element_100"
+    ],
+    "镄": [
+      "-112",
+      "FFFFFFFFFFFFFF90",
+      "element_101"
+    ],
+    "钔": [
+      "-113",
+      "FFFFFFFFFFFFFF8F",
+      "element_102"
+    ],
+    "锘": [
+      "-114",
+      "FFFFFFFFFFFFFF8E",
+      "element_103"
+    ],
+    "铹": [
+      "-115",
+      "FFFFFFFFFFFFFF8D",
+      "element_104"
+    ],
+    "𬬻": [
+      "-116",
+      "FFFFFFFFFFFFFF8C",
+      "element_105"
+    ],
+    "𬭊": [
+      "-117",
+      "FFFFFFFFFFFFFF8B",
+      "element_106"
+    ],
+    "𬭳": [
+      "-118",
+      "FFFFFFFFFFFFFF8A",
+      "element_107"
+    ],
+    "𬭛": [
+      "-119",
+      "FFFFFFFFFFFFFF89",
+      "element_108"
+    ],
+    "𬭶": [
+      "-120",
+      "FFFFFFFFFFFFFF88",
+      "element_109"
+    ],
+    "鿏": [
+      "-121",
+      "FFFFFFFFFFFFFF87",
+      "element_110"
+    ],
+    "𫟼": [
+      "-122",
+      "FFFFFFFFFFFFFF86",
+      "element_111"
+    ],
+    "𬬭": [
+      "-123",
+      "FFFFFFFFFFFFFF85",
+      "element_112"
+    ],
+    "鿔": [
+      "-124",
+      "FFFFFFFFFFFFFF84",
+      "element_113"
+    ],
+    "鿭": [
+      "-125",
+      "FFFFFFFFFFFFFF83",
+      "element_114"
+    ],
+    "𫓧": [
+      "-126",
+      "FFFFFFFFFFFFFF82",
+      "element_115"
+    ],
+    "镆": [
+      "-127",
+      "FFFFFFFFFFFFFF81",
+      "element_116"
+    ],
+    "𫟷": [
+      "-128",
+      "FFFFFFFFFFFFFF80",
+      "element_117"
+    ],
+    "鿬": [
+      "-129",
+      "FFFFFFFFFFFFFF7F",
+      "element_118"
+    ],
+    "鿫": [
+      "-130",
+      "FFFFFFFFFFFFFF7E"
+    ],
+    "海草 S": [
+      "-131",
+      "FFFFFFFFFFFFFF7D"
+    ],
+    "管珊瑚": [
+      "-132",
+      "FFFFFFFFFFFFFF7C"
+    ],
+    "管珊瑚块": [
+      "-133",
+      "FFFFFFFFFFFFFF7B"
+    ],
+    "管珊瑚扇 S": [
+      "-134",
+      "FFFFFFFFFFFFFF7A"
+    ],
+    "失活的管珊瑚扇 S": [
+      "-135",
+      "FFFFFFFFFFFFFF79"
+    ],
+    "墙上的管珊瑚扇 S": [
+      "-136",
+      "FFFFFFFFFFFFFF78"
+    ],
+    "墙上的气泡珊瑚扇 S": [
+      "-137",
+      "FFFFFFFFFFFFFF77"
+    ],
+    "墙上的鹿角珊瑚扇 S": [
+      "-138",
+      "FFFFFFFFFFFFFF76"
+    ],
+    "海带 IS": [
+      "-139",
+      "FFFFFFFFFFFFFF75"
+    ],
+    "干海带块": [
+      "-140",
+      "FFFFFFFFFFFFFF74"
+    ],
+    "金合欢木按钮 S": [
+      "-141",
+      "FFFFFFFFFFFFFF73"
+    ],
+    "白桦木按钮 S": [
+      "-142",
+      "FFFFFFFFFFFFFF72"
+    ],
+    "深色橡木按钮 S": [
+      "-143",
+      "FFFFFFFFFFFFFF71"
+    ],
+    "丛林木按钮 S": [
+      "-144",
+      "FFFFFFFFFFFFFF70"
+    ],
+    "云杉木按钮 S": [
+      "-145",
+      "FFFFFFFFFFFFFF6F"
+    ],
+    "金合欢木活板门 S": [
+      "-146",
+      "FFFFFFFFFFFFFF6E"
+    ],
+    "白桦木活板门 S": [
+      "-147",
+      "FFFFFFFFFFFFFF6D"
+    ],
+    "深色橡木活板门 S": [
+      "-148",
+      "FFFFFFFFFFFFFF6C"
+    ],
+    "丛林木活板门 S": [
+      "-149",
+      "FFFFFFFFFFFFFF6B"
+    ],
+    "云杉木活板门 S": [
+      "-150",
+      "FFFFFFFFFFFFFF6A"
+    ],
+    "白桦木压力板 S": [
+      "-152",
+      "FFFFFFFFFFFFFF68"
+    ],
+    "深色橡木压力板 S": [
+      "-153",
+      "FFFFFFFFFFFFFF67"
+    ],
+    "丛林木压力板 S": [
+      "-154",
+      "FFFFFFFFFFFFFF66"
+    ],
+    "云杉木压力板 S": [
+      "-155",
+      "FFFFFFFFFFFFFF65"
+    ],
+    "雕刻南瓜 S": [
+      "-156",
+      "FFFFFFFFFFFFFF64"
+    ],
+    "海泡菜 S": [
+      "-157",
+      "FFFFFFFFFFFFFF63"
+    ],
+    "潮涌核心 E": [
+      "-158",
+      "FFFFFFFFFFFFFF62"
+    ],
+    "空气": [
+      "-159",
+      "FFFFFFFFFFFFFF61"
+    ],
+    "海龟蛋 S": [
+      "-160",
+      "FFFFFFFFFFFFFF60"
+    ],
+    "气泡柱 S": [
+      "-161",
+      "FFFFFFFFFFFFFF5F"
+    ],
+    "屏障": [
+      "-162",
+      "FFFFFFFFFFFFFF5E"
+    ],
+    "末地石砖台阶 S": [
+      "-163",
+      "FFFFFFFFFFFFFF5D"
+    ],
+    "竹子 S": [
+      "-164",
+      "FFFFFFFFFFFFFF5C"
+    ],
+    "竹笋 S": [
+      "-165",
+      "FFFFFFFFFFFFFF5B"
+    ],
+    "脚手架 S": [
+      "-166",
+      "FFFFFFFFFFFFFF5A"
+    ],
+    "苔石砖台阶 S": [
+      "-167",
+      "FFFFFFFFFFFFFF59"
+    ],
+    "末地石砖双层台阶 S": [
+      "-168",
+      "FFFFFFFFFFFFFF58"
+    ],
+    "苔石砖双层台阶 S": [
+      "-169",
+      "FFFFFFFFFFFFFF57"
+    ],
+    "花岗岩楼梯 S": [
+      "-170",
+      "FFFFFFFFFFFFFF56"
+    ],
+    "闪长岩楼梯 S": [
+      "-171",
+      "FFFFFFFFFFFFFF55"
+    ],
+    "安山岩楼梯 S": [
+      "-172",
+      "FFFFFFFFFFFFFF54"
+    ],
+    "磨制花岗岩楼梯 S": [
+      "-173",
+      "FFFFFFFFFFFFFF53"
+    ],
+    "磨制闪长岩楼梯 S": [
+      "-174",
+      "FFFFFFFFFFFFFF52"
+    ],
+    "磨制安山岩楼梯 S": [
+      "-175",
+      "FFFFFFFFFFFFFF51"
+    ],
+    "苔石砖楼梯 S": [
+      "-176",
+      "FFFFFFFFFFFFFF50"
+    ],
+    "平滑红砂岩楼梯 S": [
+      "-177",
+      "FFFFFFFFFFFFFF4F"
+    ],
+    "平滑砂岩楼梯 S": [
+      "-178",
+      "FFFFFFFFFFFFFF4E"
+    ],
+    "末地石砖楼梯 S": [
+      "-179",
+      "FFFFFFFFFFFFFF4D"
+    ],
+    "苔石楼梯 S": [
+      "-180",
+      "FFFFFFFFFFFFFF4C"
+    ],
+    "石头楼梯 S": [
+      "-181",
+      "FFFFFFFFFFFFFF4B"
+    ],
+    "云杉木告示牌 ISE": [
+      "-182",
+      "FFFFFFFFFFFFFF4A"
+    ],
+    "墙上的云杉木告示牌ISE": [
+      "-183",
+      "FFFFFFFFFFFFFF49"
+    ],
+    "平滑石头": [
+      "-184",
+      "FFFFFFFFFFFFFF48"
+    ],
+    "红色下界砖楼梯 S": [
+      "-185",
+      "FFFFFFFFFFFFFF47"
+    ],
+    "平滑石英楼梯 S": [
+      "-186",
+      "FFFFFFFFFFFFFF46"
+    ],
+    "白桦木告示牌 ISE": [
+      "-187",
+      "FFFFFFFFFFFFFF45"
+    ],
+    "墙上的白桦木告示牌ISE": [
+      "-188",
+      "FFFFFFFFFFFFFF44"
+    ],
+    "丛林木告示牌 ISE": [
+      "-189",
+      "FFFFFFFFFFFFFF43"
+    ],
+    "墙上的丛林木告示牌ISE": [
+      "-190",
+      "FFFFFFFFFFFFFF42"
+    ],
+    "金合欢木告示牌 ISE": [
+      "-191",
+      "FFFFFFFFFFFFFF41"
+    ],
+    "墙上的金合欢木告示牌ISE": [
+      "-192",
+      "FFFFFFFFFFFFFF40"
+    ],
+    "深色橡木告示牌 ISE": [
+      "-193",
+      "FFFFFFFFFFFFFF3F"
+    ],
+    "墙上的深色橡木告示牌ISE": [
+      "-194",
+      "FFFFFFFFFFFFFF3E"
+    ],
+    "讲台 SE": [
+      "-195",
+      "FFFFFFFFFFFFFF3D"
+    ],
+    "砂轮 S": [
+      "-196",
+      "FFFFFFFFFFFFFF3C"
+    ],
+    "高炉 SE": [
+      "-197",
+      "FFFFFFFFFFFFFF3B"
+    ],
+    "切石机S": [
+      "-198",
+      "FFFFFFFFFFFFFF3A"
+    ],
+    "烟熏炉 SE": [
+      "-199",
+      "FFFFFFFFFFFFFF39"
+    ],
+    "燃烧中的烟熏炉SE": [
+      "-200",
+      "FFFFFFFFFFFFFF38"
+    ],
+    "制箭台": [
+      "-202",
+      "FFFFFFFFFFFFFF36"
+    ],
+    "锻造台": [
+      "-203",
+      "FFFFFFFFFFFFFF35"
+    ],
+    "木桶 S": [
+      "-204",
+      "FFFFFFFFFFFFFF34"
+    ],
+    "织布机 S": [
+      "-205",
+      "FFFFFFFFFFFFFF33"
+    ],
+    "钟 S": [
+      "-207",
+      "FFFFFFFFFFFFFF31"
+    ],
+    "甜浆果丛 IS": [
+      "-208",
+      "FFFFFFFFFFFFFF30"
+    ],
+    "灯笼 S": [
+      "-209",
+      "FFFFFFFFFFFFFF2F"
+    ],
+    "营火 IS": [
+      "-210",
+      "FFFFFFFFFFFFFF2E"
+    ],
+    "装有熔岩的炼药锅（已移除） ISE": [
+      "-211",
+      "FFFFFFFFFFFFFF2D"
+    ],
+    "拼图方块S": [
+      "-212",
+      "FFFFFFFFFFFFFF2C"
+    ],
+    "橡木 S": [
+      "-213",
+      "FFFFFFFFFFFFFF2B"
+    ],
+    "堆肥桶 S": [
+      "-214",
+      "FFFFFFFFFFFFFF2A"
+    ],
+    "燃烧中的高炉SE": [
+      "-215",
+      "FFFFFFFFFFFFFF29",
+      "light_block_0",
+      "光源方块 （亮度0）",
+      "-216",
+      "FFFFFFFFFFFFFF28"
+    ],
+    "凋灵玫瑰": [
+      "-217",
+      "FFFFFFFFFFFFFF27"
+    ],
+    "黏性活塞臂S": [
+      "-218",
+      "FFFFFFFFFFFFFF26"
+    ],
+    "蜂巢 SE": [
+      "-219",
+      "FFFFFFFFFFFFFF25"
+    ],
+    "蜂箱 SE": [
+      "-220",
+      "FFFFFFFFFFFFFF24"
+    ],
+    "蜂蜜块": [
+      "-221",
+      "FFFFFFFFFFFFFF23"
+    ],
+    "蜜脾块": [
+      "-222",
+      "FFFFFFFFFFFFFF22"
+    ],
+    "磁石 E": [
+      "-223",
+      "FFFFFFFFFFFFFF21"
+    ],
+    "绯红菌索": [
+      "-224",
+      "FFFFFFFFFFFFFF20"
+    ],
+    "诡异菌索": [
+      "-225",
+      "FFFFFFFFFFFFFF1F"
+    ],
+    "绯红菌柄 S": [
+      "-226",
+      "FFFFFFFFFFFFFF1E"
+    ],
+    "诡异菌柄 S": [
+      "-227",
+      "FFFFFFFFFFFFFF1D"
+    ],
+    "诡异疣块": [
+      "-228",
+      "FFFFFFFFFFFFFF1C"
+    ],
+    "绯红菌": [
+      "-229",
+      "FFFFFFFFFFFFFF1B"
+    ],
+    "诡异菌": [
+      "-230",
+      "FFFFFFFFFFFFFF1A"
+    ],
+    "菌光体": [
+      "-231",
+      "FFFFFFFFFFFFFF19"
+    ],
+    "垂泪藤植株 S": [
+      "-232",
+      "FFFFFFFFFFFFFF18"
+    ],
+    "绯红菌岩": [
+      "-233",
+      "FFFFFFFFFFFFFF17"
+    ],
+    "诡异菌岩": [
+      "-234",
+      "FFFFFFFFFFFFFF16"
+    ],
+    "玄武岩 S": [
+      "-235",
+      "FFFFFFFFFFFFFF15"
+    ],
+    "磨制玄武岩 S": [
+      "-236",
+      "FFFFFFFFFFFFFF14"
+    ],
+    "灵魂土": [
+      "-237",
+      "FFFFFFFFFFFFFF13"
+    ],
+    "灵魂火 S": [
+      "-238",
+      "FFFFFFFFFFFFFF12"
+    ],
+    "下界苗 I": [
+      "-239",
+      "FFFFFFFFFFFFFF11"
+    ],
+    "标靶": [
+      "-240",
+      "FFFFFFFFFFFFFF10"
+    ],
+    "去皮绯红菌柄 S": [
+      "-241",
+      "FFFFFFFFFFFFFF0F"
+    ],
+    "去皮诡异菌柄 S": [
+      "-242",
+      "FFFFFFFFFFFFFF0E"
+    ],
+    "绯红木板": [
+      "-243",
+      "FFFFFFFFFFFFFF0D"
+    ],
+    "诡异木板": [
+      "-244",
+      "FFFFFFFFFFFFFF0C"
+    ],
+    "绯红木门 IS": [
+      "-245",
+      "FFFFFFFFFFFFFF0B"
+    ],
+    "诡异木门 IS": [
+      "-246",
+      "FFFFFFFFFFFFFF0A"
+    ],
+    "绯红木活板门 S": [
+      "-247",
+      "FFFFFFFFFFFFFF09"
+    ],
+    "诡异木活板门 S": [
+      "-248",
+      "FFFFFFFFFFFFFF08"
+    ],
+    "诡异木告示牌 ISE": [
+      "-252",
+      "FFFFFFFFFFFFFF04"
+    ],
+    "墙上的绯红木告示牌 ISE": [
+      "-253",
+      "FFFFFFFFFFFFFF03"
+    ],
+    "墙上的诡异木告示牌 ISE": [
+      "-254",
+      "FFFFFFFFFFFFFF02"
+    ],
+    "绯红木楼梯 S": [
+      "-255",
+      "FFFFFFFFFFFFFF01"
+    ],
+    "诡异木楼梯 S": [
+      "-256",
+      "FFFFFFFFFFFFFF00"
+    ],
+    "绯红木栅栏 S": [
+      "-257"
+    ],
+    "诡异木栅栏 S": [
+      "-258"
+    ],
+    "绯红木栅栏门 S": [
+      "-259"
+    ],
+    "诡异木栅栏门 S": [
+      "-260"
+    ],
+    "绯红木按钮 S": [
+      "-261"
+    ],
+    "诡异木按钮 S": [
+      "-262"
+    ],
+    "绯红木压力板 S": [
+      "-263",
+      "FFFFFFFFFFFFFEF9"
+    ],
+    "诡异木压力板 S": [
+      "-264",
+      "FFFFFFFFFFFFFEF8"
+    ],
+    "绯红木台阶 S": [
+      "-265",
+      "FFFFFFFFFFFFFEF7"
+    ],
+    "诡异木台阶 S": [
+      "-266",
+      "FFFFFFFFFFFFFEF6"
+    ],
+    "绯红木双层台阶 S": [
+      "-267",
+      "FFFFFFFFFFFFFEF5"
+    ],
+    "诡异木双层台阶 S": [
+      "-268",
+      "FFFFFFFFFFFFFEF4"
+    ],
+    "灵魂火把 S": [
+      "-269",
+      "FFFFFFFFFFFFFEF3"
+    ],
+    "灵魂灯笼 S": [
+      "-270",
+      "FFFFFFFFFFFFFEF2"
+    ],
+    "下界合金块": [
+      "-271",
+      "FFFFFFFFFFFFFEF1"
+    ],
+    "远古残骸": [
+      "-272",
+      "FFFFFFFFFFFFFEF0"
+    ],
+    "重生锚 S": [
+      "-273"
+    ],
+    "黑石": [
+      "-274"
+    ],
+    "磨制黑石砖": [
+      "-275"
+    ],
+    "磨制黑石砖楼梯 S": [
+      "-276"
+    ],
+    "黑石楼梯 S": [
+      "-277"
+    ],
+    "黑石墙 S": [
+      "-278"
+    ],
+    "磨制黑石砖墙 S": [
+      "-279",
+      "FFFFFFFFFFFFFEE9"
+    ],
+    "雕纹磨制黑石": [
+      "-280",
+      "FFFFFFFFFFFFFEE8"
+    ],
+    "裂纹磨制黑石砖": [
+      "-281",
+      "FFFFFFFFFFFFFEE7"
+    ],
+    "镶金黑石": [
+      "-282",
+      "FFFFFFFFFFFFFEE6"
+    ],
+    "黑石台阶 S": [
+      "-283",
+      "FFFFFFFFFFFFFEE5"
+    ],
+    "黑石双层台阶 S": [
+      "-284",
+      "FFFFFFFFFFFFFEE4"
+    ],
+    "磨制黑石砖台阶": [
+      "-285",
+      "FFFFFFFFFFFFFEE3"
+    ],
+    "磨制黑石砖双层台阶 S": [
+      "-286",
+      "FFFFFFFFFFFFFEE2"
+    ],
+    "铁链 S": [
+      "-287",
+      "FFFFFFFFFFFFFEE1"
+    ],
+    "缠怨藤": [
+      "-288",
+      "FFFFFFFFFFFFFEE0"
+    ],
+    "下界金矿石": [
+      "-289"
+    ],
+    "哭泣的黑曜石": [
+      "-290"
+    ],
+    "灵魂营火 IS": [
+      "-291"
+    ],
+    "磨制黑石": [
+      "-292"
+    ],
+    "磨制黑石楼梯 S": [
+      "-293"
+    ],
+    "磨制黑石台阶 S": [
+      "-294"
+    ],
+    "磨制黑石双层台阶 S": [
+      "-295",
+      "FFFFFFFFFFFFFED9"
+    ],
+    "磨制黑石压力板 S": [
+      "-296",
+      "FFFFFFFFFFFFFED8"
+    ],
+    "磨制黑石按钮 S": [
+      "-297",
+      "FFFFFFFFFFFFFED7"
+    ],
+    "磨制黑石墙 S": [
+      "-298",
+      "FFFFFFFFFFFFFED6"
+    ],
+    "诡异菌核 S": [
+      "-299",
+      "FFFFFFFFFFFFFED5"
+    ],
+    "绯红菌核 S": [
+      "-300",
+      "FFFFFFFFFFFFFED4"
+    ],
+    "去皮诡异菌核 S": [
+      "-302",
+      "FFFFFFFFFFFFFED2"
+    ],
+    "雕纹下界砖块": [
+      "-303",
+      "FFFFFFFFFFFFFED1"
+    ],
+    "裂纹下界砖块": [
+      "-304",
+      "FFFFFFFFFFFFFED0"
+    ],
+    "石英砖": [
+      "-305"
+    ],
+    "未知": [
+      "-306"
+    ],
+    "细雪": [
+      "-307"
+    ],
+    "幽匿感测体 S": [
+      "-308"
+    ],
+    "滴水石锥 S": [
+      "-309"
+    ],
+    "铜矿石": [
+      "-312",
+      "FFFFFFFFFFFFFEC8"
+    ],
+    "避雷针 S": [
+      "-313",
+      "FFFFFFFFFFFFFEC7"
+    ],
+    "合成器 SE": [
+      "-314",
+      "FFFFFFFFFFFFFEC6"
+    ],
+    "宝库 SE": [
+      "-315",
+      "FFFFFFFFFFFFFEC5"
+    ],
+    "试炼刷怪笼 SE": [
+      "-316",
+      "FFFFFFFFFFFFFEC4"
+    ],
+    "沉重核心": [
+      "-317",
+      "FFFFFFFFFFFFFEC3"
+    ],
+    "滴水石块": [
+      "-318",
+      "FFFFFFFFFFFFFEC2"
+    ],
+    "缠根泥土": [
+      "-319",
+      "FFFFFFFFFFFFFEC1"
+    ],
+    "垂根": [
+      "-320",
+      "FFFFFFFFFFFFFEC0"
+    ],
+    "苔藓块": [
+      "-321"
+    ],
+    "孢子花 E": [
+      "-322"
+    ],
+    "洞穴藤蔓 S": [
+      "-323"
+    ],
+    "大型垂滴叶 S": [
+      "-324"
+    ],
+    "杜鹃树叶 S": [
+      "-325"
+    ],
+    "盛开的杜鹃树叶 S": [
+      "-326"
+    ],
+    "方解石": [
+      "-327",
+      "FFFFFFFFFFFFFEB9"
+    ],
+    "紫水晶块": [
+      "-328",
+      "FFFFFFFFFFFFFEB8"
+    ],
+    "紫水晶母岩": [
+      "-329",
+      "FFFFFFFFFFFFFEB7"
+    ],
+    "紫水晶簇 S": [
+      "-330",
+      "FFFFFFFFFFFFFEB6"
+    ],
+    "大型紫晶芽 S": [
+      "-331",
+      "FFFFFFFFFFFFFEB5"
+    ],
+    "中型紫晶芽 S": [
+      "-332",
+      "FFFFFFFFFFFFFEB4"
+    ],
+    "小型紫晶芽 S": [
+      "-333",
+      "FFFFFFFFFFFFFEB3"
+    ],
+    "凝灰岩": [
+      "-334",
+      "FFFFFFFFFFFFFEB2"
+    ],
+    "遮光玻璃": [
+      "-335",
+      "FFFFFFFFFFFFFEB1"
+    ],
+    "覆地苔藓": [
+      "-336",
+      "FFFFFFFFFFFFFEB0"
+    ],
+    "小型垂滴叶": [
+      "-337"
+    ],
+    "杜鹃花丛": [
+      "-338"
+    ],
+    "盛开的杜鹃花丛": [
+      "-339"
+    ],
+    "荧光物品展示框 ISE": [
+      "-340"
+    ],
+    "铜块": [
+      "-341"
+    ],
+    "斑驳的铜块": [
+      "-342"
+    ],
+    "锈蚀的铜块": [
+      "-343",
+      "FFFFFFFFFFFFFEA9"
+    ],
+    "氧化的铜块": [
+      "-344",
+      "FFFFFFFFFFFFFEA8"
+    ],
+    "涂蜡的铜块": [
+      "-345",
+      "FFFFFFFFFFFFFEA7"
+    ],
+    "涂蜡的斑驳铜块": [
+      "-346",
+      "FFFFFFFFFFFFFEA6"
+    ],
+    "涂蜡的锈蚀铜块": [
+      "-347",
+      "FFFFFFFFFFFFFEA5"
+    ],
+    "切制铜块": [
+      "-348",
+      "FFFFFFFFFFFFFEA4"
+    ],
+    "斑驳的切制铜块": [
+      "-349",
+      "FFFFFFFFFFFFFEA3"
+    ],
+    "锈蚀的切制铜块": [
+      "-350",
+      "FFFFFFFFFFFFFEA2"
+    ],
+    "涂蜡的切制铜块": [
+      "-352",
+      "FFFFFFFFFFFFFEA0"
+    ],
+    "涂蜡的斑驳切制铜块": [
+      "-353",
+      "FFFFFFFFFFFFFE9F"
+    ],
+    "涂蜡的锈蚀切制铜块": [
+      "-354",
+      "FFFFFFFFFFFFFE9E"
+    ],
+    "切制铜楼梯 S": [
+      "-355",
+      "FFFFFFFFFFFFFE9D"
+    ],
+    "斑驳的切制铜楼梯 S": [
+      "-356",
+      "FFFFFFFFFFFFFE9C"
+    ],
+    "锈蚀的切制铜楼梯 S": [
+      "-357",
+      "FFFFFFFFFFFFFE9B"
+    ],
+    "氧化的切制铜楼梯 S": [
+      "-358",
+      "FFFFFFFFFFFFFE9A"
+    ],
+    "涂蜡的切制铜楼梯 S": [
+      "-359",
+      "FFFFFFFFFFFFFE99"
+    ],
+    "涂蜡的斑驳切制铜楼梯 S": [
+      "-360",
+      "FFFFFFFFFFFFFE98"
+    ],
+    "涂蜡的锈蚀切制铜楼梯 S": [
+      "-361",
+      "FFFFFFFFFFFFFE97"
+    ],
+    "切制铜台阶 S": [
+      "-362",
+      "FFFFFFFFFFFFFE96"
+    ],
+    "斑驳的切制铜台阶 S": [
+      "-363",
+      "FFFFFFFFFFFFFE95"
+    ],
+    "锈蚀的切制铜台阶 S": [
+      "-364",
+      "FFFFFFFFFFFFFE94"
+    ],
+    "氧化的切制铜台阶 S": [
+      "-365",
+      "FFFFFFFFFFFFFE93"
+    ],
+    "涂蜡的切制铜台阶 S": [
+      "-366",
+      "FFFFFFFFFFFFFE92"
+    ],
+    "涂蜡的斑驳切制铜台阶 S": [
+      "-367",
+      "FFFFFFFFFFFFFE91"
+    ],
+    "涂蜡的锈蚀切制铜台阶 S": [
+      "-368",
+      "FFFFFFFFFFFFFE90"
+    ],
+    "切制铜双层台阶 S": [
+      "-369",
+      "FFFFFFFFFFFFFE8F"
+    ],
+    "斑驳的切制铜双层台阶 S": [
+      "-370",
+      "FFFFFFFFFFFFFE8E"
+    ],
+    "锈蚀的切制铜双层台阶 S": [
+      "-371",
+      "FFFFFFFFFFFFFE8D"
+    ],
+    "氧化的切制铜双层台阶 S": [
+      "-372",
+      "FFFFFFFFFFFFFE8C"
+    ],
+    "涂蜡的切制铜双层台阶 S": [
+      "-373",
+      "FFFFFFFFFFFFFE8B"
+    ],
+    "涂蜡的斑驳切制铜双层台阶 S": [
+      "-374",
+      "FFFFFFFFFFFFFE8A"
+    ],
+    "涂蜡的锈蚀切制铜双层台阶 S": [
+      "-375",
+      "FFFFFFFFFFFFFE89"
+    ],
+    "洞穴藤蔓（带浆果）": [
+      "-376",
+      "FFFFFFFFFFFFFE88"
+    ],
+    "洞穴藤蔓首部（带浆果）": [
+      "-377",
+      "FFFFFFFFFFFFFE87"
+    ],
+    "平滑玄武岩": [
+      "-378",
+      "FFFFFFFFFFFFFE86"
+    ],
+    "深板岩 S": [
+      "-379",
+      "FFFFFFFFFFFFFE85"
+    ],
+    "深板岩圆石 S": [
+      "-380",
+      "FFFFFFFFFFFFFE84"
+    ],
+    "深板岩圆石台阶 S": [
+      "-381",
+      "FFFFFFFFFFFFFE83"
+    ],
+    "深板岩圆石楼梯 S": [
+      "-382",
+      "FFFFFFFFFFFFFE82"
+    ],
+    "深板岩圆石墙 S": [
+      "-383",
+      "FFFFFFFFFFFFFE81"
+    ],
+    "磨制深板岩 S": [
+      "-384",
+      "FFFFFFFFFFFFFE80"
+    ],
+    "磨制深板岩台阶 S": [
+      "-385",
+      "FFFFFFFFFFFFFE7F"
+    ],
+    "磨制深板岩楼梯 S": [
+      "-386",
+      "FFFFFFFFFFFFFE7E"
+    ],
+    "磨制深板岩墙 S": [
+      "-387",
+      "FFFFFFFFFFFFFE7D"
+    ],
+    "深板岩瓦": [
+      "-388",
+      "FFFFFFFFFFFFFE7C"
+    ],
+    "深板岩瓦台阶 S": [
+      "-389",
+      "FFFFFFFFFFFFFE7B"
+    ],
+    "深板岩瓦楼梯 S": [
+      "-390",
+      "FFFFFFFFFFFFFE7A"
+    ],
+    "深板岩瓦墙 S": [
+      "-391",
+      "FFFFFFFFFFFFFE79"
+    ],
+    "深板岩砖": [
+      "-392",
+      "FFFFFFFFFFFFFE78"
+    ],
+    "深板岩砖台阶 S": [
+      "-393",
+      "FFFFFFFFFFFFFE77"
+    ],
+    "深板岩砖楼梯 S": [
+      "-394",
+      "FFFFFFFFFFFFFE76"
+    ],
+    "深板岩砖墙 S": [
+      "-395",
+      "FFFFFFFFFFFFFE75"
+    ],
+    "雕纹深板岩": [
+      "-396",
+      "FFFFFFFFFFFFFE74"
+    ],
+    "深板岩圆石双层台阶 S": [
+      "-397",
+      "FFFFFFFFFFFFFE73"
+    ],
+    "磨制深板岩双层台阶 S": [
+      "-398",
+      "FFFFFFFFFFFFFE72"
+    ],
+    "深板岩瓦双层台阶 S": [
+      "-399",
+      "FFFFFFFFFFFFFE71"
+    ],
+    "深板岩砖双层台阶 S": [
+      "-400",
+      "FFFFFFFFFFFFFE70"
+    ],
+    "深层铁矿石": [
+      "-402",
+      "FFFFFFFFFFFFFE6E"
+    ],
+    "深层金矿石": [
+      "-403",
+      "FFFFFFFFFFFFFE6D"
+    ],
+    "深层红石矿石": [
+      "-404",
+      "FFFFFFFFFFFFFE6C"
+    ],
+    "发光的深层红石矿石": [
+      "-405",
+      "FFFFFFFFFFFFFE6B"
+    ],
+    "深层钻石矿石": [
+      "-406",
+      "FFFFFFFFFFFFFE6A"
+    ],
+    "深层煤矿石": [
+      "-407",
+      "FFFFFFFFFFFFFE69"
+    ],
+    "深层绿宝石矿石": [
+      "-408",
+      "FFFFFFFFFFFFFE68"
+    ],
+    "深层铜矿石": [
+      "-409",
+      "FFFFFFFFFFFFFE67"
+    ],
+    "裂纹深板岩瓦": [
+      "-410",
+      "FFFFFFFFFFFFFE66"
+    ],
+    "裂纹深板岩砖": [
+      "-411",
+      "FFFFFFFFFFFFFE65"
+    ],
+    "发光地衣 S": [
+      "-412",
+      "FFFFFFFFFFFFFE64"
+    ],
+    "蜡烛 S": [
+      "-413",
+      "FFFFFFFFFFFFFE63"
+    ],
+    "白色蜡烛 S": [
+      "-414",
+      "FFFFFFFFFFFFFE62"
+    ],
+    "橙色蜡烛 S": [
+      "-415",
+      "FFFFFFFFFFFFFE61"
+    ],
+    "品红色蜡烛 S": [
+      "-416",
+      "FFFFFFFFFFFFFE60"
+    ],
+    "淡蓝色蜡烛 S": [
+      "-417",
+      "FFFFFFFFFFFFFE5F"
+    ],
+    "黄色蜡烛 S": [
+      "-418",
+      "FFFFFFFFFFFFFE5E"
+    ],
+    "黄绿色蜡烛 S": [
+      "-419",
+      "FFFFFFFFFFFFFE5D"
+    ],
+    "粉红色蜡烛 S": [
+      "-420",
+      "FFFFFFFFFFFFFE5C"
+    ],
+    "灰色蜡烛 S": [
+      "-421",
+      "FFFFFFFFFFFFFE5B"
+    ],
+    "淡灰色蜡烛 S": [
+      "-422",
+      "FFFFFFFFFFFFFE5A"
+    ],
+    "青色蜡烛 S": [
+      "-423",
+      "FFFFFFFFFFFFFE59"
+    ],
+    "紫色蜡烛 S": [
+      "-424",
+      "FFFFFFFFFFFFFE58"
+    ],
+    "蓝色蜡烛 S": [
+      "-425",
+      "FFFFFFFFFFFFFE57"
+    ],
+    "棕色蜡烛 S": [
+      "-426",
+      "FFFFFFFFFFFFFE56"
+    ],
+    "绿色蜡烛 S": [
+      "-427",
+      "FFFFFFFFFFFFFE55"
+    ],
+    "红色蜡烛 S": [
+      "-428",
+      "FFFFFFFFFFFFFE54"
+    ],
+    "黑色蜡烛 S": [
+      "-429",
+      "FFFFFFFFFFFFFE53"
+    ],
+    "插上蜡烛的蛋糕": [
+      "-430",
+      "FFFFFFFFFFFFFE52"
+    ],
+    "插上白色蜡烛的蛋糕": [
+      "-431",
+      "FFFFFFFFFFFFFE51"
+    ],
+    "插上橙色蜡烛的蛋糕": [
+      "-432",
+      "FFFFFFFFFFFFFE50"
+    ],
+    "插上品红色蜡烛的蛋糕": [
+      "-433",
+      "FFFFFFFFFFFFFE4F"
+    ],
+    "插上淡蓝色蜡烛的蛋糕": [
+      "-434",
+      "FFFFFFFFFFFFFE4E"
+    ],
+    "插上黄色蜡烛的蛋糕": [
+      "-435",
+      "FFFFFFFFFFFFFE4D"
+    ],
+    "插上黄绿色蜡烛的蛋糕": [
+      "-436",
+      "FFFFFFFFFFFFFE4C"
+    ],
+    "插上粉红色蜡烛的蛋糕": [
+      "-437",
+      "FFFFFFFFFFFFFE4B"
+    ],
+    "插上灰色蜡烛的蛋糕": [
+      "-438",
+      "FFFFFFFFFFFFFE4A"
+    ],
+    "插上淡灰色蜡烛的蛋糕": [
+      "-439",
+      "FFFFFFFFFFFFFE49"
+    ],
+    "插上青色蜡烛的蛋糕": [
+      "-440",
+      "FFFFFFFFFFFFFE48"
+    ],
+    "插上紫色蜡烛的蛋糕": [
+      "-441",
+      "FFFFFFFFFFFFFE47"
+    ],
+    "插上蓝色蜡烛的蛋糕": [
+      "-442",
+      "FFFFFFFFFFFFFE46"
+    ],
+    "插上棕色蜡烛的蛋糕": [
+      "-443",
+      "FFFFFFFFFFFFFE45"
+    ],
+    "插上绿色蜡烛的蛋糕": [
+      "-444",
+      "FFFFFFFFFFFFFE44"
+    ],
+    "插上红色蜡烛的蛋糕": [
+      "-445",
+      "FFFFFFFFFFFFFE43"
+    ],
+    "插上黑色蜡烛的蛋糕": [
+      "-446",
+      "FFFFFFFFFFFFFE42"
+    ],
+    "涂蜡的氧化铜块": [
+      "-447",
+      "FFFFFFFFFFFFFE41"
+    ],
+    "涂蜡的氧化切制铜块": [
+      "-448",
+      "FFFFFFFFFFFFFE40"
+    ],
+    "涂蜡的氧化切制铜楼梯 S": [
+      "-449",
+      "FFFFFFFFFFFFFE3F"
+    ],
+    "涂蜡的氧化切制铜台阶 S": [
+      "-450",
+      "FFFFFFFFFFFFFE3E"
+    ],
+    "粗铁块": [
+      "-452",
+      "FFFFFFFFFFFFFE3C"
+    ],
+    "粗铜块": [
+      "-453",
+      "FFFFFFFFFFFFFE3B"
+    ],
+    "粗金块": [
+      "-454",
+      "FFFFFFFFFFFFFE3A"
+    ],
+    "虫蚀深板岩 S": [
+      "-455",
+      "FFFFFFFFFFFFFE39"
+    ],
+    "幽匿块": [
+      "-459",
+      "FFFFFFFFFFFFFE35"
+    ],
+    "幽匿脉络 S": [
+      "-460",
+      "FFFFFFFFFFFFFE34"
+    ],
+    "幽匿催发体 E": [
+      "-461",
+      "FFFFFFFFFFFFFE33"
+    ],
+    "幽匿尖啸体 E": [
+      "-462",
+      "FFFFFFFFFFFFFE32"
+    ],
+    "客户端请求占位符方块": [
+      "-466",
+      "FFFFFFFFFFFFFE2E"
+    ],
+    "强化深板岩": [
+      "-467",
+      "FFFFFFFFFFFFFE2D"
+    ],
+    "带插槽的神秘框架（已移除）": [
+      "-468",
+      "FFFFFFFFFFFFFE2C"
+    ],
+    "青蛙卵": [
+      "-469",
+      "FFFFFFFFFFFFFE2B"
+    ],
+    "珠光蛙明灯": [
+      "-470",
+      "FFFFFFFFFFFFFE2A"
+    ],
+    "青翠蛙明灯": [
+      "-471",
+      "FFFFFFFFFFFFFE29"
+    ],
+    "赭黄蛙明灯": [
+      "-472",
+      "FFFFFFFFFFFFFE28"
+    ],
+    "红树树叶 S": [
+      "-473",
+      "FFFFFFFFFFFFFE27"
+    ],
+    "泥巴": [
+      "-474",
+      "FFFFFFFFFFFFFE26"
+    ],
+    "红树胎生苗 S": [
+      "-475",
+      "FFFFFFFFFFFFFE25"
+    ],
+    "泥砖": [
+      "-476",
+      "FFFFFFFFFFFFFE24"
+    ],
+    "泥坯": [
+      "-478",
+      "FFFFFFFFFFFFFE22"
+    ],
+    "泥砖台阶 S": [
+      "-479",
+      "FFFFFFFFFFFFFE21"
+    ],
+    "泥砖双层台阶": [
+      "-480",
+      "FFFFFFFFFFFFFE20"
+    ],
+    "泥砖楼梯 S": [
+      "-481",
+      "FFFFFFFFFFFFFE1F"
+    ],
+    "泥砖墙 S": [
+      "-482",
+      "FFFFFFFFFFFFFE1E"
+    ],
+    "红树根": [
+      "-483",
+      "FFFFFFFFFFFFFE1D"
+    ],
+    "沾泥的红树根 S": [
+      "-484",
+      "FFFFFFFFFFFFFE1C"
+    ],
+    "红树原木 S": [
+      "-485",
+      "FFFFFFFFFFFFFE1B"
+    ],
+    "去皮红树原木 S": [
+      "-486",
+      "FFFFFFFFFFFFFE1A"
+    ],
+    "红树木板": [
+      "-487",
+      "FFFFFFFFFFFFFE19"
+    ],
+    "红树木按钮 S": [
+      "-488",
+      "FFFFFFFFFFFFFE18"
+    ],
+    "红树木楼梯 S": [
+      "-489",
+      "FFFFFFFFFFFFFE17"
+    ],
+    "红树木台阶 S": [
+      "-490",
+      "FFFFFFFFFFFFFE16"
+    ],
+    "红树木压力板 S": [
+      "-491",
+      "FFFFFFFFFFFFFE15"
+    ],
+    "红树木栅栏 S": [
+      "-492",
+      "FFFFFFFFFFFFFE14"
+    ],
+    "红树木栅栏门 S": [
+      "-493",
+      "FFFFFFFFFFFFFE13"
+    ],
+    "红树木门 IS": [
+      "-494",
+      "FFFFFFFFFFFFFE12"
+    ],
+    "红树木告示牌ISE": [
+      "-495",
+      "FFFFFFFFFFFFFE11"
+    ],
+    "墙上的红树木告示牌 ISE": [
+      "-496",
+      "FFFFFFFFFFFFFE10"
+    ],
+    "红树木活板门 S": [
+      "-497",
+      "FFFFFFFFFFFFFE0F"
+    ],
+    "红树木 S": [
+      "-498",
+      "FFFFFFFFFFFFFE0E"
+    ],
+    "去皮红树木 S": [
+      "-499",
+      "FFFFFFFFFFFFFE0D"
+    ],
+    "红树木双层台阶 S": [
+      "-500",
+      "FFFFFFFFFFFFFE0C"
+    ],
+    "悬挂式云杉木告示牌 SE": [
+      "-502",
+      "FFFFFFFFFFFFFE0A"
+    ],
+    "悬挂式白桦木告示牌 SE": [
+      "-503",
+      "FFFFFFFFFFFFFE09"
+    ],
+    "悬挂式丛林木告示牌 SE": [
+      "-504",
+      "FFFFFFFFFFFFFE08"
+    ],
+    "悬挂式金合欢木告示牌 SE": [
+      "-505",
+      "FFFFFFFFFFFFFE07"
+    ],
+    "悬挂式深色橡木告示牌 SE": [
+      "-506",
+      "FFFFFFFFFFFFFE06"
+    ],
+    "悬挂式绯红木告示牌 SE": [
+      "-507",
+      "FFFFFFFFFFFFFE05"
+    ],
+    "悬挂式诡异木告示牌 SE": [
+      "-508",
+      "FFFFFFFFFFFFFE04"
+    ],
+    "悬挂式红树木告示牌 SE": [
+      "-509",
+      "FFFFFFFFFFFFFE03"
+    ],
+    "竹马赛克": [
+      "-510",
+      "FFFFFFFFFFFFFE02"
+    ],
+    "竹板": [
+      "-511",
+      "FFFFFFFFFFFFFE01"
+    ],
+    "竹按钮 S": [
+      "-512",
+      "FFFFFFFFFFFFFE00"
+    ],
+    "竹楼梯 S": [
+      "-513"
+    ],
+    "竹台阶 S": [
+      "-514"
+    ],
+    "竹压力板 S": [
+      "-515"
+    ],
+    "竹栅栏 S": [
+      "-516"
+    ],
+    "竹栅栏门 S": [
+      "-517"
+    ],
+    "竹门 SE": [
+      "-518"
+    ],
+    "竹告示牌ISE": [
+      "-519",
+      "FFFFFFFFFFFFFDF9"
+    ],
+    "墙上的竹告示牌 ISE": [
+      "-520",
+      "FFFFFFFFFFFFFDF8"
+    ],
+    "竹活板门 S": [
+      "-521",
+      "FFFFFFFFFFFFFDF7"
+    ],
+    "竹双层台阶 S": [
+      "-522",
+      "FFFFFFFFFFFFFDF6"
+    ],
+    "悬挂式竹告示牌 SE": [
+      "-523",
+      "FFFFFFFFFFFFFDF5"
+    ],
+    "竹马赛克楼梯 S": [
+      "-524",
+      "FFFFFFFFFFFFFDF4"
+    ],
+    "竹马赛克台阶 S": [
+      "-525",
+      "FFFFFFFFFFFFFDF3"
+    ],
+    "竹马赛克双层台阶 S": [
+      "-526",
+      "FFFFFFFFFFFFFDF2"
+    ],
+    "雕纹书架 SE": [
+      "-527",
+      "FFFFFFFFFFFFFDF1"
+    ],
+    "竹块 S": [
+      "-528",
+      "FFFFFFFFFFFFFDF0"
+    ],
+    "去皮竹块 S": [
+      "-529"
+    ],
+    "可疑的沙子 E": [
+      "-530"
+    ],
+    "樱花木按钮 S": [
+      "-531"
+    ],
+    "樱花木门 S": [
+      "-532"
+    ],
+    "樱花木栅栏 S": [
+      "-533"
+    ],
+    "樱花木栅栏门 S": [
+      "-534"
+    ],
+    "悬挂式樱花木告示牌 SE": [
+      "-535",
+      "FFFFFFFFFFFFFDE9"
+    ],
+    "去皮樱花原木 S": [
+      "-536",
+      "FFFFFFFFFFFFFDE8"
+    ],
+    "樱花原木 S": [
+      "-537",
+      "FFFFFFFFFFFFFDE7"
+    ],
+    "樱花木板": [
+      "-538",
+      "FFFFFFFFFFFFFDE6"
+    ],
+    "樱花木压力板 S": [
+      "-539",
+      "FFFFFFFFFFFFFDE5"
+    ],
+    "樱花木台阶 S": [
+      "-540",
+      "FFFFFFFFFFFFFDE4"
+    ],
+    "樱花木双层台阶 S": [
+      "-541",
+      "FFFFFFFFFFFFFDE3"
+    ],
+    "樱花木楼梯 S": [
+      "-542",
+      "FFFFFFFFFFFFFDE2"
+    ],
+    "樱花木告示牌ISE": [
+      "-543",
+      "FFFFFFFFFFFFFDE1"
+    ],
+    "樱花木活板门 S": [
+      "-544",
+      "FFFFFFFFFFFFFDE0"
+    ],
+    "墙上的樱花木告示牌 ISE": [
+      "-545"
+    ],
+    "去皮樱花木 S": [
+      "-546"
+    ],
+    "樱花木 S": [
+      "-547"
+    ],
+    "樱花树苗 S": [
+      "-548"
+    ],
+    "樱花树叶 S": [
+      "-549"
+    ],
+    "粉红色花簇 S": [
+      "-550"
+    ],
+    "饰纹陶罐 SE": [
+      "-552",
+      "FFFFFFFFFFFFFDD8"
+    ],
+    "淡灰色羊毛": [
+      "-553",
+      "FFFFFFFFFFFFFDD7"
+    ],
+    "灰色羊毛": [
+      "-554",
+      "FFFFFFFFFFFFFDD6"
+    ],
+    "黑色羊毛": [
+      "-555",
+      "FFFFFFFFFFFFFDD5"
+    ],
+    "棕色羊毛": [
+      "-556",
+      "FFFFFFFFFFFFFDD4"
+    ],
+    "红色羊毛": [
+      "-557",
+      "FFFFFFFFFFFFFDD3"
+    ],
+    "橙色羊毛": [
+      "-558",
+      "FFFFFFFFFFFFFDD2"
+    ],
+    "黄色羊毛": [
+      "-559",
+      "FFFFFFFFFFFFFDD1"
+    ],
+    "黄绿色羊毛": [
+      "-560",
+      "FFFFFFFFFFFFFDD0"
+    ],
+    "绿色羊毛": [
+      "-561"
+    ],
+    "青色羊毛": [
+      "-562"
+    ],
+    "淡蓝色羊毛": [
+      "-563"
+    ],
+    "蓝色羊毛": [
+      "-564"
+    ],
+    "紫色羊毛": [
+      "-565"
+    ],
+    "品红色羊毛": [
+      "-566"
+    ],
+    "粉红色羊毛": [
+      "-567",
+      "FFFFFFFFFFFFFDC9"
+    ],
+    "火把花植株 S": [
+      "-568",
+      "FFFFFFFFFFFFFDC8"
+    ],
+    "火把花": [
+      "-569",
+      "FFFFFFFFFFFFFDC7"
+    ],
+    "云杉原木 S": [
+      "-570",
+      "FFFFFFFFFFFFFDC6"
+    ],
+    "白桦原木 S": [
+      "-571",
+      "FFFFFFFFFFFFFDC5"
+    ],
+    "丛林原木 S": [
+      "-572",
+      "FFFFFFFFFFFFFDC4"
+    ],
+    "深色橡木原木 S": [
+      "-573",
+      "FFFFFFFFFFFFFDC3"
+    ],
+    "可疑的沙砾E": [
+      "-574",
+      "FFFFFFFFFFFFFDC2"
+    ],
+    "瓶子草植株 S": [
+      "-575",
+      "FFFFFFFFFFFFFDC1"
+    ],
+    "金合欢木栅栏 S": [
+      "-576",
+      "FFFFFFFFFFFFFDC0"
+    ],
+    "白桦木栅栏 S": [
+      "-577"
+    ],
+    "深色橡木栅栏 S": [
+      "-578"
+    ],
+    "丛林木栅栏 S": [
+      "-579"
+    ],
+    "云杉木栅栏 S": [
+      "-580"
+    ],
+    "校频幽匿感测体 SE": [
+      "-581"
+    ],
+    "脑纹珊瑚": [
+      "-582"
+    ],
+    "气泡珊瑚": [
+      "-583",
+      "FFFFFFFFFFFFFDB9"
+    ],
+    "火珊瑚": [
+      "-584",
+      "FFFFFFFFFFFFFDB8"
+    ],
+    "鹿角珊瑚": [
+      "-585",
+      "FFFFFFFFFFFFFDB7"
+    ],
+    "失活的管珊瑚": [
+      "-586",
+      "FFFFFFFFFFFFFDB6"
+    ],
+    "失活的脑纹珊瑚": [
+      "-587",
+      "FFFFFFFFFFFFFDB5"
+    ],
+    "失活的气泡珊瑚": [
+      "-588",
+      "FFFFFFFFFFFFFDB4"
+    ],
+    "失活的火珊瑚": [
+      "-589",
+      "FFFFFFFFFFFFFDB3"
+    ],
+    "失活的鹿角珊瑚": [
+      "-590",
+      "FFFFFFFFFFFFFDB2"
+    ],
+    "花岗岩": [
+      "-591",
+      "FFFFFFFFFFFFFDB1"
+    ],
+    "磨制花岗岩": [
+      "-592",
+      "FFFFFFFFFFFFFDB0"
+    ],
+    "闪长岩": [
+      "-593"
+    ],
+    "磨制闪长岩": [
+      "-594"
+    ],
+    "安山岩": [
+      "-595"
+    ],
+    "磨制安山岩": [
+      "-596"
+    ],
+    "嗅探兽蛋 S": [
+      "-597"
+    ],
+    "橙色地毯": [
+      "-598"
+    ],
+    "品红色地毯": [
+      "-599",
+      "FFFFFFFFFFFFFDA9"
+    ],
+    "淡蓝色地毯": [
+      "-600",
+      "FFFFFFFFFFFFFDA8"
+    ],
+    "黄绿色地毯": [
+      "-602",
+      "FFFFFFFFFFFFFDA6"
+    ],
+    "粉红色地毯": [
+      "-603",
+      "FFFFFFFFFFFFFDA5"
+    ],
+    "灰色地毯": [
+      "-604",
+      "FFFFFFFFFFFFFDA4"
+    ],
+    "淡灰色地毯": [
+      "-605",
+      "FFFFFFFFFFFFFDA3"
+    ],
+    "青色地毯": [
+      "-606",
+      "FFFFFFFFFFFFFDA2"
+    ],
+    "紫色地毯": [
+      "-607",
+      "FFFFFFFFFFFFFDA1"
+    ],
+    "蓝色地毯": [
+      "-608",
+      "FFFFFFFFFFFFFDA0"
+    ],
+    "棕色地毯": [
+      "-609",
+      "FFFFFFFFFFFFFD9F"
+    ],
+    "绿色地毯": [
+      "-610",
+      "FFFFFFFFFFFFFD9E"
+    ],
+    "红色地毯": [
+      "-611",
+      "FFFFFFFFFFFFFD9D"
+    ],
+    "黑色地毯": [
+      "-612",
+      "FFFFFFFFFFFFFD9C"
+    ],
+    "瓶子草 S": [
+      "-613",
+      "FFFFFFFFFFFFFD9B"
+    ],
+    "橙色潜影盒 SE": [
+      "-614",
+      "FFFFFFFFFFFFFD9A"
+    ],
+    "品红色潜影盒 SE": [
+      "-615",
+      "FFFFFFFFFFFFFD99"
+    ],
+    "淡蓝色潜影盒 SE": [
+      "-616",
+      "FFFFFFFFFFFFFD98"
+    ],
+    "黄色潜影盒 SE": [
+      "-617",
+      "FFFFFFFFFFFFFD97"
+    ],
+    "黄绿色潜影盒 SE": [
+      "-618",
+      "FFFFFFFFFFFFFD96"
+    ],
+    "粉红色潜影盒 SE": [
+      "-619",
+      "FFFFFFFFFFFFFD95"
+    ],
+    "灰色潜影盒 SE": [
+      "-620",
+      "FFFFFFFFFFFFFD94"
+    ],
+    "淡灰色潜影盒 SE": [
+      "-621",
+      "FFFFFFFFFFFFFD93"
+    ],
+    "青色潜影盒 SE": [
+      "-622",
+      "FFFFFFFFFFFFFD92"
+    ],
+    "紫色潜影盒 SE": [
+      "-623",
+      "FFFFFFFFFFFFFD91"
+    ],
+    "蓝色潜影盒 SE": [
+      "-624",
+      "FFFFFFFFFFFFFD90"
+    ],
+    "棕色潜影盒 SE": [
+      "-625",
+      "FFFFFFFFFFFFFD8F"
+    ],
+    "绿色潜影盒 SE": [
+      "-626",
+      "FFFFFFFFFFFFFD8E"
+    ],
+    "红色潜影盒 SE": [
+      "-627",
+      "FFFFFFFFFFFFFD8D"
+    ],
+    "黑色潜影盒 SE": [
+      "-628",
+      "FFFFFFFFFFFFFD8C"
+    ],
+    "橙色混凝土": [
+      "-629",
+      "FFFFFFFFFFFFFD8B"
+    ],
+    "品红色混凝土": [
+      "-630",
+      "FFFFFFFFFFFFFD8A"
+    ],
+    "淡蓝色混凝土": [
+      "-631",
+      "FFFFFFFFFFFFFD89"
+    ],
+    "黄色混凝土": [
+      "-632",
+      "FFFFFFFFFFFFFD88"
+    ],
+    "黄绿色混凝土": [
+      "-633",
+      "FFFFFFFFFFFFFD87"
+    ],
+    "粉红色混凝土": [
+      "-634",
+      "FFFFFFFFFFFFFD86"
+    ],
+    "灰色混凝土": [
+      "-635",
+      "FFFFFFFFFFFFFD85"
+    ],
+    "淡灰色混凝土": [
+      "-636",
+      "FFFFFFFFFFFFFD84"
+    ],
+    "青色混凝土": [
+      "-637",
+      "FFFFFFFFFFFFFD83"
+    ],
+    "紫色混凝土": [
+      "-638",
+      "FFFFFFFFFFFFFD82"
+    ],
+    "蓝色混凝土": [
+      "-639",
+      "FFFFFFFFFFFFFD81"
+    ],
+    "棕色混凝土": [
+      "-640",
+      "FFFFFFFFFFFFFD80"
+    ],
+    "绿色混凝土": [
+      "-641",
+      "FFFFFFFFFFFFFD7F"
+    ],
+    "红色混凝土": [
+      "-642",
+      "FFFFFFFFFFFFFD7E"
+    ],
+    "黑色混凝土": [
+      "-643",
+      "FFFFFFFFFFFFFD7D"
+    ],
+    "橙色染色玻璃板 S": [
+      "-644",
+      "FFFFFFFFFFFFFD7C"
+    ],
+    "品红色染色玻璃板 S": [
+      "-645",
+      "FFFFFFFFFFFFFD7B"
+    ],
+    "淡蓝色染色玻璃板 S": [
+      "-646",
+      "FFFFFFFFFFFFFD7A"
+    ],
+    "黄色染色玻璃板 S": [
+      "-647",
+      "FFFFFFFFFFFFFD79"
+    ],
+    "黄绿色染色玻璃板 S": [
+      "-648",
+      "FFFFFFFFFFFFFD78"
+    ],
+    "粉红色染色玻璃板 S": [
+      "-649",
+      "FFFFFFFFFFFFFD77"
+    ],
+    "灰色染色玻璃板 S": [
+      "-650",
+      "FFFFFFFFFFFFFD76"
+    ],
+    "青色染色玻璃板 S": [
+      "-652",
+      "FFFFFFFFFFFFFD74"
+    ],
+    "紫色染色玻璃板 S": [
+      "-653",
+      "FFFFFFFFFFFFFD73"
+    ],
+    "蓝色染色玻璃板 S": [
+      "-654",
+      "FFFFFFFFFFFFFD72"
+    ],
+    "棕色染色玻璃板 S": [
+      "-655",
+      "FFFFFFFFFFFFFD71"
+    ],
+    "绿色染色玻璃板 S": [
+      "-656",
+      "FFFFFFFFFFFFFD70"
+    ],
+    "红色染色玻璃板 S": [
+      "-657",
+      "FFFFFFFFFFFFFD6F"
+    ],
+    "黑色染色玻璃板 S": [
+      "-658",
+      "FFFFFFFFFFFFFD6E"
+    ],
+    "橙色强化玻璃板 S": [
+      "-659",
+      "FFFFFFFFFFFFFD6D"
+    ],
+    "品红色强化玻璃板 S": [
+      "-660",
+      "FFFFFFFFFFFFFD6C"
+    ],
+    "淡蓝色强化玻璃板 S": [
+      "-661",
+      "FFFFFFFFFFFFFD6B"
+    ],
+    "黄色强化玻璃板 S": [
+      "-662",
+      "FFFFFFFFFFFFFD6A"
+    ],
+    "黄绿色强化玻璃板 S": [
+      "-663",
+      "FFFFFFFFFFFFFD69"
+    ],
+    "粉红色强化玻璃板 S": [
+      "-664",
+      "FFFFFFFFFFFFFD68"
+    ],
+    "灰色强化玻璃板 S": [
+      "-665",
+      "FFFFFFFFFFFFFD67"
+    ],
+    "淡灰色强化玻璃板 S": [
+      "-666",
+      "FFFFFFFFFFFFFD66"
+    ],
+    "青色强化玻璃板 S": [
+      "-667",
+      "FFFFFFFFFFFFFD65"
+    ],
+    "紫色强化玻璃板 S": [
+      "-668",
+      "FFFFFFFFFFFFFD64"
+    ],
+    "蓝色强化玻璃板 S": [
+      "-669",
+      "FFFFFFFFFFFFFD63"
+    ],
+    "棕色强化玻璃板 S": [
+      "-670",
+      "FFFFFFFFFFFFFD62"
+    ],
+    "绿色强化玻璃板 S": [
+      "-671",
+      "FFFFFFFFFFFFFD61"
+    ],
+    "红色强化玻璃板 S": [
+      "-672",
+      "FFFFFFFFFFFFFD60"
+    ],
+    "黑色强化玻璃板 S": [
+      "-673",
+      "FFFFFFFFFFFFFD5F"
+    ],
+    "橙色染色玻璃": [
+      "-674",
+      "FFFFFFFFFFFFFD5E"
+    ],
+    "品红色染色玻璃": [
+      "-675",
+      "FFFFFFFFFFFFFD5D"
+    ],
+    "淡蓝色染色玻璃": [
+      "-676",
+      "FFFFFFFFFFFFFD5C"
+    ],
+    "黄色染色玻璃": [
+      "-677",
+      "FFFFFFFFFFFFFD5B"
+    ],
+    "黄绿色染色玻璃": [
+      "-678",
+      "FFFFFFFFFFFFFD5A"
+    ],
+    "粉红色染色玻璃": [
+      "-679",
+      "FFFFFFFFFFFFFD59"
+    ],
+    "灰色染色玻璃": [
+      "-680",
+      "FFFFFFFFFFFFFD58"
+    ],
+    "淡灰色染色玻璃": [
+      "-681",
+      "FFFFFFFFFFFFFD57"
+    ],
+    "青色染色玻璃": [
+      "-682",
+      "FFFFFFFFFFFFFD56"
+    ],
+    "紫色染色玻璃": [
+      "-683",
+      "FFFFFFFFFFFFFD55"
+    ],
+    "蓝色染色玻璃": [
+      "-684",
+      "FFFFFFFFFFFFFD54"
+    ],
+    "棕色染色玻璃": [
+      "-685",
+      "FFFFFFFFFFFFFD53"
+    ],
+    "绿色染色玻璃": [
+      "-686",
+      "FFFFFFFFFFFFFD52"
+    ],
+    "红色染色玻璃": [
+      "-687",
+      "FFFFFFFFFFFFFD51"
+    ],
+    "黑色染色玻璃": [
+      "-688",
+      "FFFFFFFFFFFFFD50"
+    ],
+    "橙色强化玻璃": [
+      "-689",
+      "FFFFFFFFFFFFFD4F"
+    ],
+    "品红色强化玻璃": [
+      "-690",
+      "FFFFFFFFFFFFFD4E"
+    ],
+    "淡蓝色强化玻璃": [
+      "-691",
+      "FFFFFFFFFFFFFD4D"
+    ],
+    "黄色强化玻璃": [
+      "-692",
+      "FFFFFFFFFFFFFD4C"
+    ],
+    "黄绿色强化玻璃": [
+      "-693",
+      "FFFFFFFFFFFFFD4B"
+    ],
+    "粉红色强化玻璃": [
+      "-694",
+      "FFFFFFFFFFFFFD4A"
+    ],
+    "灰色强化玻璃": [
+      "-695",
+      "FFFFFFFFFFFFFD49"
+    ],
+    "淡灰色强化玻璃": [
+      "-696",
+      "FFFFFFFFFFFFFD48"
+    ],
+    "青色强化玻璃": [
+      "-697",
+      "FFFFFFFFFFFFFD47"
+    ],
+    "紫色强化玻璃": [
+      "-698",
+      "FFFFFFFFFFFFFD46"
+    ],
+    "蓝色强化玻璃": [
+      "-699",
+      "FFFFFFFFFFFFFD45"
+    ],
+    "棕色强化玻璃": [
+      "-700",
+      "FFFFFFFFFFFFFD44"
+    ],
+    "红色强化玻璃": [
+      "-702",
+      "FFFFFFFFFFFFFD42"
+    ],
+    "黑色强化玻璃": [
+      "-703",
+      "FFFFFFFFFFFFFD41"
+    ],
+    "橙色混凝土粉末": [
+      "-710",
+      "FFFFFFFFFFFFFD3A"
+    ],
+    "品红色混凝土粉末": [
+      "-711",
+      "FFFFFFFFFFFFFD39"
+    ],
+    "淡蓝色混凝土粉末": [
+      "-712",
+      "FFFFFFFFFFFFFD38"
+    ],
+    "黄色混凝土粉末": [
+      "-713",
+      "FFFFFFFFFFFFFD37"
+    ],
+    "黄绿色混凝土粉末": [
+      "-714",
+      "FFFFFFFFFFFFFD36"
+    ],
+    "粉红色混凝土粉末": [
+      "-715",
+      "FFFFFFFFFFFFFD35"
+    ],
+    "灰色混凝土粉末": [
+      "-716",
+      "FFFFFFFFFFFFFD34"
+    ],
+    "淡灰色混凝土粉末": [
+      "-717",
+      "FFFFFFFFFFFFFD33"
+    ],
+    "青色混凝土粉末": [
+      "-718",
+      "FFFFFFFFFFFFFD32"
+    ],
+    "紫色混凝土粉末": [
+      "-719",
+      "FFFFFFFFFFFFFD31"
+    ],
+    "蓝色混凝土粉末": [
+      "-720",
+      "FFFFFFFFFFFFFD30"
+    ],
+    "棕色混凝土粉末": [
+      "-721",
+      "FFFFFFFFFFFFFD2F"
+    ],
+    "绿色混凝土粉末": [
+      "-722",
+      "FFFFFFFFFFFFFD2E"
+    ],
+    "红色混凝土粉末": [
+      "-723",
+      "FFFFFFFFFFFFFD2D"
+    ],
+    "黑色混凝土粉末": [
+      "-724",
+      "FFFFFFFFFFFFFD2C"
+    ],
+    "橙色陶瓦": [
+      "-725",
+      "FFFFFFFFFFFFFD2B"
+    ],
+    "品红色陶瓦": [
+      "-726",
+      "FFFFFFFFFFFFFD2A"
+    ],
+    "淡蓝色陶瓦": [
+      "-727",
+      "FFFFFFFFFFFFFD29"
+    ],
+    "黄色陶瓦": [
+      "-728",
+      "FFFFFFFFFFFFFD28"
+    ],
+    "黄绿色陶瓦": [
+      "-729",
+      "FFFFFFFFFFFFFD27"
+    ],
+    "粉红色陶瓦": [
+      "-730",
+      "FFFFFFFFFFFFFD26"
+    ],
+    "灰色陶瓦": [
+      "-731",
+      "FFFFFFFFFFFFFD25"
+    ],
+    "淡灰色陶瓦": [
+      "-732",
+      "FFFFFFFFFFFFFD24"
+    ],
+    "青色陶瓦": [
+      "-733",
+      "FFFFFFFFFFFFFD23"
+    ],
+    "紫色陶瓦": [
+      "-734",
+      "FFFFFFFFFFFFFD22"
+    ],
+    "蓝色陶瓦": [
+      "-735",
+      "FFFFFFFFFFFFFD21"
+    ],
+    "棕色陶瓦": [
+      "-736",
+      "FFFFFFFFFFFFFD20"
+    ],
+    "绿色陶瓦": [
+      "-737",
+      "FFFFFFFFFFFFFD1F"
+    ],
+    "红色陶瓦": [
+      "-738",
+      "FFFFFFFFFFFFFD1E"
+    ],
+    "黑色陶瓦": [
+      "-739",
+      "FFFFFFFFFFFFFD1D"
+    ],
+    "云杉木板": [
+      "-740",
+      "FFFFFFFFFFFFFD1C"
+    ],
+    "白桦木板": [
+      "-741",
+      "FFFFFFFFFFFFFD1B"
+    ],
+    "丛林木板": [
+      "-742",
+      "FFFFFFFFFFFFFD1A"
+    ],
+    "金合欢木板": [
+      "-743",
+      "FFFFFFFFFFFFFD19"
+    ],
+    "深色橡木木板": [
+      "-744",
+      "FFFFFFFFFFFFFD18"
+    ],
+    "凝灰岩台阶 S": [
+      "-745",
+      "FFFFFFFFFFFFFD17"
+    ],
+    "凝灰岩双层台阶 S": [
+      "-746",
+      "FFFFFFFFFFFFFD16"
+    ],
+    "凝灰岩楼梯 S": [
+      "-747",
+      "FFFFFFFFFFFFFD15"
+    ],
+    "凝灰岩墙 S": [
+      "-748",
+      "FFFFFFFFFFFFFD14"
+    ],
+    "磨制凝灰岩": [
+      "-749",
+      "FFFFFFFFFFFFFD13"
+    ],
+    "磨制凝灰岩台阶 S": [
+      "-750",
+      "FFFFFFFFFFFFFD12"
+    ],
+    "磨制凝灰岩楼梯 S": [
+      "-752",
+      "FFFFFFFFFFFFFD10"
+    ],
+    "磨制凝灰岩墙 S": [
+      "-753",
+      "FFFFFFFFFFFFFD0F"
+    ],
+    "雕纹凝灰岩": [
+      "-754",
+      "FFFFFFFFFFFFFD0E"
+    ],
+    "凝灰岩砖": [
+      "-755",
+      "FFFFFFFFFFFFFD0D"
+    ],
+    "凝灰岩砖台阶 S": [
+      "-756",
+      "FFFFFFFFFFFFFD0C"
+    ],
+    "凝灰岩砖双层台阶 S": [
+      "-757",
+      "FFFFFFFFFFFFFD0B"
+    ],
+    "凝灰岩砖楼梯 S": [
+      "-758",
+      "FFFFFFFFFFFFFD0A"
+    ],
+    "凝灰岩砖墙 S": [
+      "-759",
+      "FFFFFFFFFFFFFD09"
+    ],
+    "雕纹凝灰岩砖": [
+      "-760",
+      "FFFFFFFFFFFFFD08"
+    ],
+    "雕纹铜块": [
+      "-761",
+      "FFFFFFFFFFFFFD07"
+    ],
+    "斑驳的雕纹铜块": [
+      "-762",
+      "FFFFFFFFFFFFFD06"
+    ],
+    "锈蚀的雕纹铜块": [
+      "-763",
+      "FFFFFFFFFFFFFD05"
+    ],
+    "氧化的雕纹铜块": [
+      "-764",
+      "FFFFFFFFFFFFFD04"
+    ],
+    "涂蜡的雕纹铜块": [
+      "-765",
+      "FFFFFFFFFFFFFD03"
+    ],
+    "涂蜡的斑驳雕纹铜块": [
+      "-766",
+      "FFFFFFFFFFFFFD02"
+    ],
+    "涂蜡的锈蚀雕纹铜块": [
+      "-767",
+      "FFFFFFFFFFFFFD01"
+    ],
+    "涂蜡的氧化雕纹铜块": [
+      "-768",
+      "FFFFFFFFFFFFFD00"
+    ],
+    "铜格栅": [
+      "-769"
+    ],
+    "斑驳的铜格栅": [
+      "-770"
+    ],
+    "锈蚀的铜格栅": [
+      "-771"
+    ],
+    "氧化的铜格栅": [
+      "-772"
+    ],
+    "涂蜡的铜格栅": [
+      "-773"
+    ],
+    "涂蜡的斑驳铜格栅": [
+      "-774"
+    ],
+    "涂蜡的锈蚀铜格栅": [
+      "-775",
+      "FFFFFFFFFFFFFCF9"
+    ],
+    "涂蜡的氧化铜格栅": [
+      "-776",
+      "FFFFFFFFFFFFFCF8"
+    ],
+    "铜灯 S": [
+      "-777",
+      "FFFFFFFFFFFFFCF7"
+    ],
+    "斑驳的铜灯 S": [
+      "-778",
+      "FFFFFFFFFFFFFCF6"
+    ],
+    "锈蚀的铜灯 S": [
+      "-779",
+      "FFFFFFFFFFFFFCF5"
+    ],
+    "氧化的铜灯 S": [
+      "-780",
+      "FFFFFFFFFFFFFCF4"
+    ],
+    "涂蜡的铜灯 S": [
+      "-781",
+      "FFFFFFFFFFFFFCF3"
+    ],
+    "涂蜡的斑驳铜灯 S": [
+      "-782",
+      "FFFFFFFFFFFFFCF2"
+    ],
+    "涂蜡的锈蚀铜灯 S": [
+      "-783",
+      "FFFFFFFFFFFFFCF1"
+    ],
+    "涂蜡的氧化铜灯 S": [
+      "-784",
+      "FFFFFFFFFFFFFCF0"
+    ],
+    "铜门 S": [
+      "-785"
+    ],
+    "斑驳的铜门 S": [
+      "-786"
+    ],
+    "锈蚀的铜门 S": [
+      "-787"
+    ],
+    "氧化的铜门 S": [
+      "-788"
+    ],
+    "涂蜡的铜门 S": [
+      "-789"
+    ],
+    "涂蜡的斑驳铜门 S": [
+      "-790"
+    ],
+    "涂蜡的锈蚀铜门 S": [
+      "-791",
+      "FFFFFFFFFFFFFCE9"
+    ],
+    "涂蜡的氧化铜门 S": [
+      "-792",
+      "FFFFFFFFFFFFFCE8"
+    ],
+    "铜活板门 S": [
+      "-793",
+      "FFFFFFFFFFFFFCE7"
+    ],
+    "斑驳的铜活板门 S": [
+      "-794",
+      "FFFFFFFFFFFFFCE6"
+    ],
+    "锈蚀的铜活板门 S": [
+      "-795",
+      "FFFFFFFFFFFFFCE5"
+    ],
+    "氧化的铜活板门 S": [
+      "-796",
+      "FFFFFFFFFFFFFCE4"
+    ],
+    "涂蜡的铜活板门 S": [
+      "-797",
+      "FFFFFFFFFFFFFCE3"
+    ],
+    "涂蜡的斑驳铜活板门 S": [
+      "-798",
+      "FFFFFFFFFFFFFCE2"
+    ],
+    "涂蜡的锈蚀铜活板门 S": [
+      "-799",
+      "FFFFFFFFFFFFFCE1"
+    ],
+    "涂蜡的氧化铜活板门 S": [
+      "-800",
+      "FFFFFFFFFFFFFCE0"
+    ],
+    "白桦树叶 S": [
+      "-802"
+    ],
+    "丛林树叶 S": [
+      "-803"
+    ],
+    "深色橡树树叶 S": [
+      "-804"
+    ],
+    "云杉木台阶 S": [
+      "-805"
+    ],
+    "白桦木台阶 S": [
+      "-806"
+    ],
+    "丛林木台阶 S": [
+      "-807",
+      "FFFFFFFFFFFFFCD9"
+    ],
+    "金合欢木台阶 S": [
+      "-808",
+      "FFFFFFFFFFFFFCD8"
+    ],
+    "深色橡木台阶 S": [
+      "-809",
+      "FFFFFFFFFFFFFCD7"
+    ],
+    "云杉木双层台阶 S": [
+      "-810",
+      "FFFFFFFFFFFFFCD6"
+    ],
+    "白桦木双层台阶 S": [
+      "-811",
+      "FFFFFFFFFFFFFCD5"
+    ],
+    "丛林木双层台阶 S": [
+      "-812",
+      "FFFFFFFFFFFFFCD4"
+    ],
+    "金合欢木双层台阶 S": [
+      "-813",
+      "FFFFFFFFFFFFFCD3"
+    ],
+    "深色橡木双层台阶 S": [
+      "-814",
+      "FFFFFFFFFFFFFCD2"
+    ],
+    "云杉木 S": [
+      "-815",
+      "FFFFFFFFFFFFFCD1"
+    ],
+    "白桦木 S": [
+      "-816",
+      "FFFFFFFFFFFFFCD0"
+    ],
+    "丛林木 S": [
+      "-817"
+    ],
+    "金合欢木 S": [
+      "-818"
+    ],
+    "深色橡木 S": [
+      "-819"
+    ],
+    "去皮橡木 S": [
+      "-820"
+    ],
+    "去皮云杉木 S": [
+      "-821"
+    ],
+    "去皮白桦木 S": [
+      "-822"
+    ],
+    "去皮丛林木 S": [
+      "-823",
+      "FFFFFFFFFFFFFCC9"
+    ],
+    "去皮金合欢木 S": [
+      "-824",
+      "FFFFFFFFFFFFFCC8"
+    ],
+    "去皮深色橡木 S": [
+      "-825",
+      "FFFFFFFFFFFFFCC7"
+    ],
+    "云杉树苗 S": [
+      "-826",
+      "FFFFFFFFFFFFFCC6"
+    ],
+    "白桦树苗 S": [
+      "-827",
+      "FFFFFFFFFFFFFCC5"
+    ],
+    "丛林树苗 S": [
+      "-828",
+      "FFFFFFFFFFFFFCC4"
+    ],
+    "金合欢树苗 S": [
+      "-829",
+      "FFFFFFFFFFFFFCC3"
+    ],
+    "深色橡树树苗 S": [
+      "-830",
+      "FFFFFFFFFFFFFCC2"
+    ],
+    "兰花": [
+      "-831",
+      "FFFFFFFFFFFFFCC1"
+    ],
+    "绒球葱": [
+      "-832",
+      "FFFFFFFFFFFFFCC0"
+    ],
+    "蓝花美耳草": [
+      "-833"
+    ],
+    "红色郁金香": [
+      "-834"
+    ],
+    "橙色郁金香": [
+      "-835"
+    ],
+    "白色郁金香": [
+      "-836"
+    ],
+    "粉红色郁金香": [
+      "-837"
+    ],
+    "滨菊": [
+      "-838"
+    ],
+    "矢车菊": [
+      "-839",
+      "FFFFFFFFFFFFFCB9"
+    ],
+    "铃兰": [
+      "-840",
+      "FFFFFFFFFFFFFCB8"
+    ],
+    "脑纹珊瑚扇 S": [
+      "-841",
+      "FFFFFFFFFFFFFCB7"
+    ],
+    "气泡珊瑚扇 S": [
+      "-842",
+      "FFFFFFFFFFFFFCB6"
+    ],
+    "火珊瑚扇 S": [
+      "-843",
+      "FFFFFFFFFFFFFCB5"
+    ],
+    "鹿角珊瑚扇 S": [
+      "-844",
+      "FFFFFFFFFFFFFCB4"
+    ],
+    "失活的脑纹珊瑚扇 S": [
+      "-845",
+      "FFFFFFFFFFFFFCB3"
+    ],
+    "失活的气泡珊瑚扇 S": [
+      "-846",
+      "FFFFFFFFFFFFFCB2"
+    ],
+    "失活的火珊瑚扇 S": [
+      "-847",
+      "FFFFFFFFFFFFFCB1"
+    ],
+    "失活的鹿角珊瑚扇 S": [
+      "-848",
+      "FFFFFFFFFFFFFCB0"
+    ],
+    "蕨": [
+      "-849"
+    ],
+    "脑纹珊瑚块": [
+      "-850"
+    ],
+    "火珊瑚块": [
+      "-852"
+    ],
+    "鹿角珊瑚块": [
+      "-853"
+    ],
+    "失活的管珊瑚块": [
+      "-854"
+    ],
+    "失活的脑纹珊瑚块": [
+      "-855",
+      "FFFFFFFFFFFFFCA9"
+    ],
+    "失活的气泡珊瑚块": [
+      "-856",
+      "FFFFFFFFFFFFFCA8"
+    ],
+    "失活的火珊瑚块": [
+      "-857",
+      "FFFFFFFFFFFFFCA7"
+    ],
+    "失活的鹿角珊瑚块": [
+      "-858",
+      "FFFFFFFFFFFFFCA6"
+    ],
+    "虫蚀圆石": [
+      "-859",
+      "FFFFFFFFFFFFFCA5"
+    ],
+    "虫蚀石砖": [
+      "-860",
+      "FFFFFFFFFFFFFCA4"
+    ],
+    "虫蚀苔石砖": [
+      "-861",
+      "FFFFFFFFFFFFFCA3"
+    ],
+    "虫蚀裂纹石砖": [
+      "-862",
+      "FFFFFFFFFFFFFCA2"
+    ],
+    "虫蚀雕纹石砖": [
+      "-863",
+      "FFFFFFFFFFFFFCA1"
+    ],
+    "丁香 S": [
+      "-864",
+      "FFFFFFFFFFFFFCA0"
+    ],
+    "高草丛 S": [
+      "-865",
+      "FFFFFFFFFFFFFC9F"
+    ],
+    "大型蕨 S": [
+      "-866",
+      "FFFFFFFFFFFFFC9E"
+    ],
+    "玫瑰丛 S": [
+      "-867",
+      "FFFFFFFFFFFFFC9D"
+    ],
+    "牡丹 S": [
+      "-868",
+      "FFFFFFFFFFFFFC9C"
+    ],
+    "苔石砖": [
+      "-869",
+      "FFFFFFFFFFFFFC9B"
+    ],
+    "裂纹石砖": [
+      "-870",
+      "FFFFFFFFFFFFFC9A"
+    ],
+    "雕纹石砖": [
+      "-871",
+      "FFFFFFFFFFFFFC99"
+    ],
+    "砂岩台阶 S": [
+      "-873",
+      "FFFFFFFFFFFFFC97"
+    ],
+    "圆石台阶 S": [
+      "-874",
+      "FFFFFFFFFFFFFC96"
+    ],
+    "红砖台阶 S": [
+      "-875",
+      "FFFFFFFFFFFFFC95"
+    ],
+    "石砖台阶 S": [
+      "-876",
+      "FFFFFFFFFFFFFC94"
+    ],
+    "石英台阶 S": [
+      "-877",
+      "FFFFFFFFFFFFFC93"
+    ],
+    "下界砖台阶 S": [
+      "-878",
+      "FFFFFFFFFFFFFC92"
+    ],
+    "砂岩双层台阶 S": [
+      "-879",
+      "FFFFFFFFFFFFFC91"
+    ],
+    "圆石双层台阶 S": [
+      "-880",
+      "FFFFFFFFFFFFFC90"
+    ],
+    "红砖双层台阶 S": [
+      "-881",
+      "FFFFFFFFFFFFFC8F"
+    ],
+    "石砖双层台阶 S": [
+      "-882",
+      "FFFFFFFFFFFFFC8E"
+    ],
+    "石英双层台阶 S": [
+      "-883",
+      "FFFFFFFFFFFFFC8D"
+    ],
+    "下界砖双层台阶 S": [
+      "-884",
+      "FFFFFFFFFFFFFC8C"
+    ],
+    "紫珀台阶 S": [
+      "-885",
+      "FFFFFFFFFFFFFC8B"
+    ],
+    "海晶石台阶 S": [
+      "-886",
+      "FFFFFFFFFFFFFC8A"
+    ],
+    "暗海晶石台阶 S": [
+      "-887",
+      "FFFFFFFFFFFFFC89"
+    ],
+    "海晶石砖台阶 S": [
+      "-888",
+      "FFFFFFFFFFFFFC88"
+    ],
+    "苔石台阶 S": [
+      "-889",
+      "FFFFFFFFFFFFFC87"
+    ],
+    "平滑砂岩台阶 S": [
+      "-890",
+      "FFFFFFFFFFFFFC86"
+    ],
+    "红色下界砖台阶 S": [
+      "-891",
+      "FFFFFFFFFFFFFC85"
+    ],
+    "平滑红砂岩台阶 S": [
+      "-892",
+      "FFFFFFFFFFFFFC84"
+    ],
+    "磨制安山岩台阶 S": [
+      "-893",
+      "FFFFFFFFFFFFFC83"
+    ],
+    "安山岩台阶 S": [
+      "-894",
+      "FFFFFFFFFFFFFC82"
+    ],
+    "闪长岩台阶 S": [
+      "-895",
+      "FFFFFFFFFFFFFC81"
+    ],
+    "磨制闪长岩台阶 S": [
+      "-896",
+      "FFFFFFFFFFFFFC80"
+    ],
+    "花岗岩台阶 S": [
+      "-897",
+      "FFFFFFFFFFFFFC7F"
+    ],
+    "磨制花岗岩台阶 S": [
+      "-898",
+      "FFFFFFFFFFFFFC7E"
+    ],
+    "平滑石英台阶 S": [
+      "-899",
+      "FFFFFFFFFFFFFC7D"
+    ],
+    "石头台阶 S": [
+      "-900",
+      "FFFFFFFFFFFFFC7C"
+    ],
+    "切制红砂岩台阶 S": [
+      "-902",
+      "FFFFFFFFFFFFFC7A"
+    ],
+    "石化橡木台阶S": [
+      "-903",
+      "FFFFFFFFFFFFFC79"
+    ],
+    "石化橡木双层台阶S": [
+      "-904",
+      "FFFFFFFFFFFFFC78"
+    ],
+    "墙上的脑纹珊瑚扇 S": [
+      "-905",
+      "FFFFFFFFFFFFFC77"
+    ],
+    "墙上的失活管珊瑚扇 S": [
+      "-906",
+      "FFFFFFFFFFFFFC76"
+    ],
+    "墙上的失活脑纹珊瑚扇 S": [
+      "-907",
+      "FFFFFFFFFFFFFC75"
+    ],
+    "墙上的火珊瑚扇 S": [
+      "-908",
+      "FFFFFFFFFFFFFC74"
+    ],
+    "墙上的失活气泡珊瑚扇 S": [
+      "-909",
+      "FFFFFFFFFFFFFC73"
+    ],
+    "墙上的失活火珊瑚扇 S": [
+      "-910",
+      "FFFFFFFFFFFFFC72"
+    ],
+    "墙上的失活鹿角珊瑚扇 S": [
+      "-911",
+      "FFFFFFFFFFFFFC71"
+    ],
+    "紫珀双层台阶 S": [
+      "-912",
+      "FFFFFFFFFFFFFC70"
+    ],
+    "海晶石双层台阶 S": [
+      "-913",
+      "FFFFFFFFFFFFFC6F"
+    ],
+    "暗海晶石双层台阶 S": [
+      "-914",
+      "FFFFFFFFFFFFFC6E"
+    ],
+    "海晶石砖双层台阶 S": [
+      "-915",
+      "FFFFFFFFFFFFFC6D"
+    ],
+    "苔石双层台阶 S": [
+      "-916",
+      "FFFFFFFFFFFFFC6C"
+    ],
+    "平滑砂岩双层台阶 S": [
+      "-917",
+      "FFFFFFFFFFFFFC6B"
+    ],
+    "红色下界砖双层台阶 S": [
+      "-918",
+      "FFFFFFFFFFFFFC6A"
+    ],
+    "平滑红砂岩双层台阶 S": [
+      "-919",
+      "FFFFFFFFFFFFFC69"
+    ],
+    "磨制安山岩双层台阶 S": [
+      "-920",
+      "FFFFFFFFFFFFFC68"
+    ],
+    "安山岩双层台阶 S": [
+      "-921",
+      "FFFFFFFFFFFFFC67"
+    ],
+    "闪长岩双层台阶 S": [
+      "-922",
+      "FFFFFFFFFFFFFC66"
+    ],
+    "磨制闪长岩双层台阶 S": [
+      "-923",
+      "FFFFFFFFFFFFFC65"
+    ],
+    "花岗岩双层台阶 S": [
+      "-924",
+      "FFFFFFFFFFFFFC64"
+    ],
+    "磨制花岗岩双层台阶 S": [
+      "-925",
+      "FFFFFFFFFFFFFC63"
+    ],
+    "平滑石英双层台阶 S": [
+      "-926",
+      "FFFFFFFFFFFFFC62"
+    ],
+    "石头双层台阶 S": [
+      "-927",
+      "FFFFFFFFFFFFFC61"
+    ],
+    "切制砂岩双层台阶 S": [
+      "-928",
+      "FFFFFFFFFFFFFC60"
+    ],
+    "切制红砂岩双层台阶 S": [
+      "-929",
+      "FFFFFFFFFFFFFC5F",
+      "light_block_1",
+      "光源方块 （亮度1）",
+      "-930",
+      "FFFFFFFFFFFFFC5E",
+      "light_block_2",
+      "光源方块 （亮度2）",
+      "-931",
+      "FFFFFFFFFFFFFC5D",
+      "light_block_3",
+      "光源方块 （亮度3）",
+      "-932",
+      "FFFFFFFFFFFFFC5C",
+      "light_block_4",
+      "光源方块 （亮度4）",
+      "-933",
+      "FFFFFFFFFFFFFC5B",
+      "light_block_5",
+      "光源方块 （亮度5）",
+      "-934",
+      "FFFFFFFFFFFFFC5A",
+      "light_block_6",
+      "光源方块 （亮度6）",
+      "-935",
+      "FFFFFFFFFFFFFC59",
+      "light_block_7",
+      "光源方块 （亮度7）",
+      "-936",
+      "FFFFFFFFFFFFFC58",
+      "light_block_8",
+      "光源方块 （亮度8）",
+      "-937",
+      "FFFFFFFFFFFFFC57",
+      "light_block_9",
+      "光源方块 （亮度9）",
+      "-938",
+      "FFFFFFFFFFFFFC56",
+      "light_block_10",
+      "光源方块 （亮度10）",
+      "-939",
+      "FFFFFFFFFFFFFC55",
+      "light_block_11",
+      "光源方块 （亮度11）",
+      "-940",
+      "FFFFFFFFFFFFFC54",
+      "light_block_12",
+      "光源方块 （亮度12）",
+      "-941",
+      "FFFFFFFFFFFFFC53",
+      "light_block_13",
+      "光源方块 （亮度13）",
+      "-942",
+      "FFFFFFFFFFFFFC52",
+      "light_block_14",
+      "光源方块 （亮度14）",
+      "-943",
+      "FFFFFFFFFFFFFC51",
+      "light_block_15",
+      "光源方块 （亮度15）",
+      "-944",
+      "FFFFFFFFFFFFFC50"
+    ],
+    "雕纹砂岩": [
+      "-945",
+      "FFFFFFFFFFFFFC4F"
+    ],
+    "切制砂岩": [
+      "-946",
+      "FFFFFFFFFFFFFC4E"
+    ],
+    "平滑砂岩": [
+      "-947",
+      "FFFFFFFFFFFFFC4D"
+    ],
+    "暗海晶石": [
+      "-948",
+      "FFFFFFFFFFFFFC4C"
+    ],
+    "海晶石砖": [
+      "-949",
+      "FFFFFFFFFFFFFC4B"
+    ],
+    "红沙": [
+      "-950",
+      "FFFFFFFFFFFFFC4A",
+      "deprecated_purpur_block_1"
+    ],
+    "紫珀柱 S": [
+      "-952",
+      "FFFFFFFFFFFFFC48",
+      "deprecated_purpur_block_2"
+    ],
+    "平滑紫珀块": [
+      "-953",
+      "FFFFFFFFFFFFFC47"
+    ],
+    "雕纹石英块": [
+      "-954",
+      "FFFFFFFFFFFFFC46"
+    ],
+    "石英柱 S": [
+      "-955",
+      "FFFFFFFFFFFFFC45"
+    ],
+    "平滑石英块": [
+      "-956",
+      "FFFFFFFFFFFFFC44"
+    ],
+    "雕纹红砂岩": [
+      "-957",
+      "FFFFFFFFFFFFFC43"
+    ],
+    "切制红砂岩": [
+      "-958",
+      "FFFFFFFFFFFFFC42"
+    ],
+    "平滑红砂岩": [
+      "-959",
+      "FFFFFFFFFFFFFC41"
+    ],
+    "开裂的铁砧 S": [
+      "-960",
+      "FFFFFFFFFFFFFC40"
+    ],
+    "损坏的铁砧 S": [
+      "-961",
+      "FFFFFFFFFFFFFC3F"
+    ],
+    "破碎的铁砧S": [
+      "-962",
+      "FFFFFFFFFFFFFC3E"
+    ],
+    "砂土": [
+      "-963",
+      "FFFFFFFFFFFFFC3D"
+    ],
+    "绿色火把 S": [
+      "-964",
+      "FFFFFFFFFFFFFC3C"
+    ],
+    "紫色火把 S": [
+      "-965",
+      "FFFFFFFFFFFFFC3B"
+    ],
+    "凋灵骷髅头颅 S": [
+      "-966",
+      "FFFFFFFFFFFFFC3A"
+    ],
+    "僵尸的头 S": [
+      "-967",
+      "FFFFFFFFFFFFFC39"
+    ],
+    "玩家的头 S": [
+      "-968",
+      "FFFFFFFFFFFFFC38"
+    ],
+    "苦力怕的头 S": [
+      "-969",
+      "FFFFFFFFFFFFFC37"
+    ],
+    "龙首 S": [
+      "-970",
+      "FFFFFFFFFFFFFC36"
+    ],
+    "猪灵的头 S": [
+      "-971",
+      "FFFFFFFFFFFFFC35"
+    ],
+    "苔石墙 S": [
+      "-972",
+      "FFFFFFFFFFFFFC34"
+    ],
+    "花岗岩墙 S": [
+      "-973",
+      "FFFFFFFFFFFFFC33"
+    ],
+    "闪长岩墙 S": [
+      "-974",
+      "FFFFFFFFFFFFFC32"
+    ],
+    "安山岩墙 S": [
+      "-975",
+      "FFFFFFFFFFFFFC31"
+    ],
+    "砂岩墙 S": [
+      "-976",
+      "FFFFFFFFFFFFFC30"
+    ],
+    "红砖墙 S": [
+      "-977",
+      "FFFFFFFFFFFFFC2F"
+    ],
+    "石砖墙 S": [
+      "-978",
+      "FFFFFFFFFFFFFC2E"
+    ],
+    "苔石砖墙 S": [
+      "-979",
+      "FFFFFFFFFFFFFC2D"
+    ],
+    "下界砖墙 S": [
+      "-980",
+      "FFFFFFFFFFFFFC2C"
+    ],
+    "末地石砖墙 S": [
+      "-981",
+      "FFFFFFFFFFFFFC2B"
+    ],
+    "海晶石墙 S": [
+      "-982",
+      "FFFFFFFFFFFFFC2A"
+    ],
+    "红砂岩墙 S": [
+      "-983",
+      "FFFFFFFFFFFFFC29"
+    ],
+    "红色下界砖墙 S": [
+      "-984",
+      "FFFFFFFFFFFFFC28"
+    ],
+    "湿海绵": [
+      "-985",
+      "FFFFFFFFFFFFFC27"
+    ],
+    "水下TNT S": [
+      "-986",
+      "FFFFFFFFFFFFFC26"
+    ],
+    "材料分解器 SE": [
+      "-987",
+      "FFFFFFFFFFFFFC25"
+    ],
+    "元素构造器 SE": [
+      "-988",
+      "FFFFFFFFFFFFFC24"
+    ],
+    "实验台 SE": [
+      "-989",
+      "FFFFFFFFFFFFFC23"
+    ],
+    "苍白橡木按钮 S": [
+      "-990",
+      "FFFFFFFFFFFFFC22"
+    ],
+    "苍白橡木门 S": [
+      "-991",
+      "FFFFFFFFFFFFFC21"
+    ],
+    "苍白橡木栅栏 S": [
+      "-992",
+      "FFFFFFFFFFFFFC20"
+    ],
+    "苍白橡木栅栏门 S": [
+      "-993",
+      "FFFFFFFFFFFFFC1F"
+    ],
+    "悬挂式苍白橡木告示牌 SE": [
+      "-994",
+      "FFFFFFFFFFFFFC1E"
+    ],
+    "去皮苍白橡木原木 S": [
+      "-995",
+      "FFFFFFFFFFFFFC1D"
+    ],
+    "苍白橡木原木 S": [
+      "-996",
+      "FFFFFFFFFFFFFC1C"
+    ],
+    "苍白橡木木板": [
+      "-997",
+      "FFFFFFFFFFFFFC1B"
+    ],
+    "苍白橡木压力板 S": [
+      "-998",
+      "FFFFFFFFFFFFFC1A"
+    ],
+    "苍白橡木台阶 S": [
+      "-999",
+      "FFFFFFFFFFFFFC19"
+    ],
+    "苍白橡木双层台阶 S": [
+      "-1000",
+      "FFFFFFFFFFFFFC18"
+    ],
+    "苍白橡木告示牌ISE": [
+      "-1002",
+      "FFFFFFFFFFFFFC16"
+    ],
+    "苍白橡木活板门 S": [
+      "-1003",
+      "FFFFFFFFFFFFFC15"
+    ],
+    "墙上的苍白橡木告示牌 ISE": [
+      "-1004",
+      "FFFFFFFFFFFFFC14"
+    ],
+    "去皮苍白橡木 S": [
+      "-1005",
+      "FFFFFFFFFFFFFC13"
+    ],
+    "苍白橡木 S": [
+      "-1006",
+      "FFFFFFFFFFFFFC12"
+    ],
+    "苍白橡树树苗 S": [
+      "-1007",
+      "FFFFFFFFFFFFFC11"
+    ],
+    "苍白橡树树叶 S": [
+      "-1008",
+      "FFFFFFFFFFFFFC10"
+    ],
+    "蘑菇柄 S": [
+      "-1009",
+      "FFFFFFFFFFFFFC0F"
+    ],
+    "苍白苔藓块": [
+      "-1010",
+      "FFFFFFFFFFFFFC0E"
+    ],
+    "苍白覆地苔藓 S": [
+      "-1011",
+      "FFFFFFFFFFFFFC0D"
+    ],
+    "苍白垂须 S": [
+      "-1012",
+      "FFFFFFFFFFFFFC0C"
+    ],
+    "嘎枝之心 SE": [
+      "-1013",
+      "FFFFFFFFFFFFFC0B"
+    ],
+    "树脂砖块": [
+      "-1014",
+      "FFFFFFFFFFFFFC0A"
+    ],
+    "树脂砖台阶 S": [
+      "-1015",
+      "FFFFFFFFFFFFFC09"
+    ],
+    "树脂砖双层台阶 S": [
+      "-1016",
+      "FFFFFFFFFFFFFC08"
+    ],
+    "树脂砖楼梯 S": [
+      "-1017",
+      "FFFFFFFFFFFFFC07"
+    ],
+    "树脂砖墙 S": [
+      "-1018",
+      "FFFFFFFFFFFFFC06"
+    ],
+    "张开的眼眸花": [
+      "-1019",
+      "FFFFFFFFFFFFFC05"
+    ],
+    "闭合的眼眸花": [
+      "-1020",
+      "FFFFFFFFFFFFFC04"
+    ],
+    "雕纹树脂砖块": [
+      "-1021",
+      "FFFFFFFFFFFFFC03"
+    ],
+    "树脂块": [
+      "-1022",
+      "FFFFFFFFFFFFFC02"
+    ],
+    "树脂团 S": [
+      "-1023",
+      "FFFFFFFFFFFFFC01"
+    ],
+    "灌木丛": [
+      "-1024",
+      "FFFFFFFFFFFFFC00"
+    ],
+    "野花簇 S": [
+      "-1025"
+    ],
+    "萤火虫灌木丛": [
+      "-1026"
+    ],
+    "枯叶堆 S": [
+      "-1027"
+    ],
+    "失水恶魂 S": [
+      "-1028"
+    ],
+    "矮枯草丛": [
+      "-1029"
+    ],
+    "高枯草丛": [
+      "-1030"
+    ],
+    "仙人掌花": [
+      "-1031",
+      "FFFFFFFFFFFFFBF9"
+    ],
+    "铜箱子 SE": [
+      "-1032",
+      "FFFFFFFFFFFFFBF8"
+    ],
+    "斑驳的铜箱子 SE": [
+      "-1033",
+      "FFFFFFFFFFFFFBF7"
+    ],
+    "锈蚀的铜箱子 SE": [
+      "-1034",
+      "FFFFFFFFFFFFFBF6"
+    ],
+    "氧化的铜箱子 SE": [
+      "-1035",
+      "FFFFFFFFFFFFFBF5"
+    ],
+    "涂蜡的铜箱子 SE": [
+      "-1036",
+      "FFFFFFFFFFFFFBF4"
+    ],
+    "涂蜡的斑驳铜箱子 SE": [
+      "-1037",
+      "FFFFFFFFFFFFFBF3"
+    ],
+    "涂蜡的锈蚀铜箱子 SE": [
+      "-1038",
+      "FFFFFFFFFFFFFBF2"
+    ],
+    "涂蜡的氧化铜箱子 SE": [
+      "-1039",
+      "FFFFFFFFFFFFFBF1"
+    ],
+    "铜傀儡像 SE": [
+      "-1040",
+      "FFFFFFFFFFFFFBF0"
+    ],
+    "斑驳的铜傀儡像 SE": [
+      "-1041"
+    ],
+    "锈蚀的铜傀儡像 SE": [
+      "-1042"
+    ],
+    "氧化的铜傀儡像 SE": [
+      "-1043"
+    ],
+    "涂蜡的铜傀儡像 SE": [
+      "-1044"
+    ],
+    "涂蜡的斑驳铜傀儡像 SE": [
+      "-1045"
+    ],
+    "涂蜡的锈蚀铜傀儡像 SE": [
+      "-1046"
+    ],
+    "涂蜡的氧化铜傀儡像 SE": [
+      "-1047",
+      "FFFFFFFFFFFFFBE9"
+    ],
+    "橡木展示架 SE": [
+      "-1048",
+      "FFFFFFFFFFFFFBE8"
+    ],
+    "云杉木展示架 SE": [
+      "-1049",
+      "FFFFFFFFFFFFFBE7"
+    ],
+    "白桦木展示架 SE": [
+      "-1050",
+      "FFFFFFFFFFFFFBE6"
+    ],
+    "金合欢木展示架 SE": [
+      "-1052",
+      "FFFFFFFFFFFFFBE4"
+    ],
+    "深色橡木展示架 SE": [
+      "-1053",
+      "FFFFFFFFFFFFFBE3"
+    ],
+    "红树木展示架 SE": [
+      "-1054",
+      "FFFFFFFFFFFFFBE2"
+    ],
+    "樱花木展示架 SE": [
+      "-1055",
+      "FFFFFFFFFFFFFBE1"
+    ],
+    "苍白橡木展示架 SE": [
+      "-1056",
+      "FFFFFFFFFFFFFBE0"
+    ],
+    "竹展示架 SE": [
+      "-1057"
+    ],
+    "绯红木展示架 SE": [
+      "-1058"
+    ],
+    "诡异木展示架 SE": [
+      "-1059"
+    ],
+    "斑驳的避雷针 S": [
+      "-1060"
+    ],
+    "锈蚀的避雷针 S": [
+      "-1061"
+    ],
+    "氧化的避雷针 S": [
+      "-1062"
+    ],
+    "涂蜡的避雷针 S": [
+      "-1063",
+      "FFFFFFFFFFFFFBD9"
+    ],
+    "涂蜡的斑驳避雷针 S": [
+      "-1064",
+      "FFFFFFFFFFFFFBD8"
+    ],
+    "涂蜡的锈蚀避雷针 S": [
+      "-1065",
+      "FFFFFFFFFFFFFBD7"
+    ],
+    "涂蜡的氧化避雷针 S": [
+      "-1066",
+      "FFFFFFFFFFFFFBD6"
+    ],
+    "铜栏杆 S": [
+      "-1067",
+      "FFFFFFFFFFFFFBD5"
+    ],
+    "斑驳的铜栏杆 S": [
+      "-1068",
+      "FFFFFFFFFFFFFBD4"
+    ],
+    "锈蚀的铜栏杆 S": [
+      "-1069",
+      "FFFFFFFFFFFFFBD3"
+    ],
+    "氧化的铜栏杆 S": [
+      "-1070",
+      "FFFFFFFFFFFFFBD2"
+    ],
+    "涂蜡的铜栏杆 S": [
+      "-1071",
+      "FFFFFFFFFFFFFBD1"
+    ],
+    "涂蜡的斑驳铜栏杆 S": [
+      "-1072",
+      "FFFFFFFFFFFFFBD0"
+    ],
+    "涂蜡的锈蚀铜栏杆 S": [
+      "-1073"
+    ],
+    "涂蜡的氧化铜栏杆 S": [
+      "-1074"
+    ],
+    "铜链 S": [
+      "-1075"
+    ],
+    "斑驳的铜链 S": [
+      "-1076"
+    ],
+    "锈蚀的铜链 S": [
+      "-1077"
+    ],
+    "氧化的铜链 S": [
+      "-1078"
+    ],
+    "涂蜡的铜链 S": [
+      "-1079",
+      "FFFFFFFFFFFFFBC9"
+    ],
+    "涂蜡的斑驳铜链 S": [
+      "-1080",
+      "FFFFFFFFFFFFFBC8"
+    ],
+    "涂蜡的锈蚀铜链 S": [
+      "-1081",
+      "FFFFFFFFFFFFFBC7"
+    ],
+    "涂蜡的氧化铜链 S": [
+      "-1082",
+      "FFFFFFFFFFFFFBC6"
+    ],
+    "铜火把 S": [
+      "-1083",
+      "FFFFFFFFFFFFFBC5"
+    ],
+    "铜灯笼 S": [
+      "-1084",
+      "FFFFFFFFFFFFFBC4"
+    ],
+    "斑驳的铜灯笼 S": [
+      "-1085",
+      "FFFFFFFFFFFFFBC3"
+    ],
+    "锈蚀的铜灯笼 S": [
+      "-1086",
+      "FFFFFFFFFFFFFBC2"
+    ],
+    "氧化的铜灯笼 S": [
+      "-1087",
+      "FFFFFFFFFFFFFBC1"
+    ],
+    "涂蜡的铜灯笼 S": [
+      "-1088",
+      "FFFFFFFFFFFFFBC0"
+    ],
+    "涂蜡的斑驳铜灯笼 S": [
+      "-1089"
+    ],
+    "涂蜡的锈蚀铜灯笼 S": [
+      "-1090"
+    ],
+    "涂蜡的氧化铜灯笼 S": [
+      "-1091"
+    ],
+    "金蒲公英": [
+      "-1092"
+    ],
+    "硫黄": [
+      "-1093"
+    ],
+    "硫黄台阶 S": [
+      "-1094"
+    ],
+    "硫黄双层台阶 S": [
+      "-1095",
+      "FFFFFFFFFFFFFBB9"
+    ],
+    "硫黄楼梯 S": [
+      "-1096",
+      "FFFFFFFFFFFFFBB8"
+    ],
+    "硫黄墙 S": [
+      "-1097",
+      "FFFFFFFFFFFFFBB7"
+    ],
+    "磨制硫黄": [
+      "-1098",
+      "FFFFFFFFFFFFFBB6"
+    ],
+    "磨制硫黄台阶 S": [
+      "-1099",
+      "FFFFFFFFFFFFFBB5"
+    ],
+    "磨制硫黄双层台阶 S": [
+      "-1100",
+      "FFFFFFFFFFFFFBB4"
+    ],
+    "磨制硫黄墙 S": [
+      "-1102",
+      "FFFFFFFFFFFFFBB2"
+    ],
+    "硫黄砖": [
+      "-1103",
+      "FFFFFFFFFFFFFBB1"
+    ],
+    "硫黄砖台阶 S": [
+      "-1104",
+      "FFFFFFFFFFFFFBB0"
+    ],
+    "硫黄砖双层台阶 S": [
+      "-1105"
+    ],
+    "硫黄砖楼梯 S": [
+      "-1106"
+    ],
+    "硫黄砖墙 S": [
+      "-1107"
+    ],
+    "雕纹硫黄": [
+      "-1108"
+    ],
+    "烈性硫黄 E": [
+      "-1109"
+    ],
+    "朱砂": [
+      "-1110"
+    ],
+    "朱砂台阶 S": [
+      "-1111",
+      "FFFFFFFFFFFFFBA9"
+    ],
+    "朱砂双层台阶 S": [
+      "-1112",
+      "FFFFFFFFFFFFFBA8"
+    ],
+    "朱砂楼梯 S": [
+      "-1113",
+      "FFFFFFFFFFFFFBA7"
+    ],
+    "朱砂墙 S": [
+      "-1114",
+      "FFFFFFFFFFFFFBA6"
+    ],
+    "磨制朱砂": [
+      "-1115",
+      "FFFFFFFFFFFFFBA5"
+    ],
+    "磨制朱砂台阶 S": [
+      "-1116",
+      "FFFFFFFFFFFFFBA4"
+    ],
+    "磨制朱砂双层台阶 S": [
+      "-1117",
+      "FFFFFFFFFFFFFBA3"
+    ],
+    "磨制朱砂楼梯 S": [
+      "-1118",
+      "FFFFFFFFFFFFFBA2"
+    ],
+    "磨制朱砂墙 S": [
+      "-1119",
+      "FFFFFFFFFFFFFBA1"
+    ],
+    "朱砂砖": [
+      "-1120",
+      "FFFFFFFFFFFFFBA0"
+    ],
+    "朱砂砖台阶 S": [
+      "-1121",
+      "FFFFFFFFFFFFFB9F"
+    ],
+    "朱砂砖双层台阶 S": [
+      "-1122",
+      "FFFFFFFFFFFFFB9E"
+    ],
+    "朱砂砖楼梯 S": [
+      "-1123",
+      "FFFFFFFFFFFFFB9D"
+    ],
+    "朱砂砖墙 S": [
+      "-1124",
+      "FFFFFFFFFFFFFB9C"
+    ],
+    "雕纹朱砂": [
+      "摄像机（方块）在一些服务器软件中可以通过/give命令获得。",
+      "物品栏中空槽位对应的ID。",
+      "任何无效ID的默认方块。",
+      "以下方块在物品栏中的ID与在被作为方块时的ID不同："
+    ]
+  }
+}

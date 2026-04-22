@@ -1,0 +1,5 @@
+{
+  "title": "Earth:羊毛牛",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E7%BE%8A%E6%AF%9B%E7%89%9B",
+  "text": "本条目介绍的是Minecraft Earth中的羊毛牛。关于Minecraft Dungeons中的同名生物，请见“MCD:羊毛牛”。\n羊毛牛\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：1.4格\n宽度：0.9格\n实体ID\n?\n呼，苔原生物群系里面好冷呀，但是这头羊毛牛有着一身漂亮的毛茸茸的毛，可以让它保持温暖舒适。从羊毛牛身上可以剪取漂亮的棕色羊毛，后者可以用来进行合成。\n——Minecraft Earth内描述\n羊毛牛（Wooly Cow）是牛长满羊毛的高原变种。它们有着罕见级的稀有度。\n获取\n羊毛牛作为罕见级别的生物在牛可点击物中以4.9%的概率获得。\n行为\n主条目：牛 § 行为\n与普通的牛相似，它们会漫无目的地四处游荡，偶尔发出喘气声和叫声。它们会躲避水、熔岩以及足以造成摔落伤害的悬崖。它们会在受伤后在逃窜数秒。\n与普通的牛不同的是，羊毛牛会在死亡或对其使用剪刀后掉落棕色羊毛。羊毛牛可以左右摇摆。有时它们被剪毛后，会轻微摇摆并重新长出羊毛。\n掉落物\n成年羊毛牛死亡时会掉落：\n0-2 皮革\n1-3 生牛肉（死于火焰伤害时为熟牛肉）\n1 棕色羊毛（若尚未重新长出羊毛则不会掉落）\n对其使用剪刀会掉落：\n1-2 棕色羊毛\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.cow.say\n死亡\nmob.cow.hurt\n受伤\nmob.cow.hurt\n被挤奶\nmob.cow.milk\n行走\nmob.cow.step\n准备\nSFX_wooly_cow_prep\n摇晃脑袋\nSFX_wooly_cow_shake\n数据值\nID\n名称\n命名空间ID\n本地化键名\n羊毛牛\nwooly_cow\nentity.wooly_cow.name\n历史\nMinecraft Earth\n0.12.0\n加入了羊毛牛。\n你知道吗\n羊毛牛与现实中的苏格兰高原牛相似。\n参见\n阴影牛\n导航"
+}

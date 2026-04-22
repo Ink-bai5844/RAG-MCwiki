@@ -1,0 +1,24 @@
+{
+  "title": "下落的方块/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%8B%E8%90%BD%E7%9A%84%E6%96%B9%E5%9D%97%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source"
+    ],
+    "*": [
+      "*BlockState：此下落的方块实体存储的方块。如果设置为空气，则游戏立刻清除此实体。未指定或数据无效时默认为沙子。",
+      "方块状态，见Template:Nbt inherit/block state/source",
+      "*CancelDrop：表示下落的方块是否在落地时立刻被破坏且不放置方块或掉落任何物品。",
+      "*DropItem：（默认为true）表示下落的方块落地无法放置方块而被破坏时是否要掉落物品。如果存储的方块没有对应的方块物品，即使此值设置为true也不会掉落物品。",
+      "FallHurtAmount：（默认为0，*",
+      "*HurtEntities为true时存在并有效）下落的方块每下落一格增加的伤害。",
+      "FallHurtMax：（默认为40，*",
+      "*HurtEntities为true时存在并有效）被这个下落的方块砸中的实体所承受的最大伤害。",
+      "*HurtEntities：（默认为false，但*",
+      "*BlockState指定的方块属于方块标签#anvil时，默认为true）表示是否要对它碰到的实体造成伤害。如果此项为false，但方块本身带有#anvil标签，那么游戏会尝试对碰到它的实体进行伤害，但伤害初始值为0。",
+      "TileEntityData：存储方块的方块实体数据。",
+      "见方块实体数据格式。不包含id、x、y、z。",
+      "*Time：下落的方块已存在的时间，生成时设为0，每游戏刻增加1。当此值超过600游戏刻（30秒），或者处于世界建造高度之外且此值超过100游戏刻（5秒）时，下落的方块就会被删除。"
+    ]
+  }
+}

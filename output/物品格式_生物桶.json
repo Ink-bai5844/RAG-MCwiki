@@ -1,0 +1,5 @@
+{
+  "title": "物品格式/生物桶",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E6%A0%BC%E5%BC%8F%2F%E7%94%9F%E7%89%A9%E6%A1%B6",
+  "text": "Glowing：表示桶中生物是否有发光的轮廓线。\nHealth：桶中生物的生命值。\nInvulnerable：表示桶中生物是否能抵抗绝大多数伤害。\nNoAI：表示桶中生物的AI是否被禁用。\nNoGravity：表示桶中生物是否不受重力影响。\nSilent：表示桶中生物是否不会发出任何声音。\n如果桶中生物是热带鱼，则有下列1个额外标签：\nBucketVariantTag：桶中热带鱼的种类数据。\n如果桶中生物是其他鱼类，则不存在额外标签。\n如果桶中生物是蝌蚪，则有下列1个额外标签：\nAge：桶中蝌蚪的年龄。大于等于24000时，蝌蚪会长大成青蛙。\n如果桶中生物是美西螈，则有下列3个额外标签：\nAge：桶中美西螈的年龄。生物为幼体时为负值；生物为成体时为正值或0，如果为正值则表示距离生物能再次繁衍的时间。\nHuntingCooldown：桶中美西螈生物记忆has_hunting_cooldown的过期倒计时。\nVariant：美西螈变种的ID。"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "红石比较器/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BA%A2%E7%9F%B3%E6%AF%94%E8%BE%83%E5%99%A8%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source"
+    ],
+    "*": [
+      "*OutputSignal：表示此红石比较器的模拟信号输出强度。"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "命令/changesetting",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fchangesetting",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "需要的权限等级": [
+      "4"
+    ],
+    "仅专用服务端": [
+      "在基岩版专用服务器（BDS）上运行时更改服务器设置。",
+      "只能在BDS控制台运行。"
+    ],
+    "语法": [
+      "changesetting allow-cheats <value: Boolean>",
+      "changesetting difficulty <value: Difficulty>",
+      "changesetting difficulty <value: int>"
+    ],
+    "参数": [
+      "value: Difficulty：enum或value: int：int",
+      "指定一个新的难度，必须是下面的一种：",
+      "peaceful（可替换为p或0）为和平难度",
+      "easy（可替换为e或1）为简单难度",
+      "normal（可替换为n或2）为普通难度",
+      "hard（可替换为h或3）为困难难度",
+      "value: Boolean：enum",
+      "指定服务器是否允许作弊。",
+      "必须为 布尔值（true或false）。"
+    ],
+    "示例": [
+      "指定一个新的难度为“困难”：/changesetting difficulty h",
+      "指定服务器允许作弊：/changesetting allow-cheats true"
+    ],
+    "?": [
+      "加入了/changesetting。"
+    ]
+  }
+}

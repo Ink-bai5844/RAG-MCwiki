@@ -1,0 +1,91 @@
+{
+  "title": "携带版Demo",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%90%BA%E5%B8%A6%E7%89%88Demo",
+  "structured_content": {
+    "默认分类": [
+      "关于携带版的演示版，请见“携带版Lite”。",
+      "此条目记录了仅私下发布过的版本。",
+      "尽管它未公开发布过，但有证据证明这个版本的确存在。"
+    ],
+    "开发时间": [
+      "2010或2011年",
+      "0.1.0►►"
+    ],
+    "Wiki上有本次更新的指南！": [
+      "见携带版指南/Demo版本以查看Demo版本的指南。",
+      "见携带版指南/Demo版本以查看Demo版本的指南。",
+      "Notch在E3 2011上游玩携带版Demo",
+      "携带版Demo（Minecraft - Pocket Edition Demo）是首个已知的有关携带版的测试版本。此版本从未公开发布，但其中的一个版本可以在2011年的E3电子娱乐展上游玩到，其被用于提供给许多个体进行私人的测试和展示。"
+    ],
+    "树叶": [
+      "加入了橡树、白桦与云杉树叶。",
+      "暂时只能通过编辑器获取。"
+    ],
+    "羊毛": [
+      "加入了除白色以外的15种颜色的羊毛。"
+    ],
+    "草方块": [
+      "暂时只能通过编辑器获取。"
+    ],
+    "木板": [
+      "此时只有橡木木板一种类型。"
+    ],
+    "原木": [
+      "加入了橡木、白桦与云杉原木。",
+      "白桦与云杉原木暂时只能通过编辑器获得。"
+    ],
+    "花": [
+      "加入了玫瑰与蒲公英。",
+      "由于硬件问题，玫瑰暂时是青色的。"
+    ],
+    "蘑菇": [
+      "加入了红色与棕色蘑菇。"
+    ],
+    "TNT": [
+      "暂时只能通过编辑器获取。通过编辑得到的TNT点燃后会发出烟雾粒子并消失。"
+    ],
+    "台阶": [
+      "加入了石台阶。"
+    ],
+    "雪": [
+      "暂时只能通过编辑器获取。"
+    ],
+    "玩家": [
+      "名称为“Steve”。"
+    ],
+    "树木": [
+      "加入了橡树、白桦和云杉。"
+    ],
+    "物品栏": [
+      "外观更小，并且有8个快捷栏与1个用于打开物品栏的按键。",
+      "方块在物品形式下显示为它们自身的单面纹理。如果方块有多个纹理，会使用侧面的纹理。"
+    ],
+    "早期版本": [
+      "YouTube视频中出现了一个更早期的Demo版本，其与E3 2011上展示的版本有些许差异：",
+      "此版本没有打开物品栏的按键，取而代之的是铁块。此外，梯子在快捷栏的第9个槽位上，而E3上展示的版本在第8个槽位。",
+      "当玩家将十字准星对准方块时，方块不会显示白色边框。",
+      "水的纹理似乎与E3上展示的版本不同，然而这可能只是由于硬件问题。"
+    ],
+    "你知道吗": [
+      "第一个内部版本只有ASCII渲染器。"
+    ],
+    "Notch手持Xperia Play游玩携带版Demo": [
+      "E3 2011现场，背景中有一个正在展示携带版Demo的屏幕",
+      "Notch在E3 2011上建造房屋"
+    ],
+    "游戏视频": [
+      "Minecraft - Pocket Edition on Xperia Play，来自Minecraft。YouTube，2011年5月25日。",
+      "Minecraft gameplay on Xperia PLAY，来自Sony Ericsson Developer World。YouTube，2011年6月2日。",
+      "Notch Plays Minecraft PE (Pocket Edition) At E3 2011 With Minecraft Chick，来自projectrooster。YouTube，2011年6月8日。",
+      "The Shaft @ E3 2011 - Minecraft Pocket Edition，来自Dead Workers Party。YouTube，2011年6月14日。",
+      "E3: Minecraft for the Xperia Play Demo，来自Adam Savage’s Tested。YouTube，2011年6月20日。",
+      "Xperia PLAY - Minecraft: Pocket Edition Demo at E3 2011，来自TheAverageGamerVids。YouTube，2011年8月12日。",
+      "\"E3 11: Minecraft Pocket Edition\"，Gamereactor，2011年6月28日"
+    ],
+    "参考": [
+      "Minecraft - Pocket Edition on Xperia Play，来自Minecraft。YouTube，2011年5月25日。",
+      "@Michaeldz360 The cyan flowers was an attempt to get rid of a hardware-related problem. We don't plan to add them to the PC version，来自@jeb_。X（曾名Twitter），2011年6月9日。",
+      "Pocket Edition is 5 years old! — Minecraft.net。"
+    ]
+  }
+}

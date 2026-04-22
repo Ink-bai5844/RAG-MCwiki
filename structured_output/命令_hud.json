@@ -1,0 +1,59 @@
+{
+  "title": "命令/hud",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fhud",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于玩家用于检测自身状态的游戏方式，请见“平视显示器”。",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "修改HUD的可见性。"
+    ],
+    "语法": [
+      "hud <target: target> <visible: HudVisibility> [hud_element: HudElement]"
+    ],
+    "参数": [
+      "target: target：CommandSelector<Player>",
+      "指定将被修改HUD可见性的目标。",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "visible: HudVisibility：enum",
+      "指定将对HUD可见性做出的修改。",
+      "必须为hide（隐藏）或reset（重置）。",
+      "hud_element: HudElement：enum",
+      "指定将被修改的HUD元素。",
+      "必须为以下之一："
+    ],
+    "touch_controls － 触控按键": [
+      "如果未指定，默认为all。"
+    ],
+    "基岩版": [
+      "1.20.60"
+    ],
+    "无法解析": [
+      "target: target是非玩家类型的目标选择器"
+    ],
+    "执行失败": [
+      "target: target未能选中一个或多个在线玩家"
+    ],
+    "失败": [
+      "0"
+    ],
+    "示例": [
+      "隐藏所有玩家的所有HUD：/hud @a hide all",
+      "使附近的生存模式玩家的生命值重新显示：/hud @p[m=s] reset health"
+    ],
+    "即将推出的创作者功能": [
+      "1.20.60.23",
+      "加入了/hud。",
+      "1.20.80",
+      "1.20.80.21",
+      "加入了新的可用HUD元素：item_text和​status_effects。",
+      "1.20.80",
+      "1.20.80.23",
+      "/hud不再属于实验性玩法。"
+    ]
+  }
+}

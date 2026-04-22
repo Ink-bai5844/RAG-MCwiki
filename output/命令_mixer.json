@@ -1,0 +1,5 @@
+{
+  "title": "命令/mixer",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fmixer",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例\n此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\nmixer\n需要的权限等级\n0\n限制条件\n启用作弊\nMixer交互性控制（需要安装Mixer）。使用这个命令之前可能需要去mixer.com/lab来设置MixPlay。\n语法\nmixer <stop: string>\nmixer <scene: string> <sceneName: string>\nmixer <start: string> <version: int> [shareCode: string]\n参数\nstart: string\n开始推流。\nsceneName: string\n指定场景名称。\nversion: int\n指定版本ID。\nshareCode: string\n指定分享码。\nstop: string\n停止推流。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n历史\n基岩版\n1.2.0\n1.2.5.12\n加入了/mixer。\n1.16.210\n1.16.210.53\n移除了/mixer。\n1.16.210.54\n重新加入了/mixer。\n1.16.210.58\n再次移除了/mixer。\n导航"
+}

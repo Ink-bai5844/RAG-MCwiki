@@ -1,0 +1,5 @@
+{
+  "title": "命令/executeasself",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fexecuteasself",
+  "text": "此条目所介绍的内容已从基岩版和​教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\nexecuteasself\n需要的权限等级\n未知\n限制条件\n无\n与/execute相似，但执行命令的是执行者自身。\n语法\nexecuteasself <命令：字符串>\n参数\n命令：字符串\n指定需要执行的命令，命令必须是有效的。\n导航"
+}

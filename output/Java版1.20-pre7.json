@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.20-pre7",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre7",
+  "text": "1.20-pre7\n版本\nJava版\n类型\n预发布版\n发布时间\n2023年5月29日\n预发布版归属\n1.20\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741964\nHEX: 4000008C\n数据版本\n3461\n资源包版本\n15\n数据包版本\n15\n◄◄1.19.4\n1.20.1►►\n◄1.20-pre6\n1.20-rc1►\n1.20-pre7是Java版1.20的第7个，也是最后一个预发布版，发布于2023年5月29日，加入了适用于world文件夹内符号链接的白名单机制，并修复了一个漏洞。\n更改\n常规\n标签\n向#slabs方块和物品标签中加入了bamboo_mosaic_slab。\n向#stairs方块和物品标签中加入了bamboo_mosaic_stairs。\n常规\n为提升安全性，游戏现在会检测world文件夹内的符号链接。\n如果符号链接指向的目标不在用户配置的白名单内，游戏将不会加载世界。\n世界文件夹自身可被链接。\n允许的符号链接目标存储于客户端或服务端文件夹顶层的allowed_symlinks.txt文件里。\n此文件由符合以下格式的条目（每行一个）组成：\n#起始的行是注释行，并会被忽略。\n格式：[type]pattern，type可以是glob、regex或prefix。\nprefix可匹配上开头包含此字符串的路径。例如/test可以匹配上/test、​/test/和​/test/foo.txt这些路径。\nregex将正则表达式与整个路径相匹配。\nglob执行与操作系统有关的匹配模式。例如*.txt通常可以匹配上所有扩展名为txt的文件。\n路径分隔符与系统有关。\n格式：pattern，默认类型为prefix。\n修复\n修复了1个漏洞\n1.20前正式版的漏洞\nMC-257778 — 竹马赛克台阶和竹马赛克楼梯不属于#slabs和​#stairs方块和物品标签。\n参考\nMinecraft 1.20 Pre-Release 7 — Minecraft.net，2023年5月29日。\n导航"
+}

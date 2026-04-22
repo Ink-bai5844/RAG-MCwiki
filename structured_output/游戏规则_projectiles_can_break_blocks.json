@@ -1,0 +1,30 @@
+{
+  "title": "游戏规则/projectiles can break blocks",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fprojectiles_can_break_blocks",
+  "structured_content": {
+    "描述": [
+      "控制弹射物能否破坏可被其破坏的方块。"
+    ],
+    "projectilesCanBreakBlocks": [
+      "projectiles_can_break_blocks[仅Java版]或projectilesCanBreakBlocks[仅基岩版]是控制弹射物是否能破坏方块的游戏规则。"
+    ],
+    "行为": [
+      "当projectiles_can_break_blocks[仅Java版]或projectilesCanBreakBlocks[仅基岩版]为false时：",
+      "三叉戟不能破坏其击中的滴水石锥或硫黄尖锥[新增：JE 26.2]。",
+      "箭、三叉戟、鸡蛋、雪球、小火球、恶魂火球、末影龙火球、凋灵之首、风弹、烟花火箭、潜影弹、羊驼唾沫、浮漂、喷溅药水、滞留药水[仅基岩版]和冰弹[仅基岩版和​教育版]不能破坏其击中的紫颂花或饰纹陶罐。"
+    ],
+    "Java版": [
+      "1.20.3",
+      "23w42a",
+      "加入了游戏规则projectilesCanBreakBlocks。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则projectilesCanBreakBlocks重命名为projectiles_can_break_blocks。"
+    ],
+    "基岩版": [
+      "1.20.50",
+      "1.20.50.22",
+      "加入了游戏规则projectilesCanBreakBlocks。"
+    ]
+  }
+}

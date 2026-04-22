@@ -1,0 +1,33 @@
+{
+  "title": "Java版标签/时间线",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E6%97%B6%E9%97%B4%E7%BA%BF",
+  "structured_content": {
+    "默认分类": [
+      "时间线标签（Timeline Tags）是一组时间线ID。"
+    ],
+    "使用": [
+      "在维度类型定义文件中，时间线标签被用于指定当前维度类型中所包含的多个时间线。示例文件参见Tutorial:环境属性 § 设置环境属性。"
+    ],
+    "in_end": [
+      "在末地活动的时间线。",
+      "#in_end（1项）"
+    ],
+    "in_nether": [
+      "在下界活动的时间线。",
+      "#in_nether（1项）"
+    ],
+    "in_overworld": [
+      "在主世界活动的时间线。",
+      "#in_overworld（4项）"
+    ],
+    "universal": [
+      "在所有维度活动的时间线。",
+      "#universal（1项）"
+    ],
+    "Java版": [
+      "1.21.11",
+      "25w45a",
+      "添加了时间线标签。"
+    ]
+  }
+}

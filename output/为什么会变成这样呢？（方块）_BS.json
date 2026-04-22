@@ -1,0 +1,5 @@
+{
+  "title": "为什么会变成这样呢？（方块）/BS",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%8F%98%E6%88%90%E8%BF%99%E6%A0%B7%E5%91%A2%EF%BC%9F%EF%BC%88%E6%96%B9%E5%9D%97%EF%BC%89%2FBS",
+  "text": "名称\n默认值\n接受值\n描述\nitem\n0\n1\n2\n...\n1104\n指定需要显示的物品的内部ID（0-1104）。\nwaterlogged\nfalse\ntrue\n方块是否含水。"
+}

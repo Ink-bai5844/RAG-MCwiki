@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/immediate respawn",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fimmediate_respawn",
+  "text": "immediate_respawn（Java版）\n名称\n立即重生\n描述\n无\n分类（JE）\n玩家\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\nimmediate_respawn\ndoImmediateRespawn（基岩版）\n名称\n立即重生\n描述\n跳过“你死了！”菜单并立即重生\n分类（BE旧UI）\n世界选项\n分类（BE新UI）\n高级\n值类型\n布尔值\n默认值\nfalse\n游戏规则ID\ndoImmediateRespawn\nimmediate_respawn[仅Java版]或doImmediateRespawn[仅基岩版]是控制玩家在死亡后是否会立即重生的游戏规则。\n行为\nimmediate_respawn[仅Java版]或doImmediateRespawn[仅基岩版]为false时，玩家在死亡后会正常地看到死亡界面，并可以选择重生或退出至标题界面。\nimmediate_respawn[仅Java版]或doImmediateRespawn[仅基岩版]为true时，玩家在死亡后不会看到死亡界面，而是会立即重生。\n历史\nJava版\n1.15\n19w36a\n加入了游戏规则doImmediateRespawn。\n1.21.11\n25w44a\n将游戏规则doImmediateRespawn重命名为immediate_respawn。\n基岩版\n?\n加入了游戏规则doImmediateRespawn。\n导航"
+}

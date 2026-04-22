@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/showRecipeMessages",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FshowRecipeMessages",
+  "text": "本条目所述内容仅适用于基岩版。\nshowRecipeMessages\n名称\n无\n描述\n无\n分类（BE旧UI）\n无\n分类（BE新UI）\n无\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nshowRecipeMessages\nshowRecipeMessages是控制玩家在解锁新的合成配方时是否会显示解锁消息的游戏规则。\n行为\n当showRecipeMessages为false时，玩家解锁新的合成配方时不再显示解锁消息。\n历史\n基岩版\n1.20.50\n1.20.50.20\n加入了游戏规则showRecipeMessages。\n导航"
+}

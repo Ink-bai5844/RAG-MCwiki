@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.13a 03",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.13a_03",
+  "text": "0.0.13a_03\n版本\nJava版\n发布时间\n2009年5月23日\n下载\n客户端（.json）\nal_version\n5.17\n◄◄0.0.13a\n0.0.14a►►\n0.0.13a_03是Java版的一次更新，发布于2009年5月23日。\n目前没有证据能证明0.0.13a_01和0.0.13a_02的存在。\n更改\n生物\n现在不再在世界中自然生成。\n世界生成\n熔岩湖\n现在不再在海平面以上生成。\n常规\n控制\n在菜单中按Esc将会退出菜单。\n修复\n修复了1个漏洞\n通过更新LWJGL版本修复了保存地图的问题。\n启动器版\n启动器中的“c0.0.13a_03”与原版除了签名文件不同以外，其他所有文件完全相同。\n参考\nOk, so here’s the deal on the problems with level loading（存档） — The Word of Notch，2009年5月22日。\n导航"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Java版标签/结构",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E7%BB%93%E6%9E%84",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "结构标签（Structure Tags）是生成结构的组合。"
+    ],
+    "使用": [
+      "结构标签通常用于定位结构，如探险家地图的定位和命令/locate structure的定位。"
+    ],
+    "cats_spawn_as_black": [
+      "黑猫在此标签的结构中生成。",
+      "#cats_spawn_as_black（1项）"
+    ],
+    "cats_spawn_in": [
+      "猫在此标签的结构中生成。",
+      "#cats_spawn_in（1项）"
+    ],
+    "dolphin_located": [
+      "海豚被喂食生鳕鱼或生鲑鱼后，将玩家引导向此标签的结构。",
+      "#dolphin_located（2项）"
+    ],
+    "eye_of_ender_located": [
+      "末影之眼指向最近的此标签的结构。",
+      "#eye_of_ender_located（1项）"
+    ],
+    "mineshaft": [
+      "包含全部废弃矿井。",
+      "#mineshaft（2项）"
+    ],
+    "ocean_ruin": [
+      "包含全部海底废墟。",
+      "#ocean_ruin（2项）"
+    ],
+    "on_desert_village_maps": [
+      "沙漠村庄地图指向最近的此标签的结构。",
+      "#on_desert_village_maps（1项）"
+    ],
+    "on_jungle_explorer_maps": [
+      "丛林探险家地图指向最近的此标签的结构。",
+      "#on_jungle_explorer_maps（1项）"
+    ],
+    "on_ocean_explorer_maps": [
+      "海洋探险家地图指向最近的此标签的结构。",
+      "#on_ocean_explorer_maps（1项）"
+    ],
+    "on_plains_village_maps": [
+      "平原村庄地图指向最近的此标签的结构。",
+      "#on_plains_village_maps（1项）"
+    ],
+    "on_savanna_village_maps": [
+      "热带草原村庄地图指向最近的此标签的结构。",
+      "#on_savanna_village_maps（1项）"
+    ],
+    "on_snowy_village_maps": [
+      "雪原村庄地图指向最近的此标签的结构。",
+      "#on_snowy_village_maps（1项）"
+    ],
+    "on_swamp_explorer_maps": [
+      "沼泽探险家地图指向最近的此标签的结构。",
+      "#on_swamp_explorer_maps（1项）"
+    ],
+    "on_taiga_village_maps": [
+      "针叶林村庄地图指向最近的此标签的结构。",
+      "#on_taiga_village_maps（1项）"
+    ],
+    "on_treasure_maps": [
+      "藏宝图指向最近的此标签的结构。",
+      "#on_treasure_maps（1项）"
+    ],
+    "on_trial_chambers_maps": [
+      "试炼探险家地图指向最近的此标签的结构。",
+      "#on_trial_chambers_maps（1项）"
+    ],
+    "on_woodland_explorer_maps": [
+      "林地探险家地图指向最近的此标签的结构。",
+      "#on_woodland_explorer_maps（1项）"
+    ],
+    "ruined_portal": [
+      "包含全部废弃传送门。",
+      "#ruined_portal（7项）"
+    ],
+    "shipwreck": [
+      "包含全部沉船。",
+      "#shipwreck（2项）"
+    ],
+    "village": [
+      "包含全部村庄。",
+      "#village（5项）"
+    ],
+    "Java版": [
+      "1.18.2",
+      "pre1",
+      "加入了已配置的结构地物标签：#dolphin_located、​#eye_of_ender_located、​#mineshaft、​#ocean_ruin、​#on_ocean_explorer_maps、​#on_treasure_maps、​#on_woodland_explorer_maps、​#ruined_portal、​#shipwreck和​#village。",
+      "1.19",
+      "22w11a",
+      "“已配置的结构地物”标签更名为“结构”标签。",
+      "加入了#cats_spawn_as_black和​#cats_spawn_in。",
+      "1.20.2",
+      "pre1",
+      "加入了#on_desert_village_maps、​#on_jungle_explorer_maps、​#on_plains_village_maps、​#on_savanna_village_maps、​#on_snowy_village_maps、​#on_swamp_explorer_maps和​#on_taiga_village_maps。",
+      "1.20.2"
+    ],
+    "实验性内容": [
+      "1.21更新",
+      "24w12a",
+      "加入了#on_trial_chambers_maps。",
+      "1.21",
+      "24w18a",
+      "#on_trial_chambers_maps不再属于实验性内容。",
+      "1.21.5",
+      "25w07a",
+      "#on_desert_village_maps、​#on_jungle_explorer_maps、​#on_plains_village_maps、​#on_savanna_village_maps、​#on_snowy_village_maps、​#on_swamp_explorer_maps和​#on_taiga_village_maps不再属于实验性内容。"
+    ],
+    "村民交易的平衡性调整": [
+      "pre2",
+      "将#on_desert_village_maps、​#on_jungle_explorer_maps、​#on_plains_village_maps、​#on_savanna_village_maps、​#on_snowy_village_maps、​#on_swamp_explorer_maps和​#on_taiga_village_maps移入实验性内容“村民交易的平衡性调整”。",
+      "1.20.5"
+    ]
+  }
+}

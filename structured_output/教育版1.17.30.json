@@ -1,0 +1,61 @@
+{
+  "title": "教育版1.17.30",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.17.30",
+  "structured_content": {
+    "默认分类": [
+      "1.17.30"
+    ],
+    "内部版本号": [
+      "1.17.30.5",
+      "1.17.30.52"
+    ],
+    "发布时间": [
+      "2021年11月2日"
+    ],
+    "测试版本": [
+      "1个测试版"
+    ],
+    "协议版本": [
+      "466",
+      "其他版本的1.17.30"
+    ],
+    "基岩版": [
+      "◄◄1.14.50",
+      "1.18.32►►",
+      "◄1.14.70",
+      "1.17.31►",
+      "1.17.30是山羊更新的首个正式版，也是教育版的一次主要更新，发布于2021年11月2日。此次更新加入了下界更新和洞穴与山崖第一部分的特性，以及Flipgrid和Microsoft Teams的集成。"
+    ],
+    "照片": [
+      "一种由摄像机拍摄的游戏内图片。",
+      "可以放入相片簿中，或从相片簿中取出。",
+      "可以被放置在物品展示框上。"
+    ],
+    "特性": [
+      "主条目：基岩版1.16.0和基岩版1.17.0",
+      "加入了下界更新和洞穴与山崖第一部分的特性。"
+    ],
+    "皮肤包": [
+      "加入了“朋友！”皮肤包。"
+    ],
+    "Flipgrid和Microsoft Teams": [
+      "集成了Flipgrid和Microsoft Teams。"
+    ],
+    "游戏库文件": [
+      "重命名为“Starter Worlds”、“Build Plates”、“History & Culture”、“Equity & Inclusion”和“Literacy & Language”文件夹。",
+      "加入了“Climate & Sustainability”文件夹。"
+    ],
+    "多人游戏": [
+      "现在最多支持40名玩家。"
+    ],
+    "修复": [
+      "1.17.30.52修复",
+      "修复了在特定代理环境下会出现“需要登录”错误的问题。"
+    ],
+    "参考": [
+      "What's new in the GOAT Update (version 1.17.30.5)（存档） — Minecraft Education Edition Support。",
+      "The GOAT Update Celebrates a Minecraft Milestone! — Minecraft Education Edition。",
+      "GOAT Update (1.17.30) Feedback — Minecraft Education Edition Support。"
+    ]
+  }
+}

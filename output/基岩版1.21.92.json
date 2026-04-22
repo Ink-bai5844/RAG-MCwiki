@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.92",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.92",
+  "text": "1.21.92\n版本\n基岩版\n服务端版本\n1.21.92.1\n内部版本号\nAndroid：1.21.92.1\nPlayStation 4：3.14\nPlayStation 5：1.022.000\nWindows：1.21.9201.0\n版本码\nAndroid：\n952109201（armeabi-v7a，34）\n962109201（x86，34）\n972109201（arm64-v8a，34）\n982109201（x86_64，34）\niOS/iPadOS：\n875704605\n发布时间\nChromeOS/Android, iOS/iPadOS, PlayStation, Windows - 2025年6月19日\nFire, Xbox - 2025年6月20日\nNintendo Switch - 2025年6月24日\n下载\n服务端\nWindowsLinux\n协议版本\n818\n其他版本的1.21.92\n教育版\n◄◄1.21.90\n1.21.111►►\n◄1.21.91\n1.21.93►\n1.21.92是基岩版的一次热修复更新，在ChromeOS/Android、iOS/iPadOS、PlayStation和Windows平台上发布于2025年6月19日，在Fire和Xbox平台上发布于2025年6月20日，在Nintendo Switch平台上发布于2025年6月24日，修复了一些漏洞。此版本与1.21.90和1.21.91相互兼容。\n更改\n技术性\n物品\n现在宽度或高度小于16像素的物品再次会正确渲染。\n图形\n现在纹理包中的自定义天空盒会在非灵动视效设置下渲染。（MCPE-221318）\n生物\n修复了一个问题，以恢复允许实体定义文件中的空值组件正确解析和加载的原始行为。\n修复\n游戏内容\n修复了Xbox平台上的分屏玩家会一直显示为访客的问题。（MCPE-222048）\n修复了玩家尝试添加分屏玩家时会与多人游戏世界断开连接的问题。\n弹射物\n弹射物的目标差幅现在会根据世界中的活动总时长而递增。（MCPE-220496）\n此前，弹射物的目标差幅会在每一飞行刻增大一次。\n现在，弹射物的目标差幅会在每一活动刻增大一次，无论弹射物的飞行状态如何。\n参考\nMinecraft - 1.21.92 (Bedrock) — Minecraft Feedback，2025年6月19日。\n导航"
+}

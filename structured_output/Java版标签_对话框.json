@@ -1,0 +1,30 @@
+{
+  "title": "Java版标签/对话框",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%A0%87%E7%AD%BE%2F%E5%AF%B9%E8%AF%9D%E6%A1%86",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "对话框标签（Dialog Tags）是对话框的组合。"
+    ],
+    "使用": [
+      "游戏内部使用对话框标签定义了无需通过命令即可调用的对话框。除此以外，对话框标签目前仅能被dialog_list类型的对话框调用。"
+    ],
+    "pause_screen_additions": [
+      "持有该标签的对话框可通过暂停菜单直接进入。",
+      "标签中对话框数量>1时，进入custom_options对话框列表。",
+      "#pause_screen_additions（0项）"
+    ],
+    "quick_actions": [
+      "持有该标签的对话框可通过快捷操作选项绑定键（默认为G）直接进入。",
+      "标签中对话框数量>1时，进入quick_actions对话框列表。",
+      "#quick_actions（0项）"
+    ],
+    "Java版": [
+      "1.21.6",
+      "25w20a",
+      "加入了#pause_screen_additions。",
+      "pre1",
+      "加入了#quick_actions。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "命令/getitemcount",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgetitemcount",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n说明：缺少输出、缺少示例、缺少历史\n此条目所介绍的内容已从基岩版和​教育版中移除。\n这些特性曾存在于游戏中，但已被移除。\ngetitemcount\n需要的权限等级\n未知\n限制条件\n无\n返回指定槽位中物品的数量值。\n语法\ngetitemcount <slotNum：整数>\n参数\nslotNum：整数\n指定需要计算物品数量的槽位，槽位编码为1到27。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\n不符合以上所有条件\n执行成功\n导航"
+}

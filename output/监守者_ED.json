@@ -1,0 +1,5 @@
+{
+  "title": "监守者/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%9B%91%E5%AE%88%E8%80%85%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\nAI生物共通标签，见Template:Nbt inherit/mob/source\n*anger：监守者的愤怒数据。\nsuspects：激怒监守者的可疑实体的列表。\n：一个可疑实体及对应的愤怒值。\n*\n*anger：（值≥0）愤怒值。监守者对一个实体的最大愤怒值为150，每20游戏刻（1秒）减少1。\n*\n*uuid：与此愤怒值对应的实体的UUID。\n*listener：与监守者绑定的振动监听器。\n振动监听器，见Template:Nbt inherit/vibration listener/source"
+}

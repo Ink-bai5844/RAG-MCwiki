@@ -1,0 +1,5 @@
+{
+  "title": "命令/aimassist",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Faimassist",
+  "text": "本条目所述内容仅适用于基岩版和​教育版。\naimassist\n需要的权限等级\n1\n限制条件\n启用作弊\n修改玩家的瞄准辅助。\n语法\naimassist <players: target> clear\n清除瞄准辅助。\naimassist <players: target> set [x angle: float] [y angle: float] [max distance: float] [target mode: AimAssistTargetMode] [preset id: string]\n设定瞄准辅助。\n参数\nplayers: target：CommandSelector<Player>\n指定将被修改瞄准辅助的玩家。\n必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。\nx angle: float：float\n指定X轴角度，默认为50。\n必须为单精度浮点数。且必须在10和90之间（含）。\ny angle: float：float\n指定Y轴角度，默认为50。\n必须为单精度浮点数。且必须在10和90之间（含）。\nmax distance: float：float\n指定最大距离，默认为8。\n必须为单精度浮点数。且必须在1和16之间（含）。\ntarget mode: AimAssistTargetMode：enum\n指定瞄准模式，默认为angle。必须为以下其中之一：\nangle — 角度\ndistance — 距离\npreset id: string：basic_string\n指定预设ID。\n必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。\n结果\n命令\n触发条件\n基岩版\n任意\n命令不完整或参数未正确指定\n无法解析\nplayers: target是非玩家类型的目标选择器\n执行失败\n不符合以上所有条件\n执行成功\n输出\n命令\n版本\n条件\n成功次数\n任意\n基岩版\n执行失败\n0\n执行成功\n被修改的玩家数\n历史\n基岩版\n1.21.50\n实验性玩法\n瞄准辅助\n1.21.50.25\n加入了/aimassist命令。\n1.21.70\n1.21.70.23\n/aimassist不再属于实验性玩法。\n导航"
+}

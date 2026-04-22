@@ -1,0 +1,22 @@
+{
+  "title": "命令/broadcast",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fbroadcast",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从Java版中移除。",
+      "此命令已被命令/say替代。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "无": [
+      "向整个服务器广播消息。"
+    ],
+    "Java版Classic": [
+      "0.0.16a",
+      "加入了/broadcast命令。",
+      "0.0.16a_01",
+      "将/broadcast更改为了/say命令。"
+    ]
+  }
+}

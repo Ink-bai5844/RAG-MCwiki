@@ -1,0 +1,98 @@
+{
+  "title": "命令/bossbar",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fbossbar",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "无": [
+      "用于创建、修改或查询自定义Boss栏。"
+    ],
+    "bossbar add <id> <name>": [
+      "创建新的自定义Boss栏（储存在level.dat的CustomBossEvents中）。"
+    ],
+    "bossbar get <id> (max|players|value|visible)": [
+      "显示指定设置项目的当前值，也可被/execute store result ...储存。"
+    ],
+    "bossbar list": [
+      "显示当前所有的自定义Boss栏。"
+    ],
+    "bossbar remove <id>": [
+      "移除一个自定义Boss栏。"
+    ],
+    "... color (blue|green|pink|purple|red|white|yellow)": [
+      "设置文本默认颜色（可被文本组件指定的颜色覆盖）和自定义Boss栏的颜色。刚创建时为white。"
+    ],
+    "... max <max>": [
+      "设置自定义Boss栏的最大值。刚创建时为100。"
+    ],
+    "... name <name>": [
+      "设置自定义Boss栏的名称。"
+    ],
+    "... players [<targets>]": [
+      "修改可以看到此自定义Boss栏的玩家。刚创建时没有玩家可以看到。",
+      "... style (notched_6|notched_10|notched_12|notched_20|progress)",
+      "设置自定义Boss栏在视觉上分成几段，分别为：6段、10段、12段、20段和连续。刚创建时为progress。"
+    ],
+    "... value <value>": [
+      "设置自定义Boss栏的当前值。刚创建时为0。"
+    ],
+    "... visible <visible>": [
+      "设置自定义Boss栏的可见性值。刚创建时为true。"
+    ],
+    "参数": [
+      "<id>：resource_location",
+      "指定一个Boss栏。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "<name>：component",
+      "指定Boss栏的名称。",
+      "必须为文本组件。",
+      "<max>：integer",
+      "指定Boss栏的最大值。",
+      "必须为32位整数。且必须大于等于1。",
+      "<targets>：entity",
+      "指定哪些玩家可以看见Boss栏。",
+      "必须为玩家名、目标选择器或UUID。且要求目标选择器为玩家类型，若不是则此命令将无法解析。",
+      "<value>：integer",
+      "指定Boss栏的当前值。",
+      "必须为32位整数。且必须大于等于0。",
+      "<visible>：bool",
+      "指定Boss栏的可见性。",
+      "必须为 布尔值（true或false）。"
+    ],
+    "Java版": [
+      "1.13",
+      "18w05a",
+      "加入了/bossbar命令。"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1",
+      "1",
+      "命令执行后指定Boss栏的最大值。",
+      "1",
+      "命令执行后指定Boss栏的当前值。",
+      "1",
+      "命令执行后可以见到该Boss栏的玩家数。",
+      "1",
+      "若该Boss栏可见，输出1，否则输出0。",
+      "1",
+      "0"
+    ],
+    "命令执行后所存在的自定义Boss栏数量": [
+      "注意游戏本身的Boss栏（如末影龙的）不计入其中。"
+    ],
+    "示例": [
+      "创建一个新的名称为“name”、ID为foo:bar的自定义Boss栏：/bossbar add foo:bar \"name\"",
+      "获取ID为foo:bar的自定义Boss栏现在是否可见：/bossbar get foo:bar visible",
+      "显示当前所有的自定义Boss栏：/bossbar list",
+      "将ID为foo:bar的自定义Boss栏改为可见：/bossbar set foo:bar visible true",
+      "移除ID为foo:bar的自定义Boss栏：/bossbar remove foo:bar"
+    ]
+  }
+}

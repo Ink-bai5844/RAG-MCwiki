@@ -1,0 +1,5 @@
+{
+  "title": "Earth:华丽鸡",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E5%8D%8E%E4%B8%BD%E9%B8%A1",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n华丽鸡\n最大生命值\n4（）\n类型\n被动型\n尺寸\n高度：0.7格\n宽度：0.4格\n实体ID\n?\n一只从不认为自己打扮过度的鸡。它的羽毛是多么绚丽啊！\n——Minecraft Earth内描述\n华丽鸡（Fancy Chicken）是鸡的变种，属于被动型生物。它们有着稀有级的稀有度。\n行为\n主条目：鸡 § 行为\n与普通的鸡相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n华丽鸡死亡时会掉落：\n0-2 华丽羽毛\n1 生鸡肉\n音效\n描述\n文件\n空闲时随机播放此声音\nSFX_fancy_chicken_say\n打鸣\nSFX_fancy_chicken_crow\n受伤\nSFX_fancy_chicken_hurt\n死亡\nSFX_fancy_chicken_death\n行走\nmob.chicken.step\n下蛋\nmob.chicken.plop\n数据值\nID\n名称\n命名空间ID\n本地化键名\n华丽鸡\nfancy_chicken\nentity.fancy_chicken.name\n历史\nMinecraft Earth\n0.25.0\n加入了华丽鸡。\n你知道吗\n华丽鸡类似于红原鸡，其因色彩鲜艳的羽毛和长长的尾羽所闻名。\n与普通的鸡不同，华丽鸡的脚更长，还有尾羽。\n导航"
+}

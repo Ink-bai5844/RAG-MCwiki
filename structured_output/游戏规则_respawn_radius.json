@@ -1,0 +1,38 @@
+{
+  "title": "游戏规则/respawn radius",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Frespawn_radius",
+  "structured_content": {
+    "描述": [
+      "控制适合玩家生成的出生点周围区域大小。",
+      "当您死亡且未设置自定义生成点时，在此方块的半径范围内重生（最大值为 128）"
+    ],
+    "默认值": [
+      "10",
+      "10"
+    ],
+    "值域（JE）": [
+      "0 – 2147483647"
+    ],
+    "spawnRadius": [
+      "respawn_radius[仅Java版]或spawnRadius[仅基岩版]是控制适合玩家生成的出生点周围区域的游戏规则。"
+    ],
+    "行为": [
+      "首次进入服务器的玩家和没有重生点的死亡玩家在重生时与世界出生点坐标相距respawn_radius[仅Java版]或spawnRadius[仅基岩版]格。",
+      "在Java版中，respawn_radius的值不能低于0。"
+    ],
+    "Java版": [
+      "1.9",
+      "15w51a",
+      "加入了游戏规则spawnRadius。",
+      "1.21.11",
+      "25w44a",
+      "将游戏规则spawnRadius重命名为respawn_radius。",
+      "现在respawn_radius的值最小只能为0。"
+    ],
+    "基岩版": [
+      "1.12.0",
+      "1.12.0.2",
+      "加入了游戏规则spawnRadius。"
+    ]
+  }
+}

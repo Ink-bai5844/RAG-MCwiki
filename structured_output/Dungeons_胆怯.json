@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:胆怯",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%83%86%E6%80%AF",
+  "structured_content": {
+    "Cowardice": [
+      "满生命值状态下增加远程和近战伤害。"
+    ],
+    "——魔咒描述": [
+      "胆怯（Cowardice）是Minecraft Dungeons中的魔咒，会让玩家在满生命值状态下增加远程和近战伤害。提升效果随魔咒等级提升而提高。"
+    ],
+    "I": [
+      "20% 远程和近战伤害增加",
+      "1 附魔点数"
+    ],
+    "II": [
+      "30% 远程和近战伤害增加",
+      "2 附魔点数"
+    ],
+    "III": [
+      "40% 远程和近战伤害增加",
+      "3 附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了胆怯。"
+    ]
+  }
+}

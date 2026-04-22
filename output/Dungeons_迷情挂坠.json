@@ -1,0 +1,5 @@
+{
+  "title": "Dungeons:迷情挂坠",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E8%BF%B7%E6%83%85%E6%8C%82%E5%9D%A0",
+  "text": "迷情挂坠\n类型\n法器\n稀有度\n远古狩猎符文\n一个咒语从这个小饰物中放射出来，并迷惑住附近的人，让他们必须不惜一切代价保护这个挂坠的持有者。\n——物品描述\n迷情挂坠（Love Medallion）是Minecraft Dungeons中的法器。\n获取\n地点：\n高墩大厅（冒险难度以上）\n大厅之下（冒险难度以上）\n熊猫高原（冒险难度以上）\n居民：\n村庄商人\n奢侈品商人\n神秘商人\n使用\n迷情挂坠使用后会迷惑三个生物并使其发出爱心，同时开始冷却。\n被迷惑的生物会成为队友10秒钟，在此期间被迷惑的生物攻击其他生物会获得额外伤害加成，10秒后被迷惑的生物会死亡。\n属性\nX% 伤害提升\n30秒 冷却\n迷情挂坠无法迷惑下列生物：\n除宝箱猪以外的所有友好生物\n所有小Boss\n所有Boss\n附魔生物\n死灵法师\n附魔师\n幽灵\n女巫\n地卜师\n刷怪笼\n毒刺藤（唤藤者召唤的毒刺藤无法被同化，关卡内生长的可以）\n速生藤\n腾跃之叶\n冰术师\n劫掠兽\n唤风者\n堡垒队长\n呼啸傀儡\n音效\n描述\n文件\n装备\nsfx_item_loveMedallion_soundWave\n迷惑成功\nsfx_item_loveMedallionSuccess_soundWave\n迷惑失败\nsfx_item_loveMedallionFail_soundWave\nFail Click\nsfx_item_loveMedallionFailClick_soundWave\nClick\nsfx_clickLoveMedallion_soundWave\n历史\nMinecraft Dungeons\n3月25日Beta更新\n加入了迷情挂坠。\n画廊\n迷情挂坠的精灵图\n导航"
+}

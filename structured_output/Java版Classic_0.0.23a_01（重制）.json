@@ -1,0 +1,57 @@
+{
+  "title": "Java版Classic 0.0.23a 01（重制）",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.23a_01%EF%BC%88%E9%87%8D%E5%88%B6%EF%BC%89",
+  "structured_content": {
+    "发布日期": [
+      "2019年5月7日"
+    ],
+    "程序大小": [
+      "8.92 MB"
+    ],
+    "重制版本": [
+      "Java版Classic 0.0.23a_01"
+    ],
+    "classic.minecraft.net": [
+      "为了庆祝Minecraft十周年，一份用JavaScript重制的Classic 0.0.23a_01被上传到了Minecraft网站（使用了Babylon.js库），在网站上被称为Minecraft Classic。该版本可在classic.minecraft.net在线游玩。在Minecraft十五周年之际，其入口被上传至位于Minecraft官方网站的十五周年专题页中。"
+    ],
+    "方块": [
+      "关于此版本中的方块的数据值，请见“Java版Classic 0.0.23a_01（重制）/数据值”。",
+      "可放置和破坏方块；通过按使用键切换这两种模式。"
+    ],
+    "人类": [
+      "按G键生成。",
+      "可以穿过世界界限并掉入界限外的海洋中。",
+      "只出现在客户端，不会在多人游戏中显示给其他玩家。",
+      "模型存在问题，由于其头部向下平移了四个像素，腿部向上平移了四个像素，导致其看起来有些矮小。",
+      "由玩家生成的人类会在1分钟后消失。"
+    ],
+    "地形": [
+      "生成带有山和湖的地形，地面下有小型洞穴。"
+    ],
+    "生成结构": [
+      "树，由原木和树叶组成。",
+      "即使刷新网页，游戏也会记录并保存由玩家放置的方块和其位置。"
+    ],
+    "多人游戏": [
+      "最多可与9名玩家同时进行游戏，但因性能问题，该功能已于2019年5月8日暂停使用。"
+    ],
+    "物品栏": [
+      "默认按B键打开。",
+      "可找到并选择除煤矿石、铁矿石、金矿石、水与熔岩以外的所有方块。"
+    ],
+    "音乐": [
+      "Calm1、Calm2和Calm3三首音乐会随机播放。一首音乐结束后，下一首大约会在5分钟后开始播放。"
+    ],
+    "世界大小": [
+      "共有三种世界大小：小型（Small）、普通型（Normal）和大型（Huge）。",
+      "小型世界大小为128×128，普通型世界大小为256×256，大型世界大小为512×512。"
+    ],
+    "常规": [
+      "2D的云。"
+    ],
+    "参考": [
+      "Embrace the Past with Minecraft Classic — Minecraft.net，2019年5月7日。",
+      "We've temporarily disabled multiplayer for Minecraft Classic while we work on some performance issues. You can still play it as single player! - AP，来自@MojangStatus。X（曾名Twitter），2019年5月8日。"
+    ]
+  }
+}

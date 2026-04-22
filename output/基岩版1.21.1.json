@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.21.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.1",
+  "text": "提示：本条目的主题不是基岩版1.21.100。\n1.21.1\n版本\n基岩版\n服务端版本\n1.21.1.03\n内部版本号\nAndroid：1.21.1.03\nPlayStation：2.90\nWindows：1.21.103.0\n版本码\nAndroid：\n952100103（armeabi-v7a，34）\n962100103（x86，34）\n972100103（arm64-v8a，34）\n982100103（x86_64，34）\niOS/iPadOS：\n866774394\n发布时间\n2024年6月20日\n下载\n服务端\nWindowsLinux\n协议版本\n685\n其他版本的1.21.1\nJava版\n◄◄1.21.0\n1.21.40►►\n1.21.2►\n1.21.1是基岩版的一次热修复更新，发布于2024年6月20日，修复了一些漏洞。此版本与1.21.0相兼容。\n修复\n修复了PlayStation®4平台上进行分屏模式多人游戏时可能出现的卡死问题。\n修复了新安装Minecraft的玩家需要重启游戏才能看到Realms故事的漏洞。\n参考\nMinecraft - 1.21.1 (Bedrock) — Minecraft Feedback，2024年6月20日。\n导航"
+}

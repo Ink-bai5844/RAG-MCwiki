@@ -1,0 +1,96 @@
+{
+  "title": "Java版1.9.1/开发版本",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.9.1%2F%E5%BC%80%E5%8F%91%E7%89%88%E6%9C%AC",
+  "structured_content": {
+    "默认分类": [
+      "本页面列出了Java版1.9.1的开发版本。",
+      "1.9.1-pre1",
+      "1.9.1-pre1是Java版1.9.1的首个预发布版，发布于2016年3月9日。"
+    ],
+    "鞘翅": [
+      "加入了鞘翅的音效。",
+      "声音代码为item.elytra.flying。"
+    ],
+    "盔甲": [
+      "加入了盔甲属性：盔甲韧性generic.armorToughness，计算公式为：",
+      "totalDamage=damage×(1−max(defensePoints5,defensePoints−damage2+toughness4)25)",
+      "其中，totalDamage为总伤害值；damage为伤害值；defensePoints为护甲值；toughness为盔甲韧性。",
+      "钻石甲有两点盔甲韧性，其他的盔甲均为0点盔甲韧性。一整套钻石甲会给予8点盔甲韧性。",
+      "在options.txt中加入了新选项：enableWeakAttacks。",
+      "若设置为false，武器冷却低于75%时客户端会忽略攻击尝试。"
+    ],
+    "发射器": [
+      "把每游戏刻执行事件的次数限制从1000提高到了65536。"
+    ],
+    "漏斗": [
+      "漏斗现在可以从上方被遮挡的箱子里取出东西。"
+    ],
+    "常规": [
+      "改进了AI。"
+    ],
+    "目标选择器": [
+      "实体选择器c（数量）现在使用真正的坐标计算，不再基于整数坐标。"
+    ],
+    "战斗": [
+      "如果武器没有打中的话不再会进入冷却时间。",
+      "当武器攻击冷却时间为75%或更高时，忽略武器攻击冷却时间（之后在正式版中恢复）。",
+      "护盾在受到较弱攻击（3（）以下伤害）时不会受到损坏。"
+    ],
+    "战利品表": [
+      "现在也可以在发射器和投掷器上工作。",
+      "丛林神庙里装着弓箭的发射器现在也以战利品表的形式工作。"
+    ],
+    "会话ID": [
+      "不再由游戏设置到个人信息和启动器。"
+    ],
+    "修复": [
+      "修复了8个漏洞",
+      "1.9前正式版的漏洞",
+      "MC-7961 — 箱子不能开启时，不能用漏斗向其中添加物品，也不能从其中取出物品。",
+      "MC-56162 — /worldborder damage amount 0命令不起效果。",
+      "MC-95352 — 空间目标参数c、dx、dy和dz的行为异常且不一致。",
+      "1.9的漏洞",
+      "MC-90257 — 命令方块链可能需要1刻以上的时间来完全执行。",
+      "MC-96219 — 可以使用活塞复制方块（幽灵方块）。",
+      "MC-96927 — 选择器中的C=指向的是不准确的实体位置。",
+      "MC-98327 — 鞘翅纹理有透明度问题。",
+      "修复了6个漏洞",
+      "1.9的漏洞",
+      "MC-98461 — 一些语言（至少有弗里斯兰语、塔罗萨语、利普里安语、逻辑语和LOLCAT语）无法被选择，Eesti (Eesti)被显示为Inglise (US)。",
+      "MC-98587 — 有时命令方块的逻辑会随意地失败。",
+      "MC-99060 — 鞘翅有发光效果时，一直显示为黑色。",
+      "MC-99697 — 漏斗矿车和运输矿车名字有误，被写作container.minecart。",
+      "修复了3个漏洞",
+      "1.9的漏洞",
+      "MC-93074 — 无法为“召唤的箭”分配记分板值（太多的箭与光灵箭导致命令执行失败）。"
+    ],
+    "其他漏洞": [
+      "修复了游戏引擎尝试错误地随机生成不存在的生物的漏洞。",
+      "1.9.1-pre2",
+      "1.9.1-pre2是Java版1.9.1的第2个预发布版，发布于2016年3月10日。",
+      "修复了寻路代码导致崩溃的漏洞（并发修改异常）。",
+      "1.9.1-pre3",
+      "1.9.1-pre3是Java版1.9.1的第3个，也是最后一个预发布版，发布于2016年3月11日，用于修复另一个寻路代码导致的崩溃。",
+      "修复了另一个寻路代码导致崩溃的漏洞（空指针异常）。"
+    ],
+    "运输矿车和漏斗矿车": [
+      "现在物品栏名称和物品对应。"
+    ],
+    "上个开发版本的漏洞": [
+      "MC-99395 — 当生物正在通过栅栏门时关闭栅栏门会使游戏崩溃。",
+      "MC-99426 — PigZombieTicking实体崩溃。"
+    ],
+    "注释与参考": [
+      "Minecraft 1.9.1 Pre-Release 3（存档），来自Searge。Mojang.com，2016年3月9日。",
+      "Elytras have sounds? Well, in 1.9.1 pre-release 1 they do. Read about that (and more) at http://mojang.com/2016/03/minecr …，来自@SeargeDP。X（曾名Twitter），2016年3月9日。",
+      "MC-96927 — 漏洞状态为“已修复”。",
+      "MCL-4420 — “会话ID在启动器中显示为<censored>，但已正确写入日志文件。” — 漏洞状态为“有意为之”。",
+      "\"Paper patch 0078\" – https://github.com/starlis/Paper/blob/b2dd99e74e91fbe5f7c28fe29faa58b7162c1aa6/Spigot-Server-Patches/0078-Optimize-Navigation-Listener.patch",
+      "http://mojang.com/2016/03/minecraft-191-pre-release-1/",
+      "Minecraft 1.9.1 Pre-Release 3（存档），来自Searge。Mojang.com，2016年3月9日。",
+      "Minecraft 1.9.1 Pre-Release 2 is now uploaded to the launcher. The blog post at http://mojang.com/2016/03/minecr … will be updated in a few minutes.，来自@SeargeDP。X（曾名Twitter），2016年3月10日。",
+      "Minecraft 1.9.1 Pre-Release 3（存档），来自Searge。Mojang.com，2016年3月9日。",
+      "There was one crash cause in pre2 that we missed, so Minecraft 1.9.1 Pre-Release 3 is now available: mojang.com/2016/03/minecr…，来自@SeargeDP。X（曾名Twitter），2016年3月11日。"
+    ]
+  }
+}

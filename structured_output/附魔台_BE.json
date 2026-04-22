@@ -1,0 +1,10 @@
+{
+  "title": "附魔台/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%99%84%E9%AD%94%E5%8F%B0%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "CustomName：（文本组件）表示当前附魔台的名称。会取代附魔台界面中的默认名称。"
+    ]
+  }
+}

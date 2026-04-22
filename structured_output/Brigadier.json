@@ -1,0 +1,81 @@
+{
+  "title": "Brigadier",
+  "source_url": "https://zh.minecraft.wiki/w/Brigadier",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "最新版本": [
+      "1.0.18"
+    ],
+    "MIT协议": [
+      "我真为这个名字感到自豪！Brigadier是Minecraft使用的命令库的名字。"
+    ],
+    "——Dinnerbone评论于Brigadier": [
+      "Brigadier（意为“准将”）是一个为Java版设计和开发的命令读取执行库，主要由Dinnerbone维护。它是Mojang以开源许可放出的第一个Java版使用的库。"
+    ],
+    "用途": [
+      "Brigadier可以用来读取和执行字符串命令。"
+    ],
+    "特性": [
+      "命令节点可由变量或直接量分支定义。",
+      "Java版中所有的命令实际上均为根命令节点的直接量分支，而非实际执行的命令。",
+      "命令来源可由命令上下文修改/复制。",
+      "多个实体被目标选择器选定时，/execute as <目标选择器>可以将命令来源也修改为多个。",
+      "命令解析时动态检查错误。",
+      "枚举当前命令节点可能到达的所有命令。",
+      "命令执行成功/失败时的结果即时处理。",
+      "/execute store支持将命令结果存储至方块、实体的NBT数据或者记分板。",
+      "命令节点的递归重定向。",
+      "/execute run会重定向到原版游戏命令调度器的根节点。"
+    ],
+    "字符串读取器": [
+      "Brigadier实现了解析器用于解析命令字符串。",
+      "其通过游标（cursor）以逐字读取字符串。当游标值增加时，可看作游标向主字符串末尾方向移动。",
+      "其提供一系列方法方便游戏读取命令字符串。并内建解析引号括起的字符串，支持反斜杠转义，及一些基础的数字、布尔值解析器。"
+    ],
+    "历史": [
+      "2014年10月25日",
+      "Dinnerbone在MC-10880中提到Brigadier。",
+      "2017年7月27日",
+      "Dinnerbone披露未来将有一个未混淆的叫“Brigadier”的命令读取库。"
+    ],
+    "Java版": [
+      "1.13",
+      "17w45a",
+      "现在由Brigadier处理命令。",
+      "Minecraft将Brigadier添加至其依赖库中。",
+      "2018年9月26日",
+      "Brigadier现以MIT许可开源。",
+      "1.14",
+      "19w08a",
+      "允许在命令中使用单引号表示纯字符串。"
+    ],
+    "更改": [
+      "1.0.15",
+      "2018年9月26日"
+    ],
+    "发布初始版本": [
+      "1.0.17",
+      "2019年2月19日"
+    ],
+    "不再依赖于Guava": [
+      "1.0.18",
+      "2021年7月16日"
+    ],
+    "参考": [
+      "Programmers: Play with Minecraft's Inner Workings! — Minecraft.net。",
+      "Mojang/brigadier: Brigadier is a command parser & dispatcher, designed and developed for Minecraft: Java Edition. — GitHub。",
+      "Contributors to Mojang/brigadier — GitHub。",
+      "We just pulled in our very first community contributed code into a Minecraft Java Edition official library. Woo! 🎉 Want to help out? The first library we've opened is our command engine - it's MIT licensed so you can freely use it in your own projects!，来自@Dinnerbone。X（曾名Twitter）。",
+      "Added copyright header, LICENSE, and README.md by Dinnerbone · Pull Request #8 · Mojang/brigadier，来自boq。Mojang/brigadier – GitHub。“I'd argue that most people identify command by first literal after root, so that would make \"command\" a sub-tree and not just path leading to leaf node. /bikeshedding”",
+      "Inspecting a command — Mojang/brigadier – GitHub。",
+      "Displaying usage info — Mojang/brigadier – GitHub。",
+      "\"Preparation for OSS :)\" - Preparing for the open source software – Mojang/brigadier – GitHub",
+      "Allow single quote in strings by boq · Pull Request #52 — Mojang/brigadier – GitHub。",
+      "Release 1.0.15 · Mojang/brigadier — GitHub。",
+      "Release 1.0.17 · Mojang/brigadier — GitHub。",
+      "Release 1.0.18 · Mojang/brigadier — GitHub。"
+    ]
+  }
+}

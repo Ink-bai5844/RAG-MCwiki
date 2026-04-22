@@ -1,0 +1,39 @@
+{
+  "title": "命令/permission",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fpermission",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "需要的权限等级": [
+      "4"
+    ],
+    "启用作弊": [
+      "枚举或重新加载权限列表，或设置玩家的权限等级。"
+    ],
+    "permission list": [
+      "枚举当前使用的权限列表，仅BDS可用。"
+    ],
+    "permission reload": [
+      "在服务器上重新从permissions.json文件加载操作员列表，仅BDS可用。",
+      "permission set <player: target> [permission: PermissionLevel]",
+      "在客户端上设置玩家的权限等级，仅非BDS可用。但通常无法执行，因为其权限等级要求过高。"
+    ],
+    "参数": [
+      "player: target：CommandSelector<Player>",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。",
+      "permission: PermissionLevel：enum",
+      "指定权限等级所对应的身份。必须为以下其中之一："
+    ],
+    "基岩版": [
+      "1.10.0",
+      "加入了/permission。"
+    ],
+    "无法解析": [
+      "player: target是非玩家类型的目标选择器"
+    ],
+    "参考": [
+      "MCPE-161188 — /permission不能按照语法提示执行。"
+    ]
+  }
+}

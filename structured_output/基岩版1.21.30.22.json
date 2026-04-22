@@ -1,0 +1,107 @@
+{
+  "title": "基岩版1.21.30.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.30.22",
+  "structured_content": {
+    "默认分类": [
+      "1.21.30.22"
+    ],
+    "服务端版本": [
+      "1.21.30.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952103022（armeabi-v7a，34）",
+      "962103022（x86，34）",
+      "972103022（arm64-v8a，34）",
+      "982103022（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年8月7日"
+    ],
+    "测试版归属": [
+      "1.21.30"
+    ],
+    "协议版本": [
+      "723",
+      "◄◄1.21.23",
+      "1.21.31►►",
+      "◄1.21.30.21",
+      "1.21.30.23►",
+      "beta 1.21.30.22（ChromeOS/Android）、Preview 1.21.30.22（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.30的第2个测试版，发布于2024年8月7日，同步了一些Java版的特性，并修复了一些漏洞。"
+    ],
+    "常规": [
+      "更改了一些方块的英文名称以匹配Java版：",
+      "更改了一些物品的英文名称以匹配Java版："
+    ],
+    "伤害类型": [
+      "加入了新的伤害类型mace_smash，用于重锤猛击以产生新的死亡消息。"
+    ],
+    "死亡消息": [
+      "加入了被重锤猛击杀死时的死亡消息："
+    ],
+    "方块": [
+      "在minecraft:destructible_by_mining方块组件中加入了新的实验性字段item_specific_speeds。"
+    ],
+    "彩色火把": [
+      "IDcolored_torch_rg和​colored_torch_bp现在被拆分为colored_torch_red、​colored_torch_green、​colored_torch_blue和​colored_torch_purple。",
+      "colored_torch_rg和​colored_torch_bp及其数据值仍然可用，但不会在命令提示中出现。"
+    ],
+    "海绵和湿海绵": [
+      "IDsponge现在被拆分为：sponge和​wet_sponge。",
+      "sponge的数据值仍然可用。"
+    ],
+    "Player Head": [
+      "skull:3"
+    ],
+    "Light": [
+      "light_block_0"
+    ],
+    "哞菇": [
+      "现在会生成于光照等级不低于9的地方，而非不低于12的地方。"
+    ],
+    "村民": [
+      "石匠的英文名称由“Stone Mason”更改为“Mason”，以匹配Java版。"
+    ],
+    "游戏内容": [
+      "修复了试炼刷怪笼的碰撞箱形状不正确的问题。试炼刷怪笼现在拥有与普通方块相同大小的碰撞箱。（MCPE-178305）"
+    ],
+    "魔咒": [
+      "最大等级为I时，I级的魔咒不再会在提示框中显示等级。",
+      "例如I级的无限魔咒会显示“无限”，而不是“无限I”。"
+    ],
+    "/reload": [
+      "加入了all: reload_all参数。",
+      "接受值只有all。",
+      "使玩家退出并重新加入世界，同时重载所有行为包和资源包。"
+    ],
+    "设置": [
+      "将“最大帧率”选项重命名为“帧率限制”，并为其加入了提示框，以更好地描述其用途。"
+    ],
+    "资源包和行为包": [
+      "玩家的helmet_layer_visible变量现在基于has_head_gearMolang检查的结果，玩家和角色渲染控制器对头盔层的部分可见性不再检查头饰的存在。",
+      "修复了可附加脚本，将helmet_layer_visible设置为1.0，以便正常工作，并维护了一个修复程序，防止角色头发和头饰在生物和南瓜头之外被裁剪。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”和“即将推出的创作者功能”子选项后才可使用。"
+    ],
+    "ItemUseOnBeforeEvent": [
+      "将只读属性isFirstEvent: boolean加入到beta。如果事件是在玩家按下初始交互按钮时触发的，则该值为true，在按住交互按钮时触发的事件时，该值为false。"
+    ],
+    "ItemUseOnAfterEvent": [
+      "将只读属性isFirstEvent: boolean加入到beta。如果事件是在玩家按下初始交互按钮时触发的，则该值为true，在按住交互按钮时触发的事件时，该值为false。"
+    ],
+    "图形": [
+      "在延迟渲染预览功能中加入了水的数据驱动参数的功能。",
+      "在延迟渲染预览功能中加入了新功能：真实感波浪。此新功能必须通过资源包选择加入，默认情况下不会启用。"
+    ],
+    "原版趋同": [
+      "只有一个可能等级的魔咒不再会在名称中显示“I”级。",
+      "更改了许多物品和方块的英文名称以趋同Java版。（MCPE-101388）",
+      "石匠村民的英文名称由“Stone Mason”重命名为“Mason”，以匹配Java版。",
+      "哞菇现在会生成于光照等级为9及以上的地方。（MCPE-66830）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.30.22 — Minecraft Feedback，2024年8月7日。"
+    ]
+  }
+}

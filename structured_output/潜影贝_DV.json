@@ -1,0 +1,58 @@
+{
+  "title": "潜影贝/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%BD%9C%E5%BD%B1%E8%B4%9D%2FDV",
+  "structured_content": {
+    "默认分类": [
+      "此页面记录所描述对象关联的数据值。",
+      "此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。"
+    ],
+    "white": [
+      "0"
+    ],
+    "orange": [
+      "1"
+    ],
+    "magenta": [
+      "2"
+    ],
+    "light_blue": [
+      "3"
+    ],
+    "yellow": [
+      "4"
+    ],
+    "lime": [
+      "5"
+    ],
+    "pink": [
+      "6"
+    ],
+    "gray": [
+      "7"
+    ],
+    "light_gray": [
+      "8"
+    ],
+    "cyan": [
+      "9"
+    ],
+    "purple": [
+      "10"
+    ],
+    "blue": [
+      "11"
+    ],
+    "brown": [
+      "12"
+    ],
+    "green": [
+      "13"
+    ],
+    "red": [
+      "14"
+    ],
+    "black": [
+      "15"
+    ]
+  }
+}

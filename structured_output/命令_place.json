@@ -1,0 +1,172 @@
+{
+  "title": "命令/place",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fplace",
+  "structured_content": {
+    "默认分类": [
+      "关于在基岩版中已移除的用于控制智能体的命令，请见“命令/place（已移除）”；关于在基岩版中用于放置结构的命令，请见“命令/structure”。"
+    ],
+    "需要的权限等级": [
+      "2"
+    ],
+    "不在命令方块上执行[仅基岩版]": [
+      "以指定位置为生成原点，放置已配置的地物、结构地物、结构模板或结构池。"
+    ],
+    "Java版": [
+      "1.19",
+      "22w18a",
+      "加入了/place命令，用以替代/placefeature。",
+      "22w19a",
+      "加入了template子命令，用于放置结构模板。",
+      "pre1",
+      "template子命令的<template>参数现在可被自动补全。",
+      "1.20.5",
+      "24w07a",
+      "将参数max_depth的最大值由7更改为20。",
+      "pre2",
+      "现在/place jigsaw命令在放置前检测是否加载或在世界外。",
+      "1.21.5",
+      "25w02a",
+      "为/place template命令加入了strict选项。"
+    ],
+    "place feature <feature> [<pos>]": [
+      "放置已配置的地物。"
+    ],
+    "place jigsaw <pool> <target> <max_depth> [<position>]": [
+      "放置结构池并展开至指定深度。"
+    ],
+    "place structure <structure> [<pos>]": [
+      "放置结构地物。"
+    ],
+    "place template <template> [<pos>] [<rotation>] [<mirror>] [<integrity>] [<seed>] [strict]": [
+      "放置结构模板。与结构方块功能基本一致。"
+    ],
+    "基岩版": [
+      "place feature <feature: features> [position: x y z]",
+      "place featurerule <featurerule: featureRules> [position: x y z]",
+      "放置地物。",
+      "place jigsaw <pool: filepath> <jigsawTarget: string> <maxDepth: int> [pos: x y z] [keepJigsaws: Boolean] [includeEntities: Boolean] [liquidSettings: LiquidSettings]",
+      "放置结构池并展开至指定深度。",
+      "place structure <structure: string> [pos: x y z] [ignoreStartHeight: Boolean] [keepJigsaws: Boolean] [includeEntities: Boolean] [liquidSettings: LiquidSettings]",
+      "放置结构地物。",
+      "1.21.50"
+    ],
+    "参数": [
+      "JE：<feature>：resource_key",
+      "指定要放置的已配置地物。原版中的已配置地物参见地物。",
+      "必须是一个命名空间ID，将会在命令执行时根据此ID尝试获取注册在minecraft:worldgen/configured_feature注册表的一个注册项。",
+      "JE：<structure>：resource_key",
+      "BE：structure: string：basic_string",
+      "指定要放置的结构地物。原版中的结构地物参见生成结构。",
+      "在Java版中，必须是一个命名空间ID，将会在命令执行时根据此ID尝试获取注册在minecraft:worldgen/structure注册表的一个注册项。",
+      "在基岩版中，必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。且只能为以下其中之一：",
+      "minecraft:trail_ruins — 古迹废墟",
+      "minecraft:trial_chambers — 试炼密室",
+      "JE：<pool>：resource_key",
+      "BE：pool: filepath：CommandFilePath",
+      "指定要放置的结构池。",
+      "必须是一个命名空间ID，将会在命令执行时根据此ID尝试获取注册在minecraft:worldgen/template_pool注册表的一个注册项。",
+      "JE：<target>：resource_location",
+      "BE：jigsawTarget: string：basic_string",
+      "指定放置结构池时的结构中的起始拼图方块。",
+      "在Java版中，必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "在基岩版中，必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "JE：<max_depth>：integer",
+      "BE：maxDepth: int：int",
+      "指定要展开拼图方块的最大深度。",
+      "必须为32位整数。且必须在1和7之间（含）。",
+      "JE：<template>：resource_location",
+      "指定要放置的结构模板（结构文件）。",
+      "必须为命名空间ID，将会在命令执行时根据此ID尝试获取一个未注册内容，或发送至客户端由客户端处理。",
+      "JE：<pos>：block_pos和<position>：block_pos",
+      "BE：position: x y z：CommandPosition和pos: x y z：CommandPosition",
+      "指定放置时使用的生成原点。",
+      "在Java版中，表示一个方块坐标，格式为<X> <Y> <Z>，三个值必须为整数、相对坐标或局部坐标。若为相对坐标或局部坐标，则会将各坐标值向下取整变为方块坐标。在基岩版中，必须为三维的坐标，格式为<X> <Y> <Z>，三个值必须是浮点数、相对坐标或局部坐标。",
+      "JE：<rotation>：template_rotation",
+      "指定放置模板时应当旋转的角度，旋转方向以Y轴俯视角为基准。可用值如下：",
+      "none（默认值）：不旋转。",
+      "clockwise_90：顺时针旋转90°。",
+      "180：旋转180°。",
+      "counterclockwise_90：逆时针旋转90°。",
+      "JE：<mirror>：template_mirror",
+      "指定放置模板时应当采取的镜像方式。可用值如下：",
+      "none（默认值）：不镜像。",
+      "front_back：前后翻转。",
+      "left_right：左右翻转。",
+      "JE：<integrity>：float",
+      "指定被放置结构的完整度。默认值为1。",
+      "必须为单精度浮点数。且必须在0.0和1.0之间（含）。",
+      "JE：<seed>：integer",
+      "指定要被用于结构随机不完整放置的种子。0代表随机种子。如不指定，则默认为0，即使用随机种子。",
+      "必须为32位整数。",
+      "JE：strict",
+      "使命令在放置方块时不触发自身及紧挨着的方块的方块更新和形状更新。",
+      "BE：feature: features：enum",
+      "指定地物。",
+      "必须为字符串，且必须为单个词。",
+      "BE：featurerule: featureRules：enum",
+      "指定地物规则。",
+      "必须为字符串，且必须为单个词。",
+      "BE：ignoreStartHeight: Boolean：enum",
+      "指定放置结构时是否忽略起始高度，默认为false。",
+      "必须为 布尔值（true或false）。",
+      "BE：keepJigsaws: Boolean：enum",
+      "指定被放置结构是否保留拼图方块，默认为false。",
+      "必须为 布尔值（true或false）。",
+      "BE：includeEntities: Boolean：enum",
+      "指定被放置结构是否包含实体，默认为false。",
+      "必须为 布尔值（true或false）。",
+      "BE：liquidSettings: LiquidSettings：enum",
+      "指定流体处理方式，默认为apply_waterlogging。",
+      "必须为以下其中之一：",
+      "apply_waterlogging — 允许含水。",
+      "ignore_waterlogging — 忽略含水。",
+      "必须为字符串，且必须为单个词。"
+    ],
+    "结果": [
+      "此章节缺失以下信息：需要基岩版信息",
+      "请协助补充相关内容的描述，讨论页可能有更多细节。"
+    ],
+    "/place feature ...": [
+      "生成原点周围的3×3区块中有区块未加载或在世界外"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "示例": [
+      "以命令执行者当前坐标为原点，在合适的位置放置一处试炼密室：/place structure minecraft:trial_chambers ~ ~ ~",
+      "在Java版中，以命令执行者当前坐标为原点，放置一项金合欢树地物：/place feature acacia ~ ~ ~",
+      "在Java版中，以命令执行者当前坐标为原点，以远古城市中心为模板池抽取模板，并向外生成7层结构：/place jigsaw ancient_city/city_center empty 7 ~ ~ ~",
+      "在Java版中，以命令执行者当前坐标为原点，放置一个ancient_city/city_center/city_center_1（顺时针旋转90°；左右翻转；50%完整度；种子随机）：/place template ancient_city/city_center/city_center_1 ~ ~ ~ clockwise_90 left_right 0.5 0"
+    ],
+    "数据驱动拼图结构": [
+      "1.21.50.26",
+      "加入了/place命令。",
+      "1.21.60",
+      "1.21.60.23",
+      "为jigsaw和​structure子命令加入了includeEntities: Boolean参数。",
+      "1.21.70",
+      "1.21.70.22",
+      "feature和​featurerule子命令不再属于实验性玩法。",
+      "1.21.80",
+      "1.21.80.22",
+      "jigsaw和​structure子命令不再属于实验性玩法。",
+      "1.21.90",
+      "1.21.90.21",
+      "为jigsaw和​structure子命令加入了liquidSettings: LiquidSettings参数。"
+    ],
+    "即将推出的创作者功能": [
+      "1.21.60.23",
+      "加入了feature和​featurerule子命令。",
+      "1.21.60"
+    ],
+    "参考": [
+      "MC-259351",
+      "MC-274875",
+      "MC-267732 — 漏洞状态为“已修复”。",
+      "MC-259355 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Com.mojang/path",
+  "source_url": "https://zh.minecraft.wiki/w/Com.mojang%2Fpath",
+  "text": "下面的表格展示了com.mojang文件夹的默认位置。\n平台\n位置\nWindows，正式版\n独立内容：%APPDATA%\\Minecraft Bedrock\\Users\\<用户ID>\\games\\com.mojang\n共享内容：%APPDATA%\\Minecraft Bedrock\\Users\\Shared\\games\\com.mojang\nWindows，Minecraft Preview\n独立内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\<用户ID>\\games\\com.mojang\n共享内容：%APPDATA%\\Minecraft Bedrock Preview\\Users\\Shared\\games\\com.mojang\nMinecraft给用户分配的用户ID，区分不同的微软账户与离线账户。\nAndroid和Fire OS\n应用程序：/data/user/<Android用户ID>/com.mojang.minecraftpe/games/com.mojang\n外部：/storage/emulated/<Android用户ID>/Android/data/com.mojang.minecraftpe/files/games/com.mojang\nAndroid系统给用户分配的用户ID，一般情况下设备拥有者的用户ID为0。\niOS和iPadOS\n我的iPhone/Minecraft/games/com.mojang\nTransfer Your World to Another Device in Minecraft: Bedrock Edition — help.minecraft.net。\nI Can’t Find my Minecraft World on Android — help.minecraft.net。\nHow to Locate Minecraft World Files on Mobile — help.minecraft.net。"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100325-1545",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100325-1545",
+  "text": "此版本目前已丢失。\n虽然此版本可证明存在，但却无法从Minecraft启动器或别处下载到。\n如果您有留档，请于讨论页提出。\n此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年3月25日\n下载\n不可用\nal_version\n1.115\n◄Infdev 20100321\nInfdev 20100325-1640►\nMinecraft Infdev的一个版本发布于2010年3月25日15:45（UTC），重新加入了一些特性。\n新内容\n方块\n常规\n现在方块再次可以自动更新。\n世界生成\n洞穴\n被重新加入游戏。\n可以在红砖块金字塔内部生成。\n矿团\n被重新加入游戏。\n矿石现在会以矿团的形式生成。\n更改\n方块\n台阶\n现在在条件允许的情况下会生成双台阶。\n熔炉\n现在能够正常工作。\n花\n没有暴露在阳光下时会变为掉落物。\n火\n现在不再能够在不可燃方块的侧面点火。\n修复\n修复了1个漏洞\n由于删除了重复登录的检测，游戏不再随机地出现“会话冲突”屏幕并崩溃。\n参考\nIRC记录, Adura.7z（UTC-5）\nInfdev has been updated（存档） — The Word of Notch，2010年3月25日。\nAdura的IRC记录: \"(11:45:44) <Notch> I updated infdev.\"\n导航"
+}

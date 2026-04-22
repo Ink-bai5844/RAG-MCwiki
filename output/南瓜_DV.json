@@ -1,0 +1,5 @@
+{
+  "title": "南瓜/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8D%97%E7%93%9C%2FDV",
+  "text": "位\n描述\n0x1\n0x2\n一个值范围0-3的2位二进制数，储存南瓜朝向：\n0：南瓜朝南\n1：南瓜朝西\n2：南瓜朝北\n3：南瓜朝东\n0x4\n0x8\n（未使用）"
+}

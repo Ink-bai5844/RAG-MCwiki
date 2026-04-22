@@ -1,0 +1,5 @@
+{
+  "title": "物品堆叠组件/tool",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Ftool",
+  "text": "此模板已被弃用，因历史使用而保留。\n请使用编码格式/DataComponent代替。\ntool 物品堆叠组件\ncan_destroy_blocks_in_creative：（默认为true）创造模式玩家能否使用此物品破坏方块。\ndamage_per_block：（值≥0，默认为1）破坏硬度非0的方块时物品损失的耐久度。\ndefault_mining_speed：（值≥0，默认为1）挖掘方块时的速度。\n*\n*rules：物品与对应可以挖掘的方块的映射列表。\n：一项物品与方块列表的挖掘配置数据。\n*\n*blocks：当为字符串时，表示包含指定方块（即检查是否为同一个命名空间ID）或具有指定的方块标签的方块（需要在标签名前方写明#）。当为列表时，则包含下列指定方块列表内的所有方块。\n：一个方块的命名空间ID。\ncorrect_for_drops：设置此物品是所有上方指定方块的合适挖掘工具，并在该方块的战利品表需要匹配正确工具时掉落物品。\nspeed：覆盖所有上方指定方块的使用此物品挖掘时的挖掘速度。"
+}

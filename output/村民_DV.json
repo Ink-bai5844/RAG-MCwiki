@@ -1,0 +1,5 @@
+{
+  "title": "村民/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9D%91%E6%B0%91%2FDV",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n类型\n命名空间ID（仅JE）\n数字ID（仅BE）\n沙漠\ndesert\n1\n丛林\njungle\n2\n平原\nplains\n0\n热带草原\nsavanna\n3\n雪原\nsnow\n4\n沼泽\nswamp\n5\n针叶林\ntaiga\n6"
+}

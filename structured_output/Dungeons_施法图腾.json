@@ -1,0 +1,61 @@
+{
+  "title": "Dungeons:施法图腾",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%96%BD%E6%B3%95%E5%9B%BE%E8%85%BE",
+  "structured_content": {
+    "SoulTotemOfCasting": [
+      "所有靠近这个图腾的人都会在他们法器周围感到精力充沛。"
+    ],
+    "——游戏内描述": [
+      "施法图腾（Totem of Casting）是Minecraft Dungeons中的法器。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "树梢缠结": [
+      "居民："
+    ],
+    "使用": [
+      "使用时会消耗70灵魂在玩家周围生成一个蓝色法阵，持续5秒，5秒后法阵消失，所有处于法阵内的玩家身上未冷却好的法器都会立即冷却完毕。法阵的范围取决于法器等级。",
+      "S3_sfx_SToC_Use"
+    ],
+    "X% 范围增加": [
+      "10 秒冷却",
+      "+1 灵魂收集"
+    ],
+    "掉落": [
+      "S3_sfx_SToC_Land"
+    ],
+    "捡起": [
+      "S3_sfx_SToC_Pickup"
+    ],
+    "装备": [
+      "S3_sfx_SToC_Place"
+    ],
+    "激活": [
+      "S3_sfx_SToC_Activate"
+    ],
+    "倒计时": [
+      "S3_sfx_SToC_Countdown"
+    ],
+    "循环（单声道）": [
+      "S3_sfx_SToC_Loop_MONO",
+      "循环（2D）",
+      "S3_sfx_SToC_Loop_2D"
+    ],
+    "成就": [
+      "主条目：MCD:成就"
+    ],
+    "Soul Powered": [
+      "使用50次施法图腾。"
+    ],
+    "—": [
+      "10G"
+    ],
+    "Minecraft Dungeons": [
+      "2022年10月15日",
+      "施法图腾在Minecraft Live 2022中被展示，但没有展示名称。",
+      "1.16.2.0",
+      "加入了施法图腾。"
+    ]
+  }
+}

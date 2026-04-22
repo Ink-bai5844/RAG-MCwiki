@@ -1,0 +1,54 @@
+{
+  "title": "音乐唱片/信号强度",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9F%B3%E4%B9%90%E5%94%B1%E7%89%87%2F%E4%BF%A1%E5%8F%B7%E5%BC%BA%E5%BA%A6",
+  "structured_content": {
+    "（无音乐唱片）": [
+      "0",
+      "13",
+      "1"
+    ],
+    "cat": [
+      "2"
+    ],
+    "blocks": [
+      "3"
+    ],
+    "chirp": [
+      "4"
+    ],
+    "far": [
+      "5"
+    ],
+    "mall": [
+      "6"
+    ],
+    "mellohi": [
+      "7"
+    ],
+    "stal": [
+      "8"
+    ],
+    "strad": [
+      "9"
+    ],
+    "ward": [
+      "10"
+    ],
+    "Tears": [
+      "11"
+    ],
+    "wait": [
+      "12"
+    ],
+    "Pigstep": [
+      "13"
+    ],
+    "otherside": [
+      "14"
+    ],
+    "Relic": [
+      "5",
+      "15"
+    ]
+  }
+}

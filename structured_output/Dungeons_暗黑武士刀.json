@@ -1,0 +1,54 @@
+{
+  "title": "Dungeons:暗黑武士刀",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%9A%97%E9%BB%91%E6%AD%A6%E5%A3%AB%E5%88%80",
+  "structured_content": {
+    "力量": [
+      "8"
+    ],
+    "速度": [
+      "2"
+    ],
+    "攻击范围": [
+      "7"
+    ],
+    "存档ID": [
+      "Katana_Unique2",
+      "一把永不停歇的武士刀，直到战斗获胜。"
+    ],
+    "——物品描述": [
+      "暗黑武士刀（Dark Katana）是Minecraft Dungeons中的近战武器。它是武士刀的变种。"
+    ],
+    "获取": [
+      "地点："
+    ],
+    "熊猫高原（天启难度以上）": [
+      "居民："
+    ],
+    "猪灵商人": [
+      "远古生物："
+    ],
+    "使用": [
+      "暗黑武士刀有着高伤害，非常低的速度，以及中等攻击距离。攻击方式与武士刀无异。"
+    ],
+    "攻击力": [
+      "75",
+      "512-753",
+      "84",
+      "751-1104",
+      "108",
+      "1960-2882"
+    ],
+    "sfx_item_katanaUniqueSwingDirty_soundWave": [
+      "命中（8位）",
+      "sfx_item_katanaHit8bit_soundWave"
+    ],
+    "sfx_item_katanaPreHit_soundWave": [
+      "命中前（8位）",
+      "sfx_item_katanaPreHit8bit_soundWave"
+    ],
+    "Minecraft Dungeons": [
+      "3月25日Beta更新",
+      "加入了暗黑武士刀。"
+    ]
+  }
+}

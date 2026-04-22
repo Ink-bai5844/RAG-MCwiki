@@ -1,0 +1,5 @@
+{
+  "title": "教育版1.19.53",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%95%99%E8%82%B2%E7%89%881.19.53",
+  "text": "1.19.53\n版本\n教育版\n内部版本号\nChromeOS, Android：1.19.53.0\n发布时间\n2023年6月26日\n协议版本\n562\n◄◄1.19.52\n1.20.12►►\n1.19.53是教育版的一次次要更新，发布于2023年6月26日，修复了一些漏洞。\n更改\n技术性\n提升了多人游戏的稳定性。\n修复\n修复了/give camera命令不起作用的问题。\n修复了iOS上某些组织登录时的本地客户端错误。\n修复Windows、macOS、ChromeOS和Android上多人游戏断开连接的问题，提高了多人游戏稳定性。\n暂未在iOS上做上述更改。\n参考\nWhat's New in The Wild Update (v1.19.53)（存档） — Minecraft Education Support。\n导航"
+}

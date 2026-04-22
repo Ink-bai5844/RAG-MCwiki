@@ -1,0 +1,152 @@
+{
+  "title": "望远镜",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%9B%E8%BF%9C%E9%95%9C",
+  "structured_content": {
+    "最大堆叠": [
+      "1"
+    ],
+    "spyglass": [
+      "望远镜（Spyglass）是一种用来放大视角、观察特定位置的物品。"
+    ],
+    "用途": [
+      "使用望远镜观察远处的金块。初始视场角设为70",
+      "望远镜用于放大玩家视野中的特定位置。手持望远镜并按住使用键会打开望远镜，松开按键会关闭望远镜。",
+      "使用望远镜会将玩家的视场角更改为选项中设置的1⁄10。视场角的可设置范围为30-110，因此望远镜中的视场角范围为3-11。",
+      "默认设置下，玩家的视场角为70[仅Java版]或60[仅基岩版]，因此望远镜中的视场角为7[仅Java版]或6[仅基岩版]。",
+      "使用望远镜时画面中将出现遮罩，类似于佩戴雕刻南瓜时的效果。在Java版中，按F1将隐藏该遮罩。",
+      "使用望远镜会降低玩家的移动速度。若玩家连续使用望远镜超过1分钟（1200游戏刻），上述效果会自动中止。",
+      "火焰燃烧、反胃等影响视觉的因素同样会影响望远镜的视觉效果。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "望远镜：放大"
+    ],
+    "item.spyglass.use": [
+      "0.5",
+      "1.15-1.55",
+      "16"
+    ],
+    "subtitles.item.spyglass.use": [
+      "望远镜：缩小"
+    ],
+    "item.spyglass.stop_using": [
+      "0.5",
+      "0.8-1",
+      "16"
+    ],
+    "subtitles.item.spyglass.stop_using": [
+      "基岩版："
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "item.minecraft.spyglass": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。"
+    ],
+    "JSON": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:break_sound\":\"minecraft:entity.item.break\",\"minecraft:use_effects\":[],\"minecraft:swing_animation\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.spyglass\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:spyglass\",\"minecraft:repair_cost\":0,\"minecraft:enchantments\":[]}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "进度": [
+      "主条目：进度"
+    ],
+    "那是鸟吗？": [
+      "在可视距离内用望远镜看一只恶魂。"
+    ],
+    "冒险": [
+      "在可视距离内用望远镜看一只鹦鹉。"
+    ],
+    "那是气球吗？": [
+      "在可视距离内用望远镜看一只末影龙。"
+    ],
+    "历史": [
+      "2020年10月3日",
+      "在Minecraft Live 2020中展示了望远镜（Telescope）。"
+    ],
+    "Java版": [
+      "1.17",
+      "20w45a",
+      "加入了望远镜。",
+      "镜中的视野当时是一个带有眩光点的圆形。",
+      "20w46a",
+      "镜中的视野现在是一个外侧围绕着铜制边框的玻璃方框。",
+      "20w48a",
+      "望远镜现在有了3D模型，不再是2D贴图了。",
+      "更改了望远镜的纹理。",
+      "在第三人称视角下使用望远镜时，望远镜现在会更好地与玩家的“眼睛”贴合。",
+      "21w10a",
+      "望远镜的物品栏图标重新变为2D形式且有了新的纹理，但在手持时仍会显示3D的模型。",
+      "1.17.1",
+      "pre1",
+      "更改了望远镜3D物品模型的纹理。现在其后侧会显示紫水晶镜片的纹理，而不是之前的铜质纹理。"
+    ],
+    "基岩版": [
+      "1.17.0"
+    ],
+    "Caves and Cliffs": [
+      "1.17.0.50",
+      "加入了望远镜。",
+      "1.17.0",
+      "1.17.0.52",
+      "望远镜不再属于实验性玩法。"
+    ],
+    "你知道吗": [
+      "Minecraft Live 2020中展示的望远镜的英文名称为“Telescope”（天文望远镜），但在快照实装时则改为“Spyglass”，这是因为后者更符合游戏中望远镜的款式。",
+      "游戏开发访谈中提到，望远镜的加入源自紫水晶制品开发时的头脑风暴。开发者从维基百科中搜索并整理了一系列水晶制品后从中选中了望远镜。",
+      "现实中的铜制单筒望远镜是大航海时代较为普及的设计，但水晶镜片要通过现代化技术才能制造。",
+      "在Java版中，使用命令/item将望远镜放入玩家的头盔槽会使其在视觉上变成一个角。可在彩蛋 § 物品模型了解更多此类彩蛋。",
+      "即使使用望远镜观察末影人的头部也会将其激怒。",
+      "在Java版中，望远镜是反着拿的，更符合现实生活中的使用习惯。"
+    ],
+    "参考": [
+      "MC-203575 — 漏洞状态为“有意为之”。",
+      "https://www.youtube.com/watch?v=pH_6-ZVOUAk"
+    ]
+  }
+}

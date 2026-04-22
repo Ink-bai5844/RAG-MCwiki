@@ -1,0 +1,5 @@
+{
+  "title": "命令/setfixedinvslot",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsetfixedinvslot",
+  "text": "此条目所介绍的内容已从基岩版中移除。\n这些特性曾存在于游戏中，但已被移除。\nsetfixedinvslot\n需要的权限等级\n2\n限制条件\n无\n用特定物品设置固定物品栏。\n语法\nsetfixedinvslot <固定物品栏编号：整数> <物品名称：字符串> [数据值：整数]\n参数\n固定物品栏编号：整数\n指定固定物品栏的编号。\n物品名称：字符串\n指定物品栏中要放入的物品。必须是有效物品ID（如iron_shovel），或有物品形式的方块ID。\n数据值：整数（可选）\n指定物品的数据值。必须是-2,147,483,648和2,147,483,647间的整数（含，无需分隔符），但是对于指定物品无效的会被设为0。若未指定，默认为0。\n结果\n命令\n触发条件\n基岩版\n任意\n参数未正确指定\n执行失败\n不符合以上所有条件\n执行成功\n历史\n携带版Alpha\n0.16.0\nbuild 1\n加入了/setfixedinvslot。\nbuild 2\n移除了/setfixedinvslot。\n导航"
+}

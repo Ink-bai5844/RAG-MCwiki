@@ -1,0 +1,34 @@
+{
+  "title": "辅助程序与编辑器/Tectonicus/TectonicusUploader",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2FTectonicus%2FTectonicusUploader",
+  "structured_content": {
+    "默认分类": [
+      "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。"
+    ],
+    "作者": [
+      "LordMike91"
+    ],
+    "最新版本": [
+      "0.3"
+    ],
+    "发布日期": [
+      "2011年7月"
+    ],
+    "?": [
+      "TectonicusUploader是一个python脚本，用于上传Changed.txt中的文件，这些文件是地图查看工具Tectonicus创建的。",
+      "使用python uploader.py运行它。"
+    ],
+    "更新日志": [
+      "V 0.5",
+      "新增上传失败后的错误处理功能。现在会不断尝试上传，直至成功为止。",
+      "V 0.4",
+      "修复Windows版本的漏洞。此前打开无binary标签（open(..., 'rb')）的图像时，会在第一个空字节处结束，而非文件结束符，此问题已解决。",
+      "V 0.3",
+      "修复脚本创建多个文件夹时出现的漏洞。例如针对全新的查看工具，脚本现已优化为仅创建一次文件夹。",
+      "V 0.2",
+      "做了一些小改动，以更好地适配Linux系统。",
+      "V 0.1",
+      "初始版本。"
+    ]
+  }
+}

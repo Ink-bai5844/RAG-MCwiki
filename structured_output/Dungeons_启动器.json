@@ -1,0 +1,26 @@
+{
+  "title": "Dungeons:启动器",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%90%AF%E5%8A%A8%E5%99%A8",
+  "structured_content": {
+    "默认分类": [
+      "关于通用的启动器，请见“Minecraft启动器”。",
+      "此页面描述的是已经正式终止支持的游戏版本。",
+      "虽然Minecraft Dungeons启动器仍然可以下载，但它只会提示用户使用Minecraft启动器。"
+    ],
+    "最新版本": [
+      "2.4.22"
+    ],
+    "Windows Executable": [
+      "Minecraft Dungeons启动器（Minecraft Dungeons Launcher）是一个提供Minecraft Dungeons登录和下载功能的游戏启动前端，可在Windows上使用，其目的是在Minecraft启动器无法支持Microsoft账户启动游戏的时候启动Minecraft Dungeons。",
+      "2020年11月27日，其被并入Minecraft启动器的2.2.74x版本中。2021年1月18日，该启动器已无法启动Minecraft Dungeons。",
+      "虽然Minecraft Dungeons启动器仍然可以下载，但它只会告诉用户在Minecraft启动器中玩游戏。"
+    ],
+    "历史": [
+      "主条目：启动器版本记录"
+    ],
+    "参考": [
+      "We're expanding our Minecraft Launcher team! We have a lot of exciting plans and are looking for another senior C++ developer to help make them happen. Know someone interested? Send them our way!，来自@Dinnerbone。X（曾名Twitter），2018年9月6日。",
+      "Right now, it’s optional to download the new launcher but starting on January 18, 2021, the new launcher will be required to access Minecraft Dungeons. The old launcher will have messaging to let you know when you will need to update.,Minecraft Unified Launcher Help Article"
+    ]
+  }
+}

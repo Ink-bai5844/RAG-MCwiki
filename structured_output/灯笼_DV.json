@@ -1,0 +1,14 @@
+{
+  "title": "灯笼/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%81%AF%E7%AC%BC%2FDV",
+  "structured_content": {
+    "描述": [
+      "0x1"
+    ],
+    "灯笼是否悬挂": [
+      "0x2",
+      "0x4",
+      "0x8"
+    ]
+  }
+}

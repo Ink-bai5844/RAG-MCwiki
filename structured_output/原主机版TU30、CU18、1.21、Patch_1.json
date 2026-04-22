@@ -1,0 +1,70 @@
+{
+  "title": "原主机版TU30、CU18、1.21、Patch 1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8E%9F%E4%B8%BB%E6%9C%BA%E7%89%88TU30%E3%80%81CU18%E3%80%811.21%E3%80%81Patch_1",
+  "structured_content": {
+    "默认分类": [
+      "TU30"
+    ],
+    "版本": [
+      "Xbox 360版",
+      "PlayStation 3版",
+      "PlayStation 4版"
+    ],
+    "内部版本号": [
+      "1.6.0779.0",
+      "1.6.0779.0",
+      "1.6.0119.0"
+    ],
+    "发布时间": [
+      "2015年10月23日",
+      "◄TU29",
+      "TU31►",
+      "CU18",
+      "2015年10月23日",
+      "◄CU17",
+      "CU19►",
+      "1.21",
+      "2015年10月23日",
+      "其他版本的1.21",
+      "2015年10月23日",
+      "其他版本的1.21",
+      "2015年10月23日",
+      "其他版本的1.21",
+      "2015年12月17日",
+      "◄PlayStation Vita版1.20",
+      "Patch 2►",
+      "TU30/CU18/1.21/Patch 1是原主机版的一次更新，也是Wii U版的首次更新，发布于2015年10月23日与12月17日，修复了一些漏洞。"
+    ],
+    "基岩版": [
+      "PlayStation 4版",
+      "PlayStation 3版",
+      "PlayStation 3版",
+      "PlayStation 4版",
+      "◄1.20",
+      "1.22►",
+      "Patch 1"
+    ],
+    "PlayStation Vita版": [
+      "◄1.20",
+      "1.22►",
+      "1.21",
+      "◄1.20",
+      "1.22►",
+      "1.21"
+    ],
+    "混搭包": [
+      "为2015年万圣节混搭包中的火把增加了彩色光。",
+      "XBONE、PS3、PS4、PSV、Wii U：增加了2015年万圣节混搭包试用内容。",
+      "XBONE：为Halo混搭包增加了新的Halo 5: Guardians皮肤。",
+      "XBONE、PS3、PS4、PSV、Wii U：增加了星球大战前传皮肤包的使用内容。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了符号的小内存泄漏。"
+    ],
+    "参考": [
+      "MCXBLA Title Update change logs — Minecraft Forum。",
+      "Xbox One Content Update change logs — Minecraft Forum。"
+    ]
+  }
+}

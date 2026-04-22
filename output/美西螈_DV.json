@@ -1,0 +1,5 @@
+{
+  "title": "美西螈/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BE%8E%E8%A5%BF%E8%9E%88%2FDV",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n种类\n字符串ID（仅JE）\n数字ID\n粉红色美西螈\nlucy\n0\n棕色美西螈\nwild\n1\n金色美西螈\ngold\n2\n青色美西螈\ncyan\n3\n蓝色美西螈\nblue\n4\n在Java版中，游戏使用数字ID进行存档保存，但允许在命令等场合使用字符串ID。\n在基岩版中，游戏使用数字ID进行存档保存。"
+}

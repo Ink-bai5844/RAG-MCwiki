@@ -1,0 +1,5 @@
+{
+  "title": "Java版Classic 0.0.11a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.11a",
+  "text": "此版本现存的留档并非原版。\n虽然此版本存在留档，但其并非完全的原版。\n如果您有留档，请于讨论页提出。\nMinecraft启动器中的该版本并非原版。\n虽然启动器中拥有与此版本名称相同的版本，但其却并非当时发布的原版。\n0.0.11a\n版本\nJava版\n发布时间\n2009年5月17日\n下载\n原版\n客户端\n启动器版\n客户端（.json）\nal_version\n未知\n◄◄0.0.10a\n0.0.12a►►\n0.0.11a是Java版的一次更新，发布于2009年5月17日，修复了一个漏洞。\n修复\n修复了1个漏洞\n修复了游戏无法进行的漏洞。\n启动器版\n启动器中的“c0.0.11a”实际上是0.0.12a的一个非常早期的开发版本，因为它内部的文件日期在0.0.11a发布的一天以后，并且包含了早期服务端软件的痕迹。\n参考\nMinecraft 0.0.11a for public consumption（存档） — The Word of Notch，2009年5月17日。\nlwjgl IRC logs — echelog.com，May 17, 2009 (UTC+2)。“[13:56:55] <Notch_> ok, it's up. 0.0.11a”\nhttps://forums.tigsource.com/index.php?topic=6273.0\nlwjgl IRC logs — echelog.com，2009年5月17日。“<Notch_> I forgot to take out the normal start() and destroy()..”\n导航"
+}

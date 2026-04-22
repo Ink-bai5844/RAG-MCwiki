@@ -1,0 +1,5 @@
+{
+  "title": "启动器1.6.44",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A81.6.44",
+  "text": "此页面还需添加更多图像。\n请在添加后将此信息移除。\n1.6.44\n程序类型\nMinecraft启动器\n发布时间\n2015年9月11日\n下载\nLauncher.jar\n◄◄1.6.3\n2.0.700►►\n◄1.6.43\n1.6.48►\n1.6.44是发布于2015年9月11日的一个启动器小更新。\n更改\n添加了新的关于macOS安装程序的信息（仅macOS）。\n修复\nMCL-1049 - macOS上的启动器无法检测到Java 7/8。\nMCL-2628 - macOS上的启动器要求Java 6。\nMCL-3955 - 无法在macOS上启动更新后的原生启动器。\n导航"
+}

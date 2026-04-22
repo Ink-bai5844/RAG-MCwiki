@@ -1,0 +1,57 @@
+{
+  "title": "命令/op",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fop",
+  "structured_content": {
+    "需要的权限等级": [
+      "Java版：3",
+      "基岩版：2"
+    ],
+    "仅专用服务器[仅JE]": [
+      "给予玩家管理员身份。",
+      "在Java版中，此命令会将玩家添加进ops.json文件，权限等级设为server.properties中op-permission-level所设置的权限等级。",
+      "在基岩版中，此命令将玩家在“玩家权限”屏幕中的权限改为“操作员”。在专用服务器中，玩家还会被记录在permissions.json文件里。permissions.json文件可以由/permission命令重新加载。"
+    ],
+    "基岩版": [
+      "/op <player: target>"
+    ],
+    "参数": [
+      "JE：<targets>：game_profile",
+      "BE：player: target：CommandSelector<Player>",
+      "指定要被授予管理员权限的玩家。",
+      "在Java版中，指定一个或多个游戏（玩家）档案，必须是玩家名或玩家类型的目标选择器。若服务器开启在线模式，在命令执行时玩家名将要求真实存在。",
+      "在基岩版中，必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。"
+    ],
+    "执行失败": [
+      "player: target无法选中一个或多个在线的玩家"
+    ],
+    "N/A": [
+      "0",
+      "1"
+    ],
+    "<targets>是玩家名，但不是真实存在的玩家名且服务器开启了线上模式": [
+      "player: target是非玩家类型的目标选择器"
+    ],
+    "示例": [
+      "给Steve管理员身份：/op Steve"
+    ],
+    "Java版Classic": [
+      "0.0.15a",
+      "加入了/op命令。"
+    ],
+    "Java版Indev": [
+      "0.31"
+    ],
+    "?": [
+      "移除了所有命令。"
+    ],
+    "Java版Alpha": [
+      "v1.0.16",
+      "重新加入/op命令。"
+    ],
+    "携带版Alpha": [
+      "0.16.0",
+      "build 1",
+      "加入了/op命令。"
+    ]
+  }
+}

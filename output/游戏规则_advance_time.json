@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/advance time",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fadvance_time",
+  "text": "advance_time（Java版）\n名称\n游戏内时间流逝\n描述\n无\n分类（JE）\n世界更新\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nadvance_time\ndoDaylightCycle（基岩版）\n名称\n旧UI：开启昼夜更替\n新UI：日照时长\n描述\n无\n分类（BE旧UI）\n作弊\n分类（BE新UI）\n无敌模式\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\ndoDaylightCycle\nadvance_time[仅Java版]或doDaylightCycle[仅基岩版]是控制进行昼夜更替和月相变化的游戏规则。\n行为\n当advance_time[仅Java版]或doDaylightCycle[仅基岩版]为false时，昼夜更替和月相变化过程将会停止。反之，为true时，上述过程将照常进行。\n历史\nJava版\n1.6.1\n13w24a\n加入了游戏规则doDaylightCycle。\n1.21.11\n25w44a\n将游戏规则doDaylightCycle重命名为advance_time。\n携带版\n1.1.0\n1.1.0.0\n加入了游戏规则doDaylightCycle。\n导航"
+}

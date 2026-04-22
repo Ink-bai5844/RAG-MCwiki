@@ -1,0 +1,28 @@
+{
+  "title": "Earth:彩虹床",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E5%BD%A9%E8%99%B9%E5%BA%8A",
+  "structured_content": {
+    "硬度": [
+      "0.2"
+    ],
+    "爆炸抗性": [
+      "0.2"
+    ],
+    "引燃几率": [
+      "0"
+    ],
+    "烧毁几率": [
+      "0"
+    ],
+    "最大堆叠": [
+      "1"
+    ],
+    "——Minecraft Earth内描述": [
+      "彩虹床（Rainbow Bed）是床的彩虹色变种，仅能在Minecraft Earth中获得。它使用彩虹羊毛合成。"
+    ],
+    "Minecraft Earth": [
+      "0.21.0",
+      "加入了彩虹床。"
+    ]
+  }
+}

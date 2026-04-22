@@ -1,0 +1,22 @@
+{
+  "title": "羊驼/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BE%8A%E9%A9%BC%2FDV",
+  "structured_content": {
+    "默认分类": [
+      "此页面记录所描述对象关联的数据值。",
+      "此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。"
+    ],
+    "creamy": [
+      "0"
+    ],
+    "white": [
+      "1"
+    ],
+    "brown": [
+      "2"
+    ],
+    "gray": [
+      "3"
+    ]
+  }
+}

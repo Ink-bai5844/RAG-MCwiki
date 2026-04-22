@@ -1,0 +1,118 @@
+{
+  "title": "命令/fog",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ffog",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "启用作弊": [
+      "用于更改玩家的迷雾效果。"
+    ],
+    "用法": [
+      "不同的迷雾可以使天边交界处（包括水中）发生不同的模糊变化。",
+      "每个迷雾ID分别对应一个生物群系中水的颜色，水中的默认视野范围，天边交界处的颜色这3个特点，这其中包括部分未加入游戏的生物群系。",
+      "事实上，大部分的迷雾设置都只会影响水中的迷雾，只有下界和末地的生物群系对应的迷雾ID才会影响天边交界处的颜色。"
+    ],
+    "语法": [
+      "fog <victim: target> push <fogId: string> <userProvidedId: string>",
+      "fog <victim: target> <mode: delete> <userProvidedId: string>"
+    ],
+    "参数": [
+      "<victim: target>",
+      "指定修改玩家迷雾效果的目标。必须为一个玩家名或目标选择器。",
+      "<fogId: string>",
+      "指定修改的迷雾ID。必须为以下其中之一：",
+      "竹林：minecraft:fog_bamboo_jungle",
+      "竹林丘陵：minecraft:fog_bamboo_jungle_hills",
+      "玄武岩三角洲：minecraft:fog_basalt_deltas",
+      "沙滩：minecraft:fog_beach",
+      "桦木森林：minecraft:fog_birch_forest",
+      "桦木森林丘陵：minecraft:fog_birch_forest_hills",
+      "樱花树林：minecraft:fog_cherry_grove",
+      "积雪沙滩：minecraft:fog_cold_beach",
+      "冷水海洋：minecraft:fog_cold_ocean",
+      "积雪针叶林：minecraft:fog_cold_taiga",
+      "积雪的针叶林丘陵：minecraft:fog_cold_taiga_hills",
+      "积雪的针叶林山地：minecraft:fog_cold_taiga_mutated",
+      "绯红森林：minecraft:fog_crimson_forest",
+      "冷水深海：minecraft:fog_deep_cold_ocean",
+      "冰冻深海：minecraft:fog_deep_frozen_ocean",
+      "温水深海：minecraft:fog_deep_lukewarm_ocean",
+      "深海：minecraft:fog_deep_ocean",
+      "暖水深海：minecraft:fog_deep_warm_ocean",
+      "默认：minecraft:fog_default",
+      "沙漠：minecraft:fog_desert",
+      "沙漠丘陵：minecraft:fog_desert_hills",
+      "山地：minecraft:fog_extreme_hills",
+      "山地边缘：minecraft:fog_extreme_hills_edge",
+      "沙砾山地：minecraft:fog_extreme_hills_mutated",
+      "繁茂的山地：minecraft:fog_extreme_hills_plus_trees",
+      "沙砾山地+：minecraft:fog_extreme_hills_plus_trees_mutated",
+      "繁花森林：minecraft:fog_flower_forest",
+      "森林：minecraft:fog_forest",
+      "繁茂的丘陵：minecraft:fog_forest_hills",
+      "冻洋：minecraft:fog_frozen_ocean",
+      "冻河：minecraft:fog_frozen_river",
+      "下界荒地：minecraft:fog_hell",
+      "雪山：minecraft:fog_ice_mountains",
+      "积雪的冻原：minecraft:fog_ice_plains",
+      "冰刺之地：minecraft:fog_ice_plains_spikes",
+      "丛林：minecraft:fog_jungle",
+      "丛林边缘：minecraft:fog_jungle_edge",
+      "丛林丘陵：minecraft:fog_jungle_hills",
+      "丛林变种：minecraft:fog_jungle_mutated",
+      "温水海洋：minecraft:fog_lukewarm_ocean",
+      "红树林沼泽：minecraft:fog_mangrove_swamp",
+      "巨型云杉针叶林：minecraft:fog_mega_spruce_taiga",
+      "巨型云杉针叶林丘陵：minecraft:fog_mega_spruce_taiga_mutated",
+      "巨型针叶林：minecraft:fog_mega_taiga",
+      "巨型针叶林丘陵：minecraft:fog_mega_taiga_hills",
+      "巨型针叶林丘陵：minecraft:fog_mega_taiga_mutated",
+      "恶地：minecraft:fog_mesa",
+      "风蚀恶地：minecraft:fog_mesa_bryce",
+      "恶地高原变种：minecraft:fog_mesa_mutated",
+      "恶地高原：minecraft:fog_mesa_plateau",
+      "繁茂的恶地高原：minecraft:fog_mesa_plateau_stone",
+      "蘑菇岛：minecraft:fog_mushroom_island",
+      "蘑菇岛岸：minecraft:fog_mushroom_island_shore",
+      "海洋：minecraft:fog_ocean",
+      "平原：minecraft:fog_plains",
+      "细雪：minecraft:fog_powder_snow",
+      "河流：minecraft:fog_river",
+      "黑森林：minecraft:fog_roofed_forest",
+      "热带草原：minecraft:fog_savanna",
+      "破碎的热带草原：minecraft:fog_savanna_mutated",
+      "热带高原：minecraft:fog_savanna_plateau",
+      "灵魂沙峡谷：minecraft:fog_soulsand_valley",
+      "石岸：minecraft:fog_stone_beach",
+      "向日葵平原：minecraft:fog_sunflower_plains",
+      "沼泽：minecraft:fog_swampland",
+      "沼泽丘陵：minecraft:fog_swampland_mutated",
+      "针叶林：minecraft:fog_taiga",
+      "针叶林丘陵：minecraft:fog_taiga_hills",
+      "针叶林山地：minecraft:fog_taiga_mutated",
+      "末地：minecraft:fog_the_end",
+      "暖水海洋：minecraft:fog_warm_ocean",
+      "诡异森林：minecraft:fog_warped_forest",
+      "<mode: delete>",
+      "必须为pop或remove。",
+      "指定是只移除第一个还是移除所有名称为<userProvidedId: string>的迷雾。",
+      "<userProvidedId: string>",
+      "指定迷雾设置的名称。包含空格的值必须用英文双引号括起来。该名称可用于移除特定迷雾设置。"
+    ],
+    "基岩版": [
+      "1.16.100",
+      "1.16.100.54",
+      "加入了/fog。"
+    ],
+    "无法解析": [
+      "<victim: target>未能选中一个或多个在线玩家"
+    ],
+    "执行失败": [
+      "0"
+    ]
+  }
+}

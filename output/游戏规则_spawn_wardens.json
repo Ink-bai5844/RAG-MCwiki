@@ -1,0 +1,5 @@
+{
+  "title": "游戏规则/spawn wardens",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2Fspawn_wardens",
+  "text": "本条目所述内容仅适用于Java版。\nspawn_wardens\n名称\n生成监守者\n描述\n无\n分类（JE）\n生成\n值类型\n布尔值\n默认值\ntrue\n游戏规则ID\nspawn_wardens\nspawn_wardens是控制是否生成监守者的游戏规则。\n行为\n当spawn_wardens为false时，幽匿尖啸体不会给予玩家黑暗效果和生成监守者。\n历史\nJava版\n1.19\n22w16a\n加入了游戏规则doWardenSpawning。\n1.21.11\n25w44a\n将游戏规则doWardenSpawning重命名为spawn_wardens。\n导航"
+}

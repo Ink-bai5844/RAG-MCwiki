@@ -1,0 +1,5 @@
+{
+  "title": "猫/DV",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8C%AB%2FDV",
+  "text": "此页面记录所描述对象关联的数据值。\n此模板仅用于不使用{{dvt}}的/DV页面，使用此模板可以防止这些页面出现在Special:未归类页面中。\n种类\n命名空间ID（仅JE）\n数字ID（仅BE）\n虎斑猫\ntabby\n8\n西服猫\nblack\n1\n红虎斑猫\nred\n2\n暹罗猫\nsiamese\n3\n英国短毛猫\nbritish_shorthair\n4\n花猫\ncalico\n5\n波斯猫\npersian\n6\n布偶猫\nragdoll\n7\n白猫\nwhite\n0\nJellie\njellie\n10\n黑猫\nall_black\n9\n在Java版中，游戏使用命名空间ID进行存档保存，且猫变种可由数据包添加，见猫变种定义格式。\n在基岩版中，游戏使用数字ID进行存档保存。"
+}

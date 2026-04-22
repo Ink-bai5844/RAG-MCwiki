@@ -1,0 +1,5 @@
+{
+  "title": "Java版14w32d",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8814w32d",
+  "text": "14w32d\n版本\nJava版\n类型\n快照\n发布时间\n2014年8月8日\n快照归属\n1.8\n下载\n客户端（.json）\n服务端（.exe）\n协议版本\n36\n资源包版本\n1\n◄◄1.7.10\n1.8.1►►\n◄14w32c\n14w33a►\n14w32d是Java版1.8的第45个快照，发布于2014年8月8日，为各种木头加入了对应的门，并修复了14w32c中加入特定服务器时，客户端崩溃/玩家被踢出的漏洞。\n新内容\n方块\n门\n为所有类型的木头加入了对应的门。\n不同类型的门有不同的纹理，有些类型的门没有窗户。\n现在门的合成配方要求所有6个木板都是相同的类型。\n修复\n修复了10个漏洞\n1.8前正式版的漏洞\nMC-2117 — 信标光柱在低视距下不可见。\nMC-54818 — 关于动力铁轨应该被取消充能的方块更新错误。\nMC-66316 — 执行/help 3命令的提示中，/list命令出现了两次。\n1.8开发版本的漏洞\nMC-44859 — 放置和破坏黏液块时的声音像石头的。\nMC-45091 — 被充能的动力铁轨不更新方块。\nMC-48797 — 屏障方块会减弱光照强度。\nMC-59681 — 玻璃块在背包和UI中有奇怪的纹理。\nMC-62980 — 视距为16时游戏崩溃。\nMC-64399 — 带火的箭卡在空中，或在空中产生幽灵箭。\n上个开发版本的漏洞\nMC-66143 — io.netty.channel.AbstractChannelHandlerContext invokeExceptionCaught - 无法加入服务器。\n参考\nMinecraft snapshot 14w32d（存档），来自Dinnerbone。Mojang.com，2014年8月6日。\nhttps://twitter.com/SeargeDP/status/497764394143449089\n导航"
+}

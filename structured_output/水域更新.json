@@ -1,0 +1,67 @@
+{
+  "title": "水域更新",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B0%B4%E5%9F%9F%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/水域更新以及基岩版指南/水域更新以查看水域更新的指南。",
+      "见Java版指南/水域更新以及基岩版指南/水域更新以查看水域更新的指南。"
+    ],
+    "Mojang发布的水域更新主视觉图": [
+      "水域更新（Update Aquatic）是一次主要更新，以改造海洋为更新主题。",
+      "Java版的此次更新以Java版1.13版本的形式于2018年7月18日发布。在基岩版中，此次更新因其内容数量而被分为两次更新，包含大多数特性的第一阶段于2018年5月16日以1.4.0发布，其余特性于2018年7月10日以1.5.0发布，随后又补充了一些内容于2018年8月28日以1.6.0发布。原主机版已在2018年9月11日更新。Nintendo Switch版玩家会得到此次更新的补丁包，并且可以免费安装新版本。这将是除PlayStation 4之外原主机版的最后一次更新。此外，发布于教育版的水域更新已经在1.4.0于2018年6月12日发布，随后又补充了一些内容在1.7.0于2018年11月12日发布。",
+      "在Java版上，此次更新的开发始于17w43a，其发布于2017年10月25日。",
+      "在基岩版上，此次更新的第一阶段开发始于基岩版1.2.14.2，其发布于2018年3月28日；第二阶段开发始于基岩版1.5.0.0，其发布于2018年4月25日。",
+      "2018年7月10日，Mojang发布了此次更新的预告片。"
+    ],
+    "重要特性": [
+      "主条目：Java版1.13、​基岩版1.4.0、​基岩版1.5.0、​基岩版1.6.0、​教育版1.4.0、​教育版1.7.0以及原主机版TU69、1.76、Patch 38"
+    ],
+    "云杉木、白桦木、丛林木、金合欢木和深色橡木对应的活板门、压力板和按钮": [
+      "5种珊瑚块、5种珊瑚和5种珊瑚扇及对应的失活变种"
+    ],
+    "海龟、幻翼、鳕鱼、鲑鱼、河豚、热带鱼和溺尸的刷怪蛋": [
+      "鱼桶：鳕鱼、鲑鱼、河豚和热带鱼"
+    ],
+    "暖水、温水、冷水和冰冻的海洋和深海变种": [
+      "将末地分为四个生物群系：浮岛、中岛、高岛和荒岛[仅Java版]"
+    ],
+    "物品形式的蘑菇方块、木头方块和双台阶[仅Java版]": [
+      "3个新的命令：/data、/datapack和/bossbar[仅Java版]"
+    ],
+    "Java版": [
+      "Java版1.13.1加入了一个选择世界屏幕的搜索栏，还重新加入挖掘以引爆TNT的能力，允许鱼掉落骨粉，增加失活的珊瑚，添加新的/forceload命令，明显地更改了鱿鱼的生成机制，并且修复了大量漏洞。",
+      "Java版1.13.2修复了若干漏洞，并且提升了性能。"
+    ],
+    "基岩版": [
+      "1.4（第一阶段）",
+      "1.4.1发布于Android、Fire OS和Fire TV平台以修复一个涉及玩家失去之前购买的物品的漏洞。",
+      "1.4.2发布以修复一些导致游戏崩溃的漏洞。",
+      "1.4.3发布于iOS平台以修复一些漏洞以及加入一个由Blockceptions制作的地图。",
+      "1.4.4发布于Android、Fire OS和Fire TV平台以修复一个有关遥测技术的漏洞。",
+      "1.5（第二阶段）",
+      "1.5.1发布以修复1.5正式版中的若干漏洞。",
+      "1.5.2仅修复了低端设备上的一个有关位图的漏洞。",
+      "1.5.3修复了物品栏丢失物品的漏洞及其他若干漏洞。"
+    ],
+    "你知道吗": [
+      "在Java版中，水域更新最初在MINECON Earth 2017直播期间被决定作为1.14发布，而1.13则作为技术更新（Technically Updated）。但由于世界生成大改所需时间超过了Mojang的预期，两者被合并，水域更新后来改作为1.13发布。",
+      "Jeb在2011年的一次采访中表示他希望在游戏中实现更多的海洋生物。"
+    ],
+    "外部链接": [
+      "水域更新官方页面（存档）。"
+    ],
+    "参考": [
+      "Java Edition Technically Updated! — Minecraft.net，2018年1月24日。",
+      "Update Aquatic Out On Java!，来自Adrian Östergård。Minecraft.net，2018年7月18日。",
+      "Update Aquatic Phase One is out now! — Minecraft.net，2018年5月16日。",
+      "Who is ready for #UpdateAquatic part 2? Switch players should start seeing the update right now, with other platforms diving in later today! Get ready for Turtles, Conduits, and more!",
+      "#Minecraft，来自@Mega_Spud。X（曾名Twitter），2018年7月10日。",
+      "Work on Update Aquatic for Console Editions is progressing, but it won't be released until after all parts of the update have been released on the Bedrock version.，来自@4JStudios。X（曾名Twitter），2018年6月22日。",
+      "Update Aquatic Coming to Legacy Console Editions — Minecraft.net。",
+      "Update Aquatic Released for Minecraft: Education Edition — Minecraft：教育版。",
+      "MINECON Earth 2017 Livestream — YouTube。，2017年11月18日",
+      "Java Edition Technically Updated — Minecraft.net，2018年1月24日。",
+      "Interview mit Jeb! Ihr konntet die Fragen stellen! — MineTimes。"
+    ]
+  }
+}

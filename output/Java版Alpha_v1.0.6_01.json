@@ -1,0 +1,5 @@
+{
+  "title": "Java版Alpha v1.0.6 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Alpha_v1.0.6_01",
+  "text": "此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nAlpha v1.0.6_01\n版本\nJava版\n发布时间\n2010年7月17日\n下载\n客户端（.json）\n协议版本\n10\n◄◄Alpha v1.0.6\nAlpha v1.0.11►►\nAlpha v1.0.6_02►\nAlpha v1.0.6_01是Java版的一次更新，发布于2010年7月17日，加入了一些闪烁标语，并更改了树叶的枯萎机制。\n新内容\n常规\n闪烁标语\n加入了以下闪烁标语：\n\"Matt Damon!\"\n\"Superfragilisticexpialidocious!\"\n\"Consummate V's!\"\n\"Cow Tools!\"\n\"Double buffered!\"\n\"Fan fiction!\"\n新加入了特殊闪烁标语，只在特定日期或在特定日期为特定玩家显示。\n\"Happy birthday! I love you! Alex x\" - 在2010年7月26日为玩家\"athna\"显示。\n\"Happy birthday, ez!\" - 在每年的11月9日显示。\n\"Happy birthday, Notch!\" - 在每年的6月1日显示。\n\"Merry X-mas!\" - 在每年的12月24日显示。\n\"Happy new year!\" - 在每年的1月1日显示。\n更改\n方块\n树叶\n现在又会枯萎了。\n游戏会检查其下面是否有固体方块或其他树叶，亦或是与固体方块相邻。如果没有，它必须能够连接到另一个树叶，并且与起支撑作用的方块的距离不超过5格。否则，树叶将会枯萎。\n生物\n生成\n改进了生物的生成。\n生物的生成概率变得更低了，从而使得玩家很难获得某些物品。\n非生物实体\n船\n船现在能够放置在水以外的地方。\n船现在只会在高速撞击时被破坏。\n船达到足够被破坏的速度时会生成水喷溅的粒子。\n船现在可以更平滑地转弯。\n修复\n修复了1个漏洞\n修复了死亡后出现卡顿的漏洞。\n参考\nMinecraft Alpha 1.0.6_01（存档） — The Word of Notch，2010年7月17日。\n导航"
+}

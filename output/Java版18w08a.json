@@ -1,0 +1,5 @@
+{
+  "title": "Java版18w08a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8818w08a",
+  "text": "18w08a\n版本\nJava版\n类型\n快照\n发布时间\n2018年2月21日\n快照归属\n1.13\n下载\n客户端（.json）\n服务端\n协议版本\n361\n数据版本\n1470\n资源包版本\n4\n数据包版本\n4\n◄◄1.12.2\n1.13.1►►\n◄18w07c\n18w08b►\n18w08a是Java版1.13的第21个快照，发布于2018年2月21日，加入了水下洞穴和峡谷以及7种新的海洋生物群系，并修复了一些漏洞。\n新内容\n命令格式\n/locate\n为命令输出加入了一个可点击的传送链接。\n世界生成\n海洋\n加入了水下洞穴和峡谷。\n岩浆块生成于海洋峡谷底部的熔岩层，会产生向下的气泡柱。\n生物群系\n加入了minecraft:warm_ocean、​minecraft:lukewarm_ocean、​minecraft:cold_ocean、​minecraft:warm_deep_ocean、​minecraft:lukewarm_deep_ocean和​minecraft:cold_deep_ocean与minecraft:frozen_deep_ocean。\nminecraft:frozen_ocean现在会生成。\n更改\n生物\n鱿鱼\n加入了鱿鱼喷墨的新音效。\n修复\n修复了5个漏洞\n1.13前正式版的漏洞\nMC-94487 — 峡谷在生成时不会自然地穿过沙子、砂岩或陶瓦，但其他类型的洞穴可以。\nMC-122000 — 在工作台上使用配方书所得到的物品会在物品栏已满时消失。\n1.13开发版本的漏洞\nMC-124299 — 物品栏已满时使用/give命令而掉出的物品不能被再捡起。\nMC-124948 — 非管理员用户可以使用/enchant命令。\nMC-125124 — 生成林地府邸时崩溃：生成新区块时抛出“尚未实现”异常。\n参考\nMinecraft Snapshot 18w08a — Minecraft.net，2018年2月21日。\n导航"
+}

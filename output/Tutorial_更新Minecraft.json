@@ -1,0 +1,5 @@
+{
+  "title": "Tutorial:更新Minecraft",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E6%9B%B4%E6%96%B0Minecraft",
+  "text": "此教程所介绍的内容已从Java版中移除。\n新版启动器现在可以自行更新。\n此页面将介绍如何更新Minecraft，如何回退以及你应该等待更新的原因。\n请注意：Mod保存在minecraft.jar中，因此在更新或回退时你将丢失Mod。\n更新Minecraft\n要更新Minecraft，你需要运行Minecraft启动器。点击用户名文本框旁边的“选项”，然后点击“启动器选项”窗口中的“强制更新！”。最后，单击“完成”并使用你的Minecraft凭据登录。Minecraft将自动开始更新。这也可以用来获取新安装的Minecraft（这将保存你的存档和资源包，但无法保存Mod） 。\n回退更新\n如果你想将Minecraft还原到较早的版本，你需要该版本原始的minecraft.jar文件。你可以通过启动器下载此文件。\n创建minecraft.jar的备份\n最好的合法获取minecraft.jar的方式是：在下载最新版本后立即创建一份旧版本的备份。\n在Minecraft启动器中，点击“Options”，然后点击“Game location on disk”下的路径。在文件管理器中打开“bin”文件夹，就能在其中找到minecraft.jar。将它复制到某个文件夹中（例如，桌面上的“Minecraft Backups”文件夹）。建议你在这个文件夹中再新建一个以备份版本号命名的子文件夹（如“1.2.5”）。\n还原到较早版本\n如果你已有较早版本（或其预发布版）的minecraft.jar文件，用它取代.minecraft/bin中的同名文件即可。最好先删除现有的minecraft.jar，再将所需的minecraft.jar粘贴到此。确保所需文件被重命名为“minecraft.jar”或“minecraft”（如果显示为.jar扩展名，则重命名为前者；如果未显示扩展名，则重命名为后者）。\n导航"
+}

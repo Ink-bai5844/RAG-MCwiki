@@ -1,0 +1,131 @@
+{
+  "title": "基岩版1.20.70.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.70.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.70.22"
+    ],
+    "服务端版本": [
+      "1.20.70.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952007022（armeabi-v7a，33）",
+      "962007022（x86，33）",
+      "972007022（arm64-v8a，33）",
+      "982007022（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2024年2月7日"
+    ],
+    "测试版归属": [
+      "1.20.70"
+    ],
+    "协议版本": [
+      "658",
+      "◄◄1.20.62",
+      "1.20.71►►",
+      "◄1.20.70.21",
+      "1.20.70.24►",
+      "beta 1.20.70.22（ChromeOS/Android）、Preview 1.20.70.22（Xbox/Windows/iOS/iPadOS）是基岩版1.20.70的第3个测试版，发布于2024年2月7日，修复了一些漏洞。"
+    ],
+    "方块": [
+      "修复了minecraft:geometry.full_block面不会旋转以匹配变换组件的问题。",
+      "修复了minecraft:geometry.full_block方块不会剔除紧挨部分方块的面的问题。",
+      "现在使用带有精准采集的工具破坏未长出发光浆果的洞穴藤蔓时不再会掉落发光浆果。（MCPE-151348）",
+      "插上蓝色蜡烛的蛋糕和插上黑色蜡烛的蛋糕现在会显示和掉落正确种类的蜡烛。（MCPE-162868）"
+    ],
+    "末地传送门框架": [
+      "创造分类由“物品”更改为“自然”。"
+    ],
+    "木头": [
+      "IDwood现在被拆分为：oak_wood、​spruce_wood、​birch_wood、​jungle_wood、​acacia_wood、​dark_oak_wood、​stripped_oak_wood、​stripped_spruce_wood、​stripped_birch_wood、​stripped_jungle_wood、​stripped_acacia_wood和​stripped_dark_oak_wood。",
+      "wood及其数据值仍然可用，但不会在命令提示中显示。"
+    ],
+    "屏障、光源方块、命令方块、隐形基岩、允许方块、拒绝方块": [
+      "现在被破坏后不再掉落自身。"
+    ],
+    "洞穴藤蔓": [
+      "现在使用带有精准采集魔咒的工具破坏没有长出发光浆果的洞穴藤蔓时不再会掉落发光浆果。"
+    ],
+    "实验性玩法": [
+      "移除了“Molang 功能”子选项。"
+    ],
+    "Realms故事": [
+      "加入了4个新的Realm事件。",
+      "加入了2个特别优秀的大型Realm事件。",
+      "为评论界面加入了屏幕阅读器旁白。",
+      "修复了游戏手柄返回按钮的输入无法在Realms故事设置界面中运作的问题。",
+      "修复了Switch平台上的时间方块不会以正确时区进行渲染的问题。",
+      "现在分屏模式下只有主分屏玩家可以访问Realms故事。"
+    ],
+    "API": [
+      "修复了PlayerInteractWithEntityAfterEvent和​PlayerInteractWithBlockAfterEvent的计时问题。",
+      "在beta中加入了Player.setGameMode和​Player.getGameMode。",
+      "用于更改玩家的GameMode。",
+      "在beta中加入了带有signals world.afterEvents.playerGameModeChange和​world.beforeEvents.playerGameModeChange信号的PlayerGameModeChangeAfterEvent和​PlayerGameModeChangeBeforeEvent事件。",
+      "为配合游戏规则更改，加入了GameRuleChangeAfterEvent、​GameRule和​world.afterEvents.gameRuleChange。",
+      "修复了物品动态属性有时可应用于堆叠数大于1的物品的漏洞。",
+      "移除了triggerEvent()函数。"
+    ],
+    "组件": [
+      "现在带有damage_sensor组件的实体再次可以被命令杀死。",
+      "damage_sensor组件现在再次会触发非拥有者实体上的实体事件。"
+    ],
+    "基岩版编辑器": [
+      "将ClipboardMirrorAxis枚举重命名为StructureMirrorAxis，并将其移动至@minecraft/server模块。",
+      "将ClipboardRotation枚举重命名为StructureRotation，并将其移动至@minecraft/server模块。",
+      "现在面板布尔值可以表示为切换开关，作为复选框的替代。"
+    ],
+    "Molang": [
+      "开放了实验性玩法中的query.is_attached和​query.has_player_rider。",
+      "移除了query.get_ride和​query.get_riders实验性Molang查询。",
+      "弃用了Molang功能的实验性内容。",
+      "开放了实验性玩法中的query.scoreboard查询，以配合行为包使用（资源包会返回0）。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“犰狳和狼铠”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "宝库": [
+      "更改了纹理。",
+      "现在附近有任意玩家未解锁宝库时，宝库的钥匙孔会打开。",
+      "现在附近所有玩家均已解锁宝库时，宝库的钥匙孔会关闭。"
+    ],
+    "犰狳": [
+      "现在拥有新的展开动画。",
+      "现在蜷缩时会随机从壳中向外张望。",
+      "展开前所需未受到惊吓的时间由3秒增加至4秒，以适应新动画。"
+    ],
+    "旋风人": [
+      "现在仅在开启实验性玩法后才会出现在type目标选择器参数的提示中。",
+      "调整了攻击伤害。"
+    ],
+    "WorldBeforeEvents": [
+      "移除了itemDefinitionEvent属性。",
+      "将explosion由beta移动至1.9.0。"
+    ],
+    "WorldAfterEvents": [
+      "移除了itemDefinitionEvent属性。",
+      "将explosion由beta移动至1.9.0。"
+    ],
+    "图形": [
+      "修复了在Android设备上进入开启延迟渲染预览功能的世界时发生的崩溃。",
+      "修复了使用延迟渲染预览功能中新的点光源阴影功能时会出现圆形视觉缺陷的问题。"
+    ],
+    "Realms": [
+      "在Realms上，除非玩家位于末地，否则末地中的区块不再会保持加载。（REALMS-11358、REALMS-11290）",
+      "修复了Realms订阅登录页面中的文本会略微缩短的问题。"
+    ],
+    "用户界面": [
+      "现在即使世界已应用资源包，新的死亡屏幕也会默认启用。",
+      "现在新的游玩屏幕中方格或列表布局的按钮会在重启时保留所选的布局模式。（MCPE-177975）",
+      "现在新的游玩屏幕中的好友抽屉式菜单中的反馈按钮会跳转至正确的反馈页面。"
+    ],
+    "世界生成": [
+      "修复了要塞有时不会生成传送门房间的漏洞。（MCPE-19426）"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.70.22 — Minecraft Feedback，2024年2月7日。"
+    ]
+  }
+}

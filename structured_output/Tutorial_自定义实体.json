@@ -1,0 +1,484 @@
+{
+  "title": "Tutorial:自定义实体",
+  "source_url": "https://zh.minecraft.wiki/w/Tutorial%3A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%9E%E4%BD%93",
+  "structured_content": {
+    "默认分类": [
+      "本教程所述内容仅适用于基岩版。",
+      "方块、物品和实体是组成Minecraft的最基础的三个部分。在前面的教程中，你已经在Tutorial:自定义物品和Tutorial:自定义方块中了解了一些基础的内容。好消息是，编写一个自定义实体的思想和自定义物品、方块基本类似。但不幸的是，实体有太多太多的东西可以用，也有着与物品和方块截然不同的工作逻辑。接下来本教程会从编写一个简单的NPC实体和一个复杂的怪物实体开始入手，来引导你对自定义实体有更深一层的理解。"
+    ],
+    "简单实体": [
+      "本章从编写一个最基础的NPC实体的角度开始入手，带你简单理解一个实体的运行逻辑。和方块与物品类似，自定义实体的运行也需要从行为包和资源包两个方面入手。"
+    ],
+    "行为包部分": [
+      "在行为包中创建一个entities的文件夹，然后创建一个新的文件my_custom_npc.server_entity.json。这个文件是实体的基本定义，它决定了实体将如何在世界中运行。",
+      "和物品与方块的写法类似，写入以下的内容：",
+      "{\"format_version\":\"1.20.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\"},\"components\":{}}}",
+      "相信你如果已经学会了方块和物品的编写的话，这里的代码对你来说并不是什么难事。和方块、物品不太相同，因为实体的组件很早就已经基本成熟了，所以格式版本在这里并没有那么重要，只要版本不要太低，基本上就没有问题。",
+      "在第1章中，本文已经对自定义实体的运行机理有了一些简单的介绍，接下来则是要更加深入。只是单纯的运用组件难以灵活地实现功能，或者会造成一些不便，例如成年僵尸和幼年僵尸的差异基本上只有体型差异和速度差异，但如果单纯的用组件，为区分两者差异就只能分离ID，这会造成一些额外的困扰。再例如，如果你利用第一章的内容，实现一个抛掷物的时候会发现这个抛掷物的轨迹不是抛物线，这会为你造成很大的困扰。再例如，如何让实体做到在某个状态的时候每秒执行一条命令？可能你会说，用纯命令系统就能做到啊！但有些情况下事情并不像你想象的那么简单。而对于这些“难以解决”的困难，在本节就要给出实体的一些进阶内容以供你应用。",
+      "在BP/entities/文件夹中新建一个marker.server_entity.json，并写入以下内容：",
+      "{\"format_version\":\"1.20.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"wiki:marker\",\"is_experimental\":false,\"is_spawnable\":false,\"is_summonable\":true,\"runtime_identifier\":\"minecraft:snowball\"},\"components\":{\"minecraft:physics\":{\"has_collision\":false,\"has_gravity\":false},\"minecraft:collision_box\":{\"height\":0,\"width\":0},\"minecraft:type_family\":{\"family\":[\"inanimate\",\"marker\"]},\"minecraft:knockback_resistance\":{\"value\":1},\"minecraft:persistent\":{},\"minecraft:health\":{\"value\":1,\"max\":1},\"minecraft:nameable\":{}}}}",
+      "为什么设置运行时ID？ 毕竟你也不希望在清除标记实体的时候它会发出响声对吧。不过你也可以用sounds.json把死亡的音效设置为空，同样不会产生音效。",
+      "标记实体的性质？ 无刷怪蛋、可/summon、无重力、无碰撞箱、持久存在于世界中、存在家族inanimate和marker、无击退、生命值为1、可命名。至于为什么加上了可命名，这是因为如果没有这个组件，它将变得不可命名，要区别于其他的标记实体就必须用其他手段了。既然/summon可以生成一个命名的实体，无疑在玩家看不到的情况下，用名字区分是最简单的区分手段。"
+    ],
+    "描述description": [
+      "前面已经写了一些最基础的内容。但对于实体而言，事情并不只是这么简单。对于描述部分，还需要另外三个内容：is_experimental、is_spawnable、is_summonable，它们都接受布尔值Boolean：",
+      "{\"format_version\":\"1.20.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"is_experimental\":false,\"is_spawnable\":true,\"is_summonable\":true},\"components\":{}}}",
+      "接下来在这里进行一些解释：",
+      "is_experimental - 是否为实验性的实体。但是目前似乎没有什么作用[需要验证]。在这里写了false，代表实体不是实验性的。一般来说，这个内容都写为false。",
+      "is_spawnable - 是否能够用刷怪蛋生成。若写为true，则会在物品栏中自动出现该实体对应的刷怪蛋。",
+      "is_summonable - 是否能够用/summon等命令方式生成。如果你足够细心，你会发现例如火球之类的实体是不能使用/summon生成的。",
+      "如果不写这三个内容，你的实体可能无法正常工作，所以请记得添加。"
+    ],
+    "组件components": [
+      "和方块、物品类似，Minecraft同样将一些小的功能点打包成了一个个的现成组件，供你使用。你可以像拼拼图一样，让你的自定义实体实现各种各样的功能。但和方块、物品所不同的是，实体的可用组件非常非常非常多，高达320+个，是方块和物品组件数总和的8倍左右！因此在编写自定义实体方面，你可能会感到受限并没有那么明显了（但还是会有这种受限感），但这也可能会使得你在使用这些组件的时候感到茫然，不知道该用哪些。因此，编写自定义实体需要有明确的目标，先清楚有什么功能需要实现再动手，会大幅降低编写自定义实体的难度。",
+      "对于所有实体组件，参见微软文档（常规组件）和微软文档（AI意向组件）。你可能会好奇，常规组件和AI意向组件有什么区别呢？事实上，生物的常规组件只是规定了它们的基本属性，例如实体的血量，实体的碰撞箱。而生物的AI意向组件则是似乎赋予它们灵性一般，或者正式地说，是赋予生物自己产生行为的能力的组件，例如寻路、攻击生物这些，都是实体“自己的意向”。",
+      "不过就类似于命令一样，在实际应用中也有常用组件和冷门组件之分。微软官方整理了一些常用的组件如下："
+    ],
+    "含义": [
+      "minecraft:physics",
+      "这是微软官方向你打包票有99%的实体都需要用到的组件。它控制了实体的物理性质，即是否受重力影响和是否与方块存在碰撞。",
+      "minecraft:type_family",
+      "该组件控制了实体的家族。在命令的目标选择器参数、过滤器、MoLang中都可以指定实体家族从而指定到该实体。事实上，实体家族family的概念和实体类型type的概念在附加包的编写中是同等级别的重要的。",
+      "minecraft:movementminecraft:movement.basic",
+      "这两个组件控制了实体的移动。前者指定实体的移动速度（一般实体是0.25），后者则赋予了实体移动的能力。",
+      "minecraft:is_babyminecraft:is_shearedminecraft:is_saddledminecraft:is_ignitedminecraft:is_tamedminecraft:is_illager_captain",
+      "这几个组件是标记组件，它们并不做什么。但是，你可以用过滤器和MoLang来检测到实体的对应状态，从而执行特定的代码，这是十分有意义的。",
+      "minecraft:variantminecraft:mark_variantminecraft:skin_id",
+      "和上文类似，这几个组件也是标记组件，但这三个组件可以存储特定的数值。",
+      "关于过滤器和Molang，后面会介绍到。"
+    ],
+    "例如，现在希望实现一个不会动的NPC，那么可以写为": [
+      "{\"format_version\":\"1.20.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"is_experimental\":false,\"is_spawnable\":true,\"is_summonable\":true},\"components\":{\"minecraft:physics\":{},\"minecraft:type_family\":{\"family\":[\"npc\",\"my_custom_npc\"]},\"minecraft:health\":{\"value\":20,\"max\":20},\"minecraft:movement.basic\":{},\"minecraft:movement\":{\"value\":0},\"minecraft:collision_box\":{\"height\":1.8,\"width\":0.6},\"minecraft:knockback_resistance\":{\"value\":1},\"minecraft:persistent\":{}}}}",
+      "解释一下所写入的内容：",
+      "minecraft:physics - 让实体有最基本的物理属性，使NPC能受到重力且不会穿墙（包括地面）。",
+      "minecraft:type_family - 指定NPC的实体家族。举一个例子，你可以在命令中使用/execute as @e[family=my_custom_npc] ...来指定这个自定义的NPC作为命令的执行对象。在后文你会看到设定家族的更多方便之处。",
+      "minecraft:health - 指定NPC的生命值。",
+      "minecraft:movement.basic - 赋予实体移动的能力，或者说，允许实体自行移动。",
+      "minecraft:movement - 指定实体的移动速度，这里设为0，也就是不移动。其实，你也可以通过删除这两行做到禁止实体移动的效果。",
+      "minecraft:collision_box - 设置实体的碰撞箱。",
+      "minecraft:knockback_resistance - 设置实体的击退抗性，这里设置为了1，也就是攻击不会导致击退。",
+      "minecraft:persistent - 设置实体是稳定持久的。你会注意到，在实际情况下大部分的实体都会 “被刷掉”，或者专业地来说叫做自然消失。有时候你会发现离得过远的实体，可能会在你的眼前消失，这就是自然消失现象，是Minecraft为了保证性能所做的优化手段。当然，部分实体不存在这种现象，例如盔甲架（是的，你的装备之所以不会丢失是因为盔甲架有这个组件，不然盔甲架就会“被刷掉”了）。设置这个组件就可以阻止实体的自然消失。",
+      "现在再来看一个比较简单的原版实体实例 —— 恼鬼（vex.json），并给出一些分析。",
+      "{\"format_version\":\"1.16.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"minecraft:vex\",\"is_spawnable\":true,\"is_summonable\":true,\"is_experimental\":false},\"components\":{\"minecraft:is_hidden_when_invisible\":{},\"minecraft:experience_reward\":{\"on_death\":\"query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0\"},\"minecraft:nameable\":{},\"minecraft:type_family\":{\"family\":[\"vex\",\"monster\",\"mob\"]},\"minecraft:equipment\":{\"table\":\"loot_tables/entities/vex_gear.json\"},\"minecraft:health\":{\"value\":14,\"max\":14},\"minecraft:attack\":{\"damage\":3},\"minecraft:collision_box\":{\"width\":0.4,\"height\":0.8},\"minecraft:movement\":{\"value\":1.0},\"minecraft:navigation.walk\":{\"can_path_over_water\":true},\"minecraft:movement.basic\":{},\"minecraft:jump.static\":{},\"minecraft:can_climb\":{},\"minecraft:fire_immune\":{},\"minecraft:despawn\":{\"despawn_from_distance\":{}},\"minecraft:behavior.float\":{\"priority\":0},\"minecraft:behavior.charge_attack\":{\"priority\":4},\"minecraft:behavior.nearest_attackable_target\":{\"priority\":3,\"entity_types\":[{\"filters\":{\"any_of\":[{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"player\"},{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"irongolem\"},{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"wandering_trader\"}]},\"max_dist\":70},{\"filters\":{\"all_of\":[{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"villager\"},{\"test\":\"has_component\",\"subject\":\"other\",\"operator\":\"!=\",\"value\":\"minecraft:is_baby\"}]},\"max_dist\":70}],\"must_see\":true},\"minecraft:behavior.look_at_player\":{\"priority\":9,\"look_distance\":6.0,\"probability\":0.02},\"minecraft:behavior.look_at_entity\":{\"priority\":9,\"look_distance\":6.0,\"probability\":0.02,\"filters\":{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"mob\"}},\"minecraft:behavior.hurt_by_target\":{\"priority\":1},\"minecraft:physics\":{\"has_gravity\":false,\"has_collision\":false},\"minecraft:conditional_bandwidth_optimization\":{},\"minecraft:game_event_movement_tracking\":{\"emit_move\":false,\"emit_swim\":false}}}}",
+      "哇！这里面有好多的组件！但现在只解释一些你在实际中感知最明显的组件，剩下的内容就靠你自己去发掘了。",
+      "为什么恼鬼能穿墙？ 这是因为，minecraft:physics组件中指定了恼鬼不受重力，不受方块碰撞箱的支配。因此，恼鬼能够穿墙，并且一定程度上决定了恼鬼能漂浮。",
+      "为什么恼鬼能漂浮？ 这是因为，minecraft:behavior.float的AI意向组件决定了它是能够漂浮的。",
+      "恼鬼的血量和攻击？ 你可以看到minecraft:health组件规定了恼鬼的血量是14点，而minecraft:damage规定了恼鬼近战攻击的伤害是3点。当然，这里需要强调一点，这个组件和远程伤害是没有关系的，例如骷髅射出去的箭，事实上是箭对你造成了伤害，而不是骷髅。至于你问为什么恼鬼打人那么痛？根本不像是3点伤害？别忘了这小家伙手上还有铁剑呢！",
+      "恼鬼的铁剑是怎么定义的？ 这就要说到minecraft:equipment组件了。你可以看到这个组件指向了一个战利品表，这使得恼鬼每次的生成都要调用一次这个战利品表并作为自己的装备。你可能现在对战利品表比较陌生，但至少在这个例子中，可以告诉你的是它将给予恼鬼一把铁剑。因此，如果你希望更改恼鬼的武器，就要去找到对应的战利品表，再进行更改。",
+      "这小东西真够难打的！ 这是因为它不仅是飞行状态难以瞄准，而且它的碰撞箱也小。你可以看到minecraft:collision_box这个组件规定了它高0.8宽0.4，实际上这是一个比较小的体积了。",
+      "关于这个实体还有太多值得说道的地方，不过现在就先停在这里，先继续下面的内容了。"
+    ],
+    "资源包部分": [
+      "渲染进阶：渲染控制器文件",
+      "第一章讲到，渲染控制器（Render Controller，简称RC）是按照特殊条件控制实体渲染（包括材质、模型、贴图）的一类控制器。只是有默认渲染控制器（Default Render Controller，以下简称DRC）是不够的，这里将给出最基本的自定义RC的写法。",
+      "资源包部分的目标只有一个——阻止标记实体显示出来！在2.2.1中，你已经学习了渲染控制器的部件显示，就可以应用于这里。首先需要解决的是CE文件，在RP/entity/文件夹中新建一个marker.entity.json，并写入以下内容：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:marker\",\"materials\":{\"default\":\"entity_alphatest\"},\"textures\":{\"default\":\"textures/entity/zombie/zombie\"},\"geometry\":{\"default\":\"geometry.zombie\"},\"render_controllers\":[\"controller.render.marker\"]}}}",
+      "为什么用僵尸的模型和贴图？？ 请你仔细思考，对于我们这样的需求，用谁的模型和贴图重要吗？其实并不重要！反正根本就显示不出来！所以随便用一个就可以了。最关键的还是渲染控制器要设置成所有部件都不显示。",
+      "在RP/render_controllers/文件夹下新建marker.render_controllers.json的渲染控制器文件，写入以下内容：",
+      "{\"format_version\":\"1.8.0\",\"render_controllers\":{\"controller.render.marker\":{\"textures\":[\"texture.default\"],\"materials\":[{\"*\":\"material.default\"}],\"geometry\":\"geometry.default\",\"part_visibility\":[{\"*\":false}]}}}",
+      "这样，利用part_visibility，就做到了所有部件都无法显示。",
+      "现在你可以进入游戏尝试一下使用命令/summon wiki:marker ~ ~ ~，你看不见这个标记实体，但它就在你的脚下。如果用/execute if entity @e[type=wiki:marker,r=1]，哪怕是半空中，你也不会得到错误的警告——因为这个新实体是无重力的。"
+    ],
+    "基本定义": [
+      "现在要打开你的资源包，创建一个名为entity（请注意，不是entities，不是复数形式！）的文件夹，然后新建一个名为my_custom_npc.client_entity.json的文件。写下：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\"}}}",
+      "你可以看到在客户端实体文件（其实就是资源包实体定义，简写为CE，Client Entity）中，只有一个描述。指定了和行为包一致的ID，就像你曾经在物品和方块中所做的那样。",
+      "你可能也注意到了一点，这里的格式版本写为了1.10.0。为什么要用这么“旧”的格式版本呢？事实上，CE文件的格式版本只有1.8.0和1.10.0，所以1.10.0其实是最新的那个。至于1.8.0怎么写，这里不过多去讲，因为对应的写法已经过时了。",
+      "渲染“三大件”：材质、模型、贴图",
+      "你知道，资源包的一个主要作用就是负责游戏内的游戏元素的渲染，更多的负责“显示”上面的东西。为了要让实体能够正常显示，需要三样内容："
+    ],
+    "材质。材质（Material）是表示材料和质感所用的一个专业名词，例如说桌子是木制的，那么桌子的材质就是木头，其反光、折射、光滑、透明等属性就都由材质去表示。这里需要再三强调，材质和接下来要介绍的贴图不是一个东西！在社区中所经常说的“材质包”其实是错误的说法，因为这类包并没有改变物体的材质，而只是更改了附着在它们上面的贴图而已，正确的说法应该叫“贴图包”或“纹理包”！请务必区分！！": [
+      "模型。模型（Model）所展现的是一个实体的形态结构，比如一个简单的桌子是有桌板和桌腿的，而桌板有多长？桌腿有多高？在模型文件之中就要将这些要素展现出来。",
+      "贴图。确定了模型和材质之后，就要将准备好的图像一一对应地贴在实体的各个面上，这就是贴图（Texture）。这就好像是确定了这是一个木桌，有桌子的结构，接下来只要再给它贴一个桌布就能用了。再比如僵尸的脸，你必须把僵尸脸对应的图像位置贴到它的前面而不是后面。你所熟知的那些改变世界外观的包，就是更改了方块、物品和实体的贴图，所以应该叫“贴图包”或“纹理包”。",
+      "因此，在处理一个资源包实体的渲染问题的过程中，主要就围绕材质、模型和贴图三大事项展开。",
+      "渲染第一步：渲染控制器",
+      "在前面你已经了解了，要想让一个实体正常地显示，需要指定它的材料质感、形状和外观，也就是材质、模型和贴图。但只是把它们罗列出来，告诉游戏“我要让这些材质、模型和贴图显示出来”，游戏可看不懂你要显示哪些。毕竟如果你需要使用多个贴图，那游戏就无法应对了。因此，需要一个按照条件控制实体如何渲染的文件来告诉游戏，在某种条件下，使用某种材质模型和贴图，这就是渲染控制器（Render Controller）。现在在CE文件（RP/entity/my_custom_npc.client_entity.json，之后不再赘述）添加新的一行：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"render_controllers\":[\"controller.render.default\"]}}}",
+      "你可以看到这里指定了一个渲染控制器，指定的内容是\"controller.render.default\"。其中的\"controller.render.xxx\"就是指代控制器是渲染控制器，在后面你还会看到另一种控制器，也就是动画控制器。而default是官方给出的默认渲染控制器。你只需要知道，默认渲染控制器将分别找到\"default\"的材质、\"default\"的模型和\"default\"的贴图。稍后你就能看到这一点。",
+      "渲染第二步：材质",
+      "你可能会想，你我都是肉做的，能有什么材质？事实上，这里的材质决定你的贴图能不能以透明方式显示等关键要素，选错材质一般就意味着贴图将不会按照你的预期正确地显示。在实际应用中，使用的比较多的材质是entity_alphatest：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"render_controllers\":[\"controller.render.default\"],\"materials\":{\"default\":\"entity_alphatest\"}}}}",
+      "它是官方所提供的一种材质，可以让实体以透明方式渲染，避免将.png文件或.tga文件中的透明像素显示成完全不透明的黑色。你在不断的实际应用中也可能会遇到更多类型的材质，可以看第2章的对应部分了解更多。",
+      "你在上面的代码中还能看到这里的\"default\"，这就是渲染控制器所导致的。",
+      "渲染第三步：模型",
+      "接下来你需要一个模型，让实体正常显示出来。当然这里会有一个非常头疼的点——模型从哪儿来？如果你现在完全没有任何基础，这是比较困难的事情，本教程会在第2章简单介绍模型的制作过程。但目前来说，你可以用官方的模型嘛。官方有一个你可能需要的人形模型geometry.humanoid：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"render_controllers\":[\"controller.render.default\"],\"materials\":{\"default\":\"entity_alphatest\"},\"geometry\":{\"default\":\"geometry.humanoid\"}}}}",
+      "这样，你的NPC就会有一个人形模型了。官方的其他模型你也可以用，但记住，原版的模型不总是能完美符合你的要求的。",
+      "渲染第四步：贴图",
+      "最后一步了！贴图该如何准备呢？答案是要适配于你的模型。对于本文刚刚选择的模型来说，最适合的贴图其实是——玩家皮肤！人形模型配玩家皮肤，很合理不是吗？因此你可以先把你的皮肤放进资源包，试试效果。首先创建一个文件夹textures，然后在该文件夹下创建一个新的文件夹entity，然后，把你的皮肤放进去，更名为my_custom_npc.png（皮肤一般是.png格式的）。然后，在CE文件中再加一行进去：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"render_controllers\":[\"controller.render.default\"],\"materials\":{\"default\":\"entity_alphatest\"},\"geometry\":{\"default\":\"geometry.humanoid\"},\"textures\":{\"default\":\"textures/entity/my_custom_npc\"}}}}"
+    ],
+    "这样，自定义的NPC就应用了你的皮肤啦！": [
+      "你可以看到三个\"default\"，希望这有助于你理解渲染控制器的用途。"
+    ],
+    "总结": [
+      "如果一切正常的话，你会在游戏内看到你的自定义NPC的刷怪蛋（当然正常的话，应该是黑色+莫名其妙的键名，如果你仔细看了方块和物品的教程，怎么处理想必你已经清楚了），召唤出来之后有你的皮肤，并且有着你所指定的行为。以下是键名格式：",
+      "item.spawn_egg.entity.(命名空间):(ID).name=xxx 刷怪蛋 entity.(命名空间):(ID).name=xxx",
+      "到这里，你就已经掌握了编写一个自定义实体的门路了，或者说入了门了。在第2章介绍了实体的行为包部分的扩展，包括事件与组件组、传感器组件、行为包动画与动画控制器等重要内容；而在资源包部分则着重介绍了渲染控制器、模型、刷怪蛋、资源包动画与动画控制器等重要内容。事实上，在实际的应用中，只有第一章的理论并不够用，大量的实体都要使用到事件与组件组、渲染控制器和动画。只有把这些做到融会贯通，才能写出一个优秀的实体。"
+    ],
+    "复杂实体": [
+      "前文从零基础开始，介绍了实体的运行逻辑。本章开始将在前文的基础上进行进一步的扩展，以各种原版实例为例，展现如何实现更加丰富、全面而完善的功能。",
+      "请注意，从第2章开始，很多事情会变得更加复杂，这需要你对前文的知识和一些其他的附加包内容（例如战利品表）已经有了一定的理解，再继续深入才可能感到不会特别吃力。"
+    ],
+    "过滤器": [
+      "在很多情况下，你会需要一些条件筛选符合条件的实体。比如当玩家挤奶的时候，玩家不可能空着手对牛右键就获得一桶奶，就要筛选出手上拿着铁桶的玩家。而过滤器（Filters）就是做这件事的，它能够筛选出特定实体是否满足特定的条件，在这篇微软文档里面，你可以看到所有的过滤器列表。",
+      "以牛（cow.json）的交互组件（minecraft:interact）为例，下面展示了如何检测与牛交互的手持铁桶的玩家：",
+      "\"filters\":{\"all_of\":[{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"player\"},{\"test\":\"has_equipment\",\"domain\":\"hand\",\"subject\":\"other\",\"value\":\"bucket:0\"}]}",
+      "过滤器允许单个项目的检测，也允许检测所有项目都符合（all_of）、有其中一个项目符合（any_of）和所有项目都不符合（none_of）。在上文中，other是指和该实体交互的实体。你可以看到第一个检测项目是is_family，检测项目是player的时候通过，即交互实体是玩家时通过，这也进一步证明了设置实体家族的好处，因为不存在is_type这样的检测项目，只存在is_family用于指定实体家族。同理地，第二个检测项目是检测手持为数据值为0的铁桶时通过。"
+    ],
+    "MoLang": [
+      "而有些情况下，单单只有过滤器也并不能满足实际要求，而且能够用得到过滤器的地方很少，写一个过滤器也是比较复杂的事情。在实际应用中经常能遇到另一个很有用的东西：MoLang。MoLang（得名自Mojang Language，注意它不是Mojang）是一种简单的基于表达式的语言，为实时且快速地计算数值而设计。关于MoLang的语法和用法，你可以在微软文档或基岩版开发Wiki看到详细的说明，也可以在下面看到一些简单的实例。MoLang有若干类，其中应用最多的就是查询类变量query.<function_name>。关键字方面这里做一些简单介绍，因为下面会常用到："
+    ],
+    "支持赋值（=）运算，注意query.<function_name>是只读的": [
+      "支持逻辑运算：非（!）或（||）与（&&）",
+      "支持比较：大于（>）、小于（<）、大于等于（>=）、小于等于（<=）、相等（==）、不等（!=）",
+      "二元条件运算符（<MoLang1> ? <MoLang2>）：若MoLang1的条件成立，则返回值为MoLang2，否则返回0",
+      "三元条件运算符（<MoLang1> ? <MoLang2> : <MoLang3>）：若MoLang1的条件成立，则返回值为MoLang2，否则返回MoLang3"
+    ],
+    "事件与组件组": [
+      "回到本节一开始的问题，对于僵尸与幼年僵尸的少量不同该如何简单地区分？答案是用事件和组件组来区分。事件（Events）是控制组件组的加减的，而组件组（Component Groups）是在原有组件的基础上新增或修改的组件。"
+    ],
+    "组件组": [
+      "例如用组件组来分别展现成年僵尸和幼年僵尸的不同特性差异：",
+      "\"description\":{...},\"components\":{...},\"events\":{...},\"component_groups\":{...,\"minecraft:zombie_baby\":{\"minecraft:experience_reward\":{\"on_death\":\"query.last_hit_by_player ? 12 + (query.equipment_count * Math.Random(1,3)) : 0\"},\"minecraft:is_baby\":{},\"minecraft:scale\":{\"value\":0.5},\"minecraft:movement\":{\"value\":0.35}},\"minecraft:zombie_adult\":{\"minecraft:experience_reward\":{\"on_death\":\"query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0\"},\"minecraft:movement\":{\"value\":0.23},\"minecraft:rideable\":{\"seat_count\":1,\"family_types\":[\"zombie\"],\"seats\":{\"position\":[0.0,1.1,-0.35],\"lock_rider_rotation\":0}},\"minecraft:behavior.mount_pathing\":{\"priority\":2,\"speed_multiplier\":1.25,\"target_dist\":0.0,\"track_target\":true}},...}",
+      "上面的代码展示了原版僵尸（zombie.json）的成年僵尸组件组（minecraft:zombie_adult）和幼年僵尸组件组（minecraft:zombie_baby）的内容，差异主要体现在击杀经验掉落、移动速度、体积大小等方面。组件与组件组的区别，类似于地基和大楼，组件负责最基础的属性的运行，而组件组负责特殊情况下特性的运行。"
+    ],
+    "事件": [
+      "为应用相同ID下的实体的不同特性，就要使用事件来进行组件组的加减。举一个例子，假如幼年僵尸的组件组是一个小草房，成年僵尸的组件组是一座高楼；现在你要让一只幼年僵尸变成一只成年僵尸，就要拆除草房，建立高楼，事件就是这样运行的。下面是骷髅离开细雪的事件写法：",
+      "\"description\":{...},\"components\":{...},\"events\":{...,\"got_out_of_powder_snow\":{\"remove\":{\"component_groups\":[\"in_powder_snow\"]},\"add\":{\"component_groups\":[\"got_out_of_powder_snow_environment_sensor\"]}},...},\"component_groups\":{...}",
+      "即，骷髅逃离细雪后，移除了in_powder_snow组件组，这样其中的组件便不再执行；添加了got_out_of_powder_snow_environment_sensor组件组用于重新检测骷髅是否进入了细雪。当然，不“拆房”只“盖楼”（也就是只add）、或者不“盖楼”只“拆房”（只remove）也是可以的。例如僵尸的minecraft:as_baby事件：",
+      "\"minecraft:as_baby\":{\"add\":{\"component_groups\":[\"minecraft:zombie_baby\"]}}"
+    ],
+    "队列事件、随机事件与过滤器事件": [
+      "事件除了支持“盖楼拆房”之外，还支持队列（sequence）、随机（randomize）、过滤器（filter, ...）。队列事件将从上到下依次执行，而非同时执行（例如僵尸的minecraft:convert_to_drowned事件）",
+      "\"minecraft:convert_to_drowned\":{\"sequence\":[{\"filters\":{\"test\":\"has_component\",\"operator\":\"!=\",\"value\":\"minecraft:is_baby\"},\"add\":{\"component_groups\":[\"minecraft:convert_to_drowned\"]},\"remove\":{\"component_groups\":[\"minecraft:start_drowned_transformation\"]}},{\"filters\":{\"test\":\"has_component\",\"value\":\"minecraft:is_baby\"},\"add\":{\"component_groups\":[\"minecraft:convert_to_baby_drowned\"]},\"remove\":{\"component_groups\":[\"minecraft:start_drowned_transformation\"]}}]}",
+      "上面的事件，将判断僵尸是否有minecraft:is_baby组件，并按照要求按顺序添加和移除组件组。上面的事件还同时涉及到了过滤器事件，也就是只有在过滤器通过后才能够执行对应的事件。下面的例子则是僵尸在生成时所触发的随机事件（minecraft:entity_spawned）：",
+      "\"minecraft:entity_spawned\":{\"sequence\":[{\"randomize\":[{\"weight\":380,\"remove\":{},\"add\":{\"component_groups\":[\"minecraft:zombie_adult\",\"minecraft:can_have_equipment\"]}},{\"weight\":17,\"remove\":{},\"add\":{\"component_groups\":[\"minecraft:zombie_baby\",\"minecraft:can_have_equipment\"]}},{\"weight\":3,\"remove\":{},\"add\":{\"component_groups\":[\"minecraft:zombie_baby\",\"minecraft:zombie_jockey\",\"minecraft:can_have_equipment\"]}}]},{\"randomize\":[{\"weight\":10,\"add\":{\"component_groups\":[\"minecraft:can_break_doors\"]}},{\"weight\":90}]}]}",
+      "可以看到在僵尸生成时，要执行两个队列事件，第一个事件控制了生成什么僵尸，有19/20的概率生成成年僵尸；17/400的概率生成幼年僵尸；3/400的概率生成鸡骑士。第二个事件控制生成的僵尸能否破门，有10%的概率是生成可以破门的僵尸的。"
+    ],
+    "命令执行事件": [
+      "在基岩版1.20.60，开放了新的事件queue_command，该事件可以用于使实体直接执行命令。为使用该事件，你也同时需要把SE文件的格式版本改为1.20.60或更高。目前来说暂时没有原版实体应用了这个事件，以下仅作为一个示例：",
+      "\"run_command_test\":{\"queue_command\":{\"command\":\"say this is a test! \"}}"
+    ],
+    "内置事件（Built-in Events）": [
+      "当实体有出生或生成等特殊情况发生时，有官方内置的事件可以自动检测并应用。见微软文档查看这些事件的用法。"
+    ],
+    "事件相关的命令": [
+      "/event就是用于通过命令手段强制执行这些事件的。",
+      "/summon可以在生成实体的同时执行一个事件。需要注意的是，一旦指定了事件的参数，那么minecraft:entity_spawned内置事件便不再生效。"
+    ],
+    "传感器组件": [
+      "为自动令实体在某些条件执行事件，有一些内置的传感器可供使用。",
+      "最常用的就是伤害传感器minecraft:damage_sensor，这个传感器可以用于在某些特定情况下修改或防止伤害、或者受到伤害后执行事件。你会发现对鸡使用fall_damage类型的/damage命令是无效的，就是由这个组件引起的。",
+      "环境传感器minecraft:environment_sensor可以在过滤器规定的环境通过后执行事件。例如僵尸变溺尸、骷髅变流浪者就利用了这个组件。",
+      "实体传感器minecraft:entity_sensor可以在实体附近满足特定实体条件后执行事件。例如河豚膨胀检测玩家利用了这个组件。",
+      "计时器minecraft:timer，严格来说这个不能算是传感器，但它也是执行事件的重要途径之一，它会在自获得这个组件起的特定时间后执行事件。",
+      "铁轨传感器minecraft:rail_sensor控制实体在通过激活铁轨后执行的事件。",
+      "目标靠近传感器minecraft:target_nearby_sensor控制实体在进入（离开）目标范围指定格后执行事件，也可以在视线丢失目标后执行事件。"
+    ],
+    "行为包动画（BA）": [
+      "行为包动画（BP Animation，简称BA）是实体在行为包中所运行的“动画文件”，可以用于在特定时间线下执行命令、MoLang表达式或事件。你也许会好奇，动画这种听起来看起来都很“显示”的东西为什么会出现在行为包中？这可能是因为运作方式和资源包的动画比较像，其实它更加类似于时间线一类的东西。在基岩版1.20.60之后，queue_command类型的事件已经可以快速地在执行事件的时候执行命令；但在1.20.60之前，则必须要通过行为包动画（或动画控制器）来执行命令（在不开启实验性玩法的情况下）。要想使用行为包动画，需要先创建一个动画文件，然后在服务端实体文件（Server Entity，SE，也就是行为包实体）下进行注册。"
+    ],
+    "创建动画文件": [
+      "在BP/animations/文件夹下新建文件xxx.animation.json，以让该实体每秒说一次1为例，动画文件可以写为：",
+      "{\"format_version\":\"1.10.0\",\"animations\":{\"animation.(ID).(name)\":{\"loop\":true,\"animation_length\":1,\"timeline\":{\"0.0\":[\"/say 1\"]}}}}",
+      "format_version - 格式版本，默认为1.10.0。非必要不变动。",
+      "animation.(ID).(name)，这是动画长ID，其中第二项习惯上写为该实体的ID且不带命名空间；第三项可以自由命名，但建议长度适中且易读。例如，animation.zombie.run_command就是一个比较好的命名方式。",
+      "loop - 动画是否循环执行，可以填true、false或hold_on_last_frame（停留到最后一帧）。",
+      "animation_length - 动画长度，单位为秒。",
+      "timeline - 时间线。0.0为第0秒时执行的内容。可以是一条或多条命令（必须有斜杠开头）、事件（格式为@s <event>，等效于/event entity @s <event>）或是MoLang运算表达式。其中执行命令或函数命令的情况最为多见。"
+    ],
+    "注册并执行动画": [
+      "在对应的SE文件中，在描述中添加内容：",
+      "\"description\":{...,\"scripts\":{\"animate\":[\"<短ID 1>\",{\"<短ID 2>\":\"<MoLang>\"},...]},\"animations\":{\"<短ID 1>\":\"<长ID 1>\",\"<短ID 2>\":\"<长ID 2>\",...}}",
+      "scripts - 脚本。这里是指代，在所有列举的动画中，有哪些动画将要执行。",
+      "<短ID 1> - scripts在执行动画的过程中，首先找到这个<短ID 1>，然后在所有动画列表中找到这个<短ID 1>所对应的<长ID 1>执行，最后通过<长ID 1>链接到动画文件上去，实现动画的执行。",
+      "<短ID 2> - 执行过程是类似的。但不同的是，<短ID 2>必须在满足规定的MoLang条件时才能执行。例如query.variant == 1之类的MoLang，是比较常用的条件。"
+    ],
+    "行为包动画控制器（BAC）": [
+      "行为包动画控制器（BP Animation Controller，简称BAC）是用于进行动画控制的状态转换器，动画控制器内部分为许多状态（States），BAC可以在进入、离开某个状态后执行命令、执行MoLang语句、运行动画、以及设置新的转换条件。和BA类似，BAC的创建也需要先创建一个BAC文件，然后在SE文件下进行注册。"
+    ],
+    "创建、注册与执行行为包动画控制器": [
+      "在BP/animation_controllers/文件夹下新建文件xxx.animation_controllers.json。现在假设当实体有minecraft:is_sheared组件时，执行一条命令和一个动画，并且在没有该组件时，回归默认状态并执行一条命令。动画控制器文件可以写为：",
+      "{\"format_version\":\"1.10.0\",\"animation_controllers\":{\"controller.animation.(ID).(name)\":{\"initial_state\":\"default\"\"states\":{\"default\":{\"transitions\":[{\"sheared_state\":\"query.is_sheared\"}]},\"sheared_state\":{\"on_entry\":[\"/say 进入状态！\"],\"on_exit\":[\"/say 离开状态！\"],\"animations\":[\"<动画短ID>\"],\"transitions\":[{\"default\":\"!query.is_sheared\"}]}}}}}",
+      "format_version - 格式版本，默认为1.10.0。非必要不变动。",
+      "controller.animation.(ID).(name)，这是动画控制器长ID，它和动画长ID的唯一区别就是前面加了一项controller.。命名习惯和BA类似。例如，controller.animation.zombie.sheared_test_state就是一个比较好的命名方式。",
+      "initial_state - 设定初始状态为default。",
+      "states - 此处是设定所有状态的地方。可以看到，一共有两个状态，分别是default和sheared_state。",
+      "在default状态下，只指定了一个转换条件transitions，当该实体存在minecraft:is_sheared组件时，query.is_sheared就会输出1.0，导致状态转换到sheared_state下。",
+      "在sheared_state状态下，指定了所有四个动画控制器允许存在的参数：转换条件transitions、进入状态时执行on_entry、离开状态时执行on_exit、动画animations。转换条件规定了如果不存在minecraft:is_sheared组件时，那么!query.is_sheared就会输出1.0，从而进行转换。在进入该状态时，将执行on_entry中的命令；同样，离开该状态执行on_exit命令。而保持在该状态时，则执行短ID为<动画短ID>的动画或动画控制器。",
+      "即，动画控制器（无论是行为包还是资源包）本质上都是在各种状态之间相互转换，并在对应状态下执行对应动画的一类控制器。",
+      "现在要在行为包中执行动画控制器。这是很简单的，在前文中，给出了SE文件注册动画的方式：",
+      "\"description\":{...,\"scripts\":{\"animate\":[\"<短ID 1>\",{\"<短ID 2>\":\"<MoLang>\"},...]},\"animations\":{\"<短ID 1>\":\"<长ID 1>\",\"<短ID 2>\":\"<长ID 2>\",...}}",
+      "事实上这个办法完全适用于BAC，也就是说你大可直接把<长ID>写为动画ID或动画控制器的ID。而{ \"<短ID 2>\": \"<MoLang>\" }这样的写法一般也直接写到动画控制器中——因为动画控制器就是专门做这个用的。"
+    ],
+    "运行时ID（Runtime Identifier）": [
+      "在原版的实体中，有很多不能通过官方所提供的组件就能实现的内容。比如，雪球和鸡蛋在被玩家扔出后，能够画出一条完美的抛物线，而你在使用\"minecraft:projectile\"组件时却无论如何设置也做不出一条抛物线；再比如，船和潜影贝拥有类似方块一样的碰撞箱，能够阻碍玩家穿过（如果你说1.21.0以前的船能穿过，那个纯属是bug，请见MCPE-105535），而Minecraft所提供的组件中没有一个组件是有类似功能的。甚至于连怪物自带的护甲，都不能通过组件设置。这就是硬编码属性（Hard-coded properties），而要调用这些硬编码属性，必须要使用运行时ID（Runtime Identifier）。使用运行时ID的方法很简单，只需要在SE文件的描述中添加这样的字段：",
+      "\"description\":{...,\"runtime_identifier\":\"minecraft:(原版实体ID)\"}",
+      "例如在你希望出现抛物线的实体中，加上\"minecraft:snowball\"的运行时ID，就将使你的雪球能够投掷出完美的抛物线。所有（或者已知的资料）运行时ID的列表在此，你可自行查阅。但是需要注意，硬编码属性一般来说不是单个出现的，你也不能独立选择你需要的功能点出来。例如使用了雪球的硬编码属性，就同时意味着其他副作用，例如/kill无动画无音效（当然有些情况下这个倒是需要的）。所以，除非万不得已，否则请慎用！"
+    ],
+    "生成规则": [
+      "此段落仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：此处使用以前的教程文本。你可以帮助扩充此部分内容。",
+      "这是一个可选参数。生成规则用于使你的自定义实体在特定生物群系中的自然生成。如果你的实体仅需使用命令生成，或仅从其他实体生成，则不需要此设置。",
+      "在行为包根目录下创建一个名为spawn_rules的文件夹。 新建一个以自定义生物命名的JSON文件。下面是一个简单的示例：",
+      "{\"format_version\":\"1.8.0\",\"minecraft:spawn_rules\":{\"description\":{\"identifier\":\"test:npc\",//实体识别符\"population_control\":\"animal\"//实体数量控制标签},\"conditions\":[//组件{\"minecraft:spawns_on_surface\":{},//添加此组件即允许该实体在地面上生成，若删除则不允许\"minecraft:brightness_filter\":{//设置实体生成的光照等级范围\"min\":7,\"max\":15,\"adjust_for_weather\":false//设置是否允许在天气影响后的光照等级下生成（如：设置为true，则敌对生物在下雨天会生成）},\"minecraft:weight\":{//优先生成权重值\"default\":10},\"minecraft:herd\":{//设置一次生成实体群的大小（如：绵羊一次生成2到3只）\"min_size\":1,\"max_size\":3},\"minecraft:biome_filter\":{\"test\":\"has_biome_tag\",\"operator\":\"==\",\"value\":\"animal\"}}]}}",
+      "这只是一个简单的示例，具体见基岩版实体文档 § Spawn_Rules。"
+    ],
+    "实体属性": [
+      "此段落仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "关于实体属性（Entity Properties），你可以参考微软文档。"
+    ],
+    "自定义渲染控制器": [
+      "渲染控制器存在于RP/render_controllers/xxx.render_controller.json中。内容如下。",
+      "{\"format_version\":\"1.8.0\",\"render_controllers\":{\"controller.render.(ID)\":{\"geometry\":\"geometry.(xxx1)\",\"materials\":[{\"*\":\"material.(xxx2)\"}],\"textures\":[\"texture.(xxx3)\"]}}}",
+      "\"controller.render.(ID)\" - 渲染控制器的ID。例如DRC为\"controller.render.default\"。(ID)习惯上写为该实体不带命名空间的ID。",
+      "\"geometry\": \"geometry.(xxx1)\" - 该实体的模型将应用(xxx1)。事实上，material.(xxx)是一种MoLang。DRC就是将这里指定为了\"geometry.default\"，所以在CE文件中，使用了DRC的渲染控制器在指定模型时就会找到\"default\"所指代的模型文件。",
+      "\"materials\": [ { \"*\": \"material.(xxx2)\" } ]\" - 该实体的所有面的材质将应用(xxx2)。和模型类似，DRC就是将这里指定为了\"material.default\"。",
+      "\"textures\": [ \"texture.(xxx3)\" ] - 该实体的贴图将应用(xxx3)。和模型类似，DRC就是将这里指定为了\"texture.default\"。"
+    ],
+    "数组": [
+      "在本节开头提出了一个问题：如果希望要让实体在不同变种下使用不同的贴图，该怎么办？显然只是使用上面的渲染控制器是难以做到的。因此需要利用MoLang，在特定的MoLang条件下显示特定的内容。这里就要用到数组（Array）。格式如下：",
+      "{\"format_version\":\"1.8.0\",\"render_controllers\":{\"controller.render.(ID)\":{\"geometry\":\"array.<Name 1>[<MoLang 1>]\",\"materials\":[{\"*\":\"array.<Name 2>[<MoLang 2>]\"}],\"textures\":[\"array.<Name 3>[<MoLang 3>]\"],\"arrays\":{\"geometries\":{\"array.<Name 1>\":[\"geometry.<geometry 1>\",\"geometry.<geometry 2>\",...],...},\"materials\":{\"array.<Name 2>\":[\"material.<material 1>\",\"material.<material 2>\",...],...},\"textures\":{\"array.<Name 3>\":[\"texture.<texture 1>\",\"texture.<texture 2>\",...],...}}}}}",
+      "array.<Name>[<MoLang>] - 将所要指代的材质（material.<name>）、模型（geometry.<name>）或贴图（texture.<name>）MoLang替换为对应的数组MoLang（array.<name>）。通过[<MoLang>]的取值，决定在数组中选取何种材质、模型和贴图。",
+      "arrays - 数组中的模型、材质和贴图分别对应前文所写到的array.<name>。当对应[<MoLang>]的值为0、1、2...时，分别选用对应的第1项、第2项、...。",
+      "下面给出一个原版的实例，这是不同颜色的潜影贝的渲染控制器（shulker.render_controllers.json）：",
+      "{\"format_version\":\"1.8.0\",\"render_controllers\":{\"controller.render.shulker\":{\"arrays\":{\"textures\":{\"Array.variants\":[\"Texture.black\",\"Texture.red\",\"Texture.green\",\"Texture.brown\",\"Texture.blue\",\"Texture.purple\",\"Texture.cyan\",\"Texture.silver\",\"Texture.gray\",\"Texture.pink\",\"Texture.lime\",\"Texture.yellow\",\"Texture.light_blue\",\"Texture.magenta\",\"Texture.orange\",\"Texture.white\",\"Texture.undyed\"]}},\"geometry\":\"Geometry.default\",\"materials\":[{\"*\":\"Material.default\"}],\"textures\":[\"Array.variants[query.variant]\"]}}}",
+      "可以看到，这段json代码中，潜影贝的模型和材质都使用了default，但是贴图则是使用了数组array.variants[query.variant]。当潜影贝的variant为0时，就将采用array.variants的第1个值，也就是texture.black；同理，当潜影贝的variant为1时，就将采用array.variants的第2个值，也就是texture.red，以此类推。"
+    ],
+    "模型部件显示": [
+      "使用部件显示（Part Visibility）功能，可以控制在何种情况下显示或者隐藏模型中的部件（例如骨骼）。例如下面是末影水晶的渲染控制器（ender_crystal.render_controllers.json），它将只在query.show_bottom返回1的时候显示base骨骼，这就是在一般情况下放置的末影水晶没有基底的原因。",
+      "{\"format_version\":\"1.10.0\",\"render_controllers\":{\"controller.render.ender_crystal\":{\"geometry\":\"Geometry.default\",\"part_visibility\":[{\"base\":\"query.show_bottom\"}],\"materials\":[{\"*\":\"Material.default\"}],\"textures\":[\"Texture.default\"]}}}",
+      "关于更进一步的渲染控制器写法（包括控制实体颜色、贴图动画等功能）可以参见微软文档或者Bedrock Wiki。",
+      "渲染进阶：模型的制作简介",
+      "原版的模型显然不能满足全部需求。如何制作一个自定义的模型？本小节将就这个问题进行展开。"
+    ],
+    "Blockbench": [
+      "在Minecraft中制作一个模型，需要使用对应的模型文件。模型文件需要存储到RP/models/entity/文件夹中，文件格式一般为xxx.geo.json。当然，在这一小节中，这里不会具体介绍这个文件的写法，因为习惯上还有一个更加常用且好用的软件——Blockbench（以下可能会简称为BB），它广泛用于Java版、基岩版的实体和方块制作、以及贴图绘制，并且还能安装插件。它将晦涩难懂的json文件进行了可视化，使得开发者的工作大幅度地得到了简化。可以说，没有Blockbench，想要手写出一个模型文件是难上加难的。",
+      "Blockbench的官网中可以选择在线编辑，也可以选择下载为软件。但在中国大陆，下载软件的速度可能会非常慢，你需要做好心理准备。",
+      "当你启动Blockbench后，你可能看到如右图的界面："
+    ],
+    "Blockbench的主界面（英文）": [
+      "这是一个英文的界面。你可能会需要把它调整为中文。单击“File - Preferences - Settings”，你会看到第一个就是语言设置（Language），调整为中文后重启即可。",
+      "重启后，选择“基岩版模型”（Bedrock Entity），然后创建一个新模型。"
+    ],
+    "在Blockbench中新建基岩版实体模型": [
+      "文件名 - 完成模型的制作并导出为基岩版可识别的模型文件后，若写为xxx，则输出的文件名则为xxx.geo.json。",
+      "模型编号 - 即模型MoLang。若写为xxx，则输出的ID则为geometry.xxx。",
+      "习惯上这两处写为同一个内容。"
+    ],
+    "创建好一个新的项目之后，你就可以开始进行模型的制作了！模型的制作其实和在Minecraft中类似，也是用各种小块组合成你想要的形状。但不同于原版的是，这些小块并没有像游戏中那样的限制，你基本上可以随意设置单个块的大小、位置、旋转角度，甚至可以让它们重叠（事实上有时候你会需要让这些块重叠来组合出你想要的形状）！": [
+      "在上文中所介绍的每一个小块称为组块（Cube），在右侧的“大纲”中，选择第一个按钮就能创建一个新的组块并设置它的大小、位置和旋转角度。",
+      "利用BB创建了5个重叠的小组块",
+      "而一些组块的组合可能作为这个实体的一部分。例如在玩家的模型中，头和帽子（也就是所谓的外层皮肤）是作为一个整体的。这时候，你可以创建一个“组”，或者说骨骼（Bone）来把它们归到一类中去。"
+    ],
+    "将两个块放到了一个骨骼中": [
+      "骨骼的尺寸、旋转角度和位置是所有组块所共享的。例如，如果在图4中你将骨骼沿y轴旋转了45°，那么所有组块都将沿y轴旋转45°。而如果此时你选定其中的一个组块，会发现这个组块的旋转仍为0°，旋转单个组块，就将以该骨骼的枢轴点作为新的参考系进行旋转。",
+      "你可能注意到了刚刚使用了“参考系”的说法。事实上可能更贴切的说法是“以新的枢轴点为基础进行旋转”。想象一根棒，从端点处旋转和从中点处旋转，效果是不一样的，这就是枢轴点的作用。你可以在你的模型中设置特定的枢轴点，达成你想要的旋转效果。"
+    ],
+    "定位器（Locator）": [
+      "定位器是实体在展示一些附加效果时所指定的显示位置。例如，当玩家手持物品时，你会发现在玩家模型（geometry.humanoid）的主手上有一个定位器，用于显示物品。定位器还可以用于释放粒子。",
+      "通过“编辑 - 添加定位器”可以为你的模型在枢轴点处添加一个定位器。",
+      "创建一个新的模型并不是一件非常简单的事情，它对你的美术和建模能力提出了一定的要求。但只要你非常明确你想要的东西，那么你的建模之路就已经除去了大半的阻碍了。此外，Blockbench也是一个非常好用但比较复杂的工具，其功能非常齐全，你可以在其他地方获取关于BB的更多信息和有趣的用法。",
+      "渲染进阶：贴图的制作简介"
+    ],
+    "其他常见画图软件": [
+      "Photoshop - 毫无疑问，PS是专业的。你也可以用它来处理那些难缠的.tga文件，如果你有需求的话。",
+      "画图 - 电脑自带的画图当然也能应付应付。但是除非你实在有需求，否则谨慎使用。",
+      "IsoPix Pro - Android的像素画家，常用于绘制方块和物品的贴图，实体的贴图一般是64*64的，所以工作量会稍微大一些。很多专业的贴图画家都会用这个软件哦！"
+    ],
+    "刷怪蛋": [
+      "在1.1.1的描述中，你会注意到这样的一个字段：\"is_spawnable\": true。如果你这里写为了true，你就将在你的创造模式物品栏中看到一个完全黑色的刷怪蛋。为了让刷怪蛋不那么“丑陋”，下面有两种方法能够实现这一点。但是首先，你需要在你的CE文件的描述description下加上spawn_egg：",
+      "\"description\":{...,\"spawn_egg\":{...}}"
+    ],
+    "基底与斑点颜色生成法": [
+      "最简单的方法就是指定基底与斑点的颜色，然后让游戏自己处理。你知道游戏中的刷怪蛋是有基底颜色和斑点颜色两种颜色在上面的，例如鸡的刷怪蛋就是白底红点的。格式也非常简单，例如骆驼的CE文件（camel.entity.json）就是这么写的：",
+      "\"spawn_egg\":{\"base_color\":\"#fcc369\",\"overlay_color\":\"#cb9337\"}",
+      "其中，base_color和overlay_color分别指代基底颜色和斑点颜色，它们都接受十六进制的颜色代码。关于颜色代码，你可以在网上了解更多，想要掌握颜色代码还是十分容易的。"
+    ],
+    "物品贴图法": [
+      "现在有一个问题：像是NPC那样的刷怪蛋，也就是各个斑点都不一样的刷怪蛋是如何实现的呢？事实上，这里采用了一个现成的物品贴图。格式为：",
+      "\"spawn_egg\":{\"texture\":\"<物品短ID>\",\"texture_index\":0}",
+      "看到<物品短ID>，你是否感到有些熟悉？是的！这就是你要在item_texture.json指代的短ID。如果你还不清楚这是什么文件，你可以回到Tutorial:自定义物品学习相关内容，或者参考微软文档。利用这个方法，你可以让刷怪蛋长成你想要的形状，而不再局限于刷怪蛋的形状了。"
+    ],
+    "附着物": [
+      "在解决了渲染的一系列问题之后，接下来还有一个难题需要处理。如果你的实体是需要穿着盔甲的，该怎么办？毕竟似乎前面的模型定义中好像并未提到这一点。这就是附着物（Attachable）的作用了，顾名思义，将一些“东西”附着到模型之上。下文将开始介绍附着物的简单写法。"
+    ],
+    "特殊的“CE文件”——附着物文件": [
+      "附着物文件保存于RP/attachables/xxx.json之下。如果随便打开其中一个文件，你会发现其内容和普通的CE文件是如此之像（以下以原版钻石头盔文件diamond_helmet.json为例）：",
+      "{\"format_version\":\"1.8.0\",\"minecraft:attachable\":{\"description\":{\"identifier\":\"minecraft:diamond_helmet\",\"materials\":{\"default\":\"armor\",\"enchanted\":\"armor_enchanted\"},\"textures\":{\"default\":\"textures/models/armor/diamond_1\",\"enchanted\":\"textures/misc/enchanted_item_glint\"},\"geometry\":{\"default\":\"geometry.humanoid.armor.helmet\"},\"scripts\":{\"parent_setup\":\"variable.helmet_layer_visible = 0.0;\"},\"render_controllers\":[\"controller.render.armor\"]}}}",
+      "这里使用了1.8.0的CE版本格式，如果你的附着物涉及动画等，最好还是使用1.10.0的格式。在学习了CE文件的写法之后，相信读懂这些对你来说应该不是什么难题了。不过需要注意的是，你可以看到附魔的材质写为了armor_enchanted。这么写是有理由的，如果你将它换掉，附魔效果就可能会出现很滑稽的错误。所以如果非必要，就不要随意更改。",
+      "你可以看到这里最主要的部分是模型。如果你去BB里面找到模型的话，你会惊讶地发现一点——这里的模型似乎与玩家模型是完全相同的！但其实不然，在官方示例包的RP/models/mobs.json中你可以找到这个模型：\"geometry.humanoid.armor1:geometry.zombie\"，这是说这个模型的ID是geometry.humanoid.armor1，其特性继承自geometry.zombie。其内容的部分片段：",
+      "...,\"bones\":[{\"name\":\"head\",\"inflate\":1},{\"name\":\"hat\",\"inflate\":1.5,\"neverRender\":false},{\"name\":\"body\",\"inflate\":1.01},...]",
+      "其中的inflate则代表了这些骨骼会在僵尸原有的骨骼基础上进行膨胀后，形成的新的模型。这也就是为什么，盔甲在玩家、僵尸等身上似乎不是完全贴合的，而是有一些间距（如果你在联机时足够贴近一个穿着盔甲的玩家时，你会发现这一点）。"
+    ],
+    "自定义盔甲的实现": [
+      "该特性仅适用于基岩版1.20.30及更高版本或中国版",
+      "如果你现在有制作自定义盔甲的需求，那么读到这里，你就有写一套自定义盔甲的能力了。在准备好BP/items/的物品定义、RP/textures/的物品短ID链接和贴图后，基本上你唯一要做的就只有让盔甲在实体身上显示出来了。",
+      "只要你的装备是给“人形模型”准备的，例如玩家、僵尸、骷髅等，那么制作自定义盔甲的步骤就非常简单——你只需要把原版给出的东西复制一下，对应的地方改一改就够了。",
+      "但如果你的装备是给其他生物准备的，则你可能先需要复制一下你要准备的生物模型，然后设置对应的膨胀值，以使得你的盔甲看起来自然。"
+    ],
+    "自定义物品模型的实现——以第一人称和第三人称为例": [
+      "此段落仍需完善。",
+      "你可以帮助我们加入更多信息。"
+    ],
+    "资源包动画与动画控制器": [
+      "在本文的2.1.4中，曾介绍到行为包的动画和动画控制器。一个好消息是，资源包的动画和动画控制器的逻辑与行为包十分类似。资源包的动画和动画控制器就非常简单明了了 —— 它就是用来控制实体的动画的。 没有人喜欢只会平移走路的实体，基本上所有的实体都有动画。在你看得见的地方：走路动画、僵尸抬手臂动画（不过这个动画在基岩版还没有加入，在看完本节之后，你会知道实现这个动画事实上并不难）、或者是最近版本的骆驼起身动画等；以及“看不见”的：盔甲架转换动画、玩家静止时的手臂摆动动画等，到处都是动画，动画无处不在。另一个好消息是，你可以用BB实现一些简单的动画效果。不过更复杂的效果可能就需要你自己“手搓一个”了。",
+      "这里只展示基于1.10.0版本的CE文件的资源包动画控制器（RP Animation Controller，或简写为RAC）和资源包动画注册的基本写法，其实和行为包如出一辙（以蜜蜂bee.entity.json为例）：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"minecraft:bee\",...,\"animations\":{\"flying\":\"animation.bee.flying\",\"drip\":\"controller.animation.bee.drip\",\"controller_bee_sting\":\"controller.animation.bee.sting\",\"bee_sting\":\"animation.bee.sting\",\"bee_no_stinger\":\"animation.bee.no_stinger\",\"bee_fly_bobbing\":\"animation.bee.fly.bobbing\",\"bee_root_controller\":\"controller.animation.bee.root\"},\"scripts\":{\"animate\":[\"bee_root_controller\",{\"bee_no_stinger\":\"query.mark_variant == 1\"}]}}}}"
+    ],
+    "为简单起见，这里先介绍资源包的动画控制器（RAC）。RAC的写法和BAC基本上是一样的，只不过区别在于，从行为包对应的路径BP/animation_controllers/变为资源包对应的路径RP/animation_controllers/。例如蝙蝠的RAC（bat.animation_controllers.json）": [
+      "{\"format_version\":\"1.10.0\",\"animation_controllers\":{\"controller.animation.bat.move\":{\"initial_state\":\"flying\",\"states\":{\"flying\":{\"animations\":[\"flying\"],\"transitions\":[{\"resting\":\"query.is_resting\"}]},\"resting\":{\"animations\":[\"resting\"],\"transitions\":[{\"flying\":\"!query.is_resting\"}]}}}}}",
+      "在BAC中提到，动画控制器无非就是在某些条件下的状态转换。在这里你会更清晰地看到这一点。",
+      "不过需要注意，RAC不允许命令的执行，它只能用于播放动画、播放音效、释放粒子等资源包能干的事情，所以不要混用。此外，部分仅行为包可用的MoLang在资源包中也会无法使用。"
+    ],
+    "动画——模型部件位置、大小与旋转变换的时间线": [
+      "资源包动画（RP Animation）用于将实体模型中的骨骼进行特定的变换。变换会在规定的时间线内完成，一般包括部件的大小、位置、旋转角度等。例如，在3秒内使模型从0°旋转到45°，就是由动画来完成的。",
+      "动画也可以使用BB来制作。使用动画模式，在左侧的动画中新建一个动画，你可以选择播放一次（\"loop\": false）、停止于最后一帧（\"loop\": \"hold_on_last_frame\"）以及循环播放（\"loop\": true）。在下面的时间线中，你就可以指定该实体各帧的位置、大小与旋转，而且所有的关键帧对应的数值里面，都可以填入MoLang（例如比较常见的this），这将有助于你制作一个非常复杂的动画。"
+    ],
+    "利用Blockbench创建一个新动画": [
+      "请注意，资源包永远只是改变视觉上的效果。实体的实际位置永远是服务端决定的！ 所以有时你会看到实体已经“走远了”，但它事实上其实还在那里。"
+    ],
+    "音效与粒子": [
+      "在你的实体有了精美的动画，独特的模型和全新的贴图的时候，你会发现让人无法容忍的一点——你的实体没声音，在攻击它的时候还会一直播放玩家的骨折音效，直到它被打死。如果你希望精益求精，或者有时候有一些特殊需求比如......让它无声地死去，那这一小节就可以满足你的要求了。当然，有了音效自然也少不了粒子，这里也将同时介绍基于RAC和资源包动画的粒子效果。"
+    ],
+    "sounds.json": [
+      "sounds.json是用于控制游戏音效的一种注册表。其直接存储于RP/的根目录下，与manifest.json同级。其格式大体如下：",
+      "{\"block_sounds\":{...},\"entity_sounds\":{...},\"individual_event_sounds\":{...},\"interactive_sounds\":{...}}",
+      "如上，四项分别控制方块音效（主要是破坏break、击中hit、放置place等）、实体音效（主要是环境ambient、死亡death、受伤hurt、攻击attack等）、独立事件音效（例如环境音）、以及交互音效（包括方块交互音效例如跌落fall、跳跃jump、落地land、行走step；和实体交互音效，但主要都用在马上）。因为本教程主要针对自定义实体展开，因此接下来只介绍实体音效。"
+    ],
+    "音效的注册": [
+      "在正式注册一个音效之前，你还应该知道另一个文件：sound_definitions.json。如果你熟悉自定义音乐，你会知道这个文件的用途。它存在于RP/sounds/文件夹中，主要格式如下：",
+      "{\"format_version\":\"1.14.0\",\"sound_definitions\":{\"<音效长ID>\":{\"category\":\"<音效种类>\",\"sounds\":[\"<音效路径1>\",{\"name\":\"<音效路径2>\",\"volume\":<音量值>,\"load_on_low_memory\":<低内存下播放>},...]}}}",
+      "<音效长ID> - 任意指定的长ID，习惯上写为文件路径，例如mob.piglin.hurt。此外，它也是命令/playsound指定的参数<sound: string>和命令/music指定的参数<trackName: string>。",
+      "<音效种类> - 可填写为环境\"ambient\"、方块\"block\"、桶（不在设置中）\"bucket\"、玻璃瓶（不在设置中）\"bottle\"、敌对生物\"hostile\"、音乐\"music\"、友好生物\"neutral\"、玩家\"player\"、唱片机/音符盒\"record\"、声音[原文如此]\"ui\"、天气\"weather，在设置中被对应音效滑块所控制。",
+      "<音效路径> - 填写为不带后缀的待播放音效的文件路径。举例：sounds/mob/horse/breathe1",
+      "<音量值> - 设置音量的相对大小，接受0.0-1.0的浮点数。",
+      "<低内存下播放> - 设置当玩家的设备内存低时是否播放，接受布尔值。习惯上来讲，如果一个ID对应了多个音效路径，要设置其中一个音效是能够在低内存下播放的。",
+      "在\"sounds\": [...]中，上面展示的两种音效路径的方法都是可行的。接下来就要设置sounds.json了。其格式如下：",
+      "{\"entity_sounds\":{\"entities\":{\"<实体ID>\":{\"events\":{\"<音效短ID 1>\":\"<音效长ID 1>\",\"<音效短ID 2>\":{\"sound\":<音效长ID2>,\"pitch\":<音调（该音效）>,\"volume\":<音量（该音效）>},...},\"pitch\":<音调（全局）>,\"volume\":<音量（全局）>}}}}",
+      "<实体ID> - 带命名空间的实体ID。",
+      "<音效短ID> - 可指定为以下常见的默认的音效事件：环境ambient、死亡death、受伤hurt、走路step、饮水drink、吃食物eat、从高空跌落fall.big、从低处摔落fall.small、游泳swim，相关的默认值可以在官方的示例包的sounds.json的{\"entity_sounds\":{\"defaults\":{...}}}下找到。也可以指定为一些自制的音效事件，可以通过行为包的部分组件、资源包的动画、RAC等方式播放。",
+      "<音效长ID> - 在sound_definitions.json中指定的音效事件。你也可以设置为\"\"，这样它将什么也不播放。",
+      "<音调> - 支持浮点数设置固定的值，也支持一个二元数组设定范围，例如[0.8, 1.2]就是使该音效在0.8~1.2的随机音调下播放。",
+      "<音量> - 支持0.0-1.0的浮点数设置固定的音量值。"
+    ],
+    "粒子 在动画中使用粒子": [
+      "与音效一同出现的，一般还有粒子。虽然粒子只被少数的一些实体使用，不过这里还是进行简单介绍。在这里不做粒子的具体教程和演示，因为内容很多。要在一个实体上使用粒子，首先需要在CE文件注册：",
+      "\"minecraft:client_entity\":{\"description\":{...,\"particle_effects\":{\"<粒子短ID>\":\"<粒子发射器ID>\",...}}}",
+      "接下来，你可以使用RAC的方式释放注册的例子，例如烈焰人：",
+      "{\"format_version\":\"1.10.0\",\"animation_controllers\":{\"controller.animation.blaze.flame\":{\"initial_state\":\"default\",\"states\":{\"default\":{\"transitions\":[{\"flaming\":\"query.is_charged\"}]},\"flaming\":{\"particle_effects\":[{\"effect\":\"charged_flames\"}],\"transitions\":[{\"default\":\"!query.is_charged\"}]}}},...}}",
+      "它将在烈焰人处于flaming状态时，在其位置释放charged_flames粒子。其中charged_flames就是粒子短ID。",
+      "你也可以使用动画的方式，不过这需要模型的定位器的帮助。举例：",
+      "\"animation.wiki_example.example\":{\"animation_length\":1,\"loop\":true,\"particle_effects\":{\"0.0\":{\"effect\":\"example_particle\",\"locator\":\"locator1\"}}}",
+      "这样，粒子example_particle将每1秒在定位器locator1上按照粒子文件所定义的那样释放出来。"
+    ],
+    "自定义实体实例": [
+      "在前两章着重强调了编写一个自定义实体的理论。可能你会感叹一点——这也太难太多太复杂了！但很遗憾，确实是这样的，甚至可以说编写一个自定义实体就是写附加包最难的工作之一。就像做数学题只听不练不成事一样，自定义实体这么多的内容可能也让人感到无从下手。以下将从前文所介绍的内容开始介绍一些实际实体的写法，希望对你的实际工程有一些帮助。"
+    ],
+    "实现Java版的标记实体与文本展示实体": [
+      "可能很多基岩版的玩家并不知道的一点是——Java版存在一种实体叫做标记，这类实体自Java版1.17被加入，拥有最少的行为，无重力无碰撞不显示。可以说，它是代替盔甲架的一种极为良好的代替。遗憾的是，基岩版并没有这种实体，但不代表我们不能自制一个！"
+    ],
+    "文本展示实体": [
+      "如何实现文本展示实体？其实非常简单！文本展示实体无非就是能常显示名称的标记实体而已。 在前文的基础上，把行为包SE文件的identifier和minecraft:nameable的内容简单改改就可以了：",
+      "{\"format_version\":\"1.20.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"wiki:text_display\",// <- 改掉ID\"is_experimental\":false,\"is_spawnable\":false,\"is_summonable\":true,\"runtime_identifier\":\"minecraft:snowball\"},\"components\":{\"minecraft:physics\":{\"has_collision\":false,\"has_gravity\":false},\"minecraft:collision_box\":{\"height\":0,\"width\":0},\"minecraft:type_family\":{\"family\":[\"inanimate\",\"marker\"]},\"minecraft:knockback_resistance\":{\"value\":1},\"minecraft:persistent\":{},\"minecraft:health\":{\"value\":1,\"max\":1},\"minecraft:nameable\":{\"always_show\":true}// <- 将名称改为常显示}}}",
+      "如果你要复制上面的代码，记得删除注释。习惯上json文件是不允许注释的（虽然Minecraft有特意的支持）。"
+    ],
+    "至于资源包的部分则更加简单，复制粘贴刚刚的CE文件和渲染控制器文件，把所有的marker字段全部改为text_display就大功告成了！": [
+      "进入游戏后，使用命令/summon wiki:text_display \"这是一个测试！\" ~ ~ ~，你将看到一个悬浮的“这是一个测试！”的文本。虽然做不到像Java版那样固定方向和调整可见性，不过已经可以解决很多问题了，不是吗？"
+    ],
+    "实现自定义商人": [
+      "现在大家都常说“村民是奸商！” 尤其对于新版本更新之后的村民平衡性交易更是无法让部分玩家容忍。如何改变这一切？你需要一个交易表（Tradings）。首先，在你的实体的SE文件中，需要有可令实体交易的组件——minecraft:trade_table：",
+      "\"minecraft:trade_table\":{\"display_name\":\"<文本键名>\",\"new_screen\":true,\"table\":\"<交易表路径，示例：trading/fisherman_trades.json>\",\"convert_trades_economy\":true}",
+      "关于这个组件的具体用法，你可前往微软文档自行查阅。拥有该组件的实体将能够进行交易。"
+    ],
+    "交易表": [
+      "交易表存在于BP/tradings/文件夹中。例如牧师的交易表（BP/tradings/economy_trades/cleric_trades.json）的部分内容如下所示：",
+      "{\"tiers\":[{\"total_exp_required\":0,// 第一级交易所需的交易经验为0\"groups\":[{\"num_to_select\":1,// 在下面的\"trades\"中选择1项出来（当然下面只有1项）\"trades\":[{\"wants\":[{\"item\":\"minecraft:rotten_flesh\",\"quantity\":32,\"price_multiplier\":0.05}],// 以32*(1±0.05)个腐肉买入，最多可以设置两个购买物品\"gives\":[{\"item\":\"minecraft:emerald\",\"quantity\":1}],// 交换1颗绿宝石\"trader_exp\":2,// 增长2点交易经验\"max_uses\":16,// 在下次补货前，最多交易16次\"reward_exp\":true// 交易后生成经验球}]},{\"num_to_select\":1,\"trades\":[{\"wants\":[{\"item\":\"minecraft:emerald\",\"quantity\":1,\"price_multiplier\":0.05}],\"gives\":[{\"item\":\"minecraft:redstone\",\"quantity\":2}],\"trader_exp\":1,\"max_uses\":12,\"reward_exp\":true}]}]},{\"total_exp_required\":10,// 第二级交易所需的交易经验为10\"groups\":[{\"num_to_select\":1,\"trades\":[{\"wants\":[{\"item\":\"minecraft:gold_ingot\",\"quantity\":3,\"price_multiplier\":0.05}],\"gives\":[{\"item\":\"minecraft:emerald\",\"quantity\":1}],\"trader_exp\":10,\"max_uses\":12,\"reward_exp\":true}]},{\"num_to_select\":1,\"trades\":[{\"wants\":[{\"item\":\"minecraft:emerald\",\"quantity\":1,\"price_multiplier\":0.05}],\"gives\":[{\"item\":\"minecraft:dye:4\",\"quantity\":1}],\"trader_exp\":5,\"max_uses\":12,\"reward_exp\":true}]}]},...]}",
+      "在上面的代码中标记了一些注释，你可按需查看。仿照原版的写法，你很快就能写出属于你自己的交易表。"
+    ],
+    "基本NPC的实现": [
+      "为制作出一个可以交互的NPC，第一点需要先创建出一个这样的实体——希望它的动作和长相都像是玩家一样。行为包方面，可以这么写：",
+      "{\"format_version\":\"1.20.0\",\"minecraft:entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"is_experimental\":false,\"is_spawnable\":true,\"is_summonable\":true},\"components\":{\"minecraft:physics\":{},\"minecraft:type_family\":{\"family\":[\"npc\",\"my_custom_npc\"]},\"minecraft:health\":{\"value\":20,\"max\":20},\"minecraft:movement.basic\":{},\"minecraft:movement\":{\"value\":0},\"minecraft:collision_box\":{\"height\":1.8,\"width\":0.6},\"minecraft:knockback_resistance\":{\"value\":1},\"minecraft:persistent\":{},\"minecraft:behavior.look_at_player\":{\"look_distance\":8,\"probability\":0.65}},\"events\":{\"minecraft:entity_spawned\":{\"randomize\":[{\"weight\":1,\"add\":{\"component_groups\":[\"skin_1\"]}},{\"weight\":1,\"add\":{\"component_groups\":[\"skin_2\"]}}]},\"skin_1\":{\"add\":{\"component_groups\":[\"skin_1\"]}},\"skin_2\":{\"add\":{\"component_groups\":[\"skin_2\"]}}},\"component_groups\":{\"skin_1\":{\"minecraft:skin_id\":{\"value\":0}},\"skin_2\":{\"minecraft:skin_id\":{\"value\":1}}}}}",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",\"render_controllers\":[\"controller.render.my_custom_npc\"],\"materials\":{\"default\":\"entity_alphatest\"},\"geometry\":{\"default\":\"geometry.humanoid\"},\"textures\":{\"skin_1\":\"textures/entity/my_custom_npc/skin_1\",\"skin_2\":\"textures/entity/my_custom_npc/skin_2\"},\"spawn_egg\":{\"base_color\":\"#ffffff\",\"overlay_color\":\"#000000\"},\"scripts\":{\"scale\":\"0.9375\"}}}}",
+      "在上述过程中，第一步先定义，第二步指定渲染控制器，然后指定材质、模型、贴图。别忘了还要设置刷怪蛋 （因为设置了\"is_spawnable\": true）和翻译文本。至于scripts里面，设定了NPC将在原有模型的基础上缩放到原来大小的93.75%，但实际的判定大小还是原有的大小。顺带一提，将一些小生物的判定箱放大就可以用这个方法，也就是用\"minecraft:scale\"组件扩大原来的实体，然后在资源包这里用scripts缩小显示。",
+      "渲染控制器就写为下面的形式：",
+      "{\"format_version\":\"1.10.0\",\"render_controllers\":{\"controller.render.my_custom_npc\":{\"geometry\":\"geometry.default\",\"materials\":[{\"*\":\"material.default\"}],\"textures\":[\"array.skins[query.skin_id]\"],\"arrays\":{\"textures\":{\"array.skins\":[\"texture.skin_1\",\"texture.skin_2\"]}}}}}",
+      "这样，就能做到随着minecraft:skin_id的变化，皮肤（或者说实体贴图）也随之而变化的效果。",
+      "第三步就是动画，现在主要需要手臂摆动、看向玩家和移动的动画。需要它移动的时候，只需要设定它可移动、移动速度与寻路特性就可以了。观察玩家、僵尸的CE文件，可以很快发现需要以下几个动画：",
+      "{\"format_version\":\"1.10.0\",\"minecraft:client_entity\":{\"description\":{\"identifier\":\"wiki:my_custom_npc\",...,\"scripts\":{\"scale\":\"0.9375\",\"animate\":[\"bob\",\"look_at_target_default\",\"controller_move\"],\"pre_animation\":[\"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;\"]},\"animations\":{\"bob\":\"animation.player.bob\",\"look_at_target_default\":\"animation.humanoid.look_at_target.default\",\"move\":\"animation.humanoid.move\",\"controller_move\":\"controller.animation.humanoid.move\"}}}}",
+      "其中bob是用于手臂摆动的；look_at_target_default用于看向别的目标，这里就是玩家；move用于实体行走，这里还需要一个pre_animation的脚本用来指定其中需要用到的MoLang变量variable.tcos0，直接复制即可；而controller_move则是负责检测实体行走的动画控制器。上述所有动画都是原版中的现成内容，因此可放心使用。"
+    ],
+    "交互": [
+      "解决了最基本的问题之后，就要开始考虑如何进行交互了。面对这个问题的时候，如果你感到无从下手，有一个办法是很好用的——找原版实例，看什么实体用到了你需要的特性。你可能第一步先想到了牛，那就去找牛是如何实现这样的功能的。不难发现在cow.json的代码中出现了以下内容：",
+      "\"minecraft:interact\":{\"interactions\":[{\"on_interact\":{\"filters\":{// 检测交互的实体是“玩家”且“手持空桶”\"all_of\":[{\"test\":\"is_family\",\"subject\":\"other\",\"value\":\"player\"},{\"test\":\"has_equipment\",\"domain\":\"hand\",\"subject\":\"other\",\"value\":\"bucket:0\"}]}},\"use_item\":true,// 消耗掉交互物品\"transform_to_item\":\"bucket:1\",// 转换为奶桶\"play_sounds\":\"milk\",// 播放在sounds.json中对应于牛的milk的音效短ID\"interact_text\":\"action.interact.milk\"// 对于手机版玩家，可以看到交互按钮，此处为显示的内容}]}",
+      "对上面的组件给出了一些解释。下一步，你可以查看这个组件有没有什么进一步的用法——因为原版的实例虽然丰富，但不一定够用。例如对于交互组件，你就可以前往微软文档查看。"
+    ],
+    "命令的执行": [
+      "现在假如说希望和NPC交互后就让它说一段对话。糟了！这个似乎有点难度——minecraft:interact组件中并不存在能让实体说话的参数！这时候，你可能就要考虑命令了，有很多命令可以做到这一点：/tellraw、/say...",
+      "但无论如何，第一点你要让minecraft:interact执行事件出去：",
+      "\"components\":{...,\"minecraft:interact\":{\"interactions\":[{\"interact_text\":\"action.interact.chat\",\"on_interact\":{\"event\":\"interacted\"}}]}},\"events\":{\"interacted\":{...}},\"component_groups\":{}",
+      "接下来如何执行命令呢？不要紧，在2.1.2中曾介绍过一个用于执行命令的事件：queue_command，可以直接让实体执行命令：",
+      "\"events\":{\"interacted\":{\"queue_command\":{\"command\":\"tellraw @p {\\\"rawtext\\\":[{\\\"translate\\\":\\\"%%s: 你好！是你在跟我说话吗？\\\",\\\"with\\\":{\\\"rawtext\\\":[{\\\"selector\\\":\\\"@s\\\"}]}}]}\"}}}"
+    ],
+    "一定要注意！你把这条命令放在了一个字符串里，为了不让命令中的引号出错，你需要用反斜杠转义。 当然，事实上在这里一般来说更常用的命令是/function，利用函数也可以免去转义的苦恼。然后就大功告成啦！": [
+      "但这个方法只适用于基岩版1.20.60或更高版本（为了不开启实验性玩法），低版本该怎么办呢？你可以考虑BAC，这也是实体执行命令的一个方法，不过需要绕点弯子。你可以这么做——先标记实体处于交互状态，利用动画或动画控制器执行命令后再取消这个标记状态。要想标记实体处于某种状态，那些只负责标记却什么也不做的组件无疑是最好的选择，例如minecraft:is_sheared。那么依据这样的思路，可以使用事件和组件组先添加上这个组件：",
+      "\"events\":{\"interacted\":{\"add\":{\"component_groups\":[\"interacted\"]}},\"interacted_reset\":{\"remove\":{\"component_groups\":[\"interacted\"]}},},\"component_groups\":{\"interacted\":{\"minecraft:is_sheared\":{}}}",
+      "这样，当实体被交互后，就将拥有minecraft:is_sheared组件。接下来，你可以用BAC去检测，首先需要注册你的BAC：",
+      "\"description\":{\"identifier\":\"minecraft:my_custom_npc\",...,\"scripts\":{\"animate\":[\"controller_interacted\"]},\"animations\":{\"controller_interacted\":\"controller.animation.my_custom_npc.interacted\"}}",
+      "然后创建文件BP/animation_controllers/my_custom_npc.animation_controllers.json，写入以下内容：",
+      "{\"format_version\":\"1.10.0\",\"animation_controllers\":{\"controller.animation.my_custom_npc.interacted\":{\"initial_state\":\"default\",\"states\":{\"default\":{\"transitions\":[{\"interacted\":\"query.is_sheared\"}]},\"interacted\":{\"on_entry\":[\"/tellraw @p {\\\"rawtext\\\":[{\\\"translate\\\":\\\"%%s: 你好！是你在跟我说话吗？\\\",\\\"with\\\":{\\\"rawtext\\\":[{\\\"selector\\\":\\\"@s\\\"}]}}]}\",\"@s interacted_reset\"],\"transitions\":[{\"default\":\"!query.is_sheared\"}]}}}}}",
+      "这种执行命令的方式在2.1.4有介绍过。同理，如果你想避免转义，请考虑使用函数。",
+      "基于minecraft:npc的NPC功能",
+      "本段落所述内容不适用于中国版。",
+      "实现NPC最好的方法当然是能实现像原版那样的交互窗口了！而且事实上这也非常容易实现，你只需要一个组件，就是minecraft:npc。但遗憾的是这个组件微软文档似乎没有给出，你需要用Visual Studio Code的Blockception's Minecraft Bedrock Development扩展尝试自动补全。以下是该组件的一个示例用法：",
+      "\"minecraft:npc\":{\"npc_data\":{\"skin_list\":[{\"variant\":0},{\"variant\":1},{\"variant\":2}]}}",
+      "这代表该NPC将具有3个皮肤，使用variant的值分别从0到2变化。如果要实现交互，便可以用/dialogue以及对话窗口等功能实现。"
+    ],
+    "实现可使用物品": [
+      "相信不少读者都接触过一些服务器，对于其中右键使用物品的技术比较感兴趣。使用物品的前提是，该物品应该是右键有效的，原版中所能满足这个条件的物品其实不多，因此通常需要自定义物品。如何让物品在使用时执行一些命令或者功能？本节将围绕此问题进行展开。",
+      "需要注意的是，目前来说在国际版，官方希望开发者们将实现物品使用的功能用官方所提供的脚本系统ScriptAPI（简称SAPI）来实现。但考虑到可能有很多读者并未接触过SAPI这个复杂而庞大的系统，并且SAPI也无法在中国版使用， 因此本节将从BAC入手来实现相关功能。"
+    ],
+    "物品的实现": [
+      "为了使物品是右键有效的，你可以将该物品设置为一个食物，但是要让这个物品的食用时间变得非常非常的长，以至于在事实上玩家无法食用掉这个物品。举个例子，如果要制作一个返回的物品，可以这样定义物品：",
+      "{\"format_version\":\"1.16.0\",\"minecraft:item\":{\"description\":{\"identifier\":\"wiki:back\"},\"components\":{\"minecraft:max_stack_size\":1,\"minecraft:food\":{\"can_always_eat\":true,\"nutrition\":0,\"cooldown_time\":20,\"cooldown_type\":\"back\"},\"minecraft:use_duration\":9999999}}}",
+      "这样该物品将在每次使用后有1秒的冷却（类型为back），使用时长为9999999刻（大约为现实生活6天的使用时长！总不可能有人保持按住鼠标右键6天之久只为了卡个bug吧？）"
+    ],
+    "玩家动画控制器": [
+      "接下来就要从动画控制器入手了。如果你可以想到办法让玩家在使用物品时触发事件，自然也可以使用queue_command。首先先在player.json中注册一个动画控制器，方便用MoLang进行检测：",
+      "{\"format_version\":\"1.18.20\",\"minecraft:entity\":{\"description\":{\"identifier\":\"minecraft:player\",\"is_spawnable\":false,\"is_summonable\":false,\"is_experimental\":false,\"scripts\":{\"animate\":[\"controller_item_using_test\"]},\"animations\":{\"controller_item_using_test\":\"controller.animation.player.item_using_test\"}},...}}",
+      "你可以看到，这里更改的是原版的玩家文件，因此事实上是有这样的一个风险：随着后续的版本更新，会有部分新版的功能不会在此包安装的情况下生效，但这是没有办法的事情，最好的解决办法就是常加维护。然后新建一个动画控制器，这应该并不是一件难事了，写上以下内容：",
+      "{\"format_version\":\"1.10.0\",\"animation_controllers\":{\"controller.animation.player.item_using_test\":{\"states\":{\"default\":{\"transitions\":[{\"is_using_back\":\"query.is_item_name_any('slot.weapon.mainhand', 0, 'wiki:back') && query.is_using_item\"}]},\"is_using_back\":{\"on_entry\":[\"/function back\"],\"transitions\":[{\"default\":\"!query.is_item_name_any('slot.weapon.mainhand', 0, 'wiki:back') || !query.is_using_item\"}]}}}}}",
+      "最核心的部分就是两个MoLang：query.is_item_name_any(location, slot, item)和query.is_using_item。第一个MoLang检测实体在某个槽位是否有某种物品，类似于命令的目标选择器参数hasitem；而第二个MoLang检测实体是否在使用物品。如果将两个条件联立，就变成玩家正在使用手持的物品。在使用状态下，一旦不再手持或者不再使用，那么就回归到default状态，完成内扣。"
+    ],
+    "纯命令实现文本展示实体": [
+      "此段落描述的内容主要在中国版可用。",
+      "本段落包含利用漏洞实现的内容。",
+      "此漏洞未必对所有版本有效。被修复后，下文所述的信息将不再适用。",
+      "请慎重对待。",
+      "中国版的租赁服无法使用附加包，然而聪明的社区却还是利用附加包的原理想到了一个能够实现悬浮文本的方法！下文将给出实现的方法，并以此做出分析。"
+    ],
+    "如何实现？": [
+      "第一步 利用中国版独有的命令/enableedunpc true启用NPC。当然，这里并没有启用NPC的功能，也不允许/summon出一个NPC，它只是允许了NPC的存在。",
+      "第二步 使用/give @s spawn_egg 1 51获得NPC的刷怪蛋。将刷怪蛋命名为自己想要的文本，然后将NPC放在地上。",
+      "第三步 使用循环型命令方块，执行命令/playanimation @e[family=npc] animation.creeper.swelling * 99999，可以看到NPC只剩下一个影子，但其上方的名称仍在显示，达成了悬浮文本的效果。"
+    ],
+    "原理": [
+      "从前面的纯命令法中你能看到的一点是：只是给NPC施加了苦力怕的膨胀动画，就导致NPC“隐身”了。你可能想不到为什么要给NPC施加苦力怕的膨胀动画，也不理解这两者之间有什么关联，但事实上如果你同时开启了Minecraft自带的内容日志，你会发现出现了MoLang报错。结合这条命令来看，背后的原理一定和资源包动画是有关系的。下面是该命令所执行的动画的源代码：",
+      "\"animation.creeper.swelling\":{\"loop\":true,\"bones\":{\"body\":{\"scale\":[\"variable.swelling_scale1\",\"variable.swelling_scale2\",\"variable.swelling_scale1\"]},\"head\":{\"scale\":[\"variable.swelling_scale1\",\"variable.swelling_scale2\",\"variable.swelling_scale1\"]},\"leg0\":{\"scale\":[\"variable.swelling_scale1\",\"variable.swelling_scale2\",\"variable.swelling_scale1\"]},\"leg1\":{\"scale\":[\"variable.swelling_scale1\",\"variable.swelling_scale2\",\"variable.swelling_scale1\"]},\"leg2\":{\"scale\":[\"variable.swelling_scale1\",\"variable.swelling_scale2\",\"variable.swelling_scale1\"]},\"leg3\":{\"scale\":[\"variable.swelling_scale1\",\"variable.swelling_scale2\",\"variable.swelling_scale1\"]}}}",
+      "其中variable.swelling_scale1和variable.swelling_scale2都是专属于苦力怕的代码（在苦力怕的CE文件的脚本中存在这样的定义），然而NPC并没有这样的变量，这是第一点。第二点是，NPC的模型中又恰好拥有这几个骨骼：",
+      "{\"format_version\":\"1.8.0\",\"geometry.npc\":{...,\"bones\":[{\"name\":\"head\",...,\"parent\":\"body\"},{\"name\":\"hat\",...,\"parent\":\"head\"},{\"name\":\"nose\",...},{\"name\":\"body\",...},{\"name\":\"arms\",...,\"parent\":\"body\"},{\"name\":\"leg0\",...},{\"name\":\"leg1\",...},{\"name\":\"leftPants\",...,\"parent\":\"leg1\"},{\"name\":\"rightPants\",...,\"parent\":\"leg0\"},{\"name\":\"jacket\",...,\"parent\":\"body\"}]}}",
+      "这就导致其头部head、身体body、腿部leg0和leg1都在这个动画中得到了错误的变量而失效，因此不能正常显示，进而导致以这四个骨骼为父骨骼的子骨骼也同样无法显示。就这样，这条命令让NPC出现了这种无法显示的错误，造成了“隐身”的假象。"
+    ],
+    "结尾": [
+      "关于自定义实体的教程就到这里，虽然本文写了很多内容，但是有关自定义实体所需要注意的事项却还有很多很多，自定义实体也是Minecraft自定义内容中非常可玩的内容。本文仅供入门，期待这些能对你有所帮助。如果需要更详细的文档，请查阅微软文档的自定义实体文档。"
+    ],
+    "参见": [
+      "Tutorial:自定义方块",
+      "Tutorial:自定义音效",
+      "Tutorial:自定义物品"
+    ]
+  }
+}

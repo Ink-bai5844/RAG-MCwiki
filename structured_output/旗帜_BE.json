@@ -1,0 +1,17 @@
+{
+  "title": "旗帜/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%97%97%E5%B8%9C%2FBE",
+  "structured_content": {
+    "方块实体数据": [
+      "方块实体共通标签，见Template:Nbt inherit/blockentity/source",
+      "CustomName：（文本组件）表示旗帜的自定义名称。旗帜被破坏后所产生的掉落物将保留该名称。",
+      "patterns：（默认为空列表）按照顺序的旗帜图案列表。",
+      "：一个单独的旗帜图案。"
+    ],
+    "*": [
+      "*color：图案的染料颜色。",
+      "*pattern：图案的命名空间ID或详细数据。",
+      "旗帜图案，见Template:Nbt inherit/banner pattern/source"
+    ]
+  }
+}

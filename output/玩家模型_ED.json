@@ -1,0 +1,5 @@
+{
+  "title": "玩家模型/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%8E%A9%E5%AE%B6%E6%A8%A1%E5%9E%8B%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n生物共通标签，见Template:Nbt inherit/living entity/source\ndescription：（文本组件，默认为{\"translate\": \"entity.minecraft.mannequin.label\"}）在玩家的below_name记分板显示位置处显示的文本。\nhide_description：（默认为false）玩家模型是否不显示below_name记分板显示位置处的文本。\n*\n*hidden_layers：不渲染的外层皮肤列表。\n：要隐藏的一个外层皮肤。取值可以为cape（披风）、jacket（外套）、left_sleeve（左袖）、right_sleeve（右袖）、left_pants_leg（左裤腿）、right_pants_leg（右裤腿）和hat（帽子）。\n*\n*immovable：（默认为false）玩家模型是否不能被移动。\n*\n*main_hand：玩家模型的主手，可以为left或right。\n*\n*pose：（默认为standing）玩家模型的姿势。取值可以为standing（站立）、crouching（潜行）、swimming（游泳）、fall_flying（滑翔）和sleeping（睡觉）。\n*\n*profile：玩家模型的档案数据，影响其皮肤渲染。\n游戏档案，见Template:Nbt inherit/resolvable profile/source"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "饰纹陶罐/BE",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%A5%B0%E7%BA%B9%E9%99%B6%E7%BD%90%2FBE",
+  "text": "方块实体数据\n方块实体共通标签，见Template:Nbt inherit/blockentity/source\nitem：（当LootTable不存在时存在并有效）饰纹陶罐存储的物品。\n物品共通标签，见Template:Nbt inherit/itemnoslot/source\nLootTable：决定饰纹陶罐被破坏时，生成战利品所用的战利品表的命名空间ID。此项将在战利品生成之后被删除。\nLootTableSeed：（当LootTable存在时有效）生成战利品使用的种子，0或不输入将使用随机序列。此项将在战利品生成之后被删除。\nsherds：饰纹陶罐各个面的陶片样式，4个面按照后左右前排列。如果此项不存在则全部默认为红砖。\n：陶片的命名空间ID。如果此面没有陶片样式，则此值为minecraft:brick（红砖）。"
+}

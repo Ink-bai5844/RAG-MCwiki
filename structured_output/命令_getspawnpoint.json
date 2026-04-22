@@ -1,0 +1,34 @@
+{
+  "title": "命令/getspawnpoint",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fgetspawnpoint",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。",
+      "本条目所述内容仅适用于教育版。"
+    ],
+    "需要的权限等级": [
+      "3"
+    ],
+    "启用作弊": [
+      "返回指定玩家的出生点坐标。"
+    ],
+    "语法": [
+      "getspawnpoint <player: target>"
+    ],
+    "参数": [
+      "player: target：CommandSelector<Player>",
+      "指定需要获取出生点坐标的玩家。",
+      "必须为玩家名或目标选择器。且要求目标选择器为玩家类型，若不是则在命令执行时会执行失败。"
+    ],
+    "无法解析": [
+      "player: target是非玩家类型的目标选择器"
+    ],
+    "执行失败": [
+      "player: target无法选中至少一个在线的玩家"
+    ],
+    "?": [
+      "加入了/getspawnpoint命令。"
+    ]
+  }
+}

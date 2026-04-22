@@ -1,0 +1,204 @@
+{
+  "title": "挽具",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%8C%BD%E5%85%B7",
+  "structured_content": {
+    "最大堆叠": [
+      "1"
+    ],
+    "物品ID": [
+      "白色挽具：white_harness",
+      "淡灰色挽具：light_gray_harness",
+      "灰色挽具：gray_harness",
+      "黑色挽具：black_harness",
+      "棕色挽具：brown_harness",
+      "红色挽具：red_harness",
+      "橙色挽具：orange_harness",
+      "黄色挽具：yellow_harness",
+      "黄绿色挽具：lime_harness",
+      "绿色挽具：green_harness",
+      "青色挽具：cyan_harness",
+      "淡蓝色挽具：light_blue_harness",
+      "蓝色挽具：blue_harness",
+      "紫色挽具：purple_harness",
+      "品红色挽具：magenta_harness",
+      "粉红色挽具：pink_harness",
+      "挽具（Harness）是一种能够装备在快乐恶魂身上的物品，有16种颜色。"
+    ],
+    "[[|]]": [
+      "可以使用染料来对任意颜色的挽具重新染色。"
+    ],
+    "快乐恶魂": [
+      "装备着挽具的快乐恶魂在死亡时会掉落所装备的挽具。对着装备着挽具且未被骑乘的快乐恶魂使用剪刀也可将挽具移除。"
+    ],
+    "用途": [
+      "参见：快乐恶魂 § 骑乘",
+      "未装备挽具的快乐恶魂会主动跟随半径16格内手持挽具的玩家。",
+      "对快乐恶魂使用挽具或者使用发射器为其装备挽具后，快乐恶魂可以被玩家骑乘。",
+      "挽具被装备在快乐恶魂上时，其镜框会在无乘客时抬起，而在有乘客时落回眼前。"
+    ],
+    "音效": [
+      "Java版："
+    ],
+    "本地化键名": [
+      "挽具：装备"
+    ],
+    "subtitles.entity.happy_ghast.equip": [
+      "挽具：卸下"
+    ],
+    "subtitles.entity.happy_ghast.unequip": [
+      "基岩版："
+    ],
+    "armor.equip_generic": [
+      "1.0",
+      "16"
+    ],
+    "armor.unequip_generic": [
+      "1.0",
+      "16"
+    ],
+    "ID": [
+      "Java版："
+    ],
+    "white_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:white_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.white_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:white_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "light_gray_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:light_gray_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.light_gray_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:light_gray_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "gray_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:gray_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.gray_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:gray_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}",
+      "基岩版：",
+      "参见：基岩版存档格式/物品格式"
+    ],
+    "black_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:black_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.black_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:black_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "brown_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:brown_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.brown_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:brown_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "red_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:red_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.red_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:red_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "orange_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:orange_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.orange_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:orange_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "yellow_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:yellow_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.yellow_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:yellow_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "lime_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:lime_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.lime_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:lime_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "green_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:green_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.green_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:green_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "cyan_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:cyan_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.cyan_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:cyan_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "light_blue_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:light_blue_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.light_blue_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:light_blue_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "blue_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:blue_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.blue_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:blue_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "purple_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:purple_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.purple_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:purple_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "magenta_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:magenta_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.magenta_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:magenta_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "pink_harness": [
+      "{\"minecraft:tooltip_display\":[],\"minecraft:max_stack_size\":1,\"minecraft:use_effects\":[],\"minecraft:equippable\":{\"can_be_sheared\":true,\"equip_sound\":\"minecraft:entity.happy_ghast.equip\",\"equip_on_interact\":true,\"shearing_sound\":\"minecraft:entity.happy_ghast.unequip\",\"asset_id\":\"minecraft:pink_harness\",\"allowed_entities\":\"#minecraft:can_equip_harness\",\"slot\":\"body\"},\"minecraft:swing_animation\":[],\"minecraft:enchantments\":[],\"minecraft:item_name\":{\"translate\":\"item.minecraft.pink_harness\"},\"minecraft:lore\":[],\"minecraft:attribute_modifiers\":[],\"minecraft:rarity\":\"common\",\"minecraft:item_model\":\"minecraft:pink_harness\",\"minecraft:repair_cost\":0,\"minecraft:break_sound\":\"minecraft:entity.item.break\"}"
+    ],
+    "item.minecraft.pink_harness": [
+      "基岩版："
+    ],
+    "物品数据": [
+      "Java版：",
+      "参见：物品格式"
+    ],
+    "物品共通组件": [
+      "minecraft:attribute_modifiers：物品为持有者提供的属性修饰符。",
+      "：一个修饰符。"
+    ],
+    "*": [
+      "*amount：计算中修饰符调整基础值的数值。",
+      "display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。此项也为默认值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。",
+      "*id：（命名空间ID）当前属性修饰符的ID。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。",
+      "slot：（默认为any）一个装备槽位组，指定修饰符的有效槽位。",
+      "*type：（命名空间ID）一个属性的ID，表示当前属性修饰符要修饰的属性。",
+      "minecraft:break_sound：物品耐久度耗尽时播放的声音事件。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "minecraft:enchantments：物品的魔咒数据。",
+      "<魔咒命名空间ID>：（1≤值≤255）一个魔咒和对应魔咒的等级。",
+      "minecraft:item_model：（命名空间ID）为当前物品绑定一个物品模型映射。",
+      "minecraft:item_name：（文本组件）物品的默认名称。",
+      "minecraft:lore：物品的自定义描述信息，共计不允许超过256行。",
+      "：（文本组件）一行描述信息。",
+      "minecraft:max_stack_size：（0≤值≤99）物品的最大堆叠数量。如果此组件不存在，则游戏默认为1。",
+      "minecraft:rarity：物品的基础稀有度。可以为common（常见）、uncommon（少见）、rare（稀有）、epic（史诗）。",
+      "minecraft:repair_cost：（值≥0）物品在铁砧上修理、合并或重命名时在基础经验等级消耗之上额外增加的累积惩罚。",
+      "minecraft:swing_animation：使用此物品攻击时的动画。",
+      "type：（默认为whack）摇摆动画类型。取值只能为none（轻微左右摇摆，第一人称下仅为物品上下略微移动）、whack（向前猛击，剑的默认攻击动画）、stab（矛戳刺攻击，被部分生物持有时还会有独特的手部动画）。",
+      "duration：（默认为6）动画播放的周期。",
+      "minecraft:tooltip_display：物品提示框的显示数据。",
+      "hide_tooltip：（默认为false）物品提示框是否总是隐藏。",
+      "hidden_components：（默认为空列表）一个物品组件ID列表，列表内的所有组件提供的提示框文本都会被隐藏。如果组件不提供提示框文本，则对其没有效果。",
+      "：（命名空间ID）一个物品组件。",
+      "minecraft:use_effects：设置物品被使用时的部分行为。",
+      "can_sprint：（默认为false）玩家在使用此物品时是否可以疾跑。",
+      "interact_vibrations：（默认为true）生物使用此物品时是否会发出item_interact_finish和item_interact_start游戏事件。此值为false或者此组件不存在时使用此物品不会发出这两个游戏事件。",
+      "speed_multiplier：（0≤值≤1，默认为0.2）玩家使用此物品时的速度倍率。",
+      "white_harness,light_gray_harness,gray_harness,black_harness,brown_harness,red_harness,orange_harness...等16个物品所共有的组件",
+      "minecraft:equippable：物品被穿戴的行为。",
+      "allowed_entities：（默认为全部生物）可以穿戴此物品的生物。可以为以#开头的实体类型标签、一个实体类型ID、或以多个实体类型ID组成的字符串列表。",
+      "asset_id：（命名空间ID）物品被穿戴时的装备模型。此值不存在时，若装备在头部则根据物品模型渲染物品，否则什么也不会渲染。",
+      "camera_overlay：（命名空间ID）当此项存在且物品被玩家穿戴时，玩家第一人称视角将渲染指定的纹理遮罩。此遮罩可以使用多个设置此标签的物品互相叠加，每个物品指定的遮罩都会被渲染，且渲染顺序按照主手、副手、头盔、胸甲、护腿、靴子、身体、鞍的顺序依次叠加渲染。当遮罩纹理渲染时，遮罩纹理被视为独立纹理，即无法作为动态纹理或GUI纹理渲染，但可以指定纹理过滤方式。",
+      "can_be_sheared：（默认为false）满足未被骑乘等其他条件时，玩家是否可以对装备此物品的生物进行修剪来卸下此物品。",
+      "damage_on_hurt：（默认为true）生物在受到会影响损害盔甲的伤害时此物品是否会受损而减少耐久。",
+      "equip_on_interact：（默认为false）对生物使用此物品时，是否可以让被交互的生物在允许的空槽位上穿戴此物品。",
+      "equip_sound：（默认为item.armor.equip_generic，默认可装备鞍的生物的鞍除外）物品被穿戴时的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "dispensable：（默认为true）是否可以使用发射器使生物穿戴此物品。如果物品本身有特殊的发射器行为则此项无效。",
+      "shearing_sound：（默认为item.shears.snip）被玩家使用剪刀卸下此物品时播放的声音。",
+      "声音事件，见Template:Nbt inherit/sound event/source",
+      "*slot：物品可被穿戴的装备槽位。",
+      "swappable：（默认为true）物品是否可以直接使用穿戴。"
+    ],
+    "历史": [
+      "2025年3月23日",
+      "Minecraft LIVE – March 2025中展示了挽具。"
+    ],
+    "Java版": [
+      "1.21.6",
+      "25w15a",
+      "加入了挽具。",
+      "25w17a",
+      "现在可以使用发射器为快乐恶魂装备挽具。"
+    ],
+    "基岩版": [
+      "1.21.80"
+    ],
+    "实验性玩法": [
+      "2025 第二次更新",
+      "1.21.80.25",
+      "加入了挽具。",
+      "1.21.90",
+      "1.21.90.20",
+      "挽具不再属于实验性玩法。",
+      "将挽具在创造模式物品栏中的位置移动至鞍旁边。",
+      "现在只要有一个玩家骑乘装备挽具的快乐恶魂，挽具的护目镜就会始终处于落下状态。",
+      "现在不再能使用剪刀卸下有乘客的快乐恶魂所装备的挽具。",
+      "1.21.90.21",
+      "现在可以使用发射器为快乐恶魂装备挽具。"
+    ],
+    "参考": [
+      "MC-296369 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

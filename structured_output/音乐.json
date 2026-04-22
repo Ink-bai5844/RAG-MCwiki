@@ -1,0 +1,382 @@
+{
+  "title": "音乐",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%9F%B3%E4%B9%90",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft中播放的音乐。关于其他用法，请见“音乐（消歧义）”。",
+      "Minecraft包含由C418、Lena Raine、谷冈久美、Aaron Cherof与Amos Roddy创作的音乐（Music）。这些音乐会在游戏的各种位置，包括在主菜单、鸣谢名单、世界中以及使用音乐唱片时播放。"
+    ],
+    "监测": [
+      "本段落所述内容仅适用于Java版。"
+    ],
+    "暂停菜单中位于左上角的音乐弹窗会在音乐播放过程中持续显示": [
+      "当选项“显示音乐弹窗”设置为开且“音乐”分类音量>0时，音乐开始播放时暂停菜单的左上角会显示一个音乐弹窗，以展示正在播放的音乐的作者和曲名。",
+      "只有作为游戏背景音乐播放的音乐才会显示音乐弹窗，通过音乐唱片或命令等其他方式播放的音乐不会拥有弹窗显示。"
+    ],
+    "音乐制作": [
+      "最初，Minecraft的大部分音乐都是由C418制作的。在水域更新以后，其他人也开始为游戏制作音乐。自下界更新以来，Lena Raine、谷冈久美、Samuel Åberg、Aaron Cherof和Amos Roddy为游戏制作了一些曲目。Samuel Åberg还制作了一些新的环境音效。Gareth Coker制作的音乐也被用于4J Studios制作的混搭包以及原主机版的小游戏中。"
+    ],
+    "列表": [
+      "请注意：根据合理使用原则，本Wiki上的Minecraft曲目已被缩减至30秒，但曲目《11》和《Magnetic Circuit》例外。"
+    ],
+    "主世界音乐": [
+      "以下音乐曲目在玩家位于主世界（苍白之园生物群系除外）时播放。在Java版中，这些音乐之间的间隔默认为12000游戏刻（10分） – 24000游戏刻（20分）。"
+    ],
+    "曲目试听": [
+      "calm1.ogg[仅基岩版]",
+      "nether1.ogg[仅基岩版]",
+      "13.ogg",
+      "calm4.ogg"
+    ],
+    "Minecraft": [
+      "calm2.ogg[仅基岩版]"
+    ],
+    "Clark": [
+      "calm3.ogg[仅基岩版]"
+    ],
+    "Sweden": [
+      "creative1.ogg[仅基岩版]"
+    ],
+    "Biome Fest": [
+      "creative2.ogg[仅基岩版]"
+    ],
+    "Blind Spots": [
+      "creative3.ogg[仅基岩版]"
+    ],
+    "Haunt Muskie": [
+      "creative4.ogg[仅基岩版]"
+    ],
+    "Aria Math": [
+      "creative5.ogg[仅基岩版]"
+    ],
+    "Dreiton": [
+      "creative6.ogg[仅基岩版]"
+    ],
+    "Taswell": [
+      "hal1.ogg[仅基岩版]"
+    ],
+    "Subwoofer Lullaby": [
+      "hal2.ogg[仅基岩版]"
+    ],
+    "Living Mice": [
+      "hal3.ogg[仅基岩版]"
+    ],
+    "Haggstrom": [
+      "hal4.ogg[仅基岩版]"
+    ],
+    "Danny": [
+      "nuance1.ogg[仅基岩版]"
+    ],
+    "Key": [
+      "nuance2.ogg[仅基岩版]"
+    ],
+    "Oxygène": [
+      "piano1.ogg[仅基岩版]"
+    ],
+    "Dry Hands": [
+      "piano2.ogg[仅基岩版]"
+    ],
+    "Wet Hands": [
+      "piano3.ogg[仅基岩版]"
+    ],
+    "Lilypad": [
+      "menu1.ogg[仅基岩版]"
+    ],
+    "水下音乐": [
+      "本段落介绍的是玩家在水下时播放的音乐。关于在相同条件下播放的环境音效，请见“环境音效 § 水下环境音效”。",
+      "以下曲目可以在位于任意河流或海洋生物群系的玩家的头部浸入水中时听到。在Java版中，这些音乐之间的间隔默认为12000游戏刻（10分） – 24000游戏刻（20分）。"
+    ],
+    "下界音乐": [
+      "以下音乐曲目在玩家位于下界（诡异森林生物群系除外）时播放。在Java版中，这些音乐之间的间隔默认为12000游戏刻（10分） – 24000游戏刻（20分）。"
+    ],
+    "Concrete Halls": [
+      "nether2.ogg[仅基岩版]"
+    ],
+    "Dead Voxel": [
+      "nether3.ogg[仅基岩版]"
+    ],
+    "Warmth": [
+      "nether4.ogg[仅基岩版]"
+    ],
+    "末地音乐": [
+      "以下音乐曲目在玩家位于末地时播放。在Java版中，music.end音乐的间隔默认为6000游戏刻（5分） – 24000游戏刻（20分），music.dragon无间隔。"
+    ],
+    "胜利屏幕音乐": [
+      "以下音乐曲目会在胜利屏幕和鸣谢与著作权说明屏幕播放。这些音乐无播放间隔。"
+    ],
+    "主菜单音乐": [
+      "以下音乐曲目会在主菜单播放。在Java版中，这些音乐之间的间隔默认为20游戏刻（1秒） – 600游戏刻（30秒）。"
+    ],
+    "Mutation": [
+      "menu2.ogg[仅基岩版]",
+      "moog_city_2.ogg[仅Java版]",
+      "Moog City 2",
+      "menu3.ogg[仅基岩版]",
+      "beginning_2.ogg[仅Java版]",
+      "Beginning 2",
+      "menu4.ogg[仅基岩版]"
+    ],
+    "音乐唱片音乐": [
+      "参见：音乐唱片 § 音乐",
+      "以下音乐曲目会在将音乐唱片放入唱片机时播放。"
+    ],
+    "Ward": [
+      "11.ogg",
+      "11"
+    ],
+    "Otherside": [
+      "5.ogg"
+    ],
+    "lava_chicken.ogg": [
+      "Minecraft: Lava Chicken (Original Game Soundtrack)"
+    ],
+    "已移除音乐": [
+      "以下音乐曲目曾存在于游戏中，但现已被移除。"
+    ],
+    "原始音乐文件": [
+      "音乐曲目存储于以下目录：",
+      "Java版：作为散列资源文件存储在.minecraft/assets/objects。",
+      "基岩版：",
+      "Windows：\\XboxGames\\Minecraft for Windows\\Content\\data\\resource_packs\\vanilla_music\\sounds\\music\\game\\records",
+      "Android：Minecraft_<版本号>_<架构>_<版本码>.apk/assets/assets/resource_packs/vanilla_music/sounds/music/game/records/",
+      "所有的音乐文件都使用.ogg格式。"
+    ],
+    "历史": [
+      "2009年6月4日",
+      "C418在一个游戏测试视频中展示了“calm1.ogg”。"
+    ],
+    "Java版Classic": [
+      "0.0.22a",
+      "加入了“calm1.ogg”“calm2.ogg”和“calm3.ogg”."
+    ],
+    "Java版Indev": [
+      "0.31",
+      "20100104-2258",
+      "出于测试，暂时禁用了音乐。",
+      "20100104-2258",
+      "音乐被重新启用。",
+      "20100207-1101",
+      "现在音乐只有当玩家在Indev房子附近时才会播放，越接近房子音量越大。",
+      "20100212-1622",
+      "再次禁用了音乐。",
+      "20100213",
+      "音乐再次被重新启用。"
+    ],
+    "Java版Infdev": [
+      "20100227-1414",
+      "再次禁用了音乐。"
+    ],
+    "Java版Alpha": [
+      "v1.0.14",
+      "音乐再次被重新启用。",
+      "音乐现在会在世界中随处播放。",
+      "加入了“13.ogg”“cat.ogg”“piano1.ogg”“piano2.ogg”和“piano3.ogg”。",
+      "v1.1.1",
+      "在选项中加入了用于更改游戏音乐音量的滑动条。",
+      "加入了“calm4.ogg”。",
+      "v1.1.2",
+      "移除了“calm4.ogg”。",
+      "v1.2.0"
+    ],
+    "preview": [
+      "加入了“hal1.ogg”“hal2.ogg”“hal3.ogg”“hal4.ogg”“nuance1.ogg”和“nuance2.ogg”。",
+      "v1.2.1",
+      "音乐现在会在多人游戏中播放。"
+    ],
+    "?": [
+      "加入了“blocks.ogg”“chirp.ogg”“far.ogg”“mall.ogg”“mellohi.ogg”“stal.ogg”“strad.ogg”“ward.ogg”“11.ogg”和“where are we now.ogg”。"
+    ],
+    "Java版": [
+      "1.4.4",
+      "1.4.3",
+      "“where are we now.ogg”重命名为“wait.ogg”。",
+      "1.6.1",
+      "13w24a",
+      "音乐现在可以通过资源包进行更改。",
+      "音乐现在被存储在 assets/music。",
+      "1.7.2",
+      "13w36a",
+      "现在可以分别调节唱片机和其他音乐的音量。",
+      "13w42a",
+      "音乐现在被存储在assets/sounds/music。",
+      "13w43a",
+      "被唱片机播放的音乐会被循环播放。",
+      "1.7",
+      "现在暂停游戏时，音乐也会随之暂停播放。",
+      "2013音乐更新",
+      "加入了曲目“boss.ogg”“creative1.ogg”“creative2.ogg”“creative3.ogg”“creative4.ogg”“creative5.ogg”“creative6.ogg”“credits.ogg”“end.ogg”“menu1.ogg”“menu2.ogg”“menu3.ogg”“menu4.ogg”“nether1.ogg”“nether2.ogg”“nether3.ogg”以及“nether4.ogg”。",
+      "1.7.4",
+      "13w49a",
+      "现在音乐文件是散列资源文件，而非直接存储。",
+      "1.8.2",
+      "pre4",
+      "现在胜利屏幕的音乐可以正常播放。",
+      "1.12",
+      "pre6",
+      "现在“credits.ogg”会在显示胜利屏幕或鸣谢与著作权说明屏幕时正常播放。",
+      "1.13",
+      "pre1",
+      "加入了“shuniji.ogg”“dragon_fish.ogg”和“axolotl.ogg”。",
+      "1.16",
+      "20w15a",
+      "加入了“rubedo.ogg”“chrysopoeia.ogg”和“so_below.ogg”。",
+      "20w16a",
+      "加入了“pigstep.ogg”。",
+      "1.18",
+      "21w42a",
+      "加入了“an_ordinary_day.ogg”“comforting_memories.ogg”“floating_dream.ogg”“infinite_amethyst.ogg”“left_to_bloom.ogg”“one_more_day.ogg”“stand_tall.ogg”“wending.ogg”和“otherside.ogg”。",
+      "1.19",
+      "22w16a",
+      "加入了“ancestry.ogg”“aerie.ogg”“firebugs.ogg”“labyrinthine.ogg”和“5.ogg”。",
+      "1.20",
+      "23w17a",
+      "加入了“a_familiar_room.ogg”“bromeliad.ogg”“crescent_dunes.ogg”“echo_in_the_wind.ogg”和“relic.ogg”。",
+      "1.20.3",
+      "23w43a",
+      "将所有通用音乐文件名重命名为它们的曲名。",
+      "1.21",
+      "24w18a",
+      "加入了“deeper.ogg”“eld_unknown.ogg”“endless.ogg”“featherfall.ogg”“komorebi.ogg”“pokopoko.ogg”“puzzlebox.ogg”“watcher.ogg”“yakusoku.ogg”“precipice.ogg”“creator.ogg”和“creator_music_box.ogg”。",
+      "1.21.4",
+      "24w44a",
+      "现在玩家进入苍白之园生物群系时，正在播放的音乐会淡出。",
+      "1.21.6",
+      "25w20a",
+      "加入了“below_and_above.ogg”“broken_clocks.ogg”“fireflies.ogg”“lilypad.ogg”“os_piano.ogg”和“tears.ogg”。",
+      "除音乐唱片曲目外，现在音乐会在游戏暂停时播放。",
+      "除音乐唱片曲目外，音乐播放的间隔现在可以通过选项“音乐播放频率”调整。",
+      "加入了音乐弹窗，需要开启选项“显示音乐弹窗”。",
+      "25w21a",
+      "音乐弹窗现在不会在“音乐”分类音量为0时显示。",
+      "1.21.7",
+      "rc1",
+      "加入了“lava_chicken.ogg”。"
+    ],
+    "携带版": [
+      "1.0.0",
+      "0.17.0.1",
+      "加入了包含“boss.ogg”“calm1.ogg”“calm2.ogg”“calm3.ogg”“creative1.ogg”“creative2.ogg”“creative3.ogg”“creative4.ogg”“creative5.ogg”“creative6.ogg”“credits.ogg”“end.ogg”“hal1.ogg”“hal2.ogg”“hal3.ogg”“hal4.ogg”“menu1.ogg”“menu2.ogg”“menu3.ogg”“menu4.ogg”“nether1.ogg”“nether2.ogg”“nether3.ogg”“nether4.ogg”“nuance1.ogg”“nuance2.ogg”“piano1.ogg”“piano2.ogg”和“piano3.ogg”的可下载音乐，属于市场内容。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.2",
+      "加入了“13.ogg”“cat.ogg”“blocks.ogg”“chirp.ogg”“far.ogg”“mall.ogg”“mellohi.ogg”“stal.ogg”“strad.ogg”“ward.ogg”“11.ogg”和“wait.ogg”，不属于市场内容。",
+      "1.12.0",
+      "1.12.0.2",
+      "现在使用键盘时也能正常播放音乐。",
+      "1.16.0",
+      "1.16.0.57",
+      "向市场的可下载音乐加入了“shuniji.ogg”“dragon_fish.ogg”“axolotl.ogg”“rubedo.ogg”“chrysopoeia.ogg”和“so_below.ogg”。",
+      "加入了“pigstep_master.ogg”，不属于市场内容。",
+      "1.16.100",
+      "1.16.100.51",
+      "玩家在海洋生物群系头部浸入水中时，正在播放的音乐不再会被水下音乐打断。",
+      "1.18.0",
+      "1.18.0.22",
+      "向市场的可下载音乐加入了“an_ordinary_day.ogg”“comforting_memories.ogg”“floating_dream.ogg”“infinite_amethyst.ogg”“left_to_bloom.ogg”“one_more_day.ogg”“stand_tall.ogg”和“wending.ogg”。",
+      "加入了“otherside.ogg”，不属于市场内容。",
+      "1.19.0",
+      "1.19.0.26",
+      "向市场的可下载音乐加入了“ancestry.ogg”“aerie.ogg”“firebugs.ogg”和“labyrinthine.ogg”。",
+      "加入了“5.ogg”，不属于市场内容。",
+      "1.19.10",
+      "1.19.10.20",
+      "iOS/iPadOS平台上的游戏应用现在会自带音乐，不再需要在市场中下载。",
+      "1.19.30",
+      "1.19.30.22",
+      "Android平台上的游戏应用现在会自带音乐，不再需要在市场中下载。"
+    ],
+    "正式版": [
+      "Fire平台上的游戏应用现在会自带音乐，不再需要在市场中下载。",
+      "1.20.0",
+      "1.20.0.22",
+      "加入了“a_familiar_room.ogg”“bromeliad.ogg”“crescent_dunes.ogg”“echo_in_the_wind.ogg”和“relic.ogg”。",
+      "1.21.0",
+      "1.21.0.24",
+      "加入了“deeper.ogg”“eld_unknown.ogg”“endless.ogg”“featherfall.ogg”“komorebi.ogg”“pokopoko.ogg”“puzzlebox.ogg”“watcher.ogg”“yakusoku.ogg”“precipice.ogg”“creator.ogg”和“creator_music_box.ogg”。",
+      "1.21.50",
+      "1.21.50.26",
+      "现在玩家进入苍白之园生物群系时，正在播放的音乐会淡出。",
+      "1.21.90",
+      "1.21.90.25",
+      "加入了“below_and_above.ogg”“broken_clocks.ogg”“fireflies.ogg”“lilypad.ogg”“os_piano.ogg”和“tears.ogg”。",
+      "1.21.93",
+      "加入了“lava_chicken.ogg”。"
+    ],
+    "原主机版": [
+      "Xbox 360",
+      "Xbox 360"
+    ],
+    "Xbox One": [
+      "PS3",
+      "PS4",
+      "PS3",
+      "PS4"
+    ],
+    "Switch": [
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了“calm1.ogg”“calm2.ogg”“calm3.ogg”“hal1.ogg”“hal2.ogg”“hal3.ogg”“hal4.ogg”“nuance1.ogg”“nuance2.ogg”“piano1.ogg”“piano2.ogg”“piano3.ogg”“calm4.ogg”“13.ogg”“cat.ogg”“blocks.ogg”“chirp.ogg”“far.ogg”“mall.ogg”“mellohi.ogg”“stal.ogg”“strad.ogg”“ward.ogg”“11.ogg”和“where are we now.ogg”。",
+      "加入了用于更改游戏音乐音量的滑动条。",
+      "TU9",
+      "加入了“end.ogg”“nether1.ogg”和“nether2.ogg”。",
+      "TU13",
+      "加入了“nether3.ogg”和“nether4.ogg”。",
+      "TU24",
+      "1.07",
+      "加入了“boss.ogg”“creative1.ogg”“creative2.ogg”“creative3.ogg”“creative4.ogg”“creative5.ogg”“creative6.ogg”“credits.ogg”“menu1.ogg”“menu2.ogg”“menu3.ogg”和“menu4.ogg”。",
+      "TU36",
+      "CU25",
+      "1.28",
+      "Patch 7",
+      "加入了Battle小游戏曲目。",
+      "TU41",
+      "CU30",
+      "1.33",
+      "Patch 11",
+      "加入了Tumble小游戏曲目。",
+      "TU51",
+      "CU41",
+      "1.44",
+      "Patch 20",
+      "1.0.3",
+      "加入了Glide小游戏曲目。",
+      "TU1",
+      "CU1",
+      "1.00",
+      "Patch 1",
+      "1.0.1",
+      "加入了“calm1.ogg”“calm2.ogg”“calm3.ogg”“hal1.ogg”“hal2.ogg”“hal3.ogg”“hal4.ogg”“nuance1.ogg”“nuance2.ogg”“piano1.ogg”“piano2.ogg”“piano3.ogg”“calm4.ogg”“13.ogg”“cat.ogg”“blocks.ogg”“chirp.ogg”“far.ogg”“mall.ogg”“mellohi.ogg”“stal.ogg”“strad.ogg”“ward.ogg”“11.ogg”和“where are we now.ogg”。",
+      "加入了用于更改游戏音乐音量的滑动条。",
+      "TU9",
+      "加入了“end.ogg”“nether1.ogg”和“nether2.ogg”。",
+      "TU13",
+      "加入了“nether3.ogg”和“nether4.ogg”。",
+      "TU24",
+      "1.07",
+      "加入了“boss.ogg”“creative1.ogg”“creative2.ogg”“creative3.ogg”“creative4.ogg”“creative5.ogg”“creative6.ogg”“credits.ogg”“menu1.ogg”“menu2.ogg”“menu3.ogg”和“menu4.ogg”。",
+      "TU36",
+      "CU25",
+      "1.28",
+      "Patch 7",
+      "加入了Battle小游戏曲目。",
+      "TU41",
+      "CU30",
+      "1.33",
+      "Patch 11",
+      "加入了Tumble小游戏曲目。",
+      "TU51",
+      "CU41",
+      "1.44",
+      "Patch 20",
+      "1.0.3",
+      "加入了Glide小游戏曲目。"
+    ],
+    "参考": [
+      "The Sound of Scary — Minecraft.net。"
+    ]
+  }
+}

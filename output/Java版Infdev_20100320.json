@@ -1,0 +1,5 @@
+{
+  "title": "Java版Infdev 20100320",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Infdev_20100320",
+  "text": "此条目的标题并非官方正式名称。\n一旦官方名称揭晓，相关名称可能会随时改变。\n此版本目前在Minecraft启动器中不可用。\n虽然此版本存在留档，但却无法从启动器下载到。\nMinecraft Infdev\n版本\nJava版\n发布时间\n2010年3月20日\n下载\n客户端（.json）\nal_version\n1.112\n◄◄Minecraft Indev\nInfdev 20100618►►\n◄Infdev 20100316\nInfdev 20100321►\nMinecraft Infdev的一个版本发布于2010年3月20日，重新加入了树木，并修复了一些漏洞。\n新内容\n世界生成\n树木\n被重新加入游戏。\n团簇\n被重新加入游戏。\n矿石无视高度生成。\n煤矿石现在非常普遍，铁矿石和金矿石较普遍，钻石矿石很稀有。\n更改\n方块\n熔炉\n现在如果被重新放在同一个位置，其中的物品会复原。\n箱子\n现在如果被重新放在同一个位置，其中的物品会复原。\n游戏内容\n常规\n现在玩家会携带64个钻石斧、64个钻石锹、64个钻石镐、64个火把、64个打火石、64个TNT、64个玻璃、64个弓和64个箭生成。\n修复\n修复了4个漏洞\n火现在能被正确扑灭。\n打开容器（例如箱子和熔炉）不再使游戏崩溃。\n“减少崩溃漏洞”。\n苦力怕和TNT现在能正常爆炸了。\n参考\nInfdev update: trees and furnaces（存档） — The Word of Notch，2010年3月20日。\n导航"
+}

@@ -1,0 +1,1283 @@
+{
+  "title": "Java版数据值/扁平化前/方块ID",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC%2F%E6%89%81%E5%B9%B3%E5%8C%96%E5%89%8D%2F%E6%96%B9%E5%9D%97ID",
+  "structured_content": {
+    "默认分类": [
+      "这些数据值适用于物品栏中的物品和世界中的方块。"
+    ],
+    "方块": [
+      "0",
+      "minecraft:air",
+      "16",
+      "10",
+      "minecraft:coal_ore",
+      "32",
+      "20",
+      "minecraft:deadbush",
+      "48",
+      "30",
+      "minecraft:mossy_cobblestone",
+      "64",
+      "40",
+      "minecraft:wooden_Door",
+      "80",
+      "50",
+      "minecraft:snow_block",
+      "96",
+      "60",
+      "minecraft:trapdoor",
+      "112",
+      "70",
+      "minecraft:nether_bricks",
+      "128",
+      "80",
+      "minecraft:sandstone_stairs",
+      "144",
+      "90",
+      "minecraft:skull",
+      "160",
+      "A0",
+      "minecraft:stained_glass_pane",
+      "176",
+      "B0",
+      "minecraft:standing_banner",
+      "192",
+      "C0",
+      "minecraft:acacia_fence",
+      "208",
+      "D0",
+      "minecraft:grass_path",
+      "224",
+      "E0",
+      "minecraft:lime_shulker_box",
+      "240",
+      "F0",
+      "minecraft:lime_glazed_terracotta"
+    ],
+    "空气": [
+      "1",
+      "minecraft:stone"
+    ],
+    "石头 SB": [
+      "2",
+      "minecraft:grass"
+    ],
+    "草方块": [
+      "3",
+      "minecraft:dirt"
+    ],
+    "泥土 SB": [
+      "4",
+      "minecraft:cobblestone"
+    ],
+    "圆石": [
+      "5",
+      "minecraft:planks"
+    ],
+    "木板 SB": [
+      "6",
+      "minecraft:sapling"
+    ],
+    "树苗 SB": [
+      "7",
+      "minecraft:bedrock"
+    ],
+    "基岩": [
+      "8",
+      "minecraft:flowing_water"
+    ],
+    "水 S": [
+      "9",
+      "minecraft:water"
+    ],
+    "静态水 S": [
+      "10"
+    ],
+    "A": [
+      "minecraft:flowing_lava"
+    ],
+    "熔岩 S": [
+      "11"
+    ],
+    "B": [
+      "minecraft:lava"
+    ],
+    "静态熔岩 S": [
+      "12"
+    ],
+    "C": [
+      "minecraft:sand"
+    ],
+    "沙子 SB": [
+      "13"
+    ],
+    "D": [
+      "minecraft:gravel"
+    ],
+    "沙砾": [
+      "14"
+    ],
+    "E": [
+      "minecraft:gold_ore"
+    ],
+    "金矿石": [
+      "15"
+    ],
+    "F": [
+      "minecraft:iron_ore"
+    ],
+    "煤矿石": [
+      "17",
+      "11",
+      "minecraft:log"
+    ],
+    "木头 SB": [
+      "18",
+      "12",
+      "minecraft:leaves"
+    ],
+    "树叶 SB": [
+      "19",
+      "13",
+      "minecraft:sponge"
+    ],
+    "海绵 SB": [
+      "20",
+      "14",
+      "minecraft:glass"
+    ],
+    "玻璃": [
+      "21",
+      "15",
+      "minecraft:lapis_ore"
+    ],
+    "青金石矿石": [
+      "22",
+      "16",
+      "minecraft:lapis_block"
+    ],
+    "青金石块": [
+      "23",
+      "17",
+      "minecraft:dispenser"
+    ],
+    "发射器 SE": [
+      "24",
+      "18",
+      "minecraft:sandstone"
+    ],
+    "砂岩 SB": [
+      "25",
+      "19",
+      "minecraft:noteblock"
+    ],
+    "音符盒 E": [
+      "26",
+      "1A",
+      "minecraft:bed"
+    ],
+    "床 IS": [
+      "27",
+      "1B",
+      "minecraft:golden_rail"
+    ],
+    "动力铁轨 S": [
+      "28",
+      "1C",
+      "minecraft:detector_rail"
+    ],
+    "探测铁轨 S": [
+      "29",
+      "1D",
+      "minecraft:sticky_piston"
+    ],
+    "黏性活塞 S": [
+      "30",
+      "1E",
+      "minecraft:web"
+    ],
+    "蜘蛛网": [
+      "31",
+      "1F",
+      "minecraft:tallgrass"
+    ],
+    "枯萎的灌木": [
+      "33",
+      "21",
+      "minecraft:piston"
+    ],
+    "活塞 S": [
+      "34",
+      "22",
+      "minecraft:piston_head"
+    ],
+    "活塞头 S": [
+      "35",
+      "23",
+      "minecraft:wool"
+    ],
+    "羊毛 SB": [
+      "36",
+      "24",
+      "minecraft:piston_extension"
+    ],
+    "移动的活塞臂 E": [
+      "37",
+      "25",
+      "minecraft:yellow_flower"
+    ],
+    "蒲公英": [
+      "38",
+      "26",
+      "minecraft:red_flower"
+    ],
+    "虞美人 SB": [
+      "39",
+      "27",
+      "minecraft:brown_mushroom"
+    ],
+    "棕色蘑菇": [
+      "40",
+      "28",
+      "minecraft:red_mushroom"
+    ],
+    "红色蘑菇": [
+      "41",
+      "29",
+      "minecraft:gold_block"
+    ],
+    "金块": [
+      "42",
+      "2A",
+      "minecraft:iron_block"
+    ],
+    "铁块": [
+      "43",
+      "2B",
+      "minecraft:double_stone_slab"
+    ],
+    "双石台阶SB": [
+      "44",
+      "2C",
+      "minecraft:stone_slab"
+    ],
+    "石头台阶 SB": [
+      "45",
+      "2D",
+      "minecraft:brick_block"
+    ],
+    "红砖块": [
+      "46",
+      "2E",
+      "minecraft:tnt"
+    ],
+    "TNT": [
+      "47",
+      "2F",
+      "minecraft:bookshelf"
+    ],
+    "苔石": [
+      "49",
+      "31",
+      "minecraft:obsidian"
+    ],
+    "黑曜石": [
+      "50",
+      "32",
+      "minecraft:torch"
+    ],
+    "火把 S": [
+      "51",
+      "33",
+      "minecraft:fire"
+    ],
+    "火 S": [
+      "52",
+      "34",
+      "minecraft:mob_spawner"
+    ],
+    "刷怪笼 E": [
+      "53",
+      "35",
+      "minecraft:oak_stairs"
+    ],
+    "橡木楼梯 S": [
+      "54",
+      "36",
+      "minecraft:chest"
+    ],
+    "箱子 SE": [
+      "55",
+      "37",
+      "minecraft:redstone_wire"
+    ],
+    "红石线 IS": [
+      "56",
+      "38",
+      "minecraft:diamond_ore"
+    ],
+    "钻石矿石": [
+      "57",
+      "39",
+      "minecraft:diamond_block"
+    ],
+    "钻石块": [
+      "58",
+      "3A",
+      "minecraft:crafting_table"
+    ],
+    "工作台": [
+      "59",
+      "3B",
+      "minecraft:wheat"
+    ],
+    "小麦 IS": [
+      "60",
+      "3C",
+      "minecraft:farmland"
+    ],
+    "耕地 S": [
+      "61",
+      "3D",
+      "minecraft:furnace"
+    ],
+    "熔炉 SE": [
+      "62",
+      "3E",
+      "minecraft:lit_furnace"
+    ],
+    "燃烧的熔炉 SE": [
+      "63",
+      "3F",
+      "minecraft:standing_sign"
+    ],
+    "橡木门 IS": [
+      "65",
+      "41",
+      "minecraft:ladder"
+    ],
+    "梯子 S": [
+      "66",
+      "42",
+      "minecraft:rail"
+    ],
+    "铁轨 S": [
+      "67",
+      "43",
+      "minecraft:stone_stairs"
+    ],
+    "圆石楼梯 S": [
+      "68",
+      "44",
+      "minecraft:wall_sign"
+    ],
+    "墙上的告示牌 ISE": [
+      "69",
+      "45",
+      "minecraft:lever"
+    ],
+    "拉杆 S": [
+      "70",
+      "46",
+      "minecraft:stone_pressure_plate"
+    ],
+    "石头压力板 S": [
+      "71",
+      "47",
+      "minecraft:iron_door"
+    ],
+    "铁门 IS": [
+      "72",
+      "48",
+      "minecraft:wooden_pressure_plate"
+    ],
+    "木质压力板 S": [
+      "73",
+      "49",
+      "minecraft:redstone_ore"
+    ],
+    "红石矿石": [
+      "74",
+      "4A",
+      "minecraft:lit_redstone_ore"
+    ],
+    "发光的红石矿石": [
+      "75",
+      "4B",
+      "minecraft:unlit_redstone_torch"
+    ],
+    "红石火把 （未开启） S": [
+      "76",
+      "4C",
+      "minecraft:redstone_torch"
+    ],
+    "红石火把 （已开启） S": [
+      "77",
+      "4D",
+      "minecraft:stone_button"
+    ],
+    "石头按钮 S": [
+      "78",
+      "4E",
+      "minecraft:snow_layer"
+    ],
+    "雪 SB": [
+      "79",
+      "4F",
+      "minecraft:ice"
+    ],
+    "雪块": [
+      "81",
+      "51",
+      "minecraft:cactus"
+    ],
+    "仙人掌 S": [
+      "82",
+      "52",
+      "minecraft:clay"
+    ],
+    "黏土": [
+      "83",
+      "53",
+      "minecraft:reeds"
+    ],
+    "甘蔗 IS": [
+      "84",
+      "54",
+      "minecraft:jukebox"
+    ],
+    "唱片机 SE": [
+      "85",
+      "55",
+      "minecraft:fence"
+    ],
+    "橡木栅栏": [
+      "86",
+      "56",
+      "minecraft:pumpkin"
+    ],
+    "南瓜 S": [
+      "87",
+      "57",
+      "minecraft:netherrack"
+    ],
+    "下界岩": [
+      "88",
+      "58",
+      "minecraft:soul_sand"
+    ],
+    "灵魂沙": [
+      "89",
+      "59",
+      "minecraft:glowstone"
+    ],
+    "荧石": [
+      "90",
+      "5A",
+      "minecraft:portal"
+    ],
+    "下界传送门方块": [
+      "91",
+      "5B",
+      "minecraft:lit_pumpkin"
+    ],
+    "南瓜灯 S": [
+      "92",
+      "5C",
+      "minecraft:cake"
+    ],
+    "蛋糕 IS": [
+      "93",
+      "5D",
+      "minecraft:unpowered_repeater"
+    ],
+    "红石中继器 IS": [
+      "94",
+      "5E",
+      "minecraft:powered_repeater"
+    ],
+    "激活的红石中继器IS": [
+      "95",
+      "5F",
+      "minecraft:stained_glass"
+    ],
+    "活板门 S": [
+      "97",
+      "61",
+      "minecraft:monster_egg"
+    ],
+    "怪物蛋SB": [
+      "98",
+      "62",
+      "minecraft:stonebrick"
+    ],
+    "石砖 SB": [
+      "99",
+      "63",
+      "minecraft:brown_mushroom_block"
+    ],
+    "棕色巨型蘑菇 S": [
+      "100",
+      "64",
+      "minecraft:red_mushroom_block"
+    ],
+    "红色巨型蘑菇 S": [
+      "101",
+      "65",
+      "minecraft:iron_bars"
+    ],
+    "铁栏杆": [
+      "102",
+      "66",
+      "minecraft:glass_pane"
+    ],
+    "玻璃板": [
+      "103",
+      "67",
+      "minecraft:melon_block"
+    ],
+    "西瓜": [
+      "104",
+      "68",
+      "minecraft:pumpkin_stem"
+    ],
+    "南瓜茎 S": [
+      "105",
+      "69",
+      "minecraft:melon_stem"
+    ],
+    "西瓜茎 S": [
+      "106",
+      "6A",
+      "minecraft:vine"
+    ],
+    "藤蔓 S": [
+      "107",
+      "6B",
+      "minecraft:fence_gate"
+    ],
+    "栅栏门 S": [
+      "108",
+      "6C",
+      "minecraft:brick_stairs"
+    ],
+    "红砖楼梯 S": [
+      "109",
+      "6D",
+      "minecraft:stone_brick_stairs"
+    ],
+    "石砖楼梯 S": [
+      "110",
+      "6E",
+      "minecraft:mycelium"
+    ],
+    "菌丝体": [
+      "111",
+      "6F",
+      "minecraft:waterlily"
+    ],
+    "下界砖块": [
+      "113",
+      "71",
+      "minecraft:nether_brick_fence"
+    ],
+    "下界砖栅栏": [
+      "114",
+      "72",
+      "minecraft:nether_brick_stairs"
+    ],
+    "下界砖楼梯 S": [
+      "115",
+      "73",
+      "minecraft:nether_wart"
+    ],
+    "下界疣 IS": [
+      "116",
+      "74",
+      "minecraft:enchanting_table"
+    ],
+    "附魔台 E": [
+      "117",
+      "75",
+      "minecraft:brewing_stand"
+    ],
+    "酿造台 ISE": [
+      "118",
+      "76",
+      "minecraft:cauldron"
+    ],
+    "炼药锅 IS": [
+      "119",
+      "77",
+      "minecraft:end_portal"
+    ],
+    "末地传送门 E": [
+      "120",
+      "78",
+      "minecraft:end_portal_frame"
+    ],
+    "末地传送门框架 S": [
+      "121",
+      "79",
+      "minecraft:end_stone"
+    ],
+    "末地石": [
+      "122",
+      "7A",
+      "minecraft:dragon_egg"
+    ],
+    "龙蛋": [
+      "123",
+      "7B",
+      "minecraft:redstone_lamp"
+    ],
+    "红石灯 （未开启）": [
+      "124",
+      "7C",
+      "minecraft:lit_redstone_lamp"
+    ],
+    "红石灯 （已开启）": [
+      "125",
+      "7D",
+      "minecraft:double_wooden_slab"
+    ],
+    "双木台阶SB": [
+      "126",
+      "7E",
+      "minecraft:wooden_slab"
+    ],
+    "木质台阶 SB": [
+      "127",
+      "7F",
+      "minecraft:cocoa"
+    ],
+    "砂岩楼梯 S": [
+      "129",
+      "81",
+      "minecraft:emerald_ore"
+    ],
+    "绿宝石矿石": [
+      "130",
+      "82",
+      "minecraft:ender_chest"
+    ],
+    "末影箱 SE": [
+      "131",
+      "83",
+      "minecraft:tripwire_hook"
+    ],
+    "绊线钩 S": [
+      "132",
+      "84",
+      "minecraft:tripwire"
+    ],
+    "绊线IS": [
+      "133",
+      "85",
+      "minecraft:emerald_block"
+    ],
+    "绿宝石块": [
+      "134",
+      "86",
+      "minecraft:spruce_stairs"
+    ],
+    "云杉木楼梯 S": [
+      "135",
+      "87",
+      "minecraft:birch_stairs"
+    ],
+    "白桦木楼梯 S": [
+      "136",
+      "88",
+      "minecraft:jungle_stairs"
+    ],
+    "丛林木楼梯 S": [
+      "137",
+      "89",
+      "minecraft:command_block"
+    ],
+    "命令方块 E": [
+      "138",
+      "8A",
+      "minecraft:beacon"
+    ],
+    "信标 E": [
+      "139",
+      "8B",
+      "minecraft:cobblestone_wall"
+    ],
+    "圆石墙 SB": [
+      "140",
+      "8C",
+      "minecraft:flower_pot"
+    ],
+    "花盆 ISE": [
+      "141",
+      "8D",
+      "minecraft:carrots"
+    ],
+    "胡萝卜 IS": [
+      "142",
+      "8E",
+      "minecraft:potatoes"
+    ],
+    "马铃薯 IS": [
+      "143",
+      "8F",
+      "minecraft:wooden_button"
+    ],
+    "生物头颅 ISE": [
+      "145",
+      "91",
+      "minecraft:anvil"
+    ],
+    "铁砧 SB": [
+      "146",
+      "92",
+      "minecraft:trapped_chest"
+    ],
+    "陷阱箱 SE": [
+      "147",
+      "93",
+      "minecraft:light_weighted_pressure_plate"
+    ],
+    "轻质测重压力板 S": [
+      "148",
+      "94",
+      "minecraft:heavy_weighted_pressure_plate"
+    ],
+    "重质测重压力板 S": [
+      "149",
+      "95",
+      "minecraft:unpowered_comparator"
+    ],
+    "红石比较器 IS": [
+      "150",
+      "96",
+      "minecraft:powered_comparator"
+    ],
+    "红石比较器 （已弃用） S": [
+      "151",
+      "97",
+      "minecraft:daylight_detector"
+    ],
+    "阳光探测器 E": [
+      "152",
+      "98",
+      "minecraft:redstone_block"
+    ],
+    "红石块": [
+      "153",
+      "99",
+      "minecraft:quartz_ore"
+    ],
+    "下界石英矿石": [
+      "154",
+      "9A",
+      "minecraft:hopper"
+    ],
+    "漏斗 SE": [
+      "155",
+      "9B",
+      "minecraft:quartz_block"
+    ],
+    "石英块 SB": [
+      "156",
+      "9C",
+      "minecraft:quartz_stairs"
+    ],
+    "石英楼梯 S": [
+      "157",
+      "9D",
+      "minecraft:activator_rail"
+    ],
+    "激活铁轨 S": [
+      "158",
+      "9E",
+      "minecraft:dropper"
+    ],
+    "投掷器 SE": [
+      "159",
+      "9F",
+      "minecraft:stained_hardened_clay"
+    ],
+    "染色玻璃板 SB": [
+      "161",
+      "A1",
+      "minecraft:leaves2"
+    ],
+    "树叶 （金合欢木、深色橡木） SB": [
+      "162",
+      "A2",
+      "minecraft:log2"
+    ],
+    "木头 （金合欢木、深色橡木） SB": [
+      "163",
+      "A3",
+      "minecraft:acacia_stairs"
+    ],
+    "金合欢木楼梯 S": [
+      "164",
+      "A4",
+      "minecraft:dark_oak_stairs"
+    ],
+    "深色橡木楼梯 S": [
+      "165",
+      "A5",
+      "minecraft:slime"
+    ],
+    "黏液块": [
+      "166",
+      "A6",
+      "minecraft:barrier"
+    ],
+    "屏障": [
+      "167",
+      "A7",
+      "minecraft:iron_trapdoor"
+    ],
+    "铁活板门 S": [
+      "168",
+      "A8",
+      "minecraft:prismarine"
+    ],
+    "海晶石 SB": [
+      "169",
+      "A9",
+      "minecraft:sea_lantern"
+    ],
+    "海晶灯": [
+      "170"
+    ],
+    "AA": [
+      "minecraft:hay_block"
+    ],
+    "干草捆 S": [
+      "171"
+    ],
+    "AB": [
+      "minecraft:carpet"
+    ],
+    "地毯 SB": [
+      "172"
+    ],
+    "AC": [
+      "minecraft:hardened_clay"
+    ],
+    "陶瓦": [
+      "173"
+    ],
+    "AD": [
+      "minecraft:coal_block"
+    ],
+    "煤炭块": [
+      "174"
+    ],
+    "AE": [
+      "minecraft:packed_ice"
+    ],
+    "浮冰": [
+      "175"
+    ],
+    "AF": [
+      "minecraft:double_plant"
+    ],
+    "站立的旗帜 ISE": [
+      "177",
+      "B1",
+      "minecraft:wall_banner"
+    ],
+    "墙上的旗帜 ISE": [
+      "178",
+      "B2",
+      "minecraft:daylight_detector_inverted"
+    ],
+    "反向阳光探测器 E": [
+      "179",
+      "B3",
+      "minecraft:red_sandstone"
+    ],
+    "红砂岩 SB": [
+      "180",
+      "B4",
+      "minecraft:red_sandstone_stairs"
+    ],
+    "红砂岩楼梯 S": [
+      "181",
+      "B5",
+      "minecraft:double_stone_slab2"
+    ],
+    "双红砂岩台阶 S": [
+      "182",
+      "B6",
+      "minecraft:stone_slab2"
+    ],
+    "红砂岩台阶 S": [
+      "183",
+      "B7",
+      "minecraft:spruce_fence_gate"
+    ],
+    "云杉木栅栏门": [
+      "184",
+      "B8",
+      "minecraft:birch_fence_gate"
+    ],
+    "白桦木栅栏门": [
+      "185",
+      "B9",
+      "minecraft:jungle_fence_gate"
+    ],
+    "丛林木栅栏门": [
+      "186"
+    ],
+    "BA": [
+      "minecraft:dark_oak_fence_gate"
+    ],
+    "深色橡木栅栏门": [
+      "187"
+    ],
+    "BB": [
+      "minecraft:acacia_fence_gate"
+    ],
+    "金合欢木栅栏门": [
+      "188"
+    ],
+    "BC": [
+      "minecraft:spruce_fence"
+    ],
+    "云杉木栅栏": [
+      "189"
+    ],
+    "BD": [
+      "minecraft:birch_fence"
+    ],
+    "白桦木栅栏": [
+      "190"
+    ],
+    "BE": [
+      "minecraft:jungle_fence"
+    ],
+    "丛林木栅栏": [
+      "191"
+    ],
+    "BF": [
+      "minecraft:dark_oak_fence"
+    ],
+    "金合欢木栅栏": [
+      "193",
+      "C1",
+      "minecraft:spruce_door"
+    ],
+    "云杉木门 IS": [
+      "194",
+      "C2",
+      "minecraft:birch_door"
+    ],
+    "白桦木门 IS": [
+      "195",
+      "C3",
+      "minecraft:jungle_door"
+    ],
+    "丛林木门 IS": [
+      "196",
+      "C4",
+      "minecraft:acacia_door"
+    ],
+    "金合欢木门 IS": [
+      "197",
+      "C5",
+      "minecraft:dark_oak_door"
+    ],
+    "深色橡木门 IS": [
+      "198",
+      "C6",
+      "minecraft:end_rod"
+    ],
+    "末地烛": [
+      "199",
+      "C7",
+      "minecraft:chorus_plant"
+    ],
+    "紫颂植株": [
+      "200",
+      "C8",
+      "minecraft:chorus_flower"
+    ],
+    "紫颂花": [
+      "201",
+      "C9",
+      "minecraft:purpur_block"
+    ],
+    "紫珀块": [
+      "202"
+    ],
+    "CA": [
+      "minecraft:purpur_pillar"
+    ],
+    "紫珀柱": [
+      "203"
+    ],
+    "CB": [
+      "minecraft:purpur_stairs"
+    ],
+    "紫珀楼梯": [
+      "204"
+    ],
+    "CC": [
+      "minecraft:purpur_double_slab"
+    ],
+    "双紫珀台阶": [
+      "205"
+    ],
+    "CD": [
+      "minecraft:purpur_slab"
+    ],
+    "紫珀台阶": [
+      "206"
+    ],
+    "CE": [
+      "minecraft:end_bricks"
+    ],
+    "末地石砖": [
+      "207"
+    ],
+    "CF": [
+      "minecraft:beetroots"
+    ],
+    "草径": [
+      "209",
+      "D1",
+      "minecraft:end_gateway"
+    ],
+    "末地折跃门": [
+      "210",
+      "D2",
+      "minecraft:repeating_command_block"
+    ],
+    "循环型命令方块 E": [
+      "211",
+      "D3",
+      "minecraft:chain_command_block"
+    ],
+    "连锁型命令方块 E": [
+      "212",
+      "D4",
+      "minecraft:frosted_ice"
+    ],
+    "霜冰 S": [
+      "213",
+      "D5",
+      "minecraft:magma"
+    ],
+    "岩浆块": [
+      "214",
+      "D6",
+      "minecraft:nether_wart_block"
+    ],
+    "下界疣块": [
+      "215",
+      "D7",
+      "minecraft:red_nether_bricks"
+    ],
+    "红色下界砖块": [
+      "216",
+      "D8",
+      "minecraft:bone_block"
+    ],
+    "骨块": [
+      "217",
+      "D9",
+      "minecraft:structure_void"
+    ],
+    "结构空位": [
+      "218"
+    ],
+    "DA": [
+      "minecraft:observer"
+    ],
+    "侦测器": [
+      "219"
+    ],
+    "DB": [
+      "minecraft:white_shulker_box"
+    ],
+    "白色潜影盒": [
+      "220"
+    ],
+    "DC": [
+      "minecraft:orange_shulker_box"
+    ],
+    "橙色潜影盒": [
+      "221"
+    ],
+    "DD": [
+      "minecraft:magenta_shulker_box"
+    ],
+    "品红色潜影盒": [
+      "222"
+    ],
+    "DE": [
+      "minecraft:light_blue_shulker_box"
+    ],
+    "淡蓝色潜影盒": [
+      "223"
+    ],
+    "DF": [
+      "minecraft:yellow_shulker_box"
+    ],
+    "黄绿色潜影盒": [
+      "225",
+      "E1",
+      "minecraft:pink_shulker_box"
+    ],
+    "粉红色潜影盒": [
+      "226",
+      "E2",
+      "minecraft:gray_shulker_box"
+    ],
+    "灰色潜影盒": [
+      "227",
+      "E3",
+      "minecraft:silver_shulker_Box"
+    ],
+    "淡灰色潜影盒": [
+      "228",
+      "E4",
+      "minecraft:cyan_shulker_box"
+    ],
+    "青色潜影盒": [
+      "229",
+      "E5",
+      "minecraft:purple_shulker_box"
+    ],
+    "紫色潜影盒": [
+      "230",
+      "E6",
+      "minecraft:blue_shulker_box"
+    ],
+    "蓝色潜影盒": [
+      "231",
+      "E7",
+      "minecraft:brown_shulker_box"
+    ],
+    "棕色潜影盒": [
+      "232",
+      "E8",
+      "minecraft:green_shulker_box"
+    ],
+    "绿色潜影盒": [
+      "233",
+      "E9",
+      "minecraft:red_shulker_box"
+    ],
+    "红色潜影盒": [
+      "234"
+    ],
+    "EA": [
+      "minecraft:black_shulker_box"
+    ],
+    "黑色潜影盒": [
+      "235"
+    ],
+    "EB": [
+      "minecraft:white_glazed_terracotta"
+    ],
+    "白色带釉陶瓦": [
+      "236"
+    ],
+    "EC": [
+      "minecraft:orange_glazed_terracotta"
+    ],
+    "橙色带釉陶瓦": [
+      "237"
+    ],
+    "ED": [
+      "minecraft:magenta_glazed_terracotta"
+    ],
+    "品红色带釉陶瓦": [
+      "238"
+    ],
+    "EE": [
+      "minecraft:light_blue_glazed_terracotta"
+    ],
+    "淡蓝色带釉陶瓦": [
+      "239"
+    ],
+    "EF": [
+      "minecraft:yellow_glazed_terracotta"
+    ],
+    "黄绿色带釉陶瓦": [
+      "241",
+      "F1",
+      "minecraft:pink_glazed_terracotta"
+    ],
+    "粉红色带釉陶瓦": [
+      "242",
+      "F2",
+      "minecraft:gray_glazed_terracotta"
+    ],
+    "灰色带釉陶瓦": [
+      "243",
+      "F3",
+      "minecraft:silver_glazed_terracotta"
+    ],
+    "淡灰色带釉陶瓦": [
+      "244",
+      "F4",
+      "minecraft:cyan_glazed_terracotta"
+    ],
+    "青色带釉陶瓦": [
+      "245",
+      "F5",
+      "minecraft:purple_glazed_terracotta"
+    ],
+    "紫色带釉陶瓦": [
+      "246",
+      "F6",
+      "minecraft:blue_glazed_terracotta"
+    ],
+    "蓝色带釉陶瓦": [
+      "247",
+      "F7",
+      "minecraft:brown_glazed_terracotta"
+    ],
+    "棕色带釉陶瓦": [
+      "248",
+      "F8",
+      "minecraft:green_glazed_terracotta"
+    ],
+    "绿色带釉陶瓦": [
+      "249",
+      "F9",
+      "minecraft:red_glazed_terracotta"
+    ],
+    "红色带釉陶瓦": [
+      "250"
+    ],
+    "FA": [
+      "minecraft:black_glazed_terracotta"
+    ],
+    "黑色带釉陶瓦": [
+      "251"
+    ],
+    "FB": [
+      "minecraft:concrete"
+    ],
+    "混凝土 S": [
+      "252"
+    ],
+    "FC": [
+      "minecraft:concrete_powder"
+    ],
+    "混凝土粉末 S": [
+      "253"
+    ],
+    "（未使用）": [
+      "254",
+      "255"
+    ],
+    "FF": [
+      "minecraft:structure_block"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "物品堆叠组件/container",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fcontainer",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "container 物品堆叠组件": [
+      "：一个物品槽位上的物品堆叠数据。"
+    ],
+    "*": [
+      "*item：在此位置的物品堆叠数据。",
+      "物品共通标签，见Template:Nbt inherit/itemnoslot/source",
+      "*slot：（0≤值≤255）物品堆叠所在的槽位。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "三叉戟/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E4%B8%89%E5%8F%89%E6%88%9F%2FED",
+  "text": "实体数据\n实体共通标签，见Template:Nbt inherit/entity/source\n弹射物共通标签，见Template:Nbt inherit/projectile/source\n箭类弹射物共通标签，见Template:Nbt inherit/arrow/source\n*\n*DealtDamage：表示此三叉戟是否已经攻击过实体或落地超过4游戏刻（0.2秒）。如果此值为true，则此三叉戟不会与其他实体进行碰撞检测，三叉戟忠诚魔咒在这时才会生效。"
+}

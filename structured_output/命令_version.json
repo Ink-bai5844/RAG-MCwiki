@@ -1,0 +1,32 @@
+{
+  "title": "命令/version",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fversion",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是命令。关于其他用法，请见“版本”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "需要的权限等级": [
+      "0（仅集成服务端）",
+      "2（非集成服务端）"
+    ],
+    "无": [
+      "输出游戏版本信息。"
+    ],
+    "返回信息示例": [
+      "Server version info: id = 25w15a name = 25w15a data = 4422 series = main protocol = 1073742069 (0x400000f5) build_time = Tue Apr 08 20:14:00 CST 2025 pack_resource = 56 pack_data = 72 stable = no",
+      "以上各字段的具体含义参见版本信息文件格式。"
+    ],
+    "结果": [
+      "永远执行成功。"
+    ],
+    "Java版": [
+      "1.21.6",
+      "25w15a",
+      "加入了命令/version。"
+    ],
+    "执行成功": [
+      "1"
+    ]
+  }
+}

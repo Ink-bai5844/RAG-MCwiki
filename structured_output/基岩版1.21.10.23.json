@@ -1,0 +1,145 @@
+{
+  "title": "基岩版1.21.10.23",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.21.10.23",
+  "structured_content": {
+    "默认分类": [
+      "1.21.10.23"
+    ],
+    "服务端版本": [
+      "1.21.10.23"
+    ],
+    "版本码": [
+      "Android：",
+      "952101023（armeabi-v7a，34）",
+      "962101023（x86，34）",
+      "972101023（arm64-v8a，34）",
+      "982101023（x86_64，34）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android, PlayStation - 2024年6月12日"
+    ],
+    "测试版归属": [
+      "1.21.20"
+    ],
+    "协议版本": [
+      "705",
+      "◄◄1.21.3",
+      "1.21.21►►",
+      "◄1.21.10.22",
+      "1.21.10.24►",
+      "beta 1.21.10.23（ChromeOS/Android）、Preview 1.21.10.23（Xbox/Windows/iOS/iPadOS/PlayStation）是基岩版1.21.20的第4个测试版，发布于2024年6月12日，修复了一些漏洞。"
+    ],
+    "方块": [
+      "minecraft:custom_components不再需要Beta API实验性内容。",
+      "minecraft:entity_fall_on不再需要Beta API实验性内容。",
+      "minecraft:tick不再需要Beta API实验性内容。",
+      "铜门现在会按预期地仅在使用石镐或更好的工具挖掘时掉落。",
+      "在创造模式下挖掘门的上半部分时，门不再会掉落。",
+      "现在平滑石英台阶的纹理恢复正常了。（MCPE-182104）",
+      "为刷怪笼加入了破坏、摔落、挖掘、跳跃、着陆、放置和行走的音效。"
+    ],
+    "门": [
+      "创造模式的玩家破坏门的上半部分时，门不再会掉落。",
+      "在未满足挖掘工具品质需求的情况下，生存模式的玩家破坏门的上半部分时，门不再会掉落。"
+    ],
+    "刷怪笼": [
+      "加入了独有音效，不再使用石头的音效。"
+    ],
+    "/spreadplayers": [
+      "加入了maxHeight: value参数。",
+      "用于控制随机传送的最大高度。"
+    ],
+    "设置": [
+      "将“移除材质限制”选项重命名为“使用推荐的材质限制”。"
+    ],
+    "附加包和脚本引擎": [
+      "修复了粒子效果生命周期事件时间线不会按预期触发事件的问题。"
+    ],
+    "API": [
+      "修复了重载物品自定义组件时会错误出现警告的问题。"
+    ],
+    "EntityTameMountComponent": [
+      "将tameToPlayer方法和tamedToPlayerId、​tamedToPlayer、​isTamed和​isTamedToPlayer只读属性由beta移动至1.12.0。",
+      "将System上的runJob方法由beta开放至1.12.0。",
+      "将System上的clearJob方法由beta开放至1.12.0。",
+      "将System上的waitTicks方法由beta开放至1.12.0。"
+    ],
+    "@minecraft/server-ui": [
+      "发布了1.2.0版本。",
+      "加入了新的beta版本1.3.0。",
+      "将ModalFormData上的submitButton方法由beta开放至1.2.0。"
+    ],
+    "Molang": [
+      "修复了Molang内容日志错误不包含已记录消息中的表达式的问题。"
+    ],
+    "基岩版编辑器": [
+      "现在插入符的颜色与内置UI主题中的字体默认颜色相匹配。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“测试版 API”子选项后才可使用。"
+    ],
+    "WorldInitializeBeforeEvent": [
+      "将blockTypeRegistry属性重命名为blockComponentRegistry。",
+      "将BlockComponentRegistry由beta移动至1.12.0。",
+      "将BlockCustomComponentAlreadyRegisteredError由beta移动至1.12.0。",
+      "将BlockCustomComponentReloadVersionError由beta移动至1.12.0。",
+      "将BlockCustomComponentReloadNewEventError由beta移动至1.12.0。",
+      "将BlockCustomComponentReloadNewComponentError由beta移动至1.12.0。",
+      "将BlockCustomComponent由beta移动至1.12.0。",
+      "将BlockComponentStepOnEvent由beta移动至1.12.0。",
+      "将BlockComponentTickEvent由beta移动至1.12.0。",
+      "将BlockComponentRandomTickEvent由beta移动至1.12.0。",
+      "将BlockComponentEntityFallOnEvent由beta移动至1.12.0。",
+      "将BlockComponentStepOffEvent由beta移动至1.12.0。",
+      "将BlockComponentPlayerInteractEvent由beta移动至1.12.0。",
+      "将BlockComponentPlayerPlaceBeforeEvent由beta移动至1.12.0。",
+      "将BlockComponentPlayerDestroyEvent由beta移动至1.12.0。",
+      "将BlockComponentOnPlaceEvent由beta移动至1.12.0。",
+      "加入了用于自定义方块组件注册的4种新的错误类的类型。"
+    ],
+    "ScriptBlockCustomComponentAlreadyRegisteredError": [
+      "当注册自定义方块组件，该组件已注册时。"
+    ],
+    "ScriptBlockCustomComponentReloadVersionError": [
+      "当使用不同脚本版本在重载之间注册自定义方块组件时。"
+    ],
+    "ScriptBlockCustomComponentReloadNewEventError": [
+      "当注册自定义方块组件，该组件实现了新的事件时。"
+    ],
+    "ScriptBlockCustomComponentReloadNewComponentError": [
+      "当在重载之间注册自定义方块组件时。",
+      "为脚本方块API（测试版）加入了Block::getMapColor绑定。"
+    ],
+    "聊天": [
+      "修复了使用“复制坐标”功能将玩家坐标复制到剪贴板时不会出现正确的消息的漏洞。（MCPE-182146）"
+    ],
+    "命令": [
+      "修复了/spreadplayers命令可能会导致目标被传送至预期位置下方一格处的漏洞。"
+    ],
+    "生物": [
+      "现在狼、北极熊和熊猫受到如火、熔岩和冰冻等环境来源的伤害时会惊慌并尝试避开危险。"
+    ],
+    "风弹": [
+      "风弹现在会在所有地形上一致地生效。",
+      "潜行不再会影响风弹造成的击退或跳跃高度。",
+      "现在玩家垂直向下使用风弹时会被向上击退约6格，而不是约2.5格。",
+      "现在使用风弹时会更少地出现延迟相关的摔落伤害。",
+      "调整了风弹的发射位置，以使其不再离玩家太远。"
+    ],
+    "用户界面": [
+      "修复了暂停屏幕上的Realms故事按钮的未读标记不会进行更新的漏洞。",
+      "现在安全区域屏幕位置会在关闭菜单时正确保存。",
+      "安全区域文本在鼠标悬停在其上时不再会被遮挡。",
+      "现在即使值被更改为0.1，安全区域屏幕滑块也会正确保存。",
+      "现在安全区域屏幕位置滑块会根据尺寸滑块重置和重新调整尺寸。",
+      "在iOS平台上将安全区域屏幕设置为最小值时不再会出现错误。",
+      "修复了市场物品描述中的标签会垂直显示的问题。",
+      "修复了丢失的纹理会在市场的我的内容部分中出现的问题。（MCPE-181964）",
+      "现在游戏提示出现和消失在屏幕中时会显示“淡入”和“淡出”动画。",
+      "将Marketplace Pass的渐变效果替换为纯灰色，以提升阅读体验。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.21.10.23 — Minecraft Feedback，2024年6月12日。"
+    ]
+  }
+}

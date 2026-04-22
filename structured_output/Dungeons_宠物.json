@@ -1,0 +1,361 @@
+{
+  "title": "Dungeons:宠物",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E5%AE%A0%E7%89%A9",
+  "structured_content": {
+    "默认分类": [
+      "本条目介绍的是Minecraft Dungeons中的生物。关于愚人节版本25w14craftmine的生物，请见“宠物（25w14craftmine）”。",
+      "宠物（Pet）是Minecraft Dungeons中的纯装饰性生物。宠物无法帮助玩家战斗，不会受到任何伤害，亦不能作为目标被玩家或敌对生物攻击，因此不会死亡（只有少数情况会直接死亡，如敌对生物的失误高伤害攻击）。宠物免疫负面效果和绝大部分增益效果，少数增益效果如治愈光辉等可以作用于宠物，但是不会有实质的效果。玩家可以通过购买DLC、直接购买终极版或终极版DLC捆绑包、参与季节挑战和赛季等方式获得并装备宠物。"
+    ],
+    "鸡宝宝": [
+      "不要把鸡宝宝带上战场——除非他真的很可爱。但很幸运，这一只就是。"
+    ],
+    "鹦鹉": [
+      "一只鹦鹉是你周游世界的完美旅伴。你别乱说脏话就行。"
+    ],
+    "山羊宝宝": [
+      "山羊宝宝是萌翻天和铁头功的完美结合。"
+    ],
+    "恶魂宝宝": [
+      "恶魂宝宝是目前最好的宠物。只需要注意下突如其来的火球。"
+    ],
+    "猪宝宝": [
+      "这个欢呼声是来自你还是这只可爱的小猪呢？它是如此可爱，甚至可以把它吃掉！但你不应该这么做。"
+    ],
+    "末影螨": [
+      "这种友好的生物离家万里，但确实是很有魅力的旅伴。"
+    ],
+    "僵尸猪宝宝": [
+      "区区僵尸化，不应成为你与这只小猪间的友谊隔阂！再给可爱的小猪一次机会吧（也许忽略掉气味就好了）。",
+      "免费赠送给所有参加过骇人深秋活动的玩家。"
+    ],
+    "幼年哞花": [
+      "将鲜黄化作阳光，布满灿烂的花朵，没理由不喜欢这些美丽的牛。",
+      "通过两周年活动获得。"
+    ],
+    "不知为何，这只幻翼十分友好，甚至可以在白天自由飞翔！": [
+      "参与过骨寒深秋活动的象征。",
+      "赛季一：云上攀登"
+    ],
+    "狐狸": [
+      "一个调皮的小家伙，做好了大冒险的准备。",
+      "云上攀登（赛季一）免费奖励5级。"
+    ],
+    "鸭子": [
+      "这只好奇心满满的水禽会跟着你，如影随形。",
+      "云上攀登（赛季一）免费奖励25级。"
+    ],
+    "金鹦鹉": [
+      "这只金鹦鹉美得令人窒息。不过，它不是用真金做的。",
+      "云上攀登（赛季一）免费奖励45级。"
+    ],
+    "乌鸦": [
+      "一只喜怒无常的鸟，很受那群多愁善感诗人的欢迎。",
+      "云上攀登（赛季一）进阶奖励1级。"
+    ],
+    "斑点猪宝宝": [
+      "就在你觉得猪宝宝不会再变得更可爱的时候，长着斑点的猪宝宝带来惊喜了。",
+      "云上攀登（赛季一）进阶奖励11级。"
+    ],
+    "黑色山羊宝宝": [
+      "黑色山羊宝宝看起来有点恐怖，不过它是你忠诚的朋友，与你风雨同舟。",
+      "云上攀登（赛季一）进阶奖励19级。"
+    ],
+    "红宝石色海龟宝宝": [
+      "红宝石色海龟宝宝是一种罕见的生物，可爱到让人融化。",
+      "云上攀登（赛季一）进阶奖励29级。"
+    ],
+    "鱿鱼宝宝": [
+      "还有什么能比超小只的鱿鱼宝宝更珍贵呢？没有，绝对没有。",
+      "云上攀登（赛季一）进阶奖励39级。"
+    ],
+    "谁拥有游戏里最棒的宠物？只要得到大嘴鸟，这个荣誉就非你莫属了！": [
+      "云上攀登（赛季一）进阶奖励49级。",
+      "赛季二：辉光暗夜"
+    ],
+    "岩石小兽": [
+      "岩石小兽是旧石块的一部分。",
+      "辉光暗夜（赛季二）免费奖励4级。"
+    ],
+    "红石小兽": [
+      "红石小兽可能不像巨兽版那样具有冲击力，但客观上更可爱。这只是一个事实。",
+      "辉光暗夜（赛季二）免费奖励25级。"
+    ],
+    "发光小兽": [
+      "发光小兽在最黑暗的洞穴中也很难走丢，这要归功于独特的发光。",
+      "辉光暗夜（赛季二）免费奖励45级。"
+    ],
+    "野生美西螈": [
+      "野生美西螈似乎并不介意远离称做家的繁茂洞穴。",
+      "辉光暗夜（赛季二）进阶奖励1级。"
+    ],
+    "迷你恶物": [
+      "一个可爱的小迷你恶物，带有如花般的气息。",
+      "辉光暗夜（赛季二）进阶奖励19级。"
+    ],
+    "美西螈（白化）": [
+      "当你想起美西螈时会联想到什么？这只粉红色的宠物恰恰是最经典的。",
+      "辉光暗夜（赛季二）进阶奖励29级。"
+    ],
+    "如果你正在找一种不介意稍许弄脏的宠物，鼹鼠就是你的专属！": [
+      "辉光暗夜（赛季二）进阶奖励39级。"
+    ],
+    "金美西螈": [
+      "金美西螈虽比不上非金的更可爱，但也不逊色。",
+      "辉光暗夜（赛季二）进阶奖励49级。"
+    ],
+    "发光迷你恶物散发着可爱的能量！": [
+      "辉光暗夜（赛季二）进阶奖励50级。",
+      "赛季三：动物狂欢"
+    ],
+    "这只看起来有些笨拙的小猪全身黑不溜秋的，但是反而最会争宠！": [
+      "动物狂欢（赛季三）免费奖励8级。"
+    ],
+    "一个新的小朋友，陪伴你穿越广漠的沙丘！": [
+      "动物狂欢（赛季三）免费奖励13级。"
+    ],
+    "企鹅摇摆走，摆遍全世界！": [
+      "动物狂欢（赛季三）免费奖励18级。"
+    ],
+    "这只小熊猫能把人萌得如痴如醉，可别只顾着看它，连步子都迈不动了！": [
+      "动物狂欢（赛季三）免费奖励23级。"
+    ],
+    "奶牛宝宝": [
+      "可爱到你几乎要尖叫。差不多。",
+      "动物狂欢（赛季三）免费奖励28级。"
+    ],
+    "花猫": [
+      "有其尊严与优雅的花猫，总会抬着头四处巡礼。",
+      "动物狂欢（赛季三）免费奖励33级。"
+    ],
+    "华丽鸡": [
+      "不要在与这只华丽的鸟组队时看起来第二好而感到害怕。",
+      "动物狂欢（赛季三）免费奖励38级。"
+    ],
+    "这只自负而不失可爱的企鹅彰显贵气！": [
+      "动物狂欢（赛季三）免费奖励43级。"
+    ],
+    "花斑猪宝宝": [
+      "为有眼光的养猪人提供的独特色彩。",
+      "动物狂欢（赛季三）进阶奖励1级。"
+    ],
+    "这只惹人喜爱的猫是旅途中的一个好伙伴！": [
+      "动物狂欢（赛季三）进阶奖励5级。"
+    ],
+    "特点是灰色斑点的毛，这只毛茸茸的小家伙已然准备好与你的冒险！": [
+      "动物狂欢（赛季三）进阶奖励10级。"
+    ],
+    "为什么咯菇要过马路？当然是到路另一边……和其他菇菇咕咕咕了！": [
+      "动物狂欢（赛季三）进阶奖励15级。"
+    ],
+    "看起来如此甜美，简直可以放进贝果吃干抹净！呃，还是不要这么做比较好吧……？": [
+      "动物狂欢（赛季三）进阶奖励20级。"
+    ],
+    "灰色并不意味无聊！": [
+      "动物狂欢（赛季三）进阶奖励21级。"
+    ],
+    "红虎斑猫": [
+      "无论你走到哪里，这只猫总有一身温暖的毛与你相伴。",
+      "动物狂欢（赛季三）进阶奖励25级。"
+    ],
+    "羊毛牛宝宝": [
+      "毛茸茸的，真想一下子抱下去！还好不难，毕竟它还只是个宝宝。",
+      "动物狂欢（赛季三）进阶奖励30级。"
+    ],
+    "浣熊": [
+      "这个隐蔽的威胁会偷走的唯一东西是你的心灵。",
+      "动物狂欢（赛季三）进阶奖励35级。"
+    ],
+    "黑貂": [
+      "没有什么能阻止你对这可爱又狡猾的生物的喜爱。",
+      "动物狂欢（赛季三）进阶奖励40级。"
+    ],
+    "别捏鼻子了！你根本没鼻子！": [
+      "动物狂欢（赛季三）进阶奖励45级。"
+    ],
+    "每个人都喜欢这只像猪一样的刺猬！小心地拥抱它！": [
+      "动物狂欢（赛季三）进阶奖励50级。"
+    ],
+    "行走": [
+      "P3_sfx_mob_babyPigStep",
+      "P7_sfx_item_babyZombiePigStep",
+      "A22_sfx_pet_babyMooBloomStep",
+      "sfx_pet_Spooky2_Phantom_Step",
+      "赛季一：云上攀登",
+      "S1_sfx_pet_fox_step",
+      "S1_sfx_pet_duck_step",
+      "S1_sfx_pet_raven_step",
+      "S1_sfx_pet_twilightGoat_step",
+      "S1_sfx_pet_rubyTurtle_step",
+      "S1_sfx_pet_glowSquid_step",
+      "S2_sfx_MiniRedstoneMonstrosity_Step",
+      "S2_sfx_MiniAbomination_Step",
+      "S3_sfx_pet_pig_step",
+      "S3_sfx_pet_rabbit_step",
+      "S3_sfx_pet_emperorPenguin_step",
+      "S3_sfx_pet_redPanda_step",
+      "S3_sfx_pet_dairyCow_step",
+      "S3_sfx_pet_cat_step",
+      "S3_sfx_pet_chicken_step",
+      "S3_sfx_pet_royalPenguin_step",
+      "S3_sfx_pet_cluckshroom_step",
+      "S3_sfx_pet_weasel_step",
+      "S3_sfx_pet_woolyCow_step",
+      "S3_sfx_pet_raccoon_step",
+      "S3_sfx_pet_skunk_step",
+      "S3_sfx_pet_hedgehog_step"
+    ],
+    "受伤": [
+      "D5_sfx_mob_turtleBabyIdle",
+      "D6_sfx_mob_endermiteHurt",
+      "P7_sfx_item_babyZombiePigHurt"
+    ],
+    "空闲": [
+      "P3_sfx_mob_babyPigIdle",
+      "P4 sfx mob ghastIdle",
+      "D5_sfx_mob_turtleBabyIdle",
+      "D6_sfx_mob_endermiteIdle",
+      "P7_sfx_item_babyZombiePigIdle",
+      "A22_sfx_pet_babyMooBloomIdle",
+      "sfx_pet_Spooky2_Phantom_Idle",
+      "S1_sfx_pet_fox_idle",
+      "S1_sfx_pet_duck_idle",
+      "S1_sfx_pet_goldenParrot_idle",
+      "S1_sfx_pet_raven_idle",
+      "S1_sfx_pet_spottedBabyPig_idle",
+      "S1_sfx_pet_twilightGoat_idle",
+      "S1_sfx_pet_rubyTurtle_idle",
+      "S1_sfx_pet_glowSquid_idle",
+      "S1_sfx_pet_toucan_idle",
+      "赛季二：辉光暗夜",
+      "S2_sfx_MiniStoneMonstrosity_Idle",
+      "S2_sfx_MiniRedstoneMonstrosity_Idle",
+      "S2_sfx_GlowingMinistrosity_Idle",
+      "S2_sfx_WildAxolotl_Idle",
+      "S2_sfx_MiniAbomination_Idle",
+      "S2_sfx_LeucisticAxolotl_Idle",
+      "S2_sfx_Mole_Idle",
+      "行走1",
+      "S2_sfx_Mole_Step1",
+      "行走2",
+      "S2_sfx_Mole_Step2",
+      "S1_sfx_pet_axolotl_idle",
+      "S2_sfx_MiniUVAbomination_Idle",
+      "赛季三：动物狂欢"
+    ],
+    "死亡": [
+      "P3_sfx_mob_babyPigDeath",
+      "P4 sfx mob ghastDeath",
+      "D5_sfx_mob_turtleBaby_Death",
+      "D6_sfx_mob_endermiteDeath",
+      "P7_sfx_item_babyZombiePigDeath"
+    ],
+    "出现": [
+      "D4_sfx_mob_babyGhastNoveltyIn"
+    ],
+    "消失": [
+      "D4_sfx_mob_babyGhastNoveltyOut"
+    ],
+    "游泳": [
+      "D5_sfx_mob_turtleBabySwim"
+    ],
+    "特殊动作": [
+      "D5_sfx_mob_turtleBabyNovelty"
+    ],
+    "Flip": [
+      "D5_sfx_mob_turtleBabyFlip"
+    ],
+    "Front Flip": [
+      "D5_sfx_mob_turtleBabyFrontFlip"
+    ],
+    "装备": [
+      "P7_sfx_item_babyZombiePigEquip",
+      "A22_sfx_pet_babyMooBloomEquip",
+      "sfx_pet_Spooky2_Phantom_Equip",
+      "S1_sfx_pet_fox_equip",
+      "S1_sfx_pet_duck_equip",
+      "S1_sfx_pet_goldenParrot_equip",
+      "S1_sfx_pet_raven_equip",
+      "S1_sfx_pet_spottedBabyPig_equip",
+      "S1_sfx_pet_twilightGoat_equip",
+      "S1_sfx_pet_rubyTurtle_equip",
+      "S1_sfx_pet_glowSquid_equip",
+      "S1_sfx_pet_toucan_equip",
+      "S2_sfx_MiniStoneMonstrosity_Equip",
+      "S2_sfx_MiniRedstoneMonstrosity_Equip",
+      "S2_sfx_GlowingMinistrosity_Equip",
+      "S2_sfx_WildAxolotl_Equip",
+      "S2_sfx_MiniAbomination_Equip",
+      "S2_sfx_LeucisticAxolotl_Equip",
+      "S2_sfx_Mole_Equip",
+      "S1_sfx_pet_axolotl_equip",
+      "S2_sfx_MiniUVAbomination_Equip",
+      "S3_sfx_pet_rabbit_equip",
+      "S3_sfx_pet_emperorPenguin_equip",
+      "S3_sfx_pet_redPanda_equip",
+      "S3_sfx_pet_babyDairyCow_equip",
+      "S3_sfx_pet_cat_equip",
+      "S3_sfx_pet_fancyChicken_equip",
+      "S3_sfx_pet_royalPenguin_equip",
+      "S3_sfx_pet_cluckshroom_equip",
+      "S3_sfx_pet_weasel_equip",
+      "S3_sfx_pet_raccoon_equip",
+      "S3_sfx_pet_skunk_equip"
+    ],
+    "乐声": [
+      "S3_sfx_pet_pig_vocal",
+      "S3_sfx_pet_rabbit_vocal",
+      "S3_sfx_pet_emperorPenguin_vocal",
+      "S3_sfx_pet_redPanda_vocal",
+      "S3_sfx_pet_babyDairyCow_vocal",
+      "S3_sfx_pet_cat_vocal",
+      "S3_sfx_pet_fancyChicken_vocal",
+      "S3_sfx_pet_RoyalPenguin_vocal",
+      "S3_sfx_pet_cluckshroom_vocals",
+      "S3_sfx_pet_weasel_vocal",
+      "S3_sfx_pet_babyWoolyCow_vocal",
+      "S3_sfx_pet_raccoon_vocal",
+      "S3_sfx_pet_skunk_vocal",
+      "S3_sfx_pet_hedgehog_vocal"
+    ],
+    "翻滚": [
+      "S3_sfx_pet_hedgehog_roll"
+    ],
+    "Minecraft Dungeons": [
+      "1.1.1.0",
+      "加入了鸡宝宝。",
+      "1.3.2.0",
+      "加入了鹦鹉。",
+      "1.4.3.0",
+      "加入了北极狐。",
+      "1.7.2.0",
+      "加入了山羊宝宝。",
+      "1.8.0.0",
+      "加入了猪宝宝。",
+      "加入了恶魂宝宝。",
+      "1.10.2.0",
+      "加入了末影螨。此时它还没有描述。",
+      "1.11.1.0",
+      "加入了僵尸猪宝宝。",
+      "为末影螨添加描述。",
+      "1.12.0.0",
+      "加入了狐狸、鸭子、金鹦鹉、乌鸦、斑点猪宝宝、黑色山羊宝宝、红宝石色海龟宝宝、鱿鱼宝宝和大嘴鸟。",
+      "1.14.1.0",
+      "加入了岩石小兽、红石小兽、发光小兽、野生美西螈、迷你恶物、美西螈（白化）、鼹鼠、金美西螈和发光迷你恶物。",
+      "1.15.0.0",
+      "加入了幼年哞花。",
+      "1.16.2.0",
+      "加入了黑猪宝宝、沙漠兔子、帝企鹅、小熊猫、奶牛宝宝、花猫、华丽鸡、皇家企鹅、花斑猪宝宝、棕虎斑猫、背心兔子、咯菇、肉桂貂、灰虎斑猫、红虎斑猫、羊毛牛宝宝、浣熊、黑貂、臭鼬、刺猬和幻翼宠魔。"
+    ],
+    "你知道吗": [
+      "虽然宠物不会受到任何伤害或死亡，但大部分宠物都有隐藏的生命值，默认基础生命值为一百万。",
+      "猪宝宝的纹理和文件被错误地命名为鸡宝宝。",
+      "幻翼宠魔有未使用的自发光纹理。"
+    ],
+    "幻翼宠魔飞翔": [
+      "赛季一：云上攀登"
+    ],
+    "参考": [
+      "MCD-7387 — “猪宝宝的文件和纹理被错误地命名为鸡宝宝” — 漏洞状态为“不予修复”。"
+    ]
+  }
+}

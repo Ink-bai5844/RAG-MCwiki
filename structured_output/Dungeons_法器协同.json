@@ -1,0 +1,28 @@
+{
+  "title": "Dungeons:法器协同",
+  "source_url": "https://zh.minecraft.wiki/w/Dungeons%3A%E6%B3%95%E5%99%A8%E5%8D%8F%E5%90%8C",
+  "structured_content": {
+    "DamageSynergy": [
+      "每当你使用法器时，你的下一次攻击会造成额外伤害。"
+    ],
+    "——魔咒描述": [
+      "法器协同（Artifact Synergy）是Minecraft Dungeons中的魔咒。作用为每次使用法器后会提升下一次攻击的伤害。伤害加成随着等级提升而提高。"
+    ],
+    "I": [
+      "造成40%额外伤害",
+      "1附魔点数"
+    ],
+    "II": [
+      "造成60%额外伤害",
+      "2附魔点数"
+    ],
+    "III": [
+      "造成80%额外伤害",
+      "3附魔点数"
+    ],
+    "Minecraft Dungeons": [
+      "1.8.0.0",
+      "加入了法器协同。"
+    ]
+  }
+}

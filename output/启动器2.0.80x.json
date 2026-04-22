@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.0.80x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.0.80x",
+  "text": "2.0.80x\n程序类型\nMinecraft启动器\n发布时间\n2017年2月9日\n◄◄2.0.79x\n2.0.83x►►\n2.0.806（Windows）或2.0.805（macOS）是一次启动器更新，发布于2017年2月9日，修复了一些漏洞。\n修复\nMCL-1274 - 可以以访客身份登录。\nMCL-1922 - 不常见的Unicode字符会被显示为问号。\nMCL-2182 - 启动器不更新Minecraft版本的下载状态。\nMCL-2444 - 更改配置的操作在事件调度线程上执行。\nMCL-2743 - 启动器打开位置过低（超出屏幕）。\nMCL-2761 - 配置编辑器中，过长的JVM参数会跨显示屏显示。\nMCL-2820 - 配置名称无长度限制，导致按钮会出现在启动游戏按钮的下方。\nMCL-2872 - 尝试选择配置时或Mojang服务器离线/无网络连接时会有很严重的卡顿，或者卡死。\nMCL-3262 - 离线模式下不能切换用户。\nMCL-3306 - 按WindowsAlt + 空格快捷键会使启动器变成白屏。\nMCL-3338 - 可见性选项有一个复选框。\nMCL-3559 - 游戏输出滚动错误。\nMCL-3750 - 启动器创建目录失败时没有提示。\nMCL-3962 - 启动器输出Completely ignored arguments - [--nativeLauncherVersion, ###]。\nMCL-4165 - 按开始游戏按钮后不禁用操作配置文件的选项。\nMCL-4454 - 在同一账户中选择多个配置时，总是会返回第一个可用配置文件。\nMCL-4563 - 将_JAVA_OPTIONS设置为环境变量中的任意内容时，启动器会崩溃。\nMCL-4883 - Minecraft.exe文件上Mojang的数字签名过期。\nMCL-5094 - 启动器输出java.io.IOException - Stream closed multiple times in Launcher Log after closing game。\nMCL-5646 - 按了开始游戏按钮后，启动器会卡在准备中的状态。\n导航"
+}

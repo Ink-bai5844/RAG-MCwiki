@@ -1,0 +1,353 @@
+{
+  "title": "Java版粒子",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88%E7%B2%92%E5%AD%90",
+  "structured_content": {
+    "默认分类": [
+      "关于产生粒子效果的命令，请见“命令/particle”；关于基岩版的相关机制，请见“基岩版粒子”。",
+      "本条目所述内容仅适用于Java版。"
+    ],
+    "水下粒子效果，包括气泡柱": [
+      "粒子（Particle），也称粒子效果（Particle Effect），是Minecraft中一种特殊的图形效果，在特定事件发生（比如爆炸、降雨、用熔炉进行烧炼）时出现。"
+    ],
+    "定义": [
+      "单个粒子由粒子类型（见下表）、此类型所需的选项（见粒子数据格式）、额外参数（见命令/particle）三者完全定义。在/particle命令中可以指定这三者以生成特定的粒子。绝大多数粒子类型使用的粒子纹理可以通过资源包修改。此外还有三种特殊的粒子类型：explosion_emitter、gust_emitter_large和gust_emitter_small，它们本身不渲染，也不会移动，而是不断在周围随机产生其他粒子，这种粒子类型被称为粒子发射器（Particle Emitter）。"
+    ],
+    "行为": [
+      "单个粒子总会以2D的图像显示，并且大多数粒子会以正前方朝向玩家。它们在一段时间后消失，在这段时间内，它们可能静止不动，也可能发生移动，它们可能在多个纹理间循环，也可能随时间发生尺寸缩放、颜色改变、或透明度改变。",
+      "每种粒子类型都有其寿命（Lifetime），从粒子生成开始计时，到达寿命后粒子被移除。有的粒子类型的寿命是在某个范围内的随机数，有的粒子类型的寿命则是固定值。在未到达寿命前，有的粒子也会在特定的条件下消失，如熔岩粒子落入熔岩中会立即消失。",
+      "粒子生成时往往会带有初速度，取决于粒子类型。运动速度可能会受到阻力而逐渐减小，不同粒子类型的阻力大小不同，有的粒子类型不受阻力。一些粒子类型还具有重力，使得Y轴方向的速度随时间不断改变。有的粒子类型具有负的重力，使得粒子向上加速。一些粒子类型具有类似实体的运动碰撞检测，其运动会被方块碰撞箱阻碍。"
+    ],
+    "类型": [
+      "此段落需要更新。",
+      "理由：noxious_gas_cloud粒子。",
+      "所有粒子的ID及其描述如下所示："
+    ],
+    "带选项粒子": [
+      "关于带选项粒子的更多信息，请见“粒子数据格式”。"
+    ],
+    "shriek": [
+      "幽匿尖啸体激活时产生的环状粒子。尺寸从0开始随时间逐渐变大"
+    ],
+    "bubble": [
+      "水中的实体、守卫者激光、浮漂产生的气泡粒子。寿命为8到40游戏刻之间的随机数，所在位置不是水方块会立即消失"
+    ],
+    "campfire_cosy_smoke": [
+      "营火产生的烟雾粒子。寿命为80到129游戏刻之间的随机数，最后60刻内不透明度逐渐减小"
+    ],
+    "campfire_signal_smoke": [
+      "放置在干草捆上的营火产生的烟雾粒子。寿命为280到329游戏刻之间的随机数，最后60刻内不透明度逐渐减小"
+    ],
+    "cherry_leaves": [
+      "樱花树叶飘落的花瓣粒子。寿命为300游戏刻。粒子落地后会立即消失"
+    ],
+    "current_down": [
+      "水下岩浆块形成的涡流气泡柱。寿命为30游戏刻到90游戏刻间的一个随机数。所在的方块中不是水或不含水会立即消失"
+    ],
+    "dripping_dripstone_lava": [
+      "滴水石锥渗出且未滴落的熔岩粒子。寿命为40游戏刻。进入熔岩中会立即消失。颜色随时间逐渐变暗变红，寿命到达后，消失并生成一个falling_dripstone_lava粒子"
+    ],
+    "dripping_dripstone_water": [
+      "滴水石锥渗出且未滴落的水粒子。寿命为40游戏刻。进入水中会立即消失。寿命到达后，消失并生成一个falling_dripstone_water粒子"
+    ],
+    "dripping_honey": [
+      "蜂巢或蜂箱渗出且未滴落的蜂蜜粒子。寿命为100游戏刻。寿命到达后，消失并生成一个falling_honey粒子"
+    ],
+    "dripping_lava": [
+      "渗过方块且未滴落的熔岩粒子。寿命为40游戏刻。进入熔岩中会立即消失。颜色随时间逐渐变暗变红，寿命到达后，消失并生成一个falling_lava粒子"
+    ],
+    "dripping_obsidian_tear": [
+      "哭泣的黑曜石渗出且未滴落的粒子。寿命为100游戏刻。寿命到达后，消失并生成一个falling_obsidian_tear粒子"
+    ],
+    "dripping_water": [
+      "渗过方块的水粒子以及湿海绵、下雨时的树叶产生的水粒子。寿命为40游戏刻。进入水中会立即消失。寿命到达后，消失并生成一个falling_water粒子"
+    ],
+    "end_rod": [
+      "末地烛、潜影弹产生的粒子。寿命为60到71游戏刻之间的随机数，寿命过半后，逐渐变成半透明，颜色也逐渐变暗"
+    ],
+    "explosion_emitter": [
+      "爆炸、末影龙死亡、生成末地折跃门时产生的粒子。寿命为8游戏刻。本身不渲染，而是每游戏刻都在8×8×8范围内随机产生6个explosion粒子，且产生的粒子随时间越来越小"
+    ],
+    "falling_dripstone_lava": [
+      "滴水石锥滴落的熔岩粒子。寿命为64到320游戏刻间的随机值。进入熔岩中会直接消失。落地时或寿命到达时会消失，并生成一个landing_lava粒子。落地时还会播放block.pointed_dripstone.drip_lava声音"
+    ],
+    "falling_dripstone_water": [
+      "滴水石锥滴落的水粒子。寿命为64到320游戏刻间的随机值。进入水中会直接消失。落地时或寿命到达时会消失，并生成一个splash粒子。落地时还会播放block.pointed_dripstone.drip_water声音"
+    ],
+    "falling_honey": [
+      "蜂巢或蜂箱滴落的蜂蜜粒子。寿命为64到320游戏刻间的随机值。落地时或寿命到达时会消失，并生成一个landing_honey粒子。落地时还会播放block.beehive.drip声音"
+    ],
+    "falling_lava": [
+      "渗过方块滴落的熔岩粒子。寿命为64到320游戏刻间的随机值。进入熔岩中会直接消失。落地时或寿命到达时会消失，并生成一个landing_lava粒子"
+    ],
+    "falling_nectar": [
+      "沾有花粉的蜜蜂掉落的花粉。寿命为16到80游戏刻间的随机值。落地时或寿命到达时会直接消失"
+    ],
+    "falling_obsidian_tear": [
+      "哭泣的黑曜石滴落的粒子。寿命为64到320游戏刻间的随机值。落地时或寿命到达时会消失，并生成一个landing_obsidian_tear粒子"
+    ],
+    "falling_spore_blossom": [
+      "孢子花掉落的孢子粒子。寿命为71到640游戏刻间的随机值。落地时或寿命到达时会直接消失"
+    ],
+    "falling_water": [
+      "渗过方块滴落以及着地的水粒子。寿命为64到320游戏刻间的随机值。进入水中会直接消失。落地时或寿命到达时会消失，并生成一个splash粒子"
+    ],
+    "gust_emitter_large": [
+      "风弹实体在爆炸半径大于等于2且产生方块交互时产生的一阵大型狂风粒子。寿命为7游戏刻。本身不渲染，而是每游戏刻都在6×6×6范围内随机产生3个gust粒子"
+    ],
+    "gust_emitter_small": [
+      "风弹实体在爆炸半径小于2或没有产生方块交互时产生的一阵小型狂风粒子。寿命为3游戏刻。本身不渲染，而是每3游戏刻在2×2×2范围内随机产生3个gust粒子"
+    ],
+    "landing_lava": [
+      "渗过方块着地的熔岩粒子。寿命为16到80游戏刻的随机值。进入熔岩中会立即消失"
+    ],
+    "noxious_gas": [
+      "烈性硫黄在上方的水源方块表面生成的黄色烟雾粒子[新增：JE 26.2]"
+    ],
+    "rain": [
+      "雨滴。寿命为8到40游戏刻间的随机值。进入液体中会立即消失。落地后会很快消失"
+    ],
+    "reverse_portal": [
+      "能量等级大于0的重生锚产生的粒子。尺寸随时间逐渐变小"
+    ],
+    "splash": [
+      "水中的实体、离开水后的狼、船、水中的鱼钩、气泡柱水面的生物、喝水瓶中的水、发射器向泥土发射水瓶产生的水花粒子，村民在袭击的时候产生的汗水粒子。寿命为8到40游戏刻之间的随机数，落在地面或落入液体会立即消失"
+    ],
+    "sulfur_bubbles": [
+      "烈性硫黄在上方的水源方块生成的向上移动的白色气泡[新增：JE 26.2]"
+    ],
+    "sulfur_cube_goo": [
+      "硫方怪着地产生的粒子[新增：JE 26.2]"
+    ],
+    "Java版pre-Classic": [
+      "rd-160052",
+      "加入了blockcrack粒子。"
+    ],
+    "Java版Classic": [
+      "0.0.15a",
+      "在多人游戏中加入了粒子。",
+      "0.26 SURVIVAL TEST",
+      "加入了smoke、rain粒子的一些形式。"
+    ],
+    "Java版Indev": [
+      "0.31",
+      "20100124-2310",
+      "加入了flame粒子。"
+    ],
+    "?": [
+      "加入了bubble和splash粒子。",
+      "加入了dripWater和dripLava粒子。",
+      "1.4.2",
+      "12w32a",
+      "加入了angryVillager和happyVillager粒子。",
+      "12w38a",
+      "加入了witchMagic粒子。",
+      "1.4.4"
+    ],
+    "Java版Infdev": [
+      "20100325-1545"
+    ],
+    "Java版Alpha": [
+      "v1.0.1",
+      "加入了reddust粒子。",
+      "加入了snowballpoof、largeexplode和portal粒子。",
+      "v1.0.4",
+      "升级了splash粒子。"
+    ],
+    "Java版Beta": [
+      "1.2",
+      "加入了note粒子。",
+      "1.5",
+      "加入了footstep粒子。",
+      "1.8",
+      "pre1",
+      "加入了crit、hugeexplosion、townaura和depthsuspend粒子。"
+    ],
+    "Java版": [
+      "1.0.0",
+      "Beta 1.9-pre4",
+      "加入了magicCrit、spell、instantSpell和mobSpell粒子。",
+      "Beta 1.9-pre6",
+      "在视频设置中可以设置粒子效果。"
+    ],
+    "pre": [
+      "加入了mobSpellAmbient粒子。",
+      "1.4.6",
+      "12w49a",
+      "加入了fireworksSpark粒子。",
+      "1.7.2",
+      "13w36a",
+      "加入了wake粒子。",
+      "加入了跌落时的粒子效果。",
+      "1.8",
+      "14w04a",
+      "现在粒子可以使用/particle来生成。",
+      "14w06a",
+      "加入了barrier粒子。",
+      "14w25a",
+      "加入了droplet、take和mobappearance粒子。",
+      "14w27a",
+      "跌落时的粒子现在会随机移动。",
+      "14w31a",
+      "丢掷鸡蛋时的粒子效果由snowballpoof变为iconcrack。",
+      "14w34c",
+      "虚空不再产生depthSuspend效果。",
+      "1.9",
+      "15w31a",
+      "加入了dragonbreath和endRod粒子。",
+      "15w32c",
+      "粒子不再视为实体处理。",
+      "可视范围由16方块增加至32方块。",
+      "粒子的数量限制由4,000增加至16,384。",
+      "15w34b",
+      "加入了damageIndicator粒子。",
+      "15w34c",
+      "加入了sweepAttack粒子。",
+      "1.10",
+      "16w20a",
+      "加入了fallingdust粒子。",
+      "1.10-pre1",
+      "fallingdust粒子会与方块碰撞了。",
+      "1.11",
+      "16w39a",
+      "加入了spit和talisman粒子。",
+      "16w39c",
+      "将talisman粒子改名为totem。",
+      "1.13",
+      "17w47a",
+      "由于扁平化，粒子现在使用命名空间和小写ID，32种粒子被重命名。",
+      "移除了footstep和depthsuspend。然而，footstep粒子的纹理仍存在于jar中。",
+      "移除了take的名称。",
+      "合并blockcrack和blockdust粒子为block粒子，以及explode和snowshovel粒子合并为poof粒子。",
+      "18w07a",
+      "加入了bubble_column_up、bubble_pop、current_down和squid_ink粒子。",
+      "18w09a",
+      "略微优化了粒子的渲染。",
+      "18w15a",
+      "加入了nautilus粒子。",
+      "18w19a",
+      "加入了dolphin粒子。",
+      "pre7",
+      "dripping_water粒子现在由含水的方块适当生成。",
+      "dripping_water粒子现在会附着出现时的方块的碰撞箱里。",
+      "pre8",
+      "dripping_water粒子现在不再由未含水的方块（由#impermeable方块标签控制）生成。",
+      "1.14",
+      "18w43a",
+      "加入了sneeze粒子。",
+      "19w02a",
+      "加入了campfire_cosy_smoke和campfire_signal_soke粒子。",
+      "19w06a",
+      "粒子现在被拆分为每帧单独的纹理文件，而不是位于particles.png、explosion.png和sweep.png文件中。",
+      "19w08a",
+      "状态效果的纹理可以在单独的文件夹中找到。",
+      "1.15",
+      "19w34a",
+      "加入了dripping_honey、landing_honey、falling_honey和falling_nectar粒子。",
+      "1.15.2",
+      "pre1"
+    ],
+    "更改了crit粒子的纹理。[需要在Java版上验证历史]": [
+      "1.16",
+      "20w06a",
+      "加入了ash、crimson_spore、soul_fire_flame和warped_spore粒子。",
+      "20w09a",
+      "加入了dripping_obsidian_tear、falling_obsidian_tear和landing_obsidian_tear粒子。",
+      "20w11a",
+      "加入了soul粒子。",
+      "20w15a",
+      "加入了white_ash粒子。",
+      "1.17",
+      "20w45a",
+      "现在粒子会在方块被活塞破坏时出现。",
+      "20w46a",
+      "加入了snowflake粒子。",
+      "20w48a",
+      "加入了dripping_dripstone_lava、dripping_dripstone_water、falling_dripstone_lava和falling_dripstone_water粒子。",
+      "20w49a",
+      "加入了vibration和dust_color_transition粒子。",
+      "21w03a",
+      "加入了glow和glow_squid_ink粒子。",
+      "21w05a",
+      "加入了falling_spore_blossom和spore_blossom_air粒子。",
+      "21w11a",
+      "加入了electric_spark、scrape、wax_off和wax_on粒子。",
+      "21w13a",
+      "加入了light粒子。",
+      "移除了未使用的footprint粒子。",
+      "1.18",
+      "21w42a",
+      "加入了block_marker粒子以取代light和barrier。",
+      "1.19",
+      "exp1",
+      "加入了shrieks、sculk_souls、sculk_charge_pops和sculk_charge粒子。",
+      "22w11a",
+      "上一个实验性快照中加入的shrieks粒子尚未在此快照中加入。",
+      "上一个实验性快照中加入的sculk_souls粒子被重命名为sculk_soul。",
+      "22w12a",
+      "加入了shriek粒子。",
+      "22w13a",
+      "加入了allay_dust粒子。",
+      "22w15a",
+      "加入了sonic_boom粒子。",
+      "22w16a",
+      "移除了allay_dust粒子。",
+      "22w18a",
+      "更改了sonic_boom粒子的纹理。",
+      "1.19.4",
+      "23w07a",
+      "加入了dripping_cherry_leaves、falling_cherry_leaves和landing_cherry_leaves粒子。",
+      "1.20",
+      "23w12a",
+      "将dripping_cherry_leaves、​falling_cherry_leaves和​landing_cherry_leaves合并为cherry_leaves，并更改了纹理。",
+      "1.20.3",
+      "23w40a",
+      "block_marker粒子现在会在粒子效果选项设为最小时显示。",
+      "23w41a",
+      "加入了dust_plume粒子。",
+      "23w42a",
+      "加入了white_smoke粒子。",
+      "23w45a",
+      "加入了gust、gust_dust、gust_emitter和trial_spawner_detection粒子。",
+      "1.20.5",
+      "24w05a",
+      "加入了vault_connection粒子。",
+      "24w11a",
+      "状态效果粒子不再混合为一种颜色，现在多个状态效果的粒子会分别渲染。",
+      "降低了实体发出状态效果粒子的频率。",
+      "24w13a",
+      "加入了infested、​item_cobweb、​small_gust、​ominous_spawning、​raid_omen、​trial_omen和​trial_spawner_detection_ominous粒子。",
+      "1.21.2",
+      "24w40a",
+      "加入了block_crumble和trail粒子。",
+      "1.21.5",
+      "25w02a",
+      "加入了tinted_leaves粒子。",
+      "25w05a",
+      "加入了firefly粒子。",
+      "1.21.9",
+      "25w32a",
+      "加入了copper_fire_flame粒子。",
+      "25w33a",
+      "现在爆炸时会与1.15-pre1前一样生成poof和​smoke粒子。",
+      "25w36a",
+      "更改了copper_fire_flame粒子的纹理。",
+      "26.1",
+      "26.1-snapshot-10",
+      "加入了pause_mob_growth和reset_mob_growth粒子。"
+    ],
+    "Java版（即将到来）": [
+      "26.2",
+      "26.2-snapshot-1",
+      "加入了sufur_cube_goo、sufur_bubbles、noxious_gas和noxious_gas_cloud粒子。"
+    ],
+    "你知道吗": [
+      "大多数粒子的颜色都可以通过资源包来改变，然而红石、传送门和末影人的粒子颜色只能使用MOD更改。",
+      "dust粒子具有用于颜色的独特语法，用三个RGB值表示为十进制百分比。",
+      "在游戏内部有一个用来显示捡起物品动画的粒子take，但它不能通过/particle命令生成。它的名称在Java版1.13被移除。"
+    ],
+    "参考": [
+      "MC-132067",
+      "MC-165991 — 漏洞状态为“已修复”。"
+    ]
+  }
+}

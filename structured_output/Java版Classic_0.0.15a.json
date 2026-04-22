@@ -1,0 +1,91 @@
+{
+  "title": "Java版Classic 0.0.15a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.15a",
+  "structured_content": {
+    "默认分类": [
+      "关于该版本的开发者版本，请见“Java版Classic 0.0.15a/开发者版本”。",
+      "此版本重新上传后的版本目前已丢失。",
+      "此版本被重新上传过。虽然有原始版本的留档，但没有重新上传后的留档。",
+      "如果您有留档，请于讨论页提出。",
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "0.0.15a"
+    ],
+    "发布时间": [
+      "2009年5月31日"
+    ],
+    "客户端（.json）": [
+      "重新上传1-7"
+    ],
+    "无": [
+      "◄◄0.0.14a",
+      "0.0.16a►►",
+      "◄0.0.14a_08",
+      "0.0.15a_01►",
+      "0.0.15a是多人测试的首个版本，也是Java版的一次更新，发布于2009年5月31日，加入了多人游戏。"
+    ],
+    "多人游戏": [
+      "多人游戏中其他玩家的模型都使用人类模型渲染。",
+      "方块粒子在多人游戏中被禁用。",
+      "玩家可以在其他玩家所在的位置放置方块。"
+    ],
+    "橡树树叶": [
+      "更改了纹理。"
+    ],
+    "橡木": [
+      "更改了纹理。"
+    ],
+    "沙砾": [
+      "更改了纹理。",
+      "现在只生成在水下。"
+    ],
+    "沙子": [
+      "更改了纹理。"
+    ],
+    "熔岩": [
+      "流动速度比以前慢了。",
+      "现在是完全明亮的。",
+      "位于方块下方的熔岩不再会造成透视效应。"
+    ],
+    "水": [
+      "位于方块下方的水不再会造成透视效应。"
+    ],
+    "人类": [
+      "头部和手臂不再剧烈地晃动。"
+    ],
+    "树木": [
+      "更改了模型。"
+    ],
+    "terrain.png": [
+      "移除了泥土和草方块的多余纹理及一个来自0.0.14a的类似云的纹理。"
+    ],
+    "重新上传": [
+      "该版本于6月3日18:16（UTC）被第一次重新上传，以修改玩家和生物的动画，但动画速度过快。",
+      "该版本于6月3日18:28（UTC）被第二次重新上传，改进了客户端并修复了玩家的动画。",
+      "该版本于6月3日19:00（UTC）被第三次重新上传，在玩家头顶加入了可见的用户名 ，并在多人游戏中加入了粒子效果，同时建造和破坏也更加流畅。",
+      "该版本于6月3日19:50（UTC）被第四次重新上传，加入了按T键打开聊天框的功能。",
+      "该版本于6月4日16:51（UTC）被第五次重新上传，改进了发送存档的代码，使其在有新玩家加入时暂停。",
+      "该版本于6月4日16:58（UTC）被第六次重新上传，原因未知。",
+      "该版本于6月4日17:03（UTC）被第七次重新上传，修复了一个玩家无法移动的漏洞。"
+    ],
+    "参考": [
+      "IRC记录: #minecraft.20090531.log, #minecraft.20090603.log, #minecraft.20090604.log",
+      "IRC记录: \"[13:05] <@notch> http://www.minecraft.net/mptest/\" (19:05 UTC)",
+      "IRC日志: \"[12:18] <Zolyx> whoa, the animation on the mobs is a little... out ;)\", \"[12:18] <Zolyx> it's like 5000% faster than it should be. they look like they're spazzing :P\" (18:18 UTC)",
+      "IRC日志: \"[12:28] <@Notch> the mp test server is updated with better client interpolation. =)\" (18:28 UTC)",
+      "IRC日志：“[12:34] <@Notch> the players animate better now, I hope?”",
+      "IRC日志: \"[13:00] <@Notch> ok, restart your clients now. =)\" (19:00 UTC)",
+      "IRC日志：“[13:01] <smn> OH INGAME NICKS”",
+      "IRC日志: \"[13:02] <smn> ohhh particlez\" (19:02 UTC)",
+      "IRC日志：“[13:01] <@Notch> try building and removing now. =) [...] it should be much less laggy”",
+      "Some multiplayer progress（存档） — The Word of Notch，2009年6月3日。",
+      "IRC日志：“[13:53] <ZomBuster> yay ingame chat”",
+      "IRC日志: \"[13:49] <@Notch> ok, I need to restart the server!!\" [...] \"[13:50] <@Notch> try pressing t\"",
+      "IRC日志: \"[10:51] <koekje4life> when is the next MP test again?\" [...] \"[10:51] <@Notch> ir's right now!\", \"[10:51] * Notch changes topic to 'http://www.minecraft.net/ | Multiplayer test is back up!\" (16:51 UTC)",
+      "IRC日志: \"[10:50] <@Notch> ok, I did some experimental work on the level sending code..\" [...] \"[10:51] <@taodih> level sending code? \" [...] \"[10:51] <@Notch> yeah, the pauses whenever a player logs in\" (16:51 UTC)",
+      "IRC日志: \"[10:52] * Notch changes topic to 'http://www.minecraft.net/ | Multiplayer test is back down, gimme a sec.'\" [...] \"[10:58] * Notch changes topic to 'http://www.minecraft.net/ | Multiplayer test is up! Please test it :D'\" (16:58 UTC)",
+      "IRC日志: \"[11:01] * Notch changes topic to 'http://www.minecraft.net/ | Multiplayer test is down, hold! | Please test mp (when the server is up) at http://www.minecraft.net/mptest/'\" [...] \"[11:03] * Notch changes topic to 'http://www.minecraft.net/ | Multiplayer test is UP! | Please test mp (when the server is up) at http://www.minecraft.net/mptest/'\" (17:03 UTC)",
+      "IRC日志：“[11:09] <koekje4life> Refresh for movement :D”（17:09 UTC）"
+    ]
+  }
+}

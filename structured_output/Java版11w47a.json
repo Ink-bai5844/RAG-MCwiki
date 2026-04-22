@@ -1,0 +1,34 @@
+{
+  "title": "Java版11w47a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%8811w47a",
+  "structured_content": {
+    "默认分类": [
+      "此版本目前在Minecraft启动器中不可用。",
+      "虽然此版本存在留档，但却无法从启动器下载到。",
+      "11w47a"
+    ],
+    "发布时间": [
+      "2011年11月24日"
+    ],
+    "快照归属": [
+      "1.1"
+    ],
+    "协议版本": [
+      "22",
+      "◄◄1.0.1",
+      "1.2.1►►",
+      "11w48a►",
+      "11w47a是Java版1.1的首个快照，发布于2011年11月24日，修复了一个漏洞。"
+    ],
+    "性能": [
+      "代码细微优化。"
+    ],
+    "修复": [
+      "修复了1个漏洞",
+      "修复了门的一半部分可能不会正确打开的漏洞。"
+    ],
+    "参考": [
+      "So... here's the first one: http://assets.minecraft.net/11w47a/minecraft.jar Note that this is practically identical to version 1.0.1，来自@jeb_。X（曾名Twitter），2011年11月24日。"
+    ]
+  }
+}

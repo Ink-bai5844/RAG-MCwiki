@@ -1,0 +1,5 @@
+{
+  "title": "命令/solid",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsolid",
+  "text": "此条目所介绍的内容已从Java版中移除。\n这些特性曾存在于游戏中，但已被移除。\nsolid\n需要的权限等级\n2\n限制条件\n无\n在放置石头模式和放置基岩模式间切换。\n语法\nsolid\n结果\n永远执行成功。\n历史\nJava版Classic\n0.0.20a\n加入了/solid。\nJava版Indev\n0.31\n移除了所有命令。\n导航"
+}

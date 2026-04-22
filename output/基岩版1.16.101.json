@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.16.101",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.16.101",
+  "text": "1.16.101\n版本\n基岩版\n服务端版本\n1.16.101.01\n内部版本号\nAndroid: 1.16.101.01\n版本码\nAndroid（试玩版本）：\n951610101（armeabi-v7a，29）\n971610101（arm64-v8a，29）\nAndroid（主版本）：\n951610101（armeabi-v7a，29）\n961610101（x86，29）\n971610101（arm64-v8a，29）\n981610101（x86_64，29）\niOS/iPadOS：\n839293304\n发布时间\nAndroid, iOS: 2020年11月23日\n下载\n服务端\nWindowsLinux\n协议版本\n419\n◄◄1.16.0\n1.17.0►►\n◄1.16.100\n1.16.200►\n1.16.101是基岩版的一次热修复更新，发布于2020年11月23日，仅发布到Android和iOS平台，修复了漏洞。此版本和其他平台上的1.16.100相互兼容。\n修复\n修复了玩家在移动设备上无法通过移动网络连接到Realms的问题。（MCPE-55405）\n参考\nMinecraft - 1.16.101 (Bedrock) — Minecraft Feedback，2020年11月23日。\n导航"
+}

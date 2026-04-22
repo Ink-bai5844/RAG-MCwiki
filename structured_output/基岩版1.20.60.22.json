@@ -1,0 +1,109 @@
+{
+  "title": "基岩版1.20.60.22",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.60.22",
+  "structured_content": {
+    "默认分类": [
+      "1.20.60.22"
+    ],
+    "服务端版本": [
+      "1.20.60.22"
+    ],
+    "版本码": [
+      "Android：",
+      "952006022（armeabi-v7a，33）",
+      "962006022（x86，33）",
+      "972006022（arm64-v8a，33）",
+      "982006022（x86_64，33）"
+    ],
+    "发布时间": [
+      "Xbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年12月6日"
+    ],
+    "测试版归属": [
+      "1.20.60"
+    ],
+    "协议版本": [
+      "642",
+      "◄◄1.20.51",
+      "1.20.62►►",
+      "◄1.20.60.21",
+      "1.20.60.23►",
+      "beta 1.20.60.22（ChromeOS/Android）、Preview 1.20.60.22（Xbox/Windows/iOS/iPadOS）是基岩版1.20.60的第3个测试版，发布于2023年12月6日，修复了一些漏洞。"
+    ],
+    "API": [
+      "将Scoreboard的addObjective中的显示名称参数更改为可选参数。",
+      "加入了eatItem(itemStack: ItemStack): void;方法。"
+    ],
+    "方块": [
+      "现在修改brightness_gamma值会正确使方块变暗。（MCPE-167836）",
+      "被复制的容器不再会保持打开其容器界面，也不再会导致崩溃。"
+    ],
+    "组件": [
+      "为interact组件加入了drop_item_slot字段。",
+      "允许指定物品栏槽位以移除和丢弃其中的物品。"
+    ],
+    "基岩版编辑器": [
+      "工具测试世界现已从工具栏中移出，现在其位于世界菜单选项。"
+    ],
+    "图形": [
+      "修复了玩家在已启用光线追踪功能的情况下放置或破坏任意方块，然后保存并退出时可能发生的崩溃。",
+      "调整了延迟渲染预览功能中的点光源（如火把、灯笼等）的衰减，现在使用基于曼哈顿距离度量的方形衰减。",
+      "现在带有点光源颜色的有色环境光的颜色会提供更好的远距离多色光照。"
+    ],
+    "性能与稳定性": [
+      "现在会在StartGamePacket方块属性中发送原版数据驱动方块的material。block_id现已移动至vanilla_block_data对象。"
+    ],
+    "实验性": [
+      "本段落的内容需要开启实验性玩法中的“更新 1.21 版”、“测试版 API”和“为创建者提供的渲染龙功能”子选项后才可使用。"
+    ],
+    "铜门及其变种": [
+      "更改了方块纹理。",
+      "现在拥有正确的破坏所需时间和爆炸抗性。"
+    ],
+    "铜活板门及其变种": [
+      "现在拥有正确的破坏所需时间和爆炸抗性。"
+    ],
+    "旋风人": [
+      "现在旋风人骑乘实体时会停止产生落地粒子。",
+      "分离了漫散射纹理和自发光纹理。"
+    ],
+    "BlockSignComponent": [
+      "将setWaxed函数的签名更改为setWaxed(waxed: boolean)。",
+      "移除了pistonActivate事件或属性。",
+      "加入了BlockPistonState枚举。",
+      "用于导出BlockPistonState { Expanded = \"Expanded\", Expanding = \"Expanding\", Retracted = \"Retracted\", Retracting = \"Retracting\" }。"
+    ],
+    "BlockPistonComponent": [
+      "移除了isExpanded属性。",
+      "移除了isExpanding属性。",
+      "移除了isRetracted属性。",
+      "移除了isRetracting属性。",
+      "加入了readonly state: BlockPistonState属性。",
+      "将getAttachedBlocks函数更改为返回Block[]。",
+      "加入了getAttachedBlocksLocations(): Vector3[]函数。",
+      "移除了PistonActivateBeforeEvent类。",
+      "移除了PistonActivateBeforeEventSignal类。"
+    ],
+    "Types": [
+      "将BlockType由beta移动至1.8.0。",
+      "将FluidType由beta移动至1.8.0。",
+      "将NavigationResult由@minecraft/server移动至@minecraft/server-gametest。"
+    ],
+    "脚本": [
+      "修复了表单中的按钮多于255个时无法点击“ActionFormData”按钮的问题。"
+    ],
+    "常规": [
+      "修复了“纵横七海”成就可能导致的罕见崩溃。"
+    ],
+    "角色创建器": [
+      "修复了即使通过侧边栏返回原处，预览物品仍会保留在纸娃娃上的问题。",
+      "现在可以在更衣室的表情区域中找到所有未拥有和已拥有的表情。"
+    ],
+    "用户界面": [
+      "游戏窗口重新获得焦点时，最后高亮显示的按钮不再会被按下。（MCPE-170377）",
+      "现在在游玩屏幕上打开和关闭好友抽屉式菜单时会发出音效。"
+    ],
+    "参考": [
+      "Minecraft Beta & Preview - 1.20.60.22 — Minecraft Feedback，2023年12月6日。"
+    ]
+  }
+}

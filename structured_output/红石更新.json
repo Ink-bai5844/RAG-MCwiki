@@ -1,0 +1,23 @@
+{
+  "title": "红石更新",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%BA%A2%E7%9F%B3%E6%9B%B4%E6%96%B0",
+  "structured_content": {
+    "Wiki上有本次更新的指南！": [
+      "见Java版指南/红石更新以查看红石更新的指南。",
+      "见Java版指南/红石更新以查看红石更新的指南。"
+    ],
+    "Mojang发布的第二张红石更新的图像": [
+      "红石更新（Redstone Update）是Java版的一次主要更新，发布于2013年3月13日。此次更新添加了大量与红石相关的方块，此外还更新了记分板系统、新的资源包格式和光照引擎优化。此次更新的主题是Future Updates with the Minecraft PC Team和The Future of Mod API在MINECON 2012上公布的。",
+      "此次更新的开发始于13w01a，其发布于2013年1月3日。"
+    ],
+    "重要特性": [
+      "主条目：Java版1.5"
+    ],
+    "跟进版本": [
+      "Java版1.5.1和Java版1.5.2进行漏洞修复与帧率问题的修正。"
+    ],
+    "参考": [
+      "http://www.gamespot.com/minecraft/videos/6400551"
+    ]
+  }
+}

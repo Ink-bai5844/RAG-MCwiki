@@ -1,0 +1,32 @@
+{
+  "title": "命令/codebuilder actorinfo",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fcodebuilder_actorinfo",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少示例、缺少历史",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "语法": [
+      "codebuilder_actorinfo inventory <targets: target>"
+    ],
+    "参数": [
+      "targets: target：CommandSelector<Actor>",
+      "必须为玩家名或目标选择器。"
+    ],
+    "执行成功": [
+      "1"
+    ],
+    "执行失败": [
+      "0"
+    ],
+    "历史": [
+      "此段落暂无内容。",
+      "你可以帮助我们加入信息。"
+    ]
+  }
+}

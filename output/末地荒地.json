@@ -1,0 +1,5 @@
+{
+  "title": "末地荒地",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%9C%AB%E5%9C%B0%E8%8D%92%E5%9C%B0",
+  "text": "本条目所述内容仅适用于Java版。\n末地荒地\n种类\n末地\n温度\n0.5\n降水\n0.5\n降水类型\n无降水\n主要结构与地物\n末地折跃门\n主要方块\n末地石\n天空颜色\n#000000\n迷雾颜色\n#A080A0\n草地颜色\n#8EB971\n树叶颜色\n#71A74D\n枯叶颜色\n#A17448\n水体颜色\n#3F76E4\n水下迷雾颜色\n#060533\n末地荒地（End Barrens）是末地外岛生物群系的一部分，生成于大型岛屿的边缘部分。\n描述\n末地荒地生成于每个末地大型岛屿的边角区域，下方是无尽的虚空。该生物群系不会生成紫颂树和末地城。\n生物\n下列生物会在末地荒地周期生成：\n生物\n生成概率\n每群数量\n怪物\n末影人\n10⁄10\n4\n数据值\nID\n名称\n命名空间ID\n生物群系标签（JE）\n本地化键名\n末地荒地\nend_barrens\nis_end\nspawns_cold_variant_farm_animals\nspawns_cold_variant_frogs\nbiome.minecraft.end_barrens\n历史\nJava版\n1.13\n18w06a\n加入了末地 - 荒岛。\n18w19a\n将末地 - 荒岛（The End - Barren island）重命名为末地荒地（End Barrens）。\npre5\n将末地荒岛的ID由sky_island_barren改为end_barrens。\n你知道吗\n由于整数溢出，末地的地形会在以世界原点为中心的若干个环形区域中缺失，这些区域全部为末地荒地生物群系。\n参考\nMC-159283\n导航"
+}

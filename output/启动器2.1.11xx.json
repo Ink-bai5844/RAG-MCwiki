@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.11xx",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.11xx",
+  "text": "2.1.11xx\n程序类型\nMinecraft启动器\n发布时间\n2018年6月21日\n◄◄2.0.10xx\n2.1.121x►►\n2.1.1143（Windows）、2.1.1144（macOS）或 2.1.1139（Linux）是一个启动器更新，发布于2018年6月21日。\n添加\n添加了新语言Shakespearan English - Kingdom of England（莎士比亚英语-英国）。\n修复\nMCL-5291 - 错误码5-将tmplauncher.tmp移动到Minecraft.exe时出现问题。\nMCL-6129 - Mojang Studios对于MinecraftInstaller.msi的数字签名过时了。\nMCL-7387 - 新安装的Linux版启动器不会记住第一次登录的账号和密码。\nMCL-9304 - Linux上的ICU版本出现问题。\nMCL-9319 - 启动器在关闭游戏后保持打开会崩溃。\n重新上传\n为了修复丢失的dll集成，当天就重新上传了2.1.11xx版本的启动器。\n导航"
+}

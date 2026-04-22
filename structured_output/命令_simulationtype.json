@@ -1,0 +1,32 @@
+{
+  "title": "命令/simulationtype",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fsimulationtype",
+  "structured_content": {
+    "默认分类": [
+      "此条目所介绍的内容已从基岩版中移除。",
+      "这些特性曾存在于游戏中，但已被移除。"
+    ],
+    "需要的权限等级": [
+      "1"
+    ],
+    "仅编辑器": [
+      "更改模拟类型。可用于阻止或允许实体行为。",
+      "主要用于在命令方块或函数中对游戏世界的某些模拟规则进行控制。例如可以设置方块更新的模拟方式等相关模拟行为。不同的模拟类型会影响游戏中物理、方块更新等机制的运行方式。"
+    ],
+    "语法": [
+      "simulationtype <state: SimulationTypeEnum>"
+    ],
+    "参数": [
+      "state: SimulationTypeEnum：enum",
+      "指定模拟类型，必须为以下其中之一："
+    ],
+    "基岩版": [
+      "1.19.80",
+      "1.19.80.20",
+      "加入了/simulationtype命令，仅在基岩版编辑器中可用。",
+      "1.20.60",
+      "1.20.60.20",
+      "移除了/simulationtype命令。"
+    ]
+  }
+}

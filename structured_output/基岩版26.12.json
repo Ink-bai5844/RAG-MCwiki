@@ -1,0 +1,46 @@
+{
+  "title": "基岩版26.12",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%8826.12",
+  "structured_content": {
+    "默认分类": [
+      "26.12"
+    ],
+    "服务端版本": [
+      "1.26.12.2"
+    ],
+    "内部版本号": [
+      "Android：1.26.12.2",
+      "PlayStation 4：3.35",
+      "PlayStation 5：1.045.000",
+      "Windows：1.26.1202.0"
+    ],
+    "版本码": [
+      "Android：",
+      "952601202（armeabi-v7a，35）",
+      "962601202（x86，35）",
+      "972601202（arm64-v8a，35）",
+      "982601202（x86_64，35）",
+      "iOS/iPadOS：",
+      "883856515"
+    ],
+    "发布时间": [
+      "ChromeOS/Android, Fire, iOS/iPadOS, Nintendo Switch, PlayStation, Xbox - 2026年3月31日",
+      "Windows - 2026年4月1日"
+    ],
+    "协议版本": [
+      "944",
+      "◄◄26.10",
+      "◄26.11",
+      "26.13►",
+      "26.12是基岩版的一次热修复更新，在除Windows外的平台上发布于2026年3月31日，在Windows平台上发布于2026年4月1日，修复了一些漏洞。此版本与26.10和26.11相互兼容。"
+    ],
+    "修复": [
+      "修复了一些可能影响游戏内容的漏洞。",
+      "修复了Realms故事中的成员选项卡不会正确加载的问题。",
+      "修复了服务器的允许名单问题。（MCPE-237527）"
+    ],
+    "参考": [
+      "Minecraft: Bedrock Edition 26.12 Hotfix Changelog — Minecraft Feedback，2026年3月31日。"
+    ]
+  }
+}

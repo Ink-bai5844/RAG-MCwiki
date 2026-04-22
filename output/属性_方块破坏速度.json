@@ -1,0 +1,5 @@
+{
+  "title": "属性/方块破坏速度",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7%2F%E6%96%B9%E5%9D%97%E7%A0%B4%E5%9D%8F%E9%80%9F%E5%BA%A6",
+  "text": "本条目所述内容仅适用于Java版。\n方块破坏速度\n类型\n正面\n默认值\n1\n值域\n0 – 1024\n属性ID\nblock_break_speed\n方块破坏速度（Block Break Speed）是控制玩家挖掘速度的属性。\n行为\n主条目：挖掘 § 挖掘速度\n玩家在挖掘时，游戏会将其他状态影响的方块挖掘速度乘以此属性计算值以计算最终的挖掘速度，从而影响玩家的挖掘速度。\n该属性仅能由命令改变。\n适用的生物\n生物\n基值\n玩家\n1\n已知修饰符\n方块破坏速度没有已知修饰符。\n历史\nJava版\n1.20.5\n24w06a\n加入了方块破坏速度属性，ID为player.block_break_speed。\n1.21.2\n24w33a\n方块破坏速度属性的ID从player.block_break_speed重命名为block_break_speed。\n导航"
+}

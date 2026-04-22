@@ -1,0 +1,49 @@
+{
+  "title": "基岩版1.12.1",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.12.1",
+  "structured_content": {
+    "默认分类": [
+      "1.12.1"
+    ],
+    "服务端版本": [
+      "1.12.1.1"
+    ],
+    "内部版本号": [
+      "Windows：1.12.101.0"
+    ],
+    "版本码": [
+      "Android（试玩版本）：",
+      "871120101（armeabi-v7a，26）",
+      "Android（主版本）：",
+      "871120101（armeabi-v7a，26）",
+      "872120101（x86，26）",
+      "iOS/iPadOS：",
+      "832529457"
+    ],
+    "发布时间": [
+      "Android – 2019年9月2日",
+      "iOS, Fire OS, Windows 10, Windows 10 Mobile, Gear VR, Xbox One, Nintendo Switch – 2019年9月3日[来源请求]",
+      "iPadOS – 2019年9月24日[来源请求]"
+    ],
+    "协议版本": [
+      "361",
+      "其他版本的1.12.1"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.12.0",
+      "1.13.0►►",
+      "1.12.1是基岩版的一次热修复更新，在Android上发布于2019年9月2日，在iPadOS上发布于9月24日，在其余平台发布于9月3日，修复了一些漏洞。"
+    ],
+    "修复": [
+      "修复了4个漏洞",
+      "修复了若干可能在游戏时发生的崩溃。",
+      "修复了玩家在末地时加载世界卡在“生成世界”页面的问题。（MCPE-49778）",
+      "修复了导致许多玩家无法在任天堂Switch上登录微软账户的问题。（MCPE-34662）",
+      "末地不再会同时生成多条末影龙。（MCPE-37590）"
+    ],
+    "参考": [
+      "Minecraft - 1.12.1 (Bedrock) — Minecraft Feedback，2019年9月3日。",
+      "We're releasing a Minecraft hotfix today to address some nasty bugs - here's the 1.12.1 changelog: We hope to have this out ASAP but please note the time taken to publish to all platform stores may vary!，来自@Mega_Spud。X（曾名Twitter），2019年9月3日。"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Earth:灰白牛",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E7%81%B0%E7%99%BD%E7%89%9B",
+  "text": "此条目仍需完善。\n你可以帮助我们加入更多信息。\n灰白牛\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：1.4格\n宽度：0.9格\n实体ID\n?\n这头牛的皮毛又黑又脏，但这可不是因为苦力怕在它附近爆炸而造成的。\n——Minecraft Earth内描述\n灰白牛（Ashen Cow）是牛的变种，属于被动型生物。它们有着罕见级的稀有度。\n获取\n灰白牛作为罕见级别的生物在牛可点击物中以7.5%的概率获得。\n行为\n主条目：牛 § 行为\n与普通的牛相似，它们有着相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖。\n掉落物\n灰白牛在死亡时掉落：\n0-2 皮革\n1-2 生牛肉\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.cow.say\n死亡\nmob.cow.hurt\n受伤\nmob.cow.hurt\n被挤奶\nmob.cow.milk\n行走\nmob.cow.step\n数据值\nID\n名称\n命名空间ID\n本地化键名\n灰白牛\nashen_cow\nentity.ashen_cow.name\n历史\nMinecraft Earth\n0.17.0\n加入了灰白牛。\n导航"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Java版Classic 0.0.22a 01",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.22a_01",
+  "structured_content": {
+    "默认分类": [
+      "此版本的客户端目前已丢失。",
+      "虽然此版本的服务端有留档，但对应的客户端却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "0.0.22a_01"
+    ],
+    "服务端版本": [
+      "1.8.2"
+    ],
+    "发布时间": [
+      "2009年6月29日"
+    ],
+    "协议版本": [
+      "6"
+    ],
+    "未知": [
+      "◄◄0.0.21a",
+      "0.0.23a►►",
+      "◄0.0.21a_01",
+      "0.0.22a_02►",
+      "0.0.22a_01是Java版的一次更新，发布于2009年6月29日。"
+    ],
+    "控制": [
+      "按M键现在会静音。"
+    ],
+    "修复": [
+      "尝试修复声音断断续续的问题。",
+      "一些玩家报告他们的声音断断续续和损坏的现象反而更严重了。"
+    ],
+    "参考": [
+      "IRC记录, #minecraft.20090629.log: \"P5:13:08 <08Notch> 0.0.22a_01 is up\". (2009年6月29日 17:13:08 UTC−5; 22:13:08 UTC)",
+      "IRC记录, #minecraft.20090629.log: \"P5:13:20 <08Notch> also, pressing \"m\" will mute the sound now\". (2009年6月29日 17:13:20 UTC−5; 22:13:20 UTC)",
+      "IRC记录, #minecraft.20090629.log: \"P5:13:13 <08Notch> does it make the sounds less choppy?\". (2009年6月29日 17:13:13 UTC−5; 22:13:13 UTC)",
+      "IRC记录, #minecraft.20090629.log: \"P5:21:52 <Rroff> before on just plain 22a sound was fine for me\" [...] \"P5:21:57 <Rroff> its the _01 update thats broke it for me\". (2009年6月29日 17:21 UTC−5; 22:21 UTC)"
+    ]
+  }
+}

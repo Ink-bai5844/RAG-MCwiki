@@ -1,0 +1,20 @@
+{
+  "title": "游戏规则/showCoordinates",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%2FshowCoordinates",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于基岩版。"
+    ],
+    "showCoordinates": [
+      "showCoordinates是控制聊天屏幕上方是否显示玩家坐标的游戏规则。"
+    ],
+    "行为": [
+      "当showCoordinates为true时，聊天屏幕上方显示玩家坐标。"
+    ],
+    "基岩版": [
+      "1.2.0",
+      "1.2.0.31",
+      "加入了游戏规则showCoordinates。"
+    ]
+  }
+}

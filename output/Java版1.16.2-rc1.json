@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.16.2-rc1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.16.2-rc1",
+  "text": "1.16.2-rc1\n版本\nJava版\n类型\n发布候选\n发布时间\n2020年8月7日\n发布候选归属\n1.16.2\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\n749\n数据版本\n2576\n资源包版本\n6\n数据包版本\n6\n◄◄1.16.1\n1.16.3►►\n◄1.16.2-pre3\n1.16.2-rc2►\n1.16.2-rc1是Java版1.16.2的首个发布候选版本，发布于2020年8月7日，将资源包和数据包的版本提升至6，并修复了一些漏洞。\n更改\n常规\n资源包\n由于MC-197275，将资源包和数据包版本提升至6。\n修复\n修复了7个漏洞\n1.16的漏洞\nMC-190103 — 使用下界传送门时会崩溃：java.lang.IndexOutOfBoundsException: fromIndex < 0: -2368549。\n1.16.1的漏洞\nMC-197275 — 由于对墙的更改，pack_format: 5的资源包实际上并不跨版本（1.15到1.16）兼容。\n1.16.2开发版本的漏洞\nMC-194933 — 游戏在尝试载入自定义生物群系时会崩溃：java.lang.UnsupportedOperationException: Trying to add tag of type 8 to list of 10。\nMC-197197 — 在创建/进入一个无预设的超平坦世界后，游戏会崩溃/无响应。\nMC-197225 — 当自定义生物群系的spawners参数为空时，游戏会崩溃：java.util.concurrent.CompletionException: u: Exception generating new chunk。\n上个开发版本的漏洞\nMC-197258 — 特定自定义维度可以导致游戏崩溃。\nMC-197263 — 末地天空和下界迷雾有时在服务器上不起作用。\n参考\nMinecraft 1.16.2 Release Candidate 1 — Minecraft.net，2020年8月7日。\n导航"
+}

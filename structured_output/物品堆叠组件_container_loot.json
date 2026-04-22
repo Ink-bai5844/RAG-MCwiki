@@ -1,0 +1,14 @@
+{
+  "title": "物品堆叠组件/container loot",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fcontainer_loot",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "*": [
+      "*loot_table：（命名空间ID）生成战利品使用的战利品表。",
+      "seed：（可选，默认为0）生成战利品使用的种子，0或不输入将使用随机序列。"
+    ]
+  }
+}

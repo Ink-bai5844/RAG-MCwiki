@@ -1,0 +1,11 @@
+{
+  "title": "流浪者/ED",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B5%81%E6%B5%AA%E8%80%85%2FED",
+  "structured_content": {
+    "实体数据": [
+      "实体共通标签，见Template:Nbt inherit/entity/source",
+      "生物共通标签，见Template:Nbt inherit/living entity/source",
+      "AI生物共通标签，见Template:Nbt inherit/mob/source"
+    ]
+  }
+}

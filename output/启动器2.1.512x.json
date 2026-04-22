@@ -1,0 +1,5 @@
+{
+  "title": "启动器2.1.512x",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%90%AF%E5%8A%A8%E5%99%A82.1.512x",
+  "text": "2.1.5127/2.1.5128/2.1.5129\n程序类型\nMinecraft启动器\n类型\n测试版\n发布时间\n2019年6月19日\n测试版归属\n2.1.523x\n◄◄2.1.367x\n2.1.538x►►\n◄2.1.50xx\n2.1.519x►\n2.1.5127（Windows）、2.1.5128（macOS）或2.1.5129（Linux）是在2019年6月19日发布的启动器测试版本，修复了一些漏洞。\n更改\n为连接问题添加了更多日志记录。\n启用了界面各个部分中选择用于复制粘贴的文本。\n禁用了输入字段中的拼写检查。\n单击创建/编辑安装对话框外部时不再关闭它。\n更新了翻译。\n修复\n修复了新建配置对话框中的动画错误。\n各种无障碍修复。\n修复了导致启动器即使在线却仍在离线模式下启动的漏洞。\nMCL-10817 - 快速关闭并重新启动启动器后崩溃。\nMCL-10994 - 某些字符不受“开始游戏”按钮字体支持。\nMCL-11026 - 测试版启动程序无法建立与互联网的连接。\n参考\nhttps://piston-meta.mojang.com/mc/launcher_beta_changelog.md\nAnother new beta version of the Minecraft Launcher is now rolling out. Check out the beta changelog here:，来自@slicedlime。X（曾名Twitter）。\n导航"
+}

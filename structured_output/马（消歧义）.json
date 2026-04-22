@@ -1,0 +1,22 @@
+{
+  "title": "马（消歧义）",
+  "source_url": "https://zh.minecraft.wiki/w/%E9%A9%AC%EF%BC%88%E6%B6%88%E6%AD%A7%E4%B9%89%EF%BC%89",
+  "structured_content": {
+    "Minecraft": [
+      "马 - 可以装备鞍和马铠。",
+      "驴 - 可以装备鞍和箱子。",
+      "骡 - 可以装备鞍和箱子。",
+      "骷髅马 - 马的亡灵变种，可以在骷髅陷阱中生成。在Java版中，可以装备鞍。",
+      "僵尸马 - 马的亡灵变种。可以装备鞍和马铠。"
+    ],
+    "Minecraft Dungeons": [
+      "马 - 一种友好生物，在关卡中作为场景物出现。",
+      "骷髅骑手 - 一种亡灵生物小Boss，为武装骷髅较弱变种。会骑着骷髅马，使用长弓进行攻击。"
+    ],
+    "Minecraft Legends": [
+      "马 - 一种坐骑。",
+      "Minecraft: Story Mode",
+      "马 - 一种友好生物。"
+    ]
+  }
+}

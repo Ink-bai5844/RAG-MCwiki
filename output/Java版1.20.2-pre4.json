@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.20.2-pre4",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-pre4",
+  "text": "1.20.2-pre4\n版本\nJava版\n类型\n预发布版\n发布时间\n2023年9月13日\n预发布版归属\n1.20.2\n下载\n客户端（.json）\n服务端\n混淆映射表\n客户端\n服务端\n协议版本\nDEC: 1073741975\nHEX: 40000097\n数据版本\n3575\n资源包版本\n18\n数据包版本\n18\n◄◄1.20.1\n1.20.3►►\n◄1.20.2-pre3\n1.20.2-rc1►\n1.20.2-pre4是Java版1.20.2的第4个，也是最后一个预发布版，发布于2023年9月13日，修复了一些漏洞。\n新内容\n常规\n标签\n加入了下列伤害类型标签：\n#always_kills_armor_stands：arrow、​trident、​mob_projectile、​fireball和​wither_skull。\n此标签内的伤害类型会总是完全杀死盔甲架。\n修复\n修复了2个漏洞\n1.20.2开发版本的漏洞\nMC-265239 — 日志中出现错误：java.lang.IllegalStateException: recursive call to sendBlockUpdated。\nMC-265289 — 日志中出现错误：java.lang.IllegalStateException: onTrackingStart called during navigation iteration。\n参考\nMinecraft 1.20.2 Pre-Release 4 — Minecraft.net，2023年9月13日。\n导航"
+}

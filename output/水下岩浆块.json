@@ -1,0 +1,5 @@
+{
+  "title": "水下岩浆块",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%B0%B4%E4%B8%8B%E5%B2%A9%E6%B5%86%E5%9D%97",
+  "text": "本条目介绍的是一种生成于水下的地物。关于岩浆块本身，请见“岩浆块”。\n水下岩浆块\n自然生成于\n所有主世界生物群系\n包含\n岩浆块\n可生成于已加载区块\n否\n命名空间ID\n见§ 数据值\n水下岩浆块（Underwater Magma）是生成于主世界水下的一种地物。\n生成\n水下岩浆块可以自然生成于主世界所有地下水体的地板上，只由岩浆块组成，并且最大不会超过3×3×3格。\n数据值\nID\nJava版：\n已配置的地物\n命名空间ID\n[无显示名称]\nunderwater_magma\n基岩版：\n地物\n命名空间ID\n[无显示名称]\nunderwater_magma_feature\n[无显示名称]\nunderwater_magma_snap_to_surface_feature\n[无显示名称]\nunderwater_magma_underground_feature\n历史\nJava版\n1.17\n21w06a\n加入了水下岩浆块，它只会出现在地下水体的地板上。\n1.18\nexp6\n增加了水下岩浆块的生成频率。\n21w40a\n再次增加了水下岩浆块的生成频率。\n基岩版\n1.18.0\n1.18.0.22\n加入了水下岩浆块。\n画廊\n含水层中的水下岩浆块\n参考\nMCPE-141376 — “[实验性]岩浆块不会在水下洞穴底部生成” — 漏洞状态为“已修复”。\n导航"
+}

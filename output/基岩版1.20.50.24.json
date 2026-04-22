@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.20.50.24",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.50.24",
+  "text": "1.20.50.24\n版本\n基岩版\n服务端版本\n1.20.50.24\n版本码\nAndroid：\n952005024（armeabi-v7a，33）\n962005024（x86，33）\n972005024（arm64-v8a，33）\n982005024（x86_64，33）\n类型\n测试版\n发布时间\nXbox, Windows, iOS/iPadOS, ChromeOS/Android - 2023年11月8日\n测试版归属\n1.20.50\n下载\n服务端\nWindowsLinux\n协议版本\n630\n◄◄1.20.41\n1.20.51►►\n◄1.20.50.23\nbeta 1.20.50.24（ChromeOS/Android）、Preview 1.20.50.24（Xbox/Windows/iOS/iPadOS）是基岩版1.20.50的第5个测试版，发布于2023年11月8日，修复了一些漏洞。\n更改\n常规\nRealms\n现在即使未运行游戏，玩家也可以通过使用链接来直接进入Realm。\n示例链接：minecraft://connectToRealm?realmId=<Realm ID号>。\n修复\n图形\n修复了盔甲纹饰不会正确渲染的问题。（MCPE-176399）\n物品\n修复了有时会在加载带有自定义物品时发生的崩溃。\n参考\nMinecraft Beta & Preview - 1.20.50.24 — Minecraft Feedback，2023年11月8日。\n导航"
+}

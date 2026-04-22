@@ -1,0 +1,26 @@
+{
+  "title": "物品堆叠组件/attribute modifiers",
+  "source_url": "https://zh.minecraft.wiki/w/%E7%89%A9%E5%93%81%E5%A0%86%E5%8F%A0%E7%BB%84%E4%BB%B6%2Fattribute_modifiers",
+  "structured_content": {
+    "默认分类": [
+      "此模板已被弃用，因历史使用而保留。",
+      "请使用编码格式/DataComponent代替。"
+    ],
+    "attribute_modifiers 物品堆叠组件": [
+      "：单个属性修饰符。"
+    ],
+    "*": [
+      "*id：（命名空间ID）属性修饰符的命名空间ID。",
+      "*amount：计算中修饰符调整基础值的数值。",
+      "*operation：定义修饰符对属性的基础值的运算方法。可以为add_value（Op0）、add_multiplied_base（Op1）、add_multiplied_total（Op2）。如果设置值无效，则为add_value（Op0）。",
+      "slot：（默认为any）指定修饰符产生效果的槽位。可以为mainhand（主手）、offhand（副手）、head（头盔）、chest（胸甲）、legs（护腿）、feet（靴子）、hand（双手）、armor（所有护甲）、body（身体）、saddle（鞍）和any（任何槽位）。",
+      "*type：一个属性（使用命名空间ID指定），表示属性修饰符所要修饰的属性。",
+      "*display：属性修饰符在提示框的显示方式。",
+      "*type：显示类型，枚举值见下。",
+      "当type为default时，显示此项计算后的属性修饰符值。",
+      "当type为hidden时，不显示此项属性修饰符值。",
+      "当type为override时，替换所显示的属性修饰符文本，附加字段如下：",
+      "*value：（文本组件）替换后的文本。"
+    ]
+  }
+}

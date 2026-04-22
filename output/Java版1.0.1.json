@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.0.1",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.0.1",
+  "text": "此版本的服务端目前在Minecraft启动器中不可用。\n虽然此版本的服务端存在留档，但却无法从启动器下载到。\n1.0.1\n版本\nJava版\n客户端版本\n1.0.0\n发布时间\n2011年11月24日\n下载\n服务端\n其他版本的1.0.1\nJava版Alpha\n启动器\n携带版\n教育版\nNintendo Switch版\n◄◄1.0.0\n1.1►►\n1.0.1是Java版的一次服务端更新，发布于2011年11月24日，修复了服务器中的一些漏洞。其客户端版本仍停留在1.0.0。\n目前没有证据能证明其.exe文件存在。\n修复\n修复了2个漏洞\n修复了试图登录服务器时出现的“Invalid server key”（无效的服务器秘钥）错误。\n修复了试图登录服务器时出现的“Null pointer exception”错误。\n参考\nThe minecraft_server.jar has been updated to 1.0.1, fixing the login key problem and a null pointer exception，来自@jeb_。X（曾名Twitter），2011年11月24日。\n导航"
+}

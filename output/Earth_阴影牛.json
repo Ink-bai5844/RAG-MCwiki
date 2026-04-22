@@ -1,0 +1,5 @@
+{
+  "title": "Earth:阴影牛",
+  "source_url": "https://zh.minecraft.wiki/w/Earth%3A%E9%98%B4%E5%BD%B1%E7%89%9B",
+  "text": "阴影牛\n最大生命值\n10（）\n类型\n被动型\n尺寸\n高度：1.4格\n宽度：0.9格\n实体ID\n?\n阴影牛（Umbra Cow）是羊毛牛的黑色变种，有着罕见级别的稀有度。\n获取\n阴影牛可作为罕见级别的生物在牛可点击物中获得。\n行为\n主条目：牛 § 行为\n阴影牛有着与普通牛相同的AI行为，都会漫无目的地游荡，躲避熔岩以及足以造成坠落伤害的悬崖，受到攻击后的几秒内会四处逃窜。\n掉落物\n成年阴影牛死亡时会掉落：\n0-2 皮革\n1-3 生牛肉（死于火焰伤害时为熟牛肉）\n1 黑色羊毛（若尚未重新长出羊毛则不会掉落）\n对阴影牛使用剪刀时掉落：\n1-2 黑色羊毛\n音效\n描述\n文件\n空闲时随机播放此声音\nmob.cow.say\n死亡\nmob.cow.hurt\n受伤\nmob.cow.hurt\n被挤奶\nmob.cow.milk\n行走\nmob.cow.step\n准备\nSFX_wooly_cow_prep\n摇晃脑袋\nSFX_wooly_cow_shake\n数据值\nID\n名称\n命名空间ID\n阴影牛\n?\n历史\nMinecraft Earth\n0.33.0\n加入了阴影牛。\n导航"
+}

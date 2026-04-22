@@ -1,0 +1,40 @@
+{
+  "title": "命令/enableencryption",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Fenableencryption",
+  "structured_content": {
+    "默认分类": [
+      "此条目仍需完善。",
+      "你可以帮助我们加入更多信息。",
+      "说明：缺少输出、缺少示例、缺少历史",
+      "本条目所述内容仅适用于基岩版和​教育版。"
+    ],
+    "需要的权限等级": [
+      "0"
+    ],
+    "启用作弊": [
+      "为WebSocket连接开启加密。"
+    ],
+    "用法": [
+      "此命令仅允许被玩家所连接的WebSocket端执行。",
+      "当玩家开启“需要加密的 Websocket”选项后，则连接的WebSocket服务器必须执行此命令。"
+    ],
+    "语法": [
+      "enableencryption <publicKey: string> <salt: string> [ciper_mode: EncryptionCommandCipher]"
+    ],
+    "参数": [
+      "publicKey: string：basic_string",
+      "指定WebSocket连接所使用的公钥。",
+      "salt: string：basic_string",
+      "指定用于干扰解密的盐值。",
+      "ciper_mode: EncryptionCommandCipher：enum",
+      "指定加密算法。必须为以下其中之一："
+    ],
+    "cfb": [
+      "cfb128",
+      "cfb8"
+    ],
+    "无法解析": [
+      "提供的publicKey: string错误"
+    ]
+  }
+}

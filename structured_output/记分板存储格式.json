@@ -1,0 +1,76 @@
+{
+  "title": "记分板存储格式",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%AE%B0%E5%88%86%E6%9D%BF%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F",
+  "structured_content": {
+    "默认分类": [
+      "本条目所述内容仅适用于Java版。",
+      "记分板存储文件是存档用于保存记分板与队伍数据的文件。"
+    ],
+    "存储格式": [
+      "记分板存储文件位于<存档根目录>/data/minecraft/scoreboard.dat。",
+      "记分板存储文件使用GZip压缩的NBT文件格式保存，其内部有下列NBT结构："
+    ],
+    "*": [
+      "*data：记分板存储数据。",
+      "DisplaySlots：当前各个显示位置正在显示的记分板。",
+      "<显示位置>：指定显示位置正在显示的记分板的名称。",
+      "*Objectives：当前有效的所有记分项信息。",
+      "：一个记分项。",
+      "*CriteriaName：记分项使用的准则。如果准则无效，游戏会在日志中警告Unknown scoreboard criteria <准则>, replacing with dummy，并将此记分项的准则替换为dummy。",
+      "*display_auto_update：记分项更新时，如果分数持有者的显示名称发生了变化，是否自动更新分数中分数持有者的名称。",
+      "*DisplayName：（文本组件）记分项的显示名称。",
+      "format：记分项在显示为数字时的显示模式。",
+      "*type：记分项显示模式的类型。",
+      "如果type为blank，则不显示数字。",
+      "如果type为fixed，则固定显示一个文本组件：",
+      "*value：（文本组件）要显示的文本组件。",
+      "如果type为styled，则按照一定样式显示数字：",
+      "见文本组件 § 组件样式。",
+      "*Name：记分项的名称。游戏使用此名称识别记分项。",
+      "*RenderType：记分项的显示模式。可以为integer（数字，当format存在时使用对应的显示模式）或hearts（心）。",
+      "*PlayerScores：所有分数数据。",
+      "：一项分数数据。",
+      "*display：（文本组件）分数的显示名称。",
+      "format：设置分数的显示模式。",
+      "*type：分数显示模式的类型。",
+      "如果type为blank，则不显示数字。",
+      "如果type为fixed，则固定显示一个文本组件：",
+      "*value：（文本组件）要显示的文本组件。",
+      "如果type为styled，则按照一定样式显示数字：",
+      "见文本组件 § 组件样式。",
+      "*Locked：此分数是否已经锁定。除了trigger准则外，此项都为true。如果此项为true则无法使用此分数运行/trigger。",
+      "*Name：分数持有者的名称。",
+      "*Objective：此分数使用的记分项。如果对应记分项不存在，则游戏在日志中报错Unknown objective <记分项名称> for name <分数持有者名称>, ignoring。",
+      "*Score：当前记录的分数数字。",
+      "*Teams：所有队伍的数据。",
+      "：一个队伍的数据。",
+      "*AllowFriendlyFire：表示队伍内的玩家是否可以攻击同一个队伍的玩家。不存在时游戏解析为true。",
+      "*CollisionRule：队伍内实体互相碰撞的规则。可以为always（总是进行碰撞，不存在此标签时默认）、never（不进行碰撞）、pushOtherTeams（可以与其他队伍碰撞）和pushOwnTeam（只与本队成员碰撞）。",
+      "*DeathMessageVisibility：队伍内玩家死亡消息的可见性。可以为always（总能看到，不存在此标签时默认）、never（不能看到）、hideForOtherTeams（对其他队伍隐藏）和hideForOwnTeam（对自身队伍隐藏）。",
+      "*DisplayName：（文本组件）队伍的显示名称。",
+      "*MemberNamePrefix：（文本组件）表示加在队伍内实体名称前的前缀。",
+      "*MemberNameSuffix：（文本组件）表示加在队伍内实体名称后的后缀。",
+      "*Name：队伍名称。",
+      "*NameTagVisibility：队伍内生物名称标签的可见性。可以为always（总能看到，不存在此标签时默认）、never（不能看到）、hideForOtherTeams（对其他队伍隐藏）和hideForOwnTeam（对自身队伍隐藏）。",
+      "*Players：在此队伍内的实体。",
+      "：一个实体的名称。",
+      "*SeeFriendlyInvisibles：表示队伍内的玩家是否可以看到同一队伍的隐身的实体。不存在时游戏解析为true。",
+      "TeamColor：队伍颜色。使用格式化代码中的颜色名称。",
+      "*DataVersion：保存此记分板存储文件的游戏的数据版本。"
+    ],
+    "存储行为": [
+      "记分板存储文件在每个存档中都存在，即使本存档没有任何记分板相关的操作（加入、删除记分项，加入队伍等）。"
+    ],
+    "Java版": [
+      "1.18",
+      "21w37a",
+      "记分项、分数持有者和队伍的名称不再截断至16个字符。",
+      "1.20.3",
+      "23w46a",
+      "为记分板存储格式内添加了display_auto_update和format。",
+      "26.1",
+      "snapshot-6",
+      "将记分板数据从<存档根目录>/data/scoreboard.dat移动到<存档根目录>/data/minecraft/scoreboard.dat，且现在即使没有任何记分板也会被创建。"
+    ]
+  }
+}

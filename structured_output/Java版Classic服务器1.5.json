@@ -1,0 +1,56 @@
+{
+  "title": "Java版Classic服务器1.5",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic%E6%9C%8D%E5%8A%A1%E5%99%A81.5",
+  "structured_content": {
+    "默认分类": [
+      "此版本的服务端目前已丢失。",
+      "虽然此版本的服务端可证明存在，但却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "1.5"
+    ],
+    "客户端版本": [
+      "0.0.19a"
+    ],
+    "发布时间": [
+      "2009年6月20日"
+    ],
+    "协议版本": [
+      "5, 6",
+      "其他版本的1.5"
+    ],
+    "基岩版": [
+      "New Nintendo 3DS版"
+    ],
+    "Minecraft Dungeons": [
+      "◄◄1.4",
+      "1.6►►",
+      "◄1.4.1",
+      "1.5是Classic服务器的一次更新，发布于2009年6月20日。"
+    ],
+    "聊天": [
+      "加入了聊天冷却。",
+      "在聊天栏中刷屏的玩家会被禁言，持续8秒。"
+    ],
+    "常规": [
+      "加入了移动冷却。",
+      "服务器每一刻只会处理不超过一次移动命令。",
+      "站着不动可以在客户端滞后时更新。",
+      "允许玩家通过stdin发送大多数的管理员命令。"
+    ],
+    "其他": [
+      "在server.properties中加入max-connections。",
+      "这个数字代表每个IP到这个服务器的连接的最大数量。",
+      "默认值为3。"
+    ],
+    "重新上传": [
+      "该版本于13:01（UTC）被第一次重新上传，原因未知。",
+      "该版本于22:35（UTC）被第二次重新上传，以更改协议版本。"
+    ],
+    "参考": [
+      "IRC记录 on Archive.org; #minecraft.20090619.log. 2009年6月19日 (UTC−5)。",
+      "IRC记录: \"P6:00:57 <AlLnAtuRalX> server software on website is 1.5\" (2009年6月20日 23:00:57 UTC)",
+      "Client 0.0.19a is up, a server update is required（存档） — The Word of Notch，2009年6月20日。",
+      "IRC记录: \"P6:00:57 <AlLnAtuRalX> server software on website is 1.5\" [...] \"P6:01:49 <AlLnAtuRalX> Someone answer me... Why is the server ont he website 1.5?\" [...] \"P6:02:22 <AlLnAtuRalX> Notch: the server on teh website I am seeing as the old one\" [...] \"P6:02:33 <Notch> i didn't update the version number in it\" (23:00至23:02 UTC)"
+    ]
+  }
+}

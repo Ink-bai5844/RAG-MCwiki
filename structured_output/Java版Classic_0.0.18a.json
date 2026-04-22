@@ -1,0 +1,41 @@
+{
+  "title": "Java版Classic 0.0.18a",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%88Classic_0.0.18a",
+  "structured_content": {
+    "默认分类": [
+      "此版本的客户端目前已丢失。",
+      "虽然此版本的服务端有留档，但对应的客户端却无法从Minecraft启动器或别处下载到。",
+      "如果您有留档，请于讨论页提出。",
+      "此版本的服务端目前在Minecraft启动器中不可用。",
+      "虽然此版本的服务端存在留档，但却无法从启动器下载到。",
+      "0.0.18a"
+    ],
+    "服务端版本": [
+      "1.4"
+    ],
+    "发布时间": [
+      "2009年6月13日"
+    ],
+    "al_version": [
+      "6.06",
+      "◄◄0.0.17a",
+      "0.0.19a►►",
+      "0.0.18a_01►",
+      "0.0.18a是Java版的一次更新，发布于2009年6月13日，加入了/teleport命令和自定义皮肤。"
+    ],
+    "皮肤": [
+      "加入了自定义皮肤的功能。"
+    ],
+    "/teleport": [
+      "用于传送玩家到其他玩家所在位置。"
+    ],
+    "参考": [
+      "6月13日的IRC日志：IRC日志 on Archive.org; #minecraft.20090613.log. 2009年6月13日（UTC−5）。",
+      "6月14日的IRC日志：IRC日志 on Archive.org; #minecraft.20090614.log. 2009年6月14日（UTC−5）。",
+      "6月13日的IRC日志: \"P4:59:57 * Notch changes topic to 'http://www.minecraft.net/ | http://www.minecraft.net/skin/ | Client 0.0.18a is up with skin support'\" (21:59:57 UTC)",
+      "6月13日的IRC日志：P5:03:05 <Notch> only paying customers can upload new skins",
+      "6月14日的IRC日志：“A5:57:41 <Notch> there is a teleport command in the new server. =)”、“A5:57:48 <Notch> /teleport <name>”（10:57 UTC）",
+      "6月13日的IRC日志：“A8:31:14 <checkers> does it need a new client?”、“A8:31:22 <Notch> no”、“A8:31:32 <Notch> well, the /teleport command does, so you can't use that yet”（13:31 UTC）"
+    ]
+  }
+}

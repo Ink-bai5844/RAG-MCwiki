@@ -1,0 +1,193 @@
+{
+  "title": "幽匿感测体/振动频率/1.20前",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%B9%BD%E5%8C%BF%E6%84%9F%E6%B5%8B%E4%BD%93%2F%E6%8C%AF%E5%8A%A8%E9%A2%91%E7%8E%87%2F1.20%E5%89%8D",
+  "structured_content": {
+    "描述": [
+      "1"
+    ],
+    "脚步": [
+      "minecraft:step"
+    ],
+    "实体行走": [
+      "2"
+    ],
+    "拍打": [
+      "minecraft:flap"
+    ],
+    "物品互动结束": [
+      "minecraft:item_interact_finish"
+    ],
+    "玩家收回钓鱼竿": [
+      "3"
+    ],
+    "游泳": [
+      "minecraft:swim"
+    ],
+    "实体游泳": [
+      "4"
+    ],
+    "鞘翅滑翔": [
+      "minecraft:elytra_glide"
+    ],
+    "用鞘翅滑翔": [
+      "5"
+    ],
+    "落地": [
+      "minecraft:hit_ground"
+    ],
+    "传送": [
+      "minecraft:teleport"
+    ],
+    "实体被传送": [
+      "6"
+    ],
+    "方块变化": [
+      "minecraft:block_change"
+    ],
+    "离开坐骑[仅Java版]": [
+      "minecraft:entity_dismount"
+    ],
+    "实体抖动": [
+      "minecraft:entity_shaking"
+    ],
+    "奏响音符盒": [
+      "minecraft:note_block_play"
+    ],
+    "溅起水花": [
+      "minecraft:splash"
+    ],
+    "实体浮出水面、船受到气泡柱的冲击、划桨声": [
+      "7"
+    ],
+    "饮用": [
+      "minecraft:drink"
+    ],
+    "骑上坐骑[仅Java版]": [
+      "minecraft:entity_mount"
+    ],
+    "引爆": [
+      "minecraft:prime_fuse"
+    ],
+    "弹射物发射": [
+      "minecraft:projectile_shoot"
+    ],
+    "射出弹射物": [
+      "8"
+    ],
+    "进食": [
+      "minecraft:eat"
+    ],
+    "实体受伤": [
+      "minecraft:entity_damage"
+    ],
+    "实体互动": [
+      "minecraft:entity_interact"
+    ],
+    "弹射物击中": [
+      "minecraft:projectile_land"
+    ],
+    "弹射物击中某物": [
+      "9"
+    ],
+    "实体咆哮": [
+      "minecraft:entity_roar"
+    ],
+    "装备": [
+      "minecraft:equip"
+    ],
+    "剪切": [
+      "minecraft:shear"
+    ],
+    "用剪刀剪断绊线、雕刻南瓜、收获蜜脾、移除雪傀儡的头、给绵羊剪毛以及为哞菇除菇": [
+      "10"
+    ],
+    "关闭方块": [
+      "minecraft:block_close"
+    ],
+    "方块取消激活": [
+      "minecraft:block_deactivate"
+    ],
+    "分离方块": [
+      "minecraft:block_detach"
+    ],
+    "发射失败": [
+      "minecraft:dispense_fail"
+    ],
+    "发射器发射失败，此音效侦测并不适用于投掷器": [
+      "11"
+    ],
+    "激活方块": [
+      "minecraft:block_activate"
+    ],
+    "连接方块": [
+      "minecraft:block_attach"
+    ],
+    "打开方块": [
+      "minecraft:block_open"
+    ],
+    "打开门、活板门或栅栏门": [
+      "12"
+    ],
+    "放置方块": [
+      "minecraft:block_place"
+    ],
+    "放置实体": [
+      "minecraft:entity_place"
+    ],
+    "放置液体": [
+      "minecraft:fluid_place"
+    ],
+    "炼药锅里增加一个液体等级（天气或滴水石锥皆可触发）、用桶倒出液体，不包含放置细雪": [
+      "13"
+    ],
+    "破坏方块": [
+      "minecraft:block_destroy"
+    ],
+    "实体死亡": [
+      "minecraft:entity_die"
+    ],
+    "装起液体": [
+      "minecraft:fluid_pickup"
+    ],
+    "用玻璃瓶收集水、蜂蜜或龙息、用桶收集液体或细雪以及将液体从炼药锅中移除": [
+      "14"
+    ],
+    "关闭容器": [
+      "minecraft:container_close"
+    ],
+    "活塞缩回": [
+      "minecraft:piston_contract"
+    ],
+    "活塞收回": [
+      "15"
+    ],
+    "打开容器": [
+      "minecraft:container_open"
+    ],
+    "爆炸": [
+      "minecraft:explode"
+    ],
+    "奏响乐器": [
+      "minecraft:instrument_play"
+    ],
+    "雷击": [
+      "minecraft:lightning_strike"
+    ],
+    "活塞伸出": [
+      "minecraft:piston_extend",
+      "潜行时会被忽略。",
+      "行走在羊毛上时会被忽略。",
+      "扔出羊毛会被忽略。",
+      "对发射器也有效。",
+      "在Java版中，幽匿感测体不会区分浮漂钓到鱼和其他会导致溅起水花发出的振动，这是开发者有意为之的，见MC-207334。",
+      "饮奶不会产生信号，而饮用蜂蜜、食用碗装食物会触发进食事件。见MC-213937。",
+      "与蜂蜜瓶和碗装食物的互动会触发此事件。",
+      "这包含使用打火石或火焰弹点火，以及由末影人或发射器放置方块。",
+      "使用鱼桶繁殖美西螈并不会产生此信号，这是开发者有意为之的。",
+      "有玩家汇报，无论是在炼药锅内外，用液体替换液体不会激活此信号，但此特性在目前版本中无法重现，见MC-213965。",
+      "这不包含被流动的水破坏的方块（MC-207410），不包含因其附着方块被移除而被破坏的红石线、红石中继器、红石比较器或任意种类的铁轨（MC-207411），也不包含吃下最后一块蛋糕（MC-213968）。",
+      "关闭运输矿车[仅BE]或漏斗不会激活此事件。见MC-210707",
+      "MC-213950"
+    ]
+  }
+}

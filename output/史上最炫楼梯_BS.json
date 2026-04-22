@@ -1,0 +1,5 @@
+{
+  "title": "史上最炫楼梯/BS",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%8F%B2%E4%B8%8A%E6%9C%80%E7%82%AB%E6%A5%BC%E6%A2%AF%2FBS",
+  "text": "名称\n默认值\n接受值\n描述\nfacing\nnorth\nsouth\neast\nwest\n楼梯整格面的朝向。\n当被玩家放置时，与玩家的朝向相同。\nhalf\nbottom\ntop\nbottom\n如果楼梯是上下颠倒的则为top。\nshape\nstraight\ninner_left\ninner_right\nouter_left\nouter_right\n“straight”是默认的楼梯形状。\n“inner”是“内角”楼梯形状，包括了2个整格和2个楼梯形的面。\n“outer”是“外角”楼梯形状，包括了2个楼梯形和2个半格的面。\n“left”和“right”指定了高的那一部分的方向。\nwaterlogged\nfalse\ntrue\nfalse\n楼梯是否含水。"
+}

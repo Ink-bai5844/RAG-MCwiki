@@ -1,0 +1,5 @@
+{
+  "title": "辅助程序与编辑器/物品栏修改器",
+  "source_url": "https://zh.minecraft.wiki/w/%E8%BE%85%E5%8A%A9%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%BC%96%E8%BE%91%E5%99%A8%2F%E7%89%A9%E5%93%81%E6%A0%8F%E4%BF%AE%E6%94%B9%E5%99%A8",
+  "text": "该页面的内容不代表Mojang Studios或Minecraft Wiki的官方意见。\n名称\n描述\n日期\n版本\n平台\n链接\n兼容的版本\n是否提供源代码\n程序设计语言\n作者\nINVedit\nNBTedit的分支，历经多次转手。当前已知最新版本为2.0，但实际开发者在游玩Minecraft 1.7.x世界时似乎遇到了问题。\n2014-01-25\n2.0\n论坛\n1.8.1\n是，仅旧版本\nC#\nRetroundmike\nInside Job\nMac OS X平台上INVedit的替代品，存在部分物品显示未知、缩略图与游戏内不符的问题。\n2011-03-27\n0.11.1\n论坛\n网站\n1.2.5\n是\nObjective-C\nAdam Preble\nMinecraft Pocket Edition World Inventory Editor\n适用于iOS和Android携带版，以及Windows、Mac、Linux平台的物品栏编辑器。\n2012-08-11\n0.1\n网站\n携带版0.3.3\n否\nJava\nslugrail\nPocketInveditor\n针对携带版0.14.0的物品栏编辑器。\n2014-01-25\n1.17.6\n携带版0.14.0\n否\nJava\nzhuowei zhang\nUniversal Minecraft Editor\n可编辑任何Minecraft平台的物品栏，截至2018年3月2日，是唯一支持新添加的长阵列NBT标签的NBT编辑器。\n2016-06-16\n1.2.6\n网站\n所有版本\n否\nC++\noPryzeLP"
+}

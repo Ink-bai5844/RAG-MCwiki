@@ -1,0 +1,5 @@
+{
+  "title": "毒马铃薯鞘翅",
+  "source_url": "https://zh.minecraft.wiki/w/%E6%AF%92%E9%A9%AC%E9%93%83%E8%96%AF%E9%9E%98%E7%BF%85",
+  "text": "此条目描述的是一个愚人节玩笑版本24w14potato中的特性。\n此部分特性仅存在于该愚人节版本中，目前不计划添加到Minecraft的常规版本。\n请注意：该特性的本地化名称以愚人节翻译包为准，原版游戏内的相关内容显示为英文。\n毒马铃薯鞘翅\n[[|]][[|]]\n稀有度\nPotato\n创造标签页（JE）\n工具与实用物品、马铃薯（Potatoes）\n最大耐久度\n432\n最大堆叠\n1\n可再生\n是\n物品ID\npoisonous_polytra\n毒马铃薯鞘翅（Poisonous Polytra）是由毒马铃薯合成的鞘翅，具有不同的外观。\n获取\n合成\n材料\n合成配方\n幻翼膜 +\n毒马铃薯\n[[|]][[|]][[|]][[|]][[|]]\n[[|]]\n用途\n主条目：鞘翅 § 用途\n与鞘翅效果相同。仅剩1点耐久度时使用鞘翅的损坏纹理。\n音效\n字幕\n分类\n描述\n命名空间ID\n本地化键名\n鞘翅：沙沙作响\n玩家\n装备毒马铃薯鞘翅\nitem.armor.equip_elytra\nsubtitles.item.armor.equip_elytra\n无\n玩家\n滑翔时的循环音效\nitem.elytra.flying\n无\nMC-94060\nMC-177084\n数据值\nID\n名称\n命名空间ID\n物品标签（JE）\n本地化键名\nPoisonous Polytra\npoisonous_polytra\nenchantable/durability\nenchantable/equippable\nenchantable/vanishing\nitem.minecraft.poisonous_polytra\n画廊\n一个玩家穿着毒马铃薯鞘翅\n导航"
+}

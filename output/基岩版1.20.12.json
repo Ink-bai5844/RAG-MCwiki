@@ -1,0 +1,5 @@
+{
+  "title": "基岩版1.20.12",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%9F%BA%E5%B2%A9%E7%89%881.20.12",
+  "text": "1.20.12\n版本\n基岩版\n服务端版本\n1.20.12.01\n内部版本号\nAndroid：1.20.12.01\nPlayStation：2.69\nWindows：1.20.1201.0\n版本码\nAndroid：\n952001201（armeabi-v7a，33）\n962001201（x86，33）\n972001201（arm64-v8a，33）\n982001201（x86_64，33）\niOS/iPadOS：\n858523079\n发布时间\nChromeOS/Android, iOS/iPadOS, PlayStation, Windows, Xbox - 2023年7月18日\nFire, Nintendo Switch - 2023年7月19日\n下载\n服务端\nWindowsLinux\n协议版本\n594\n◄◄1.20.0\n1.20.50►►\n◄1.20.10\n1.20.13►\n1.20.12是基岩版的一次热修复更新，发布于2023年7月18日至19日，修复了一些漏洞。此版本与1.20.10和1.20.11相互兼容。\n修复\n修复了启用1.20.10版本的资源包时发生的崩溃。\n修复了iOS平台上可能发生的崩溃。\n修复了“弃用连接已关闭”错误相关的连接稳定性问题。\n参考\nMinecraft - 1.20.12 (Bedrock) — Minecraft Feedback，2023年7月18日。\n导航"
+}

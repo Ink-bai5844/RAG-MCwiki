@@ -1,0 +1,60 @@
+{
+  "title": "命令/transfer",
+  "source_url": "https://zh.minecraft.wiki/w/%E5%91%BD%E4%BB%A4%2Ftransfer",
+  "structured_content": {
+    "默认分类": [
+      "关于基岩版中已移除的具有相同功能的命令，请见“命令/transferserver”；关于教育版中已移除的同名命令，请见“命令/transfer（教育版）”。"
+    ],
+    "需要的权限等级": [
+      "Java版：3",
+      "基岩版：4"
+    ],
+    "仅专用服务端": [
+      "将玩家转移到另一个服务器上。",
+      "在Java版中，此命令只会发出转移请求，能否转移成功取决于目标服务器是否接受转移登录，即服务端配置文件中accepts-transfers属性是否设置为true。"
+    ],
+    "Java版": [
+      "1.20.5",
+      "24w04a",
+      "加入了/transfer。"
+    ],
+    "基岩版": [
+      "transfer <pfidOrMSA: string> <server: string> <port: int>",
+      "1.20.30",
+      "1.20.30.22",
+      "加入了/transfer。"
+    ],
+    "参数": [
+      "BE：pfidOrMSA: string：basic_string",
+      "要转移的玩家，可以为Microsoft账户名称（玩家名），或PlayFab ID（当玩家加入或断开与服务器的连接时显示）。",
+      "必须为字符串。必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "JE：<hostname>：string",
+      "BE：server: string：basic_string",
+      "要连接到的服务器的主机名。",
+      "必须为字符串。在Java版中，必须为单个词或者引号括起的字符串。单个词允许的字符包括：-、+、.、_、A-Z、a-z、0-9。引号可用'或\"，引号内的引号与\\前须加上转义字符\\。在基岩版中，必须为单个词或者双引号（\"）括起的字符串。引号内的字符可以使用\\进行转义。",
+      "JE：<port>：integer",
+      "BE：port: int：int",
+      "要连接到的服务器的端口编号。在Java版中，若省略则为25565。",
+      "必须为32位整数。在Java版中，必须在1和65535之间（含）。在基岩版中，应在0和65535之间（含）。",
+      "JE：<players>：entity",
+      "要转移的玩家，若省略则为执行者玩家。",
+      "必须为玩家名、目标选择器或UUID。且要求目标选择器为玩家类型，若不是则此命令将无法解析。"
+    ],
+    "执行失败": [
+      "端口小于0或大于65535",
+      "0"
+    ],
+    "N/A": [
+      "<players>无法选中至少1个玩家"
+    ],
+    "执行成功": [
+      "1",
+      "1"
+    ],
+    "示例": [
+      "在Java版中，将自己转移到服务器localhost的1630端口上：/transfer localhost 1630。",
+      "在Java版中，将Steve转移到服务器minecraft.server.example:25565：/transfer minecraft.server.example 25565 Steve。",
+      "在基岩版中，将Steve转移到服务器minecraft.server.example:19132：/transfer Steve minecraft.server.example 19132"
+    ]
+  }
+}

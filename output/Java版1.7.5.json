@@ -1,0 +1,5 @@
+{
+  "title": "Java版1.7.5",
+  "source_url": "https://zh.minecraft.wiki/w/Java%E7%89%881.7.5",
+  "text": "1.7.5\n版本\nJava版\n发布时间\n2014年2月26日\n下载\n原始版本\n客户端（.json）\n服务端（.exe）\n重新上传\n服务端（.exe）\n协议版本\n4\n资源包版本\n1\n◄◄1.7.2\n1.8►►\n◄1.7.4\n1.7.6►\n1.7.5是Java版的一次次要更新，发布于2014年2月26日，是一次关于Realms的更新。此版本兼容1.7.2到1.7.4的服务端。\n更改\n常规\nRealms\n主菜单按钮仅在玩家支持此版本的情况下出现。\n管理员可以暂时将Realms改为小游戏服务器。\n添加在首选世界切换小游戏的功能。\n小游戏从下列列表选择：\nCake Defense 2（《蛋糕防御2》），由FVDisco制作\nBlocks vs. Zombies（《方块大战僵尸》），由Sethbling制作\nThe Walls（《壁垒》），由Hypixel制作\nAutospleef（《自动掘一死战》），由Sethbling制作\nDash of Doom（《末日冲刺》），由Dragnoz制作\n准备将Realms扩展到其他国家。\n服务器\n对服务端的数个性能优化。\n修复\n修复了3个漏洞\n1.7.4的漏洞\nMC-42174 — 鸡骑士会在多人游戏服务器上造成延迟。\nMC-46329 — Realms的玩家数统计不再更新。\nMC-47857 — Realms里备份界面中的“否”按钮不工作。\n重新上传\n该版本的服务端于4月1日06:57（UTC）被重新上传，原因未知。\n开发者版本\n主条目：Java版1.7.5-wip\n1.7.5-wip是Java版1.7.5的开发测试版本，它出现于2014年2月18日官方的一个YouTube视频中。\n参考\nMinecraft 1.7.5 and Realms to Nordic Countries（存档），来自Jens Bergensten。Mojang.com，2014年2月25日。\nMini Games on Minecraft Realms (work in progress)，来自Minecraft。YouTube，2014年2月18日。\n导航"
+}
