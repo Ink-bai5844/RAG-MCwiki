@@ -39,6 +39,11 @@
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows 使用 venv\Scripts\activate
+
+# 推荐：先安装带 GPU 加速的 PyTorch (如果你的电脑有 NVIDIA 显卡)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# 安装其他核心依赖
 pip install -r requirements.txt
 ```
 
