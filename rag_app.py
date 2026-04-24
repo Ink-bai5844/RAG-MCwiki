@@ -1,5 +1,9 @@
 import os
 import json
+import shutil
+import sqlite3
+import time
+import hashlib
 import streamlit as st
 import jieba
 from langchain_core.documents import Document 
@@ -7,60 +11,217 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
-from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
 st.set_page_config(page_title="Minecraft Wiki 知识库助手", page_icon="⛏️", layout="wide")
 
-# 向量库与检索器初始化
-@st.cache_resource(show_spinner=False)
-def init_retriever():
+def _log_backend_progress(message: str):
+    now = time.strftime("%H:%M:%S")
+    print(f"[{now}] [RAG INIT] {message}", flush=True)
+
+
+def _vector_state_path(persist_dir: str) -> str:
+    return os.path.join(persist_dir, "build_state.json")
+
+
+def _compute_data_signature(folder_path: str) -> str:
+    if not os.path.isdir(folder_path):
+        return ""
+
+    hasher = hashlib.sha256()
+    json_files = sorted(f for f in os.listdir(folder_path) if f.endswith(".json"))
+    for filename in json_files:
+        file_path = os.path.join(folder_path, filename)
+        try:
+            stat = os.stat(file_path)
+        except OSError:
+            continue
+        hasher.update(filename.encode("utf-8"))
+        hasher.update(str(stat.st_size).encode("ascii"))
+        hasher.update(str(stat.st_mtime_ns).encode("ascii"))
+
+    return hasher.hexdigest()
+
+
+def _load_vector_state(persist_dir: str) -> dict:
+    state_path = _vector_state_path(persist_dir)
+    if not os.path.isfile(state_path):
+        return {}
+
+    try:
+        with open(state_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def _save_vector_state(persist_dir: str, state: dict):
+    os.makedirs(persist_dir, exist_ok=True)
+    state_path = _vector_state_path(persist_dir)
+    tmp_path = f"{state_path}.tmp"
+    payload = dict(state)
+    payload["updated_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_path, state_path)
+
+
+def _as_nonnegative_int(value, default=0) -> int:
+    try:
+        number = int(value)
+        return number if number >= 0 else default
+    except (TypeError, ValueError):
+        return default
+
+
+def _is_vectorstore_ready(persist_dir: str, data_signature: str) -> bool:
+    if not os.path.isdir(persist_dir):
+        return False
+
+    state = _load_vector_state(persist_dir)
+    if not state:
+        return False
+    if state.get("status") != "complete":
+        return False
+    if state.get("data_signature") != data_signature:
+        return False
+
+    sqlite_path = os.path.join(persist_dir, "chroma.sqlite3")
+    if not os.path.isfile(sqlite_path):
+        return False
+    try:
+        with sqlite3.connect(sqlite_path) as conn:
+            row = conn.execute("SELECT COUNT(*) FROM embeddings").fetchone()
+        return bool(row and row[0] > 0)
+    except Exception:
+        return False
+
+
+# 向量库与检索器初始化（含前后端进度提示）
+def init_retriever(progress_callback=None):
+    def report(progress: float, text: str):
+        _log_backend_progress(text)
+        if progress_callback:
+            progress_callback(progress, text)
+
     def load_data(folder_path):
         documents = []
         if not os.path.exists(folder_path):
             return documents
-            
-        for filename in os.listdir(folder_path):
+
+        json_files = sorted(f for f in os.listdir(folder_path) if f.endswith(".json"))
+        total_files = len(json_files)
+        for idx, filename in enumerate(json_files, start=1):
+            if idx == 1 or idx % 200 == 0 or idx == total_files:
+                report(0.05 + 0.35 * (idx / max(total_files, 1)), f"加载知识文件: {idx}/{total_files}")
+
             if filename.endswith('.json'):
                 filepath = os.path.join(folder_path, filename)
                 with open(filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    
-                    content_lines = []
-                    
-                    if 'structured_content' in data:
-                        for section_title, text_list in data['structured_content'].items():
-                            content_lines.append(f"### {section_title} ###")
-                            for text_item in text_list:
-                                if text_item.strip():  
-                                    content_lines.append(text_item)
-                            content_lines.append("") 
-                    else:
-                        content_lines.append(data.get('text', ''))
-                        
-                    full_text = "\n".join(content_lines)
-                    
-                    doc = Document(
-                        page_content=full_text,
-                        metadata={
-                            'title': data.get('title', '未知标题'),
-                            'source_url': data.get('source_url', '')
-                        }
-                    )
-                    documents.append(doc)
+
+                content_lines = []
+
+                if 'structured_content' in data:
+                    for section_title, text_list in data['structured_content'].items():
+                        content_lines.append(f"### {section_title} ###")
+                        for text_item in text_list:
+                            if text_item.strip():
+                                content_lines.append(text_item)
+                        content_lines.append("")
+                else:
+                    content_lines.append(data.get('text', ''))
+
+                full_text = "\n".join(content_lines)
+
+                doc = Document(
+                    page_content=full_text,
+                    metadata={
+                        'title': data.get('title', '未知标题'),
+                        'source_url': data.get('source_url', '')
+                    }
+                )
+                documents.append(doc)
         return documents
 
+    report(0.02, "初始化 Embedding 模型...")
     embeddings = HuggingFaceEmbeddings(model_name="shibing624/text2vec-base-chinese")
     persist_dir = "./chroma_db"
+    data_dir = "./structured_output"
+    data_signature = _compute_data_signature(data_dir)
 
-    if os.path.exists(persist_dir) and os.listdir(persist_dir):
+    if _is_vectorstore_ready(persist_dir, data_signature):
+        report(0.30, "检测到已存在向量库，正在连接...")
         vectorstore = Chroma(persist_directory=persist_dir, embedding_function=embeddings)
     else:
-        docs = load_data('./structured_output') 
+        report(0.35, "开始加载结构化知识文件...")
+        docs = load_data(data_dir)
+        if not docs:
+            raise RuntimeError("structured_output 目录为空或不存在，无法构建向量库。")
+
+        report(0.45, f"知识文件加载完成，共 {len(docs)} 篇文档，开始切分...")
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
         splits = text_splitter.split_documents(docs)
-        vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings, persist_directory=persist_dir)
+        total_splits = len(splits)
+        report(0.55, f"文档切分完成，共 {total_splits} 个片段，开始写入向量库...")
 
+        existing_state = _load_vector_state(persist_dir)
+        has_sqlite = os.path.isfile(os.path.join(persist_dir, "chroma.sqlite3"))
+        can_resume = (
+            bool(existing_state)
+            and has_sqlite
+            and existing_state.get("status") == "building"
+            and existing_state.get("data_signature") == data_signature
+            and _as_nonnegative_int(existing_state.get("total_splits"), -1) == total_splits
+        )
+
+        if can_resume:
+            completed_splits = _as_nonnegative_int(existing_state.get("completed_splits"), 0)
+            completed_splits = min(completed_splits, total_splits)
+            report(
+                0.55 + 0.40 * (completed_splits / max(total_splits, 1)),
+                f"检测到中断记录，正在断点续建: {completed_splits}/{total_splits}",
+            )
+            build_state = {
+                "status": "building",
+                "data_signature": data_signature,
+                "total_splits": total_splits,
+                "completed_splits": completed_splits,
+            }
+        else:
+            if os.path.exists(persist_dir):
+                report(0.30, "检测到未完成/过期向量库，正在清理后重建...")
+                shutil.rmtree(persist_dir, ignore_errors=True)
+            completed_splits = 0
+            build_state = {
+                "status": "building",
+                "data_signature": data_signature,
+                "total_splits": total_splits,
+                "completed_splits": 0,
+            }
+            _save_vector_state(persist_dir, build_state)
+
+        vectorstore = Chroma(persist_directory=persist_dir, embedding_function=embeddings)
+        batch_size = 128
+        for start in range(completed_splits, total_splits, batch_size):
+            batch = splits[start:start + batch_size]
+            vectorstore.add_documents(batch)
+            done = min(start + batch_size, total_splits)
+            build_state["completed_splits"] = done
+            _save_vector_state(persist_dir, build_state)
+            report(0.55 + 0.40 * (done / max(total_splits, 1)), f"向量入库进度: {done}/{total_splits}")
+
+        if hasattr(vectorstore, "persist"):
+            vectorstore.persist()
+
+        build_state["status"] = "complete"
+        build_state["completed_splits"] = total_splits
+        _save_vector_state(persist_dir, build_state)
+
+    report(1.0, "向量库初始化完成。")
     return vectorstore.as_retriever(search_kwargs={"k": 3})
 
 # 动态创建 QA 链
