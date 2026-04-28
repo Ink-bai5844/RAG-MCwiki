@@ -6,5 +6,9 @@
 /mc_wiki_archive.jsonl
 /progress_state.json
 /test_hf.py
-__pycache__/rag_app.cpython-314.pyc
+/__pycache__
 rag_app1.py
+all_in_dataset.py
+old.zip
+original_dataset.json
+structured_dataset.json

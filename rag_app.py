@@ -240,7 +240,14 @@ def init_retriever(retrieval_k=3):
         return documents
 
     report(0.02, "初始化 Embedding 模型 (首次运行需下载模型数据，请务必查看终端获取实时下载进度条)...")
-    embeddings = HuggingFaceEmbeddings(model_name="Qwen/Qwen3-Embedding-0.6B", encode_kwargs={"normalize_embeddings": True})
+    embeddings = HuggingFaceEmbeddings(
+        model_name="Qwen/Qwen3-Embedding-0.6B",
+        model_kwargs={"device": "cuda"},
+        encode_kwargs={
+            "normalize_embeddings": True,
+            "batch_size": 32,
+        },
+    )
     persist_dir = "./chroma_db"
     data_dir = "./structured_output"
     data_signature = _compute_data_signature(data_dir)
@@ -297,7 +304,7 @@ def init_retriever(retrieval_k=3):
             _save_vector_state(persist_dir, build_state)
 
         vectorstore = Chroma(persist_directory=persist_dir, embedding_function=embeddings)
-        batch_size = 128
+        batch_size = 512
         for start in range(completed_splits, total_splits, batch_size):
             batch = splits[start:start + batch_size]
             vectorstore.add_documents(batch)
